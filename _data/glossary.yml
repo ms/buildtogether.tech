@@ -1,0 +1,944 @@
+- key: 90_9_1_rule
+  en:
+    term: "90-9-1 rule"
+    def: >
+      90% of people will watch, 9% will speak up, and 1% will actually do things.
+
+- key: active_listening
+  en:
+    term: "active listening"
+    def: >
+      FIXME
+
+- key: actor
+  en:
+    term: "actor"
+    def: >
+      FIXME
+
+- key: ae
+  en:
+    term: "analysis & estimation"
+    def: >
+      FIXME
+
+- key: aih
+  en:
+    term: "already invented here syndrome"
+    def: >
+      FIXME.
+  ref:
+    - nih
+
+- key: ally
+  en:
+    term: "ally"
+    def: >
+      Someone who actively promotes and supports inclusivity.
+
+- key: alpha_geek
+  en:
+    term: "alpha geek"
+    def: >
+      FIXME
+
+- key: analysis_paralysis
+  en:
+    term: "analysis paralysis"
+    def: >
+      FIXME
+
+- key: auto_completion
+  en:
+    term: "auto-completion"
+    def: >
+      A technique implemented by many interactive text interfaces that completes a
+      command, variable name, filename, or other text when the tab key is pressed.
+
+- key: base_class
+  en:
+    term: "base class"
+    def: >
+      In object-oriented programming, a class from which other classes are
+      derived.
+
+- key: big_bang
+  en:
+    term: "big-bang integration"
+    def: >
+      FIXME
+
+- key: branch_git
+  en:
+    term: "branch (in Git)"
+    def: >
+      A snapshot of a version of a [repository](#repository).  Multiple branches
+      can capture multiple versions of the same repository.
+
+- key: branch_per_feature_workflow
+  en:
+    term: "branch-per-feature workflow"
+    def: >
+      A common strategy for managing work with version control systems in which a
+      separate [branch](#branch_git) is created for work on each new feature or
+      each bug fix and merged when that work is completed.
+
+- key: bsd_license
+  en:
+    term: "BSD license"
+    def: >
+      FIXME
+
+- key: build_manager
+  en:
+    term: "build manager"
+    def: >
+      A program that keeps track of how files depend on one another and runs commands
+      to update any files that are out-of-date.
+
+- key: business_rule
+  en:
+    term: "business rule"
+    def: >
+      FIXME
+
+- key: byte_code
+  en:
+    term: "byte code"
+    def: >
+      FIXME
+
+- key: cc0
+  en:
+    term: "CC0"
+    def: >
+      FIXME
+
+- key: cc_by
+  en:
+    term: "CC-BY"
+    def: >
+      FIXME
+
+- key: centralized_system
+  en:
+    term: "centralized system"
+    def: >
+      FIXME
+
+- key: chaotic_decomposition
+  en:
+    term: "chaotic decomposition"
+    def: >
+      FIXME
+
+- key: chunking
+  en:
+    term: "chunking"
+    def: >
+      The act of grouping related concepts together so that they can be stored and
+      processed as a single unit.
+
+- key: ci
+  en:
+    term: "continuous integration"
+    def: >
+      A system that merges and tests changes automatically as soon as they become
+      available, typically in a temporary copy of the project.
+
+- key: clone_git
+  en:
+    term: "clone (in Git)"
+    def: >
+      A copy of a [repository](#repository) or the act of making a copy of a
+      repository.
+
+- key: code_browser
+  en:
+    term: "code browser"
+    def: >
+      FIXME
+
+- key: code_review
+  en:
+    term: "code review"
+    def: >
+      FIXME
+
+- key: cognitive_load
+  en:
+    term: "cognitive load"
+    def: >
+      The mental effort needed to solve a problem.  Cognitive load theory divides
+      this into [intrinsic](#intrinsic_load), [germane](#germane_load), and
+      [extraneous](#extraneous_load) load, and holds that people learn fastest
+      when germane and extraneous load are reduced.
+
+- key: cognitive_transition
+  en:
+    term: "cognitive transition"
+    def: >
+      FIXME
+
+- key: commit
+  en:
+    term: "commit (in Git)"
+    def: >
+      The act of saving a set of changes to a database or version control
+      [repository](#repository), or the changes saved.
+
+- key: commit_message
+  en:
+    term: "commit message"
+    def: >
+      A comment attached to a [commit](#commit) that explains what was done and why.
+
+- key: competent_practitioner
+  en:
+    term: "competent practitioner"
+    def: >
+      FIXME
+
+- key: compiled_language
+  en:
+    term: "compiled language"
+    def: >
+      Originally, a language such as C or Fortran that is translated into machine
+      instructions for execution. Languages such as Java are also compiled before
+      execution, but into [byte code](#byte_code) instead of machine instructions,
+      while [interpreted languages](#interpreted_language) like Python are
+      compiled to byte code on the fly.
+
+- key: conceptual_architecture
+  en:
+    term: "conceptual architecture"
+    def: >
+      FIXME
+
+- key: conflict_git
+  en:
+    term: "conflict (in Git)"
+    def: >
+      A situation in which incompatible or overlapping changes have been made on
+      different [branches](#branch_git) that are now being [merged](#merge_git).
+
+- key: console
+  en:
+    term: "console"
+    def: >
+      FIXME
+
+- key: crunch_mode
+  en:
+    term: "crunch mode"
+    def: >
+      FIXME
+
+- key: css_selector
+  en:
+    term: "CSS selector"
+    def: >
+      A pattern that identifies nodes in a [DOM](#dom) tree.
+
+- key: curly_brace_language
+  en:
+    term: "curly-brace language"
+    def: >
+      FIXME
+
+- key: cwd
+  en:
+    term: "current working directory"
+    def: >
+      FIXME
+
+- key: decentralized_system
+  en:
+    term: "decentralized system"
+    def: >
+      FIXME
+
+- key: derive
+  en:
+    term: "derive"
+    def: >
+      FIXME
+
+- key: design_by_contract
+  en:
+    term: design by contract
+    def: >
+      A style of designing software in which functions specify the
+      [pre-conditions](#pre_condition) that must be true in order for them to run
+      and the [post-conditions](#post_condition) they guarantee will be true when
+      they return. A function can then be replaced by one with weaker
+      pre-conditions (i.e., it accepts a wider set of input) and/or stronger
+      post-conditions (i.e., it produces a smaller range of output) without
+      breaking anything else.
+
+- key: design_for_test
+  en:
+    term: "design for test"
+    def: >
+      FIXME
+
+- key: development_process
+  en:
+    term: "development process"
+    def: >
+      FIXME
+
+- key: diagnostic_power
+  en:
+    term: "diagnostic power"
+    def: >
+      The degree to which a wrong answer to a question or exercise tells the
+      teacher what misconceptions a particular learner has.
+
+- key: discoverability
+  en:
+    term: "discoverability"
+    def: >
+      FIXME
+
+- key: doc_generator
+  en:
+    term: "documentation generator"
+    def: >
+      A software tool that extracts specially-formatted comments or
+      [dostrings](#docstring) from code and generates cross-referenced developer
+      documentation.
+
+- key: docstring
+  en:
+    term: "docstring"
+    def: >
+      Short for "documentation string", a string appearing at the start of a
+      module, class, or function in Python that automatically becomes that
+      object's documentation.
+
+- key: dom
+  en:
+    term: "Document Object Model"
+    def: >
+      A standard in-memory representation of HTML and XML
+    acronym: DOM
+
+- key: dynamic_typing
+  en:
+    term: "dynamic typing"
+    def: >
+      FIXME
+
+- key: elevator_pitch
+  en:
+    term: "elevator pitch"
+    def: >
+      A short description of an idea, project, product, or person that can be
+      delivered and understood in just a few seconds.
+
+- key: embedded_database
+  en:
+    term: "embedded database"
+    def: >
+      FIXME
+
+- key: end_user_programmer
+  en:
+    term: "end-user programmer"
+    def: >
+      Someone who does not consider themselves a programmer, but who nevertheless
+      writes and debugs software, such as an artist creating complex macros for a
+      drawing tool.
+
+- key: er_diagram
+  en:
+    term: "entity-relationship diagram"
+    def: >
+      FIXME
+
+- key: experimental_control
+  en:
+    term: "experimental control"
+    def: >
+      FIXME
+
+- key: expert
+  en:
+    term: "expert"
+    def: >
+      FIXME
+
+- key: expert_blind_spot
+  en:
+    term: "expert blind spot"
+    def: >
+      FIXME
+
+- key: extraneous_load
+  en:
+    term: "extraneous-load"
+    def: >
+      Any [cognitive load](#cognitive_load) that distracts from learning.
+
+- key: feature_boxing
+  en:
+    term: "feature boxing"
+    def: >
+      FIXME
+
+- key: feature_creep
+  en:
+    term: "feature creep"
+    def: >
+      FIXME
+
+- key: feature_decomposition
+  en:
+    term: "feature decomposition"
+    def: >
+      FIXME
+
+- key: fidelity
+  en:
+    term: "fidelity"
+    def: >
+      FIXME
+
+- key: flag
+  en:
+    term: "flag"
+    def: >
+      FIXME
+
+- key: fork_git
+  en:
+    term: "fork (in Git)"
+    def: >
+      To make a new copy of a version control [repository](#repository), or the
+      copy that is made.
+
+- key: formative_assessment
+  en:
+    term: "formative assessment"
+    def: >
+      Assessment that takes place during a lesson in order to give both the
+      learner and the teacher feedback on actual understanding.
+
+- key: fsm
+  en:
+    term: "finite state machine"
+    def: >
+      FIXME
+    acronym: FSM
+
+- key: functional_decomposition
+  en:
+    term: "functional decomposition"
+    def: >
+      FIXME
+
+- key: generational_garbage_collection
+  en:
+    term: "generational garbage collection"
+    def: >
+      FIXME
+
+- key: germane_load
+  en:
+    term: "germane load"
+    def: >
+      The [cognitive load](#cognitive_load) required to link new information to
+      old.
+
+- key: governance
+  en:
+    term: "governance"
+    def: >
+      FIXME
+
+- key: gpl
+  en:
+    term: "GNU Public License"
+    def: >
+      FIXME
+
+- key: gui_designer
+  en:
+    term: "GUI designer"
+    def: >
+      FIXME
+
+- key: heuristic
+  en:
+    term: "heuristic"
+    def: >
+      FIXME
+
+- key: hitchhiker
+  en:
+    term: "hitchiker"
+    def: >
+      Someone who is part of a project but does not actually do any work on it.
+
+- key: hypercorrection_effect
+  en:
+    term: "hypercorrection_effect"
+    def: >
+      The more strongly someone believed that their answer on a test was right,
+      the more likely they are not to repeat the error once they discover that in
+      fact they were wrong.
+
+- key: ide
+  en:
+    term: "Integrated Development Environment"
+    def: >
+      An application that helps programmers develop software. IDEs typically have
+      a built-in editor, a [console](#console) to execute code immediately, and
+      browsers for exploring data structures in memory and files on disk.
+    acronym: IDE
+
+- key: in_memory_database
+  en:
+    term: "in-memory database"
+    def: >
+      FIXME
+
+- key: interpreted_language
+  en:
+    term: "interpreted language"
+    def: >
+      A high-level language that is not executed directly by the computer, but
+      instead is run by an interpreter that translates program instructions into
+      machine commands on the fly.
+
+- key: intrinsic_load
+  en:
+    term: "intrinsic load"
+    def: >
+      The [cognitive load](#cognitive_load) required to absorb new information.
+
+- key: issue_tracker
+  en:
+    term: "issue tracker"
+    def: >
+      FIXME
+
+- key: jit
+  en:
+    term: "just-in-time compiler"
+    def: >
+      FIXME
+    acronym: JIT
+
+- key: key
+  en:
+    term: "key"
+    def: >
+      A field or combination of fields whose value(s) uniquely identify a record
+      within a table or dataset.
+
+- key: layered_configuration
+  en:
+    term: "layered configuration"
+    def: >
+      A technique for configuring programs in which several layers of
+      configuration are used, each overriding settings in the ones before.
+
+- key: logging
+  en:
+    term: "logging"
+    def: >
+      Recording information about the execution of a program in a structured
+      way for later analysis.
+
+- key: long_term_memory
+  en:
+    term: "long-term memory"
+    def: >
+      The part of memory that stores information for long periods of
+      time. Long-term memory is large, but slow, and cannot be accesse
+      directly.
+    acronym: LTM
+  ref:
+  - short_term_memory
+
+- key: magic_number
+  en:
+    term: "magic number"
+    def: >
+      FIXME
+
+- key: marthas_rules
+  en:
+    term: "Martha's Rules"
+    def: >
+      A simple set of rules for making decisions in small groups.
+
+- key: mental_model
+  en:
+    term: "mental model"
+    def: >
+      A simplified representation of the key elements and relationships of some
+      problem domain that is good enough to support problem solving.
+
+- key: merge_git
+  en:
+    term: "merge (in Git)"
+    def: >
+      To combine changes from two [branches](#branch_git) in a
+      [repository](#repository). This may lead to [conflicts](#conflict_git).
+
+- key: microservice
+  en:
+    term: "microservice"
+    def: >
+      FIXME
+
+- key: mit_license
+  en:
+    term: "MIT License"
+    def: >
+      FIXME
+
+- key: modular_decomposition
+  en:
+    term: "modular decomposition"
+    def: >
+      FIXME
+
+- key: mvc
+  en:
+    term: "model-view-controller"
+    def: >
+      FIXME
+    acronym: MVC
+
+- key: nih
+  en:
+    term: "not invented here syndrome"
+    def: >
+      FIXME see [already invented here syndrome](#aih).
+
+- key: novice
+  en:
+    term: "novice"
+    def: >
+      FIXME
+
+- key: open_closed_principle
+  en:
+    term: Open-Closed Principle
+    def: >
+      A design rule stating that software should be open for extension but
+      closed for modification, i.e., it should be possible to extend
+      functionality without having to rewrite existing code.
+
+- key: open_license
+  en:
+    term: "open license"
+    def: >
+      FIXME
+
+- key: pair_programming
+  en:
+    term: "pair programming"
+    def: >
+      FIXME
+
+- key: pattern_rule
+  en:
+    term: "pattern rule"
+    def: >
+      A generic rule for a [build manager](#build_manager) that describes how to
+      update any file whose name matches a pattern.
+
+- key: plugin
+  en:
+    term: "plugin"
+    def: >
+      FIXME
+
+- key: post_condition
+  en:
+    term: post-condition
+    def: >
+      Something that is guaranteed to be true after a function runs
+      successfully. Post-conditions are used in [design by
+      contract](#design_by_contract) and are often expressed as assertions that
+      are guaranteed to be true of a function's result.
+
+- key: pre_condition
+  en:
+    term: pre-condition
+    def: >
+      Something that is guaranteed to be true after a function runs
+      successfully. Pre-conditions are used in [design by
+      contract](#design_by_contract) and are often expressed as assertions that
+      must be true of a function's inputs in order for it to run successfully.
+
+- key: product_manager
+  en:
+    term: "product manager"
+    def: >
+      The person responsible for defining what features a product should have.
+
+- key: project_manager
+  en:
+    term: "project manager"
+    def: >
+      The person responsible for ensuring that a project moves forward.
+
+- key: pull_git
+  en:
+    term: "pull (in Git)"
+    def: >
+      To down changes from a remote [repository](#repository) to a
+      local one.
+
+- key: pull_request
+  en:
+    term: "pull request"
+    def: >
+      A request to merge changes from one [repository](#repository) into another.
+
+- key: push
+  en:
+    term: "push (in Git)"
+    def: >
+      To upload changes from a local [repository](#repository) to a
+      remote one.
+
+- key: rebase_git
+  en:
+    term: "rebase (in Git)"
+    def: >
+      FIXME
+
+- key: refactoring
+  en:
+    term: "refactoring"
+    def: >
+      Reorganizing software without changing its behavior.
+
+- key: remote_git
+  en:
+    term: "remote (in Git)"
+    def: >
+      A [repository](#repository) located on another computer, or a bookmark
+      in one project that points at such a repository.
+
+- key: repository
+  en:
+    term: "repository"
+    def: >
+      A place where a version control system stores the files that make up a
+      project and the metadata that describes their history.
+
+- key: reprex
+  en:
+    term: "reproducible example (reprex)"
+    def: >
+      A small, self-contained example of a problem.
+
+- key: rotating_decomposition
+  en:
+    term: "rotating decomposition"
+    def: >
+      FIXME
+
+- key: rotating_file
+  en:
+    term: "rotating file"
+    def: >
+      A set of files used to store recent information. For example, there might be
+      one file with results for each day of the week, so that results from last
+      Tuesday are overwritten this Tuesday.
+
+- key: schema
+  en:
+    term: "schema"
+    def: >
+      A specification of the format and contents of a particular dataset.
+
+- key: semantic_versioning
+  en:
+    term: "semantic versioning"
+    def: >
+      A standard for identifying software releases. In the version identifier
+      `major.minor.patch`, `major` changes when a new version of software is
+      incompatible with old versions, `minor` changes when new features are added
+      to an existing version, and `patch` changes when small bugs are fixed.
+
+- key: sense_vote
+  en:
+    term: "sense vote"
+    def: >
+      A preliminary vote used to determine whether further discussion is needed in a meeting.
+
+- key: shell_prompt
+  en:
+    term: "shell prompt"
+    def: >
+      The text printed by an interactive shell that indicates it is ready to
+      accept another command.
+
+- key: short_term_memory
+  en:
+    term: "short-term memory"
+    def: >
+      The part of memory that briefly stores small amounts of information that can
+      be directly accessed by consciousness.
+    acronym: STM
+  ref:
+  - long_term_memory
+
+- key: software_forge
+  en:
+    term: "software forge"
+    def: >
+      FIXME
+
+- key: stand_up_meeting
+  en:
+    term: "stand-up meeting"
+    def: >
+      FIXME
+
+- key: static_site_generator
+  en:
+    term: "static site generator"
+    def: >
+      A program that creates HTML pages from templates and content.
+
+- key: string_io
+  en:
+    term: "string I/O"
+    def: >
+      FIXME
+
+- key: strong_typing
+  en:
+    term: "strong typing"
+    def: >
+      FIXME
+
+- key: style_checker
+  en:
+    term: "style checker"
+    def: >
+      FIXME
+
+- key: sub_command
+  en:
+    term: "sub-command"
+    def: >
+      FIXME
+
+- key: symbolic_debugger
+  en:
+    term: "symbolic debugger"
+    def: >
+      FIXME
+
+- key: tdd
+  en:
+    term: "test-driven development"
+    def: >
+      A programming practice in which tests are written before a new feature is
+      added or a bug is fixed in order to clarify the goal.
+    acronym: TDD
+
+- key: team_contract
+  en:
+    term: "team contract"
+    def: >
+      FIXME
+
+- key: test_runner
+  en:
+    term: "test runner"
+    def: >
+      A program that finds and runs software tests and reports their results.
+
+- key: time_boxing
+  en:
+    term: "time boxing"
+    def: >
+      FIXME
+
+- key: timestamp
+  en:
+    term: "timestamp"
+    def: >
+      A digital identifier showing the time at which something was created or
+      accessed.
+
+- key: triage
+  en:
+    term: "triage"
+    def: >
+      To go through the issues associated with a project and decide which
+      are currently priorities. Triage is one of the key responsibilities of a
+      [project manager](#project_manager).
+
+- key: type_declaration
+  en:
+    term: "type declaration"
+    def: >
+      FIXME
+
+- key: uml
+  en:
+    term: "Unified Modeling Language"
+    def: >
+      FIXME
+    acronym: UML
+
+- key: use_case_map
+  en:
+    term: "use-case map"
+    def: >
+      FIXME
+
+- key: utc
+  en:
+    term: "Coordinated Universal Time"
+    def: >
+      The standard time against which all others are defined. UTC is the time at
+      longitude 0°, and is not adjusted for daylight savings.
+      [Timestamps](#timestamp) are often reported in UTC so that they will be
+      the same no matter what timezone the computer is in.
+    acronym: UTC
+
+- key: version_number
+  en:
+    term: "version number"
+    def: >
+      FIXME
+
+- key: waterfall_model
+  en:
+    term: "waterfall model"
+    def: >
+      FIXME
+
+- key: workflow_diagram
+  en:
+    term: "workflow diagram"
+    def: >
+      FIXME
+
+- key: working_memory
+  en:
+    term: "working memory"
+    def: >
+      The part of [short-term memory](#short_term_memory) that handles immediate
+      conscious perceptual and linguistic processing.
+
+- key: wysiwyg
+  en:
+    term: "What You See Is What You Get"
+    def: >
+      FIXME
+    acronym: WYSIWYG

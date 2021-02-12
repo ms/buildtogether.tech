@@ -1,0 +1,145 @@
+title: Building Software Together
+subtitle: a student's guide to being a compassionate programmer
+url: https://buildtogether.tech
+repository: gvwilson/bst
+default_image: /static/fixme.svg
+
+chapters:
+  - slug: "introduction"
+    title: "Introduction"
+  - slug: "important"
+    title: "The Important Stuff"
+  - slug: "starting"
+    title: "Getting Started"
+  - slug: "teams"
+    title: "Teams"
+  - slug: "versioning"
+    title: "Version Control and All That"
+  - slug: "collaborate"
+    title: "Collaborating"
+  - slug: "tooling"
+    title: "Tooling"
+  - slug: "rights"
+    title: "Rights"
+  - slug: "design"
+    title: "Testing, Evolution, and Design"
+  - slug: "process"
+    title: "Process"
+  - slug: "thinking"
+    title: "Thinking and Learning"
+  - slug: "research"
+    title: "What Does the Research Say?"
+  - slug: "delivery"
+    title: "Delivery"
+  - slug: "conclusion"
+    title: "Conclusion"
+  - appendix: true
+  - slug: "license"
+    title: "License"
+    file: "LICENSE.md"
+  - slug: "bibliography"
+    title: "Bibliography"
+  - slug: "conduct"
+    title: "Code of Conduct"
+    file: "CONDUCT.md"
+  - slug: "contributing"
+    title: "Contributing"
+    file: "CONTRIBUTING.md"
+  - slug: "glossary"
+    title: "Glossary"
+  - slug: "links"
+    title: "Links"
+  - slug: "evaluation"
+    title: "Performance Evaluation"
+
+author:
+  name: Greg Wilson
+  url: third-bit.com
+  email: gvwilson@third-bit.com
+  github: https://github.com/gvwilson
+  twitter: https://twitter.com/gvwilson
+  linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
+
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+  link_defs: >
+    {
+      "ant": ["https://ant.apache.org/", "Apache Ant"],
+      "bitbucket": ["https://bitbucket.org/", "BitBucket"],
+      "captain-awkward": ["https://captainawkward.com/", "Captain Awkward"],
+      "carpentries": ["http://carpentries.org", "The Carpentries"],
+      "carpentries-git": ["https://swcarpentry.github.io/git-novice/", "The Carpentries' lesson on Git"],
+      "carpentrycon-talk": ["https://www.youtube.com/watch?v=7xR50ty5DZ0", "Greg Wilson's CarpentryCon keynote"],
+      "charles-rules": ["https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument", "Charles' Rules of Argument"],
+      "choose-license": ["https://choosealicense.com/", "Choose a License"],
+      "creative-commons": ["https://creativecommons.org/", "Creative Commons"],
+      "contact": ["mailto:gvwilson@third-bit.com", "Contact email"],
+      "contributor-covenant": ["https://www.contributor-covenant.org", "Contributor Covenant"],
+      "diagrams": ["https://www.diagrams.net/", "diagrams.net drawing tool"],
+      "dobzhansky": ["https://en.wikipedia.org/wiki/Nothing_in_Biology_Makes_Sense_Except_in_the_Light_of_Evolution", "Nothing in biology makes sense except in the light of evolution"],
+      "doi2bib": ["https://doi2bib.org/", "Turn DOIs into bibliography entries"],
+      "eiffel": ["https://www.eiffel.org/", "Eiffel"],
+      "email": ["mailto:gvwilson@third-bit.com", "Contact address"],
+      "git": ["https://git-scm.com/", "Git"],
+      "git-man-page-generator": ["https://git-man-page-generator.lokaltog.net/", "Git Random Man Page Generator"],
+      "github": ["https://github.com/", "GitHub"],
+      "github-guides": ["https://guides.github.com/", "GitHub Guides"],
+      "github-pages": ["https://pages.github.com/", "GitHub Pages"],
+      "gitkraken": ["https://www.gitkraken.com/", "GitKraken"],
+      "gitlab": ["https://gitlab.com/", "GitLab"],
+      "hippocratic-license": ["https://firstdonoharm.dev/", "Hippocratic License"],
+      "jekyll": ["https://jekyllrb.com/", "Jekyll"],
+      "jekyll-bug": ["https://stackoverflow.com/questions/66320774/how-to-pre-define-links-in-jekyll-config-yml-using-kramdown-links-def-options", "A bug in Jekyll"],
+      "jira": ["https://www.atlassian.com/software/jira", "Jira"],
+      "jsdoc": ["https://jsdoc.app/", "JSDoc"],
+      "lua": ["https://www.lua.org/", "Lua"],
+      "make": ["https://www.gnu.org/software/make/", "GNU Make"],
+      "marthas-rules": ["https://journals.sagepub.com/doi/10.1177/088610998600100206", "Martha's Rules"],
+      "mercurial": ["https://www.mercurial-scm.org/", "Mercurial"],
+      "noaa-disruptive": ["https://coast.noaa.gov/ddb/", "Dealing with Disruptive Behaviors"],
+      "osi-license-list": ["https://opensource.org/licenses", "Open Source Initiative License List"],
+      "pep8": ["https://www.python.org/dev/peps/pep-0008/", "PEP 8 Style Guide for Python Code"],
+      "petre-marian": ["https://www.open.ac.uk/people/mp8", "Marian Petre"],
+      "python": ["https://www.python.org/", "Python"],
+      "quorum": ["https://quorumlanguage.com/", "Quorum"],
+      "rake": ["https://ruby.github.io/rake/", "Rake"],
+      "ruby": ["https://www.ruby-lang.org/", "Ruby"],
+      "scratch": ["https://scratch.mit.edu/", "Scratch"],
+      "selenium": ["https://www.selenium.dev/", "Selenium"],
+      "smartbear-code-review": ["https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/", "Best Practices for Peer Code Review"],
+      "snakemake": ["https://snakemake.readthedocs.io/en/stable/", "Snakemake"],
+      "sqlite": ["https://www.sqlite.org/", "SQLite"],
+      "stone-quote": ["https://twitter.com/joncstone/status/1269961630940631041", "Jon Stone on channels"],
+      "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
+      "thirdbit-burnout": ["http://third-bit.com/2015/11/09/daddy-why-dont-you-ever-laugh/", "Daddy, Why Don't You Ever Laugh?"],
+      "thirdbit-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
+      "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],
+      "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
+      "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"]
+    }
+
+exclude:
+  - '*.sublime-*'
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - vendor/bundle
+  - book.*
+
+permalink: pretty
+
+blog:
+  truncated_preview: false
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+plugins:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-gist

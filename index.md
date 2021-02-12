@@ -1,0 +1,5 @@
+---
+root: .
+---
+
+{% include intro.md %}

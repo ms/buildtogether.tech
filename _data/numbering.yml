@@ -1,0 +1,116 @@
+entries:
+- file: ./introduction/index.md
+  kind: Chapter
+  label: '1'
+  slug: introduction
+  title: Introduction
+- file: ./important/index.md
+  kind: Chapter
+  label: '2'
+  slug: important
+  title: The Important Stuff
+- file: ./starting/index.md
+  kind: Chapter
+  label: '3'
+  slug: starting
+  title: Getting Started
+- file: ./teams/index.md
+  kind: Chapter
+  label: '4'
+  slug: teams
+  title: Teams
+- file: ./versioning/index.md
+  kind: Chapter
+  label: '5'
+  slug: versioning
+  title: Version Control and All That
+- file: ./collaborate/index.md
+  kind: Chapter
+  label: '6'
+  slug: collaborate
+  title: Collaborating
+- file: ./tooling/index.md
+  kind: Chapter
+  label: '7'
+  slug: tooling
+  title: Tooling
+- file: ./rights/index.md
+  kind: Chapter
+  label: '8'
+  slug: rights
+  title: Rights
+- file: ./design/index.md
+  kind: Chapter
+  label: '9'
+  slug: design
+  title: Testing, Evolution, and Design
+- file: ./process/index.md
+  kind: Chapter
+  label: '10'
+  slug: process
+  title: Process
+- file: ./thinking/index.md
+  kind: Chapter
+  label: '11'
+  slug: thinking
+  title: Thinking and Learning
+- file: ./research/index.md
+  kind: Chapter
+  label: '12'
+  slug: research
+  title: What Does the Research Say?
+- file: ./delivery/index.md
+  kind: Chapter
+  label: '13'
+  slug: delivery
+  title: Delivery
+- file: ./conclusion/index.md
+  kind: Chapter
+  label: '14'
+  slug: conclusion
+  title: Conclusion
+- file: LICENSE.md
+  kind: Appendix
+  label: A
+  slug: license
+  title: License
+- file: ./bibliography/index.md
+  kind: Appendix
+  label: B
+  slug: bibliography
+  title: Bibliography
+- file: CONDUCT.md
+  kind: Appendix
+  label: C
+  slug: conduct
+  title: Code of Conduct
+- file: CONTRIBUTING.md
+  kind: Appendix
+  label: D
+  slug: contributing
+  title: Contributing
+- file: ./glossary/index.md
+  kind: Appendix
+  label: E
+  slug: glossary
+  title: Glossary
+- file: ./links/index.md
+  kind: Appendix
+  label: F
+  slug: links
+  title: Links
+- file: ./evaluation/index.md
+  kind: Appendix
+  label: G
+  slug: evaluation
+  title: Performance Evaluation
+figures:
+  label: D.1
+  process-matrix: '10.1'
+  thinking-cognitive-architecture: '11.2'
+  thinking-frisian: '11.3'
+  thinking-models: '11.1'
+tables:
+  bibliography-sources: B.1
+  collaborate-code-review: '6.1'
+  starting-spinellis-stats: '3.1'
