@@ -306,7 +306,7 @@ that searches for duplicated files (i.e., ones that have exactly the same
 content). <span t="collaborate-code-review"></span> shows the comments I left
 when reviewing it.
 
-{% include code file="dup.py" %}
+{% include file file="dup.py" %}
 
 {% include table id="collaborate-code-review" file="code-review.tbl" cap="Code Review" %}
 
@@ -376,7 +376,7 @@ have to.
 So what does a good issue look like? Here's one I filed for the duplicate file
 finder reviewed in the previous section.
 
-{% include code file="bug-report.txt" %}
+{% include file file="bug-report.txt" %}
 
 The ID on the first line is assigned by the issue tracker, an often serves as a
 short-hand name for the issue in conversation. ("Hey, is anyone working on

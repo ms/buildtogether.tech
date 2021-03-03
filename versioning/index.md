@@ -102,7 +102,7 @@ produces a toolkit that uses Git as a file backup system.
 The first step is to make sure that Git knows who we are by telling it our name
 and email address:
 
-{% include code file="config.sh" %}
+{% include file file="config.sh" %}
 
 Breaking this down:
 
