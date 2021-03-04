@@ -739,6 +739,22 @@
       To upload changes from a local [repository](#repository) to a
       remote one.
 
+- key: qualitative_method
+  en:
+    term: "qualitative method"
+    def: >
+      FIXME
+  ref:
+    - quantitative_method
+
+- key: quantitative_method
+  en:
+    term: "quantitative method"
+    def: >
+      FIXME
+  ref:
+    - qualitative_method
+
 - key: rebase_git
   en:
     term: "rebase (in Git)"
