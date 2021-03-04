@@ -373,8 +373,11 @@ unless, of course, they're forced to by the grading scheme. In that case, most
 come away with the impression that tickets are something you only use when you
 have to.
 
-So what does a good issue look like? Here's one I filed for the duplicate file
-finder reviewed in the previous section.
+So what does a good issue look like?  <cite>Bettenburg2008</cite> found that the
+information users supply when they file a bug report tends not to be that which
+the relevant developers need the most, and most importantly, it differs in
+fairly predictable ways and for understandable reasons.  Here's one I filed for
+the duplicate file finder reviewed in the previous section:
 
 {% include file file="bug-report.txt" %}
 

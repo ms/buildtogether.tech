@@ -22,6 +22,12 @@
     def: >
       FIXME
 
+- key: affective_state
+  en:
+    term: "affective state"
+    def: >
+      FIXME
+
 - key: aih
   en:
     term: "already invented here syndrome"
@@ -65,6 +71,12 @@
 - key: big_bang
   en:
     term: "big-bang integration"
+    def: >
+      FIXME
+
+- key: big_five
+  en:
+    term: "Big Five personality traits"
     def: >
       FIXME
 
@@ -162,6 +174,12 @@
 - key: code_review
   en:
     term: "code review"
+    def: >
+      FIXME
+
+- key: cognitive_dimensions
+  en:
+    term: "cognitive dimensions framework"
     def: >
       FIXME
 
@@ -668,6 +686,12 @@
       contract](#design_by_contract) and are often expressed as assertions that
       are guaranteed to be true of a function's result.
 
+- key: post_mortem
+  en:
+    term: "post-mortem"
+    def: >
+      FIXME
+
 - key: pre_condition
   en:
     term: pre-condition
@@ -676,6 +700,12 @@
       successfully. Pre-conditions are used in [design by
       contract](#design_by_contract) and are often expressed as assertions that
       must be true of a function's inputs in order for it to run successfully.
+
+- key: premature_commitment
+  en:
+    term: "premature commitment"
+    def: >
+      FIXME
 
 - key: product_manager
   en:
@@ -740,6 +770,12 @@
     term: "reproducible example (reprex)"
     def: >
       A small, self-contained example of a problem.
+
+- key: root_cause
+  en:
+    term: "root cause"
+    def: >
+      FIXME
 
 - key: rotating_decomposition
   en:
@@ -810,6 +846,12 @@
     term: "static site generator"
     def: >
       A program that creates HTML pages from templates and content.
+
+- key: static_typing
+  en:
+    term: "static typing"
+    def: >
+      FIXME
 
 - key: string_io
   en:

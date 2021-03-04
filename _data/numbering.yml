@@ -58,7 +58,7 @@ entries:
   kind: Chapter
   label: '12'
   slug: research
-  title: What Does the Research Say?
+  title: A Random Sample of Research Results
 - file: ./delivery/index.md
   kind: Chapter
   label: '13'
@@ -105,11 +105,12 @@ entries:
   slug: evaluation
   title: Performance Evaluation
 figures:
-  label: D.1
   process-matrix: '10.1'
   thinking-cognitive-architecture: '11.2'
   thinking-frisian: '11.3'
   thinking-models: '11.1'
+  washburn-2016-what-went-right: '12.1'
+  washburn-2016-what-went-wrong: '12.2'
 tables:
   bibliography-sources: B.1
   collaborate-code-review: '6.1'

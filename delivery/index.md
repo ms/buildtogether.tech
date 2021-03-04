@@ -228,7 +228,7 @@ PDF or another viewable format before you can see the effects of your changes
 ## The Post Mortem
 
 The most valuable part of your project isn't the software you write, or the
-grade you're given. It's the project's *post mortem*. Literally, this is an
+grade you're given. It's the project's post mortem. Literally, this is an
 examination of a deceased person; in a software project, it's a look back at
 what went right, and what went wrong.
 
