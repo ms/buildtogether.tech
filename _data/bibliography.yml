@@ -1290,6 +1290,15 @@
   year: 2017
   doi: 10.1145/3077618
 
+- key: Rawls1999
+  type: book
+  author:
+  - John Rawls
+  title: "A Theory of Justice (revised edition)"
+  publisher: Belknap Press
+  year: 1999
+  isbn: 978-0674000780
+
 - key: Rawson2014
   type: article
   author:

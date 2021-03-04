@@ -1,16 +1,194 @@
 ---
 ---
 
-## Including Everyone
+Which of these do you believe is true?
 
-FIXME: allyship from a legal and moral standpoint
+1.  You own every piece of software you write for course assignments.  If the
+    university wants to use that software in any way other than for giving
+    you a grade, they need your permission: you can say "no" or ask for payment.
+
+1.  You own the software you write for course assignments *as long as you do
+    the work on your own computer*. If you use a university's machines, they
+    have an equal right to the software: you can continue developing it or
+    sell it if you want, but they can too, and they don't need your permission.
+
+1.  If you are an undergraduate and paying fees to attend a university, you
+    own the software you produce. If you are a graduate student being paid a
+    stipend, on the other hand, the university owns what you produce.
+
+1.  If you a graduate student then you, your supervisor, and your university
+    all have a right to what you produce.
+
+The answer to the question is, "It depends where you are."  Different schools
+can have very different rules, even if they are in the same legal jurisdiction
+(i.e., the same country, state, or province). In fact, some universities' rules
+depend not only on who you are but on which faculty you are in.
+
+The rules in industry are less complex---anything you do on company time or with
+company resources belongs to the company---but there are still gray areas. For
+example, I wrote some of the first drafts of this book on a company laptop while
+traveling for work. Does that mean I owe my former employer a share of the
+royalties?
+
+Who owns what is just one of the rights that societies recognize. Others include
+the right to say what you want, the right to live free from fear, and the right
+to be treated the same way as everyone else regardless of your race, sex,
+orientation, religion, disability, or a variety of other factors. None of thse
+are absolute, and all of them have been profoundly affected by what software
+engineers have built. If the first rule of being compassionate is to do no harm,
+the first step in becoming a compassionate programmer is to learn what rights
+you and others have so that you don't violate them.
+
+## Fairness
+
+The [Universal Declaration of Human Rights][udhr] guarantees a handful of basic
+rights, including:
+
+-   freedom from arbitrary arrest, detention, or exile;
+
+-   the right to freedom of movement within their own country;
+
+-   the right to marry and found a family;
+
+-   the right to property and to freedom of opinion;
+
+-   the right to work,
+    to free choice of employment,
+    to just and favourable conditions of work,
+    and to protection against unemployment;
+
+-   the right to equal pay for equal work; and
+
+-   the right to education.
+
+Most countries have signed this declaration, meaning that in theory at least, it
+has the force of law. Debate about rights should therefore have moved from
+"what" to "how", but the phrase "in theory" in the previous sentence is doing a
+lot of work. In practice, most societies still treat people unequally and
+unfairly; the question is, do we acknowledge that and try to fix it, or hope
+that we will be a beneficiary of that unfairness?
+
+<div class="callout" markdown="1">
+
+### Counter-productive
+
+<cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
+of what American companies have done over the past twenty years to reduce sexual
+harassment and discriminationee has either had no effect or has actually made
+things worse. The reason is that the people who care don't gain anything from
+being told they should, while the people who are part of the problem resent
+being told that and tend to take out their anger on the people the training is
+meant to protect.
+
+</div>
+
+A few pages in a book like this can't change what you believe is fair or unfair.
+What it *can* do, I hope, is get you to start thinking in ways that will lead
+you to notice more and care more.
+
+<div class="callout" markdown="1">
+
+### See what I did there?
+
+Take a moment and re-read the preceding paragraph. Did you notice the first time
+through that it assumes you *aren't* someone who is routinely on the receiving
+end of discriminatory behavior? I wouldn't have spotted that when I was 20 years
+old; the handful of women in my classes certainly would have, just as they would
+known that they were half as likely to be called on when they raised their hand
+in class as I was.
+
+</div>
+
+To start, why should you care? Many arguments are made on the basis of team
+performance and productivity: study after study has shown that more diverse
+teams perform better, that companies with more diverse management are more
+profitable, and so on. The problem I have with this line of argument is that it
+implies that if there *weren't* economic benefits, there wouldn't be a reason to
+care.
+
+Another approach comes from <cite>Rawls1999</cite>, who framed it in terms of a
+"veil of ignorance": you get to decide what principles society will follow, but
+you have to do that *without* knowing what position in that society you will
+occupy. If you didn't know in advance whether you were going to be a man or a
+woman, for example, you probably wouldn't design a tech industry that treated
+women as poorly as ours does.
+
+I've never found Rawls' argument compelling either, for the simple reason that I
+know who I am and what position I occupy in society. What did convince me to
+care were these two arguments:
+
+Cookies.
+    You're about to have a meeting with someone. There's a box with half a dozen
+    cookies in the meeting room, so you help yourself to a couple before the
+    other person shows up. When they do, you have to make a choice: do you say,
+    "I've already had two, so I should only have one more and you should get
+    three?" or, "There were four cookies in the box when you arrived, so we get
+    two each" (meaning that you will have had four in total). Most of us would
+    say that the first answer is the moral one, but how far back should we go?
+
+Extra weight.
+    Many people object to taking race or gender into account in affirmative
+    action programs, saying that companies should hire whoever is the best
+    candidate on the day. But suppose I can run a mile in five minutes, while
+    you can do it in six minutes with a fifty-pound pack on your back.  You are
+    probably the better athlete, and will probably do better *if the pack is
+    removed*. Similarly, someone who can get a B despite being systematically
+    overlooked or underestimated will probably do better in a job than someone
+    who only got an A despite all the advantages that come from being straight,
+    white or Asian, male, physically able, and economically secure---if, that
+    is, they are treated fairly after being hired.
+
+## Intellectual Property
+
+<span g="intellectual_property">Intellectual property</span> (IP) is a
+catch-call term that covers four separate kinds of rights: copyrights, patents,
+trade secrets, and trademarks. Each of these has evolved over several centuries
+to address the economic and moral concerns of people powerful enough to
+influence law-making. What ties them together is that, compared with physical
+goods, information is expensive to produce but cheap to copy. IP exists to
+ensure that creators can earn enough from producing intangible goods that they
+can keep doing it. Each kind of IP therefore gives its holder some kind of
+limited monopoly over some kind of information.
+
+<span g="copyright">Copyrights</span> apply to any original expression that
+anyone creates. While people can't (yet) own facts, they *can* own any
+representation of those facts that contains an element of creativity.  As a
+result of this broad scope, there are several exceptions to copyright, making it
+the weakest protection available. When placed in the proper context, however,
+copyright is a powerful tool for IP protection.
+
+<span g="patent">Patents</span> apply to inventions, technological improvements,
+certain designs, business methods, and a few other things. They grant a
+monopoly---the right to exclude others from using the patented idea---for a
+fixed period of time (usually twenty years).  Since the right is stronger, the
+requirements for obtaining a patent are more stringent: it can take years,
+hundreds of pages of paperwork, and thousands of dollars to secure one.
+
+Patents are intended to be a bargain between the inventor and the public: the
+inventor discloses how the invention works (so that other people can learn from)
+and in exchange society ensures that she is the only one who can profit from it
+for a reasonable time. If an inventor doesn't want anyone to know how her
+invention works she can treat it as a <span g="trade_secret">trade
+secret</span>.  This isn't a property right as such, but rather the practice of
+relying on things like <g span="non_disclosure_agreement">non-disclosure
+agreements</span> to keep something secret. There is less risk of someone being
+inspired by your idea to create something better, but if the idea *does* leak,
+the inventor has less legal protection.
+
+Finally, <span g="trademark">trademarks</span> allow people to tell whether a
+product is authentic or not. Given that everyone has limited time in which to
+make decisions, a brand name acts as a form of mental shorthand: if company XYZ
+has a reputation for high quality or low prices, or if a particular medication
+has been proven to be effective against an ailment like heart disease, the name
+itself has commercial value.
 
 ## Licensing
 
-A license dictates how project materials can be used and redistributed.  If the
-license or a publication agreement makes it difficult for people to contribute,
-the project is less likely to attract new members, so the choice of license is
-crucial to the project's long-term sustainability.
+A <span class="license">license</span> dictates how project materials can be
+used and redistributed.  If the license or a publication agreement makes it
+difficult for people to contribute, the project is less likely to attract new
+members, so the choice of license is crucial to the project's long-term
+sustainability.
 
 <div class="callout" markdown="1">
 
@@ -30,14 +208,14 @@ in forked repositories.
 Every creative work has some sort of license; the only question is whether
 authors and users know what it is and choose to enforce it.  Choosing a license
 for a project can be complex, not least because the law hasn't kept up with
-everyday practice.  FIXME lightweight intro while <cite>Lindberg2008</cite> is a
-deeper dive for those who want details.  Depending on country, institution, and
-job role, most creative works are automatically eligible for intellectual
-property protection.  However, members of the team may have different levels of
-copyright protection.  For example, students and faculty may have a copyright on
-the research work they produce, but university staff members may not, since
-their employment agreement may state that what they create on the job belongs to
-their employer.
+everyday practice.  (<cite>Lindberg2008</cite> is a good exploration of these
+issues if you want details.)  Depending on country, institution, and job role,
+most creative works are automatically eligible for intellectual property
+protection.  However, members of the team may have different levels of copyright
+protection.  For example, students and faculty may have a copyright on the
+research work they produce, but university staff members may not, since their
+employment agreement may state that what they create on the job belongs to their
+employer.
 
 To avoid legal messiness, every project should include an explicit license.
 This license should be chosen early, since changing a license can be
@@ -85,8 +263,6 @@ Just as the project's Code of Conduct is usually placed in a root-level file
 called `CONDUCT.md`, its license is usually put in a file called `LICENSE.md`
 that is also in the project's root directory.
 
-### Software
-
 In order to choose the right license for our software, we need to understand the
 difference between two kinds of license.  The <span g="mit_license">MIT
 License</span> and its close sibling the <span g="bsd_license">BSD
@@ -127,8 +303,6 @@ preventing this.
 
 </div>
 
-### Data and reports
-
 The MIT license, the GPL, and the Hippocratic License are intended for use with
 software.  When it comes to data and reports, the most widely used family of
 licenses are those produced by [Creative Commons][creative-commons].  These have
@@ -151,143 +325,26 @@ also want to get credit for our work.
 Other Creative Commons licenses incorporate various restrictions, and are
 usually referred two using the two-letter abbreviations listed below:
 
-- ND (no derivative works) prevents people from creating modified versions of
+-   ND (no derivative works) prevents people from creating modified versions of
     our work.  Unfortunately, this also inhibits translation and reformatting.
 
-- SA (share-alike) requires people to share work that incorporates ours on the
+-   SA (share-alike) requires people to share work that incorporates ours on the
     same terms that we used.  Again, it is fine in principle but in practice
     makes aggregation and recombination difficult.
 
-- NC (no commercial use) does *not* mean that people cannot charge money for
+-   NC (no commercial use) does *not* mean that people cannot charge money for
     something that includes our work, though some publishers still try to imply
     that in order to scare people away from open licensing.  Instead, the NC
     clause means that people cannot charge for something that uses our work
     without our explicit permission, which we can give under whatever terms we
     want.
 
-## Intellectual Property
-
-I asked:
-
-1. Who has what rights to the software that undergrad students produce for courses at your institution? (I'm asking it this way instead of asking "who owns it?" because it appears that at some institutions, both the student and the school have some rights.)
-
-2. What about software that grad students produce during their research?
-
-3. Where and how did you find this out and how sure are you of your answers?
-
-Prof. Joanne Atlee (University of Waterloo)
-
-That's easy.  At Waterloo, the inventor is the owner (unless work is done by an
-employee as an "assigned task" in the course of administrative activities). And
-the university has a free, non-exclusive, and irrevocable license to copy and
-use the work in support of teaching and research activities (but not to
-commercialize or distribute outside of the university community).
-
-This applies to
-
-1.  software that undergraduates write
-2.  research/software produced by graduate students during their research
-3.  Policy 73.  I am very confident in my answers.  I teach this material to CS students.
-    https://uwaterloo.ca/secretariat/policies-procedures-guidelines/policies/policy-73-intellectual-property-rights
-
-Prof. Kelly Blincoe (University of Auckland)
-
-Students at the University of Auckland maintain their own IP unless they
-specifically sign it over.
-
-We have an IP document which explains things in legal jargon:
-https://www.auckland.ac.nz/en/about/the-university/how-university-works/policy-and-administration/research/conduct/intellectual-property-created-by-staff-and-students-policy.html
-
-I became aware of this because of my involvement in a course that has
-undergraduate students work with industry partners. Unless the industry partner
-negotiates an IP agreement, then the students maintain ownership over the
-products they produce. Though, the industry partners maintain ownership of the
-IP that they bring as well, so typically there is a joint ownership.
-
-Prof. Davide Fucci (Blekinge Technical College)
-
-I have asked around, and the short answer to Q1 and Q2  is "the student, unless otherwise stated."
-
-Prof. Reid Holmes (University of British Columbia)
-
-Grad students and faculty have joint ownership of their inventions.  Undergrads
-own their solutions, but many courses add course licenses to prevent them from
-posting their solutions online as they are often to larger projects that persist
-between terms. I'll admit to doing this myself
-<https://github.com/ubccpsc/310/tree/2018sept#license>
-
-> The readings for this course are licensed using CC-by-SA. However, it is
-> important to note that the deliverable descriptions, code implementing the
-> deliverables, exams, and exam solutions are considered private materials. We
-> go to considerable lengths to make the project an interesting and useful
-> learning experience for this course. This is a great deal of work, and while
-> future students may be tempted by your solutions, posting them does not do
-> them any real favours. Please be considerate with these private materials and
-> not pass them along to others, make your repos public, or post them to other
-> sites online.
-
-This is an awkward space, but in my course none of the implementations are
-really original materials so it isn't like anyone could claim them as novel IP
-anyways.
-
-For courses that have open-ended projects though students own their IP and are
-encouraged to continue them after the course is over / publish them as they
-desire.
-
-The university IP office has pretty robust materials for these things
-<https://uilo.ubc.ca/researchers/commercialize-invention/inventions-inventorship-faq/ownership-inventions-ubc>.
-
-Prof. Andreas Stefik (University of Nevada Las Vegas)
-
-1.  At UNLV, it's the students.
-
-2.  This depends on how they were funded. Federal law in the U.S. has different
-    rules for different things. For example, if it's done under an NSF grant,
-    the university claims they own it, although my understanding is this gets
-    tricky. States have rules too, which are also tricky. If they are funding
-    themselves, they own it all.
-
-3.  Been talking to our commercialization office... I'm pretty sure and have
-    looked at the actual laws/policies myself.
-
-Prof. Igor Steinmacher (Universidade Tecnológica Federal do Paraná)
-
-1.  Here it is like this, institution and school have rights. The supervisor can
-    also have a share and, if a company is involved, an agreement needs to be
-    made up front.  Usually, when no company is involved, we have a 1/3 each
-    division.
-
-2.  Again, depends. On grad school this is usually ruled by an agreement among
-    all parties involved. It may be the case in which a company will hold the
-    rights; the most common is having shares including student, institution,
-    supervisor and company.
-
-3.  We have a department responsible for this relationship with companies and IP.
-
-Prof. Christoph Treude (University of Adelaide)
-
-This depends on whether there was any agreement signed with the industry partner
-that grants the industry partner rights over the student-created IP. If there
-is, we would need to look at the terms of that agreement.
- 
-It also depends on whether there was any co-authoring of the code by the
-industry partner, in which case the industry partner may have rights as a joint
-owner.
- 
-If the students wrote the code themselves and if there is no any agreement with
-the industry partner, students own the IP that they create and are free to
-choose how they deal with the source code. If the students would like to pursue
-commercial opportunities for the IP, they can (but, unlike staff, are under no
-obligation to) contact Adelaide Enterprise. If they are happy to release it open
-source, that is up to them.
-
-Prof. Bogdan Vasilescu (Carnegie-Mellon University)
-
-<https://www.cmu.edu/policies/administrative-and-governance/intellectual-property.html>
-
 ## Employment
 
 FIXME: what rights do you have (or what myths can we dispel)?
+
+- Point out that there's a lot less about this on the web because companies
+  would much rather talk about who owns what than about workers' rights.
 
 ## Ten Simple Rules for Being Fired
 

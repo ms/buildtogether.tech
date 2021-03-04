@@ -659,6 +659,12 @@ Yizhou Qian and James Lehman:
 "Students' Misconceptions and Other Difficulties in Introductory Programming".
 <em>TCE</em>, 18(1), 2017, <a href="https://doi.org/10.1145/3077618">10.1145/3077618</a>.
 </dd>
+<dt id="rawls1999" class="bibliography">Rawls1999</dt>
+<dd>
+John Rawls:
+<em>A Theory of Justice (revised edition)</em>.
+Belknap Press, 1999, 978-0674000780.
+</dd>
 <dt id="rawson2014" class="bibliography">Rawson2014</dt>
 <dd>
 Katherine A. Rawson, Ruthann C. Thomas, and Larry L. Jacoby:
