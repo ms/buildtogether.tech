@@ -246,6 +246,12 @@
     def: >
       FIXME
 
+- key: copyright
+  en:
+    term: "copyright"
+    def: >
+      FIXME
+
 - key: crunch_mode
   en:
     term: "crunch mode"
@@ -522,6 +528,12 @@
     def: >
       FIXME
 
+- key: intellectual_property
+  en:
+    term: "intellectual property"
+    def: >
+      FIXME
+
 - key: interpreted_language
   en:
     term: "interpreted language"
@@ -580,12 +592,6 @@
     acronym: LTM
   ref:
   - short_term_memory
-
-- key: magic_number
-  en:
-    term: "magic number"
-    def: >
-      FIXME
 
 - key: marthas_rules
   en:
@@ -661,6 +667,12 @@
 - key: pair_programming
   en:
     term: "pair programming"
+    def: >
+      FIXME
+
+- key: patent
+  en:
+    term: "patent"
     def: >
       FIXME
 
@@ -931,6 +943,18 @@
     def: >
       A digital identifier showing the time at which something was created or
       accessed.
+
+- key: trade_secret
+  en:
+    term: "trade secret"
+    def: >
+      FIXME
+
+- key: trademark
+  en:
+    term: "trademark"
+    def: >
+      FIXME
 
 - key: triage
   en:
