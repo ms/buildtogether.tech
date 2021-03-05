@@ -1,7 +1,6 @@
 ---
+nochaptertitle: true
 ---
-
-{% include table id="bibliography-sources" file="sources.tbl" cap="Bibliography sources" %}
 
 <dl class="bibliography">
 <dt id="abad2018" class="bibliography">Abad2018</dt>
@@ -866,3 +865,5 @@ Andreas Zeller, Thomas Zimmermann, and Christian Bird:
 </dd>
 
 </dl>
+
+{% include table id="bibliography-sources" file="sources.tbl" cap="Bibliography sources" %}
