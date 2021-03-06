@@ -327,6 +327,45 @@
   publisher: Jossey-Bass
   isbn: 978-1119049715
 
+- key: Brown2011
+  type: book
+  editor:
+  - Amy Brown
+  - Greg Wilson
+  title: "The Architecture of Open Source Applications: Elegance, Evolution, and a Few Fearless Hacks"
+  url: http://aosabook.org
+  publisher: Lulu
+  year: 2011
+  isbn: 978-1257638017
+  note: >
+    Descriptions of the architecture of two dozen open source systems written by the people who created them.
+
+- key: Brown2012
+  type: book
+  editor:
+  - Amy Brown
+  - Greg Wilson
+  title: "The Architecture of Open Source Applications: Structure, Scale, and a Few More Fearless Hacks"
+  url: http://aosabook.org
+  publisher: Lulu
+  year: 2012
+  isbn: 978-0201103427
+  note: >
+    More descriptions open source system architectures written by those systems' creators.
+
+- key: Brown2016
+  type: book
+  editor:
+  - Amy Brown
+  - Michael DiBernardo
+  title: "500 Lines or Less: Experienced Programmers Solve Interesting Problems"
+  url: http://aosabook.org
+  publisher: Lulu
+  year: 2016
+  isbn: 978-1329871274
+  note: >
+    Scale models of real applications, with commentary from their creators.
+
 - key: Brown2017
   type: article
   author:
@@ -798,6 +837,20 @@
   year: 1999
   isbn: 978-0201616224
 
+- key: Irving2021
+  type: book
+  author:
+  - Damien Irving
+  - Kate Hertweck
+  - Luke Johnston
+  - Joel Ostblom
+  - Charlotte Wickham
+  - Greg Wilson
+  title: "Research Software Engineering with Python: Building Software that Makes Research Possible"
+  publisher: "Chapman & Hall/CRC Press"
+  year: 2019
+  isbn: TBD
+
 - key: Kalyuga2003
   type: article
   author:
@@ -859,6 +912,18 @@
   year: 2009
   doi: 10.1109/tse.2009.27
 
+- key: Kernighan1979
+  type: book
+  author:
+  - Brian W. Kernighan
+  - P. J. Plauger
+  title: "The Elements of Programming Style"
+  publisher: McGraw-Hill
+  year: 1979
+  isbn: 978-0070342071
+  note: >
+    An early and influential description of the Unix programming philosophy.
+
 - key: Kernighan1981
   type: book
   author:
@@ -868,6 +933,18 @@
   publisher: Addison-Wesley Professional
   year: 1981
   isbn: 978-0201103427
+
+- key: Kernighan1983
+  type: book
+  author:
+  - Brian W. Kernighan
+  - Rob Pike
+  title: "The Unix Programming Environment"
+  publisher: Prentice-Hall
+  year: 1983
+  isbn: 978-0139376818
+  note: >
+    An influential early description of Unix.
 
 - key: Kernighan1999
   type: book
@@ -1665,6 +1742,14 @@
   - Richard L. Upchurch
   title: "In Support of Student Pair-Programming"
   booktitle: "SIGCSE'01"
+
+- key: Wilson2019
+  type: book
+  author: Greg Wilson
+  title: Teaching Tech Together
+  publisher: "Chapman & Hall/CRC Press"
+  year: 2019
+  isbn: 978-0367352974
 
 - key: Xu2015
   author:

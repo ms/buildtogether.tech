@@ -3,12 +3,9 @@
 
 A carpenter shows up to put an extension on your house, and all she's brought
 with her is a hammer and a Swiss army knife. How confident are you that she'll
-be able to do the job?
-
-A programmer shows up to fix a couple of bugs and add a new splash screen to
-your game, and all she's going to use are a plain-text editor and `print`
-statements. Are you any more confident in her ability to do the job in a
-reasonable time?
+do the job well?  A programmer shows up to fix a couple of bugs and add a new
+splash screen to your game, and all she's going to use are a plain-text editor
+and `print` statements. Are you any more confident?
 
 Tools don't just help us do things more easily; they shape what we consider
 possible and encourage some working practices while discouraging others. They
@@ -17,11 +14,11 @@ something are willing to invest time in learning how to do it better. In
 programming, that means mastering new tools and the practices that go with them.
 
 I actually believe that processes are more important than tools, but that's
-because I know how to use whatever tools I have at hand to support the working
+because I know how to use whatever tools I haved to support the working
 practices I think are most productive. However, I focus on tools when talking to
-students because tools are more tangible: it's easier to tell if someone is
-using version control or ticketing than it is to tell if they're designing or
-estimating sensibly.
+students because they are are more tangible: it's easier to tell if someone is
+using version control or a style checker than it is to tell if they're designing
+or estimating sensibly.
 
 So here, in more-or-less priority order, are the tools you should learn *after*
 you are comfortable with version control and a unit testing framework.

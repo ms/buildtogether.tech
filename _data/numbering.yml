@@ -29,26 +29,26 @@ entries:
   label: '6'
   slug: collaborate
   title: Collaborating
-- file: ./tooling/index.md
-  kind: Chapter
-  label: '7'
-  slug: tooling
-  title: Tooling
-- file: ./rights/index.md
-  kind: Chapter
-  label: '8'
-  slug: rights
-  title: Rights
 - file: ./design/index.md
   kind: Chapter
-  label: '9'
+  label: '7'
   slug: design
   title: Testing, Evolution, and Design
+- file: ./tooling/index.md
+  kind: Chapter
+  label: '8'
+  slug: tooling
+  title: Tooling
 - file: ./process/index.md
   kind: Chapter
-  label: '10'
+  label: '9'
   slug: process
   title: Process
+- file: ./rights/index.md
+  kind: Chapter
+  label: '10'
+  slug: rights
+  title: Rights
 - file: ./thinking/index.md
   kind: Chapter
   label: '11'
@@ -108,10 +108,11 @@ figures:
   after-clone: '6.2'
   after-fork: '6.1'
   after-remote: '6.3'
-  process-matrix: '10.1'
+  process-matrix: '9.1'
   thinking-cognitive-architecture: '11.2'
   thinking-frisian: '11.3'
   thinking-models: '11.1'
+  use-case-map: '7.1'
   washburn-2016-what-went-right: '12.1'
   washburn-2016-what-went-wrong: '12.2'
 tables:

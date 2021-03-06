@@ -165,6 +165,24 @@ Stephen D. Brookfield and Stephen Preskill:
 <em>The Discussion Book: 50 Great Ways to Get People Talking</em>.
 Jossey-Bass, 2016, 978-1119049715.
 </dd>
+<dt id="brown2011" class="bibliography">Brown2011</dt>
+<dd>
+Amy Brown and Greg Wilson (eds.):
+<em><a href="http://aosabook.org">The Architecture of Open Source Applications: Elegance, Evolution, and a Few Fearless Hacks</a></em>.
+Lulu, 2011, 978-1257638017.
+</dd>
+<dt id="brown2012" class="bibliography">Brown2012</dt>
+<dd>
+Amy Brown and Greg Wilson (eds.):
+<em><a href="http://aosabook.org">The Architecture of Open Source Applications: Structure, Scale, and a Few More Fearless Hacks</a></em>.
+Lulu, 2012, 978-0201103427.
+</dd>
+<dt id="brown2016" class="bibliography">Brown2016</dt>
+<dd>
+Amy Brown and Michael DiBernardo (eds.):
+<em><a href="http://aosabook.org">500 Lines or Less: Experienced Programmers Solve Interesting Problems</a></em>.
+Lulu, 2016, 978-1329871274.
+</dd>
 <dt id="brown2017" class="bibliography">Brown2017</dt>
 <dd>
 Neil C. C. Brown and Amjad Altadmri:
@@ -406,6 +424,12 @@ Andrew Hunt and David Thomas:
 <em>The Pragmatic Programmer: From Journeyman to Master</em>.
 Addison-Wesley Professional, 1999, 978-0201616224.
 </dd>
+<dt id="irving2021" class="bibliography">Irving2021</dt>
+<dd>
+Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson:
+<em>Research Software Engineering with Python: Building Software that Makes Research Possible</em>.
+Chapman & Hall/CRC Press, 2019, TBD.
+</dd>
 <dt id="kalyuga2003" class="bibliography">Kalyuga2003</dt>
 <dd>
 Slava Kalyuga, Paul Ayres, Paul Chandler, and John Sweller:
@@ -436,11 +460,23 @@ Chris F. Kemerer and Mark C. Paulk:
 "The Impact of Design and Code Reviews on Software Quality: An Empirical Study Based on PSP Data".
 <em>TSE</em>, 35(4), 2009, <a href="https://doi.org/10.1109/tse.2009.27">10.1109/tse.2009.27</a>.
 </dd>
+<dt id="kernighan1979" class="bibliography">Kernighan1979</dt>
+<dd>
+Brian W. Kernighan and P. J. Plauger:
+<em>The Elements of Programming Style</em>.
+McGraw-Hill, 1979, 978-0070342071.
+</dd>
 <dt id="kernighan1981" class="bibliography">Kernighan1981</dt>
 <dd>
 Brian W. Kernighan and P. J. Plauger:
 <em>Software Tools in Pascal</em>.
 Addison-Wesley Professional, 1981, 978-0201103427.
+</dd>
+<dt id="kernighan1983" class="bibliography">Kernighan1983</dt>
+<dd>
+Brian W. Kernighan and Rob Pike:
+<em>The Unix Programming Environment</em>.
+Prentice-Hall, 1983, 978-0139376818.
 </dd>
 <dt id="kernighan1999" class="bibliography">Kernighan1999</dt>
 <dd>
@@ -856,6 +892,12 @@ Routledge, 2018, 978-1138561724.
 Laurie Williams and Richard L. Upchurch:
 "In Support of Student Pair-Programming".
 <em>SIGCSE'01</em>, <a href="https://doi.org/10.1145/364447.364614">10.1145/364447.364614</a>.
+</dd>
+<dt id="wilson2019" class="bibliography">Wilson2019</dt>
+<dd>
+G, r, e, g,  , W, i, l, s, o, and n:
+<em>Teaching Tech Together</em>.
+Chapman & Hall/CRC Press, 2019, 978-0367352974.
 </dd>
 <dt id="xu2015" class="bibliography">Xu2015</dt>
 <dd>

@@ -35,16 +35,36 @@ How many chunks do you actually wind up writing?
     of writing $$C$$ chunks is $$C + p\sum_{i=0}^{C-1}{i}$$, which is
     $$C + p(C-1)(C-2)/2$$ or $$pC^{2}/2 + (1-p)C + 1$$.
 
-This model is unrealistic in several ways---the odds of rewriting code goes down
-the older it is, for example---but it captures a key point: the cost of rework
-grows faster than the number of pieces of work. Your goal when designing
-software is to reduce the cost of reworking things by lowering $$p$$.
+This model is unrealistic in several ways---the odds of rewriting old code is
+lower than the odds of rewriting recent code, for example---but it captures a
+key point: the cost of rework grows faster than the number of pieces of work.
+Your goal when designing software is to reduce the cost of reworking things by
+lowering $$p$$.  (You can also lower $$N$$ by re-using code from libraries; see
+<span x="thinking"></span> for an explanation of why you can't lower $$C$$ by
+increasing $$L$$.)
 
-I can't *tell* you how to design software.  I don't know anyone who can,
-either. I can *show* you by working through examples on a whiteboard, asking
-rhetorical questions, and setting problems for you to think about, but that
-doesn't translate well to print.  I can also tell you how to describe designs
-and how to tell a good design from a bad one, so we'll start with that.
+I can't *tell* you how to design software, and I don't know anyone who can. I
+can *show* you by working through examples on a whiteboard, asking rhetorical
+questions, and setting problems for you to think about, but that doesn't
+translate well to print.  I can also tell you how to describe designs and how to
+tell a good design from a bad one, so we'll start with that.
+
+<div class="callout" markdown="1">
+
+### Learning by example
+
+The best way to learn design in any field is to study examples
+<cite>Schon1984,Petre2016</cite>, and some of the best examples of software
+design come from the tools programmers use in their own work.  Some great
+examples of this approach include
+<cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> (which introduced the
+Unix philosophy to an entire generation of programmers),
+<cite>Brown2011,Brown2012,Brown2016</cite>, and [Mary Rose
+Cook][cook-mary-rose]'s [Gitlet][gitlet].  There is also [Software Tools in
+JavaScript][stjs], which was developed in tandem with this material, and can be
+used as a starting point for many different class projects.
+
+</div>
 
 ## Describing Designs
 
@@ -72,7 +92,7 @@ Schemas or data models.
     g="er_diagram">entity-relationship diagrams</span> that show the things the
     system stores, and the relationships between them.
 
-The <span g="conceptual_architecture">conceptual architecture</span> of the system.
+The systems' <span g="conceptual_architecture">conceptual architecture</span>.
 :   This shows how the important parts of the system fit together. It's also
     the least constrained, since it can include everything from specific
     sections of configuration files to class hierarchies to replicated web
@@ -102,9 +122,12 @@ The two kinds of diagram that I find most useful are the entity-relationship
 diagram and a combination of conceptual and workflow diagrams called a <span
 g="use_case_map">use-case map</span> <cite>Reekie2006</cite>.  The background is
 the system's conceptual architecture; the overlay traces what happens during a
-particular workflow.  It's easy to understand, and I found it very useful for
-checking the behavior of moderately complex systems, particularly ones built
-from lots of <span g="microservice">microserves</span>.
+particular workflow (<span f="use-case-map"></span>).  It's easy to understand,
+and I found it very useful for checking the behavior of moderately complex
+systems, particularly ones built from lots of <span
+g="microservice">microserves</span>.
+
+{% include figure id="use-case-map" alt="Use case map" cap="An example of a use case map." fixme=true %}
 
 <div class="callout" markdown="1">
 
@@ -128,10 +151,11 @@ practitioners very much <cite>Petre2013</cite>.
 
 What if you're starting with a blank sheet of paper (or an empty whiteboard)?
 How do you describe something that doesn't exist yet? The best way to start is
-to write your elevator pitch. Next, write one or two point-form stories
-describing how the application, feature, or library would be used. Be as
-concrete as possible: instead of saying, "Allows the user to find overlaps
-between their calendar and their friends' calendars," say:
+to write your elevator pitch (<span x="starting"></span>). Next, write one or
+two point-form <span g="user_story">user stories</span> describing how the
+application, feature, or library would be used. Be as concrete as possible:
+instead of saying, "Allows the user to find overlaps between their calendar and
+their friends' calendars," say:
 
 1.  The user selects one of her friends' calendars.
 
@@ -181,29 +205,31 @@ any previous decisions that your most recent decisions affect. Design is a very
 cyclic process: every time you add or change one thing, no matter how small, you
 may need to go back and re-design other things.
 
-There are two traps here for the inexperienced. The first is <span
+There are three traps here for the inexperienced. The first is <span
 g="analysis_paralysis">analysis paralysis</span>, where you find yourself
 revisiting issues over and over again without ever making any decisions that
-stick. The second is <span g="aih">already invented here</span> syndrome, in
-which someone says, "Look, we've already made a decision about that, let's not
-reopen the debate." Either can sink a project; together, they show why it's so
-hard to teach design, since what I'm basically saying is, "Argue enough, but not
-too much."
+stick. The second is <span g="nih">not invented here</span> syndrome, which
+leads people to say, "Sure, there's a library that does that, but I didn't write
+it so I'm not going to use it."  Its complement is <span g="aih">already
+invented here</span> syndrome, in which someone says, "Look, we've already made
+a decision about that, let's not reopen the debate." Any of these can sink a
+project; together, they show why it's so hard to teach design, since what I'm
+basically saying is, "Argue enough, but not too much."
 
 <div class="callout" markdown="1">
 
 ### How experts do it
 
 One of the biggest differences between experts and non-experts in any field is
-how quickly experts can rule out possibilities
-<cite>Schon1984,Petre2016</cite>. Whether it is software design, chess, or
-medical diagnosis, beginners check to see if their plan will work; experts, on
-the other hand, search for a refutation---a reason why it won't---so that they
-can narrow their focus as early as possible. One way to do this is to jump back
-and forth between a high-level plan and its low-level consequences; if one of
-those consequences reveals a flaw in the plan, they go back to the high level
-and make a correction. Doing this efficiently depends on having experience of
-past failures so that you know how a good idea might fail in practice.
+how quickly experts can rule out possibilities <cite>Schon1984</cite>. Whether
+it is software design, chess, or medical diagnosis, beginners check to see if
+their plan will work; experts, on the other hand, search for a refutation---a
+reason why it won't---so that they can narrow their focus as early as
+possible. One way to do this is to jump back and forth between a high-level plan
+and its low-level consequences; if one of those consequences reveals a flaw in
+the plan, they go back to the high level and make a correction. Doing this
+efficiently depends on having experience of past failures so that you know how a
+good idea might fail in practice.
 
 </div>
 
@@ -328,6 +354,17 @@ we're deploying, but not exactly the same. However, this is a good economic
 tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
 prevent) a lot more by making testing cheap.
+
+<span class="callout" markown="1">
+
+### Small examples, loosely connected
+
+This discussion is an example of teaching design by example. A generic statement
+that, "Building components that can easily be replaced makes testing easier," is
+only meaningful if you already understand the point; seeing an example makes it
+more relatable.
+
+</span>
 
 ## Design for Evolution
 
@@ -458,9 +495,10 @@ versions.
 
 ## Scriptability
 
-Rule \#3 of <cite>Taschuk2017</cite> is, "Make common operations easy to
+Rule #3 of <cite>Taschuk2017</cite> is, "Make common operations easy to
 control."  Like testing, it's a lot easier to do if you design programs with
-this goal in mind.
+this goal in mind, and programs that are designed to do this tend to be
+easier to understand, test, and extend.
 
 You can make programs controllable in at least three different ways:
 
@@ -486,10 +524,28 @@ A programming interface.
 :   If the application is written as a set of libraries, each with its own API,
     then the interface the general user sees can be written as a thin layer that
     combines those libraries. Users can then write code of their own to control
-    the libraries if they want to extend the application's behavior.  Most large
-    games are written this way, and languages like [Lua][lua] are designed to be
-    embedded in applications so that users can write modifications right then
-    and there.
+    the libraries if they want to extend the application's behavior.
+
+The last of these is what we mean by saying that something is <span
+g="scriptable">scriptable</span>.  One of the things that made Microsoft Office
+so popular was users' ability to write scripts for Word, Excel, and other tools
+in [Visual Basic][visual-basic].  Today, many games include a scripting language
+like [Lua][lua] so that users can write modifications right then and there.
+Scripting is particularly helpful when you want to test a user interface, since
+it allows you to write short programs that trigger events like "click this
+button" or "enter this password" and to interrogate the system's state
+afterward.
+
+<div class="callout" markdown="1">
+
+### Merely useful
+
+Why do we call them scripts instead of programs, and why do we call it scripting
+instead of programming? The answer, I think, is that if everyone can do it, it
+can't be cool: as a computer science professor said to me once about something
+similar, "I realize it's popular, but it's merely useful."
+
+</div>
 
 ## Logging
 
@@ -585,3 +641,82 @@ and overwrite `log.1`. Web servers and other long-lived programs are usually set
 up to do this so that they don't fill up the disk with log information.  It's
 all straightforward to set up, and once it's in place, it gives you a lot more
 insight into what your program is actually doing.
+
+## Defensive Programming
+
+The first step in building confidence in our programs is to assume that mistakes
+will happen and guard against them.  This is called <span
+g="defensive_programming">defensive programming</span>, and the most common way
+to do it is to add <span g="assertion">assertions</span> to our code so that it
+checks itself as it runs.  An assertion is a statement that something must be
+true at a certain point in a program.  When the program runs, it checks the
+assertion's condition.  If it's true, the program does nothing; if it's false,
+it halts and prints a user-defined error message.  For example, this Python code
+halts as soon as the loop encounters an impossible word frequency:
+
+```python
+frequencies = [13, 10, 2, -4, 5, 6, 25]
+total = 0.0
+for freq in frequencies[:5]:
+    assert freq >= 0.0, 'Word frequencies must be non-negative'
+    total += freq
+print('total frequency of first 5 words:', total)
+```
+
+{: .continue}
+Programs intended for widespread use are full of assertions: 10-20% of the code
+they contain are there to check that the other 80-90% are working correctly.
+
+## Unit Testing {#testing-unit}
+
+Catching errors is good, but preventing them is better, so responsible
+programmers test their code.  As the name suggests, a <span g="unit_test">unit
+test</span> checks the correctness of a single unit of software.  Exactly what
+constitutes a "unit" is subjective, but it typically means the behavior of a
+single function in one situation.
+
+A single unit test will typically have:
+
+-   a <span g="fixture">fixture</span>, which is the thing being tested (e.g., an
+    array of numbers);
+
+-   an <span g="actual_result">actual result</span>, which is what the code
+    produces when given the fixture; and
+
+-   an <span g="expected_result">expected result</span> that the actual result is
+    compared to.
+
+The fixture is typically a subset or smaller version of the data the function
+will typically process. In fact, it should be a reprex (<span
+x="collaborate"></span>), i.e., exactly the same kind of minimal example you
+would post online if you were asking for help.
+
+Writing one unit test is easy enough, but we should check other cases as well.
+To manage them, we can use a <span g="test_framework">test framework</span>
+(also called a <span g="test_runner">test runner</span>).  Like logging
+frameworks and many other things, most are very similar because they were
+inspired by the same forerunners. The most widely-used test framework for Python
+is called [`pytest`][pytest], which structures tests as follows:
+
+1.  Tests are put in files whose names begin with `test_`.
+2.  Each test is a function whose name also begins with `test_`.
+3.  These functions use `assert` to check results.
+
+The `pytest` library comes with a command-line tool that is also called
+`pytest`.  When run with no options, it searches for all files in or below the
+working directory whose names match the pattern `test_*.py`.  It then runs the
+tests in these files and summarizes their results.
+
+<span class="callout" markdown="1">
+
+### Testing visualizations
+
+Testing visualizations is hard: any change to the dimension of the plot, however
+small, can change many pixels in a <span g="raster_image">raster image</span>,
+and cosmetic changes such as moving the legend up a couple of pixels will cause
+all of the tests to fail.  The simplest solution is therefore to test the data
+used to produce the image rather than the image itself.  Unless you suspect that
+the drawing library itself contains bugs, the correct data should always produce
+the correct plot.
+
+</span>
