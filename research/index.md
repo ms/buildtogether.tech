@@ -233,7 +233,7 @@ therefore explored whether better error messages would make a difference.  For
 example, <cite>Becker2016</cite> rewrote some of the Java compiler's messages so
 that instead of:
 
-```
+```out
 C:\stj\Hello.java:2: error: cannot find symbol
         public static void main(string[ ] args)
 ^
@@ -244,7 +244,7 @@ Process terminated ... there were problems.
 {: .continue}
 learners would see:
 
-```
+```out
 Looks like a problem on line number 2.
 If "string" refers to a datatype, capitalize the 's'!
 ```
@@ -339,9 +339,9 @@ abstract interpretation flow graph (which is the set of all paths once possible
 data values are taken into account).  To make this more concrete, the control
 flow graph (CFG) for:
 
-```
+```python
 01: x = 0
-02: if x &gt; 0:
+02: if x > 0:
 03:     x = 1
 ```
 

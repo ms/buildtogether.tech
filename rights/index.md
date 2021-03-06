@@ -296,10 +296,10 @@ it places the fewest restrictions on future action.
 The [Hippocratic License][hippocratic-license] is a newer license that is
 quickly becoming popular.  Where the GPL requires people to share their work,
 the Hippocratic License requires them to do no harm.  More precisely, it forbids
-people from using the software in ways that violate the [Universal Declaration
-of Human Rights][udhr].  We have learned the hard way that software and science
-can be mis-used; adopting the Hippocratic License is a small step toward
-preventing this.
+people from using the software in ways that violate the Universal Declaration of
+Human Rights.  We have learned the hard way that software and science can be
+mis-used; adopting the Hippocratic License is a small step toward preventing
+this.
 
 </div>
 

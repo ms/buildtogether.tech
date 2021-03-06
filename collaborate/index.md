@@ -3,11 +3,11 @@
 
 <span x="versioning"></span> described how to use version control to manage
 individual work, but it really comes into its own when we are working with other
-people. Software forges like [GitHub][github], [GitLab][gitlab], and
+people.  Forges like [GitHub][github], [GitLab][gitlab], and
 [BitBucket][bitbucket] are all designed to support this, and they all provide
-other tools for managing and reviewing shared information. This chapter will
-look at how to use them to prepare the ground for <span x="process"></span>'s
-discussion of software development processes.
+other tools for managing and reviewing shared information. This chapter looks at
+how to use those tools so that <span x="process"></span>'s discussion of
+software development processes will make more sense.
 
 ## Using Git Together
 
@@ -25,218 +25,223 @@ comfortable using Git, but if the project is larger, or if contributors are
 worried that they might make a mess in the `main` branch, the second approach is
 safer.
 
-Git itself doesn't have any notion of a "main repository", but GitHub
-and other software forges all encourage people to use Git as if there was one.
-Suppose, for example, that Marian wants to contribute to the assignment that
-Peggy is hosting on GitHub at `https://github.com/peggy/zipf`.  Marian can go to
-that URL and click on the "Fork" button in the upper right corner.  GitHub
-immediately creates a copy of Peggy's repository within Marian's account on
-GitHub's own servers.
+Git itself doesn't have any notion of a "main repository", but GitHub and other
+software forges all encourage people to use Git as if there was one.  For
+examle, suppose that Amira wants to contribute to the assignment that Sami is
+hosting on GitHub at `https://github.com/sami/homework5`.  Amira can go to that
+URL and click on the "Fork" button in the upper right corner.  GitHub goes ahead
+and creates a copy of Sami's repository within Amira's account on GitHub's own
+servers. When the command completes, nothing has happened yet on Amira's own
+machine: the new repository exists only on GitHub.  When Amira explores its
+history, she sees that it contains all of the changes Sami made (<span
+f="after-fork"></span>).
 
-When the command completes, nothing has happened yet on Marian's own machine:
-the new repository exists only on GitHub.  When Marian explores its history, she
-sees that it contains all of the changes Peggy made.
+{% include figure id="after-fork" alt="After forking" cap="What repositories are where after forking." fixme=true %}
 
-A copy of a repository is a clone just like the ones you have created earlier;
+A fork of a repository is a clone just like the ones you have created earlier;
 it's just hosted on the forge's servers instead of your laptop.  In order to
-start working on the project, Marian needs a clone of *their* repository (not
-Peggy's) on their own computer.  We will modify Marian's prompt to include their
-desktop user ID (`marian`) and working directory (initially `~`) to make it
+start working on the project, Amira needs a clone of *their* repository (not
+Sami's) on their own computer.  We will modify Amira's prompt to include their
+desktop user ID (`amira`) and working directory (initially `~`) to make it
 easier to follow what's happening:
 
-```
-marian:~ $ git clone https://github.com/marian/homework5.git
-```
-
-This command creates a new directory with the same name as the project, i.e.,
-`homework5`.  When Marian goes into this directory and runs `ls` and `git log`,
-she sees all of the project's files and history:
-
-```
-marian:~ $ cd bst
-marian:~/bst $ ls
+```sh
+amira:~ $ git clone https://github.com/amira/homework5.git
 ```
 
-```
-marian:~/bst $ git log --oneline -n 4
+This command creates a new directory with the same name as the project on
+Amira's machine (<span f="after-clone"></span>).  When Amira goes into this
+directory and runs `ls` and `git log`, she sees all of the project's files and
+history:
+
+```sh
+amira:~ $ cd homework5
+amira:~/homework5 $ ls
 ```
 
-Marian also sees that Git has automatically created a remote for their
-repository that points back at their repository on GitHub:
-
-```
-marian:~/bst $ git remote -v
+```sh
+amira:~/homework5 $ git log --oneline -n 4
 ```
 
+{% include figure id="after-clone" alt="After cloning" cap="What repositories are where after cloning." fixme=true %}
+
+Amira also sees that Git has automatically created a remote for their repository
+that points back at their repository on GitHub:
+
+```sh
+amira:~/homework5 $ git remote -v
 ```
-origin  https://github.com/marian/bst.git (fetch)
-origin  https://github.com/marian/bst.git (push)
+```out
+origin  https://github.com/amira/homework5.git (fetch)
+origin  https://github.com/amira/homework5.git (push)
 ```
 
-Marian can pull changes from their fork and push work back there, but needs to
-do one more thing before getting the changes from Peggy's repository:
+Amira can pull changes from their fork and push work back there, but needs to
+add a remote pointing at Sami's repository first (<span f="after-remote"></span>):
 
+```sh
+amira:~/homework5 $ git remote add upstream https://github.com/sami/homework5.git
+amira:~/homework5 $ git remote -v
 ```
-marian:~/bst $ git remote add upstream https://github.com/peggy/bst.git
-marian:~/bst $ git remote -v
-```
-```
-origin      https://github.com/marian/bst.git (fetch)
-origin      https://github.com/marian/bst.git (push)
-upstream    https://github.com/peggy/bst.git (fetch)
-upstream    https://github.com/peggy/bst.git (push)
+```out
+origin      https://github.com/amira/homework5.git (fetch)
+origin      https://github.com/amira/homework5.git (push)
+upstream    https://github.com/sami/homework5.git (fetch)
+upstream    https://github.com/sami/homework5.git (push)
 ```
 
-Marian has called their new remote `upstream` because it points at the
-repository theirs is derived from.  She could use any name, but `upstream` is a
-nearly universal convention.
+{: .continue}
+Amira has called their new remote `upstream` because it points at the repository
+theirs is derived from.  She could use any name, but `upstream` is a nearly
+universal convention.
 
-With this remote in place, Marian is finally set up.  Suppose, for example, that
-Peggy has modified the project's `README.md` file to add Marian as a
-contributor.  (Again, we show Peggy's user ID and working directory in her
-prompt to make it clear who's doing what):
+{% include figure id="after-remote" alt="Git remotes" cap="Which Git remotes point where." fixme=true %}
 
-```
-# BST
+With this remote in place, Amira is finally set up.  Suppose, for example, that
+Sami has modified the project's `README.md` file to add Amira as a contributor.
+(Again, we show Sami's user ID and working directory in her prompt to make it
+clear who's doing what):
+
+```txt
+# Homework 5
 
 Our homework project
 
 ## Contributors
 
-- Peggy
-- Marian
+- Sami
+- Amira
 ```
 
-Peggy commits her changes and pushes them to *her* repository on GitHub:
+Sami commits their changes and pushes them to *their* repository on GitHub:
 
-```
-peggy:~/bst $ git commit -a -m "Adding Marian as a contributor"
-peggy:~/bst $ git push origin main
+```sh
+sami:~/homework5 $ git commit -a -m "Adding Amira as a contributor"
+sami:~/homework5 $ git push origin main
 ```
 
-Peggy's changes are now on her desktop and in her GitHub repository but not in
-either of Marian's repositories (local or remote).  Since Marian has created a
-remote that points at Peggy's GitHub repository, though, she can easily pull
-those changes to their desktop:
+Sami's changes are now on their desktop computer and in their GitHub repository
+but not in either of Amira's repositories (local or remote).  Since Amira has
+created a remote that points at Sami's GitHub repository, though, she can easily
+pull those changes to their desktop:
 
-```
-marian:~/bst $ git pull upstream main
+```sh
+amira:~/homework5 $ git pull upstream main
 ```
 
 Pulling from a repository owned by someone else is no different than pulling
-from a repository we own.  In either case, Git merges the changes and asks us to
-resolve any conflicts that arise.  The only significant difference is that, as
-with `git push` and `git pull`, we have to specify both a remote and a branch:
-in this case, `upstream` and `main`.
+from a repository you own.  In either case, Git merges the changes and asks you
+to resolve any conflicts that arise.  The only significant difference is that,
+as with `git push` and `git pull`, you have to specify both a remote and a
+branch: in this case, `upstream` and `main`.
 
-Marian can now get Peggy's work, but how can Peggy get Marian's?  She could
-create a remote that pointed at Marian's repository on GitHub and periodically
-pull in Marian's changes, but that would lead to chaos, since we could never be
-sure that everyone's work was in any one place at the same time.  Instead,
-almost everyone uses <span g="pull_request">pull requests</span>.  A pull
-request is essentially a note saying, "Someone would like to merge branch A of
-repository B into branch X of repository Y".  The pull request does not contain
-the changes, but instead points at two particular branches.  That way, the
-difference displayed is always up to date if either branch changes.
+Amira can now get Sami's work, but how can Sami get Amira's?  They could create
+a remote that pointed at Amira's repository on GitHub and periodically pull in
+Amira's changes, but that would lead to chaos, since they could never be sure
+that everyone's work was in any one place at the same time.  Instead, almost
+everyone uses <span g="pull_request">pull requests</span> (PR).  A PR is
+essentially a note saying, "Someone would like to merge branch A of repository B
+into branch X of repository Y".  The PR does not contain the changes, but
+instead points at two particular branches.  That way, the difference displayed
+is always up to date if either branch changes.
 
-But a pull request can store more than just the source and destination branches:
-it can also store comments people have made about the proposed merge.  Users can
-comment on the pull request as a whole, or on particular lines, and mark
-comments as out of date if the author of the pull request updates the code that
-the comment is attached to.  Complex changes can go through several rounds of
-review and revision before being merged, which makes pull requests the review
-system we all wish journals actually had.
+But a PR can store more than just the source and destination branches: it can
+also store comments people have made about the proposed merge.  Users can
+comment on the PR as a whole, or on particular lines, and mark comments as out
+of date if the author of the PR updates the code that the comment is attached
+to.  Complex changes can go through several rounds of review and revision before
+being merged, which makes PRs the review system we all wish journals actually
+had.
 
-To see this in action, suppose Marian wants to add their email address to
-`README.md`.  She creates a new branch and switch to it:
+To see this in action, suppose Amira wants to add their email address to
+`README.md`.  She creates a new branch and switches to it:
 
-```
-marian:~/bst $ git checkout -b adding-email
+```sh
+amira:~/homework5 $ git checkout -b adding-email
 ```
 
 {: .continue}
 then makes a change and commit it:
 
-```
-marian:~/bst $ git commit -a -m "Adding my email address"
-```
-
-```
-marian:~/bst $ git diff HEAD~1
+```sh
+amira:~/homework5 $ git commit -a -m "Adding my email address"
 ```
 
-Marian's changes are only in her local repository.  She cannot create a pull
+```sh
+amira:~/homework5 $ git diff HEAD~1
+```
+
+Amira's changes are only in her local repository.  She cannot create a pull
 request until those changes are on GitHub, so she pushes her new branch to her
 repository on GitHub:
 
-```
-marian:~/bst $ git push origin adding-email
-```
-
-When Marian goes to her GitHub repository in the browser, GitHub notices that
-she has just pushed a new branch and asks her if she wants to create a pull
-request.  When Marian clicks on the button, GitHub displays a page showing the
-default source and destination of the pull request and a pair of editable boxes
-for the pull request's title and a longer comment.
-
-If she scrolls down, Marian can see a summary of the changes that will be in the
-pull request.  Whe she clicks "Create Pull Request", Git gives it a unique
-serial number.  This pull request is displayed in Peggy's repository rather than
-Marian's since it is Peggy's repository that will be affected if the pull
-request is merged.
-
-Clicking on the "Pull requests" tab in Peggy's repository brings up a list of
-PRs and clicking on the pull request link itself displays its details.  Marian
-and Peggy can both see and interact with these pages, though only Peggy has
-permission to merge.
-
-Since there are no conflicts, GitHub will let Peggy merge the PR immediately
-using the "Merge pull request" button.  She could also discard or reject it
-without merging using the "Close pull request" button.  Instead, she clicks on
-the "Files changed" tab to see what Marian has changed.
-
-If Marian changes `README.md`, commits, and pushes to her branch while the pull
-request is open, the pull request is immediately updated.  As explained above, a
-PR is a note asking that two branches be merged, so if either end of the merge
-changes, the PR updates automatically.
-
-If Peggy has merged several pull requests, Marian can update her desktop
-repository by pulling from her `upstream` repository (i.e., Peggy's repository):
-
-```
-marian:~/bst $ git checkout main
-marian:~/bst $ git pull upstream main
+```sh
+amira:~/homework5 $ git push origin adding-email
 ```
 
-Finally, Marian can their those changes back to the `main` branch in her own
+When Amira views her repository in the browser, GitHub notices that she has just
+pushed a new branch and asks her if she wants to create a PR.  When she clicks
+on the button, GitHub displays a page showing the default source and destination
+of the PR and a pair of editable boxes for the pull request's title and a longer
+comment.
+
+If she scrolls down, Amira can see a summary of the changes that will be in the
+PR.  Whe she clicks "Create Pull Request", Git gives it a unique serial number
+(which is *not* a commit ID).  The PR is displayed in Sami's repository rather
+than Amira's since it is Sami's repository that will be affected if the PR is
+merged.
+
+Clicking on the "Pull requests" tab in Sami's repository brings up a list of PRs
+and clicking on the PR link itself displays its details.  Amira and Sami can
+both see and interact with these pages, though only Sami has permission to
+merge.
+
+Since there are no conflicts, GitHub will let Sami merge the PR immediately
+using the "Merge pull request" button.  They could also discard or reject it
+without merging using the "Close pull request" button.  Instead, they click on
+the "Files changed" tab to see what Amira has changed.
+
+If Amira changes `README.md`, commits, and pushes to her branch while the pull
+request is open, the PR is immediately updated.  As explained above, a PR is a
+note asking that two branches be merged, so if either end of the merge changes,
+the PR updates automatically.
+
+If Sami has merged several PRs, Amira can update her desktop repository by
+pulling from her `upstream` repository (i.e., Sami's repository):
+
+```sh
+amira:~/homework5 $ git checkout main
+amira:~/homework5 $ git pull upstream main
+```
+
+Finally, Amira can their those changes back to the `main` branch in her own
 repository on GitHub:
 
-```
-marian:~/bst $ git push origin main
+```sh
+amira:~/homework5 $ git push origin main
 ```
 
 All four repositories are now synchronized. If there are any conflicts along the
-way, Peggy and Marian can resolve them just as they would resolve conflicts
+way, Sami and Amira can resolve them just as they would resolve conflicts
 between branches in a single repository.  GitHub and other forges do allow
 people to merge conflicts through their browser-based interfaces, but doing it
 on our desktop means we can use our favorite editor to resolve the conflict.  It
 also means that if the change affects the project's code, we can run everything
 to make sure it still works.
 
-But what if Marian or someone else merges another change while Peggy is
-resolving this one, so that by the time she pushes to her repository there is
-another, different, conflict?  In theory this cycle could go on forever; in
-practice, it reveals a communication problem that Peggy (or someone) needs to
-address.  If two or more people are constantly making incompatible changes to
-the same files, they should discuss who's supposed to be doing what, or
-rearrange the project's contents so that they aren't stepping on each other's
-toes.
+But what if Amira or someone else merges another change while Sami is resolving
+this one, so that by the time she pushes to her repository there is another,
+different, conflict?  In theory this cycle could go on forever; in practice, it
+reveals a communication problem that Sami (or someone) needs to address.  If two
+or more people are constantly making incompatible changes to the same files,
+they should discuss who's supposed to be doing what, or rearrange the project's
+contents so that they aren't stepping on each other's toes.
 
 ## Code Reviews
 
-There's no point creating pull requests if they are all merged as-is. The reason
-they exist is to allow <span g="code_review">code review</span>.  One study
-after another since the mid-1970s has proven that code review is the most
+There's no point creating PRs if they are all merged as-is. The reason they
+exist is to allow <span g="code_review">code review</span>.  One study after
+another since the mid-1970s has proven that code review is the most
 cost-effective way to find bugs in software <cite>Cohen2010</cite>. It is also
 the most effective way to share knowledge between team members: if you read
 someone else's code, you have a chance to learn all the things that you didn't
@@ -260,16 +265,15 @@ Review at most 200 lines of a code at a time.
     our experience it's better to start with something smaller and work up to
     that.
 
-    A corollary of this rule is that no pull request should be more than 200
-    lines long. If one is, the odds are that reviewers won't be able to hold it
-    all in their head at once (<span x="thinking"></span>) and so will miss
-    things.
+    A corollary of this rule is that no PR should be more than 200 lines long.
+    If one is, the odds are that reviewers won't be able to hold it all in their
+    head at once (<span x="thinking"></span>) and so will miss things.
 
 Authors should clean up code before review.
-:   If the person creating the pull request goes through and adds some more
-    comments, cleans up some variable names, and does a bit of refactoring
-    (<span x="design"></span>), they won't just make reviewing easier: the odds
-    are very good that they will find and fix a few problems on their own.
+:   If the person creating the PR goes through and adds some more comments,
+    cleans up some variable names, and does a bit of refactoring (<span
+    x="design"></span>), they won't just make reviewing easier: the odds are
+    very good that they will find and fix a few problems on their own.
 
 Use checklists.
 :   <cite>Gawande2011</cite> popularized the idea that using checklists improves
@@ -291,15 +295,12 @@ Follow up.
     to learn a few more things from the author.
 
 Don't tolerate rudeness.
-    Most code review guidelines say, "Be respectful."  The problem is that if
-    you are, you probably don't need to be told that, and if you're not, a
-    written rule probably isn't going to change your behavior. What *will*
-    change behavior is teammates defending the victims of rudeness by telling
-    the offender, "That's not how we speak to each other."
-    <cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that
-    training people how to be good <span g="ally">allies</span> was more
-    effective at reducing abuse than most of the other things companies do;
-    we'll explore this more in <span x="rights"></span>.
+:   Most code review guidelines say, "Be respectful."  The problem is that if
+    you are, you probably don't need to be told that. What *will* is teammates
+    defending the victims of rudeness by telling the offender, "That's not how
+    we speak to each other." A Code of Conduct (<span x="versioning"></span>)
+    helps prevent this; we will look at other strategies in <span
+    x="rights"></span>.
 
 So what does a code review actually look like? Here's a short Python program
 that searches for duplicated files (i.e., ones that have exactly the same
@@ -428,7 +429,7 @@ well not have said it.
 
 Wikis seem like a good way to keep notes, create documentation, and so on. Their
 main strength is the fact that content is automatically and immediately visible
-on the web. In practice, you'll probably get as much mileage out of a bunch of
+on the web.  These days, you will probably get more mileage out of a bunch of
 Markdown pages under version control---you have to set up a repository anyway,
 and version control systems are much better at reconciling conflicts between
 concurrent authors than wikis.

@@ -388,6 +388,12 @@ Michael Hilton, Timothy Tunnell, Kai Huang, Darko Marinov, and Danny Dig:
 "Usage, Costs, and Benefits of Continuous Integration in Open-Source Projects".
 <em>ASE'16</em>, <a href="https://doi.org/10.1145/2970276.2970358">10.1145/2970276.2970358</a>.
 </dd>
+<dt id="hippel2006" class="bibliography">Hippel2006</dt>
+<dd>
+Eric von Hippel:
+<em>Democratizing Innovation</em>.
+MIT Press, 2006, 978-0262720472.
+</dd>
 <dt id="hofmeister2017" class="bibliography">Hofmeister2017</dt>
 <dd>
 Johannes Hofmeister, Janet Siegmund, and Daniel V. Holt:
@@ -728,6 +734,12 @@ Todd Sedano, Paul Ralph, and Cécile Péraire:
 Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
 "The Role of Ethnographic Studies in Empirical Software Engineering".
 <em>TSE</em>, 42(8), 2016, <a href="https://doi.org/10.1109/tse.2016.2519887">10.1109/tse.2016.2519887</a>.
+</dd>
+<dt id="sholler2019" class="bibliography">Sholler2019</dt>
+<dd>
+Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wilson:
+"Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
+<em>PLoS Computational Biology</em>, 15(9), 2019, <a href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
 </dd>
 <dt id="silva2016" class="bibliography">Silva2016</dt>
 <dd>

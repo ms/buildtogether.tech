@@ -105,6 +105,9 @@ entries:
   slug: evaluation
   title: Performance Evaluation
 figures:
+  after-clone: '6.2'
+  after-fork: '6.1'
+  after-remote: '6.3'
   process-matrix: '10.1'
   thinking-cognitive-architecture: '11.2'
   thinking-frisian: '11.3'

@@ -287,7 +287,7 @@ A better strategy is to add unique IDs to significant elements in the HTML page,
 and only check the contents of those elements. For example, if we're testing
 login, then somewhere on the page there ought to be an element like this:
 
-```
+```html
 <div id="currentuser">Logged in as <strong>marian</strong>
 (<a href="http://www.example.org/logout">logout</a>
 |

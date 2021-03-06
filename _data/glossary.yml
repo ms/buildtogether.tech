@@ -423,7 +423,7 @@
     def: >
       FIXME
 
-- key: feign_ignorance
+- key: feigning_ignorance
   en:
     term: "feigning ignorance"
     def: >
