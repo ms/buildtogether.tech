@@ -5,8 +5,24 @@ In most courses, once you've handed in an assignment you're done with it. Course
 projects are different: they often roll forward from one term to the next, so
 the end of one team's involvement isn't necessarily the end of the project, and
 they are meant to simulate real life, where delivery of a particular version is
-just another step in the product lifecycle. Here , are some of the things you
-might be asked to do during your project or at its end.
+just another step in the product lifecycle.  This chapter describes some things
+you might be asked to do during your project or at its end; even if you're not
+asked, most of them are worth doing.
+
+At a bare minimum, your project should finish with:
+
+1.  An attractive home page with an elevator pitch and a few paragraphs or
+    bullet lists to help newcomers orient themselves.
+
+1.  An architectural overview, including a block diagram of the major components
+    and a walkthrough of the processing cycle.
+
+1.  An installation guide.
+
+1.  An up-to-date set of issues. If the work has been done, the issue should be
+    closed; if it hasn't, the issue should describe the state of the bug (or
+    enhancement, or question) well enough for someone to know where to start
+    work.
 
 ## Version Numbers
 
@@ -60,30 +76,8 @@ build after the fact---you wait until QA (or whoever) says that build #1017 is
 good enough to send out to customers, then tag it in version control.
 
 A four-part numbering scheme is more than you need for an undergraduate
-course. You can probably get away with just two numbers: one to identify the
-assignment the software was submitted for, and another to identify the files
-that went into that "release".
-
-## The Project
-
-As I've already said several times, software development teams in industry care
-almost as much about handing their projects off cleanly as they do about what's
-actually in any particular release (in part because they themselves are the
-people most likely to be affected). This usually isn't part of undergraduate
-project courses, but it should be; if your instructor is enlightened enough to
-include this in her grading scheme, here are some things she might look for:
-
-1.  An attractive home page with an elevator pitch and a few paragraphs or
-    bullet lists to help newcomers orient themselves.
-
-1.  An architectural overview, including block diagrams of the major components
-    and a walkthrough of the processing cycle.
-
-1.  An installation guide.
-
-1.  An up-to-date set of tickets. If the work has been done, the ticket should
-    be closed; if it hasn't, the ticket should describe the state of the bug (or
-    enhancement, or question) fully and accurately.
+course. You can probably get away with just one: the assignment the software was
+submitted for.
 
 ## Bugs
 
@@ -135,11 +129,12 @@ An introduction that orients the reader.
     *next* team will need in order to continue the project.
 
 A summary of what was accomplished.
-:   This should *not* simply rehash the A&E, although that's a good place to
-    start. Instead, it should describe the system's architecture, any features
-    of its data formats, class structure, or UI that won't immediately make
-    sense to a knowledgeable observer, and so on. As with the introduction, the
-    target audience is the next team to work on the project.
+:   This should *not* simply rehash the A&E (<span x="process"></span>),
+    although that's a good place to start. Instead, it should describe the
+    system's architecture, any features of its data formats, class structure, or
+    UI that won't immediately make sense to a knowledgeable observer, and so
+    on. As with the introduction, the target audience is the next team to work
+    on the project.
 
 A summary of the current state of the project.
 :   This should include high-level criticism ("The persistence layer works fine,
@@ -158,13 +153,13 @@ References.
 :   Include books, papers, and links the team found helpful so that whoever
     inherits the project doesn't have to search for them again.
 
-As you can see, this report is neither a user's guide nor maintenance
-documentation. Instead, it is like the end-of-contract reports I had to prepare
-when I was a consultant. What had I done to earn my customers' money? What
-should the next person (who might not be me) do? What could I tell them that
-would save them time? Internal documentation (like Javadoc) doesn't help with
-these questions, and anyway, the team should be producing that as they go along,
-not all in a rush at the end of term.
+This report is neither a user's guide nor maintenance documentation. Instead, it
+is like the end-of-contract reports I had to prepare when I was a consultant.
+What had I done to earn my customers' money? What should the next person (who
+might not be me) do? What could I tell them that would save them time? Internal
+documentation (like Javadoc) doesn't help with these questions, and anyway, the
+team should be producing that as they go along, not all in a rush at the end of
+term.
 
 So much for what the final report should include; how should you actually go
 about writing it? It will probably include:
@@ -176,9 +171,8 @@ about writing it? It will probably include:
 -   raster graphics (such as screen shots).
 
 Lots of tools exist that will handle these, but they all have their flaws. You
-can create your report as a set of wiki pages, but most wikis don't handle
-conflicts between concurrent authors, and wikis don't do equations or graphics
-any better than plain old HTML.
+can create your report as a set of wiki pages or Google Docs, but they don't
+flag conflicts between concurrent authors.
 
 On the other end of the spectrum are WYSIWYG editors like Microsoft Word and
 OpenOffice. Unfortunately, these get in the way at least as much as they help:
@@ -196,25 +190,24 @@ OpenOffice. Unfortunately, these get in the way at least as much as they help:
     makes it difficult to keep the document consistent over time.
 
 For these reasons, most teams format their reports as a set of Markdown pages
-under version control. That solves the problem of multiple authors (HTML is a
-text format, so diff and merge will work), and if you know a little CSS, you can
-make it look as pretty as you want. Diagrams and screenshots work well, but
-equations are problematic: MathML (the mathematical markup language) is
-complicated to write and poorly supported, so many people still resort to
-embedding pictures of equations in web pages.
+under version control and use a static site generator (<span
+x="collaborate"></span>) to turn them into a report. That solves the problem of
+multiple authors (HTML is a text format, so diff and merge will work), and if
+you know a little CSS, you can make it look as pretty as you want. Diagrams and
+screenshots work well, but equations are problematic: MathML (the mathematical
+markup language) is complicated to write and poorly supported, so many people
+still resort to embedding pictures of equations in web pages.
 
 <div class="callout" markdown="1">
 
-### XML and why not
+### XML and LaTeX
 
 If you're really keen, you can use an XML markup format like DocBook, which
 provides a set of semantically-meaningful tags like `<author>` and
 `<citation>`. Various tools can then compile the XML into HTML, PDF, or other
 formats. I've tried this, but have never been satisfied: it takes a lot of
-typing (or mousing) to add all those tags, which makes DocBook feel like
-overkill for a simple end-of-term report.
-
-</div>
+typing to add all those tags, which makes DocBook feel like overkill for a
+anything less than a legal document.
 
 Then there's LaTeX, a markup language that's much more sophisticated than HTML,
 and has literally thousands of add-on packages for equations, code formatting,
@@ -225,12 +218,14 @@ frustratingly slow formatting cycle, since documents have to be compiled into
 PDF or another viewable format before you can see the effects of your changes
 (although WYSIWYG tools like LyX are making great strides).
 
+</div>
+
 ## The Post Mortem
 
 The most valuable part of your project isn't the software you write, or the
-grade you're given. It's the project's post mortem. Literally, this is an
-examination of a deceased person; in a software project, it's a look back at
-what went right, and what went wrong.
+grade you're given: it's the post mortem. Literally, this is an examination of a
+deceased person; in a software project, it's a look back at what went right, and
+what went wrong.
 
 The aim of a post mortem is to help the team and its members do better next time
 by giving everyone a chance to reflect on what they've just accomplished. It is
@@ -241,11 +236,11 @@ Post mortems are pretty easy to run---just add the following to the rules for
 running a meeting:
 
 Get a moderator who wasn't part of the project.
-:   Someone who doesn't have a stake in the project should run the
-    meeting. Otherwise, the meeting will either go in circles, or focus on only
-    a subset of important topics. In the case of student projects, this
-    moderator might be the course instructor, or (if the course is too large, or
-    the instructor is lazy) a TA.
+:   Someone who doesn't have a stake in the project should run the meeting.
+    Otherwise, the meeting will either go in circles, or focus on only a subset
+    of important topics. In the case of student projects, this moderator might
+    be the course instructor, or (if the course is too large, or the instructor
+    is lazy) a TA.
 
 Set aside an hour, and *only* an hour.
 :   In my experience, nothing useful is said in the first ten minutes of anyone's
@@ -261,9 +256,12 @@ Require attendance.
     meeting is optional.
 
 Make two lists.
-:   When I'm moderating, I put the headings "Good" and "Bad" on the board, then do
-    a lap around the room and ask every person to give me one item (that hasn't
-    already been mentioned) for each list.
+:   When I'm moderating, I put the headings "Keep" and "Change" on the board,
+    then do a lap around the room and ask every person to give me one item that
+    hasn't already been mentioned for each list.  The "hasn't already been
+    mentioned" part is ipmortant: after the first few safe responses are up
+    on the board, people have to start saying the more difficult things that
+    really matter.
 
 Comment on actions rather than individuals.
 :   By the time the project is done, some people may not be able to stand one
@@ -303,8 +301,10 @@ one post mortem I did with students:
 
 ## Ten Simple Rules for Handing Over and Moving On
 
-This advice is for founders who are handing on their projects; see [this
-talk][carpentrycon-talk] for more detail.
+Your course project will probably end when the course does, but you might decide
+to carry on with it.  If you do, and if other people join in, you may eventually
+decide that it's time for you to move over.  This advice is based on my
+experience of doing that; see [this talk][carpentrycon-talk] for more detail.
 
 1. Be sure you mean it.
 :   Letting go will be hard on you, but not letting go will be even harder on your

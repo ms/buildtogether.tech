@@ -221,8 +221,8 @@ Final report (20%)
 Final state of project (20%)
 :   Most of my projects carry forward from term to term and team to team, so I
     award one fifth of the overall mark based on the state each team leaves the
-    project in.  Does everything build?  Have tickets been filed for all known
-    issues?  Does the wiki explain how to install the code, and do those
+    project in.  Does everything build?  Have issues been filed for all known
+    bug?  Does the wiki explain how to install the code, and do those
     instructions actually work?
 
 This grading scheme is labor-intensive: I probably spend 4--6 hours reading and

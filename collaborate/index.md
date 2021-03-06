@@ -335,13 +335,13 @@ system then assigns it a unique serial number. You can usually also specify:
 
 -   when it's due.
 
-If version control keeps track of where your project has been, your ticketing
-system keeps track of where you're going. After version control, it is the most
-important part of a team project; without it, you and your teammates will have
-to constantly ask each other "What are you working on?", "What am I supposed to
-be working on?", and "Who was supposed to do that?" Once you start using one
-it's easy to find out what the project's status is: just look at the open
-tickets, and at those that have been closed recently.  You can use this to
+If version control keeps track of where your project has been, your issue
+tracking system keeps track of where you're going. After version control, it is
+the most important part of a team project; without it, you and your teammates
+will have to constantly ask each other "What are you working on?", "What am I
+supposed to be working on?", and "Who was supposed to do that?" Once you start
+using one it's easy to find out what the project's status is: just look at the
+open issues and at those that have been closed recently.  You can use this to
 create agendas for your status meetings, and to remind yourself what you were
 doing three months ago when the time comes to write your final report.
 
@@ -363,7 +363,7 @@ including:
 
 -   its severity (i.e., how much damage the bug might do); and
 
--   other tickets that might be related.
+-   other issues that might be related.
 
 This is a lot more information than student projects require. In addition,
 students are almost always working on several courses at once, and it's common
@@ -371,7 +371,7 @@ for students to have to put their team project aside for a few days to work on
 assignments for other courses. For these reasons, I've found that most student
 teams won't actually use anything more sophisticated than a web-base to-do list:
 unless, of course, they're forced to by the grading scheme. In that case, most
-come away with the impression that tickets are something you only use when you
+come away with the impression that issues are something you only use when you
 have to.
 
 So what does a good issue look like?  <cite>Bettenburg2008</cite> found that the

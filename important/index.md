@@ -295,7 +295,7 @@ Everyone can check what was actually said or promised.
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
     follow up on them later.  If you are using an issue-tracking system (<span
-    x="tooling"></span>), create a ticket for each new question or task right
+    x="tooling"></span>), create an issue for each new question or task right
     after the meeting and update those that are being carried forward.  This
     helps a lot when the time comes to draw up the agenda for the next meeting.
 

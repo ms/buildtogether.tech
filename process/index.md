@@ -3,17 +3,16 @@
 
 A <span g="development_process">development process</span> defines who does
 what, when, in order to build a piece of software.  Many have been described
-over the last thirty-five years; most have passionate advocates and equally
+over the last fifty-odd years; most have passionate advocates and equally
 passionate detractors.
 
-I am sceptical of most claims made about processes, partly because they fly in
-the face of my personal experience, but also because teams that adopt
-diametrically opposed processes all see productivity improve.  One explanation
-is that common practice is the worst of all possible worlds, and any change at
-all would be an improvement.  (There are days when I believe this.)  A more
-likely explanation is that what really matters is paying attention to what
-you're doing.  It's kind of like dieting: Atkins, South Beach, macrobiotic,
-seasonal, or fruitarian is secondary to eating better and exercising more.
+I am sceptical of most claims made about processes, partly because teams that
+adopt diametrically opposed processes all see productivity improve.  One
+explanation is that common practice is the worst of all possible worlds, and any
+change at all would be an improvement.  (There are days when I believe this.)  A
+more likely explanation is that what really matters is paying attention to what
+you're doing.  It's kind of like dieting: Atkins, macrobiotic, seasonal, or
+fruitarian is secondary to eating better and exercising more.
 
 This chapter starts by describing how most programmers work day-to-day and how
 to adapt that routine to the imposed chaos of student life. It then compares two
@@ -129,24 +128,23 @@ each of which is completed before the next begins:
 
 1.  Deploy it (i.e., install it, configure it, etc.).
 
-This process was first described in <cite>Royce1970</cite> as an example of a
-flawed model that couldn't possibly work.  In real life, we always learn things
-in later stages that we couldn't reasonably have anticipated in earlier ones,
-which means we constantly have to go back and revise earlier decisions.  If we
-*do* try to figure out every detail in advance, we quickly succumb to analysis
-paralysis.
+This process was first described in <cite>Royce1970</cite> as something that
+couldn't possibly work.  In real life, we always learn things in later stages
+that we couldn't reasonably have anticipated in earlier ones, which means we
+constantly have to go back and revise earlier decisions.  If we *do* try to
+figure out every detail in advance, we quickly succumb to analysis paralysis.
 
 Every real software development processes attempts to resolve the tension
 between doing things once and spending so much time on planning that we never
 actually do anything.  In order to understand the differences between them it
-helps to look at the Boehm Curve, which shows the effort required to fix a bug
-based on when it is caught.
+helps to look at the <span g="boehm_curve">Boehm Curve</span>, which shows the
+effort required to fix a bug based on when it is caught.
 
-In the 1970s and 1980s, Boehm and others showed that fixing bugs becomes more
-expensive as you move later and later in the development cycle
-<cite>Boehm1981</cite>.  Better tools and vastly more powerful computers have
-flattened this curve over the past thirty years, but it is still more expensive
-to fix things later than earlier <cite>Dawson2010</cite>.
+In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
+you move later and later in the development cycle <cite>Boehm1981</cite>.
+Better tools and vastly more powerful computers have flattened this curve over
+the past thirty years, but it is still takes more effort to fix things later
+than earlier <cite>Dawson2010</cite>.
 
 Development teams deal with this in three ways.  The first is to ignore it.  If
 you're being paid a steady salary by a company that can survive delays and cost
@@ -382,7 +380,9 @@ a persistence layer before?
     or three, but it probably won't be off by a factor of ten.  Even if it is,
     it's better than no guess at all.
 
-Remember: the more estimating you do the better you'll get.
+Remember: the more estimating you do the better you'll get, but only if you
+compare what actually happened to what you predicted. No feedback: no
+improvement.
 
 ## Cutting Corners
 
@@ -420,7 +420,7 @@ long tasks would take were too optimistic by about 25%.  You should therefore go
 back to your schedule and add 25% to each task's estimate.  That means some of
 the things you originally planned to do will now spill off the end of your
 ten-week window.  That's OK: it's a shame you won't get to them, but at least
-you know it now and can start taking action (like lowering your customer's
+you know it now and can start taking action (like lowering your instructor's
 expectations) well in advance of delivery.
 
 In the real world these calculations are the responsibility of the <span
@@ -467,8 +467,8 @@ draw up a more realistic plan.
 In practice, the differences between these processes are a lot smaller than
 their advocates would have you believe.  Regardless of what which one they're
 officially using, most developers do some long-range planning at the start of
-the project (if only because customers are usually not willing to sign a blank
-check) and then revise their plans and aims as they go along.
+the project (if only because customers and instructors are usually not willing
+to sign a blank check) and then revise their plans and aims as they go along.
 
 Which process makes the most sense for an undergraduate course project?  The
 odds are that the question won't even come up: your instructor will probably
