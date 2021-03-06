@@ -1432,6 +1432,22 @@
   volume: 42
   year: 2016
 
+- key: Sholler2019
+  type: article
+  author:
+  - Dan Sholler
+  - Igor Steinmacher
+  - Denae Ford
+  - Mara Averick
+  - Mike Hoye
+  - Greg Wilson
+  title: "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects"
+  journal: PLoS Computational Biology
+  volume: 15
+  number: 9
+  year: 2019
+  doi: 10.1371/journal.pcbi.1007296
+
 - key: Silva2016
   type: inproceedings
   author:

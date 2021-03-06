@@ -423,6 +423,12 @@
     def: >
       FIXME
 
+- key: feign_ignorance
+  en:
+    term: "feigning ignorance"
+    def: >
+      FIXME
+
 - key: fidelity
   en:
     term: "fidelity"
@@ -824,6 +830,12 @@
     term: "schema"
     def: >
       A specification of the format and contents of a particular dataset.
+
+- key: schrodingers_asshole
+  en:
+    term: "Schrödinger's Asshole"
+    def: >
+      FIXME
 
 - key: semantic_versioning
   en:

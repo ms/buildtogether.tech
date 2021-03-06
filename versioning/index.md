@@ -102,7 +102,10 @@ produces a toolkit that uses Git as a file backup system.
 The first step is to make sure that Git knows who we are by telling it our name
 and email address:
 
-{% include file file="config.sh" %}
+```sh
+$ git config --global user.name "Peggy Springsteen"
+$ git config --global user.email "peggy@wolframhart.org"
+```
 
 Breaking this down:
 
@@ -140,10 +143,10 @@ files you have and how they've changed.
 
 ### Don't mess
 
-*Don't ever edit the files in your `.git` directory yourself.* Doing so will
-have the same unpleasant result as editing a spreadsheet or an image as if it
-was a text file. If you'd like to know more about what they're for and how Git
-uses them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
+Don't ever edit the files in your `.git` directory yourself.  Doing so will have
+the same unpleasant result as editing a spreadsheet or an image as if it was a
+text file. If you'd like to know more about what they're for and how Git uses
+them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
 
 </div>
 
@@ -152,7 +155,7 @@ won't use `git init`. Instead, you will use `git clone` followed by the
 project's URL to get a local copy called a <span g="clone_git">clone</span>. For
 example, if you want a clone of this book, you can do this:
 
-```
+```sh
 $ git clone https://github.com/gvwilson/bst.git
 ```
 
@@ -164,10 +167,10 @@ start work.
 Regardless of how you create your repository, you can use `git log` to look at
 its history. If I run this command right now for this book, I get:
 
-```
+```sh
 $ git log
 ```
-```
+```out
 commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
 Author: Greg Wilson <spanvwilson@third-bit.com>
 Date:   Fri Feb 19 09:48:37 2021 -0500
@@ -215,7 +218,7 @@ All right: what are <span g="commit">commits</span> and where do they come from?
 commit is a snapshot of the project at a particular moment in time; we create
 them using a command like:
 
-```
+```sh
 $ git commit -m "Made the status bar display the user name"
 ```
 
@@ -223,10 +226,25 @@ $ git commit -m "Made the status bar display the user name"
 Here, `commit` is the verb and the `-m` (short for "message") flag is followed
 by the comment we want to save in the log.
 
-If we only use `git commit`, though, nothing will happen. We need to tell Git
-which files we want to save in the commit, which we do using `git add`:
+<div class="callout" markdown="1">
 
-```
+### The most popular question on Stack Overflow
+
+If you use Git on the command line and you *don't* provide a message using the
+`-m` flag, it will launch an editor so that you can write a longer message.
+This is a good thing, except that the default editor on most Unix systems is
+something called Vim, whose interface is no more intuitive that Git's. (In fact,
+one of the most frequently-viewed questions on [Stack Overflow][stack-overflow]
+is "[How do I exit the Vim editor?][so-exit-vim]". Unsurprisingly, another
+frequently-viewed question on Stack Overflow is "[How do I make Git use the
+editor of my choice for my commits?][so-configure-git-editor]"
+
+</div>
+
+If we only ever use `git commit`, though, nothing will happen. We need to tell
+Git which files we want to save in the commit, which we do using `git add`:
+
+```sh
 $ git add version-control.md _data/glossary.yml
 ```
 
@@ -241,23 +259,32 @@ temporary files created by the compiler) shouldn't be saved, so we take them out
 before committing.
 
 <div class="callout" markdown="1">
+### Teach us to care and not to care
 
-### The most popular question on Stack Overflow
+You can tell Git to ignore certain kinds of files by putting their names, or
+patterns that match multiple names, in a file called `.gitignore`.  For example,
+the `.gitignore` file for this project includes:
 
-FIXME: the Vim editor.
-
+```txt
+*.pyc
+*~
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+__pycache__
+_site
+```
 </div>
-
-FIXME: explain .gitignore
 
 We can keep track of which changes haven't yet been added and which ones have
 using `git status`. If I run this command right now in this book's project I
 get:
 
-```
+```sh
 $ git status
 ```
-```
+```out
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -281,13 +308,13 @@ last asked Git to save a snapshot. Both paragraphs tell me that I can use `git
 restore` with or without the `--staged` flag to put a file back the way it was
 if I decide I don't want to save the changes I've made.
 
-I can also use `git restore` to recover an old version of a file from any
-previous commit. Being able to do this was the original motivation for version
-control systems, and is still one of the main reasons people use them. For
-example, if I want to get the version of this file from two days ago, I can use
-`git log` to find the commit ID `2be70844`, and then run:
+I can use `git restore` to recover an old version of a file from any previous
+commit. Being able to do this was the original motivation for version control
+systems, and is still one of the main reasons people use them. For example, if I
+want to get the version of this file from two days ago, I can use `git log` to
+find the commit ID `2be70844`, and then run:
 
-```
+```sh
 $ git restore --source 2be70844 version-control.md
 ```
 
@@ -305,10 +332,10 @@ automatically have created a bookmark called a <span
 g="remote_git">remote</span> that points at the original repository. I can get a
 list of remotes like this:
 
-```
+```sh
 $ git remote -v
 ```
-```
+```out
 origin	https://github.com/gvwilson/bst (fetch)
 origin	https://github.com/gvwilson/bst (push)
 ```
@@ -321,7 +348,7 @@ it because in theory you can download (or "fetch") from one and upload (or
 
 If I want to save everything I've done locally on GitHub, I push my changes:
 
-```
+```sh
 $ git push origin main
 ```
 
@@ -334,7 +361,7 @@ and which one you're working in.
 The counterpart of `git push` is `git pull`. It <span g="pull_git">pulls</span>
 changes from the remote repository and merges them into your local copy:
 
-```
+```sh
 $ git pull origin main
 ```
 
@@ -369,66 +396,62 @@ branch.
 
 We can see what branches exist in a repository like this:
 
-```
+```sh
 $ git branch
 ```
-```
+```out
 * main
 ```
 
-When we initialize a repository,
-Git automatically creates a branch called `master`;
-most people now rename this to `main` by running:
+When we initialize a repository, Git automatically creates a branch called
+`master`; most people now rename this to `main` by running:
 
-```
+```sh
 $ git branch -m main
 ```
 
 {: .continue}
-immediately after running `git init`.
-The `main` branch is often considered the "official" version of the repository.
-The asterisk `*` indicates that it is currently active,
-i.e.,
-that all changes we make will take place in this branch by default.
-(The active branch is like the <span g="cwd">current working directory</span> in the shell.)
+immediately after running `git init`.  The `main` branch is often considered the
+"official" version of the repository.  The asterisk `*` indicates that it is
+currently active, i.e., that all changes we make will take place in this branch
+by default.  (The active branch is like the <span g="cwd">current working
+directory</span> in the shell.)
 
-To create a new branch called `homework3`,
-we run:
+To create a new branch called `homework3`, we run:
 
-```
+```sh
 $ git branch homework3
 ```
 
-The name of the branch should indicate what we plan to do in it,
-just like the names of files and variables indicate what they're for.
-We can check that the branch exists by running `git branch` again:
+The name of the branch should indicate what we plan to do in it, just like the
+names of files and variables indicate what they're for.  We can check that the
+branch exists by running `git branch` again:
 
-```
+```sh
 $ git branch
 ```
-```
+```out
 * main
   homework3
 ```
 
-Our branch is there,
-but the `*` shows that we are still in the `main` branch.
-(By analogy,
-creating a new directory doesn't automatically move us into that directory.)
-To switch to our new branch we use the `checkout` command:
+Our branch is there, but the `*` shows that we are still in the `main` branch.
+(By analogy, creating a new directory doesn't automatically move us into that
+directory.)  To switch to our new branch we use the `checkout` command:
 
-```
+```sh
 $ git checkout homework3
 $ git branch
 ```
-```
+```out
   main
 * homework3
 ```
 
-We haven't made any changes since switching to the `fit` branch,
-so at this point `main` and `fit` are at the same point in the repository's history.
-Commands like `ls` and `git log` therefore show that the files and history haven't changed.
+We haven't made any changes since switching to the `fit` branch, so at this
+point `main` and `fit` are at the same point in the repository's history.
+Commands like `ls` and `git log` therefore show that the files and history
+haven't changed.
 
 <div class="callout" markdown="1">
 
@@ -445,15 +468,15 @@ once without stepping on our own toes, just as putting variables inside objects
 and classes allows us to ignore the details of *this* when we're working on
 *that*. For example, if we are close to finishing homework assignment 3 but want
 to get an early start on assignment 4, we can create a new branch from `main`
-called `homework4` and start setting things up in there.
-When we are done, we can <span g="merge_git">merge</span> the state of one
-branch back into another. Merging doesn't change the source branch, but once
-it's done, all of the changes made there are in the destination branch.
+called `homework4` and start setting things up in there.  When we are done, we
+can <span g="merge_git">merge</span> the state of one branch back into
+another. Merging doesn't change the source branch, but once it's done, all of
+the changes made there are in the destination branch.
 
 To see what the differences are between two branches, we use `git diff` with
 those branches' names:
 
-```
+```sh
 $ git diff homework3..main
 ```
 
@@ -461,54 +484,91 @@ $ git diff homework3..main
 More generally, we can use `git diff` to compare any two states of the
 repository, including old versions with current ones:
 
-```
+```sh
 $ git diff HEAD~3..HEAD
 ```
+```txt
+diff --git a/bin/html2tex.py b/bin/html2tex.py
+index 4c756f4..10efe1c 100755
+--- a/bin/html2tex.py
++++ b/bin/html2tex.py
+@@ -35,10 +35,13 @@ def html2tex(options):
+     '''Main driver.'''
+     update_numbering(options.numbering)
+     config = utils.read_yaml(options.config)
+-    filenames = get_filenames(options.site, config)
++    entries = get_filenames(options.site, config)
+     accum = []
+-    for f in filenames:
+-        convert_file(f, accum)
++    for [kind, filename] in entries:
++        if kind == 'entry':
++            convert_file(filename, accum)
++        elif kind == 'appendix':
++            accum.append('\n\\appendix\n')
+     result = ''.join(accum)
+     display(options, config, result)
+```
+
+{: .continue}
+The output marks additions with a `+` and deletions with a `-`. A line that has
+changed is shown as a deletion followed by an addition, and the lines marked
+with `@@` show where in the file the change occurred.
+
+<div class="callout" markdown="1">
+
+### See the difference
+
+You have to be a bit of a masochist to try to read diffs like this. Even if you
+are using Git from the command line, it's a lot easier to view diffs using a GUI
+like [DiffMerge][diffmerge].
+
+</div>
 
 Once we're sure we actually want to merge changes, we do so like this:
 
-```
+```sh
 $ git merge homework3 main
 ```
 
+{: .continue}
 Git automatically creates a new commit to represent the merge.  If we now run
 `git diff main..homework3`, Git doesn't print anything because there aren't any
 differences to show.
 
-Once we merge the changes from `homework3` into `main` there is no need to keep
+After we merge the changes from `homework3` into `main` there is no need to keep
 the `homework` branch, so we can delete it:
 
-```
+```sh
 $ git branch -d fit
 ```
-```
+```out
 Deleted branch homework3 (was 1577404).
 ```
 
-Merging `homework3` into `main` went smoothly because there were no conflicts
-between the two branches, but if we are going to use branches, we must learn how
-to merge <span g="conflict_git">conflicts</span>.  These occur when a line has been
-changed in different ways in two separate branches or when a file has been
-deleted in one branch but edited in the other.
+Merging `homework3` into `main` went smoothly, but if we are going to use
+branches, we must learn how to merge <span g="conflict_git">conflicts</span>.
+These occur when a line has been changed in different ways in two branches or
+when a file has been deleted in one branch but edited in the other.
 
 If the file `README.md` has been changed in both `main` and `homework4`,
 `git diff` will show the conflict:
 
-```
+```sh
 $ git diff homework4..main
 ```
 
 When we try to merge `homework4` into `main`, Git doesn't know which of these
 changes to keep:
 
-```
+```sh
 $ git merge docs main
 ```
 
 After we run this command, Git has put both sets of changes into `README.md`,
 but has marked which came from where:
 
-```
+```sh
 $ cat README.md
 ```
 
@@ -521,7 +581,7 @@ We have to decide what to do next: keep the `main` changes, keep those from
 Whatever we do, we must remove the `>>>`, `===`, and `<<<` markers.  Once we are
 done, we can add the file and commit the change like we would any other edit:
 
-```
+```sh
 $ git add README.md
 $ git commit -m "Merging README additions"
 ```
@@ -529,13 +589,13 @@ $ git commit -m "Merging README additions"
 Our branch's history will now show a single sequence of commits with the `main`
 changes on top of the earlier `homework4` changes:
 
-```
+```sh
 $ git log --oneline -n 4
 ```
 
 If we want to see what happened, we can add the `--graph` option to `git log`:
 
-```
+```sh
 $ git log --oneline --graph -n 4
 ```
 
@@ -594,26 +654,79 @@ are pragmatic about this on small projects; on large ones, where dozens of
 people might be committing, even the smallest and most innocuous change needs to
 be in its own branch so that it can be reviewed (which we discuss below).
 
-<div class="callout" markdown="1">
-
-### Rebasing
-
 One way to make the history of a repository easier to read is to squash several
 consecutive commits into one.  This is called <span
 g="rebase_git">rebasing</span>, and can be done using:
 
-```
+```sh
 $ git rebase -i START
 ```
 
+{: .continue}
 where `START` identifies the commit *before* the ones you want to start merging
 (i.e., the last one *not* to modify). Rebasing can go wrong in a lot of
 confusing ways, particularly if you have merged changes from another branch
 into the one you're squashing, so we recommend that you avoid it for
 schoolwork.
 
-</div>
+## What Goes Where
 
-## Project Structure
+Every project should have a handful of files in its root directory; these may
+have UPPERCASE names without an extension, or may be plain text (`.txt)` or
+Markdown (`.md`) files.
 
-FIXME: boilerplate files and what goes where
+`README`
+:   A brief overview of the project that often serves as its home page on
+    GitHub.
+
+`LICENSE`
+:   Describes who can do what with the project materials.  We discuss various
+    licenses in <span x="rights"></span>
+
+`CONDUCT`
+:   How the project requires people to treat each other. "Be polite" or "use
+    your common sense" turns out not to be enough because:
+
+    -   What you think is polite or common sense depends on where you are
+        from.  Since many projects have participants from different backgrounds,
+        making the rules explicit avoids angry arguments starting with, "But *I*
+        thought that…"
+
+    -   It helps prevent people from <span g="feigning_ignorance">feigning
+        ignorance</span>, i.e., claiming after they do something offensive that
+        they didn't realize it was out of bounds.  (See also <span
+        g="schrodingers_asshole">Schrödinger's asshole</span>.)
+
+`CONTRIBUTING`
+:   How to contribute to the project. Should people file an issue when they have
+    a question, email a list, or post something on chat, and if so, where?  What
+    code formatting conventions does the project use?  Research shows that clear
+    contribution guidelines increase the odds of people contributing
+    <cite>Sholler2019</cite>; in my experience, they also reduce friction
+    between team members.
+
+Beyond that, every language has its own conventions for what files should go
+where in a project, for the simple reason that they all need different files.
+In a Jekyll website like this one, for example, the layout is:
+
+`_config.yml`
+:   A configuration file with the author's name, a list of any plugins that the
+    site needs to build, the rules for generating URLs for blog posts, and so
+    on.
+
+`_layouts`
+:   A directory containing templates for pages.
+
+`_includes/`
+:   A directory containing any snippets shared between those templates.
+
+`_site`
+:   The directory containing the generated web pages. If the site doesn't need
+    any special plugins, this directory doesn't have to be included in version
+    control: GitHub will re-create it automatically. If the site does use
+    plugins, on the other hand, the authors have to generated the HTML and
+    commit it themselves.
+
+Learning what goes where for your languages of choice is like learning when to
+signal when driving a car: the rules may vary from place to place, but
+everywhere *has* rules, and knowing them will help prevent you from crashing.
