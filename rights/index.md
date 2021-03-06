@@ -65,8 +65,8 @@ Most countries have signed this declaration, meaning that in theory at least, it
 has the force of law. Debate about rights should therefore have moved from
 "what" to "how", but the phrase "in theory" in the previous sentence is doing a
 lot of work. In practice, most societies still treat people unequally and
-unfairly; the question is, do we acknowledge that and try to fix it, or hope
-that we will be a beneficiary of that unfairness?
+unfairly; the question is, do we acknowledge that and try to fix it, or ignore
+it in the hope that we will be a beneficiary of that unfairness?
 
 <div class="callout" markdown="1">
 
@@ -74,7 +74,7 @@ that we will be a beneficiary of that unfairness?
 
 <cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
 of what American companies have done over the past twenty years to reduce sexual
-harassment and discriminationee has either had no effect or has actually made
+harassment and discrimination has either had no effect or has actually made
 things worse. The reason is that the people who care don't gain anything from
 being told they should, while the people who are part of the problem resent
 being told that and tend to take out their anger on the people the training is
@@ -338,6 +338,17 @@ usually referred two using the two-letter abbreviations listed below:
     clause means that people cannot charge for something that uses our work
     without our explicit permission, which we can give under whatever terms we
     want.
+
+<div class="callout" markown="1">
+### Why be open?
+
+Just as diverse teams do better, open does better as well.
+<cite>Hippel2006</cite> reports that 85% of all interesting innovations in all
+industries come not from the suppliers but from the users.  The more open work
+is, the better able users are to tinker with it and do things that the first
+contributors would never have thought of trying.
+
+</div>
 
 ## Employment
 

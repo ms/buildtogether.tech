@@ -768,6 +768,15 @@
   booktitle: "ASE'16"
   doi: 10.1145/2970276.2970358
 
+- key: Hippel2006
+  type: book
+  author:
+  - Eric von Hippel
+  title: "Democratizing Innovation"
+  publisher: "MIT Press"
+  year: 2006
+  isbn: 978-0262720472
+
 - key: Hofmeister2017
   type: inproceedings
   author:
