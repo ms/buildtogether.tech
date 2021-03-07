@@ -85,7 +85,7 @@ Andrew Begel and Thomas Zimmermann:
 <dd>
 Moritz Beller, Georgios Gousios, Annibale Pannichella, and Andy Zaidman:
 "When, How, and Why Developers (Do Not) Test in Their IDEs".
-<em>ESEC-FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786843">10.1145/2786805.2786843</a>.
+<em>ESEC/FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786843">10.1145/2786805.2786843</a>.
 </dd>
 <dt id="beller2018" class="bibliography">Beller2018</dt>
 <dd>
@@ -925,7 +925,7 @@ Laurie Williams and Richard L. Upchurch:
 </dd>
 <dt id="wilson2019" class="bibliography">Wilson2019</dt>
 <dd>
-G, r, e, g,  , W, i, l, s, o, and n:
+Greg Wilson:
 <em>Teaching Tech Together</em>.
 Chapman & Hall/CRC Press, 2019, 978-0367352974.
 </dd>
@@ -950,4 +950,4 @@ Andreas Zeller, Thomas Zimmermann, and Christian Bird:
 
 </dl>
 
-{% include table id="bibliography-sources" file="sources.tbl" cap="Bibliography sources" %}
+{% include sources.html %}

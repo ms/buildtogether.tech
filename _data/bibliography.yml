@@ -163,7 +163,7 @@
   - Annibale Pannichella
   - Andy Zaidman
   title: "When, How, and Why Developers (Do Not) Test in Their IDEs"
-  booktitle: "ESEC-FSE'15"
+  booktitle: "ESEC/FSE'15"
   year: 2015
   doi: 10.1145/2786805.2786843
 
@@ -1793,7 +1793,8 @@
 
 - key: Wilson2019
   type: book
-  author: Greg Wilson
+  author:
+  - Greg Wilson
   title: Teaching Tech Together
   publisher: "Chapman & Hall/CRC Press"
   year: 2019
