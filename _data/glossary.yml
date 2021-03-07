@@ -702,6 +702,12 @@
     def: >
       FIXME see [already invented here syndrome](#aih).
 
+- key: non_disclosure_agreement
+  en:
+    term: "non-disclosure agreement"
+    def: >
+      FIXME
+
 - key: novice
   en:
     term: "novice"

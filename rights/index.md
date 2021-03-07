@@ -170,7 +170,7 @@ and in exchange society ensures that she is the only one who can profit from it
 for a reasonable time. If an inventor doesn't want anyone to know how her
 invention works she can treat it as a <span g="trade_secret">trade
 secret</span>.  This isn't a property right as such, but rather the practice of
-relying on things like <g span="non_disclosure_agreement">non-disclosure
+relying on things like <span g="non_disclosure_agreement">non-disclosure
 agreements</span> to keep something secret. There is less risk of someone being
 inspired by your idea to create something better, but if the idea *does* leak,
 the inventor has less legal protection.
