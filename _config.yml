@@ -28,7 +28,7 @@ chapters:
   - slug: "thinking"
     title: "Thinking and Learning"
   - slug: "research"
-    title: "A Random Sample of Research Results"
+    title: "A Random Sample of Research"
   - slug: "delivery"
     title: "Delivery"
   - slug: "conclusion"
@@ -93,6 +93,7 @@ kramdown:
       "gitkraken": ["https://www.gitkraken.com/", "GitKraken"],
       "gitlab": ["https://gitlab.com/", "GitLab"],
       "gitlet": ["http://gitlet.maryrosecook.com/", "Gitlet"],
+      "goodhart-law": ["https://en.wikipedia.org/wiki/Goodhart%27s_law", "Goodhart's Law"],
       "hippocratic-license": ["https://firstdonoharm.dev/", "Hippocratic License"],
       "jekyll": ["https://jekyllrb.com/", "Jekyll"],
       "jekyll-bug": ["https://stackoverflow.com/questions/66320774/how-to-pre-define-links-in-jekyll-config-yml-using-kramdown-links-def-options", "A bug in Jekyll"],

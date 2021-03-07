@@ -96,6 +96,12 @@
     def: >
       FIXME
 
+- key: boehm_curve
+  en:
+    term: "Boehm Curve"
+    def: >
+      FIXME
+
 - key: branch_git
   en:
     term: "branch (in Git)"
@@ -531,6 +537,13 @@
     term: "GNU Public License"
     def: >
       FIXME
+
+- key: gqm
+  en:
+    term: "goal-question-metric"
+    def: >
+      FIXME
+    acronym: GQM
 
 - key: gui_designer
   en:

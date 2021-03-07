@@ -137,6 +137,53 @@ is worth repeating in full:
    alt="What went wrong"
    cap="What went wrong in game development (from Washburn et al)." %}
 
+## What Do We Know About Programmer Productivity?
+
+Let's start with the often-repeated claim that some programmers are ten times
+more productive than others.  Is it actually true?  The short answer is, "It's
+complicated."  As <cite>Prechelt2019</cite> shows, the answer depends on what
+exactly the question is intended to mean. Looking at exactly the same data, you
+could conclude that some programmers are 105 times more productive than
+others---except this doesn't take into account whether people's code actually
+works or what language they were using.
+
+If you only look at one language, the ratio goes down to 17:1, but that's still
+comparing the very best to the very worst.  Now the discussion starts to get
+statistical: if you compare the median of the slower half of programmers with
+the median of the top 10%, the ratio is 5:1 or 11:1, depending on whether you
+use everyone in the sample or restrict it to those who used the same language
+respectively.
+
+<cite>Sadowski2019a</cite> summarizes of what we know, and more importantly, how
+to think about the problem.  The chapter <cite>Sadowski2019b</cite> lays out a
+three-axis framework for discussion based on the <span
+g="gqm">goal-question-metric</span> approach.
+
+Velocity: how fast work gets done.
+:   A typical question is, "Are developers able to deploy their features more
+    quickly?" which might be answered by looking at the time from creating a
+    patch to patch release or the time to reach team milestones.
+
+Quality: how well work gets done.
+:   A question might be, "Is the committed code of a higher quality?" Answers
+    could be obtained by measuring test coverage or the number of bugs found
+    after a release.
+
+Satisfaction: how satisfying the work is.
+:   The question could be, "Are developers more satisfied with the engineering
+    process using the new tool?" Answers could be found by collecting developer
+    ratings for the new system or of team communication enabled by a new tool.
+
+What's most important to remember in all of this is [Goodhart's
+Law][goodhart-law]: as soon as you use some measure to evaluate people it ceases
+to be a good measure because people will start to game the system.  One sign of
+this comes from <cite>Begel2014</cite>, which asked one set of developers what
+questions they most wanted researchers to answer, then asked another set of
+developers to rate those questions.  Respondents favored questions about how
+customers typically use their applications, but were opposed questions related
+to assessing the performance of individual employees or comparing them with one
+another.
+
 ## What Do We Know About Novice Programmers?
 
 <cite>Soloway1984,Soloway1986</cite> pioneered the exploration of novice and

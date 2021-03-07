@@ -145,6 +145,16 @@
   year: 2016
   doi: 10.1080/08993408.2016.1225464
 
+- key: Begel2014
+  type: inproceedings
+  author:
+  - Andrew Begel
+  - Thomas Zimmermann
+  title: "Analyze This! 145 Questions for Data Scientists in Software Engineering"
+  booktitle: "ICSE'14"
+  year: 2014
+  doi: 10.1145/2568225.2568233
+
 - key: Beller2015
   type: inproceedings
   author:
@@ -1355,6 +1365,19 @@
   title: "Got Issues? Do New Features and Code Improvements Affect Defects?"
   year: 2011
 
+- key: Prechelt2019
+  type: incollection
+  author:
+  - Lutz Prechelt
+  title: "The Mythical 10x Programmer"
+  booktitle: Rethinking Productivity in Software Engineering
+  editor:
+  - Caitlin Sadowski
+  - Thomas Zimmermann
+  publisher: Apress
+  year: 2019
+  isbn: 978-1-4842-4220-9
+
 - key: Pritchard2015
   author:
   - David Pritchard
@@ -1448,6 +1471,31 @@
   title: "Managing the Development of Large Software Systems"
   booktitle: "IEEE WESCON"
   year: 1970
+
+- key: Sadowski2019a
+  type: book
+  editor:
+  - Caitlin Sadowski
+  - Thomas Zimmermann
+  title: Rethinking Productivity in Software Engineering
+  publisher: Apress
+  year: 2019
+  isbn: 978-1-4842-4220-9
+
+- key: Sadowski2019b
+  type: incollection
+  author:
+  - Caitlin Sadowski
+  - Margaret-Anne Storey
+  - Robert Feldt
+  title: "A Software Development Productivity Framework"
+  booktitle: Rethinking Productivity in Software Engineering
+  editor:
+  - Caitlin Sadowski
+  - Thomas Zimmermann
+  publisher: Apress
+  year: 2019
+  isbn: 978-1-4842-4220-9
 
 - key: Sajaniemi2006
   type: article

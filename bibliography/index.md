@@ -75,6 +75,12 @@ Brett A. Becker, Graham Glanville, Ricardo Iwashima, Claire McDonnell, Kyle Gosl
 "Effective Compiler Error Message Enhancement for Novice Programming Students".
 <em>CSE</em>, 26(2-3), 2016, <a href="https://doi.org/10.1080/08993408.2016.1225464">10.1080/08993408.2016.1225464</a>.
 </dd>
+<dt id="begel2014" class="bibliography">Begel2014</dt>
+<dd>
+Andrew Begel and Thomas Zimmermann:
+"Analyze This! 145 Questions for Data Scientists in Software Engineering".
+<em>ICSE'14</em>, <a href="https://doi.org/10.1145/2568225.2568233">10.1145/2568225.2568233</a>.
+</dd>
 <dt id="beller2015" class="bibliography">Beller2015</dt>
 <dd>
 Moritz Beller, Georgios Gousios, Annibale Pannichella, and Andy Zaidman:
@@ -688,6 +694,15 @@ Daryl Posnett, Abram Hindle, and Prem Devanbu:
 "Got Issues? Do New Features and Code Improvements Affect Defects?".
 <em>WCRE'11</em>, <a href="https://doi.org/10.1109/wcre.2011.33">10.1109/wcre.2011.33</a>.
 </dd>
+<dt id="prechelt2019" class="bibliography">Prechelt2019</dt>
+<dd>
+Lutz Prechelt:
+"The Mythical 10x Programmer".
+In 
+Caitlin Sadowski and Thomas Zimmermann (eds.):
+<em>Rethinking Productivity in Software Engineering.</em>
+Apress, 2019, 978-1-4842-4220-9.
+</dd>
 <dt id="pritchard2015" class="bibliography">Pritchard2015</dt>
 <dd>
 David Pritchard:
@@ -740,6 +755,21 @@ Doug Rohrer, Robert F. Dedrick, and Sandra Stershic:
 Winston Royce:
 "Managing the Development of Large Software Systems".
 <em>IEEE WESCON</em>.
+</dd>
+<dt id="sadowski2019a" class="bibliography">Sadowski2019a</dt>
+<dd>
+Caitlin Sadowski and Thomas Zimmermann (eds.):
+<em>Rethinking Productivity in Software Engineering</em>.
+Apress, 2019, 978-1-4842-4220-9.
+</dd>
+<dt id="sadowski2019b" class="bibliography">Sadowski2019b</dt>
+<dd>
+Caitlin Sadowski, Margaret-Anne Storey, and Robert Feldt:
+"A Software Development Productivity Framework".
+In 
+Caitlin Sadowski and Thomas Zimmermann (eds.):
+<em>Rethinking Productivity in Software Engineering.</em>
+Apress, 2019, 978-1-4842-4220-9.
 </dd>
 <dt id="sajaniemi2006" class="bibliography">Sajaniemi2006</dt>
 <dd>
