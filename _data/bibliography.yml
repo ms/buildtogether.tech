@@ -7,7 +7,7 @@
   - Ken Barker
   - Mike Bauer
   title: "Task Interruption in Software Development Projects"
-  booktitle: "EASE'18"
+  booktitle: "Proc. EASE'18"
   year: 2018
   doi: 10.1145/3210459.3210471
 
@@ -21,7 +21,7 @@
   - Emad Shihab
   year: 2017
   title: "Why Do Developers Use Trivial Packages? An Empirical Case Study on NPM"
-  booktitle: "FSE'17"
+  booktitle: "Proc. FSE'17"
   doi: 10.1145/3106237.3106267
 
 - key: Aiken1975
@@ -42,7 +42,7 @@
   author:
   - Beatrice Åkerblom
   - Tobias Wrigstad
-  booktitle: "DLS'15"
+  booktitle: "Proc. DLS'15"
   doi: 10.1145/2816707.2816717
   title: "Measuring Polymorphism in Python Programs"
   year: 2015
@@ -55,7 +55,7 @@
   - Greg Wilson
   - Mike Hoye
   title: "Do Software Developers Understand Open Source Licenses?"
-  booktitle: "ICPC'17"
+  booktitle: "Proc. ICPC'17"
   year: 2017
   doi: 10.1109/ICPC.2017.7
 
@@ -65,7 +65,7 @@
   - Basma S. Alqadi
   - Jonathan I. Maletic
   title: "An Empirical Study of Debugging Patterns Among Novice Programmers"
-  booktitle: "SIGCSE'17"
+  booktitle: "Proc. SIGCSE'17"
   year: 2017
   doi: 10.1145/3017680.3017761
 
@@ -90,7 +90,7 @@
   - Gina Venolia
   year: 2009
   title: "The Secret Life of Bugs: Going Past the Errors and Omissions in Software Repositories"
-  booktitle: "ICSE'09"
+  booktitle: "Proc. ICSE'09"
   doi: 10.1109/ICSE.2009.5070530
 
 - key: Bacchelli2013
@@ -99,7 +99,7 @@
   - Alberto Bacchelli
   - Christian Bird
   title: "Expectations, Outcomes, and Challenges of Modern Code Review"
-  booktitle: "ICSE'13"
+  booktitle: "Proc. ICSE'13"
   year: 2013
 
 - key: Barik2017
@@ -113,7 +113,7 @@
   - Emerson Murphy-Hill
   - Chris Parnin
   title: "Do Developers Read Compiler Error Messages?"
-  booktitle: "ICSE'17"
+  booktitle: "Proc. ICSE'17"
   year: 2017
   doi: 10.1109/icse.2017.59
 
@@ -151,7 +151,7 @@
   - Andrew Begel
   - Thomas Zimmermann
   title: "Analyze This! 145 Questions for Data Scientists in Software Engineering"
-  booktitle: "ICSE'14"
+  booktitle: "Proc. ICSE'14"
   year: 2014
   doi: 10.1145/2568225.2568233
 
@@ -163,7 +163,7 @@
   - Annibale Pannichella
   - Andy Zaidman
   title: "When, How, and Why Developers (Do Not) Test in Their IDEs"
-  booktitle: "ESEC/FSE'15"
+  booktitle: "Proc. ESEC/FSE'15"
   year: 2015
   doi: 10.1145/2786805.2786843
 
@@ -176,7 +176,7 @@
   - Andy Zaidman
   year: 2018
   title: "On the Dichotomy of Debugging Behavior Among Programmers"
-  booktitle: "ICSE'18"
+  booktitle: "Proc. ICSE'18"
   doi: 10.1145/3180155.3180175
 
 - key: Beller2019
@@ -203,7 +203,7 @@
   - Alon Klein Orbach
   - Dror G. Feitelson
   title: "Meaningful Identifier Names: The Case of Single-Letter Variables"
-  booktitle: "ICPC'17"
+  booktitle: "Proc. ICPC'17"
   year: 2017
   doi: 10.1109/icpc.2017.18
 
@@ -233,7 +233,7 @@
   - Cathrin Weiss
   - Rahul Premraj
   - Thomas Zimmermann
-  booktitle: "SIGSOFT'08"
+  booktitle: "Proc. SIGSOFT'08"
   doi: 10.1145/1453101.1453146
   type: inproceedings
   title: "What Makes a Good Bug Report?"
@@ -278,7 +278,7 @@
   - Premkumar Devanbu
   year: 2011
   title: "Don't Touch My Code! Examining the Effects of Ownership on Software Quality"
-  booktitle: "FSE'11"
+  booktitle: "Proc. FSE'11"
   doi: 10.1145/2025113.2025119
 
 - key: Boehm1981
@@ -311,7 +311,7 @@
   - Niels A. Taatgen
   - Hedderik van Rijn
   title: "What Makes Interruptions Disruptive?"
-  booktitle: "CHI'15"
+  booktitle: "Proc. CHI'15"
   year: 2015
   doi: 10.1145/2702123.2702156
 
@@ -323,7 +323,7 @@
   - James M. Hogan
   - Colin Fidge
   title: "Planting Bugs: A System for Testing Students' Unit Tests"
-  booktitle: "ITiCSE'15"
+  booktitle: "Proc. ITiCSE'15"
   year: 2015
   doi: 10.1145/2729094.2742631
 
@@ -394,7 +394,7 @@
   - Adam Scott Carter
   - Christopher David Hundhausen
   title: "Using Programming Process Data to Detect Differences in Students' Patterns of Programming"
-  booktitle: "SIGCSE'17"
+  booktitle: "Proc. SIGCSE'17"
   year: 2017
   doi: 10.1145/3017680.3017785
 
@@ -428,7 +428,7 @@
   - Rob DeLine
   - Amy J. Ko
   title: "Let's Go to the Whiteboard: How and Why Software Developers Use Drawings"
-  booktitle: "CHI'07"
+  booktitle: "Proc. CHI'07"
   year: 2007
   doi: 10.1145/1240624.1240714
 
@@ -452,7 +452,7 @@
   author:
   - Jason Cohen
   title: "Modern Code Review"
-  booktitle: "Making Software"
+  booktitle: "Proc. Making Software"
   editor:
   - Andy Oram
   - Greg Wilson
@@ -495,7 +495,7 @@
   - Barbara J. Ericson
   - Mark Guzdial
   title: "Using Tracing and Sketching to Solve Programming Problems"
-  booktitle: "ICER'17"
+  booktitle: "Proc. ICER'17"
   year: 2017
   doi: 10.1145/3105726.3106190
 
@@ -566,7 +566,7 @@
   - Stephen H. Edwards
   - Zalia Shams
   title: "Do Student Programmers All Tend to Write the Same Software Tests?"
-  booktitle: "ITiCSE'14"
+  booktitle: "Proc. ITiCSE'14"
   year: 2014
   doi: 10.1145/2591708.2591757
 
@@ -576,7 +576,7 @@
   - Ben Hermann
   - Mira Mezini
   - Leonid Glanz
-  booktitle: "FSE'15"
+  booktitle: "Proc. FSE'15"
   doi: 10.1145/2786805.2786865
   type: inproceedings
   title: "Hidden Truths in Dead Software Paths"
@@ -590,7 +590,7 @@
   - Romain Robbes
   - Andreas Stefik
   title: "How Do API Documentation and Static Typing Affect API Usability?"
-  booktitle: "ICSE'14"
+  booktitle: "Proc. ICSE'14"
   year: 2014
   doi: 10.1145/2568225.2568299
 
@@ -633,7 +633,7 @@
   - Lars Fischer
   - Stefan Hanenberg
   title: "An empirical investigation of the effects of type systems and code completion on API usability using TypeScript and JavaScript in MS Visual Studio"
-  booktitle: "DLS'15"
+  booktitle: "Proc. DLS'15"
   year: 2015
   doi: 10.1145/2816707.2816720
 
@@ -670,7 +670,7 @@
   - Justin Smith
   - Philip J. Guo
   - Chris Parnin
-  booktitle: "FSE'16"
+  booktitle: "Proc. FSE'16"
   doi: 10.1145/2950290.2950331
   type: inproceedings
   title: "Paradise Unplugged: Identifying Barriers for Female Participation on Stack Overflow"
@@ -700,7 +700,7 @@
   - Natalia Juristo
   - Markku Oivo
   title: An External Replication on the Effects of Test-driven Development Using a Multi-site Blind Analysis Approach
-  booktitle: "ESEM'16"
+  booktitle: "Proc. ESEM'16"
   year: 2016
   doi: 10.1145/2961111.2962592
 
@@ -751,7 +751,7 @@
   - Galen Hunt
   year: 2009
   title: "Debugging in the (Very) Large: Ten Years of Implementation and Experience"
-  booktitle: "SOSP'09"
+  booktitle: "Proc. SOSP'09"
   doi: 10.1145/1629575.1629586
 
 - key: Graziotin2014
@@ -801,7 +801,7 @@
   - Sascha Just
   - Andreas Zeller
   title: "It's not a Bug, it's a Feature: How Misclassification Impacts Bug Prediction"
-  booktitle: "ICSE'13"
+  booktitle: "Proc. ICSE'13"
   year: 2013
 
 - key: Hilton2016
@@ -814,7 +814,7 @@
   - Danny Dig
   year: 2016
   title: "Usage, Costs, and Benefits of Continuous Integration in Open-Source Projects"
-  booktitle: "ASE'16"
+  booktitle: "Proc. ASE'16"
   doi: 10.1145/2970276.2970358
 
 - key: Hippel2006
@@ -833,7 +833,7 @@
   - Janet Siegmund
   - Daniel V. Holt
   title: "Shorter Identifier Names Take Longer to Comprehend"
-  booktitle: "SANER'17"
+  booktitle: "Proc. SANER'17"
   year: 2017
   doi: 10.1109/saner.2017.7884623
 
@@ -972,7 +972,7 @@
   - Tejinder Dhaliwal
   - Ying Zou
   - Bram Adams
-  booktitle: "MSR'12"
+  booktitle: "Proc. MSR'12"
   doi: 10.1109/msr.2012.6224279
   type: inproceedings
   title: "Do Faster Releases Improve Software Quality? An Empirical Case Study of Mozilla Firefox"
@@ -1042,7 +1042,7 @@
   - Jiamin Zhu
   year: 2015
   title: "What Makes a Great Software Engineer?"
-  booktitle: "ICSE'15"
+  booktitle: "Proc. ICSE'15"
   doi: 10.1109/ICSE.2015.335
 
 - key: Lindberg2008
@@ -1070,7 +1070,7 @@
   - Mark Guzdial
   - Richard Catrambone
   title: "Subgoal-labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications"
-  booktitle: "ICER'12"
+  booktitle: "Proc. ICER'12"
   year: 2012
   doi: 10.1145/2361276.2361291
 
@@ -1095,7 +1095,7 @@
   - Ulrich Klocke
   year: 2008
   title: "The Cost of Interrupted Work: More Speed and Stress"
-  booktitle: "CHI'08"
+  booktitle: "Proc. CHI'08"
   doi: 10.1145/1357054.1357072
 
 - key: Masood2018
@@ -1156,7 +1156,7 @@
   - Thanh H.D. Nguyen
   - Yasutaka Kamei
   - Ahmed E. Hassan
-  booktitle: "ICSE'11"
+  booktitle: "Proc. ICSE'11"
   doi: 10.1145/1985793.1985813
   type: inproceedings
   title: "An Empirical Study of Build Maintenance Effort"
@@ -1167,7 +1167,7 @@
   - Andrew Meneely
   - Pete Rotella
   - Laurie Williams
-  booktitle: "SIGSOFT'11"
+  booktitle: "Proc. SIGSOFT'11"
   doi: 10.1145/2025113.2025128
   type: inproceedings
   title: "Does Adding Manpower Also Affect Quality?"
@@ -1227,7 +1227,7 @@
   author:
   - Audris Mockus
   title: "Organizational Volatility and Its Effects on Software Defects"
-  booktitle: "FSE'10"
+  booktitle: "Proc. FSE'10"
 
 - key: Muller2007
   type: inproceedings
@@ -1236,7 +1236,7 @@
   - David Ginat
   - Bruria Haberman
   title: "Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction"
-  booktitle: "SIGCSE'07"
+  booktitle: "Proc. SIGCSE'07"
   year: 2007
   doi: 10.1145/1268784.1268830
 
@@ -1261,7 +1261,7 @@
   - Suman Nakshatri
   - Maithri Hegde
   - Sahithi Thandra
-  booktitle: "MSR'16"
+  booktitle: "Proc. MSR'16"
   doi: 10.1145/2901739.2903499
   type: inproceedings
   title: "Analysis of Exception Handling Patterns in Java Projects"
@@ -1298,7 +1298,7 @@
   - Jesse Berlin
   - Michelle Craig
   - Steve Easterbrook
-  booktitle: "ICER'16"
+  booktitle: "Proc. ICER'16"
   doi: 10.1145/2960310.2960312
   type: inproceedings
   title: "Evidence That Computer Science Grades Are Not Bimodal"
@@ -1321,7 +1321,7 @@
   - Santiago Perez De Rosso
   - Daniel Jackson
   title: "What's Wrong With Git?"
-  booktitle: "Onward!'13"
+  booktitle: "Proc. Onward!'13"
   year: 2013
   doi: 10.1145/2509578.2509584
 
@@ -1331,7 +1331,7 @@
   - Santiago Perez De Rosso
   - Daniel Jackson
   title: "Purposes,  Concepts,  Misfits,  and a Redesign of Git"
-  booktitle: "OOPSLA'16"
+  booktitle: "Proc. OOPSLA'16"
   year: 2016
   doi: 10.1145/2983990.2984018
 
@@ -1340,7 +1340,7 @@
   author:
   - Marian Petre
   title: "UML in Practice"
-  booktitle: "ICSE'13"
+  booktitle: "Proc. ICSE'13"
   year: 2013
   doi: 10.1109/icse.2013.6606618
 
@@ -1359,7 +1359,7 @@
   - Daryl Posnett
   - Abram Hindle
   - Prem Devanbu
-  booktitle: "WCRE'11"
+  booktitle: "Proc. WCRE'11"
   doi: 10.1109/wcre.2011.33
   type: inproceedings
   title: "Got Issues? Do New Features and Code Improvements Affect Defects?"
@@ -1381,7 +1381,7 @@
 - key: Pritchard2015
   author:
   - David Pritchard
-  booktitle: "PLATEAU'15"
+  booktitle: "Proc. PLATEAU'15"
   doi: 10.1145/2846680.2846681
   type: inproceedings
   title: "Frequency Distribution of Error Messages"
@@ -1448,7 +1448,7 @@
   - Walid Maalej
   year: 2012
   title: "How Do Professional Developers Comprehend Software?"
-  booktitle: "ICSE'12"
+  booktitle: "Proc. ICSE'12"
   doi: 10.1109/ICSE.2012.6227188
 
 - key: Rohrer2015
@@ -1469,7 +1469,7 @@
   author:
   - Winston Royce
   title: "Managing the Development of Large Software Systems"
-  booktitle: "IEEE WESCON"
+  booktitle: "Proc. IEEE WESCON"
   year: 1970
 
 - key: Sadowski2019a
@@ -1540,7 +1540,7 @@
   - Cécile Péraire
   year: 2017
   title: "Software Development Waste"
-  booktitle: "ICSE'17"
+  booktitle: "Proc. ICSE'17"
   doi: 10.1109/ICSE.2017.20
 
 - key: Sharp2016
@@ -1581,7 +1581,7 @@
   - Marco Tulio Valente
   year: 2016
   title: "Why We Refactor? Confessions of GitHub Contributors"
-  booktitle: "FSE'16"
+  booktitle: "Proc. FSE'16"
   doi: 10.1145/2950290.2950305
 
 - key: Soloway1984
@@ -1616,7 +1616,7 @@
   - Erik Barendsen
   - Carsten Schulte
   title: "Misconceptions and the Beginner Programmer"
-  booktitle: "Computer Science Education: Perspectives on Teaching and Learning in School"
+  booktitle: "Proc. Computer Science Education: Perspectives on Teaching and Learning in School"
   year: 2018
   publisher: Bloomsbury Press
   isbn: 978-1350057104
@@ -1676,7 +1676,7 @@
   - Erik Barendsen
   - Sjaak Smetsers
   title: "Towards an Empirically Validated Model for Assessment of Code Quality"
-  booktitle: "Koli'14"
+  booktitle: "Proc. Koli'14"
   year: 2014
   doi: 10.1145/2674683.2674702
 
@@ -1687,7 +1687,7 @@
   - Erik Barendsen
   - Sjaak Smetsers
   title: "Designing a Rubric for Feedback on Code Quality in Programming Courses"
-  booktitle: "Koli'16"
+  booktitle: "Proc. Koli'16"
   year: 2016
   doi: 10.1145/2999541.2999555
 
@@ -1700,7 +1700,7 @@
   - Marco Aurélio Gerosa
   - David Redmiles
   title: "The Hard Life of Open Source Software Project Newcomers"
-  booktitle: "CHASE'14"
+  booktitle: "Proc. CHASE'14"
   year: 2014
   doi: 10.1145/2593702.2593704
 
@@ -1708,7 +1708,7 @@
   author:
   - Jeffrey Stylos
   - Steven Clarke
-  booktitle: "ICSE'07"
+  booktitle: "Proc. ICSE'07"
   doi: 10.1109/icse.2007.92
   type: inproceedings
   title: "Usability Implications of Requiring Parameters in Objects' Constructors"
@@ -1744,7 +1744,7 @@
   - Natalia Rodchenko
   - Jo Ann Lane
   title: "Impact of Task Switching and Work Interruptions on Software Development Processes"
-  booktitle: "ICSSP'17"
+  booktitle: "Proc. ICSSP'17"
   year: 2017
   doi: 10.1145/3084100.3084116
 
@@ -1755,7 +1755,7 @@
   - Meiyappan Nagappan
   - Thomas Zimmermann
   - Christian Bird
-  booktitle: "ICSE'16"
+  booktitle: "Proc. ICSE'16"
   doi: 10.1145/2889160.2889253
   type: inproceedings
   title: "What Went Right and What Went Wrong: An Analysis of 155 Postmortems from Game Development"
@@ -1767,7 +1767,7 @@
   - Alicia Nicki Washington
   year: 2020
   title: "When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing"
-  booktitle: "SIGCSE'20"
+  booktitle: "Proc. SIGCSE'20"
   doi: 10.1145/3328778.3366792
 
 - key: Weinstein2018
@@ -1789,7 +1789,7 @@
   - Laurie Williams
   - Richard L. Upchurch
   title: "In Support of Student Pair-Programming"
-  booktitle: "SIGCSE'01"
+  booktitle: "Proc. SIGCSE'01"
 
 - key: Wilson2019
   type: book
@@ -1808,7 +1808,7 @@
   - Yuanyuan Zhou
   - Shankar Pasupathy
   - Rukma Talwadker
-  booktitle: "FSE'15"
+  booktitle: "Proc. FSE'15"
   doi: 10.1145/2786805.2786852
   type: inproceedings
   title: "Hey, You Have Given Me Too Many Knobs!: Understanding and Dealing with Over-Designed Configuration in System Software"
@@ -1837,7 +1837,7 @@
   - Andreas Zeller
   - Thomas Zimmermann
   - Christian Bird
-  booktitle: "PROMISE'11"
+  booktitle: "Proc. PROMISE'11"
   doi: 10.1145/2020390.2020395
   type: inproceedings
   title: "Failure is a Four-Letter Word"
