@@ -184,11 +184,10 @@ itself has commercial value.
 
 ## Licensing
 
-A <span class="license">license</span> dictates how project materials can be
-used and redistributed.  If the license or a publication agreement makes it
-difficult for people to contribute, the project is less likely to attract new
-members, so the choice of license is crucial to the project's long-term
-sustainability.
+A <span g="license">license</span> dictates how project materials can be used
+and redistributed.  If the license or a publication agreement makes it difficult
+for people to contribute, the project is less likely to attract new members, so
+the choice of license is crucial to the project's long-term sustainability.
 
 <div class="callout" markdown="1">
 

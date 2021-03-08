@@ -125,7 +125,7 @@ the system's conceptual architecture; the overlay traces what happens during a
 particular workflow (<span f="use-case-map"></span>).  It's easy to understand,
 and I found it very useful for checking the behavior of moderately complex
 systems, particularly ones built from lots of <span
-g="microservice">microserves</span>.
+g="microservice">microservices</span>.
 
 {% include figure id="use-case-map" alt="Use case map" cap="An example of a use case map." fixme=true %}
 
@@ -355,7 +355,7 @@ tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
 prevent) a lot more by making testing cheap.
 
-<span class="callout" markown="1">
+<div class="callout" markown="1">
 
 ### Small examples, loosely connected
 
@@ -364,7 +364,7 @@ that, "Building components that can easily be replaced makes testing easier," is
 only meaningful if you already understand the point; seeing an example makes it
 more relatable.
 
-</span>
+</div>
 
 ## Design for Evolution
 
@@ -707,7 +707,7 @@ The `pytest` library comes with a command-line tool that is also called
 working directory whose names match the pattern `test_*.py`.  It then runs the
 tests in these files and summarizes their results.
 
-<span class="callout" markdown="1">
+<div class="callout" markdown="1">
 
 ### Testing visualizations
 
@@ -719,4 +719,4 @@ used to produce the image rather than the image itself.  Unless you suspect that
 the drawing library itself contains bugs, the correct data should always produce
 the correct plot.
 
-</span>
+</div>
