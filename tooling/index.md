@@ -92,7 +92,6 @@ such as Notepad (which comes with Windows) to very large ones like Emacs (which
 some people claim is actually Lisp-based operating system in disguise).
 
 <div class="callout" markdown="1">
-
 ### Punchcards once again
 
 As we noted in <span x="versioning"></span>, programming is still stuck in the
@@ -103,7 +102,6 @@ decades ago; they store the file in a machine-friendly format and then render it
 in a human-friendly way. There's no reason we couldn't do the same with
 programs.  There's no reason we shouldn't be able to draw a diagram directly in
 our source code like we can in a Google Doc.
-
 </div>
 
 You might already have a favorite editor. If you're like most programmers, you
@@ -129,11 +127,6 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
 -   A <span g="gui_designer">GUI designer</span> that lets you build GUIs by
     dragging and dropping components;
 
--   Some <span g="refactoring">refactoring</span> to help you reorganize your
-    code.  For example, instead of searching and replacing strings, an IDE can
-    parse your source code and look for all uses of a class name in order to
-    replace it with a new one, or move a method from one class to another.
-
 -   A <span g="test_runner">test runner</span> to display the results of tests and
     let you jump directly to ones that have failed. This is usually a GUI built
     on top of whatever unit testing framework you are using, just as graphical
@@ -142,6 +135,11 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
 
 -   A <span g="build_manager">build manager</span> that will recompile your code
     or re-run tasks as needed.
+
+-   Some refactoring tools to help you reorganize your code.  For example, instead
+    of searching and replacing strings, an IDE can parse your source code and
+    look for all uses of a class name in order to replace it with a new one, or
+    move a method from one class to another.
 
 The most popular IDE today is probably [Microsoft Visual Studio Code][vs-code],
 often referred to simply as "VS Code".  Along with all the tools above, it has
@@ -152,6 +150,22 @@ counterparts. Since most of these store project data (including build
 instructions) in a proprietary format, your team will do much better if you all
 adopt the same IDE. This will also let you help one another solve problems and
 share plugins.
+
+<div class="callout" markdown="1">
+### Refactoring
+
+To <span g="refactoring">refactor</span> code means to change its structure
+without changing what it does <cite>Fowler2018</cite>.  It is just as much a
+part of programming as writing code in the first place: nobody gets things right
+the first time <cite>Brand1995</cite>, and needs or insights can change over
+time.
+
+Some common refactoring patterns include "hoist repeated calculation out of
+loop" and "replace repeated test with flag". As <cite>Kerievsky2004</cite>
+showed, many refactorings make code fit a design pattern or move code from one
+design pattern to another. If changes that fit these patterns are easy to make,
+your design is probably a good one.
+</div>
 
 ## Build Manager
 
@@ -170,7 +184,7 @@ game.exe : game.bc graphics.bc utils.bc
         tx -C $<
 ```
 
-{: .noindent}
+{: .continue}
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
 the `tx` compiler with several options.  Below that is a <span
@@ -180,7 +194,7 @@ Make's way of saying "the first thing the target depends on".
 
 Make has been used by hundreds of thousands of programmers for more than thirty
 years, but has some fundamental flaws. The first is its syntax, which looks like
-something produced by a cat dancing on the keyboad. The second is that it runs
+something produced by a cat dancing on the keyboard. The second is that it runs
 commands by handing them over to whatever operating system it is running on,
 which make portability a constant headache. (Quick, should you use `rm` or `del`
 to delete a file?) Third, Make doesn't have a debugger: the only way to track
@@ -197,7 +211,7 @@ written. Thinking of it as a "configuration" file is a mistake: you *have* to
 approach system builds as a programming problem.
 
 The current generation of build managers dispense with custom configuration file
-syntaxes and use the data strcuctures of dynamic languages like Python and
+syntaxes and use the data structures of dynamic languages like Python and
 Ruby. [Snakemake][snakemake] and [Rake][rake] are examples of such a system: its
 users write their "configurations" as small Python or Ruby programs, making use
 of an extensive support library that handles dependencies, invokes appropriate

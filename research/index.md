@@ -307,7 +307,6 @@ messages turns out to be as difficult as reading source code, and how difficult
 it is to read the error messages strongly predicts task performance.
 
 <div class="callout" markdown="1">
-
 ### Does visualization help?
 
 Visualizing program execution is a perennially popular idea, but people learn
@@ -329,7 +328,6 @@ flowcharts better than pseudocode *if both are equally well structured*
 <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode outperformed
 flowcharts used structured pseudocode and tangled flowcharts; when the playing
 field was leveled, novices did better with the graphical representation.
-
 </div>
 
 ## What Do We Know About Programming Style?
@@ -479,14 +477,13 @@ programs were (in order):
 while the most common in Java were:
 
 -   cannot find symbol - variable NAME
--   ’;’ expected
+-   ';' expected
 -   cannot find symbol - method NAME
 -   cannot find symbol - class NAME
 -   incompatible types
 
 In a better world than ours, the next generation of programming languages and
 tools would be designed so that people simply couldn't make these mistakes.
-
 </div>
 
 One reason things go wrong is that developers don't make use of the tools they
@@ -627,7 +624,7 @@ group did better at the analytic task, but there was no statistically
 significant difference on the creative task.
 
 The topic of personality often comes up in discussions of pair programming: do
-you need to be an extravert to reap its benefits, is the contrast in personality
+you need to be an extrovert to reap its benefits, is the contrast in personality
 with your peer important, and so on. Several studies have addressed these
 questions; <cite>Hannay2010</cite> is a good place to start reading about them.
 As they say, personality tests are commonly used in recruitment, but research

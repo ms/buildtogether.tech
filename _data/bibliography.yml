@@ -93,6 +93,16 @@
   booktitle: "Proc. ICSE'09"
   doi: 10.1109/ICSE.2009.5070530
 
+- key: Aurora2018
+  type: book
+  author:
+  - Valerie Aurora
+  - Mary Gardiner
+  title: "How to Respond to Code of Conduct Reports"
+  publisher: Frame Shift Consulting LLC
+  year: 2018
+  isbn: 978-1386922575
+
 - key: Bacchelli2013
   type: inproceedings
   author:
@@ -315,6 +325,15 @@
   year: 2015
   doi: 10.1145/2702123.2702156
 
+- key: Brand1995
+  type: book
+  author:
+  - Stewart Brand
+  title: "How Buildings Learn: What Happens After They're Built"
+  publisher: Penguin USA
+  year: 1995
+  isbn: 978-0140139969
+
 - key: Brian2015
   type: inproceedings
   author:
@@ -398,6 +417,14 @@
   year: 2017
   doi: 10.1145/3017680.3017785
 
+- key: Caulfield2016
+  type: link
+  author:
+  - Mike Caulfield
+  title: "Choral Explanations"
+  year: 2016
+  url: https://hapgood.us/2016/05/13/choral-explanations/
+
 - key: Cetin2016
   type: article
   author:
@@ -415,7 +442,8 @@
   author:
   - Scott Chacon
   - Ben Straub
-  title: "Pro Git (2nd edition)"
+  title: "Pro Git"
+  edition: 2nd
   publisher: Apress
   year: 2014
   isbn: 978-1484200773
@@ -676,6 +704,16 @@
   title: "Paradise Unplugged: Identifying Barriers for Female Participation on Stack Overflow"
   year: 2016
 
+- key: Fowler2018
+  type: book
+  author:
+  - Martin Fowler
+  title: "Refactoring"
+  edition: 2nd
+  publisher: Addison-Wesley Professional
+  year: 2018
+  isbn: 978-0134757599
+
 - key: Freeman1972
   type: article
   author:
@@ -859,7 +897,7 @@
   title: "Research Software Engineering with Python: Building Software that Makes Research Possible"
   publisher: "Chapman & Hall/CRC Press"
   year: 2019
-  isbn: TBD
+  isbn: 978-0367698348
 
 - key: Kalyuga2003
   type: article
@@ -921,6 +959,15 @@
   number: 4
   year: 2009
   doi: 10.1109/tse.2009.27
+
+- key: Kerievsky2004
+  type: book
+  author:
+  - Joshua Kerievsky
+  title: "Refactoring to Patterns"
+  publisher: Addison-Wesley Professional
+  year: 2004
+  isbn: 978-0321213358
 
 - key: Kernighan1979
   type: book
@@ -1034,6 +1081,16 @@
   year: 1999
   doi: 10.1037/0022-3514.77.6.1121
 
+- key: Lee1962
+  type: article
+  author:
+  - Stan Lee
+  title: "The Amazing Spider-Man"
+  journal: "Amazing Fantasy"
+  volume: 15
+  publisher: Marvel
+  year: 1962
+
 - key: Li2015
   type: inproceedings
   author:
@@ -1127,7 +1184,8 @@
   type: book
   author:
   - Richard E. Mayer
-  title: "Multimedia Learning (2nd edition)"
+  title: "Multimedia Learning"
+  edition: 2nd
   year: 2009
   publisher: Cambridge University Press
   isbn: 978-0521735353
@@ -1403,7 +1461,8 @@
   type: book
   author:
   - John Rawls
-  title: "A Theory of Justice (revised edition)"
+  title: "A Theory of Justice"
+  edition: revised
   publisher: Belknap Press
   year: 1999
   isbn: 978-0674000780
@@ -1511,6 +1570,13 @@
   number: 4
   year: 2006
   doi: 10.1080/08993400600874584
+
+- key: Scal2012
+  type: link
+  author: John Scalzi
+  title: "Straight White Male: The Lowest Difficulty Setting There Is"
+  url: https://whatever.scalzi.com/2012/05/15/straight-white-male-the-lowest-difficulty-setting-there-is/
+  year: 2012
 
 - key: Scanlan1989
   type: article
@@ -1748,6 +1814,14 @@
   year: 2017
   doi: 10.1145/3084100.3084116
 
+- key: Troy2018
+  type: link
+  author:
+  - Chelsea Troy
+  title: "Why do Remote Meetings Suck so Much?"
+  url: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
+  year: 2018
+
 - key: Washburn2016
   author:
   - Michael Washburn
@@ -1842,3 +1916,14 @@
   type: inproceedings
   title: "Failure is a Four-Letter Word"
   year: 2011
+
+- key: Zhan2020
+  type: article
+  author:
+  - Letian Zhang
+  title: "An Institutional Approach to Gender Diversity and Firm Performance"
+  journal: "Organization Science"
+  volume: 31
+  number: 2
+  year: 2020
+  doi: 10.1287/orsc.2019.1297

@@ -23,11 +23,6 @@ x="process"></span>).  And given how online platforms have fueled radicalization
 and disinformation, shouldn't every book on how to be a better programmer at
 least mention them?
 
-> "Once the rockets are up, who cares where they come down?<br/>
-> That's not my department" say Wernher von Braun
->
-> --- Tom Lehrer
-
 This book can't cover everything that those three did, but if you are an
 undergraduate student embarking on a semester-long software project as part of a
 team, it will give you the tools you need to succeed. Its aim is to teach you

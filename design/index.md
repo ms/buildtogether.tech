@@ -50,7 +50,6 @@ translate well to print.  I can also tell you how to describe designs and how to
 tell a good design from a bad one, so we'll start with that.
 
 <div class="callout" markdown="1">
-
 ### Learning by example
 
 The best way to learn design in any field is to study examples
@@ -63,7 +62,6 @@ Unix philosophy to an entire generation of programmers),
 Cook][cook-mary-rose]'s [Gitlet][gitlet].  There is also [Software Tools in
 JavaScript][stjs], which was developed in tandem with this material, and can be
 used as a starting point for many different class projects.
-
 </div>
 
 ## Describing Designs
@@ -130,7 +128,6 @@ g="microservice">microservices</span>.
 {% include figure id="use-case-map" alt="Use case map" cap="An example of a use case map." fixme=true %}
 
 <div class="callout" markdown="1">
-
 ### UML and why not
 
 I'm not a fan of the <span g="uml">Unified Modeling Language</span> (UML). It
@@ -144,7 +141,6 @@ who occasionally sketched class diagrams as part of a larger description of a
 design, and that's pretty much it. Unlike blueprints in architecture or flow
 diagrams in chemical engineering, UML doesn't actually seem to help
 practitioners very much <cite>Petre2013</cite>.
-
 </div>
 
 ## Getting Started
@@ -217,7 +213,6 @@ project; together, they show why it's so hard to teach design, since what I'm
 basically saying is, "Argue enough, but not too much."
 
 <div class="callout" markdown="1">
-
 ### How experts do it
 
 One of the biggest differences between experts and non-experts in any field is
@@ -230,7 +225,6 @@ and its low-level consequences; if one of those consequences reveals a flaw in
 the plan, they go back to the high level and make a correction. Doing this
 efficiently depends on having experience of past failures so that you know how a
 good idea might fail in practice.
-
 </div>
 
 ## Design for Testability
@@ -251,14 +245,14 @@ or replaced in isolation, which significantly reduces the probability of
 requiring rework in the naïve model presented at the start of this chapter.
 
 For example, let's consider a typical three-tier web site that uses the <span
-g="mvc">Model-View-Controller</span> (MVC) design pattern. The model, which is
-stored in a relational database, is the data that the application manipulates,
-such as purchase orders and game states. The controller encapsulates the
-application's business rules: who's allowed to cancel games while they're in
-progress, how much interest to add on out-of-province orders, and so on.
-Finally, the view translates the application's state into HTML for display
-and handles the button clicks and form submissions that drive the system from
-one state to another.
+g="mvc">Model-View-Controller</span> (MVC) <span g="design_pattern">design
+pattern</span>. The model, which is stored in a relational database, is the data
+that the application manipulates, such as purchase orders and game states. The
+controller encapsulates the application's business rules: who's allowed to
+cancel games while they're in progress, how much interest to add on
+out-of-province orders, and so on.  Finally, the view translates the
+application's state into HTML for display and handles the button clicks and form
+submissions that drive the system from one state to another.
 
 This architecture presents several challenges for testing:
 
@@ -355,15 +349,13 @@ tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
 prevent) a lot more by making testing cheap.
 
-<div class="callout" markown="1">
-
+<div class="callout" markdown="1">
 ### Small examples, loosely connected
 
 This discussion is an example of teaching design by example. A generic statement
 that, "Building components that can easily be replaced makes testing easier," is
 only meaningful if you already understand the point; seeing an example makes it
 more relatable.
-
 </div>
 
 ## Design for Evolution
@@ -537,15 +529,262 @@ button" or "enter this password" and to interrogate the system's state
 afterward.
 
 <div class="callout" markdown="1">
-
 ### Merely useful
 
 Why do we call them scripts instead of programs, and why do we call it scripting
 instead of programming? The answer, I think, is that if everyone can do it, it
 can't be cool: as a computer science professor said to me once about something
 similar, "I realize it's popular, but it's merely useful."
-
 </div>
+
+## Handling Errors
+
+> When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
+>
+> --- Terry Pratchett
+
+We are imperfect people living in an imperfect world.  People will misunderstand
+how to use our programs, and even if we test thoroughly as described in the
+previous chapter, those programs might still contain bugs.  We should therefore
+plan from the start to detect and handle errors.  <span
+g="internal_error">Internal errors</span>, are mistakes in the program itself,
+such as calling a function with `None` instead of a list.  <span
+g="external_error">External errors</span> are usually caused by interactions
+between the program and the outside world: a user may mis-type a filename, the
+network might be down, and so on.
+
+When an internal error occurs, the only thing we can do in most cases is report
+it and halt the program.  If a function has been passed `None` instead of a
+valid list, for example, the odds are good that one of our data structures is
+corrupted.  We can try to guess what the problem is and take corrective action,
+but our guess will often be wrong and our attempt to correct the problem might
+actually make things worse.  When an external error occurs on the other hand, we
+don't always want the program to stop.  If a user mis-types her password,
+handling the error by prompting her to try again would be friendlier than
+halting and requiring her to restart the program.
+
+Most modern programming languages use <span g="exception">exceptions</span> for
+error handling.  In Python, for example, exceptions are handled using the
+keywords `try` and `except`.  If nothing unexpected happens inside the `try`
+block, the `except` block isn't run If something does go wrong, on the other
+hand, the program jumps immediately to the `except`.
+
+We often want to know exactly what went wrong, so Python and other languages
+store information about the error in an object (which is also called an
+exception).  We can <span g="catch_exception">catch</span> an exception and
+inspect it as follows:
+
+```python
+for denom in [-5, 0, 5]:
+    try:
+        result = 1/denom
+        print(f'1/{denom} == {result}')
+    except Exception as error:
+        print(f'{denom} has no reciprocal: {error}')
+```
+```out
+1/-5 == -0.2
+0 has no reciprocal: division by zero
+1/5 == 0.2
+```
+
+Most languages also allow us to specify what kind of exception we want to catch.
+For example, we can write code to handle out-of-range indexing and division by
+zero in Python separately:
+
+```python
+numbers = [-5, 0, 5]
+for i in [0, 1, 2, 3]:
+    try:
+        denom = numbers[i]
+        result = 1/denom
+        print(f'1/{denom} == {result}')
+    except IndexError as error:
+        print(f'index {i} out of range')
+    except ZeroDivisionError as error:
+        print(f'{denom} has no reciprocal: {error}')
+```
+```out
+1/-5 == -0.2
+0 has no reciprocal: division by zero
+1/5 == 0.2
+index 3 out of range
+```
+
+So where do exceptions come from?  The answer is that programmers can <span
+g="raise_exception">raise</span> them explicitly:
+
+```python
+for number in [1, 0, -1]:
+    try:
+        if number < 0:
+            raise ValueError(f'no negatives: {number}')
+        print(number)
+    except ValueError as error:
+        print(f'exception: {error}')
+```
+```out
+1
+0
+exception: no negatives: -1
+```
+
+We can define our own exception types, and many libraries do, but the built-in
+types are enough to cover common cases.
+
+One final note is that exceptions don't have to be handled where they are
+raised.  In fact, their greatest strength is that they allow long-range error
+handling.  If an exception occurs inside a function and there is no `except` for
+it there, Python checks to see if whoever called the function is willing to
+handle the error.  It keeps working its way up through the call stack until it
+finds a matching `except`.  If there isn't one, Python takes care of the
+exception itself.
+
+This behavior is designed to support a pattern called "throw low, catch high":
+write most of your code without exception handlers, since there's nothing useful
+you can do in the middle of a small utility function, but put a few handlers in
+the uppermost functions of your program to catch and report all errors.
+
+<div class="callout" markdown="1">
+### Kinds of errors
+
+The "`if` then `raise`" approach is sometimes referred to as, "Look before you
+leap," while the `try/except` approach is, "It's easier to ask for forgiveness
+than permission."  The first approach is more precise, but has the shortcoming
+that programmers can't anticipate everything that can go wrong when running a
+program, so there should always be an `except` somewhere to deal with unexpected
+cases.
+
+The one rule we should *always* follow is to check for errors as early as
+possible so that we don't waste the user's time.  Few things are as frustrating
+as being told at the end of an hour-long calculation that the program doesn't
+have permission to write to an output directory.  It's a little extra work to
+check things like this up front, but the larger your program or the longer it
+runs, the more useful those checks will be.
+</div>
+
+## Writing Useful Error Messages
+
+This is not a useful error message:
+
+```out
+OSError: Something went wrong, try again.
+```
+
+{: .continue}
+It doesn't provide any information on what went wrong, so it is difficult to
+know what to change for next time.  A slightly better message would be:
+
+```out
+OSError: Unsupported file type.
+```
+
+This message tells us the problem is with the type of file we're trying to
+process, but it still doesn't tell us what file types are supported, which means
+we have to rely on guesswork or read the source code.  Telling the user that a
+file isn't a CSV file makes it clear that the program only works with files of
+that type, but since we don't actually check the content of the file, this
+message could confuse someone who has comma-separated values saved in a `.txt`
+file.  An even better message would therefore be:
+
+```out
+OSError: File must end in .csv
+```
+
+{: .continue}
+This message tells us exactly what the criteria are to avoid the error.
+
+Error messages are often the first thing people read about a piece of software,
+so they should therefore be the most carefully written documentation for that
+software.  A web search for "writing good error messages" turns up hundreds of
+hits, but recommendations are often more like gripes than guidelines and are
+usually not backed up by evidence.  What research there is gives us the
+following rules <cite>Becker2016</cite>:
+
+Tell the user what they did, not what the program did.
+:   Putting it another way, the message shouldn't state the effect of the error,
+    it should state the cause.
+
+Be spatially correct
+:   I.e., point at the actual location of the error.  Few things are as
+    frustrating as being pointed at line 28 when the problem is on line 35.
+
+Be as specific as possible.
+:   For example, "file not found" is very different from "cannot open file",
+    since the latter could mean "no permissions" or many other things.
+
+Write for your audience's level of understanding.
+:   For example, error messages should never use programming terms more advanced
+    than those you would use to describe the code to the user.
+
+Do not blame the user, and do not use words like fatal, illegal, etc.
+:   The former can be frustrating---in many cases, "user error" actually
+    isn't---and the latter can make people worry that the program has damaged
+    their data, their computer, or their reputation.
+
+Do not try to make the computer sound like a human being.
+:   In particular, avoid humor; very few jokes are funny on the dozenth
+    re-telling, and most users are going to see error messages at least that
+    often.
+
+Use a consistent vocabulary.
+:   This rule can be hard to enforce when error messages are written by several
+    different people, but putting them all in one module makes review easier.
+
+That last suggestion deserves a little elaboration.  Most people write error
+messages directly in their code:
+
+```python
+if fname[-4:] != '.csv':
+    raise OSError(f'{fname}: File must end in .csv')
+```
+
+{: .continue}
+A better approach is to put all the error messages in a dictionary:
+
+```python
+ERRORS = {
+    'not_csv_suffix' : '{fname}: File must end in .csv',
+    'config_corrupted' : '{config_name} corrupted',
+    # ...more error messages...
+}
+```
+
+{: .continue}
+and then only use messages from that dictionary:
+
+```python
+if fname[-4:] != '.csv':
+    raise OSError(ERRORS['not_csv_suffix'].format(fname=fname))
+```
+
+Doing this makes it much easier to ensure that messages are consistent.  It also
+makes it much easier to give messages in the user's preferred language:
+
+```python
+ERRORS = {
+  'en' : {
+    'not_csv_suffix' : '{fname}: File must end in .csv',
+    'config_corrupted' : '{config_name} corrupted',
+    # ...more error messages in English...
+  },
+  'fr' : {
+    'not_csv_suffix' : '{fname}: Doit se terminer par .csv',
+    'config_corrupted' : f'{config_name} corrompu',
+    # ...more error messages in French...
+  }
+  # ...other languages...
+}
+```
+
+The error report is then looked up and formatted as:
+
+```python
+ERRORS[user_language]['not_csv_suffix'].format(fname=fname)
+```
+
+{: continue}
+where `user_language` is a two-letter code for the user's preferred language.
 
 ## Logging
 
@@ -594,12 +833,13 @@ you put:
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-{: .continue} somewhere near the start of your program. The `DEBUG` flag
-identifies the least important messages in your program---the ones you probably
-only want to see when you're trying to figure out what's gone wrong. In order,
-the more important levels in most logging libraries are `INFO`, `WARNING`,
-`ERROR`, and `CRITICAL`. If you only want messages at the `WARNING` level and
-above, you change the configuration to:
+{: .continue}
+somewhere near the start of your program. The `DEBUG` flag identifies the least
+important messages in your program---the ones you probably only want to see when
+you're trying to figure out what's gone wrong. In order, the more important
+levels in most logging libraries are `INFO`, `WARNING`, `ERROR`, and
+`CRITICAL`. If you only want messages at the `WARNING` level and above, you
+change the configuration to:
 
 ```python
 logging.basicConfig(level=logging.WARNING)
@@ -664,10 +904,10 @@ print('total frequency of first 5 words:', total)
 ```
 
 {: .continue}
-Programs intended for widespread use are full of assertions: 10-20% of the code
-they contain are there to check that the other 80-90% are working correctly.
+Programs intended for widespread use are full of assertions: 10--20% of the code
+they contain are there to check that the other 80--90% are working correctly.
 
-## Unit Testing {#testing-unit}
+## Unit Testing
 
 Catching errors is good, but preventing them is better, so responsible
 programmers test their code.  As the name suggests, a <span g="unit_test">unit
@@ -708,7 +948,6 @@ working directory whose names match the pattern `test_*.py`.  It then runs the
 tests in these files and summarizes their results.
 
 <div class="callout" markdown="1">
-
 ### Testing visualizations
 
 Testing visualizations is hard: any change to the dimension of the plot, however
@@ -718,5 +957,4 @@ all of the tests to fail.  The simplest solution is therefore to test the data
 used to produce the image rather than the image itself.  Unless you suspect that
 the drawing library itself contains bugs, the correct data should always produce
 the correct plot.
-
 </div>

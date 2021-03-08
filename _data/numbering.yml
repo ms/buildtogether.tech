@@ -23,7 +23,7 @@ entries:
   kind: Chapter
   label: '5'
   slug: versioning
-  title: Version Control and All That
+  title: Version Control
 - file: ./collaborate/index.md
   kind: Chapter
   label: '6'
@@ -49,24 +49,19 @@ entries:
   label: '10'
   slug: rights
   title: Rights
-- file: ./thinking/index.md
-  kind: Chapter
-  label: '11'
-  slug: thinking
-  title: Thinking and Learning
 - file: ./research/index.md
   kind: Chapter
-  label: '12'
+  label: '11'
   slug: research
   title: A Random Sample of Research
 - file: ./delivery/index.md
   kind: Chapter
-  label: '13'
+  label: '12'
   slug: delivery
   title: Delivery
 - file: ./conclusion/index.md
   kind: Chapter
-  label: '14'
+  label: '13'
   slug: conclusion
   title: Conclusion
 - file: LICENSE.md
@@ -99,9 +94,14 @@ entries:
   label: F
   slug: links
   title: Links
-- file: ./evaluation/index.md
+- file: ./thinking/index.md
   kind: Appendix
   label: G
+  slug: thinking
+  title: Thinking and Learning
+- file: ./evaluation/index.md
+  kind: Appendix
+  label: H
   slug: evaluation
   title: Performance Evaluation
 figures:
@@ -109,12 +109,12 @@ figures:
   after-fork: '6.1'
   after-remote: '6.3'
   process-matrix: '9.1'
-  thinking-cognitive-architecture: '11.2'
-  thinking-frisian: '11.3'
-  thinking-models: '11.1'
+  thinking-cognitive-architecture: G.2
+  thinking-frisian: G.3
+  thinking-models: G.1
   use-case-map: '7.1'
-  washburn-2016-what-went-right: '12.1'
-  washburn-2016-what-went-wrong: '12.2'
+  washburn-2016-what-went-right: '11.1'
+  washburn-2016-what-went-wrong: '11.2'
 tables:
   collaborate-code-review: '6.1'
   starting-spinellis-stats: '3.1'

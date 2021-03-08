@@ -142,6 +142,12 @@
     def: >
       FIXME
 
+- key: catch_exception
+  en:
+    term: "catch (an exception)"
+    def: >
+      To accept responsibility for handling an error or other unexpected event.
+
 - key: cc0
   en:
     term: "CC0"
@@ -336,6 +342,14 @@
     def: >
       FIXME
 
+- key: design_pattern
+  en:
+    term: design pattern
+    def: >
+      A recurring pattern in software design that is specific enough to be worth
+      naming, but not so specific that a single best implementation can be
+      provided by a library.
+
 - key: development_process
   en:
     term: "development process"
@@ -352,6 +366,12 @@
 - key: discoverability
   en:
     term: "discoverability"
+    def: >
+      FIXME
+
+- key: doc_comment
+  en:
+    term: "doc comment"
     def: >
       FIXME
 
@@ -411,6 +431,15 @@
     def: >
       FIXME
 
+- key: exception
+  en:
+    term: "exception"
+    def: >
+      An error or unusual event in a program or an object that stores
+      information about . One part of a program will create and [raise an
+      exception](#raise_exception) to signal that something unexpected has
+      happened; another part will [catch](#catch_exception) it.
+
 - key: expected_result
   ref:
     - actual_result
@@ -437,6 +466,13 @@
     term: "expert blind spot"
     def: >
       FIXME
+
+- key: external_error
+  en:
+    term: "external error"
+    def: >
+      An error caused by something outside a program, such as trying to
+      open a file that doesn't exist.
 
 - key: extraneous_load
   en:
@@ -592,6 +628,13 @@
     def: >
       FIXME
 
+- key: internal_error
+  en:
+    term: "internal error"
+    def: >
+      An error caused by a fault in a program, such as trying to access elements
+      beyond the end of an array.
+
 - key: interpreted_language
   en:
     term: "interpreted language"
@@ -605,6 +648,13 @@
     term: "intrinsic load"
     def: >
       The [cognitive load](#cognitive_load) required to absorb new information.
+
+- key: issue_label
+  en:
+    term: "label (an issue)"
+    def: >
+      A short tag associated with an issue to categorize it. Common labels
+      include `bug` and `feature request`.
 
 - key: issue_tracker
   en:
@@ -683,6 +733,13 @@
     def: >
       FIXME
 
+- key: milestone
+  en:
+    term: "milestone"
+    def: >
+      A target that a project is trying to meet, often represented as a set of
+      issues that all have to be resolved by a certain time.
+
 - key: mit_license
   en:
     term: "MIT License"
@@ -731,6 +788,12 @@
 - key: open_license
   en:
     term: "open license"
+    def: >
+      FIXME
+
+- key: oppression
+  en:
+    term: "oppression"
     def: >
       FIXME
 
@@ -789,6 +852,12 @@
     def: >
       FIXME
 
+- key: privilege
+  en:
+    term: "privilege"
+    def: >
+      FIXME
+
 - key: product_manager
   en:
     term: "product manager"
@@ -836,6 +905,15 @@
       FIXME
   ref:
     - qualitative_method
+
+- key: raise_exception
+  ref:
+    - throw_exception
+  en:
+    term: "raise (an exception)"
+    def: >
+      To signal that something unexpected or unusual has happened in a program,
+      which can [catch](#catch_exception) it and handle it (or not).
 
 - key: raster_image
   en:
@@ -1024,6 +1102,12 @@
     term: "test runner"
     def: >
       A program that finds and runs software tests and reports their results.
+
+- key: throw_exception
+  en:
+    term: "throw (an exception)"
+    def: >
+      Another term for [raising](#raise_exception) an exception.
 
 - key: time_boxing
   en:

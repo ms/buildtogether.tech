@@ -81,7 +81,6 @@ Three or four sessions a week like that from each person on the team plus a
 single meeting to stay organized and you will be in great shape.
 
 <div class="callout" markdown="1">
-
 ### Test-driven development
 
 Many developers are passionate about a technique called <span
@@ -105,7 +104,6 @@ productive than doing a lot of coding followed by a lot of testing or vice versa
 tests before fixing bugs, and wrote code for the new feature before writing
 tests, but in both cases switched between the two activites every 15--20
 minutes.
-
 </div>
 
 ## The Waterfall Model
@@ -447,7 +445,6 @@ benefits with practice, but I hope that even once will be enough to convince you
 that it's worth doing.
 
 <div class="callout" markdown="1">
-
 ### Triage
 
 When disaster strikes, doctors do triage to determine who will survive without
@@ -459,7 +456,6 @@ schedule accordingly. The 3×3 effort-importance grid that you drew at the start
 will help with this: by the time you are a few weeks into your project, you
 shoul be able to update the effort estimates, add newly-discovered issues, and
 draw up a more realistic plan.
-
 </div>
 
 ## Which Process Should You Use?

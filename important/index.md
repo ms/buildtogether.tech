@@ -192,7 +192,6 @@ in and out by an operating system: if it happens too often, the CPU spends all
 its time moving things around and none doing useful work.
 
 <div class="callout" markdown="1">
-
 ### How bad is it?
 
 A student of mine kept a stopwatch beside his computer for a couple of weeks
@@ -201,7 +200,6 @@ to Manchester United's web site he hit the button to stop it.  At the end of
 two weeks he discovered that he only spent 28% of his "working" time working. 
 Put it another way, he could have finished his assignments in a third of the
 time they actually took.
-
 </div>
 
 Making lists and setting 50-minute alarms will seem a little earnest at first,
@@ -300,18 +298,57 @@ People can be held accountable at subsequent meetings.
     helps a lot when the time comes to draw up the agenda for the next meeting.
 
 <div class="callout" markdown="1">
-
 ### Are you a blowfish or a clam?
 
-[This guide][noaa-disruptive] to dealing with disruptive behaviors has useful
-labels and even more useful advice for handling people who may send meetings
-off course.
-
+[NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
+labels and even more useful advice for handling people who may send meetings off
+course.
 </div>
 
 If you would like to become better at sharing information and making decisions,
 there is no better place to start than <cite>Brookfield2016</cite>. This book
 catalogs fifty different techniques and explains when and why each is useful.
+
+## Air Time
+
+One of the problems in a synchronous meeting is the tendency of some people to
+speak far more than others.  Other meeting members may be so accustomed to this
+that they don't speak up even when they have valuable points to
+make.
+
+One way to combat this is to give everyone three sticky notes (or coins, or
+paperclips---anything inedible will do).  at the start of the meeting.  Every
+time they speak, they have to give up one sticky note.  When they're out of
+stickies, they aren't allowed to speak until everyone has used at least one, at
+which point everyone gets all of their sticky notes back.  This ensures that
+nobody talks more than three times as often as the quietest person in the
+meeting, and completely changes group dynamics.  People who have given up trying
+to be heard suddenly have space to contribute, and the overly frequent speakers
+realize how unfair they have been.
+
+Another useful technique is called interruption bingo.  Draw a grid and label
+the rows and columns with the participants' names.  Each time one person
+interrupts another, add a tally mark to the appropriate cell; halfway through
+the meeting, take a moment to look at the results.  In most cases it will be
+clear that one or two people are doing all of the interrupting.  After that,
+saying, "All right, I'm adding another tally to the bingo card," is often enough
+to get them to throttle back.
+
+Online meetings provide special challenges, both in the context of regulating
+how often individuals speak, as well as running meetings in general.
+<cite>Troy2018</cite> discusses why online meetings are often frustrating and
+unproductive and points out that in most online meetings, the first person to
+speak during a pause gets the floor.  As a result, "If you have something you
+want to say, you have to stop listening to the person currently speaking and
+instead focus on when they're gonna pause or finish so you can leap into that
+nanosecond of silence and be the first to utter something.  The
+format…encourages participants who want to contribute to say more and listen
+less."
+
+The solution is to run a text chat beside the video conference where people can
+signal that they want to speak.  The moderator can then select people from the
+waiting list.  This practice can be reinforced by having everyone mute
+themselves, and only allowing the moderator to unmute people.
 
 ## Making Decisions
 
@@ -488,7 +525,6 @@ lot of tension, since explaining your position back to you clearly forces the
 other person to see the world through your eyes, if only for a few moments.
 
 <div class="callout" markdown="1">
-
 ### Hitchhikers
 
 <span g="hitchhiker">Hitchhikers</span> who show up but never actually do
@@ -499,7 +535,6 @@ others on the team have also fallen short of expectations.  Tracking progress
 and contributions is essential for handling them.  If we can't back up our
 complaint, our instructor will likely be left with the impression that the whole
 team is dysfunctional.
-
 </div>
 
 What can we do if conflict becomes more personal and heated?

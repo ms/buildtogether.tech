@@ -44,7 +44,6 @@ like [Mercurial][mercurial] are proof that this complexity and pain are
 unnecessary.
 
 <div class="callout" markdown="1">
-
 ### Why can't we fix it?
 
 If Git's interface is a problem, why can't we build a new one?
@@ -52,7 +51,6 @@ If Git's interface is a problem, why can't we build a new one?
 existing interface is simply too powerful: as soon as people run into a problem
 and start searching online for solutions, they're thrown back into the world of
 original Git.
-
 </div>
 
 So why do people keep using Git? The answer these days is, "Because it's the tax
@@ -77,7 +75,6 @@ comes with your IDE. These GUIs are all layered on top of the commands we are
 going to discuss, so they (should) all work the same way.
 
 <div class="callout" markdown="1">
-
 ### Trapped in the punchcard era
 
 The biggest weakness of today's version control systems is that they work be
@@ -90,7 +87,6 @@ Git can do it tell you that there's a conflict. It doesn't have to be like
 this: programmers could build tools to compare and merge files that aren't
 backward-compatible with punchcards, and by doing so, make version control
 accessible to people whose file formats aren't stuck in the 1960s.
-
 </div>
 
 ## A Review of the Basics
@@ -140,14 +136,12 @@ contains all of the administrative data that Git uses to keep track of what
 files you have and how they've changed.
 
 <div class="callout" markdown="1">
-
 ### Don't mess
 
 Don't ever edit the files in your `.git` directory yourself.  Doing so will have
 the same unpleasant result as editing a spreadsheet or an image as if it was a
 text file. If you'd like to know more about what they're for and how Git uses
 them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
-
 </div>
 
 If your instructor or one of your teammates has already created a project, you
@@ -227,7 +221,6 @@ Here, `commit` is the verb and the `-m` (short for "message") flag is followed
 by the comment we want to save in the log.
 
 <div class="callout" markdown="1">
-
 ### The most popular question on Stack Overflow
 
 If you use Git on the command line and you *don't* provide a message using the
@@ -238,7 +231,6 @@ one of the most frequently-viewed questions on [Stack Overflow][stack-overflow]
 is "[How do I exit the Vim editor?][so-exit-vim]". Unsurprisingly, another
 frequently-viewed question on Stack Overflow is "[How do I make Git use the
 editor of my choice for my commits?][so-configure-git-editor]"
-
 </div>
 
 If we only ever use `git commit`, though, nothing will happen. We need to tell
@@ -371,7 +363,6 @@ using two or more computers (such as a personal laptop and your school's
 servers).
 
 <div class="callout" markdown="1">
-
 ### Clean and build
 
 Many instructors require learners to submit work by committing it to a Git
@@ -381,7 +372,6 @@ and make sure that everything builds and runs there. Doing that will tell you
 if you or one of your teammates has forgotten to commit a key file. In an
 advanced course, you might be asked to do this automatically every time
 someone commits changes; we'll explore this in <span x="tooling"></span>.
-
 </div>
 
 ## A Branch-Based Workflow
@@ -454,13 +444,11 @@ Commands like `ls` and `git log` therefore show that the files and history
 haven't changed.
 
 <div class="callout" markdown="1">
-
 ### Where branches are saved
 
 Git saves every version of every file in the repository's `.git` directory.
 When we switch from one branch to another, it copies files out of there and
 rearranges directories to restore that state of the world.
-
 </div>
 
 Why go to all this trouble?  Because it allows us to work on several things at
@@ -516,13 +504,11 @@ changed is shown as a deletion followed by an addition, and the lines marked
 with `@@` show where in the file the change occurred.
 
 <div class="callout" markdown="1">
-
 ### See the difference
 
 You have to be a bit of a masochist to try to read diffs like this. Even if you
 are using Git from the command line, it's a lot easier to view diffs using a GUI
 like [DiffMerge][diffmerge].
-
 </div>
 
 Once we're sure we actually want to merge changes, we do so like this:
@@ -684,18 +670,9 @@ Markdown (`.md`) files.
     licenses in <span x="rights"></span>
 
 `CONDUCT`
-:   How the project requires people to treat each other. "Be polite" or "use
-    your common sense" turns out not to be enough because:
-
-    -   What you think is polite or common sense depends on where you are
-        from.  Since many projects have participants from different backgrounds,
-        making the rules explicit avoids angry arguments starting with, "But *I*
-        thought that…"
-
-    -   It helps prevent people from <span g="feigning_ignorance">feigning
-        ignorance</span>, i.e., claiming after they do something offensive that
-        they didn't realize it was out of bounds.  (See also <span
-        g="schrodingers_asshole">Schrödinger's asshole</span>.)
+:   The project's Code of Conduct, i.e., how people are required to treat one
+    another.  As we'll discuss in <span x="collaborate"></span>, "be polite" or
+    "use your common sense" aren't enough.
 
 `CONTRIBUTING`
 :   How to contribute to the project. Should people file an issue when they have

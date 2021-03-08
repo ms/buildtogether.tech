@@ -24,6 +24,17 @@ At a bare minimum, your project should finish with:
     enhancement, or question) well enough for someone to know where to start
     work.
 
+<div class="callout" markdown="1">
+### Finish with a package
+
+An alternative deliverable is a package that other people can download and
+install. It isn't an either/or choice: every good package has a home page, a
+design description, installation instructions, and so on. If you are doing a
+data analysis project instead of straight software engineering, a package with
+some useful datasets and functions to work with them is a great goal to work
+toward.
+</div>
+
 ## Version Numbers
 
 If your project is run like most, you're going to submit your work several times
@@ -199,7 +210,6 @@ markup language) is complicated to write and poorly supported, so many people
 still resort to embedding pictures of equations in web pages.
 
 <div class="callout" markdown="1">
-
 ### XML and LaTeX
 
 If you're really keen, you can use an XML markup format like DocBook, which
@@ -217,7 +227,6 @@ steep price: LaTeX is as hard to master as a programming language. It also has a
 frustratingly slow formatting cycle, since documents have to be compiled into
 PDF or another viewable format before you can see the effects of your changes
 (although WYSIWYG tools like LyX are making great strides).
-
 </div>
 
 ## The Post Mortem
@@ -259,7 +268,7 @@ Make two lists.
 :   When I'm moderating, I put the headings "Keep" and "Change" on the board,
     then do a lap around the room and ask every person to give me one item that
     hasn't already been mentioned for each list.  The "hasn't already been
-    mentioned" part is ipmortant: after the first few safe responses are up
+    mentioned" part is important: after the first few safe responses are up
     on the board, people have to start saying the more difficult things that
     really matter.
 

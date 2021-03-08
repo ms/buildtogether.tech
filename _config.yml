@@ -14,7 +14,7 @@ chapters:
   - slug: "teams"
     title: "Teams"
   - slug: "versioning"
-    title: "Version Control and All That"
+    title: "Version Control"
   - slug: "collaborate"
     title: "Collaborating"
   - slug: "design"
@@ -25,8 +25,6 @@ chapters:
     title: "Process"
   - slug: "rights"
     title: "Rights"
-  - slug: "thinking"
-    title: "Thinking and Learning"
   - slug: "research"
     title: "A Random Sample of Research"
   - slug: "delivery"
@@ -49,6 +47,8 @@ chapters:
     title: "Glossary"
   - slug: "links"
     title: "Links"
+  - slug: "thinking"
+    title: "Thinking and Learning"
   - slug: "evaluation"
     title: "Performance Evaluation"
 
@@ -69,7 +69,8 @@ kramdown:
     {
       "ant": ["https://ant.apache.org/", "Apache Ant"],
       "bitbucket": ["https://bitbucket.org/", "BitBucket"],
-      "captain-awkward": ["https://captainawkward.com/", "Captain Awkward"],
+      "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
+      "captain-awkward": ["https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup ", "Buzzfeed article on DataCamp"],
       "carpentries": ["http://carpentries.org", "The Carpentries"],
       "carpentries-git": ["https://swcarpentry.github.io/git-novice/", "The Carpentries' lesson on Git"],
       "carpentrycon-talk": ["https://www.youtube.com/watch?v=7xR50ty5DZ0", "Greg Wilson's CarpentryCon keynote"],
@@ -120,11 +121,11 @@ kramdown:
       "so-exit-vim": ["https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor", "How do I exit the Vim editor?"],
       "sqlite": ["https://www.sqlite.org/", "SQLite"],
       "stack-overflow": ["https://stackoverflow.com/", "Stack Overflow"],
+      "stack-overflow-good-question": ["https://stackoverflow.com/help/how-to-ask", "How do I ask a good question?"],
       "stjs": ["https://stjs.tech/", "Software Tools in JavaScript"],
       "stone-quote": ["https://twitter.com/joncstone/status/1269961630940631041", "Jon Stone on channels"],
       "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
       "thirdbit-burnout": ["http://third-bit.com/2015/11/09/daddy-why-dont-you-ever-laugh/", "Daddy, Why Don't You Ever Laugh?"],
-      "thirdbit-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
       "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],
       "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
       "visual-basic": ["https://en.wikipedia.org/wiki/Visual_Basic", "Visual Basic"],
@@ -133,12 +134,12 @@ kramdown:
 
 exclude:
   - '*.sublime-*'
-  - README.md
   - Gemfile
   - Gemfile.lock
   - Makefile
-  - vendor/bundle
+  - README.md
   - book.*
+  - tmp
 
 permalink: pretty
 
