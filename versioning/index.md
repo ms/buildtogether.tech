@@ -172,7 +172,7 @@ $ git log
 ```
 ```out
 commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
-Author: Greg Wilson <spanvwilson@third-bit.com>
+Author: Greg Wilson <gvwilson@third-bit.com>
 Date:   Fri Feb 19 09:48:37 2021 -0500
 
     Opening section of version control.

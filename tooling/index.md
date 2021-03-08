@@ -120,8 +120,8 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
     functions and see the results without having to start (or restart) your
     program.
 
--   A <span g="style_checker">style checker* that can warn you when your code
-    doesn't meet naming and indentation conventions.
+-   A <span g="style_checker">style checker</span> that can warn you when your
+    code doesn't meet naming and indentation conventions.
 
 -   A <span g="code_browser">code browser</span> that helps you navigate the
     packages, classes, methods, and data in your program.

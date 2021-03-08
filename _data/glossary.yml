@@ -633,6 +633,12 @@
       A technique for configuring programs in which several layers of
       configuration are used, each overriding settings in the ones before.
 
+- key: license
+  en:
+    term: "license"
+    def: >
+      FIXME
+
 - key: logging
   en:
     term: "logging"
