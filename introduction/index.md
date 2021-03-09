@@ -36,6 +36,13 @@ Like these three personas, readers should:
 -   Know how to use [Git][git] to save and share files. (It's OK not to know
     [the more obscure commands][git-man-page-generator].)
 
+This book can be read on its own or as a companion to *[Software Tools in JavaScript][stjs]*,
+which teaches the basics of software design by showing you
+how to build the tools you program with.
+If you are looking for a project to do in a course,
+adding a tool to those covered there would be fun as well as educational.
+Please see <span x="conclusion"></span> for more details.
+
 ## Topics
 
 Life is short and your project is even shorter, so this book focuses on the

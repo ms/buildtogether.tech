@@ -1,44 +1,34 @@
 ---
 ---
 
-Let's see how you're doing.  Give yourself 1 for each "yes", 0 for each "no",
-and -1 for "I don't know" or "I don't understand the question".
+We have come a long way since we talked about crunch mode and how to run a meeting
+in <span x="important"></span>.
+Using feature branches,
+triaging issues,
+designing software so that it can be tested,
+basing our opinions on the best available research,
+knowing your rights---good developers do all of these things,
+and I hope that understanding them will help you become better at your craft.
 
-1.  Does your project have a Code of Conduct and does everyone follow it?
+I also hope that your journey won't stop here.
+Pervasive surveillance,
+online harassment,
+radicalization,
+and the concentration of wealth and power in a few unaccountable hands (or algorithms):
+our industry has fueled them all,
+and if you think that being a programmer makes you immune to the fallout,
+think again.
+None of us can fix this alone;
+if you have learned a little from this book or your course about how to work well with others,
+then I hope you will choose to use it to make the world a slightly better place.
 
-1.  Does your project have a vision statement and does everyone know what it is?
+Contributions to this book are welcome,
+from errata and minor improvements to entirely new sections and chapters,
+and everyone whose work is incorporated will be acknowledged.
+If you'd like to join us,
+please file an issue or submit a pull request in [our GitHub repository][bst-repo],
+or see the contributors' guide (<span x="contributing"></span>) for more information.
 
-1.  Does every meeting start with an agenda and end with minutes filed somewhere findable?
-
-1.  Is every project resource saved in version control?
-
-1.  Can you rebuild and deploy your project with a single command?
-
-1.  Do you write tests at the same time as you write code?
-
-1.  Do you always run your tests before checking changes into version control?
-
-1.  Do you have a bug database and have you triaged it recently?
-
-1.  Do you use assertions and other defensive programming techniques?
-
-1.  Do you use a symbolic debugger to track problems down?
-
-1.  Do you embed your documentation in your code?
-
-1.  Is there a searchable archive of discussions about the project?
-
-1.  Do you use a style checker to maintain code quality?
-
-1.  Do you do development in a distraction-free environment?
-
-1.  Do you work steadily, without all-nighters or last-minute panic sessions?
-
-How did you do?
-
--   5 or less: your project will probably fail to deliver anything useful.
-
--   6--10: most mature development teams are in this range and can bootstrap
-    other improvements they need on their own.
-
--   11 or higher: if you're looking for a job, please let me know.
+> "If you cannot be brave---and it is often hard to be brave---be kind."
+>
+> --- Sarah Kendzior
