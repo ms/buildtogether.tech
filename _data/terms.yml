@@ -2,384 +2,384 @@ bibliography: []
 collaborate:
 - key: ally
   term: ally
-- key: milestone
-  term: milestone
-- key: static_site_generator
-  term: static site generator
-- key: fork_git
-  term: fork
-- key: issue_tracker
-  term: issue tracker
+- key: code_review
+  term: code review
+- key: discoverability
+  term: discoverability
 - key: doc_comment
   term: doc comment
+- key: docstring
+  term: docstring
+- key: feigning_ignorance
+  term: feigning ignorance
+- key: fork_git
+  term: fork
+- key: issue_label
+  term: label (an issue)
+- key: issue_tracker
+  term: issue tracker
+- key: milestone
+  term: milestone
+- key: oppression
+  term: oppression
+- key: privilege
+  term: privilege
+- key: pull_request
+  term: pull request
 - key: reprex
   term: reproducible example (reprex)
 - key: schrodingers_asshole
   term: "Schr\xF6dinger's Asshole"
-- key: issue_label
-  term: label (an issue)
-- key: oppression
-  term: oppression
-- key: feigning_ignorance
-  term: feigning ignorance
-- key: privilege
-  term: privilege
-- key: discoverability
-  term: discoverability
+- key: static_site_generator
+  term: static site generator
 - key: utc
   term: Coordinated Universal Time
-- key: pull_request
-  term: pull request
-- key: code_review
-  term: code review
-- key: docstring
-  term: docstring
 conclusion: []
 conduct: []
 contributing: []
 delivery:
-- key: version_number
-  term: version number
 - key: semantic_versioning
   term: semantic versioning
+- key: version_number
+  term: version number
 design:
+- key: actor
+  term: actor
+- key: actual_result
+  term: actual result (of test)
+- key: aih
+  term: already invented here syndrome
+- key: analysis_paralysis
+  term: analysis paralysis
+- key: assertion
+  term: assertion
+- key: base_class
+  term: base class
+- key: catch_exception
+  term: catch (an exception)
+- key: conceptual_architecture
+  term: conceptual architecture
+- key: css_selector
+  term: CSS selector
+- key: defensive_programming
+  term: defensive programming
+- key: derive
+  term: derive
+- key: design_by_contract
+  term: design by contract
+- key: design_for_test
+  term: design for test
+- key: design_pattern
+  term: design pattern
+- key: embedded_database
+  term: embedded database
+- key: er_diagram
+  term: entity-relationship diagram
+- key: exception
+  term: exception
+- key: expected_result
+  term: expected result (of test)
 - key: external_error
   term: external error
 - key: fidelity
   term: fidelity
 - key: fixture
   term: fixture
-- key: design_by_contract
-  term: design by contract
-- key: nih
-  term: not invented here syndrome
-- key: catch_exception
-  term: catch (an exception)
+- key: fsm
+  term: finite state machine
+- key: heuristic
+  term: heuristic
+- key: in_memory_database
+  term: in-memory database
 - key: internal_error
   term: internal error
-- key: microservice
-  term: microservice
 - key: key
   term: key
-- key: er_diagram
-  term: entity-relationship diagram
-- key: derive
-  term: derive
-- key: scriptable
-  term: scriptable
-- key: use_case_map
-  term: use-case map
-- key: uml
-  term: Unified Modeling Language
+- key: layered_configuration
+  term: layered configuration
+- key: logging
+  term: logging
+- key: microservice
+  term: microservice
+- key: mvc
+  term: model-view-controller
+- key: nih
+  term: not invented here syndrome
 - key: open_closed_principle
   term: Open-Closed Principle
 - key: post_condition
   term: post-condition
-- key: raster_image
-  term: raster image
-- key: logging
-  term: logging
-- key: heuristic
-  term: heuristic
-- key: actor
-  term: actor
-- key: raise_exception
-  term: raise (an exception)
-- key: workflow_diagram
-  term: workflow diagram
-- key: defensive_programming
-  term: defensive programming
-- key: unit_test
-  term: unit test
-- key: assertion
-  term: assertion
-- key: css_selector
-  term: CSS selector
-- key: test_framework
-  term: test framework
-- key: design_for_test
-  term: design for test
-- key: mvc
-  term: model-view-controller
-- key: type_declaration
-  term: type declaration
-- key: base_class
-  term: base class
-- key: fsm
-  term: finite state machine
-- key: exception
-  term: exception
-- key: string_io
-  term: string I/O
-- key: layered_configuration
-  term: layered configuration
-- key: in_memory_database
-  term: in-memory database
-- key: embedded_database
-  term: embedded database
-- key: aih
-  term: already invented here syndrome
-- key: conceptual_architecture
-  term: conceptual architecture
-- key: analysis_paralysis
-  term: analysis paralysis
-- key: actual_result
-  term: actual result (of test)
-- key: test_runner
-  term: test runner
-- key: expected_result
-  term: expected result (of test)
-- key: design_pattern
-  term: design pattern
-- key: rotating_file
-  term: rotating file
-- key: user_story
-  term: user story
 - key: pre_condition
   term: pre-condition
+- key: raise_exception
+  term: raise (an exception)
+- key: raster_image
+  term: raster image
+- key: rotating_file
+  term: rotating file
+- key: scriptable
+  term: scriptable
+- key: string_io
+  term: string I/O
+- key: test_framework
+  term: test framework
+- key: test_runner
+  term: test runner
+- key: type_declaration
+  term: type declaration
+- key: uml
+  term: Unified Modeling Language
+- key: unit_test
+  term: unit test
+- key: use_case_map
+  term: use-case map
+- key: user_story
+  term: user story
+- key: workflow_diagram
+  term: workflow diagram
 evaluation: []
 glossary: []
 important:
-- key: hitchhiker
-  term: hitchiker
-- key: governance
-  term: governance
 - key: active_listening
   term: active listening
-- key: sense_vote
-  term: sense vote
-- key: marthas_rules
-  term: Martha's Rules
 - key: crunch_mode
   term: crunch mode
+- key: governance
+  term: governance
+- key: hitchhiker
+  term: hitchiker
+- key: marthas_rules
+  term: Martha's Rules
+- key: sense_vote
+  term: sense vote
 introduction: []
 license: []
 links: []
 process:
-- key: development_process
-  term: development process
-- key: waterfall_model
-  term: waterfall model
+- key: ae
+  term: analysis & estimation
 - key: boehm_curve
   term: Boehm Curve
-- key: triage
-  term: triage
+- key: business_rule
+  term: business rule
+- key: development_process
+  term: development process
+- key: feature_boxing
+  term: feature boxing
 - key: pair_programming
   term: pair programming
-- key: time_boxing
-  term: time boxing
-- key: tdd
-  term: test-driven development
+- key: product_manager
+  term: product manager
+- key: project_manager
+  term: project manager
 - key: schema
   term: schema
 - key: stand_up_meeting
   term: stand-up meeting
-- key: product_manager
-  term: product manager
-- key: business_rule
-  term: business rule
-- key: project_manager
-  term: project manager
-- key: feature_boxing
-  term: feature boxing
-- key: ae
-  term: analysis & estimation
+- key: tdd
+  term: test-driven development
+- key: time_boxing
+  term: time boxing
+- key: triage
+  term: triage
+- key: waterfall_model
+  term: waterfall model
 research:
-- key: root_cause
-  term: root cause
 - key: affective_state
   term: affective state
 - key: big_five
   term: Big Five personality traits
+- key: cognitive_dimensions
+  term: cognitive dimensions framework
+- key: dynamic_typing
+  term: dynamic typing
+- key: end_user_programmer
+  term: end-user programmer
+- key: gqm
+  term: goal-question-metric
 - key: post_mortem
   term: post-mortem
 - key: premature_commitment
   term: premature commitment
-- key: dynamic_typing
-  term: dynamic typing
-- key: cognitive_dimensions
-  term: cognitive dimensions framework
-- key: gqm
-  term: goal-question-metric
-- key: end_user_programmer
-  term: end-user programmer
-- key: static_typing
-  term: static typing
 - key: qualitative_method
   term: qualitative method
+- key: root_cause
+  term: root cause
+- key: static_typing
+  term: static typing
 rights:
-- key: trademark
-  term: trademark
-- key: cc_by
-  term: CC-BY
 - key: bsd_license
   term: BSD license
-- key: patent
-  term: patent
-- key: license
-  term: license
-- key: trade_secret
-  term: trade secret
-- key: gpl
-  term: GNU Public License
-- key: open_license
-  term: open license
-- key: mit_license
-  term: MIT License
 - key: cc0
   term: CC0
+- key: cc_by
+  term: CC-BY
 - key: copyright
   term: copyright
+- key: gpl
+  term: GNU Public License
 - key: intellectual_property
   term: intellectual property
+- key: license
+  term: license
+- key: mit_license
+  term: MIT License
 - key: non_disclosure_agreement
   term: non-disclosure agreement
+- key: open_license
+  term: open license
+- key: patent
+  term: patent
+- key: trade_secret
+  term: trade secret
+- key: trademark
+  term: trademark
 starting:
 - key: elevator_pitch
   term: elevator pitch
 teams:
-- key: rotating_decomposition
-  term: rotating decomposition
-- key: alpha_geek
-  term: alpha geek
-- key: team_contract
-  term: team contract
-- key: feature_creep
-  term: feature creep
-- key: chaotic_decomposition
-  term: chaotic decomposition
-- key: functional_decomposition
-  term: functional decomposition
-- key: feature_decomposition
-  term: feature decomposition
-- key: big_bang
-  term: big-bang integration
-- key: modular_decomposition
-  term: modular decomposition
 - key: 90_9_1_rule
   term: 90-9-1 rule
+- key: alpha_geek
+  term: alpha geek
+- key: big_bang
+  term: big-bang integration
+- key: chaotic_decomposition
+  term: chaotic decomposition
+- key: feature_creep
+  term: feature creep
+- key: feature_decomposition
+  term: feature decomposition
+- key: functional_decomposition
+  term: functional decomposition
+- key: modular_decomposition
+  term: modular decomposition
+- key: rotating_decomposition
+  term: rotating decomposition
+- key: team_contract
+  term: team contract
 thinking:
-- key: mental_model
-  term: mental model
-- key: formative_assessment
-  term: formative assessment
-- key: long_term_memory
-  term: long-term memory
 - key: chunking
   term: chunking
 - key: cognitive_load
   term: cognitive load
+- key: cognitive_transition
+  term: cognitive transition
+- key: competent_practitioner
+  term: competent practitioner
+- key: diagnostic_power
+  term: diagnostic power
+- key: expert
+  term: expert
 - key: expert_blind_spot
   term: expert blind spot
+- key: extraneous_load
+  term: extraneous-load
+- key: formative_assessment
+  term: formative assessment
 - key: germane_load
   term: germane load
 - key: hypercorrection_effect
   term: hypercorrection_effect
-- key: short_term_memory
-  term: short-term memory
-- key: extraneous_load
-  term: extraneous-load
-- key: working_memory
-  term: working memory
-- key: cognitive_transition
-  term: cognitive transition
-- key: novice
-  term: novice
-- key: diagnostic_power
-  term: diagnostic power
 - key: intrinsic_load
   term: intrinsic load
-- key: competent_practitioner
-  term: competent practitioner
-- key: expert
-  term: expert
+- key: long_term_memory
+  term: long-term memory
+- key: mental_model
+  term: mental model
+- key: novice
+  term: novice
+- key: short_term_memory
+  term: short-term memory
+- key: working_memory
+  term: working memory
 tooling:
+- key: auto_completion
+  term: auto-completion
+- key: build_manager
+  term: build manager
+- key: ci
+  term: continuous integration
+- key: code_browser
+  term: code browser
+- key: compiled_language
+  term: compiled language
+- key: console
+  term: console
+- key: curly_brace_language
+  term: curly-brace language
+- key: doc_generator
+  term: documentation generator
+- key: dynamic_typing
+  term: dynamic typing
+- key: experimental_control
+  term: experimental control
+- key: generational_garbage_collection
+  term: generational garbage collection
+- key: gui_designer
+  term: GUI designer
+- key: ide
+  term: Integrated Development Environment
+- key: interpreted_language
+  term: interpreted language
 - key: jit
   term: just-in-time compiler
+- key: pattern_rule
+  term: pattern rule
+- key: plugin
+  term: plugin
 - key: refactoring
   term: refactoring
 - key: strong_typing
   term: strong typing
-- key: gui_designer
-  term: GUI designer
-- key: symbolic_debugger
-  term: symbolic debugger
-- key: curly_brace_language
-  term: curly-brace language
-- key: console
-  term: console
-- key: dynamic_typing
-  term: dynamic typing
-- key: compiled_language
-  term: compiled language
-- key: wysiwyg
-  term: What You See Is What You Get
-- key: experimental_control
-  term: experimental control
-- key: build_manager
-  term: build manager
-- key: auto_completion
-  term: auto-completion
-- key: generational_garbage_collection
-  term: generational garbage collection
-- key: ide
-  term: Integrated Development Environment
-- key: ci
-  term: continuous integration
 - key: style_checker
   term: style checker
-- key: interpreted_language
-  term: interpreted language
-- key: doc_generator
-  term: documentation generator
+- key: symbolic_debugger
+  term: symbolic debugger
 - key: test_runner
   term: test runner
-- key: code_browser
-  term: code browser
-- key: plugin
-  term: plugin
-- key: pattern_rule
-  term: pattern rule
+- key: wysiwyg
+  term: What You See Is What You Get
 versioning:
-- key: mental_model
-  term: mental model
-- key: software_forge
-  term: software forge
-- key: commit_message
-  term: commit message
-- key: pull_git
-  term: pull
-- key: timestamp
-  term: timestamp
-- key: flag
-  term: flag
-- key: decentralized_system
-  term: decentralized system
-- key: branch_per_feature_workflow
-  term: branch-per-feature workflow
-- key: conflict_git
-  term: conflict
-- key: push
-  term: push
-- key: centralized_system
-  term: centralized system
-- key: shell_prompt
-  term: shell prompt
-- key: merge_git
-  term: merge
-- key: commit
-  term: commit
-- key: cwd
-  term: current working directory
-- key: repository
-  term: repository
-- key: rebase_git
-  term: rebase
-- key: sub_command
-  term: sub-command
-- key: remote_git
-  term: remote
 - key: branch_git
   term: branch
+- key: branch_per_feature_workflow
+  term: branch-per-feature workflow
+- key: centralized_system
+  term: centralized system
 - key: clone_git
   term: clone
+- key: commit
+  term: commit
+- key: commit_message
+  term: commit message
+- key: conflict_git
+  term: conflict
+- key: cwd
+  term: current working directory
+- key: decentralized_system
+  term: decentralized system
+- key: flag
+  term: flag
+- key: mental_model
+  term: mental model
+- key: merge_git
+  term: merge
+- key: pull_git
+  term: pull
+- key: push
+  term: push
+- key: rebase_git
+  term: rebase
+- key: remote_git
+  term: remote
+- key: repository
+  term: repository
+- key: shell_prompt
+  term: shell prompt
+- key: software_forge
+  term: software forge
+- key: sub_command
+  term: sub-command
+- key: timestamp
+  term: timestamp
