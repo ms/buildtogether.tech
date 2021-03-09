@@ -268,9 +268,21 @@
       A situation in which incompatible or overlapping changes have been made on
       different [branches](#branch_git) that are now being [merged](#merge_git).
 
+- key: confounding_variables
+  en:
+    term: "confounding variables"
+    def: >
+      FIXME
+
 - key: console
   en:
     term: "console"
+    def: >
+      FIXME
+
+- key: control_group
+  en:
+    term: "control group"
     def: >
       FIXME
 
@@ -301,6 +313,18 @@
 - key: cwd
   en:
     term: "current working directory"
+    def: >
+      FIXME
+
+- key: data_mining
+  en:
+    term: "data mining"
+    def: >
+      FIXME
+
+- key: dead_code
+  en:
+    term: "dead code"
     def: >
       FIXME
 
@@ -397,6 +421,12 @@
     def: >
       A standard in-memory representation of HTML and XML
     acronym: DOM
+
+- key: double_blind
+  en:
+    term: "double blind"
+    def: >
+      FIXME
 
 - key: dynamic_typing
   en:
@@ -519,6 +549,12 @@
 - key: flag
   en:
     term: "flag"
+    def: >
+      FIXME
+
+- key: fmri
+  en:
+    term: "fmri"
     def: >
       FIXME
 
@@ -816,6 +852,12 @@
       A generic rule for a [build manager](#build_manager) that describes how to
       update any file whose name matches a pattern.
 
+- key: placebo
+  en:
+    term: "placebo"
+    def: >
+      FIXME
+
 - key: plugin
   en:
     term: "plugin"
@@ -845,6 +887,12 @@
       successfully. Pre-conditions are used in [design by
       contract](#design_by_contract) and are often expressed as assertions that
       must be true of a function's inputs in order for it to run successfully.
+
+- key: pre_registration
+  en:
+    term: "pre registration"
+    def: >
+      FIXME
 
 - key: premature_commitment
   en:
@@ -905,6 +953,12 @@
       FIXME
   ref:
     - qualitative_method
+
+- key: quasi_experiment
+  en:
+    term: "quasi experiment"
+    def: >
+      FIXME
 
 - key: raise_exception
   ref:
@@ -1023,9 +1077,15 @@
   ref:
   - long_term_memory
 
-- key: software_forge
+- key: sociotechnical_congruence
   en:
-    term: "software forge"
+    term: "sociotechnical congruence"
+    def: >
+      FIXME
+
+- key: software_portal
+  en:
+    term: "software portal"
     def: >
       FIXME
 
@@ -1131,6 +1191,12 @@
 - key: trademark
   en:
     term: "trademark"
+    def: >
+      FIXME
+
+- key: treatment_group
+  en:
+    term: "treatment group"
     def: >
       FIXME
 

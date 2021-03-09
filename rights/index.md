@@ -1,6 +1,13 @@
 ---
 ---
 
+FIXME:
+
+- Ford2016
+- May2019
+- Patitsas2016
+- Washington2020
+
 Which of these do you believe is true?
 
 1.  You own every piece of software you write for course assignments.  If the
@@ -69,6 +76,7 @@ unfairly; the question is, do we acknowledge that and try to fix it, or ignore
 it in the hope that we will be a beneficiary of that unfairness?
 
 <div class="callout" markdown="1">
+
 ### Counter-productive
 
 <cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
@@ -78,6 +86,7 @@ things worse. The reason is that the people who care don't gain anything from
 being told they should, while the people who are part of the problem resent
 being told that and tend to take out their anger on the people the training is
 meant to protect.
+
 </div>
 
 A few pages in a book like this can't change what you believe is fair or unfair.
@@ -85,6 +94,7 @@ What it *can* do, I hope, is get you to start thinking in ways that will lead
 you to notice more and care more.
 
 <div class="callout" markdown="1">
+
 ### See what I did there?
 
 Take a moment and re-read the preceding paragraph. Did you notice the first time
@@ -93,6 +103,7 @@ end of discriminatory behavior? I wouldn't have spotted that when I was 20 years
 old; the handful of women in my classes certainly would have, just as they would
 known that they were half as likely to be called on when they raised their hand
 in class as I was.
+
 </div>
 
 To start, why should you care? Many arguments are made on the basis of team
@@ -186,6 +197,7 @@ for people to contribute, the project is less likely to attract new members, so
 the choice of license is crucial to the project's long-term sustainability.
 
 <div class="callout" markdown="1">
+
 ### Open except…
 
 Projects that are only developing software may not have any problem making
@@ -196,6 +208,7 @@ occasionally add raw data files containing personal identifying information to
 repositories.  It's possible to rewrite the project's history to remove things
 when this happens, but that doesn't automatically erase copies people may have
 in forked repositories.
+
 </div>
 
 Every creative work has some sort of license; the only question is whether
@@ -218,10 +231,12 @@ Similarly, changing a license does not change it retroactively, so different
 users may wind up operating under different licensing structures.
 
 <div class="callout" markdown="1">
+
 ### Leave it to the professionals
 
 Don't write your own license.  Legalese is a highly technical language, and
 words don't mean what you think they do.
+
 </div>
 
 To make license selection for code as easy as possible, GitHub allows us to
@@ -281,6 +296,7 @@ this safeguard.  We therefore recommend that projects choose the MIT license, as
 it places the fewest restrictions on future action.
 
 <div class="callout" markdown="1">
+
 ### First, do no harm
 
 The [Hippocratic License][hippocratic-license] is a newer license that is
@@ -290,6 +306,7 @@ people from using the software in ways that violate the Universal Declaration of
 Human Rights.  We have learned the hard way that software and science can be
 mis-used; adopting the Hippocratic License is a small step toward preventing
 this.
+
 </div>
 
 The MIT license, the GPL, and the Hippocratic License are intended for use with
@@ -329,6 +346,7 @@ usually referred two using the two-letter abbreviations listed below:
     want.
 
 <div class="callout" markdown="1">
+
 ### Why be open?
 
 Just as diverse teams do better, open does better as well.
@@ -336,6 +354,7 @@ Just as diverse teams do better, open does better as well.
 industries come not from the suppliers but from the users.  The more open work
 is, the better able users are to tinker with it and do things that the first
 contributors would never have thought of trying.
+
 </div>
 
 ## Employment

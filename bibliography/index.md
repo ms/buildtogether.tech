@@ -87,12 +87,6 @@ Andrew Begel and Thomas Zimmermann:
 "Analyze This! 145 Questions for Data Scientists in Software Engineering".
 <em>Proc. ICSE'14</em>, <a href="https://doi.org/10.1145/2568225.2568233">10.1145/2568225.2568233</a>.
 </dd>
-<dt id="beller2015" class="bibliography">Beller2015</dt>
-<dd>
-Moritz Beller, Georgios Gousios, Annibale Pannichella, and Andy Zaidman:
-"When, How, and Why Developers (Do Not) Test in Their IDEs".
-<em>Proc. ESEC/FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786843">10.1145/2786805.2786843</a>.
-</dd>
 <dt id="beller2018" class="bibliography">Beller2018</dt>
 <dd>
 Moritz Beller, Niels Spruit, Diomidis Spinellis, and Andy Zaidman:
@@ -213,6 +207,18 @@ Adam Scott Carter and Christopher David Hundhausen:
 "Using Programming Process Data to Detect Differences in Students' Patterns of Programming".
 <em>Proc. SIGCSE'17</em>, <a href="https://doi.org/10.1145/3017680.3017785">10.1145/3017680.3017785</a>.
 </dd>
+<dt id="casciaro2020" class="bibliography">Casciaro2020</dt>
+<dd>
+Mario Casciaro and Luciano Mammino:
+<em>Node.js Design Patterns</em> (3rd edition).
+Packt, 2020, 978-1839214110.
+</dd>
+<dt id="cataldo2008" class="bibliography">Cataldo2008</dt>
+<dd>
+Marcelo Cataldo, James D. Herbsleb, and Kathleen M. Carley:
+"Socio-technical Congruence: A Framework for Assessing the Impact of Technical and Work Dependencies on Software Development Productivity".
+<em>ESEM'08</em>, <a href="https://doi.org/10.1145/1414004.1414008">10.1145/1414004.1414008</a>.
+</dd>
 <dt id="caulfield2016" class="bibliography">Caulfield2016</dt>
 <dd>
 Mike Caulfield:
@@ -227,7 +233,7 @@ Ibrahim Cetin and Christine Andrews-Larson:
 <dt id="chacon2014" class="bibliography">Chacon2014</dt>
 <dd>
 Scott Chacon and Ben Straub:
-<em>Pro Git</em> (2nd ed.).
+<em>Pro Git</em> (2nd edition).
 Apress, 2014, 978-1484200773.
 </dd>
 <dt id="cherubini2007" class="bibliography">Cherubini2007</dt>
@@ -248,7 +254,7 @@ Jason Cohen:
 "Modern Code Review".
 In 
 Andy Oram and Greg Wilson (eds.):
-<em>Proc. Making Software.</em>
+<em>Making Software.</em>
 O'Reilly, 2010, 978-0596808327.
 </dd>
 <dt id="conway1968" class="bibliography">Conway1968</dt>
@@ -342,7 +348,7 @@ Springer, 2001, 978-1852333577.
 <dt id="fischer2015" class="bibliography">Fischer2015</dt>
 <dd>
 Lars Fischer and Stefan Hanenberg:
-"An empirical investigation of the effects of type systems and code completion on API usability using TypeScript and JavaScript in MS Visual Studio".
+"An Empirical Investigation of the Effects of Type Systems and Code Completion on API Usability Using TypeScript and JavaScript in MS Visual Studio".
 <em>Proc. DLS'15</em>, <a href="https://doi.org/10.1145/2816707.2816720">10.1145/2816707.2816720</a>.
 </dd>
 <dt id="fitzgerald2008" class="bibliography">Fitzgerald2008</dt>
@@ -350,6 +356,12 @@ Lars Fischer and Stefan Hanenberg:
 Sue Fitzgerald, Gary Lewandowski, Renée McCauley, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander:
 "Debugging: Finding, Fixing and Flailing, a Multi-Institutional Study of Novice Debuggers".
 <em>CSE</em>, 18(2), 2008, <a href="https://doi.org/10.1080/08993400802114508">10.1080/08993400802114508</a>.
+</dd>
+<dt id="floyd2017" class="bibliography">Floyd2017</dt>
+<dd>
+Benjamin Floyd, Tyler Santander, and Westley Weimer:
+"Decoding the Representation of Code in the Brain: An fMRI Study of Code Review and Expertise".
+<em>Proc. ICSE'17</em>, <a href="https://doi.org/10.1109/ICSE.2017.24">10.1109/ICSE.2017.24</a>.
 </dd>
 <dt id="fogel2005" class="bibliography">Fogel2005</dt>
 <dd>
@@ -366,7 +378,7 @@ Denae Ford, Justin Smith, Philip J. Guo, and Chris Parnin:
 <dt id="fowler2018" class="bibliography">Fowler2018</dt>
 <dd>
 Martin Fowler:
-<em>Refactoring</em> (2nd ed.).
+<em>Refactoring</em> (2nd edition).
 Addison-Wesley Professional, 2018, 978-0134757599.
 </dd>
 <dt id="freeman1972" class="bibliography">Freeman1972</dt>
@@ -411,11 +423,22 @@ Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson:
 "Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering".
 <em>PeerJ</em>, 2, 2014, <a href="https://doi.org/10.7717/peerj.289">10.7717/peerj.289</a>.
 </dd>
+<dt id="hanenberg2013" class="bibliography">Hanenberg2013</dt>
+<dd>
+Stefan Hanenberg, Sebastian Kleinschmager, Romain Robbes, Éric Tanter, and Andreas Stefik:
+"An Empirical Study on the Impact of Static Typing on Software Maintainability".
+<em>ESE</em>, 19(5), 2013, <a href="https://doi.org/10.1007/s10664-013-9289-1">10.1007/s10664-013-9289-1</a>.
+</dd>
 <dt id="hannay2010" class="bibliography">Hannay2010</dt>
 <dd>
 J.E. Hannay, E. Arisholm, H. Engvik, and D.I.K. Sjoberg:
 "Effects of Personality on Pair Programming".
 <em>TSE</em>, 36(1), 2010, <a href="https://doi.org/10.1109/tse.2009.41">10.1109/tse.2009.41</a>.
+</dd>
+<dt id="hansen2013" class="bibliography">Hansen2013</dt>
+<dd>
+Michael Hansen, Robert L. Goldstone, and Andrew Lumsdaine:
+"What Makes Code Hard to Understand?".
 </dd>
 <dt id="henrich2010" class="bibliography">Henrich2010</dt>
 <dd>
@@ -543,6 +566,12 @@ Jonathan L. Krein, Lutz Prechelt, Natalia Juristo, Aziz Nanthaamornphong, Jeffre
 "A Multi-Site Joint Replication of a Design Patterns Experiment Using Moderator Variables to Generalize across Contexts".
 <em>TSE</em>, 42(4), 2016, <a href="https://doi.org/10.1109/tse.2015.2488625">10.1109/tse.2015.2488625</a>.
 </dd>
+<dt id="krueger2020" class="bibliography">Krueger2020</dt>
+<dd>
+Ryan Krueger, Yu Huang, Xinyu Liu, Tyler Santander, Westley Weimer, and Kevin Leach:
+"Neurological Divide: An fMRI Study of Prose and Code Writing".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380348">10.1145/3377811.3380348</a>.
+</dd>
 <dt id="kruger1999" class="bibliography">Kruger1999</dt>
 <dd>
 Justin Kruger and David Dunning:
@@ -554,12 +583,6 @@ Justin Kruger and David Dunning:
 Stan Lee:
 "The Amazing Spider-Man".
 <em>Amazing Fantasy</em>, 15, 1962.
-</dd>
-<dt id="li2015" class="bibliography">Li2015</dt>
-<dd>
-Paul Luo Li, Amy J. Ko, and Jiamin Zhu:
-"What Makes a Great Software Engineer?".
-<em>Proc. ICSE'15</em>, <a href="https://doi.org/10.1109/ICSE.2015.335">10.1109/ICSE.2015.335</a>.
 </dd>
 <dt id="lindberg2008" class="bibliography">Lindberg2008</dt>
 <dd>
@@ -606,7 +629,7 @@ Anna May, Johannes Wachs, and Anikó Hannák:
 <dt id="mayer2009" class="bibliography">Mayer2009</dt>
 <dd>
 Richard E. Mayer:
-<em>Multimedia Learning</em> (2nd ed.).
+<em>Multimedia Learning</em> (2nd edition).
 Cambridge University Press, 2009, 978-0521735353.
 </dd>
 <dt id="mccauley2008" class="bibliography">McCauley2008</dt>
@@ -632,12 +655,6 @@ Andrew Meneely, Pete Rotella, and Laurie Williams:
 Janet Metcalfe:
 "Learning from Errors".
 <em>Annual Review of Psychology</em>, 68(1), 2016, <a href="https://doi.org/10.1146/annurev-psych-010416-044022">10.1146/annurev-psych-010416-044022</a>.
-</dd>
-<dt id="meyer2017" class="bibliography">Meyer2017</dt>
-<dd>
-André N. Meyer, Laura E. Barton, Gail C. Murphy, Thomas Zimmermann, and Thomas Fritz:
-"The Work Life of Developers: Activities, Switches and Perceived Productivity".
-<em>TSE</em>, 43(12), 2017, <a href="https://doi.org/10.1109/TSE.2017.2656886">10.1109/TSE.2017.2656886</a>.
 </dd>
 <dt id="miller1956" class="bibliography">Miller1956</dt>
 <dd>
@@ -675,11 +692,23 @@ Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
 "Analysis of Exception Handling Patterns in Java Projects".
 <em>Proc. MSR'16</em>, <a href="https://doi.org/10.1145/2901739.2903499">10.1145/2901739.2903499</a>.
 </dd>
+<dt id="nystrom2014" class="bibliography">Nystrom2014</dt>
+<dd>
+Robert Nystrom:
+<em>Game Programming Patterns</em>.
+Genever Benning, 2014, 978-0990582908.
+</dd>
 <dt id="oakley2004" class="bibliography">Oakley2004</dt>
 <dd>
 Barbara Oakley, Richard M. Felder, Rebecca Brent, and Imad Elhajj:
 "Turning Student Groups into Effective Teams".
 <em>Journal of Student Centered Learning</em>, 2(1), 2004.
+</dd>
+<dt id="olsen2007" class="bibliography">Olsen2007</dt>
+<dd>
+Russ Olsen:
+<em>Design Patterns in Ruby</em>.
+Addison-Wesley Professional, 2007, 978-0321490452.
 </dd>
 <dt id="parnin2010" class="bibliography">Parnin2010</dt>
 <dd>
@@ -698,6 +727,12 @@ Elizabeth Patitsas, Jesse Berlin, Michelle Craig, and Steve Easterbrook:
 Roy D. Pea:
 "Language-Independent Conceptual 'Bugs' in Novice Programming".
 <em>Journal of Educational Computing Research</em>, 2(1), 1986, <a href="https://doi.org/10.2190/689t-1r2a-x4w4-29j2">10.2190/689t-1r2a-x4w4-29j2</a>.
+</dd>
+<dt id="peitek2021" class="bibliography">Peitek2021</dt>
+<dd>
+Norman Peitek, Sven Apel, Chris Parning, André Brechmann, and Janet Siegmund:
+"Program Comprehension and Code Complexity Metrics: An fMRI Study".
+<em>Proc. ICSE'21</em>.
 </dd>
 <dt id="perezderosso2013" class="bibliography">PerezDeRosso2013</dt>
 <dd>
@@ -753,7 +788,7 @@ Yizhou Qian and James Lehman:
 <dt id="rawls1999" class="bibliography">Rawls1999</dt>
 <dd>
 John Rawls:
-<em>A Theory of Justice</em> (revised ed.).
+<em>A Theory of Justice</em> (revised edition).
 Belknap Press, 1999, 978-0674000780.
 </dd>
 <dt id="rawson2014" class="bibliography">Rawson2014</dt>
@@ -772,12 +807,6 @@ Angophora Press, 2006, 978-0646458410.
 <dd>
 Evan Robinson:
 "<a href="http://www.igda.org/articles/erobinson_crunch.php">Why Crunch Mode Doesn't Work: 6 Lessons</a>".
-</dd>
-<dt id="roehm2012" class="bibliography">Roehm2012</dt>
-<dd>
-Tobias Roehm, Rebecca Tiarks, Rainer Koschke, and Walid Maalej:
-"How Do Professional Developers Comprehend Software?".
-<em>Proc. ICSE'12</em>, <a href="https://doi.org/10.1109/ICSE.2012.6227188">10.1109/ICSE.2012.6227188</a>.
 </dd>
 <dt id="rohrer2015" class="bibliography">Rohrer2015</dt>
 <dd>
@@ -846,12 +875,6 @@ Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
 Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wilson:
 "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
 <em>PLoS Computational Biology</em>, 15(9), 2019, <a href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
-</dd>
-<dt id="silva2016" class="bibliography">Silva2016</dt>
-<dd>
-Danilo Silva, Nikolaos Tsantalis, and Marco Tulio Valente:
-"Why We Refactor? Confessions of GitHub Contributors".
-<em>Proc. FSE'16</em>, <a href="https://doi.org/10.1145/2950290.2950305">10.1145/2950290.2950305</a>.
 </dd>
 <dt id="soloway1984" class="bibliography">Soloway1984</dt>
 <dd>
@@ -933,16 +956,37 @@ David Thomas and Andrew Hunt:
 <em>The Pragmatic Programmer: Your Journey to Mastery</em>.
 Addison-Wesley Professional, 2019, 978-0135957059.
 </dd>
+<dt id="tichy2010" class="bibliography">Tichy2010</dt>
+<dd>
+Walter Tichy:
+"The Evidence for Design Patterns".
+In 
+Andy Oram and Greg Wilson (eds.):
+<em>Making Software.</em>
+O'Reilly, 2010, 978-0596808327.
+</dd>
 <dt id="tregubov2017" class="bibliography">Tregubov2017</dt>
 <dd>
 Alexey Tregubov, Barry Boehm, Natalia Rodchenko, and Jo Ann Lane:
 "Impact of Task Switching and Work Interruptions on Software Development Processes".
 <em>Proc. ICSSP'17</em>, <a href="https://doi.org/10.1145/3084100.3084116">10.1145/3084100.3084116</a>.
 </dd>
+<dt id="treude2011" class="bibliography">Treude2011</dt>
+<dd>
+Christoph Treude and Margaret-Anne Storey:
+"Effective Communication of Software Development Knowledge Through Community Portals".
+<em>FSE'11</em>, <a href="https://doi.org/10.1145/2025113.2025129">10.1145/2025113.2025129</a>.
+</dd>
 <dt id="troy2018" class="bibliography">Troy2018</dt>
 <dd>
 Chelsea Troy:
 "<a href="https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/">Why do Remote Meetings Suck so Much?</a>".
+</dd>
+<dt id="vigen2015" class="bibliography">Vigen2015</dt>
+<dd>
+Tyler Vigen:
+<em>Spurious Correlations</em>.
+Hachette Books, 2015, 978-0316339438.
 </dd>
 <dt id="washburn2016" class="bibliography">Washburn2016</dt>
 <dd>

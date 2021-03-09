@@ -81,6 +81,7 @@ Three or four sessions a week like that from each person on the team plus a
 single meeting to stay organized and you will be in great shape.
 
 <div class="callout" markdown="1">
+
 ### Test-driven development
 
 Many developers are passionate about a technique called <span
@@ -104,6 +105,7 @@ productive than doing a lot of coding followed by a lot of testing or vice versa
 tests before fixing bugs, and wrote code for the new feature before writing
 tests, but in both cases switched between the two activites every 15--20
 minutes.
+
 </div>
 
 ## The Waterfall Model
@@ -236,10 +238,11 @@ the typing, while the other, called the navigator, watches and comments.  Every
 twenty minutes or or so, the pair switches roles.
 
 Unlike test-driven development, the benefits of pair programming are proven for
-students as well as for professionals <cite>Williams2001</cite>.  First, the
-navigator will often notice mistakes in the driver's code, or remember design
-decisions that the driver is too busy typing to recall. This is the tightest of
-the feedback loops that make agile work, since feedback is nearly continuous.
+students as well as for professionals <cite>Williams2001,diBella2013</cite>.
+First, the navigator will often notice mistakes in the driver's code, or
+remember design decisions that the driver is too busy typing to recall. This is
+the tightest of the feedback loops that make agile work, since feedback is
+nearly continuous.
 
 Second, pair programming spreads knowledge around: every piece of code has been
 seen by at least two people, which reduces the risk of "But I didn't know"
@@ -445,6 +448,7 @@ benefits with practice, but I hope that even once will be enough to convince you
 that it's worth doing.
 
 <div class="callout" markdown="1">
+
 ### Triage
 
 When disaster strikes, doctors do triage to determine who will survive without
@@ -456,6 +460,7 @@ schedule accordingly. The 3×3 effort-importance grid that you drew at the start
 will help with this: by the time you are a few weeks into your project, you
 shoul be able to update the effort estimates, add newly-discovered issues, and
 draw up a more realistic plan.
+
 </div>
 
 ## Which Process Should You Use?

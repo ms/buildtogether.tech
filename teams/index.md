@@ -122,12 +122,17 @@ All right, you've formed a team: now what? How do you decide who does what? And
 just as importantly, how do you make sure that everyone actually does what
 they're supposed to?
 
-There are many ways to divide project work between team members. In a <span
-g="modular_decomposition">modular decomposition</span>, each person is
-responsible for one part of the program. For example, one person might design
-and build the GUI, while another writes the database interface, and a third
-implements the business rules. This is generally a bad strategy for three
-reasons:
+There are many ways to divide project work between team members, and as
+<cite>Conway1968</cite> observed, the software you get will reflect the division
+of labor, a phenomenon known as <span
+g="sociotechnical_congruence">socio-technical congruence</span>
+<cite>Cataldo2008</cite>. In a <span g="modular_decomposition">modular
+decomposition</span>, each person is responsible for one part of the
+program. For example, one person might design and build the GUI, while another
+writes the database interface, and a third implements the business rules. Having
+people own parts of the code like this produces lower failure rates in industry
+<cite>Bird2011</cite>, but is generally a bad strategy in a course project for
+three reasons:
 
 1.  It leads to <span g="big_bang">big bang integration</span>, in which all the
     components meet each other for the first time right at the end of the
@@ -157,6 +162,7 @@ there's often little relationship between how outspoken people are and how well
 they work.
 
 <div class="callout" markdown="1">
+
 ### The Dunning-Kruger Effect
 
 <cite>Kruger1999</cite> found that people who know a subject well can usually
@@ -165,6 +171,7 @@ overestimate their competence because they don't know what they don't know.
 Because of this, you should never trust self-reported expertise, as there's no
 easy way to tell if someone really knows what they're talking about or if what
 they're actually reporting is their self-esteem.
+
 </div>
 
 <span g="feature_decomposition">Feature decomposition</span> is a variation on

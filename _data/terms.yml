@@ -191,22 +191,40 @@ research:
   term: Big Five personality traits
 - key: cognitive_dimensions
   term: cognitive dimensions framework
+- key: confounding_variables
+  term: confounding variables
+- key: control_group
+  term: control group
+- key: data_mining
+  term: data mining
+- key: dead_code
+  term: dead code
+- key: double_blind
+  term: double blind
 - key: dynamic_typing
   term: dynamic typing
-- key: end_user_programmer
-  term: end-user programmer
+- key: fmri
+  term: fmri
 - key: gqm
   term: goal-question-metric
+- key: placebo
+  term: placebo
 - key: post_mortem
   term: post-mortem
+- key: pre_registration
+  term: pre registration
 - key: premature_commitment
   term: premature commitment
 - key: qualitative_method
   term: qualitative method
+- key: quasi_experiment
+  term: quasi experiment
 - key: root_cause
   term: root cause
 - key: static_typing
   term: static typing
+- key: treatment_group
+  term: treatment group
 rights:
 - key: bsd_license
   term: BSD license
@@ -256,6 +274,8 @@ teams:
   term: modular decomposition
 - key: rotating_decomposition
   term: rotating decomposition
+- key: sociotechnical_congruence
+  term: sociotechnical congruence
 - key: team_contract
   term: team contract
 thinking:
@@ -377,8 +397,8 @@ versioning:
   term: repository
 - key: shell_prompt
   term: shell prompt
-- key: software_forge
-  term: software forge
+- key: software_portal
+  term: software portal
 - key: sub_command
   term: sub-command
 - key: timestamp

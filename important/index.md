@@ -6,6 +6,20 @@ software.  Instead, the worst mistakes people make are related to the human side
 of things. Before we look at teamwork or tools, we need to talk about overwork,
 how to run a meeting, and how to resolve arguments.
 
+<div class="callout" markdown="1">
+
+### Not writing software takes less time
+
+<cite>Sedano2017</cite> found that software development projects have nine types
+of waste: building the wrong feature or product, mismanaging the backlog,
+rework, unnecessarily complex solutions, extraneous cognitive load (<span
+x="thinking"></span>), psychological distress, waiting/multitasking, knowledge
+loss, and ineffective communication. *None of these are software issues,* so if
+you only think about the software side of your project, it's going to take
+longer and hurt more than it needs to.
+
+</div>
+
 ## Crunch Mode
 
 I used to brag about the hours I was working.  Not in so many words, of
@@ -111,15 +125,17 @@ be---and pace yourself accordingly.
 I *have* to work extra hours to get them all done!" Sadly, that is often true:
 while people in industry joke that having two bosses means living in hell, most
 students can only dream of having just two, since most schools do a lousy job of
-coordinating due dates across differences courses. And as
-<cite>Tregubov2017</cite> found, there is strong correlation between the number
-of projects and the number of interruptions that developers reported.
+coordinating due dates across differences courses.  <cite>Tregubov2017</cite>
+found, there is strong correlation between the number of projects and the number
+of interruptions that developers reported.
 
 The best strategy for managing this situation is to prioritize and focus.
 Prioritizing is important because most of us are very good at spending hours on
 things that don't need to be done and then finding themselves with too little
 time for the things that actually count. A little bit of organizing can help a
-lot:
+lot---as <cite>Mark2008</cite> reported, "…people compensate for interruptions
+by working faster, but this comes at a price: experiencing more stress, higher
+frustration, time pressure and effort."
 
 Make a list of the things you have to do.
 :   I still use a hardcover lab notebook for this so that I can doodle in it
@@ -192,6 +208,7 @@ in and out by an operating system: if it happens too often, the CPU spends all
 its time moving things around and none doing useful work.
 
 <div class="callout" markdown="1">
+
 ### How bad is it?
 
 A student of mine kept a stopwatch beside his computer for a couple of weeks
@@ -200,6 +217,7 @@ to Manchester United's web site he hit the button to stop it.  At the end of
 two weeks he discovered that he only spent 28% of his "working" time working. 
 Put it another way, he could have finished his assignments in a third of the
 time they actually took.
+
 </div>
 
 Making lists and setting 50-minute alarms will seem a little earnest at first,
@@ -298,11 +316,13 @@ People can be held accountable at subsequent meetings.
     helps a lot when the time comes to draw up the agenda for the next meeting.
 
 <div class="callout" markdown="1">
+
 ### Are you a blowfish or a clam?
 
 [NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
 labels and even more useful advice for handling people who may send meetings off
 course.
+
 </div>
 
 If you would like to become better at sharing information and making decisions,
@@ -525,6 +545,7 @@ lot of tension, since explaining your position back to you clearly forces the
 other person to see the world through your eyes, if only for a few moments.
 
 <div class="callout" markdown="1">
+
 ### Hitchhikers
 
 <span g="hitchhiker">Hitchhikers</span> who show up but never actually do
@@ -535,6 +556,7 @@ others on the team have also fallen short of expectations.  Tracking progress
 and contributions is essential for handling them.  If we can't back up our
 complaint, our instructor will likely be left with the impression that the whole
 team is dysfunctional.
+
 </div>
 
 What can we do if conflict becomes more personal and heated?

@@ -141,6 +141,7 @@ instructor what misconceptions these particular learners have and therefore what
 needs to be corrected.
 
 <div class="callout" markdown="1">
+
 ### Recordings can't respond
 
 If an instructor uses a formative assessment in class and then says whatever
@@ -150,6 +151,7 @@ almost all recorded videos do: they always say the same next thing regardless of
 what the viewer did or didn't understand.  Good video games provide many paths
 around or through each obstacle; recorded courses could in theory do that too,
 but in practice the cost is prohibitive.
+
 </div>
 
 Formative assessments have many other benefits. One is that in order to come up

@@ -55,10 +55,10 @@ Some languages are easier to learn than others.
 :   <cite>Stefik2013</cite> did a controlled experiment to see how quickly
     people could learn to recognize correct and incorrect syntax in several
     different languages. They found that <span
-    g="curly_brace_language">curly-brace languages</span> like C, Java, and
-    JavaScript were as hard for people to learn as a language with a randomly
-    designed syntax. (They really did roll *Dungeons & Dragons* dice to pick
-    random names and characters for a made-up language as an <span
+    g="curly_brace_language">curly-brace languages</span> like Java and Perl
+    were as hard for people to learn as a language with a randomly designed
+    syntax. (They really did roll *Dungeons & Dragons* dice to pick random names
+    and characters for a made-up language as an <span
     g="experimental_control">experimental control</span>.) Other languages like
     [Ruby][ruby] and [Python][python] were significantly easier to learn, and
     they are now building a language called [Quorum][quorum] by testing the
@@ -92,6 +92,7 @@ such as Notepad (which comes with Windows) to very large ones like Emacs (which
 some people claim is actually Lisp-based operating system in disguise).
 
 <div class="callout" markdown="1">
+
 ### Punchcards once again
 
 As we noted in <span x="versioning"></span>, programming is still stuck in the
@@ -102,6 +103,7 @@ decades ago; they store the file in a machine-friendly format and then render it
 in a human-friendly way. There's no reason we couldn't do the same with
 programs.  There's no reason we shouldn't be able to draw a diagram directly in
 our source code like we can in a Google Doc.
+
 </div>
 
 You might already have a favorite editor. If you're like most programmers, you
@@ -152,6 +154,7 @@ adopt the same IDE. This will also let you help one another solve problems and
 share plugins.
 
 <div class="callout" markdown="1">
+
 ### Refactoring
 
 To <span g="refactoring">refactor</span> code means to change its structure
@@ -165,6 +168,7 @@ loop" and "replace repeated test with flag". As <cite>Kerievsky2004</cite>
 showed, many refactorings make code fit a design pattern or move code from one
 design pattern to another. If changes that fit these patterns are easy to make,
 your design is probably a good one.
+
 </div>
 
 ## Build Manager
@@ -286,17 +290,18 @@ because we didn't want to hire people who put themselves ahead of their
 teammates. The second was justified because we didn't want to hire people who
 were too stupid or stubborn to program efficiently.
 
-Over the years, I've been surprised by how strongly some programmers resist
-using a debugger. The reason can't be the five or ten minutes it takes to learn
-how to use one---that pays for itself almost immediately.  The only explanation
-I've been able to come up with is that some people *enjoy* being inefficient.
-Typing in `print` statements and paging through screens of output lets them feel
-like they're being productive, when in fact they're just being busy (which isn't
-the same thing at all). If your brain needs a break (which it sometimes will),
-then take a break: stretch your legs, stare out a window, practice your
-juggling, or do whatever else you can to take your mind away from your problem
-for a few minutes. Don't drag out the process of finding and fixing your bug by
-using sloppy technique just to let your brain idle for a while.
+Over the years, I've been surprised by how few programmers know how to use a
+debugger <cite>Beller2018</cite>. The reason can't be the five or ten minutes it
+takes to learn how to use one---that pays for itself almost immediately.  The
+only explanation I've been able to come up with is that some people *enjoy*
+being inefficient.  Typing in `print` statements and paging through screens of
+output lets them feel like they're being productive, when in fact they're just
+being busy (which isn't the same thing at all). If your brain needs a break
+(which it sometimes will), then take a break: stretch your legs, stare out a
+window, practice your juggling, or do whatever else you can to take your mind
+away from your problem for a few minutes. Don't drag out the process of finding
+and fixing your bug by using sloppy technique just to let your brain idle for a
+while.
 
 And by the way: if you're allowed to choose your teammates at the start of the
 course, treat it like a job interview. Ask the people you think you might want
@@ -341,16 +346,19 @@ deadlocks or race conditions. FindBugs is the best-known in the Java world; the
 Valgrind toolset is a lifesaver if you're using C or C++.
 
 All of these tools will do a lot more for you if you adopt some kind of <span
-g="ci">continuous integration</span> system such as Travis CI.  These can be
-set up to run either at regular intervals (say, every hour, or a three a.m.), or
-every time someone checks into version control (which I find more useful). Each
-time they run, they check a fresh copy of the project out of version control,
-build it, re-run all the tests, and post the results to the project's blog, web
-site, and mailing list.  This acts as a "heartbeat" for the project: as soon as
-anything goes wrong, everyone knows. It also encourages good development
-practices: if someone checks something in that doesn't compile, run, or pass the
-project's tests, everyone will know very quickly. Funnily enough, after the
-system has shamed you a couple of times, you'll stop checking in broken code…
+g="ci">continuous integration</span> system such as [Travis CI][travis-ci] or
+[GitHub Actions][github-actions].  These can be set up to run either at regular
+intervals (e.g., every hour or at three a.m.), or every time someone checks into
+version control (which I find more useful). Each time they run, they check a
+fresh copy of the project out of version control, build it, re-run all the
+tests, and post the results to the project's blog, web site, and mailing list.
+
+Research has proven the benefits of CI <cite>Hilton2016</cite>.  It acts as a
+"heartbeat" for the project: as soon as anything goes wrong, everyone knows. It
+also encourages good development practices: if someone checks something in that
+doesn't compile, run, or pass the project's tests, everyone will know very
+quickly. Funnily enough, after the system has shamed you a couple of times,
+you'll stop checking in broken code…
 
 Real development projects rely on a lot of other tools as well: schedule
 builders like Microsoft Project, requirements tracing tools, visual editors for

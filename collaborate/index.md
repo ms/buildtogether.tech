@@ -3,7 +3,7 @@
 
 <span x="versioning"></span> described how to use version control to manage
 individual work, but it really comes into its own when we are working with other
-people.  Forges like [GitHub][github], [GitLab][gitlab], and
+people.  Portals like [GitHub][github], [GitLab][gitlab], and
 [BitBucket][bitbucket] are all designed to support this, and they all provide
 other tools for managing and reviewing shared information. This chapter looks at
 how to use those tools so that <span x="process"></span>'s discussion of
@@ -26,7 +26,7 @@ worried that they might make a mess in the `main` branch, the second approach is
 safer.
 
 Git itself doesn't have any notion of a "main repository", but GitHub and other
-software forges all encourage people to use Git as if there was one.  For
+software portals all encourage people to use Git as if there was one.  For
 example, suppose that Amira wants to contribute to the assignment that Sami is
 hosting on GitHub at `https://github.com/sami/homework5`.  Amira can go to that
 URL and click on the "Fork" button in the upper right corner.  GitHub goes ahead
@@ -39,7 +39,7 @@ f="after-fork"></span>).
 {% include figure id="after-fork" alt="After forking" cap="What repositories are where after forking." fixme=true %}
 
 A fork of a repository is a clone just like the ones you have created earlier;
-it's just hosted on the forge's servers instead of your laptop.  In order to
+it's just hosted on the portal's servers instead of your laptop.  In order to
 start working on the project, Amira needs a clone of *their* repository (not
 Sami's) on their own computer.  We will modify Amira's prompt to include their
 desktop user ID (`amira`) and working directory (initially `~`) to make it
@@ -223,7 +223,7 @@ amira:~/homework5 $ git push origin main
 
 All four repositories are now synchronized. If there are any conflicts along the
 way, Sami and Amira can resolve them just as they would resolve conflicts
-between branches in a single repository.  GitHub and other forges do allow
+between branches in a single repository.  GitHub and other portals do allow
 people to merge conflicts through their browser-based interfaces, but doing it
 on our desktop means we can use our favorite editor to resolve the conflict.  It
 also means that if the change affects the project's code, we can run everything
@@ -491,12 +491,14 @@ shows that if people are required to come up with a reprex when filing an issue,
 they will often solve their own problem along the way.
 
 <div class="callout" markdown="1">
+
 ### Triage
 
 As we will see in <span x="process"></span>, one purpose of a schedule is to
 tell you when to start cutting corners. Similarly, one of the main reasons to
 keep issues in one place is to help you prioritize them when time starts to run
 short.
+
 </div>
 
 ## Labeling Issues
@@ -582,12 +584,14 @@ important as the first: if you can't go back and find out what was said a month
 ago---or, just as importantly, if someone *else* can't do that---you might as
 well not have said it.
 
-Wikis seem like a good way to keep notes, create documentation, and so on. Their
-main strength is the fact that content is automatically and immediately visible
-on the web.  These days, you will probably get more mileage out of a bunch of
-Markdown pages under version control---you have to set up a repository anyway,
-and version control systems are much better at reconciling conflicts between
-concurrent authors than wikis.
+Portals provide many other ways to communicate, which project members use in a
+wide variety of ways <cite>Treude2011</cite>.  Wikis seem like a good way to
+keep notes, create documentation, and so on. Their main strength is the fact
+that content is automatically and immediately visible on the web.  These days,
+you will probably get more mileage out of a bunch of Markdown pages under
+version control---you have to set up a repository anyway, and version control
+systems are much better at reconciling conflicts between concurrent authors than
+wikis.
 
 Blogs, on the other hand, have proven more useful. One kind of project blog
 consists of articles written by the team's members as a journal of their

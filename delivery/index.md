@@ -25,6 +25,7 @@ At a bare minimum, your project should finish with:
     work.
 
 <div class="callout" markdown="1">
+
 ### Finish with a package
 
 An alternative deliverable is a package that other people can download and
@@ -33,6 +34,7 @@ design description, installation instructions, and so on. If you are doing a
 data analysis project instead of straight software engineering, a package with
 some useful datasets and functions to work with them is a great goal to work
 toward.
+
 </div>
 
 ## Version Numbers
@@ -210,6 +212,7 @@ markup language) is complicated to write and poorly supported, so many people
 still resort to embedding pictures of equations in web pages.
 
 <div class="callout" markdown="1">
+
 ### XML and LaTeX
 
 If you're really keen, you can use an XML markup format like DocBook, which
@@ -227,6 +230,7 @@ steep price: LaTeX is as hard to master as a programming language. It also has a
 frustratingly slow formatting cycle, since documents have to be compiled into
 PDF or another viewable format before you can see the effects of your changes
 (although WYSIWYG tools like LyX are making great strides).
+
 </div>
 
 ## The Post Mortem

@@ -50,6 +50,7 @@ translate well to print.  I can also tell you how to describe designs and how to
 tell a good design from a bad one, so we'll start with that.
 
 <div class="callout" markdown="1">
+
 ### Learning by example
 
 The best way to learn design in any field is to study examples
@@ -62,6 +63,7 @@ Unix philosophy to an entire generation of programmers),
 Cook][cook-mary-rose]'s [Gitlet][gitlet].  There is also [Software Tools in
 JavaScript][stjs], which was developed in tandem with this material, and can be
 used as a starting point for many different class projects.
+
 </div>
 
 ## Describing Designs
@@ -128,6 +130,7 @@ g="microservice">microservices</span>.
 {% include figure id="use-case-map" alt="Use case map" cap="An example of a use case map." fixme=true %}
 
 <div class="callout" markdown="1">
+
 ### UML and why not
 
 I'm not a fan of the <span g="uml">Unified Modeling Language</span> (UML). It
@@ -141,6 +144,7 @@ who occasionally sketched class diagrams as part of a larger description of a
 design, and that's pretty much it. Unlike blueprints in architecture or flow
 diagrams in chemical engineering, UML doesn't actually seem to help
 practitioners very much <cite>Petre2013</cite>.
+
 </div>
 
 ## Getting Started
@@ -213,6 +217,7 @@ project; together, they show why it's so hard to teach design, since what I'm
 basically saying is, "Argue enough, but not too much."
 
 <div class="callout" markdown="1">
+
 ### How experts do it
 
 One of the biggest differences between experts and non-experts in any field is
@@ -225,6 +230,7 @@ and its low-level consequences; if one of those consequences reveals a flaw in
 the plan, they go back to the high level and make a correction. Doing this
 efficiently depends on having experience of past failures so that you know how a
 good idea might fail in practice.
+
 </div>
 
 ## Design for Testability
@@ -254,7 +260,21 @@ out-of-province orders, and so on.  Finally, the view translates the
 application's state into HTML for display and handles the button clicks and form
 submissions that drive the system from one state to another.
 
-This architecture presents several challenges for testing:
+<div class="callout" markdown="1">
+
+### Design patterns help
+
+Design patterns were a hot topic in the 1990s and early 2000s, and while there
+isn't as much excitement about them now, their value has not diminished.
+Knowing some design patterns is like knowing chord progressions in music: it
+gives you a larger mental toolkit to work with.  <cite>Tichy2010</cite>
+summarizes some of the evidence, more recent studies like <cite>Krein2016</cite>
+confirm it, and books like <cite>Olsen2007,Nystrom2014,Casciaro2020</cite> are
+great places to get started.
+
+</div>
+
+The MVC architecture presents several challenges for testing:
 
 Unit testing libraries are designed to run within a single process.
 :   As the word "library" implies, they're made up of code that's meant to be
@@ -350,12 +370,14 @@ HTTP requests exactly the same way as the real web server, but we catch (and
 prevent) a lot more by making testing cheap.
 
 <div class="callout" markdown="1">
+
 ### Small examples, loosely connected
 
 This discussion is an example of teaching design by example. A generic statement
 that, "Building components that can easily be replaced makes testing easier," is
 only meaningful if you already understand the point; seeing an example makes it
 more relatable.
+
 </div>
 
 ## Design for Evolution
@@ -529,12 +551,14 @@ button" or "enter this password" and to interrogate the system's state
 afterward.
 
 <div class="callout" markdown="1">
+
 ### Merely useful
 
 Why do we call them scripts instead of programs, and why do we call it scripting
 instead of programming? The answer, I think, is that if everyone can do it, it
 can't be cool: as a computer science professor said to me once about something
 similar, "I realize it's popular, but it's merely useful."
+
 </div>
 
 ## Handling Errors
@@ -646,6 +670,7 @@ you can do in the middle of a small utility function, but put a few handlers in
 the uppermost functions of your program to catch and report all errors.
 
 <div class="callout" markdown="1">
+
 ### Kinds of errors
 
 The "`if` then `raise`" approach is sometimes referred to as, "Look before you
@@ -661,6 +686,7 @@ as being told at the end of an hour-long calculation that the program doesn't
 have permission to write to an output directory.  It's a little extra work to
 check things like this up front, but the larger your program or the longer it
 runs, the more useful those checks will be.
+
 </div>
 
 ## Writing Useful Error Messages
@@ -948,6 +974,7 @@ working directory whose names match the pattern `test_*.py`.  It then runs the
 tests in these files and summarizes their results.
 
 <div class="callout" markdown="1">
+
 ### Testing visualizations
 
 Testing visualizations is hard: any change to the dimension of the plot, however
@@ -957,4 +984,5 @@ all of the tests to fail.  The simplest solution is therefore to test the data
 used to produce the image rather than the image itself.  Unless you suspect that
 the drawing library itself contains bugs, the correct data should always produce
 the correct plot.
+
 </div>
