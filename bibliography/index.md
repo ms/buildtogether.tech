@@ -227,7 +227,7 @@ Ibrahim Cetin and Christine Andrews-Larson:
 <dt id="chacon2014" class="bibliography">Chacon2014</dt>
 <dd>
 Scott Chacon and Ben Straub:
-<em>Pro Git</em>.
+<em>Pro Git</em> (2nd ed.).
 Apress, 2014, 978-1484200773.
 </dd>
 <dt id="cherubini2007" class="bibliography">Cherubini2007</dt>
@@ -366,7 +366,7 @@ Denae Ford, Justin Smith, Philip J. Guo, and Chris Parnin:
 <dt id="fowler2018" class="bibliography">Fowler2018</dt>
 <dd>
 Martin Fowler:
-<em>Refactoring</em>.
+<em>Refactoring</em> (2nd ed.).
 Addison-Wesley Professional, 2018, 978-0134757599.
 </dd>
 <dt id="freeman1972" class="bibliography">Freeman1972</dt>
@@ -606,7 +606,7 @@ Anna May, Johannes Wachs, and Anikó Hannák:
 <dt id="mayer2009" class="bibliography">Mayer2009</dt>
 <dd>
 Richard E. Mayer:
-<em>Multimedia Learning</em>.
+<em>Multimedia Learning</em> (2nd ed.).
 Cambridge University Press, 2009, 978-0521735353.
 </dd>
 <dt id="mccauley2008" class="bibliography">McCauley2008</dt>
@@ -753,7 +753,7 @@ Yizhou Qian and James Lehman:
 <dt id="rawls1999" class="bibliography">Rawls1999</dt>
 <dd>
 John Rawls:
-<em>A Theory of Justice</em>.
+<em>A Theory of Justice</em> (revised ed.).
 Belknap Press, 1999, 978-0674000780.
 </dd>
 <dt id="rawson2014" class="bibliography">Rawson2014</dt>
