@@ -15,19 +15,17 @@ Looking at it and at its twentieth anniversary edition <cite>Thomas2019</cite>
 now, I am struck by how useful its advice continues to be, but I'm also struck
 by what *isn't* there. How do you run a meeting in a way that ensures everyone
 is heard? After working in and around programming for forty years, I believe
-knowing that is more useful than knowing what design by contract is (<span
-x="design"></span>). Why and how are tech companies so hostile to women, people
-of color, and members of the LGBT community? The evidence that they are is much
-stronger than the evidence for the benefits of test-driven development (<span
-x="process"></span>).  And given how online platforms have fueled radicalization
-and disinformation, shouldn't every book on how to be a better programmer at
-least mention them?
+knowing that is more useful than knowing what design by contract is. Why and how
+are tech companies so hostile to women, people of color, and members of the LGBT
+community? The evidence that they are is much stronger than the evidence for the
+benefits of test-driven development.  And given how online platforms have fueled
+radicalization and disinformation, shouldn't every guide to being a better
+programmer at least mention them?
 
-This book can't cover everything that those three did, but if you are an
-undergraduate student embarking on a semester-long software project as part of a
-team, it will give you the tools you need to succeed. Its aim is to teach you
-how to be a *compassionate programmer*---one who cares as much about the
-well-being of their colleagues and users as they do about their own. This focus
-is not purely selfless: treating other people as if they are as important as
-yourself also makes your life easier, not least because you-in-the-future is one
-of the people you're helping.
+If you are an undergraduate student embarking on a semester-long software
+project as part of a team, this book will give you the tools you need to
+succeed. Its aim is to teach you how to be a compassionate programmer---one who
+cares as much about the well-being of their colleagues and users as they do
+about their own. This focus is not purely selfless: treating other people as if
+they are as important as yourself also makes your life easier, not least because
+you-in-the-future is one of the people you're helping.
