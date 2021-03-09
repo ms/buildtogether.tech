@@ -1,4 +1,4 @@
----
+        ---
 ---
 
 We know as much about teaching and learning as we do about public health. The
@@ -112,9 +112,8 @@ multiple-choice question:
 
 If they pick the first answer, it's a sign they know how to add multi-digit
 numbers. If they pick the second, it signals that they don't know how to carry:
-they add 7 and 5 to get 12, throw away the 1, and then add 3 and 4 to get
-7. (Alternatively, they might write down 12 and then write the 7 on top of the
-1.)
+they add 7 and 5 to get 12, throw away the 1, and then add 3 and 4 to get 7.
+(Alternatively, they might write down 12 and then write the 7 on top of the 1.)
 
 If the child picks 712, it also signals that they don't understand how to carry,
 but it's a different kind of error: instead of throwing away the 1 or
