@@ -37,6 +37,16 @@ toward.
 
 </div>
 
+<div class="callout" markdown="1">
+
+### What to charge
+
+Depending on the structure of your course, you may be asked to figure out how
+much you would charge for the software you have produced. If so,
+<cite>Davidson2009</cite> is a good short introduction to the topic.
+
+</div>
+
 ## Version Numbers
 
 If your project is run like most, you're going to submit your work several times
@@ -91,6 +101,19 @@ good enough to send out to customers, then tag it in version control.
 A four-part numbering scheme is more than you need for an undergraduate
 course. You can probably get away with just one: the assignment the software was
 submitted for.
+
+<div class="callout" markdown="1">
+
+### Reporting versions
+
+Most programs can report a version number, either through an "About…" menu item
+or through a command-line flag like `--version`.  That helps when people are
+reporting bugs; what helps more is an option to report the versions of the
+libraries that your code depends on as well.  It only takes a few lines to add a
+function like `reportVersion(recursiveOrNot)` to a library, and someone, some
+day, will be very grateful that you did.
+
+</div>
 
 ## Bugs
 

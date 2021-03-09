@@ -292,11 +292,23 @@ Kathryn Cunningham, Sarah Blanchard, Barbara J. Ericson, and Mark Guzdial:
 "Using Tracing and Sketching to Solve Programming Problems".
 <em>Proc. ICER'17</em>, <a href="https://doi.org/10.1145/3105726.3106190">10.1145/3105726.3106190</a>.
 </dd>
+<dt id="davidson2009" class="bibliography">Davidson2009</dt>
+<dd>
+Neil Davidson:
+<em>Don't Just Roll the Dice - A Usefully Short Guide to Software Pricing</em>.
+Red Gate Books, 2009, 978-1906434380.
+</dd>
 <dt id="dawson2010" class="bibliography">Dawson2010</dt>
 <dd>
 Maurice Dawson, Darrell Burrell, Emad Rahim, and Stephen Brewster:
 "Integrating Software Assurance into the Software Development Life Cycle".
 <em>Information Systems Technology and Planning</em>, 3(6), 2010.
+</dd>
+<dt id="deoliveiraneto2019" class="bibliography">deOliveiraNeto2019</dt>
+<dd>
+Francisco Gomes de Oliveira Neto, Richard Torkar, Robert Feldt, Lucas Gren, Carlo A. Furia, and Ziwei Huang:
+"Evolution of Statistical Analysis in Empirical Software Engineering Research: Current State and Steps Forward".
+<em>JSS</em>, 156, 2019, <a href="https://doi.org/10.1016/j.jss.2019.07.002">10.1016/j.jss.2019.07.002</a>.
 </dd>
 <dt id="dibella2013" class="bibliography">diBella2013</dt>
 <dd>
@@ -333,6 +345,12 @@ Michael Eichberg, Ben Hermann, Mira Mezini, and Leonid Glanz:
 "Hidden Truths in Dead Software Paths".
 <em>Proc. FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786865">10.1145/2786805.2786865</a>.
 </dd>
+<dt id="elemam2001" class="bibliography">ElEmam2001</dt>
+<dd>
+Khaled El Emam, Saïda Benlarbi, Nishith Goel, and Shesh N. Rai:
+"The Confounding Effect of Class Size on the Validity of Object-Oriented Metrics".
+<em>TSE</em>, 27(7), 2001, <a href="https://doi.org/10.1109/32.935855">10.1109/32.935855</a>.
+</dd>
 <dt id="eley1995" class="bibliography">Eley1995</dt>
 <dd>
 Joanna Eley and Alexi Marmot:
@@ -350,6 +368,12 @@ Stefan Endrikat, Stefan Hanenberg, Romain Robbes, and Andreas Stefik:
 Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
 "On the Effectiveness of Test-First Approach to Programming".
 <em>TSE</em>, 31(3), 2005, <a href="https://doi.org/10.1109/TSE.2005.37">10.1109/TSE.2005.37</a>.
+</dd>
+<dt id="fagerholm2017" class="bibliography">Fagerholm2017</dt>
+<dd>
+Fabian Fagerholm, Marco Kuhrmann, and Jürgen Münch:
+"Guidelines for Using Empirical Studies in Software Engineering Education".
+<em>PeerJ Computer Science</em>, 3, 2017, <a href="https://doi.org/10.7717/peerj-cs.131">10.7717/peerj-cs.131</a>.
 </dd>
 <dt id="feathers2004" class="bibliography">Feathers2004</dt>
 <dd>
@@ -417,11 +441,29 @@ Davide Fucci, Hakan Erdogmus, Burak Turhan, Markku Oivo, and Natalia Juristo:
 "A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?".
 <em>TSE</em>, 43(7), 2017, <a href="https://doi.org/10.1109/tse.2016.2616877">10.1109/tse.2016.2616877</a>.
 </dd>
+<dt id="fucci2020" class="bibliography">Fucci2020</dt>
+<dd>
+Davide Fucci, Giuseppe Scanniello, Simone Romano, and Natalia Juristo:
+"Need for Sleep: The Impact of a Night of Sleep Deprivation on Novice Developers' Performance".
+<em>TSE</em>, 46(1), 2020, <a href="https://doi.org/10.1109/tse.2018.2834900">10.1109/tse.2018.2834900</a>.
+</dd>
+<dt id="gao2017" class="bibliography">Gao2017</dt>
+<dd>
+Zheng Gao, Christian Bird, and Earl T. Barr:
+"To Type or Not to Type: Quantifying Detectable Bugs in JavaScript".
+<em>ICSE'17</em>, <a href="https://doi.org/10.1109/ICSE.2017.75">10.1109/ICSE.2017.75</a>.
+</dd>
 <dt id="gawande2011" class="bibliography">Gawande2011</dt>
 <dd>
 Atul Gawade:
 <em>The Checklist Manifesto: How to Get Things Right</em>.
 Picador, 2011, 978-0312430009.
+</dd>
+<dt id="gitinabard2020" class="bibliography">Gitinabard2020</dt>
+<dd>
+Niki Gitinabard, Ruth Okoilu, Yiqao Xu, Sarah Heckman, Tiffany Barnes, and Collin Lynch:
+"Student Teamwork on Programming Projects: What Can GitHub Logs Show Us?".
+<em>Proc. EDM'2020</em>.
 </dd>
 <dt id="glass2002" class="bibliography">Glass2002</dt>
 <dd>
@@ -440,6 +482,12 @@ Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, 
 Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson:
 "Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering".
 <em>PeerJ</em>, 2, 2014, <a href="https://doi.org/10.7717/peerj.289">10.7717/peerj.289</a>.
+</dd>
+<dt id="gruenert2015" class="bibliography">Gruenert2015</dt>
+<dd>
+Steve Gruenert and Todd Whitaker:
+<em>School Culture Rewired: How to Define, Assess, and Transform It</em>.
+ASCD, 2015, 978-1416619901.
 </dd>
 <dt id="hanenberg2013" class="bibliography">Hanenberg2013</dt>
 <dd>
@@ -876,6 +924,12 @@ David A. Scanlan:
 "Structured Flowcharts Outperform Pseudocode: An Experimental Comparison".
 <em>IEEE Software</em>, 6(5), 1989, <a href="https://doi.org/10.1109/52.35587">10.1109/52.35587</a>.
 </dd>
+<dt id="schankin2018" class="bibliography">Schankin2018</dt>
+<dd>
+Andrea Schankin, Annika Berger, Daniel V. Holt, Johannes C. Hofmeister, Till Riedel, and Michael Beigl:
+"Descriptive Compound Identifier Names Improve Source Code Comprehension".
+<em>ICPC'18</em>, <a href="https://doi.org/10.1145/3196321.3196332">10.1145/3196321.3196332</a>.
+</dd>
 <dt id="schon1984" class="bibliography">Schon1984</dt>
 <dd>
 Donald A. Schon:
@@ -1053,6 +1107,12 @@ Tianyin Xu, Long Jin, Xuepeng Fan, Yuanyuan Zhou, Shankar Pasupathy, and Rukma T
 Ding Yuan, Yu Luo, Xin Zhuang, Guilherme Renna Rodrigues, Xu Zhao, Yongle Zhang, Pranay Jain, and Michael Stumm:
 "<a href="https://www.usenix.org/publications/login/feb15/yuan">Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems</a>".
 <em>login Usenix Magazine</em>, 40(1), 2015.
+</dd>
+<dt id="zampetti2020" class="bibliography">Zampetti2020</dt>
+<dd>
+Fiorella Zampetti, Carmine Vassallo, Sebastiano Panichella, Gerardo Canfora, Harald Gall, and Massimiliano Di Penta:
+"An Empirical Characterization of Bad Practices in Continuous Integration".
+<em>ESE</em>, 25(2), 2020, <a href="https://doi.org/10.1007/s10664-019-09785-8">10.1007/s10664-019-09785-8</a>.
 </dd>
 <dt id="zeller2011" class="bibliography">Zeller2011</dt>
 <dd>

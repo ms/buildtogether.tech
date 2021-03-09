@@ -117,6 +117,12 @@
       separate [branch](#branch_git) is created for work on each new feature or
       each bug fix and merged when that work is completed.
 
+- key: brooks_law
+  en:
+    term: "Brook's Law"
+    def: >
+      FIXME
+
 - key: bsd_license
   en:
     term: "BSD license"
@@ -196,6 +202,12 @@
 - key: code_browser
   en:
     term: "code browser"
+    def: >
+      FIXME
+
+- key: code_metric
+  en:
+    term: "code metric"
     def: >
       FIXME
 

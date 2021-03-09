@@ -357,8 +357,9 @@ Research has proven the benefits of CI <cite>Hilton2016</cite>.  It acts as a
 "heartbeat" for the project: as soon as anything goes wrong, everyone knows. It
 also encourages good development practices: if someone checks something in that
 doesn't compile, run, or pass the project's tests, everyone will know very
-quickly. Funnily enough, after the system has shamed you a couple of times,
-you'll stop checking in broken code…
+quickly. (Funnily enough, after the system has shamed you a couple of times,
+you'll stop checking in broken code…) <cite>Zampetti2020</cite> looks at how
+*not* to use CI, and can serve as a good checklist of things to avoid.
 
 Real development projects rely on a lot of other tools as well: schedule
 builders like Microsoft Project, requirements tracing tools, visual editors for

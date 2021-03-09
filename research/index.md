@@ -16,15 +16,15 @@ undergraduate degree.  The average computer science student does one.)
 
 A third reason is that many people would rather fail than change. People cling
 to creationism, refuse to accept the reality of anthropogenic climate change, or
-insist that vaccines cause autism. Given that, is it any wonder that many
-programmers continue to act as if a couple of pints and a quotation from some
-self-appointed guru constitute "proof" that one programming language is better
-than another.
+insist that vaccines cause autism. Given that, it's not surprising that many
+programmers continue to act as if a couple of quotations from some
+self-appointed guru constitute "proof".
 
-This chapter therefore presents a few results that are relevant to the kind of
-work you may be doing in your project course. I hope you will find them
-interesting enough to want to dig further, but as with all research, some
-caution is required when interpreting results:
+This chapter therefore presents a few evidence-based results that are relevant
+to the kind of work you may be doing in your project and that your instructor
+might want to incorporate into your course <cite>Fagerholm2017</cite>. I hope
+you will find them interesting enough to want to dig further, but as with all
+research, some caution is required when interpreting results:
 
 Theories change as more data becomes available.
 :   Software engineering is a comparatively young discipline---in fact, the term
@@ -71,7 +71,8 @@ g="treatment_group">treatment group</span> (who do things in an alternative
 way). If the difference between the groups is large enough statistically, the
 experimenter publishes a paper and moves on.
 
-There are several traps in this approach for the unwary:
+There are several traps in this approach for the unwary
+<cite>deOliveiraNeto2019</cite>:
 
 Experimenter bias.
 :   People have many biases, both conscious and unconscious.  In order to make
@@ -235,13 +236,24 @@ Satisfaction: how satisfying the work is.
 
 What's most important to remember in all of this is [Goodhart's
 Law][goodhart-law]: as soon as you use some measure to evaluate people it ceases
-to be a good measure because people will start to game the system.  One sign of
-this comes from <cite>Begel2014</cite>, which asked one set of developers what
-questions they most wanted researchers to answer, then asked another set of
-developers to rate those questions.  Respondents favored questions about how
-customers typically use their applications, but were opposed questions related
-to assessing the performance of individual employees or comparing them with one
-another.
+to be a good measure because people will start to game the system.  For example,
+<cite>Gitinabard2020</cite> reports that it's possible to classify student
+software teams as collaborative, cooperative, or solo-submit by analyzing the
+history of their version control repositories. If these measures are ever used
+for grading, students will immediately start making extra commits (or fewer, or
+whatever else is needed) in order to get the "right" profile.
+
+<div class="callout" markdown="1">
+
+### What don't you want to know?
+
+<cite>Begel2014</cite> asked one set of developers what questions they most
+wanted researchers to answer, then asked another set of developers to rate those
+questions.  Respondents favored questions about how customers typically use
+their applications, but were opposed questions related to assessing the
+performance of individual employees or comparing them with one another.
+
+</div>
 
 ## What Do We Know About Programming Style?
 
@@ -274,6 +286,16 @@ plans play a large role in comprehension."  It also found that experienced
 developers are relatively unaffected by identifier style, so just to use
 consistent style in all examples.  Since most languages have style guides (e.g.,
 [PEP8][pep8] for Python) and tools to check that code follows these guidelines.
+In contrast, <cite>Schankin2018</cite> found that:
+
+> With descriptive identifier names, developers spent more time in the lines of
+> code before the actual defect occurred and changed their reading direction
+> less often, finding the semantic defect about 14% faster than with shorter but
+> less descriptive identifier names. These effects disappeared when developers
+> searched for a syntax error, i.e., when no in-depth understanding of the code
+> was required. Interestingly, the style of identifier names had a clear impact
+> on program comprehension for more experienced developers but not for less
+> experienced developers.
 
 More recently, studies like <cite>Floyd2017,Krueger2020,Peitek2021</cite> have
 used <span g="fmri">fMRI</span> to look at what programmers' brain do when they
@@ -297,13 +319,17 @@ names have implicit types and meanings.  For example, most programmers assume
 that `i`, `j`, and `n` are integers and that `s` is a string, while `x`, `y`,
 and `z` are either floating-point numbers or integers more or less equally.
 
-Programmers have argued for decades about whether variables' data types should
-have to be declared or not, usually based on their personal experience as
-professionals rather than on any kind of data.
+Similarly, programmers have argued for decades about whether variables' data
+types should have to be declared or not, usually based on their personal
+experience as professionals rather than on any kind of data.
 <cite>Hanenberg2013,Endrikat2014,Fischer2015</cite> found that requiring
 variable type declarations does add some complexity to programs, but it pays off
 by acting as documentation for a method's use---in particular, by forestalling
-questions about what's available and how to use it.
+questions about what's available and how to use it. <cite>Gao2017</cite> looked
+at how many bugs in JavaScript programs would have been caught if the code had
+been written in TypeScript (which adds types), and came up with a figure of
+15%, which is either low (one in seven) or high (sales tax) depending on how you
+want to look at it.
 
 ## What Can We Learn From Analyzing Code?
 
@@ -368,6 +394,19 @@ requires some thinking on a case by case basis:
 > concerns*. While not always good, when used with care (as with any form of
 > design or implementation decision) these patterns are more likely to achieve
 > an overall beneficial effect on the software system.
+
+<div class="callout" markdown="1">
+
+### What *can't* we learn?
+
+Many people have put forward <span g="code_metric">code metrics</span> that are
+supposed to measure the complexity or likely number of bugs in a piece of
+software. However, <cite>ElEmam2001</cite> found that these metrics are no
+better at predicting things than simply counting the number of lines of code,
+because the longer the program is, the more likely it is to contain whatever
+kinds of problems those more sophisticated metrics are looking for.
+
+</div>
 
 ## What Do We Know About Software Quality?
 
@@ -467,9 +506,10 @@ tested", i.e., their authors fix the breakages that users report.
 ## What Do We Know About Software Projects?
 
 If there is one "law" of software development that most practitioners have heard
-of, it is Brooks' Law: adding people to a late project makes it
-later. <cite>Meneely2011</cite> explores the correlation between adding people
-to a team and the quality of the software the team works on.
+of, it is <span g="brooks_law">Brooks' Law</span>: adding people to a late
+project makes it later. <cite>Meneely2011</cite> explores the correlation
+between adding people to a team and the quality of the software the team works
+on.
 
 The paper reports that adding people is correlated with a later increase in
 software quality, but adding them too quickly (that is, at a faster pace than in

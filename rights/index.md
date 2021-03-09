@@ -8,8 +8,11 @@ FIXME:
 - May2019
 - Patitsas2016
 - Washington2020
+- Gaucher2011
 - https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html
 - https://www.askamanager.org/
+- https://newrepublic.com/article/117088/silicons-valleys-brutal-ageism
+- https://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/
 
 Which of these do you believe is true?
 

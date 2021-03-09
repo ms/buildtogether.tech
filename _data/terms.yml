@@ -191,6 +191,10 @@ research:
   term: affective state
 - key: big_five
   term: Big Five personality traits
+- key: brooks_law
+  term: Brook's Law
+- key: code_metric
+  term: code metric
 - key: cognitive_dimensions
   term: cognitive dimensions framework
 - key: confounding_variables

@@ -566,6 +566,15 @@
   year: 2017
   doi: 10.1145/3105726.3106190
 
+- key: Davidson2009
+  kind: book
+  author:
+  - Neil Davidson
+  title: "Don't Just Roll the Dice - A Usefully Short Guide to Software Pricing"
+  publisher: "Red Gate Books"
+  year: 2009
+  isbn: 978-1906434380
+
 - key: Dawson2010
   kind: article
   author:
@@ -578,6 +587,21 @@
   volume: 3
   number: 6
   year: 2010
+
+- key: deOliveiraNeto2019
+  kind: article
+  author:
+  - Francisco Gomes de Oliveira Neto
+  - Richard Torkar
+  - Robert Feldt
+  - Lucas Gren
+  - Carlo A. Furia
+  - Ziwei Huang
+  doi: 10.1016/j.jss.2019.07.002
+  journal: "JSS"
+  volume: 156
+  title: "Evolution of Statistical Analysis in Empirical Software Engineering Research: Current State and Steps Forward"
+  year: 2019
 
 - key: diBella2013
   kind: article
@@ -649,6 +673,20 @@
   title: "Hidden Truths in Dead Software Paths"
   year: 2015
 
+- key: ElEmam2001
+  kind: article
+  author:
+  - Khaled El Emam
+  - Saïda Benlarbi
+  - Nishith Goel
+  - Shesh N. Rai
+  title: "The Confounding Effect of Class Size on the Validity of Object-Oriented Metrics"
+  doi: 10.1109/32.935855
+  journal: "TSE"
+  volume: 27
+  number: 7
+  year: 2001
+
 - key: Eley1995
   kind: book
   author:
@@ -683,6 +721,18 @@
   number: 3
   year: 2005
   doi: 10.1109/TSE.2005.37
+
+- key: Fagerholm2017
+  kind: article
+  author:
+  - Fabian Fagerholm
+  - Marco Kuhrmann
+  - Jürgen Münch
+  title: "Guidelines for Using Empirical Studies in Software Engineering Education"
+  journal: "PeerJ Computer Science"
+  volume: 3
+  doi: 10.7717/peerj-cs.131
+  year: 2017
 
 - key: Feathers2004
   kind: book
@@ -817,6 +867,31 @@
   year: 2017
   doi: 10.1109/tse.2016.2616877
 
+- key: Fucci2020
+  kind: article
+  author:
+  - Davide Fucci
+  - Giuseppe Scanniello
+  - Simone Romano
+  - Natalia Juristo
+  doi: 10.1109/tse.2018.2834900
+  journal: "TSE"
+  volume: 46
+  number: 1
+  title: "Need for Sleep: The Impact of a Night of Sleep Deprivation on Novice Developers' Performance"
+  year: 2020
+
+- key: Gao2017
+  kind: inproceedings
+  author:
+  - Zheng Gao
+  - Christian Bird
+  - Earl T. Barr
+  booktitle: "ICSE'17"
+  doi: 10.1109/ICSE.2017.75
+  title: "To Type or Not to Type: Quantifying Detectable Bugs in JavaScript"
+  year: 2017
+
 - key: Gawande2011
   kind: book
   author:
@@ -825,6 +900,19 @@
   publisher: Picador
   year: 2011
   isbn:  978-0312430009
+
+- key: Gitinabard2020
+  kind: inproceedings
+  author:
+  - Niki Gitinabard
+  - Ruth Okoilu
+  - Yiqao Xu
+  - Sarah Heckman
+  - Tiffany Barnes
+  - Collin Lynch
+  title: "Student Teamwork on Programming Projects: What Can GitHub Logs Show Us?"
+  booktitle: "Proc. EDM'2020"
+  year: 2020
 
 - key: Glass2002
   kind: book
@@ -864,6 +952,16 @@
   title: "Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering"
   volume: 2
   year: 2014
+
+- key: Gruenert2015
+  kind: book
+  author:
+  - Steve Gruenert
+  - Todd Whitaker
+  title: "School Culture Rewired: How to Define, Assess, and Transform It"
+  publisher: ASCD
+  isbn: 978-1416619901
+  year: 2015
 
 - key: Hanenberg2013
   kind: article
@@ -1696,6 +1794,20 @@
   year: 1989
   doi: 10.1109/52.35587
 
+- key: Schankin2018
+  kind: inproceedings
+  author:
+  - Andrea Schankin
+  - Annika Berger
+  - Daniel V. Holt
+  - Johannes C. Hofmeister
+  - Till Riedel
+  - Michael Beigl
+  title: "Descriptive Compound Identifier Names Improve Source Code Comprehension"
+  booktitle: "ICPC'18"
+  doi: 10.1145/3196321.3196332
+  year: 2018
+
 - key: Schon1984
   kind: book
   author:
@@ -2033,6 +2145,22 @@
   title: "Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems"
   url: https://www.usenix.org/publications/login/feb15/yuan
   year: 2015
+
+- key: Zampetti2020
+  kind: article
+  author:
+  - Fiorella Zampetti
+  - Carmine Vassallo
+  - Sebastiano Panichella
+  - Gerardo Canfora
+  - Harald Gall
+  - Massimiliano Di Penta
+  title: "An Empirical Characterization of Bad Practices in Continuous Integration"
+  journal: "ESE"
+  doi: 10.1007/s10664-019-09785-8
+  volume: 25
+  number: 2
+  year: 2020
 
 - key: Zeller2011
   author:

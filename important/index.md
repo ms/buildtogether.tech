@@ -47,7 +47,8 @@ short, readable summary.  The most important results for developers are:
     catastrophic error just as much as being legally drunk.
 
 These facts have been verified through hundreds of experiments over the course
-of more than a century.  The data behind them is as solid as the data linking
+of more than a century, including some on novice software developers
+<cite>Fucci2020</cite>.  The data behind them is as solid as the data linking
 smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
 science somehow didn't apply to them.  To quote Robinson's article:

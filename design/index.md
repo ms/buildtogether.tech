@@ -532,7 +532,11 @@ Configuration files.
     the program reads a global configuration file with general settings, then a
     user-specific configuration file (typically in the user's home directory)
     with the user's preferences, and finally a project-specific file. Those
-    settings can then often be overridden using command-line flags.
+    settings can then often be overridden using command-line flags.  And if you
+    are going to *read* settings from files, do the compassionate thing and
+    teach your programs how to *write* their complete settings to a file as
+    well.  These files make it easier for people to reproduce their work and are
+    an invaluable aid to debugging.
 
 A programming interface.
 :   If the application is written as a set of libraries, each with its own API,

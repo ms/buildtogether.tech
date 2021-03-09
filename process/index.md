@@ -343,10 +343,10 @@ enough time to add everything that everyone wants to a piece of software, and
 even if there was, it probably shouldn't be done anyway.
 
 What you do now is find a large whiteboard and draw a 3×3 grid.  The X axis is
-labeled "effort", the Y axis "importance", and each is divided into "low",
-"medium", and "high".  Next, write each feature's name on a yellow sticky note
-and put it on the grid.  You should wind up with something like <span
-f="process-matrix"></span>.
+labeled "effort" and is labeled "an hour", "a day", and "a week", while the Y
+axis "importance", and each is divided into "low", "medium", and "high".  Next,
+write each feature's name on a yellow sticky note and put it on the grid.  You
+should wind up with something like <span f="process-matrix"></span>.
 
 {% include figure id="process-matrix" alt="Effort/importance matrix" cap="An example of an effort/importance matrix." fixme=true %}
 
