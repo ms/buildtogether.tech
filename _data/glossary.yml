@@ -104,7 +104,7 @@
 
 - key: branch_git
   en:
-    term: "branch (in Git)"
+    term: "branch"
     def: >
       A snapshot of a version of a [repository](#repository).  Multiple branches
       can capture multiple versions of the same repository.
@@ -188,7 +188,7 @@
 
 - key: clone_git
   en:
-    term: "clone (in Git)"
+    term: "clone"
     def: >
       A copy of a [repository](#repository) or the act of making a copy of a
       repository.
@@ -228,7 +228,7 @@
 
 - key: commit
   en:
-    term: "commit (in Git)"
+    term: "commit"
     def: >
       The act of saving a set of changes to a database or version control
       [repository](#repository), or the changes saved.
@@ -263,7 +263,7 @@
 
 - key: conflict_git
   en:
-    term: "conflict (in Git)"
+    term: "conflict"
     def: >
       A situation in which incompatible or overlapping changes have been made on
       different [branches](#branch_git) that are now being [merged](#merge_git).
@@ -524,7 +524,7 @@
 
 - key: fork_git
   en:
-    term: "fork (in Git)"
+    term: "fork"
     def: >
       To make a new copy of a version control [repository](#repository), or the
       copy that is made.
@@ -722,7 +722,7 @@
 
 - key: merge_git
   en:
-    term: "merge (in Git)"
+    term: "merge"
     def: >
       To combine changes from two [branches](#branch_git) in a
       [repository](#repository). This may lead to [conflicts](#conflict_git).
@@ -872,7 +872,7 @@
 
 - key: pull_git
   en:
-    term: "pull (in Git)"
+    term: "pull"
     def: >
       To down changes from a remote [repository](#repository) to a
       local one.
@@ -885,7 +885,7 @@
 
 - key: push
   en:
-    term: "push (in Git)"
+    term: "push"
     def: >
       To upload changes from a local [repository](#repository) to a
       remote one.
@@ -923,7 +923,7 @@
 
 - key: rebase_git
   en:
-    term: "rebase (in Git)"
+    term: "rebase"
     def: >
       FIXME
 
@@ -935,7 +935,7 @@
 
 - key: remote_git
   en:
-    term: "remote (in Git)"
+    term: "remote"
     def: >
       A [repository](#repository) located on another computer, or a bookmark
       in one project that points at such a repository.
