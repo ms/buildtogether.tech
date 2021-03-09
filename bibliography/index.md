@@ -117,6 +117,12 @@ Isaiah Berlin:
 <em>The Proper Study of Mankind: An Anthology of Essays</em>.
 Farrar Straus and Giroux, 2000, 978-0374527174.
 </dd>
+<dt id="bernstein2018" class="bibliography">Bernstein2018</dt>
+<dd>
+Ethan S. Bernstein and Stephen Turban:
+"The Impact of the 'Open' Workspace on Human Collaboration".
+<em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, 373(1753), 2018, <a href="https://doi.org/10.1098/rstb.2017.0239">10.1098/rstb.2017.0239</a>.
+</dd>
 <dt id="bettenburg2008" class="bibliography">Bettenburg2008</dt>
 <dd>
 Nicolas Bettenburg, Sascha Just, Adrian Schröter, Cathrin Weiss, Rahul Premraj, and Thomas Zimmermann:
@@ -242,6 +248,12 @@ Mauro Cherubini, Gina Venolia, Rob DeLine, and Amy J. Ko:
 "Let's Go to the Whiteboard: How and Why Software Developers Use Drawings".
 <em>Proc. CHI'07</em>, <a href="https://doi.org/10.1145/1240624.1240714">10.1145/1240624.1240714</a>.
 </dd>
+<dt id="cheryan2009" class="bibliography">Cheryan2009</dt>
+<dd>
+Sapna Cheryan, Victoria C. Plaut, Paul G. Davies, and Claude M. Steele:
+"Ambient Belonging: How Stereotypical Cues Impact Gender Participation in Computer Science".
+<em>Journal of Personality and Social Psychology</em>, 97(6), 2009, <a href="https://doi.org/10.1037/a0016239">10.1037/a0016239</a>.
+</dd>
 <dt id="chi1989" class="bibliography">Chi1989</dt>
 <dd>
 Michelene T. H. Chi, Miriam Bassok, Matthew W. Lewis, Peter Reimann, and Robert Glaser:
@@ -320,6 +332,12 @@ Stephen H. Edwards and Zalia Shams:
 Michael Eichberg, Ben Hermann, Mira Mezini, and Leonid Glanz:
 "Hidden Truths in Dead Software Paths".
 <em>Proc. FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786865">10.1145/2786805.2786865</a>.
+</dd>
+<dt id="eley1995" class="bibliography">Eley1995</dt>
+<dd>
+Joanna Eley and Alexi Marmot:
+<em>Understanding Offices: What Every Manager Needs to Know about Office Buildings</em>.
+Penguin, 1995, 978-0140169126.
 </dd>
 <dt id="endrikat2014" class="bibliography">Endrikat2014</dt>
 <dd>
@@ -649,6 +667,12 @@ Shane McIntosh, Bram Adams, Thanh H.D. Nguyen, Yasutaka Kamei, and Ahmed E. Hass
 Andrew Meneely, Pete Rotella, and Laurie Williams:
 "Does Adding Manpower Also Affect Quality?".
 <em>Proc. SIGSOFT'11</em>, <a href="https://doi.org/10.1145/2025113.2025128">10.1145/2025113.2025128</a>.
+</dd>
+<dt id="meneely2014" class="bibliography">Meneely2014</dt>
+<dd>
+Andrew Meneely, Alberto C. Rodriguez Tejeda, Brian Spates, Shannon Trudeau, Danielle Neuberger, Katherine Whitlock, Christopher Ketant, and Kayla Davis:
+"An Empirical Investigation of Socio-technical Code Review Metrics and Security Vulnerabilities".
+<em>Proc. SSE'14</em>, <a href="https://doi.org/10.1145/2661685.2661687">10.1145/2661685.2661687</a>.
 </dd>
 <dt id="metcalfe2016" class="bibliography">Metcalfe2016</dt>
 <dd>

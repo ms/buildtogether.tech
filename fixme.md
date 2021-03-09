@@ -1,9 +1,3 @@
-bernstein 2018
-cheryan 2009
-meneely-2014
-https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html
-https://jvns.ca/blog/things-your-manager-might-not-know/
-ask a manager bst
 davidson 2009
 de oliveira neto
 deloitte
@@ -13,7 +7,6 @@ Farmer 2006
 Fucci 2018
 https://newrepublic.com/article/117088/silicons-valleys-brutal-ageism
 https://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/
-https://jacobian.org/2021/mar/5/exec-status-update/
 an hour a day a week classification
 dump config
 gao 2017

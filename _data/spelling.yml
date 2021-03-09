@@ -73,6 +73,8 @@
 - callout's
 - camelcase
 - carnegie-mellon
+- carpentries
+- catch-all
 - cc
 - cc-0
 - cc-by
@@ -85,6 +87,7 @@
 - chapter-slug
 - check-ins
 - checkstyle
+- cheryan
 - choosealicense.com
 - closed-source
 - co-authoring
@@ -100,11 +103,13 @@
 - computer-hours
 - concurrency
 - conformance
+- congruence
 - cooperators
 - copy-paste
 - copy-pasting
 - cost-effective
 - counter-intuitive
+- counter-intuitively
 - counter-productive
 - course's
 - coursemates
@@ -208,6 +213,7 @@
 - half-dozen
 - half-hour
 - hand-sized
+- hanselman
 - harassment-free
 - head-first
 - hediyeh
@@ -258,6 +264,7 @@
 - jsdoc
 - json
 - just-in-time
+- kaplan-moss
 - karenina
 - kramdown
 - krein
@@ -336,6 +343,7 @@
 - non-text
 - not-busy
 - note-taking
+- npm
 - nsf
 - observables
 - often-overlooked
@@ -381,6 +389,7 @@
 - pre-conditions
 - pre-emptively
 - pre-existing
+- pre-register
 - pre-releases
 - programmer-hour
 - project-related
@@ -391,6 +400,7 @@
 - q
 - q1
 - q2
+- quasi-experiment
 - r
 - ramp-up
 - raster
@@ -417,18 +427,19 @@
 - refactoring
 - refactorings
 - repository-by-repository
+- repository's
 - reprex
 - reproducibility
 - reviewable
 - roehm
 - root-level
 - s
-- sami
-- scalzi
+- "sami's"
+- "scalzi's"
 - scatterplot
 - scheduling-related
 - schemas
-- schrödinger
+- "schrödinger's"
 - sci-hub
 - scriptability
 - scriptable
@@ -460,6 +471,7 @@
 - smartbear
 - snakemake
 - socio-economic
+- socio-technical
 - specially-formatted
 - speling
 - sql
@@ -482,7 +494,8 @@
 - syntaxerror
 - syntaxes
 - tanesya
-- tanesya
+- "tanesya's"
+- "task's"
 - tdd
 - teacher-provided
 - team-building
@@ -514,7 +527,7 @@
 - two-liner
 - uml
 - unindent
-- united
+- "united's"
 - universidade
 - unlv
 - unmute
@@ -532,6 +545,7 @@
 - versioned
 - versioning
 - vs
+- vulnerability-fixing
 - web-base
 - web-based
 - well-being

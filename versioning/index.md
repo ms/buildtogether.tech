@@ -68,7 +68,7 @@ it.
 
 This chapter won't try to teach you Git from scratch:
 [GitHub's guides][github-guides] do an excellent job of that, as does
-[the Carpentries][carpentries]'s [lesson on Git][carpentries-git].
+[the Carpentries][carpentries] [lesson on Git][carpentries-git].
 Instead, we will review the basics that we hope you have learned previous, then
 look at how to use Git and GitHub to collaborate. We will show the commands as
 if you were typing them on the command line; if you are a beginner, we recommend

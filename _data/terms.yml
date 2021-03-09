@@ -32,6 +32,8 @@ collaborate:
   term: "Schr\xF6dinger's Asshole"
 - key: static_site_generator
   term: static site generator
+- key: technical_debt
+  term: technical debt
 - key: utc
   term: Coordinated Universal Time
 conclusion: []

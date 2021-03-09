@@ -225,6 +225,17 @@ but your friends will stop mocking you when they see that you're able to finish
 your assignments and still have time to play some badminton and catch a movie.
 They may even start to imitate you.
 
+<div class="callout" markdown="1">
+
+### Open offices suck
+
+Open offices were created so that (mostly male) managers could keep an eye on
+(mostly female) office workers, and to reduce air conditioning costs
+<cite>Eley1995</cite>.  In every other way we can measure, they lower
+productivity <cite>Bernstein2018</cite>.
+
+</div>
+
 ## Meetings
 
 The previous section explained how to be productive individually---what about

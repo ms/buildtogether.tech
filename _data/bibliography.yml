@@ -223,6 +223,18 @@
   year: 2000
   isbn: 978-0374527174
 
+- key: Bernstein2018
+  kind: article
+  author:
+  - Ethan S. Bernstein
+  - Stephen Turban
+  doi: 10.1098/rstb.2017.0239
+  journal: "Philosophical Transactions of the Royal Society B: Biological Sciences"
+  volume: 373
+  number: 1753
+  title: "The Impact of the 'Open' Workspace on Human Collaboration"
+  year: 2018
+
 - key: Bettenburg2008
   author:
   - Nicolas Bettenburg
@@ -473,6 +485,20 @@
   year: 2007
   doi: 10.1145/1240624.1240714
 
+- key: Cheryan2009
+  kind: article
+  author:
+  - Sapna Cheryan
+  - Victoria C. Plaut
+  - Paul G. Davies
+  - Claude M. Steele
+  doi: 10.1037/a0016239
+  journal: Journal of Personality and Social Psychology
+  volume: 97
+  number: 6
+  title: "Ambient Belonging: How Stereotypical Cues Impact Gender Participation in Computer Science"
+  year: 2009
+
 - key: Chi1989
   kind: article
   author:
@@ -622,6 +648,16 @@
   kind: inproceedings
   title: "Hidden Truths in Dead Software Paths"
   year: 2015
+
+- key: Eley1995
+  kind: book
+  author:
+  - Joanna Eley
+  - Alexi Marmot
+  title: "Understanding Offices: What Every Manager Needs to Know about Office Buildings"
+  publisher: Penguin
+  year: 1995
+  isbn: 978-0140169126
 
 - key: Endrikat2014
   kind: inproceedings
@@ -1282,6 +1318,22 @@
   kind: inproceedings
   title: "Does Adding Manpower Also Affect Quality?"
   year: 2011
+
+- key: Meneely2014
+  kind: inproceedings
+  author:
+  - Andrew Meneely
+  - Alberto C. Rodriguez Tejeda
+  - Brian Spates
+  - Shannon Trudeau
+  - Danielle Neuberger
+  - Katherine Whitlock
+  - Christopher Ketant
+  - Kayla Davis
+  title: "An Empirical Investigation of Socio-technical Code Review Metrics and Security Vulnerabilities"
+  booktitle: "Proc. SSE'14"
+  doi: 10.1145/2661685.2661687
+  year: 2014
 
 - key: Metcalfe2016
   kind: article

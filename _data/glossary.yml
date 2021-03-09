@@ -447,14 +447,6 @@
     def: >
       FIXME
 
-- key: end_user_programmer
-  en:
-    term: "end-user programmer"
-    def: >
-      Someone who does not consider themselves a programmer, but who nevertheless
-      writes and debugs software, such as an artist creating complex macros for a
-      drawing tool.
-
 - key: er_diagram
   en:
     term: "entity-relationship diagram"
@@ -1148,6 +1140,12 @@
 - key: team_contract
   en:
     term: "team contract"
+    def: >
+      FIXME
+
+- key: technical_debt
+  en:
+    term: "technical debt"
     def: >
       FIXME
 

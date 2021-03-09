@@ -56,6 +56,8 @@
   title: "International Symposium on Foundations of Software Engineering"
 - key: "SOSP"
   title: "Symposium on Operating Systems Principles"
+- key: "SSE"
+  title: "Social Software Engineering"
 - key: "TCE"
   title: "*ACM Transactions on Computing Education*"
 - key: "TSE"

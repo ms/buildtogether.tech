@@ -247,6 +247,21 @@ the most effective way to share knowledge between team members: if you read
 someone else's code, you have a chance to learn all the things that you didn't
 know to ask and they didn't realize they should tell you.
 
+<div class="callout" markdown="1">
+
+### Do more eyes make for fewer bugs?
+
+Some people have claimed that many eyes make all bugs shallow (i.e., easy to
+find), but the evidence doesn't support that claim.  For example,
+<cite>Meneely2014</cite> reports that, "…source code files reviewed by more
+developers are, counter-intuitively, more likely to be vulnerable (even after
+accounting for file size). However, files are less likely to be vulnerable if
+they were reviewed by developers who had experience participating on prior
+vulnerability-fixing reviews." In short, *whose* eyes matters more than how
+many.
+
+</div>
+
 There are lots of guides online for doing code reviews, most of them based on
 their authors' personal experience. A notable exception is the [SmartBear
 guide][smartbear-code-review], which draws on a large study of code review in
@@ -627,6 +642,56 @@ kidding? You're going to use IM no matter what I say. If there's more than two
 people in the conversation, follow the same rules you would for a meeting. In
 particular, post a summary of the conversation to your project's web site, just
 as you would post meeting minutes.
+
+<div class="callout" markdown="1">
+
+### Reporting up
+
+As well as reporting progress to your teammates, you may have to report it
+regularly to your instructor, who is effectively your manager. [Julia
+Evans][evans-julia] has described [eight things your manager might not
+know][evans-manager], all of which apply to student teams:
+
+1.  What's slowing the team down.
+
+1.  Exactly what individual people on the team are working on.
+
+1.  Where the <span g="technical_debt">technical debt</span> is.
+
+1.  How to help you get better at your job.
+
+1.  What your goals are.
+
+1.  What issues they should be escalating.
+
+1.  What extra work you're doing.
+
+1.  How compensation/promotions work at the company.  (For students, this one
+    translates to, "How grading actually works.")
+
+[Jacob Kaplan-Moss][kaplan-moss-jacob] has a similar guide to [giving a status
+update to executives][kaplan-moss-executives]. If you follow those guidelines,
+you get briefs like this:
+
+> Project X is running smoothly. We're making steady progress: we've delivered a
+> bit over half of the features on our roadmap, and we're on track to launch
+> publicly in May.
+>
+> I want to particularly highlight J's design work; every time we share a new
+> demo with our user research group they rave over how much they love the
+> design.
+>
+> We do have some cost risk: right now, the code's pretty inefficient and would
+> require us to increase our AWS spend by 25% when we put this into
+> production. We either need to decide that cost is acceptable, or add some
+> extra time to the schedule for performance optimization. I need some guidance
+> from this team on that point: can you folks let me know if that cost seems OK
+> or not?
+
+If you learn how to summarize your status like this, you will be a very popular
+team member.
+
+</div>
 
 ## Documentation
 

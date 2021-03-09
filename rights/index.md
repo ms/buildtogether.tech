@@ -3,10 +3,13 @@
 
 FIXME:
 
+- Cheryan2009
 - Ford2016
 - May2019
 - Patitsas2016
 - Washington2020
+- https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html
+- https://www.askamanager.org/
 
 Which of these do you believe is true?
 
