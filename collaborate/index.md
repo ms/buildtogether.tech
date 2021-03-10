@@ -368,32 +368,10 @@ contribute: it has to be clear that the teams *wants* contributions.  Saying
 "the door is open" is not enough, since many people have painful personal
 experience of being less welcome than others.  In order to create a truly
 welcoming environment for everyone, the project must explicitly acknowledge that
-some people are treated unfairly and actively take steps to remedy this.  Doing
-this increases diversity within the team, which makes it more productive
-<cite>Zhan2020</cite>.  More importantly, it is the compassionate thing to do.
-
-A bit of terminology can help here.  <span g="privilege">Privilege</span> is an
-unearned advantage given to some people but not all, while <span
-g="oppression">oppression</span> is systemic inequality that benefits the
-privileged and harms those without privilege <cite>Aurora2018</cite>.  In
-Europe, the Americas, Australia, and New Zealand, a straight, white, affluent,
-physically able male is less likely to be interrupted when speaking, more likely
-to be called on in class, and more likely to get a job interview based on an
-identical CV than someone who is outside these categories.  People who are
-privileged are often not aware of it, as they've lived in a system that provides
-unearned advantages their entire lives.  In John Scalzi's memorable phrase,
-they've been playing on the lowest difficulty setting there is their whole
-lives, and as a result don't realize how much harder things are for others
-<cite>Scal2012</cite>.
-
-The targets of oppression are often called "members of a marginalized group,"
-but targets don't choose to be members, or to be marginalized: people with
-privilege marginalize them.  Finally, an <span g="ally">ally</span> is a member
-of a privileged group who is working to understand their own privilege and end
-oppression.  If we are privileged, we should educate ourselves and call out
-peers who are marginalizing others, even if (or especially if) they aren't
-conscious of doing it.  As <cite>Lee1962</cite> said, "With great power comes
-great responsibility."
+some people are treated unfairly in society and actively take steps to remedy
+this.  Doing this increases diversity within the team, which makes it more
+productive <cite>Zhan2020</cite>.  More importantly, it is the compassionate
+thing to do.
 
 So how does a Code of Conduct help with this?
 

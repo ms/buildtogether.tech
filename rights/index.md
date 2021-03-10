@@ -1,24 +1,12 @@
 ---
 ---
 
-FIXME:
-
-- Cheryan2009
-- Ford2016
-- May2019
-- Patitsas2016
-- Washington2020
-- Gaucher2011
-- https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html
-- https://www.askamanager.org/
-- https://newrepublic.com/article/117088/silicons-valleys-brutal-ageism
-- https://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/
-
 Which of these do you believe is true?
 
-1.  You own every piece of software you write for course assignments.  If the
-    university wants to use that software in any way other than for giving
-    you a grade, they need your permission: you can say "no" or ask for payment.
+1.  As a student, you own every piece of software you write for course
+    assignments.  If the university wants to use that software in any way other
+    than for giving you a grade, they need your permission: you can say "no" or
+    ask for payment.
 
 1.  You own the software you write for course assignments *as long as you do
     the work on your own computer*. If you use a university's machines, they
@@ -32,124 +20,32 @@ Which of these do you believe is true?
 1.  If you a graduate student then you, your supervisor, and your university
     all have a right to what you produce.
 
-The answer to the question is, "It depends where you are."  Different schools
-can have very different rules, even if they are in the same legal jurisdiction
-(i.e., the same country, state, or province). In fact, some universities' rules
-depend not only on who you are but on which faculty you are in.
+The answer is, "It depends where you are."  Different schools can have very
+different rules, even if they are in the same legal jurisdiction (i.e., the same
+country, state, or province). In fact, some universities' rules depend not only
+on who you are but on which faculty you are in.
 
 The rules in industry are less complex---anything you do on company time or with
-company resources belongs to the company---but there are still gray areas. For
+company resources belongs to the company---but there are many gray areas. For
 example, I wrote some of the first drafts of this book on a company laptop while
 traveling for work. Does that mean I owe my former employer a share of the
 royalties?
 
-Who owns what is just one of the rights that societies recognize. Others include
-the right to say what you want, the right to live free from fear, and the right
-to be treated the same way as everyone else regardless of your race, sex,
-orientation, religion, disability, or a variety of other factors. None of thse
-are absolute, and all of them have been profoundly affected by what software
-engineers have built. If the first rule of being compassionate is to do no harm,
-the first step in becoming a compassionate programmer is to learn what rights
-you and others have so that you don't violate them.
+Who owns what is just one of the rights that societies recognize.  Others
+guaranteed by the [Universal Declaration of Human Rights][udhr] include the
+right to say what you want, the right to live free from fear, and the right to
+be treated the same way as everyone else regardless of your race, sex,
+orientation, religion, or disability.  Most countries have signed this
+declaration, meaning that in theory at least, it has the force of law.
 
-## Fairness
-
-The [Universal Declaration of Human Rights][udhr] guarantees a handful of basic
-rights, including:
-
--   freedom from arbitrary arrest, detention, or exile;
-
--   the right to freedom of movement within their own country;
-
--   the right to marry and found a family;
-
--   the right to property and to freedom of opinion;
-
--   the right to work,
-    to free choice of employment,
-    to just and favourable conditions of work,
-    and to protection against unemployment;
-
--   the right to equal pay for equal work; and
-
--   the right to education.
-
-Most countries have signed this declaration, meaning that in theory at least, it
-has the force of law. Debate about rights should therefore have moved from
-"what" to "how", but the phrase "in theory" in the previous sentence is doing a
-lot of work. In practice, most societies still treat people unequally and
-unfairly; the question is, do we acknowledge that and try to fix it, or ignore
-it in the hope that we will be a beneficiary of that unfairness?
-
-<div class="callout" markdown="1">
-
-### Counter-productive
-
-<cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
-of what American companies have done over the past twenty years to reduce sexual
-harassment and discrimination has either had no effect or has actually made
-things worse. The reason is that the people who care don't gain anything from
-being told they should, while the people who are part of the problem resent
-being told that and tend to take out their anger on the people the training is
-meant to protect.
-
-</div>
-
-A few pages in a book like this can't change what you believe is fair or unfair.
-What it *can* do, I hope, is get you to start thinking in ways that will lead
-you to notice more and care more.
-
-<div class="callout" markdown="1">
-
-### See what I did there?
-
-Take a moment and re-read the preceding paragraph. Did you notice the first time
-through that it assumes you *aren't* someone who is routinely on the receiving
-end of discriminatory behavior? I wouldn't have spotted that when I was 20 years
-old; the handful of women in my classes certainly would have, just as they would
-known that they were half as likely to be called on when they raised their hand
-in class as I was.
-
-</div>
-
-To start, why should you care? Many arguments are made on the basis of team
-performance and productivity: study after study has shown that more diverse
-teams perform better, that companies with more diverse management are more
-profitable, and so on. The problem I have with this line of argument is that it
-implies that if there *weren't* economic benefits, there wouldn't be a reason to
-care.
-
-Another approach comes from <cite>Rawls1999</cite>, who framed it in terms of a
-"veil of ignorance": you get to decide what principles society will follow, but
-you have to do that *without* knowing what position in that society you will
-occupy. If you didn't know in advance whether you were going to be a man or a
-woman, for example, you probably wouldn't design a tech industry that treated
-women as poorly as ours does.
-
-I've never found Rawls' argument compelling either, for the simple reason that I
-know who I am and what position I occupy in society. What did convince me to
-care were these two arguments:
-
-Cookies.
-    You're about to have a meeting with someone. There's a box with half a dozen
-    cookies in the meeting room, so you help yourself to a couple before the
-    other person shows up. When they do, you have to make a choice: do you say,
-    "I've already had two, so I should only have one more and you should get
-    three?" or, "There were four cookies in the box when you arrived, so we get
-    two each" (meaning that you will have had four in total). Most of us would
-    say that the first answer is the moral one, but how far back should we go?
-
-Extra weight.
-    Many people object to taking race or gender into account in affirmative
-    action programs, saying that companies should hire whoever is the best
-    candidate on the day. But suppose I can run a mile in five minutes, while
-    you can do it in six minutes with a fifty-pound pack on your back.  You are
-    probably the better athlete, and will probably do better *if the pack is
-    removed*. Similarly, someone who can get a B despite being systematically
-    overlooked or underestimated will probably do better in a job than someone
-    who only got an A despite all the advantages that come from being straight,
-    white or Asian, male, physically able, and economically secure---if, that
-    is, they are treated fairly after being hired.
+However, the phrase "in theory" in the previous paragraph is doing a lot of
+work.  In practice, most societies still treat people unequally and unfairly;
+the question is, do we acknowledge that and try to fix it, or ignore it in the
+hope that when bad things happen, they'll only happen to other people?  What's
+more, all of our rights have been profoundly affected by what software engineers
+have built. If the first rule of being compassionate is to do no harm, the first
+step in becoming a compassionate programmer is to learn what rights people have
+so that you don't violate them.
 
 ## Intellectual Property
 
@@ -195,27 +91,12 @@ has a reputation for high quality or low prices, or if a particular medication
 has been proven to be effective against an ailment like heart disease, the name
 itself has commercial value.
 
-## Licensing
+## Software Licenses
 
 A <span g="license">license</span> dictates how project materials can be used
 and redistributed.  If the license or a publication agreement makes it difficult
 for people to contribute, the project is less likely to attract new members, so
 the choice of license is crucial to the project's long-term sustainability.
-
-<div class="callout" markdown="1">
-
-### Open except…
-
-Projects that are only developing software may not have any problem making
-everything open.  Teams working with sensitive data, on the other hand, must
-be careful to ensure that what should be private isn't inadvertently shared. 
-In particular, people who are new to Git (and even people who aren't)
-occasionally add raw data files containing personal identifying information to
-repositories.  It's possible to rewrite the project's history to remove things
-when this happens, but that doesn't automatically erase copies people may have
-in forked repositories.
-
-</div>
 
 Every creative work has some sort of license; the only question is whether
 authors and users know what it is and choose to enforce it.  Choosing a license
@@ -241,48 +122,30 @@ users may wind up operating under different licensing structures.
 ### Leave it to the professionals
 
 Don't write your own license.  Legalese is a highly technical language, and
-words don't mean what you think they do.
+words don't mean what you think they do.  What's more, it's often hard to
+understand the interactions between multiple licenses on different kinds of
+material <cite>Almeida2017</cite>.
 
 </div>
 
-To make license selection for code as easy as possible, GitHub allows us to
-select one of several common software licenses when creating a repository.  The
-Open Source Initiative maintains [a list][osi-license-list] of <span
-g="open_license">open licenses</span>, and [choosealicense.com][choose-license]
-will help us find a license that suits our needs.  Some of the things we need to
-think about are:
-
-1.  Do we want to license the work at all?
-
-1.  Is the content we are licensing source code?
-
-1.  Do we require people distributing derivative works to also distribute their code?
-
-1.  Do we want to address patent rights?
-
-1.  Is our license compatible with the licenses of the software we depend on?
-
-1.  Do our institutions have any policies that may overrule our choices?
-
-1.  Are there any copyright experts within our institution who can assist us?
-
-Unfortunately, GitHub's list does not include common licenses for data or
-written works like papers and reports.  Those can be added in manually, but it's
-often hard to understand the interactions between multiple licenses on different
-kinds of material <cite>Almeida2017</cite>.
-
 Just as the project's Code of Conduct is usually placed in a root-level file
 called `CONDUCT.md` (<span x="versioning"></span>), its license is usually put
-in a file called `LICENSE.md` that is also in the project's root directory.
+in a file called `LICENSE.md` that is also in the project's root directory.  To
+make license selection for code as easy as possible, GitHub allows us to select
+one of several common software licenses when creating a repository.
+Unfortunately, their list does not include common licenses for data or written
+works like papers and reports.
 
-In order to choose the right license for our software, we need to understand the
-difference between two kinds of license.  The <span g="mit_license">MIT
-License</span> and its close sibling the <span g="bsd_license">BSD
-License</span> say that people can do whatever they want to with the software as
-long as they cite the original source, and that the authors accept no
-responsibility if things go wrong.  The <span g="gpl">GNU Public License</span>
-(GPL) gives people similar rights, but requires them to share their own work on
-the same terms:
+The Open Source Initiative maintains [a list][osi-license-list] of <span
+g="open_license">open licenses</span>, and [choosealicense.com][choose-license]
+will help us find a license that suits our needs.  In order to choose the right
+one, we need to understand the difference between two kinds of license.  The
+<span g="mit_license">MIT License</span> and its close sibling the <span
+g="bsd_license">BSD License</span> say that people can do whatever they want to
+with the software as long as they cite the original source, and that the authors
+accept no responsibility if things go wrong.  The <span g="gpl">GNU Public
+License</span> (GPL) gives people similar rights, but requires them to share
+their own work on the same terms:
 
 > You may copy, distribute and modify the software as long as you track
 > changes/dates in source files.  Any modifications to or software including
@@ -314,6 +177,8 @@ mis-used; adopting the Hippocratic License is a small step toward preventing
 this.
 
 </div>
+
+## Creative Commons Licenses
 
 The MIT license, the GPL, and the Hippocratic License are intended for use with
 software.  When it comes to data and reports, the most widely used family of
@@ -355,7 +220,6 @@ usually referred two using the two-letter abbreviations listed below:
 
 ### Why be open?
 
-Just as diverse teams do better, open does better as well.
 <cite>Hippel2006</cite> reports that 85% of all interesting innovations in all
 industries come not from the suppliers but from the users.  The more open work
 is, the better able users are to tinker with it and do things that the first
@@ -369,6 +233,127 @@ FIXME: what rights do you have (or what myths can we dispel)?
 
 - Point out that there's a lot less about this on the web because companies
   would much rather talk about who owns what than about workers' rights.
+
+## Fair Play
+
+A few pages in a book like this can't change what you believe is fair or unfair.
+What it *can* do, I hope, is get you to start thinking in ways that will lead
+you to notice more and care more.
+
+<div class="callout" markdown="1">
+
+### See what I did there?
+
+Take a moment and re-read the preceding paragraph. Did you notice the first time
+through that it assumes you *aren't* someone who is routinely on the receiving
+end of discriminatory behavior? I wouldn't have spotted that when I was 20 years
+old; the handful of women in my classes certainly would have, just as they would
+known that they were half as likely to be called on when they raised their hand
+in class as I was.
+
+</div>
+
+To start, why should you care? One argument is that study after study has shown
+that more diverse teams perform better, that companies with more diverse
+management are more profitable, and so on. Note, however, that this finding is
+sometimes abused---men who want an excuse to continue to be jerks will talk
+about "diversity of thought," meaning, "I should be allowed to ask whether
+someone else deserves to be treated as a person or not."
+
+> We can disagree and still love each other unless your disagreement is rooted
+> in my oppression and denial of my humanity and right to exist.
+>
+> --- James Baldwin
+
+Another argument is based on fair play <cite>Rawls1999</cite>.  Imagine that you
+get to decide what principles society will follow, but you have to do that
+*without* knowing what position in that society you will occupy. If you didn't
+know in advance whether you were going to be male, female, or non-binary, for
+example, you probably wouldn't design a tech industry that treated people the
+way ours does.
+
+Many people object to taking race or gender into account in hiring, saying that
+companies should pick whoever is the best candidate on the day. But suppose I
+can run a mile in five minutes, while you can do it in six minutes with a
+fifty-pound pack on your back.  You are probably the better athlete, and will
+probably do better *if the pack is removed*. Similarly, someone who can get a B
+despite being systematically overlooked or underestimated will probably do
+better in a job than someone who only got an A despite all the advantages that
+come from being straight, white or Asian, male, physically able, and
+economically secure---if, and only if, they are treated fairly after being
+hired.
+
+That last statement is where many companies and universities fail despite
+claiming to have good intentions.  Hiring more people from under-represented
+groups isn't going to matter if they have to work twice as hard to be taken half
+as seriously, if they are constantly passed over for promotion, or if
+discussions about who would make a good department chair continue to take place
+in the men's locker room after the department's Friday afternoon hockey game.
+The Centre for Community Organizations has a depressing summary of what it's
+like to be [the "problem" woman of color in the workplace](coco-problem); if
+what it describes isn't familiar, you might be a part of the problem, just as I
+was when I was a student.
+
+<div class="callout" markdown="1">
+
+## Cookies
+
+You're due to have a meeting with someone.  There's a box with half a dozen
+cookies in the room, so you help yourself to a couple before the other person
+shows up. When they do, you have to make a choice: do you say, "I've already had
+two, so I should only have one more and you should get three?"  or, "There were
+four cookies in the box when you arrived, so we get two each" (meaning that you
+will have had four in total). Most people would say that the first answer is the
+moral one; in my experience, people who don't aren't people you'd want on your
+team.
+
+</div>
+
+## Next Steps
+
+<cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
+of what American companies have done over the past twenty years to reduce sexual
+harassment and discrimination has either had no effect or has actually made
+things worse. The reason is that the people who care don't gain anything from
+being told they should, while the people who are part of the problem resent
+being told that and tend to take out their anger on the people the training is
+meant to protect.
+
+A bit of terminology can help here.  <span g="privilege">Privilege</span> is an
+unearned advantage given to some people but not all, while <span
+g="oppression">oppression</span> is systemic inequality that benefits the
+privileged and harms those without privilege <cite>Aurora2018</cite>.  In
+Europe, the Americas, Australia, and New Zealand, a straight, white, affluent,
+physically able male is less likely to be interrupted when speaking, more likely
+to be called on in class, and more likely to get a job interview based on an
+identical CV than someone who is outside these categories.  People who are
+privileged are often not aware of it, as they've lived in a system that provides
+unearned advantages their entire lives.  In John Scalzi's memorable phrase,
+they've been playing on the lowest difficulty setting there is their whole
+lives, and as a result don't realize how much harder things are for others
+<cite>Scal2012</cite>.
+
+The targets of oppression are often called "members of a marginalized group,"
+but targets don't choose to be members, or to be marginalized: people with
+privilege marginalize them.  Finally, an <span g="ally">ally</span> is a member
+of a privileged group who is working to understand their own privilege and end
+oppression.  If we are privileged, we should educate ourselves and call out
+peers who are marginalizing others, even if (or especially if) they aren't
+conscious of doing it.  As <cite>Lee1962</cite> said, "With great power comes
+great responsibility."
+
+FIXME:
+
+- Cheryan2009
+- Ford2016
+- May2019
+- Patitsas2016
+- Washington2020
+- Gaucher2011
+- https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html
+- https://www.askamanager.org/
+- https://newrepublic.com/article/117088/silicons-valleys-brutal-ageism
+- https://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/
 
 ## Ten Simple Rules for Being Fired
 
