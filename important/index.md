@@ -53,24 +53,28 @@ smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
 science somehow didn't apply to them.  To quote Robinson's article:
 
-> When Henry Ford famously adopted a 40-hour workweek in 1926, he was bitterly
-> criticized by members of the National Association of Manufacturers.  But his
-> experiments, which he'd been conducting for at least 12 years, showed him
-> clearly that cutting the workday from ten hours to eight hours---and the
-> workweek from six days to five days---increased total worker output and
-> reduced production cost…  the core of his argument was that reduced shift
-> length meant more output.
->
-> …many studies, conducted by businesses, universities, industry associations
-> and the military, …support the basic notion that, for most people, eight
-> hours a day, five days per week, is the best sustainable long-term balance
-> point between output and exhaustion.  Throughout the 30s, 40s, and 50s, these
-> studies were apparently conducted by the hundreds; and by the 1960s, the
-> benefits of the 40-hour week were accepted almost beyond question in corporate
-> America.  In 1962, the Chamber of Commerce even published a pamphlet extolling
-> the productivity gains of reduced hours.
->
-> But, somehow, Silicon Valley didn't get the memo…
+<blockquote>
+
+When Henry Ford famously adopted a 40-hour workweek in 1926, he was bitterly
+criticized by members of the National Association of Manufacturers.  But his
+experiments, which he'd been conducting for at least 12 years, showed him
+clearly that cutting the workday from ten hours to eight hours---and the
+workweek from six days to five days---increased total worker output and
+reduced production cost…  the core of his argument was that reduced shift
+length meant more output.
+
+…many studies, conducted by businesses, universities, industry associations
+and the military, …support the basic notion that, for most people, eight
+hours a day, five days per week, is the best sustainable long-term balance
+point between output and exhaustion.  Throughout the 30s, 40s, and 50s, these
+studies were apparently conducted by the hundreds; and by the 1960s, the
+benefits of the 40-hour week were accepted almost beyond question in corporate
+America.  In 1962, the Chamber of Commerce even published a pamphlet extolling
+the productivity gains of reduced hours.
+
+But, somehow, Silicon Valley didn't get the memo…
+
+</blockquote>
 
 I was part of a data visualization startup in the mid-1990s.  Three months
 before our first release, the head of development "asked" us to start coming in
@@ -92,9 +96,13 @@ It only takes me a couple of minutes to create a bug that will take hours to
 track down later---or days, if someone else is unlucky enough to have to track
 it down.  This is summarized in Robinson's first rule:
 
-> Productivity varies over the course of the workday, with the greatest
-> productivity occurring in the first four to six hours.  After enough hours,
-> productivity approaches zero; eventually it becomes negative.
+<blockquote>
+
+Productivity varies over the course of the workday, with the greatest
+productivity occurring in the first four to six hours.  After enough hours,
+productivity approaches zero; eventually it becomes negative.
+
+</blockquote>
 
 It's hard to quantify the productivity of programmers, testers, and UI
 designers, but five eight-hour days per week has been proven to maximize

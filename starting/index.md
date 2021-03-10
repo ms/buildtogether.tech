@@ -239,45 +239,53 @@ an <span g="elevator_pitch">elevator pitch</span> like the one shown below to
 figure out what problem you're trying to solve, who it affects, and why your
 solution is a good one.
 
-> **The problem of**
-> developing software in a predictable and reliable manner
-> **affects**
-> the management of software projects.
-> Developers are not able to predict reliably how long it takes them to complete tasks
-> which makes it impossible to effectively plan a project.
-> **As a result,**
-> users and managers are never sure whether the produced software will meet its requirements,
-> how reliable the software will be,
-> or whether the software will be delivered on time.
-> **A successful solution would**
-> help developers become more aware of what they do,
-> how they spend their time,
-> and the kinds of defects they find in their work.
-> **For**
-> software development teams
-> **who**
-> need to better understand how and when defects are introduced into their products,
-> **our product**
-> gathers and reports performance metrics
-> **in order to**
-> help developers track and analyze personal software development metrics.
-> **Unlike**
-> not gathering data or trying to gather it manually,
-> **our approach**
-> helps users gather data unobtrusively
-> and provides objective feedback that allows them to improve both individual and team performance.
+<blockquote>
+
+**The problem of**
+developing software in a predictable and reliable manner
+**affects**
+the management of software projects.
+Developers are not able to predict reliably how long it takes them to complete tasks
+which makes it impossible to effectively plan a project.
+**As a result,**
+users and managers are never sure whether the produced software will meet its requirements,
+how reliable the software will be,
+or whether the software will be delivered on time.
+**A successful solution would**
+help developers become more aware of what they do,
+how they spend their time,
+and the kinds of defects they find in their work.
+**For**
+software development teams
+**who**
+need to better understand how and when defects are introduced into their products,
+**our product**
+gathers and reports performance metrics
+**in order to**
+help developers track and analyze personal software development metrics.
+**Unlike**
+not gathering data or trying to gather it manually,
+**our approach**
+helps users gather data unobtrusively
+and provides objective feedback that allows them to improve both individual and team performance.
+
+</blockquote>
 
 Have everyone on the team fill in the template independently and then compare
 the results.  If your team is like most I've worked with, you'll be surprised by
 how varied the answers are.  Once you have done that, pick one and turn it into
 a short paragraph that everyone is happy with like the one below:
 
-> Most programmers can't predict how long it will take them to do things because
-> they don't know how long previous tasks have taken.  Gathering data manually
-> is annoying enough that programmers won't do it, so we're building a tool that
-> will monitor what applications they use and how long they use them.  This
-> feedback will help them improve their working habits and allow them to give
-> their managers more accurate input for scheduling.
+<blockquote>
+
+Most programmers can't predict how long it will take them to do things because
+they don't know how long previous tasks have taken.  Gathering data manually is
+annoying enough that programmers won't do it, so we're building a tool that will
+monitor what applications they use and how long they use them.  This feedback
+will help them improve their working habits and allow them to give their
+managers more accurate input for scheduling.
+
+</blockquote>
 
 You now have the first paragraph for your project's home page and the abstract
 for your final report.

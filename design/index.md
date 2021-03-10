@@ -1,9 +1,13 @@
 ---
 ---
 
-> A week of hard work can sometimes save an hour of thought.
->
-> --- Robert Wilson
+<blockquote>
+
+A week of hard work can sometimes save an hour of thought.
+
+--- Robert Wilson
+
+</blockquote>
 
 Building large programs with other people is different from building small
 programs on your own in two important ways. The first is communication: in order
@@ -567,9 +571,13 @@ similar, "I realize it's popular, but it's merely useful."
 
 ## Handling Errors
 
-> When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
->
-> --- Terry Pratchett
+<blockquote>
+
+When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
+
+--- Terry Pratchett
+
+</blockquote>
 
 We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in the

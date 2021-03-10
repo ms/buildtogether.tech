@@ -147,12 +147,16 @@ accept no responsibility if things go wrong.  The <span g="gpl">GNU Public
 License</span> (GPL) gives people similar rights, but requires them to share
 their own work on the same terms:
 
-> You may copy, distribute and modify the software as long as you track
-> changes/dates in source files.  Any modifications to or software including
-> (via compiler) GPL-licensed code must also be made available under the GPL
-> along with build and install instructions.
->
-> --- [tl;dr][tldr-gpl]
+<blockquote>
+
+You may copy, distribute and modify the software as long as you track
+changes/dates in source files.  Any modifications to or software including
+(via compiler) GPL-licensed code must also be made available under the GPL
+along with build and install instructions.
+
+--- [tl;dr][tldr-gpl]
+
+</blockquote>
 
 In other words, if someone modifies GPL-licensed software or incorporates it
 into their own project, and then distributes what they have created, they have
@@ -164,10 +168,6 @@ restriction isn't necessary: many projects have survived and thrived without
 this safeguard.  We therefore recommend that projects choose the MIT license, as
 it places the fewest restrictions on future action.
 
-<div class="callout" markdown="1">
-
-### First, do no harm
-
 The [Hippocratic License][hippocratic-license] is a newer license that is
 quickly becoming popular.  Where the GPL requires people to share their work,
 the Hippocratic License requires them to do no harm.  More precisely, it forbids
@@ -175,8 +175,6 @@ people from using the software in ways that violate the Universal Declaration of
 Human Rights.  We have learned the hard way that software and science can be
 mis-used; adopting the Hippocratic License is a small step toward preventing
 this.
-
-</div>
 
 ## Creative Commons Licenses
 
@@ -227,29 +225,31 @@ contributors would never have thought of trying.
 
 </div>
 
-## Employment
-
-FIXME: what rights do you have (or what myths can we dispel)?
-
-- Point out that there's a lot less about this on the web because companies
-  would much rather talk about who owns what than about workers' rights.
-
 ## Fair Play
+
+You're due to have a meeting with someone.  There's a box with half a dozen
+cookies in the room, so you help yourself to a couple before the other person
+shows up. When they do, you have to make a choice: do you say, "I've already had
+two, so I should only have one more and you should get three?"  or, "There were
+four cookies in the box when you arrived, so we get two each" (meaning that you
+will have had four in total). Most people would say that the first answer is the
+moral one; in my experience, people who don't aren't people you'd want on your
+team.
 
 A few pages in a book like this can't change what you believe is fair or unfair.
 What it *can* do, I hope, is get you to start thinking in ways that will lead
-you to notice more and care more.
+you to notice more and care more so that you will use the advantages you have as
+an accident of birth for the greater good.
 
 <div class="callout" markdown="1">
 
 ### See what I did there?
 
-Take a moment and re-read the preceding paragraph. Did you notice the first time
-through that it assumes you *aren't* someone who is routinely on the receiving
-end of discriminatory behavior? I wouldn't have spotted that when I was 20 years
-old; the handful of women in my classes certainly would have, just as they would
-known that they were half as likely to be called on when they raised their hand
-in class as I was.
+Take a moment and re-read the preceding paragraph. It assumes you *aren't*
+someone who is routinely on the receiving end of discriminatory behavior.  I
+wouldn't have spotted that when I was 20 years old; the handful of women in my
+classes certainly would have, just as they would known that they were half as
+likely to be called on when they raised their hand in class as I was.
 
 </div>
 
@@ -260,10 +260,14 @@ sometimes abused---men who want an excuse to continue to be jerks will talk
 about "diversity of thought," meaning, "I should be allowed to ask whether
 someone else deserves to be treated as a person or not."
 
-> We can disagree and still love each other unless your disagreement is rooted
-> in my oppression and denial of my humanity and right to exist.
->
-> --- James Baldwin
+<blockquote>
+
+We can disagree and still love each other unless your disagreement is rooted
+in my oppression and denial of my humanity and right to exist.
+
+--- James Baldwin
+
+</blockquote>
 
 Another argument is based on fair play <cite>Rawls1999</cite>.  Imagine that you
 get to decide what principles society will follow, but you have to do that
@@ -290,48 +294,46 @@ as seriously, if they are constantly passed over for promotion, or if
 discussions about who would make a good department chair continue to take place
 in the men's locker room after the department's Friday afternoon hockey game.
 The Centre for Community Organizations has a depressing summary of what it's
-like to be [the "problem" woman of color in the workplace](coco-problem); if
+like to be [the "problem" woman of color in the workplace][coco-problem]; if
 what it describes isn't familiar, you might be a part of the problem, just as I
 was when I was a student.
 
-<div class="callout" markdown="1">
+As another example, <cite>Dobbin2019</cite> (summarized in
+<cite>Dobbin2020</cite>) found that most of what American companies have done
+over the past twenty years to reduce sexual harassment and discrimination has
+either had no effect or has actually made things worse. The reason is that the
+people who care don't gain anything from being told they should, while the
+people who are part of the problem resent being told that and tend to take out
+their anger on the people the training is meant to protect.
 
-## Cookies
+## Leveling the Playing Field
 
-You're due to have a meeting with someone.  There's a box with half a dozen
-cookies in the room, so you help yourself to a couple before the other person
-shows up. When they do, you have to make a choice: do you say, "I've already had
-two, so I should only have one more and you should get three?"  or, "There were
-four cookies in the box when you arrived, so we get two each" (meaning that you
-will have had four in total). Most people would say that the first answer is the
-moral one; in my experience, people who don't aren't people you'd want on your
-team.
+Discussion of fair play stops being theoretical as soon as we talk about your
+rights as an employee.  Until recently there has been a lot less discussion of
+this than of intellectual property rights, in part because the people who run
+companies would rather talk about who owns what than about the limits to their
+own power.  High-profile incidents like [Google's decision to fire the AI
+researcher Timnit Gebru][gebru-firing] has changed that, as tech workers have
+belatedly realized that the industry they have been instrumental in creating
+will treat them just as callously as it treats everyone else.
 
-</div>
+Your rights as an employee may not be immediately relevant to you as a student
+doing a project course, but those courses are often tied to, or meant to lead
+to, internships and co-op placements.  A bit of terminology can help you find
+your way.
 
-## Next Steps
-
-<cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
-of what American companies have done over the past twenty years to reduce sexual
-harassment and discrimination has either had no effect or has actually made
-things worse. The reason is that the people who care don't gain anything from
-being told they should, while the people who are part of the problem resent
-being told that and tend to take out their anger on the people the training is
-meant to protect.
-
-A bit of terminology can help here.  <span g="privilege">Privilege</span> is an
-unearned advantage given to some people but not all, while <span
-g="oppression">oppression</span> is systemic inequality that benefits the
-privileged and harms those without privilege <cite>Aurora2018</cite>.  In
-Europe, the Americas, Australia, and New Zealand, a straight, white, affluent,
-physically able male is less likely to be interrupted when speaking, more likely
-to be called on in class, and more likely to get a job interview based on an
-identical CV than someone who is outside these categories.  People who are
-privileged are often not aware of it, as they've lived in a system that provides
-unearned advantages their entire lives.  In John Scalzi's memorable phrase,
-they've been playing on the lowest difficulty setting there is their whole
-lives, and as a result don't realize how much harder things are for others
-<cite>Scal2012</cite>.
+<span g="privilege">Privilege</span> is an unearned advantage given to some
+people but not all, while <span g="oppression">oppression</span> is systemic
+inequality that benefits the privileged and harms those without privilege
+<cite>Aurora2018</cite>.  In Europe, the Americas, Australia, and New Zealand, a
+straight, white, affluent, physically able male is less likely to be interrupted
+when speaking, more likely to be called on in class, and more likely to get a
+job interview based on an identical CV than someone who is outside these
+categories.  People who are privileged are often not aware of it, as they've
+lived in a system that provides unearned advantages their entire lives.  In John
+Scalzi's memorable phrase, they've been playing on the lowest difficulty setting
+there is their whole lives, and as a result don't realize how much harder things
+are for others <cite>Scal2012</cite>.
 
 The targets of oppression are often called "members of a marginalized group,"
 but targets don't choose to be members, or to be marginalized: people with
@@ -342,23 +344,68 @@ peers who are marginalizing others, even if (or especially if) they aren't
 conscious of doing it.  As <cite>Lee1962</cite> said, "With great power comes
 great responsibility."
 
-FIXME:
+So here are a few things companies can do to level the playing field during the
+hiring process. *Every well-run company knows about these practices.* If they
+don't do most or all of these things when they interview you, you should regard
+them the same way you'd regard a programming team that didn't use version
+control.
 
-- Cheryan2009
-- Ford2016
-- May2019
-- Patitsas2016
-- Washington2020
-- Gaucher2011
-- https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html
-- https://www.askamanager.org/
-- https://newrepublic.com/article/117088/silicons-valleys-brutal-ageism
-- https://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/
+Write inclusive job ads.
+:   <cite>Gaucher2011</cite> is just one of many studies showing that gendered
+    wording in job ads reinforces gender inequality in male-dominated
+    occupations. [Gender Decoder][gender-decoder] and [GenderMag][gendermag]
+    can help you find bugs like this in ads and software. Tools for finding
+    and eliminating racial bias and other problems aren't as common, but
+    <cite>Washington2020</cite> is a good starting point for thinking about
+    what to aim for.
+
+Post a public description of the hiring process.
+:   [Automattic's description][automattic-hiring] is a good model: it lays out
+    what's going to happen in what order, how much time is expected, and the
+    principles everything is based on.
+
+Use blinded screening.
+:   Everyone has unconscious biases, and many of the rules scientists follow
+    when running experiments are designed to prevent them contaminating results
+    (<span x="research"></span>).  The same is true of hiring, and so is the
+    solution. For example, my first-round interview with Automattic was done by
+    text over Slack so that my appearance, my accent, or the fact that I
+    sometimes need a couple of moments to collect my thoughts wouldn't bias the
+    interviewer. Similarly, companies should redact things like a candidate's
+    age, race, and gender when evaluating resumes.
+
+Use diverse interview panels.
+:   People tend to be biased toward hiring people who are like them; Silicon
+    Valley calls this "cultural fit" rather than "discrimination", but they are
+    functionally indistinguishable. Giving people from under-represented
+    backgrounds a say in who's hired next gives other people with similar
+    backgrounds a better chance of being treated fairly.
+
+Have an org chart.
+:   A company probably won't share this with you until you're hired, but you
+    should ask whether they have one. As we said in <span x="important"></span>,
+    everyone organization has a power structure: the only question is whether
+    it's public and accountable, or whether the organization runs on who you
+    know and how willing people are to barge in on strangers.
+
+Have written criteria for performance reviews.
+:   The ones shown in <span x="evaluation"></span> are a good model, and these
+    *are* something a company can share before hiring you. If a company doesn't
+    have criteria, or if performance reviews are only done when an employee asks
+    for one, the system is once again biased toward the extroverted and the
+    well-connected.
+
+These principles apply to your school and your courses as well.  Are course
+descriptions and course websites inclusive? Are instructors required to use
+blinded grading to ensure that personal likes and dislikes don't affect grades?
+How easily can you find out where to go for help, and does anyone act on the
+feedback you give in course evaluations?
 
 ## Ten Simple Rules for Being Fired
 
-These rules are based on [my experience with DataCamp][buzzfeed-datacamp] and on
-the experiences of friends and colleagues there and at other companies.
+These rules are based on [my experience being fired by
+DataCamp][buzzfeed-datacamp] and on what friends and colleagues went through
+there and at other companies.
 
 1. Insist on a record of all conversations.
 :   The biggest mistake you can make is to assume good faith on the part of
@@ -412,87 +459,3 @@ the experiences of friends and colleagues there and at other companies.
 
 10. Remember that it's OK to cry.
 :   And that other people do care about you.
-
-## Ten Simple Rules for Changing the World
-
-> One reason people insist that you use the proper channels to change things is
-> because they have control of the proper channels and they're confident it
-> won't work.
->
-> - [Jon Stone][stone-quote]
-
-1. Be sure this is where you want to focus your efforts.
-:   It's going to take years, it could well fail, and there are many other
-    things you could do, so be sure this particular change is the one you want
-    to fight for.
-
-2. Ask those who will be affected.
-:   *Nihil pro nobis sine nobis* (nothing for us, without us) is always a good
-    motto, and asking for opinions often reveals potential allies.
-
-3. Be specific.
-:   Few people would argue in public against fair hiring practices, but the
-    organization has to implement something specific in order for that to mean
-    anything, and people very well might argue against those specifics.  You
-    should therefore pick something specific and achievable and make a concrete
-    plan for achieving it.  And start with whatever is likely to have broadest
-    support, because success breeds success.
-
-4. Figure out who has the power to make that change and what they care about.
-:   Your neighbors don't make policy for your local public school: school board
-    trustees do, so that's who you need to influence.  Help someone who wants
-    the same change as you get elected, or help someone who doesn't oppose your
-    change with something they care about in exchange for support for your
-    cause, but whatever you do, do it for the people whose vote counts.
-    Conversely, figure out who is going to be negatively impacted by the change
-    you want and what you can do to help them: for example, if it's going to
-    eliminate jobs, what else can those people usefully do?
-
-5. Build alliances,
-:   "I'll help you if you'll help me" makes the world go around.  It's hard when
-    people want the same thing for very different reasons, but this rule is
-    *not* cynical: people whose beliefs are aligned may still have different
-    priorities.  (The flip side of this rule is to accept that some people will
-    never be your allies: if everyone wanted it, you wouldn't have to push for
-    the change.)  People who want the same thing you do, who have a high profile
-    (either inside your group or externally), or who have a wide range of
-    connections are all useful allies.
-
-6. Test the waters.
-:   At every stage, refine your idea and presentation in front of a small group
-    first.  But remember: when done honestly, refining your idea sometimes means
-    accepting that you wanted the wrong thing.  And note that it can be useful
-    to ask someone to be the official skeptic: giving them a way to critique in
-    private may temper their public criticism, and you just might convert them.
-
-7. Keep it visible.
-    It's easy to start a blog and create a Twitter account, but that very ease
-    has reduced these channels' impact.  Is there a newsletter you can be
-    included in (which makes you look more official)?  Can you make a
-    presentation as part of some other event (rather than organizing a gathering
-    of your own)?  Can you get someone with a higher profile to mention what
-    you're doing and point people your way?  Can you post notices in the
-    lunchroom? The elevator? The washrooms? Local restaurants?  And always share
-    a single point of contact that someone actually checks (frequently).
-
-8. Collect data but tell stories.
-:   Sooner or later someone is going to ask what financial impact this change is
-    going to have, so be ready for that.  Data about other changes or from other
-    organizations helps a lot, but data doesn't have nearly as powerful an
-    impact as stories.  Don't explain what *kind* of people this will help:
-    explain how it helped a specific person, or how it would make a specific
-    person's life better.  And if you've never cried when telling that story,
-    tell a better story.
-
-9. Learn how to run meetings and make decisions.
-:   You can get the change you want without being a great public speaker, but
-    you *must* know how to run a meeting and make decisions <span
-    x="important"></span>.
-
-10. Celebrate when you can, grieve when you need to.
-:   [Burnout][thirdbit-burnout] is an occupational hazard for everyone trying to
-    make meaningful change, in part because we get so used to doing things on
-    our own at the start that we don't share the load even when there are people
-    to share it with.  Not all of your allies will become your friends, but
-    those who do will be able to share your victories and commiserate with your
-    defeats like no one else.

@@ -650,23 +650,28 @@ know][evans-manager], all of which apply to student teams:
     translates to, "How grading actually works.")
 
 [Jacob Kaplan-Moss][kaplan-moss-jacob] has a similar guide to [giving a status
-update to executives][kaplan-moss-executives]. If you follow those guidelines,
-you get briefs like this:
+update to executives][kaplan-moss-executives], and [Ask a
+Manager][ask-a-manager] is full of good advice and discussion as well. If you
+follow those guidelines, you get briefs like this:
 
-> Project X is running smoothly. We're making steady progress: we've delivered a
-> bit over half of the features on our roadmap, and we're on track to launch
-> publicly in May.
->
-> I want to particularly highlight J's design work; every time we share a new
-> demo with our user research group they rave over how much they love the
-> design.
->
-> We do have some cost risk: right now, the code's pretty inefficient and would
-> require us to increase our AWS spend by 25% when we put this into
-> production. We either need to decide that cost is acceptable, or add some
-> extra time to the schedule for performance optimization. I need some guidance
-> from this team on that point: can you folks let me know if that cost seems OK
-> or not?
+<blockquote>
+
+Project X is running smoothly. We're making steady progress: we've delivered a
+bit over half of the features on our roadmap, and we're on track to launch
+publicly in May.
+
+I want to particularly highlight J's design work; every time we share a new
+demo with our user research group they rave over how much they love the
+design.
+
+We do have some cost risk: right now, the code's pretty inefficient and would
+require us to increase our AWS spend by 25% when we put this into
+production. We either need to decide that cost is acceptable, or add some
+extra time to the schedule for performance optimization. I need some guidance
+from this team on that point: can you folks let me know if that cost seems OK
+or not?
+
+</blockquote>
 
 If you learn how to summarize your status like this, you will be a very popular
 team member.

@@ -135,6 +135,12 @@ repositories, and so on. Just as dark matter makes up most of the universe, dark
 matter developers make up most of our industry, and just as the matter we can
 see is vanishingly atypical, so too are developers who radiate information.
 
+One reason for this is that the web ranges from unwelcoming to actively hostile
+for people from under-represented groups <cite>Ford2016,May2019</cite>.
+Unfortunately, in-person workplaces are often no better: many are filled with
+small signs that make many people feel out of place <cite>Cheryan2009</cite>.
+<span x="rights"></span> takes a closer look at these issues.
+
 </div>
 
 The third set of approaches are called <span g="qualitative_method">qualitative
@@ -152,26 +158,29 @@ f="washburn-2016-what-went-right"></span> and <span
 f="washburn-2016-what-went-wrong"></span>, and their description of their method
 is worth repeating in full:
 
->   Initially, we started with 12 categories of common aspects of development…
->   In order to identify additional categories, we performed 3 iterations of
->   analysis and identification.  The first week, we each read and analyzed 3
->   postmortem reviews each, classifying the items discussed in each section
->   into the 12 predetermined categories of common aspects that impact
->   development.  While analyzing these reviews, we identified additional
->   categories of items that went right or wrong during development, and
->   revisited the reviews we had already analyzed to update the categorization
->   of items. For the next two weeks we repeated this process of analyzing
->   postmortems and identifying categories, analyzing 10 postmortems each in
->   week 2, and 15 postmortems each in week 3. After each iteration, we
->   discussed the additional categories we identified, and determined if they
->   were viable.
->
->   After our initial iterations for identifying additional categories, we had
->   completed the analysis of 60 postmortem reviews.  We then stopped
->   identifying new categories, and began analyzing postmortems at a combined
->   rate of about 40 postmortem reviews per week.  After each week we reviewed
->   what we had done to ensure we both had the same understanding of each
->   category.  This continued until we had analyzed all the postmortem reviews.
+<blockquote>
+
+Initially, we started with 12 categories of common aspects of development…  In
+order to identify additional categories, we performed 3 iterations of analysis
+and identification.  The first week, we each read and analyzed 3 postmortem
+reviews each, classifying the items discussed in each section into the 12
+predetermined categories of common aspects that impact development.  While
+analyzing these reviews, we identified additional categories of items that went
+right or wrong during development, and revisited the reviews we had already
+analyzed to update the categorization of items. For the next two weeks we
+repeated this process of analyzing postmortems and identifying categories,
+analyzing 10 postmortems each in week 2, and 15 postmortems each in week
+3. After each iteration, we discussed the additional categories we identified,
+and determined if they were viable.
+
+After our initial iterations for identifying additional categories, we had
+completed the analysis of 60 postmortem reviews.  We then stopped identifying
+new categories, and began analyzing postmortems at a combined rate of about 40
+postmortem reviews per week.  After each week we reviewed what we had done to
+ensure we both had the same understanding of each category.  This continued
+until we had analyzed all the postmortem reviews.
+
+</blockquote>
 
 {% include figure
    id="washburn-2016-what-went-right"
@@ -288,14 +297,18 @@ consistent style in all examples.  Since most languages have style guides (e.g.,
 [PEP8][pep8] for Python) and tools to check that code follows these guidelines.
 In contrast, <cite>Schankin2018</cite> found that:
 
-> With descriptive identifier names, developers spent more time in the lines of
-> code before the actual defect occurred and changed their reading direction
-> less often, finding the semantic defect about 14% faster than with shorter but
-> less descriptive identifier names. These effects disappeared when developers
-> searched for a syntax error, i.e., when no in-depth understanding of the code
-> was required. Interestingly, the style of identifier names had a clear impact
-> on program comprehension for more experienced developers but not for less
-> experienced developers.
+<blockquote>
+
+With descriptive identifier names, developers spent more time in the lines of
+code before the actual defect occurred and changed their reading direction less
+often, finding the semantic defect about 14% faster than with shorter but less
+descriptive identifier names. These effects disappeared when developers searched
+for a syntax error, i.e., when no in-depth understanding of the code was
+required. Interestingly, the style of identifier names had a clear impact on
+program comprehension for more experienced developers but not for less
+experienced developers.
+
+</blockquote>
 
 More recently, studies like <cite>Floyd2017,Krueger2020,Peitek2021</cite> have
 used <span g="fmri">fMRI</span> to look at what programmers' brain do when they
@@ -385,15 +398,19 @@ language idioms---and show that often the right approach is to go ahead and
 copy-paste code. But they note that whether to clone or not is a decision that
 requires some thinking on a case by case basis:
 
-> …the results of the case study identify a set of patterns that are most often
-> harmful, namely *verbatim snippets* and *parameterized code*. While there were
-> several examples of good usage of these clone patterns, the majority were
-> deemed harmful. This may be an indication that developers should avoid this
-> form of cloning. On the other hand several patterns were found to be mostly
-> good: *boiler-plating*, *replicate and specialize*, and *cross-cutting
-> concerns*. While not always good, when used with care (as with any form of
-> design or implementation decision) these patterns are more likely to achieve
-> an overall beneficial effect on the software system.
+<blockquote>
+
+…the results of the case study identify a set of patterns that are most often
+harmful, namely *verbatim snippets* and *parameterized code*. While there were
+several examples of good usage of these clone patterns, the majority were deemed
+harmful. This may be an indication that developers should avoid this form of
+cloning. On the other hand several patterns were found to be mostly good:
+*boiler-plating*, *replicate and specialize*, and *cross-cutting
+concerns*. While not always good, when used with care (as with any form of
+design or implementation decision) these patterns are more likely to achieve an
+overall beneficial effect on the software system.
+
+</blockquote>
 
 <div class="callout" markdown="1">
 
@@ -462,13 +479,17 @@ One reason things go wrong is that developers don't make use of the tools they
 have. <cite>Beller2019</cite> monitored 2,443 software engineers over the course
 of 2.5 years in four IDEs. They found that:
 
-> …half of the developers in our study does not test; developers rarely run
-> their tests in the IDE; only once they start testing, do they do it heftily;
-> most programming sessions end without any test execution; only a quarter of
-> test cases is responsible for three quarters of all test failures; 12% of
-> tests show flaky behavior; Test-Driven Development (TDD) is not widely
-> practiced; and software developers only spend a quarter of their time
-> engineering tests, whereas they think they test half of their time.
+<blockquote>
+
+…half of the developers in our study does not test; developers rarely run their
+tests in the IDE; only once they start testing, do they do it heftily; most
+programming sessions end without any test execution; only a quarter of test
+cases is responsible for three quarters of all test failures; 12% of tests show
+flaky behavior; Test-Driven Development (TDD) is not widely practiced; and
+software developers only spend a quarter of their time engineering tests,
+whereas they think they test half of their time.
+
+</blockquote>
 
 Another factor that affects quality is how comprehensible the software is: in
 particular, how easy or difficult it is to set it up.  <cite>Xu2015</cite>
@@ -558,14 +579,18 @@ happened before. <cite>McIntosh2011</cite> provides a baseline for both how much
 effort is required to keep the build system in working order, and how much those
 figures can be improved:
 
-> …despite the difference in scale, the build system churn rate is comparable to
-> that of the source code, and build changes induce more relative churn on the
-> build system than source code changes induce on the source code. Furthermore,
-> build maintenance yields up to a 27% overhead on source code development and a
-> 44% overhead on test development. Up to 79% of source code developers and 89%
-> of test code developers are significantly impacted by build maintenance, yet
-> investment in build experts can reduce the proportion of impacted developers
-> to 22% of source code developers and 24% of test code developers.
+<blockquote>
+
+…despite the difference in scale, the build system churn rate is comparable to
+that of the source code, and build changes induce more relative churn on the
+build system than source code changes induce on the source code. Furthermore,
+build maintenance yields up to a 27% overhead on source code development and a
+44% overhead on test development. Up to 79% of source code developers and 89%
+of test code developers are significantly impacted by build maintenance, yet
+investment in build experts can reduce the proportion of impacted developers
+to 22% of source code developers and 24% of test code developers.
+
+</blockquote>
 
 How reliable are results like these?  Albert Einstein once defined insanity as
 doing the same thing over and over again and expecting different results.
@@ -616,6 +641,37 @@ strong indications that personality affects pair programming performance or pair
 gain in a consistent manner." They go on to suggest that industry and research
 should "focus on other predictors of performance, including expertise and task
 complexity" instead, as these factors overshadow any personality effects.
+
+But the most important result is the one in <cite>Patitsas2016</cite>. Its
+abstract is worth repeating in full:
+
+<blockquote>
+
+Although it has never been rigourously demonstrated, there is a common belief
+that CS grades are bimodal. We statistically analyzed 778 distributions of final
+course grades from a large research university, and found only 5.8% of the
+distributions passed tests of multimodality. We then devised a psychology
+experiment to understand why CS educators believe their grades to be bimodal.
+
+We showed 53 CS professors a series of histograms displaying ambiguous
+distributions and asked them to categorize the distributions. A random half of
+participants were primed to think about the fact that CS grades are commonly
+thought to be bimodal; these participants were more likely to label ambiguous
+distributions as bimodal. Participants were also more likely to label
+distributions as bimodal if they believed that some students are innately
+predisposed to do better at CS. These results suggest that bimodal grades are
+instructional folklore in CS, caused by confirmation bias and instructor beliefs
+about their students.
+
+</blockquote>
+
+In plain language, if some people are born programmers and others aren't, there
+ought to be two humps in the grade distribution. There isn't, but if people
+believe some people are "just better" at coding, they're more likely to *see*
+two humps. These beliefs matter because they are a self-fulfilling prophecy
+<cite>Brophy1983</cite>: if a teacher believes that student A is more likely to
+succeed than student B, they will give student A more attention, which *makes*
+them more likely to succeed, which confirms the teacher's bias.
 
 ## What Do We Know About Novice Programmers?
 

@@ -103,12 +103,16 @@ in three stages:
 Suppose you are teaching a child how to do addition and you give them this
 multiple-choice question:
 
-> What is 37 + 45?
->
-> - 82
-> - 72
-> - 712
-> - 73
+<blockquote>
+
+What is 37 + 45?
+
+- 82
+- 72
+- 712
+- 73
+
+</blockquote>
 
 If they pick the first answer, it's a sign they know how to add multi-digit
 numbers. If they pick the second, it signals that they don't know how to carry:

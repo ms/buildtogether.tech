@@ -68,6 +68,8 @@ kramdown:
   link_defs: >
     {
       "ant": ["https://ant.apache.org/", "Apache Ant"],
+      "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
+      "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
       "bitbucket": ["https://bitbucket.org/", "BitBucket"],
       "bst-repo": ["https://github.com/gvwilson/buildtogether.tech/", "Building Software Together repository"],
       "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
@@ -90,6 +92,9 @@ kramdown:
       "email": ["mailto:gvwilson@third-bit.com", "Contact address"],
       "evans-julia": ["https://jvns.ca/", "Julia Evans"],
       "evans-manager": ["https://jvns.ca/blog/things-your-manager-might-not-know/", "Things Your Manager Might Not Know"],
+      "gebru-firing": ["https://www.fastcompany.com/90608471/timnit-gebru-google-ai-ethics-equitable-tech-movement", "This is bigger than just Timnit"],
+      "gender-decoder": ["http://gender-decoder.katmatfield.com/", "Gender Decoder"],
+      "gendermag": ["http://gendermag.org/", "GenderMag"],
       "git": ["https://git-scm.com/", "Git"],
       "git-man-page-generator": ["https://git-man-page-generator.lokaltog.net/", "Git Random Man Page Generator"],
       "github": ["https://github.com/", "GitHub"],

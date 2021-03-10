@@ -183,6 +183,12 @@ Stephen D. Brookfield and Stephen Preskill:
 <em>The Discussion Book: 50 Great Ways to Get People Talking</em>.
 Jossey-Bass, 2016, 978-1119049715.
 </dd>
+<dt id="brophy1983" class="bibliography">Brophy1983</dt>
+<dd>
+Jere E. Brophy:
+"Research on the Self-Fulfilling Prophecy and Teacher Expectations".
+<em>Journal of Educational Psychology</em>, 75(5), 1983, <a href="https://doi.org/10.1037/0022-0663.75.5.631">10.1037/0022-0663.75.5.631</a>.
+</dd>
 <dt id="brown2011" class="bibliography">Brown2011</dt>
 <dd>
 Amy Brown and Greg Wilson (eds.):
@@ -452,6 +458,12 @@ Davide Fucci, Giuseppe Scanniello, Simone Romano, and Natalia Juristo:
 Zheng Gao, Christian Bird, and Earl T. Barr:
 "To Type or Not to Type: Quantifying Detectable Bugs in JavaScript".
 <em>ICSE'17</em>, <a href="https://doi.org/10.1109/ICSE.2017.75">10.1109/ICSE.2017.75</a>.
+</dd>
+<dt id="gaucher2011" class="bibliography">Gaucher2011</dt>
+<dd>
+Danielle Gaucher, Justin Friesen, and Aaron C. Kay:
+"Evidence that Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality".
+<em>Journal of Personality and Social Psychology</em>, 101(1), 2011, <a href="https://doi.org/10.1037/a0022530">10.1037/a0022530</a>.
 </dd>
 <dt id="gawande2011" class="bibliography">Gawande2011</dt>
 <dd>

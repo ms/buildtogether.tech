@@ -69,9 +69,13 @@ medium term:
 
 -   What to do when things go wrong.
 
-The approach draws on a modified version of [Dobzhansky's Rule][dobzhansky]:
+The approach draws on a modified version of [Dobzhansky's Rule][dobzhansky]
 
-> *Nothing in software engineering makes sense except in the light of psychology.*
+<blockquote>
+
+Nothing in software engineering makes sense except in the light of psychology.
+
+</blockquote>
 
 {: .continue}
 All of the hard problems in software engineering stem from the fact that human

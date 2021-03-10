@@ -210,39 +210,43 @@ each team creates their own as part of their first assignment so that they
 actually have to think about what they're promising their teammates.  Here's an
 example:
 
-> We, the members of Team 12, agree that:
->
-> 1.  Work on each assignment will divided according to role. Two people will
->     code, one will test, and one will be responsible for documentation. One of
->     the coders will run the weekly meeting; the other will take minutes and
->     post them to the project wiki on the same day as the meeting. These roles
->     will rotate for each assignment; no one will code two assignments in a
->     row.
->
-> 2.  The tester will be responsible for submitting the assignment.  A team
->     member will only be listed as contributing to that assignment if at least
->     two other members of the team agree they completed, or made significant
->     progress on, at least one work item.
->
-> 3.  We will aim to get at least 80% on each assignment.
->
-> 4.  We will hold a half-hour status meeting every week on Thursdays at 4:00
->     pm.  Everyone will be in the meeting by 4:05 pm; if someone cannot attend,
->     they will let the rest of the team know by email no later than 2:00 pm
->     that day.
->
-> 5.  Everyone will add a brief point-form summary of their progress that week
->     to the project wiki no later than 12:00 noon on Thursday.  Everyone will
->     read everyone else's summary before the 4:00 meeting.
->
-> 6.  All discussion about the project will take place on the team's Slack
->     channel so that everyone can see it and search through it later.
->
-> 7.  No one will check code into version control that fails to compile.  No one
->     will check in code that fails to pass existing tests without first getting
->     the permission of that round's tester. No one will change the database
->     schema or add dependencies on new libraries without first getting
->     permission from the whole team.
+<blockquote>
+
+We, the members of Team 12, agree that:
+
+1.  Work on each assignment will divided according to role. Two people will
+    code, one will test, and one will be responsible for documentation. One of
+    the coders will run the weekly meeting; the other will take minutes and
+    post them to the project wiki on the same day as the meeting. These roles
+    will rotate for each assignment; no one will code two assignments in a
+    row.
+
+2.  The tester will be responsible for submitting the assignment.  A team
+    member will only be listed as contributing to that assignment if at least
+    two other members of the team agree they completed, or made significant
+    progress on, at least one work item.
+
+3.  We will aim to get at least 80% on each assignment.
+
+4.  We will hold a half-hour status meeting every week on Thursdays at 4:00
+    pm.  Everyone will be in the meeting by 4:05 pm; if someone cannot attend,
+    they will let the rest of the team know by email no later than 2:00 pm
+    that day.
+
+5.  Everyone will add a brief point-form summary of their progress that week
+    to the project wiki no later than 12:00 noon on Thursday.  Everyone will
+    read everyone else's summary before the 4:00 meeting.
+
+6.  All discussion about the project will take place on the team's Slack
+    channel so that everyone can see it and search through it later.
+
+7.  No one will check code into version control that fails to compile.  No one
+    will check in code that fails to pass existing tests without first getting
+    the permission of that round's tester. No one will change the database
+    schema or add dependencies on new libraries without first getting
+    permission from the whole team.
+
+</blockquote>
 
 It may sound a little silly, like those "contracts" that some parents and
 children make up regarding chores and allowances, but it's very effective.
@@ -294,10 +298,14 @@ evaluations.
 
 ## People to Watch Out For
 
-> All happy families resemble one another,
-> but every unhappy family is unhappy in its own way.
->
-> - Leo Tolstoy, *Anna Karenina*
+<blockquote>
+
+All happy families resemble one another, but every unhappy family is unhappy in
+its own way.
+
+--- Leo Tolstoy
+
+</blockquote>
 
 Good team members share certain characteristics, but bad ones can be bad in many
 different ways. Here are a few:
