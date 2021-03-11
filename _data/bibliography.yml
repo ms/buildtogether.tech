@@ -1037,6 +1037,17 @@
   link: https://arxiv.org/abs/1304.5257
   year: 2013
 
+- key: Hatton2008
+  kind: article
+  author:
+  - Les Hatton
+  title: "Testing the Value of Checklists in Code Inspections"
+  journal: "IEEE Software"
+  volume: 25
+  number: 4
+  year: 2008
+  doi: 10.1109/ms.2008.100
+
 - key: Henrich2010
   kind: article
   author:
@@ -1093,6 +1104,68 @@
   year: 2017
   doi: 10.1109/saner.2017.7884623
 
+- key: Hofstra2020
+  author:
+  - Bas Hofstra
+  - Vivek V. Kulkarni
+  - Sebastian Munoz-Najar Galvez
+  - Bryan He
+  - Dan Jurafsky
+  - Daniel A. McFarland
+  doi: 10.1073/pnas.1915378117
+  journal: PNAS
+  kind: article
+  volume: 117
+  number: 17
+  title: "The Diversity-Innovation Paradox in Science"
+  year: 2020
+
+- key: Holmes2014
+  kind: inproceedings
+  author:
+  - Reid Holmes
+  - Michelle Craig
+  - Karen Reid
+  - Eleni Stroulia
+  title: "Lessons Learned Managing Distributed Software Engineering Courses"
+  booktitle: "ICSE'14"
+  doi: 10.1145/2591062.2591160
+  year: 2014
+
+- key: Hsing2019
+  author:
+  - Courtney Hsing
+  - Vanessa Gennarelli
+  booktitle: "Proc. SIGCSE'19"
+  doi: 10.1145/3287324.3287460
+  kind: inproceedings
+  title: "Using GitHub in the Classroom Predicts Student Learning Outcomes and Classroom Experiences"
+  year: 2019
+
+- key: Hubbard2018
+  author:
+  - Aleata Hubbard
+  doi: 10.1080/08993408.2018.1509580
+  journal: "CSE"
+  kind: article
+  volume: 28
+  number: 2
+  title: "Pedagogical Content Knowledge in Computing Education: A Review of the Research Literature"
+  year: 2018
+
+- key: Huijgens2020
+  kind: inproceedings
+  author:
+  - Hennie Huijgens
+  - Ayushi Rastogi
+  - Ernst Mulders
+  - Georgios Gousios
+  - Arie van Deursen
+  title: "Questions for Data Scientists in Software Engineering: A Replication"
+  booktitle: "ESEC/FSE'20"
+  doi: 10.1145/3368089.3409717
+  year: 2020
+
 - key: Hunt1999
   kind: book
   author:
@@ -1116,6 +1189,26 @@
   publisher: "Chapman & Hall/CRC Press"
   year: 2019
   isbn: 978-0367698348
+
+- key: Johnson2017
+  kind: book
+  author:
+  - Jeff Johnson
+  - Kate Finn
+  title: "Designing User Interfaces for an Aging Population: Towards Universal Design"
+  publisher: Morgan Kaufmann
+  year: 2017
+  isbn: 978-0128044674
+
+- key: Johnson2020
+  kind: book
+  author:
+  - Jeff Johnson
+  title: "Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Guidelines"
+  edition: 3rd
+  publisher: Morgan Kaufmann
+  year: 2020
+  isbn: 978-0128182024
 
 - key: Kalyuga2003
   kind: article

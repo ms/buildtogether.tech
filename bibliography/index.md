@@ -381,6 +381,12 @@ Fabian Fagerholm, Marco Kuhrmann, and Jürgen Münch:
 "Guidelines for Using Empirical Studies in Software Engineering Education".
 <em>PeerJ Computer Science</em>, 3, 2017, <a href="https://doi.org/10.7717/peerj-cs.131">10.7717/peerj-cs.131</a>.
 </dd>
+<dt id="farmer2006" class="bibliography">Farmer2006</dt>
+<dd>
+Eugene Farmer:
+"The Gatekeeper's Guide,  or How to Kill a Tool".
+<em>IEEE Software</em>, 23(6), 2006, <a href="https://doi.org/10.1109/ms.2006.174">10.1109/ms.2006.174</a>.
+</dd>
 <dt id="feathers2004" class="bibliography">Feathers2004</dt>
 <dd>
 Michael C. Feathers:
@@ -518,6 +524,12 @@ J.E. Hannay, E. Arisholm, H. Engvik, and D.I.K. Sjoberg:
 Michael Hansen, Robert L. Goldstone, and Andrew Lumsdaine:
 "What Makes Code Hard to Understand?".
 </dd>
+<dt id="hatton2008" class="bibliography">Hatton2008</dt>
+<dd>
+Les Hatton:
+"Testing the Value of Checklists in Code Inspections".
+<em>IEEE Software</em>, 25(4), 2008, <a href="https://doi.org/10.1109/ms.2008.100">10.1109/ms.2008.100</a>.
+</dd>
 <dt id="henrich2010" class="bibliography">Henrich2010</dt>
 <dd>
 Joseph Henrich, Steven J. Heine, and Ara Norenzayan:
@@ -548,6 +560,36 @@ Johannes Hofmeister, Janet Siegmund, and Daniel V. Holt:
 "Shorter Identifier Names Take Longer to Comprehend".
 <em>Proc. SANER'17</em>, <a href="https://doi.org/10.1109/saner.2017.7884623">10.1109/saner.2017.7884623</a>.
 </dd>
+<dt id="hofstra2020" class="bibliography">Hofstra2020</dt>
+<dd>
+Bas Hofstra, Vivek V. Kulkarni, Sebastian Munoz-Najar Galvez, Bryan He, Dan Jurafsky, and Daniel A. McFarland:
+"The Diversity-Innovation Paradox in Science".
+<em>PNAS</em>, 117(17), 2020, <a href="https://doi.org/10.1073/pnas.1915378117">10.1073/pnas.1915378117</a>.
+</dd>
+<dt id="holmes2014" class="bibliography">Holmes2014</dt>
+<dd>
+Reid Holmes, Michelle Craig, Karen Reid, and Eleni Stroulia:
+"Lessons Learned Managing Distributed Software Engineering Courses".
+<em>ICSE'14</em>, <a href="https://doi.org/10.1145/2591062.2591160">10.1145/2591062.2591160</a>.
+</dd>
+<dt id="hsing2019" class="bibliography">Hsing2019</dt>
+<dd>
+Courtney Hsing and Vanessa Gennarelli:
+"Using GitHub in the Classroom Predicts Student Learning Outcomes and Classroom Experiences".
+<em>Proc. SIGCSE'19</em>, <a href="https://doi.org/10.1145/3287324.3287460">10.1145/3287324.3287460</a>.
+</dd>
+<dt id="hubbard2018" class="bibliography">Hubbard2018</dt>
+<dd>
+Aleata Hubbard:
+"Pedagogical Content Knowledge in Computing Education: A Review of the Research Literature".
+<em>CSE</em>, 28(2), 2018, <a href="https://doi.org/10.1080/08993408.2018.1509580">10.1080/08993408.2018.1509580</a>.
+</dd>
+<dt id="huijgens2020" class="bibliography">Huijgens2020</dt>
+<dd>
+Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, and Arie van Deursen:
+"Questions for Data Scientists in Software Engineering: A Replication".
+<em>ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409717">10.1145/3368089.3409717</a>.
+</dd>
 <dt id="hunt1999" class="bibliography">Hunt1999</dt>
 <dd>
 Andrew Hunt and David Thomas:
@@ -559,6 +601,18 @@ Addison-Wesley Professional, 1999, 978-0201616224.
 Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson:
 <em>Research Software Engineering with Python: Building Software that Makes Research Possible</em>.
 Chapman & Hall/CRC Press, 2019, 978-0367698348.
+</dd>
+<dt id="johnson2017" class="bibliography">Johnson2017</dt>
+<dd>
+Jeff Johnson and Kate Finn:
+<em>Designing User Interfaces for an Aging Population: Towards Universal Design</em>.
+Morgan Kaufmann, 2017, 978-0128044674.
+</dd>
+<dt id="johnson2020" class="bibliography">Johnson2020</dt>
+<dd>
+Jeff Johnson:
+<em>Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Guidelines</em> (3rd edition).
+Morgan Kaufmann, 2020, 978-0128182024.
 </dd>
 <dt id="kalyuga2003" class="bibliography">Kalyuga2003</dt>
 <dd>

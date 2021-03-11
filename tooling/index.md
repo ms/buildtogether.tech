@@ -386,6 +386,25 @@ use a language like Python or Ruby rather than Java or C#: the "try it and see"
 nature of the former is a lot better suited to one-of-a-kind scripts than the
 latter's type checking and compilation.
 
+<div class="callout" markdown="1">
+
+### Building for everyone
+
+Close your eyes and try to navigate this website. Now imagine having to do that
+all day, every day. Imagine trying to use a computer when your hands are
+crippled by arthritis.  Better yet, don't imagine it: have one of your teammates
+tape some popsicle sticks to your fingers so you can't bend them and then see
+how easy it is to use video conferencing software.
+
+Making software accessible doesn't just help people with obvious disabilities:
+as <cite>Johnson2017</cite> points out, the population is aging, and everything
+you do to help people who are deaf also helps people who are gradually losing
+their hearing. Tools like [WebAIM WAVE][webaim-wave] are easy to use, and most
+of the problems they identify are easy to fix. It only takes a few minutes, and
+it's the compassionate thing to do.
+
+</div>
+
 ## You May Also Be Enjoy…
 
 A complete working environment needs more than just software.

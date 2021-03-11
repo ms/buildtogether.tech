@@ -59,12 +59,13 @@ So why do people keep using Git? The answer these days is, "Because it's the tax
 they have to pay in order to use [GitHub][github]." At the time of writing,
 GitHub has over 40 million users and hosts over 28 million public repositories,
 including those for many well-known open source projects. It is easily the most
-popular <span g="software_portal">software portal</span> in existence, and offers
-all of the tools a small software team needs. Other portals exist, such as
-[Bitbucket][bitbucket] and [GitLab][gitlab], but GitHub's share of the
+popular <span g="software_portal">software portal</span> in existence, and
+offers all of the tools a small software team needs. Other portals exist, such
+as [Bitbucket][bitbucket] and [GitLab][gitlab], but GitHub's share of the
 educational market is even larger than than its share of professional
 development, so if you're using anything in class, you're almost certainly using
-it.
+it, and it's probably helping you become a better programmer
+<cite>Hsing2019</cite>.
 
 This chapter won't try to teach you Git from scratch:
 [GitHub's guides][github-guides] do an excellent job of that, as does

@@ -290,10 +290,12 @@ Review at most 200 lines of a code at a time.
 
 Use checklists.
 :   <cite>Gawande2011</cite> popularized the idea that using checklists improves
-    results even for experts.  If you are new to code reviews, ask the
-    instructor for a list of the dozen most common problems to check for.
-    (Anything more than that is likely to be overwhelming.) If you and your
-    teammates have been working together for a while, look at your own code
+    results even for experts.  While <cite>Hatton2008</cite> found no evidence
+    that they made a difference to code reviews by professionals, I have found
+    them very useful as a starter for students. If you are new to code reviews,
+    ask the instructor for a list of the dozen most common problems to check
+    for.  (Anything more than that is likely to be overwhelming.) If you and
+    your teammates have been working together for a while, look at your own code
     reviews and make a list of the things that keep coming up.  Having the list
     will make you more aware of the issues while you're coding, which in turn
     will make you less likely to keep making the same mistakes.

@@ -98,6 +98,21 @@ in three stages:
     people who reach this stage start to see continuous improvement in their
     work as a result.
 
+<div class="callout" markdown="1">
+
+### Those who can, teach
+
+A teacher needs three things: a general knowledge of teaching, an understanding
+of the problem domain, and some <span g="pck">pedagogical content
+knowledge</span> (PCK), which includes things like the right order in which to
+introduce this particular set of ideas or the best examples and metaphors to use
+with this audience <cite>Hubbard2018</cite>.  The first and second kind of
+knowledge are often written down; the third is usually rediscovered by one
+teacher after another or passed on in casual conversation, just like the rules
+of software design.
+
+</div>
+
 ## Formative Assessment
 
 Suppose you are teaching a child how to do addition and you give them this
@@ -373,3 +388,10 @@ answer they've given on a test, the harder it is to change their mind if they
 were actually wrong.  It turns out that the opposite is true: the more confident
 someone is that they were right, the more likely they are not to repeat the
 error if they are corrected.
+
+## Next Steps
+
+Some of the most interesting work in software engineering today is coming from
+people studying how we think when we program, and how the ways we think should
+shape the tools we build. <cite>Johnson2020</cite> is one example: it reverse
+engineers the psychological foundations of user interface guidelines.

@@ -97,11 +97,14 @@ material in a course, please [send us email][contact].
 ## Acknowledgments
 
 This book is dedicated to [Marian Petre][petre-marian], who taught me how to
-think about how programmers think and work.  I would also like to thank David
-Graf for [doi2bib][doi2bib] and Alexandra Elbakyan for Sci-Hub; this book would
-have been much harder to write without their generosity and idealism.
+think about how programmers think and work. I would also like to thank all of
+the students who did projects with me at the University of Toronto and through
+Google Summer of Code, and everyone who took part in UCOSP
+<cite>Holmes2014</cite>.
 
 Portions of this book are adapted from material that originally appeared in
 <cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor \&
 Francis and my co-authors for making both books available under open licenses.
-If we all give a little, we all gain a lot.
+I would also like to thank David Graf for [doi2bib][doi2bib] and Alexandra
+Elbakyan for Sci-Hub; this book would have been much harder to write without
+their generosity and idealism.  If we all give a little, we all gain a lot.

@@ -143,7 +143,8 @@ kramdown:
       "travis-ci": ["https://travis-ci.org/", "Travis CI"],
       "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
       "visual-basic": ["https://en.wikipedia.org/wiki/Visual_Basic", "Visual Basic"],
-      "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"]
+      "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"],
+      "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"]
     }
 
 exclude:

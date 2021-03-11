@@ -255,10 +255,10 @@ likely to be called on when they raised their hand in class as I was.
 
 To start, why should you care? One argument is that study after study has shown
 that more diverse teams perform better, that companies with more diverse
-management are more profitable, and so on. Note, however, that this finding is
-sometimes abused---men who want an excuse to continue to be jerks will talk
-about "diversity of thought," meaning, "I should be allowed to ask whether
-someone else deserves to be treated as a person or not."
+management are more profitable, and so on. (This finding is sometimes
+abused---men who want an excuse to continue to be jerks try to be clever with
+words and talk about "diversity of thought," meaning, "I should be allowed to be
+offensive as long as I don't raise my voice.")
 
 <blockquote>
 
@@ -269,12 +269,22 @@ in my oppression and denial of my humanity and right to exist.
 
 </blockquote>
 
-Another argument is based on fair play <cite>Rawls1999</cite>.  Imagine that you
-get to decide what principles society will follow, but you have to do that
-*without* knowing what position in that society you will occupy. If you didn't
-know in advance whether you were going to be male, female, or non-binary, for
-example, you probably wouldn't design a tech industry that treated people the
-way ours does.
+Despite the benefits of diversity, research also consistently shows that members
+of underrepresented groups have less successful careers: as
+<cite>Hofstra2020</cite> reports, "…their novel contributions are devalued and
+discounted: For example, novel contributions by gender and racial minorities are
+taken up by other scholars at lower rates than novel contributions by gender and
+racial majorities, and equally impactful contributions of gender and racial
+minorities are less likely to result in successful scientific careers than for
+majority groups." If this comes as a surprise to you, you might be part of the
+problem rather than part of the solution.
+
+Another argument for fair play is based on a "veil of ignorance"
+<cite>Rawls1999</cite>.  Imagine that you get to decide what principles society
+will follow, but you have to do that *without* knowing what position in that
+society you will occupy. If you didn't know in advance whether you were going to
+be male, female, or non-binary, for example, you probably wouldn't design a tech
+industry that treated people the way ours does.
 
 Many people object to taking race or gender into account in hiring, saying that
 companies should pick whoever is the best candidate on the day. But suppose I

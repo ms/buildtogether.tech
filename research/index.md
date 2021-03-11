@@ -260,7 +260,9 @@ whatever else is needed) in order to get the "right" profile.
 wanted researchers to answer, then asked another set of developers to rate those
 questions.  Respondents favored questions about how customers typically use
 their applications, but were opposed questions related to assessing the
-performance of individual employees or comparing them with one another.
+performance of individual employees or comparing them with one another;
+<cite>Huijgens2020</cite> found that data scientists viewed most possible
+research topics the same way.
 
 </div>
 
