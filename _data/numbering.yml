@@ -18,7 +18,7 @@ entries:
   kind: Chapter
   label: '4'
   slug: teams
-  title: Teams
+  title: Building Productive Teams
 - file: ./versioning/index.md
   kind: Chapter
   label: '5'
@@ -28,7 +28,7 @@ entries:
   kind: Chapter
   label: '6'
   slug: collaborate
-  title: Collaborating
+  title: Collaborative Development
 - file: ./design/index.md
   kind: Chapter
   label: '7'
@@ -38,27 +38,27 @@ entries:
   kind: Chapter
   label: '8'
   slug: tooling
-  title: Tooling
+  title: The Tool Shapes the Hand
 - file: ./process/index.md
   kind: Chapter
   label: '9'
   slug: process
-  title: Process
-- file: ./rights/index.md
-  kind: Chapter
-  label: '10'
-  slug: rights
-  title: Rights
+  title: Pick a Process---Any Process
 - file: ./research/index.md
   kind: Chapter
-  label: '11'
+  label: '10'
   slug: research
   title: A Random Sample of Research
+- file: ./rights/index.md
+  kind: Chapter
+  label: '11'
+  slug: rights
+  title: Know Your Rights
 - file: ./delivery/index.md
   kind: Chapter
   label: '12'
   slug: delivery
-  title: Delivery
+  title: At the End of the Day
 - file: ./conclusion/index.md
   kind: Chapter
   label: '13'
@@ -113,8 +113,8 @@ figures:
   thinking-frisian: G.3
   thinking-models: G.1
   use-case-map: '7.1'
-  washburn-2016-what-went-right: '11.1'
-  washburn-2016-what-went-wrong: '11.2'
+  washburn-2016-what-went-right: '10.1'
+  washburn-2016-what-went-wrong: '10.2'
 tables:
   collaborate-code-review: '6.1'
   starting-spinellis-stats: '3.1'
