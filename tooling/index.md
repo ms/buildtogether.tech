@@ -23,6 +23,16 @@ or estimating sensibly.
 So here, in more-or-less priority order, are the tools you should learn *after*
 you are comfortable with version control and a unit testing framework.
 
+<div class="callout" markdown="1">
+
+### If you'd rather not…
+
+If you'd rather not improve your tools, but are afraid that someone on your team
+might want to do so, <cite>Farmer2006</cite> is a not-entirely-serious guide to
+preventing something new from being adopted.
+
+</div>
+
 ## Programming Language
 
 You may not get to choose what programming language you use for your project,

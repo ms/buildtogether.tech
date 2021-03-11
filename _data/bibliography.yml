@@ -745,6 +745,17 @@
   doi: 10.7717/peerj-cs.131
   year: 2017
 
+- key: Farmer2006
+  kind: article
+  author:
+  - Eugene Farmer
+  title: "The Gatekeeper's Guide,  or How to Kill a Tool"
+  volume: 23
+  number: 6
+  journal: IEEE Software
+  doi: 10.1109/ms.2006.174
+  year: 2006
+
 - key: Feathers2004
   kind: book
   author:
