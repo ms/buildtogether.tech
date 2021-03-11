@@ -1132,6 +1132,17 @@
   doi: 10.1145/2591062.2591160
   year: 2014
 
+- key: Holmes2018
+  kind: inproceedings
+  author:
+  - Reid Holmes
+  - Meghan Allen
+  - Michelle Craig
+  booktitle: "Proc. ICSE-SEET'18"
+  title: "Dimensions of Experientialism for Software Engineering Education"
+  year: 2018
+  doi: 10.1145/3183377.3183380
+
 - key: Hsing2019
   author:
   - Courtney Hsing

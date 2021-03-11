@@ -100,7 +100,7 @@ This book is dedicated to [Marian Petre][petre-marian], who taught me how to
 think about how programmers think and work. I would also like to thank all of
 the students who did projects with me at the University of Toronto and through
 Google Summer of Code, and everyone who took part in UCOSP
-<cite>Holmes2014</cite>.
+<cite>Holmes2014,Holmes2018</cite>.
 
 Portions of this book are adapted from material that originally appeared in
 <cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor \&
