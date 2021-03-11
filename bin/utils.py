@@ -28,9 +28,7 @@ ALWAYS = [
     re.compile(r'{%\s+raw\s+%}.*?{%\s+endraw\s+%}', re.DOTALL), # raw blocks
     re.compile(r'<div\s+class="callout"\s*markdown="1">'),      # opening callout
     re.compile(r'</div>'),                                      # closing callout
-    re.compile(r'<blockquote>'),                                # opening quotation
-    re.compile(r'</blockquote>'),                               # closing quotation
-    re.compile(r'<http.+?>')                                    # immediate links
+    re.compile(r'<http.+?>')
 ]
 SCRUB = [
     re.compile(r'{%\s+include\s+.+?%}', re.DOTALL),             # inclusions
