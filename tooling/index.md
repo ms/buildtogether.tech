@@ -405,7 +405,7 @@ it's the compassionate thing to do.
 
 </div>
 
-## You May Also Be Enjoy…
+## You May Also Enjoy…
 
 A complete working environment needs more than just software.
 Unfortunately, most university labs seemed designed to make everything
