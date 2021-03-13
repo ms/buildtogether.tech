@@ -8,7 +8,7 @@
 Every lesson should be written with specific learners in mind.  These three
 [personas][t3-personas] are ours:
 
--   Tanesya is in the third year of a four-year computer science degree. She worked
+-   Yanina is in the third year of a four-year computer science degree. She worked
     on several volunteer projects in high school and through her mosque, but the
     "Introduction to Software Engineering" course she's about to take will be her
     first semester-long team project at university. This guide will help her and
@@ -20,11 +20,12 @@ Every lesson should be written with specific learners in mind.  These three
     by the tools, jargon, and culture of programming. This guide will help him
     figure out what his new colleagues think is "normal".
 
--   Sharla teaches JavaScript at Tanesya's college and for the conversion course
+-   Sharla teaches JavaScript at Yanina's college and for the conversion course
     that Ahmadou went through. They taught the "Introduction to Software
-    Engineering" class last semester, and were disappointed by how much time
-    they and their students wasted. This guide will help them give more
-    structure to the next offering and set more realistic expectations.
+    Engineering" class last semester, and felt that they and their students
+    wasted a lot of time on things that turned out not to be useful. This guide
+    will help them give more structure to the next offering and set more
+    realistic expectations.
 
 Like these three personas, readers should:
 
@@ -97,10 +98,11 @@ material in a course, please [send us email][contact].
 ## Acknowledgments
 
 This book is dedicated to [Marian Petre][petre-marian], who taught me how to
-think about how programmers think and work. I would also like to thank all of
-the students who did projects with me at the University of Toronto and through
-Google Summer of Code, and everyone who took part in UCOSP
-<cite>Holmes2014,Holmes2018</cite>.
+think about how programmers think and work. My thanks to all of the students who
+did projects with me at the University of Toronto and through Google Summer of
+Code, and everyone who took part in UCOSP <cite>Holmes2014,Holmes2018</cite>.
+
+{% include thanks.html %}
 
 Portions of this book are adapted from material that originally appeared in
 <cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor \&

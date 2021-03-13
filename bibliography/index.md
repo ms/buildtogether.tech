@@ -572,6 +572,12 @@ Reid Holmes, Michelle Craig, Karen Reid, and Eleni Stroulia:
 "Lessons Learned Managing Distributed Software Engineering Courses".
 <em>ICSE'14</em>, <a href="https://doi.org/10.1145/2591062.2591160">10.1145/2591062.2591160</a>.
 </dd>
+<dt id="holmes2018" class="bibliography">Holmes2018</dt>
+<dd>
+Reid Holmes, Meghan Allen, and Michelle Craig:
+"Dimensions of Experientialism for Software Engineering Education".
+<em>Proc. ICSE-SEET'18</em>, <a href="https://doi.org/10.1145/3183377.3183380">10.1145/3183377.3183380</a>.
+</dd>
 <dt id="hsing2019" class="bibliography">Hsing2019</dt>
 <dd>
 Courtney Hsing and Vanessa Gennarelli:
@@ -944,7 +950,7 @@ Angophora Press, 2006, 978-0646458410.
 <dt id="robinson2005" class="bibliography">Robinson2005</dt>
 <dd>
 Evan Robinson:
-"<a href="http://www.igda.org/articles/erobinson_crunch.php">Why Crunch Mode Doesn't Work: 6 Lessons</a>".
+"<a href="https://igda.org/resources-archive/why-crunch-mode-doesnt-work-six-lessons-2005/">Why Crunch Mode Doesn't Work: 6 Lessons</a>".
 </dd>
 <dt id="rohrer2015" class="bibliography">Rohrer2015</dt>
 <dd>

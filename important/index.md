@@ -493,7 +493,7 @@ Conflicts like this come up all the time.  We can deal with them in four ways:
 
 4.  Take constructive steps to fix the underlying problem.
 
-Most of us find the first three options easiest, even though they don't fix the
+Most of us find the first option easiest, even though it doesn't fix the
 problem.  The fourth option is harder because we don't like confrontation.
 Managed properly, though, it can be much less bruising, which means that we
 don't have to be as afraid of it.  And if people believe that we will take steps
