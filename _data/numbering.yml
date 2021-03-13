@@ -99,9 +99,14 @@ entries:
   label: G
   slug: thinking
   title: Thinking and Learning
-- file: ./evaluation/index.md
+- file: ./novices/index.md
   kind: Appendix
   label: H
+  slug: novices
+  title: Novice Programmers
+- file: ./evaluation/index.md
+  kind: Appendix
+  label: I
   slug: evaluation
   title: Performance Evaluation
 figures:

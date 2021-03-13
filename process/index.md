@@ -103,7 +103,7 @@ makes developers more productive <cite>Erdogmus2005,Fucci2016</cite>.  What
 productive than doing a lot of coding followed by a lot of testing or vice versa
 <cite>Fucci2017</cite>. The work log above reflects this: the student wrote
 tests before fixing bugs, and wrote code for the new feature before writing
-tests, but in both cases switched between the two activites every 15--20
+tests, but in both cases switched between the two activities every 15--20
 minutes.
 
 </div>
@@ -458,7 +458,7 @@ responsibilities is to <span g="triage">triage</span> the issues in a project's
 issue tracker (<span x="collaborate"></span>) periodically and adjust the
 schedule accordingly. The 3×3 effort-importance grid that you drew at the start
 will help with this: by the time you are a few weeks into your project, you
-shoul be able to update the effort estimates, add newly-discovered issues, and
+should be able to update the effort estimates, add newly-discovered issues, and
 draw up a more realistic plan.
 
 </div>

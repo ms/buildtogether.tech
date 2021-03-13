@@ -741,7 +741,7 @@
     term: "long-term memory"
     def: >
       The part of memory that stores information for long periods of
-      time. Long-term memory is large, but slow, and cannot be accesse
+      time. Long-term memory is large, but slow, and cannot be accessed
       directly.
     acronym: LTM
   ref:
@@ -1069,13 +1069,6 @@
     term: "sense vote"
     def: >
       A preliminary vote used to determine whether further discussion is needed in a meeting.
-
-- key: shell_prompt
-  en:
-    term: "shell prompt"
-    def: >
-      The text printed by an interactive shell that indicates it is ready to
-      accept another command.
 
 - key: short_term_memory
   en:

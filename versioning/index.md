@@ -12,7 +12,7 @@ allocate credit and blame where they're due.
 
 Dozens of version control systems exist. For many years, CVS was the workhorse
 of the open source world, and very popular in commercial projects as well. It
-was replaced by Subversion, which fixe many of its predecessor's flaws while
+was replaced by Subversion, which fixed many of its predecessor's flaws while
 introducing a few minor ones of its own. Both of these were <span
 g="centralized_system">centralized systems</span>:
 
@@ -109,9 +109,6 @@ $ git config --global user.email "peggy@wolframhart.org"
 ```
 
 Breaking this down:
-
--   The dollar sign `$` is a <span g="shell_prompt">shell prompt</span>.  We don't
-    type that; the shell prints it to show us that it's waiting for a command.
 
 -   Git commands are written as <code>git <em>verb</em></code>, where
     <code><em>verb</em></code> is a <span g="sub_command">sub-command</span>
@@ -234,7 +231,7 @@ by the comment we want to save in the log.
 If you use Git on the command line and you *don't* provide a message using the
 `-m` flag, it will launch an editor so that you can write a longer message.
 This is a good thing, except that the default editor on most Unix systems is
-something called Vim, whose interface is no more intuitive that Git's. (In fact,
+something called Vim, whose interface is no more intuitive than Git's. (In fact,
 one of the most frequently-viewed questions on [Stack Overflow][stack-overflow]
 is "[How do I exit the Vim editor?][so-exit-vim]". Unsurprisingly, another
 frequently-viewed question on Stack Overflow is "[How do I make Git use the

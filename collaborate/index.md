@@ -4,7 +4,7 @@
 <span x="versioning"></span> described how to use version control to manage
 individual work, but it really comes into its own when we are working with other
 people.  Portals like [GitHub][github], [GitLab][gitlab], and
-[BitBucket][bitbucket] are all designed to support this, and they all provide
+[Bitbucket][bitbucket] are all designed to support this, and they all provide
 other tools for managing and reviewing shared information. This chapter looks at
 how to use those tools so that <span x="process"></span>'s discussion of
 software development processes will make more sense.
@@ -186,7 +186,7 @@ of the PR and a pair of editable boxes for the pull request's title and a longer
 comment.
 
 If she scrolls down, Amira can see a summary of the changes that will be in the
-PR.  Whe she clicks "Create Pull Request", Git gives it a unique serial number
+PR.  When she clicks "Create Pull Request", Git gives it a unique serial number
 (which is *not* a commit ID).  The PR is displayed in Sami's repository rather
 than Amira's since it is Sami's repository that will be affected if the PR is
 merged.

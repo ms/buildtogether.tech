@@ -49,6 +49,8 @@ chapters:
     title: "Links"
   - slug: "thinking"
     title: "Thinking and Learning"
+  - slug: "novices"
+    title: "Novice Programmers"
   - slug: "evaluation"
     title: "Performance Evaluation"
 
@@ -61,6 +63,8 @@ author:
   linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
 
 thanks:
+  - name: Adam Goucher
+    url: https://adam.goucher.ca/
   - name: Johan Harjono
     url: http://johanharjono.com/
   - name: Daniel Jackson
@@ -71,10 +75,16 @@ thanks:
     url: https://patitsas.github.io/
   - name: Andrew Petersen
     url: https://utmandrew.bitbucket.io/
+  - name: Andrey Petrov
+    url: https://shazow.net/
   - name: Lutz Prechelt
     url: http://www.mi.fu-berlin.de/w/Main/LutzPrechelt
+  - name: Evan Schultz
+    url: https://evanjustevan.com/
   - name: Andreas Stefik
     url: https://web.cs.unlv.edu/stefika/
+  - name: Andy Zaidman
+    url: https://azaidman.github.io/
 
 markdown: kramdown
 
@@ -86,7 +96,7 @@ kramdown:
       "ant": ["https://ant.apache.org/", "Apache Ant"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
-      "bitbucket": ["https://bitbucket.org/", "BitBucket"],
+      "bitbucket": ["https://bitbucket.org/", "Bitbucket"],
       "bst-repo": ["https://github.com/gvwilson/buildtogether.tech/", "Building Software Together repository"],
       "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
       "captain-awkward": ["https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup ", "Buzzfeed article on DataCamp"],

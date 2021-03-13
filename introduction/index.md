@@ -34,6 +34,9 @@ Like these three personas, readers should:
 
 -   Be able to create static web sites using HTML and CSS.
 
+-   Know how to create directories, delete files, and find things with the Unix
+    shell.
+
 -   Know how to use [Git][git] to save and share files. (It's OK not to know
     [the more obscure commands][git-man-page-generator].)
 

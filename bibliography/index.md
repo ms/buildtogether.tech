@@ -473,7 +473,7 @@ Danielle Gaucher, Justin Friesen, and Aaron C. Kay:
 </dd>
 <dt id="gawande2011" class="bibliography">Gawande2011</dt>
 <dd>
-Atul Gawade:
+Atul Gawande:
 <em>The Checklist Manifesto: How to Get Things Right</em>.
 Picador, 2011, 978-0312430009.
 </dd>

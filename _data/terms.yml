@@ -151,6 +151,7 @@ important:
 introduction: []
 license: []
 links: []
+novices: []
 process:
 - key: ae
   term: analysis & estimation
@@ -403,8 +404,6 @@ versioning:
   term: remote
 - key: repository
   term: repository
-- key: shell_prompt
-  term: shell prompt
 - key: software_portal
   term: software portal
 - key: sub_command
