@@ -18,7 +18,7 @@ Alqadi
 Altadmri
 Amann
 Amira
-Amira’s
+Amira's
 Amjad
 Anda
 Anders
@@ -43,7 +43,7 @@ Audris
 Aul
 Aurélio
 Automattic
-Automattic’s
+Automattic's
 Averick
 Ayres
 Ayushi
@@ -141,7 +141,7 @@ Didau
 DiffMerge
 Diomidis
 Dittrich
-Dobzhansky’s
+Dobzhansky's
 DocBook
 Doit
 Domingue
@@ -220,7 +220,7 @@ GitKraken
 GitLab
 Gitinabard
 Gitlet
-Git’s
+Git's
 Glanville
 Glanz
 Glerum
@@ -229,7 +229,6 @@ Goel
 Goldstone
 Gomes
 Goodhart's
-Goodhart’s
 Goslin
 Goucher
 Gousios
@@ -410,7 +409,7 @@ Mortem
 Mujahid
 Mulders
 Münch
-NOAA’s
+NOAA's
 NPM
 NSPW
 Nachiappan
@@ -533,7 +532,7 @@ Sadowski
 Sahithi
 Sajaniemi
 Sami
-Sami’s
+Sami's
 Santander
 Sapna
 Sarma
@@ -542,14 +541,13 @@ Sathiyanarayanan
 Saïda
 Scal
 Scaliante
-Scalzi’s
+Scalzi's
 Scanlan
 Scanniello
 Schankin
 Schemas
 Schon
 Schrödinger's
-Schrödinger’s
 Schröter
 Schulte
 Scriptability
@@ -637,7 +635,7 @@ UCOSP
 UI
 UML
 Ulrich
-United’s
+United's
 Upchurch
 Usenix
 Uyaguari
@@ -670,7 +668,7 @@ Xu
 Xuepeng
 Yana
 Yanina
-Yanina’s
+Yanina's
 Yasutaka
 Yevgeniya
 Ying
@@ -704,7 +702,7 @@ affective
 afterward
 al
 amira
-another’s
+another's
 anthropogenic
 argparse
 args
@@ -720,7 +718,7 @@ behaviors
 blowfish
 breakpoint
 callout
-callout’s
+callout's
 canceled
 cataloging
 catalogs
@@ -763,7 +761,6 @@ ec
 efe
 elif
 else's
-else’s
 emptively
 eneething
 english
@@ -888,7 +885,7 @@ terminer
 testability
 tex
 textgreek
-this’ll
+this'll
 timesheet
 timeslicing
 timezones
