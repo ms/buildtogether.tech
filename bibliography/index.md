@@ -513,6 +513,12 @@ Stefan Hanenberg, Sebastian Kleinschmager, Romain Robbes, Éric Tanter, and Andr
 "An Empirical Study on the Impact of Static Typing on Software Maintainability".
 <em>ESE</em>, 19(5), 2013, <a href="https://doi.org/10.1007/s10664-013-9289-1">10.1007/s10664-013-9289-1</a>.
 </dd>
+<dt id="hannay2009" class="bibliography">Hannay2009</dt>
+<dd>
+Jo E. Hannay, Tore Dybå, Erik Arisholm, and Dag I.K. Sjøberg:
+"The Effectiveness of Pair Programming: A Meta-Analysis".
+<em>Information and Software Technology</em>, 51(7), 2009, <a href="https://doi.org/10.1016/j.infsof.2009.02.001">10.1016/j.infsof.2009.02.001</a>.
+</dd>
 <dt id="hannay2010" class="bibliography">Hannay2010</dt>
 <dd>
 J.E. Hannay, E. Arisholm, H. Engvik, and D.I.K. Sjoberg:
@@ -524,11 +530,23 @@ J.E. Hannay, E. Arisholm, H. Engvik, and D.I.K. Sjoberg:
 Michael Hansen, Robert L. Goldstone, and Andrew Lumsdaine:
 "What Makes Code Hard to Understand?".
 </dd>
+<dt id="hata2019" class="bibliography">Hata2019</dt>
+<dd>
+Hideaki Hata, Christoph Treude, Raula Gaikovina Kula, and Takashi Ishio:
+"9.6 Million Links in Source Code Comments: Purpose, Evolution, and Decay".
+<em>Proc. ICSE'19</em>, <a href="https://doi.org/10.1109/icse.2019.00123">10.1109/icse.2019.00123</a>.
+</dd>
 <dt id="hatton2008" class="bibliography">Hatton2008</dt>
 <dd>
 Les Hatton:
 "Testing the Value of Checklists in Code Inspections".
 <em>IEEE Software</em>, 25(4), 2008, <a href="https://doi.org/10.1109/ms.2008.100">10.1109/ms.2008.100</a>.
+</dd>
+<dt id="hayashi2019" class="bibliography">Hayashi2019</dt>
+<dd>
+Junichi Hayashi, Yoshiki Higo, Shinsuke Matsumoto, and Shinji Kusumoto:
+"Impacts of Daylight Saving Time on Software Development".
+<em>MSR'19</em>, <a href="https://doi.org/10.1109/msr.2019.00076">10.1109/msr.2019.00076</a>.
 </dd>
 <dt id="henrich2010" class="bibliography">Henrich2010</dt>
 <dd>
@@ -536,11 +554,23 @@ Joseph Henrich, Steven J. Heine, and Ara Norenzayan:
 "The Weirdest People in the World?".
 <em>Behavioral and Brain Sciences</em>, 33(2-3), 2010, <a href="https://doi.org/10.1017/s0140525x0999152x">10.1017/s0140525x0999152x</a>.
 </dd>
+<dt id="herley2009" class="bibliography">Herley2009</dt>
+<dd>
+Cormac Herley:
+"So Long, and No Thanks for the Externalities: The Rational Rejection of Security Advice by Users".
+<em>Proc. NSPW'09</em>, <a href="https://doi.org/10.1145/1719030.1719050">10.1145/1719030.1719050</a>.
+</dd>
 <dt id="herzig2013" class="bibliography">Herzig2013</dt>
 <dd>
 Kim Herzig, Sascha Just, and Andreas Zeller:
 "It's not a Bug, it's a Feature: How Misclassification Impacts Bug Prediction".
 <em>Proc. ICSE'13</em>.
+</dd>
+<dt id="hilderbrand2020" class="bibliography">Hilderbrand2020</dt>
+<dd>
+Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, and Anita Sarma:
+"Engineering Gender-Inclusivity into Software: Tales from the Trenches".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380371">10.1145/3377811.3380371</a>.
 </dd>
 <dt id="hilton2016" class="bibliography">Hilton2016</dt>
 <dd>
@@ -601,6 +631,12 @@ Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, and Arie van D
 Andrew Hunt and David Thomas:
 <em>The Pragmatic Programmer: From Journeyman to Master</em>.
 Addison-Wesley Professional, 1999, 978-0201616224.
+</dd>
+<dt id="ingram2020" class="bibliography">Ingram2020</dt>
+<dd>
+Claire Ingram and Anders Drachen:
+"How Software Practitioners Use Informal Local Meetups to Share Software Engineering Knowledge".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380333">10.1145/3377811.3380333</a>.
 </dd>
 <dt id="irving2021" class="bibliography">Irving2021</dt>
 <dd>

@@ -1013,6 +1013,20 @@
   year: 2013
   doi: 10.1007/s10664-013-9289-1
 
+- key: Hannay2009
+  author:
+  - Jo E. Hannay
+  - Tore Dybå
+  - Erik Arisholm
+  - Dag I.K. Sjøberg
+  title: "The Effectiveness of Pair Programming: A Meta-Analysis"
+  doi: 10.1016/j.infsof.2009.02.001
+  journal: Information and Software Technology
+  kind: article
+  volume: 51
+  number: 7
+  year: 2009
+
 - key: Hannay2010
   author:
   - J.E. Hannay
@@ -1037,6 +1051,18 @@
   link: https://arxiv.org/abs/1304.5257
   year: 2013
 
+- key: Hata2019
+  author:
+  - Hideaki Hata
+  - Christoph Treude
+  - Raula Gaikovina Kula
+  - Takashi Ishio
+  title: "9.6 Million Links in Source Code Comments: Purpose, Evolution, and Decay"
+  kind: inproceedings
+  booktitle: "Proc. ICSE'19"
+  doi: 10.1109/icse.2019.00123
+  year: 2019
+
 - key: Hatton2008
   kind: article
   author:
@@ -1047,6 +1073,18 @@
   number: 4
   year: 2008
   doi: 10.1109/ms.2008.100
+
+- key: Hayashi2019
+  author:
+  - Junichi Hayashi
+  - Yoshiki Higo
+  - Shinsuke Matsumoto
+  - Shinji Kusumoto
+  booktitle: "MSR'19"
+  doi: 10.1109/msr.2019.00076
+  kind: inproceedings
+  title: "Impacts of Daylight Saving Time on Software Development"
+  year: 2019
 
 - key: Henrich2010
   kind: article
@@ -1061,6 +1099,15 @@
   year: 2010
   doi: 10.1017/s0140525x0999152x
 
+- key: Herley2009
+  kind: inproceedings
+  author:
+  - Cormac Herley
+  booktitle: "Proc. NSPW'09"
+  doi: 10.1145/1719030.1719050
+  title: "So Long, and No Thanks for the Externalities: The Rational Rejection of Security Advice by Users"
+  year: 2009
+
 - key: Herzig2013
   kind: inproceedings
   author:
@@ -1070,6 +1117,21 @@
   title: "It's not a Bug, it's a Feature: How Misclassification Impacts Bug Prediction"
   booktitle: "Proc. ICSE'13"
   year: 2013
+
+- key: Hilderbrand2020
+  author:
+  - Claudia Hilderbrand
+  - Christopher Perdriau
+  - Lara Letaw
+  - Jillian Emard
+  - Zoe Steine-Hanson
+  - Margaret Burnett
+  - Anita Sarma
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380371
+  kind: inproceedings
+  title: "Engineering Gender-Inclusivity into Software: Tales from the Trenches"
+  year: 2020
 
 - key: Hilton2016
   kind: inproceedings
@@ -1186,6 +1248,16 @@
   publisher: Addison-Wesley Professional
   year: 1999
   isbn: 978-0201616224
+
+- key: Ingram2020
+  author:
+  - Claire Ingram
+  - Anders Drachen
+  title: "How Software Practitioners Use Informal Local Meetups to Share Software Engineering Knowledge"
+  kind: inproceedings
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380333
+  year: 2020
 
 - key: Irving2021
   kind: book
