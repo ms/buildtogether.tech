@@ -147,7 +147,7 @@ accept no responsibility if things go wrong.  The <span g="gpl">GNU Public
 License</span> (GPL) gives people similar rights, but requires them to share
 their own work on the same terms:
 
-<blockquote>
+<blockquote markdown="1">
 
 You may copy, distribute and modify the software as long as you track
 changes/dates in source files.  Any modifications to or software including
@@ -260,7 +260,7 @@ abused---men who want an excuse to continue to be jerks try to be clever with
 words and talk about "diversity of thought," meaning, "I should be allowed to be
 offensive as long as I don't raise my voice.")
 
-<blockquote>
+<blockquote markdown="1">
 
 We can disagree and still love each other unless your disagreement is rooted
 in my oppression and denial of my humanity and right to exist.

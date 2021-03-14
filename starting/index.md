@@ -239,7 +239,7 @@ an <span g="elevator_pitch">elevator pitch</span> like the one shown below to
 figure out what problem you're trying to solve, who it affects, and why your
 solution is a good one.
 
-<blockquote>
+<blockquote markdown="1">
 
 **The problem of**
 developing software in a predictable and reliable manner
@@ -251,6 +251,7 @@ which makes it impossible to effectively plan a project.
 users and managers are never sure whether the produced software will meet its requirements,
 how reliable the software will be,
 or whether the software will be delivered on time.
+
 **A successful solution would**
 help developers become more aware of what they do,
 how they spend their time,
@@ -276,7 +277,7 @@ the results.  If your team is like most I've worked with, you'll be surprised by
 how varied the answers are.  Once you have done that, pick one and turn it into
 a short paragraph that everyone is happy with like the one below:
 
-<blockquote>
+<blockquote markdown="1">
 
 Most programmers can't predict how long it will take them to do things because
 they don't know how long previous tasks have taken.  Gathering data manually is

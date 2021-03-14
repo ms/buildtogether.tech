@@ -159,7 +159,7 @@ f="washburn-2016-what-went-right"></span> and <span
 f="washburn-2016-what-went-wrong"></span>, and their description of their method
 is worth repeating in full:
 
-<blockquote>
+<blockquote markdown="1">
 
 Initially, we started with 12 categories of common aspects of development…  In
 order to identify additional categories, we performed 3 iterations of analysis
@@ -300,7 +300,7 @@ consistent style in all examples.  Since most languages have style guides (e.g.,
 [PEP8][pep8] for Python) and tools to check that code follows these guidelines.
 In contrast, <cite>Schankin2018</cite> found that:
 
-<blockquote>
+<blockquote markdown="1">
 
 With descriptive identifier names, developers spent more time in the lines of
 code before the actual defect occurred and changed their reading direction less
@@ -401,7 +401,7 @@ language idioms---and show that often the right approach is to go ahead and
 copy-paste code. But they note that whether to clone or not is a decision that
 requires some thinking on a case by case basis:
 
-<blockquote>
+<blockquote markdown="1">
 
 …the results of the case study identify a set of patterns that are most often
 harmful, namely *verbatim snippets* and *parameterized code*. While there were
@@ -482,7 +482,7 @@ One reason things go wrong is that developers don't make use of the tools they
 have. <cite>Beller2019</cite> monitored 2,443 software engineers over the course
 of 2.5 years in four IDEs. They found that:
 
-<blockquote>
+<blockquote markdown="1">
 
 …half of the developers in our study does not test; developers rarely run their
 tests in the IDE; only once they start testing, do they do it heftily; most
@@ -582,7 +582,7 @@ happened before. <cite>McIntosh2011</cite> provides a baseline for both how much
 effort is required to keep the build system in working order, and how much those
 figures can be improved:
 
-<blockquote>
+<blockquote markdown="1">
 
 …despite the difference in scale, the build system churn rate is comparable to
 that of the source code, and build changes induce more relative churn on the
@@ -648,7 +648,7 @@ complexity" instead, as these factors overshadow any personality effects.
 But the most important result is the one in <cite>Patitsas2016</cite>. Its
 abstract is worth repeating in full:
 
-<blockquote>
+<blockquote markdown="1">
 
 Although it has never been rigourously demonstrated, there is a common belief
 that CS grades are bimodal. We statistically analyzed 778 distributions of final

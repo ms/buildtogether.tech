@@ -75,7 +75,7 @@ medium term:
 
 The approach draws on a modified version of [Dobzhansky's Rule][dobzhansky]
 
-<blockquote>
+<blockquote markdown="1">
 
 Nothing in software engineering makes sense except in the light of psychology.
 

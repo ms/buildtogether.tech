@@ -31,7 +31,7 @@ or see the contributors' guide (<span x="contributing"></span>) for more informa
 
 ## Ten Simple Rules for Changing the World
 
-<blockquote>
+<blockquote markdown="1">
 
 One reason people insist that you use the proper channels to change things is
 because they have control of the proper channels and they're confident it won't
@@ -117,7 +117,7 @@ work.
     those who do will be able to share your victories and commiserate with your
     defeats like no one else.
 
-<blockquote>
+<blockquote markdown="1">
 
 If you cannot be brave---and it is often hard to be brave---be kind.
 

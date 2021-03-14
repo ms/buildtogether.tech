@@ -656,7 +656,7 @@ update to executives][kaplan-moss-executives], and [Ask a
 Manager][ask-a-manager] is full of good advice and discussion as well. If you
 follow those guidelines, you get briefs like this:
 
-<blockquote>
+<blockquote markdown="1">
 
 Project X is running smoothly. We're making steady progress: we've delivered a
 bit over half of the features on our roadmap, and we're on track to launch

@@ -53,7 +53,7 @@ smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
 science somehow didn't apply to them.  To quote Robinson's article:
 
-<blockquote>
+<blockquote markdown="1">
 
 When Henry Ford famously adopted a 40-hour workweek in 1926, he was bitterly
 criticized by members of the National Association of Manufacturers.  But his
@@ -96,7 +96,7 @@ It only takes me a couple of minutes to create a bug that will take hours to
 track down later---or days, if someone else is unlucky enough to have to track
 it down.  This is summarized in Robinson's first rule:
 
-<blockquote>
+<blockquote markdown="1">
 
 Productivity varies over the course of the workday, with the greatest
 productivity occurring in the first four to six hours.  After enough hours,

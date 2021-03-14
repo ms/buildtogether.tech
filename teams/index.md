@@ -210,7 +210,7 @@ each team creates their own as part of their first assignment so that they
 actually have to think about what they're promising their teammates.  Here's an
 example:
 
-<blockquote>
+<blockquote markdown="1">
 
 We, the members of Team 12, agree that:
 
@@ -298,7 +298,7 @@ evaluations.
 
 ## People to Watch Out For
 
-<blockquote>
+<blockquote markdown="1">
 
 All happy families resemble one another, but every unhappy family is unhappy in
 its own way.

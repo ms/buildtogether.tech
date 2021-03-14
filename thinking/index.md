@@ -1,4 +1,4 @@
-        ---
+---
 ---
 
 We know as much about teaching and learning as we do about public health. The
@@ -118,7 +118,7 @@ of software design.
 Suppose you are teaching a child how to do addition and you give them this
 multiple-choice question:
 
-<blockquote>
+<blockquote markdown="1">
 
 What is 37 + 45?
 

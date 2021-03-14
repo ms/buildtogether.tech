@@ -1,7 +1,7 @@
 ---
 ---
 
-<blockquote>
+<blockquote markdown="1">
 
 A week of hard work can sometimes save an hour of thought.
 
@@ -571,7 +571,7 @@ similar, "I realize it's popular, but it's merely useful."
 
 ## Handling Errors
 
-<blockquote>
+<blockquote markdown="1">
 
 When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
 
