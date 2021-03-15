@@ -37,6 +37,19 @@
   year: 1975
   doi: 10.1037/h0076613
 
+- key: Aivaloglou2021
+  author:
+  - Efthimia Aivaloglou
+  - Anna van der Meulen
+  doi: 10.1145/3440994
+  journal: "TCE"
+  kind: article
+  number: 3
+  pages: 1--22
+  title: "An Empirical Study of Students' Perceptions on the Setup and Grading of Group Programming Assignments"
+  volume: 21
+  year: 2021
+
 - key: Akerblom2015
   kind: inproceedings
   author:
@@ -418,6 +431,17 @@
   year : 2017
   doi: 10.1145/2994154
 
+- key: Bullock2021
+  author:
+  - Beleicia B. Bullock
+  - Fernando L. Nascimento
+  - Stacy A. Doore
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432468
+  kind: inproceedings
+  title: "Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms"
+  year: 2021
+
 - key: Carter2017
   kind: inproceedings
   author:
@@ -484,6 +508,21 @@
   year: 2014
   isbn: 978-1484200773
 
+- key: Chattopadhyay2020
+  author:
+  - Souti Chattopadhyay
+  - Nicholas Nelson
+  - Audrey Au
+  - Natalia Morales
+  - Christopher Sanchez
+  - Rahul Pandita
+  - Anita Sarma
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380330
+  kind: inproceedings
+  title: "A Tale From the Trenches: Cognitive Biases and Software Development"
+  year: 2020
+
 - key: Cherubini2007
   kind: inproceedings
   author:
@@ -537,6 +576,18 @@
   publisher: "O'Reilly"
   year: 2010
   isbn: 978-0596808327
+
+- key: Cohen2021
+  author:
+  - Lena Cohen
+  - Heila Precel
+  - Harold Triedman
+  - Kathi Fisler
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432456
+  kind: inproceedings
+  title: "A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum"
+  year: 2021
 
 - key: Conway1968
   kind: article
@@ -662,6 +713,19 @@
   year: 2020
   url: https://hbr.org/2020/05/why-sexual-harassment-programs-backfire
 
+- key: Donovan2018
+  author:
+  - Deborah A. Donovan
+  - Georgianne L. Connell
+  - Daniel Z. Grunspan
+  doi: 10.1187/cbe.17-12-0283
+  journal: "CBE---Life Sciences Education"
+  kind: article
+  number: 4
+  title: "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class"
+  volume: 17
+  year: 2018
+
 - key: Edwards2014
   kind: inproceedings
   author:
@@ -764,6 +828,16 @@
   publisher: Prentice-Hall
   year: 2004
   isbn: 978-0131177055
+
+- key: Ferreira2021
+  author:
+  - Rodrigo Ferreira
+  - Moshe Y. Vardi
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432449
+  kind: inproceedings
+  title: "Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science"
+  year: 2021
 
 - key: Fincher2001
   kind: book
@@ -974,6 +1048,26 @@
   title: "Debugging in the (Very) Large: Ten Years of Implementation and Experience"
   booktitle: "Proc. SOSP'09"
   doi: 10.1145/1629575.1629586
+
+- key: Gopal2021
+  author:
+  - Bhuvana Gopal
+  - Stephen Cooper
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432405
+  kind: inproceedings
+  title: "Peer Instruction in Software Engineering---Findings from Fine-grained Clicker Data"
+  year: 2021
+
+- key: Gordon2021
+  author:
+  - Nikolas Gordon
+  - Omar Alam
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432369
+  kind: inproceedings
+  title: "The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data"
+  year: 2021
 
 - key: Graziotin2014
   author:
@@ -1239,6 +1333,19 @@
   doi: 10.1145/3368089.3409717
   year: 2020
 
+- key: Hundhausen2021
+  author:
+  - Christopher Hundhausen
+  - Adam Carter
+  - Phillip Conrad
+  - Ahsun Tariq
+  - Olusola Adesope
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432362
+  kind: inproceedings
+  title: "Evaluating Commit, Issue and Product Quality in Team Software Development Projects"
+  year: 2021
+
 - key: Hunt1999
   kind: book
   author:
@@ -1489,6 +1596,20 @@
   year: 1999
   doi: 10.1037/0022-3514.77.6.1121
 
+- key: Lamba2020
+  author:
+  - Hemank Lamba
+  - Asher Trockman
+  - Daniel Armanios
+  - Christian Kästner
+  - Heather Miller
+  - Bogdan Vasilescu
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409705
+  kind: inproceedings
+  title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
+  year: 2020
+
 - key: Lee1962
   kind: article
   author:
@@ -1498,6 +1619,18 @@
   volume: 15
   publisher: Marvel
   year: 1962
+
+- key: Lin2021
+  author:
+  - Xinyue Lin
+  - James Connors
+  - Chang Lim
+  - John R. Hott
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432389
+  kind: inproceedings
+  title: "How Do Students Collaborate? Analyzing Group Choice in a Collaborative Learning Environment"
+  year: 2021
 
 - key: Lindberg2008
   kind: book
@@ -1587,6 +1720,16 @@
   publisher: Cambridge University Press
   isbn: 978-0521735353
 
+- key: McBurney2021
+  author:
+  - Paul W. McBurney
+  - Christian Murphy
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432550
+  kind: inproceedings
+  title: "Experience of Teaching a Course on Software Engineering Principles Without a Project"
+  year: 2021
+
 - key: McCauley2008
   kind: article
   author:
@@ -1616,6 +1759,16 @@
   kind: inproceedings
   title: "An Empirical Study of Build Maintenance Effort"
   year: 2011
+
+- key: McIntosh2021
+  author:
+  - Lukas McIntosh
+  - Caroline D. Hardin
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432435
+  kind: inproceedings
+  title: "Do Hackathon Projects Change the World? An Empirical Analysis of GitHub Repositories"
+  year: 2021
 
 - key: Meneely2011
   author:
@@ -1841,6 +1994,19 @@
   year: 2016
   isbn: 978-0262035187
 
+- key: Pociask2017
+  author:
+  - Sarah Pociask
+  - David Gross
+  - Mei-Yau Shih
+  doi: 10.14434/josotl.v17i3.21158
+  journal: "JSTL"
+  kind: article
+  number: 3
+  title: "Does Team Formation Impact Student Performance, Effort and Attitudes in a College Course Employing Collaborative Learning?"
+  volume: 17
+  year: 2017
+
 - key: Posnett2011
   author:
   - Daryl Posnett
@@ -1851,6 +2017,30 @@
   kind: inproceedings
   title: "Got Issues? Do New Features and Code Improvements Affect Defects?"
   year: 2011
+
+- key: Post2020
+  author:
+  - Martiqua L Post
+  - Anthony Barrett
+  - Marlyse Williams
+  - Lauren Scharff
+  doi: 10.14434/josotl.v20i1.24128
+  journal: "JSTL"
+  kind: article
+  number: 1
+  title: "Impact of Team Formation Method on Student Performance, Attitudes, and Behaviors"
+  volume: 20
+  year: 2020
+
+- key: Pozos2021
+  author:
+  - Rose K. Pozos
+  - Michelle Friend
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432433
+  kind: inproceedings
+  title: "'You Sound Like a Good Program Manager': An Analysis of Gender in Women's Computing Life Histories"
+  year: 2021
 
 - key: Prechelt2019
   kind: incollection
@@ -1864,6 +2054,20 @@
   publisher: Apress
   year: 2019
   isbn: 978-1-4842-4220-9
+
+- key: Prioleau2021
+  author:
+  - Diandra Prioleau
+  - Brianna Richardson
+  - Emma Drobina
+  - Rua Williams
+  - Joshua Martin
+  - Juan E. Gilbert
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432360
+  kind: inproceedings
+  title: "How Students in Computing-Related Majors Distinguish Social Implications of Technology"
+  year: 2021
 
 - key: Pritchard2015
   author:
@@ -1885,6 +2089,17 @@
   number: 1
   year: 2017
   doi: 10.1145/3077618
+
+- key: Rankin2021
+  author:
+  - Yolanda A. Rankin
+  - Jakita O. Thomas
+  - Sheena Erete
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432432
+  kind: inproceedings
+  title: 'Real Talk: Saturated Sites of Violence in CS Education'
+  year: 2021
 
 - key: Rawls1999
   kind: book
@@ -2201,6 +2416,17 @@
   title: "Usability Implications of Requiring Parameters in Objects' Constructors"
   year: 2007
 
+- key: Tan2020
+  author:
+  - Xin Tan
+  - Minghui Zhou
+  - Zeyu Sun
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409746
+  kind: inproceedings
+  title: "A First Look at Good First Issues on GitHub"
+  year: 2020
+
 - key: Taschuk2017
   kind: article
   author:
@@ -2212,6 +2438,18 @@
   number: 4
   year: 2017
   doi: 10.1371/journal.pcbi.1005412
+
+- key: Thinnyun2021
+  author:
+  - Adrian Thinnyun
+  - Ryan Lenfant
+  - Raymond Pettit
+  - John R. Hott
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432395
+  kind: inproceedings
+  title: "Gender and Engagement in CS Courses on Piazza"
+  year: 2021
 
 - key: Thomas2019
   kind: book
@@ -2307,6 +2545,19 @@
   publisher: Routledge
   year: 2018
   isbn: 978-1138561724
+
+- key: Wessel2020
+  author:
+  - Mairieli Wessel
+  - Alexander Serebrenik
+  - Igor Wiese
+  - Igor Steinmacher
+  - Marco A. Gerosa
+  booktitle: "Proc. ICSME'20"
+  doi: 10.1109/icsme46990.2020.00011
+  kind: inproceedings
+  title: "Effects of Adopting Code Review Bots on Pull Requests to OSS Projects"
+  year: 2020
 
 - key: Williams2001
   kind: inproceedings
