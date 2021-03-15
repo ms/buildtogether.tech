@@ -62,34 +62,6 @@ author:
   twitter: https://twitter.com/gvwilson
   linkedin: https://www.linkedin.com/in/greg-wilson-a26510b6/
 
-thanks:
-  - name: Robert Beghian
-    url: http://www.vasken.ca/
-  - name: Adam Goucher
-    url: https://adam.goucher.ca/
-  - name: Johan Harjono
-    url: http://johanharjono.com/
-  - name: Daniel Jackson
-    url: https://people.csail.mit.edu/dnj/
-  - name: Meiyappan Nagappan
-    url: https://cs.uwaterloo.ca/~m2nagapp/
-  - name: Elizabeth Patitsas
-    url: https://patitsas.github.io/
-  - name: Andrew Petersen
-    url: https://utmandrew.bitbucket.io/
-  - name: Andrey Petrov
-    url: https://shazow.net/
-  - name: Lutz Prechelt
-    url: http://www.mi.fu-berlin.de/w/Main/LutzPrechelt
-  - name: Evan Schultz
-    url: https://evanjustevan.com/
-  - name: Alex Serebrenik
-    url: https://www.win.tue.nl/~aserebre/
-  - name: Andreas Stefik
-    url: https://web.cs.unlv.edu/stefika/
-  - name: Andy Zaidman
-    url: https://azaidman.github.io/
-
 markdown: kramdown
 
 kramdown:
