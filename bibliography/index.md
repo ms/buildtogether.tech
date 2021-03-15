@@ -21,6 +21,12 @@ Edwin G. Aiken, Gary S. Thomas, and William A. Shennum:
 "Memory for a Lecture: Effects of Notes, Lecture Rate, and Informational Density".
 <em>Journal of Educational Psychology</em>, 67(3), 1975, <a href="https://doi.org/10.1037/h0076613">10.1037/h0076613</a>.
 </p></dd>
+<dt id="aivaloglou2021" class="bibliography">Aivaloglou2021</dt>
+<dd><p>
+Efthimia Aivaloglou and Anna van der Meulen:
+"An Empirical Study of Students' Perceptions on the Setup and Grading of Group Programming Assignments".
+<em>TCE</em>, 21(3), 2021, <a href="https://doi.org/10.1145/3440994">10.1145/3440994</a>.
+</p></dd>
 <dt id="akerblom2015" class="bibliography">Akerblom2015</dt>
 <dd><p>
 Beatrice Åkerblom and Tobias Wrigstad:
@@ -213,6 +219,12 @@ Neil C. C. Brown and Amjad Altadmri:
 "Novice Java Programming Mistakes".
 <em>TCE</em>, 17(2), 2017, <a href="https://doi.org/10.1145/2994154">10.1145/2994154</a>.
 </p></dd>
+<dt id="bullock2021" class="bibliography">Bullock2021</dt>
+<dd><p>
+Beleicia B. Bullock, Fernando L. Nascimento, and Stacy A. Doore:
+"Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432468">10.1145/3408877.3432468</a>.
+</p></dd>
 <dt id="carter2017" class="bibliography">Carter2017</dt>
 <dd><p>
 Adam Scott Carter and Christopher David Hundhausen:
@@ -248,6 +260,12 @@ Scott Chacon and Ben Straub:
 <em>Pro Git</em> (2nd edition).
 Apress, 2014, 978-1484200773.
 </p></dd>
+<dt id="chattopadhyay2020" class="bibliography">Chattopadhyay2020</dt>
+<dd><p>
+Souti Chattopadhyay, Nicholas Nelson, Audrey Au, Natalia Morales, Christopher Sanchez, Rahul Pandita, and Anita Sarma:
+"A Tale From the Trenches: Cognitive Biases and Software Development".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380330">10.1145/3377811.3380330</a>.
+</p></dd>
 <dt id="cherubini2007" class="bibliography">Cherubini2007</dt>
 <dd><p>
 Mauro Cherubini, Gina Venolia, Rob DeLine, and Amy J. Ko:
@@ -274,6 +292,12 @@ In
 Andy Oram and Greg Wilson (eds.):
 <em>Making Software.</em>
 O'Reilly, 2010, 978-0596808327.
+</p></dd>
+<dt id="cohen2021" class="bibliography">Cohen2021</dt>
+<dd><p>
+Lena Cohen, Heila Precel, Harold Triedman, and Kathi Fisler:
+"A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432456">10.1145/3408877.3432456</a>.
 </p></dd>
 <dt id="conway1968" class="bibliography">Conway1968</dt>
 <dd><p>
@@ -339,6 +363,12 @@ Frank Dobbin and Alexandra Kalev:
 Frank Dobbin and Alexandra Kalev:
 "<a href="https://hbr.org/2020/05/why-sexual-harassment-programs-backfire">Why Sexual Harassment Programs Backfire</a>".
 </p></dd>
+<dt id="donovan2018" class="bibliography">Donovan2018</dt>
+<dd><p>
+Deborah A. Donovan, Georgianne L. Connell, and Daniel Z. Grunspan:
+"Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class".
+<em>CBE---Life Sciences Education</em>, 17(4), 2018, <a href="https://doi.org/10.1187/cbe.17-12-0283">10.1187/cbe.17-12-0283</a>.
+</p></dd>
 <dt id="edwards2014" class="bibliography">Edwards2014</dt>
 <dd><p>
 Stephen H. Edwards and Zalia Shams:
@@ -392,6 +422,12 @@ Eugene Farmer:
 Michael C. Feathers:
 <em>Working Effectively with Legacy Code</em>.
 Prentice-Hall, 2004, 978-0131177055.
+</p></dd>
+<dt id="ferreira2021" class="bibliography">Ferreira2021</dt>
+<dd><p>
+Rodrigo Ferreira and Moshe Y. Vardi:
+"Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432449">10.1145/3408877.3432449</a>.
 </p></dd>
 <dt id="fincher2001" class="bibliography">Fincher2001</dt>
 <dd><p>
@@ -494,6 +530,18 @@ Addison-Wesley Professional, 2002, 978-0321117427.
 Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, and Galen Hunt:
 "Debugging in the (Very) Large: Ten Years of Implementation and Experience".
 <em>Proc. SOSP'09</em>, <a href="https://doi.org/10.1145/1629575.1629586">10.1145/1629575.1629586</a>.
+</p></dd>
+<dt id="gopal2021" class="bibliography">Gopal2021</dt>
+<dd><p>
+Bhuvana Gopal and Stephen Cooper:
+"Peer Instruction in Software Engineering---Findings from Fine-grained Clicker Data".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432405">10.1145/3408877.3432405</a>.
+</p></dd>
+<dt id="gordon2021" class="bibliography">Gordon2021</dt>
+<dd><p>
+Nikolas Gordon and Omar Alam:
+"The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432369">10.1145/3408877.3432369</a>.
 </p></dd>
 <dt id="graziotin2014" class="bibliography">Graziotin2014</dt>
 <dd><p>
@@ -626,6 +674,12 @@ Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, and Arie van D
 "Questions for Data Scientists in Software Engineering: A Replication".
 <em>ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409717">10.1145/3368089.3409717</a>.
 </p></dd>
+<dt id="hundhausen2021" class="bibliography">Hundhausen2021</dt>
+<dd><p>
+Christopher Hundhausen, Adam Carter, Phillip Conrad, Ahsun Tariq, and Olusola Adesope:
+"Evaluating Commit, Issue and Product Quality in Team Software Development Projects".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432362">10.1145/3408877.3432362</a>.
+</p></dd>
 <dt id="hunt1999" class="bibliography">Hunt1999</dt>
 <dd><p>
 Andrew Hunt and David Thomas:
@@ -752,11 +806,23 @@ Justin Kruger and David Dunning:
 "Unskilled and Unaware of It: How Difficulties in Recognizing Incompetence Lead to Inflated Self-Assessment".
 <em>Personality and Social Psychology</em>, 77(6), 1999, <a href="https://doi.org/10.1037/0022-3514.77.6.1121">10.1037/0022-3514.77.6.1121</a>.
 </p></dd>
+<dt id="lamba2020" class="bibliography">Lamba2020</dt>
+<dd><p>
+Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, and Bogdan Vasilescu:
+"Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem".
+<em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409705">10.1145/3368089.3409705</a>.
+</p></dd>
 <dt id="lee1962" class="bibliography">Lee1962</dt>
 <dd><p>
 Stan Lee:
 "The Amazing Spider-Man".
 <em>Amazing Fantasy</em>, 15, 1962.
+</p></dd>
+<dt id="lin2021" class="bibliography">Lin2021</dt>
+<dd><p>
+Xinyue Lin, James Connors, Chang Lim, and John R. Hott:
+"How Do Students Collaborate? Analyzing Group Choice in a Collaborative Learning Environment".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432389">10.1145/3408877.3432389</a>.
 </p></dd>
 <dt id="lindberg2008" class="bibliography">Lindberg2008</dt>
 <dd><p>
@@ -806,6 +872,12 @@ Richard E. Mayer:
 <em>Multimedia Learning</em> (2nd edition).
 Cambridge University Press, 2009, 978-0521735353.
 </p></dd>
+<dt id="mcburney2021" class="bibliography">McBurney2021</dt>
+<dd><p>
+Paul W. McBurney and Christian Murphy:
+"Experience of Teaching a Course on Software Engineering Principles Without a Project".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432550">10.1145/3408877.3432550</a>.
+</p></dd>
 <dt id="mccauley2008" class="bibliography">McCauley2008</dt>
 <dd><p>
 Renée McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander:
@@ -817,6 +889,12 @@ Renée McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon, Ly
 Shane McIntosh, Bram Adams, Thanh H.D. Nguyen, Yasutaka Kamei, and Ahmed E. Hassan:
 "An Empirical Study of Build Maintenance Effort".
 <em>Proc. ICSE'11</em>, <a href="https://doi.org/10.1145/1985793.1985813">10.1145/1985793.1985813</a>.
+</p></dd>
+<dt id="mcintosh2021" class="bibliography">McIntosh2021</dt>
+<dd><p>
+Lukas McIntosh and Caroline D. Hardin:
+"Do Hackathon Projects Change the World? An Empirical Analysis of GitHub Repositories".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432435">10.1145/3408877.3432435</a>.
 </p></dd>
 <dt id="meneely2011" class="bibliography">Meneely2011</dt>
 <dd><p>
@@ -938,11 +1016,29 @@ Marian Petre and André van der Hoek:
 <em>Software Design Decoded: 66 Ways Experts Think</em>.
 MIT Press, 2016, 978-0262035187.
 </p></dd>
+<dt id="pociask2017" class="bibliography">Pociask2017</dt>
+<dd><p>
+Sarah Pociask, David Gross, and Mei-Yau Shih:
+"Does Team Formation Impact Student Performance, Effort and Attitudes in a College Course Employing Collaborative Learning?".
+<em>JSTL</em>, 17(3), 2017, <a href="https://doi.org/10.14434/josotl.v17i3.21158">10.14434/josotl.v17i3.21158</a>.
+</p></dd>
 <dt id="posnett2011" class="bibliography">Posnett2011</dt>
 <dd><p>
 Daryl Posnett, Abram Hindle, and Prem Devanbu:
 "Got Issues? Do New Features and Code Improvements Affect Defects?".
 <em>Proc. WCRE'11</em>, <a href="https://doi.org/10.1109/wcre.2011.33">10.1109/wcre.2011.33</a>.
+</p></dd>
+<dt id="post2020" class="bibliography">Post2020</dt>
+<dd><p>
+Martiqua L Post, Anthony Barrett, Marlyse Williams, and Lauren Scharff:
+"Impact of Team Formation Method on Student Performance, Attitudes, and Behaviors".
+<em>JSTL</em>, 20(1), 2020, <a href="https://doi.org/10.14434/josotl.v20i1.24128">10.14434/josotl.v20i1.24128</a>.
+</p></dd>
+<dt id="pozos2021" class="bibliography">Pozos2021</dt>
+<dd><p>
+Rose K. Pozos and Michelle Friend:
+"'You Sound Like a Good Program Manager': An Analysis of Gender in Women's Computing Life Histories".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432433">10.1145/3408877.3432433</a>.
 </p></dd>
 <dt id="prechelt2019" class="bibliography">Prechelt2019</dt>
 <dd><p>
@@ -952,6 +1048,12 @@ In
 Caitlin Sadowski and Thomas Zimmermann (eds.):
 <em>Rethinking Productivity in Software Engineering.</em>
 Apress, 2019, 978-1-4842-4220-9.
+</p></dd>
+<dt id="prioleau2021" class="bibliography">Prioleau2021</dt>
+<dd><p>
+Diandra Prioleau, Brianna Richardson, Emma Drobina, Rua Williams, Joshua Martin, and Juan E. Gilbert:
+"How Students in Computing-Related Majors Distinguish Social Implications of Technology".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432360">10.1145/3408877.3432360</a>.
 </p></dd>
 <dt id="pritchard2015" class="bibliography">Pritchard2015</dt>
 <dd><p>
@@ -964,6 +1066,12 @@ David Pritchard:
 Yizhou Qian and James Lehman:
 "Students' Misconceptions and Other Difficulties in Introductory Programming".
 <em>TCE</em>, 18(1), 2017, <a href="https://doi.org/10.1145/3077618">10.1145/3077618</a>.
+</p></dd>
+<dt id="rankin2021" class="bibliography">Rankin2021</dt>
+<dd><p>
+Yolanda A. Rankin, Jakita O. Thomas, and Sheena Erete:
+"Real Talk: Saturated Sites of Violence in CS Education".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432432">10.1145/3408877.3432432</a>.
 </p></dd>
 <dt id="rawls1999" class="bibliography">Rawls1999</dt>
 <dd><p>
@@ -1130,11 +1238,23 @@ Jeffrey Stylos and Steven Clarke:
 "Usability Implications of Requiring Parameters in Objects' Constructors".
 <em>Proc. ICSE'07</em>, <a href="https://doi.org/10.1109/icse.2007.92">10.1109/icse.2007.92</a>.
 </p></dd>
+<dt id="tan2020" class="bibliography">Tan2020</dt>
+<dd><p>
+Xin Tan, Minghui Zhou, and Zeyu Sun:
+"A First Look at Good First Issues on GitHub".
+<em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409746">10.1145/3368089.3409746</a>.
+</p></dd>
 <dt id="taschuk2017" class="bibliography">Taschuk2017</dt>
 <dd><p>
 Morgan Taschuk and Greg Wilson:
 "Ten Simple Rules for Making Research Software More Robust"".
 <em>PLoS Computational Biology</em>, 13(4), 2017, <a href="https://doi.org/10.1371/journal.pcbi.1005412">10.1371/journal.pcbi.1005412</a>.
+</p></dd>
+<dt id="thinnyun2021" class="bibliography">Thinnyun2021</dt>
+<dd><p>
+Adrian Thinnyun, Ryan Lenfant, Raymond Pettit, and John R. Hott:
+"Gender and Engagement in CS Courses on Piazza".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432395">10.1145/3408877.3432395</a>.
 </p></dd>
 <dt id="thomas2019" class="bibliography">Thomas2019</dt>
 <dd><p>
@@ -1191,6 +1311,12 @@ Alicia Nicki Washington:
 Yana Weinstein, Megan Sumeracki, and Oliver Caviglioli:
 <em>Understanding How We Learn: A Visual Guide</em>.
 Routledge, 2018, 978-1138561724.
+</p></dd>
+<dt id="wessel2020" class="bibliography">Wessel2020</dt>
+<dd><p>
+Mairieli Wessel, Alexander Serebrenik, Igor Wiese, Igor Steinmacher, and Marco A. Gerosa:
+"Effects of Adopting Code Review Bots on Pull Requests to OSS Projects".
+<em>Proc. ICSME'20</em>, <a href="https://doi.org/10.1109/icsme46990.2020.00011">10.1109/icsme46990.2020.00011</a>.
 </p></dd>
 <dt id="williams2001" class="bibliography">Williams2001</dt>
 <dd><p>
