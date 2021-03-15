@@ -1657,7 +1657,8 @@
 
 - key: Miller1956
   kind: article
-  author: George A. Miller
+  author:
+  - George A. Miller
   title: "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information"
   journal: Psychological Review"
   volume: 63
@@ -1989,7 +1990,8 @@
 
 - key: Scal2012
   kind: link
-  author: John Scalzi
+  author:
+  - John Scalzi
   title: "Straight White Male: The Lowest Difficulty Setting There Is"
   url: https://whatever.scalzi.com/2012/05/15/straight-white-male-the-lowest-difficulty-setting-there-is/
   year: 2012

@@ -838,7 +838,7 @@ Janet Metcalfe:
 </p></dd>
 <dt id="miller1956" class="bibliography">Miller1956</dt>
 <dd><p>
-G, e, o, r, g, e,  , A, .,  , M, i, l, l, e, and r:
+George A. Miller:
 "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information".
 <em>Psychological Review"</em>, 63(2), 1956, <a href="https://doi.org/10.1037/h0043158">10.1037/h0043158</a>.
 </p></dd>
@@ -1023,7 +1023,7 @@ Jorma Sajaniemi, Mordechai Ben-Ari, Pauli Byckling, Petri Gerdt, and Yevgeniya K
 </p></dd>
 <dt id="scal2012" class="bibliography">Scal2012</dt>
 <dd><p>
-J, o, h, n,  , S, c, a, l, z, and i:
+John Scalzi:
 "<a href="https://whatever.scalzi.com/2012/05/15/straight-white-male-the-lowest-difficulty-setting-there-is/">Straight White Male: The Lowest Difficulty Setting There Is</a>".
 </p></dd>
 <dt id="scanlan1989" class="bibliography">Scanlan1989</dt>
