@@ -465,6 +465,12 @@ Denae Ford, Justin Smith, Philip J. Guo, and Chris Parnin:
 "Paradise Unplugged: Identifying Barriers for Female Participation on Stack Overflow".
 <em>Proc. FSE'16</em>, <a href="https://doi.org/10.1145/2950290.2950331">10.1145/2950290.2950331</a>.
 </dd>
+<dt id="forsgren2018" class="bibliography">Forsgren2018</dt>
+<dd>
+Nicole Forsgren, Jez Humble, and Gene Kim:
+<em>Accelerate: Building and Scaling High Performing Technology Organizations</em>.
+IT Revolution Press, 2018, 978-1942788331.
+</dd>
 <dt id="fowler2018" class="bibliography">Fowler2018</dt>
 <dd>
 Martin Fowler:

@@ -41,24 +41,16 @@ delivery:
 design:
 - key: actor
   term: actor
-- key: actual_result
-  term: actual result (of test)
 - key: aih
   term: already invented here syndrome
 - key: analysis_paralysis
   term: analysis paralysis
-- key: assertion
-  term: assertion
 - key: base_class
   term: base class
-- key: catch_exception
-  term: catch (an exception)
 - key: conceptual_architecture
   term: conceptual architecture
 - key: css_selector
   term: CSS selector
-- key: defensive_programming
-  term: defensive programming
 - key: derive
   term: derive
 - key: design_by_contract
@@ -71,30 +63,18 @@ design:
   term: embedded database
 - key: er_diagram
   term: entity-relationship diagram
-- key: exception
-  term: exception
-- key: expected_result
-  term: expected result (of test)
-- key: external_error
-  term: external error
 - key: fidelity
   term: fidelity
-- key: fixture
-  term: fixture
 - key: fsm
   term: finite state machine
 - key: heuristic
   term: heuristic
 - key: in_memory_database
   term: in-memory database
-- key: internal_error
-  term: internal error
 - key: key
   term: key
 - key: layered_configuration
   term: layered configuration
-- key: logging
-  term: logging
 - key: microservice
   term: microservice
 - key: mvc
@@ -107,32 +87,39 @@ design:
   term: post-condition
 - key: pre_condition
   term: pre-condition
-- key: raise_exception
-  term: raise (an exception)
-- key: raster_image
-  term: raster image
-- key: rotating_file
-  term: rotating file
 - key: scriptable
   term: scriptable
 - key: string_io
   term: string I/O
-- key: test_framework
-  term: test framework
-- key: test_runner
-  term: test runner
 - key: type_declaration
   term: type declaration
 - key: uml
   term: Unified Modeling Language
-- key: unit_test
-  term: unit test
 - key: use_case_map
   term: use-case map
 - key: user_story
   term: user story
 - key: workflow_diagram
   term: workflow diagram
+errors:
+- key: assertion
+  term: assertion
+- key: catch_exception
+  term: catch (an exception)
+- key: defensive_programming
+  term: defensive programming
+- key: exception
+  term: exception
+- key: external_error
+  term: external error
+- key: internal_error
+  term: internal error
+- key: logging
+  term: logging
+- key: raise_exception
+  term: raise (an exception)
+- key: rotating_file
+  term: rotating file
 evaluation: []
 glossary: []
 important:
@@ -285,6 +272,21 @@ teams:
   term: sociotechnical congruence
 - key: team_contract
   term: team contract
+testing:
+- key: actual_result
+  term: actual result (of test)
+- key: expected_result
+  term: expected result (of test)
+- key: fixture
+  term: fixture
+- key: raster_image
+  term: raster image
+- key: test_framework
+  term: test framework
+- key: test_runner
+  term: test runner
+- key: unit_test
+  term: unit test
 thinking:
 - key: chunking
   term: chunking
