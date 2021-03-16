@@ -910,6 +910,17 @@
   title: "Paradise Unplugged: Identifying Barriers for Female Participation on Stack Overflow"
   year: 2016
 
+- key: Forsgren2018
+  kind: book
+  author:
+  - Nicole Forsgren
+  - Jez Humble
+  - Gene Kim
+  title: "Accelerate: Building and Scaling High Performing Technology Organizations"
+  publisher: "IT Revolution Press"
+  year: 2018
+  isbn: 978-1942788331
+
 - key: Fowler2018
   kind: book
   author:
