@@ -1,3 +1,5 @@
+- name: Titus Barik
+  url: https://www.barik.net/
 - name: Robert Beghian
   url: http://www.vasken.ca/
 - name: Adam Goucher
@@ -6,6 +8,8 @@
   url: http://johanharjono.com/
 - name: Daniel Jackson
   url: https://people.csail.mit.edu/dnj/
+- name: Kim Moir
+  url: https://kimmoir.blog/
 - name: Meiyappan Nagappan
   url: https://cs.uwaterloo.ca/~m2nagapp/
 - name: Elizabeth Patitsas
