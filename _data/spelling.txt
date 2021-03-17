@@ -345,6 +345,7 @@ Jin
 Jing
 Jira
 Johan
+Jordi
 Jorma
 Jossey
 Juha
@@ -516,6 +517,7 @@ Pekka
 Penta
 Perdriau
 PerezDeRosso
+Perri
 Petre
 Petri
 Petrov
@@ -876,6 +878,7 @@ inclusivity
 init
 jekyll
 js
+json
 kan
 kleenex
 labeled
@@ -904,6 +907,7 @@ nighters
 nobis
 npm
 observables
+ocracy
 offense
 oneline
 os
@@ -929,6 +933,7 @@ reinitializing
 relabeled
 repo
 reportVersion
+repos
 reprex
 reproducibility
 reviewable

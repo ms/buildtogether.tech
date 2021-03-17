@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">add discussion of motivation https://github.com/gvwilson/buildtogether.tech/issues/35</span>
+
 We know as much about teaching and learning as we do about public health. The
 problem is, while university professors are experts in their own fields, many of
 them don't know what we know.  Most people in the tech industry don't either,
@@ -388,6 +390,14 @@ answer they've given on a test, the harder it is to change their mind if they
 were actually wrong.  It turns out that the opposite is true: the more confident
 someone is that they were right, the more likely they are not to repeat the
 error if they are corrected.
+
+<div class="callout" markdown="1">
+
+### Learning styles
+
+<span class="fixme">explain that learning styles aren't real.</span>
+
+</div>
 
 ## Next Steps
 

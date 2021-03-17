@@ -284,6 +284,8 @@ where `user_language` is a two-letter code for the user's preferred language.
 
 ## Logging
 
+<span class="fixme">all logs should be machine readable https://github.com/gvwilson/buildtogether.tech/issues/49</span>
+
 Something else you can design into your system to make your life easier later on
 is <span g="logging">logging</span>, which is the professional alternative to
 `print` statements. Instead of writing:

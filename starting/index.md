@@ -30,6 +30,8 @@ extend an existing application; either way, you and your team are responsible
 for some or all of requirements analysis, design, implementation, testing,
 documentation, packaging, deployment, handoff, and review.
 
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/62 as framing</span>
+
 ## Why Projects?
 
 Project courses exist for several reasons:

@@ -7,6 +7,7 @@
     --color-code: #9c673a;
     --color-default: #000000;
     --color-highlight: #e0e0e0;
+    --color-warning: #a00000;
 
     /* Dimensions */
     --dim-border-default: 5px;
@@ -239,4 +240,14 @@ tbody tr:nth-child(odd) td {
 blockquote {
     border-left: solid var(--color-highlight) var(--dim-border-default);
     padding-left: var(--dim-border-default);
+}
+
+/* Things to fix */
+span.fixme {
+    color: var(--color-warning);
+    background-color: var(--color-highlight);
+}
+
+span.fixme::before {
+    content: "FIXME: "
 }

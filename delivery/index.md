@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">grades https://github.com/gvwilson/buildtogether.tech/issues/41</span>
+
 In most courses, once you've handed in an assignment you're done with it. Course
 projects are different: they often roll forward from one term to the next, so
 the end of one team's involvement isn't necessarily the end of the project, and
@@ -112,6 +114,8 @@ reporting bugs; what helps more is an option to report the versions of the
 libraries that your code depends on as well.  It only takes a few lines to add a
 function like `reportVersion(recursiveOrNot)` to a library, and someone, some
 day, will be very grateful that you did.
+
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/39 (dump info for debugging)</span>
 
 </div>
 

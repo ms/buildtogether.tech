@@ -37,8 +37,7 @@ Like these three personas, readers should:
 -   Know how to create directories, delete files, and find things with the Unix
     shell.
 
--   Know how to use [Git][git] to save and share files. (It's OK not to know
-    [the more obscure commands][git-man-page-generator].)
+-   Have used [Git][git] on individual projects.
 
 This book can be read on its own or as a companion to *[Software Tools in JavaScript][stjs]*,
 which teaches the basics of software design by showing you
@@ -73,7 +72,7 @@ medium term:
 
 -   What to do when things go wrong.
 
-The approach draws on a modified version of [Dobzhansky's Rule][dobzhansky]
+The approach draws on a modified version of [Dobzhansky's Rule][dobzhansky]:
 
 <blockquote markdown="1">
 
@@ -90,6 +89,10 @@ are doing something that helps us meet our personal goals, which means our
 projects will be more successful if we take motivation into account. And as we
 learn more, the best way for us to learn changes in predictable ways, so how we
 are taught should change too.
+
+<span class="fixme">we have tried to base it on research (ref to chapters)</span>
+
+<span class="fixme">goal is to build a good enough system with imperfect people - too many books talk about what to do if you're all good, sincere, etc.</span>
 
 ## Contributing
 

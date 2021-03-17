@@ -149,7 +149,17 @@ design, and that's pretty much it. Unlike blueprints in architecture or flow
 diagrams in chemical engineering, UML doesn't actually seem to help
 practitioners very much <cite>Petre2013</cite>.
 
+<span class="fixme">talk about diagrams with semantics and those without https://github.com/gvwilson/buildtogether.tech/issues/48</span>
+
 </div>
+
+## Show Me Your Data
+
+<span class="fixme">ER diagrams https://github.com/gvwilson/buildtogether.tech/issues/48</span>
+
+<span class="fixme">and https://github.com/gvwilson/buildtogether.tech/issues/54</span>
+
+<span class="fixme">PlantUML https://github.com/gvwilson/buildtogether.tech/issues/58 (and the problem of compiling text to diagrams)</span>
 
 ## Getting Started
 
@@ -511,6 +521,27 @@ emulate it by putting assertions at the start and end of our functions and
 methods, but there's no guarantee they'll be checked or enforced in derived
 versions.
 
+## Design for Accessibility
+
+<span class="fixme">harder to add after the fact</span>
+
+Close your eyes and try to navigate this website. Now imagine having to do that
+all day, every day. Imagine trying to use a computer when your hands are
+crippled by arthritis.  Better yet, don't imagine it: have one of your teammates
+tape some popsicle sticks to your fingers so you can't bend them and then see
+how easy it is to use video conferencing software.
+
+Making software accessible doesn't just help people with obvious disabilities:
+as <cite>Johnson2017</cite> points out, the population is aging, and everything
+you do to help people who are deaf also helps people who are gradually losing
+their hearing.
+
+<span class="fixme">forward ref to <span x="tooling"></span> discussion of WebAIM.</span>
+
+## Design for Security
+
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/64</span>
+
 ## Scriptability
 
 Rule #3 of <cite>Taschuk2017</cite> is, "Make common operations easy to
@@ -568,3 +599,5 @@ can't be cool: as a computer science professor said to me once about something
 similar, "I realize it's popular, but it's merely useful."
 
 </div>
+
+<span class="fixme">REST API https://github.com/gvwilson/buildtogether.tech/issues/51</span>

@@ -1,7 +1,7 @@
 ---
 ---
 
-FIXME: introduction to project structure
+<span class="fixme">introduction to project structure</span>
 
 ## What Goes Where
 
@@ -26,9 +26,9 @@ Markdown (`.md`) files.
 :   How to contribute to the project. Should people file an issue when they have
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
-    contribution guidelines increase the odds of people contributing
-    <cite>Sholler2019</cite>; in my experience, they also reduce friction
-    between team members.
+    contribution guidelines increase the odds of people contributing (<span
+    x="community"></span>); in my experience, they also reduce friction between
+    team members.
 
 Beyond that, every language has its own conventions for what files should go
 where in a project, for the simple reason that they all need different files.

@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/27 (team formation) - citations needed!</span>
+
 Students learn better in small teams than they do on their own
 <cite>Oakley2004</cite>.  As long as their teams work well, they achieve higher
 grades, retain information longer, are less likely to drop out of school, and
@@ -172,6 +174,8 @@ Because of this, you should never trust self-reported expertise, as there's no
 easy way to tell if someone really knows what they're talking about or if what
 they're actually reporting is their self-esteem.
 
+<span class="fixme">Dunning-Kruger https://github.com/gvwilson/buildtogether.tech/issues/28</span>
+
 </div>
 
 <span g="feature_decomposition">Feature decomposition</span> is a variation on
@@ -298,6 +302,12 @@ evaluations.
 
 ## People to Watch Out For
 
+<span class="fixme">rewrite in terms of how to identify and remedy counter-productive behaviors https://github.com/gvwilson/buildtogether.tech/issues/29</span>
+
+<span class="fixme">include description of first attempt and why it was unhelpful</span>
+
+<span class="fixme">cultural differences and neural differences</span>
+
 <blockquote markdown="1">
 
 All happy families resemble one another, but every unhappy family is unhappy in
@@ -374,24 +384,3 @@ different ways. Here are a few:
     if he's caring for a family member or struggling with mental health
     challenges, the most compassionate thing to do is to give him some time to
     get back on his feet.
-
-## Irreconcilable Differences
-
-Sometimes, it isn't just one person on the team who's a problem.  Sometimes, the
-whole team is dysfunctional. In the mid-1990s, for example, I worked in a data
-visualization startup. Individually, we were all smart, decent people. Put us
-together, though, and somehow our personalities and IQs canceled out, leaving us
-all dumb and nasty.
-
-Instructors can allow for this by announcing at the start of the course that
-teams will be dissolved and re-formed halfway through the project, *unless*
-every member on the team submits a separate signed request to stay together.
-There's a bit of psychology here: if people are required to ask for their team
-to be dissolved, they will often think, "It's more trouble than it's worth, I'll
-just put up with it." If dissolution is the default, though, then students won't
-be inhibited by any stigma attached to being the one who caused trouble.
-
-Students also usually understand that dissolving their team and forming a new
-one takes time that could be invested in earning a higher grade.  In practice,
-therefore, teams will usually stick together if they see that troublemakers are
-actually being dealt with.

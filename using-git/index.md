@@ -1,6 +1,10 @@
 ---
 ---
 
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/13</span>
+
+<span class="fixme">point to other tutorials https://github.com/gvwilson/buildtogether.tech/issues/47</span>
+
 Version control is the collective memory of the project. It's what lets you move
 files from one machine to another without clobbering stuff you just spent three
 hours writing, and without worrying about whether you forgot an all-important
@@ -41,7 +45,9 @@ g="mental_model">mental model</span> of how it works that contradicts its actual
 operation in important ways, and each of those contradictions produces a steady
 stream of "what the hell?"  moments. Other distributed version control systems
 like [Mercurial][mercurial] are proof that this complexity and pain are
-unnecessary.
+unnecessary.  The fact that most people don't immediately realize that [the
+random Git manual page generator][git-man-page-generator] is a hoax says a lot
+as well…
 
 So why do people keep using Git? The answer these days is, "Because it's the tax
 they have to pay in order to use [GitHub][github]." At the time of writing,
@@ -523,6 +529,8 @@ You have to be a bit of a masochist to try to read diffs like this. Even if you
 are using Git from the command line, it's a lot easier to view diffs using a GUI
 like [DiffMerge][diffmerge].
 
+<span class="fixme">mention difftool https://github.com/gvwilson/buildtogether.tech/issues/45</span>
+
 </div>
 
 Once we're sure we actually want to merge changes, we do so like this:
@@ -672,11 +680,10 @@ schoolwork.
 ## Using Git Together
 
 Version control really comes into its own when we are working with other people.
-Portals like [GitHub][github], [GitLab][gitlab], and [Bitbucket][bitbucket] are
-all designed to support this, and they all provide other tools for managing and
-reviewing shared information. This chapter looks at how to use those tools so
-that <span x="process"></span>'s discussion of software development processes
-will make more sense.
+Portals like GitHub, GitLab, and Bitbucket are all designed to support this, and
+they all provide other tools for managing and reviewing shared information. This
+chapter looks at how to use those tools so that <span x="process"></span>'s
+discussion of software development processes will make more sense.
 
 People can share work through a Git repository in one of two ways:
 
@@ -692,7 +699,7 @@ comfortable using Git, but if the project is larger, or if contributors are
 worried that they might make a mess in the `main` branch, the second approach is
 safer.
 
-FIXME: start by describing shared repo, then describe separate repos as extension
+<span class="fixme">start by describing shared repo, then describe separate repos as extension</span>
 
 Git itself doesn't have any notion of a "main repository", but GitHub and other
 software portals all encourage people to use Git as if there was one.  For
@@ -905,3 +912,7 @@ reveals a communication problem that Sami (or someone) needs to address.  If two
 or more people are constantly making incompatible changes to the same files,
 they should discuss who's supposed to be doing what, or rearrange the project's
 contents so that they aren't stepping on each other's toes.
+
+<span class="fixme">commit etiquette: https://github.com/gvwilson/buildtogether.tech/issues/56</span>
+
+<span class="fixme">good commit message https://github.com/gvwilson/buildtogether.tech/issues/75</span>

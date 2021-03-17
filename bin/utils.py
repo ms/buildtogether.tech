@@ -79,7 +79,7 @@ def get_all_matches(pattern, filenames, group=1, scrub=True, no_duplicates=False
 
 
 def get_entry_info(config):
-    '''Return dictionary of {slug, filename, label} for all chapters.'''
+    '''Return dictionary of {slug, title, file, kind, label} for all chapters.'''
     num_chapters = None
     kind = 'Chapter'
     result = []

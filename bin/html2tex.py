@@ -245,8 +245,13 @@ def convert(node, accum, doEscape):
 
     # chap => cross-reference of some kind
     elif node.name == 'span':
+        # FIXME
+        if has_class(node, 'fixme'):
+            accum.append(r'\fixme{')
+            convert_children(node, accum, doEscape)
+            accum.append(r'}')
         # figure
-        if node.has_attr('f'):
+        elif node.has_attr('f'):
             key = node['f']
             accum.append(rf'\figref{{{key}}}')
         # glossary

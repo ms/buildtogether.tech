@@ -1,9 +1,18 @@
+10-comfortable: []
 10-fired: []
 10-handover: []
 10-persuade:
 - key: 90_9_1_rule
   term: 90-9-1 rule
+automation:
+- key: build_manager
+  term: build manager
+- key: ci
+  term: continuous integration
+- key: pattern_rule
+  term: pattern rule
 bibliography: []
+business: []
 code-review:
 - key: code_review
   term: code review
@@ -28,9 +37,18 @@ collaborate:
   term: technical debt
 - key: utc
   term: Coordinated Universal Time
+community: []
 conclusion: []
 conduct: []
+conflict:
+- key: active_listening
+  term: active listening
+- key: hitchhiker
+  term: hitchiker
 contributing: []
+debugging:
+- key: symbolic_debugger
+  term: symbolic debugger
 delivery:
 - key: semantic_versioning
   term: semantic versioning
@@ -121,22 +139,68 @@ errors:
 evaluation: []
 glossary: []
 important:
-- key: active_listening
-  term: active listening
 - key: crunch_mode
   term: crunch mode
 - key: governance
   term: governance
-- key: hitchhiker
-  term: hitchiker
 - key: marthas_rules
   term: Martha's Rules
 - key: sense_vote
   term: sense vote
+internships: []
 introduction: []
+ip:
+- key: bsd_license
+  term: BSD license
+- key: cc0
+  term: CC0
+- key: cc_by
+  term: CC-BY
+- key: copyright
+  term: copyright
+- key: gpl
+  term: GNU Public License
+- key: intellectual_property
+  term: intellectual property
+- key: license
+  term: license
+- key: mit_license
+  term: MIT License
+- key: non_disclosure_agreement
+  term: non-disclosure agreement
+- key: open_license
+  term: open license
+- key: patent
+  term: patent
+- key: trade_secret
+  term: trade secret
+- key: trademark
+  term: trademark
 license: []
 links: []
+methods:
+- key: confounding_variables
+  term: confounding variables
+- key: control_group
+  term: control group
+- key: data_mining
+  term: data mining
+- key: double_blind
+  term: double blind
+- key: placebo
+  term: placebo
+- key: post_mortem
+  term: post-mortem
+- key: pre_registration
+  term: pre registration
+- key: qualitative_method
+  term: qualitative method
+- key: quasi_experiment
+  term: quasi experiment
+- key: treatment_group
+  term: treatment group
 novices: []
+packaging: []
 process:
 - key: ae
   term: analysis & estimation
@@ -182,73 +246,27 @@ research:
   term: code metric
 - key: cognitive_dimensions
   term: cognitive dimensions framework
-- key: confounding_variables
-  term: confounding variables
-- key: control_group
-  term: control group
-- key: data_mining
-  term: data mining
 - key: dead_code
   term: dead code
-- key: double_blind
-  term: double blind
 - key: dynamic_typing
   term: dynamic typing
 - key: fmri
   term: fmri
 - key: gqm
   term: goal-question-metric
-- key: placebo
-  term: placebo
-- key: post_mortem
-  term: post-mortem
-- key: pre_registration
-  term: pre registration
 - key: premature_commitment
   term: premature commitment
-- key: qualitative_method
-  term: qualitative method
-- key: quasi_experiment
-  term: quasi experiment
 - key: root_cause
   term: root cause
 - key: static_typing
   term: static typing
-- key: treatment_group
-  term: treatment group
 rights:
 - key: ally
   term: ally
-- key: bsd_license
-  term: BSD license
-- key: cc0
-  term: CC0
-- key: cc_by
-  term: CC-BY
-- key: copyright
-  term: copyright
-- key: gpl
-  term: GNU Public License
-- key: intellectual_property
-  term: intellectual property
-- key: license
-  term: license
-- key: mit_license
-  term: MIT License
-- key: non_disclosure_agreement
-  term: non-disclosure agreement
-- key: open_license
-  term: open license
 - key: oppression
   term: oppression
-- key: patent
-  term: patent
 - key: privilege
   term: privilege
-- key: trade_secret
-  term: trade secret
-- key: trademark
-  term: trademark
 starting:
 - key: elevator_pitch
   term: elevator pitch
@@ -328,10 +346,6 @@ thinking:
 tooling:
 - key: auto_completion
   term: auto-completion
-- key: build_manager
-  term: build manager
-- key: ci
-  term: continuous integration
 - key: code_browser
   term: code browser
 - key: compiled_language
@@ -356,8 +370,6 @@ tooling:
   term: interpreted language
 - key: jit
   term: just-in-time compiler
-- key: pattern_rule
-  term: pattern rule
 - key: plugin
   term: plugin
 - key: refactoring
@@ -366,8 +378,6 @@ tooling:
   term: strong typing
 - key: style_checker
   term: style checker
-- key: symbolic_debugger
-  term: symbolic debugger
 - key: test_runner
   term: test runner
 - key: wysiwyg

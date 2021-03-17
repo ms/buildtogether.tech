@@ -19,6 +19,8 @@ to adapt that routine to the imposed chaos of student life. It then compares two
 processes widely used in industry that will give you an idea of what to do week
 by week.
 
+<span class="fixme">reframe in terms of feedback loops at various scales https://github.com/gvwilson/buildtogether.tech/issues/80</span>
+
 ## Daily Routine
 
 Most guides to being productive tell you to establish a routine.  Research shows
@@ -162,6 +164,8 @@ with frequent course corrections.  If we can get accurate feedback at each step
 and new realizations more easily.
 
 ## Agile
+
+<span class="fixme">I'm describing Scrum not Agile https://github.com/gvwilson/buildtogether.tech/issues/50</span>
 
 The term "agile" was coined in 2001 to describe a bottom-up style of software
 project management based on short iterations and frequent feedback from both
@@ -447,9 +451,7 @@ to do it once or twice during your project course, since you only really see the
 benefits with practice, but I hope that even once will be enough to convince you
 that it's worth doing.
 
-<div class="callout" markdown="1">
-
-### Triage
+## Triage
 
 When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
@@ -461,7 +463,9 @@ will help with this: by the time you are a few weeks into your project, you
 should be able to update the effort estimates, add newly-discovered issues, and
 draw up a more realistic plan.
 
-</div>
+<span class="fixme">revise the spec https://github.com/gvwilson/buildtogether.tech/issues/37</span>
+
+<span class="fixme">product manager's role here (ref <cite>Perri2018</cite>)</span>
 
 ## Which Process Should You Use?
 

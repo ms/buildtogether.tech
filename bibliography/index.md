@@ -1182,6 +1182,12 @@ Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wil
 "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
 <em>PLoS Computational Biology</em>, 15(9), 2019, <a href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
 </dd>
+<dt id="solnit2010" class="bibliography">Solnit2010</dt>
+<dd>
+Rebecca Solnit:
+<em>A Paradise Built in Hell: The Extraordinary Communities That Arise in Disaster</em>.
+Penguin Books, 2010, 978-0143118077.
+</dd>
 <dt id="soloway1984" class="bibliography">Soloway1984</dt>
 <dd>
 Elliot Soloway and Kate Ehrlich:

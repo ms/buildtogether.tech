@@ -1,7 +1,9 @@
 ---
 ---
 
-FIXME: intro to testing
+<span class="fixme">intro to testing</span>
+
+<span class="fixme">fuzz testing https://github.com/gvwilson/buildtogether.tech/issues/65</span>
 
 ## Unit Testing
 
@@ -59,4 +61,4 @@ the correct plot.
 
 ## Performance Testing
 
-FIXME: profiling and performance testing
+<span class="fixme">profiling and performance testing</span>

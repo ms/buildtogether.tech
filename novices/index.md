@@ -125,9 +125,9 @@ fact, they spend 13--25% of their time doing this.  However, reading error
 messages turns out to be as difficult as reading source code, and how difficult
 it is to read the error messages strongly predicts task performance.
 
-<div class="callout" markdown="1">
+## Does Visualization Help?
 
-### Does visualization help?
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/16 (blocks)</span>
 
 Visualizing program execution is a perennially popular idea, but people learn
 more from constructing visualizations than they do from viewing visualizations
@@ -148,5 +148,3 @@ flowcharts better than pseudocode *if both are equally well structured*
 <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode outperformed
 flowcharts used structured pseudocode and tangled flowcharts; when the playing
 field was leveled, novices did better with the graphical representation.
-
-</div>

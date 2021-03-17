@@ -1,8 +1,7 @@
 ---
 ---
 
-FIXME: knowing how to steer and change gears isn't the same as knowing how to
-drive in traffic.
+<span class="fixme">knowing how to steer and change gears isn't the same as knowing how to drive in traffic.</span>
 
 ## To Do
 
@@ -89,11 +88,13 @@ also improve <span g="discoverability">discoverability</span>; while `type` and
 to sort and filter issues.
 
 Finally, the description briefly summarizes the problem. If the author hadn't
-already identified the cause, it would include a <span g="reprex">reproducible
-example</span>, or reprex. This helps the person understand what the issue is
-much more than, "The program crashes when I open strange files," but experience
-shows that if people are required to come up with a reprex when filing an issue,
-they will often solve their own problem along the way.
+already identified the cause, it should include a <span g="reprex">reproducible
+example</span> (also called a reprex). This helps the person understand what the
+issue is much more than, "The program crashes when I open strange files," but
+experience shows that if people are required to come up with a reprex when
+filing an issue, they will often solve their own problem along the way.  We'll
+talk more about the value of minimal reproducible examples in <span
+x="debugging"></span>.
 
 <div class="callout" markdown="1">
 
@@ -176,6 +177,10 @@ milestones can have a due date and display aggregate progress toward completion,
 so the team can easily see when work is due and how much is left to be done.
 
 ## Other Ways to Communicate
+
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/11</span>
+
+<span class="fixme">comments in code as communication https://github.com/gvwilson/buildtogether.tech/issues/57</span>
 
 Issues are the best way to keep track of where you are, but there are lots of
 other ways the team can and should communicate. The most popular is easily
@@ -418,5 +423,5 @@ Allow for a chorus of explanations.
 :   If users are different from one another, they are best served by a chorus of
     explanations <cite>Caulfield2016</cite>.  Do not be afraid of providing
     multiple explanations to a single question that suggest different approaches
-    or are written for different prior levels of understanding. FIXME: this is
-    why Stack Overflow has been successful.
+    or are written for different prior levels of understanding.  <span
+    class="fixme">this is why Stack Overflow has been successful.</span>

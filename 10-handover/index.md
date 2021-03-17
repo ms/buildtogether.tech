@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/37 link</span>
+
 Your course project will probably end when the course does, but you might decide
 to carry on with it.  If you do, and if other people join in, you may eventually
 decide that it's time for you to move over.  This advice is based on my

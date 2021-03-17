@@ -2306,6 +2306,15 @@
   year: 2019
   doi: 10.1371/journal.pcbi.1007296
 
+- key: Solnit2010
+  kind: book
+  author:
+  - Rebecca Solnit
+  title: "A Paradise Built in Hell: The Extraordinary Communities That Arise in Disaster"
+  publisher: Penguin Books
+  year: 2010
+  isbn: 978-0143118077
+
 - key: Soloway1984
   kind: article
   author:

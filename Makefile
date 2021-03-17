@@ -154,6 +154,10 @@ list-html-attributes: ${HOME_PAGE}
 release:
 	@zip -r ../template.zip ${RELEASE_FILES} --exclude ${RELEASE_EXCLUDES}
 
+## show-fixme: what still needs to be done?
+show-fixme:
+	@bin/show-fixme.py --config ${CONFIG} | column -t -s '|'
+
 ## show-pages: how many pages are in the PDF version?
 show-pages: book.pdf
 	@bin/show-pages.py --input book.aux | column -t -s '|'
