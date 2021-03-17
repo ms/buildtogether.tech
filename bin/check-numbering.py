@@ -20,6 +20,7 @@ def check_numbering(options):
     '''Main driver.'''
     numbering = utils.read_yaml(options.numbering)
     check_cross_references(numbering, options.sources)
+    check_self_references(numbering)
     check_figures(numbering, options.sources)
     check_tables(numbering, options.sources)
 
@@ -29,6 +30,19 @@ def check_cross_references(numbering, filenames):
     defined = set([entry['slug'] for entry in numbering['entries']])
     referenced = utils.get_all_matches(CROSS_REF, filenames)
     utils.report('cross-references', checkOnlyRight=False, referenced=referenced, defined=defined)
+
+
+def check_self_references(numbering):
+    '''Make sure chapters don't refer to themselves.'''
+    problems = set()
+    for entry in numbering['entries']:
+        referenced = utils.get_matches(CROSS_REF, entry['file'])
+        if entry['slug'] in referenced:
+            problems.add(entry['file'])
+    if problems:
+        print('- self-references')
+        for filename in sorted(problems):
+            print(f'  - {filename}')
 
 
 def check_figures(numbering, filenames):

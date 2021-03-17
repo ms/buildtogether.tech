@@ -1,29 +1,27 @@
+10-fired: []
+10-handover: []
+10-persuade:
+- key: 90_9_1_rule
+  term: 90-9-1 rule
 bibliography: []
-collaborate:
+code-review:
 - key: code_review
   term: code review
+collaborate:
 - key: discoverability
   term: discoverability
 - key: doc_comment
   term: doc comment
 - key: docstring
   term: docstring
-- key: feigning_ignorance
-  term: feigning ignorance
-- key: fork_git
-  term: fork
 - key: issue_label
   term: label (an issue)
 - key: issue_tracker
   term: issue tracker
 - key: milestone
   term: milestone
-- key: pull_request
-  term: pull request
 - key: reprex
   term: reproducible example (reprex)
-- key: schrodingers_asshole
-  term: "Schr\xF6dinger's Asshole"
 - key: static_site_generator
   term: static site generator
 - key: technical_debt
@@ -168,6 +166,11 @@ process:
   term: triage
 - key: waterfall_model
   term: waterfall model
+project:
+- key: feigning_ignorance
+  term: feigning ignorance
+- key: schrodingers_asshole
+  term: "Schr\xF6dinger's Asshole"
 research:
 - key: affective_state
   term: affective state
@@ -250,8 +253,6 @@ starting:
 - key: elevator_pitch
   term: elevator pitch
 teams:
-- key: 90_9_1_rule
-  term: 90-9-1 rule
 - key: alpha_geek
   term: alpha geek
 - key: big_bang
@@ -371,7 +372,7 @@ tooling:
   term: test runner
 - key: wysiwyg
   term: What You See Is What You Get
-versioning:
+using-git:
 - key: branch_git
   term: branch
 - key: branch_per_feature_workflow
@@ -392,12 +393,16 @@ versioning:
   term: decentralized system
 - key: flag
   term: flag
+- key: fork_git
+  term: fork
 - key: mental_model
   term: mental model
 - key: merge_git
   term: merge
 - key: pull_git
   term: pull
+- key: pull_request
+  term: pull request
 - key: push
   term: push
 - key: rebase_git

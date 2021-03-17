@@ -29,11 +29,11 @@ g="centralized_system">centralized systems</span>:
     repository and combine them with their own work.
 
 Centralized version control systems have largely been replaced by <span
-g="decentralized_system">decentralized</span> ones, and in particular by a tool
-called [Git][git]. In theory, Git doesn't need a main repository; instead,
-developers can merge the contents of any repository with any other one.  In
-practice, almost every project designates one repository as the master copy so
-that everyone knows where to look to find the current state of the project.
+g="decentralized_system">decentralized</span> ones, and in particular by one
+called [Git][git]. In theory, Git doesn't need a main repository: developers can
+merge the contents of any repository with any other one.  In practice, almost
+every project designates one repository as the master copy so that everyone
+knows where to look to find the current state of the project.
 
 Unfortunately, Git has a needlessly complicated interface.
 <cite>PerezDeRosso2013</cite> found that even experienced users have a <span
@@ -42,6 +42,18 @@ operation in important ways, and each of those contradictions produces a steady
 stream of "what the hell?"  moments. Other distributed version control systems
 like [Mercurial][mercurial] are proof that this complexity and pain are
 unnecessary.
+
+So why do people keep using Git? The answer these days is, "Because it's the tax
+they have to pay in order to use [GitHub][github]." At the time of writing,
+GitHub has over 40 million users and hosts over 28 million public repositories,
+including those for many well-known open source projects. It is easily the most
+popular <span g="software_portal">software portal</span> in existence, and
+offers all of the tools a small software team needs. Other portals exist, such
+as [Bitbucket][bitbucket] and [GitLab][gitlab], but GitHub's share of the
+educational market is even larger than than its share of professional
+development.  If you're using anything in class, you're almost certainly using
+it, and it's probably helping you become a better programmer
+<cite>Hsing2019</cite>.
 
 <div class="callout" markdown="1">
 
@@ -55,27 +67,15 @@ original Git.
 
 </div>
 
-So why do people keep using Git? The answer these days is, "Because it's the tax
-they have to pay in order to use [GitHub][github]." At the time of writing,
-GitHub has over 40 million users and hosts over 28 million public repositories,
-including those for many well-known open source projects. It is easily the most
-popular <span g="software_portal">software portal</span> in existence, and
-offers all of the tools a small software team needs. Other portals exist, such
-as [Bitbucket][bitbucket] and [GitLab][gitlab], but GitHub's share of the
-educational market is even larger than than its share of professional
-development, so if you're using anything in class, you're almost certainly using
-it, and it's probably helping you become a better programmer
-<cite>Hsing2019</cite>.
-
-This chapter won't try to teach you Git from scratch:
-[GitHub's guides][github-guides] do an excellent job of that, as does
-[the Carpentries][carpentries] [lesson on Git][carpentries-git].
-Instead, we will review the basics that we hope you have learned previous, then
-look at how to use Git and GitHub to collaborate. We will show the commands as
-if you were typing them on the command line; if you are a beginner, we recommend
-that you use a graphical interface like [GitKraken][gitkraken] or the one that
-comes with your IDE. These GUIs are all layered on top of the commands we are
-going to discuss, so they (should) all work the same way.
+This chapter won't try to teach you Git from scratch: [GitHub's
+guides][github-guides] do an excellent job of that, as does [the
+Carpentries][carpentries] [lesson on Git][carpentries-git].  Instead, we will
+review the basics that we hope you have learned previous, then look at how to
+use Git and GitHub to collaborate. We will show the commands as if you were
+typing them on the command line; if you are a beginner, we recommend that you
+use a graphical interface like [GitKraken][gitkraken] or the one that comes with
+your IDE (<span x="tooling"></span>). These GUIs are all layered on top of the
+commands we are going to discuss, so they (should) all work the same way.
 
 <div class="callout" markdown="1">
 
@@ -669,55 +669,239 @@ confusing ways, particularly if you have merged changes from another branch
 into the one you're squashing, so we recommend that you avoid it for
 schoolwork.
 
-## What Goes Where
+## Using Git Together
 
-Every project should have a handful of files in its root directory; these may
-have UPPERCASE names without an extension, or may be plain text (`.txt)` or
-Markdown (`.md`) files.
+Version control really comes into its own when we are working with other people.
+Portals like [GitHub][github], [GitLab][gitlab], and [Bitbucket][bitbucket] are
+all designed to support this, and they all provide other tools for managing and
+reviewing shared information. This chapter looks at how to use those tools so
+that <span x="process"></span>'s discussion of software development processes
+will make more sense.
 
-`README`
-:   A brief overview of the project that often serves as its home page on
-    GitHub.
+People can share work through a Git repository in one of two ways:
 
-`LICENSE`
-:   Describes who can do what with the project materials.  We discuss various
-    licenses in <span x="rights"></span>
+1.  Everyone has read and write access to a single shared repository.
 
-`CONDUCT`
-:   The project's Code of Conduct, i.e., how people are required to treat one
-    another.  As we'll discuss in <span x="collaborate"></span>, "be polite" or
-    "use your common sense" aren't enough.
+2.  Everyone can read from the project's main repository, but only a few people
+    can commit changes to it.  The project's other contributors <span
+    g="fork_git">fork</span> the main repository to create one that they own, do
+    their work in that, and then submit their changes to the main repository.
 
-`CONTRIBUTING`
-:   How to contribute to the project. Should people file an issue when they have
-    a question, email a list, or post something on chat, and if so, where?  What
-    code formatting conventions does the project use?  Research shows that clear
-    contribution guidelines increase the odds of people contributing
-    <cite>Sholler2019</cite>; in my experience, they also reduce friction
-    between team members.
+The first approach works well for teams of up to half a dozen people who are all
+comfortable using Git, but if the project is larger, or if contributors are
+worried that they might make a mess in the `main` branch, the second approach is
+safer.
 
-Beyond that, every language has its own conventions for what files should go
-where in a project, for the simple reason that they all need different files.
-In a Jekyll website like this one, for example, the layout is:
+FIXME: start by describing shared repo, then describe separate repos as extension
 
-`_config.yml`
-:   A configuration file with the author's name, a list of any plugins that the
-    site needs to build, the rules for generating URLs for blog posts, and so
-    on.
+Git itself doesn't have any notion of a "main repository", but GitHub and other
+software portals all encourage people to use Git as if there was one.  For
+example, suppose that Amira wants to contribute to the assignment that Sami is
+hosting on GitHub at `https://github.com/sami/homework5`.  Amira can go to that
+URL and click on the "Fork" button in the upper right corner.  GitHub goes ahead
+and creates a copy of Sami's repository within Amira's account on GitHub's own
+servers. When the command completes, nothing has happened yet on Amira's own
+machine: the new repository exists only on GitHub.  When Amira explores its
+history, she sees that it contains all of the changes Sami made (<span
+f="after-fork"></span>).
 
-`_layouts`
-:   A directory containing templates for pages.
+{% include figure id="after-fork" alt="After forking" cap="What repositories are where after forking." fixme=true %}
 
-`_includes/`
-:   A directory containing any snippets shared between those templates.
+A fork of a repository is a clone just like the ones you have created earlier;
+it's just hosted on the portal's servers instead of your laptop.  In order to
+start working on the project, Amira needs a clone of *their* repository (not
+Sami's) on their own computer.  We will modify Amira's prompt to include their
+desktop user ID (`amira`) and working directory (initially `~`) to make it
+easier to follow what's happening:
 
-`_site`
-:   The directory containing the generated web pages. If the site doesn't need
-    any special plugins, this directory doesn't have to be included in version
-    control: GitHub will re-create it automatically. If the site does use
-    plugins, on the other hand, the authors have to generated the HTML and
-    commit it themselves.
+```sh
+amira:~ $ git clone https://github.com/amira/homework5.git
+```
 
-Learning what goes where for your languages of choice is like learning when to
-signal when driving a car: the rules may vary from place to place, but
-everywhere *has* rules, and knowing them will help prevent you from crashing.
+This command creates a new directory with the same name as the project on
+Amira's machine (<span f="after-clone"></span>).  When Amira goes into this
+directory and runs `ls` and `git log`, she sees all of the project's files and
+history:
+
+```sh
+amira:~ $ cd homework5
+amira:~/homework5 $ ls
+```
+
+```sh
+amira:~/homework5 $ git log --oneline -n 4
+```
+
+{% include figure id="after-clone" alt="After cloning" cap="What repositories are where after cloning." fixme=true %}
+
+Amira also sees that Git has automatically created a remote for their repository
+that points back at their repository on GitHub:
+
+```sh
+amira:~/homework5 $ git remote -v
+```
+```out
+origin  https://github.com/amira/homework5.git (fetch)
+origin  https://github.com/amira/homework5.git (push)
+```
+
+Amira can pull changes from their fork and push work back there, but needs to
+add a remote pointing at Sami's repository first (<span f="after-remote"></span>):
+
+```sh
+amira:~/homework5 $ git remote add upstream https://github.com/sami/homework5.git
+amira:~/homework5 $ git remote -v
+```
+```out
+origin      https://github.com/amira/homework5.git (fetch)
+origin      https://github.com/amira/homework5.git (push)
+upstream    https://github.com/sami/homework5.git (fetch)
+upstream    https://github.com/sami/homework5.git (push)
+```
+
+{: .continue}
+Amira has called their new remote `upstream` because it points at the repository
+theirs is derived from.  She could use any name, but `upstream` is a nearly
+universal convention.
+
+{% include figure id="after-remote" alt="Git remotes" cap="Which Git remotes point where." fixme=true %}
+
+With this remote in place, Amira is finally set up.  Suppose, for example, that
+Sami has modified the project's `README.md` file to add Amira as a contributor.
+(Again, we show Sami's user ID and working directory in her prompt to make it
+clear who's doing what):
+
+```txt
+# Homework 5
+
+Our homework project
+
+## Contributors
+
+- Sami
+- Amira
+```
+
+Sami commits their changes and pushes them to *their* repository on GitHub:
+
+```sh
+sami:~/homework5 $ git commit -a -m "Adding Amira as a contributor"
+sami:~/homework5 $ git push origin main
+```
+
+Sami's changes are now on their desktop computer and in their GitHub repository
+but not in either of Amira's repositories (local or remote).  Since Amira has
+created a remote that points at Sami's GitHub repository, though, she can easily
+pull those changes to their desktop:
+
+```sh
+amira:~/homework5 $ git pull upstream main
+```
+
+Pulling from a repository owned by someone else is no different than pulling
+from a repository you own.  In either case, Git merges the changes and asks you
+to resolve any conflicts that arise.  The only significant difference is that,
+as with `git push` and `git pull`, you have to specify both a remote and a
+branch: in this case, `upstream` and `main`.
+
+Amira can now get Sami's work, but how can Sami get Amira's?  They could create
+a remote that pointed at Amira's repository on GitHub and periodically pull in
+Amira's changes, but that would lead to chaos, since they could never be sure
+that everyone's work was in any one place at the same time.  Instead, almost
+everyone uses <span g="pull_request">pull requests</span> (PR).  A PR is
+essentially a note saying, "Someone would like to merge branch A of repository B
+into branch X of repository Y".  The PR does not contain the changes, but
+instead points at two particular branches.  That way, the difference displayed
+is always up to date if either branch changes.
+
+But a PR can store more than just the source and destination branches: it can
+also store comments people have made about the proposed merge.  Users can
+comment on the PR as a whole, or on particular lines, and mark comments as out
+of date if the author of the PR updates the code that the comment is attached
+to.  Complex changes can go through several rounds of review and revision before
+being merged, which makes PRs the review system we all wish journals actually
+had.
+
+To see this in action, suppose Amira wants to add their email address to
+`README.md`.  She creates a new branch and switches to it:
+
+```sh
+amira:~/homework5 $ git checkout -b adding-email
+```
+
+{: .continue}
+then makes a change and commit it:
+
+```sh
+amira:~/homework5 $ git commit -a -m "Adding my email address"
+```
+
+```sh
+amira:~/homework5 $ git diff HEAD~1
+```
+
+Amira's changes are only in her local repository.  She cannot create a pull
+request until those changes are on GitHub, so she pushes her new branch to her
+repository on GitHub:
+
+```sh
+amira:~/homework5 $ git push origin adding-email
+```
+
+When Amira views her repository in the browser, GitHub notices that she has just
+pushed a new branch and asks her if she wants to create a PR.  When she clicks
+on the button, GitHub displays a page showing the default source and destination
+of the PR and a pair of editable boxes for the pull request's title and a longer
+comment.
+
+If she scrolls down, Amira can see a summary of the changes that will be in the
+PR.  When she clicks "Create Pull Request", Git gives it a unique serial number
+(which is *not* a commit ID).  The PR is displayed in Sami's repository rather
+than Amira's since it is Sami's repository that will be affected if the PR is
+merged.
+
+Clicking on the "Pull requests" tab in Sami's repository brings up a list of PRs
+and clicking on the PR link itself displays its details.  Amira and Sami can
+both see and interact with these pages, though only Sami has permission to
+merge.
+
+Since there are no conflicts, GitHub will let Sami merge the PR immediately
+using the "Merge pull request" button.  They could also discard or reject it
+without merging using the "Close pull request" button.  Instead, they click on
+the "Files changed" tab to see what Amira has changed.
+
+If Amira changes `README.md`, commits, and pushes to her branch while the pull
+request is open, the PR is immediately updated.  As explained above, a PR is a
+note asking that two branches be merged, so if either end of the merge changes,
+the PR updates automatically.
+
+If Sami has merged several PRs, Amira can update her desktop repository by
+pulling from her `upstream` repository (i.e., Sami's repository):
+
+```sh
+amira:~/homework5 $ git checkout main
+amira:~/homework5 $ git pull upstream main
+```
+
+Finally, Amira can their those changes back to the `main` branch in her own
+repository on GitHub:
+
+```sh
+amira:~/homework5 $ git push origin main
+```
+
+All four repositories are now synchronized. If there are any conflicts along the
+way, Sami and Amira can resolve them just as they would resolve conflicts
+between branches in a single repository.  GitHub and other portals do allow
+people to merge conflicts through their browser-based interfaces, but doing it
+on our desktop means we can use our favorite editor to resolve the conflict.  It
+also means that if the change affects the project's code, we can run everything
+to make sure it still works.
+
+But what if Amira or someone else merges another change while Sami is resolving
+this one, so that by the time she pushes to her repository there is another,
+different, conflict?  In theory this cycle could go on forever; in practice, it
+reveals a communication problem that Sami (or someone) needs to address.  If two
+or more people are constantly making incompatible changes to the same files,
+they should discuss who's supposed to be doing what, or rearrange the project's
+contents so that they aren't stepping on each other's toes.

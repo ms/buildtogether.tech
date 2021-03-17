@@ -105,7 +105,7 @@ some people claim is actually Lisp-based operating system in disguise).
 
 ### Punchcards once again
 
-As we noted in <span x="versioning"></span>, programming is still stuck in the
+As we noted in <span x="using-git"></span>, programming is still stuck in the
 punchcard era: we still insist that source code be represented as lines of
 characters that are drawn one-for-one on the screen.  <span
 g="wysiwyg">WYSIWYG</span> editors like Microsoft Word did away with this model

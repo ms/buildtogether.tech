@@ -1010,6 +1010,12 @@ Santiago Perez De Rosso and Daniel Jackson:
 "Purposes,  Concepts,  Misfits,  and a Redesign of Git".
 <em>Proc. OOPSLA'16</em>, <a href="https://doi.org/10.1145/2983990.2984018">10.1145/2983990.2984018</a>.
 </dd>
+<dt id="perri2018" class="bibliography">Perri2018</dt>
+<dd>
+Melissa Perri:
+<em>Escaping the Build Trap: How Effective Product Management Creates Real Value</em>.
+O'Reilly Media, 2018, 978-1491973790.
+</dd>
 <dt id="petre2013" class="bibliography">Petre2013</dt>
 <dd>
 Marian Petre:

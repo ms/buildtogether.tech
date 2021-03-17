@@ -164,7 +164,7 @@ Sort the list so that the most important tasks are at the top.
     into order, since I'm going to re-check my list before I get to them anyway.
 
 Make sure you have everything you need to see the first task through.
-:   The most recent files from version control (<span x="versioning"></span>),
+:   The most recent files from version control (<span x="using-git"></span>),
     the assignment specification, a fresh cup of tea---whatever it is, don't
     give yourself an excuse to interrupt your work, because the world will
     provide enough of those.
@@ -459,7 +459,7 @@ Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
-section in the project's `README` file (<span x="versioning"></span>) or put
+section in the project's `README` file (<span x="using-git"></span>) or put
 into a separate file called `CONTRIBUTING`.  This material should describe the
 naming conventions to use for functions, what tags to put on issues, or how to
 install and configure the software needed to start work on the project.
