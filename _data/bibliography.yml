@@ -1986,6 +1986,14 @@
   year: 2016
   doi: 10.1145/2983990.2984018
 
+- key: Perri2018
+  kind: book
+  author:
+  - Melissa Perri
+  title: "Escaping the Build Trap: How Effective Product Management Creates Real Value"
+  publisher: "O'Reilly Media"
+  isbn: 978-1491973790
+
 - key: Petre2013
   kind: inproceedings
   author:
