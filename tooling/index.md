@@ -220,6 +220,8 @@ indicate problems. Compilers also do a lot of static analysis; the non-fatal
 warnings they produce are a lot more useful than many students realize, and a
 "zero warnings" policy can prevent a lot of subtle bugs.
 
+<span class="fixme">Reviews are much more straightforward when you don't have to worry about style choices that much.</span>
+
 Another class of tools uses *dynamic analysis*: they watch your program run, and
 look for things like memory leaks, or inconsistent locking that might lead to
 deadlocks or race conditions. FindBugs is the best-known in the Java world; the
