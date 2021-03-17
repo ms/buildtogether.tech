@@ -68,6 +68,8 @@ something you can show off in a job interview.
 
 ## Grades
 
+<span class="fixme">deciding what to build (escaping the build trap) and its relation to grades</span>
+
 The first step in any project (not just classroom projects) is to figure out
 where the goalposts are, so you know which way to kick the ball.  If you're an
 academic, this means finding something that is interesting and challenging

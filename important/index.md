@@ -6,8 +6,6 @@ software.  Instead, the worst mistakes people make are related to the human side
 of things. Before we look at teamwork or tools, we need to talk about overwork,
 how to run a meeting, and how to resolve arguments.
 
-<span class="fixme">deciding what to build (escaping the build trap)</span>
-
 <div class="callout" markdown="1">
 
 ### Not writing software takes less time
@@ -247,18 +245,23 @@ productivity <cite>Bernstein2018</cite>.
 
 </div>
 
-<span class="fixme">add a note on ADHD https://github.com/gvwilson/buildtogether.tech/issues/31 https://twitter.com/NomeDaBarbarian/status/1369846245200515072 (who gets to decide? forward ref to <span x="rights"></span>)</span>
+<span class="fixme">add a note on ADHD https://github.com/gvwilson/buildtogether.tech/issues/31 https://twitter.com/NomeDaBarbarian/status/1369846245200515072 (who gets to decide? forward ref to discussion of rights)</span>
 
 ## Meetings
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/32 (who gets appointed to take notes)</span>
-
-<span class="fixme">Difference between discussion meetings and decision meetings</span>
-
 The previous section explained how to be productive individually---what about
-being productive in a team? <span x="teams"></span> will explore this subject,
-but the single most important thing is knowing how to run a meeting efficiently.
-The rules doing so are simple but rarely followed:
+being productive in a team?  The most important thing is running meetings
+efficiently.  The rules doing so are simple but rarely followed:
+
+Keep discussion meetings and decision meetings separate.
+:   A <span g="discussion_meeting">discussion meeting</span>'s purpose is to
+    explore design alternatives or figure out what next term's goals should be.
+    A <span g="decision_meeting">decision meeting</span> on the other hand, is
+    for choosing which alternatives to pursue.  Discussion meetings are meant to
+    be wide-ranging (and fun); decision meetings should be short and focused.
+    The two are never completely distinct in practice, but decision-making is
+    more efficient if it isn't mixed with brainstorming. The rest of these
+    rules focus on decision meetings.
 
 Decide if there actually needs to be a meeting.
 :   If the only purpose is to share information, have everyone send a brief
@@ -294,12 +297,16 @@ Make one person responsible for keeping things moving.
 Require politeness.
 :   No one gets to be rude, no one gets to ramble, and if someone goes off
     topic, it's the moderator's job to say, "Let's discuss that elsewhere."
+    As discussed below, this is *not* the same as assuming that everyone has
+    good intentions, and that if they say something rude it was just an
+    accident.
 
 No interruptions.
-:   Participants should raise a finger, hand, put up a sticky note, or make
-    another well understood gesture to indicate when they want to speak.  The
-    moderator should keep track of who wants to speak and give them time in
-    turn.
+:   This rule is a special case of the one above, since treating other people
+    with respect is the sincerest form of politeness.  Participants should raise
+    a finger, hand, put up a sticky note, or make another well understood
+    gesture to indicate when they want to speak.  The moderator should keep
+    track of who wants to speak and give them time in turn.
 
 No distractions.
 :   Side conversations make meetings less efficient because nobody can actually
@@ -313,8 +320,10 @@ No distractions.
 Take minutes.
 :   Someone other than the moderator should take point-form notes about the most
     important information that was shared, and about every decision that was
-    made or every task that was assigned to someone.  This should be a rotating
-    duty among members.
+    made or every task that was assigned to someone.  This responsibility should
+    rotate each meeting so that everyone has to take a turn; otherwise, as
+    discussed in <span x="teams"></span>, the burden will fall unfairly on some
+    people.
 
 End early.
 :   If the meeting is scheduled for 10:00--11:00, aim to end at 10:50 to give
@@ -324,7 +333,27 @@ End early.
 
 ### I don't like your tone
 
-<span class="fixme">tone policing https://github.com/gvwilson/buildtogether.tech/issues/33</span>
+<span g="tone_policing">Tone policing</span> is a tactic used to shut down
+discussion by criticizing people for expressing emotion.  It is often used
+against women, who are told to "calm down" when they show any sign of being
+angry at being excluded or not taken seriously. As [this
+article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
+
+<blockquote>
+
+People often reach for positive statements like "assume good intent" because
+they're worried about people being "shamed" over innocent mistakes. But society
+at large is already inclined to assume good intent in people with power and
+privilege–even when they're not demonstrating it. If you want to build a culture
+of "assuming good intent," start by assuming good intent in marginalized people.
+
+Assume that they already tried being nice. Assume that their feelings are
+valid. Assume that, after a lifetime of practice, they are responding to harmful
+behavior in the way that is safest for them.  Prioritize that safety over the
+momentary discomfort people feel when they realize they've done something
+hurtful.
+
+</blockquote>
 
 </div>
 

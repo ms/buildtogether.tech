@@ -1,4 +1,5 @@
 ACM
+ADHD
 APIs
 ASCD
 ASE
@@ -31,6 +32,7 @@ Andrey
 André
 Angophora
 Anikó
+Annalee
 Annas
 Annibale
 Annika
@@ -433,6 +435,7 @@ Matsumoto
 Maurizio
 McBurney
 McCauley
+McElligott
 McGraw
 Mei
 Meiyappan
@@ -524,6 +527,7 @@ Petrov
 Pettit
 Phaphoom
 Pirolli
+PlantUML
 Plauger
 Plaut
 Pociask
@@ -645,6 +649,7 @@ SmartBear
 Smetsers
 Snakemake
 Socio
+Solnit
 Soloway
 Sorva
 SourceGear
@@ -673,6 +678,7 @@ Suman
 Sumeracki
 SyntaxError
 TCE
+TLA
 TSE
 TSEM
 Taatgen
@@ -778,6 +784,7 @@ af
 affective
 afterward
 al
+allyship
 amira
 another's
 anthropogenic
@@ -824,6 +831,7 @@ der
 dev
 di
 diBella
+difftool
 dirnames
 dirpath
 discoverability
@@ -911,6 +919,7 @@ ocracy
 offense
 oneline
 os
+outsized
 pC
 parameterless
 popsicle
@@ -929,6 +938,7 @@ rebase
 rebasing
 recursiveOrNot
 refactorings
+reframe
 reinitializing
 relabeled
 repo

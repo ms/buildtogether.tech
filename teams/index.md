@@ -124,6 +124,8 @@ All right, you've formed a team: now what? How do you decide who does what? And
 just as importantly, how do you make sure that everyone actually does what
 they're supposed to?
 
+<span class="fixme">Some work is lower status; make sure it doesn't fall on people unfairly.</span>
+
 There are many ways to divide project work between team members, and as
 <cite>Conway1968</cite> observed, the software you get will reflect the division
 of labor, a phenomenon known as <span

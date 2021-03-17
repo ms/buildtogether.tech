@@ -129,6 +129,8 @@ kramdown:
       "email": ["mailto:gvwilson@third-bit.com", "Contact address"],
       "evans-julia": ["https://jvns.ca/", "Julia Evans"],
       "evans-manager": ["https://jvns.ca/blog/things-your-manager-might-not-know/", "Things Your Manager Might Not Know"],
+      "flower-annalee": ["https://flowerhorne.com/", "Annalee Flower"],
+      "flower-good-intent": ["https://thebias.com/2017/09/26/how-good-intent-undermines-diversity-and-inclusion/", "How 'Good Intent' Undermines Diversity and Inclusion"],
       "gebru-firing": ["https://www.fastcompany.com/90608471/timnit-gebru-google-ai-ethics-equitable-tech-movement", "This is bigger than just Timnit"],
       "gender-decoder": ["http://gender-decoder.katmatfield.com/", "Gender Decoder"],
       "gendermag": ["http://gendermag.org/", "GenderMag"],

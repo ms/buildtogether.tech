@@ -141,12 +141,18 @@ glossary: []
 important:
 - key: crunch_mode
   term: crunch mode
+- key: decision_meeting
+  term: decision meeting
+- key: discussion_meeting
+  term: discussion meeting
 - key: governance
   term: governance
 - key: marthas_rules
   term: Martha's Rules
 - key: sense_vote
   term: sense vote
+- key: tone_policing
+  term: tone policing
 internships: []
 introduction: []
 ip:

@@ -346,6 +346,12 @@
     def: >
       FIXME
 
+- key: decision_meeting
+  en:
+    term: "decision meeting"
+    def: >
+      FIXME
+
 - key: defensive_programming
   en:
     term: "defensive programming"
@@ -402,6 +408,12 @@
 - key: discoverability
   en:
     term: "discoverability"
+    def: >
+      FIXME
+
+- key: discussion_meeting
+  en:
+    term: "discussion meeting"
     def: >
       FIXME
 
@@ -1190,6 +1202,12 @@
     def: >
       A digital identifier showing the time at which something was created or
       accessed.
+
+- key: tone_policing
+  en:
+    term: "tone policing"
+    def: >
+      FIXME
 
 - key: trade_secret
   en:
