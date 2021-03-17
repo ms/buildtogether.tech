@@ -157,6 +157,7 @@ release:
 ## show-fixme: what still needs to be done?
 show-fixme:
 	@bin/show-fixme.py --config ${CONFIG} | column -t -s '|'
+	@fgrep fixme ${MARKDOWN} | wc -l
 
 ## show-pages: how many pages are in the PDF version?
 show-pages: book.pdf
