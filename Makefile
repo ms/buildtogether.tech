@@ -1,5 +1,4 @@
 JEKYLL=bundle exec jekyll
-BIB=_includes/bib.html
 SITE=./_site
 LANGUAGE=en
 
@@ -16,7 +15,6 @@ BIB_YAML=_data/bibliography.yml
 BIB_MD=bibliography/index.md
 GLOSSARY_IN=_data/glossary.yml
 HOME_PAGE=${SITE}/index.html
-UNSPELLED=${BIB_MD} glossary/index.md links/index.md index.md
 NUM_OUT=_data/numbering.yml
 TERMS_OUT=_data/terms.yml
 ALL_OUT=${BIB_MD} ${NUM_OUT} ${TERMS_OUT}
