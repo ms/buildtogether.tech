@@ -146,14 +146,6 @@ check-spelling: ${HOME_PAGE}
 
 ## ----
 
-## list-html-attributes: what classes and other attributes are used?
-list-html-attributes: ${HOME_PAGE}
-	@bin/list-html-attributes.py --sources ${HTML}
-
-## release: make a zip file with infrastructure for use elsehwere
-release:
-	@zip -r ../template.zip ${RELEASE_FILES} --exclude ${RELEASE_EXCLUDES}
-
 ## show-fixme: what still needs to be done?
 show-fixme:
 	@bin/show-fixme.py --config ${CONFIG} | column -t -s '|'
@@ -166,6 +158,16 @@ show-pages: book.pdf
 ## show-sections: how many words are in each section?
 show-sections:
 	@bin/show-sections.py --config ${CONFIG} | column -t -s '|'
+
+## ----
+
+## list-html-attributes: what classes and other attributes are used?
+list-html-attributes: ${HOME_PAGE}
+	@bin/list-html-attributes.py --sources ${HTML}
+
+## release: make a zip file with infrastructure for use elsehwere
+release:
+	@zip -r ../template.zip ${RELEASE_FILES} --exclude ${RELEASE_EXCLUDES}
 
 ## clean: clean up stray files
 clean:

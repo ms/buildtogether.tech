@@ -81,18 +81,14 @@ Nothing in software engineering makes sense except in the light of psychology.
 </blockquote>
 
 {: .continue}
-All of the hard problems in software engineering stem from the fact that human
-beings aren't robots. We think and feel, and we do those things in certain ways.
-Our mental capacity is limited, which means we have to design programs so that
-they will fit into the space between our ears. We learn and work better when we
-are doing something that helps us meet our personal goals, which means our
-projects will be more successful if we take motivation into account. And as we
-learn more, the best way for us to learn changes in predictable ways, so how we
-are taught should change too.
-
-<span class="fixme">we have tried to base it on research (ref to chapters)</span>
-
-<span class="fixme">goal is to build a good enough system with imperfect people - too many books talk about what to do if you're all good, sincere, etc.</span>
+Many of the hard problems in software engineering stem from the fact that human
+beings think and feel, and we do those things in certain ways.  Our mental
+capacity is limited, which means we have to design programs so that they will
+fit into the space between our ears. We learn and work better when we are doing
+things that help us meet our personal goals, which means projects will be more
+successful if we take motivation into account. And as we learn more, the best
+way for us to learn changes in predictable ways, so how we are taught should
+change too.
 
 ## Contributing
 
@@ -104,15 +100,22 @@ material in a course, please [send us email][contact].
 ## Acknowledgments
 
 This book is dedicated to [Marian Petre][petre-marian], who taught me how to
-think about how programmers think and work. My thanks to all of the students who
-did projects with me at the University of Toronto and through Google Summer of
-Code, and everyone who took part in UCOSP <cite>Holmes2014,Holmes2018</cite>.
+think about how programmers think and work.  I am also grateful to all of the
+students who did projects with me at the University of Toronto and through
+Google Summer of Code, and to everyone who took part in UCOSP
+<cite>Holmes2014,Holmes2018</cite>.
+
+I have tried to base recommendations on empirical software engineering research
+(<span x="research"></span>) and on the science of teaching and learning (<span
+x="thinking"></span>). Where those don't have answers, I have drawn on the
+experience of the students and programmers mentioned below.  Any errors,
+omissions, or misunderstandings that remain are entirely our fault.
 
 {% include thanks.html %}
 
 Portions of this book are adapted from material that originally appeared in
-<cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor \&
+<cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor &
 Francis and my co-authors for making both books available under open licenses.
 I would also like to thank David Graf for [doi2bib][doi2bib] and Alexandra
 Elbakyan for Sci-Hub; this book would have been much harder to write without
-their generosity and idealism.  If we all give a little, we all gain a lot.
+their idealism and hard work.
