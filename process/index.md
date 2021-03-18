@@ -4,7 +4,17 @@
 A <span g="development_process">development process</span> defines who does
 what, when, in order to build a piece of software.  Many have been described
 over the last fifty-odd years; most have passionate advocates and equally
-passionate detractors.
+passionate detractors, but the differences between them are smaller in practice
+than in theory.  This chapter therefore starts by describing how most
+programmers work day-to-day and how to adapt that routine to the chaos of
+student life. It then compares two processes widely used in industry that will
+give you an idea of what to do week by week.
+
+<span class="fixme">reframe in terms of feedback loops at various scales https://github.com/gvwilson/buildtogether.tech/issues/80</span>
+
+<div class="callout" markdown="1">
+
+### Paying attention matters most
 
 I am sceptical of most claims made about processes, partly because teams that
 adopt diametrically opposed processes all see productivity improve.  One
@@ -14,12 +24,7 @@ more likely explanation is that what really matters is paying attention to what
 you're doing.  It's kind of like dieting: Atkins, macrobiotic, seasonal, or
 fruitarian is secondary to eating better and exercising more.
 
-This chapter starts by describing how most programmers work day-to-day and how
-to adapt that routine to the imposed chaos of student life. It then compares two
-processes widely used in industry that will give you an idea of what to do week
-by week.
-
-<span class="fixme">reframe in terms of feedback loops at various scales https://github.com/gvwilson/buildtogether.tech/issues/80</span>
+</div>
 
 ## Daily Routine
 
