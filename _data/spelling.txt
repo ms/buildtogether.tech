@@ -191,6 +191,7 @@ Erete
 Ericson
 Experientialism
 Externalities
+Extraversion
 FIXME
 FSE
 FSM
@@ -413,6 +414,7 @@ Lukas
 Lumsdaine
 Luo
 Lutz
+MBTI
 MSR
 MVC
 Mairieli
@@ -809,6 +811,7 @@ catalogs
 cbf
 cbfonts
 cd
+centric
 choosealicense
 color
 config

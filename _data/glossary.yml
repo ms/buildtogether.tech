@@ -811,6 +811,13 @@
       FIXME
     acronym: MVC
 
+- key: myers_briggs
+  en:
+    term: "Myers-Briggs Type Indicator"
+    def: >
+      FIXME
+    acronym: MBTI
+
 - key: nih
   en:
     term: "not invented here syndrome"
@@ -828,6 +835,15 @@
     term: "novice"
     def: >
       FIXME
+
+- key: ocean_model
+  en:
+    term: "OCEAN model"
+    def: >
+      A model of personality whose five dimensions are Openness to experience,
+      Conscientiousness, Extraversion, Agreeableness, and Neuroticism.  Unlike
+      [Myers-Briggs](#myers_briggs), the OCEAN model has a solid scientific
+      basis.
 
 - key: open_closed_principle
   en:
