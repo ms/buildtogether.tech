@@ -125,7 +125,6 @@ Chattopadhyay
 CheckStyle
 Cherubini
 Cheryan
-Cho
 Christoph
 Cleidson
 Connell
@@ -678,6 +677,7 @@ Succi
 Suhaib
 Suman
 Sumeracki
+Surinder
 SyntaxError
 TCE
 TLA
@@ -714,6 +714,7 @@ UCOSP
 UI
 UML
 Ulrich
+Ultima
 United's
 Upchurch
 Usenix
@@ -922,7 +923,6 @@ ocracy
 offense
 oneline
 os
-outsized
 pC
 parameterless
 popsicle

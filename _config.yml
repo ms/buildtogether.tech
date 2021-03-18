@@ -181,8 +181,10 @@ kramdown:
       "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],
       "travis-ci": ["https://travis-ci.org/", "Travis CI"],
       "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
+      "ultima-online-players": ["https://twitter.com/ZenOfDesign/status/1371347166736834560", "Number of badly-behaved players in Ultima Online"],
       "visual-basic": ["https://en.wikipedia.org/wiki/Visual_Basic", "Visual Basic"],
       "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"],
+      "wapost-facebook-vaccine": ["https://www.washingtonpost.com/technology/2021/03/14/facebook-vaccine-hesistancy-qanon/", "Massive Facebook study on users' doubt in vaccines finds a small group appears to play a big role in pushing the skepticism"],
       "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"]
     }
 

@@ -93,7 +93,7 @@ entries:
   kind: Chapter
   label: '19'
   slug: process
-  title: Pick a Process---Any Process
+  title: Feedback Loops
 - file: ./community/index.md
   kind: Chapter
   label: '20'

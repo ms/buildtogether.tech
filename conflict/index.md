@@ -1,14 +1,10 @@
 ---
 ---
 
-<span class="fixme">The importance of addressing problems (small minority with outsized impact) https://twitter.com/ZenOfDesign/status/1371347166736834560 https://twitter.com/ekp/status/1371212492756578304</span>
-
-<span class="fixme"><cite>Solnit2010</cite>: we keep telling ourselves it's worse than it is</span>
-
 You just missed an important deadline, and people are unhappy.  The sick feeling
 in the pit of your stomach has turned to anger: you did *your* part, but Sylvie
 didn't finish her stuff until the very last minute, which meant that no one else
-had time to spot the two big mistakes she'd made.  As for Cho, he didn't deliver
+had time to spot the two big mistakes she'd made.  And Surinder didn't deliver
 at all---again.  If something doesn't change, you're going to fail this course.
 
 Conflicts like this come up all the time.  We can deal with them in four ways:
@@ -36,16 +32,45 @@ don't have to be as afraid of it.  And if people believe that we will take steps
 when they lie, bully, procrastinate, or do a half-assed job, they will often
 avoid making it necessary.
 
+<div class="callout" markdown="1">
+
+### A few bad apples
+
+An internal study at Facebook in 2021 found that [just over 100 people were the
+source of almost half of harmful disinformation about COVID-19
+vaccination][wapost-facebook-vaccine]. Similarly, one of the designers of the
+game *Ultima Online* [reported][ultima-online-players], "…we asked players what
+percentage of the player base were degenerate player killers.  Players responded
+with 10%.  The metrics told us the answer was closer to 0.1%." These findings
+and many others tell us that a small number of people cause a disproportionate
+amount of grief in our communities (online and otherwise), and that they seem
+much more common than they are because incidents of abuse and conflict loom
+large in our memories.
+
+The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
+when a real disaster strikes, most people actually rise to the occasion. As
+<cite>Solnit2010</cite> describes, neighbors don't turn on each other in the
+aftermath of an earthquake or a hurricane---instead, they are more likely to
+look out for each other than under normal circumstances. That doesn't make for
+exciting viewing, though, and the powerful have always wanted the rest of us to
+believe that the only alternative to their rule is chaos.
+
+</div>
+
 ## What to Do
 
-<span class="fixme">write intro with forward ref to being a good ally</span>
+The first rule for meetings in <span x="important"></span> was to agree on what
+the rules are so that everyone knows what's expected of them. A common
+understanding of how to handle conflict helps in the same way; as with first aid
+training, having some idea of what to do makes you more likely to actually do
+something when the time comes.
 
-Make sure we are not guilty of the same sin.
-:   We won't get very far complaining about someone else interrupting in
-    meetings if we do it just as frequently.
+Make sure you are not guilty of the same sin.
+:   You won't get very far complaining about someone else interrupting in
+    meetings if you do it just as frequently.
 
 Check expectations.
-:   Are we sure the offender knows what standards they are supposed to be meeting?
+:   Are you sure the offender knows what standards they are supposed to be meeting?
     This is where things like the team contracts described in <span
     x="teams"></span> come in handy.
 
@@ -59,31 +84,30 @@ Check the situation.
 
 Document the offense.
 :   Write down what the offender has actually done and why it's not good enough.
-    Doing this helps us clarify what we're upset about and is absolutely
-    necessary if we have to escalate.
+    Doing this helps you clarify what you're upset about and is essential if you
+    have to escalate.
 
 Check with other team members.
-:   Are we alone in feeling that the offender is letting the team down?  If so,
-    we aren't necessarily wrong, but it'll be a lot easier to fix things if we
+:   Are you alone in feeling that the offender is letting the team down?  If so,
+    you aren't necessarily wrong, but it'll be a lot easier to fix things if you
     have the support of the rest of the team.  Finding out who else on the team
-    is unhappy can be the hardest part of the whole process, since we can't even
-    ask the question without letting on that we are upset and word will almost
-    certainly get back to whoever we are asking about, who might then accuse us
+    is unhappy can be the hardest part of the whole process, since you can't even
+    ask the question without letting on that you are upset, and word will almost
+    certainly get back to whoever you are asking about, who might then accuse you
     of stirring up trouble.
 
 Talk with the offender.
 :   This should be a team effort: put it on the agenda for a meeting, present
     the complaint, and make sure that the offender understands it.  This is
     sometimes enough to solve the problem: if someone realizes that they're
-    going to be called out for doing sloppy work, they will usually change their
-    ways.
+    going to be held accountable, they will often change their ways.
 
 Escalate as soon as there's a second offense.
 :   People who don't have good intentions count on us giving them one last
     chance after another until the project is finished and they can go suck the
     life out of their next victim.  *Don't fall into this trap.*  If someone
-    stole a laptop, we would report it right away.  If someone steals time, we
-    are being foolish if we give them a chance to do it again and again.
+    stole your laptop, you would report it right away.  If someone steals time,
+    it's foolish to give them a chance to do it again and again.
 
 In a course project, "escalation" means "taking the issue to the instructor".
 Of course, they have probably had dozens of students complain to them over the
@@ -158,8 +182,8 @@ everyone; in such cases, the best guide is to do the kindest thing possible.
 Sometimes, it isn't just one person on the team who's a problem.  Sometimes, the
 whole team is dysfunctional. In the mid-1990s, for example, I worked in a data
 visualization startup. Individually, we were all smart, decent people. Put us
-together, though, and somehow our personalities and IQs canceled out, leaving us
-all dumb and nasty.
+together, though, and somehow our personalities and IQs canceled out, so that
+collectively we were as dumb as a sack full of hammers.
 
 Instructors can allow for this by announcing at the start of the course that
 teams will be dissolved and re-formed halfway through the project, *unless*
@@ -174,4 +198,15 @@ one takes time that could be invested in earning a higher grade.  In practice,
 therefore, teams will usually stick together if they see that troublemakers are
 actually being dealt with.
 
-<span class="fixme">what happens after dissolving a team https://github.com/gvwilson/buildtogether.tech/issues/44</span>
+<div class="callout" markdown="1">
+
+### Who gets to keep the cat?
+
+If the instructor allows or requires teams to re-form partway through the
+project, they should explain at the start of the course what will happen to the
+work the team has done up to that point. Can each member of the team that is
+dissolving use everything the whole team has built up to that point? Do they
+have to re-start with whatever has been written by the teams they are joining?
+Knowing this in advance helps everyone decide whether breaking up is worth it.
+
+</div>

@@ -253,6 +253,12 @@ The previous section explained how to be productive individually---what about
 being productive in a team?  The most important thing is running meetings
 efficiently.  The rules doing so are simple but rarely followed:
 
+Agree on the rules.
+:   Bridge and ping pong are both fun games, but you can't play both on the same
+    table at the same time. (Please don't take this as a challenge, or if you
+    do, please post a video.) Similarly, exactly what rules you use to run
+    meetings matters less than everyone agreeing on what the rules are.
+
 Keep discussion meetings and decision meetings separate.
 :   A <span g="discussion_meeting">discussion meeting</span>'s purpose is to
     explore design alternatives or figure out what next term's goals should be.
