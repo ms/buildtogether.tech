@@ -651,6 +651,12 @@
     def: >
       Someone who is part of a project but does not actually do any work on it.
 
+- key: hr
+  en:
+    term: "Human Resources"
+    def: >
+      FIXME
+
 - key: hypercorrection_effect
   en:
     term: "hypercorrection_effect"

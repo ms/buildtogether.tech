@@ -280,6 +280,8 @@ rights:
 starting:
 - key: elevator_pitch
   term: elevator pitch
+- key: hr
+  term: Human Resources
 teams:
 - key: alpha_geek
   term: alpha geek

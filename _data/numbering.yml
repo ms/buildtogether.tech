@@ -198,6 +198,7 @@ figures:
   after-clone: '7.2'
   after-fork: '7.1'
   after-remote: '7.3'
+  four-models-of-instruction: '3.1'
   process-matrix: '19.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3

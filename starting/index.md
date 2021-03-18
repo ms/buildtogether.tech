@@ -1,8 +1,8 @@
 ---
 ---
 
-Now that the really important stuff is out of the way, let's take a closer look
-at undergraduate team programming projects.  On one side are homework
+Now that the most important stuff is out of the way, let's take a closer look at
+what you're actually supposed to be doing.  On one side are homework
 assignments, which typically include a handful of problems related to
 recently-taught material that you are meant to solve in a week or two.  On the
 other side are industrial internships or co-op terms in which you work full- or
@@ -30,8 +30,6 @@ extend an existing application; either way, you and your team are responsible
 for some or all of requirements analysis, design, implementation, testing,
 documentation, packaging, deployment, handoff, and review.
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/62 as framing</span>
-
 ## Why Projects?
 
 Project courses exist for several reasons:
@@ -51,6 +49,19 @@ To tie everything you've learned together,
 Because they're fun.
 :   At least, if they're done right.
 
+One goal of project courses is to move learners from the left side of <span
+f="four-models-of-instruction"></span> to the right. Most of the learning will
+take place in a team or on your own; the instructor's job is to mentor rather
+than to lecture. Using the terms of <span x="thinking"></span>, a project course
+is where your school starts treating you like a competent practitioner rather
+than like a novice.
+
+{% include figure
+   img="four-models-of-instruction.svg"
+   id="four-models-of-instruction"
+   alt="Four models of instruction"
+   cap="Four models of instruction that shift control from instructors to learners." %}
+
 There are as many ways to run a project course as there are instructors teaching
 them <cite>Fincher2001</cite>.  The most important variable is whether your team
 has a real customer or not.  Finding and interviewing people who actually want
@@ -68,18 +79,28 @@ something you can show off in a job interview.
 
 ## Grades
 
-<span class="fixme">deciding what to build (escaping the build trap) and its relation to grades</span>
+Many organizations make the mistake of focusing on outputs rather than on
+outcomes <cite>Perri2018</cite>. In software companies, this usually takes the
+form of measuring progress by the number of features added to a product rather
+than by whether changes to the product are actually making people's lives
+easier. <span class="fixme">Data on percentage of features used https://github.com/gvwilson/buildtogether.tech/issues/81.</span>
 
-The first step in any project (not just classroom projects) is to figure out
-where the goalposts are, so you know which way to kick the ball.  If you're an
-academic, this means finding something that is interesting and challenging
-enough to be publishable, but not intractable.  In a startup, it means figuring
-out what you can build that people will pay for.  Working for someone else?
-Check your job description (including criteria for performance evaluation and
-bonuses), and work accordingly.
+The equivalent mistake in a project course is to measure progress by the amount
+of code you are writing rather than by how your work compares to the grading
+scheme. Doing this doesn't mean you should only do things that are going to show
+up on your transcript, but if you're going to, you should do so knowingly.
 
-Life's easier if you're a student: all you have to do is check the marking
-scheme.  In a project course this typically has:
+The first step in any project is therefore to figure out where the goalposts
+are, so you know which way to kick the ball.  If you're an academic, this means
+finding something that is interesting and challenging enough to be publishable,
+but not intractable.  In a startup, it means figuring out what you can build
+that people will pay for.  If you're working for someone else, your boss should
+tell you what you're responsible for and the <span g="hr">HR department</span>
+should tell you what the criteria are for performance evaluation and bonuses.
+Again, you don't have to do only those things, but if you're going to drop any
+or put time elsewhere, you should do it with your eyes open.
+
+Your grade in a project course is typically based on:
 
 The software you produce.
 :   Does it build and run? Does it meet the customer's requirements (or the
