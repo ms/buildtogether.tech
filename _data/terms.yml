@@ -122,6 +122,8 @@ errors:
   term: assertion
 - key: catch_exception
   term: catch (an exception)
+- key: csv
+  term: comma-separated values
 - key: defensive_programming
   term: defensive programming
 - key: exception
@@ -130,12 +132,16 @@ errors:
   term: external error
 - key: internal_error
   term: internal error
+- key: json
+  term: JavaScript Object Notation
 - key: logging
   term: logging
 - key: raise_exception
   term: raise (an exception)
 - key: rotating_file
   term: rotating file
+- key: yaml
+  term: YAML
 evaluation: []
 glossary: []
 important:
@@ -222,6 +228,8 @@ process:
   term: development process
 - key: feature_boxing
   term: feature boxing
+- key: json
+  term: JavaScript Object Notation
 - key: pair_programming
   term: pair programming
 - key: product_manager

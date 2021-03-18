@@ -65,12 +65,12 @@ example:
     messages if you get notifications.
 
 -   4:05 p.m.: You can now start work on the feature you want to add, which
-    translates part of the program's internal data structure into a blob of JSON
-    to send to a web server.  You have an hour less to do this than you
-    originally planned, but that's OK: by fixing bugs first, you've avoided the
-    all-too-common situation of only half the code working when the project is
-    "done". Again, the first step is to create a new branch so that you can
-    later create a small (i.e., reviewable) pull request.
+    translates part of the program's internal data structure into a blob of
+    <span g="json">JSON</span> to send to a web server.  You have an hour less
+    to do this than you originally planned, but that's OK: by fixing bugs first,
+    you've avoided the all-too-common situation of only half the code working
+    when the project is "done". Again, the first step is to create a new branch
+    so that you can later create a small (i.e., reviewable) pull request.
 
 -   4:30 p.m.: after a couple of drafts, you're happy with the design of the new
     feature. With only 20 minutes until your next break, you know you won't

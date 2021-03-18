@@ -316,6 +316,15 @@
     def: >
       A pattern that identifies nodes in a [DOM](#dom) tree.
 
+- key: csv
+  en:
+    term: comma-separated values
+    def: >
+      A text format for tabular data in which each record is one row and fields
+      are separated by commas. There are many minor variations, particularly
+      around how strings are quoted.
+    acronym: CSV
+
 - key: curly_brace_language
   en:
     term: "curly-brace language"
@@ -727,6 +736,19 @@
       FIXME
     acronym: JIT
 
+- key: json
+  ref:
+  - yaml
+  en:
+    term: JavaScript Object Notation
+    def: >
+      A way to represent data by combining basic values like numbers and
+      character strings in lists and key/value structures. The acronym stands
+      for "JavaScript Object Notation"; unlike better-defined standards like
+      XML, it is unencumbered by a syntax for comments or ways to define a
+      [schema](#schema).
+    acronym: JSON
+
 - key: key
   en:
     term: "key"
@@ -764,6 +786,12 @@
     acronym: LTM
   ref:
   - short_term_memory
+
+- key: markdown
+  en:
+    term: Markdown
+    def: >
+      A markup language with a simple syntax intended as a replacement for HTML.
 
 - key: marthas_rules
   en:
@@ -1330,3 +1358,12 @@
     def: >
       FIXME
     acronym: WYSIWYG
+
+- key: yaml
+  en:
+    term: YAML
+    def: >
+      Short for "YAML Ain't Markup Language", a way to represent nested data
+      using indentation rather than the parentheses and commas of [JSON](#json).
+      YAML is often used in configuration files and to define parameters for
+      various flavors of [Markdown](#markdown) documents.

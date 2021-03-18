@@ -178,10 +178,10 @@ OSError: Unsupported file type.
 This message tells us the problem is with the type of file we're trying to
 process, but it still doesn't tell us what file types are supported, which means
 we have to rely on guesswork or read the source code.  Telling the user that a
-file isn't a CSV file makes it clear that the program only works with files of
-that type, but since we don't actually check the content of the file, this
-message could confuse someone who has comma-separated values saved in a `.txt`
-file.  An even better message would therefore be:
+file isn't a <span g="csv">CSV</span> file makes it clear that the program only
+works with files of that type, but since we don't actually check the content of
+the file, this message could confuse someone who has comma-separated values
+saved in a `.txt` file.  An even better message would therefore be:
 
 ```out
 OSError: File must end in .csv
@@ -284,8 +284,6 @@ where `user_language` is a two-letter code for the user's preferred language.
 
 ## Logging
 
-<span class="fixme">all logs should be machine readable https://github.com/gvwilson/buildtogether.tech/issues/49</span>
-
 Something else you can design into your system to make your life easier later on
 is <span g="logging">logging</span>, which is the professional alternative to
 `print` statements. Instead of writing:
@@ -379,3 +377,19 @@ and overwrite `log.1`. Web servers and other long-lived programs are usually set
 up to do this so that they don't fill up the disk with log information.  It's
 all straightforward to set up, and once it's in place, it gives you a lot more
 insight into what your program is actually doing.
+
+<div class="callout" markdown="1">
+
+### Parsers as a sign of bad design
+
+You will sometimes inspect logs yourself, but you will also frequently want to
+search them for patterns. All of the logs you produce should therefore be in a
+machine-readable format like CSV, <span g="json">JSON</span>, or <span
+g="yaml">YAML</span>; you can easily write a small program to pretty-print the
+data you want for manual inspection.
+
+This guideline is one instance of a more general design rule.  The world has
+more data formats than it needs, so if anyone has to write a parser to analyze
+what your program produces, you should probably be producing something else.
+
+</div>
