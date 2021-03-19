@@ -124,10 +124,6 @@ All right, you've formed a team: now what? How do you decide who does what? How
 do you make sure that everyone actually does what they're supposed to? And most
 importantly, how do you do this fairly?
 
-<div class="callout" markdown="1">
-
-### Why don't you make us some coffee?
-
 Some jobs have higher social status than others, and what is or isn't considered
 important usually reflects racial and gender divides within society---so much so
 that sociologists use the phrase "[women's work][womens-work]" to describe the
@@ -153,7 +149,23 @@ tech. Others protest, but those who do are often dismissed as being "difficult"
 (<span x="important"></span>). Many take a third path and decide to leave
 programming---after all, why play a game that's unfair?
 
+<div class="callout" markdown="1">
+
+### In the beginning
+
+Programming was originally considered a female occupation, but as it became more
+lucrative it came to be viewed as "naturally" male.  <cite>Abbate2012</cite> and
+<cite>Ensmenger2012</cite> describe how this happened, while
+<cite>Hicks2018</cite> looks at how Britain lost its early dominance in
+computing by systematically discriminating against its most qualified workers:
+women.  Some men become quite uncomfortable whenever this is brought up, but I
+believe we need to learn how to discuss our own history if we want to be able to
+think clearly about how the things we're doing today might change society
+tomorrow.
+
 </div>
+
+## Division of Labor
 
 There are many ways to divide project work between team members, and as
 <cite>Conway1968</cite> observed, the software you get will reflect the division

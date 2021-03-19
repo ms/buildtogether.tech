@@ -4,6 +4,7 @@ APIs
 ASCD
 ASE
 Abad
+Abbate
 Abdalkareem
 Abrahamsson
 Acknowledgments
@@ -186,6 +187,7 @@ Emam
 Emard
 Endrikat
 Engvik
+Ensmenger
 Erdogmus
 Erete
 Ericson
@@ -398,6 +400,7 @@ LLC
 LTM
 LaTeX
 Labeling
+Labor
 Lamba
 Lawrie
 Lenfant
@@ -569,6 +572,7 @@ Rawls
 Rawson
 Rebasing
 Rebecca
+Recoding
 Redmiles
 Reekie
 Reengineering

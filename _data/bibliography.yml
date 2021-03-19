@@ -11,6 +11,15 @@
   year: 2018
   doi: 10.1145/3210459.3210471
 
+- key: Abbate2012
+  kind: book
+  author:
+  - Janet Abbate
+  title: "Recoding Gender: Women's Changing Participation in Computing"
+  publisher: MIT Press
+  year: 2012
+  isbn: 978-0262534536
+
 - key: Abdalkareem2017
   kind: inproceedings
   author:
@@ -784,6 +793,15 @@
   year: 2014
   doi: 10.1145/2568225.2568299
 
+- key: Ensmenger2012
+  kind: book
+  author:
+  - Nathan L. Ensmenger
+  title: "The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise"
+  publisher: MIT Press
+  year: 2012
+  isbn: 978-0262517966
+
 - key: Erdogmus2005
   kind: article
   author:
@@ -1222,6 +1240,14 @@
   title: "It's not a Bug, it's a Feature: How Misclassification Impacts Bug Prediction"
   booktitle: "Proc. ICSE'13"
   year: 2013
+
+- key: Hicks2018
+  kind: book
+  author: Marie Hicks
+  title: "Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing"
+  publisher: MIT Press
+  year: 2018
+  isbn: 978-0262535182
 
 - key: Hilderbrand2020
   author:

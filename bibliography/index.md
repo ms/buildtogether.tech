@@ -9,6 +9,12 @@ Zahra Shakeri Hossein Abad, Oliver Karras, Kurt Schneider, Ken Barker, and Mike 
 "Task Interruption in Software Development Projects".
 <em>Proc. EASE'18</em>, <a href="https://doi.org/10.1145/3210459.3210471">10.1145/3210459.3210471</a>.
 </dd>
+<dt id="abbate2012" class="bibliography">Abbate2012</dt>
+<dd>
+Janet Abbate:
+<em>Recoding Gender: Women's Changing Participation in Computing</em>.
+MIT Press, 2012, 978-0262534536.
+</dd>
 <dt id="abdalkareem2017" class="bibliography">Abdalkareem2017</dt>
 <dd>
 Rabe Abdalkareem, Olivier Nourry, Sultan Wehaibi, Suhaib Mujahid, and Emad Shihab:
@@ -399,6 +405,12 @@ Stefan Endrikat, Stefan Hanenberg, Romain Robbes, and Andreas Stefik:
 "How Do API Documentation and Static Typing Affect API Usability?".
 <em>Proc. ICSE'14</em>, <a href="https://doi.org/10.1145/2568225.2568299">10.1145/2568225.2568299</a>.
 </dd>
+<dt id="ensmenger2012" class="bibliography">Ensmenger2012</dt>
+<dd>
+Nathan L. Ensmenger:
+<em>The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise</em>.
+MIT Press, 2012, 978-0262517966.
+</dd>
 <dt id="erdogmus2005" class="bibliography">Erdogmus2005</dt>
 <dd>
 Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
@@ -619,6 +631,12 @@ Cormac Herley:
 Kim Herzig, Sascha Just, and Andreas Zeller:
 "It's not a Bug, it's a Feature: How Misclassification Impacts Bug Prediction".
 <em>Proc. ICSE'13</em>.
+</dd>
+<dt id="hicks2018" class="bibliography">Hicks2018</dt>
+<dd>
+M, a, r, i, e,  , H, i, c, k, and s:
+<em>Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing</em>.
+MIT Press, 2018, 978-0262535182.
 </dd>
 <dt id="hilderbrand2020" class="bibliography">Hilderbrand2020</dt>
 <dd>
