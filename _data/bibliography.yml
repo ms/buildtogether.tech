@@ -1391,6 +1391,14 @@
   year: 2019
   isbn: 978-0367698348
 
+- key: Jarry2020
+  kind: link
+  author:
+  - Jonathan Jarry
+  title: "The Dunning-Kruger Effect is Probably Not Real"
+  year: 2020
+  url: https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real
+
 - key: Johnson2017
   kind: book
   author:

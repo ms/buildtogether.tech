@@ -120,11 +120,40 @@ on into working time or vice versa.
 
 ## Who Does What
 
-All right, you've formed a team: now what? How do you decide who does what? And
-just as importantly, how do you make sure that everyone actually does what
-they're supposed to?
+All right, you've formed a team: now what? How do you decide who does what? How
+do you make sure that everyone actually does what they're supposed to? And most
+importantly, how do you do this fairly?
 
-<span class="fixme">Some work is lower status https://en.wikipedia.org/wiki/Women%27s_work; make sure it doesn't fall on people unfairly.</span>
+<div class="callout" markdown="1">
+
+### Why don't you make us some coffee?
+
+Some jobs have higher social status than others, and what is or isn't considered
+important usually reflects racial and gender divides within society---so much so
+that sociologists use the phrase "[women's work][womens-work]" to describe the
+phenomenon. It is also known as "[quarterback syndrome][quarterback-syndrome]":
+two thirds of NFL players overall in the United States are Black, but only 17%
+of quarterbacks, which is the position on a team with the highest social status.
+
+Among programmers, writing operating systems or other software that is close to
+the hardware has higher status than building user interfaces; people doing the
+former are both paid more and more likely to be male than people doing the
+latter, regardless of ability or value delivered to the employer. This creates a
+feedback loop: white and Asian men pursue certain career paths because they have
+high status (they want to be "real programmers"), and the fact that they are
+pursuing those careers is what maintains their higher status. It also creates a
+confirmation loop: since women and people of color get fewer chances to do
+certain tasks, they are less good at them, which "confirms" the initial bias.
+
+All of this starts in the classroom. In mixed-gender teams, for example, female
+students are more likely to be given responsibility for taking notes, writing
+documentation, and other low-status tasks. Some have experienced this so often
+that they have come to accept it as the price they have to pay for being in
+tech. Others protest, but those who do are often dismissed as being "difficult"
+(<span x="important"></span>). Many take a third path and decide to leave
+programming---after all, why play a game that's unfair?
+
+</div>
 
 There are many ways to divide project work between team members, and as
 <cite>Conway1968</cite> observed, the software you get will reflect the division
@@ -135,17 +164,19 @@ decomposition</span>, each person is responsible for one part of the
 program. For example, one person might design and build the GUI, while another
 writes the database interface, and a third implements the business rules. Having
 people own parts of the code like this produces lower failure rates in industry
-<cite>Bird2011</cite>, but is generally a bad strategy in a course project for
-three reasons:
+<cite>Bird2011</cite>, but is generally a bad strategy in a course project:
 
-1.  It leads to <span g="big_bang">big bang integration</span>, in which all the
+1.  It increases the risk of people from marginalized groups being assigned
+    lower-status work.
+
+2.  It leads to <span g="big_bang">big bang integration</span>, in which all the
     components meet each other for the first time right at the end of the
     project. Big bang almost always fails.
 
-2.  Each team member only really understands one aspect of the project. This can
+3.  Each team member only really understands one aspect of the project. This can
     hurt a lot if there's a final exam that checks for overall understanding.
 
-3.  If someone drops out or fails to complete their module, the project as a
+4.  If someone drops out or fails to complete their module, the project as a
     whole will fail.
 
 <span g="functional_decomposition">Functional decomposition</span>, in which
@@ -169,14 +200,14 @@ they work.
 
 ### The Dunning-Kruger Effect
 
-<cite>Kruger1999</cite> found that people who know a subject well can usually
+<cite>Kruger1999</cite> reported that people who know a subject well can usually
 estimate their knowledge accurately, but people who don't will often
 overestimate their competence because they don't know what they don't know.
-Because of this, you should never trust self-reported expertise, as there's no
-easy way to tell if someone really knows what they're talking about or if what
+More recent work has cast doubt on this finding: it could simply be an artifact
+of the way the original researchers did their statistics <cite>Jarry2020</cite>.
+Either way, you should never trust self-reported expertise, as there's no easy
+way to tell if someone really knows what they're talking about or if what
 they're actually reporting is their self-esteem.
-
-<span class="fixme">Dunning-Kruger https://github.com/gvwilson/buildtogether.tech/issues/28</span>
 
 </div>
 

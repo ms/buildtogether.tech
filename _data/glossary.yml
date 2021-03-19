@@ -304,6 +304,12 @@
     def: >
       FIXME
 
+- key: critical_mass
+  en:
+    term: "critical mass"
+    def: >
+      FIXME
+
 - key: crunch_mode
   en:
     term: "crunch mode"
@@ -458,6 +464,12 @@
 - key: double_blind
   en:
     term: "double blind"
+    def: >
+      FIXME
+
+- key: dynamic_analysis
+  en:
+    term: "dynamic analysis"
     def: >
       FIXME
 
@@ -1163,6 +1175,12 @@
 - key: stand_up_meeting
   en:
     term: "stand-up meeting"
+    def: >
+      FIXME
+
+- key: static_analysis
+  en:
+    term: "static analysis"
     def: >
       FIXME
 

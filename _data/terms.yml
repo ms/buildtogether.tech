@@ -9,8 +9,16 @@ automation:
   term: build manager
 - key: ci
   term: continuous integration
+- key: critical_mass
+  term: critical mass
+- key: json
+  term: JavaScript Object Notation
 - key: pattern_rule
   term: pattern rule
+- key: static_analysis
+  term: static analysis
+- key: style_checker
+  term: style checker
 bibliography: []
 business: []
 code-review:
@@ -133,8 +141,6 @@ errors:
   term: external error
 - key: internal_error
   term: internal error
-- key: json
-  term: JavaScript Object Notation
 - key: logging
   term: logging
 - key: raise_exception
@@ -377,6 +383,8 @@ tooling:
   term: curly-brace language
 - key: doc_generator
   term: documentation generator
+- key: dynamic_analysis
+  term: dynamic analysis
 - key: dynamic_typing
   term: dynamic typing
 - key: experimental_control
@@ -397,8 +405,6 @@ tooling:
   term: refactoring
 - key: strong_typing
   term: strong typing
-- key: style_checker
-  term: style checker
 - key: test_runner
   term: test runner
 - key: wysiwyg

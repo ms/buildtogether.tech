@@ -108,6 +108,7 @@ kramdown:
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
       "bitbucket": ["https://bitbucket.org/", "Bitbucket"],
+      "black": ["https://pypi.org/project/black/", "Black"],
       "bst-repo": ["https://github.com/gvwilson/buildtogether.tech/", "Building Software Together repository"],
       "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
       "captain-awkward": ["https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup ", "Buzzfeed article on DataCamp"],
@@ -115,6 +116,7 @@ kramdown:
       "carpentries-git": ["https://swcarpentry.github.io/git-novice/", "The Carpentries' lesson on Git"],
       "carpentrycon-talk": ["https://www.youtube.com/watch?v=7xR50ty5DZ0", "Greg Wilson's CarpentryCon keynote"],
       "charles-rules": ["https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument", "Charles' Rules of Argument"],
+      "checkstyle": ["https://checkstyle.org/", "Checkstyle"],
       "choose-license": ["https://choosealicense.com/", "Choose a License"],
       "coco-problem": ["https://coco-net.org/problem-woman-colour-nonprofit-organizations/", "The 'Problem' Woman of Colour in the Workplace"],
       "creative-commons": ["https://creativecommons.org/", "Creative Commons"],
@@ -129,6 +131,7 @@ kramdown:
       "email": ["mailto:gvwilson@third-bit.com", "Contact address"],
       "evans-julia": ["https://jvns.ca/", "Julia Evans"],
       "evans-manager": ["https://jvns.ca/blog/things-your-manager-might-not-know/", "Things Your Manager Might Not Know"],
+      "eslint": ["https://eslint.org/", "ESLint"],
       "flower-annalee": ["https://flowerhorne.com/", "Annalee Flower"],
       "flower-good-intent": ["https://thebias.com/2017/09/26/how-good-intent-undermines-diversity-and-inclusion/", "How 'Good Intent' Undermines Diversity and Inclusion"],
       "gebru-firing": ["https://www.fastcompany.com/90608471/timnit-gebru-google-ai-ethics-equitable-tech-movement", "This is bigger than just Timnit"],
@@ -157,11 +160,13 @@ kramdown:
       "marthas-rules": ["https://journals.sagepub.com/doi/10.1177/088610998600100206", "Martha's Rules"],
       "mercurial": ["https://www.mercurial-scm.org/", "Mercurial"],
       "noaa-disruptive": ["https://coast.noaa.gov/ddb/", "Dealing with Disruptive Behaviors"],
+      "nodejs": ["https://nodejs.org/en/", "Node.js"],
       "osi-license-list": ["https://opensource.org/licenses", "Open Source Initiative License List"],
       "pep8": ["https://www.python.org/dev/peps/pep-0008/", "PEP 8 Style Guide for Python Code"],
       "petre-marian": ["https://www.open.ac.uk/people/mp8", "Marian Petre"],
       "pytest": ["http://pytest.org/", "pytest"],
       "python": ["https://www.python.org/", "Python"],
+      "quarterback-syndrome": ["https://en.wikipedia.org/wiki/Racial_issues_faced_by_black_quarterbacks", "Quarterback syndrome"],
       "quorum": ["https://quorumlanguage.com/", "Quorum"],
       "rake": ["https://ruby.github.io/rake/", "Rake"],
       "ruby": ["https://www.ruby-lang.org/", "Ruby"],
@@ -185,7 +190,8 @@ kramdown:
       "visual-basic": ["https://en.wikipedia.org/wiki/Visual_Basic", "Visual Basic"],
       "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"],
       "wapost-facebook-vaccine": ["https://www.washingtonpost.com/technology/2021/03/14/facebook-vaccine-hesistancy-qanon/", "Massive Facebook study on users' doubt in vaccines finds a small group appears to play a big role in pushing the skepticism"],
-      "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"]
+      "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"],
+      "womens-work": ["https://en.wikipedia.org/wiki/Women%27s_work", "Women's work"]
     }
 
 exclude:

@@ -122,7 +122,7 @@ Centered
 Cetin
 Chacon
 Chattopadhyay
-CheckStyle
+Checkstyle
 Cherubini
 Cheryan
 Christoph
@@ -170,6 +170,7 @@ EOF
 EOFError
 ESEC
 ESEM
+ESLint
 Easterbrook
 Efthimia
 Eggett
@@ -338,6 +339,7 @@ JSS
 JSTL
 Jacoby
 Jakita
+Jarry
 Javadoc
 Jelena
 Jelmer
@@ -501,7 +503,6 @@ Ostblom
 PACMPL
 PCK
 PLoS
-PMD
 PNAS
 POS
 PRs
@@ -850,6 +851,7 @@ dropbox
 dup
 ec
 efe
+ejslint
 elif
 else's
 emptively
@@ -884,6 +886,7 @@ hashlib
 hitchiker
 href
 html
+http
 humor
 hypercorrection
 img
@@ -968,12 +971,12 @@ sociotechnical
 speling
 stderr
 stj
+stjs
 styrofoam
 subclasses
 subgoals
 superbug
 svg
-syntaxes
 sys
 tentupling
 terminer
@@ -1001,6 +1004,7 @@ unindent
 unmute
 unstage
 usr
+utc
 utils
 vanishingly
 von

@@ -704,6 +704,11 @@ Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, an
 <em>Research Software Engineering with Python: Building Software that Makes Research Possible</em>.
 Chapman & Hall/CRC Press, 2019, 978-0367698348.
 </dd>
+<dt id="jarry2020" class="bibliography">Jarry2020</dt>
+<dd>
+Jonathan Jarry:
+"<a href="https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real">The Dunning-Kruger Effect is Probably Not Real</a>".
+</dd>
 <dt id="johnson2017" class="bibliography">Johnson2017</dt>
 <dd>
 Jeff Johnson and Kate Finn:

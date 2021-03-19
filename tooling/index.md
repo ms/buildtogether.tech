@@ -140,8 +140,8 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
     functions and see the results without having to start (or restart) your
     program.
 
--   A <span g="style_checker">style checker</span> that can warn you when your
-    code doesn't meet naming and indentation conventions.
+-   A style checker that can warn you when your code doesn't meet naming and
+    indentation conventions (span x="automation"></span>).
 
 -   A <span g="code_browser">code browser</span> that helps you navigate the
     packages, classes, methods, and data in your program.
@@ -206,23 +206,10 @@ to keep the source of the documentation right beside the code. Many introductory
 courses require students to document their packages, classes, and methods this
 way; it's a good habit, and one you should cultivate.
 
-Along with testing frameworks, style checkers have become a lot more popular
-since the turn of the century. Early style checkers looked at code to make sure
-that it obeyed formatting rules, such as "no method can be longer than 100
-lines" or "class names must be written in CamelCase". Today's, like PMD and
-CheckStyle, can do a lot more: they can find code that is never called,
-parameters that are never used, duplicated code that could be factored out, and
-a lot more.
-
-Style checkers are more properly called *static analysis* tools, since they work
-by parsing the source code for your programs and looking for patterns that might
-indicate problems. Compilers also do a lot of static analysis; the non-fatal
-warnings they produce are a lot more useful than many students realize, and a
-"zero warnings" policy can prevent a lot of subtle bugs.
-
-<span class="fixme">Reviews are much more straightforward when you don't have to worry about style choices that much.</span>
-
-Another class of tools uses *dynamic analysis*: they watch your program run, and
+Another set of tools are a complement to the style checkers discussed in <span
+x="automation"></span>.  Style checkers do static analysis, i.e., they look at
+the text of your program while it's at rest.  Other tools do <span
+g="dynamic_analysis">dynamic analysis</span>:: they watch your program run, and
 look for things like memory leaks, or inconsistent locking that might lead to
 deadlocks or race conditions. FindBugs is the best-known in the Java world; the
 Valgrind toolset is a lifesaver if you're using C or C++.
@@ -248,7 +235,7 @@ Tools like [WebAIM WAVE][webaim-wave] are easy to use, and most of the problems
 they identify are easy to fix. It only takes a few minutes, and it's the
 compassionate thing to do.
 
-<span class="fixme">more about tools</span>
+<span class="fixme">more about accessibility tools</span>
 
 ## Formal Methods
 

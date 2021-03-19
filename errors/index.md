@@ -384,9 +384,9 @@ insight into what your program is actually doing.
 
 You will sometimes inspect logs yourself, but you will also frequently want to
 search them for patterns. All of the logs you produce should therefore be in a
-machine-readable format like CSV, <span g="json">JSON</span>, or <span
-g="yaml">YAML</span>; you can easily write a small program to pretty-print the
-data you want for manual inspection.
+machine-readable format like CSV, JSON, or <span g="yaml">YAML</span>; you can
+easily write a small program to pretty-print the data you want for manual
+inspection.
 
 This guideline is one instance of a more general design rule.  The world has
 more data formats than it needs, so if anyone has to write a parser to analyze
