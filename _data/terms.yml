@@ -16,7 +16,7 @@ business: []
 code-review:
 - key: code_review
   term: code review
-collaborate:
+communicate:
 - key: discoverability
   term: discoverability
 - key: doc_comment
@@ -27,6 +27,8 @@ collaborate:
   term: label (an issue)
 - key: issue_tracker
   term: issue tracker
+- key: mail_filter
+  term: mail filter
 - key: milestone
   term: milestone
 - key: reprex
@@ -37,7 +39,6 @@ collaborate:
   term: technical debt
 - key: utc
   term: Coordinated Universal Time
-community: []
 conclusion: []
 conduct: []
 conflict:
@@ -447,3 +448,4 @@ using-git:
   term: sub-command
 - key: timestamp
   term: timestamp
+wide-world: []

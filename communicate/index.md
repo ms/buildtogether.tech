@@ -1,7 +1,11 @@
 ---
 ---
 
-<span class="fixme">knowing how to steer and change gears isn't the same as knowing how to drive in traffic.</span>
+Knowing how to steer and change gears isn't the same as knowing how to drive in
+traffic---you need to know how to signal when you're turning or changing lanes.
+Similarly, knowing how to commit to Git and how to do a code review are
+necessary but not sufficient for collaborating with other programmers.  This
+chapter therefore looks at how to communicate with your teammates.
 
 ## To Do
 
@@ -178,27 +182,51 @@ so the team can easily see when work is due and how much is left to be done.
 
 ## Other Ways to Communicate
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/11</span>
-
-<span class="fixme">comments in code as communication https://github.com/gvwilson/buildtogether.tech/issues/57</span>
-
 Issues are the best way to keep track of where you are, but there are lots of
-other ways the team can and should communicate. The most popular is easily
-email, which has been used to run projects since the 1970s.  It brings content
-directly to people while allowing everyone to deal with issues when it's
-convenient for them, and supports long-running conversations. Email really comes
-into its own, though, when messages are routed through a central mailing list,
-so that people don't have to remember to CC the other five people on their team,
-and a shared archive can be created for later searching. The second point is as
-important as the first: if you can't go back and find out what was said a month
-ago---or, just as importantly, if someone *else* can't do that---you might as
-well not have said it.
+other ways the team can and should communicate. These can be synchronous, like
+chat and video calls, or asynchronous, like issues and email. The former are
+better for quick back-and-forth and for maintaining social connections, but they
+can also be a constant stream of interruptions, which lowers productivity (<span
+x="important"></span>). Synchronous tools also tend to bias communication in
+favor of people who are more self-confident, more fluent in the language, or
+have better network connections, and finding things afterward in archives of
+stream-of-consciousness exchanges is harder than finding things in asynchronous
+media.
 
-Portals provide many other ways to communicate, which project members use in a
-wide variety of ways <cite>Treude2011</cite>.  Wikis seem like a good way to
-keep notes, create documentation, and so on. Their main strength is the fact
-that content is automatically and immediately visible on the web.  These days,
-you will probably get more mileage out of a bunch of Markdown pages under
+But who am I kidding? You're going to use instant messaging no matter what I
+say.  If more than two people are in the conversation, follow the same rules you
+would for a short meeting: post a summary of any decisions you made where
+everyone can see it.
+
+If you prefer fewer interruptions and longer periods of thought, you can always
+go back to email, which has been used to run projects since the 1970s.  It
+brings content directly to people while allowing everyone to deal with issues
+when it's convenient for them, and supports long-running conversations. Email
+really comes into its own, though, when messages are routed through a central
+mailing list, so that people don't have to remember to CC the other five people
+on their team, and a shared archive can be created for later searching. The
+second point is as important as the first: if you can't go back and find out
+what was said a month ago---or, just as importantly, if someone *else* can't do
+that---you might as well not have said it.
+
+<div class="callout" markdown="1">
+
+### Filters are your friend
+
+Every email client allows you to set up <span g="mail_filter">filters</span>
+that automatically flag messages matching certain patterns or file them in
+particular mailboxes. I have fourteen of these set up right now to organize
+messages belonging to particular projects; it only took a couple of minutes, and
+it means that when I check mail in the morning or after lunch, everything is set
+up for me to focus on one topic at a time.
+
+</div>
+
+Software portals provide many other ways to communicate, which project members
+use in a wide variety of ways <cite>Treude2011</cite>.  Wikis seem like a good
+way to keep notes, create documentation, and so on. Their main strength is the
+fact that content is automatically and immediately visible on the web.  These
+days, you will probably get more mileage out of a bunch of Markdown pages under
 version control---you have to set up a repository anyway, and version control
 systems are much better at reconciling conflicts between concurrent authors than
 wikis.
@@ -215,28 +243,37 @@ added to that blog. This allows the project's members to see changes scroll by
 in their usual blog reader, which is a handy way to keep track of what their
 teammates are doing.
 
-If you are going to create a blog, it's best to use a <span
-g="static_site_generator">static site generator</span> to format and publish
-content consistently.  If you are using GitHub, you can create a site with
-[GitHub Pages][github-pages] using a tool called [Jekyll][jekyll]; lots of
-different themes are available, and there are many good tutorials online.
+If you are going to create a blog, use a <span g="static_site_generator">static
+site generator</span> to format and publish content consistently.  On GitHub,
+for example, you can create a site with [GitHub Pages][github-pages] using a
+tool called [Jekyll][jekyll]; lots of different themes are available, and there
+are many good tutorials online.
 
-Finally, there are instant messaging tools like Slack. It is more conversational
-than email, but:
+<div class="callout" markdown="1">
 
-1.  Instant messaging is the most effective method ever invented for disrupting
-    the state of flow that is so essential to productivity.
+### Comments as communication
 
-2.  Conversations tend to be permanently out of phase: if you ask, "Can we move
-    on to the next item?", and someone doesn't say either "yes" or "no", what
-    usually happens is that you wait a minute, then move on, and then they pop
-    up with a lengthy comment on the preceding item.
+People don't usually think of comments as a form of communication like email or
+instant messaging, but if they are used properly, the only significant
+difference is that the comments are right there in the code where the recipients
+can't miss them rather than in an archive somewhere that they'll have to go and
+search.  If you choose names for functions and variables carefully, the code
+itself will explain what it's doing when someone reads it aloud; the comments
+should therefore explain *why*, just as you would in an email.  For example,
+this is not a useful comment:
 
-I think these faults can all be fixed, but until they are---oh, who am I
-kidding? You're going to use IM no matter what I say. If there's more than two
-people in the conversation, follow the same rules you would for a meeting. In
-particular, post a summary of the conversation to your project's web site, just
-as you would post meeting minutes.
+```python
+x = x[1:] # take all but first element of list
+```
+
+{: .continue}
+This, on the other hand, tells the next person why we're doing it:
+
+```python
+threads = threads[1:] # We are already running the first thread, so save the others.
+```
+
+</div>
 
 ## Reporting Up
 
@@ -420,8 +457,8 @@ Keep each item short.
     assuming.
 
 Allow for a chorus of explanations.
-:   If users are different from one another, they are best served by a chorus of
-    explanations <cite>Caulfield2016</cite>.  Do not be afraid of providing
-    multiple explanations to a single question that suggest different approaches
-    or are written for different prior levels of understanding.  <span
-    class="fixme">this is why Stack Overflow has been successful.</span>
+:   Do not be afraid of providing multiple explanations to a single question
+    that suggest different approaches or are written for different prior levels
+    of understanding. This is one of the things that has made Stack Overflow so
+    successful: if users are different from one another, they are best served by
+    a chorus of explanations <cite>Caulfield2016</cite>

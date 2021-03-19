@@ -462,7 +462,7 @@ When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
 responsibilities is to <span g="triage">triage</span> the issues in a project's
-issue tracker (<span x="collaborate"></span>) periodically and adjust the
+issue tracker (<span x="communicate"></span>) periodically and adjust the
 schedule accordingly. The 3×3 effort-importance grid that you drew at the start
 will help with this: by the time you are a few weeks into your project, you
 should be able to update the effort estimates, add newly-discovered issues, and

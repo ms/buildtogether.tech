@@ -787,6 +787,12 @@
   ref:
   - short_term_memory
 
+- key: mail_filter
+  en:
+    term: mail filter
+    def: >
+      FIXME
+
 - key: markdown
   en:
     term: Markdown

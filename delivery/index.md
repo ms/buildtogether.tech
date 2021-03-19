@@ -235,7 +235,7 @@ OpenOffice. Unfortunately, these get in the way at least as much as they help:
 
 For these reasons, most teams format their reports as a set of Markdown pages
 under version control and use a static site generator (<span
-x="collaborate"></span>) to turn them into a report. That solves the problem of
+x="communicate"></span>) to turn them into a report. That solves the problem of
 multiple authors (HTML is a text format, so diff and merge will work), and if
 you know a little CSS, you can make it look as pretty as you want. Diagrams and
 screenshots work well, but equations are problematic: MathML (the mathematical

@@ -26,7 +26,7 @@ A single unit test will typically have:
 
 The fixture is typically a subset or smaller version of the data the function
 will typically process. In fact, it should be a reprex (<span
-x="collaborate"></span>), i.e., exactly the same kind of minimal example you
+x="communicate"></span>), i.e., exactly the same kind of minimal example you
 would post online if you were asking for help.
 
 Writing one unit test is easy enough, but we should check other cases as well.

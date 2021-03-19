@@ -44,11 +44,11 @@ entries:
   label: '9'
   slug: code-review
   title: Code Reviews
-- file: ./collaborate/index.md
+- file: ./communicate/index.md
   kind: Chapter
   label: '10'
-  slug: collaborate
-  title: Collaborative Development
+  slug: communicate
+  title: Communicating
 - file: ./testing/index.md
   kind: Chapter
   label: '11'
@@ -94,11 +94,11 @@ entries:
   label: '19'
   slug: process
   title: Feedback Loops
-- file: ./community/index.md
+- file: ./wide-world/index.md
   kind: Chapter
   label: '20'
-  slug: community
-  title: Joining the Community
+  slug: wide-world
+  title: The Big Wide World
 - file: ./research/index.md
   kind: Chapter
   label: '21'

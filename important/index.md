@@ -514,7 +514,7 @@ Who gets to vote?
     but in practice it often means projects are driven by people who are
     extroverted or self-confident rather than by those with the best technical
     skills or the best understanding of what users need. We'll revisit this in
-    <span x="community"></span>.
+    <span x="wide-world"></span>.
 
 Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
