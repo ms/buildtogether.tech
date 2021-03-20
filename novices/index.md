@@ -1,9 +1,9 @@
 ---
 ---
 
-This book isn't intended for complete novices (<span x="introduction"></span>),
+This book isn't intended for complete novices (<span x="introduction"/>),
 but you may have been one recently, and may find these results interesting
-additions to those presented in <span x="research"></span>.
+additions to those presented in <span x="research"/>.
 
 <cite>Soloway1984,Soloway1986</cite> pioneered the exploration of novice and
 expert programming strategies.  The key finding is that experts know both "what"

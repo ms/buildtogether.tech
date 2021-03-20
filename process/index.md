@@ -47,7 +47,7 @@ example:
     eight new ones, three of which are assigned to you.  It looks like the file
     parser you wrote last week doesn't handle the "clarification" the prof
     posted on Monday.  You create a new branch and start writing unit tests to
-    isolate the things that are breaking (<span x="design"></span>).
+    isolate the things that are breaking (<span x="design"/>).
 
 -   3:25 p.m.: You have added twelve new tests, each between three and ten lines
     long.  Eleven fail the way you expect; the twelfth triggers an assertion in
@@ -262,7 +262,7 @@ have.  Finally, most people are less likely to check email every five minutes if
 someone else is working with them…
 
 Agile teams usually also rely on continuous integration (<span
-x="tooling"></span>) to get feedback about what state the software is in.  This
+x="tooling"/>) to get feedback about what state the software is in.  This
 is particularly important when other people or pairs are working on it: each
 change might work in isolation, but combining them might break things if someone
 hasn't been careful about doing merges.
@@ -326,7 +326,7 @@ up the build", and "upgrade to the latest version of Node".
 So, it's Monday morning.  Version N shipped last Thursday; the team has had a
 weekend to catch its collective breath and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week
-to recover, go back and re-read <span x="important"></span>.)  At this
+to recover, go back and re-read <span x="important"/>.)  At this
 point the product manager divides up the list of desired features and assigns
 them to the developers.  Each developer then has some time---typically a few
 days to a couple of weeks---to do a little research, write some throwaway
@@ -355,7 +355,7 @@ What you do now is find a large whiteboard and draw a 3×3 grid.  The X axis is
 labeled "effort" and is labeled "an hour", "a day", and "a week", while the Y
 axis "importance", and each is divided into "low", "medium", and "high".  Next,
 write each feature's name on a yellow sticky note and put it on the grid.  You
-should wind up with something like <span f="process-matrix"></span>.
+should wind up with something like <span f="process-matrix"/>.
 
 {% include figure id="process-matrix" alt="Effort/importance matrix" cap="An example of an effort/importance matrix." fixme=true %}
 
@@ -407,7 +407,7 @@ Denial.
 
 Start working evenings and weekends.
 :   This is also very popular, but is quickly self-defeating.  As <span
-    x="important"></span> explained, the quality of your work goes down when
+    x="important"/> explained, the quality of your work goes down when
     you're tired, so any ground you gain by working until three a.m.  you lose
     to extra debugging and rewriting.
 
@@ -462,7 +462,7 @@ When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
 responsibilities is to <span g="triage">triage</span> the issues in a project's
-issue tracker (<span x="communicate"></span>) periodically and adjust the
+issue tracker (<span x="communicate"/>) periodically and adjust the
 schedule accordingly. The 3×3 effort-importance grid that you drew at the start
 will help with this: by the time you are a few weeks into your project, you
 should be able to update the effort estimates, add newly-discovered issues, and

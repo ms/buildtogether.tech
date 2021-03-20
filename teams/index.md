@@ -17,7 +17,7 @@ or accidentally erased files, which is why most computer science courses stick
 to individual assignments.
 
 It doesn't take much to make a team work smoothly, though. The rules in <span
-x="important"></span> for running meetings, making decisions, and
+x="important"/> for running meetings, making decisions, and
 resolving conflicts are a good start; this chapter will look at what else
 you can do.
 
@@ -30,7 +30,7 @@ forwards and backs in rugby, the infield and outfield in baseball, and so on.
 She went on to explain that hunting parties in non-agricultural societies are
 usually that size as well, as are basic military units around the world (a
 platoon is two squads of six people).  Since we can only keep a handful of
-things in our short-term memory at once (<span x="thinking"></span>) that's as
+things in our short-term memory at once (<span x="thinking"/>) that's as
 big as a team can practically be.
 
 The same observation applies to software development.  Three or four people can
@@ -68,7 +68,7 @@ of the benefits of working in a team are lost: there's less back-and-forth
 discussion of design issues, and little improvement in communication skills.
 Those may not be important to you, but if there is a final exam in your course
 with questions about the project work, your mark on it may depend on how much
-you know about your teammates' work (<span x="delivery"></span>).
+you know about your teammates' work (<span x="delivery"/>).
 
 There's another strong argument against self-selected teams: the pre-existing or
 ongoing relationships between their members make life a lot easier for
@@ -87,7 +87,7 @@ While instructors should try to include as diverse a spread of abilities in each
 team as possible, they should avoid isolating at-risk students.  Members of
 minority groups and women are more likely to drop out of computer science,
 particularly in first and second year. We'll talk about this more in <span
-x="rights"></span>, but one of the main reasons is feeling isolated or out of
+x="rights"/>, but one of the main reasons is feeling isolated or out of
 place. Research has shown shown that putting at-risk students together in the
 first couple of years can mitigate this problem <cite>Margolis2002</cite>. It is
 less necessary in upper years, though, since by then students have a stronger
@@ -146,7 +146,7 @@ students are more likely to be given responsibility for taking notes, writing
 documentation, and other low-status tasks. Some have experienced this so often
 that they have come to accept it as the price they have to pay for being in
 tech. Others protest, but those who do are often dismissed as being "difficult"
-(<span x="important"></span>). Many take a third path and decide to leave
+(<span x="important"/>). Many take a third path and decide to leave
 programming---after all, why play a game that's unfair?
 
 <div class="callout" markdown="1">
@@ -227,7 +227,7 @@ they're actually reporting is their self-esteem.
 modular decomposition that works well in practice. Instead of owning an entire
 subsystem for the life of the project, each team member handles the design,
 coding, testing, and documentation for one small feature after another.  Working
-this way is central to agile development (<span x="process"></span>)) and is a
+this way is central to agile development (<span x="process"/>)) and is a
 good way to cope with the never-ending timeslicing of student life.
 
 Finally, there is <span g="rotating_decomposition">rotating
@@ -342,7 +342,7 @@ the instructors and other outsiders. "Observables" means that instead of asking
 if the person is outgoing or if they have a positive attitude, assessments
 should ask if they listen attentively during meeting or attempt to solve
 problems before asking for help.
-The performance review guidelines in <span x="evaluation"></span> can serve as a useful starting point for such
+The performance review guidelines in <span x="evaluation"/> can serve as a useful starting point for such
 evaluations.
 
 ## People to Watch Out For

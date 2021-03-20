@@ -2,7 +2,7 @@
 ---
 
 We have come a long way since we talked about crunch mode and how to run a meeting
-in <span x="important"></span>.
+in <span x="important"/>.
 Using feature branches,
 triaging issues,
 designing software so that it can be tested,
@@ -27,7 +27,7 @@ from errata and minor improvements to entirely new sections and chapters,
 and everyone whose work is incorporated will be acknowledged.
 If you'd like to join us,
 please file an issue or submit a pull request in [our GitHub repository][bst-repo],
-or see the contributors' guide (<span x="contributing"></span>) for more information.
+or see the contributors' guide (<span x="contributing"/>) for more information.
 
 ## Ten Simple Rules for Changing the World
 
@@ -107,7 +107,7 @@ work.
 9. Learn how to run meetings and make decisions.
 :   You can get the change you want without being a great public speaker, but
     you *must* know how to run a meeting and make decisions <span
-    x="important"></span>.
+    x="important"/>.
 
 10. Celebrate when you can, grieve when you need to.
 :   [Burnout][thirdbit-burnout] is an occupational hazard for everyone trying to

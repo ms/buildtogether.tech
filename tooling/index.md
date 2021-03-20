@@ -115,7 +115,7 @@ some people claim is actually Lisp-based operating system in disguise).
 
 ### Punchcards once again
 
-As we noted in <span x="using-git"></span>, programming is still stuck in the
+As we noted in <span x="using-git"/>, programming is still stuck in the
 punchcard era: we still insist that source code be represented as lines of
 characters that are drawn one-for-one on the screen.  <span
 g="wysiwyg">WYSIWYG</span> editors like Microsoft Word did away with this model
@@ -141,7 +141,7 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
     program.
 
 -   A style checker that can warn you when your code doesn't meet naming and
-    indentation conventions (span x="automation"></span>).
+    indentation conventions (span x="automation"/>).
 
 -   A <span g="code_browser">code browser</span> that helps you navigate the
     packages, classes, methods, and data in your program.
@@ -207,8 +207,8 @@ courses require students to document their packages, classes, and methods this
 way; it's a good habit, and one you should cultivate.
 
 Another set of tools are a complement to the style checkers discussed in <span
-x="automation"></span>.  Style checkers do static analysis, i.e., they look at
-the text of your program while it's at rest.  Other tools do <span
+x="automation"/>.  Style checkers do static analysis, i.e., they look at the
+text of your program while it's at rest.  Other tools do <span
 g="dynamic_analysis">dynamic analysis</span>:: they watch your program run, and
 look for things like memory leaks, or inconsistent locking that might lead to
 deadlocks or race conditions. FindBugs is the best-known in the Java world; the

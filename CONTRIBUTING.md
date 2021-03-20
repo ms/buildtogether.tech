@@ -61,10 +61,10 @@ This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite> for c
 1.  To create a cross-reference:
     -   Use `{% raw %}<span g="key">some text</span>{% endraw %}` for glossary entries.
         The key must appear in `_data/glossary.yml`.
-    -   Use `{% raw %}<span x="slug"></span>{% endraw %}` to cross-reference a chapter or appendix.
+    -   Use `{% raw %}<span x="slug"/>{% endraw %}` to cross-reference a chapter or appendix.
         The slugs must appear in `_config.yml`.
-    -   Use `{% raw %}<span f="key"></span>{% endraw %}` to cross-reference a figure
-        and `{% raw %}<span t="key"></span>{% endraw %}` to cross-reference a table.
+    -   Use `{% raw %}<span f="key"/>{% endraw %}` to cross-reference a figure
+        and `{% raw %}<span t="key"/>{% endraw %}` to cross-reference a table.
     -   Use `{% raw %}<cite>key,key</cite>{% endraw %}` for bibliography citations.
         The keys must appear in `bibliography/index.md`.
 

@@ -50,9 +50,9 @@ Because they're fun.
 :   At least, if they're done right.
 
 One goal of project courses is to move learners from the left side of <span
-f="four-models-of-instruction"></span> to the right. Most of the learning will
+f="four-models-of-instruction"/> to the right. Most of the learning will
 take place in a team or on your own; the instructor's job is to mentor rather
-than to lecture. Using the terms of <span x="thinking"></span>, a project course
+than to lecture. Using the terms of <span x="thinking"/>, a project course
 is where your school starts treating you like a competent practitioner rather
 than like a novice.
 
@@ -136,7 +136,7 @@ A final exam.
 Just like real development projects, course projects can and should produce a
 lot more than just code.  For example, <cite>Spinellis2007</cite> looked at how
 much content of different kinds went into the FreeBSD project in 2006.  <span
-t="starting-spinellis-stats"></span> doesn't divide "source code" into
+t="starting-spinellis-stats"/> doesn't divide "source code" into
 "application code" and "tests", but it's still an eye-opener.
 
 {% include table id="starting-spinellis-stats" file="spinellis-stats.tbl" cap="FreeBSD 2006" %}

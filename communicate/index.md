@@ -98,13 +98,13 @@ issue is much more than, "The program crashes when I open strange files," but
 experience shows that if people are required to come up with a reprex when
 filing an issue, they will often solve their own problem along the way.  We'll
 talk more about the value of minimal reproducible examples in <span
-x="debugging"></span>.
+x="debugging"/>.
 
 <div class="callout" markdown="1">
 
 ### When to start saying "no"
 
-As we will see in <span x="process"></span>, one purpose of a schedule is to
+As we will see in <span x="process"/>, one purpose of a schedule is to
 tell you when to start cutting corners. Similarly, one of the main reasons to
 keep issues in one place is to help you prioritize them when time starts to run
 short.
@@ -187,7 +187,7 @@ other ways the team can and should communicate. These can be synchronous, like
 chat and video calls, or asynchronous, like issues and email. The former are
 better for quick back-and-forth and for maintaining social connections, but they
 can also be a constant stream of interruptions, which lowers productivity (<span
-x="important"></span>). Synchronous tools also tend to bias communication in
+x="important"/>). Synchronous tools also tend to bias communication in
 favor of people who are more self-confident, more fluent in the language, or
 have better network connections, and finding things afterward in archives of
 stream-of-consciousness exchanges is harder than finding things in asynchronous
@@ -375,7 +375,7 @@ documentation for helper functions that are only used inside our package and
 aren't meant to be called by users, but these should still have at least a
 comment explaining their purpose.
 
-As <span x="thinking"></span> explains, we can divide people in any domain into
+As <span x="thinking"/> explains, we can divide people in any domain into
 novices, competent practitioners, and experts.  Each of these three groups needs
 a different kind of documentation:
 

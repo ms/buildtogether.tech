@@ -80,7 +80,7 @@ review the basics that we hope you have learned previous, then look at how to
 use Git and GitHub to collaborate. We will show the commands as if you were
 typing them on the command line; if you are a beginner, we recommend that you
 use a graphical interface like [GitKraken][gitkraken] or the one that comes with
-your IDE (<span x="tooling"></span>). These GUIs are all layered on top of the
+your IDE (<span x="tooling"/>). These GUIs are all layered on top of the
 commands we are going to discuss, so they (should) all work the same way.
 
 <div class="callout" markdown="1">
@@ -386,7 +386,7 @@ grading it is to clone a fresh copy of the project in a temporary directory
 and make sure that everything builds and runs there. Doing that will tell you
 if you or one of your teammates has forgotten to commit a key file. In an
 advanced course, you might be asked to do this automatically every time
-someone commits changes; we'll explore this in <span x="tooling"></span>.
+someone commits changes; we'll explore this in <span x="tooling"/>.
 
 </div>
 
@@ -682,7 +682,7 @@ schoolwork.
 Version control really comes into its own when we are working with other people.
 Portals like GitHub, GitLab, and Bitbucket are all designed to support this, and
 they all provide other tools for managing and reviewing shared information. This
-chapter looks at how to use those tools so that <span x="process"></span>'s
+chapter looks at how to use those tools so that <span x="process"/>'s
 discussion of software development processes will make more sense.
 
 People can share work through a Git repository in one of two ways:
@@ -710,7 +710,7 @@ and creates a copy of Sami's repository within Amira's account on GitHub's own
 servers. When the command completes, nothing has happened yet on Amira's own
 machine: the new repository exists only on GitHub.  When Amira explores its
 history, she sees that it contains all of the changes Sami made (<span
-f="after-fork"></span>).
+f="after-fork"/>).
 
 {% include figure id="after-fork" alt="After forking" cap="What repositories are where after forking." fixme=true %}
 
@@ -726,7 +726,7 @@ amira:~ $ git clone https://github.com/amira/homework5.git
 ```
 
 This command creates a new directory with the same name as the project on
-Amira's machine (<span f="after-clone"></span>).  When Amira goes into this
+Amira's machine (<span f="after-clone"/>).  When Amira goes into this
 directory and runs `ls` and `git log`, she sees all of the project's files and
 history:
 
@@ -753,7 +753,7 @@ origin  https://github.com/amira/homework5.git (push)
 ```
 
 Amira can pull changes from their fork and push work back there, but needs to
-add a remote pointing at Sami's repository first (<span f="after-remote"></span>):
+add a remote pointing at Sami's repository first (<span f="after-remote"/>):
 
 ```sh
 amira:~/homework5 $ git remote add upstream https://github.com/sami/homework5.git

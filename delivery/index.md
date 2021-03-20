@@ -173,7 +173,7 @@ An introduction that orients the reader.
     *next* team will need in order to continue the project.
 
 A summary of what was accomplished.
-:   This should *not* simply rehash the A&E (<span x="process"></span>),
+:   This should *not* simply rehash the A&E (<span x="process"/>),
     although that's a good place to start. Instead, it should describe the
     system's architecture, any features of its data formats, class structure, or
     UI that won't immediately make sense to a knowledgeable observer, and so
@@ -235,7 +235,7 @@ OpenOffice. Unfortunately, these get in the way at least as much as they help:
 
 For these reasons, most teams format their reports as a set of Markdown pages
 under version control and use a static site generator (<span
-x="communicate"></span>) to turn them into a report. That solves the problem of
+x="communicate"/>) to turn them into a report. That solves the problem of
 multiple authors (HTML is a text format, so diff and merge will work), and if
 you know a little CSS, you can make it look as pretty as you want. Diagrams and
 screenshots work well, but equations are problematic: MathML (the mathematical

@@ -129,7 +129,7 @@ material <cite>Almeida2017</cite>.
 </div>
 
 Just as the project's Code of Conduct is usually placed in a root-level file
-called `CONDUCT.md` (<span x="project"></span>), its license is usually put in a
+called `CONDUCT.md` (<span x="project"/>), its license is usually put in a
 file called `LICENSE.md` that is also in the project's root directory.  To make
 license selection for code as easy as possible, GitHub allows us to select one
 of several common software licenses when creating a repository.  Unfortunately,

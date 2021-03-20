@@ -13,6 +13,8 @@ automation:
   term: critical mass
 - key: json
   term: JavaScript Object Notation
+- key: package_manifest
+  term: package manifest
 - key: pattern_rule
   term: pattern rule
 - key: static_analysis

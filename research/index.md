@@ -27,8 +27,8 @@ self-appointed guru constitute "proof".
 This chapter therefore presents a few evidence-based results that are relevant
 to the kind of work you may be doing in your project and that your instructor
 might want to incorporate into your course <cite>Fagerholm2017</cite>; <span
-x="methods"></span> discusses the methods researchers use, and <span
-x="novices"></span> presents a few more results that are specific to novice
+x="methods"/> discusses the methods researchers use, and <span
+x="novices"/> presents a few more results that are specific to novice
 programmers.
 
 I hope you will find them interesting enough to want to dig further, but as with
@@ -137,7 +137,7 @@ research topics the same way.
 
 ## What Do We Know About Programming Style?
 
-As we mentioned in <span x="tooling"></span> <cite>Stefik2013</cite> did a
+As we mentioned in <span x="tooling"/> <cite>Stefik2013</cite> did a
 controlled experiment to see how quickly people could learn to recognize correct
 and incorrect syntax in several different languages. They found that languages
 like C, Java, and Perl were as hard for people to learn as a language with a

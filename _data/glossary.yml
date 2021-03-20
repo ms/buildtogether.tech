@@ -917,6 +917,12 @@
     def: >
       FIXME
 
+- key: package_manifest
+  en:
+    term: "package manifest"
+    def: >
+      FIXME
+
 - key: pair_programming
   en:
     term: "pair programming"

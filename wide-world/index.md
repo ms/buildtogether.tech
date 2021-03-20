@@ -9,4 +9,4 @@
 
 <span class="fixme">Summarize <cite>Sholler2019</cite> in an interlude</span>
 
-<span class="fixme">Who gets to vote revisited from <span x="important"></span></span>
+<span class="fixme">Who gets to vote revisited from <span x="important"/></span>

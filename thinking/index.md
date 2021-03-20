@@ -48,7 +48,7 @@ To explain where these differences come from, imagine that the knowledge in your
 brain is stored as a graph in which ideas are nodes and the connections between
 them are arcs. (Your brain doesn't actually work this way, but it's a useful
 metaphor.) A novice's mental model is disconnected: some key facts are missing,
-and other pieces don't join up (<span f="thinking-models"></span>). In contrast,
+and other pieces don't join up (<span f="thinking-models"/>). In contrast,
 a competent practitioner's mental model is fully connected: given fact `A`, he
 can reason his way through `B` and `C` to solution `D`. He might take a wrong
 turn to `Y` and `Z` along the way and have to backtrack, but he'll get there
@@ -203,7 +203,7 @@ the things we didn't.
 
 {% include figure id="thinking-cognitive-architecture" alt="Cognitive architecture" cap="The cognitive architecture of the human mind (simplified)." fixme=true %}
 
-<span f="thinking-cognitive-architecture"></span> shows a very (very) simple
+<span f="thinking-cognitive-architecture"/> shows a very (very) simple
 model of the cognitive architecture of the human brain. On the left is <span
 g="long_term_memory">long-term memory</span> (LTM), which is where you store
 things like the spelling of your name and how that awful clown scared you when
@@ -240,7 +240,7 @@ For example, suppose you are learning the grammar of Frisian. If I ask you to
 translate, "How is her knee today?" then the intrinsic load is the rules of
 grammar, but there is also the germane load of recalling vocabulary (which is
 necessary, but isn't the main focus of the lesson). If, on the other hand, I
-give you the words as shown in <span f="thinking-frisian"></span> and ask you to
+give you the words as shown in <span f="thinking-frisian"/> and ask you to
 rearrange them, I have eliminated the germane load, but have added some
 extraneous load by using a mix of fonts. You will solve the problem more quickly
 and more accurately if the words are all in the same font, no matter what that

@@ -59,7 +59,7 @@ believe that the only alternative to their rule is chaos.
 
 ## What to Do
 
-The first rule for meetings in <span x="important"></span> was to agree on what
+The first rule for meetings in <span x="important"/> was to agree on what
 the rules are so that everyone knows what's expected of them. A common
 understanding of how to handle conflict helps in the same way; as with first aid
 training, having some idea of what to do makes you more likely to actually do
@@ -72,7 +72,7 @@ Make sure you are not guilty of the same sin.
 Check expectations.
 :   Are you sure the offender knows what standards they are supposed to be meeting?
     This is where things like the team contracts described in <span
-    x="teams"></span> come in handy.
+    x="teams"/> come in handy.
 
 Check the situation.
 :   Is someone dealing with an ailing parent or immigration woes?  Do they have

@@ -13,7 +13,7 @@ how to run a meeting, and how to resolve arguments.
 <cite>Sedano2017</cite> found that software development projects have nine types
 of waste: building the wrong feature or product, mismanaging the backlog,
 rework, unnecessarily complex solutions, extraneous cognitive load (<span
-x="thinking"></span>), psychological distress, waiting/multitasking, knowledge
+x="thinking"/>), psychological distress, waiting/multitasking, knowledge
 loss, and ineffective communication. *None of these are software issues,* so if
 you only think about the software side of your project, it's going to take
 longer and hurt more than it needs to.
@@ -165,7 +165,7 @@ Make a list of the things you have to do.
     themselves email messages that then go into a folder titled "To Do".
     However you do it, the important thing is to *write it all down*.  You can
     only keep a handful of things in short-term memory at once (<span
-    x="thinking"></span>); if you try to manage a to-do list longer than that in
+    x="thinking"/>); if you try to manage a to-do list longer than that in
     your head, you will forget things.
 
 Weed out everything that you don't need to do right away.
@@ -177,7 +177,7 @@ Sort the list so that the most important tasks are at the top.
     into order, since I'm going to re-check my list before I get to them anyway.
 
 Make sure you have everything you need to see the first task through.
-:   The most recent files from version control (<span x="using-git"></span>),
+:   The most recent files from version control (<span x="using-git"/>),
     the assignment specification, a fresh cup of tea---whatever it is, don't
     give yourself an excuse to interrupt your work, because the world will
     provide enough of those.
@@ -328,7 +328,7 @@ Take minutes.
     important information that was shared, and about every decision that was
     made or every task that was assigned to someone.  This responsibility should
     rotate each meeting so that everyone has to take a turn; otherwise, as
-    discussed in <span x="teams"></span>, the burden will fall unfairly on some
+    discussed in <span x="teams"/>, the burden will fall unfairly on some
     people.
 
 End early.
@@ -381,7 +381,7 @@ Everyone can check what was actually said or promised.
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
     follow up on them later.  If you are using an issue-tracking system (<span
-    x="tooling"></span>), create an issue for each new question or task right
+    x="tooling"/>), create an issue for each new question or task right
     after the meeting and update those that are being carried forward.  This
     helps a lot when the time comes to draw up the agenda for the next meeting.
 
@@ -514,13 +514,13 @@ Who gets to vote?
     but in practice it often means projects are driven by people who are
     extroverted or self-confident rather than by those with the best technical
     skills or the best understanding of what users need. We'll revisit this in
-    <span x="wide-world"></span>.
+    <span x="wide-world"/>.
 
 Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
-section in the project's `README` file (<span x="using-git"></span>) or put
+section in the project's `README` file (<span x="using-git"/>) or put
 into a separate file called `CONTRIBUTING`.  This material should describe the
 naming conventions to use for functions, what tags to put on issues, or how to
 install and configure the software needed to start work on the project.

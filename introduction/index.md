@@ -44,7 +44,7 @@ which teaches the basics of software design by showing you
 how to build the tools you program with.
 If you are looking for a project to do in a course,
 adding a tool to those covered there would be fun as well as educational.
-Please see <span x="conclusion"></span> for more details.
+Please see <span x="conclusion"/> for more details.
 
 ## Topics
 
@@ -93,9 +93,9 @@ change too.
 ## Contributing
 
 If you would like to improve what we have or add new material, please see the
-Code of Conduct in <span x="conduct"></span> and the contributor guidelines in
-<span x="contributing"></span>.  If you have questions or would like to use this
-material in a course, please [send us email][contact].
+Code of Conduct in <span x="conduct"/> and the contributor guidelines in <span
+x="contributing"/>.  If you have questions or would like to use this material in
+a course, please [send us email][contact].
 
 ## Acknowledgments
 
@@ -106,10 +106,10 @@ Google Summer of Code, and to everyone who took part in UCOSP
 <cite>Holmes2014,Holmes2018</cite>.
 
 I have tried to base recommendations on empirical software engineering research
-(<span x="research"></span>) and on the science of teaching and learning (<span
-x="thinking"></span>). Where those don't have answers, I have drawn on the
-experience of the students and programmers mentioned below.  Any errors,
-omissions, or misunderstandings that remain are entirely our fault.
+(<span x="research"/>) and on the science of teaching and learning (<span
+x="thinking"/>). Where those don't have answers, I have drawn on the experience
+of the students and programmers mentioned below.  Any errors, omissions, or
+misunderstandings that remain are entirely our fault.
 
 {% include thanks.html %}
 

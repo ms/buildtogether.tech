@@ -15,7 +15,7 @@ Markdown (`.md`) files.
 
 `LICENSE`
 :   Describes who can do what with the project materials.  We discuss various
-    licenses in <span x="rights"></span>
+    licenses in <span x="rights"/>
 
 `CONDUCT`
 :   The project's Code of Conduct, i.e., how people are required to treat one
@@ -27,7 +27,7 @@ Markdown (`.md`) files.
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
     contribution guidelines increase the odds of people contributing (<span
-    x="wide-world"></span>); in my experience, they also reduce friction between
+    x="wide-world"/>); in my experience, they also reduce friction between
     team members.
 
 Beyond that, every language has its own conventions for what files should go

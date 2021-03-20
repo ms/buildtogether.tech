@@ -169,7 +169,7 @@ Post a public description of the hiring process.
 Use blinded screening.
 :   Everyone has unconscious biases, and many of the rules scientists follow
     when running experiments are designed to prevent them contaminating results
-    (<span x="research"></span>).  The same is true of hiring, and so is the
+    (<span x="research"/>).  The same is true of hiring, and so is the
     solution. For example, my first-round interview with Automattic was done by
     text over Slack so that my appearance, my accent, or the fact that I
     sometimes need a couple of moments to collect my thoughts wouldn't bias the
@@ -185,13 +185,13 @@ Use diverse interview panels.
 
 Have an org chart.
 :   A company probably won't share this with you until you're hired, but you
-    should ask whether they have one. As we said in <span x="important"></span>,
+    should ask whether they have one. As we said in <span x="important"/>,
     everyone organization has a power structure: the only question is whether
     it's public and accountable, or whether the organization runs on who you
     know and how willing people are to barge in on strangers.
 
 Have written criteria for performance reviews.
-:   The ones shown in <span x="evaluation"></span> are a good model, and these
+:   The ones shown in <span x="evaluation"/> are a good model, and these
     *are* something a company can share before hiring you. If a company doesn't
     have criteria, or if performance reviews are only done when an employee asks
     for one, the system is once again biased toward the extroverted and the

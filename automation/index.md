@@ -50,7 +50,7 @@ approach builds as a programming problem.
 
 The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The `package.json` file used by
-[Node.js][nodejs] serves as both a <g span="package_manifest">package
+[Node.js][nodejs] serves as both a <span g="package_manifest">package
 manifest</g> and a build file---as the example below shows, some of its entries
 describe the package or its dependencies, while others store commands that can
 be re-run by typing things like `npm run test`:
@@ -148,7 +148,7 @@ analysis</span> tool, since they work by parsing the source code for your
 program rather than by watching the program run. Compilers also do a lot of
 static analysis; the non-fatal warnings they produce are a lot more useful than
 many students realize, and a "zero warnings" policy can prevent a lot of subtle
-bugs.  As we'll see in <span x="research"></span>, requiring type definitions in
+bugs.  As we'll see in <span x="research"/>, requiring type definitions in
 code helps programmers understand software as well.
 
 ## Continuous Integration

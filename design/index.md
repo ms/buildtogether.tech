@@ -44,7 +44,7 @@ lower than the odds of rewriting recent code, for example---but it captures a
 key point: the cost of rework grows faster than the number of pieces of work.
 Your goal when designing software is to reduce the cost of reworking things by
 lowering $$p$$.  (You can also lower $$N$$ by re-using code from libraries; see
-<span x="thinking"></span> for an explanation of why you can't lower $$C$$ by
+<span x="thinking"/> for an explanation of why you can't lower $$C$$ by
 increasing $$L$$.)
 
 I can't *tell* you how to design software, and I don't know anyone who can. I
@@ -76,7 +76,7 @@ used as a starting point for many different class projects.
 part of the permanent record. Instead, they use diagrams as an aid to
 conversation in the moment---essentially, as a temporary store for ideas that
 they wouldn't otherwise be able to keep track of (<span
-x="thinking"></span>). In many cases, the people who drew the diagrams couldn't
+x="thinking"/>). In many cases, the people who drew the diagrams couldn't
 make sense of them a day later; it could be that the benefit of diagrams
 therefore comes from the act of drawing, not from having them to study.
 
@@ -126,7 +126,7 @@ The two kinds of diagram that I find most useful are the entity-relationship
 diagram and a combination of conceptual and workflow diagrams called a <span
 g="use_case_map">use-case map</span> <cite>Reekie2006</cite>.  The background is
 the system's conceptual architecture; the overlay traces what happens during a
-particular workflow (<span f="use-case-map"></span>).  It's easy to understand,
+particular workflow (<span f="use-case-map"/>).  It's easy to understand,
 and I found it very useful for checking the behavior of moderately complex
 systems, particularly ones built from lots of <span
 g="microservice">microservices</span>.
@@ -165,7 +165,7 @@ practitioners very much <cite>Petre2013</cite>.
 
 What if you're starting with a blank sheet of paper (or an empty whiteboard)?
 How do you describe something that doesn't exist yet? The best way to start is
-to write your elevator pitch (<span x="starting"></span>). Next, write one or
+to write your elevator pitch (<span x="starting"/>). Next, write one or
 two point-form <span g="user_story">user stories</span> describing how the
 application, feature, or library would be used. Be as concrete as possible:
 instead of saying, "Allows the user to find overlaps between their calendar and
@@ -536,7 +536,7 @@ as <cite>Johnson2017</cite> points out, the population is aging, and everything
 you do to help people who are deaf also helps people who are gradually losing
 their hearing.
 
-<span class="fixme">forward ref to <span x="tooling"></span> discussion of WebAIM.</span>
+<span class="fixme">forward ref to <span x="tooling"/> discussion of WebAIM.</span>
 
 ## Design for Security
 

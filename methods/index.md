@@ -88,7 +88,7 @@ One reason for this is that the web ranges from unwelcoming to actively hostile
 for people from under-represented groups <cite>Ford2016,May2019</cite>.
 Unfortunately, in-person workplaces are often no better: many are filled with
 small signs that make many people feel out of place <cite>Cheryan2009</cite>.
-<span x="rights"></span> takes a closer look at these issues.
+<span x="rights"/> takes a closer look at these issues.
 
 </div>
 
@@ -105,9 +105,9 @@ produce. They analyzed 155 <span g="post_mortem">post mortem</span> reviews of
 game projects to identify characteristics of game development, link the
 characteristics to positive and negative experiences, and distill a set of best
 practices and pitfalls for game development. Their results are shown in <span
-f="washburn-2016-what-went-right"></span> and <span
-f="washburn-2016-what-went-wrong"></span>, and their description of their method
-is worth repeating in full:
+f="washburn-2016-what-went-right"/> and <span
+f="washburn-2016-what-went-wrong"/>, and their description of their method is
+worth repeating in full:
 
 <blockquote markdown="1">
 

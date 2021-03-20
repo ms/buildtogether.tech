@@ -39,7 +39,7 @@ Have the instructor do a demonstration review.
 Authors should clean up code before review.
 :   If the person creating the PR goes through and adds some more comments,
     cleans up some variable names, and does a bit of refactoring (<span
-    x="design"></span>), they won't just make reviewing easier: the odds are
+    x="design"/>), they won't just make reviewing easier: the odds are
     very good that they will find and fix a few problems on their own.
 
 Review at most 200 lines of a code at a time.
@@ -48,7 +48,7 @@ Review at most 200 lines of a code at a time.
     our experience it's better to start with something smaller and work up to
     that.  A corollary of this rule is that no PR should be more than 200 lines
     long.  If one is, the odds are that reviewers won't be able to hold it all
-    in their head at once (<span x="thinking"></span>) and so will miss things.
+    in their head at once (<span x="thinking"/>) and so will miss things.
 
 Use checklists.
 :   <cite>Gawande2011</cite> popularized the idea that using checklists improves
@@ -101,7 +101,7 @@ Don't tolerate rudeness.
     two works alone won't change your behavior. What *will* is teammates
     defending the victims of rudeness by telling the offender, "That's not how
     we speak to each other."  We'll talk about this more in the next section and
-    in <span x="rights"></span>, but keep in mind that your team's culture is
+    in <span x="rights"/>, but keep in mind that your team's culture is
     defined by the worst behavior you're willing to tolerate
     <cite>Gruenert2015</cite>.
 
@@ -118,7 +118,7 @@ Thank your reviewers.
 
 So what does a code review actually look like? Here's a short Python program
 that searches for duplicated files (i.e., ones that have exactly the same
-content). <span t="collaborate-code-review"></span> shows the comments I left
+content). <span t="collaborate-code-review"/> shows the comments I left
 when reviewing it.
 
 {% include file file="dup.py" %}
