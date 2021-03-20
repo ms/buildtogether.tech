@@ -659,6 +659,17 @@
   number: 6
   year: 2010
 
+- key: DeBruyckere2015
+  kind: book
+  author:
+  - Pedro De Bruyckere
+  - Paul A. Kirschner
+  - Casper D. Hulshof
+  isbn: 978-0128015377
+  publisher: Academic Press
+  title: Urban Myths about Learning and Education
+  year: 2015
+
 - key: deOliveiraNeto2019
   kind: article
   author:

@@ -44,6 +44,20 @@ better able to reason backward from effects to causes. They also tend to be
 spot</span>: they know their subject so well that they've forgotten how hard it
 is for newcomers.
 
+<div class="callout" markdown="1">
+
+### Learning styles aren't a thing
+
+You may have heard of "learning styles", i.e., that some people learn better
+visually, while others do so more quickly or more accurately by listening,
+reading, or otherwise using language. It's bullshit: while lots of companies
+make and sell materials based on this myth, no one has ever shown that tuning
+what or how we teach to match people's preferences has any impact on outcomes
+<cite>DeBruyckere2015</cite>. Like Myers-Briggs personality profiles (<span
+x="internships"/>), learning styles belong with healing crystals and astrology.
+
+</div>
+
 To explain where these differences come from, imagine that the knowledge in your
 brain is stored as a graph in which ideas are nodes and the connections between
 them are arcs. (Your brain doesn't actually work this way, but it's a useful
@@ -390,14 +404,6 @@ answer they've given on a test, the harder it is to change their mind if they
 were actually wrong.  It turns out that the opposite is true: the more confident
 someone is that they were right, the more likely they are not to repeat the
 error if they are corrected.
-
-<div class="callout" markdown="1">
-
-### Learning styles
-
-<span class="fixme">explain that learning styles aren't real.</span>
-
-</div>
 
 ## Next Steps
 
