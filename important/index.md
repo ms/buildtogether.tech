@@ -247,7 +247,7 @@ productivity <cite>Bernstein2018</cite>.
 
 <div class="callout" markdown="1">
 
-### Uncommon isn't the same as abnormal
+### Nihil de nobis sine nobis
 
 The rules laid out above were created by and for people near the middle of the
 bell curve with respect to focus and attention span. People who are <span
@@ -265,6 +265,15 @@ who? "Subject does X when it is inappropriate": by whose rules? "Struggles to
 pay attention": in fact, most people with ADHD can pay very close attention, but
 not when they are in environments that are full of distractions (like noisy
 classrooms).
+
+The title of this callout is Latin for, "Nothing about us without us." It means
+that no decisions should be made without the full participation of those who
+will be affected.  If you are neurodivergent, you probably have a set of
+strategies for managing time and attention. If you are <span
+g="neurotypical">neurotypical</span> and have neurodivergent teammates, ask them
+what works well for them rather than ignoring the difference or guessing what
+they might want. Please do the same if you have teammates who have difficulty
+seeing, hearing, or moving about: they have expertise you don't.
 
 </div>
 

@@ -47,7 +47,7 @@ work.
     to fight for.
 
 2. Ask those who will be affected.
-:   *Nihil pro nobis sine nobis* (nothing for us, without us) is always a good
+:   *Nihil de nobis sine nobis* (nothing about us without us) is always a good
     motto, and asking for opinions often reveals potential allies.
 
 3. Be specific.
