@@ -341,20 +341,24 @@ def convert_table(node, accum, placement=None):
     assert node.name == 'table', 'Node is not a table'
     label = node['id'] if node.has_attr('id') else None
     placement = placement if placement is not None else ''
-    thead = node.thead
-    assert thead, f'Table node does not have head {node}'
-    row = thead.tr
-    assert row, f'Table head does not have row {node}'
-    headers = node.thead.tr.find_all('th')
-    assert headers, f'Table node does not have headers {node}'
-    width = len(headers)
-    head = convert_table_row(node.thead.tr, 'th')
-    body = [convert_table_row(row, 'td') for row in node.tbody.find_all('tr')]
-    rows = [head, *body]
+
+    rows = [convert_table_row(row, 'td') for row in node.tbody.find_all('tr')]
+    width = len(rows[0])
     spec = 'l' * width
+
+    thead = node.thead
+    if thead:
+        row = thead.tr
+        assert row, f'Table head does not have row {node}'
+        headers = node.thead.tr.find_all('th')
+        assert headers, f'Table node does not have headers {node}'
+        head = convert_table_row(node.thead.tr, 'th')
+        rows = [head, *rows]
+
     if label:
         caption = ''.join(convert_children(node.caption, [], True))
         accum.append(f'\\begin{{table}}[{placement}]\n')
+
     accum.append(f'\\begin{{tabular}}{{{spec}}}\n')
     accum.append('\n'.join(rows))
     accum.append('\n\\end{tabular}\n')

@@ -1,5 +1,6 @@
 {%- assign top = site.data.thanks.size | plus: 2 | modulo: 3 | times: 3 | minus: 1 -%}
 <table>
+<tbody>
   {%- for person in site.data.thanks -%}
   {%- if forloop.first -%}<tr>{%- endif -%}
   {%- assign valid = forloop.index < top -%}
@@ -8,4 +9,5 @@
   {%- if wrap == 0 -%}</tr><tr>{%- endif -%}
   {%- if forloop.last -%}</tr>{%- endif -%}
   {%- endfor -%}
+</tbody>
 </table>
