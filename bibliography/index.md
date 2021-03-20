@@ -340,6 +340,12 @@ Maurice Dawson, Darrell Burrell, Emad Rahim, and Stephen Brewster:
 "Integrating Software Assurance into the Software Development Life Cycle".
 <em>Information Systems Technology and Planning</em>, 3(6), 2010.
 </dd>
+<dt id="debruyckere2015" class="bibliography">DeBruyckere2015</dt>
+<dd>
+Pedro De Bruyckere, Paul A. Kirschner, and Casper D. Hulshof:
+<em>Urban Myths about Learning and Education</em>.
+Academic Press, 2015, 978-0128015377.
+</dd>
 <dt id="deoliveiraneto2019" class="bibliography">deOliveiraNeto2019</dt>
 <dd>
 Francisco Gomes de Oliveira Neto, Richard Torkar, Robert Feldt, Lucas Gren, Carlo A. Furia, and Ziwei Huang:

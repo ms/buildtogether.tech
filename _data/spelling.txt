@@ -96,6 +96,7 @@ Brechmann
 Brookfield
 Brophy
 Bruria
+Bruyckere
 Burak
 Burrell
 Buzzfeed
@@ -114,6 +115,7 @@ Carpentries
 CarpentryCon
 Carsten
 Casciaro
+Casper
 Cataldo
 Cathrin
 Catrambone
@@ -145,6 +147,7 @@ Darko
 DataCamp
 Davide
 De
+DeBruyckere
 DeLine
 Dedrick
 Denae
@@ -312,6 +315,7 @@ Hott
 Hoye
 Hsing
 Huijgens
+Hulshof
 Hundhausen
 ICER
 ICPC

@@ -83,7 +83,10 @@ Many organizations make the mistake of focusing on outputs rather than on
 outcomes <cite>Perri2018</cite>. In software companies, this usually takes the
 form of measuring progress by the number of features added to a product rather
 than by whether changes to the product are actually making people's lives
-easier. <span class="fixme">Data on percentage of features used https://github.com/gvwilson/buildtogether.tech/issues/81.</span>
+easier. Claims like "80% of people only use 20% of a product's features" are
+largely anecdotal, but are probably also true: in most cases, people learn just
+enough to accomplish the task at hand and only discover more intermittently and
+accidentally if at all.
 
 The equivalent mistake in a project course is to measure progress by the amount
 of code you are writing rather than by how your work compares to the grading
