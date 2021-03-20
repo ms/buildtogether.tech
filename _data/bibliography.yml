@@ -1705,6 +1705,16 @@
   title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
   year: 2020
 
+- key: Lave1991
+  kind: book
+  author:
+  - Jean Lave
+  - Etienne Wenger
+  title: "Situated Learning: Legitimate Peripheral Participation"
+  publisher: Cambridge University Press
+  year: 1991
+  isbn: 978-0521423748
+
 - key: Lee1962
   kind: article
   author:
@@ -1714,6 +1724,19 @@
   volume: 15
   publisher: Marvel
   year: 1962
+
+- key: Lin2020
+  kind: article
+  author:
+  - Sarah Lin
+  - Ibraheem Ali
+  - Greg Wilson
+  title: "Ten Quick Tips for Making Things Findable"
+  doi: 10.1371/journal.pcbi.1008469
+  journal: PLoS Computational Biology
+  volume: 16
+  number: 12
+  year: 2020
 
 - key: Lin2021
   author:
@@ -2234,6 +2257,15 @@
   year: 2014
   doi: 10.1007/s10648-014-9273-3
 
+- key: Raymond2001
+  kind: book
+  author:
+  - Eric S. Raymond
+  isbn: 978-0596001087
+  publisher: O'Reilly Media
+  title: "The Cathedral and the Bazaar"
+  year: 2001
+
 - key: Reekie2006
   kind: book
   author:
@@ -2664,6 +2696,15 @@
   publisher: Routledge
   year: 2018
   isbn: 978-1138561724
+
+- key: Wenger1999
+  kind: book
+  author:
+  - Etienne Wenger
+  isbn: 978-0521663632
+  publisher: Cambridge University Press
+  title: "Communities of Practice: Learning, Meaning, and Identity"
+  year: 1999
 
 - key: Wessel2020
   author:

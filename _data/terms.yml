@@ -1,6 +1,11 @@
 10-comfortable: []
 10-fired: []
 10-handover: []
+10-newcomers:
+- key: community_of_practice
+  term: community of practice
+- key: lpp
+  term: legitimate peripheral participation
 10-persuade:
 - key: 90_9_1_rule
   term: 90-9-1 rule

@@ -198,6 +198,7 @@ Ensmenger
 Erdogmus
 Erete
 Ericson
+Etienne
 Experientialism
 Externalities
 Extraversion
@@ -217,6 +218,7 @@ Ferreira
 Fidge
 Fincher
 FindBugs
+Findable
 Fiorella
 Fisler
 Fogel
@@ -333,6 +335,7 @@ IDEs
 IM
 IQs
 ITiCSE
+Ibraheem
 Ibrahim
 Ie
 Ihantola
@@ -410,6 +413,7 @@ Kulkarni
 Kusumoto
 Kästner
 LLC
+LPP
 LTM
 LaTeX
 Labeling
@@ -758,6 +762,7 @@ WebAIM
 Wehaibi
 Weimer
 Weinstein
+Wenger
 Wessel
 Westley
 Whitlock

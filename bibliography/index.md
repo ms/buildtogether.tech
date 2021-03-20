@@ -865,11 +865,23 @@ Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Mille
 "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem".
 <em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409705">10.1145/3368089.3409705</a>.
 </dd>
+<dt id="lave1991" class="bibliography">Lave1991</dt>
+<dd>
+Jean Lave and Etienne Wenger:
+<em>Situated Learning: Legitimate Peripheral Participation</em>.
+Cambridge University Press, 1991, 978-0521423748.
+</dd>
 <dt id="lee1962" class="bibliography">Lee1962</dt>
 <dd>
 Stan Lee:
 "The Amazing Spider-Man".
 <em>Amazing Fantasy</em>, 15, 1962.
+</dd>
+<dt id="lin2020" class="bibliography">Lin2020</dt>
+<dd>
+Sarah Lin, Ibraheem Ali, and Greg Wilson:
+"Ten Quick Tips for Making Things Findable".
+<em>PLoS Computational Biology</em>, 16(12), 2020, <a href="https://doi.org/10.1371/journal.pcbi.1008469">10.1371/journal.pcbi.1008469</a>.
 </dd>
 <dt id="lin2021" class="bibliography">Lin2021</dt>
 <dd>
@@ -1150,6 +1162,12 @@ Katherine A. Rawson, Ruthann C. Thomas, and Larry L. Jacoby:
 "The Power of Examples: Illustrative Examples Enhance Conceptual Learning of Declarative Concepts".
 <em>Educational Psychology Review</em>, 27(3), 2014, <a href="https://doi.org/10.1007/s10648-014-9273-3">10.1007/s10648-014-9273-3</a>.
 </dd>
+<dt id="raymond2001" class="bibliography">Raymond2001</dt>
+<dd>
+Eric S. Raymond:
+<em>The Cathedral and the Bazaar</em>.
+O'Reilly Media, 2001, 978-0596001087.
+</dd>
 <dt id="reekie2006" class="bibliography">Reekie2006</dt>
 <dd>
 John Reekie and Rohan McAdam:
@@ -1382,6 +1400,12 @@ Alicia Nicki Washington:
 Yana Weinstein, Megan Sumeracki, and Oliver Caviglioli:
 <em>Understanding How We Learn: A Visual Guide</em>.
 Routledge, 2018, 978-1138561724.
+</dd>
+<dt id="wenger1999" class="bibliography">Wenger1999</dt>
+<dd>
+Etienne Wenger:
+<em>Communities of Practice: Learning, Meaning, and Identity</em>.
+Cambridge University Press, 1999, 978-0521663632.
 </dd>
 <dt id="wessel2020" class="bibliography">Wessel2020</dt>
 <dd>
