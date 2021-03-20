@@ -42,6 +42,7 @@ short, readable summary.  The most important results for developers are:
     your total productivity, not just your hourly productivity---i.e., you get
     less done *in total* (not just per hour) when you're in <span
     g="crunch_mode">crunch mode</span> than you do when you work regular hours.
+    <span class="fixme">Define "extended".</span>
 
 1.  Working over 21 hours in a stretch increases the odds of you making a
     catastrophic error just as much as being legally drunk.
