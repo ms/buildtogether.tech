@@ -265,20 +265,6 @@
   title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
   year: 2020
 
-- key: Auvinen2020
-  author:
-  - Tapio Auvinen
-  - Nickolas Falkner
-  - Arto Hellas
-  - Petri Ihantola
-  - Ville Karavirta
-  - Otto Seppala
-  booktitle: "FIE'20"
-  doi: 10.1109/fie44824.2020.9274203
-  kind: inproceedings
-  title: "Relation of Individual Time Management Practices and Time Management of Teams"
-  year: 2020
-
 - key: Song2020
   author:
   - Xiangyu Song

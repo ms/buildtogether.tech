@@ -3,6 +3,7 @@ ADHD
 APIs
 ASCD
 ASE
+ASEE
 Abad
 Abbate
 Abdalkareem
@@ -34,7 +35,6 @@ André
 Angophora
 Anikó
 Annalee
-Annas
 Annibale
 Annika
 Antti
@@ -44,7 +44,9 @@ Aranda
 Ari
 Arie
 Arisholm
+Arletta
 Armanios
+Arto
 Asher
 Asshole
 Atul
@@ -53,20 +55,23 @@ Aul
 Aurélio
 Automattic
 Automattic's
+Auvinen
 Averick
 Ayres
 Ayushi
 Aziz
 Bacchelli
-Bao
 Barendsen
 Barik
+Barke
 Bas
 Basili
 Basma
 Bassok
+Bauman
 Begel
 Beghian
+Behar
 Behavior
 Behavioral
 Behaviors
@@ -107,7 +112,6 @@ COVID
 CRC
 CSE
 CSV
-Cailin
 CamelCase
 Canfora
 Carley
@@ -201,6 +205,8 @@ FIXME
 FSE
 FSM
 Fagerholm
+Falkner
+Farland
 Farrar
 Feitelson
 Felder
@@ -290,9 +296,9 @@ Hatton
 Hayashi
 Heckman
 Hedderik
-Hediyeh
 Hegde
 Heila
+Hellas
 Hemank
 Hennie
 Henrich
@@ -310,6 +316,7 @@ Hoda
 Hoek
 Hofmeister
 Hofstra
+Horenstein
 Hossein
 Hott
 Hoye
@@ -328,6 +335,7 @@ IQs
 ITiCSE
 Ibrahim
 Ie
+Ihantola
 Ilenia
 Imad
 Inclusivity
@@ -372,6 +380,7 @@ Kamei
 Kang
 Kaplan
 Kapser
+Karavirta
 Karras
 Katerine
 Kathi
@@ -447,12 +456,12 @@ McBurney
 McCauley
 McElligott
 McGraw
-Mei
 Meiyappan
 Meneely
 Metcalfe
 Meulen
 Mezini
+Michaelson
 Michelene
 Mihaly
 Minahan
@@ -467,6 +476,7 @@ Moritz
 Morrell
 Mortem
 Moshe
+Mosher
 Mujahid
 Mulders
 Münch
@@ -540,7 +550,6 @@ Pirolli
 PlantUML
 Plauger
 Plaut
-Pociask
 Polymorphism
 Posnett
 Potapov
@@ -567,7 +576,6 @@ Radvansky
 Rahim
 Rahul
 Rai
-Raj
 Rashina
 Rastogi
 RateMyProfessor
@@ -634,6 +642,7 @@ Sebastiano
 Sedano
 Selby
 Sentance
+Seppala
 Seppi
 Serebrenik
 Shakeri
@@ -642,7 +651,6 @@ Sharla
 Shennum
 Shepperd
 Shesh
-Shih
 Shihab
 Shinji
 Shinsuke
@@ -698,6 +706,7 @@ Takashi
 Talwadker
 Tamplin
 Tanter
+Tapio
 Tariq
 Taschuk
 Tayana
@@ -713,6 +722,7 @@ Timnit
 Tobias
 Torchiano
 Torkar
+Transformative
 Tregubov
 Treude
 Triedman
@@ -736,6 +746,7 @@ Vasilescu
 Vassallo
 Venolia
 Vigen
+Ville
 Vivek
 Vlasenko
 WCRE
@@ -756,6 +767,7 @@ Winton
 Wrigstad
 XYZ
 Xiaofeng
+Xiaoying
 Xin
 Xinyu
 Xinyue
@@ -766,7 +778,6 @@ Yana
 Yanina
 Yanina's
 Yasutaka
-Yau
 Yevgeniya
 Ying
 Yiqao
@@ -801,7 +812,6 @@ afterward
 al
 allyship
 amira
-another's
 anthropogenic
 argparse
 args

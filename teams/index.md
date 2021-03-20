@@ -1,12 +1,10 @@
 ---
 ---
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/27 (team formation) - citations needed!</span>
-
-Students learn better in small teams than they do on their own
-<cite>Oakley2004</cite>.  As long as their teams work well, they achieve higher
-grades, retain information longer, are less likely to drop out of school, and
-graduate with better communication skills and a better understanding of what
+Most people learn better together than they do on their own
+<cite>Michaelson2004</cite>.  As long as their teams work well, they achieve
+higher grades, retain information longer, are less likely to drop out of school,
+and graduate with better communication skills and a better understanding of what
 will be expected of them in their subsequent careers.
 
 But that "as long as" is important.  A badly-run team is worse than no team at
@@ -17,9 +15,8 @@ or accidentally erased files, which is why most computer science courses stick
 to individual assignments.
 
 It doesn't take much to make a team work smoothly, though. The rules in <span
-x="important"/> for running meetings, making decisions, and
-resolving conflicts are a good start; this chapter will look at what else
-you can do.
+x="important"/> for running meetings, making decisions, and resolving conflicts
+are a good start; this chapter will look at what else you can do.
 
 ## Picking Teams
 
@@ -30,8 +27,8 @@ forwards and backs in rugby, the infield and outfield in baseball, and so on.
 She went on to explain that hunting parties in non-agricultural societies are
 usually that size as well, as are basic military units around the world (a
 platoon is two squads of six people).  Since we can only keep a handful of
-things in our short-term memory at once (<span x="thinking"/>) that's as
-big as a team can practically be.
+things in our short-term memory at once (<span x="thinking"/>) that's as big as
+a team can practically be.
 
 The same observation applies to software development.  Three or four people can
 work tightly on a single piece of code, but when there are more they define some
@@ -39,42 +36,39 @@ interfaces and develop in parallel.  Collaborative tools like issue trackers
 allow groups to coordinate more effectively, but the groups themselves stay the
 same size.
 
-Teams of three to five are most effective, at least for student projects.  A
-team of two may not have enough breadth and background to tackle a large piece
+Teams of three to five provide a good balance between skills and accountability.
+A team of two may not have enough breadth and background to tackle a large piece
 of work; more importantly, one or the other person is likely to take a dominant
 role.  If you put six people in a team, on the other hand, you may not be able
 to divide up the work in a way that will keep everyone engaged and busy.  Teams
-that size also increase the odds that at least one member will be a hitchhiker.
+that size or larger also increase the odds that at least one member will be a
+hitchhiker, and make scheduling meetings much more difficult.
 
-Research also shows that teams formed by instructors work better than
-self-selected teams. Students typically complain about this, sometimes
-vehemently: they want to work with their friends, they don't want to be slowed
-down by teammates who are slower or less dedicated than they are, their
-part-time job or family care responsibilities limit when they can take part in
-meetings, and so on.
+Many students prefer to select their teammates, and students with high grades
+tend to want teammates with a similar profile.  <cite>Post2020</cite> found that
+matching students by grade led to a small improvement in outcomes, with a larger
+impact on team grades than on individual ones. The same study found that members
+of self-selected teams were more likely to already have friends on their team,
+but that this was *negatively* correlated with outcomes (possibly because people
+are less willing to hold friends accountable for missed work).
 
-Good instructors will ignore all of these objections except the last one. If
-students are allowed to form their own groups, they tend to clump together by
-ability. It's easy to see how this hurts teams of weak students: they are less
-likely to be able to fill in the gaps in one another's knowledge. However, it
-also hurts teams of stronger students.  The best way to learn something is to
-explain it to someone else; bringing a weaker teammate up to speed will usually
-do more for your grade than spending those same hours hacking or reading.
+One surprising finding is that having students with a range of grades in the
+same team either has no effect or improves outcomes *for everyone*
+<cite>Mosher2013,Donovan2018,Farland2019,Auvinen2020</cite>.  It's easy to see
+how this benefits teams of weak students: they are likely to get coaching from
+their stronger teammates. One theory for why it also helps stronger students is
+that the best way to learn something is to explain it to someone else; bringing
+a weaker teammate up to speed will usually do more for your grade than spending
+those same hours hacking or reading.
 
-In addition, teams of strong students are more likely to use a divide and
-conquer strategy, effectively reducing the project to a set of parallel
+In my experience, teams of strong students are also more likely to use a divide
+and conquer strategy, effectively reducing the project to a set of parallel
 sub-projects handled by one person each. This may feel more efficient, but most
 of the benefits of working in a team are lost: there's less back-and-forth
 discussion of design issues, and little improvement in communication skills.
 Those may not be important to you, but if there is a final exam in your course
 with questions about the project work, your mark on it may depend on how much
 you know about your teammates' work (<span x="delivery"/>).
-
-There's another strong argument against self-selected teams: the pre-existing or
-ongoing relationships between their members make life a lot easier for
-hitchhikers, and a lot harder for everyone else. It's hard enough to tell
-someone they're not pulling their weight; it's a lot harder when that person is
-also on your volleyball team.
 
 The most powerful argument for instructors selecting teams, though, is, "That's
 how it works in the real world." You probably won't get to pick your colleagues
@@ -83,15 +77,15 @@ project and expected to work well with whoever else is on it. Your performance
 will depend as much on your ability to get along with others as it will on your
 raw technical ability, so you might as well start practicing those skills now.
 
-While instructors should try to include as diverse a spread of abilities in each
-team as possible, they should avoid isolating at-risk students.  Members of
-minority groups and women are more likely to drop out of computer science,
-particularly in first and second year. We'll talk about this more in <span
-x="rights"/>, but one of the main reasons is feeling isolated or out of
-place. Research has shown shown that putting at-risk students together in the
-first couple of years can mitigate this problem <cite>Margolis2002</cite>. It is
-less necessary in upper years, though, since by then students have a stronger
-commitment to whatever program they're in.
+If instructors create teams, they should avoid isolating at-risk students.
+Women and members of racial minority groups are more likely to drop out of
+computer science than other students, particularly in first and second year, and
+one of the main reasons is feeling isolated or out of place. Research has shown
+shown that putting at-risk students together in the first couple of years can
+mitigate this problem <cite>Margolis2002</cite>. It is less necessary in upper
+years, since by then students have a stronger commitment to whatever program
+they're in, but it still helps to prevent some of the problems discussed in the
+next section.
 
 The biggest headache when instructors select teams is scheduling.  COVID-19 has
 made distributed work more normal, but the last university I taught at had three
@@ -250,6 +244,17 @@ chaos under pressure, so it's important to establish rules early and stick to
 them when the going is easy so that the instinct to do the right thing will be
 there when you need it.
 
+<div class="callout" markdown="1">
+
+### Clarity
+
+No matter how you allocate work, make sure that everyone understands who is
+doing what, when. As <cite>Barke2019</cite> found, actual roles can be fluid;
+what matters most is that team members understand and accept their own roles and
+everyone else's.
+
+</div>
+
 ## Team Contracts
 
 No matter what decomposition you use, your team should write, sign, and submit a
@@ -341,91 +346,74 @@ personality traits, peer assessment can actually be as accurate as assessment by
 the instructors and other outsiders. "Observables" means that instead of asking
 if the person is outgoing or if they have a positive attitude, assessments
 should ask if they listen attentively during meeting or attempt to solve
-problems before asking for help.
-The performance review guidelines in <span x="evaluation"/> can serve as a useful starting point for such
-evaluations.
+problems before asking for help.  The performance review guidelines in <span
+x="evaluation"/> can serve as a useful starting point for such evaluations.
 
-## People to Watch Out For
+## Problems and Solutions
 
-<span class="fixme">rewrite in terms of how to identify and remedy counter-productive behaviors https://github.com/gvwilson/buildtogether.tech/issues/29</span>
+When I first put these notes together fifteen years ago, I wrote a section
+titled "People to Watch Out For" that described a dozen people who make teams
+less productive in different ways. As several reviewers have pointed out since,
+it was arrogant and harmful: arrogant because what I was really saying was, "If
+you don't work the same way I do, then you're wrong," and harmful because it
+would make people who already doubt themselves do so even more.
 
-<span class="fixme">include description of first attempt and why it was unhelpful</span>
+If you read one of those earlier versions, I apologize. What I've tried to do
+below is describe ways in which I've seen people undermine themselves.  If you
+go through this list with your teammates and tell them what you'd like to get
+better at, they'll probably help you. And if what you want to get better at
+isn't on this list, please see <span x="contributing"/>.
 
-<span class="fixme">cultural differences and neural differences</span>
+Not everything need to be completely correct.
+:   Before correcting a factual error, ask yourself whether it really matters.
+    If it's the name of the configuration file the program reads on startup, the
+    answer is probably yes; if it's the name of a minor villain from the Marvel
+    Cinematic Universe, the answer is probably no.
 
-<blockquote markdown="1">
+The devil doesn't need more advocates.
+:   We remember when contrarians turn out to be right because it happens so
+    infrequently, but because those moments are memorable, some people fall into
+    the habit of taking the opposite point of view no matter what is being
+    discussed.
 
-All happy families resemble one another, but every unhappy family is unhappy in
-its own way.
+You wouldn't have gotten this far if you weren't good at this.
+:   Some people have so little confidence in their ability despite their good
+    grades that they won't make any decision, no matter how small, until they
+    have checked with someone else. This is often a result of social
+    conditioning: in particular, women are more likely to doubt themselves,
+    while men often over-estimate their ability.
 
---- Leo Tolstoy
+Not everything worth doing should be done.
+:   For many years my favorite phrase was, "Why don't we?" Why don't we write a
+    GUI to help people edit the program's configuration files? Hey, why don't we
+    invent our own little language for designing GUIs? This energy and
+    enthusiasm are hard to argue with, but argue you must.  Otherwise, for every
+    step you move forward, the project's goalposts will recede by two. This is
+    called <span g="feature_creep">feature creep</span>, and has ruined many
+    projects that might otherwise have delivered something small but useful.
+    My solution these days is to keep a "to-don't" list of things that would be
+    fun and worthwhile, but that I'm *not* going to tackle.
 
-</blockquote>
+Success is a habit.
+:   The more you follow a routine, the more your brain will be able to focus on
+    the right things at the right time. <cite>Gawande2011</cite> found that
+    checklists improve results even for experts, and <span x="important"/>
+    talked about the value of to-do lists for managing your time. Making these a
+    habit reduce cognitive load (<span x="thinking"/>) and gives you more mental
+    capacity for dealing with the work itself.
 
-Good team members share certain characteristics, but bad ones can be bad in many
-different ways. Here are a few:
+Acting like an asshole doesn't make you cool---it just makes you an asshole.
+:   I had a teammate once whose favorite phrase was, "That's stupid."  If anyone
+    complained, he said, "Lighten up---it's just the way I talk." The problem
+    with people using vulgar or aggressive language in everyday conversation is
+    that for many other people, that language has often been followed by
+    bullying or discrimination. They're right not to trust you if those are the
+    signals you choose to send.
 
--   *Anna* knows more about every subject than everyone else on the team put
-    together---at least, she thinks she does. No matter what you say, she'll
-    correct you; no matter what you know, she knows better.  Annas are pretty
-    easy to spot: if you keep track in team meetings of how often people
-    interrupt one another, her score is usually higher than everyone else's put
-    together.
-
--   *Bao* is a contrarian: no matter what anyone says, he'll take the opposite
-    side. This is healthy in small doses, but when Bao does it, there's always
-    another objection lurking behind the first half dozen.
-
--   *Cailin* has so little confidence in their ability (despite their good grades)
-    that they won't make any decision, no matter how small, until they have
-    checked with someone else. Everything has to be spelled out in detail for
-    them so that there's no possibility of them getting anything wrong.
-
--   *Frank* believes that knowledge is power. He enjoys knowing things that other
-    people don't---or to be more accurate, he enjoys it when people know he
-    knows things they don't. Frank can actually make things work, but when asked
-    how he did it, he'll grin and say, "Oh, I'm sure you can figure it out."
-
--   *Hediyeh* is quiet. Very quiet. She never speaks up in meetings, even when
-    she knows that what other people are saying is wrong. She's more willing to
-    contribute on Slack or via email, but she's very sensitive to criticism, and
-    will always back down rather than defending her point of view. Hediyeh isn't
-    a troublemaker, but rather a lost opportunity.
-
--   *Kenny* is a hitchhiker. He has discovered that most people would rather
-    shoulder some extra work than snitch, and he takes advantage of it at every
-    turn. The frustrating thing is that he's so damn *plausible* when someone
-    finally does confront him. "There have been mistakes on all sides," he says,
-    or, "Well, I think you're nit-picking." The only way to deal with Kenny is
-    to stand up to him: remember, if he's not doing his share, *he's the bad
-    guy*, not you.
-
--   *Melissa* would easily have made the varsity procrastination team if she'd
-    bothered to show up to tryouts. She means well---she really does feel bad
-    about letting people down---but somehow something always comes up, and her
-    tasks are never finished until the last possible moment. Of course, that
-    means that everyone who is depending on her can't do their work until
-    *after* the last possible moment…
-
-- *Petra*'s favorite phrase is "why don't we". Why don't we write a GUI to help
-    people edit the program's configuration files? Hey, why don't we invent our
-    own little language for designing GUIs? Their energy and enthusiasm are hard
-    to argue with, but argue you must.  Otherwise, for every step you move
-    forward, the project's goalposts will recede by two. This is called <span
-    g="feature_creep">feature creep</span>, and has ruined many projects that
-    might otherwise have delivered something small but useful.
-
--   *Raj* is rude. His favorite phrase is, "That's stupid," and if anyone
-    complains, he says, "It's just the way I talk---if you can't hack it, maybe
-    you should find another team." His only redeeming grace is that he can't
-    dissemble in front of the instructor as well as Kenny, so he's easier to get
-    rid of.
-
--   *Sergei* simply seems apathetic. He doesn't read the assignment specs, he
-    hasn't bothered to master the tools and libraries he's supposed to be using,
-    the code he checks in doesn't compile, and his thirty-second bug fixes
-    introduce more problems than they solve. Before treating Sergei like a
-    hitchhiker, try to find out if there's a reason for his failure to deliver:
-    if he's caring for a family member or struggling with mental health
-    challenges, the most compassionate thing to do is to give him some time to
-    get back on his feet.
+Sometimes it's hard to care.
+:   You have a teammate who doesn't read the assignment specs, hasn't bothered
+    to learn the tools and libraries you're supposed to be using, and commits
+    code that doesn't even compile.  Before treating them like a hitchhiker, try
+    to find out if there's a reason for their behavior: if he's caring for a
+    family member or struggling with mental health challenges, the most
+    compassionate thing to do is to help them get back on their feet.

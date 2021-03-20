@@ -69,6 +69,12 @@ Valerie Aurora and Mary Gardiner:
 <em>How to Respond to Code of Conduct Reports</em>.
 Frame Shift Consulting LLC, 2018, 978-1386922575.
 </dd>
+<dt id="auvinen2020" class="bibliography">Auvinen2020</dt>
+<dd>
+Tapio Auvinen, Nickolas Falkner, Arto Hellas, Petri Ihantola, Ville Karavirta, and Otto Seppala:
+"Relation of Individual Time Management Practices and Time Management of Teams".
+<em>FIE'20</em>, <a href="https://doi.org/10.1109/fie44824.2020.9274203">10.1109/fie44824.2020.9274203</a>.
+</dd>
 <dt id="bacchelli2013" class="bibliography">Bacchelli2013</dt>
 <dd>
 Alberto Bacchelli and Christian Bird:
@@ -80,6 +86,12 @@ Alberto Bacchelli and Christian Bird:
 Titus Barik, Justin Smith, Kevin Lubick, Elisabeth Holmes, Jing Feng, Emerson Murphy-Hill, and Chris Parnin:
 "Do Developers Read Compiler Error Messages?".
 <em>Proc. ICSE'17</em>, <a href="https://doi.org/10.1109/icse.2017.59">10.1109/icse.2017.59</a>.
+</dd>
+<dt id="barke2019" class="bibliography">Barke2019</dt>
+<dd>
+Helena Barke and Lutz Prechelt:
+"Role Clarity Deficiencies Can Wreck Agile Teams".
+<em>PeerJ Computer Science</em>, 5, 2019, <a href="https://doi.org/10.7717/peerj-cs.241">10.7717/peerj-cs.241</a>.
 </dd>
 <dt id="basili1987" class="bibliography">Basili1987</dt>
 <dd>
@@ -428,6 +440,12 @@ Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
 Fabian Fagerholm, Marco Kuhrmann, and Jürgen Münch:
 "Guidelines for Using Empirical Studies in Software Engineering Education".
 <em>PeerJ Computer Science</em>, 3, 2017, <a href="https://doi.org/10.7717/peerj-cs.131">10.7717/peerj-cs.131</a>.
+</dd>
+<dt id="farland2019" class="bibliography">Farland2019</dt>
+<dd>
+Michelle Z. Farland, Xiaoying Feng, Linda S. Behar-Horenstein, and Diane E. Beck:
+"Impact of Team Formation Method on Student Team Performance Across Multiple Courses Incorporating Team-based Learning".
+<em>American Journal of Pharmaceutical Education</em>, 83(6), 2019, <a href="https://doi.org/10.5688/ajpe7030">10.5688/ajpe7030</a>.
 </dd>
 <dt id="farmer2006" class="bibliography">Farmer2006</dt>
 <dd>
@@ -949,6 +967,12 @@ Janet Metcalfe:
 "Learning from Errors".
 <em>Annual Review of Psychology</em>, 68(1), 2016, <a href="https://doi.org/10.1146/annurev-psych-010416-044022">10.1146/annurev-psych-010416-044022</a>.
 </dd>
+<dt id="michaelson2004" class="bibliography">Michaelson2004</dt>
+<dd>
+Larry K. Michaelson, Arletta Bauman Knight, and L. Dee Fink (eds.):
+<em>Team-Based Learning: A Transformative Use of Small Groups in College Teaching</em>.
+Stylus Publishing, 2004, 978-1579220860.
+</dd>
 <dt id="miller1956" class="bibliography">Miller1956</dt>
 <dd>
 George A. Miller:
@@ -966,6 +990,12 @@ Anne Minahan:
 Audris Mockus:
 "Organizational Volatility and Its Effects on Software Defects".
 <em>Proc. FSE'10</em>, <a href="https://doi.org/10.1145/1882291.1882311">10.1145/1882291.1882311</a>.
+</dd>
+<dt id="mosher2013" class="bibliography">Mosher2013</dt>
+<dd>
+Gretchen A. Mosher:
+"Formation and Development of Effective Student Teams to Facilitate Team-Based Learning".
+<em>Proc. ASEE North Midwest Section Conference</em>.
 </dd>
 <dt id="muller2007" class="bibliography">Muller2007</dt>
 <dd>
@@ -1056,12 +1086,6 @@ Marian Petre:
 Marian Petre and André van der Hoek:
 <em>Software Design Decoded: 66 Ways Experts Think</em>.
 MIT Press, 2016, 978-0262035187.
-</dd>
-<dt id="pociask2017" class="bibliography">Pociask2017</dt>
-<dd>
-Sarah Pociask, David Gross, and Mei-Yau Shih:
-"Does Team Formation Impact Student Performance, Effort and Attitudes in a College Course Employing Collaborative Learning?".
-<em>JSTL</em>, 17(3), 2017, <a href="https://doi.org/10.14434/josotl.v17i3.21158">10.14434/josotl.v17i3.21158</a>.
 </dd>
 <dt id="posnett2011" class="bibliography">Posnett2011</dt>
 <dd>

@@ -23,8 +23,11 @@ def check_bib(options):
 
 def get_definitions(filename):
     '''Create set of citation keys.'''
+    def _key(entry):
+        assert 'key' in entry, f'Entry {entry} missing "key"'
+        return entry['key']
     raw = utils.read_yaml(filename)
-    return [entry['key'] for entry in raw]
+    return [_key(entry) for entry in raw]
 
 
 def check_order(keys):
