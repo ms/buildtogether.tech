@@ -104,6 +104,7 @@ kramdown:
     disable: true
   link_defs: >
     {
+      "adhd-thread": ["https://twitter.com/NomeDaBarbarian/status/1369846245200515072", "A thread on ADHD"],
       "ant": ["https://ant.apache.org/", "Apache Ant"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],

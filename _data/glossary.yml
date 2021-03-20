@@ -24,6 +24,13 @@
       [expected result](#expected_result), the test passes; if the two are
       different, the test fails.
 
+- key: adhd
+  en:
+    term: "attention-deficit/hyperactivity disorder"
+    def: >
+      FIXME
+    acronym: ADHD
+
 - key: ae
   en:
     term: "analysis & estimation"
@@ -870,6 +877,22 @@
       FIXME
     acronym: MBTI
 
+- key: neurodivergent
+  en:
+    term: "neurodivergent"
+    def: >
+      Someone whose brain works differently from the average when it comes to
+      sociability, learning, attention, and mood. The term is used in contrast
+      with [neurotypical](#neurotypical).
+
+- key: neurotypical
+  en:
+    term: "neurotypical"
+    def: >
+      Someone near the middle of the bell curve with respect to sociability,
+      learning, attention, and mood. The term is used in contrast with
+      [neurodivergent](#neurodivergent).
+
 - key: nih
   en:
     term: "not invented here syndrome"
@@ -993,6 +1016,12 @@
 - key: premature_commitment
   en:
     term: "premature commitment"
+    def: >
+      FIXME
+
+- key: preparatory_privilege
+  en:
+    term: "preparatory privilege"
     def: >
       FIXME
 
@@ -1199,6 +1228,12 @@
 - key: static_typing
   en:
     term: "static typing"
+    def: >
+      FIXME
+
+- key: stigma
+  en:
+    term: "stigma"
     def: >
       FIXME
 

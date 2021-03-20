@@ -154,6 +154,8 @@ errors:
 evaluation: []
 glossary: []
 important:
+- key: adhd
+  term: attention-deficit/hyperactivity disorder
 - key: crunch_mode
   term: crunch mode
 - key: decision_meeting
@@ -164,8 +166,12 @@ important:
   term: governance
 - key: marthas_rules
   term: Martha's Rules
+- key: neurodivergent
+  term: neurodivergent
 - key: sense_vote
   term: sense vote
+- key: stigma
+  term: stigma
 - key: tone_policing
   term: tone policing
 internships:
@@ -173,7 +179,9 @@ internships:
   term: Myers-Briggs Type Indicator
 - key: ocean_model
   term: OCEAN model
-introduction: []
+introduction:
+- key: preparatory_privilege
+  term: preparatory privilege
 ip:
 - key: bsd_license
   term: BSD license

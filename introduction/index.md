@@ -5,14 +5,22 @@
 
 ## Audience
 
-Every lesson should be written with specific learners in mind.  These three
+Every lesson should be written with specific learners in mind.  These
 [personas][t3-personas] are ours:
 
--   Yanina is in the third year of a four-year computer science degree. She worked
-    on several volunteer projects in high school and through her mosque, but the
-    "Introduction to Software Engineering" course she's about to take will be her
-    first semester-long team project at university. This guide will help her and
-    her teammates figure out what to do when.
+-   Yanina is in the third year of a computer science degree. She worked on
+    several volunteer projects in high school and through her mosque, but the
+    "Introduction to Software Engineering" course she's about to take will be
+    her first semester-long team project at university. This guide will help her
+    and her teammates figure out what to do when.
+
+-   Brad is in Yanina's classes. He started programming when he was nine years
+    old, and as a result can do many practical assignments in half the time it
+    takes other students (something he attributes to intelligence and aptitude
+    rather than to <span g="preparatory_privilege">preparatory
+    privilege</span>). He finds any discussion of what he privately called
+    "social justice bullshit" tiresome; this guide will help him understand why
+    that attitude is self-defeating.
 
 -   Ahmadou worked as an illustrator for several years before doing an intensive
     14-week conversion course to become a JavaScript developer. He has a lot of
@@ -27,7 +35,7 @@ Every lesson should be written with specific learners in mind.  These three
     will help them give more structure to the next offering and set more
     realistic expectations.
 
-Like these three personas, readers should:
+Like these personas, readers should:
 
 -   Be able to write multi-page programs in Java, Python, JavaScript, or some
     other modern programming language.
@@ -39,12 +47,11 @@ Like these three personas, readers should:
 
 -   Have used [Git][git] on individual projects.
 
-This book can be read on its own or as a companion to *[Software Tools in JavaScript][stjs]*,
-which teaches the basics of software design by showing you
-how to build the tools you program with.
-If you are looking for a project to do in a course,
-adding a tool to those covered there would be fun as well as educational.
-Please see <span x="conclusion"/> for more details.
+This book can be read on its own or as a companion to *[Software Tools in
+JavaScript][stjs]*, which teaches the basics of software design by showing you
+how to build the tools you program with.  If you are looking for a project to do
+in a course, adding a tool to those covered there would be fun as well as
+educational.  Please see <span x="conclusion"/> for more details.
 
 ## Topics
 

@@ -13,10 +13,10 @@ how to run a meeting, and how to resolve arguments.
 <cite>Sedano2017</cite> found that software development projects have nine types
 of waste: building the wrong feature or product, mismanaging the backlog,
 rework, unnecessarily complex solutions, extraneous cognitive load (<span
-x="thinking"/>), psychological distress, waiting/multitasking, knowledge
-loss, and ineffective communication. *None of these are software issues,* so if
-you only think about the software side of your project, it's going to take
-longer and hurt more than it needs to.
+x="thinking"/>), psychological distress, waiting/multitasking, knowledge loss,
+and ineffective communication. *None of these are software issues,* so if you
+only think about the software side of your project, it's going to take longer
+and hurt more than it needs to.
 
 </div>
 
@@ -59,18 +59,18 @@ When Henry Ford famously adopted a 40-hour workweek in 1926, he was bitterly
 criticized by members of the National Association of Manufacturers.  But his
 experiments, which he'd been conducting for at least 12 years, showed him
 clearly that cutting the workday from ten hours to eight hours---and the
-workweek from six days to five days---increased total worker output and
-reduced production cost…  the core of his argument was that reduced shift
-length meant more output.
+workweek from six days to five days---increased total worker output and reduced
+production cost…  the core of his argument was that reduced shift length meant
+more output.
 
-…many studies, conducted by businesses, universities, industry associations
-and the military, …support the basic notion that, for most people, eight
-hours a day, five days per week, is the best sustainable long-term balance
-point between output and exhaustion.  Throughout the 30s, 40s, and 50s, these
-studies were apparently conducted by the hundreds; and by the 1960s, the
-benefits of the 40-hour week were accepted almost beyond question in corporate
-America.  In 1962, the Chamber of Commerce even published a pamphlet extolling
-the productivity gains of reduced hours.
+…many studies, conducted by businesses, universities, industry associations and
+the military, …support the basic notion that, for most people, eight hours a
+day, five days per week, is the best sustainable long-term balance point between
+output and exhaustion.  Throughout the 30s, 40s, and 50s, these studies were
+apparently conducted by the hundreds; and by the 1960s, the benefits of the
+40-hour week were accepted almost beyond question in corporate America.  In
+1962, the Chamber of Commerce even published a pamphlet extolling the
+productivity gains of reduced hours.
 
 But, somehow, Silicon Valley didn't get the memo…
 
@@ -111,11 +111,11 @@ reason to believe that ours is any different.
 
 Ah, you say, that's "long-term total output".  What about short bursts now and
 then, like pulling an all-nighter to meet a deadline?  That's been studied too,
-and the results aren't pleasant.  Your ability to think drops by 25% for each 24
-hours you're awake.  Put it another way, the average person's IQ is only 75
-after one all-nighter, which puts them in the bottom 5% of the population.  Two
-all nighters in a row and their effective IQ is 50---the level at which people
-are usually judged incapable of independent living.
+and the results aren't pleasant.  Your ability to think drops by 25 points for
+each 24 hours you're awake.  Put it another way, the average person's IQ is only
+75 after one all-nighter, which puts them in the bottom 5% of the population.
+Two all nighters in a row and their effective IQ is 50---the level at which
+people are usually judged incapable of independent living.
 
 The catch in all of this is that people usually don't notice their abilities
 declining.  Just like drunks who think they're still able to drive, people who
@@ -151,11 +151,11 @@ frustration, time pressure and effort."
 ### How bad is it?
 
 A student of mine kept a stopwatch beside his computer for a couple of weeks
-during term.  Every time he read mail, put Twitter in the foreground, or went
-to Manchester United's web site he hit the button to stop it.  At the end of
-two weeks he discovered that he only spent 28% of his "working" time working. 
-Put it another way, he could have finished his assignments in a third of the
-time they actually took.
+during term.  Every time he read mail, put Twitter in the foreground, or went to
+Manchester United's web site he hit the button to stop it.  At the end of two
+weeks he discovered that he only spent 28% of his "working" time working.  Put
+it another way, he could have finished his assignments in a third of the time
+they actually took.
 
 </div>
 
@@ -165,8 +165,8 @@ Make a list of the things you have to do.
     themselves email messages that then go into a folder titled "To Do".
     However you do it, the important thing is to *write it all down*.  You can
     only keep a handful of things in short-term memory at once (<span
-    x="thinking"/>); if you try to manage a to-do list longer than that in
-    your head, you will forget things.
+    x="thinking"/>); if you try to manage a to-do list longer than that in your
+    head, you will forget things.
 
 Weed out everything that you don't need to do right away.
 :   If you want to try out a new editor theme that's play time not work time,
@@ -177,10 +177,10 @@ Sort the list so that the most important tasks are at the top.
     into order, since I'm going to re-check my list before I get to them anyway.
 
 Make sure you have everything you need to see the first task through.
-:   The most recent files from version control (<span x="using-git"/>),
-    the assignment specification, a fresh cup of tea---whatever it is, don't
-    give yourself an excuse to interrupt your work, because the world will
-    provide enough of those.
+:   The most recent files from version control (<span x="using-git"/>), the
+    assignment specification, a fresh cup of tea---whatever it is, don't give
+    yourself an excuse to interrupt your work, because the world will provide
+    enough of those.
 
 Turn off interruptions.
 :   Shut down your mail client, instant messaging, and your cell phone.  Don't
@@ -203,8 +203,8 @@ Take a ten-minute break.
     will be able to work longer if your back doesn't ache, and being away from
     the keyboard for a few minutes gives your brain a chance to reflect on what
     you've just been doing. (It's amazing how often a problem that has baffled
-    me for an hour can be solved by a five-minute walk.) When you're done,
-    check that your to-do list is still in the right order and start again.
+    me for an hour can be solved by a five-minute walk.) When you're done, check
+    that your to-do list is still in the right order and start again.
 
 If any task on your list is more than an hour long, break it down into into
 smaller pieces and prioritize those separately.  And keep in mind that the
@@ -245,7 +245,28 @@ productivity <cite>Bernstein2018</cite>.
 
 </div>
 
-<span class="fixme">add a note on ADHD https://github.com/gvwilson/buildtogether.tech/issues/31 https://twitter.com/NomeDaBarbarian/status/1369846245200515072 (who gets to decide? forward ref to discussion of rights)</span>
+<div class="callout" markdown="1">
+
+### Uncommon isn't the same as abnormal
+
+The rules laid out above were created by and for people near the middle of the
+bell curve with respect to focus and attention span. People who are <span
+g="neurodivergent">neurodivergent</span>, i.e., whose brains work differently
+from the average when it comes to sociability, learning, attention, and mood,
+may find that other approaches work better for them.
+
+But while society accepts that people of different heights need different desks
+and seating to be comfortable, there is still a lot of <span
+g="stigma">stigma</span> associated with differences in mental function, which
+are often measured by [how inconvenient they are to other people][adhd-thread].
+One example is how tests for <span g="adhd">attention-deficit/hyperactivity
+disorder</span> (ADHD) are phrased. "Subject is overly talkative": compared to
+who? "Subject does X when it is inappropriate": by whose rules? "Struggles to
+pay attention": in fact, most people with ADHD can pay very close attention, but
+not when they are in environments that are full of distractions (like noisy
+classrooms).
+
+</div>
 
 ## Meetings
 
@@ -266,8 +287,8 @@ Keep discussion meetings and decision meetings separate.
     for choosing which alternatives to pursue.  Discussion meetings are meant to
     be wide-ranging (and fun); decision meetings should be short and focused.
     The two are never completely distinct in practice, but decision-making is
-    more efficient if it isn't mixed with brainstorming. The rest of these
-    rules focus on decision meetings.
+    more efficient if it isn't mixed with brainstorming. The rest of these rules
+    focus on decision meetings.
 
 Decide if there actually needs to be a meeting.
 :   If the only purpose is to share information, have everyone send a brief
@@ -302,10 +323,9 @@ Make one person responsible for keeping things moving.
 
 Require politeness.
 :   No one gets to be rude, no one gets to ramble, and if someone goes off
-    topic, it's the moderator's job to say, "Let's discuss that elsewhere."
-    As discussed below, this is *not* the same as assuming that everyone has
-    good intentions, and that if they say something rude it was just an
-    accident.
+    topic, it's the moderator's job to say, "Let's discuss that elsewhere."  As
+    discussed below, this is *not* the same as assuming that everyone has good
+    intentions, and that if they say something rude it was just an accident.
 
 No interruptions.
 :   This rule is a special case of the one above, since treating other people
@@ -381,9 +401,9 @@ Everyone can check what was actually said or promised.
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
     follow up on them later.  If you are using an issue-tracking system (<span
-    x="tooling"/>), create an issue for each new question or task right
-    after the meeting and update those that are being carried forward.  This
-    helps a lot when the time comes to draw up the agenda for the next meeting.
+    x="tooling"/>), create an issue for each new question or task right after
+    the meeting and update those that are being carried forward.  This helps a
+    lot when the time comes to draw up the agenda for the next meeting.
 
 Please don't email minutes to everyone: our inboxes are full enough, and the
 more places new team members need to search in order to find things, the more
@@ -407,8 +427,7 @@ catalogs fifty different techniques and explains when and why each is useful.
 
 One of the problems in a synchronous meeting is the tendency of some people to
 speak far more than others.  Other meeting members may be so accustomed to this
-that they don't speak up even when they have valuable points to
-make.
+that they don't speak up even when they have valuable points to make.
 
 One way to combat this is to give everyone three sticky notes (or coins, or
 paperclips---anything inedible will do).  at the start of the meeting.  Every
@@ -520,9 +539,9 @@ Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
-section in the project's `README` file (<span x="using-git"/>) or put
-into a separate file called `CONTRIBUTING`.  This material should describe the
-naming conventions to use for functions, what tags to put on issues, or how to
-install and configure the software needed to start work on the project.
-Wherever it goes, remember that the easier it is for people to get set up, the
-more likely they are to contribute <cite>Steinmacher2014</cite>.
+section in the project's `README` file (<span x="using-git"/>) or put into a
+separate file called `CONTRIBUTING`.  This material should describe the naming
+conventions to use for functions, what tags to put on issues, or how to install
+and configure the software needed to start work on the project.  Wherever it
+goes, remember that the easier it is for people to get set up, the more likely
+they are to contribute <cite>Steinmacher2014</cite>.
