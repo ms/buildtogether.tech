@@ -38,11 +38,10 @@ do lots of work without producing anything of value.  Scientific study of the
 issue goes back to at least the 1890s---see <cite>Robinson2005</cite> for a
 short, readable summary.  The most important results for developers are:
 
-1.  Working more than eight hours a day for an extended period of time lowers
-    your total productivity, not just your hourly productivity---i.e., you get
-    less done *in total* (not just per hour) when you're in <span
+1.  Working more than eight hours a day for more than a couple of weeks of time
+    lowers your total productivity, not just your hourly productivity---i.e.,
+    you get less done *in total* (not just per hour) when you're in <span
     g="crunch_mode">crunch mode</span> than you do when you work regular hours.
-    <span class="fixme">Define "extended".</span>
 
 1.  Working over 21 hours in a stretch increases the odds of you making a
     catastrophic error just as much as being legally drunk.
