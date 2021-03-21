@@ -134,6 +134,7 @@ Cherubini
 Cheryan
 Christoph
 Cleidson
+Config
 Connell
 Constructivist
 Conte
@@ -172,6 +173,7 @@ Doore
 Drachen
 Drobina
 Dror
+DuckDuckGo
 Dybå
 EDM
 EOF
@@ -676,6 +678,7 @@ Solnit
 Soloway
 Sorva
 SourceGear
+SourceTree
 Souti
 Souza
 Spinellis

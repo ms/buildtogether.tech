@@ -153,6 +153,8 @@ code helps programmers understand software as well.
 
 ## Continuous Integration
 
+<span class="fixme">pre-commit hooks</span>
+
 Build tools will do a lot more for you if you adopt some kind of <span
 g="ci">continuous integration</span> system such as [Travis CI][travis-ci] or
 [GitHub Actions][github-actions].  These can be set up to run either at regular

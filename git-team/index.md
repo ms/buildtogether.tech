@@ -16,14 +16,28 @@ The first approach works well for teams of up to half a dozen people, so we will
 focus on it. If the project is larger, or if contributors are worried that they
 might make a mess in the `main` branch, the second approach is safer.
 
+<div class="callout" markdown="1">
+
+### When to commit
+
+When you're working on your own, it's natural to fall into a rhythm of updating
+your laptop from your repository in the morning and committing whatever you've
+managed to accomplish when you wrap up for the day. You need to break this habit
+when you become part of a team. Instead, you should commit when you finish a
+chunk of work that moves the project forward or is fit for someone else to
+review. A good rule is "never break the build" (<span x="automation"/>), i.e.,
+never commit anything that doesn't run well enough to pass all existing tests.
+
+</div>
+
 ## Using Git Together
 
-As an example, suppose that Amira and Sami are working together on a course.
-They decided at the start of semester that Sami would host the project
-repository in her GitHub account, so they created `https://github.com/sami/bst`
-and gave Amira permission to push to it. They have both cloned that repository
-to their laptops, so when they start work on homework 5, their setups look like
-<span f="start-homework-5"/>.
+Suppose Amira and Sami are working together on a course.  They decided at the
+start of semester that Sami would host the project repository in her GitHub
+account, so they created `https://github.com/sami/bst` and gave Amira permission
+to push to it. They have both cloned that repository to their laptops, so when
+they start work on homework 5, their setups look like <span
+f="start-homework-5"/>.
 
 {% include figure
    id="start-homework-5"
@@ -167,33 +181,51 @@ incompatible changes to the same files, they should discuss who's supposed to be
 doing what, or rearrange the project's contents so that they aren't stepping on
 each other's toes.
 
-<span class="fixme">ref to validating PRs before merging using CI or pre-commit hooks</span>
+<div class="callout" markdown="1">
 
-## When to Commit
+### Trust but verify
 
-<span class="fixme">When to commit when working in a team https://github.com/gvwilson/buildtogether.tech/issues/13</span>
+<span x="automation"/> describes how to configure Git to run tests each time
+someone tries to commit a change.  The commit only takes effect if those tests
+pass, so the team can ensure that the software is always as good as its tests.
 
-One way to make the history of a repository easier to read is to squash several
-consecutive commits into one.  This is called <span
-g="rebase_git">rebasing</span>, and can be done using:
-
-```sh
-$ git rebase -i START
-```
-
-{: .continue}
-where `START` identifies the commit *before* the ones you want to start merging
-(i.e., the last one *not* to modify). Rebasing can go wrong in a lot of
-confusing ways, particularly if you have merged changes from another branch into
-the one you're squashing, so we recommend that you avoid it for schoolwork.
+</div>
 
 ## Commit Messages
 
-<span class="fixme">Writing a good commit message https://github.com/gvwilson/buildtogether.tech/issues/75</span>
+A [DuckDuckGo][duckduckgo] search for "how to write a good commit message" turns
+up several thousand articles. Most are variations on the sample shown below; as
+with programming style (<span x="research"/>), the most important thing is being
+consistent rather than the particular rules you follow.
+
+```
+One-line summary
+
+Detailed explanatory text separated from the summary by a blank line.  (If you
+do this, many tools will treat the first line like the subject of an email and
+the rest of the text as the body.)
+
+Be brief but specific and write your message in the imperative voice, i.e.,
+"Handle indentation in configuration files correctly" rather than "Config file
+indentation."
+
+- Bullet points are OK (GitHub will format them as a list).  Some other Markdown
+  conventions work too.
+
+If this commit fixes an open issue, refer to it like as shown below. GitHub
+automatically turns things like `#123` into links.
+
+Closes: #123
+```
+
+The most important thing to remember when writing a commit message is that its
+purpose is to make work easier to find and understand in the future. You
+shouldn't transcribe large chunks of code or duplicate whatever documentation or
+tests you wrote for the feature you added; instead, you should give people
+enough information to figure out whether this is the commit they're looking for
+or not.
 
 ## Code Reviews
-
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/56</span>
 
 There's no point creating PRs if they are all merged as-is. The reason they
 exist is to allow <span g="code_review">code review</span>.  One study after
@@ -208,11 +240,11 @@ know to ask and they didn't realize they should tell you.
 ### Do more eyes make for fewer bugs?
 
 Some people have claimed that many eyes make all bugs shallow (i.e., easy to
-find), but the evidence doesn't support that claim.  For example,
-<cite>Meneely2014</cite> reports that, "…source code files reviewed by more
-developers are, counter-intuitively, more likely to be vulnerable (even after
-accounting for file size). However, files are less likely to be vulnerable if
-they were reviewed by developers who had experience participating on prior
+find), but the evidence doesn't support that claim: <cite>Meneely2014</cite>
+reports that, "…source code files reviewed by more developers are,
+counter-intuitively, more likely to be vulnerable (even after accounting for
+file size). However, files are less likely to be vulnerable if they were
+reviewed by developers who had experience participating on prior
 vulnerability-fixing reviews." In short, *whose* eyes matters more than how
 many.
 
@@ -318,3 +350,23 @@ when reviewing it.
 {% include file file="dup.py" %}
 
 {% include table id="collaborate-code-review" file="code-review.tbl" cap="Code Review" %}
+
+<div class="callout" markdown="1">
+
+### Rebasing
+
+One way to make the history of a repository easier to read is to squash several
+consecutive commits into one.  This is called <span
+g="rebase_git">rebasing</span>, and can be done using:
+
+```sh
+$ git rebase -i START
+```
+
+{: .continue}
+where `START` identifies the commit *before* the ones you want to start merging
+(i.e., the last one *not* to modify). Rebasing can go wrong in a lot of
+confusing ways, particularly if you have merged changes from another branch into
+the one you're squashing, so we recommend that you avoid it for schoolwork.
+
+</div>

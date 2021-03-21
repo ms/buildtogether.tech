@@ -131,6 +131,7 @@ kramdown:
       "dobzhansky": ["https://en.wikipedia.org/wiki/Nothing_in_Biology_Makes_Sense_Except_in_the_Light_of_Evolution", "Nothing in biology makes sense except in the light of evolution"],
       "doi2bib": ["https://doi2bib.org/", "Turn DOIs into bibliography entries"],
       "dropbox": ["https://dropbox.com", "Dropbox"],
+      "duckduckgo": ["https://duckduckgo.com/", "DuckDuckGo"],
       "eiffel": ["https://www.eiffel.org/", "Eiffel"],
       "emacs": ["https://www.gnu.org/software/emacs/", "Emacs"],
       "email": ["mailto:gvwilson@third-bit.com", "Contact address"],
