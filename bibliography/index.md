@@ -328,6 +328,12 @@ Melvin E. Conway:
 Mary Rose Cook:
 "<a href="http://gitlet.maryrosecook.com/">Gitlet</a>".
 </dd>
+<dt id="criadoperez2019" class="bibliography">CriadoPerez2019</dt>
+<dd>
+Caroline Criado Perez:
+<em>Invisible Women: Data Bias in a World Designed for Men</em>.
+Harry N. Abrams, 2019, 978-1419729072.
+</dd>
 <dt id="csikszentmihalyi1991" class="bibliography">Csikszentmihalyi1991</dt>
 <dd>
 Mihaly Csikszentmihalyi:
@@ -434,6 +440,12 @@ MIT Press, 2012, 978-0262517966.
 Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
 "On the Effectiveness of Test-First Approach to Programming".
 <em>TSE</em>, 31(3), 2005, <a href="https://doi.org/10.1109/TSE.2005.37">10.1109/TSE.2005.37</a>.
+</dd>
+<dt id="eubanks2019" class="bibliography">Eubanks2019</dt>
+<dd>
+Virginia Eubanks:
+<em>Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor</em>.
+Picador, 2019, 978-1250215789.
 </dd>
 <dt id="fagerholm2017" class="bibliography">Fagerholm2017</dt>
 <dd>
@@ -1027,6 +1039,12 @@ Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
 "Analysis of Exception Handling Patterns in Java Projects".
 <em>Proc. MSR'16</em>, <a href="https://doi.org/10.1145/2901739.2903499">10.1145/2901739.2903499</a>.
 </dd>
+<dt id="noble2018" class="bibliography">Noble2018</dt>
+<dd>
+Safiya Umoja Noble:
+<em>Algorithms of Oppression: How Search Engines Reinforce Racism</em>.
+NYU Press, 2018, 978-1479837243.
+</dd>
 <dt id="nystrom2014" class="bibliography">Nystrom2014</dt>
 <dd>
 Robert Nystrom:
@@ -1044,6 +1062,12 @@ Barbara Oakley, Richard M. Felder, Rebecca Brent, and Imad Elhajj:
 Russ Olsen:
 <em>Design Patterns in Ruby</em>.
 Addison-Wesley Professional, 2007, 978-0321490452.
+</dd>
+<dt id="oneil2017" class="bibliography">ONeil2017</dt>
+<dd>
+C, a, t, h, y,  , O, ', N, e, i, and l:
+<em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>.
+Crown, 2017, 978-0553418835.
 </dd>
 <dt id="parnin2010" class="bibliography">Parnin2010</dt>
 <dd>
@@ -1124,7 +1148,7 @@ Lutz Prechelt:
 In 
 Caitlin Sadowski and Thomas Zimmermann (eds.):
 <em>Rethinking Productivity in Software Engineering.</em>
-Apress, 2019, 978-1-4842-4220-9.
+Apress, 2019, 978-1484242209.
 </dd>
 <dt id="prioleau2021" class="bibliography">Prioleau2021</dt>
 <dd>
@@ -1195,7 +1219,7 @@ Winston Royce:
 <dd>
 Caitlin Sadowski and Thomas Zimmermann (eds.):
 <em>Rethinking Productivity in Software Engineering</em>.
-Apress, 2019, 978-1-4842-4220-9.
+Apress, 2019, 978-1484242209.
 </dd>
 <dt id="sadowski2019b" class="bibliography">Sadowski2019b</dt>
 <dd>
@@ -1204,7 +1228,7 @@ Caitlin Sadowski, Margaret-Anne Storey, and Robert Feldt:
 In 
 Caitlin Sadowski and Thomas Zimmermann (eds.):
 <em>Rethinking Productivity in Software Engineering.</em>
-Apress, 2019, 978-1-4842-4220-9.
+Apress, 2019, 978-1484242209.
 </dd>
 <dt id="sajaniemi2006" class="bibliography">Sajaniemi2006</dt>
 <dd>
@@ -1382,6 +1406,12 @@ Chelsea Troy:
 Tyler Vigen:
 <em>Spurious Correlations</em>.
 Hachette Books, 2015, 978-0316339438.
+</dd>
+<dt id="wachterboettcher2017" class="bibliography">WachterBoettcher2017</dt>
+<dd>
+Sara Wachter-Boettcher:
+<em>Technically Wrong: Why Digital Products Are Designed to Fail You</em>.
+WW Norton, 2017, 978-0393634631.
 </dd>
 <dt id="washburn2016" class="bibliography">Washburn2016</dt>
 <dd>

@@ -641,6 +641,15 @@
   url: http://gitlet.maryrosecook.com/
   year: 2016
 
+- key: CriadoPerez2019
+  kind: book
+  author:
+  - Caroline Criado Perez
+  title: "Invisible Women: Data Bias in a World Designed for Men"
+  publisher: Harry N. Abrams
+  year: 2019
+  isbn: 978-1419729072
+
 - key: Csikszentmihalyi1991
   kind: book
   author:
@@ -850,6 +859,15 @@
   number: 3
   year: 2005
   doi: 10.1109/TSE.2005.37
+
+- key: Eubanks2019
+  kind: book
+  author:
+  - Virginia Eubanks
+  title: "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
+  publisher: Picador
+  year: 2019
+  isbn: 978-1250215789
 
 - key: Fagerholm2017
   kind: article
@@ -2014,6 +2032,15 @@
   title: "Analysis of Exception Handling Patterns in Java Projects"
   year: 2016
 
+- key: Noble2018
+  kind: book
+  author:
+  - Safiya Umoja Noble
+  title: "Algorithms of Oppression: How Search Engines Reinforce Racism"
+  year: 2018
+  publisher: "NYU Press"
+  isbn: 978-1479837243
+
 - key: Nystrom2014
   kind: book
   author:
@@ -2044,6 +2071,14 @@
   publisher: Addison-Wesley Professional
   year: 2007
   isbn: 978-0321490452
+
+- key: ONeil2017
+  kind: book
+  author: "Cathy O'Neil"
+  title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+  publisher: Crown
+  year: 2017
+  isbn: 978-0553418835
 
 - key: Parnin2010
   kind: article
@@ -2186,7 +2221,7 @@
   - Thomas Zimmermann
   publisher: Apress
   year: 2019
-  isbn: 978-1-4842-4220-9
+  isbn: 978-1484242209
 
 - key: Prioleau2021
   author:
@@ -2313,7 +2348,7 @@
   title: Rethinking Productivity in Software Engineering
   publisher: Apress
   year: 2019
-  isbn: 978-1-4842-4220-9
+  isbn: 978-1484242209
 
 - key: Sadowski2019b
   kind: incollection
@@ -2328,7 +2363,7 @@
   - Thomas Zimmermann
   publisher: Apress
   year: 2019
-  isbn: 978-1-4842-4220-9
+  isbn: 978-1484242209
 
 - key: Sajaniemi2006
   kind: article
@@ -2663,6 +2698,15 @@
   publisher: Hachette Books
   year: 2015
   isbn: 978-0316339438
+
+- key: WachterBoettcher2017
+  kind: book
+  author:
+  - Sara Wachter-Boettcher
+  title: "Technically Wrong: Why Digital Products Are Designed to Fail You"
+  publisher: WW Norton
+  year: 2017
+  isbn: 978-0393634631
 
 - key: Washburn2016
   author:
