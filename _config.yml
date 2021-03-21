@@ -51,8 +51,6 @@ chapters:
     title: "A Random Sample of Research"
   - slug: "internships"
     title: "Internships"
-  - slug: "ip"
-    title: "Intellectual Property"
   - slug: "rights"
     title: "Know Your Rights"
   - slug: "business"
@@ -168,6 +166,7 @@ kramdown:
       "mercurial": ["https://www.mercurial-scm.org/", "Mercurial"],
       "noaa-disruptive": ["https://coast.noaa.gov/ddb/", "Dealing with Disruptive Behaviors"],
       "nodejs": ["https://nodejs.org/en/", "Node.js"],
+      "osi": ["https://opensource.org/", "Open Source Initiative"],
       "osi-license-list": ["https://opensource.org/licenses", "Open Source Initiative License List"],
       "pep8": ["https://www.python.org/dev/peps/pep-0008/", "PEP 8 Style Guide for Python Code"],
       "petre-marian": ["https://www.open.ac.uk/people/mp8", "Marian Petre"],
