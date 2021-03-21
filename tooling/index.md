@@ -113,16 +113,16 @@ some people claim is actually Lisp-based operating system in disguise).
 
 <div class="callout" markdown="1">
 
-### Punchcards once again
+### Stuck in the punchcard era
 
-As we noted in <span x="using-git"/>, programming is still stuck in the
-punchcard era: we still insist that source code be represented as lines of
-characters that are drawn one-for-one on the screen.  <span
-g="wysiwyg">WYSIWYG</span> editors like Microsoft Word did away with this model
-decades ago; they store the file in a machine-friendly format and then render it
-in a human-friendly way. There's no reason we couldn't do the same with
-programs.  There's no reason we shouldn't be able to draw a diagram directly in
-our source code like we can in a Google Doc.
+In many ways, programming is still stuck in the punchcard era: we still insist
+that source code be represented as lines of characters that are drawn
+one-for-one on the screen.  <span g="wysiwyg">WYSIWYG</span> editors like
+Microsoft Word did away with this model decades ago; they store the file in a
+machine-friendly format and then render it in a human-friendly way. There's no
+reason we couldn't do the same with programs.  There's no reason we shouldn't be
+able to draw a diagram directly in our source code like we can in a Google Doc;
+if you are looking for a project to tackle, this would be a good one.
 
 </div>
 

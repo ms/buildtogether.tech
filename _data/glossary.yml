@@ -350,12 +350,6 @@
     def: >
       FIXME
 
-- key: cwd
-  en:
-    term: "current working directory"
-    def: >
-      FIXME
-
 - key: data_mining
   en:
     term: "data mining"
@@ -1059,8 +1053,7 @@
   en:
     term: "pull"
     def: >
-      To down changes from a remote [repository](#repository) to a
-      local one.
+      To down changes from a remote [repository](#repository) to a local one.
 
 - key: pull_request
   en:
@@ -1068,12 +1061,11 @@
     def: >
       A request to merge changes from one [repository](#repository) into another.
 
-- key: push
+- key: push_git
   en:
     term: "push"
     def: >
-      To upload changes from a local [repository](#repository) to a
-      remote one.
+      To upload changes from a local [repository](#repository) to a remote one.
 
 - key: qualitative_method
   en:

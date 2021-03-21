@@ -29,21 +29,21 @@ entries:
   label: '6'
   slug: conflict
   title: Managing Conflict
-- file: ./using-git/index.md
+- file: ./git-solo/index.md
   kind: Chapter
   label: '7'
-  slug: using-git
-  title: Using Git
-- file: ./project/index.md
+  slug: git-solo
+  title: Using Git On Your Own
+- file: ./git-team/index.md
   kind: Chapter
   label: '8'
-  slug: project
-  title: Project Structure
-- file: ./code-review/index.md
+  slug: git-team
+  title: Using Git Together
+- file: ./project/index.md
   kind: Chapter
   label: '9'
-  slug: code-review
-  title: Code Reviews
+  slug: project
+  title: Project Structure
 - file: ./communicate/index.md
   kind: Chapter
   label: '10'
@@ -200,11 +200,9 @@ entries:
   slug: evaluation
   title: Performance Evaluation
 figures:
-  after-clone: '7.2'
-  after-fork: '7.1'
-  after-remote: '7.3'
   four-models-of-instruction: '3.1'
   process-matrix: '19.1'
+  start-homework-5: '8.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3
   thinking-models: G.1
@@ -212,5 +210,5 @@ figures:
   washburn-2016-what-went-right: H.1
   washburn-2016-what-went-wrong: H.2
 tables:
-  collaborate-code-review: '9.1'
+  collaborate-code-review: '8.1'
   starting-spinellis-stats: '3.1'

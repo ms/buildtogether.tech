@@ -17,12 +17,12 @@ chapters:
     title: "How to Talk People Into Things"
   - slug: "conflict"
     title: "Managing Conflict"
-  - slug: "using-git"
-    title: "Using Git"
+  - slug: "git-solo"
+    title: "Using Git On Your Own"
+  - slug: "git-team"
+    title: "Using Git Together"
   - slug: "project"
     title: "Project Structure"
-  - slug: "code-review"
-    title: "Code Reviews"
   - slug: "communicate"
     title: "Communicating"
   - slug: "testing"
@@ -115,7 +115,6 @@ kramdown:
       "bst-repo": ["https://github.com/gvwilson/buildtogether.tech/", "Building Software Together repository"],
       "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
       "captain-awkward": ["https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup ", "Buzzfeed article on DataCamp"],
-      "carpentries": ["http://carpentries.org", "The Carpentries"],
       "carpentries-git": ["https://swcarpentry.github.io/git-novice/", "The Carpentries' lesson on Git"],
       "carpentrycon-talk": ["https://www.youtube.com/watch?v=7xR50ty5DZ0", "Greg Wilson's CarpentryCon keynote"],
       "charles-rules": ["https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument", "Charles' Rules of Argument"],
@@ -126,11 +125,14 @@ kramdown:
       "contact": ["mailto:gvwilson@third-bit.com", "Contact email"],
       "contributor-covenant": ["https://www.contributor-covenant.org", "Contributor Covenant"],
       "cook-mary-rose": ["https://maryrosecook.com/", "Mary Rose Cook"],
+      "cvs": ["https://www.nongnu.org/cvs/", "CVS"],
       "diagrams": ["https://www.diagrams.net/", "diagrams.net drawing tool"],
       "diffmerge": ["https://sourcegear.com/diffmerge/", "SourceGear DiffMerge"],
       "dobzhansky": ["https://en.wikipedia.org/wiki/Nothing_in_Biology_Makes_Sense_Except_in_the_Light_of_Evolution", "Nothing in biology makes sense except in the light of evolution"],
       "doi2bib": ["https://doi2bib.org/", "Turn DOIs into bibliography entries"],
+      "dropbox": ["https://dropbox.com", "Dropbox"],
       "eiffel": ["https://www.eiffel.org/", "Eiffel"],
+      "emacs": ["https://www.gnu.org/software/emacs/", "Emacs"],
       "email": ["mailto:gvwilson@third-bit.com", "Contact address"],
       "evans-julia": ["https://jvns.ca/", "Julia Evans"],
       "evans-manager": ["https://jvns.ca/blog/things-your-manager-might-not-know/", "Things Your Manager Might Not Know"],
@@ -141,6 +143,7 @@ kramdown:
       "gender-decoder": ["http://gender-decoder.katmatfield.com/", "Gender Decoder"],
       "gendermag": ["http://gendermag.org/", "GenderMag"],
       "git": ["https://git-scm.com/", "Git"],
+      "git-difftool": ["https://git-scm.com/docs/git-difftool", "git difftool"],
       "git-man-page-generator": ["https://git-man-page-generator.lokaltog.net/", "Git Random Man Page Generator"],
       "github": ["https://github.com/", "GitHub"],
       "github-actions": ["https://github.com/features/actions", "GitHub Actions"],
@@ -179,11 +182,13 @@ kramdown:
       "snakemake": ["https://snakemake.readthedocs.io/en/stable/", "Snakemake"],
       "so-configure-git-editor": ["https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits", "How do I make Git use the editor of my choice for commits?"],
       "so-exit-vim": ["https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor", "How do I exit the Vim editor?"],
+      "sourcetree": ["https://www.sourcetreeapp.com/", "SourceTree"],
       "sqlite": ["https://www.sqlite.org/", "SQLite"],
       "stack-overflow": ["https://stackoverflow.com/", "Stack Overflow"],
       "stack-overflow-good-question": ["https://stackoverflow.com/help/how-to-ask", "How do I ask a good question?"],
       "stjs": ["https://stjs.tech/", "Software Tools in JavaScript"],
       "stone-quote": ["https://twitter.com/joncstone/status/1269961630940631041", "Jon Stone on channels"],
+      "subversion": ["https://subversion.apache.org/", "Subversion"],
       "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
       "thirdbit-burnout": ["http://third-bit.com/2015/11/09/daddy-why-dont-you-ever-laugh/", "Daddy, Why Don't You Ever Laugh?"],
       "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],

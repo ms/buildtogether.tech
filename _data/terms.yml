@@ -28,9 +28,6 @@ automation:
   term: style checker
 bibliography: []
 business: []
-code-review:
-- key: code_review
-  term: code review
 communicate:
 - key: discoverability
   term: discoverability
@@ -157,6 +154,52 @@ errors:
 - key: yaml
   term: YAML
 evaluation: []
+git-solo:
+- key: branch_git
+  term: branch
+- key: branch_per_feature_workflow
+  term: branch-per-feature workflow
+- key: centralized_system
+  term: centralized system
+- key: clone_git
+  term: clone
+- key: commit
+  term: commit
+- key: commit_message
+  term: commit message
+- key: conflict_git
+  term: conflict
+- key: decentralized_system
+  term: decentralized system
+- key: flag
+  term: flag
+- key: mental_model
+  term: mental model
+- key: merge_git
+  term: merge
+- key: pull_git
+  term: pull
+- key: push_git
+  term: push
+- key: remote_git
+  term: remote
+- key: repository
+  term: repository
+- key: software_portal
+  term: software portal
+- key: sub_command
+  term: sub-command
+- key: timestamp
+  term: timestamp
+git-team:
+- key: code_review
+  term: code review
+- key: fork_git
+  term: fork
+- key: pull_request
+  term: pull request
+- key: rebase_git
+  term: rebase
 glossary: []
 important:
 - key: adhd
@@ -426,49 +469,4 @@ tooling:
   term: test runner
 - key: wysiwyg
   term: What You See Is What You Get
-using-git:
-- key: branch_git
-  term: branch
-- key: branch_per_feature_workflow
-  term: branch-per-feature workflow
-- key: centralized_system
-  term: centralized system
-- key: clone_git
-  term: clone
-- key: commit
-  term: commit
-- key: commit_message
-  term: commit message
-- key: conflict_git
-  term: conflict
-- key: cwd
-  term: current working directory
-- key: decentralized_system
-  term: decentralized system
-- key: flag
-  term: flag
-- key: fork_git
-  term: fork
-- key: mental_model
-  term: mental model
-- key: merge_git
-  term: merge
-- key: pull_git
-  term: pull
-- key: pull_request
-  term: pull request
-- key: push
-  term: push
-- key: rebase_git
-  term: rebase
-- key: remote_git
-  term: remote
-- key: repository
-  term: repository
-- key: software_portal
-  term: software portal
-- key: sub_command
-  term: sub-command
-- key: timestamp
-  term: timestamp
 wide-world: []

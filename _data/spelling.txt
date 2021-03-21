@@ -395,6 +395,7 @@ Kernighan
 Ketant
 Khaled
 Khomh
+KiB
 Kinshuman
 Kinshumann
 Kirschner
@@ -571,7 +572,6 @@ Pritchard
 Proc
 Proksch
 Pseudocode
-Punchcards
 Péraire
 Qian
 README
@@ -831,6 +831,7 @@ behavior
 behaviors
 blowfish
 breakpoint
+bst
 callout
 callout's
 canceled
@@ -845,6 +846,7 @@ color
 config
 corrompu
 coursemates
+cp
 csv
 curdir
 currentuser
@@ -912,6 +914,7 @@ href
 html
 http
 humor
+hw
 hypercorrection
 img
 impactful
@@ -935,6 +938,7 @@ microservice
 microservices
 mis
 mish
+mkdir
 mortem
 mortems
 multimodality
@@ -961,7 +965,6 @@ practicing
 pre
 pseudocode
 punchcard
-punchcards
 py
 pyc
 pycache
@@ -976,7 +979,6 @@ reinitializing
 relabeled
 repo
 reportVersion
-repos
 reprex
 reproducibility
 reviewable

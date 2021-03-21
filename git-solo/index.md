@@ -1,24 +1,20 @@
 ---
 ---
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/13</span>
-
-<span class="fixme">point to other tutorials https://github.com/gvwilson/buildtogether.tech/issues/47</span>
-
 Version control is the collective memory of the project. It's what lets you move
 files from one machine to another without clobbering stuff you just spent three
-hours writing, and without worrying about whether you forgot an all-important
-file. It's also what lets you undo your mistakes: if you spend an hour or two
-going down the wrong path, and want to get back to where you were, version
-control lets you do it reliably with a single command. And if all that wasn't
-enough, version control lets you keep track of who did what, so that you can
-allocate credit and blame where they're due.
+hours writing and without worrying about whether you forgot something important.
+It also lets you undo your mistakes: if you spend an hour or two going down the
+wrong path, and want to get back to where you were, version control lets you do
+it reliably with a single command. And if all that wasn't enough, version
+control keeps track of who did what so that you know who to turn to with
+questions.
 
-Dozens of version control systems exist. For many years, CVS was the workhorse
-of the open source world, and very popular in commercial projects as well. It
-was replaced by Subversion, which fixed many of its predecessor's flaws while
-introducing a few minor ones of its own. Both of these were <span
-g="centralized_system">centralized systems</span>:
+Dozens of version control systems exist. [CVS][cvs] was the workhorse of the
+open source world for many years; it was replaced by [Subversion][subversion],
+which fixed many of its predecessor's flaws while introducing a few minor ones
+of its own. Both of these were <span g="centralized_system">centralized
+systems</span>:
 
 1.  One <span g="repository">repository</span> stored the definitive copy of the
     project's files.
@@ -28,16 +24,16 @@ g="centralized_system">centralized systems</span>:
 
 1.  In order to share files with other people (or to create a backup, which is
     really just a way to share files with your future self) people would <span
-    g="push">push</span> the contents of their copy to the main repository.  To
-    get other people's work, they would download changes from the main
-    repository and combine them with their own work.
+    g="push_git">push</span> the contents of their copy to the main repository.
+    To get other people's work, they would <span g="pull_git">pull</span>
+    changes from the main repository and combine them with their own work.
 
 Centralized version control systems have largely been replaced by <span
-g="decentralized_system">decentralized</span> ones, and in particular by one
-called [Git][git]. In theory, Git doesn't need a main repository: developers can
-merge the contents of any repository with any other one.  In practice, almost
-every project designates one repository as the master copy so that everyone
-knows where to look to find the current state of the project.
+g="decentralized_system">decentralized</span> ones, and in particular by
+[Git][git]. In theory, Git doesn't need a main repository: developers can merge
+the contents of any repository into any other.  In practice, almost every
+project designates one repository as the master copy so that people know where
+to look to find the current state of the project.
 
 Unfortunately, Git has a needlessly complicated interface.
 <cite>PerezDeRosso2013</cite> found that even experienced users have a <span
@@ -47,7 +43,7 @@ stream of "what the hell?"  moments. Other distributed version control systems
 like [Mercurial][mercurial] are proof that this complexity and pain are
 unnecessary.  The fact that most people don't immediately realize that [the
 random Git manual page generator][git-man-page-generator] is a hoax says a lot
-as well…
+as well.
 
 So why do people keep using Git? The answer these days is, "Because it's the tax
 they have to pay in order to use [GitHub][github]." At the time of writing,
@@ -56,8 +52,8 @@ including those for many well-known open source projects. It is easily the most
 popular <span g="software_portal">software portal</span> in existence, and
 offers all of the tools a small software team needs. Other portals exist, such
 as [Bitbucket][bitbucket] and [GitLab][gitlab], but GitHub's share of the
-educational market is even larger than than its share of professional
-development.  If you're using anything in class, you're almost certainly using
+educational market is even larger than than its share among professional
+developers.  If you're using anything in class, you're almost certainly using
 it, and it's probably helping you become a better programmer
 <cite>Hsing2019</cite>.
 
@@ -74,31 +70,14 @@ original Git.
 </div>
 
 This chapter won't try to teach you Git from scratch: [GitHub's
-guides][github-guides] do an excellent job of that, as does [the
-Carpentries][carpentries] [lesson on Git][carpentries-git].  Instead, we will
-review the basics that we hope you have learned previous, then look at how to
-use Git and GitHub to collaborate. We will show the commands as if you were
-typing them on the command line; if you are a beginner, we recommend that you
-use a graphical interface like [GitKraken][gitkraken] or the one that comes with
-your IDE (<span x="tooling"/>). These GUIs are all layered on top of the
-commands we are going to discuss, so they (should) all work the same way.
-
-<div class="callout" markdown="1">
-
-### Trapped in the punchcard era
-
-The biggest weakness of today's version control systems is that they work be
-files, such as sound clips, images, or Microsoft Word documents. When changes
-have been made to a JavaScript source file, for example, Git can find and
-display the lines that have been edited. When you and your teammates edit the
-SVG diagrams in your final report, on the other hand, a line-by-line view
-isn't much use, and if two of you update the image you're using as a logo, all
-Git can do it tell you that there's a conflict. It doesn't have to be like
-this: programmers could build tools to compare and merge files that aren't
-backward-compatible with punchcards, and by doing so, make version control
-accessible to people whose file formats aren't stuck in the 1960s.
-
-</div>
+guides][github-guides] do an excellent job of that, as does [the Carpentries
+lesson on Git][carpentries-git].  Instead, we will review the basics that we
+hope you have learned previous, then look at how to use Git and GitHub to
+collaborate. We will show the commands as if you were running them in the Unix
+shell, but we recommend that you use a graphical interface like
+[GitKraken][gitkraken], [SourceTree][sourcetree], or the one that comes with
+your IDE (<span x="tooling"/>). These are layered on top of the commands we are
+going to discuss, so they (should) all work the same way.
 
 ## A Review of the Basics
 
@@ -128,29 +107,29 @@ Breaking this down:
     name or email address for different projects.
 
 -   `user.name` is the thing we want to configure. There are a lot of these;
-    we can use `git config --list` to display them.
+    `git config --list` displays them all.
 
--   Finally, we specify the values that we want `user.name` and `user.email` to
+-   Finally, we specify the values we want `user.name` and `user.email` to
     have. We wrap these in quotes because they contain spaces and the `@`
     symbol, which might otherwise confuse the shell.
 
 Now that Git knows who we are, let's set up our project. If we are starting from
 scratch, we create a directory, go into it, and run `git init`. This may or may
 not print out some messages depending on what version of Git you have and how
-much of its output your GUI shows (if you're using one). Regardless of that,
-this command creates a sub-directory called `.git` inside your project
+much of its output your GUI shows (if you're using one). Either way, this
+command creates a sub-directory called `.git` inside your project
 directory. That special sub-directory is what makes something a project: it
-contains all of the administrative data that Git uses to keep track of what
-files you have and how they've changed.
+stores the data Git uses to keep track of what files you have and how they've
+changed.
 
 <div class="callout" markdown="1">
 
 ### Don't mess
 
-Don't ever edit the files in your `.git` directory yourself.  Doing so will have
-the same unpleasant result as editing a spreadsheet or an image as if it was a
-text file. If you'd like to know more about what they're for and how Git uses
-them, please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
+Don't edit the files in your `.git` directory yourself---it will have the same
+unfortunate effect as editing a spreadsheet or an image as if it was a text
+file. If you'd like to know more about what they're for and how Git uses them,
+please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
 
 </div>
 
@@ -179,19 +158,19 @@ commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
 Author: Greg Wilson <gvwilson@third-bit.com>
 Date:   Fri Feb 19 09:48:37 2021 -0500
 
-    Opening section of version control.
+    Writing the first section of the chapter on version control.
 
 commit 80d38a8cbf650431fe4719ec768bd890e00c7431
 Author: Greg Wilson <gvwilson@third-bit.com>
 Date:   Thu Feb 18 11:21:00 2021 -0500
 
-    Teams
+    Adding more citations to the description of team formation.
 
 commit 6e30bd5e5af2c3491f25f014c03d5e9ff5c79879
 Author: Greg Wilson <gvwilson@third-bit.com>
 Date:   Wed Feb 17 20:48:04 2021 -0500
 
-    Moving a section
+    Moving the discussion of code review into its own chapter.
 
 ...
 ```
@@ -201,7 +180,7 @@ Each entry has:
 -   A line labeled `commit` followed by a large hexadecimal number.  This number
     is a unique label for the state of the project's files at that point in
     time.  if we want to refer to a particular version of our project, we can
-    use this or the first half-dozen digits (such as `6e30bd`) so long as the
+    use this or its first half-dozen digits (such as `6e30bd`) so long as the
     latter is unambiguous.
 
 -   Two lines showing who saved the state of the project and when. The name and
@@ -212,10 +191,10 @@ Each entry has:
     were saved.
 
 -   A short comment called a <span g="commit_message">commit message</span> that
-    tells us what this change is all about. We will take a look in the next
-    section at how to write a good commit message; for now, just remember that
-    if you and your teammates have made a hundred changes to the project over
-    the course of ten or twelve weeks, you're going to want something more
+    tells us what this change is all about. We will take a look in <span
+    x="git-team"/> at how to write a good commit message; for now, just remember
+    that if you and your teammates have made a hundred changes to the project
+    over the course of ten or twelve weeks, you're going to want something more
     informative than "Fixed stuff."
 
 All right: what are <span g="commit">commits</span> and where do they come from? A
@@ -241,12 +220,13 @@ something called Vim, whose interface is no more intuitive than Git's. (In fact,
 one of the most frequently-viewed questions on [Stack Overflow][stack-overflow]
 is "[How do I exit the Vim editor?][so-exit-vim]". Unsurprisingly, another
 frequently-viewed question on Stack Overflow is "[How do I make Git use the
-editor of my choice for my commits?][so-configure-git-editor]"
+editor of my choice for my commits?][so-configure-git-editor]" One of the many
+reasons you should interact with Git through a GUI is to avoid this issue.
 
 </div>
 
-If we only ever use `git commit`, though, nothing will happen. We need to tell
-Git which files we want to save in the commit, which we do using `git add`:
+Before we run `git commit`, though, we need to tell Git which files we want to
+save in the commit, which we do using `git add`:
 
 ```sh
 $ git add version-control.md _data/glossary.yml
@@ -350,9 +330,13 @@ origin	https://github.com/gvwilson/bst (push)
 The `-v` flag (short for "verbose") tells Git to print more than just the
 remote's name. The remote itself is called `origin`, and Git lists two URLs for
 it because in theory you can download (or "fetch") from one and upload (or
-"push") to another. Sane people don't do this.
+"push") to another. (I have been using Git for sixteen years, and have never
+once needed this feature.)
 
-If I want to save everything I've done locally on GitHub, I push my changes:
+One of the differences between a version control system like Git and a file
+backup tool like [Dropbox][dropbox] is that Git *doesn't* automatically
+synchronize local changes to the remote repository.  If I want to save
+everything I've done locally on GitHub, I have to push them explicitly:
 
 ```sh
 $ git push origin main
@@ -364,8 +348,8 @@ and the word `main` identifies the branch I'm on.  We'll discuss branches in the
 next section, but for now, you can run `git branch` to see which ones you have
 and which one you're working in.
 
-The counterpart of `git push` is `git pull`. It <span g="pull_git">pulls</span>
-changes from the remote repository and merges them into your local copy:
+The counterpart of `git push` is `git pull`. It downloads changes from the
+remote repository and merges them into your local copy:
 
 ```sh
 $ git pull origin main
@@ -382,11 +366,11 @@ servers).
 
 Many instructors require learners to submit work by committing it to a Git
 repository. One way to check that what works for you will work for whoever is
-grading it is to clone a fresh copy of the project in a temporary directory
-and make sure that everything builds and runs there. Doing that will tell you
-if you or one of your teammates has forgotten to commit a key file. In an
-advanced course, you might be asked to do this automatically every time
-someone commits changes; we'll explore this in <span x="tooling"/>.
+grading it is to clone a fresh copy of the project in a temporary directory and
+make sure that everything builds and runs there. Doing that will tell you if you
+or one of your teammates has forgotten to commit a key file. In an advanced
+course, you might be asked to do this automatically every time someone commits
+changes; we'll explore this in <span x="tooling"/>.
 
 </div>
 
@@ -394,11 +378,10 @@ someone commits changes; we'll explore this in <span x="tooling"/>.
 
 So far we have only used a sequential timeline with Git: each change builds on
 the one before, and *only* on the one before.  However, there are times when we
-want to try things out without disrupting our main work.  To do this, we can use
-<span g="branch_git">branches</span> to work on separate tasks in parallel.
-Each branch is a parallel timeline; changes made on the branch only affect that
-branch unless and until we explicitly combine them with work done in another
-branch.
+want to work on several things at once.  To do this, we can use <span
+g="branch_git">branches</span> to work on separate tasks in parallel.  Each
+branch is like a parallel timeline: changes made to one branch have no effect on
+other branches unless and until we explicitly merge them.
 
 We can see what branches exist in a repository like this:
 
@@ -417,21 +400,21 @@ $ git branch -m main
 ```
 
 {: .continue}
-immediately after running `git init`.  The `main` branch is often considered the
-"official" version of the repository.  The asterisk `*` indicates that it is
-currently active, i.e., that all changes we make will take place in this branch
-by default.  (The active branch is like the <span g="cwd">current working
-directory</span> in the shell.)
+immediately after running `git init`.  The `main` branch is usually considered
+the "official" version of the repository, i.e., the version of the project that
+should be graded or published for other people to use.  The asterisk `*`
+indicates that it is currently active, i.e., that all changes we make will take
+place in this branch by default.
 
-To create a new branch called `homework3`, we run:
+To create a new branch called `homework3` we run:
 
 ```sh
 $ git branch homework3
 ```
 
-The name of the branch should indicate what we plan to do in it, just like the
-names of files and variables indicate what they're for.  We can check that the
-branch exists by running `git branch` again:
+The name of the branch should indicate what it's for, just like the names of
+files and variables.  We can check that the branch exists by running `git
+branch` again:
 
 ```sh
 $ git branch
@@ -442,8 +425,7 @@ $ git branch
 ```
 
 Our branch is there, but the `*` shows that we are still in the `main` branch.
-(By analogy, creating a new directory doesn't automatically move us into that
-directory.)  To switch to our new branch we use the `checkout` command:
+To switch to our new branch we use the `checkout` command:
 
 ```sh
 $ git checkout homework3
@@ -454,10 +436,10 @@ $ git branch
 * homework3
 ```
 
-We haven't made any changes since switching to the `fit` branch, so at this
-point `main` and `fit` are at the same point in the repository's history.
-Commands like `ls` and `git log` therefore show that the files and history
-haven't changed.
+We haven't made any changes since switching to the `homework3` branch, so at
+this point `main` and `homework3` are at the same point in the repository's
+history.  Commands like `ls` and `git log` therefore show that the files and
+history haven't changed.
 
 <div class="callout" markdown="1">
 
@@ -472,12 +454,13 @@ rearranges directories to restore that state of the world.
 Why go to all this trouble?  Because it allows us to work on several things at
 once without stepping on our own toes, just as putting variables inside objects
 and classes allows us to ignore the details of *this* when we're working on
-*that*. For example, if we are close to finishing homework assignment 3 but want
-to get an early start on assignment 4, we can create a new branch from `main`
-called `homework4` and start setting things up in there.  When we are done, we
-can <span g="merge_git">merge</span> the state of one branch back into
-another. Merging doesn't change the source branch, but once it's done, all of
-the changes made there are in the destination branch.
+*that*. For example, if we are close to finishing homework 3 but want to get an
+early start on homework 4, we can create a new branch from `main` called
+`homework4` and start setting things up in there.
+
+When we are done, we can <span g="merge_git">merge</span> the state of one
+branch back into another. Merging doesn't change the source branch, but once
+it's done, all of the changes made there are in the destination branch.
 
 To see what the differences are between two branches, we use `git diff` with
 those branches' names:
@@ -525,11 +508,13 @@ with `@@` show where in the file the change occurred.
 
 ### See the difference
 
-You have to be a bit of a masochist to try to read diffs like this. Even if you
-are using Git from the command line, it's a lot easier to view diffs using a GUI
-like [DiffMerge][diffmerge].
-
-<span class="fixme">mention difftool https://github.com/gvwilson/buildtogether.tech/issues/45</span>
+You have to be a bit of a masochist to read diffs like this; it's a lot easier
+using a GUI like [DiffMerge][diffmerge].  You can [use other tools to view
+diffs][git-difftool] between files that aren't plain text, but only if such
+tools exist. They don't for many common file formats: for example, there isn't an
+easy way to see the differences between two version of an SVG diagram or between
+two spreadsheets. If you are looking for projects to work on that people will
+actually use, these would be good ones.
 
 </div>
 
@@ -583,6 +568,9 @@ $ cat README.md
 The lines from `<<<<<<< HEAD` to `=======` are what was in `main`, while the
 lines from there to `>>>>>>> docs` show what was in `homework4`.  If there were
 several conflicting regions in the same file, Git would mark each one this way.
+Once again, you have to hate yourself a little to view these conflicts as raw
+text files; even legacy text editors like [Emacs][emacs] will highlight them,
+and Git GUIs will help you view and edit these regions.
 
 We have to decide what to do next: keep the `main` changes, keep those from
 `homework4`, edit this part of the file to combine them, or write something new.
@@ -638,10 +626,9 @@ are doing:
     your changes into `main`.  You should not have any conflicts, and all of
     your tests should pass.
 
-Most experienced developers use this
-<span g="branch_per_feature_workflow">branch-per-feature workflow</span>,
-but what exactly is a "feature"?
-These rules make sense for small projects:
+Most developers use this <span
+g="branch_per_feature_workflow">branch-per-feature workflow</span>, but what
+exactly is a "feature"?  These rules make sense for small projects:
 
 1.  Anything cosmetic that is only one or two lines long can be done in `main`
     and committed right away.  "Cosmetic" means changes to comments or
@@ -661,258 +648,3 @@ for small changes.  As the first point in the list above suggests, most people
 are pragmatic about this on small projects; on large ones, where dozens of
 people might be committing, even the smallest and most innocuous change needs to
 be in its own branch so that it can be reviewed (which we discuss below).
-
-One way to make the history of a repository easier to read is to squash several
-consecutive commits into one.  This is called <span
-g="rebase_git">rebasing</span>, and can be done using:
-
-```sh
-$ git rebase -i START
-```
-
-{: .continue}
-where `START` identifies the commit *before* the ones you want to start merging
-(i.e., the last one *not* to modify). Rebasing can go wrong in a lot of
-confusing ways, particularly if you have merged changes from another branch
-into the one you're squashing, so we recommend that you avoid it for
-schoolwork.
-
-## Using Git Together
-
-Version control really comes into its own when we are working with other people.
-Portals like GitHub, GitLab, and Bitbucket are all designed to support this, and
-they all provide other tools for managing and reviewing shared information. This
-chapter looks at how to use those tools so that <span x="process"/>'s
-discussion of software development processes will make more sense.
-
-People can share work through a Git repository in one of two ways:
-
-1.  Everyone has read and write access to a single shared repository.
-
-2.  Everyone can read from the project's main repository, but only a few people
-    can commit changes to it.  The project's other contributors <span
-    g="fork_git">fork</span> the main repository to create one that they own, do
-    their work in that, and then submit their changes to the main repository.
-
-The first approach works well for teams of up to half a dozen people who are all
-comfortable using Git, but if the project is larger, or if contributors are
-worried that they might make a mess in the `main` branch, the second approach is
-safer.
-
-<span class="fixme">start by describing shared repo, then describe separate repos as extension</span>
-
-Git itself doesn't have any notion of a "main repository", but GitHub and other
-software portals all encourage people to use Git as if there was one.  For
-example, suppose that Amira wants to contribute to the assignment that Sami is
-hosting on GitHub at `https://github.com/sami/homework5`.  Amira can go to that
-URL and click on the "Fork" button in the upper right corner.  GitHub goes ahead
-and creates a copy of Sami's repository within Amira's account on GitHub's own
-servers. When the command completes, nothing has happened yet on Amira's own
-machine: the new repository exists only on GitHub.  When Amira explores its
-history, she sees that it contains all of the changes Sami made (<span
-f="after-fork"/>).
-
-{% include figure id="after-fork" alt="After forking" cap="What repositories are where after forking." fixme=true %}
-
-A fork of a repository is a clone just like the ones you have created earlier;
-it's just hosted on the portal's servers instead of your laptop.  In order to
-start working on the project, Amira needs a clone of *their* repository (not
-Sami's) on their own computer.  We will modify Amira's prompt to include their
-desktop user ID (`amira`) and working directory (initially `~`) to make it
-easier to follow what's happening:
-
-```sh
-amira:~ $ git clone https://github.com/amira/homework5.git
-```
-
-This command creates a new directory with the same name as the project on
-Amira's machine (<span f="after-clone"/>).  When Amira goes into this
-directory and runs `ls` and `git log`, she sees all of the project's files and
-history:
-
-```sh
-amira:~ $ cd homework5
-amira:~/homework5 $ ls
-```
-
-```sh
-amira:~/homework5 $ git log --oneline -n 4
-```
-
-{% include figure id="after-clone" alt="After cloning" cap="What repositories are where after cloning." fixme=true %}
-
-Amira also sees that Git has automatically created a remote for their repository
-that points back at their repository on GitHub:
-
-```sh
-amira:~/homework5 $ git remote -v
-```
-```out
-origin  https://github.com/amira/homework5.git (fetch)
-origin  https://github.com/amira/homework5.git (push)
-```
-
-Amira can pull changes from their fork and push work back there, but needs to
-add a remote pointing at Sami's repository first (<span f="after-remote"/>):
-
-```sh
-amira:~/homework5 $ git remote add upstream https://github.com/sami/homework5.git
-amira:~/homework5 $ git remote -v
-```
-```out
-origin      https://github.com/amira/homework5.git (fetch)
-origin      https://github.com/amira/homework5.git (push)
-upstream    https://github.com/sami/homework5.git (fetch)
-upstream    https://github.com/sami/homework5.git (push)
-```
-
-{: .continue}
-Amira has called their new remote `upstream` because it points at the repository
-theirs is derived from.  She could use any name, but `upstream` is a nearly
-universal convention.
-
-{% include figure id="after-remote" alt="Git remotes" cap="Which Git remotes point where." fixme=true %}
-
-With this remote in place, Amira is finally set up.  Suppose, for example, that
-Sami has modified the project's `README.md` file to add Amira as a contributor.
-(Again, we show Sami's user ID and working directory in her prompt to make it
-clear who's doing what):
-
-```txt
-# Homework 5
-
-Our homework project
-
-## Contributors
-
-- Sami
-- Amira
-```
-
-Sami commits their changes and pushes them to *their* repository on GitHub:
-
-```sh
-sami:~/homework5 $ git commit -a -m "Adding Amira as a contributor"
-sami:~/homework5 $ git push origin main
-```
-
-Sami's changes are now on their desktop computer and in their GitHub repository
-but not in either of Amira's repositories (local or remote).  Since Amira has
-created a remote that points at Sami's GitHub repository, though, she can easily
-pull those changes to their desktop:
-
-```sh
-amira:~/homework5 $ git pull upstream main
-```
-
-Pulling from a repository owned by someone else is no different than pulling
-from a repository you own.  In either case, Git merges the changes and asks you
-to resolve any conflicts that arise.  The only significant difference is that,
-as with `git push` and `git pull`, you have to specify both a remote and a
-branch: in this case, `upstream` and `main`.
-
-Amira can now get Sami's work, but how can Sami get Amira's?  They could create
-a remote that pointed at Amira's repository on GitHub and periodically pull in
-Amira's changes, but that would lead to chaos, since they could never be sure
-that everyone's work was in any one place at the same time.  Instead, almost
-everyone uses <span g="pull_request">pull requests</span> (PR).  A PR is
-essentially a note saying, "Someone would like to merge branch A of repository B
-into branch X of repository Y".  The PR does not contain the changes, but
-instead points at two particular branches.  That way, the difference displayed
-is always up to date if either branch changes.
-
-But a PR can store more than just the source and destination branches: it can
-also store comments people have made about the proposed merge.  Users can
-comment on the PR as a whole, or on particular lines, and mark comments as out
-of date if the author of the PR updates the code that the comment is attached
-to.  Complex changes can go through several rounds of review and revision before
-being merged, which makes PRs the review system we all wish journals actually
-had.
-
-To see this in action, suppose Amira wants to add their email address to
-`README.md`.  She creates a new branch and switches to it:
-
-```sh
-amira:~/homework5 $ git checkout -b adding-email
-```
-
-{: .continue}
-then makes a change and commit it:
-
-```sh
-amira:~/homework5 $ git commit -a -m "Adding my email address"
-```
-
-```sh
-amira:~/homework5 $ git diff HEAD~1
-```
-
-Amira's changes are only in her local repository.  She cannot create a pull
-request until those changes are on GitHub, so she pushes her new branch to her
-repository on GitHub:
-
-```sh
-amira:~/homework5 $ git push origin adding-email
-```
-
-When Amira views her repository in the browser, GitHub notices that she has just
-pushed a new branch and asks her if she wants to create a PR.  When she clicks
-on the button, GitHub displays a page showing the default source and destination
-of the PR and a pair of editable boxes for the pull request's title and a longer
-comment.
-
-If she scrolls down, Amira can see a summary of the changes that will be in the
-PR.  When she clicks "Create Pull Request", Git gives it a unique serial number
-(which is *not* a commit ID).  The PR is displayed in Sami's repository rather
-than Amira's since it is Sami's repository that will be affected if the PR is
-merged.
-
-Clicking on the "Pull requests" tab in Sami's repository brings up a list of PRs
-and clicking on the PR link itself displays its details.  Amira and Sami can
-both see and interact with these pages, though only Sami has permission to
-merge.
-
-Since there are no conflicts, GitHub will let Sami merge the PR immediately
-using the "Merge pull request" button.  They could also discard or reject it
-without merging using the "Close pull request" button.  Instead, they click on
-the "Files changed" tab to see what Amira has changed.
-
-If Amira changes `README.md`, commits, and pushes to her branch while the pull
-request is open, the PR is immediately updated.  As explained above, a PR is a
-note asking that two branches be merged, so if either end of the merge changes,
-the PR updates automatically.
-
-If Sami has merged several PRs, Amira can update her desktop repository by
-pulling from her `upstream` repository (i.e., Sami's repository):
-
-```sh
-amira:~/homework5 $ git checkout main
-amira:~/homework5 $ git pull upstream main
-```
-
-Finally, Amira can their those changes back to the `main` branch in her own
-repository on GitHub:
-
-```sh
-amira:~/homework5 $ git push origin main
-```
-
-All four repositories are now synchronized. If there are any conflicts along the
-way, Sami and Amira can resolve them just as they would resolve conflicts
-between branches in a single repository.  GitHub and other portals do allow
-people to merge conflicts through their browser-based interfaces, but doing it
-on our desktop means we can use our favorite editor to resolve the conflict.  It
-also means that if the change affects the project's code, we can run everything
-to make sure it still works.
-
-But what if Amira or someone else merges another change while Sami is resolving
-this one, so that by the time she pushes to her repository there is another,
-different, conflict?  In theory this cycle could go on forever; in practice, it
-reveals a communication problem that Sami (or someone) needs to address.  If two
-or more people are constantly making incompatible changes to the same files,
-they should discuss who's supposed to be doing what, or rearrange the project's
-contents so that they aren't stepping on each other's toes.
-
-<span class="fixme">commit etiquette: https://github.com/gvwilson/buildtogether.tech/issues/56</span>
-
-<span class="fixme">good commit message https://github.com/gvwilson/buildtogether.tech/issues/75</span>
