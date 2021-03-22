@@ -1,18 +1,25 @@
 ---
 ---
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/14</span>
-
-<span class="fixme">brief description of Make and then talk about `package.json` and other approaches</span>
+Everyone is talking about <span g="devops">DevOps</span> these days, even though
+(or perhaps because) no one can quite agree what it is.  The term mostly seems
+to refer to practices that minimize the time between a developer implementing a
+change and that change being tested, integrated, tested again, and deployed.
+Those practices have one thing in common: automating as many steps as possible
+to make them fast and reliable.  You may not be required to do this for your
+project, but if you have time, you should try to do a little---it will save time
+when you are up against the end-of-term deadline, and more importantly, prevent
+mistakes when you are stretched thin.
 
 ## Build Manager
 
-No matter what language you use, you're going to need a <span
+The foundation for almost all automation in software development is a <span
 g="build_manager">build manager</span>---a tool that will transform what you've
 typed into what you want to deliver. The origin build manager is [Make][make],
-which was invented in 1975 by a summer intern at Bell Labs. To use it, you
-create a Makefile that specifies the dependencies between the files in your
-project and the commands needed to update them. For example:
+which was invented in 1975 by a summer intern at Bell Labs to compile programs
+in which some modules depended on others. To use it, you create a Makefile that
+specifies the dependencies between the files in your project and the commands
+needed to update them. For example:
 
 ```make
 game.exe : game.bc graphics.bc utils.bc
@@ -152,6 +159,8 @@ bugs.  As we'll see in <span x="research"/>, requiring type definitions in
 code helps programmers understand software as well.
 
 ## Continuous Integration
+
+<span class="fixme">Give an example of CI setup https://github.com/gvwilson/buildtogether.tech/issues/14</span>
 
 <span class="fixme">pre-commit hooks</span>
 
