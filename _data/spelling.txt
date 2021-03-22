@@ -89,6 +89,7 @@ Bielaczyc
 Binkley
 Bitbucket
 Blakely
+BleachBit
 Blincoe
 Boehm
 Boettcher
@@ -222,6 +223,7 @@ Femke
 Feng
 Ferreira
 Fidge
+FileShredder
 Fincher
 FindBugs
 Findable
@@ -256,6 +258,7 @@ Georgianne
 Georgios
 Gerdt
 Gerosa
+Ghostery
 Giancarlo
 Ginat
 Gingichashvili
@@ -429,6 +432,8 @@ Labeling
 Labor
 Lamba
 Lawrie
+Leitao
+Leitão
 Lenfant
 Letaw
 Letian
@@ -447,6 +452,7 @@ Lutz
 MBTI
 MSR
 MVC
+MacOS
 Mairieli
 Maithri
 Makefile
@@ -483,6 +489,7 @@ Minghui
 Misclassification
 Mockus
 Modeling
+Mohan
 Moir
 Mordechai
 Morisio
@@ -535,6 +542,7 @@ Orna
 Ostblom
 PACMPL
 PCK
+PDFs
 PLoS
 PNAS
 POS
@@ -683,6 +691,7 @@ Slava
 SmartBear
 Smetsers
 Snakemake
+Snowden
 Socio
 Solnit
 Soloway
@@ -807,6 +816,7 @@ Yongle
 Yoshiki
 Yu
 Yuanyuan
+YubiKey
 Zahra
 Zaidman
 Zainab
@@ -826,6 +836,7 @@ Zhuang
 Zimmermann
 Ziwei
 Zou
+accesibility
 accum
 af
 affective
@@ -889,6 +900,7 @@ discoverability
 docstring
 docstrings
 doi
+don'ts
 dostrings
 dr
 dropbox
@@ -944,6 +956,7 @@ jekyll
 js
 json
 kan
+keychain
 kleenex
 labeled
 labeling
@@ -979,6 +992,7 @@ oneline
 os
 pC
 parameterless
+paypaI
 popsicle
 practiced
 practicing
@@ -1017,6 +1031,7 @@ signaled
 skeezy
 socio
 sociotechnical
+spearphishing
 speling
 stderr
 stj
@@ -1032,6 +1047,7 @@ terminer
 testability
 tex
 textgreek
+theater
 this'll
 timesheet
 timeslicing
@@ -1060,6 +1076,7 @@ vanishingly
 von
 walkthrough
 warmup
+wwwpaypal
 yml
 Åkerblom
 Éric

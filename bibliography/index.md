@@ -889,6 +889,12 @@ Stan Lee:
 "The Amazing Spider-Man".
 <em>Amazing Fantasy</em>, 15, 1962.
 </dd>
+<dt id="leitao2019" class="bibliography">Leitao2019</dt>
+<dd>
+Roxanne Leitão:
+"Technology-Facilitated Intimate Partner Abuse: A Qualitative Analysis of Data from Online Domestic Abuse Forums".
+<em>Human--Computer Interaction</em>, 2019, <a href="https://doi.org/10.1080/07370024.2019.1685883">10.1080/07370024.2019.1685883</a>.
+</dd>
 <dt id="lin2020" class="bibliography">Lin2020</dt>
 <dd>
 Sarah Lin, Ibraheem Ali, and Greg Wilson:
@@ -1288,6 +1294,12 @@ Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
 Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wilson:
 "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
 <em>PLoS Computational Biology</em>, 15(9), 2019, <a href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
+</dd>
+<dt id="smalls2021" class="bibliography">Smalls2021</dt>
+<dd>
+Danielle Smalls and Greg Wilson:
+"Ten Quick Tips for Staying Safe Online".
+<em>PLoS Computational Biology</em>, 17(3), 2021, <a href="https://doi.org/10.1371/journal.pcbi.1008563">10.1371/journal.pcbi.1008563</a>.
 </dd>
 <dt id="solnit2010" class="bibliography">Solnit2010</dt>
 <dd>

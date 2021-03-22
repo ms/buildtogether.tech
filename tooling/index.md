@@ -229,14 +229,6 @@ use a language like Python or Ruby rather than Java or C#: the "try it and see"
 nature of the former is a lot better suited to one-of-a-kind scripts than the
 latter's type checking and compilation.
 
-## Building for Everyone
-
-Tools like [WebAIM WAVE][webaim-wave] are easy to use, and most of the problems
-they identify are easy to fix. It only takes a few minutes, and it's the
-compassionate thing to do.
-
-<span class="fixme">more about accessibility tools</span>
-
 ## Formal Methods
 
 <span class="fixme">Alloy and TLA+ https://github.com/gvwilson/buildtogether.tech/issues/53</span>

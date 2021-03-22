@@ -100,6 +100,8 @@ design:
   term: post-condition
 - key: pre_condition
   term: pre-condition
+- key: rest
+  term: Representational State Transfer
 - key: scriptable
   term: scriptable
 - key: type_declaration
@@ -230,7 +232,7 @@ methods:
 - key: post_mortem
   term: post-mortem
 - key: pre_registration
-  term: pre registration
+  term: pre-registration
 - key: qualitative_method
   term: qualitative method
 - key: quasi_experiment
@@ -333,6 +335,25 @@ rights:
   term: oppression
 - key: privilege
   term: privilege
+security:
+- key: 2fa
+  term: two-factor authentication
+- key: casual_threat
+  term: casual threat
+- key: dictionary_attack
+  term: dictionary attack
+- key: insider_threat
+  term: insider threat
+- key: intimate_threat
+  term: intimate threat
+- key: phishing
+  term: phishing
+- key: security_theater
+  term: security theater
+- key: social_engineering
+  term: social engineering
+- key: spearphishing
+  term: spearphishing
 starting:
 - key: elevator_pitch
   term: elevator pitch

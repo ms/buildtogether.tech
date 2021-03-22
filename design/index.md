@@ -86,21 +86,15 @@ x="thinking"/>). In many cases, the people who drew the diagrams couldn't
 make sense of them a day later; it could be that the benefit of diagrams
 therefore comes from the act of drawing, not from having them to study.
 
-When experienced developers draw on the whiteboard as they're talking to one
-another, they generally draw the following:
+When experienced developers *do* draw something for later use, they generally
+draw the following:
 
 Data structures.
-    These are blob-and-arrow pictures of the objects and containers that make up
+:   These are blob-and-arrow pictures of the objects and containers that make up
     the program and the references that stitch them together. The more
     experience someone has, the fewer of these they need to draw, but everyone
     falls back on them eventually (particularly during difficult debugging
     sessions).
-
-Schemas or data models.
-    These can be fairly literal pictures of the tables in a database, possibly
-    augmented with arrows to show what's a foreign key for what, or <span
-    g="er_diagram">entity-relationship diagrams</span> that show the things the
-    system stores, and the relationships between them.
 
 The systems' <span g="conceptual_architecture">conceptual architecture</span>.
 :   This shows how the important parts of the system fit together. It's also
@@ -128,16 +122,31 @@ The system's physical architecture.
     machines</span>. Each node represents a state the user and the system can be
     in, while the arcs show how to get from one state to another.
 
-The two kinds of diagram that I find most useful are the entity-relationship
-diagram and a combination of conceptual and workflow diagrams called a <span
-g="use_case_map">use-case map</span> <cite>Reekie2006</cite>.  The background is
-the system's conceptual architecture; the overlay traces what happens during a
-particular workflow (<span f="use-case-map"/>).  It's easy to understand,
-and I found it very useful for checking the behavior of moderately complex
-systems, particularly ones built from lots of <span
+Schemas or data models.
+:   These can be fairly literal pictures of the tables in a database, possibly
+    augmented with arrows to show what's a foreign key for what, or <span
+    g="er_diagram">entity-relationship diagrams</span> that also show which
+    relationships are one-to-one, one-to-many, and so on (<span f="er-diagram"/>).
+
+{% include figure
+   id="er-diagram"
+   img="er-diagram.svg"
+   alt="Entity-relationship diagram"
+   cap="An example of an entity-relationship diagram for students, instructors, and courses." %}
+
+The two kinds of diagram that I find most useful are ER diagrams and a
+combination of conceptual and <span g="use_case_map">use-case maps</span>
+<cite>Reekie2006</cite>.  The background of a use-case map is the system's
+conceptual architecture; the overlay traces what happens during a particular
+workflow (<span f="use-case-map"/>).  I find these particularly useful for
+checking the behavior of systems built from lots of <span
 g="microservice">microservices</span>.
 
-{% include figure id="use-case-map" alt="Use case map" cap="An example of a use case map." fixme=true %}
+{% include figure
+   id="use-case-map"
+   img="use-case-map.png"
+   alt="Use case maps"
+   cap="An example of a use case map (from Reekie2006)." %}
 
 <div class="callout" markdown="1">
 
@@ -153,26 +162,19 @@ of his own free will on a regular basis. I've known a handful of other people
 who occasionally sketched class diagrams as part of a larger description of a
 design, and that's pretty much it. Unlike blueprints in architecture or flow
 diagrams in chemical engineering, UML doesn't actually seem to help
-practitioners very much <cite>Petre2013</cite>.
-
-<span class="fixme">talk about diagrams with semantics and those without https://github.com/gvwilson/buildtogether.tech/issues/48</span>
+practitioners very much <cite>Petre2013</cite>.  If you have to use it because
+it's a course requirement, [PlantUML][plantuml] will convert specially-formatted
+text into diagrams for you, and the former are much easier for version control
+systems to work with.
 
 </div>
 
-## Show Me Your Data
-
-<span class="fixme">ER diagrams https://github.com/gvwilson/buildtogether.tech/issues/48</span>
-
-<span class="fixme">and https://github.com/gvwilson/buildtogether.tech/issues/54</span>
-
-<span class="fixme">PlantUML https://github.com/gvwilson/buildtogether.tech/issues/58 (and the problem of compiling text to diagrams)</span>
-
 ## Getting Started
 
-What if you're starting with a blank sheet of paper (or an empty whiteboard)?
-How do you describe something that doesn't exist yet? The best way to start is
-to write your elevator pitch (<span x="starting"/>). Next, write one or
-two point-form <span g="user_story">user stories</span> describing how the
+Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
+how do you describe something that doesn't exist yet? The best way to start is
+to write your elevator pitch (<span x="starting"/>). Next, write one or two
+point-form <span g="user_story">user stories</span> describing how the
 application, feature, or library would be used. Be as concrete as possible:
 instead of saying, "Allows the user to find overlaps between their calendar and
 their friends' calendars," say:
@@ -203,9 +205,8 @@ diagram showing how these are related to one another, you'll have to start
 making design decisions: for example, is "friend" an entity, or a relationship
 between two entities (i.e., is it a blob or an arrow)?
 
-If, during this process, you hear yourself say, "We'll use a linked list to…"
-step back and catch your breath. Details like that do need to be worked out at
-some point, but:
+If you hear yourself say, "We'll use a linked list to…"  step back and catch
+your breath. Details like that do need to be worked out at some point, but:
 
 -   you're probably worrying about that as a way to *not* think about the bigger
     design questions (which are scarier for beginners);
@@ -256,11 +257,12 @@ good idea might fail in practice.
 ## Design for Evolution
 
 How easily we can swap one component for another in order to test a system is
-one way to tell how well designed that system is. Another is how easily we can
-modify or extend the system to do new things. If our design is perfect, we can
-implement changes by adding code without modifying what's already there.  This
-is called the <span g="open_closed_principle">Open-Closed Principle</span>:
-systems should be open for extension, but closed for modification.
+one way to tell how well designed that system is (<span x="testing"/>). Another
+is how easily we can modify or extend the system to do new things. If our design
+is perfect, we can implement changes by adding code without modifying what's
+already there.  This is called the <span g="open_closed_principle">Open-Closed
+Principle</span>: systems should be open for extension, but closed for
+modification.
 
 For example, suppose that we are simulating a hospital emergency room. We could
 write the function that simulates someone's response to a cardiac arrest like
@@ -382,24 +384,25 @@ versions.
 
 ## Design for Accessibility
 
-<span class="fixme">harder to add after the fact</span>
-
 Close your eyes and try to navigate this website. Now imagine having to do that
 all day, every day. Imagine trying to use a computer when your hands are
 crippled by arthritis.  Better yet, don't imagine it: have one of your teammates
 tape some popsicle sticks to your fingers so you can't bend them and then see
-how easy it is to use video conferencing software.
+how easy it is to use something like Slack.
 
 Making software accessible doesn't just help people with obvious disabilities:
 as <cite>Johnson2017</cite> points out, the population is aging, and everything
 you do to help people who are deaf also helps people who are gradually losing
 their hearing.
 
-<span class="fixme">forward ref to <span x="tooling"/> discussion of WebAIM.</span>
-
-## Design for Security
-
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/64</span>
+The best short guide I have found for accessible design is [this set of posters
+from the UK Home Office][uk-home-office-a11y]. Each one lays out a few simple
+do's and don'ts that will help make your software accessible to people who are
+neurodivergent, use screen readers, are dyslexic, have physical or motor
+challenges, or are hard of hearing. You can also use tools like [WebAIM
+WAVE][webaim-wave] to check for common problems, most of which are easy to
+fix. It only takes a few minutes, it's the compassionate thing to do, and almost
+every change you make will also make the software easier to test and maintain.
 
 ## Scriptability
 
@@ -459,4 +462,9 @@ similar, "I realize it's popular, but it's merely useful."
 
 </div>
 
-<span class="fixme">REST API https://github.com/gvwilson/buildtogether.tech/issues/51</span>
+The other way to script something is through an external interface.  Most web
+applications these days provide some sort of <span g="rest">REST</span> API so
+that programs can send requests or post data via HTTP to control the app's
+behavior. Many of these require programs to authenticate in order to prove that
+they have a right to do what they want to; as soon as we're thinking about that,
+we need to think about the topic of the next chapter: security.

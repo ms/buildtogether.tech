@@ -1743,6 +1743,15 @@
   publisher: Marvel
   year: 1962
 
+- key: Leitao2019
+  author:
+  - Roxanne Leitão
+  doi: 10.1080/07370024.2019.1685883
+  journal: "Human--Computer Interaction"
+  kind: article
+  title: "Technology-Facilitated Intimate Partner Abuse: A Qualitative Analysis of Data from Online Domestic Abuse Forums"
+  year: 2019
+
 - key: Lin2020
   kind: article
   author:
@@ -2486,6 +2495,18 @@
   number: 9
   year: 2019
   doi: 10.1371/journal.pcbi.1007296
+
+- key: Smalls2021
+  author:
+  - Danielle Smalls
+  - Greg Wilson
+  doi: 10.1371/journal.pcbi.1008563
+  journal: PLoS Computational Biology
+  kind: article
+  volume: 17
+  number: 3
+  title: "Ten Quick Tips for Staying Safe Online"
+  year: 2021
 
 - key: Solnit2010
   kind: book

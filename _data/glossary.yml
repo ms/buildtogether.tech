@@ -24,22 +24,21 @@
       [expected result](#expected_result), the test passes; if the two are
       different, the test fails.
 
-- key: adhd
-  en:
-    term: "attention-deficit/hyperactivity disorder"
-    def: >
-      FIXME
-    acronym: ADHD
-
-- key: ae
-  en:
-    term: "analysis & estimation"
-    def: >
-      FIXME
-
 - key: affective_state
   en:
     term: "affective state"
+    def: >
+      FIXME
+
+- key: ally
+  en:
+    term: "ally"
+    def: >
+      Someone who actively promotes and supports inclusivity.
+
+- key: alpha_geek
+  en:
+    term: "alpha geek"
     def: >
       FIXME
 
@@ -51,15 +50,9 @@
   ref:
     - nih
 
-- key: ally
+- key: ae
   en:
-    term: "ally"
-    def: >
-      Someone who actively promotes and supports inclusivity.
-
-- key: alpha_geek
-  en:
-    term: "alpha geek"
+    term: "analysis & estimation"
     def: >
       FIXME
 
@@ -77,6 +70,13 @@
       program. Assertions may be built into the language (as in Python) or
       provided as a function (as in JavaScript).
 
+- key: adhd
+  en:
+    term: "attention-deficit/hyperactivity disorder"
+    def: >
+      FIXME
+    acronym: ADHD
+
 - key: auto_completion
   en:
     term: "auto-completion"
@@ -91,15 +91,15 @@
       In object-oriented programming, a class from which other classes are
       derived.
 
-- key: big_bang
-  en:
-    term: "big-bang integration"
-    def: >
-      FIXME
-
 - key: big_five
   en:
     term: "Big Five personality traits"
+    def: >
+      FIXME
+
+- key: big_bang
+  en:
+    term: "big-bang integration"
     def: >
       FIXME
 
@@ -155,21 +155,27 @@
     def: >
       FIXME
 
+- key: casual_threat
+  en:
+    term: "casual threat"
+    def: >
+      FIXME
+
 - key: catch_exception
   en:
     term: "catch (an exception)"
     def: >
       To accept responsibility for handling an error or other unexpected event.
 
-- key: cc0
-  en:
-    term: "CC0"
-    def: >
-      FIXME
-
 - key: cc_by
   en:
     term: "CC-BY"
+    def: >
+      FIXME
+
+- key: cc0
+  en:
+    term: "CC0"
     def: >
       FIXME
 
@@ -191,13 +197,6 @@
     def: >
       The act of grouping related concepts together so that they can be stored and
       processed as a single unit.
-
-- key: ci
-  en:
-    term: "continuous integration"
-    def: >
-      A system that merges and tests changes automatically as soon as they become
-      available, typically in a temporary copy of the project.
 
 - key: clone_git
   en:
@@ -252,6 +251,15 @@
     term: "cognitive transition"
     def: >
       FIXME
+
+- key: csv
+  en:
+    term: comma-separated values
+    def: >
+      A text format for tabular data in which each record is one row and fields
+      are separated by commas. There are many minor variations, particularly
+      around how strings are quoted.
+    acronym: CSV
 
 - key: commit
   en:
@@ -313,11 +321,28 @@
     def: >
       FIXME
 
+- key: ci
+  en:
+    term: "continuous integration"
+    def: >
+      A system that merges and tests changes automatically as soon as they become
+      available, typically in a temporary copy of the project.
+
 - key: control_group
   en:
     term: "control group"
     def: >
       FIXME
+
+- key: utc
+  en:
+    term: "Coordinated Universal Time"
+    def: >
+      The standard time against which all others are defined. UTC is the time at
+      longitude 0°, and is not adjusted for daylight savings.
+      [Timestamps](#timestamp) are often reported in UTC so that they will be
+      the same no matter what timezone the computer is in.
+    acronym: UTC
 
 - key: copyright
   en:
@@ -342,15 +367,6 @@
     term: "CSS selector"
     def: >
       A pattern that identifies nodes in a [DOM](#dom) tree.
-
-- key: csv
-  en:
-    term: comma-separated values
-    def: >
-      A text format for tabular data in which each record is one row and fields
-      are separated by commas. There are many minor variations, particularly
-      around how strings are quoted.
-    acronym: CSV
 
 - key: curly_brace_language
   en:
@@ -435,6 +451,12 @@
       The degree to which a wrong answer to a question or exercise tells the
       teacher what misconceptions a particular learner has.
 
+- key: dictionary_attack
+  en:
+    term: "dictionary attack"
+    def: >
+      FIXME
+
 - key: discoverability
   en:
     term: "discoverability"
@@ -453,14 +475,6 @@
     def: >
       FIXME
 
-- key: doc_generator
-  en:
-    term: "documentation generator"
-    def: >
-      A software tool that extracts specially-formatted comments or
-      [dostrings](#docstring) from code and generates cross-referenced developer
-      documentation.
-
 - key: docstring
   en:
     term: "docstring"
@@ -475,6 +489,14 @@
     def: >
       A standard in-memory representation of HTML and XML
     acronym: DOM
+
+- key: doc_generator
+  en:
+    term: "documentation generator"
+    def: >
+      A software tool that extracts specially-formatted comments or
+      [dostrings](#docstring) from code and generates cross-referenced developer
+      documentation.
 
 - key: double_blind
   en:
@@ -592,6 +614,13 @@
     def: >
       FIXME
 
+- key: fsm
+  en:
+    term: "finite state machine"
+    def: >
+      FIXME
+    acronym: FSM
+
 - key: fixture
   en:
     term: "fixture"
@@ -624,13 +653,6 @@
       Assessment that takes place during a lesson in order to give both the
       learner and the teacher feedback on actual understanding.
 
-- key: fsm
-  en:
-    term: "finite state machine"
-    def: >
-      FIXME
-    acronym: FSM
-
 - key: functional_decomposition
   en:
     term: "functional decomposition"
@@ -656,12 +678,6 @@
       The [cognitive load](#cognitive_load) required to link new information to
       old.
 
-- key: governance
-  en:
-    term: "governance"
-    def: >
-      FIXME
-
 - key: gpl
   en:
     term: "GNU Public License"
@@ -674,6 +690,12 @@
     def: >
       FIXME
     acronym: GQM
+
+- key: governance
+  en:
+    term: "governance"
+    def: >
+      FIXME
 
 - key: gui_designer
   en:
@@ -713,6 +735,18 @@
       the more likely they are not to repeat the error once they discover that in
       fact they were wrong.
 
+- key: in_memory_database
+  en:
+    term: "in-memory database"
+    def: >
+      FIXME
+
+- key: insider_threat
+  en:
+    term: "insider threat"
+    def: >
+      FIXME
+
 - key: ide
   en:
     term: "Integrated Development Environment"
@@ -721,12 +755,6 @@
       a built-in editor, a [console](#console) to execute code immediately, and
       browsers for exploring data structures in memory and files on disk.
     acronym: IDE
-
-- key: in_memory_database
-  en:
-    term: "in-memory database"
-    def: >
-      FIXME
 
 - key: intellectual_property
   en:
@@ -749,31 +777,23 @@
       instead is run by an interpreter that translates program instructions into
       machine commands on the fly.
 
+- key: intimate_threat
+  en:
+    term: "intimate threat"
+    def: >
+      FIXME
+
 - key: intrinsic_load
   en:
     term: "intrinsic load"
     def: >
       The [cognitive load](#cognitive_load) required to absorb new information.
 
-- key: issue_label
-  en:
-    term: "label (an issue)"
-    def: >
-      A short tag associated with an issue to categorize it. Common labels
-      include `bug` and `feature request`.
-
 - key: issue_tracker
   en:
     term: "issue tracker"
     def: >
       FIXME
-
-- key: jit
-  en:
-    term: "just-in-time compiler"
-    def: >
-      FIXME
-    acronym: JIT
 
 - key: json
   ref:
@@ -788,6 +808,13 @@
       [schema](#schema).
     acronym: JSON
 
+- key: jit
+  en:
+    term: "just-in-time compiler"
+    def: >
+      FIXME
+    acronym: JIT
+
 - key: key
   en:
     term: "key"
@@ -795,12 +822,25 @@
       A field or combination of fields whose value(s) uniquely identify a record
       within a table or dataset.
 
+- key: issue_label
+  en:
+    term: "label (an issue)"
+    def: >
+      A short tag associated with an issue to categorize it. Common labels
+      include `bug` and `feature request`.
+
 - key: layered_configuration
   en:
     term: "layered configuration"
     def: >
       A technique for configuring programs in which several layers of
       configuration are used, each overriding settings in the ones before.
+
+- key: lpp
+  en:
+    term: legitimate peripheral participation
+    def: >
+      FIXME
 
 - key: license
   en:
@@ -825,12 +865,6 @@
     acronym: LTM
   ref:
   - short_term_memory
-
-- key: lpp
-  en:
-    term: legitimate peripheral participation
-    def: >
-      FIXME
 
 - key: mail_filter
   en:
@@ -883,18 +917,18 @@
     def: >
       FIXME
 
-- key: modular_decomposition
-  en:
-    term: "modular decomposition"
-    def: >
-      FIXME
-
 - key: mvc
   en:
     term: "model-view-controller"
     def: >
       FIXME
     acronym: MVC
+
+- key: modular_decomposition
+  en:
+    term: "modular decomposition"
+    def: >
+      FIXME
 
 - key: myers_briggs
   en:
@@ -919,17 +953,17 @@
       learning, attention, and mood. The term is used in contrast with
       [neurodivergent](#neurodivergent).
 
-- key: nih
-  en:
-    term: "not invented here syndrome"
-    def: >
-      FIXME see [already invented here syndrome](#aih).
-
 - key: non_disclosure_agreement
   en:
     term: "non-disclosure agreement"
     def: >
       FIXME
+
+- key: nih
+  en:
+    term: "not invented here syndrome"
+    def: >
+      FIXME see [already invented here syndrome](#aih).
 
 - key: novice
   en:
@@ -946,6 +980,12 @@
       [Myers-Briggs](#myers_briggs), the OCEAN model has a solid scientific
       basis.
 
+- key: open_license
+  en:
+    term: "open license"
+    def: >
+      FIXME
+
 - key: open_closed_principle
   en:
     term: Open-Closed Principle
@@ -953,12 +993,6 @@
       A design rule stating that software should be open for extension but
       closed for modification, i.e., it should be possible to extend
       functionality without having to rewrite existing code.
-
-- key: open_license
-  en:
-    term: "open license"
-    def: >
-      FIXME
 
 - key: oppression
   en:
@@ -1006,6 +1040,12 @@
     def: >
       The knowledge of how to teach a particular topic to a particular audience.
 
+- key: phishing
+  en:
+    term: "phishing"
+    def: >
+      FIXME
+
 - key: placebo
   en:
     term: "placebo"
@@ -1044,7 +1084,7 @@
 
 - key: pre_registration
   en:
-    term: "pre registration"
+    term: "pre-registration"
     def: >
       FIXME
 
@@ -1165,6 +1205,13 @@
       A place where a version control system stores the files that make up a
       project and the metadata that describes their history.
 
+- key: rest
+  en:
+    term: "Representational State Transfer"
+    def: >
+      FIXME
+    acronym: REST
+
 - key: reprex
   en:
     term: "reproducible example (reprex)"
@@ -1209,6 +1256,12 @@
     def: >
       FIXME
 
+- key: security_theater
+  en:
+    term: "security theater"
+    def: >
+      FIXME
+
 - key: semantic_versioning
   en:
     term: "semantic versioning"
@@ -1234,6 +1287,12 @@
   ref:
   - long_term_memory
 
+- key: social_engineering
+  en:
+    term: "social engineering"
+    def: >
+      FIXME
+
 - key: sociotechnical_congruence
   en:
     term: "sociotechnical congruence"
@@ -1243,6 +1302,12 @@
 - key: software_portal
   en:
     term: "software portal"
+    def: >
+      FIXME
+
+- key: spearphishing
+  en:
+    term: "spearphishing"
     def: >
       FIXME
 
@@ -1306,14 +1371,6 @@
     def: >
       FIXME
 
-- key: tdd
-  en:
-    term: "test-driven development"
-    def: >
-      A programming practice in which tests are written before a new feature is
-      added or a bug is fixed in order to clarify the goal.
-    acronym: TDD
-
 - key: team_contract
   en:
     term: "team contract"
@@ -1343,6 +1400,14 @@
     term: "test suite"
     def: >
       FIXME
+
+- key: tdd
+  en:
+    term: "test-driven development"
+    def: >
+      A programming practice in which tests are written before a new feature is
+      added or a bug is fixed in order to clarify the goal.
+    acronym: TDD
 
 - key: throw_exception
   en:
@@ -1395,6 +1460,13 @@
       are currently priorities. Triage is one of the key responsibilities of a
       [project manager](#project_manager).
 
+- key: 2fa
+  en:
+    term: "two-factor authentication"
+    def: >
+      FIXME
+    acronym: 2FA
+
 - key: type_declaration
   en:
     term: "type declaration"
@@ -1427,16 +1499,6 @@
     def: >
       FIXME
 
-- key: utc
-  en:
-    term: "Coordinated Universal Time"
-    def: >
-      The standard time against which all others are defined. UTC is the time at
-      longitude 0°, and is not adjusted for daylight savings.
-      [Timestamps](#timestamp) are often reported in UTC so that they will be
-      the same no matter what timezone the computer is in.
-    acronym: UTC
-
 - key: version_number
   en:
     term: "version number"
@@ -1448,6 +1510,13 @@
     term: "waterfall model"
     def: >
       FIXME
+
+- key: wysiwyg
+  en:
+    term: "What You See Is What You Get"
+    def: >
+      FIXME
+    acronym: WYSIWYG
 
 - key: workflow_diagram
   en:
@@ -1461,13 +1530,6 @@
     def: >
       The part of [short-term memory](#short_term_memory) that handles immediate
       conscious perceptual and linguistic processing.
-
-- key: wysiwyg
-  en:
-    term: "What You See Is What You Get"
-    def: >
-      FIXME
-    acronym: WYSIWYG
 
 - key: yaml
   en:
