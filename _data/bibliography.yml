@@ -1966,6 +1966,30 @@
   year: 1956
   doi: 10.1037/h0043158
 
+- key: Miller1990
+  author:
+  - Barton P. Miller
+  - Louis Fredriksen
+  - Bryan So
+  kind: article
+  doi: 10.1145/96267.96279
+  journal: "CACM"
+  volume: 33
+  number: 12
+  title: "An Empirical Study of the Reliability of UNIX Utilities"
+  year: 1990
+
+- key: Miller2020
+  author:
+  - Barton Miller
+  - Mengxiao Zhang
+  - Elisa Heymann
+  doi: 10.1109/tse.2020.3047766
+  journal: "TSE"
+  kind: article
+  title: "The Relevance of Classic Fuzz Testing: Have We Solved This One?"
+  year: 2020
+
 - key: Minahan1986
   kind: article
   author:

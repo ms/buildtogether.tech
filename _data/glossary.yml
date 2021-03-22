@@ -212,6 +212,14 @@
     def: >
       FIXME
 
+- key: code_coverage
+  en:
+    term: "code coverage"
+    def: >
+      How much of a program is executed when tests run. This is normally
+      reported as a percentage: for example, if 40 out of 50 lines in a file are
+      run during testing, those tests have 80% code coverage.
+
 - key: code_metric
   en:
     term: "code metric"
@@ -629,6 +637,12 @@
     def: >
       FIXME
 
+- key: fuzz_testing
+  en:
+    term: "fuzz testing"
+    def: >
+      FIXME
+
 - key: generational_garbage_collection
   en:
     term: "generational garbage collection"
@@ -678,6 +692,12 @@
     term: "hitchiker"
     def: >
       Someone who is part of a project but does not actually do any work on it.
+
+- key: hot_spot
+  en:
+    term: "hot spot"
+    def: >
+      FIXME
 
 - key: hr
   en:
@@ -964,6 +984,15 @@
     def: >
       FIXME
 
+- key: path_coverage
+  en:
+    term: "path coverage"
+    def: >
+      The fraction of possible execution paths in a piece of software
+      that have been executed by tests. Software can have complete
+      [code coverage](#code_coverage) without having complete path
+      coverage.
+
 - key: pattern_rule
   en:
     term: "pattern rule"
@@ -1042,6 +1071,12 @@
     term: "product manager"
     def: >
       The person responsible for defining what features a product should have.
+
+- key: profiler
+  en:
+    term: "profiler"
+    def: >
+      FIXME
 
 - key: project_manager
   en:
@@ -1302,6 +1337,12 @@
     term: "test runner"
     def: >
       A program that finds and runs software tests and reports their results.
+
+- key: test_suite
+  en:
+    term: "test suite"
+    def: >
+      FIXME
 
 - key: throw_exception
   en:

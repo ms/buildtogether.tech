@@ -219,13 +219,13 @@ Code (10%)
 
 Testing (10%)
 :   Testing is just as important as coding, so it's given the same weight.
-    Note, though, that only automated tests count: if I can't check the
-    project out of version control and re-run the tests (possibly after editing
-    a configuration file) then as far as I'm concerned, the code hasn't been
+    Note, though, that only automated tests count: if I can't check the project
+    out of version control and re-run the tests (possibly after editing a
+    configuration file) then as far as I'm concerned, the code hasn't been
     tested.  And it's no good saying, "But I can't write unit tests for my GUI"
     because it's simply not true: you can always test the core functionality,
-    and if you design your program the right way tools like [Selenium][selenium]
-    can test a lot more of your front end than you probably realize.
+    and if you design your program the right way you can test a lot more of your
+    front end than you might think (<span x="testing"/>).
 
 Demos (10%)
 :   I used to require students to prepare a 20-minute lecture on a topic of

@@ -78,36 +78,20 @@ design:
   term: base class
 - key: conceptual_architecture
   term: conceptual architecture
-- key: css_selector
-  term: CSS selector
 - key: derive
   term: derive
 - key: design_by_contract
   term: design by contract
-- key: design_for_test
-  term: design for test
-- key: design_pattern
-  term: design pattern
-- key: embedded_database
-  term: embedded database
 - key: er_diagram
   term: entity-relationship diagram
-- key: fidelity
-  term: fidelity
 - key: fsm
   term: finite state machine
-- key: heuristic
-  term: heuristic
-- key: in_memory_database
-  term: in-memory database
 - key: key
   term: key
 - key: layered_configuration
   term: layered configuration
 - key: microservice
   term: microservice
-- key: mvc
-  term: model-view-controller
 - key: nih
   term: not invented here syndrome
 - key: open_closed_principle
@@ -118,8 +102,6 @@ design:
   term: pre-condition
 - key: scriptable
   term: scriptable
-- key: string_io
-  term: string I/O
 - key: type_declaration
   term: type declaration
 - key: uml
@@ -380,16 +362,46 @@ teams:
 testing:
 - key: actual_result
   term: actual result (of test)
+- key: code_coverage
+  term: code coverage
+- key: css_selector
+  term: CSS selector
+- key: design_for_test
+  term: design for test
+- key: design_pattern
+  term: design pattern
+- key: embedded_database
+  term: embedded database
 - key: expected_result
   term: expected result (of test)
+- key: fidelity
+  term: fidelity
 - key: fixture
   term: fixture
+- key: fuzz_testing
+  term: fuzz testing
+- key: heuristic
+  term: heuristic
+- key: hot_spot
+  term: hot spot
+- key: in_memory_database
+  term: in-memory database
+- key: mvc
+  term: model-view-controller
+- key: path_coverage
+  term: path coverage
+- key: profiler
+  term: profiler
 - key: raster_image
   term: raster image
+- key: string_io
+  term: string I/O
 - key: test_framework
   term: test framework
 - key: test_runner
   term: test runner
+- key: test_suite
+  term: test suite
 - key: unit_test
   term: unit test
 thinking:

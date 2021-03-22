@@ -91,6 +91,7 @@ Bitbucket
 Blakely
 Blincoe
 Boehm
+Boettcher
 Bogdan
 Bohay
 Borland
@@ -139,6 +140,8 @@ Connell
 Constructivist
 Conte
 Cormac
+Criado
+CriadoPerez
 Csikszentmihalyi
 Cécile
 DLL
@@ -201,6 +204,7 @@ Erdogmus
 Erete
 Ericson
 Etienne
+Eubanks
 Experientialism
 Externalities
 Extraversion
@@ -227,6 +231,7 @@ Fogel
 Forsgren
 Fortran
 Foutse
+Fredriksen
 FreeBSD
 Friesen
 Fronza
@@ -311,6 +316,7 @@ Herley
 Hermann
 Hertweck
 Herzig
+Heymann
 Hideaki
 Higo
 Hilderbrand
@@ -465,6 +471,7 @@ McElligott
 McGraw
 Meiyappan
 Meneely
+Mengxiao
 Metcalfe
 Meulen
 Mezini
@@ -490,6 +497,7 @@ Münch
 NOAA's
 NPM
 NSPW
+NYU
 Nachiappan
 Nagappan
 Najar
@@ -511,6 +519,7 @@ Norenzayan
 Nourry
 Nystrom
 O'Reilly
+ONeil
 OOPSLA
 OSError
 OSS
@@ -620,6 +629,7 @@ SOSP
 STM
 SVG
 Sadowski
+Safiya
 Sahithi
 Sajaniemi
 Sami
@@ -742,6 +752,7 @@ UI
 UML
 Ulrich
 Ultima
+Umoja
 United's
 Upchurch
 Usenix
@@ -759,6 +770,8 @@ Vlasenko
 WCRE
 WESCON
 Wachs
+Wachter
+WachterBoettcher
 Warmup
 Washburn
 WebAIM
@@ -846,6 +859,7 @@ cd
 centric
 choosealicense
 color
+colorized
 config
 corrompu
 coursemates
@@ -855,6 +869,7 @@ curdir
 currentuser
 dataset
 datasets
+datetime
 de
 deOliveiraNeto
 debuggable
@@ -878,6 +893,7 @@ dostrings
 dr
 dropbox
 dup
+durations
 ec
 efe
 ejslint
@@ -915,6 +931,7 @@ hashlib
 hitchiker
 href
 html
+htmlcov
 http
 humor
 hw
@@ -966,6 +983,8 @@ popsicle
 practiced
 practicing
 pre
+profiler
+profilers
 pseudocode
 punchcard
 py
@@ -1033,6 +1052,7 @@ unaffordable
 unindent
 unmute
 unstage
+unwatched
 usr
 utc
 utils

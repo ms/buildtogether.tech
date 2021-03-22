@@ -1003,6 +1003,18 @@ George A. Miller:
 "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information".
 <em>Psychological Review"</em>, 63(2), 1956, <a href="https://doi.org/10.1037/h0043158">10.1037/h0043158</a>.
 </dd>
+<dt id="miller1990" class="bibliography">Miller1990</dt>
+<dd>
+Barton P. Miller, Louis Fredriksen, and Bryan So:
+"An Empirical Study of the Reliability of UNIX Utilities".
+<em>CACM</em>, 33(12), 1990, <a href="https://doi.org/10.1145/96267.96279">10.1145/96267.96279</a>.
+</dd>
+<dt id="miller2020" class="bibliography">Miller2020</dt>
+<dd>
+Barton Miller, Mengxiao Zhang, and Elisa Heymann:
+"The Relevance of Classic Fuzz Testing: Have We Solved This One?".
+<em>TSE</em>, 2020, <a href="https://doi.org/10.1109/tse.2020.3047766">10.1109/tse.2020.3047766</a>.
+</dd>
 <dt id="minahan1986" class="bibliography">Minahan1986</dt>
 <dd>
 Anne Minahan:

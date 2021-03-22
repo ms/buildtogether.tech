@@ -59,14 +59,20 @@ tell a good design from a bad one, so we'll start with that.
 
 The best way to learn design in any field is to study examples
 <cite>Schon1984,Petre2016</cite>, and some of the best examples of software
-design come from the tools programmers use in their own work.  Some great
-examples of this approach include
-<cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> (which introduced the
-Unix philosophy to an entire generation of programmers),
-<cite>Brown2011,Brown2012,Brown2016</cite>, and [Mary Rose
-Cook][cook-mary-rose]'s [Gitlet][gitlet].  There is also [Software Tools in
-JavaScript][stjs], which was developed in tandem with this material, and can be
-used as a starting point for many different class projects.
+design come from the tools programmers use in their own work.
+<cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> introduced the Unix
+philosophy to an entire generation of programmers;
+<cite>Brown2011,Brown2012,Brown2016</cite> and [Mary Rose
+Cook][cook-mary-rose]'s [Gitlet][gitlet] take this approach as well.  There is
+also [Software Tools in JavaScript][stjs], which was developed in tandem with
+this material and can be used as a starting point for many different class
+projects.
+
+The discussion of how to design for test in <span x="testing"/> is another
+example of teaching by example. A general rule like, "Building components that
+can easily be replaced makes testing easier," would only have been meaningful if
+you already understand the point; explaining it with a specific example (testing
+an MVC application) made it more relatable.
 
 </div>
 
@@ -244,153 +250,6 @@ and its low-level consequences; if one of those consequences reveals a flaw in
 the plan, they go back to the high level and make a correction. Doing this
 efficiently depends on having experience of past failures so that you know how a
 good idea might fail in practice.
-
-</div>
-
-## Design for Testability
-
-When most developers hear the word "design", they think about either the
-application's structure or its user interface. If you don't think about how
-you're going to test your application while you're designing it, though, the
-odds are very good that you'll build something that cannot (or cannot easily) be
-tested.  Conversely, if you <span g="design_for_test">design for test</span>,
-it'll be a lot easier to check whether your finished application actually does
-what it's supposed to.
-
-Thinking about testability from the start turns out to be a good <span
-g="heuristic">heuristic</span> for design in general <cite>Feathers2004</cite>,
-since it forces you to think in terms of small components with well-defined
-interfaces. Not only can these be tested more easily, they can also be modified
-or replaced in isolation, which significantly reduces the probability of
-requiring rework in the naïve model presented at the start of this chapter.
-
-For example, let's consider a typical three-tier web site that uses the <span
-g="mvc">Model-View-Controller</span> (MVC) <span g="design_pattern">design
-pattern</span>. The model, which is stored in a relational database, is the data
-that the application manipulates, such as purchase orders and game states. The
-controller encapsulates the application's business rules: who's allowed to
-cancel games while they're in progress, how much interest to add on
-out-of-province orders, and so on.  Finally, the view translates the
-application's state into HTML for display and handles the button clicks and form
-submissions that drive the system from one state to another.
-
-<div class="callout" markdown="1">
-
-### Design patterns help
-
-Design patterns were a hot topic in the 1990s and early 2000s, and while there
-isn't as much excitement about them now, their value has not diminished.
-Knowing some design patterns is like knowing chord progressions in music: it
-gives you a larger mental toolkit to work with.  <cite>Tichy2010</cite>
-summarizes some of the evidence, more recent studies like <cite>Krein2016</cite>
-confirm it, and books like <cite>Olsen2007,Nystrom2014,Casciaro2020</cite> are
-great places to get started.
-
-</div>
-
-The MVC architecture presents several challenges for testing:
-
-Unit testing libraries are designed to run within a single process.
-:   As the word "library" implies, they're made up of code that's meant to be
-    loaded into a single running program. Most debuggers and testing libraries
-    don't track interactions *between* processes.
-
-Configuring a test environment is a pain.
-:   You have to set up a database server, clear the browser's cache, make sure
-    the right clauses are in your web server's configuration file, and so on.
-
-Running tests is slow.
-:   In order to ensure that tests are independent, you have to create an
-    entirely new fixture for each test. This means reinitializing the database,
-    restarting the web server, and so on, which can take several seconds per
-    test. That translates into an hour or more for a thousand tests, which is
-    pretty much a guarantee that developers won't run them routinely while
-    they're coding, and might not even run them before checking changes in.
-
-The first step in fixing this is to get rid of the browser and web server. One
-way to do this is to replace the browser with a script that generates HTTP
-requests as multi-line strings and passes them via a function call to a library
-that does whatever the web server's HTTP handler would do. After invoking our
-actual program, this library passes the text of an HTTP response back to our
-script, which then checks that the right values are present (about which more in
-a moment). The library's job is to emulate the environment the web app under
-test would see if it was being invoked by the real server: environment variables
-are set, standard input and output are replaced by <span g="string_io">string
-I/O</span> objects, and so on, so that the application has no (easy) way to tell
-how it's being invoked.
-
-Why go through this rigmarole? Why not just have a top-level function in the web
-app that takes a URL, a dictionary full of header keys and values, and a string
-containing the POST data, and check the HTML page it generates? The answer is
-that structuring our tests in this way allows us to run them both in this test
-harness, and against a real system. By replacing the fake HTTP handler with code
-that sends the HTTP request through a socket connected to an actual web server,
-and reads that server's response, we can check that our application still does
-what it's supposed to when it's actually deployed. The tests will run much more
-slowly, but that's OK: if we've done our job properly, we'll have caught most of
-the problems in our faked environment, where debugging is much easier to do.
-
-Now, how to check the result of the test? We're expecting HTML, which is just
-text, so why not store the HTML page we want in the test and do a string
-comparison? The problem with that literal approach is that every time we make
-any change at all to the format of the HTML, we have to rewrite every test that
-produces that page. Even something as simple as introducing white space, or
-changing the order of attributes within a tag, will break string comparison.
-
-A better strategy is to add unique IDs to significant elements in the HTML page,
-and only check the contents of those elements. For example, if we're testing
-login, then somewhere on the page there ought to be an element like this:
-
-```html
-<div id="currentuser">Logged in as <strong>marian</strong>
-(<a href="http://www.example.org/logout">logout</a>
-|
-<a href="http://www.example.org/preferences">preferences</a>)
-</div>
-```
-
-We can find that pretty easily with a <span g="css_selector">CSS selector</span>
-that looks for a `div` with the ID `currentuser`.  We can then move the `div`
-around without breaking any of our tests; if we were a little more polite about
-formatting its internals (i.e., if we used something symbolic to highlight the
-user name and trusted CSS to do the formatting), we'd be in even better shape.
-
-We've still only addressed half of our overall problem, though: our web
-application is still talking to a database, and reinitializing it each time a
-test runs is slow.  We can solve this by moving the database into memory. Most
-applications rely on an external database server, which is a long-lived process
-that manages data on disk. An alternative is an <span
-g="embedded_database">embedded database</span>, in which the database
-manipulation code runs inside the user's application as a normal library;
-[SQLite][sqlite] is probably the best known of these.
-
-The advantage of using an embedded database from a testing point of view is that
-it can be told to store data in memory, rather than on disk. This would be a
-silly thing to do in a production environment (after all, the whole point of a
-database is that it persists), but in a testing environment, an <span
-g="in_memory_database">in-memory database</span> can speed things up by a factor
-of thousands, since the hard drive never has to come into play. The cost of
-doing this is that you have to either commit to using one database in both
-environments, or avoid using the "improvements" that different databases have
-added to SQL.
-
-Once these changes have been made, the application zips through its tests
-quickly enough that developers actually will run the test suite before checking
-in changes to the code. The downside is the loss of <span
-g="fidelity">fidelity</span>: the system we're testing is a close cousin to what
-we're deploying, but not exactly the same. However, this is a good economic
-tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
-HTTP requests exactly the same way as the real web server, but we catch (and
-prevent) a lot more by making testing cheap.
-
-<div class="callout" markdown="1">
-
-### Small examples, loosely connected
-
-This discussion is an example of teaching design by example. A generic statement
-that, "Building components that can easily be replaced makes testing easier," is
-only meaningful if you already understand the point; seeing an example makes it
-more relatable.
 
 </div>
 
