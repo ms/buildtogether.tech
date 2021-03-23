@@ -4,36 +4,36 @@
 *Part of this material is adapted from <cite>Smalls2021</cite>.*
 
 We can't rely on companies, universities, and other institutions to protect us
-from online threats, for the simple reason that they are not penalized if they
-don't.  Much of what institutions force us to go through is <span
+from online threats, for the simple reason that nothing happens to them if they
+don't. Instead, much of what we are forced to go through is <span
 g="security_theater">security theater</span> intended to make us believe
 something is being done rather than to actually make us safer.  For example,
 forcing people to change passwords every three months encourages people to
-choose memorable (and therefore easy-to-guess) passwords.
+choose memorable (and therefore easy-to-guess) passwords.  Random searches of
+backpacks and bags at the entrance to the subway is another, since it's hard to
+imagine that a would-be attacker wouldn't just go to another entrance.
 
 What we *can* do, as programmers, it try to make our software less vulnerable to
-attack.  Hundreds of guides to doing this have been written, but in my opinion,
-the best place to start is to think about the threats people face and then ask
-whether the software you're building is preventing these or making them worse.
+attack.  Hundreds of guides to doing this have been written, but the best place
+to start is to think about the threats people face and then ask whether the
+software you're building is making these easier.
 
 ## Threat Models
 
 The first step is to realize that digital security is rarely the weakest link.
 Most attacks take place offline, and that the most effective ones are often the
-simplest. At an airport several years ago, one author heard a professor of
-computer science try to reset an online account over the phone. In just a couple
-of minutes, they had inadvertently told everyone in the lounge their full name,
-their date of birth, the three-digit verification code on the back of their
-credit card, and what was almost certainly their mother's maiden name.
+simplest. At an airport several years ago, I heard a professor of computer
+science try to reset an online account over the phone. In just a couple of
+minutes, everyone in the lounge heard their full name, their date of birth, the
+three-digit verification code on the back of their credit card, and what was
+almost certainly their mother's maiden name.
 
 <span g="social_engineering">Social engineering</span> is far more common than
-hacking: in practice it is far easier to trick someone into giving you their
-password than to break into their devices digitally.  The key practice is to pay
-attention to what's happening and respond accordingly.  The corollary is to
-de-escalate when you can: being on guard all the time is exhausting
-
-Edward Snowden and the journalists who worked with him took extraordinary
-measures to safeguard themselves against state-level actors
+hacking: it is far easier to trick someone into giving you their password than
+to break into their devices digitally.  The counter to this is to pay attention
+to what's happening and respond accordingly.  However, being on guard all the
+time is exhausting; Edward Snowden and the journalists who worked with him took
+extraordinary measures to safeguard themselves against state-level actors
 <cite>Snowden2019</cite>, but most of us aren't involved in issues of national
 security and don't need to take those kinds of precautions.  Instead, we
 typically face one of three kinds of threat:
@@ -43,20 +43,38 @@ typically face one of three kinds of threat:
     every day in online echo chambers complaining about how "SJW bullshit" is
     ruining tech. He thinks it would be a laugh to make her the target of
     anonymous abuse online; he is unlikely to invest significant effort in his
-    attack, but his attack may be backed up by more knowledgeable members of
+    attack, but his attack may be backed up by more knowledgeable allies in
     online forums.
 
 -   <span g="intimate_threat">Intimate threats</span> come from people who know
     their targets' passwords or have a chance to install spyware on their
-    targets' devices <cite>Leitao2019</cite>. For example, Elena has ended an
-    abusive relationship and is rebuilding her life; her ex, Eric, is obsessed
-    with the idea that she left him for someone else and is now stalking her.
+    targets' devices (which abusers frequently do <cite>Leitao2019</cite>). For
+    example, Elena has ended an unhappy relationship and is rebuilding her life;
+    her ex, Eric, is obsessed with the idea that she left him for someone else
+    and is now stalking her.
 
 -   <span g="insider_threat">Insider threats</span> come from people who have
     legitimate access to accounts and devices. For example, Boris, a professor,
     may have agreed to serve as an expert witness in an upcoming lawsuit;
     Bethany, a sys admin in his department, has been asked by a former colleague
     to find out what he is going to say in order to discredit his testimony.
+
+How can you help counter these threats?
+
+1.  Have *and enforce* a Code of Conduct (<span x="important"/>) so that abusers
+    can be shut down quickly. Requiring a 24-hour waiting period for creation of
+    new accounts helps with this as well: if casual abusers can't get their
+    kicks right away, many of them will move on.
+
+1.  Notify a device's owner every time you send data from their device to
+    someone else. This should be required by law, for the same reason that
+    everyone who manufactures packaged food is required to list its ingredients.
+
+1.  Keep a log of every administrative action (<span x="errors"/>) so that there
+    will be a record if someone uses their privileges inappropriately. They
+    might be able to delete that record, but if it is <span
+    g="digital_signature">digitally signed</span there will still be evidence of
+    tampering.
 
 ## Authentication
 
@@ -111,6 +129,13 @@ which fits on a keychain and plugs into a standard USB port.  Sites like [Tech
 Solidarity][tech-solidarity] have easy-to-follow instructions explaining how to
 set them up for a range of popular social networking sites.
 
+The advice above leads directly to some recommendations for developers:
+
+1.  Require strong passwords, but don't require people to change them
+    frequently.
+
+1.  Support two-factor authentication.
+
 ## Don't Open That
 
 Much of the software we use was designed in more innocent times, and since
@@ -162,6 +187,20 @@ important to do this when you are sent things like password reset instructions.
 Many IT departments send out messages that are indistinguishable from
 spearphishing attacks, which just trains people to be victims.
 
+How can you support these safety rules with software?
+
+1.  I really want to say, "Don't send attachments," but that's not practical.
+    What you *can* do is send email telling people that there's a document for
+    them to download, then require them to log in to your site in order to
+    download it.
+
+1.  Notify people immediately of any data breaches. Don't wait until a breach
+    happens before figuring out how to do this: build an emergency notification
+    system directly into your product.
+
+1.  Use code reviews and checklists to find and remove common security holes.
+    We'll discuss some of these below.
+
 ## Delete Before Discarding
 
 Moving files into the trash and then emptying it does not actually erase the
@@ -201,8 +240,8 @@ and address book, you should probably find a different game to play.
 Since social media is a fact of life for most of us, you should check your
 settings periodically, just as you would take your car in for an oil change. (I
 do these things at the same time in order to remember both.) Turn off everything
-you can and then use a tracking blocker such as Ghostery to reduce information
-leakage.
+you can and then use a tracking blocker such as [Ghostery][ghostery] to reduce
+information leakage.
 
 Many experts recommend using separate devices or accounts for work and personal
 life, but this is increasingly unrealistic. Everyone checks their personal email
@@ -213,21 +252,32 @@ unlock them are complicated and frequently overstepped, so you should assume
 that anything on or connected to the devices you are traveling with will be
 compromised.
 
-<div class="callout" markdown="1">
+Here are some things you can do as a developer to support these rules:
 
-### Don't put that in there
+1.  Charge people for your software or the service you provide rather than
+    relying on ads or selling their data. You won't see the kind of growth that
+    Facebook did in its early days, but on the other hand, you won't be [fueling
+    genocide][facebook-rohingya].
 
-Never plug a random USB drive into your device: it's like letting a complete
-stranger into your home unsupervised.
+1.  Make your terms of service as clear as possible, and provide a translation
+    into everyday language. (For example, look up the license for your favorite
+    social media site on [TLDRlegal][tldr-legal] and compare the legal language
+    to the plain English description.)
 
-</div>
+1.  Allow people to actually delete personal information.
+
+The last of these rules shows why this stuff is hard. On the one hand, people
+should be able to erase themselves from your records. On the other, abusers will
+use this to cover their tracks. You have to decide how to balance these two
+needs; whatever you do, make your decision very clear to your users.
 
 ## Fighting Back
 
 Casual attackers may eventually get bored and move on, but like all bullies,
 they will also often revisit previous victims, and even if they don't, they are
 likely to pick new ones. It's unfair to ask people who have been targeted to do
-extra work, but if you have been, please consider these steps.
+more work, so if you *aren't* the victim of the attack, please try to help them
+through these steps:
 
 Do not engage directly.
 :   Casual attackers are often seeking attention, so a direct response often
@@ -248,11 +298,11 @@ Use anti-harassment apps like [Block Party][block-party].
 Report the attack.
 :   Social media sites have done everything they can to avoid legal
     accountability for online attacks, but companies and universities will
-    usually take what steps they can once they know there is a problem. In the
-    authors' experience, they are more inclined to take real action against the
-    attacker if they believe that you might speak publicly about what has
-    happened and thereby damage their reputation, so never agree to a
-    non-disclosure agreement that would prevent you from doing so.
+    usually (eventually) take what steps they can once they know there is a
+    problem. They are more inclined to take real action against the attacker if
+    they believe that you might speak publicly about what has happened and
+    thereby damage their reputation, so never agree to a non-disclosure
+    agreement that would prevent you from doing so (<span x="rights"/>).
 
 Above all, remember that it's not just about you. We don't just wear masks to
 prevent ourselves from becoming infected: we also wear them so that we will not
@@ -264,10 +314,87 @@ after some other bike. And if you *are* compromised, let those affected know as
 soon as you can.
 
 The only long-term way to improve everyone's online safety is to pressure
-politicians to strengthen liability legislation so that companies, universities,
-and other institutions have real incentives to take meaningful action. Cars and
-drugs are as safe as they are because their manufacturers are liable for
-negligence and harm. The sooner software companies and social media sites are
-liable as well, the safer all of us will be.
+politicians to strengthen legislation so that companies, universities, and other
+institutions have real incentives to take meaningful action. Cars and drugs are
+as safe as they are because their manufacturers are liable for negligence and
+harm. The sooner software companies and social media sites are liable as well,
+the safer all of us will be. As a programmer, you can push for this:
 
-<span class="fixme">demonstrate an SQL injection attack https://github.com/gvwilson/buildtogether.tech/issues/64</span>
+1.  The next time there is an election in your area, ask the candidates whether
+    they support meaningful liability for privacy breaches and online abuse.  In
+    my experience, if several people ask in a short period of time, candidates
+    will decide that they need to have some sort of answer.
+
+1.  The next time your college or university is updating its curriculum,
+    petition for a full-semester course on computer security---one that doesn't
+    spend more than a couple of lectures on cryptography, but focuses on common
+    exploits instead.
+
+1.  Add your voice to campaigns to get companies to clean up their act, and if
+    you have a choice, don't work for the worst of them.
+
+<div class="callout" markdown="1">
+
+### Misquoting Burke
+
+Edmund Burke never actually wrote, "All that is necessary for evil to triumph is
+for good men to do nothing," but it's still true.  In March 2019 a right-wing
+terrorist killed 51 people at prayer in Christchurch, New Zealand. Every single
+one of the sources he cited in his manifesto was making money through a store on
+Shopify; the company didn't stop doing business with any of them.
+
+</div>
+
+## An Example Attack
+
+It wouldn't feel right to wrap up this chapter without showing you at least one
+software exploit. Here's one that's unfortunately still quite common. Suppose
+your application lets the user type in their ID, then uses that to look up their
+account details in a database:
+
+```python
+def get_account(database_connection):
+    username = input('Username:')
+    query = 'select * from User where username="{}";'.format(username)
+    result = database_connection.run(query)
+    return result
+```
+
+It's simple, and the programmer has even remembered to wrap the username in
+quotes. But suppose the user types this string as their username:
+
+```txt
+"; drop table User; select "
+```
+
+{: .continue}
+Once this is inserted, the query becomes:
+
+```python
+select * from User where username=""; drop table User; select "";'
+```
+
+{: .continue}
+which looks up a user without a name, erases all of the data in the `User`
+table, and then returns an empty string (the final `select`).  This is called an
+<span g="sql_injection">SQL injection</span> attack; rather than deleting data,
+it is normally used to send it to the attacker.
+
+How can you defend against this?  By always sanitizing user input before using
+it. In this case, the query can be written as:
+
+```python
+    query = 'select * from User where username=?;'
+    result = database_connection.run(query, username)
+```
+
+{: .continue}
+The database connection library will escape special characters like the quotes
+and semi-colons in the user's input and then use the result in place of the
+question mark `?` in the query.
+
+A <span g="xss">cross-site scripting</span> attack works in the same way.
+Suppose an online chat system displays whatever the user types as a message.  If
+the user types in something that looks like a `<script>` tag containing some
+JavaScript, then whoever views the message will run that JavaScript in their
+browser. Again, the defense is to sanitize input.

@@ -356,6 +356,13 @@
     def: >
       FIXME
 
+- key: xss
+  en:
+    term: "cross-site scripting attack"
+    def: >
+      FIXME
+    acronym: XSS
+
 - key: crunch_mode
   en:
     term: "crunch mode"
@@ -444,6 +451,12 @@
     def: >
       FIXME
 
+- key: devops
+  en:
+    term: "DevOps"
+    def: >
+      FIXME
+
 - key: diagnostic_power
   en:
     term: "diagnostic power"
@@ -454,6 +467,12 @@
 - key: dictionary_attack
   en:
     term: "dictionary attack"
+    def: >
+      FIXME
+
+- key: digital_signature
+  en:
+    term: "digital signature"
     def: >
       FIXME
 
@@ -1308,6 +1327,12 @@
 - key: spearphishing
   en:
     term: "spearphishing"
+    def: >
+      FIXME
+
+- key: sql_injection
+  en:
+    term: "SQL injection attack"
     def: >
       FIXME
 

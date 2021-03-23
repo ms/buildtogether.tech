@@ -108,6 +108,7 @@ Burak
 Burrell
 Buzzfeed
 Byckling
+Böhme
 CACM
 CBE
 COVID
@@ -161,6 +162,7 @@ DeLine
 Dedrick
 Denae
 Deursen
+DevOps
 Devanbu
 Dhaliwal
 DiBernardo
@@ -278,6 +280,7 @@ Goldstone
 Gomes
 Goodhart's
 Gopal
+Gopinath
 Goslin
 Goucher
 Gousios
@@ -621,6 +624,7 @@ Robbes
 Rodchenko
 Rodrigues
 Rohan
+Rohingya
 Rohrer
 Romain
 Rosso
@@ -679,6 +683,7 @@ Shihab
 Shinji
 Shinsuke
 Sholler
+Shopify
 Siebert
 Siegmund
 Sigweni
@@ -725,6 +730,7 @@ Surinder
 SyntaxError
 TCE
 TLA
+TLDRlegal
 TSE
 TSEM
 Taatgen
@@ -795,6 +801,7 @@ Wickham
 Wiese
 Winton
 Wrigstad
+XSS
 XYZ
 Xiaofeng
 Xiaoying
@@ -934,6 +941,7 @@ fontenc
 frobnosticator
 fruitarian
 fueled
+fueling
 gitignore
 gray
 greek

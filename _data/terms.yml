@@ -16,6 +16,8 @@ automation:
   term: continuous integration
 - key: critical_mass
   term: critical mass
+- key: devops
+  term: DevOps
 - key: json
   term: JavaScript Object Notation
 - key: package_manifest
@@ -342,6 +344,8 @@ security:
   term: casual threat
 - key: dictionary_attack
   term: dictionary attack
+- key: digital_signature
+  term: digital signature
 - key: insider_threat
   term: insider threat
 - key: intimate_threat
@@ -354,6 +358,10 @@ security:
   term: social engineering
 - key: spearphishing
   term: spearphishing
+- key: sql_injection
+  term: SQL injection attack
+- key: xss
+  term: cross-site scripting attack
 starting:
 - key: elevator_pitch
   term: elevator pitch

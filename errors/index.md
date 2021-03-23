@@ -284,6 +284,8 @@ where `user_language` is a two-letter code for the user's preferred language.
 
 ## Logging
 
+<span class="fixme">refer back to security</span>
+
 Something else you can design into your system to make your life easier later on
 is <span g="logging">logging</span>, which is the professional alternative to
 `print` statements. Instead of writing:

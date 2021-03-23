@@ -1301,6 +1301,12 @@ Danielle Smalls and Greg Wilson:
 "Ten Quick Tips for Staying Safe Online".
 <em>PLoS Computational Biology</em>, 17(3), 2021, <a href="https://doi.org/10.1371/journal.pcbi.1008563">10.1371/journal.pcbi.1008563</a>.
 </dd>
+<dt id="snowden2019" class="bibliography">Snowden2019</dt>
+<dd>
+Edward Snowden:
+<em>Permanent Record</em>.
+Metropolitan Books, 2019, 978-1250237231.
+</dd>
 <dt id="solnit2010" class="bibliography">Solnit2010</dt>
 <dd>
 Rebecca Solnit:
@@ -1502,6 +1508,16 @@ Fiorella Zampetti, Carmine Vassallo, Sebastiano Panichella, Gerardo Canfora, Har
 Andreas Zeller, Thomas Zimmermann, and Christian Bird:
 "Failure is a Four-Letter Word".
 <em>Proc. PROMISE'11</em>, <a href="https://doi.org/10.1145/2020390.2020395">10.1145/2020390.2020395</a>.
+</dd>
+<dt id="zeller2019" class="bibliography">Zeller2019</dt>
+<dd>
+Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler:
+"<a href="https://www.fuzzingbook.org/">The Fuzzing Book</a>".
+</dd>
+<dt id="zeller2021" class="bibliography">Zeller2021</dt>
+<dd>
+Andreas Zeller:
+"<a href="https://www.debuggingbook.org/">The Debugging Book</a>".
 </dd>
 <dt id="zhan2020" class="bibliography">Zhan2020</dt>
 <dd>

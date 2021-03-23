@@ -57,7 +57,9 @@ educational.  Please see <span x="conclusion"/> for more details.
 
 Life is short and your project is even shorter, so this book focuses on the
 handful of tools and techniques that will help you the most in the short and
-medium term:
+medium term.  We have included other material as well, since there is a lot of
+variation between project courses (and even more between the people doing them),
+but the core topics include:
 
 -   How to work effectively in a small team when you are constantly being
     interrupted by other tasks like the homework for your other courses.
