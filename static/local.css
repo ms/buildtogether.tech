@@ -94,6 +94,10 @@ body {
     padding-right: var(--dim-page-padding);
     margin-left: auto;
     margin-right: auto;
+    background-image: url('draft.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 /* Footer */
