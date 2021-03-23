@@ -9,6 +9,8 @@
 
 <span class="fixme">online note-taking tools https://github.com/gvwilson/buildtogether.tech/issues/74</span>
 
+<span class="fixme">Grand Perspective and other tree views of disk usage</span>
+
 A carpenter shows up to put an extension on your house, and all she's brought
 with her is a hammer and a Swiss army knife. How confident are you that she'll
 do the job well?  A programmer shows up to fix a couple of bugs and add a new
