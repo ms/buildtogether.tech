@@ -1077,6 +1077,12 @@
     def: >
       FIXME
 
+- key: post_commit_hook
+  en:
+    term: post-commit hook
+    def: >
+      FIXME
+
 - key: post_condition
   en:
     term: post-condition
@@ -1089,6 +1095,12 @@
 - key: post_mortem
   en:
     term: "post-mortem"
+    def: >
+      FIXME
+
+- key: pre_commit_hook
+  en:
+    term: pre-commit hook
     def: >
       FIXME
 

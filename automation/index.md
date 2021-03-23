@@ -160,10 +160,6 @@ code helps programmers understand software as well.
 
 ## Continuous Integration
 
-<span class="fixme">Give an example of CI setup https://github.com/gvwilson/buildtogether.tech/issues/14</span>
-
-<span class="fixme">pre-commit hooks</span>
-
 Build tools will do a lot more for you if you adopt some kind of <span
 g="ci">continuous integration</span> system such as [Travis CI][travis-ci] or
 [GitHub Actions][github-actions].  These can be set up to run either at regular
@@ -179,3 +175,63 @@ doesn't compile, run, or pass the project's tests, everyone will know very
 quickly. (Funnily enough, after the system has shamed you a couple of times,
 you'll stop checking in broken code…) <cite>Zampetti2020</cite> looks at how
 *not* to use CI, and can serve as a good checklist of things to avoid.
+
+For example, we can check every attempt to push changes to the repository for a
+Python project, and every pull request created for that repository, by putting
+these commands in a file called `.github/workflows/check.yml`:
+
+```yaml
+name: Check
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - run: black --check .
+      - run: flake8
+      - run: pytest
+```
+
+From top to bottom:
+
+-   The `name` key tells GitHub what this action is called, while the values
+    associated with the `on` key determine when the action runs.
+
+-   An action can have many jobs (or tasks); in this case there's just one called
+    `check`.  We want it to run on the latest version of Ubuntu Linux.
+
+-   The `uses` key tells GitHub to run the steps in another action before
+    running the steps for this one; `actions/checkout@v2` points at steps in
+    GitHub's own `actions` repository, but there are lots of others.
+
+-   Similarly, we can use a pre-defined action to set up Python 3.9, and then
+    use `pip` to install our project's requirements (which are listed in a file
+    called `requirements.txt`). This ensures that we have a brand-new
+    environment every time we run our checks.
+
+-   We can now run our checks: `black` to check code style, `flake8` to look for
+    common errors, and `pytest` to run our tests. If any of these fail (i.e., if
+    any return a non-zero exit status), the overall action fails and the push or
+    pull request doesn't go through.
+
+Configuring actions like these is a programming task like any other, except for
+the fact that you specify what you want in YAML rather than in Python,
+JavaScript, or some other language.  If you don't want to go this far, you can
+add <span g="pre_commit_hook">pre-commit</span> or <span
+g="post_commit_hook">post-commit hooks</span> to your repository to specify
+actions to run on your machine before and after each commit. When I set these
+up, I almost always have them run commands via the build manager so that I can
+also run checks whenever I want.

@@ -24,6 +24,10 @@ automation:
   term: package manifest
 - key: pattern_rule
   term: pattern rule
+- key: post_commit_hook
+  term: post-commit hook
+- key: pre_commit_hook
+  term: pre-commit hook
 - key: static_analysis
   term: static analysis
 - key: style_checker
