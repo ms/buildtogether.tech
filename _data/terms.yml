@@ -246,7 +246,6 @@ methods:
 - key: treatment_group
   term: treatment group
 novices: []
-packaging: []
 process:
 - key: ae
   term: analysis & estimation

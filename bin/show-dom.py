@@ -27,7 +27,7 @@ SKIP = {
     ('span',   'x')
 }
 
-def list_html_attributes(options):
+def show_dom(options):
     '''Main driver.'''
     seen = {}
     for filename in options.sources:
@@ -73,4 +73,4 @@ if __name__ == '__main__':
     options = utils.get_options(
         ['--sources', True, 'List of input files']
     )
-    list_html_attributes(options)
+    show_dom(options)

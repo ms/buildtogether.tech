@@ -107,6 +107,7 @@ check:
 	@make check-boilerplate
 	@make check-chunk-length
 	@make check-code-blocks
+	@make check-dom
 	@make check-gloss
 	@make check-links
 	@make check-numbering
@@ -128,6 +129,10 @@ check-chunk-length:
 check-code-blocks:
 	@bin/check-code-blocks.py --sources ${MARKDOWN}
 
+## check-dom: check classes and attributes in generated HTML.
+check-dom: ${HOME_PAGE}
+	@bin/check-dom.py --sources ${HTML}
+
 ## check-gloss: compare references and definitions
 check-gloss:
 	@bin/check-gloss.py --glossary ${GLOSSARY_IN} --language ${LANGUAGE} --sources ${MARKDOWN} ${EXERCISES}
@@ -146,6 +151,10 @@ check-spelling: ${HOME_PAGE}
 
 ## ----
 
+## show-dom: what classes and other attributes are used?
+show-dom: ${HOME_PAGE}
+	@bin/show-dom.py --sources ${HTML}
+
 ## show-fixme: what still needs to be done?
 show-fixme:
 	@bin/show-fixme.py --config ${CONFIG} | column -t -s '|'
@@ -160,10 +169,6 @@ show-sections:
 	@bin/show-sections.py --config ${CONFIG} | column -t -s '|'
 
 ## ----
-
-## list-html-attributes: what classes and other attributes are used?
-list-html-attributes: ${HOME_PAGE}
-	@bin/list-html-attributes.py --sources ${HTML}
 
 ## release: make a zip file with infrastructure for use elsehwere
 release:
