@@ -284,11 +284,9 @@ where `user_language` is a two-letter code for the user's preferred language.
 
 ## Logging
 
-<span class="fixme">refer back to security</span>
-
 Something else you can design into your system to make your life easier later on
-is <span g="logging">logging</span>, which is the professional alternative to
-`print` statements. Instead of writing:
+is <span g="logging">logging</span>. Instead of writing `print` statements like
+this:
 
 ```python
 def extrapolate(basis, case):
@@ -371,6 +369,17 @@ error occurs. It's also handy if you don't know whether your program contains an
 error or not: if you leave logging turned on every time you run it, then
 whenever it does something unexpected (like crashing), you will have at least
 some idea of what it was doing beforehand.
+
+<div class="callout" markdown="1">
+
+### Logging for security
+
+One of the recommendations in <span x="security"/> was to log actions to help
+you find suspicious activity.  When you do this, make sure the log records who,
+what, and when; in particular, make sure you have a record of every time
+permissions were changed or new accounts were created.
+
+</div>
 
 Most logging libraries also support <span g="rotating_file">rotating
 files</span>, i.e., they will write to `log.1` on the first day, `log.2` on the
