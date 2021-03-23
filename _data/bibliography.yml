@@ -2508,6 +2508,15 @@
   title: "Ten Quick Tips for Staying Safe Online"
   year: 2021
 
+- key: Snowden2019
+  author:
+  - Edward Snowden
+  isbn: 978-1250237231
+  kind: book
+  publisher: Metropolitan Books
+  title: "Permanent Record"
+  year: 2019
+
 - key: Solnit2010
   kind: book
   author:
@@ -2885,6 +2894,26 @@
   kind: inproceedings
   title: "Failure is a Four-Letter Word"
   year: 2011
+
+- key: Zeller2019
+  kind: link
+  author:
+  - Andreas Zeller
+  - Rahul Gopinath
+  - Marcel Böhme
+  - Gordon Fraser
+  - Christian Holler
+  title: "The Fuzzing Book"
+  year: 2019
+  url: https://www.fuzzingbook.org/
+
+- key: Zeller2021
+  kind: link
+  author:
+  - Andreas Zeller
+  title: "The Debugging Book"
+  year: 2021
+  url: https://www.debuggingbook.org/
 
 - key: Zhan2020
   kind: article
