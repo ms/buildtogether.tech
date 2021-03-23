@@ -28,7 +28,15 @@ At a bare minimum, your project should finish with:
 
 <div class="callout" markdown="1">
 
-### Finish with a package
+### What to charge
+
+Depending on the structure of your course, you may be asked to figure out how
+much you would charge for the software you have produced. If so,
+<cite>Davidson2009</cite> is a good short introduction to the topic.
+
+</div>
+
+## Finish With a Package
 
 An alternative deliverable is a package that other people can download and
 install. It isn't an either/or choice: every good package has a home page, a
@@ -37,17 +45,7 @@ data analysis project instead of straight software engineering, a package with
 some useful datasets and functions to work with them is a great goal to work
 toward.
 
-</div>
-
-<div class="callout" markdown="1">
-
-### What to charge
-
-Depending on the structure of your course, you may be asked to figure out how
-much you would charge for the software you have produced. If so,
-<cite>Davidson2009</cite> is a good short introduction to the topic.
-
-</div>
+<span class="fixme">how to build packages</span>
 
 ## Version Numbers
 

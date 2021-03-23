@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/3</span>
+
 All right: you know how to work with other people by sharing files through
 Git. But what files should you share and where should they go? 
 
