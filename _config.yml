@@ -21,6 +21,8 @@ chapters:
     title: "Using Git On Your Own"
   - slug: "git-team"
     title: "Using Git Together"
+  - slug: "ip"
+    title: "Intellectual Property"
   - slug: "project"
     title: "Project Structure"
   - slug: "communicate"

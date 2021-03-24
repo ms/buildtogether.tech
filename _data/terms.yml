@@ -222,6 +222,33 @@ internships:
 introduction:
 - key: preparatory_privilege
   term: preparatory privilege
+ip:
+- key: bsd_license
+  term: BSD license
+- key: cc0
+  term: CC0
+- key: cc_by
+  term: CC-BY
+- key: copyright
+  term: copyright
+- key: gpl
+  term: GNU Public License
+- key: intellectual_property
+  term: intellectual property
+- key: license
+  term: license
+- key: mit_license
+  term: MIT License
+- key: non_disclosure_agreement
+  term: non-disclosure agreement
+- key: open_license
+  term: open license
+- key: patent
+  term: patent
+- key: trade_secret
+  term: trade secret
+- key: trademark
+  term: trademark
 license: []
 links: []
 methods:
@@ -278,36 +305,10 @@ process:
 - key: waterfall_model
   term: waterfall model
 project:
-- key: bsd_license
-  term: BSD license
-- key: cc0
-  term: CC0
-- key: cc_by
-  term: CC-BY
-- key: copyright
-  term: copyright
 - key: feigning_ignorance
   term: feigning ignorance
-- key: gpl
-  term: GNU Public License
-- key: intellectual_property
-  term: intellectual property
-- key: license
-  term: license
-- key: mit_license
-  term: MIT License
-- key: non_disclosure_agreement
-  term: non-disclosure agreement
-- key: open_license
-  term: open license
-- key: patent
-  term: patent
 - key: schrodingers_asshole
   term: "Schr\xF6dinger's Asshole"
-- key: trade_secret
-  term: trade secret
-- key: trademark
-  term: trademark
 research:
 - key: affective_state
   term: affective state
