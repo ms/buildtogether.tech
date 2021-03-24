@@ -44,109 +44,104 @@ entries:
   label: '9'
   slug: ip
   title: Intellectual Property
-- file: ./project/index.md
-  kind: Chapter
-  label: '10'
-  slug: project
-  title: Project Structure
 - file: ./communicate/index.md
   kind: Chapter
-  label: '11'
+  label: '10'
   slug: communicate
   title: Communicating
 - file: ./testing/index.md
   kind: Chapter
-  label: '12'
+  label: '11'
   slug: testing
   title: Is It Right Enough?
 - file: ./design/index.md
   kind: Chapter
-  label: '13'
+  label: '12'
   slug: design
   title: Software Design
 - file: ./security/index.md
   kind: Chapter
-  label: '14'
+  label: '13'
   slug: security
   title: Security
 - file: ./errors/index.md
   kind: Chapter
-  label: '15'
+  label: '14'
   slug: errors
   title: When Things Go Wrong
 - file: ./debugging/index.md
   kind: Chapter
-  label: '16'
+  label: '15'
   slug: debugging
   title: Debugging
 - file: ./automation/index.md
   kind: Chapter
-  label: '17'
+  label: '16'
   slug: automation
   title: Automation
 - file: ./tooling/index.md
   kind: Chapter
-  label: '18'
+  label: '17'
   slug: tooling
   title: The Tool Shapes the Hand
 - file: ./10-comfortable/index.md
   kind: Chapter
-  label: '19'
+  label: '18'
   slug: 10-comfortable
   title: How to Make Yourself Comfortable
 - file: ./process/index.md
   kind: Chapter
-  label: '20'
+  label: '19'
   slug: process
   title: Feedback Loops
 - file: ./wide-world/index.md
   kind: Chapter
-  label: '21'
+  label: '20'
   slug: wide-world
   title: The Big Wide World
 - file: ./10-newcomers/index.md
   kind: Chapter
-  label: '22'
+  label: '21'
   slug: 10-newcomers
   title: How to Welcome Newcomers
 - file: ./research/index.md
   kind: Chapter
-  label: '23'
+  label: '22'
   slug: research
   title: A Random Sample of Research
 - file: ./internships/index.md
   kind: Chapter
-  label: '24'
+  label: '23'
   slug: internships
   title: Internships
 - file: ./rights/index.md
   kind: Chapter
-  label: '25'
+  label: '24'
   slug: rights
   title: Know Your Rights
 - file: ./business/index.md
   kind: Chapter
-  label: '26'
+  label: '25'
   slug: business
   title: The Business of Software
 - file: ./10-fired/index.md
   kind: Chapter
-  label: '27'
+  label: '26'
   slug: 10-fired
   title: How to Handle Being Fired
 - file: ./delivery/index.md
   kind: Chapter
-  label: '28'
+  label: '27'
   slug: delivery
   title: At the End of the Day
 - file: ./10-handover/index.md
   kind: Chapter
-  label: '29'
+  label: '28'
   slug: 10-handover
   title: How to Hand Over and Move On
 - file: ./conclusion/index.md
   kind: Chapter
-  label: '30'
+  label: '29'
   slug: conclusion
   title: Conclusion
 - file: LICENSE.md
@@ -200,14 +195,14 @@ entries:
   slug: evaluation
   title: Performance Evaluation
 figures:
-  er-diagram: '13.1'
+  er-diagram: '12.1'
   four-models-of-instruction: '3.1'
-  process-matrix: '20.1'
+  process-matrix: '19.1'
   start-homework-5: '8.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3
   thinking-models: G.1
-  use-case-map: '13.2'
+  use-case-map: '12.2'
   washburn-2016-what-went-right: H.1
   washburn-2016-what-went-wrong: H.2
 tables:

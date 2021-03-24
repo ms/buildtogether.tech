@@ -304,11 +304,6 @@ process:
   term: triage
 - key: waterfall_model
   term: waterfall model
-project:
-- key: feigning_ignorance
-  term: feigning ignorance
-- key: schrodingers_asshole
-  term: "Schr\xF6dinger's Asshole"
 research:
 - key: affective_state
   term: affective state
@@ -369,8 +364,12 @@ security:
 starting:
 - key: elevator_pitch
   term: elevator pitch
+- key: feigning_ignorance
+  term: feigning ignorance
 - key: hr
   term: Human Resources
+- key: schrodingers_asshole
+  term: "Schr\xF6dinger's Asshole"
 teams:
 - key: alpha_geek
   term: alpha geek

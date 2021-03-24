@@ -57,7 +57,7 @@ of practice</span> <cite>Lave1991,Wenger1999</cite> with three characteristics:
     or clearly mark outdated information.
 
 5. Have and enforce a code of conduct.
-:   We discussed this rule in <span x="project"/>, but it bears repeating here.
+:   We discussed this rule in <span x="starting"/>, but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates, and
     every instance of bad behavior will drive current and potential contributors
     away.
