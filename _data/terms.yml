@@ -20,6 +20,8 @@ automation:
   term: DevOps
 - key: json
   term: JavaScript Object Notation
+- key: linter
+  term: linter
 - key: package_manifest
   term: package manifest
 - key: pattern_rule
@@ -502,6 +504,8 @@ tooling:
   term: interpreted language
 - key: jit
   term: just-in-time compiler
+- key: package_manager
+  term: package manager
 - key: plugin
   term: plugin
 - key: refactoring
@@ -510,6 +514,8 @@ tooling:
   term: strong typing
 - key: test_runner
   term: test runner
+- key: virtual_machine
+  term: virtual machine
 - key: wysiwyg
   term: What You See Is What You Get
 wide-world: []

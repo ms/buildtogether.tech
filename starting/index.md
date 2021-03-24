@@ -386,10 +386,6 @@ Markdown (`.md`) files.
 :   Describes who can do what with the project materials.  We discuss various
     licenses below as well.
 
-## Packages
-
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/3</span>
-
 ## Code of Conduct
 
 In order to get the most out of a team, it must do more than *allow* people to

@@ -867,6 +867,13 @@
     def: >
       FIXME
 
+- key: linter
+  en:
+    term: "linter"
+    def: >
+      Another term for a [style checker](#style_checker).  The name comes from
+      an early tool called `lint` that looked for problems in C programs.
+
 - key: logging
   en:
     term: "logging"
@@ -1018,6 +1025,14 @@
     term: "oppression"
     def: >
       FIXME
+
+- key: package_manager
+  en:
+    term: "package manager"
+    def: >
+      A program that keeps track of the software packages installed on a
+      computer and their dependencies on one another.  Most languages have their
+      own package manager, which complicates multi-lingual projects.
 
 - key: package_manifest
   en:
@@ -1541,6 +1556,17 @@
     term: "version number"
     def: >
       FIXME
+
+- key: virtual_machine
+  en:
+    term: virtual machine
+    def: >
+      A program that pretends to be a computer. This may seem a bit redundant,
+      but VMs are quick to create and start up, and changes made inside the
+      virtual machine are contained within that VM so we can install new
+      packages or run a completely different operating system without affecting
+      the underlying computer.
+    acronym: VM
 
 - key: waterfall_model
   en:

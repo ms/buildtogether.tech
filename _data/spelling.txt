@@ -118,6 +118,7 @@ CSV
 CamelCase
 Canfora
 Carley
+Carnac
 Carpentries
 CarpentryCon
 Carsten
@@ -332,6 +333,7 @@ Hoda
 Hoek
 Hofmeister
 Hofstra
+Homebrew
 Horenstein
 Hossein
 Hott
@@ -506,6 +508,7 @@ Mulders
 Münch
 NOAA's
 NPM
+NPMS
 NSPW
 NYU
 Nachiappan
@@ -772,6 +775,8 @@ United's
 Upchurch
 Usenix
 Uyaguari
+VM
+VMs
 Valgrind
 ValueError
 Vardi
@@ -973,6 +978,8 @@ labor
 len
 leveled
 lifecycle
+linter
+linters
 lurn
 marian
 md
@@ -1001,6 +1008,7 @@ oneline
 os
 pC
 parameterless
+parsers
 paypaI
 popsicle
 practiced

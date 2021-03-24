@@ -37,7 +37,9 @@ impossible to achieve.
     up, I discovered that taking my hands away from the keyboard for a few
     moments to scribble something down provided welcome relief. I also quickly
     discovered that the odds of me being able to read my own notes the next day
-    rose dramatically if I used gridded paper to line them up.
+    rose dramatically if I used gridded paper to line them up.  Younger
+    programmers (which from my point of view is most programmers these days)
+    may prefer to use an online note-taking app or something on their phone.
 
 4. A heavy mug for coffee or tea.
 :   I don't know why, but a styrofoam cup, or a normal teacup, just isn't as

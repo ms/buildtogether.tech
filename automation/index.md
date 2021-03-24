@@ -141,14 +141,16 @@ this habit over to teamwork.
 
 One task you should add to your build system right at the start of the project
 is something that runs a <span g="style_checker">style checker</span> to make
-sure your code follows the team's formatting rules.  Some of these rules are as
-simple as "no method can be longer than 100 lines" or "class names must be
-written in CamelCase".  Modern tools like [ESLint][eslint] for JavaScript,
-[Checkstyle][checkstyle] for Java, or [Black][black] for Python can do a lot
-more: they can find code that is never called, parameters that are never used,
-duplicated code that could be refactored, and a lot more.  Code reviews are much
-more straightforward when the code you're looking at is guaranteed to be clean,
-so if something violates style rules, treat it as a broken build.
+sure your code follows the team's formatting rules.  (Style checkers are often
+called <span g="linter">linters</span> because an early one called `lint` looked
+for problems in C programs.)  Some of these rules are as simple as "no method
+can be longer than 100 lines" or "class names must be written in CamelCase".
+Modern tools like [ESLint][eslint] for JavaScript, [Checkstyle][checkstyle] for
+Java, or [Black][black] for Python can do a lot more: they can find code that is
+never called, parameters that are never used, duplicated code that could be
+refactored, and a lot more.  Code reviews are much more straightforward when the
+code you're looking at is guaranteed to be clean, so if something violates style
+rules, treat it as a broken build.
 
 Style checkers are just one kind of <span g="static_analysis">static
 analysis</span> tool, since they work by parsing the source code for your

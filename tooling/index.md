@@ -1,16 +1,6 @@
 ---
 ---
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/10 (other tools)</span>
-
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/60 (the advantages of minimizing tool usage)</span>
-
-<span class="fixme">section on browser tools https://github.com/gvwilson/buildtogether.tech/issues/73</span>
-
-<span class="fixme">online note-taking tools https://github.com/gvwilson/buildtogether.tech/issues/74</span>
-
-<span class="fixme">Grand Perspective and other tree views of disk usage</span>
-
 A carpenter shows up to put an extension on your house, and all she's brought
 with her is a hammer and a Swiss army knife. How confident are you that she'll
 do the job well?  A programmer shows up to fix a couple of bugs and add a new
@@ -30,22 +20,15 @@ students because they are are more tangible: it's easier to tell if someone is
 using version control or a style checker than it is to tell if they're designing
 or estimating sensibly.
 
-So here, in more-or-less priority order, are the tools you should learn *after*
-you are comfortable with version control and a unit testing framework.
-
-<div class="callout" markdown="1">
-
-### If you'd rather not…
-
-If you'd rather not improve your tools, but are afraid that someone on your team
-might want to do so, <cite>Farmer2006</cite> is a not-entirely-serious guide to
-preventing something new from being adopted.
-
-</div>
+We've already seen build managers, style checkers, profilers; the sections below
+discuss some other tools you might want in your toolbox.  I say "might" because
+the more tools your project relies on, the harder it will be for other people to
+figure things out and make contributions.  If you'd rather not improve your
+tools, but are afraid that someone on your team might want to do so,
+<cite>Farmer2006</cite> is a not-entirely-serious guide to preventing something
+new from being adopted.
 
 ## Programming Language
-
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/59 (TypeScript)</span>
 
 You may not get to choose what programming language you use for your project,
 but it may be the most important choice there is.  Programmers have fought
@@ -89,10 +72,12 @@ Some languages are easier to learn than others.
 Strong typing helps, but only a little.
 :   A <span g="strong_typing">strongly-typed</span> language like Java requires
     programmers to specify the data type of each variable; a <span
-    g="dynamic_typing">dynamically-typed</span> one like Python doesn't.
-    <cite>Endrikat2014</cite> found that declaring types does add complexity to
-    programs, but it pays off fairly quickly by acting as documentation and by
-    making <span g="auto_completion">auto-completion</span> more accurate.
+    g="dynamic_typing">dynamically-typed</span> one like Python doesn't require
+    them, though you can add them if you want, while TypeScript adds types as a
+    layer on top of JavaScript.  <cite>Endrikat2014</cite> found that declaring
+    types does add complexity to programs, but it pays off fairly quickly by
+    acting as documentation and by making <span
+    g="auto_completion">auto-completion</span> more accurate.
 
 The most important thing about a language is its community.
 :   Some programming communities work hard to welcome newcomers and treat
@@ -104,6 +89,71 @@ The most important thing about a language is its community.
 <cite>Stefik2017</cite> is a good short summary of what we know and why we
 believe it's true. If someone disagrees with it, ask them to show you their
 evidence.
+
+## Package Management
+
+There is no point building software if you can't install it.  Inspired by the
+[Comprehensive TeX Archive Network][ctan], most languages now have an online
+archive from which developers can download packages.  Each package typically has
+a name and one or more version(s); each version may have a list of dependencies,
+and the package may specify a version or range of versions for each dependency.
+
+A <span g="package_manager">package manager</span> is a program that keeps track
+of which packages are installed on your computer and how they depend on each
+other.  Package managers became popular out of necessity in the 1990s along
+with Linux: so many distributions were being updated so often that people needed
+tools to keep track of what they had.
+
+Some package managers, like [APT][apt] for Linux and [Homebrew][homebrew] for
+MacOS, can handle many languages. Others, like [pip][pip] for Python and
+[NPM][npm] for JavaScript, are language-specific. No matter which one you use,
+the biggest challenge you'll face is finding the packages you need.  If I need
+an XML parser for a JavaScript project, [this search][npm-xml-search] turns up
+over 700 candidates at the time of writing. To help narrow the search, NPM
+allows the results to be sorted by popularity, quality, and maintenance. This
+obviously creates a feedback loop---if NPM labels a package "more popular" then
+more people will find it, which raises its popularity score even further---but
+[NPMS][npms] is open about how these scores are calculated, so package authors
+can find out what they need to do in order to improve their scores.
+
+Whatever package manager you use, your project should follow these rules:
+
+Keep a record.
+:   NPM automatically updates a project's `package.json` file to show which
+    packages have been installed explicitly, and its `package-lock.json` file
+    keeps track of exactly which versions of their dependencies have been
+    installed as well, so in theory, someone else can duplicate your environment
+    exactly. If you are using `pip` for Python, on the other hand, it's up to
+    you to create a file (typically called `requirements.txt`) that lists the
+    packages someone needs to make your project work.
+
+To install is beautiful, to uninstall divine.
+:   You should install packages to try them out before committing to using them,
+    but if you decide that something doesn't do what you want, please remember
+    to uninstall it. (I have worked with projects that used less than half of
+    their "requirements".)
+
+Keep an eye on security updates.
+:   NPM will warn you if there are security problems with things you depend on.
+    The world would be a slightly safer place if other package managers did this
+    as well.
+
+<div class="callout" markdown="1">
+
+### Docker
+
+[Docker][docker] uses some clever tricks to run one operating system on top of
+another to create a <span g="virtual_machine">virtual machine</span> (VM) that
+is isolated from everything beneath it.  It and other tools like it are used by
+most cloud computing services and to run continuous integration systems like
+GitHub Actions (<span x="automation"/>), but they are essentially an admission
+that we haven't figured out how to manage packaging in a secure way.
+
+</div>
+
+## In Your Browser
+
+<span class="fixme">section on browser tools https://github.com/gvwilson/buildtogether.tech/issues/73</span>
 
 ## Integrated Development Environment
 
@@ -141,9 +191,6 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
 -   A <span g="console">console</span> so that you can type in expressions or call
     functions and see the results without having to start (or restart) your
     program.
-
--   A style checker that can warn you when your code doesn't meet naming and
-    indentation conventions (span x="automation"/>).
 
 -   A <span g="code_browser">code browser</span> that helps you navigate the
     packages, classes, methods, and data in your program.
@@ -186,11 +233,7 @@ showed, many refactorings make code fit a design pattern or move code from one
 design pattern to another. If changes that fit these patterns are easy to make,
 your design is probably a good one.
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/7</span>
-
 ## The Next Level
-
-<span class="fixme">expand each of these to a section</span>
 
 You and your teammates could use many other tools to make yourselves more
 productive. Some aren't part of the standard undergraduate curriculum yet, even
@@ -217,20 +260,43 @@ deadlocks or race conditions. FindBugs is the best-known in the Java world; the
 Valgrind toolset is a lifesaver if you're using C or C++.
 
 Real development projects rely on a lot of other tools as well: schedule
-builders like Microsoft Project, requirements tracing tools, visual editors for
-GUIs and class diagrams, and so on. Most are bigger hammers than undergraduate
-projects really require (except possibly the GUI editors), so I'd like to close
-this section by asking you to invest some time in something else:
-scripting. Good programmers don't just use tools, they build them. I have dozens
-of small programs in my `tools` directory that do things like update my working
-copies of all the projects I'm involved in or check whether the links to Amazon
-in my course notes are still valid. Anything worth doing repeatedly is worth
-automating; if you and your teammates find yourselves typing in the same
-commands over and over again, *write a program to do it for you*. And please,
-use a language like Python or Ruby rather than Java or C#: the "try it and see"
-nature of the former is a lot better suited to one-of-a-kind scripts than the
-latter's type checking and compilation.
+builders like Microsoft Project, requirements tracing tools, and so on. Most are
+bigger hammers than undergraduate projects really require, but good programmers
+don't just use tools, they build them.  For example, I have written two dozen
+short programs to help me write and maintain this book and others like it.
+These tools do things like check cross-references, make sure I'm using the right
+CSS attributes for elements, and so on.  If you and your teammates find
+yourselves typing in the same commands over and over again, write a program to
+do it for you.
+
+<div class="callout" markdown="1">
+
+### From seeds to trees
+
+A lot of open source projects and commercial products began with one programmer
+solving a problem for themselves and then discovering that other people found it
+useful as well. [Grand Perspective][grand-perspective] displays a tree map to
+show what's using disk space on a Mac; [Carnac][carnac] shows what special keys
+you're pressing on Windows so that if you're doing a demo, people can see the
+keyboard shortcuts you're using, and so on.  Building one small thing well is a
+lot more useful, and a lot more likely to be used, than building half of
+something larger.
+
+</div>
 
 ## Formal Methods
 
 <span class="fixme">Alloy and TLA+ https://github.com/gvwilson/buildtogether.tech/issues/53</span>
+
+## Getting Past the Dip
+
+Any new tool or practice initially makes you less productive, so if you're up
+against a deadline (as you almost always will be), the safest course of action
+is often to keep doing things the "wrong" way because there isn't time to learn
+how to do it more efficiently.  This is why I think that lab exams should be
+part of project courses, i.e., that you should be required to demonstrate to
+your instructor that you're able to use a build manager or a debugger.  People
+learn how to use version control because they're required to in order to submit
+work for grading; if you are required to submit a screen recording of you
+finding a bug using the tools in your IDE as part of an assignment, it will help
+you in the long run.
