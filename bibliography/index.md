@@ -758,6 +758,12 @@ Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, an
 <em>Research Software Engineering with Python: Building Software that Makes Research Possible</em>.
 Chapman & Hall/CRC Press, 2019, 978-0367698348.
 </dd>
+<dt id="jackson2016" class="bibliography">Jackson2016</dt>
+<dd>
+Daniel Jackson:
+<em>Software Abstractions: Logic, Language, and Analysis</em> (revised edition).
+MIT Press, 2016, 978-0262528900.
+</dd>
 <dt id="jarry2020" class="bibliography">Jarry2020</dt>
 <dd>
 Jonathan Jarry:
@@ -1454,6 +1460,12 @@ Michael Washburn, Pavithra Sathiyanarayanan, Meiyappan Nagappan, Thomas Zimmerma
 Alicia Nicki Washington:
 "When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing".
 <em>Proc. SIGCSE'20</em>, <a href="https://doi.org/10.1145/3328778.3366792">10.1145/3328778.3366792</a>.
+</dd>
+<dt id="wayne2018" class="bibliography">Wayne2018</dt>
+<dd>
+Hillel Wayne:
+<em>Practical TLA+: Planning Driven Development</em>.
+Apress, 2018, 978-1484238288.
 </dd>
 <dt id="weinstein2018" class="bibliography">Weinstein2018</dt>
 <dd>

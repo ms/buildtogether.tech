@@ -225,7 +225,7 @@ abstract interpretation flow graph (which is the set of all paths once possible
 data values are taken into account).  To make this more concrete, the control
 flow graph for:
 
-```python
+```py
 01: x = 0
 02: if x > 0:
 03:     x = 1

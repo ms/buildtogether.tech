@@ -262,14 +262,14 @@ itself will explain what it's doing when someone reads it aloud; the comments
 should therefore explain *why*, just as you would in an email.  For example,
 this is not a useful comment:
 
-```python
+```py
 x = x[1:] # take all but first element of list
 ```
 
 {: .continue}
 This, on the other hand, tells the next person why we're doing it:
 
-```python
+```py
 threads = threads[1:] # We are already running the first thread, so save the others.
 ```
 

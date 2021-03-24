@@ -352,7 +352,7 @@ software exploit. Here's one that's unfortunately still quite common. Suppose
 your application lets the user type in their ID, then uses that to look up their
 account details in a database:
 
-```python
+```py
 def get_account(database_connection):
     username = input('Username:')
     query = 'select * from User where username="{}";'.format(username)
@@ -370,7 +370,7 @@ quotes. But suppose the user types this string as their username:
 {: .continue}
 Once this is inserted, the query becomes:
 
-```python
+```py
 select * from User where username=""; drop table User; select "";'
 ```
 
@@ -383,7 +383,7 @@ it is normally used to send it to the attacker.
 How can you defend against this?  By always sanitizing user input before using
 it. In this case, the query can be written as:
 
-```python
+```py
     query = 'select * from User where username=?;'
     result = database_connection.run(query, username)
 ```

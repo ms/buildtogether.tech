@@ -43,7 +43,7 @@ store information about the error in an object (which is also called an
 exception).  We can <span g="catch_exception">catch</span> an exception and
 inspect it as follows:
 
-```python
+```py
 for denom in [-5, 0, 5]:
     try:
         result = 1/denom
@@ -61,7 +61,7 @@ Most languages also allow us to specify what kind of exception we want to catch.
 For example, we can write code to handle out-of-range indexing and division by
 zero in Python separately:
 
-```python
+```py
 numbers = [-5, 0, 5]
 for i in [0, 1, 2, 3]:
     try:
@@ -83,7 +83,7 @@ index 3 out of range
 So where do exceptions come from?  The answer is that programmers can <span
 g="raise_exception">raise</span> them explicitly:
 
-```python
+```py
 for number in [1, 0, -1]:
     try:
         if number < 0:
@@ -146,7 +146,7 @@ assertion's condition.  If it's true, the program does nothing; if it's false,
 it halts and prints a user-defined error message.  For example, this Python code
 halts as soon as the loop encounters an impossible word frequency:
 
-```python
+```py
 frequencies = [13, 10, 2, -4, 5, 6, 25]
 total = 0.0
 for freq in frequencies[:5]:
@@ -230,7 +230,7 @@ Use a consistent vocabulary.
 That last suggestion deserves a little elaboration.  Most people write error
 messages directly in their code:
 
-```python
+```py
 if fname[-4:] != '.csv':
     raise OSError(f'{fname}: File must end in .csv')
 ```
@@ -238,7 +238,7 @@ if fname[-4:] != '.csv':
 {: .continue}
 A better approach is to put all the error messages in a dictionary:
 
-```python
+```py
 ERRORS = {
     'not_csv_suffix' : '{fname}: File must end in .csv',
     'config_corrupted' : '{config_name} corrupted',
@@ -249,7 +249,7 @@ ERRORS = {
 {: .continue}
 and then only use messages from that dictionary:
 
-```python
+```py
 if fname[-4:] != '.csv':
     raise OSError(ERRORS['not_csv_suffix'].format(fname=fname))
 ```
@@ -257,7 +257,7 @@ if fname[-4:] != '.csv':
 Doing this makes it much easier to ensure that messages are consistent.  It also
 makes it much easier to give messages in the user's preferred language:
 
-```python
+```py
 ERRORS = {
   'en' : {
     'not_csv_suffix' : '{fname}: File must end in .csv',
@@ -275,7 +275,7 @@ ERRORS = {
 
 The error report is then looked up and formatted as:
 
-```python
+```py
 ERRORS[user_language]['not_csv_suffix'].format(fname=fname)
 ```
 
@@ -288,7 +288,7 @@ Something else you can design into your system to make your life easier later on
 is <span g="logging">logging</span>. Instead of writing `print` statements like
 this:
 
-```python
+```py
 def extrapolate(basis, case):
     print "entering extrapolate..."
     trials = count_basis_width(basis)
@@ -305,7 +305,7 @@ def extrapolate(basis, case):
 {: continue}
 you use your language's logging library like this:
 
-```python
+```py
 import logging
 
 def extrapolate(basis, case):
@@ -325,7 +325,7 @@ At first glance this is just more verbose. The benefit, though, is that your
 messages are now divided into two classes. If you want to get all the messages,
 you put:
 
-```python
+```py
 logging.basicConfig(level=logging.DEBUG)
 ```
 
@@ -337,7 +337,7 @@ levels in most logging libraries are `INFO`, `WARNING`, `ERROR`, and
 `CRITICAL`. If you only want messages at the `WARNING` level and above, you
 change the configuration to:
 
-```python
+```py
 logging.basicConfig(level=logging.WARNING)
 ```
 
@@ -358,7 +358,7 @@ They also let you control where your messages are sent. By default, they go to
 the screen, but you can send them to a file instead simply by changing the
 configuration:
 
-```python
+```py
 logging.basicConfig(level=logging.ERROR,
                     filename="/tmp/mylog.txt",
                     filemode="append")

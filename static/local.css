@@ -186,6 +186,9 @@ div.file-link {
 .language-json {
     background-color: var(--color-background-data);
 }
+.language-make {
+    background-color: var(--color-background-code-3);
+}
 .language-mx {
     background-color: var(--color-background-code-3);
 }

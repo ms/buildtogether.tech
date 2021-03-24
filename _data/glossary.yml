@@ -943,6 +943,12 @@
     def: >
       FIXME
 
+- key: model
+  en:
+    term: "model"
+    def: >
+      FIXME
+
 - key: mvc
   en:
     term: "model-view-controller"

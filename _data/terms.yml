@@ -504,6 +504,8 @@ tooling:
   term: interpreted language
 - key: jit
   term: just-in-time compiler
+- key: model
+  term: model
 - key: package_manager
   term: package manager
 - key: plugin
@@ -512,8 +514,6 @@ tooling:
   term: refactoring
 - key: strong_typing
   term: strong typing
-- key: test_runner
-  term: test runner
 - key: virtual_machine
   term: virtual machine
 - key: wysiwyg

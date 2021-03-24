@@ -198,7 +198,7 @@ up several thousand articles. Most are variations on the sample shown below; as
 with programming style (<span x="research"/>), the most important thing is being
 consistent rather than the particular rules you follow.
 
-```
+```txt
 One-line summary
 
 Detailed explanatory text separated from the summary by a blank line.  (If you

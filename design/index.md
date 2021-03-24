@@ -162,10 +162,13 @@ of his own free will on a regular basis. I've known a handful of other people
 who occasionally sketched class diagrams as part of a larger description of a
 design, and that's pretty much it. Unlike blueprints in architecture or flow
 diagrams in chemical engineering, UML doesn't actually seem to help
-practitioners very much <cite>Petre2013</cite>.  If you have to use it because
-it's a course requirement, [PlantUML][plantuml] will convert specially-formatted
-text into diagrams for you, and the former are much easier for version control
-systems to work with.
+practitioners very much <cite>Petre2013</cite>.
+
+If you have to use UML because it's a course requirement, [PlantUML][plantuml]
+will convert specially-formatted text into diagrams for you, and the former are
+much easier for version control systems to work with.  In my opinion, though,
+you'll get more out of investing time in the modeling tools described at the end
+of <span x="tooling"/>.
 
 </div>
 
@@ -268,7 +271,7 @@ For example, suppose that we are simulating a hospital emergency room. We could
 write the function that simulates someone's response to a cardiac arrest like
 this:
 
-```python
+```py
 def handle_cardiac_arrest(all_actors):
     for actor in all_actors:
         if actor.kind == 'nurse':
@@ -289,7 +292,7 @@ have an `if` or `elif` for kind of actor.
 A better design is to create a <span g="base_class">base class</span> that
 defines a generic behavior for all actors:
 
-```python
+```py
 class Actor:
     def __init__(...):
         ...do generic setup...
@@ -300,7 +303,7 @@ class Actor:
 {: .continue}
 and then <span g="derive">derive</span> one class for each type of actor:
 
-```python
+```py
 class Nurse(Actor):
     def handle_cardiac_arrest(self):
         ...do something...
@@ -313,7 +316,7 @@ class Doctor(Actor):
 We can then ask each actor to handle the cardiac arrest however they're supposed
 to:
 
-```python
+```py
 def handle_cardiac_arrest(all_actors):
     for actor in all_actors:
         actor.handle_cardiac_arrest()
@@ -329,7 +332,7 @@ override that method for the specific kinds of actors that have different
 behaviors. A more sophisticated design would define classes to represent events
 and select a method to call based on the event:
 
-```python
+```py
 class Actor:
     def __init__(...):
         ...do generic setup...

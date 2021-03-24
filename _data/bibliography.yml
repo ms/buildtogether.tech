@@ -1485,6 +1485,16 @@
   year: 2019
   isbn: 978-0367698348
 
+- key: Jackson2016
+  kind: book
+  author:
+  - Daniel Jackson
+  title: "Software Abstractions: Logic, Language, and Analysis"
+  edition: "revised"
+  year: 2016
+  publisher: "MIT Press"
+  isbn: 978-0262528900
+
 - key: Jarry2020
   kind: link
   author:
@@ -2783,6 +2793,15 @@
   title: "When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing"
   booktitle: "Proc. SIGCSE'20"
   doi: 10.1145/3328778.3366792
+
+- key: Wayne2018
+  kind: book
+  author:
+  - Hillel Wayne
+  year: 2018
+  title: "Practical TLA+: Planning Driven Development"
+  publisher: Apress
+  isbn: 978-1484238288
 
 - key: Weinstein2018
   kind: book

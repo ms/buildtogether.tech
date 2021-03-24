@@ -261,7 +261,7 @@ do something about it.
 The simplest kind of performance testing is simply to measure how much time
 elapses between the start and end of a test. You can do this manually:
 
-```python
+```py
 from datetime import datetime
 
 def test_something():
@@ -323,7 +323,7 @@ actually exercising.
 If you are using Python, you can check your tests' coverage with the `coverage`
 library.  The command:
 
-```bash
+```sh
 $ coverage run -m pytest
 ```
 

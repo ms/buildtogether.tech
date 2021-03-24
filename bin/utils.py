@@ -13,6 +13,18 @@ WIDTH = 72
 # Length of included chunks.
 LENGTH = 30
 
+# Known languages.
+LANGUAGES = {
+    'html',
+    'js',
+    'make',
+    'out',
+    'py',
+    'sh',
+    'txt',
+    'yml'
+}
+
 # Glossary references use <span g="...">...</span>.
 GLOSS_REF = re.compile(r'<span\s+g="(.+?)">', re.DOTALL)
 

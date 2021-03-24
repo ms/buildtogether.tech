@@ -182,7 +182,7 @@ For example, we can check every attempt to push changes to the repository for a
 Python project, and every pull request created for that repository, by putting
 these commands in a file called `.github/workflows/check.yml`:
 
-```yaml
+```yml
 name: Check
 
 on: [push, pull_request]

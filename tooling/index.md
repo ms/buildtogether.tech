@@ -28,6 +28,23 @@ tools, but are afraid that someone on your team might want to do so,
 <cite>Farmer2006</cite> is a not-entirely-serious guide to preventing something
 new from being adopted.
 
+<span class="callout" markdown="1">
+
+### Getting past the dip
+
+Any new tool or practice initially makes you less productive, so if you're up
+against a deadline (as you almost always will be), the safest course of action
+is often to keep doing things the "wrong" way because there isn't time to learn
+how to do it more efficiently.  This is why I think that lab exams should be
+part of project courses, i.e., that you should be required to demonstrate to
+your instructor that you're able to use a build manager or a debugger.  People
+learn how to use version control because they're required to in order to submit
+work for grading; if you are required to submit a screen recording of you
+finding a bug using the tools in your IDE as part of an assignment, it will help
+you in the long run.
+
+</span>
+
 ## Programming Language
 
 You may not get to choose what programming language you use for your project,
@@ -151,10 +168,6 @@ that we haven't figured out how to manage packaging in a secure way.
 
 </div>
 
-## In Your Browser
-
-<span class="fixme">section on browser tools https://github.com/gvwilson/buildtogether.tech/issues/73</span>
-
 ## Integrated Development Environment
 
 You are going to spend a lot of time editing code, documentation, and reports,
@@ -198,16 +211,11 @@ released Turbo Pascal in the 1980s.  They usually include these tools:
 -   A <span g="gui_designer">GUI designer</span> that lets you build GUIs by
     dragging and dropping components;
 
--   A <span g="test_runner">test runner</span> to display the results of tests and
-    let you jump directly to ones that have failed. This is usually a GUI built
-    on top of whatever unit testing framework you are using, just as graphical
+-   A test runner to display the results of tests and let you jump directly to
+    ones that have failed. This is usually a GUI built on top of whatever unit
+    testing framework you are using (<span x="testing"/>), just as graphical
     interfaces for version control are usually built on top of the command-line
     tools.
-
--   Some refactoring tools to help you reorganize your code.  For example, instead
-    of searching and replacing strings, an IDE can parse your source code and
-    look for all uses of a class name in order to replace it with a new one, or
-    move a method from one class to another.
 
 The most popular IDE today is probably [Microsoft Visual Studio Code][vs-code],
 often referred to simply as "VS Code".  Along with all the tools above, it has
@@ -219,19 +227,40 @@ instructions) in a proprietary format, your team will do much better if you all
 adopt the same IDE. This will also let you help one another solve problems and
 share plugins.
 
+But calling VS Code is the world's most popular IDE is misleading.  If you open
+developer tools in Firefox, Chrome, or Edge, you will be shown an HTML browser
+that's smart enough to tell you which bits of CSS are in effect where, a console
+that displays messages from the JavaScript running in the page, a breakpointing
+debugger (<span x="debugging"/>), a network monitor, and much more. It won't
+help you with your C# or Python---at least, not yet---but it will make all of
+your front-end work a lot easier.
+
 ## Refactoring
 
-To <span g="refactoring">refactor</span> code means to change its structure
+After a debugger, the most under-appreciated power of most IDEs is their ability
+to <span g="refactoring">refactor</span> code, i.e., to change its structure
 without changing what it does <cite>Fowler2018</cite>.  It is just as much a
 part of programming as writing code in the first place: nobody gets things right
-the first time <cite>Brand1995</cite>, and needs or insights can change over
-time.
+the first time, and needs or insights can change over time
+<cite>Brand1995</cite>.
 
 Some common refactoring patterns include "hoist repeated calculation out of
 loop" and "replace repeated test with flag". As <cite>Kerievsky2004</cite>
 showed, many refactorings make code fit a design pattern or move code from one
-design pattern to another. If changes that fit these patterns are easy to make,
-your design is probably a good one.
+design pattern to another.  If you highlight a variable name in an IDE like VS
+Code and say, "Rename", it parses the code to find all uses of that variable and
+changes their names and *only* their names, so that (for example) you don't
+accidentally turn `alfred` into `alfblue`. "Extract method" is another favorite
+of mine: if a method is getting too long or you want to re-use part of its
+implementation, you can highlight a few lines, click, and enter a name, and the
+IDE will do the rest of the work for you.
+
+Using refactoring tools doesn't just save you a few seconds of typing: it also
+reduces the chances of making a mistake so that you don't lose time later trying
+to figure out what's gone wrong.  (The `alfblue` error mentioned in the previous
+paragraph cost me about ten minutes.)  It also helps you maintain concentration,
+since you don't have to make a mental switch from the code you're writing to the
+refactoring you're doing and then back again (<span x="important"/>).
 
 ## The Next Level
 
@@ -284,19 +313,20 @@ something larger.
 
 </div>
 
-## Formal Methods
+## Modeling
 
-<span class="fixme">Alloy and TLA+ https://github.com/gvwilson/buildtogether.tech/issues/53</span>
+If you want to go one big step further, you can start using modeling tools like
+[Alloy][alloy] <cite>Jackson2016</cite> and [TLA+][tla-plus]
+<cite>Wayne2018</cite>.  Instead of analyzing source code, you use these tools
+to build and analyze a <span g="model">model</span> of what the code is supposed
+to do so that you can look for flaws in your algorithms.
 
-## Getting Past the Dip
-
-Any new tool or practice initially makes you less productive, so if you're up
-against a deadline (as you almost always will be), the safest course of action
-is often to keep doing things the "wrong" way because there isn't time to learn
-how to do it more efficiently.  This is why I think that lab exams should be
-part of project courses, i.e., that you should be required to demonstrate to
-your instructor that you're able to use a build manager or a debugger.  People
-learn how to use version control because they're required to in order to submit
-work for grading; if you are required to submit a screen recording of you
-finding a bug using the tools in your IDE as part of an assignment, it will help
-you in the long run.
+Alloy focuses on describing complex relationships, such as the integrity of data
+structures; TLA+ is designed to help you reason about sequences of concurrent
+actions, such as the different ways microservices can exchange messages. Both of
+them can find counter-examples, i.e., situations that break the rules you have
+described, but both have interfaces that make Git look simple.
+[These][gritter-alloy] [articles][gritter-tla-plus] give an idea of what they
+can do; you probably won't have time to learn them along the way while working
+on a project, but if your school offers a course devoted to them, it will
+probably change your view of programming just as much as it changed mine.

@@ -8,16 +8,6 @@ import sys
 import utils
 
 
-# Known languages.
-LANGUAGES = {
-    'html',
-    'make',
-    'out',
-    'python',
-    'sh',
-    'txt'
-}
-
 def check_code_blocks(options):
     '''Main driver.'''
     result = {}
@@ -40,7 +30,7 @@ def find_problems(filename):
                 in_code = False
             else:
                 line = line.strip().replace('```', '', 1)
-                if (not line) or (line not in LANGUAGES):
+                if (not line) or (line not in utils.LANGUAGES):
                     result.append(i+1)
                 in_code = True
     return result

@@ -105,6 +105,7 @@ kramdown:
   link_defs: >
     {
       "adhd-thread": ["https://twitter.com/NomeDaBarbarian/status/1369846245200515072", "A thread on ADHD"],
+      "alloy": ["https://alloytools.org/", "Alloy"],
       "ant": ["https://ant.apache.org/", "Apache Ant"],
       "apt": ["https://en.wikipedia.org/wiki/APT_(software)", "APT"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
@@ -162,6 +163,8 @@ kramdown:
       "gitlet": ["http://gitlet.maryrosecook.com/", "Gitlet"],
       "goodhart-law": ["https://en.wikipedia.org/wiki/Goodhart%27s_law", "Goodhart's Law"],
       "grand-perspective": ["http://grandperspectiv.sourceforge.net/", "Grand Perspective"],
+      "gritter-alloy": ["https://medium.com%2F@medium.com/@markgritter/finding-graph-counterexamples-with-alloy-e4114cc0f2fb", "Finding Graph Counterexamples with Alloy"],
+      "gritter-tla-plus": ["https://medium.com%2F@medium.com/@fuzz_ai/reproducing-a-memory-tracking-bug-with-tla-35ce0652ce72", "Reproducing a Memory-Tracking Bug with TLA+"],
       "hanselman-dark-matter": ["https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99", "Dark Matter Developers: The Unseen 99%"],
       "hippocratic-license": ["https://firstdonoharm.dev/", "Hippocratic License"],
       "homebrew": ["https://en.wikipedia.org/wiki/Homebrew_(package_manager)", "Homebrew"],
@@ -209,6 +212,7 @@ kramdown:
       "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
       "tech-solidarity": ["https://techsolidarity.org/", "Tech Solidarity"],
       "thirdbit-burnout": ["http://third-bit.com/2015/11/09/daddy-why-dont-you-ever-laugh/", "Daddy, Why Don't You Ever Laugh?"],
+      "tla-plus": ["https://lamport.azurewebsites.net/tla/tla.html", "TLA+"],
       "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],
       "tldr-legal": ["https://tldrlegal.com/", "Software Licenses in Plain English"],
       "travis-ci": ["https://travis-ci.org/", "Travis CI"],
