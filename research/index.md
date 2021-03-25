@@ -321,33 +321,6 @@ could easily have been detected through simple testing of error-handling code.
 The lesson is clear: make sure your tests check that your program does the right
 thing when things go wrong.
 
-<div class="callout" markdown="1">
-
-### What actually goes wrong?
-
-<cite>Pritchard2015</cite> reported that the most common errors in Python
-programs were (in order):
-
--   SyntaxError: invalid syntax
--   NameError: name *name* is not defined
--   EOFError: EOF when reading a line
--   SyntaxError: unexpected EOF while parsing
--   IndentationError: unindent does not match any outer indentation level
-
-{: .continue}
-while the most common in Java were:
-
--   cannot find symbol - variable NAME
--   ';' expected
--   cannot find symbol - method NAME
--   cannot find symbol - class NAME
--   incompatible types
-
-In a better world than ours, the next generation of programming languages and
-tools would be designed so that people simply couldn't make these mistakes.
-
-</div>
-
 One reason things go wrong is that developers don't make use of the tools they
 have. <cite>Beller2019</cite> monitored 2,443 software engineers over the course
 of 2.5 years in four IDEs. They found that:

@@ -4,7 +4,7 @@
     --color-background-code-2: #e0f3f6;
     --color-background-code-3: #fbffe6;
     --color-background-data: #fbffe6;
-    --color-code: #9c673a;
+    --color-code: #744c2b;
     --color-default: #000000;
     --color-highlight: #e0e0e0;
     --color-warning: #a00000;
@@ -243,10 +243,20 @@ tbody tr:nth-child(odd) td {
     background-color: var(--color-highlight);
 }
 
+caption {
+    font-weight: bold;
+}
+
 /* Quotations */
 blockquote {
     border-left: solid var(--color-highlight) var(--dim-border-default);
     padding-left: var(--dim-border-default);
+}
+
+/* Figures */
+
+figcaption {
+    font-weight: bold;
 }
 
 /* Things to fix */

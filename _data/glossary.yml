@@ -943,6 +943,14 @@
     def: >
       FIXME
 
+- key: mock_object
+  en:
+    term: mock object
+    def: >
+      A simplified replacement for part of a program whose behavior is easy to
+      control and predict. Mock objects are used in [unit tests](#unit_test) to
+      simulate databases, web services, and other complex systems.
+
 - key: model
   en:
     term: "model"
@@ -1216,6 +1224,12 @@
     def: >
       FIXME
 
+- key: rabbit_hole
+  en:
+    term: "rabbit hole"
+    def: >
+      FIXME
+
 - key: raise_exception
   ref:
     - throw_exception
@@ -1269,6 +1283,12 @@
     term: "reproducible example (reprex)"
     def: >
       A small, self-contained example of a problem.
+
+- key: requirements_error
+  en:
+    term: "requirements error"
+    def: >
+      FIXME
 
 - key: root_cause
   en:

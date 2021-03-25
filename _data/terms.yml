@@ -68,6 +68,10 @@ conflict:
   term: hitchiker
 contributing: []
 debugging:
+- key: rabbit_hole
+  term: rabbit hole
+- key: requirements_error
+  term: requirements error
 - key: symbolic_debugger
   term: symbolic debugger
 delivery:
@@ -420,6 +424,8 @@ testing:
   term: hot spot
 - key: in_memory_database
   term: in-memory database
+- key: mock_object
+  term: mock object
 - key: mvc
   term: model-view-controller
 - key: path_coverage

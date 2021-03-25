@@ -92,6 +92,7 @@ Blakely
 BleachBit
 Blincoe
 Boehm
+Boehm's
 Boettcher
 Bogdan
 Bohay
@@ -1030,6 +1031,7 @@ pytest
 rb
 rebase
 rebasing
+recurse
 recursiveOrNot
 refactorings
 reframe
@@ -1046,6 +1048,7 @@ sami
 scatterplot
 sceptical
 schemas
+screencasts
 scriptable
 se
 sexualized

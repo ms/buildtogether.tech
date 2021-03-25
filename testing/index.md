@@ -207,6 +207,9 @@ doing this is that you have to either commit to using one database in both
 environments, or avoid using the "improvements" that different databases have
 added to SQL.
 
+A third choice is to replace the database with a <span g="mock_object">mock object</span>.
+<span class="fixme">mock object</span>.
+
 Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
 in changes to the code. The downside is the loss of <span
