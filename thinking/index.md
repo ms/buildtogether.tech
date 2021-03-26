@@ -54,7 +54,7 @@ reading, or otherwise using language. It's bullshit: while lots of companies
 make and sell materials based on this myth, no one has ever shown that tuning
 what or how we teach to match people's preferences has any impact on outcomes
 <cite>DeBruyckere2015</cite>. Like Myers-Briggs personality profiles (<span
-x="internships"/>), learning styles belong with healing crystals and astrology.
+x="wide-world"/>), learning styles belong with healing crystals and astrology.
 
 </div>
 

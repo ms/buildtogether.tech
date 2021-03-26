@@ -124,7 +124,6 @@ def get_matches(pattern, filename, group=1, scrub=True, duplicates=None, split=T
     text = read_file(filename, scrub)
     for match in pattern.finditer(text):
         words = match.group(group)
-        print('WORDS', words)
         words = words.split(',') if split else [words]
         for word in words:
             if (duplicates is not None) and (word in result):

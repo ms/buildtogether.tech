@@ -35,7 +35,6 @@ automation:
 - key: style_checker
   term: style checker
 bibliography: []
-business: []
 communicate:
 - key: discoverability
   term: discoverability
@@ -232,11 +231,6 @@ important:
   term: sense vote
 - key: tone_policing
   term: tone policing
-internships:
-- key: myers_briggs
-  term: Myers-Briggs Type Indicator
-- key: ocean_model
-  term: OCEAN model
 introduction:
 - key: preparatory_privilege
   term: preparatory privilege
@@ -536,4 +530,8 @@ tooling:
   term: virtual machine
 - key: wysiwyg
   term: What You See Is What You Get
-wide-world: []
+wide-world:
+- key: myers_briggs
+  term: Myers-Briggs Type Indicator
+- key: ocean_model
+  term: OCEAN model
