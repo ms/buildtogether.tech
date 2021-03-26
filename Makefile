@@ -66,6 +66,7 @@ book.tex: ${HOME_PAGE} bin/html2tex.py ${NUM_OUT} ${TEX}
 ## book.pdf: create PDF file
 book.pdf: book.tex ${TEX}
 	@pdflatex book
+	makeindex book
 	@pdflatex book
 
 ## make-bib-md: create Markdown version of bibliography
@@ -163,6 +164,10 @@ show-dom: ${HOME_PAGE}
 show-fixme:
 	@bin/show-fixme.py --config ${CONFIG} | column -t -s '|'
 	@fgrep fixme ${MARKDOWN} | wc -l
+
+## show-index: what terms are indexed where?
+show-index:
+	@bin/show-index.py --config ${CONFIG}
 
 ## show-pages: how many pages are in the PDF version?
 show-pages: book.pdf

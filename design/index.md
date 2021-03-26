@@ -64,7 +64,7 @@ design come from the tools programmers use in their own work.
 philosophy to an entire generation of programmers;
 <cite>Brown2011,Brown2012,Brown2016</cite> and [Mary Rose
 Cook][cook-mary-rose]'s [Gitlet][gitlet] take this approach as well.  There is
-also [Software Tools in JavaScript][stjs], which was developed in tandem with
+also *[Software Tools in JavaScript][stjs]*, which was developed in tandem with
 this material and can be used as a starting point for many different class
 projects.
 

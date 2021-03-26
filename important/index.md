@@ -10,13 +10,15 @@ how to run a meeting, and how to resolve arguments.
 
 ### Not writing software takes less time
 
-<cite>Sedano2017</cite> found that software development projects have nine types
-of waste: building the wrong feature or product, mismanaging the backlog,
-rework, unnecessarily complex solutions, extraneous cognitive load (<span
-x="thinking"/>), psychological distress, waiting/multitasking, knowledge loss,
-and ineffective communication. *None of these are software issues,* so if you
-only think about the software side of your project, it's going to take longer
-and hurt more than it needs to.
+<cite>Sedano2017</cite> found that software development projects have <span
+i="waste (in software development)">nine types of waste</span>: building the
+wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
+solutions, extraneous <span i="cognitive load">cognitive load</span> (<span
+x="thinking"/>), psychological distress, waiting and <span
+i="multitasking">multitasking</span>, knowledge loss, and ineffective
+communication.  *None of these are software issues,* so if you only think about
+the software side of your project, it's going to take longer and hurt more than
+it needs to.
 
 </div>
 
@@ -34,14 +36,16 @@ stupors did to my teammates' productivity.
 
 My mistake was to confuse "long hours" with "getting things done".  You can't
 produce software (or anything else) without doing some work, but you can easily
-do lots of work without producing anything of value.  Scientific study of the
-issue goes back to at least the 1890s---see <cite>Robinson2005</cite> for a
-short, readable summary.  The most important results for developers are:
+do lots of work without producing anything of value.  Scientific study of <span
+i="overwork">overwork </span> goes back to at least the 1890s---see
+<cite>Robinson2005</cite> for a short, readable summary.  The most important
+results for developers are:
 
 1.  Working more than eight hours a day for more than a couple of weeks of time
     lowers your total productivity, not just your hourly productivity---i.e.,
     you get less done *in total* (not just per hour) when you're in <span
-    g="crunch_mode">crunch mode</span> than you do when you work regular hours.
+    i="crunch mode" g="crunch_mode">crunch mode</span> than you do when you work
+    regular hours.
 
 1.  Working over 21 hours in a stretch increases the odds of you making a
     catastrophic error just as much as being legally drunk.
@@ -55,13 +59,13 @@ science somehow didn't apply to them.  To quote Robinson's article:
 
 <blockquote markdown="1">
 
-When Henry Ford famously adopted a 40-hour workweek in 1926, he was bitterly
-criticized by members of the National Association of Manufacturers.  But his
-experiments, which he'd been conducting for at least 12 years, showed him
-clearly that cutting the workday from ten hours to eight hours---and the
-workweek from six days to five days---increased total worker output and reduced
-production cost…  the core of his argument was that reduced shift length meant
-more output.
+When <span i="Ford, Henry">Henry Ford</span> famously adopted a 40-hour workweek
+in 1926, he was bitterly criticized by members of the National Association of
+Manufacturers.  But his experiments, which he'd been conducting for at least 12
+years, showed him clearly that cutting the workday from ten hours to eight
+hours---and the workweek from six days to five days---increased total worker
+output and reduced production cost…  the core of his argument was that reduced
+shift length meant more output.
 
 …many studies, conducted by businesses, universities, industry associations and
 the military, …support the basic notion that, for most people, eight hours a
@@ -98,9 +102,10 @@ it down.  This is summarized in Robinson's first rule:
 
 <blockquote markdown="1">
 
-Productivity varies over the course of the workday, with the greatest
-productivity occurring in the first four to six hours.  After enough hours,
-productivity approaches zero; eventually it becomes negative.
+<span i="productivity">Productivity</span> varies over the course of the
+workday, with the greatest productivity occurring in the first four to six
+hours.  After enough hours, productivity approaches zero; eventually it becomes
+negative.
 
 </blockquote>
 
@@ -113,9 +118,10 @@ Ah, you say, that's "long-term total output".  What about short bursts now and
 then, like pulling an all-nighter to meet a deadline?  That's been studied too,
 and the results aren't pleasant.  Your ability to think drops by 25 points for
 each 24 hours you're awake.  Put it another way, the average person's IQ is only
-75 after one all-nighter, which puts them in the bottom 5% of the population.
-Two all nighters in a row and their effective IQ is 50---the level at which
-people are usually judged incapable of independent living.
+75 after one <span i="all-nighters">all-nighter</span>, which puts them in the
+bottom 5% of the population.  Two all nighters in a row and their effective IQ
+is 50---the level at which people are usually judged incapable of independent
+living.
 
 The catch in all of this is that people usually don't notice their abilities
 declining.  Just like drunks who think they're still able to drive, people who
@@ -138,13 +144,13 @@ coordinating due dates across differences courses.  <cite>Tregubov2017</cite>
 found, there is strong correlation between the number of projects and the number
 of interruptions that developers reported.
 
-The best strategy for managing this situation is to prioritize and focus.
-Prioritizing is important because most of us are very good at spending hours on
-things that don't need to be done and then finding themselves with too little
-time for the things that actually count. A little bit of organizing can help a
-lot---as <cite>Mark2008</cite> reported, "…people compensate for interruptions
-by working faster, but this comes at a price: experiencing more stress, higher
-frustration, time pressure and effort."
+The best strategy for <span i="time management">time management</span> is to
+prioritize and focus.  Prioritizing is important because most of us are very
+good at spending hours on things that don't need to be done and then finding
+themselves with too little time for the things that actually count. A little bit
+of organizing can help a lot---as <cite>Mark2008</cite> reported, "…people
+compensate for interruptions by working faster, but this comes at a price:
+experiencing more stress, higher frustration, time pressure and effort."
 
 <div class="callout" markdown="1">
 
@@ -165,8 +171,8 @@ Make a list of the things you have to do.
     themselves email messages that then go into a folder titled "To Do".
     However you do it, the important thing is to *write it all down*.  You can
     only keep a handful of things in short-term memory at once (<span
-    x="thinking"/>); if you try to manage a to-do list longer than that in your
-    head, you will forget things.
+    x="thinking"/>); if you try to manage a <span i="to-do list">to-do
+    list</span> longer than that in your head, you will forget things.
 
 Weed out everything that you don't need to do right away.
 :   If you want to try out a new editor theme that's play time not work time,
@@ -177,12 +183,12 @@ Sort the list so that the most important tasks are at the top.
     into order, since I'm going to re-check my list before I get to them anyway.
 
 Make sure you have everything you need to see the first task through.
-:   The most recent files from version control (<span x="git-solo"/>), the
-    assignment specification, a fresh cup of tea---whatever it is, don't give
-    yourself an excuse to interrupt your work, because the world will provide
-    enough of those.
+:   The most recent files from <span i="version control">version control</span>
+    (<span x="git-solo"/>), the assignment specification, a fresh cup of
+    tea---whatever it is, don't give yourself an excuse to interrupt your work,
+    because the world will provide enough of those.
 
-Turn off interruptions.
+Turn off <span i="interruptions">interruptions</span>.
 :   Shut down your mail client, instant messaging, and your cell phone.  Don't
     panic, it's only for an hour---most people can't stay focused longer than
     that, and you'll need to stretch your muscles and get rid of that tea you
@@ -197,7 +203,7 @@ Set an alarm to go off in fifty minutes.
     keyboard, and I'm less likely to be distracted by a notebook than by a text
     editor.
 
-Take a ten-minute break.
+Take a ten-minute <span i="breaks (importance of regular)">break</span>.
 :   Get up and move around a little during these ten minutes, even if it's just
     to refill your water bottle, visit the toilet, or do a few stretches. You
     will be able to work longer if your back doesn't ache, and being away from
@@ -216,9 +222,10 @@ be surprised if "plan XYZ" appears as a task in your list.
 
 The point of all this organization and preparation is to get yourself into the
 most productive mental state possible.  <cite>Csikszentmihalyi1991</cite>
-popularized the term "flow" for this; athletes call it "being in the zone",
-while musicians talk about losing themselves in what they're playing.  Whatever
-name you use, you will produce much more in this state than normal.
+popularized the term <span g="flow" i="flow">flow</span> for this; athletes call
+it "being in the zone", while musicians talk about losing themselves in what
+they're playing.  Whatever name you use, you will produce much more in this
+state than normal.
 
 The bad news is that it takes anywhere from several seconds to several minutes
 to get back into a productive flow after an interruption
@@ -238,10 +245,10 @@ They may even start to imitate you.
 
 ### Open offices suck
 
-Open offices were created so that (mostly male) managers could keep an eye on
-(mostly female) office workers, and to reduce air conditioning costs
-<cite>Eley1995</cite>.  In every other way we can measure, they lower
-productivity <cite>Bernstein2018</cite>.
+<span i="open offices (evils of)">Open offices</span> were created so that
+(mostly male) managers could keep an eye on (mostly female) office workers, and
+to reduce air conditioning costs <cite>Eley1995</cite>.  In every other way we
+can measure, they lower productivity <cite>Bernstein2018</cite>.
 
 </div>
 
@@ -251,26 +258,26 @@ productivity <cite>Bernstein2018</cite>.
 
 The rules laid out above were created by and for people near the middle of the
 bell curve with respect to focus and attention span. People who are <span
-g="neurodivergent">neurodivergent</span>, i.e., whose brains work differently
-from the average when it comes to sociability, learning, attention, and mood,
-may find that other approaches work better for them.
+g="neurodivergent" i="neurodivergent">neurodivergent</span>, i.e., whose brains
+work differently from the average when it comes to sociability, learning,
+attention, and mood, may find that other approaches work better for them.
 
 But while society accepts that people of different heights need different desks
-and seating to be comfortable, there is still a lot of <span
-g="stigma">stigma</span> associated with differences in mental function, which
-are often measured by [how inconvenient they are to other people][adhd-thread].
-One example is how tests for <span g="adhd">attention-deficit/hyperactivity
-disorder</span> (ADHD) are phrased. "Subject is overly talkative": compared to
-who? "Subject does X when it is inappropriate": by whose rules? "Struggles to
-pay attention": in fact, most people with ADHD can pay very close attention, but
-not when they are in environments that are full of distractions (like noisy
-classrooms).
+and seating to be comfortable, there is still a lot of <span i="mental health
+(stigma associated with)">stigma</span> associated with differences in mental
+function, which are often measured by [how inconvenient they are to other
+people][adhd-thread].  One example is how tests for <span g="adhd"
+i="ADHD">attention-deficit/hyperactivity disorder</span> (ADHD) are
+phrased. "Subject is overly talkative": compared to who? "Subject does X when it
+is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
+people with ADHD can pay very close attention, but not when they are in
+environments that are full of distractions (like noisy classrooms).
 
 The title of this callout is Latin for, "Nothing about us without us." It means
 that no decisions should be made without the full participation of those who
 will be affected.  If you are neurodivergent, you probably have a set of
-strategies for managing time and attention. If you are <span
-g="neurotypical">neurotypical</span> and have neurodivergent teammates, ask them
+strategies for managing time and attention. If you are <span g="neurotypical"
+i="neurotypical">neurotypical</span> and have neurodivergent teammates, ask them
 what works well for them rather than ignoring the difference or guessing what
 they might want. Please do the same if you have teammates who have difficulty
 seeing, hearing, or moving about: they have expertise you don't.
@@ -280,8 +287,9 @@ seeing, hearing, or moving about: they have expertise you don't.
 ## Meetings
 
 The previous section explained how to be productive individually---what about
-being productive in a team?  The most important thing is running meetings
-efficiently.  The rules doing so are simple but rarely followed:
+being productive in a team?  The most important thing is running <span
+i="meetings">meetings</span> efficiently.  The rules doing so are simple but
+rarely followed:
 
 Agree on the rules.
 :   Bridge and ping pong are both fun games, but you can't play both on the same
@@ -290,13 +298,14 @@ Agree on the rules.
     meetings matters less than everyone agreeing on what the rules are.
 
 Keep discussion meetings and decision meetings separate.
-:   A <span g="discussion_meeting">discussion meeting</span>'s purpose is to
-    explore design alternatives or figure out what next term's goals should be.
-    A <span g="decision_meeting">decision meeting</span> on the other hand, is
-    for choosing which alternatives to pursue.  Discussion meetings are meant to
-    be wide-ranging (and fun); decision meetings should be short and focused.
-    The two are never completely distinct in practice, but decision-making is
-    more efficient if it isn't mixed with brainstorming. The rest of these rules
+:   A <span g="discussion_meeting" i="meetings (discussion)">discussion
+    meeting</span>'s purpose is to explore design alternatives or figure out
+    what next term's goals should be.  A <span g="decision_meeting i="meetings
+    (decision)"">decision meeting</span> on the other hand, is for choosing
+    which alternatives to pursue.  Discussion meetings are meant to be
+    wide-ranging (and fun); decision meetings should be short and focused.  The
+    two are never completely distinct in practice, but decision-making is more
+    efficient if it isn't mixed with brainstorming. The rest of these rules
     focus on decision meetings.
 
 Decide if there actually needs to be a meeting.
@@ -353,12 +362,12 @@ No distractions.
     down and laptops should be closed during in-person meetings.
 
 Take minutes.
-:   Someone other than the moderator should take point-form notes about the most
-    important information that was shared, and about every decision that was
-    made or every task that was assigned to someone.  This responsibility should
-    rotate each meeting so that everyone has to take a turn; otherwise, as
-    discussed in <span x="teams"/>, the burden will fall unfairly on some
-    people.
+:   Someone other than the moderator should take <span i="minutes (of
+    meetings)">point-form notes</a> about the most important information that
+    was shared, and about every decision that was made or every task that was
+    assigned to someone.  This responsibility should rotate each meeting so that
+    everyone has to take a turn; otherwise, as discussed in <span x="teams"/>,
+    the burden will fall unfairly on some people.
 
 End early.
 :   If the meeting is scheduled for 10:00--11:00, aim to end at 10:50 to give
@@ -368,10 +377,10 @@ End early.
 
 ### I don't like your tone
 
-<span g="tone_policing">Tone policing</span> is a tactic used to shut down
-discussion by criticizing people for expressing emotion.  It is often used
-against women, who are told to "calm down" when they show any sign of being
-angry at being excluded or not taken seriously. As [this
+<span g="tone_policing" i="tone policing">Tone policing</span> is a tactic used
+to shut down discussion by criticizing people for expressing emotion.  It is
+often used against women, who are told to "calm down" when they show any sign of
+being angry at being excluded or not taken seriously. As [this
 article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
 
 <blockquote>
@@ -409,10 +418,11 @@ Everyone can check what was actually said or promised.
 
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
-    follow up on them later.  If you are using an issue-tracking system (<span
-    x="tooling"/>), create an issue for each new question or task right after
-    the meeting and update those that are being carried forward.  This helps a
-    lot when the time comes to draw up the agenda for the next meeting.
+    follow up on them later.  If you are using an <span i="issue-tracking
+    system">issue-tracking system</span> (<span x="tooling"/>), create an issue
+    for each new question or task right after the meeting and update those that
+    are being carried forward.  This helps a lot when the time comes to draw up
+    the agenda for the next meeting.
 
 Please don't email minutes to everyone: our inboxes are full enough, and the
 more places new team members need to search in order to find things, the more
@@ -438,34 +448,34 @@ One of the problems in a synchronous meeting is the tendency of some people to
 speak far more than others.  Other meeting members may be so accustomed to this
 that they don't speak up even when they have valuable points to make.
 
-One way to combat this is to give everyone three sticky notes (or coins, or
-paperclips---anything inedible will do).  at the start of the meeting.  Every
-time they speak, they have to give up one sticky note.  When they're out of
-stickies, they aren't allowed to speak until everyone has used at least one, at
-which point everyone gets all of their sticky notes back.  This ensures that
-nobody talks more than three times as often as the quietest person in the
-meeting, and completely changes group dynamics.  People who have given up trying
-to be heard suddenly have space to contribute, and the overly frequent speakers
-realize how unfair they have been.
+One way to combat this is to give everyone <span i="meetings (three sticky
+notes)">three sticky notes</span> (or coins, or paperclips---anything inedible
+will do).  at the start of the meeting.  Every time they speak, they have to
+give up one sticky note.  When they're out of stickies, they aren't allowed to
+speak until everyone has used at least one, at which point everyone gets all of
+their sticky notes back.  This ensures that nobody talks more than three times
+as often as the quietest person in the meeting, and completely changes group
+dynamics.  People who have given up trying to be heard suddenly have space to
+contribute, and the overly frequent speakers realize how unfair they have been.
 
-Another useful technique is called interruption bingo.  Draw a grid and label
-the rows and columns with the participants' names.  Each time one person
-interrupts another, add a tally mark to the appropriate cell; halfway through
-the meeting, take a moment to look at the results.  In most cases it will be
-clear that one or two people are doing all of the interrupting.  After that,
-saying, "All right, I'm adding another tally to the bingo card," is often enough
-to get them to throttle back.
+Another useful technique is called <span i="meetings (interruption
+bingo)">interruption bingo</span>.  Draw a grid and label the rows and columns
+with the participants' names.  Each time one person interrupts another, add a
+tally mark to the appropriate cell; halfway through the meeting, take a moment
+to look at the results.  In most cases it will be clear that one or two people
+are doing all of the interrupting.  After that, saying, "All right, I'm adding
+another tally to the bingo card," is often enough to get them to throttle back.
 
 Online meetings provide special challenges, both in the context of regulating
 how often individuals speak, as well as running meetings in general.
-<cite>Troy2018</cite> discusses why online meetings are often frustrating and
-unproductive and points out that in most online meetings, the first person to
-speak during a pause gets the floor.  As a result, "If you have something you
-want to say, you have to stop listening to the person currently speaking and
-instead focus on when they're gonna pause or finish so you can leap into that
-nanosecond of silence and be the first to utter something.  The
-format…encourages participants who want to contribute to say more and listen
-less."
+<cite>Troy2018</cite> discusses why <span i="meetings (online)">online
+meetings</span> are often frustrating and unproductive and points out that in
+most online meetings, the first person to speak during a pause gets the floor.
+As a result, "If you have something you want to say, you have to stop listening
+to the person currently speaking and instead focus on when they're gonna pause
+or finish so you can leap into that nanosecond of silence and be the first to
+utter something.  The format…encourages participants who want to contribute to
+say more and listen less."
 
 The solution is to run a text chat beside the video conference where people can
 signal that they want to speak.  The moderator can then select people from the
@@ -481,11 +491,12 @@ formal or informal---in other words, whether it's accountable or unaccountable
 <cite>Freeman1972</cite>.  The latter can work for groups of up to half a dozen
 people in which everyone knows everyone else.  Beyond that, groups need to spell
 out who has the authority to make which decisions and how to achieve consensus.
-In short, they need explicit <span g="governance">governance</span>.
+In short, they need explicit <span g="governance"
+i="governance">governance</span>.
 
-<span g="marthas_rules">Martha's Rules</span> are a practical way to do this in
-groups with up to a few dozen members <cite>Minahan1986</cite>, and work very
-well for smaller teams too:
+<span g="marthas_rules" i="Martha's Rules">Martha's Rules</span> are a practical
+way to do this in groups with up to a few dozen members
+<cite>Minahan1986</cite>, and work very well for smaller teams too:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal.  Proposals
     must be filed at least 24 hours before a meeting in order to be considered
@@ -504,8 +515,8 @@ well for smaller teams too:
     delegate is present.  The sponsor is also responsible for presenting the
     item to the group.
 
-4.  After the sponsor presents the proposal a <span g="sense_vote">sense
-    vote</span> is cast for the proposal prior to any discussion:
+4.  After the sponsor presents the proposal a <span g="sense_vote" i="sense
+    vote">sense vote</span> is cast for the proposal prior to any discussion:
     -   Who likes the proposal?
     -   Who can live with the proposal?
     -   Who is uncomfortable with the proposal?
@@ -535,21 +546,23 @@ Who gets to vote?
 :   In a course project the answer is "whoever is part of the team," but if the
     project grows and attracts volunteer contributors, a more explicit rule is
     needed.  One common method is for existing members to nominate new ones, and
-    for the team to hold a straight yes-or-no vote on each.  Another is Apache's
-    "do-ocracy" approach: if you have done the work and no-one explicitly
-    objects, the proposal is accepted or the change is merged. This "put up or
-    shut up" approach is a good way to test if someone *really* wants a change,
-    but in practice it often means projects are driven by people who are
-    extroverted or self-confident rather than by those with the best technical
-    skills or the best understanding of what users need. We'll revisit this in
-    <span x="wide-world"/>.
+    for the team to hold a straight yes-or-no vote on each.  Another is <span
+    i="Apache Software Foundation">[Apache][apache]</span>'s "<span
+    i="do-ocracy">do-ocracy</span>" approach: if you have done the work and
+    no-one explicitly objects, the proposal is accepted or the change is
+    merged. This "put up or shut up" approach is a good way to test if someone
+    *really* wants a change, but in practice it often means projects are driven
+    by people who are extroverted or self-confident rather than by those with
+    the best technical skills or the best understanding of what users
+    need. We'll revisit this in <span x="wide-world"/>.
 
 Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
-section in the project's `README` file (<span x="starting"/>) or put into a
-separate file called `CONTRIBUTING`.  This material should describe the naming
+section in the project's <span i="README file">`README`</span> file (<span
+x="starting"/>) or put into a separate file called <span i="CONTRIBUTING
+file">`CONTRIBUTING`</span>.  This material should describe the naming
 conventions to use for functions, what tags to put on issues, or how to install
 and configure the software needed to start work on the project.  Wherever it
 goes, remember that the easier it is for people to get set up, the more likely

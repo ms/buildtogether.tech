@@ -107,6 +107,7 @@ kramdown:
       "adhd-thread": ["https://twitter.com/NomeDaBarbarian/status/1369846245200515072", "A thread on ADHD"],
       "alloy": ["https://alloytools.org/", "Alloy"],
       "ant": ["https://ant.apache.org/", "Apache Ant"],
+      "apache": ["https://apache.org/", "Apache Software Foundation"],
       "apt": ["https://en.wikipedia.org/wiki/APT_(software)", "APT"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],

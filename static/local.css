@@ -254,9 +254,13 @@ blockquote {
 }
 
 /* Figures */
-
 figcaption {
     font-weight: bold;
+}
+
+/* Index entries */
+span[i] {
+    display: none;
 }
 
 /* Things to fix */

@@ -6,7 +6,7 @@
 ## Audience
 
 Every lesson should be written with specific learners in mind.  These
-[personas][t3-personas] are ours:
+<span i="learner persona">[personas][t3-personas]</span> are ours:
 
 -   Yanina is in the third year of a computer science degree. She worked on
     several volunteer projects in high school and through her mosque, but the
@@ -105,15 +105,16 @@ change too.
 If you would like to improve what we have or add new material, please see the
 Code of Conduct in <span x="conduct"/> and the contributor guidelines in <span
 x="contributing"/>.  If you have questions or would like to use this material in
-a course, please [send us email][contact], and if you are looking for project
-ideas, please check out [Software Tools in JavaScript][stjs].
+a course, please [send us email][contact].
 
 ## Acknowledgments
 
-This book is dedicated to [Marian Petre][petre-marian], who taught me how to
-think about how programmers think and work.  I am also grateful to all of the
-students who did projects with me at the University of Toronto and through
-Google Summer of Code, and to everyone who took part in UCOSP
+This book is dedicated to <span i="Petre, Marian">[Marian
+Petre][petre-marian]</span>, who taught me how to think about how programmers
+think and work.  I am also grateful to all of the students who did projects with
+me at the <span i="University of Toronto">University of Toronto</span> and
+through <span i="Google Summer of Code">Google Summer of Code</span>, and to
+everyone who took part in <span i="UCOSP">UCOSP</span>
 <cite>Holmes2014,Holmes2018</cite>.
 
 I have tried to base recommendations on empirical software engineering research
@@ -127,6 +128,7 @@ misunderstandings that remain are entirely our fault.
 Portions of this book are adapted from material that originally appeared in
 <cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor &
 Francis and my co-authors for making both books available under open licenses.
-I would also like to thank David Graf for [doi2bib][doi2bib] and Alexandra
-Elbakyan for Sci-Hub; this book would have been much harder to write without
-their idealism and hard work.
+I would also like to thank <span i="Graf, David">David Graf</span> for <span
+i="doi2bib">[doi2bib][doi2bib]</span> and <span i="Elbakyan,
+Alexander">Alexandra Elbakyan</span> for <span i="Sci-Hub">Sci-Hub</span>; this
+book would have been much harder to write without their idealism and hard work.

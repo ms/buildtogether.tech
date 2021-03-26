@@ -178,12 +178,12 @@ def convert(node, accum, doEscape):
         if has_class(node, 'nochaptertitle'):
             pass
         else:
-            assert node.has_attr('key'), f'H1 {node} lacks key'
-            key = node['key']
+            assert node.has_attr('slug'), f'H1 {node} lacks slug'
+            slug = node['slug']
             accum.append(r'\chapter{')
             convert_children(node, accum, doEscape)
             accum.append(r'}\label{')
-            accum.append(key)
+            accum.append(slug)
             accum.append('}\n')
 
     # h2 => section title
@@ -254,14 +254,6 @@ def convert(node, accum, doEscape):
         elif node.has_attr('f'):
             key = node['f']
             accum.append(rf'\figref{{{key}}}')
-        # glossary
-        elif node.has_attr('g'):
-            key = node['g']
-            accum.append(r'\glossref{')
-            convert_children(node, accum, doEscape)
-            accum.append('}{')
-            accum.append(key)
-            accum.append('}')
         # table
         elif node.has_attr('t'):
             key = node['t']
@@ -273,6 +265,9 @@ def convert(node, accum, doEscape):
                 accum.append(rf'\chapref{{{key}}}')
             else:
                 accum.append(rf'\appref{{{key}}}')
+        # glossary and/or index
+        elif node.has_attr('g') or node.has_attr('i'):
+            convert_glossary_index(node, accum, doEscape)
         # not our problem
         else:
             convert_children(node, accum, doEscape)
@@ -324,6 +319,26 @@ def convert_figure(node, accum):
     accum.append(f'\\figpdf{{{label}}}{{{path}}}{{{caption}}}{{0.75}}')
 
 
+def convert_glossary_index(node, accum, doEscape):
+    '''Convert a span that is a glossary and/or index reference.'''
+    assert node.name == 'span', 'Expected span'
+    assert node.has_attr('g') or node.has_attr('i'), 'Expected "g" or "i"'
+
+    if node.has_attr('g'):
+        key = node['g']
+        accum.append(r'\glossref{')
+        convert_children(node, accum, doEscape)
+        accum.append('}{')
+        accum.append(key)
+        accum.append('}')
+    else:
+        convert_children(node, accum, doEscape)
+
+    if node.has_attr('i'):
+        term = node['i']
+        accum.append(fr'\index{{{term}}}')
+
+
 def convert_links_table(node, accum):
     '''Convert the end-table of links.'''
     accum.append('\\begin{description}\n')
@@ -342,6 +357,7 @@ def convert_table(node, accum, placement=None):
     label = node['id'] if node.has_attr('id') else None
     placement = placement if placement is not None else ''
 
+    assert node.tbody, f'Table node does not have body {node}'
     rows = [convert_table_row(row, 'td') for row in node.tbody.find_all('tr')]
     width = len(rows[0])
     spec = 'l' * width

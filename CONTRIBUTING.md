@@ -68,6 +68,8 @@ This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite> for c
     -   Use `{% raw %}<cite>key,key</cite>{% endraw %}` for bibliography citations.
         The keys must appear in `bibliography/index.md`.
 
+1.  Use `{% raw %}<span i="term">text</span>{% endraw %}` to add an index entry.
+
 1.  To include a code sample use
     `{% raw %}{% include code file="name.ext" %}{% endraw %}`.
     The path to the file must be relative to the including file. in most

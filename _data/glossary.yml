@@ -688,6 +688,12 @@
     def: >
       FIXME
 
+- key: flow
+  en:
+    term: "flow"
+    def: >
+      FIXME
+
 - key: fmri
   en:
     term: "fmri"
@@ -1446,12 +1452,6 @@
 - key: static_typing
   en:
     term: "static typing"
-    def: >
-      FIXME
-
-- key: stigma
-  en:
-    term: "stigma"
     def: >
       FIXME
 

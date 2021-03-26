@@ -44,7 +44,7 @@ KNOWN = {
     'pre': {'class', 'title'},
     'script': {'async', 'src', 'type'},
     'small': {},
-    'span': {'class', 'f', 'g', 't', 'x'},
+    'span': {'class', 'f', 'g', 'i', 't', 'x'},
     'strong': {},
     'table': {'class', 'id'},
     'tbody': {},

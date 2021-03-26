@@ -126,13 +126,28 @@ while the most common in Java were:
 Complex errors are one of a kind: that's part of what makes them complex.  But
 some simple errors crop up again and again, and you can use those patterns as a
 checklist for finding problems.  If you do this consciously, you will train
-yourself not to make those mistakes in future. <span t="common-errors"/> lists
-some mistakes that come up frequently.
+yourself not to make those mistakes in future. Some mistakes that come up
+frequently include:
 
-{% include table
-   id="common-errors"
-   file="common-errors.tbl"
-   cap="Common Errors" %}
+Numbers
+:   Zero; smallest number; smallest magnitude; most negative; largest number;
+    off by one in a loop.
+
+Structure Errors
+:   `null`; empty string; empty collection; contains exactly one element;
+    contains maximum number of elements; has duplicate elements; contains one
+    element multiple times.
+
+Searching
+:   Match not found; matching element not present; matching element just outside
+    search range; exactly one match found; match element on search boundary;
+    multiple matches found; multiple references to a single object found; all
+    objects match.
+
+Trees and graphs
+:   Empty; minimal non-empty (e.g. tree with just root); circular;
+    self-referential (head points to head); circular sub-structure; depth
+    greater than one.
 
 One of the most common errors programmers make, though, is to assume that their
 first attempt at fixing a problem actually worked.  <cite>Yin2011</cite> found

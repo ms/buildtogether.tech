@@ -218,6 +218,8 @@ important:
   term: decision meeting
 - key: discussion_meeting
   term: discussion meeting
+- key: flow
+  term: flow
 - key: governance
   term: governance
 - key: marthas_rules
@@ -228,8 +230,6 @@ important:
   term: neurotypical
 - key: sense_vote
   term: sense vote
-- key: stigma
-  term: stigma
 - key: tone_policing
   term: tone policing
 internships:
