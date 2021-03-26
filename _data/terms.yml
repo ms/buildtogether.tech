@@ -68,6 +68,12 @@ conflict:
   term: hitchiker
 contributing: []
 debugging:
+- key: automated_program_repair
+  term: automated program repair
+- key: failure
+  term: failure
+- key: fault
+  term: fault
 - key: rabbit_hole
   term: rabbit hole
 - key: requirements_error

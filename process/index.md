@@ -247,7 +247,7 @@ the typing, while the other, called the navigator, watches and comments.  Every
 twenty minutes or or so, the pair switches roles.
 
 Unlike test-driven development, the benefits of pair programming are proven for
-students as well as for professionals <cite>Williams2001,diBella2013</cite>.
+students as well as for professionals <cite>Williams2001,DiBella2013</cite>.
 First, the navigator will often notice mistakes in the driver's code, or
 remember design decisions that the driver is too busy typing to recall. This is
 the tightest of the feedback loops that make agile work, since feedback is

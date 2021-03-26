@@ -3,30 +3,29 @@
 
 Finding errors is good; fixing them is better, so learning how to debug is as
 important as learning how to program in the first place.  However, while most
-schools teach defensive programming and unit testing, I have yet to find any
-that offers a course on debugging.  This is a significant omission when you
-consider that most programmers spend anywhere from a quarter to three quarters
-of their time finding and fixing bugs.  While a single chapter can't make up for
-that, I hope the guidance below will help make you more efficient.
+schools teach defensive programming and unit testing, only a handful offer a
+course on debugging, which is weird when you consider that most programmers
+spend anywhere from a quarter to three quarters of their time finding and fixing
+bugs.  A single chapter can't make up for that, but I hope the guidance below
+will help make you more efficient.
 
 ## Build Habits
 
-Software can fail in many different ways, but the process for tracking problems
-down is remarkably consistent.  The first rule of debugging is therefore to make
-good practices a habit.  You are more likely to make mistakes when you're tired
-or under pressure; if writing assertions and unit tests isn't automatic by then,
-the odds are that how you work will actually make things worse.
+Software can fail in many different ways, but the process for diagnosing and
+fixing problems is consistent from one bug to the next.  The first rule of
+debugging is therefore to make good practices a habit.  You are more likely to
+make mistakes or overlook things when you're tired or under pressure; if writing
+assertions and unit testing aren't automatic by then, the odds are that you'll
+be at your worst when it matters most.
 
-Make sure you understand what the code is supposed to do.
-:   As we'll see when discussing Boehm's Curve in <span x="process"/>, any time
-    you invest in reducing the number of bugs you write will reduce the overall
-    time needed to complete your project.  The first step in debugging is
-    therefore to make sure you built the right thing. <span
-    g="requirements_error">Requirements errors</span> are a major cause of
+Here are the things you should turn into habits:
+
+Make sure you are trying to build the right thing.
+:   <span g="requirements_error">Requirements errors</span> are a major cause of
     software projects failing in the real world, and every instructor has horror
     stories about students misinterpreting assignments and spending days
-    building the wrong thing. When in doubt, ask; to make your question and its
-    answer clear, provide an example and describe what you think the code is
+    building the wrong thing. When in doubt, ask, and to make your question and
+    its answer clear, provide an example and describe what you think the code is
     supposed to do in that case.
 
 Make sure you understand what the bug actually is.
@@ -41,34 +40,47 @@ Make sure you understand what the bug actually is.
     it the right test data?  Is it configured the way you think it is?  Is it
     the version you think it is?  Has the feature actually been implemented yet?
     Are you sure?  Maybe the reason you can't isolate the problem is that it's
-    not there---again, a couple of minutes talking it through with a teammate
-    can save you an hour of trying to fix something that isn't actually broken.
+    not there---a couple of minutes talking it through with a teammate can save
+    you an hour of trying to fix something that isn't actually broken.
 
 Make it fail.
 :   You can only debug things when you can see them going wrong, so as we
-    discussed in <span x="communicate"/>, you should try to create a reprex---a
-    minimal reproducible example.  Just doing this isolates the problem in a
+    discussed in <span x="communicate"/>, you should try to create a minimal
+    reproducible example or reprex.  Doing this finds the problem in a
     surprising number of cases, since each time you throw out part of the
     original program or dataset because the bug reoccurs without it, you are
     also throwing out a bunch of possible causes.
 
-    The easiest way to create a reprex is to divide and conquer.  The fault
-    responsible for a failure has to occur before the failure, so check the
-    input to the function that's failing.  If that's wrong, check the inputs to
-    the function calling it, and so on.  Add assertions to make these checks
-    explicit: they'll help you keep track of what you have looked at for this
-    bug, and will help prevent others in future.
+    The easiest way to create a reprex is to divide and conquer.  The <span
+    g="fault">fault</span> responsible for a <span g="failure">failure</span>
+    has to occur before the failure, so check the input to the function where
+    the bug is showing up.  If that's wrong, check the function that's calling
+    it, and so on.
+
+Instrument your code.
+:   Add assertions to make the checks in your code explicit: they'll help you
+    keep track of what you have looked at for this bug, and if you leave them
+    in, they will help prevent others in future.
+
+Alternate between exploration and confirmation.
+:   I often don't know what assertions to write until I've looked at the state
+    of the program, so I go back and forth between adding logging statements (or
+    just `print` statements if the code is small and I'm reasonably sure I can
+    find the bug quickly) and adding assertions.  Logging gives me new
+    information to help me formulate hypotheses; assertions either confirm or
+    refute those hypotheses.
 
 Change one thing at a time.
 :   Replacing random pieces of code in the hope of fixing a bug is unlikely to
-    solve your problem: if you got something wrong the first time, the odds
-    think you'll get it right the second?  (Or ninth, or twenty-third?)
-    Instead, you should change one thing and then re-run your tests to see if
-    the program works, breaks in the same way, or breaks in a new way.  (This is
-    another place where version control helps: if you have made a change and it
-    hasn't fixed things, `git restore` will put your code back exactly the way
-    it was so that you're not debugging ever-more-mutated versions of your
-    code.)
+    solve your problem: if you got something wrong the first time, what are the
+    odds you'll get it right the second?  (Or ninth, or twenty-third?)  Instead,
+    change one thing and then re-run your tests to see if the program works,
+    breaks in the same way, or breaks in a new way.
+
+    This is another place where version control helps: if you have made a change
+    and it hasn't fixed things, `git restore` will put your code back exactly
+    the way it was so that you're not trying to fix something that is mutating
+    while you work.
 
 <div class="callout" markdown="1">
 
@@ -122,6 +134,74 @@ some mistakes that come up frequently.
    file="common-errors.tbl"
    cap="Common Errors" %}
 
+One of the most common errors programmers make, though, is to assume that their
+first attempt at fixing a problem actually worked.  <cite>Yin2011</cite> found
+that 14--25% of bug "fixes" released for major operating systems didn't actually
+fix the bug (a figure that rose to 39% for concurrency-related bugs), while
+<cite>Park2012</cite> found that up to a third of bugs required more than one
+attempt to fix.
+
+But there is good news as well.  <cite>Pan2008</cite> identified 27 patterns for
+bug fixes by inspecting the history of seven large open source Java projects and
+found that the five most common are:
+
+-   changing the condition in an `if` statement (e.g., replacing `==` with `>=`
+    or vice versa);
+
+-   adding a pre-condition check to an `if` statement (e.g., checking that a
+    variable is not `null` before comparing its value to a constant);
+
+-   changing the values passed to a method call (e.g., converting a
+    case-sensitive string match to a case-insensitive match);
+
+-   changing the number of parameters to a method call (e.g., adding a
+    non-default value for a parameter where the default value was previously
+    being used); and
+
+-   changing the value assigned to a variable *without* changing the variable
+    being assigned to.
+
+Wherever we find patterns we can try to write programs to spot them and act on
+them.  The goal of research in <span g="automated_program_repair">Automated
+program repair</span> is to build tools that can fix common bugs on their own
+<cite>Monperrus2018,LeGoues2019</cite>.  These tools use several approaches:
+
+Generate and validate.
+:   Given a set of test cases and a set of rules for modifying programs (e.g.,
+    adding or removing checks for empty lists in `if` statements), a tool can
+    generate a mutated version of a program and see if it still fails or not.
+
+Machine learning.
+:   Given a large enough set of bugs and bug fixes to learn from, machine
+    learning algorithms can be trained to match problem with solutions based on
+    past experience.  This approach still requires test cases to validate
+    particular changes.
+
+Symbolic execution.
+:   Rather than a program on a particular set of inputs, a tool can simulate
+    execution to build constraints, then check if those constraints can be
+    satisfied. For example, if a program contains the statements:
+
+    ```py
+    longest = ''
+    for name in all_names:
+        if len(name) > len(longest):
+            longest = name
+    ```
+
+    then symbolic execution can determine that the final value of `longest` is
+    either the empty string or the first string in the list that belongs to the
+    set containing the longest strings in the list.  The complexity of that
+    sentence is a sign of how complex symbolic execution can be, but when
+    combined with the modeling tools discussed in <span x="tooling"/>, this
+    approach can find bugs that would otherwise escape detection for years.
+
+Most [program repair tools][program-repair] are still research prototypes, but
+one particularly interesting use case is repairing student programs as a way of
+giving feedback on assignments <cite>Hu2019</cite>.  If you are looking for an
+ambitious course project that might lead to graduate research, this is a good
+place to start.
+
 ## Using a Debugger
 
 A <span g="symbolic_debugger">symbolic debugger</span> is a program that allows
@@ -172,5 +252,3 @@ themselves setting breakpoints, inspecting variables, and so on; if you ever try
 this in your class, please let me know how it goes.
 
 </div>
-
-<span class="fixme">automated repair https://github.com/gvwilson/buildtogether.tech/issues/66</span>

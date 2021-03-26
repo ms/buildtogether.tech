@@ -189,6 +189,7 @@ kramdown:
       "petre-marian": ["https://www.open.ac.uk/people/mp8", "Marian Petre"],
       "pip": ["https://pypi.org/project/pip/", "pip"],
       "plantuml": ["https://plantuml.com/", "PlantUML"],
+      "program-repair": ["https://program-repair.org/", "Program Repair"],
       "python": ["https://www.python.org/", "Python"],
       "pytest": ["http://pytest.org/", "pytest"],
       "pytest-benchmark": ["https://pypi.org/project/pytest-benchmark/", "pytest-benchmark"],

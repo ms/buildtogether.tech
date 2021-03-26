@@ -7,6 +7,7 @@ ASEE
 Abad
 Abbate
 Abdalkareem
+Abhik
 Abrahamsson
 Acknowledgments
 Adesope
@@ -61,6 +62,10 @@ Ayres
 Ayushi
 Aziz
 Bacchelli
+Bae
+Bairavasundaram
+Baishakhi
+Barbosa
 Barendsen
 Barik
 Barke
@@ -92,7 +97,6 @@ Blakely
 BleachBit
 Blincoe
 Boehm
-Boehm's
 Boettcher
 Bogdan
 Bohay
@@ -161,12 +165,15 @@ Davide
 De
 DeBruyckere
 DeLine
+DeOliveiraNeto
+DeSouza
 Dedrick
 Denae
 Deursen
 DevOps
 Devanbu
 Dhaliwal
+DiBella
 DiBernardo
 Diandra
 Didau
@@ -177,8 +184,10 @@ Dobzhansky's
 DocBook
 Doit
 Domingue
+Doo
 Doore
 Drachen
+Draylson
 Drobina
 Dror
 DuckDuckGo
@@ -286,6 +295,7 @@ Gopal
 Gopinath
 Goslin
 Goucher
+Goues
 Gousios
 Graf
 Graziotin
@@ -341,9 +351,11 @@ Hossein
 Hott
 Hoye
 Hsing
+Hu
 Huijgens
 Hulshof
 Hundhausen
+Hwan
 ICER
 ICPC
 ICSE
@@ -380,6 +392,7 @@ Jelena
 Jelmer
 Jere
 Jez
+Jihun
 Jin
 Jing
 Jira
@@ -431,6 +444,7 @@ Kulikova
 Kulkarni
 Kusumoto
 Kästner
+Kölling
 LLC
 LPP
 LTM
@@ -439,9 +453,11 @@ Labeling
 Labor
 Lamba
 Lawrie
+LeGoues
 Leitao
 Leitão
 Lenfant
+Leong
 Letaw
 Letian
 Leveling
@@ -482,6 +498,7 @@ McBurney
 McCauley
 McElligott
 McGraw
+Mechtaev
 Meiyappan
 Meneely
 Mengxiao
@@ -493,11 +510,13 @@ Michelene
 Mihaly
 Minahan
 Minghui
+Miryung
 Misclassification
 Mockus
 Modeling
 Mohan
 Moir
+Monperrus
 Mordechai
 Morisio
 Moritz
@@ -586,6 +605,7 @@ Polymorphism
 Posnett
 Potapov
 Pozos
+Pradel
 Pranay
 Pre
 Precel
@@ -635,6 +655,7 @@ Romain
 Rosso
 Rotella
 Routledge
+Roychoudhury
 Rua
 Rugaber
 Rukma
@@ -678,6 +699,7 @@ Sentance
 Seppala
 Seppi
 Serebrenik
+Sergey
 Shakeri
 Shankar
 Sharla
@@ -731,6 +753,7 @@ Succi
 Suhaib
 Suman
 Sumeracki
+Sunghun
 Surinder
 SyntaxError
 TCE
@@ -772,6 +795,7 @@ UI
 UML
 Ulrich
 Ultima
+Umair
 Umoja
 United's
 Upchurch
@@ -850,6 +874,7 @@ Zhuang
 Zimmermann
 Ziwei
 Zou
+Zuoning
 accesibility
 accum
 af
@@ -899,7 +924,6 @@ dataset
 datasets
 datetime
 de
-deOliveiraNeto
 debuggable
 decompositions
 defense
@@ -909,7 +933,6 @@ denom
 der
 dev
 di
-diBella
 difftool
 dirnames
 dirpath
@@ -971,6 +994,7 @@ img
 impactful
 inclusivity
 init
+isOK
 jekyll
 js
 json

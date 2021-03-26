@@ -704,7 +704,7 @@
   title: Urban Myths about Learning and Education
   year: 2015
 
-- key: deOliveiraNeto2019
+- key: DeOliveiraNeto2019
   kind: article
   author:
   - Francisco Gomes de Oliveira Neto
@@ -719,7 +719,17 @@
   title: "Evolution of Statistical Analysis in Empirical Software Engineering Research: Current State and Steps Forward"
   year: 2019
 
-- key: diBella2013
+- key: DeSouza2017
+  kind: inproceedings
+  author:
+  - Draylson de Souza
+  - Michael Kölling
+  - Ellen Francine Barbosa
+  title: "Most Common Fixes Students Use to Improve the Correctness of Their Programs"
+  year: 2017
+  booktitle: "Proc. FIE'17"
+
+- key: DiBella2013
   kind: article
   author:
   - Enrico di Bella
@@ -1414,6 +1424,18 @@
   title: "Using GitHub in the Classroom Predicts Student Learning Outcomes and Classroom Experiences"
   year: 2019
 
+- key: Hu2019
+  author:
+  - Yang Hu
+  - Umair Z. Ahmed
+  - Sergey Mechtaev
+  - Ben Leong
+  - Abhik Roychoudhury
+  booktitle: "Proc. ASE'19"
+  kind: inproceedings
+  title: "Re-Factoring Based Program Repair Applied to Programming Assignments"
+  year: 2019
+
 - key: Hubbard2018
   author:
   - Aleata Hubbard
@@ -1753,6 +1775,19 @@
   publisher: Marvel
   year: 1962
 
+- key: LeGoues2019
+  author:
+  - Claire Le Goues
+  - Michael Pradel
+  - Abhik Roychoudhury
+  doi: 10.1145/3318162
+  journal: "CACM"
+  kind: article
+  volume: 62
+  number: 12
+  title: "Automated Program Repair"
+  year: 2019
+
 - key: Leitao2019
   author:
   - Roxanne Leitão
@@ -2029,6 +2064,17 @@
   title: "Organizational Volatility and Its Effects on Software Defects"
   booktitle: "Proc. FSE'10"
 
+- key: Monperrus2018
+  author:
+  - Martin Monperrus
+  doi: 10.1145/3105906
+  journal: "ACM Computing Surveys"
+  kind: article
+  volume: 51
+  number: 1
+  title: "Automatic Software Repair"
+  year: 2018
+
 - key: Mosher2013
   kind: inproceedings
   author:
@@ -2122,6 +2168,31 @@
   publisher: Crown
   year: 2017
   isbn: 978-0553418835
+
+- key: Pan2008
+  author:
+  - Kai Pan
+  - Sunghun Kim
+  - E. James Whitehead
+  doi: 10.1007/s10664-008-9077-5
+  journal: "ESE"
+  kind: article
+  volume: 14
+  number: 3
+  title: "Toward an Understanding of Bug Fix Patterns"
+  year: 2008
+
+- key: Park2012
+  kind: inproceedings
+  author:
+  - Jihun Park
+  - Miryung Kim
+  - Baishakhi Ray
+  - Doo-Hwan Bae
+  booktitle: "Proc. MSR'12"
+  doi: 10.1109/msr.2012.6224298
+  title: "An Empirical Study of Supplementary Bug Fixes"
+  year: 2012
 
 - key: Parnin2010
   kind: article
@@ -2868,6 +2939,19 @@
   kind: inproceedings
   title: "Hey, You Have Given Me Too Many Knobs!: Understanding and Dealing with Over-Designed Configuration in System Software"
   year: 2015
+
+- key: Yin2011
+  author:
+  - Zuoning Yin
+  - Ding Yuan
+  - Yuanyuan Zhou
+  - Shankar Pasupathy
+  - Lakshmi Bairavasundaram
+  booktitle: "Proc. SIGSOFT/FSE'11"
+  doi: 10.1145/2025113.2025121
+  kind: inproceedings
+  title: "How do Fixes Become Bugs?"
+  year: 2011
 
 - key: Yuan2015
   author:

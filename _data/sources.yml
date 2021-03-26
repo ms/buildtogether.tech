@@ -62,6 +62,8 @@
   title: "International Conference on Predictive Models in Software Engineering"
 - key: "SANER"
   title: "Conference on Software Analysis, Evolution, and Reengineering"
+- key: "SCAM"
+  title: "International Working Conference on Source Code Analysis and Manipulation"
 - key: "SIGCSE"
   title: "ACM Technical Symposium on Computer Science Education"
 - key: "SIGSOFT"

@@ -84,6 +84,12 @@
       A technique implemented by many interactive text interfaces that completes a
       command, variable name, filename, or other text when the tab key is pressed.
 
+- key: automated_program_repair
+  en:
+    term: "automated program repair"
+    def: >
+      FIXME
+
 - key: base_class
   en:
     term: "base class"
@@ -602,6 +608,18 @@
     term: "extraneous-load"
     def: >
       Any [cognitive load](#cognitive_load) that distracts from learning.
+
+- key: failure
+  en:
+    term: "failure"
+    def: >
+      FIXME
+
+- key: fault
+  en:
+    term: "fault"
+    def: >
+      FIXME
 
 - key: feature_boxing
   en:

@@ -364,13 +364,19 @@ Pedro De Bruyckere, Paul A. Kirschner, and Casper D. Hulshof:
 <em>Urban Myths about Learning and Education</em>.
 Academic Press, 2015, 978-0128015377.
 </dd>
-<dt id="deoliveiraneto2019" class="bibliography">deOliveiraNeto2019</dt>
+<dt id="deoliveiraneto2019" class="bibliography">DeOliveiraNeto2019</dt>
 <dd>
 Francisco Gomes de Oliveira Neto, Richard Torkar, Robert Feldt, Lucas Gren, Carlo A. Furia, and Ziwei Huang:
 "Evolution of Statistical Analysis in Empirical Software Engineering Research: Current State and Steps Forward".
 <em>JSS</em>, 156, 2019, <a href="https://doi.org/10.1016/j.jss.2019.07.002">10.1016/j.jss.2019.07.002</a>.
 </dd>
-<dt id="dibella2013" class="bibliography">diBella2013</dt>
+<dt id="desouza2017" class="bibliography">DeSouza2017</dt>
+<dd>
+Draylson de Souza, Michael Kölling, and Ellen Francine Barbosa:
+"Most Common Fixes Students Use to Improve the Correctness of Their Programs".
+<em>Proc. FIE'17</em>.
+</dd>
+<dt id="dibella2013" class="bibliography">DiBella2013</dt>
 <dd>
 Enrico di Bella, Ilenia Fronza, Nattakarn Phaphoom, Alberto Sillitti, Giancarlo Succi, and Jelena Vlasenko:
 "Pair Programming and Software Defects: A Large, Industrial Case Study".
@@ -722,6 +728,12 @@ Courtney Hsing and Vanessa Gennarelli:
 "Using GitHub in the Classroom Predicts Student Learning Outcomes and Classroom Experiences".
 <em>Proc. SIGCSE'19</em>, <a href="https://doi.org/10.1145/3287324.3287460">10.1145/3287324.3287460</a>.
 </dd>
+<dt id="hu2019" class="bibliography">Hu2019</dt>
+<dd>
+Yang Hu, Umair Z. Ahmed, Sergey Mechtaev, Ben Leong, and Abhik Roychoudhury:
+"Re-Factoring Based Program Repair Applied to Programming Assignments".
+<em>Proc. ASE'19</em>.
+</dd>
 <dt id="hubbard2018" class="bibliography">Hubbard2018</dt>
 <dd>
 Aleata Hubbard:
@@ -895,6 +907,12 @@ Stan Lee:
 "The Amazing Spider-Man".
 <em>Amazing Fantasy</em>, 15, 1962.
 </dd>
+<dt id="legoues2019" class="bibliography">LeGoues2019</dt>
+<dd>
+Claire Le Goues, Michael Pradel, and Abhik Roychoudhury:
+"Automated Program Repair".
+<em>CACM</em>, 62(12), 2019, <a href="https://doi.org/10.1145/3318162">10.1145/3318162</a>.
+</dd>
 <dt id="leitao2019" class="bibliography">Leitao2019</dt>
 <dd>
 Roxanne Leitão:
@@ -1039,6 +1057,12 @@ Audris Mockus:
 "Organizational Volatility and Its Effects on Software Defects".
 <em>Proc. FSE'10</em>, <a href="https://doi.org/10.1145/1882291.1882311">10.1145/1882291.1882311</a>.
 </dd>
+<dt id="monperrus2018" class="bibliography">Monperrus2018</dt>
+<dd>
+Martin Monperrus:
+"Automatic Software Repair".
+<em>ACM Computing Surveys</em>, 51(1), 2018, <a href="https://doi.org/10.1145/3105906">10.1145/3105906</a>.
+</dd>
 <dt id="mosher2013" class="bibliography">Mosher2013</dt>
 <dd>
 Gretchen A. Mosher:
@@ -1092,6 +1116,18 @@ Addison-Wesley Professional, 2007, 978-0321490452.
 C, a, t, h, y,  , O, ', N, e, i, and l:
 <em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>.
 Crown, 2017, 978-0553418835.
+</dd>
+<dt id="pan2008" class="bibliography">Pan2008</dt>
+<dd>
+Kai Pan, Sunghun Kim, and E. James Whitehead:
+"Toward an Understanding of Bug Fix Patterns".
+<em>ESE</em>, 14(3), 2008, <a href="https://doi.org/10.1007/s10664-008-9077-5">10.1007/s10664-008-9077-5</a>.
+</dd>
+<dt id="park2012" class="bibliography">Park2012</dt>
+<dd>
+Jihun Park, Miryung Kim, Baishakhi Ray, and Doo-Hwan Bae:
+"An Empirical Study of Supplementary Bug Fixes".
+<em>Proc. MSR'12</em>, <a href="https://doi.org/10.1109/msr.2012.6224298">10.1109/msr.2012.6224298</a>.
 </dd>
 <dt id="parnin2010" class="bibliography">Parnin2010</dt>
 <dd>
@@ -1502,6 +1538,12 @@ Chapman & Hall/CRC Press, 2019, 978-0367352974.
 Tianyin Xu, Long Jin, Xuepeng Fan, Yuanyuan Zhou, Shankar Pasupathy, and Rukma Talwadker:
 "Hey, You Have Given Me Too Many Knobs!: Understanding and Dealing with Over-Designed Configuration in System Software".
 <em>Proc. FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786852">10.1145/2786805.2786852</a>.
+</dd>
+<dt id="yin2011" class="bibliography">Yin2011</dt>
+<dd>
+Zuoning Yin, Ding Yuan, Yuanyuan Zhou, Shankar Pasupathy, and Lakshmi Bairavasundaram:
+"How do Fixes Become Bugs?".
+<em>Proc. SIGSOFT/FSE'11</em>, <a href="https://doi.org/10.1145/2025113.2025121">10.1145/2025113.2025121</a>.
 </dd>
 <dt id="yuan2015" class="bibliography">Yuan2015</dt>
 <dd>

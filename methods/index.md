@@ -19,7 +19,7 @@ alternative way). If the difference between the groups is large enough
 statistically, the experimenter publishes a paper and moves on.
 
 There are several traps in this approach for the unwary
-<cite>deOliveiraNeto2019</cite>:
+<cite>DeOliveiraNeto2019</cite>:
 
 Experimenter bias.
 :   People have many biases, both conscious and unconscious.  In order to make
