@@ -14,10 +14,12 @@ KEY = re.compile(r'^[A-Za-z]+\d{4}[a-z]?$')
 
 def check_bib(options):
     '''Main driver.'''
+    config = utils.read_yaml(options.config)
+    filenames = [entry['file'] for entry in utils.get_entry_info(config)]
     defined = get_definitions(options.bibliography)
     check_order(defined)
     check_keys(defined)
-    cited = utils.get_all_matches(utils.CITATION, options.sources)
+    cited = utils.get_all_matches(utils.CITATION, filenames)
     utils.report('bibliography', cited=cited, defined=set(defined))
 
 
@@ -57,6 +59,6 @@ def check_keys(keys):
 if __name__ == '__main__':
     options = utils.get_options(
         ['--bibliography', False, 'Path to bibliography YAML file'],
-        ['--sources', True, 'List of input files']
+        ['--config', False, 'Path to YAML configuration file']
     )
     check_bib(options)

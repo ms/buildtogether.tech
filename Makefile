@@ -116,7 +116,7 @@ check:
 
 ## check-bib: compare citations and definitions
 check-bib:
-	@bin/check-bib.py --bibliography ${BIB_YAML} --sources ${MARKDOWN} _includes/intro.md
+	@bin/check-bib.py --bibliography ${BIB_YAML} --config ${CONFIG}
 
 ## check-boilerplate: check standard files
 check-boilerplate:
@@ -128,7 +128,7 @@ check-chunk-length:
 
 ## check-code-blocks: check inline code blocks
 check-code-blocks:
-	@bin/check-code-blocks.py --sources ${MARKDOWN}
+	@bin/check-code-blocks.py --config ${CONFIG}
 
 ## check-dom: check classes and attributes in generated HTML.
 check-dom: ${HOME_PAGE}
