@@ -202,32 +202,62 @@ giving feedback on assignments <cite>Hu2019</cite>.  If you are looking for an
 ambitious course project that might lead to graduate research, this is a good
 place to start.
 
+Another semi-automated technique for finding bugs is <span
+g="delta_debugging">delta debugging</span> <cite>Zeller2009,Zeller2021</cite>.
+Fuzz testing (<span x="testing"/>) can automatically generate inputs that make
+programs fail, but since those inputs are partly or entirely random, and can be
+quite long, it is sometimes hard to figure out why they make the software fail.
+Delta debugging repeatedly tests subsets of the original fixture, then subsets
+of those subsets, to produce a minimal failure-inducing case.
+
 ## Using a Debugger
 
-A <span g="symbolic_debugger">symbolic debugger</span> is a program that allows
-you to control and inspect the execution of another program. You can step
-through the target program a line at a time, display the values of variables or
-expressions, look at the call stack, or (my personal favorite) set *breakpoints*
-to say "pause the program when it reaches this line" . Depending on the language
-you're using, you may have to compile your program with certain options turned
-on to make it debuggable, but that's a small price to pay for the hours or days
-a debugger can save you when you're trying to track down a problem.
+The tools described above can make your life a lot more productive, but sooner
+or later you're going to have to track a bug down yourself.  A <span
+g="symbolic_debugger">symbolic debugger</span> is a program that allows you to
+control and inspect the execution of another program. Some, like [GDB][gdb], are
+standalone programs; others are built into IDEs, but they all have the same
+basic capabilities.  (Depending on the language you're using, you may have to
+compile or run your program with specific options to make it debuggable.)
 
-Some debuggers, like GDB, are standalone programs; others are build into IDEs.
-Both are better than adding `print` statements to your program, recompiling it,
-and re-running it because:
+<span g="breakpoint">Breakpoints<span>.
+:   You can tell the debugger to pause the program whenever it reaches a certain
+    line.  You can also create a <span g="conditional_breakpoint">conditional
+    breakpoint</span> that only pauses on that line if some test is true, e.g.,
+    if a list is empty or a loop index is zero.
 
--   adding `print` statements takes longer than clicking on a line and setting a
-  breakpoint;
+Inspection.
+:   While the program is paused, you can ask the debugger to show you the values
+    of variables in both the current active function call and in the call stack.
+    This is why we use the word "symbolic": instead of displaying the bytes at
+    particular addresses in memory, the debugger uses the names you wrote.
 
--   adding `print` statements distorts the code you're debugging by moving things
-  around in memory, altering the flow of control, and/or changing the timing
-  of thread execution; and
+Single-stepping.
+:   Rather than requiring you to set breakpoints on several successive lines,
+    the debugger allows you to step through the program a line at a time to see
+    which branches of `if`/`else` statements are taken or how the values of
+    variables change.  You can also tell it to step into function calls or just
+    step over them so that you can stay focused on one particular problem.
 
--   it's all too easy to make a mistake in the `print` statement---few things are
-  as frustrating as wasting an afternoon debugging a problem, only to realize
-  that the `print` statement you copied and pasted isn't displaying the values
-  you thought it was.
+Using a debugger is generally more productive than adding `print` statements to
+your program and re-running it:
+
+-   Adding `print` statements takes longer than clicking on a line and setting a
+    breakpoint.
+
+-   Adding `print` statements distorts the code you're debugging by moving things
+    around in memory, altering the flow of control, and/or changing the timing
+    of thread execution.
+
+-   It's all too easy to make a mistake in the `print` statement.  Few things are
+    as frustrating as wasting an afternoon debugging a problem, only to realize
+    that the `print` you copied and pasted isn't displaying the values you
+    thought it was.
+
+{: .continue}
+However, like all tools, a debugger only makes you more productive after you've
+learned how to use it.  The good news is that this only takes a few minutes if
+you're already using an IDE.
 
 <div class="callout" markdown="1">
 

@@ -1557,6 +1557,12 @@ Fiorella Zampetti, Carmine Vassallo, Sebastiano Panichella, Gerardo Canfora, Har
 "An Empirical Characterization of Bad Practices in Continuous Integration".
 <em>ESE</em>, 25(2), 2020, <a href="https://doi.org/10.1007/s10664-019-09785-8">10.1007/s10664-019-09785-8</a>.
 </dd>
+<dt id="zeller2009" class="bibliography">Zeller2009</dt>
+<dd>
+Andreas Zeller:
+<em>Why Programs Fail: A Guide to Systematic Debugging</em> (2nd edition).
+Morgan Kaufmann, 2009, 978-0080923000.
+</dd>
 <dt id="zeller2011" class="bibliography">Zeller2011</dt>
 <dd>
 Andreas Zeller, Thomas Zimmermann, and Christian Bird:

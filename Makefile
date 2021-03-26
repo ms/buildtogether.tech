@@ -104,11 +104,11 @@ LICENSE.md: _config.yml bin/make-license.py
 ## check: run all checks
 check:
 	@make check-bib
+	@make check-gloss
 	@make check-boilerplate
 	@make check-chunk-length
 	@make check-code-blocks
 	@make check-dom
-	@make check-gloss
 	@make check-links
 	@make check-numbering
 	@make check-spelling

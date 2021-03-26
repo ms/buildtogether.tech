@@ -70,6 +70,12 @@ contributing: []
 debugging:
 - key: automated_program_repair
   term: automated program repair
+- key: breakpoint
+  term: breakpoint
+- key: conditional_breakpoint
+  term: conditional breakpoint
+- key: delta_debugging
+  term: delta debugging
 - key: failure
   term: failure
 - key: fault

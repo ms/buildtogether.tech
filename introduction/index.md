@@ -57,9 +57,7 @@ educational.  Please see <span x="conclusion"/> for more details.
 
 Life is short and your project is even shorter, so this book focuses on the
 handful of tools and techniques that will help you the most in the short and
-medium term.  We have included other material as well, since there is a lot of
-variation between project courses (and even more between the people doing them),
-but the core topics include:
+medium term:
 
 -   How to work effectively in a small team when you are constantly being
     interrupted by other tasks like the homework for your other courses.
@@ -81,7 +79,10 @@ but the core topics include:
 
 -   What to do when things go wrong.
 
-The approach draws on a modified version of [Dobzhansky's Rule][dobzhansky]:
+We have included other material as well, since there is a lot of variation
+between project courses (and even more between the people doing them), but the
+core topics include.  Throughout, we are guided by a modified version of
+[Dobzhansky's Rule][dobzhansky]:
 
 <blockquote markdown="1">
 
@@ -104,7 +105,8 @@ change too.
 If you would like to improve what we have or add new material, please see the
 Code of Conduct in <span x="conduct"/> and the contributor guidelines in <span
 x="contributing"/>.  If you have questions or would like to use this material in
-a course, please [send us email][contact].
+a course, please [send us email][contact], and if you are looking for project
+ideas, please check out [Software Tools in JavaScript][stjs].
 
 ## Acknowledgments
 

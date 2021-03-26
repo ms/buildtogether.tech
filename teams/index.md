@@ -71,11 +71,12 @@ with questions about the project work, your mark on it may depend on how much
 you know about your teammates' work (<span x="delivery"/>).
 
 The most powerful argument for instructors selecting teams, though, is, "That's
-how it works in the real world." You probably won't get to pick your colleagues
-if you join a company or an academic research group. Instead, you'll be put on a
-project and expected to work well with whoever else is on it. Your performance
-will depend as much on your ability to get along with others as it will on your
-raw technical ability, so you might as well start practicing those skills now.
+how it works in the real world" <cite>Oakley2004</cite>.  You probably won't get
+to pick your colleagues if you join a company or an academic research
+group. Instead, you'll be put on a project and expected to work well with
+whoever else is on it. Your performance will depend as much on your ability to
+get along with others as it will on your raw technical ability, so you might as
+well start practicing those skills now.
 
 If instructors create teams, they should avoid isolating at-risk students.
 Women and members of racial minority groups are more likely to drop out of

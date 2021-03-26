@@ -1,33 +1,32 @@
 ---
 ---
 
-We have come a long way since we talked about crunch mode and how to run a meeting
-in <span x="important"/>.
-Using feature branches,
-triaging issues,
-designing software so that it can be tested,
-basing our opinions on the best available research,
-knowing your rights---good developers do all of these things,
-and I hope that understanding them will help you become better at your craft.
+We have come a long way since we talked about crunch mode and how to run a
+meeting in <span x="important"/>.  Using feature branches, triaging issues,
+designing software so that it can be tested---good developers do all of these
+things, and learning how to do them yourself will help you get more done in less
+time and with less pain.
 
-I also hope that your journey won't stop here.
-Pervasive surveillance,
-online harassment,
-radicalization,
-and the concentration of wealth and power in a few unaccountable hands (or algorithms):
-our industry has fueled them all,
-and if you think that being a programmer makes you immune to the fallout,
-think again.
-None of us can fix this alone;
-if you have learned a little from this book or your course about how to work well with others,
-then I hope you will choose to use it to make the world a slightly better place.
+But good developers know that programming well isn't enough: if you work long
+hours, shut people out of discussion, or build the wrong thing, you project may
+fail despite all the code you write.  You can learn how to run meetings, share
+ideas, base your opinions on the best available research, and protect people's
+rights in exactly the same way that you can learn how to use a debugger; I hope
+you will choose to do so.
 
-Contributions to this book are welcome,
-from errata and minor improvements to entirely new sections and chapters,
-and everyone whose work is incorporated will be acknowledged.
-If you'd like to join us,
-please file an issue or submit a pull request in [our GitHub repository][bst-repo],
-or see the contributors' guide (<span x="contributing"/>) for more information.
+I also hope that your journey won't stop here.  Pervasive surveillance, online
+harassment, radicalization, and the concentration of wealth and power in a few
+unaccountable hands (or algorithms): our industry has fueled them all, and if
+you think that being a programmer makes you immune to the fallout, think again.
+None of us can fix this alone; if you have learned a little from this book or
+your course about how to work well with others, then I hope you will choose to
+use it to make the world a slightly better place.
+
+Contributions to this book are welcome, from errata and minor improvements to
+entirely new sections and chapters, and everyone whose work is incorporated will
+be acknowledged.  If you'd like to join us, please file an issue or submit a
+pull request in [our GitHub repository][bst-repo], or see the contributors'
+guide (<span x="contributing"/>) for more information.
 
 ## Ten Simple Rules for Changing the World
 

@@ -74,9 +74,11 @@ for two decades.
 
 While they weren't the first people to test with random data, their results
 sparked interest in <span g="fuzz_testing">fuzz testing</span> (or "fuzzing" for
-short), which is now a standard part of most testers' repertoire. Despite this,
-<cite>Miller2020</cite> found that thirty years later, programs are still
-failing at about the same rate and for the same reasons.
+short), which is now a standard part of most testers' repertoire
+<cite>Zeller2019</cite>.  Despite this, <cite>Miller2020</cite> found that
+thirty years later, programs are still failing at about the same rate and for
+the same reasons.  <span x="debugging"/> discusses a technique for making fuzz
+testing even more useful.
 
 </div>
 

@@ -2987,6 +2987,16 @@
   number: 2
   year: 2020
 
+- key: Zeller2009
+  kind: book
+  author:
+  - Andreas Zeller
+  title: "Why Programs Fail: A Guide to Systematic Debugging"
+  edition: 2nd
+  publisher: Morgan Kaufmann
+  year: 2009
+  isbn: 978-0080923000
+
 - key: Zeller2011
   author:
   - Andreas Zeller

@@ -130,6 +130,12 @@
       separate [branch](#branch_git) is created for work on each new feature or
       each bug fix and merged when that work is completed.
 
+- key: breakpoint
+  en:
+    term: "breakpoint"
+    def: >
+      FIXME
+
 - key: brooks_law
   en:
     term: "Brook's Law"
@@ -308,6 +314,12 @@
     def: >
       FIXME
 
+- key: conditional_breakpoint
+  en:
+    term: "conditional breakpoint"
+    def: >
+      FIXME
+
 - key: conflict_git
   en:
     term: "conflict"
@@ -418,6 +430,12 @@
       A set of programming practices that assumes mistakes will happen and either
       reports or corrects them, such as inserting [assertions](#assertion) to report
       situations that are not ever supposed to occur.
+
+- key: delta_debugging
+  en:
+    term: "delta debugging"
+    def: >
+      FIXME
 
 - key: derive
   en:

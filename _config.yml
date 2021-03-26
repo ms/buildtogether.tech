@@ -147,6 +147,7 @@ kramdown:
       "fileshredder": ["https://voidtech.net/apps/fileshredder/", "FileShredder"],
       "flower-annalee": ["https://flowerhorne.com/", "Annalee Flower"],
       "flower-good-intent": ["https://thebias.com/2017/09/26/how-good-intent-undermines-diversity-and-inclusion/", "How 'Good Intent' Undermines Diversity and Inclusion"],
+      "gdb": ["https://www.gnu.org/software/gdb/", "GDB"],
       "gebru-firing": ["https://www.fastcompany.com/90608471/timnit-gebru-google-ai-ethics-equitable-tech-movement", "This is bigger than just Timnit"],
       "gender-decoder": ["http://gender-decoder.katmatfield.com/", "Gender Decoder"],
       "gendermag": ["http://gendermag.org/", "GenderMag"],
