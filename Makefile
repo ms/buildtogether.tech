@@ -151,6 +151,10 @@ check-spelling: ${HOME_PAGE}
 
 ## ----
 
+## show-chapters: how many words are in each chapter?
+show-chapters:
+	@bin/show-chapters.py --config ${CONFIG} | column -t -s '|'
+
 ## show-dom: what classes and other attributes are used?
 show-dom: ${HOME_PAGE}
 	@bin/show-dom.py --sources ${HTML}
