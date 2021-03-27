@@ -30,6 +30,12 @@
     def: >
       FIXME
 
+- key: agile
+  en:
+    term: "agile development"
+    def: >
+      FIXME
+
 - key: ally
   en:
     term: "ally"
@@ -1370,6 +1376,12 @@
     def: >
       FIXME
 
+- key: scrum
+  en:
+    term: "Scrum"
+    def: >
+      FIXME
+
 - key: security_theater
   en:
     term: "security theater"
@@ -1422,6 +1434,12 @@
 - key: spearphishing
   en:
     term: "spearphishing"
+    def: >
+      FIXME
+
+- key: sprint
+  en:
+    term: "sprint"
     def: >
       FIXME
 

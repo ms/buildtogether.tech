@@ -190,9 +190,11 @@ entries:
   slug: evaluation
   title: Performance Evaluation
 figures:
+  boehms-curve: '19.2'
   er-diagram: '12.1'
+  feedback-loops: '19.1'
   four-models-of-instruction: '3.1'
-  process-matrix: '19.1'
+  process-matrix: '19.3'
   start-homework-5: '8.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3

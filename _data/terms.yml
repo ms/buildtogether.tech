@@ -289,6 +289,8 @@ novices: []
 process:
 - key: ae
   term: analysis & estimation
+- key: agile
+  term: agile development
 - key: boehm_curve
   term: Boehm Curve
 - key: business_rule
@@ -307,6 +309,10 @@ process:
   term: project manager
 - key: schema
   term: schema
+- key: scrum
+  term: Scrum
+- key: sprint
+  term: sprint
 - key: stand_up_meeting
   term: stand-up meeting
 - key: tdd
