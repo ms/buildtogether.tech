@@ -128,7 +128,7 @@ entries:
   kind: Chapter
   label: '26'
   slug: delivery
-  title: At the End of the Day
+  title: Wrapping Up
 - file: ./10-handover/index.md
   kind: Chapter
   label: '27'

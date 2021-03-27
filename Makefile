@@ -77,7 +77,7 @@ make-numbering: ${NUM_OUT}
 
 ## make-spelling: create list of unknown words
 make-spelling: ${HOME_PAGE}
-	@cat ${HTML} | aspell -H list | sort | uniq
+	@cat ${HTML} | bin/prep-spelling.py | aspell -H list | sort | uniq
 
 ## make-terms: create YAML file listing terms per chapter
 make-terms: ${TERMS_OUT}
@@ -148,7 +148,7 @@ check-numbering: ${NUM_OUT}
 
 ## check-spelling: check for misspelled words
 check-spelling: ${HOME_PAGE}
-	@cat ${HTML} | aspell -H list | sort | uniq | bin/check-spelling.py --compare _data/spelling.txt
+	@cat ${HTML} | bin/prep-spelling.py | aspell -H list | sort | uniq | bin/check-spelling.py --compare _data/spelling.txt
 
 ## ----
 

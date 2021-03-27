@@ -209,8 +209,42 @@ doing this is that you have to either commit to using one database in both
 environments, or avoid using the "improvements" that different databases have
 added to SQL.
 
-A third choice is to replace the database with a <span g="mock_object">mock object</span>.
-<span class="fixme">mock object</span>.
+<div class="callout" markdown="1">
+
+### Mock objects
+
+A third choice is to replace the database with a <span g="mock_object">mock
+object</span>.  A mock object has the same interface as the function, object,
+class, or library that it replaces, but is designed to be used solely for
+testing.  For example, Node's `mock-fs` library provides the same functions as
+its standard filesystem library, but stores everything in memory.  This prevents
+tests that create or delete files from doing anything unfortunate and also makes
+tests much faster (since in-memory operations are thousands of times faster than
+operations that touch the disk).
+
+A mock object can also be designed to give pre-programmed responses to just a
+handful of specific requests:
+
+```py
+INDEX_PAGE = '<html><body><h1>Index Page</h1></body></html>'
+USER_PAGE = '<html><body><h1>User Page</h1></body></html>'
+
+def mock_http_server(url):
+    if url == '/':
+        return INDEX_PAGE
+    elif url in ['/user/', '/user/index.html']:
+        return USER_PAGE
+    else:
+        raise UrlError(f'unhandled URL "{url}"')
+```
+
+{: .continue}
+The strength of the pre-programmed approach is that if anything ever sends an
+unexpected URL, the failure will be obvious.  The weakness is the tedium of
+writing out all the cases, though in most testing scenarios there are fewer than
+you might expect.
+
+</div>
 
 Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
