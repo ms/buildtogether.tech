@@ -14,10 +14,10 @@ Adesope
 Affilia
 Ahmadou
 Ahsun
+Airbender
 Aivaloglou
 Akerblom
 Alam
-Aleata
 Alexey
 Alexi
 Almeida
@@ -97,6 +97,7 @@ Blakely
 BleachBit
 Blincoe
 Boehm
+Boehm's
 Boettcher
 Bogdan
 Bohay
@@ -561,7 +562,6 @@ Orgovan
 Orna
 Ostblom
 PACMPL
-PCK
 PDFs
 PLoS
 PNAS
@@ -821,6 +821,7 @@ Whitlock
 Wickham
 Wiese
 Winton
+Wlodkowski
 Wrigstad
 XSS
 XYZ
@@ -896,6 +897,7 @@ de
 debuggable
 decompositions
 defense
+demotivation
 der
 dev
 di
@@ -980,7 +982,6 @@ rebase
 rebasing
 recurse
 refactorings
-reframe
 reinitializing
 relabeled
 repo

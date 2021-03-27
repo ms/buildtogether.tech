@@ -518,3 +518,10 @@ two humps. These beliefs matter because they are a self-fulfilling prophecy
 <cite>Brophy1983</cite>: if a teacher believes that student A is more likely to
 succeed than student B, they will give student A more attention, which *makes*
 them more likely to succeed, which confirms the teacher's bias.
+
+## Next Steps
+
+Some of the most interesting work in software engineering today is coming from
+people studying how we think when we program, and how the ways we think should
+shape the tools we build. <cite>Johnson2020</cite> is one example: it reverse
+engineers the psychological foundations of user interface guidelines.

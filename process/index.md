@@ -35,7 +35,7 @@ less attention to others.
    alt="Feedback loops"
    cap="Software development feedback loops on different timescales." %}
 
-<span g="pair_programming" i="pair programming>Pair programming</span>.
+<span g="pair_programming" i="pair programming">Pair programming</span>.
 :   One programmer, the driver, does the typing, while the other, called the
     navigator, watches and comments.  Every twenty minutes or or so, the pair
     switches roles.  The benefits of pair programming are proven for students as
@@ -500,8 +500,8 @@ users' needs to revise the spec.  What features do you now believe are unlikely
 to be used?  Which ones could be consolidated?  Most importantly, which of the
 users' needs that your original plan *wouldn't* satisfy could you help with?
 Figuring this out is one of a project manager's most important responsibilities
-<cite>Perri2018</cite>; whever you do, don't fall into the trap of thinking that
-you have to build something because you originally thought you should.
+<cite>Perri2018</cite>; whatever you do, don't fall into the trap of thinking
+that you have to build something because you originally thought you should.
 
 ## Which Process Should You Use?
 

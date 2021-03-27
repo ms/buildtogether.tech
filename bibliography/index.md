@@ -734,12 +734,6 @@ Yang Hu, Umair Z. Ahmed, Sergey Mechtaev, Ben Leong, and Abhik Roychoudhury:
 "Re-Factoring Based Program Repair Applied to Programming Assignments".
 <em>Proc. ASE'19</em>.
 </dd>
-<dt id="hubbard2018" class="bibliography">Hubbard2018</dt>
-<dd>
-Aleata Hubbard:
-"Pedagogical Content Knowledge in Computing Education: A Review of the Research Literature".
-<em>CSE</em>, 28(2), 2018, <a href="https://doi.org/10.1080/08993408.2018.1509580">10.1080/08993408.2018.1509580</a>.
-</dd>
 <dt id="huijgens2020" class="bibliography">Huijgens2020</dt>
 <dd>
 Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, and Arie van Deursen:
@@ -1521,6 +1515,12 @@ Mairieli Wessel, Alexander Serebrenik, Igor Wiese, Igor Steinmacher, and Marco A
 "Effects of Adopting Code Review Bots on Pull Requests to OSS Projects".
 <em>Proc. ICSME'20</em>, <a href="https://doi.org/10.1109/icsme46990.2020.00011">10.1109/icsme46990.2020.00011</a>.
 </dd>
+<dt id="wilkinson2011" class="bibliography">Wilkinson2011</dt>
+<dd>
+Richard Wilkinson and Kate Pickett:
+<em>The Spirit Level: Why Greater Equality Makes Societies Stronger</em>.
+Bloomsbury Press, 2011, 978-1608193417.
+</dd>
 <dt id="williams2001" class="bibliography">Williams2001</dt>
 <dd>
 Laurie Williams and Richard L. Upchurch:
@@ -1532,6 +1532,12 @@ Laurie Williams and Richard L. Upchurch:
 Greg Wilson:
 <em>Teaching Tech Together</em>.
 Chapman & Hall/CRC Press, 2019, 978-0367352974.
+</dd>
+<dt id="wlodkowski2017" class="bibliography">Wlodkowski2017</dt>
+<dd>
+Raymond J. Wlodkowski and Margery B. Ginsberg:
+<em>Enhancing Adult Motivation to Learn: A Comprehensive Guide for Teaching All Adults</em>.
+Jossey-Bass, 2017, 978-1119077992.
 </dd>
 <dt id="xu2015" class="bibliography">Xu2015</dt>
 <dd>
