@@ -376,7 +376,7 @@ Markdown (`.md`) files.
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
     contribution guidelines increase the odds of people contributing (<span
-    x="wide-world"/>); in my experience, they also reduce friction between
+    x="outside-class"/>); in my experience, they also reduce friction between
     team members.
 
 `CONDUCT`

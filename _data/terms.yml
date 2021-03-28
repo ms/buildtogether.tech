@@ -286,6 +286,11 @@ methods:
 - key: treatment_group
   term: treatment group
 novices: []
+outside-class:
+- key: myers_briggs
+  term: Myers-Briggs Type Indicator
+- key: ocean_model
+  term: OCEAN model
 process:
 - key: ae
   term: analysis & estimation
@@ -535,8 +540,3 @@ tooling:
   term: virtual machine
 - key: wysiwyg
   term: What You See Is What You Get
-wide-world:
-- key: myers_briggs
-  term: Myers-Briggs Type Indicator
-- key: ocean_model
-  term: OCEAN model

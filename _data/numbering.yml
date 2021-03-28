@@ -94,10 +94,10 @@ entries:
   label: '19'
   slug: process
   title: Process
-- file: ./wide-world/index.md
+- file: ./outside-class/index.md
   kind: Chapter
   label: '20'
-  slug: wide-world
+  slug: outside-class
   title: Outside Class
 - file: ./10-newcomers/index.md
   kind: Chapter
