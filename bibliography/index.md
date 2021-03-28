@@ -1509,6 +1509,18 @@ Yana Weinstein, Megan Sumeracki, and Oliver Caviglioli:
 <em>Understanding How We Learn: A Visual Guide</em>.
 Routledge, 2018, 978-1138561724.
 </dd>
+<dt id="weintrop2017" class="bibliography">Weintrop2017</dt>
+<dd>
+David Weintrop and Nathan Holbert:
+"From Blocks to Text and Back: Programming Patterns in a Dual-modality Environment".
+<em>Proc. SIGCSE'17</em>, <a href="https://doi.org/10.1145/3017680.3017707">10.1145/3017680.3017707</a>.
+</dd>
+<dt id="weintrop2019" class="bibliography">Weintrop2019</dt>
+<dd>
+David Weintrop, Heather Killen, Talal Munzar, and Baker Franke:
+"Block-based Comprehension: Exploring and Explaining Student Outcomes from a Read-only Block-based Exam".
+<em>Proc. SIGCSE'19</em>, <a href="https://doi.org/10.1145/3287324.3287348">10.1145/3287324.3287348</a>.
+</dd>
 <dt id="wenger1999" class="bibliography">Wenger1999</dt>
 <dd>
 Etienne Wenger:

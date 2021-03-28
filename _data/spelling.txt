@@ -245,6 +245,7 @@ Fogel
 Forsgren
 Fortran
 Foutse
+Franke
 Fredriksen
 FreeBSD
 Friesen
@@ -343,6 +344,7 @@ Hoda
 Hoek
 Hofmeister
 Hofstra
+Holbert
 Homebrew
 Horenstein
 Hossein
@@ -421,6 +423,7 @@ Kernighan
 Ketant
 Khaled
 Khomh
+Killen
 Kinshuman
 Kinshumann
 Kirschner
@@ -521,6 +524,7 @@ Moshe
 Mosher
 Mujahid
 Mulders
+Munzar
 Münch
 NOAA's
 NPM
@@ -755,6 +759,7 @@ TSE
 TSEM
 Taatgen
 Takashi
+Talal
 Talwadker
 Tamplin
 Tanter
@@ -814,6 +819,7 @@ WebAIM
 Wehaibi
 Weimer
 Weinstein
+Weintrop
 Wenger
 Wessel
 Westley
@@ -886,6 +892,7 @@ canceled
 catalogs
 centric
 choosealicense
+clickability
 color
 colored
 colorized
@@ -908,6 +915,7 @@ doi
 don'ts
 dostrings
 dr
+draggability
 else's
 emptively
 eneething

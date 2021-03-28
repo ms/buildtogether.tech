@@ -2883,6 +2883,28 @@
   year: 2018
   isbn: 978-1138561724
 
+- year: 2017
+  author:
+  - David Weintrop
+  - Nathan Holbert
+  booktitle: "Proc. SIGCSE'17"
+  doi: 10.1145/3017680.3017707
+  key: Weintrop2017
+  kind: inproceedings
+  title: "From Blocks to Text and Back: Programming Patterns in a Dual-modality Environment"
+
+- key: Weintrop2019
+  author:
+  - David Weintrop
+  - Heather Killen
+  - Talal Munzar
+  - Baker Franke
+  booktitle: "Proc. SIGCSE'19"
+  doi: 10.1145/3287324.3287348
+  kind: inproceedings
+  title: "Block-based Comprehension: Exploring and Explaining Student Outcomes from a Read-only Block-based Exam"
+  year: 2019
+
 - key: Wenger1999
   kind: book
   author:

@@ -127,21 +127,29 @@ it is to read the error messages strongly predicts task performance.
 
 ## Does Visualization Help?
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/16 (blocks)</span>
-
 Visualizing program execution is a perennially popular idea, but people learn
 more from constructing visualizations than they do from viewing visualizations
 constructed by others <cite>Stasko1998,Cetin2016</cite>, so does visualization
-actually help learning?  To answer this, <cite>Cunningham2017</cite> replicated
-an earlier study of the kinds of sketching learners do when tracing code
-execution.  They found that not sketching at all correlates with lower success,
-while tracing changes to variables' values by writing new values near their
-names as they change was the most effective strategy.
+actually help learning?
 
-One possible confounding effect they checked was time: since sketchers take
-significantly more time to solve problems, do they do better just because they
-think for longer?  The answer is no: there was no correlation between the time
-taken and the score achieved.
+To answer this, <cite>Cunningham2017</cite> replicated an earlier study of the
+kinds of sketching learners do when tracing code execution.  They found that not
+sketching at all correlates with lower success, while tracing changes to
+variables' values by writing new values near their names as they change was the
+most effective strategy.  One possible confounding effect they checked was time:
+since sketchers take significantly more time to solve problems, do they do
+better just because they think for longer?  The answer is no: there was no
+correlation between the time taken and the score achieved.
+
+Another interesting result is presented in <cite>Weintrop2019</cite>.  They had
+students answer written programming questions presented either as pseudocode or
+as blocks of the kind used in [Scratch][scratch]. They found that students did
+significantly better with blocks, which suggests the advantage for novices comes
+from the visual representation of the program rather than from the draggability
+or clickability. Another study from the same team found that when students are
+able to flip back and forth between blocks and text, they will switch from text
+to blocks, move the blocks around, then switch back to text, essentially using
+blocks as a memory aid <cite>Weintrop2017</cite>.
 
 One often-overlooked finding about visualization is that people understand
 flowcharts better than pseudocode *if both are equally well structured*
