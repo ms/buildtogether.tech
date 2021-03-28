@@ -1,12 +1,11 @@
 ---
 ---
 
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/37 link</span>
-
 Your course project will probably end when the course does, but you might decide
 to carry on with it.  If you do, and if other people join in, you may eventually
 decide that it's time for you to move over.  This advice is based on my
-experience of doing that; see [this talk][carpentrycon-talk] for more detail.
+experience of doing that; see [this post][petrov-handing-over] for some more
+ideas or [this talk][carpentrycon-talk] for some personal reflections.
 
 1. Be sure you mean it.
 :   Letting go will be hard on you, but not letting go will be even harder on your

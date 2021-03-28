@@ -188,6 +188,7 @@ kramdown:
       "osi-license-list": ["https://opensource.org/licenses", "Open Source Initiative License List"],
       "pep8": ["https://www.python.org/dev/peps/pep-0008/", "PEP 8 Style Guide for Python Code"],
       "petre-marian": ["https://www.open.ac.uk/people/mp8", "Marian Petre"],
+      "petrov-handing-over": ["https://shazow.net/posts/how-to-hand-over-an-open-source-project-to-a-new-maintainer/", "How to hand over an Open Source project to a new maintainer"],
       "pip": ["https://pypi.org/project/pip/", "pip"],
       "plantuml": ["https://plantuml.com/", "PlantUML"],
       "program-repair": ["https://program-repair.org/", "Program Repair"],
