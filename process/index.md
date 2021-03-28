@@ -1,13 +1,13 @@
 ---
 ---
 
-A <span g="development_process">development process</span> defines who does
-what, when, in order to build a piece of software.  Many have been described
-over the last fifty-odd years; most have passionate advocates and equally
-passionate detractors, but the differences between them are smaller in practice
-than in theory.  This chapter therefore starts by describing how most
-programmers work day-to-day and how to adapt that routine to the chaos of
-student life.
+A <span g="development_process" i="development process">development
+process</span> defines who does what, when, in order to build a piece of
+software.  Many have been described over the last fifty-odd years; most have
+passionate advocates and equally passionate detractors, but the differences
+between them are smaller in practice than in theory.  This chapter therefore
+starts by describing how most programmers work day-to-day and how to adapt that
+routine to the chaos of student life.
 
 <div class="callout" markdown="1">
 

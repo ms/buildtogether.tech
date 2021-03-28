@@ -70,13 +70,14 @@ any more than we can explain how we recognize faces.
 
 ### Learning styles aren't a thing
 
-You may have heard of "<span i="learning styles">learning styles</span>", i.e.,
-that some people learn better visually, while others do so more quickly or more
-accurately by listening, reading, or otherwise using language. It's bullshit:
-while lots of companies make and sell materials based on this myth, no one has
-ever shown that tuning what or how we teach to match people's preferences has
-any impact on outcomes <cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs
-type indicator">Myers-Briggs personality types</span> (<span x="wide-world"/>),
+You may have heard of "<span i="learning styles; pseudoscience!learning
+styles">learning styles</span>", i.e., that some people learn better visually,
+while others do so more quickly or more accurately by listening, reading, or
+otherwise using language. It's bullshit: while lots of companies make and sell
+materials based on this myth, no one has ever shown that tuning what or how we
+teach to match people's preferences has any impact on outcomes
+<cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs type
+indicator">Myers-Briggs personality types</span> (<span x="wide-world"/>),
 learning styles belong with healing crystals and astrology.
 
 </div>
@@ -221,7 +222,7 @@ This is one of the differences between your brain and a computer: reading data
 from a hard drive doesn't alter it, but every time you access something in LTM,
 you may write it back in a different or augmented form. We call this "learning".
 
-Here's the problem: <span i="short-term memory (limited capacity of)">STM is
+Here's the problem: <span i="short-term memory!limited capacity of">STM is
 very small</span>.  <cite>Miller1956</cite> famously estimated that it could
 hold 7±2 things at one time; more modern estimates put the number closer to 4±1
 <cite>Didau2016</cite>. This means that STM is a bottleneck for learning: if too
@@ -232,13 +233,13 @@ learning won't take place.
 This realization and others have produced the theory of <span g="cognitive_load"
 i="cognitive load theory">cognitive load</span>, which (among other things)
 divides the things you have to do while learning into three categories. The
-<span g="intrinsic_load" i="intrinsic load; cognitive load
-(intrinsic)">intrinsic load</span> is the thinking that is required by the
-learning task itself. The <span g="germane_load" i="germane load; cognitive load
-(germane)">germane</span> (or relevant) load is the other thinking that the
-problem requires, but which isn't the focus of the lesson, while the <span
-g="extraneous_load" i="extraneous load; cognitive load (extraneous)">extraneous
-load</span> is everything you're being asked to do that is irrelevant.
+<span g="intrinsic_load" i="intrinsic load; cognitive load!intrinsic">intrinsic
+load</span> is the thinking that is required by the learning task itself. The
+<span g="germane_load" i="germane load; cognitive load!germane">germane</span>
+(or relevant) load is the other thinking that the problem requires, but which
+isn't the focus of the lesson, while the <span g="extraneous_load" i="extraneous
+load; cognitive load!extraneous">extraneous load</span> is everything you're
+being asked to do that is irrelevant.
 
 For example, suppose you are learning the grammar of Frisian. If I ask you to
 translate, "How is her knee today?" then the intrinsic load is the rules of
@@ -261,10 +262,11 @@ working with code written in a mix of styles is so painful: each minor
 difference adds extraneous load.
 
 In order to handle larger sets of information, our minds create <span
-g="chunking" i="chunking">chunks</span> that only take up one slot in STM.  For
-example, most of us remember words as single items rather than as sequences of
-letters.  Similarly, the pattern made by five spots on cards or dice is
-remembered as a whole rather than as five separate pieces of information.
+g="chunking" i="chunking; short-term memory!chunking">chunks</span> that only
+take up one slot in STM.  For example, most of us remember words as single items
+rather than as sequences of letters.  Similarly, the pattern made by five spots
+on cards or dice is remembered as a whole rather than as five separate pieces of
+information.
 
 Experts have more and larger chunks than non-experts, i.e., experts "see" larger
 patterns and have more patterns to match things against.  This allows them to
@@ -288,7 +290,7 @@ have been proven to help people learn faster and better
 <cite>Weinstein2018</cite>.  While researchers still disagree on *why* they
 work, everyone now agrees that they *do*.
 
-<span i="spaced practice">Spaced practice</span>.
+<span i="spaced practice; learning strategies!spaced practice">Spaced practice</span>.
 :   Ten hours of study spread out over five days is more effective than two
     five-hour days, and far better than one ten-hour day.  You should therefore
     create a study schedule that spreads study activities over time: block off
@@ -300,7 +302,7 @@ work, everyone now agrees that they *do*.
     any gaps or mistakes in previous sets of notes while there's still time to
     correct them or ask questions.
 
-<span i="retrieval practice">Retrieval practice</span>.
+<span i="retrieval practice; learning strategies!retrieval practice">Retrieval practice</span>.
 :   The limiting factor for long-term memory is not retention (what is stored)
     but recall (what can be accessed).  Recall of specific information improves
     with practice, so outcomes in real situations can be improved by taking
@@ -322,7 +324,7 @@ work, everyone now agrees that they *do*.
     swapping flash cards with a partner helps you discover important ideas that
     you may have missed or misunderstood.
 
-<span i="interleaving">Interleaving</span>.
+<span i="interleaving; learning strategies!interleaving">Interleaving</span>.
 :   One way you can space your practice is to interleave study of different
     topics: instead of mastering one subject, then a second and third, shuffle
     study sessions.  Even better, switch up the order: `A-B-C-B-A-C` is better
@@ -334,7 +336,7 @@ work, everyone now agrees that they *do*.
     or practice tests to gauge your progress, you should see improvement after
     only a couple of days.
 
-<span i="elaboration">Elaboration</span>.
+<span i="elaboration; learning strategies!elaboration">Elaboration</span>.
 :   Explaining things to yourself as you go through them helps you understand
     and remember them.  One way to do this is to follow up each answer on a
     practice quiz with an explanation of why that answer is correct, or
@@ -352,13 +354,13 @@ work, everyone now agrees that they *do*.
     line with a class, having a different person explain each line in turn and
     say why it is there and what it accomplishes.
 
-    <span i="note-taking">Note-taking</span> is a form of real-time elaboration:
-    it forces you to organize and reflect on material as it's coming in, which
-    in turn increases the likelihood that you will transfer it to long-term
-    memory.  Many studies have shown that taking notes while learning improves
-    retention <cite>Aiken1975,Bohay2011</cite>.
+    <span i="note-taking (as a learning strategy)">Note-taking</span> is a form
+    of real-time elaboration: it forces you to organize and reflect on material
+    as it's coming in, which in turn increases the likelihood that you will
+    transfer it to long-term memory.  Many studies have shown that taking notes
+    while learning improves retention <cite>Aiken1975,Bohay2011</cite>.
 
-<span i="concrete examples">Concrete examples</span>.
+<span i="concrete examples; learning strategies!concrete examples">Concrete examples</span>.
 :   One particularly useful form of elaboration is the use of concrete examples.
     Whenever you have a statement of a general principle, try to provide one or
     more examples of its use, or conversely take each particular problem and
@@ -373,7 +375,7 @@ work, everyone now agrees that they *do*.
     examples actually embody the principle being discussed or which principles
     are used in an example that they haven't listed.
 
-<span i="dual coding">Dual coding</span>.
+<span i="dual coding; learning strategies!dual coding">Dual coding</span>.
 :   Different subsystems in our brains handle and store linguistic and visual
     information, so if complementary information is presented through both
     channels, they can reinforce one another.  However, learning is less
@@ -400,15 +402,16 @@ to repeat the error if they are corrected.
 
 One of the strongest predictors of whether or not a <span
 i="neurotypical">neurotypical</span> adult will learn something or not is
-whether they are <span i="intrinsic motivation">intrinsically motivated</span>
-to learn it, i.e., whether they're learning it to satisfy their own goals.  If
-someone is <span i="extrinsic motivation">extrinsically motivated</span>---for
-example, if they're taking a course because it's a degree requirement but they
-have no real interest in the topic---the learning probably won't stick
-<cite>Wlodkowski2017</cite>.  While motivation is deeply personal, these three
-factors influence most people:
+whether they are <span i="intrinsic motivation;
+motivation!intrinsic">intrinsically motivated</span> to learn it, i.e., whether
+they're learning it to satisfy their own goals.  If someone is <span
+i="extrinsic motivation; motivation!extrinsic">extrinsically
+motivated</span>---for example, if they're taking a course because it's a degree
+requirement but they have no real interest in the topic---the learning probably
+won't stick <cite>Wlodkowski2017</cite>.  While motivation is deeply personal,
+these three factors influence most people:
 
-<span i="self-efficacy">Self-efficacy</span>.
+<span i="self-efficacy; motivation!self-efficacy">Self-efficacy</span>.
 :   Also called self-determination, this is the degree to which you feel you are
     in control of your own life. People don't enjoy being treated like robots;
     anything the teacher does to put control back in their hands will increase

@@ -19,15 +19,16 @@
 
 ### Myers-Briggs and other danger signs
 
-The <span g="myers_briggs" i="Myers-Briggs Type Indicator; pseudoscience
-(Myers-Briggs Type Indicator)">Myers-Briggs Type Indicator</span> (MBTI)
-advertises itself as personality profiling tool.  It is popular on dating sites
-and some companies use it as part of their interview process---despite the fact
-that it is complete bullshit.  Half or more of people who repeat the test within
-a few weeks get a different personality classification, it fails to predict job
-performance, and its categories are based on outdated (and very Western-centric)
-psychological theories.  If a potential employer asks you to do it as part of
-the interview process, ask them if they would like a horoscope as well.
+The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
+pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
+(MBTI) advertises itself as personality profiling tool.  It is popular on dating
+sites and some companies use it as part of their interview process---despite the
+fact that it is complete bullshit.  Half or more of people who repeat the test
+within a few weeks get a different personality classification, it fails to
+predict job performance, and its categories are based on outdated (and very
+Western-centric) psychological theories.  If a potential employer asks you to do
+it as part of the interview process, ask them if they would like a horoscope as
+well.
 
 Myers-Briggs has given the whole notion of personality profiling a bad
 reputation.  Ironically, there *are* models of personality that have a

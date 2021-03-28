@@ -5,19 +5,21 @@ Now that the most important stuff is out of the way, let's take a closer look at
 what you're actually supposed to be doing.  On one side are homework
 assignments, which typically include a handful of problems related to
 recently-taught material that you are meant to solve in a week or two.  On the
-other side are industrial internships or co-op terms in which you work full- or
-part-time for a company, drawing a salary and suffering through quarterly
-PowerPoint presentations on corporate strategy.  Lectures and exams usually
-aren't a part of these, though if you're lucky (or if the company you're working
-for knows what it's doing) you'll be paired with a mentor who will teach you
-some of the things in these notes.
+other side are industrial <span i="internship">internships</span> or <span
+i="co-op">co-op</span> terms in which you work full- or part-time for a company,
+drawing a salary and suffering through quarterly PowerPoint presentations on
+corporate strategy.  Lectures and exams usually aren't a part of these, though
+if you're lucky (or if the company you're working for knows what it's doing)
+you'll be paired with a mentor who will teach you some of the things in these
+notes.
 
 In between are courses with names like "Introduction to Software Engineering",
 "Senior Thesis Project", or "Computer Science Capstone".  For the purposes of
-this guide, these have three characteristics.  First, learning how to work in a
-team is a goal of the course.  This distinguishes these courses from (for
-example) upper-level courses in operating systems or computer graphics, in which
-you're working in a team but not being taught explicitly how to do so.
+this guide, these have <span i="project course!characteristics of">three
+characteristics</span>.  First, learning how to work in a team is a goal of the
+course.  This distinguishes these courses from (for example) upper-level courses
+in operating systems or computer graphics, in which you're working in a team but
+not being taught explicitly how to do so.
 
 Second, your grade depends primarily on the software you build.  You may also
 be required to write reports and sit an exam, but these are based on the
