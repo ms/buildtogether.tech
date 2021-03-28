@@ -356,16 +356,19 @@ website like this one, for example, the layout is:
     plugins, on the other hand, the authors have to generated the HTML and
     commit it themselves.
 
-Learning what goes where for your languages of choice is like learning when to
-signal when driving a car: the rules may vary from place to place, but
-everywhere *has* rules, and knowing them will help prevent you from crashing.
-There are, however, a few things that every project needs.
+If your project's goal is to build a package, on the other hand, you will have
+to organize your files according to the packaging system's rules; <span
+x="design"/> gives an example.  In all cases, learning what goes where is like
+learning when to signal when driving a car: the rules may vary from place to
+place, but everywhere *has* rules, and knowing them will help prevent you from
+crashing.
 
 ## Standard Files
 
-Every project should have a handful of files in its root directory; these may
-have UPPERCASE names without an extension, or may be plain text (`.txt)` or
-Markdown (`.md`) files.
+Regardless of language or packaging system, every project should have a <span
+i="standard project files; project organization!standard files">handful of
+standard files</span> in its root directory.  These may have UPPERCASE names
+without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
 
 `README`
 :   A brief overview of the project that often serves as its home page on

@@ -243,11 +243,11 @@ added to that blog. This allows the project's members to see changes scroll by
 in their usual blog reader, which is a handy way to keep track of what their
 teammates are doing.
 
-If you are going to create a blog, use a <span g="static_site_generator">static
-site generator</span> to format and publish content consistently.  On GitHub,
-for example, you can create a site with [GitHub Pages][github-pages] using a
-tool called [Jekyll][jekyll]; lots of different themes are available, and there
-are many good tutorials online.
+If you are going to create a blog, use a <span g="static_site_generator"
+i="static site generator">static site generator</span> to format and publish
+content consistently.  On GitHub, for example, you can create a site with
+[GitHub Pages][github-pages] using a tool called [Jekyll][jekyll]; lots of
+different themes are available, and there are many good tutorials online.
 
 <div class="callout" markdown="1">
 

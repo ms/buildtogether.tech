@@ -1730,6 +1730,15 @@
   year: 1999
   doi: 10.1037/0022-3514.77.6.1121
 
+- key: Kuchner2011
+  author:
+  - Marc J. Kuchner
+  isbn: 978-1597269940
+  kind: book
+  publisher: Island Press
+  title: "Marketing for Scientists: How to Shine in Tough Times"
+  year: 2011
+
 - key: Lamba2020
   author:
   - Hemank Lamba

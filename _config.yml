@@ -177,6 +177,7 @@ kramdown:
       "lua": ["https://www.lua.org/", "Lua"],
       "make": ["https://www.gnu.org/software/make/", "GNU Make"],
       "marthas-rules": ["https://journals.sagepub.com/doi/10.1177/088610998600100206", "Martha's Rules"],
+      "mathml": ["https://www.w3.org/Math/", "MathML"],
       "mercurial": ["https://www.mercurial-scm.org/", "Mercurial"],
       "noaa-disruptive": ["https://coast.noaa.gov/ddb/", "Dealing with Disruptive Behaviors"],
       "nodejs": ["https://nodejs.org/en/", "Node.js"],

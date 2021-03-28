@@ -383,7 +383,6 @@ JSTL
 Jacoby
 Jakita
 Jarry
-Javadoc
 Jelena
 Jelmer
 Jere
@@ -433,6 +432,7 @@ Koli
 Kramdown
 Krein
 Krueger
+Kuchner
 Kuhrmann
 Kula
 Kulikova
@@ -883,7 +883,6 @@ breakpointing
 callout
 callout's
 canceled
-cataloging
 catalogs
 centric
 choosealicense
@@ -933,6 +932,7 @@ humor
 hypercorrection
 impactful
 inclusivity
+installable
 js
 kan
 keychain

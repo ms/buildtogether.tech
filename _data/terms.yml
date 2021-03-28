@@ -87,6 +87,14 @@ debugging:
 - key: symbolic_debugger
   term: symbolic debugger
 delivery:
+- key: build_number
+  term: build number
+- key: marketing
+  term: marketing
+- key: patch
+  term: patch
+- key: post_mortem
+  term: post-mortem
 - key: semantic_versioning
   term: semantic versioning
 - key: version_number

@@ -1,20 +1,27 @@
 ---
 ---
 
-<span class="fixme">grades https://github.com/gvwilson/buildtogether.tech/issues/41</span>
+In most courses, once you submit an assignment you never have to work on it
+again. Project courses are different:
 
-In most courses, once you've handed in an assignment you're done with it. Course
-projects are different: they often roll forward from one term to the next, so
-the end of one team's involvement isn't necessarily the end of the project, and
-they are meant to simulate real life, where delivery of a particular version is
-just another step in the product lifecycle.  This chapter describes some things
-you might be asked to do during your project or at its end; even if you're not
-asked, most of them are worth doing.
+1.  Assignments are cumulative, i.e., each one builds on the ones before it.
 
-At a bare minimum, your project should finish with:
+1.  Projects may roll forward from one term to the next, so the end of one team's
+    involvement isn't necessarily the end of the project.
 
-1.  An attractive home page with an elevator pitch and a few paragraphs or
-    bullet lists to help newcomers orient themselves.
+1.  These courses are meant to simulate real life, where delivery of a
+    particular version is just another step in the product lifecycle.
+
+This chapter describes some things you might be asked to do when wrapping up.
+Even if they aren't required, doing them is good practice for working in the
+real world.
+
+## What to Deliver
+
+At a minimum, your finished project should have:
+
+1.  A home page with an elevator pitch and a few paragraphs or bullet lists to
+    help newcomers orient themselves.
 
 1.  An architectural overview, including a block diagram of the major components
     and a walkthrough of the processing cycle.
@@ -22,42 +29,55 @@ At a bare minimum, your project should finish with:
 1.  An installation guide.
 
 1.  An up-to-date set of issues. If the work has been done, the issue should be
-    closed; if it hasn't, the issue should describe the state of the bug (or
-    enhancement, or question) well enough for someone to know where to start
-    work.
+    closed; if not, it should describe the state of the bug (or enhancement, or
+    question) well enough for someone to know where to start work.
 
-<div class="callout" markdown="1">
-
-### What to charge
-
-Depending on the structure of your course, you may be asked to figure out how
-much you would charge for the software you have produced. If so,
-<cite>Davidson2009</cite> is a good short introduction to the topic.
-
-</div>
-
-## Finish With a Package
-
-An alternative deliverable is a package that other people can download and
-install. It isn't an either/or choice: every good package has a home page, a
-design description, installation instructions, and so on. If you are doing a
+Another possible deliverable is a <span i="package!as course
+deliverable">package</span> that other people can download and install (<span
+x="design"/>). It isn't an either/or choice: every good package has a home page,
+a design description, installation instructions, and so on. If you are doing a
 data analysis project instead of straight software engineering, a package with
 some useful datasets and functions to work with them is a great goal to work
 toward.
 
-<span class="fixme">how to build packages</span>
+<span class="callout" markdown="1">
+
+## Bugs
+
+It's OK to have bugs in your code when you finish your project---after all,
+almost all products do. This isn't because developers are lazy or careless;
+instead, it's a matter of economics.  If you're near the end of the development
+cycle, it may be riskier to fix a minor bug (and in doing so, introduce new
+bugs) than to document its existence and provide a workaround.
+
+</span>
+
+Depending on the structure of your course, you may be asked to figure out how
+much you would charge for the software you have produced.  It's a complicated
+question, and out of scope for this book, but <cite>Davidson2009</cite> is a
+good short introduction to the topic.
+
+You may also be asked to do some <span g="marketing"
+i="marketing">Marketing</span>, which is the process of figuring out how to tell
+the people you're trying to help how you can help them. This doesn't mean
+spamming people with discount coupons; instead, it means explaining the problem
+that the product will solve in ways that will reach the intended users.  I have
+been more startups fail because of poor marketing than because of poor
+programming; it is also out of scope for this book, but <cite>Kuchner2011</cite>
+is a good short introduction.
 
 ## Version Numbers
 
-If your project is run like most, you're going to submit your work several times
+If your project is like most, you're going to submit your work several times
 over the course of the term. That means it's important for you to keep track of
 exactly what version you're working on at any time, where it came from, and
 where it's going.
 
-The usual way to do this is with <span g="version_number">version
-numbers</span>.  Most projects these days use <span
-g="semantic_versioning">semantic versioning</span>, so when you see a number
-like "6.2.3.1407" attached to a piece of software, it generally means:
+The usual way to do this is with <span g="version_number" i="version
+numbers">version numbers</span>.  Most projects these days use <span
+g="semantic_versioning" i="semantic versioning; version numbers!semantic
+versioning">semantic versioning</span>; when you see a number like "6.2.3.1407"
+attached to a piece of software, it generally means:
 
 -   major version 6
 
@@ -67,31 +87,34 @@ like "6.2.3.1407" attached to a piece of software, it generally means:
 
 -   build 1407
 
-The major version number is only incremented when significant changes are
-made. In practice, "significant" means "changes that make it impossible for
-older versions to read the new version's data or configuration files". In
-practice, major version numbers are often under the control of the marketing
+The <span i="major version number; version numbers!major">major version
+number</span> is only incremented when significant changes are made. In
+practice, "significant" means "changes that make it impossible for older
+versions to read the new version's data or configuration files". In practice,
+major version numbers are often under the control of the marketing
 department---if a competitor releases a new major version, we'd pretty much have
 to as well.
 
-Minor version numbers are what most people think of as releases. If you've added
-a few new features, changed part of the GUI, etc., you increment the minor
-version number so that your customers can talk intelligently about which version
-they have.
+<span i="version numbers!minor; minor version number">Minor version
+numbers</span> are what most people think of as releases. If you've added a few
+new features, changed part of the GUI, etc., you increment the minor version
+number so that your customers can talk intelligently about which version they
+have.
 
-Patches are things that don't have their own installers. If, for example, you
-need to change one HTML form, or one DLL, you will often just mail that out to
-customers, along with instructions about where to put it, rather than creating a
-new installer. You should still give it a number, though, and make an entry in
-your release log.
+<span g="patch" i="patch (software); software patch; version
+numbers!patch">Patches</span> don't have their own installers. If, for example,
+you need to change one HTML form, or one DLL, you will often just mail that out
+to customers, along with instructions about where to put it, rather than
+creating a new installer. You should still give it a number, though, and make an
+entry in your release log.
 
-The build number is incremented every time you create a new version of the
-product for QA to test. Build numbers are never reset, i.e. you don't go from
-5.2.2.1001 to 6.0.0.0, but from 5.2.2.1001 to 6.0.0.1002, and so on. Build
-numbers are what developers care about: they're often only matched up with
-version numbers after the fact (i.e. you create build #1017, QA says, "It looks
-good," so you say, "All right, this'll be 6.1.0," and voila, you have
-6.1.0.1017.)
+The <span g="build_number" i="build number; vesion numbers!build">build
+number</span> is incremented every time you create a new version of the product
+for QA to test. Build numbers are never reset, i.e. you don't go from 5.2.2.1001
+to 6.0.0.0, but from 5.2.2.1001 to 6.0.0.1002, and so on. Build numbers are what
+developers care about: they're often only matched up with version numbers after
+the fact (i.e. you create build #1017, QA says, "It looks good," so you say,
+"All right, this'll be 6.1.0," and voila, you have 6.1.0.1017.)
 
 Finally, groups will sometimes identify pre-releases as "beta 1", "beta 2", and
 so on, as in "6.2 beta 2". Again, this label is usually attached to a particular
@@ -102,45 +125,16 @@ A four-part numbering scheme is more than you need for an undergraduate
 course. You can probably get away with just one: the assignment the software was
 submitted for.
 
-<div class="callout" markdown="1">
-
-### Reporting versions
-
 Most programs can report a version number, either through an "About…" menu item
-or through a command-line flag like `--version`.  That helps when people are
-reporting bugs; what helps more is an option to report the versions of the
-libraries that your code depends on as well.  It only takes a few lines to add a
-function like `reportVersion(recursiveOrNot)` to a library, and someone, some
-day, will be very grateful that you did.
-
-<span class="fixme">https://github.com/gvwilson/buildtogether.tech/issues/39 (dump info for debugging)</span>
-
-</div>
-
-## Bugs
-
-It's OK to have bugs in your code when you finish your project. After all,
-almost all products have bugs in them when they ship. This isn't because
-developers are lazy or careless; instead, it's a matter of economics. More than
-half of first attempts to fix a problem contain bugs. That means that if you're
-near the end of the development cycle, "fixing" a minor bug can actually
-increase the chances of the program crashing or destroying users' data. It's
-safer to document it (and a workaround, if any exists).
-
-This is another way in which student projects differ from their industrial
-counterparts. I have yet to see an instructor give students marks for cataloging
-the bugs still in their code at the end of term, probably because it would be so
-much work to mark. Instead, grades are often allocated based on a set of
-automated pass/fail acceptance tests, and a subjective evaluation of the code's
-quality (which usually means its conformance to basic rules of indentation,
-commenting, and variable naming).
+or through a command-line flag like `--version`.  It helps a lot when people are
+reporting bugs.
 
 ## The Final Report
 
 The other thing student projects usually have to deliver is some kind of final
 report. Most students short-change this part of the course, in part because it
 comes at the end, but also because they think, "I want to write code, not a
-novel." But here's Karl Fogel, author of <cite>Fogel2005</cite>, on writing:
+novel." However, consider this from <cite>Fogel2005</cite>:
 
 <blockquote markdown="1">
 
@@ -171,12 +165,12 @@ An introduction that orients the reader.
     *next* team will need in order to continue the project.
 
 A summary of what was accomplished.
-:   This should *not* simply rehash the A&E (<span x="process"/>),
-    although that's a good place to start. Instead, it should describe the
-    system's architecture, any features of its data formats, class structure, or
-    UI that won't immediately make sense to a knowledgeable observer, and so
-    on. As with the introduction, the target audience is the next team to work
-    on the project.
+:   This should not just summarize the A&E (<span x="process"/>), although
+    that's a good place to start. Instead, it should describe the system's
+    architecture, any features of its data formats, class structure, or UI that
+    won't immediately make sense to a knowledgeable observer, and so on (span
+    x="design"/>). As with the introduction, the target audience is the next
+    team to work on the project.
 
 A summary of the current state of the project.
 :   This should include high-level criticism ("The persistence layer works fine,
@@ -185,11 +179,11 @@ A summary of the current state of the project.
     work is done on user preferences").
 
 An evaluation of the project.
-:   What did the team learn about teamwork? What went well? What should they never
-    do again?  Motherhood-and-apple-pie statements about the importance of
-    version control don't belong here (or anywhere else). Instead, the team
-    should conduct a proper post mortem and present as honest a summary of its
-    findings as possible.
+:   What did the team learn about teamwork? What went well? What should they
+    never do again?  Don't bother including generic statements about the
+    importance of version control ; instead, conduct a proper post mortem (as
+    described below) and present as honest a summary of its findings as
+    possible.
 
 References.
 :   Include books, papers, and links the team found helpful so that whoever
@@ -199,9 +193,8 @@ This report is neither a user's guide nor maintenance documentation. Instead, it
 is like the end-of-contract reports I had to prepare when I was a consultant.
 What had I done to earn my customers' money? What should the next person (who
 might not be me) do? What could I tell them that would save them time? Internal
-documentation (like Javadoc) doesn't help with these questions, and anyway, the
-team should be producing that as they go along, not all in a rush at the end of
-term.
+documentation doesn't help with these questions, and anyway, the team should be
+producing that as they go along, not all in a rush at the end of term.
 
 So much for what the final report should include; how should you actually go
 about writing it? It will probably include:
@@ -232,57 +225,47 @@ OpenOffice. Unfortunately, these get in the way at least as much as they help:
     makes it difficult to keep the document consistent over time.
 
 For these reasons, most teams format their reports as a set of Markdown pages
-under version control and use a static site generator (<span
-x="communicate"/>) to turn them into a report. That solves the problem of
-multiple authors (HTML is a text format, so diff and merge will work), and if
-you know a little CSS, you can make it look as pretty as you want. Diagrams and
-screenshots work well, but equations are problematic: MathML (the mathematical
-markup language) is complicated to write and poorly supported, so many people
-still resort to embedding pictures of equations in web pages.
+under version control and use a <span i="static site generator">static site
+generator</span> (<span x="communicate"/>) to turn them into a report. That
+solves the problem of multiple authors (Markdown is a text format, so diff and
+merge will work), and if you know a little CSS, you can make it look as pretty
+as you want. Diagrams and screenshots work well, and you can embed
+[MathML][mathml] for equations if you need to.
 
 <div class="callout" markdown="1">
 
-### XML and LaTeX
+### LaTeX
 
-If you're really keen, you can use an XML markup format like DocBook, which
-provides a set of semantically-meaningful tags like `<author>` and
-`<citation>`. Various tools can then compile the XML into HTML, PDF, or other
-formats. I've tried this, but have never been satisfied: it takes a lot of
-typing to add all those tags, which makes DocBook feel like overkill for a
-anything less than a legal document.
-
-Then there's LaTeX, a markup language that's much more sophisticated than HTML,
-and has literally thousands of add-on packages for equations, code formatting,
-and just about everything else you could want. Like HTML, LaTeX is a text
-format, so it plays nicely with version control.  However, its power comes at a
-steep price: LaTeX is as hard to master as a programming language. It also has a
+LaTeX is a markup language that's much more sophisticated than HTML and has
+literally thousands of add-on packages for equations, code formatting, and just
+about everything else you could want. Like HTML, LaTeX is a text format, so it
+plays nicely with version control.  However, its power comes at a steep price:
+LaTeX is as hard to master as a programming language. It also has a
 frustratingly slow formatting cycle, since documents have to be compiled into
-PDF or another viewable format before you can see the effects of your changes
-(although WYSIWYG tools like LyX are making great strides).
+PDF or another viewable format before you can see the effects of your changes.
 
 </div>
 
 ## The Post Mortem
 
 The most valuable part of your project isn't the software you write, or the
-grade you're given: it's the post mortem. Literally, this is an examination of a
-deceased person; in a software project, it's a look back at what went right, and
-what went wrong.
+grade you're given: it's the <span g="post_mortem" i="post mortem">post
+mortem</span>. Literally, this is an examination of a deceased person; in a
+software project, it's a look back at what went right and what went wrong.
 
 The aim of a post mortem is to help the team and its members do better next time
 by giving everyone a chance to reflect on what they've just accomplished. It is
-*not* to point the finger of shame at individuals, although if that has to
-happen, the post mortem is the best place for it.
-
-Post mortems are pretty easy to run---just add the following to the rules for
-running a meeting:
+*not* to shame people, but it can be hard to critique someone's work without
+them taking it personally, so post mortems add a few extra rules to the ones
+introduced for meetings in <span x="important"/>:
 
 Get a moderator who wasn't part of the project.
 :   Someone who doesn't have a stake in the project should run the meeting.
     Otherwise, the meeting will either go in circles, or focus on only a subset
     of important topics. In the case of student projects, this moderator might
-    be the course instructor, or (if the course is too large, or the instructor
-    is lazy) a TA.
+    be the course instructor, or (if the course is too large) a TA.  You can
+    have another student as moderator, but since they are probably friends with
+    some team members, it may be hard for them to be objective.
 
 Set aside an hour, and *only* an hour.
 :   In my experience, nothing useful is said in the first ten minutes of anyone's
@@ -298,29 +281,24 @@ Require attendance.
     meeting is optional.
 
 Make two lists.
-:   When I'm moderating, I put the headings "Keep" and "Change" on the board,
-    then do a lap around the room and ask every person to give me one item that
-    hasn't already been mentioned for each list.  The "hasn't already been
-    mentioned" part is important: after the first few safe responses are up
-    on the board, people have to start saying the more difficult things that
-    really matter.
+:   Put the headings "Keep" and "Change" on the board, then do a lap around the
+    room and ask every person to give me one item that hasn't already been
+    mentioned for each list.  The "hasn't already been mentioned" part is
+    important: after the first few safe responses are up on the board, people
+    have to start saying the more difficult things that really matter.
 
 Comment on actions rather than individuals.
-:   By the time the project is done, some people may not be able to stand one
-    another. Don't let this sidetrack the meeting: if someone has a specific
-    complaint about another member of the team, require him to criticize a
-    particular event or decision. "He had a bad attitude" does *not* help anyone
-    improve their game.
+:   Don't let tension between teammates sidetrack the meeting: if someone has a
+    specific complaint about another member of the team, require them to
+    criticize a particular event or decision. "They had a bad attitude" does
+    *not* help anyone improve their game.
 
 Once everyone's thoughts are out in the open, organize them somehow so that you
-can make specific recommendations about what to do next time.  This list is one
-of the two major goals of the post mortem (the other being to give people a
-chance to be heard). For example, here are the recommendations that came out of
-one post mortem I did with students:
+can make specific recommendations about what to do next time.  For example, here
+are the recommendations that came out of one post mortem I did with students:
 
-1.  Do a better job of tracking actual progress, rather than reported
-    progress. Maybe require a one-minute demo every time a feature is supposedly
-    completed?
+1.  Do a better job of tracking actual progress, rather than reported progress.
+    Maybe require a one-minute demo every time a feature is marked "complete"?
 
 2.  Teams should find one block of 2--3 hours per week when they can work side
     by side: IM meetings and email resulted in a lot of dropped balls.
@@ -328,15 +306,20 @@ one post mortem I did with students:
 3.  Having someone who worked on the project in the previous term come in to get
     the new team up to speed made a huge difference.
 
-4.  Team members should read each other's code, at least during the early stages
-    of the project, to make sure everyone is actually following the coding
-    guidelines.
-
-5.  A large number of small commits is better than a small number of massive
-    commits.
-
-6.  Issue tracking system was too complicated for students' needs: really just
+4.  Issue tracking system was too complicated for students' needs: really just
     want a shared online to-do list.
 
-7.  Teams should have to report test coverage at every progress meeting to make
+5.  Teams should have to report test coverage at every progress meeting to make
     sure that a lot of untested code doesn't pile up during the term.
+
+<div class="callout" markdown="1">
+
+### Pay it forward
+
+Ask your instructor at the start of your course for copies of the post mortems
+written by previous student teams.  Go through and pick out some common themes,
+then use them as a list of things to do or avoid in your own project.  Sharing
+what you've learned with those who come after you is the most compassionate
+thing you can do.
+
+</div>

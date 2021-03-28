@@ -471,3 +471,47 @@ that programs can send requests or post data via HTTP to control the app's
 behavior. Many of these require programs to authenticate in order to prove that
 they have a right to do what they want to; as soon as we're thinking about that,
 we need to think about the topic of the next chapter: security.
+
+## Design for Packaging
+
+Every language and operating system has its own rules for <span
+i="package!building">building packages</span>; designing software with these
+rules in mind makes packaging a lot easier.  In Python, for example, a package
+consists of one or more Python source files in a specific directory structure
+like this:
+
+```txt
+pkg_name
++-- pkg_name
+|   +-- module1.py
+|   +-- module2.py
++-- README.md
++-- setup.py
+```
+
+The top-level directory is named after the package.  It contains a directory
+that is also named after the package, which contains the package's source files.
+To turn this into an installable package, we put the following in `setup.py`:
+
+```python
+from setuptools import setup
+
+setup(
+    name='pkg_name',
+    author='Some Name',
+    version='0.1.0',
+    packages=['pkg_name'])
+```
+
+{: .continue}
+The `name` and `author` fields are self-explanatory; the `packages` field lists
+the sub-directories containing packages (there may actually be several), and
+we'll talk about versioning in <span x="delivery"/>.  Once you have this in
+place, you can run:
+
+```sh
+$ pip install .
+```
+
+{: .continue}
+to create a package.

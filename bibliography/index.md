@@ -883,6 +883,12 @@ Justin Kruger and David Dunning:
 "Unskilled and Unaware of It: How Difficulties in Recognizing Incompetence Lead to Inflated Self-Assessment".
 <em>Personality and Social Psychology</em>, 77(6), 1999, <a href="https://doi.org/10.1037/0022-3514.77.6.1121">10.1037/0022-3514.77.6.1121</a>.
 </dd>
+<dt id="kuchner2011" class="bibliography">Kuchner2011</dt>
+<dd>
+Marc J. Kuchner:
+<em>Marketing for Scientists: How to Shine in Tough Times</em>.
+Island Press, 2011, 978-1597269940.
+</dd>
 <dt id="lamba2020" class="bibliography">Lamba2020</dt>
 <dd>
 Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, and Bogdan Vasilescu:

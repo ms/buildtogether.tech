@@ -161,6 +161,12 @@
       A program that keeps track of how files depend on one another and runs commands
       to update any files that are out-of-date.
 
+- key: build_number
+  en:
+   term: "build number"
+   def: >
+     FIXME
+
 - key: business_rule
   en:
     term: "business rule"
@@ -952,6 +958,12 @@
     def: >
       A markup language with a simple syntax intended as a replacement for HTML.
 
+- key: marketing
+  en:
+    term: marketing
+    def: >
+      FIXME
+
 - key: marthas_rules
   en:
     term: "Martha's Rules"
@@ -1105,6 +1117,12 @@
 - key: pair_programming
   en:
     term: "pair programming"
+    def: >
+      FIXME
+
+- key: patch
+  en:
+    term: "patch"
     def: >
       FIXME
 
