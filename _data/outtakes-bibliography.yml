@@ -1,3 +1,174 @@
+- key: Aivaloglou2021
+  author:
+  - Efthimia Aivaloglou
+  - Anna van der Meulen
+  doi: 10.1145/3440994
+  journal: "TCE"
+  kind: article
+  number: 3
+  pages: 1--22
+  title: "An Empirical Study of Students' Perceptions on the Setup and Grading of Group Programming Assignments"
+  volume: 21
+  year: 2021
+
+- key: Bullock2021
+  author:
+  - Beleicia B. Bullock
+  - Fernando L. Nascimento
+  - Stacy A. Doore
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432468
+  kind: inproceedings
+  title: "Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms"
+  year: 2021
+
+- key: Chattopadhyay2020
+  author:
+  - Souti Chattopadhyay
+  - Nicholas Nelson
+  - Audrey Au
+  - Natalia Morales
+  - Christopher Sanchez
+  - Rahul Pandita
+  - Anita Sarma
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380330
+  kind: inproceedings
+  title: "A Tale From the Trenches: Cognitive Biases and Software Development"
+  year: 2020
+
+- key: Cohen2021
+  author:
+  - Lena Cohen
+  - Heila Precel
+  - Harold Triedman
+  - Kathi Fisler
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432456
+  kind: inproceedings
+  title: "A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum"
+  year: 2021
+
+- key: CriadoPerez2019
+  kind: book
+  author:
+  - Caroline Criado Perez
+  title: "Invisible Women: Data Bias in a World Designed for Men"
+  publisher: Harry N. Abrams
+  year: 2019
+  isbn: 978-1419729072
+
+- key: DeSouza2017
+  kind: inproceedings
+  author:
+  - Draylson de Souza
+  - Michael Kölling
+  - Ellen Francine Barbosa
+  title: "Most Common Fixes Students Use to Improve the Correctness of Their Programs"
+  year: 2017
+  booktitle: "Proc. FIE'17"
+
+- key: Eubanks2019
+  kind: book
+  author:
+  - Virginia Eubanks
+  title: "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
+  publisher: Picador
+  year: 2019
+  isbn: 978-1250215789
+
+- key: Ferreira2021
+  author:
+  - Rodrigo Ferreira
+  - Moshe Y. Vardi
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432449
+  kind: inproceedings
+  title: "Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science"
+  year: 2021
+
+- key: Gopal2021
+  author:
+  - Bhuvana Gopal
+  - Stephen Cooper
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432405
+  kind: inproceedings
+  title: "Peer Instruction in Software Engineering---Findings from Fine-grained Clicker Data"
+  year: 2021
+
+- key: Gordon2021
+  author:
+  - Nikolas Gordon
+  - Omar Alam
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432369
+  kind: inproceedings
+  title: "The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data"
+  year: 2021
+
+- key: Hannay2009
+  author:
+  - Jo E. Hannay
+  - Tore Dybå
+  - Erik Arisholm
+  - Dag I.K. Sjøberg
+  title: "The Effectiveness of Pair Programming: A Meta-Analysis"
+  doi: 10.1016/j.infsof.2009.02.001
+  journal: Information and Software Technology
+  kind: article
+  volume: 51
+  number: 7
+  year: 2009
+
+- key: Hata2019
+  author:
+  - Hideaki Hata
+  - Christoph Treude
+  - Raula Gaikovina Kula
+  - Takashi Ishio
+  title: "9.6 Million Links in Source Code Comments: Purpose, Evolution, and Decay"
+  kind: inproceedings
+  booktitle: "Proc. ICSE'19"
+  doi: 10.1109/icse.2019.00123
+  year: 2019
+
+- key: Hayashi2019
+  author:
+  - Junichi Hayashi
+  - Yoshiki Higo
+  - Shinsuke Matsumoto
+  - Shinji Kusumoto
+  booktitle: "MSR'19"
+  doi: 10.1109/msr.2019.00076
+  kind: inproceedings
+  title: "Impacts of Daylight Saving Time on Software Development"
+  year: 2019
+
+- key: Herley2009
+  kind: inproceedings
+  author:
+  - Cormac Herley
+  booktitle: "Proc. NSPW'09"
+  doi: 10.1145/1719030.1719050
+  title: "So Long, and No Thanks for the Externalities: The Rational Rejection of Security Advice by Users"
+  year: 2009
+
+- key: Hilderbrand2020
+  author:
+  - Claudia Hilderbrand
+  - Christopher Perdriau
+  - Lara Letaw
+  - Jillian Emard
+  - Zoe Steine-Hanson
+  - Margaret Burnett
+  - Anita Sarma
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380371
+  kind: inproceedings
+  title: "Engineering Gender-Inclusivity into Software: Tales from the Trenches"
+  year: 2020
+
 - key: Hubbard2018
   author:
   - Aleata Hubbard
@@ -8,3 +179,170 @@
   number: 2
   title: "Pedagogical Content Knowledge in Computing Education: A Review of the Research Literature"
   year: 2018
+
+- key: Hundhausen2021
+  author:
+  - Christopher Hundhausen
+  - Adam Carter
+  - Phillip Conrad
+  - Ahsun Tariq
+  - Olusola Adesope
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432362
+  kind: inproceedings
+  title: "Evaluating Commit, Issue and Product Quality in Team Software Development Projects"
+  year: 2021
+
+- key: Ingram2020
+  author:
+  - Claire Ingram
+  - Anders Drachen
+  title: "How Software Practitioners Use Informal Local Meetups to Share Software Engineering Knowledge"
+  kind: inproceedings
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380333
+  year: 2020
+
+- key: Lamba2020
+  author:
+  - Hemank Lamba
+  - Asher Trockman
+  - Daniel Armanios
+  - Christian Kästner
+  - Heather Miller
+  - Bogdan Vasilescu
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409705
+  kind: inproceedings
+  title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
+  year: 2020
+
+- key: Lin2021
+  author:
+  - Xinyue Lin
+  - James Connors
+  - Chang Lim
+  - John R. Hott
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432389
+  kind: inproceedings
+  title: "How Do Students Collaborate? Analyzing Group Choice in a Collaborative Learning Environment"
+  year: 2021
+
+- key: McBurney2021
+  author:
+  - Paul W. McBurney
+  - Christian Murphy
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432550
+  kind: inproceedings
+  title: "Experience of Teaching a Course on Software Engineering Principles Without a Project"
+  year: 2021
+
+- key: McIntosh2021
+  author:
+  - Lukas McIntosh
+  - Caroline D. Hardin
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432435
+  kind: inproceedings
+  title: "Do Hackathon Projects Change the World? An Empirical Analysis of GitHub Repositories"
+  year: 2021
+
+- key: Noble2018
+  kind: book
+  author:
+  - Safiya Umoja Noble
+  title: "Algorithms of Oppression: How Search Engines Reinforce Racism"
+  year: 2018
+  publisher: "NYU Press"
+  isbn: 978-1479837243
+
+- key: ONeil2017
+  kind: book
+  author: "Cathy O'Neil"
+  title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+  publisher: Crown
+  year: 2017
+  isbn: 978-0553418835
+
+- key: Pozos2021
+  author:
+  - Rose K. Pozos
+  - Michelle Friend
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432433
+  kind: inproceedings
+  title: "'You Sound Like a Good Program Manager': An Analysis of Gender in Women's Computing Life Histories"
+  year: 2021
+
+- key: Prioleau2021
+  author:
+  - Diandra Prioleau
+  - Brianna Richardson
+  - Emma Drobina
+  - Rua Williams
+  - Joshua Martin
+  - Juan E. Gilbert
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432360
+  kind: inproceedings
+  title: "How Students in Computing-Related Majors Distinguish Social Implications of Technology"
+  year: 2021
+
+- key: Rankin2021
+  author:
+  - Yolanda A. Rankin
+  - Jakita O. Thomas
+  - Sheena Erete
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432432
+  kind: inproceedings
+  title: 'Real Talk: Saturated Sites of Violence in CS Education'
+  year: 2021
+
+- key: Tan2020
+  author:
+  - Xin Tan
+  - Minghui Zhou
+  - Zeyu Sun
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409746
+  kind: inproceedings
+  title: "A First Look at Good First Issues on GitHub"
+  year: 2020
+
+- key: Thinnyun2021
+  author:
+  - Adrian Thinnyun
+  - Ryan Lenfant
+  - Raymond Pettit
+  - John R. Hott
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432395
+  kind: inproceedings
+  title: "Gender and Engagement in CS Courses on Piazza"
+  year: 2021
+
+- key: WachterBoettcher2017
+  kind: book
+  author:
+  - Sara Wachter-Boettcher
+  title: "Technically Wrong: Why Digital Products Are Designed to Fail You"
+  publisher: WW Norton
+  year: 2017
+  isbn: 978-0393634631
+
+- key: Wessel2020
+  author:
+  - Mairieli Wessel
+  - Alexander Serebrenik
+  - Igor Wiese
+  - Igor Steinmacher
+  - Marco A. Gerosa
+  booktitle: "Proc. ICSME'20"
+  doi: 10.1109/icsme46990.2020.00011
+  kind: inproceedings
+  title: "Effects of Adopting Code Review Bots on Pull Requests to OSS Projects"
+  year: 2020
+
