@@ -1163,6 +1163,11 @@ Andrea Schankin, Annika Berger, Daniel V. Holt, Johannes C. Hofmeister, Till Rie
 "Descriptive Compound Identifier Names Improve Source Code Comprehension".
 <em>ICPC'18</em>, <a href="https://doi.org/10.1145/3196321.3196332">10.1145/3196321.3196332</a>.
 </dd>
+<dt id="schneier2021" class="bibliography">Schneier2021</dt>
+<dd>
+Bruce Schneier:
+"<a href="https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html">National Security Risks of Late-Stage Capitalism</a>".
+</dd>
 <dt id="schon1984" class="bibliography">Schon1984</dt>
 <dd>
 Donald A. Schon:

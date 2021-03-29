@@ -2247,6 +2247,14 @@
   doi: 10.1145/3196321.3196332
   year: 2018
 
+- key: Schneier2021
+  kind: link
+  author:
+  - Bruce Schneier
+  title: "National Security Risks of Late-Stage Capitalism"
+  url: "https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html"
+  year: 2021
+
 - key: Schon1984
   kind: book
   author:

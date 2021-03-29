@@ -3,17 +3,16 @@
 
 *Part of this material is adapted from <cite>Smalls2021</cite>.*
 
-<span class="fixme">late-stage capitalism as a security risk https://github.com/gvwilson/buildtogether.tech/issues/25 https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html</span>
-
 We can't rely on companies, universities, and other institutions to protect us
-from online threats, for the simple reason that nothing happens to them if they
-don't. Instead, much of what we are forced to go through is <span
-g="security_theater">security theater</span> intended to make us believe
-something is being done rather than to actually make us safer.  For example,
-forcing people to change passwords every three months encourages people to
-choose memorable (and therefore easy-to-guess) passwords.  Random searches of
-backpacks and bags at the entrance to the subway is another, since it's hard to
-imagine that a would-be attacker wouldn't just go to another entrance.
+from online threats: nothing happens to them if they don't, and in fact their
+business models are designed to put the cost of security failures on users
+<cite>Schneier2021</cite>. As a result, much of what we are forced to go through
+is <span g="security_theater" i="security theater">security theater</span>
+intended to make us believe something is being done rather than to actually make
+us safer: forcing people to change passwords every three months encourages
+people to choose memorable (and therefore easy-to-guess) passwords, while all
+that random searches of backpacks and bags at the entrance to the subway do is
+encourage a would-be attacker to go to another entrance.
 
 What we *can* do, as programmers, it try to make our software less vulnerable to
 attack.  Hundreds of guides to doing this have been written, but the best place
