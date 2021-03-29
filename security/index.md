@@ -3,6 +3,8 @@
 
 *Part of this material is adapted from <cite>Smalls2021</cite>.*
 
+<span class="fixme">late-stage capitalism as a security risk https://github.com/gvwilson/buildtogether.tech/issues/25 https://www.schneier.com/blog/archives/2021/03/national-security-risks-of-late-stage-capitalism.html</span>
+
 We can't rely on companies, universities, and other institutions to protect us
 from online threats, for the simple reason that nothing happens to them if they
 don't. Instead, much of what we are forced to go through is <span

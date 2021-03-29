@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">ethics in the context of AI: https://github.com/gvwilson/buildtogether.tech/issues/26</span>
+
 <span class="fixme">diversity and inclusivity data https://github.com/gvwilson/buildtogether.tech/issues/5</span>
 
 <span class="fixme">power dynamics https://github.com/gvwilson/buildtogether.tech/issues/24</span>
