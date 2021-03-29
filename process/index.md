@@ -501,7 +501,17 @@ to be used?  Which ones could be consolidated?  Most importantly, which of the
 users' needs that your original plan *wouldn't* satisfy could you help with?
 Figuring this out is one of a project manager's most important responsibilities
 <cite>Perri2018</cite>; whatever you do, don't fall into the trap of thinking
-that you have to build something because you originally thought you should.
+that you have to build something because you originally thought you should, or
+keep it because you have it.  As <span f="feature-usage"/> shows using data from
+[Neil Brown][brown-neil] and the [Blackbox][blackbox] project, the frequency
+with which features are used drops off pretty quickly; sometimes only the tool's
+own developers use those in the <span g="long_tail">long tail</span>.
+
+{% include figure
+   id="feature-usage"
+   img="feature-usage.svg"
+   alt="Distribution of feature usage"
+   cap="Distribution of feature usage in BlueJ (data courtesy of Neil Brown)." %}
 
 ## Which Process Should You Use?
 

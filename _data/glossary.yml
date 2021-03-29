@@ -935,6 +935,12 @@
       Recording information about the execution of a program in a structured
       way for later analysis.
 
+- key: long_tail
+  en:
+    term: "long tail"
+    def: >
+      FIXME
+
 - key: long_term_memory
   en:
     term: "long-term memory"

@@ -192,6 +192,7 @@ entries:
 figures:
   boehms-curve: '19.2'
   er-diagram: '12.1'
+  feature-usage: '19.4'
   feedback-loops: '19.1'
   four-models-of-instruction: '3.1'
   process-matrix: '19.3'

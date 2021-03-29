@@ -1,9 +1,16 @@
+- name: Bram Adams
+  url: https://mcis.cs.queensu.ca/bram.html
+- name: Tavish Armstrong
+  url: http://tavisharmstrong.com/
 - name: Titus Barik
   url: https://www.barik.net/
 - name: Robert Beghian
   url: http://www.vasken.ca/
+- name: Neil C C Brown
+  url: https://twistedsquare.com/
 - name: Jordi Cabot
   url: https://jordicabot.com/
+- name: Francisco Canas
 - name: Mike Conley
   url: https://mikeconley.ca/
 - name: Michael DiBernardo
@@ -38,6 +45,7 @@
   url: https://www.win.tue.nl/~aserebre/
 - name: Andreas Stefik
   url: https://web.cs.unlv.edu/stefika/
+- name: Rory Tulk
 - name: Blake Winton
   url: https://bwinton.latte.ca/
 - name: Andy Zaidman

@@ -314,6 +314,8 @@ process:
   term: feature boxing
 - key: json
   term: JavaScript Object Notation
+- key: long_tail
+  term: long tail
 - key: pair_programming
   term: pair programming
 - key: product_manager
