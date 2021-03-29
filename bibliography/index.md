@@ -584,6 +584,12 @@ Joseph Henrich, Steven J. Heine, and Ara Norenzayan:
 "The Weirdest People in the World?".
 <em>Behavioral and Brain Sciences</em>, 33(2-3), 2010, <a href="https://doi.org/10.1017/s0140525x0999152x">10.1017/s0140525x0999152x</a>.
 </dd>
+<dt id="hermans2016" class="bibliography">Hermans2016</dt>
+<dd>
+Felienne Hermans, Bas Jansen, Sohon Roy, Efthimia Aivaloglou, Alaaeddin Swidan, and David Hoepelman:
+"Spreadsheets are Code: An Overview of Software Engineering Approaches Applied to Spreadsheets".
+<em>Proc. SANER'16</em>, <a href="https://doi.org/10.1109/saner.2016.86">10.1109/saner.2016.86</a>.
+</dd>
 <dt id="herzig2013" class="bibliography">Herzig2013</dt>
 <dd>
 Kim Herzig, Sascha Just, and Andreas Zeller:

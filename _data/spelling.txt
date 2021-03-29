@@ -13,7 +13,9 @@ Acknowledgments
 Affilia
 Ahmadou
 Airbender
+Aivaloglou
 Akerblom
+Alaaeddin
 Alexey
 Alexi
 Almeida
@@ -112,6 +114,7 @@ CRC
 CSE
 CSV
 CamelCase
+Canas
 Canfora
 Carley
 Carnac
@@ -176,6 +179,7 @@ ESEC
 ESEM
 ESLint
 Easterbrook
+Efthimia
 Eggett
 Eichberg
 El
@@ -205,6 +209,7 @@ Farrar
 Feitelson
 Felder
 Feldt
+Felienne
 Femke
 Feng
 Fidge
@@ -213,6 +218,7 @@ Fincher
 FindBugs
 Findable
 Fiorella
+Flon's
 Fogel
 Forsgren
 Fortran
@@ -295,6 +301,7 @@ Hennie
 Henrich
 Herbsleb
 Hermann
+Hermans
 Hertweck
 Herzig
 Heymann
@@ -302,6 +309,7 @@ Hindle
 Hippel
 Hoda
 Hoek
+Hoepelman
 Hofmeister
 Hofstra
 Holbert
@@ -640,6 +648,7 @@ Smetsers
 Snakemake
 Snowden
 Socio
+Sohon
 Solnit
 Soloway
 Sorva
@@ -668,6 +677,7 @@ Suman
 Sumeracki
 Sunghun
 Surinder
+Swidan
 SyntaxError
 TCE
 TLA
@@ -681,6 +691,7 @@ Tamplin
 Tanter
 Tapio
 Taschuk
+Tavish
 Tayana
 Tejeda
 Tejinder
@@ -695,6 +706,7 @@ Torkar
 Transformative
 Tregubov
 Treude
+Tulk
 Tunnell
 Turhan
 TypeScript
@@ -777,7 +789,6 @@ Zuoning
 accesibility
 affective
 afterward
-al
 allyship
 anthropogenic
 assed
@@ -823,7 +834,6 @@ else's
 emptively
 eneething
 enumerative
-et
 favor
 favored
 favorite
@@ -834,6 +844,7 @@ frobnosticator
 fruitarian
 fueled
 fueling
+github
 gray
 gridded
 handoff
@@ -885,6 +896,7 @@ practicing
 pre
 profiler
 profilers
+programmatically
 pseudocode
 punchcard
 pytest

@@ -411,6 +411,12 @@
     def: >
       FIXME
 
+- key: dark_matter_developer
+  en:
+    term: "dark matter developer"
+    def: >
+      FIXME [original source][hanselman-dark-matter]
+
 - key: data_mining
   en:
     term: "data mining"
@@ -1387,6 +1393,12 @@
     term: "Schrödinger's Asshole"
     def: >
       FIXME
+
+- key: scottish_verdict
+  en:
+    term: "Scottish verdict"
+    def: >
+      FIXME [Wikipedia article][scottish-verdict]
 
 - key: scriptable
   en:

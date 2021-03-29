@@ -1153,6 +1153,20 @@
   year: 2010
   doi: 10.1017/s0140525x0999152x
 
+- key: Hermans2016
+  author:
+  - Felienne Hermans
+  - Bas Jansen
+  - Sohon Roy
+  - Efthimia Aivaloglou
+  - Alaaeddin Swidan
+  - David Hoepelman
+  booktitle: "Proc. SANER'16"
+  doi: 10.1109/saner.2016.86
+  kind: inproceedings
+  title: "Spreadsheets are Code: An Overview of Software Engineering Approaches Applied to Spreadsheets"
+  year: 2016
+
 - key: Herzig2013
   kind: inproceedings
   author:

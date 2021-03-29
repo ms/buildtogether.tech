@@ -493,7 +493,7 @@ The top-level directory is named after the package.  It contains a directory
 that is also named after the package, which contains the package's source files.
 To turn this into an installable package, we put the following in `setup.py`:
 
-```python
+```py
 from setuptools import setup
 
 setup(

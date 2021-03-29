@@ -140,7 +140,7 @@ check-gloss:
 
 ## check-links: make sure all external links resolve
 check-links:
-	@bin/check-links.py --config ${CONFIG} --sources ${MARKDOWN} ${EXTRA_MARKDOWN} ${EXERCISES}
+	@bin/check-links.py --config ${CONFIG} --sources ${MARKDOWN} ${EXTRA_MARKDOWN} ${EXERCISES} ${GLOSSARY_IN}
 
 ## check-numbering: make sure all internal cross-references resolve
 check-numbering: ${NUM_OUT}
