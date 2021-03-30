@@ -20,7 +20,6 @@ Alexey
 Alexi
 Almeida
 Alon
-Alqadi
 Altadmri
 Amann
 Amira
@@ -60,12 +59,10 @@ Bacchelli
 Bae
 Bairavasundaram
 Baishakhi
-Barendsen
 Barik
 Barke
 Bas
 Basili
-Basma
 Bassok
 Bauman
 Begel
@@ -120,16 +117,13 @@ Carley
 Carnac
 Carpentries
 CarpentryCon
-Carsten
 Casciaro
 Casper
 Cataldo
 Cathrin
-Catrambone
 Caulfield
 Caviglioli
 Centered
-Cetin
 Chacon
 Checkstyle
 Cherubini
@@ -140,6 +134,7 @@ Connell
 Constructivist
 Conte
 Csikszentmihalyi
+Curley
 Cécile
 DLL
 DLS
@@ -168,7 +163,6 @@ Diomidis
 Dittrich
 Dobzhansky's
 DocBook
-Domingue
 Doo
 Dror
 DuckDuckGo
@@ -194,7 +188,6 @@ Endrikat
 Engvik
 Ensmenger
 Erdogmus
-Ericson
 Etienne
 Experientialism
 Extraversion
@@ -212,7 +205,6 @@ Feldt
 Felienne
 Femke
 Feng
-Fidge
 FileShredder
 Fincher
 FindBugs
@@ -223,7 +215,6 @@ Fogel
 Forsgren
 Fortran
 Foutse
-Franke
 Fredriksen
 FreeBSD
 Friesen
@@ -280,7 +271,6 @@ Grunspan
 Gudith
 Guilherme
 Guo
-Guzdial
 Haberman
 Hachette
 Hakan
@@ -312,7 +302,6 @@ Hoek
 Hoepelman
 Hofmeister
 Hofstra
-Holbert
 Homebrew
 Horenstein
 Hossein
@@ -321,7 +310,6 @@ Hsing
 Hu
 Huijgens
 Hulshof
-Hundhausen
 Hwan
 ICER
 ICPC
@@ -333,7 +321,6 @@ IM
 IQs
 ITiCSE
 Ibraheem
-Ibrahim
 Ie
 Ihantola
 Ilenia
@@ -361,7 +348,6 @@ Johan
 Jordi
 Jorma
 Jossey
-Juha
 Juhani
 Jurafsky
 Juristo
@@ -374,6 +360,7 @@ Kamei
 Kang
 Kaplan
 Kapser
+Karabel
 Karavirta
 Karras
 Katerine
@@ -385,7 +372,6 @@ Kernighan
 Ketant
 Khaled
 Khomh
-Killen
 Kinshuman
 Kinshumann
 Kirschner
@@ -416,6 +402,7 @@ Letian
 Leveling
 Lewandowski
 Lindberg
+Littky
 Liu
 Loihle
 Lua
@@ -432,11 +419,9 @@ Makefile
 Maletic
 Mammino
 Margolis
-Margulieux
 Marinov
 Markku
 Marlyse
-Martijn
 Martiqua
 Martyn
 Masood
@@ -471,7 +456,6 @@ Mortem
 Mosher
 Mujahid
 Mulders
-Munzar
 Münch
 NOAA's
 NPM
@@ -491,6 +475,7 @@ Niels
 Nihil
 Niki
 Nishith
+Nitasha
 Nonmajors
 Norenzayan
 Nourry
@@ -552,7 +537,6 @@ Proc
 Proksch
 Pseudocode
 Péraire
-Qian
 Rabe
 Radvansky
 Rahim
@@ -617,12 +601,10 @@ Schneier
 Schon
 Schrödinger's
 Schröter
-Schulte
 Scriptability
 Sebastiano
 Sedano
 Selby
-Sentance
 Seppala
 Seppi
 Serebrenik
@@ -641,27 +623,21 @@ Siegmund
 Sigweni
 Sillitti
 Sira
-Sjaak
 Sjoberg
 Slava
 SmartBear
-Smetsers
 Snakemake
 Snowden
 Socio
 Sohon
 Solnit
-Soloway
-Sorva
 SourceGear
 SourceTree
 Souza
 Spinellis
 Springer
 Spruit
-Stasko
 Stefik
-Stegeman
 Steinmacher
 Stershic
 Straub
@@ -670,8 +646,6 @@ Stroulia
 Structurelessness
 Stumm
 Stylos
-Subgoal
-Subgoals
 Succi
 Suhaib
 Suman
@@ -686,7 +660,6 @@ TLDRlegal
 TSE
 TSEM
 Taatgen
-Talal
 Talwadker
 Tamplin
 Tanter
@@ -700,6 +673,7 @@ Testability
 Thandra
 Tianyin
 Tichy
+Tiku
 Timnit
 Tobias
 Torchiano
@@ -739,7 +713,6 @@ WebAIM
 Wehaibi
 Weimer
 Weinstein
-Weintrop
 Wenger
 Westley
 Whitlock
@@ -764,7 +737,6 @@ Yasutaka
 Yevgeniya
 Ying
 Yiqao
-Yizhou
 Yongle
 Yu
 Yuanyuan
@@ -772,7 +744,6 @@ YubiKey
 Zahra
 Zaidman
 Zainab
-Zalia
 Zambrano
 Zampetti
 Zander
@@ -807,7 +778,6 @@ canceled
 catalogs
 centric
 choosealicense
-clickability
 color
 colored
 colorized
@@ -830,7 +800,6 @@ doi
 don'ts
 dostrings
 dr
-draggability
 else's
 emptively
 eneething
@@ -861,7 +830,6 @@ kan
 keychain
 kleenex
 labeled
-labeling
 labor
 leveled
 lifecycle
@@ -927,8 +895,6 @@ spearphishing
 speling
 styrofoam
 subclasses
-subgoals
-superbug
 sys
 tentupling
 testability

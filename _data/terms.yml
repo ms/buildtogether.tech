@@ -1,6 +1,7 @@
 10-comfortable: []
 10-fired: []
 10-handover: []
+10-joining: []
 10-newcomers:
 - key: community_of_practice
   term: community of practice
@@ -170,6 +171,19 @@ errors:
 - key: yaml
   term: YAML
 evaluation: []
+fairness:
+- key: ally
+  term: ally
+- key: myers_briggs
+  term: Myers-Briggs Type Indicator
+- key: ocean_model
+  term: OCEAN model
+- key: oppression
+  term: oppression
+- key: preparatory_privilege
+  term: preparatory privilege
+- key: privilege
+  term: privilege
 git-solo:
 - key: branch_git
   term: branch
@@ -240,9 +254,7 @@ important:
   term: sense vote
 - key: tone_policing
   term: tone policing
-introduction:
-- key: preparatory_privilege
-  term: preparatory privilege
+introduction: []
 ip:
 - key: bsd_license
   term: BSD license
@@ -297,12 +309,6 @@ methods:
   term: Scottish verdict
 - key: treatment_group
   term: treatment group
-novices: []
-outside-class:
-- key: myers_briggs
-  term: Myers-Briggs Type Indicator
-- key: ocean_model
-  term: OCEAN model
 process:
 - key: ae
   term: analysis & estimation
@@ -367,13 +373,6 @@ research:
   term: root cause
 - key: static_typing
   term: static typing
-rights:
-- key: ally
-  term: ally
-- key: oppression
-  term: oppression
-- key: privilege
-  term: privilege
 security:
 - key: 2fa
   term: two-factor authentication

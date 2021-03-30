@@ -170,6 +170,12 @@ much easier for version control systems to work with.  In my opinion, though,
 you'll get more out of investing time in the modeling tools described at the end
 of <span x="tooling"/>.
 
+One often-overlooked finding about visualization is that people understand
+flowcharts better than pseudocode *if both are equally well structured*
+<cite>Scanlan1989</cite>.  Earlier work showing that pseudocode outperformed
+flowcharts used structured pseudocode and tangled flowcharts; when the playing
+field was leveled, novices did better with the graphical representation.
+
 </div>
 
 ## Getting Started

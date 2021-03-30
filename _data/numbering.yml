@@ -49,56 +49,56 @@ entries:
   label: '10'
   slug: communicate
   title: Communicating
-- file: ./testing/index.md
+- file: ./10-joining/index.md
   kind: Chapter
   label: '11'
+  slug: 10-joining
+  title: How to Join an Existing Project
+- file: ./testing/index.md
+  kind: Chapter
+  label: '12'
   slug: testing
   title: Testing
 - file: ./design/index.md
   kind: Chapter
-  label: '12'
+  label: '13'
   slug: design
   title: Software Design
 - file: ./security/index.md
   kind: Chapter
-  label: '13'
+  label: '14'
   slug: security
   title: Security
 - file: ./errors/index.md
   kind: Chapter
-  label: '14'
+  label: '15'
   slug: errors
   title: Error Handling
 - file: ./debugging/index.md
   kind: Chapter
-  label: '15'
+  label: '16'
   slug: debugging
   title: Debugging
 - file: ./automation/index.md
   kind: Chapter
-  label: '16'
+  label: '17'
   slug: automation
   title: Automation
 - file: ./tooling/index.md
   kind: Chapter
-  label: '17'
+  label: '18'
   slug: tooling
   title: Tooling
 - file: ./10-comfortable/index.md
   kind: Chapter
-  label: '18'
+  label: '19'
   slug: 10-comfortable
   title: How to Make Yourself Comfortable
 - file: ./process/index.md
   kind: Chapter
-  label: '19'
+  label: '20'
   slug: process
   title: Process
-- file: ./outside-class/index.md
-  kind: Chapter
-  label: '20'
-  slug: outside-class
-  title: Outside Class
 - file: ./10-newcomers/index.md
   kind: Chapter
   label: '21'
@@ -114,11 +114,11 @@ entries:
   label: '23'
   slug: 10-research
   title: How to be a Good Research Partner
-- file: ./rights/index.md
+- file: ./fairness/index.md
   kind: Chapter
   label: '24'
-  slug: rights
-  title: Know Your Rights
+  slug: fairness
+  title: Fair Play
 - file: ./10-fired/index.md
   kind: Chapter
   label: '25'
@@ -179,28 +179,23 @@ entries:
   label: H
   slug: methods
   title: Research Methods
-- file: ./novices/index.md
-  kind: Appendix
-  label: I
-  slug: novices
-  title: Novice Programmers
 - file: ./evaluation/index.md
   kind: Appendix
-  label: J
+  label: I
   slug: evaluation
   title: Performance Evaluation
 figures:
-  boehms-curve: '19.2'
-  er-diagram: '12.1'
-  feature-usage: '19.4'
-  feedback-loops: '19.1'
+  boehms-curve: '20.2'
+  er-diagram: '13.1'
+  feature-usage: '20.4'
+  feedback-loops: '20.1'
   four-models-of-instruction: '3.1'
-  process-matrix: '19.3'
+  process-matrix: '20.3'
   start-homework-5: '8.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3
   thinking-models: G.1
-  use-case-map: '12.2'
+  use-case-map: '13.2'
 tables:
   collaborate-code-review: '8.1'
   starting-spinellis-stats: '3.1'

@@ -103,10 +103,25 @@ the next programmer understand what the data is supposed to look like.
 
 ## Common Errors
 
-As <span x="novices"/> describes, instructors' beliefs about what mistakes
-novice programmers make most often bear little relation to the actual frequency
-of different mistakes.  For experienced programmers, <cite>Pritchard2015</cite>
-reported that the most common errors in Python programs were (in order):
+What mistakes do programmers make most often?  The largest study of this for
+novices is <cite>Brown2017</cite>, which found that mismatched quotes and
+parentheses are the most common type of errors in novice Java programs, but also
+the easiest to fix, while some mistakes (like putting the condition of an `if`
+in `{…}` instead of `(…)` are most often made only once.  Unsurprisingly,
+mistakes that produce compiler errors are fixed much faster than ones that
+don't.  Some mistakes, however, are made many times, like invoking methods with
+the wrong arguments (e.g., passing a string instead of an integer).
+
+<cite>Brown2017</cite> also compared the mistakes novices actually make with what
+their teachers thought they made.  They found that, "…educators formed only a
+weak consensus about which mistakes are most frequent, that their rankings bore
+only a moderate correspondence to the students in the…data, and that educators'
+experience had no effect on this level of agreement."  For example, mistaking
+`=` (assignment) and `==` (equality) wasn't nearly as common as most teachers
+believed.
+
+For experienced programmers, <cite>Pritchard2015</cite> reported that the most
+common errors in Python programs were (in order):
 
 -   SyntaxError: invalid syntax
 -   NameError: name *name* is not defined

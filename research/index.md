@@ -26,13 +26,10 @@ self-appointed guru constitute "proof".
 
 This chapter therefore presents a few evidence-based results that are relevant
 to the kind of work you may be doing in your project and that your instructor
-might want to incorporate into your course <cite>Fagerholm2017</cite>; <span
-x="methods"/> discusses the methods researchers use, and <span
-x="novices"/> presents a few more results that are specific to novice
-programmers.
-
-I hope you will find them interesting enough to want to dig further, but as with
-all research, some caution is required when interpreting results:
+might want to incorporate into your course <cite>Fagerholm2017</cite>, while
+<span x="methods"/> discusses the methods researchers use.  I hope you will find
+them interesting enough to want to dig further, but as with all research, some
+caution is required when interpreting results:
 
 Theories change as more data becomes available.
 :   Software engineering is a comparatively young discipline---in fact, the term

@@ -22,25 +22,6 @@ that another human being would <cite>Pea1986</cite>.  <cite>Sorva2018</cite>
 presents over forty other misconceptions that teachers can also try to clear up,
 many of which are also discussed in <cite>Qian2017</cite>'s survey.
 
-The mistakes novices make can tell us what to prioritize in our teaching, but it
-turns out that most teachers don't know how common different kinds of mistakes
-actually are.  The largest study of this is <cite>Brown2017</cite>, which found
-that mismatched quotes and parentheses are the most common type of errors in
-novice Java programs, but also the easiest to fix, while some mistakes (like
-putting the condition of an `if` in `{…}` instead of `(…)` are most often made
-only once.  Unsurprisingly, mistakes that produce compiler errors are fixed much
-faster than ones that don't.  Some mistakes, however, are made many times, like
-invoking methods with the wrong arguments (e.g., passing a string instead of an
-integer).
-
-<cite>Brown2017</cite> also compared the mistakes novices actually make with what
-their teachers thought they made.  They found that, "…educators formed only a
-weak consensus about which mistakes are most frequent, that their rankings bore
-only a moderate correspondence to the students in the…data, and that educators'
-experience had no effect on this level of agreement."  For example, mistaking
-`=` (assignment) and `==` (equality) wasn't nearly as common as most teachers
-believed.
-
 More than a decade ago, <cite>McCauley2008</cite> wrote, "It is surprising how
 little page space is devoted to bugs and debugging in most introductory
 programming textbooks."  Little has changed since: there are hundreds of books
@@ -150,9 +131,3 @@ or clickability. Another study from the same team found that when students are
 able to flip back and forth between blocks and text, they will switch from text
 to blocks, move the blocks around, then switch back to text, essentially using
 blocks as a memory aid <cite>Weintrop2017</cite>.
-
-One often-overlooked finding about visualization is that people understand
-flowcharts better than pseudocode *if both are equally well structured*
-<cite>Scanlan1989</cite>.  Earlier work showing that pseudocode outperformed
-flowcharts used structured pseudocode and tangled flowcharts; when the playing
-field was leveled, novices did better with the graphical representation.

@@ -327,7 +327,7 @@ Don't tolerate rudeness.
     two works alone won't change your behavior. What *will* is teammates
     defending the victims of rudeness by telling the offender, "That's not how
     we speak to each other."  We'll talk about this more in the next section and
-    in <span x="rights"/>, but keep in mind that your team's culture is
+    in <span x="fairness"/>, but keep in mind that your team's culture is
     defined by the worst behavior you're willing to tolerate
     <cite>Gruenert2015</cite>.
 

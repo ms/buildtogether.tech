@@ -554,7 +554,7 @@ Who gets to vote?
     *really* wants a change, but in practice it often means projects are driven
     by people who are extroverted or self-confident rather than by those with
     the best technical skills or the best understanding of what users
-    need. We'll revisit this in <span x="outside-class"/>.
+    need. We'll revisit this in <span x="fairness"/>.
 
 Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to

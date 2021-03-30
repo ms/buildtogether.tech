@@ -379,8 +379,8 @@ without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
     contribution guidelines increase the odds of people contributing (<span
-    x="outside-class"/>); in my experience, they also reduce friction between
-    team members.
+    x="fairness"/>); in my experience, they also reduce friction between team
+    members.
 
 `CONDUCT`
 :   The project's Code of Conduct, i.e., how people are required to treat one

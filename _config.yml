@@ -25,6 +25,8 @@ chapters:
     title: "Intellectual Property"
   - slug: "communicate"
     title: "Communicating"
+  - slug: "10-joining"
+    title: "How to Join an Existing Project"
   - slug: "testing"
     title: "Testing"
   - slug: "design"
@@ -43,16 +45,14 @@ chapters:
     title: "How to Make Yourself Comfortable"
   - slug: "process"
     title: "Process"
-  - slug: "outside-class"
-    title: "Outside Class"
   - slug: "10-newcomers"
     title: "How to Welcome Newcomers"
   - slug: "research"
     title: "Research"
   - slug: "10-research"
     title: "How to be a Good Research Partner"
-  - slug: "rights"
-    title: "Know Your Rights"
+  - slug: "fairness"
+    title: "Fair Play"
   - slug: "10-fired"
     title: "How to Handle Being Fired"
   - slug: "delivery"
@@ -81,8 +81,6 @@ chapters:
     title: "Thinking and Learning"
   - slug: "methods"
     title: "Research Methods"
-  - slug: "novices"
-    title: "Novice Programmers"
   - slug: "evaluation"
     title: "Performance Evaluation"
 
@@ -130,6 +128,7 @@ kramdown:
       "cook-mary-rose": ["https://maryrosecook.com/", "Mary Rose Cook"],
       "creative-commons": ["https://creativecommons.org/", "Creative Commons"],
       "ctan": ["https://www.ctan.org/", "The Comprehensive TeX Archive Network"],
+      "curley-april": ["https://twitter.com/RealAbril", "April Christina Curley"],
       "cvs": ["https://www.nongnu.org/cvs/", "CVS"],
       "diagrams": ["https://www.diagrams.net/", "diagrams.net drawing tool"],
       "diffmerge": ["https://sourcegear.com/diffmerge/", "SourceGear DiffMerge"],
@@ -229,6 +228,8 @@ kramdown:
       "visual-basic": ["https://en.wikipedia.org/wiki/Visual_Basic", "Visual Basic"],
       "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"],
       "wapost-facebook-vaccine": ["https://www.washingtonpost.com/technology/2021/03/14/facebook-vaccine-hesistancy-qanon/", "Massive Facebook study on users' doubt in vaccines finds a small group appears to play a big role in pushing the skepticism"],
+      "wayne-hillel": ["https://hillelwayne.com/", "Hillel Wayne"],
+      "wayne-linked-lists": ["https://www.hillelwayne.com/post/linked-lists/", "Why Do Interviewers Ask Linked List Questions?"],
       "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"],
       "womens-work": ["https://en.wikipedia.org/wiki/Women%27s_work", "Women's work"]
     }

@@ -68,16 +68,6 @@
   year: 2017
   doi: 10.1109/ICPC.2017.7
 
-- key: Alqadi2017
-  kind: inproceedings
-  author:
-  - Basma S. Alqadi
-  - Jonathan I. Maletic
-  title: "An Empirical Study of Debugging Patterns Among Novice Programmers"
-  booktitle: "Proc. SIGCSE'17"
-  year: 2017
-  doi: 10.1145/3017680.3017761
-
 - key: Anda2009
   kind: article
   author:
@@ -368,18 +358,6 @@
   year: 1995
   isbn: 978-0140139969
 
-- key: Brian2015
-  kind: inproceedings
-  author:
-  - Samuel A. Brian
-  - Richard N. Thomas
-  - James M. Hogan
-  - Colin Fidge
-  title: "Planting Bugs: A System for Testing Students' Unit Tests"
-  booktitle: "Proc. ITiCSE'15"
-  year: 2015
-  doi: 10.1145/2729094.2742631
-
 - key: Brookfield2016
   kind: book
   author:
@@ -452,16 +430,6 @@
   year : 2017
   doi: 10.1145/2994154
 
-- key: Carter2017
-  kind: inproceedings
-  author:
-  - Adam Scott Carter
-  - Christopher David Hundhausen
-  title: "Using Programming Process Data to Detect Differences in Students' Patterns of Programming"
-  booktitle: "Proc. SIGCSE'17"
-  year: 2017
-  doi: 10.1145/3017680.3017785
-
 - key: Casciaro2020
   kind: book
   author:
@@ -494,18 +462,6 @@
   title: "Choral Explanations"
   year: 2016
   url: https://hapgood.us/2016/05/13/choral-explanations/
-
-- key: Cetin2016
-  kind: article
-  author:
-  - Ibrahim Cetin
-  - Christine Andrews-Larson
-  title: "Learning Sorting Algorithms Through Visualization Construction"
-  journal: "CSE"
-  volume: 26
-  number: 1
-  year: 2016
-  doi: 10.1080/08993408.2016.1160664
 
 - key: Chacon2014
   kind: book
@@ -598,18 +554,6 @@
   publisher: Harper
   year: 1991
   isbn: 978-0060920432
-
-- key: Cunningham2017
-  kind: inproceedings
-  author:
-  - Kathryn Cunningham
-  - Sarah Blanchard
-  - Barbara J. Ericson
-  - Mark Guzdial
-  title: "Using Tracing and Sketching to Solve Programming Problems"
-  booktitle: "Proc. ICER'17"
-  year: 2017
-  doi: 10.1145/3105726.3106190
 
 - key: Davidson2009
   kind: book
@@ -719,16 +663,6 @@
   title: "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class"
   volume: 17
   year: 2018
-
-- key: Edwards2014
-  kind: inproceedings
-  author:
-  - Stephen H. Edwards
-  - Zalia Shams
-  title: "Do Student Programmers All Tend to Write the Same Software Tests?"
-  booktitle: "Proc. ITiCSE'14"
-  year: 2014
-  doi: 10.1145/2591708.2591757
 
 - key: Eichberg2015
   author:
@@ -866,23 +800,6 @@
   booktitle: "Proc. DLS'15"
   year: 2015
   doi: 10.1145/2816707.2816720
-
-- key: Fitzgerald2008
-  kind: article
-  author:
-  - Sue Fitzgerald
-  - Gary Lewandowski
-  - Renée McCauley
-  - Laurie Murphy
-  - Beth Simon
-  - Lynda Thomas
-  - Carol Zander
-  title: "Debugging: Finding, Fixing and Flailing, a Multi-Institutional Study of Novice Debuggers"
-  journal: "CSE"
-  volume: 18
-  number: 2
-  year: 2008
-  doi: 10.1080/08993400802114508
 
 - key: Floyd2017
   kind: inproceedings
@@ -1391,6 +1308,15 @@
   volume: 13
   year: 2008
 
+- key: Karabel2006
+  kind: book
+  author:
+  - Jerome Karabel
+  title: "The Chosen: The Hidden History of Admission and Exclusion at Harvard, Yale, and Princeton"
+  publisher: Mariner Books
+  year: 2006
+  isbn: 978-0618773558
+
 - key: Kaufman2000
   kind: article
   author:
@@ -1623,6 +1549,15 @@
   year: 2008
   isbn: 978-0596517960
 
+- key: Littky2004
+  author:
+  - Dennis Littky
+  isbn: 978-0871209719
+  kind: book
+  publisher: "Association for Supervision & Curriculum Development"
+  title: "The Big Picture: Education Is Everyone's Business"
+  year: 2004
+
 - key: Margolis2002
   kind: book
   author:
@@ -1631,30 +1566,6 @@
   publisher: MIT Press
   year: 2002
   isbn: 978-0262632690
-
-- key: Margulieux2012
-  kind: inproceedings
-  author:
-  - Lauren E. Margulieux
-  - Mark Guzdial
-  - Richard Catrambone
-  title: "Subgoal-labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications"
-  booktitle: "Proc. ICER'12"
-  year: 2012
-  doi: 10.1145/2361276.2361291
-
-- key: Margulieux2016
-  kind: article
-  author:
-  - Lauren E. Margulieux
-  - Richard Catrambone
-  - Mark Guzdial
-  title: "Employing Subgoals in Computer Programming Education"
-  journal: "CSE"
-  volume: 26
-  number: 1
-  year: 2016
-  doi: 10.1080/08993408.2016.1144429
 
 - key: Mark2008
   kind: inproceedings
@@ -1866,22 +1777,6 @@
   year: 2007
   doi: 10.1145/1268784.1268830
 
-- key: Murphy2008
-  kind: article
-  author:
-  - Laurie Murphy
-  - Gary Lewandowski
-  - Renée McCauley
-  - Beth Simon
-  - Lynda Thomas
-  - Carol Zander
-  title: "Debugging: The Good, the Bad, and the Quirky - A Qualitative Analysis of Novices' Strategies"
-  journal: "ACM SIGCSE Bulletin"
-  volume: 40
-  number: 1
-  year: 2008
-  doi: 10.1145/1352322.1352191
-
 - key: Nakshatri2016
   author:
   - Suman Nakshatri
@@ -1972,17 +1867,6 @@
   kind: inproceedings
   title: "Evidence That Computer Science Grades Are Not Bimodal"
   year: 2016
-
-- key: Pea1986
-  kind: article
-  author:
-  - Roy D. Pea
-  title: "Language-Independent Conceptual 'Bugs' in Novice Programming"
-  journal: "Journal of Educational Computing Research"
-  volume: 2
-  number: 1
-  year: 1986
-  doi: 10.2190/689t-1r2a-x4w4-29j2
 
 - key: Peitek2021
   kind: inproceedings
@@ -2090,18 +1974,6 @@
   kind: inproceedings
   title: "Frequency Distribution of Error Messages"
   year: 2015
-
-- key: Qian2017
-  kind: article
-  author:
-  - Yizhou Qian
-  - James Lehman
-  title: "Students' Misconceptions and Other Difficulties in Introductory Programming"
-  journal: "TCE"
-  volume: 18
-  number: 1
-  year: 2017
-  doi: 10.1145/3077618
 
 - key: Rawls1999
   kind: book
@@ -2335,43 +2207,6 @@
   year: 2010
   isbn: 978-0143118077
 
-- key: Soloway1984
-  kind: article
-  author:
-  - Elliot Soloway
-  - Kate Ehrlich
-  title: "Empirical Studies of Programming Knowledge"
-  journal: "TSE"
-  volume: SE-10
-  number: 5
-  year: 1984
-  doi: 10.1109/tse.1984.5010283
-
-- key: Soloway1986
-  kind: article
-  author:
-  - Elliot Soloway
-  title: "Learning to Program = Learning to Construct Mechanisms and Explanations"
-  journal: "CACM"
-  volume: 29
-  number: 9
-  year: 1986
-  doi: 10.1145/6592.6594
-
-- key: Sorva2018
-  kind: incollection
-  author:
-  - Juha Sorva
-  editor:
-  - Sue Sentance
-  - Erik Barendsen
-  - Carsten Schulte
-  title: "Misconceptions and the Beginner Programmer"
-  booktitle: "Proc. Computer Science Education: Perspectives on Teaching and Learning in School"
-  year: 2018
-  publisher: Bloomsbury Press
-  isbn: 978-1350057104
-
 - key: Spinellis2007
   kind: article
   author:
@@ -2381,18 +2216,6 @@
   volume: 24
   number: 4
   year: 2007
-
-- key: Stasko1998
-  kind: book
-  editor:
-  - John Stasko
-  - John Domingue
-  - Mark H. Brown
-  - Blaine A. Price
-  title: "Software Visualization: Programming as a Multimedia Experience"
-  year: 1998
-  publisher: MIT Press
-  isbn: 978-0262193955
 
 - key: Stefik2013
   kind: article
@@ -2419,28 +2242,6 @@
   title: "Programming Languages and Learning"
   year: 2017
   url: https://quorumlanguage.com/evidence.html
-
-- key: Stegeman2014
-  kind: inproceedings
-  author:
-  - Martijn Stegeman
-  - Erik Barendsen
-  - Sjaak Smetsers
-  title: "Towards an Empirically Validated Model for Assessment of Code Quality"
-  booktitle: "Proc. Koli'14"
-  year: 2014
-  doi: 10.1145/2674683.2674702
-
-- key: Stegeman2016
-  kind: inproceedings
-  author:
-  - Martijn Stegeman
-  - Erik Barendsen
-  - Sjaak Smetsers
-  title: "Designing a Rubric for Feedback on Code Quality in Programming Courses"
-  booktitle: "Proc. Koli'16"
-  year: 2016
-  doi: 10.1145/2999541.2999555
 
 - key: Steinmacher2014
   kind: inproceedings
@@ -2499,6 +2300,13 @@
   publisher: "O'Reilly"
   year: 2010
   isbn: 978-0596808327
+
+- key: Tiku2021
+  kind: link
+  author:
+  - Nitasha Tiku
+  title: "Google's approach to historically Black schools helps explain why there are few Black engineers in Big Tech"
+  url: "https://www.washingtonpost.com/technology/2021/03/04/google-hbcu-recruiting/"
 
 - key: Tregubov2017
   kind: inproceedings
@@ -2580,28 +2388,6 @@
   publisher: Routledge
   year: 2018
   isbn: 978-1138561724
-
-- year: 2017
-  author:
-  - David Weintrop
-  - Nathan Holbert
-  booktitle: "Proc. SIGCSE'17"
-  doi: 10.1145/3017680.3017707
-  key: Weintrop2017
-  kind: inproceedings
-  title: "From Blocks to Text and Back: Programming Patterns in a Dual-modality Environment"
-
-- key: Weintrop2019
-  author:
-  - David Weintrop
-  - Heather Killen
-  - Talal Munzar
-  - Baker Franke
-  booktitle: "Proc. SIGCSE'19"
-  doi: 10.1145/3287324.3287348
-  kind: inproceedings
-  title: "Block-based Comprehension: Exploring and Explaining Student Outcomes from a Read-only Block-based Exam"
-  year: 2019
 
 - key: Wenger1999
   kind: book

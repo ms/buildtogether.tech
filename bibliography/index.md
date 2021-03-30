@@ -39,12 +39,6 @@ Daniel A. Almeida, Gail C. Murphy, Greg Wilson, and Mike Hoye:
 "Do Software Developers Understand Open Source Licenses?".
 <em>Proc. ICPC'17</em>, <a href="https://doi.org/10.1109/ICPC.2017.7">10.1109/ICPC.2017.7</a>.
 </dd>
-<dt id="alqadi2017" class="bibliography">Alqadi2017</dt>
-<dd>
-Basma S. Alqadi and Jonathan I. Maletic:
-"An Empirical Study of Debugging Patterns Among Novice Programmers".
-<em>Proc. SIGCSE'17</em>, <a href="https://doi.org/10.1145/3017680.3017761">10.1145/3017680.3017761</a>.
-</dd>
 <dt id="anda2009" class="bibliography">Anda2009</dt>
 <dd>
 B.C.D. Anda, D.I.K. Sjoberg, and A. Mockus:
@@ -189,12 +183,6 @@ Stewart Brand:
 <em>How Buildings Learn: What Happens After They're Built</em>.
 Penguin USA, 1995, 978-0140139969.
 </dd>
-<dt id="brian2015" class="bibliography">Brian2015</dt>
-<dd>
-Samuel A. Brian, Richard N. Thomas, James M. Hogan, and Colin Fidge:
-"Planting Bugs: A System for Testing Students' Unit Tests".
-<em>Proc. ITiCSE'15</em>, <a href="https://doi.org/10.1145/2729094.2742631">10.1145/2729094.2742631</a>.
-</dd>
 <dt id="brookfield2016" class="bibliography">Brookfield2016</dt>
 <dd>
 Stephen D. Brookfield and Stephen Preskill:
@@ -231,12 +219,6 @@ Neil C. C. Brown and Amjad Altadmri:
 "Novice Java Programming Mistakes".
 <em>TCE</em>, 17(2), 2017, <a href="https://doi.org/10.1145/2994154">10.1145/2994154</a>.
 </dd>
-<dt id="carter2017" class="bibliography">Carter2017</dt>
-<dd>
-Adam Scott Carter and Christopher David Hundhausen:
-"Using Programming Process Data to Detect Differences in Students' Patterns of Programming".
-<em>Proc. SIGCSE'17</em>, <a href="https://doi.org/10.1145/3017680.3017785">10.1145/3017680.3017785</a>.
-</dd>
 <dt id="casciaro2020" class="bibliography">Casciaro2020</dt>
 <dd>
 Mario Casciaro and Luciano Mammino:
@@ -253,12 +235,6 @@ Marcelo Cataldo, James D. Herbsleb, and Kathleen M. Carley:
 <dd>
 Mike Caulfield:
 "<a href="https://hapgood.us/2016/05/13/choral-explanations/">Choral Explanations</a>".
-</dd>
-<dt id="cetin2016" class="bibliography">Cetin2016</dt>
-<dd>
-Ibrahim Cetin and Christine Andrews-Larson:
-"Learning Sorting Algorithms Through Visualization Construction".
-<em>CSE</em>, 26(1), 2016, <a href="https://doi.org/10.1080/08993408.2016.1160664">10.1080/08993408.2016.1160664</a>.
 </dd>
 <dt id="chacon2014" class="bibliography">Chacon2014</dt>
 <dd>
@@ -309,12 +285,6 @@ Mary Rose Cook:
 Mihaly Csikszentmihalyi:
 <em>Flow: The Psychology of Optimal Experience</em>.
 Harper, 1991, 978-0060920432.
-</dd>
-<dt id="cunningham2017" class="bibliography">Cunningham2017</dt>
-<dd>
-Kathryn Cunningham, Sarah Blanchard, Barbara J. Ericson, and Mark Guzdial:
-"Using Tracing and Sketching to Solve Programming Problems".
-<em>Proc. ICER'17</em>, <a href="https://doi.org/10.1145/3105726.3106190">10.1145/3105726.3106190</a>.
 </dd>
 <dt id="davidson2009" class="bibliography">Davidson2009</dt>
 <dd>
@@ -368,12 +338,6 @@ Frank Dobbin and Alexandra Kalev:
 Deborah A. Donovan, Georgianne L. Connell, and Daniel Z. Grunspan:
 "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class".
 <em>CBE---Life Sciences Education</em>, 17(4), 2018, <a href="https://doi.org/10.1187/cbe.17-12-0283">10.1187/cbe.17-12-0283</a>.
-</dd>
-<dt id="edwards2014" class="bibliography">Edwards2014</dt>
-<dd>
-Stephen H. Edwards and Zalia Shams:
-"Do Student Programmers All Tend to Write the Same Software Tests?".
-<em>Proc. ITiCSE'14</em>, <a href="https://doi.org/10.1145/2591708.2591757">10.1145/2591708.2591757</a>.
 </dd>
 <dt id="eichberg2015" class="bibliography">Eichberg2015</dt>
 <dd>
@@ -446,12 +410,6 @@ Springer, 2001, 978-1852333577.
 Lars Fischer and Stefan Hanenberg:
 "An Empirical Investigation of the Effects of Type Systems and Code Completion on API Usability Using TypeScript and JavaScript in MS Visual Studio".
 <em>Proc. DLS'15</em>, <a href="https://doi.org/10.1145/2816707.2816720">10.1145/2816707.2816720</a>.
-</dd>
-<dt id="fitzgerald2008" class="bibliography">Fitzgerald2008</dt>
-<dd>
-Sue Fitzgerald, Gary Lewandowski, Renée McCauley, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander:
-"Debugging: Finding, Fixing and Flailing, a Multi-Institutional Study of Novice Debuggers".
-<em>CSE</em>, 18(2), 2008, <a href="https://doi.org/10.1080/08993400802114508">10.1080/08993400802114508</a>.
 </dd>
 <dt id="floyd2017" class="bibliography">Floyd2017</dt>
 <dd>
@@ -709,6 +667,12 @@ Cory J. Kapser and Michael W. Godfrey:
 "'Cloning Considered Harmful' Considered Harmful: Patterns of Cloning in Software".
 <em>ESE</em>, 13(6), 2008, <a href="https://doi.org/10.1007/s10664-008-9076-6">10.1007/s10664-008-9076-6</a>.
 </dd>
+<dt id="karabel2006" class="bibliography">Karabel2006</dt>
+<dd>
+Jerome Karabel:
+<em>The Chosen: The Hidden History of Admission and Exclusion at Harvard, Yale, and Princeton</em>.
+Mariner Books, 2006, 978-0618773558.
+</dd>
 <dt id="kaufman2000" class="bibliography">Kaufman2000</dt>
 <dd>
 Deborah B. Kaufman and Richard M. Felder:
@@ -829,23 +793,17 @@ Van Lindberg:
 <em>Intellectual Property and Open Source: A Practical Guide to Protecting Code</em>.
 O'Reilly, 2008, 978-0596517960.
 </dd>
+<dt id="littky2004" class="bibliography">Littky2004</dt>
+<dd>
+Dennis Littky:
+<em>The Big Picture: Education Is Everyone's Business</em>.
+Association for Supervision & Curriculum Development, 2004, 978-0871209719.
+</dd>
 <dt id="margolis2002" class="bibliography">Margolis2002</dt>
 <dd>
 Jane Margolis and Allan Fisher:
 <em>Unlocking the Clubhouse: Women in Computing</em>.
 MIT Press, 2002, 978-0262632690.
-</dd>
-<dt id="margulieux2012" class="bibliography">Margulieux2012</dt>
-<dd>
-Lauren E. Margulieux, Mark Guzdial, and Richard Catrambone:
-"Subgoal-labeled Instructional Material Improves Performance and Transfer in Learning to Develop Mobile Applications".
-<em>Proc. ICER'12</em>, <a href="https://doi.org/10.1145/2361276.2361291">10.1145/2361276.2361291</a>.
-</dd>
-<dt id="margulieux2016" class="bibliography">Margulieux2016</dt>
-<dd>
-Lauren E. Margulieux, Richard Catrambone, and Mark Guzdial:
-"Employing Subgoals in Computer Programming Education".
-<em>CSE</em>, 26(1), 2016, <a href="https://doi.org/10.1080/08993408.2016.1144429">10.1080/08993408.2016.1144429</a>.
 </dd>
 <dt id="mark2008" class="bibliography">Mark2008</dt>
 <dd>
@@ -955,12 +913,6 @@ Orna Muller, David Ginat, and Bruria Haberman:
 "Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction".
 <em>Proc. SIGCSE'07</em>, <a href="https://doi.org/10.1145/1268784.1268830">10.1145/1268784.1268830</a>.
 </dd>
-<dt id="murphy2008" class="bibliography">Murphy2008</dt>
-<dd>
-Laurie Murphy, Gary Lewandowski, Renée McCauley, Beth Simon, Lynda Thomas, and Carol Zander:
-"Debugging: The Good, the Bad, and the Quirky - A Qualitative Analysis of Novices' Strategies".
-<em>ACM SIGCSE Bulletin</em>, 40(1), 2008, <a href="https://doi.org/10.1145/1352322.1352191">10.1145/1352322.1352191</a>.
-</dd>
 <dt id="nakshatri2016" class="bibliography">Nakshatri2016</dt>
 <dd>
 Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
@@ -1008,12 +960,6 @@ Chris Parnin and Spencer Rugaber:
 Elizabeth Patitsas, Jesse Berlin, Michelle Craig, and Steve Easterbrook:
 "Evidence That Computer Science Grades Are Not Bimodal".
 <em>Proc. ICER'16</em>, <a href="https://doi.org/10.1145/2960310.2960312">10.1145/2960310.2960312</a>.
-</dd>
-<dt id="pea1986" class="bibliography">Pea1986</dt>
-<dd>
-Roy D. Pea:
-"Language-Independent Conceptual 'Bugs' in Novice Programming".
-<em>Journal of Educational Computing Research</em>, 2(1), 1986, <a href="https://doi.org/10.2190/689t-1r2a-x4w4-29j2">10.2190/689t-1r2a-x4w4-29j2</a>.
 </dd>
 <dt id="peitek2021" class="bibliography">Peitek2021</dt>
 <dd>
@@ -1077,12 +1023,6 @@ Apress, 2019, 978-1484242209.
 David Pritchard:
 "Frequency Distribution of Error Messages".
 <em>Proc. PLATEAU'15</em>, <a href="https://doi.org/10.1145/2846680.2846681">10.1145/2846680.2846681</a>.
-</dd>
-<dt id="qian2017" class="bibliography">Qian2017</dt>
-<dd>
-Yizhou Qian and James Lehman:
-"Students' Misconceptions and Other Difficulties in Introductory Programming".
-<em>TCE</em>, 18(1), 2017, <a href="https://doi.org/10.1145/3077618">10.1145/3077618</a>.
 </dd>
 <dt id="rawls1999" class="bibliography">Rawls1999</dt>
 <dd>
@@ -1210,38 +1150,11 @@ Rebecca Solnit:
 <em>A Paradise Built in Hell: The Extraordinary Communities That Arise in Disaster</em>.
 Penguin Books, 2010, 978-0143118077.
 </dd>
-<dt id="soloway1984" class="bibliography">Soloway1984</dt>
-<dd>
-Elliot Soloway and Kate Ehrlich:
-"Empirical Studies of Programming Knowledge".
-<em>TSE</em>, SE-10(5), 1984, <a href="https://doi.org/10.1109/tse.1984.5010283">10.1109/tse.1984.5010283</a>.
-</dd>
-<dt id="soloway1986" class="bibliography">Soloway1986</dt>
-<dd>
-Elliot Soloway:
-"Learning to Program = Learning to Construct Mechanisms and Explanations".
-<em>CACM</em>, 29(9), 1986, <a href="https://doi.org/10.1145/6592.6594">10.1145/6592.6594</a>.
-</dd>
-<dt id="sorva2018" class="bibliography">Sorva2018</dt>
-<dd>
-Juha Sorva:
-"Misconceptions and the Beginner Programmer".
-In 
-Sue Sentance, Erik Barendsen, and Carsten Schulte (eds.):
-<em>Proc. Computer Science Education: Perspectives on Teaching and Learning in School.</em>
-Bloomsbury Press, 2018, 978-1350057104.
-</dd>
 <dt id="spinellis2007" class="bibliography">Spinellis2007</dt>
 <dd>
 Diomidis Spinellis:
 "The Tools We Use".
 <em>IEEE Software</em>, 24(4), 2007.
-</dd>
-<dt id="stasko1998" class="bibliography">Stasko1998</dt>
-<dd>
-John Stasko, John Domingue, Mark H. Brown, and Blaine A. Price (eds.):
-<em>Software Visualization: Programming as a Multimedia Experience</em>.
-MIT Press, 1998, 978-0262193955.
 </dd>
 <dt id="stefik2013" class="bibliography">Stefik2013</dt>
 <dd>
@@ -1253,18 +1166,6 @@ Andreas Stefik and Susanna Siebert:
 <dd>
 Andreas Stefik, Patrick Daleiden, Diana Franklin, Stefan Hanenberg, Antti-Juhani Kaijanaho, Walter Tichy, and Brett A. Becker:
 "<a href="https://quorumlanguage.com/evidence.html">Programming Languages and Learning</a>".
-</dd>
-<dt id="stegeman2014" class="bibliography">Stegeman2014</dt>
-<dd>
-Martijn Stegeman, Erik Barendsen, and Sjaak Smetsers:
-"Towards an Empirically Validated Model for Assessment of Code Quality".
-<em>Proc. Koli'14</em>, <a href="https://doi.org/10.1145/2674683.2674702">10.1145/2674683.2674702</a>.
-</dd>
-<dt id="stegeman2016" class="bibliography">Stegeman2016</dt>
-<dd>
-Martijn Stegeman, Erik Barendsen, and Sjaak Smetsers:
-"Designing a Rubric for Feedback on Code Quality in Programming Courses".
-<em>Proc. Koli'16</em>, <a href="https://doi.org/10.1145/2999541.2999555">10.1145/2999541.2999555</a>.
 </dd>
 <dt id="steinmacher2014" class="bibliography">Steinmacher2014</dt>
 <dd>
@@ -1298,6 +1199,11 @@ In
 Andy Oram and Greg Wilson (eds.):
 <em>Making Software.</em>
 O'Reilly, 2010, 978-0596808327.
+</dd>
+<dt id="tiku2021" class="bibliography">Tiku2021</dt>
+<dd>
+Nitasha Tiku:
+"<a href="https://www.washingtonpost.com/technology/2021/03/04/google-hbcu-recruiting/">Google's approach to historically Black schools helps explain why there are few Black engineers in Big Tech</a>".
 </dd>
 <dt id="tregubov2017" class="bibliography">Tregubov2017</dt>
 <dd>
@@ -1345,18 +1251,6 @@ Apress, 2018, 978-1484238288.
 Yana Weinstein, Megan Sumeracki, and Oliver Caviglioli:
 <em>Understanding How We Learn: A Visual Guide</em>.
 Routledge, 2018, 978-1138561724.
-</dd>
-<dt id="weintrop2017" class="bibliography">Weintrop2017</dt>
-<dd>
-David Weintrop and Nathan Holbert:
-"From Blocks to Text and Back: Programming Patterns in a Dual-modality Environment".
-<em>Proc. SIGCSE'17</em>, <a href="https://doi.org/10.1145/3017680.3017707">10.1145/3017680.3017707</a>.
-</dd>
-<dt id="weintrop2019" class="bibliography">Weintrop2019</dt>
-<dd>
-David Weintrop, Heather Killen, Talal Munzar, and Baker Franke:
-"Block-based Comprehension: Exploring and Explaining Student Outcomes from a Read-only Block-based Exam".
-<em>Proc. SIGCSE'19</em>, <a href="https://doi.org/10.1145/3287324.3287348">10.1145/3287324.3287348</a>.
 </dd>
 <dt id="wenger1999" class="bibliography">Wenger1999</dt>
 <dd>

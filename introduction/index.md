@@ -17,10 +17,10 @@ Every lesson should be written with specific learners in mind.  These
 -   Brad is in Yanina's classes. He started programming when he was nine years
     old, and as a result can do many practical assignments in half the time it
     takes other students (something he attributes to intelligence and aptitude
-    rather than to <span g="preparatory_privilege">preparatory
-    privilege</span>). He finds any discussion of what he privately called
-    "social justice bullshit" tiresome; this guide will help him understand why
-    that attitude is self-defeating.
+    rather than to his parents being able to afford to send him to after-school
+    coding camps). He finds any discussion of what he privately called "social
+    justice bullshit" tiresome; this guide will help him understand why that
+    attitude is self-defeating.
 
 -   Ahmadou worked as an illustrator for several years before doing an intensive
     14-week conversion course to become a JavaScript developer. He has a lot of

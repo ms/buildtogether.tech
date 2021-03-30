@@ -1,21 +1,108 @@
 ---
 ---
 
-<span class="fixme">ethics in the context of AI: https://github.com/gvwilson/buildtogether.tech/issues/26</span>
+This book is about team projects, but as <span x="starting"/> said, these are
+supposed to simulate real jobs, and often have industry partners or overlap with
+internships and co-ops.  This chapter therefore looks at what many tech
+companies do wrong and what others do right.
 
-<span class="fixme">diversity and inclusivity data https://github.com/gvwilson/buildtogether.tech/issues/5</span>
+## What's Wrong
 
-<span class="fixme">power dynamics https://github.com/gvwilson/buildtogether.tech/issues/24</span>
+<blockquote markdown="1">
 
-<span class="fixme">how to tell if fairness has been achieved (opportunity or outcome?) https://github.com/gvwilson/buildtogether.tech/issues/61 - refer back to product management and the build trap</span>
+If poor inner-city children consistently outscored children from wealthy
+suburban homes on standardized tests, is anyone naïve enough to believe that we
+would still insist on using these tests as indicators of success?
 
-<span class="fixme">lending privilege as a form of allyship https://github.com/gvwilson/buildtogether.tech/issues/70</span>
+--- Kenneth Wesson (in <cite>Littky2004</cite>)
 
-<span class="fixme">being an active bystander https://github.com/gvwilson/buildtogether.tech/issues/78</span>
+</blockquote>
 
-<span class="fixme">build a good enough system with imperfect people https://github.com/gvwilson/buildtogether.tech/issues/79</span>
+In 1905, Harvard began selecting students based on their College Entrance Exam
+Board results.  As a result, Jewish enrolment began to rise, and by the early
+1920s they made up more than a fifth of the incoming class.  This wasn't an
+outcome the establishment was willing to accept, but neither were explicit
+quotas, so they moved the goalposts <cite>Karabel2006</cite>.  Admissions
+officers began asking questions about the "character" of prospective students,
+and the university began asking for personal essays that could be graded however
+the university found most convenient. By 1933, the rate of Jewish admission was
+back down to an "acceptable" 15%.
 
-<span class="fixme">lack of inclusive culture https://github.com/gvwilson/buildtogether.tech/issues/72</span>
+This story doesn't make sense if you think that a university's job is to find
+and train the smartest people it can.  It makes a lot of sense when you realize
+that, like most institutions, their first priority is to perpetuate themselves:
+if it wasn't, they probably wouldn't still be around.  In a similar way, the
+hiring process at many tech companies isn't designed to find the best
+programmers: it's designed to find the people who are most like the people doing
+the hiring.  Phrases like "cultural fit" are almost always code for "people like
+us"; consciously or not, we are all biased toward those who look like us, talk
+like us, dress like us, and make the same pop culture references as us, none of
+which has anything to do with actual ability.
+
+One way this shows up in tech hiring is in whiteboard coding questions about
+linked lists, dynamic programming, and other topics from second-year classes on
+data structures and algorithms. These have little or no bearing on most
+programmers' day-to-day work (and by "most" I mean "virtually all").  As
+[Hillel Wayne][wayne-hillel] discovered when he looked at [the history of these
+questions][wayne-linked-lists], they might have indicated how much experience
+someone had using C or Pascal in the 1980s, but they became institutionalized in
+the way that all hazing does ("I survived so it must be good for you").
+
+Tech trivia questions like these are no more objective than the essay questions
+used by Harvard and other Ivy League schools to select the "right" people.  As
+<cite>Tiku2021</cite> reported, when [April Christina Curley][curley-april]
+began coaching Black students how to prepare for interviews with Google that
+included questions like these the company shut her down, even though schools
+like Stanford had been running coaching sessions for their students for years.
+
+This is an example of <span g="preparatory_privilege">preparatory
+privilege</span>: the advantage someone has in an supposedly objective
+assessment as a result of growing up affluent, well-educated, or well-connected.
+Ignoring it is like ignoring the difference between professional athletes who
+are paid to train all day and amateurs whose jobs only allow them to train in
+the evening or on weekends.
+
+<div class="callout" markdown="1">
+
+### Myers-Briggs and other danger signs
+
+The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
+pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
+(MBTI) advertises itself as personality profiling tool.  It is popular on dating
+sites and some companies use it as part of their interview process---despite the
+fact that it is complete bullshit.  Half or more of people who repeat the test
+within a few weeks get a different personality classification, it fails to
+predict job performance, and its categories are based on outdated (and very
+Western-centric) psychological theories.  If a potential employer asks you to do
+it as part of the interview process, ask them if they would like a horoscope as
+well.
+
+Myers-Briggs has given the whole notion of personality profiling a bad
+reputation, but there *are* models of personality that have a scientific basis
+and are repeatable and cross-cultural.  For example, the <span
+g="ocean_model">OCEAN model</span> has five dimensions: Openness to experience,
+Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Studies of
+twins and other research has found that about half of personality variation
+comes from genetics and about half from environment, and work like
+<cite>Hannay2010</cite> has used this model in studies of programmers.
+
+</div>
+
+<div class="callout" markdown="1">
+
+### A sign of privilege
+
+In the first draft of this section I wrote, "If a company does any of the things
+described above, you should consider finding somewhere else to work."  One of
+the early reviewers wrote, "Gosh, it must be nice to be able to walk away."
+They were right: most people don't have the privilege and financial security I
+do, so they have to smile and put up with whatever the company does.
+
+</div>
+
+## What's Right
+
+<span class="fixme">Describe a good hiring process</span>
 
 ## Fair Play
 
@@ -204,3 +291,20 @@ descriptions and course websites inclusive? Are instructors required to use
 blinded grading to ensure that personal likes and dislikes don't affect grades?
 How easily can you find out where to go for help, and does anyone act on the
 feedback you give in course evaluations?
+
+
+<span class="fixme">ethics in the context of AI: https://github.com/gvwilson/buildtogether.tech/issues/26</span>
+
+<span class="fixme">diversity and inclusivity data https://github.com/gvwilson/buildtogether.tech/issues/5</span>
+
+<span class="fixme">power dynamics https://github.com/gvwilson/buildtogether.tech/issues/24</span>
+
+<span class="fixme">how to tell if fairness has been achieved (opportunity or outcome?) https://github.com/gvwilson/buildtogether.tech/issues/61 - refer back to product management and the build trap</span>
+
+<span class="fixme">lending privilege as a form of allyship https://github.com/gvwilson/buildtogether.tech/issues/70</span>
+
+<span class="fixme">being an active bystander https://github.com/gvwilson/buildtogether.tech/issues/78</span>
+
+<span class="fixme">build a good enough system with imperfect people https://github.com/gvwilson/buildtogether.tech/issues/79</span>
+
+<span class="fixme">lack of inclusive culture https://github.com/gvwilson/buildtogether.tech/issues/72</span>

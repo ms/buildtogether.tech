@@ -131,7 +131,7 @@ One reason for this is that the web ranges from unwelcoming to actively hostile
 for people from under-represented groups <cite>Ford2016,May2019</cite>.
 Unfortunately, in-person workplaces are often no better: many are filled with
 small signs that make many people feel out of place <cite>Cheryan2009</cite>.
-<span x="rights"/> takes a closer look at these issues.
+<span x="fairness"/> takes a closer look at these issues.
 
 <div class="callout" markdown="1">
 
