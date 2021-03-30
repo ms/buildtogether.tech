@@ -184,6 +184,11 @@ entries:
   label: I
   slug: evaluation
   title: Performance Evaluation
+- file: ./onboarding/index.md
+  kind: Appendix
+  label: J
+  slug: onboarding
+  title: Onboarding Checklist
 figures:
   boehms-curve: '20.2'
   er-diagram: '13.1'

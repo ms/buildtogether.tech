@@ -391,9 +391,10 @@ Not everything worth doing should be done.
     enthusiasm are hard to argue with, but argue you must.  Otherwise, for every
     step you move forward, the project's goalposts will recede by two. This is
     called <span g="feature_creep">feature creep</span>, and has ruined many
-    projects that might otherwise have delivered something small but useful.
-    My solution these days is to keep a "to-don't" list of things that would be
-    fun and worthwhile, but that I'm *not* going to tackle.
+    projects that might otherwise have delivered something small but useful.  My
+    solution these days is to keep a <span g="to_dont_list">to-don't</span> list
+    of things that would be fun and worthwhile, but that I'm *not* going to
+    tackle.
 
 Success is a habit.
 :   The more you follow a routine, the more your brain will be able to focus on

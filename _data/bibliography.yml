@@ -822,6 +822,14 @@
   isbn: 978-0596007591
   url: https://producingoss.com/
 
+- key: Fogel2020
+  kind: link
+  author:
+  - Karl Fogel
+  title: "Producing Open Source Software (updated)"
+  url: https://producingoss.com/
+  year: 2020
+
 - key: Ford2016
   author:
   - Denae Ford
@@ -1242,6 +1250,15 @@
   year: 2016
   publisher: "MIT Press"
   isbn: 978-0262528900
+
+- key: Jaffe2021
+  kind: book
+  author:
+  - Sarah Jaffe
+  title: "Work Won't Love You Back: How Devotion to Our Jobs Keeps Us Exploited, Exhausted, and Alone"
+  year: 2021
+  publisher: Bold Type Books
+  isbn: 978-1568589398
 
 - key: Jarry2020
   kind: link
@@ -2206,6 +2223,15 @@
   publisher: Penguin Books
   year: 2010
   isbn: 978-0143118077
+
+- key: Spinellis2003
+  kind: book
+  author:
+  - Diomidis Spinellis
+  title: "Code Reading: The Open Source Perspective"
+  publisher: Addison-Wesley Professional
+  year: 2003
+  isbn: 978-0201799408
 
 - key: Spinellis2007
   kind: article

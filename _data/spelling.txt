@@ -119,6 +119,7 @@ Carpentries
 CarpentryCon
 Casciaro
 Casper
+Casperpass
 Cataldo
 Cathrin
 Caulfield
@@ -263,6 +264,7 @@ Goucher
 Goues
 Gousios
 Graf
+Grafana
 Graziotin
 Greenberg
 Gren
@@ -327,6 +329,7 @@ Ilenia
 Imad
 IndentationError
 Inglish
+IntelliJ
 Iwashima
 JIT
 JITs
@@ -335,6 +338,7 @@ JSON
 JSS
 JSTL
 Jacoby
+Jaffe
 Jarry
 Jelena
 Jelmer
@@ -401,6 +405,7 @@ Leong
 Letian
 Leveling
 Lewandowski
+Lifecycle
 Lindberg
 Littky
 Liu
@@ -482,10 +487,12 @@ Nourry
 Nystrom
 O'Reilly
 OOPSLA
+OPA
 Observables
 Oivo
 Okoilu
 Oliveira
+Onboarding
 Oram
 Orbach
 Orgovan
@@ -535,6 +542,7 @@ Preskill
 Pritchard
 Proc
 Proksch
+Pryce
 Pseudocode
 Péraire
 Rabe
@@ -855,6 +863,7 @@ nobis
 observables
 ocracy
 offense
+onboarding
 pC
 parameterless
 parsers
@@ -869,6 +878,7 @@ programmatically
 pseudocode
 punchcard
 pytest
+rearchitect
 rebase
 rebasing
 recurse

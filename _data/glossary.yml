@@ -1590,6 +1590,12 @@
       A digital identifier showing the time at which something was created or
       accessed.
 
+- key: to_dont_list
+  en:
+    term: "to-don't list"
+    def: >
+      FIXME
+
 - key: tone_policing
   en:
     term: "tone policing"

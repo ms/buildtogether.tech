@@ -83,6 +83,8 @@ chapters:
     title: "Research Methods"
   - slug: "evaluation"
     title: "Performance Evaluation"
+  - slug: "onboarding"
+    title: "Onboarding Checklist"
 
 author:
   name: Greg Wilson
@@ -194,6 +196,8 @@ kramdown:
       "pip": ["https://pypi.org/project/pip/", "pip"],
       "plantuml": ["https://plantuml.com/", "PlantUML"],
       "program-repair": ["https://program-repair.org/", "Program Repair"],
+      "pryce-nat": ["http://www.natpryce.com/", "Nat Pryce"],
+      "pryce-onboarding": ["https://twitter.com/natpryce/status/1375949072910200835", "Onboarding checklist"],
       "python": ["https://www.python.org/", "Python"],
       "pytest": ["http://pytest.org/", "pytest"],
       "pytest-benchmark": ["https://pypi.org/project/pytest-benchmark/", "pytest-benchmark"],

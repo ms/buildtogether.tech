@@ -423,6 +423,11 @@ Karl Fogel:
 <em><a href="https://producingoss.com/">Producing Open Source Software</a></em>.
 O'Reilly, 2005, 978-0596007591.
 </dd>
+<dt id="fogel2020" class="bibliography">Fogel2020</dt>
+<dd>
+Karl Fogel:
+"<a href="https://producingoss.com/">Producing Open Source Software (updated)</a>".
+</dd>
 <dt id="ford2016" class="bibliography">Ford2016</dt>
 <dd>
 Denae Ford, Justin Smith, Philip J. Guo, and Chris Parnin:
@@ -631,6 +636,12 @@ Chapman & Hall/CRC Press, 2019, 978-0367698348.
 Daniel Jackson:
 <em>Software Abstractions: Logic, Language, and Analysis</em> (revised edition).
 MIT Press, 2016, 978-0262528900.
+</dd>
+<dt id="jaffe2021" class="bibliography">Jaffe2021</dt>
+<dd>
+Sarah Jaffe:
+<em>Work Won't Love You Back: How Devotion to Our Jobs Keeps Us Exploited, Exhausted, and Alone</em>.
+Bold Type Books, 2021, 978-1568589398.
 </dd>
 <dt id="jarry2020" class="bibliography">Jarry2020</dt>
 <dd>
@@ -1149,6 +1160,12 @@ Metropolitan Books, 2019, 978-1250237231.
 Rebecca Solnit:
 <em>A Paradise Built in Hell: The Extraordinary Communities That Arise in Disaster</em>.
 Penguin Books, 2010, 978-0143118077.
+</dd>
+<dt id="spinellis2003" class="bibliography">Spinellis2003</dt>
+<dd>
+Diomidis Spinellis:
+<em>Code Reading: The Open Source Perspective</em>.
+Addison-Wesley Professional, 2003, 978-0201799408.
 </dd>
 <dt id="spinellis2007" class="bibliography">Spinellis2007</dt>
 <dd>
