@@ -1,6 +1,0 @@
-abi-obstacles
-auvinen 2020
-farland 2019
-https://lib.dr.iastate.edu/abe_eng_conf/418/
-krueger 2020
-masood 2018

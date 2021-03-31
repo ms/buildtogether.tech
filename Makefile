@@ -186,7 +186,7 @@ release:
 ## clean: clean up stray files
 clean:
 	@find . -name '*~' -exec rm {} \;
-	@rm -f *.aux *.log *.out *.tex *.toc
+	@rm -f *.aux *.idx *.ilg *.ind *.log *.out *.tex *.toc
 
 ## sterile: clean up and erase generated site
 sterile:
