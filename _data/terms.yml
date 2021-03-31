@@ -1,5 +1,6 @@
 10-comfortable: []
 10-fired: []
+10-good: []
 10-handover: []
 10-joining: []
 10-newcomers:
@@ -115,6 +116,8 @@ design:
   term: derive
 - key: design_by_contract
   term: design by contract
+- key: dry
+  term: Don't Repeat Yourself
 - key: er_diagram
   term: entity-relationship diagram
 - key: fsm
@@ -358,6 +361,8 @@ research:
   term: Brook's Law
 - key: code_metric
   term: code metric
+- key: cognitive_bias
+  term: cognitive bias
 - key: cognitive_dimensions
   term: cognitive dimensions framework
 - key: dead_code

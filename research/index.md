@@ -1,43 +1,40 @@
 ---
 ---
 
-<span class="fixme">more research results https://github.com/gvwilson/buildtogether.tech/issues/4</span>
-
-<span class="fixme">Soften claims https://github.com/gvwilson/buildtogether.tech/issues/18</span>
-
 There are a lot of citations in the preceding chapters to back up various
-claims, but also to introduce the idea that we actually know stuff about things.
-Researchers have been studying programs and programmers since at least the
-1960s, and while there are many unknowns, we have learned a lot about what works
-and what doesn't.
+claims, but also to show that we actually know stuff about things.  Researchers
+have been studying programs and programmers since at least the 1960s; while
+there are many unknowns, they have learned a lot about what works and what
+doesn't.
 
-Sadly, most people in industry still don't know what researchers have found out,
-or even what kinds of questions they could answer. One reason is their belief
-that software engineering research is divorced from real-world problems; another
-is that many programmers haven't done any science themselves since high school.
-(The average biology students does forty to sixty experiments during their
-undergraduate degree.  The average computer science student does one.)
+Sadly, most people in industry still don't know what researchers have found or
+even what kinds of questions they could answer. One reason is their belief that
+software engineering research is divorced from real-world problems; another is
+that many programmers haven't done any science themselves since high school.
+(The average biology students does thirty to forty experiments during their
+undergraduate degree, but the average computer science student does only one.)
 
 A third reason is that many people would rather fail than change. People cling
 to creationism, refuse to accept the reality of anthropogenic climate change, or
 insist that vaccines cause autism. Given that, it's not surprising that many
-programmers continue to act as if a couple of quotations from some
-self-appointed guru constitute "proof".
+programmers continue to act as if a couple of quotations from a tech
+entrepreneur who struck it lucky constitute "proof".
 
 This chapter therefore presents a few evidence-based results that are relevant
 to the kind of work you may be doing in your project and that your instructor
-might want to incorporate into your course <cite>Fagerholm2017</cite>, while
-<span x="methods"/> discusses the methods researchers use.  I hope you will find
-them interesting enough to want to dig further, but as with all research, some
-caution is required when interpreting results:
+might want to incorporate into your course <cite>Fagerholm2017</cite>.  If you
+find them interesting and want to dig further, <span x="methods"/> describes the
+methods software engineering researchers use.  As with all research, though,
+some caution is required when interpreting results:
 
 Theories change as more data becomes available.
-:   Software engineering is a comparatively young discipline---in fact, the term
-    itself wasn't used until 1968.
+:   Software engineering is a comparatively young discipline---the term itself
+    wasn't used until 1968.
 
 Most of these studies' subjects are WEIRD.
 :   They are from Western, Education, Industrialized, Rich, and Democratic
-    societies <cite>Henrich2010</cite>.
+    societies <cite>Henrich2010</cite>, and may not be representative of the
+    other 99% of humanity.
 
 The data we have doesn't capture everything.
 :   <cite>Aranda2009</cite> found that in every one of the bugs they traced,
@@ -46,13 +43,21 @@ The data we have doesn't capture everything.
     several projects and found that many mis-report themselves in ways that will
     inevitably skew the results of simplistic analysis.
 
+<div class="callout" markdown="1">
+
+### What don't you want to know?
+
+<cite>Begel2014</cite> asked one set of developers what questions they most
+wanted researchers to answer, then asked another set of developers to rate those
+questions.  Respondents favored questions about how customers typically use
+their applications, but were opposed questions related to assessing the
+performance of individual employees or comparing them with one another;
+<cite>Huijgens2020</cite> found that data scientists viewed most possible
+research topics the same way.
+
+</div>
+
 ## What Do We Know About Programmer Productivity?
-
-<span class="fixme">SPACE model https://github.com/gvwilson/buildtogether.tech/issues/23</span>
-
-<span class="fixme">privilege defines performance https://github.com/gvwilson/buildtogether.tech/issues/34</span>
-
-<span class="fixme">productivity measures from <cite>Forsgren2018</cite> https://github.com/gvwilson/buildtogether.tech/issues/71</span>
 
 Let's start our explanation of research results with the often-repeated claim
 that some programmers are ten times more productive than others.  Is it actually
@@ -89,7 +94,9 @@ Satisfaction: how satisfying the work is.
     process using the new tool?" Answers could be found by collecting developer
     ratings for the new system or of team communication enabled by a new tool.
 
-What's most important to remember in all of this is [Goodhart's
+The more recent SPACE framework looks at Satisfaction, Performance, Activity,
+Communication, and Efficiency <cite>Forsgren2018,Forsgren2021</cite>.  However
+productivity is measured, it's important to remember [Goodhart's
 Law][goodhart-law]: as soon as you use some measure to evaluate people it ceases
 to be a good measure because people will start to game the system.  For example,
 <cite>Gitinabard2020</cite> reports that it's possible to classify student
@@ -100,15 +107,15 @@ whatever else is needed) in order to get the "right" profile.
 
 <div class="callout" markdown="1">
 
-### What don't you want to know?
+### Who decides?
 
-<cite>Begel2014</cite> asked one set of developers what questions they most
-wanted researchers to answer, then asked another set of developers to rate those
-questions.  Respondents favored questions about how customers typically use
-their applications, but were opposed questions related to assessing the
-performance of individual employees or comparing them with one another;
-<cite>Huijgens2020</cite> found that data scientists viewed most possible
-research topics the same way.
+Another thing to keep in mind is the way that privilege defines performance.
+People naturally value the things they're good at, so the people who define the
+criteria for high performance tend to emphasize things that just happen to give
+them high scores.  As Kenneth Wesson wrote in <cite>Littky2004</cite>, "If poor
+inner-city children consistently outscored children from wealthy suburban homes
+on standardized tests, is anyone naïve enough to believe that we would still
+insist on using these tests as indicators of success?"
 
 </div>
 
@@ -158,15 +165,15 @@ experienced developers.
 
 </blockquote>
 
-More recently, studies like <cite>Floyd2017,Krueger2020,Peitek2021</cite> have
-used <span g="fmri">fMRI</span> to look at what programmers' brain do when they
-are reading or writing code. The main findings are that reading code is
-cognitively different from reading prose, but that the more experienced
-programmers are, the less of a difference there is. This corroborates earlier
-work with eye tracking like <cite>Hansen2013</cite>, which also found that
-experience increases performance in most cases, but can actually *hurt*
-performance when assumptions about what code is supposed to do are violated
-(i.e., when the eye sees what the brain expects).
+More recently, <cite>Floyd2017,Krueger2020,Peitek2021</cite> have used <span
+g="fmri">fMRI</span> to look at what programmers' brain do when they are reading
+or writing code. The main findings are that reading code is cognitively
+different from reading prose, but that the more experienced programmers are, the
+less of a difference there is. This corroborates earlier work with eye tracking
+like <cite>Hansen2013</cite>, which also found that experience increases
+performance in most cases, but can actually *hurt* performance when assumptions
+about what code is supposed to do are violated (i.e., when the eye sees what the
+brain expects).
 
 <cite>Kernighan1999</cite> wrote, "Programmers are often encouraged to use long
 variable names regardless of context.  This is a mistake: clarity is often
@@ -232,19 +239,10 @@ does (or should) mean that the onus is on their designers to show that the
 complexity is worthwhile.
 
 Meanwhile, lots of people say that copy-pasting code is bad practice: if you
-find yourself copy-pasting code (or, in academic parlance, creating "code
-clones"), you should refactor it: abstract the repeated code into its own method
-and call it from all the original copies. That way, if you need to change it, or
-if it has some bugs, you only have to fix it in one place. Some researchers have
-built pretty sophisticated tools that will help you find your code clones, so
-that you can go and exterminate them wherever they are.
-
-<cite>Kapser2008</cite> explored *why* developers create code clones, and found
-out that many code clones are OK. They discuss several kinds of clones---those
-that are caused, for instance, by platform variations, boiler-plating, or
-language idioms---and show that often the right approach is to go ahead and
-copy-paste code. But they note that whether to clone or not is a decision that
-requires some thinking on a case by case basis:
+find yourself creating code clones, you should put the repeated code in its own
+method and call it from all the original copies (<span x="design"/>).  But when
+<cite>Kapser2008</cite> explored *why* developers create code clones, they found
+that code clones are OK in some cases:
 
 <blockquote markdown="1">
 
@@ -259,21 +257,6 @@ design or implementation decision) these patterns are more likely to achieve an
 overall beneficial effect on the software system.
 
 </blockquote>
-
-<div class="callout" markdown="1">
-
-### What *can't* we learn?
-
-Many people have put forward <span g="code_metric">code metrics</span> that are
-supposed to measure the complexity or likely number of bugs in a piece of
-software. However, <cite>ElEmam2001</cite> found that these metrics are no
-better at predicting things than simply counting the number of lines of code,
-because the longer the program is, the more likely it is to contain whatever
-kinds of problems those more sophisticated metrics are looking for.
-
-</div>
-
-<span class="fixme">boilerplate https://github.com/gvwilson/buildtogether.tech/issues/36</span>
 
 ## What Do We Know About Software Quality?
 
@@ -346,6 +329,19 @@ trivial packages reported in <cite>Abdalkareem2017</cite>, which looked at
 230,000 NPM packages and 38,000 JavaScript applications. It turns out that less
 than half of the trivial packages include tests; instead, they are "deployment
 tested", i.e., their authors fix the breakages that users report.
+
+<div class="callout" markdown="1">
+
+### What *can't* we learn?
+
+Many people have put forward <span g="code_metric">code metrics</span> that are
+supposed to measure the complexity or likely number of bugs in a piece of
+software. However, <cite>ElEmam2001</cite> found that these metrics are no
+better at predicting things than simply counting the number of lines of code,
+because the longer the program is, the more likely it is to contain whatever
+kinds of problems those more sophisticated metrics are looking for.
+
+</div>
 
 ## What Do We Know About Software Projects?
 
@@ -465,8 +461,10 @@ gain in a consistent manner." They go on to suggest that industry and research
 should "focus on other predictors of performance, including expertise and task
 complexity" instead, as these factors overshadow any personality effects.
 
-But the most important result is the one in <cite>Patitsas2016</cite>. Its
-abstract is worth repeating in full:
+## What Do We Know About Innate Ability?
+
+The most important result in this chapter comes from <cite>Patitsas2016</cite>.
+Its abstract is worth repeating in full:
 
 <blockquote markdown="1">
 
@@ -496,9 +494,19 @@ two humps. These beliefs matter because they are a self-fulfilling prophecy
 succeed than student B, they will give student A more attention, which *makes*
 them more likely to succeed, which confirms the teacher's bias.
 
-## Next Steps
+## Where Should We Go Next?
 
 Some of the most interesting work in software engineering today is coming from
-people studying how we think when we program, and how the ways we think should
-shape the tools we build. <cite>Johnson2020</cite> is one example: it reverse
-engineers the psychological foundations of user interface guidelines.
+people studying how we think when we program and how the ways we think should
+shape the tools we build. For example, <cite>Johnson2020</cite> reverse
+engineers the cognitive foundations of user interface guidelines, while
+<cite>Chattopadhyay2020</cite> found that roughly 70% of the actions programmers
+later undo could be attributed to <span g="cognitive_bias">cognitive bias</span>
+and <cite>Lamba2020</cite> looked at how new tools diffuse through the NPM
+community.
+
+You don't have to do a PhD to do this kind of research: you can gather and
+analyze data on your own, or collaborate with people in academia.  It takes time
+and there are frequent setbacks, but the same is true of programming, and being
+the first person in the world to understand a new insight is a feeling like no
+other.

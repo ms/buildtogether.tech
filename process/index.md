@@ -39,10 +39,10 @@ less attention to others.
 :   One programmer, the driver, does the typing, while the other, called the
     navigator, watches and comments.  Every twenty minutes or or so, the pair
     switches roles.  The benefits of pair programming are proven for students as
-    well as for professionals <cite>Williams2001,DiBella2013</cite>.  First, the
-    navigator will often notice mistakes in the driver's code, or remember
-    design decisions that the driver is too busy typing to recall. This is the
-    tightest of the feedback loops, since feedback is nearly continuous.
+    well as for professionals <cite>Williams2001,Hannay2009,DiBella2013</cite>.
+    First, the navigator will often notice mistakes in the driver's code, or
+    remember design decisions that the driver is too busy typing to recall. This
+    is the tightest of the feedback loops, since feedback is nearly continuous.
 
     Second, pair programming spreads knowledge around: every piece of code has
     been seen by at least two people, which reduces the risk of "But I didn't

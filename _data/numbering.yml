@@ -189,8 +189,14 @@ entries:
   label: J
   slug: onboarding
   title: Onboarding Checklist
+- file: ./10-good/index.md
+  kind: Appendix
+  label: K
+  slug: 10-good
+  title: How to Do Good and Get Paid
 figures:
   boehms-curve: '20.2'
+  comprehension-curves: '13.3'
   er-diagram: '13.1'
   feature-usage: '20.4'
   feedback-loops: '20.1'

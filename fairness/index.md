@@ -10,16 +10,6 @@ companies do wrong and what others do right.
 
 <span class="fixme">cite Behroozi 2019 and Behroozi2020</span>
 
-<blockquote markdown="1">
-
-If poor inner-city children consistently outscored children from wealthy
-suburban homes on standardized tests, is anyone naïve enough to believe that we
-would still insist on using these tests as indicators of success?
-
---- Kenneth Wesson (in <cite>Littky2004</cite>)
-
-</blockquote>
-
 In 1905, Harvard began selecting students based on their College Entrance Exam
 Board results.  As a result, Jewish enrolment began to rise, and by the early
 1920s they made up more than a fifth of the incoming class.  This wasn't an

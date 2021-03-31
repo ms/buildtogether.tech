@@ -255,6 +255,12 @@
     def: >
       FIXME
 
+- key: cognitive_bias
+  en:
+    term: "cognitive bias"
+    def: >
+      FIXME
+
 - key: cognitive_dimensions
   en:
     term: "cognitive dimensions framework"
@@ -558,6 +564,13 @@
       A software tool that extracts specially-formatted comments or
       [dostrings](#docstring) from code and generates cross-referenced developer
       documentation.
+
+- key: dry
+  en:
+    term: "Don't Repeat Yourself"
+    def: >
+      FIXME
+    acronym: DRY
 
 - key: double_blind
   en:

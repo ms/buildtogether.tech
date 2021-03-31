@@ -521,3 +521,30 @@ $ pip install .
 
 {: .continue}
 to create a package.
+
+## Find Your Current Comfort Zone
+
+When we use a low-level language, we incur the cognitive load of assembling
+micro-steps into something more meaningful (<span x="thinking"/>) When we use a
+high-level language, we incur a similar load translating functions of functions
+of functions (or meta-classes templated on object factories) into actual
+operations on actual data.
+
+More experienced programmers are more capable at both ends of the curve, but
+that's not the only thing that changes.  <span f="comprehension-curves"/>
+compares a novice's comprehension curve with an expert's.  Experts don't just
+understand more at all levels of abstraction; their *preferred* level has also
+shifted so that $$\sqrt{x^2 | y^2}$$ is actually more readable than the medieval
+expression "the side of the square whose area is the sum of the areas of the two
+squares whose sides are given by the first part and the second part".
+
+{% include figure id="comprehension-curves" alt="Comprehension curves" cap="How the relationship between abstraction and comprehension differs for novices and experts." fixme=true %}
+
+This difference implies that the software that is quickest for a novice to
+comprehend will almost certainly be different from the software that an expert
+can understand most quickly, which is why design rules like <span g="dry">Don't
+Repeat Yourself</span> should be followed by the word "however".  Duplicating
+some code so that it's right in front of the reader may help people at one level
+of development, even if it makes long-term maintenance more difficult for people
+at another level.  In the end, the only correct answer to the question, "What's
+the best way to design this?" is, "For whom?"

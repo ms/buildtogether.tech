@@ -42,7 +42,9 @@ Ari
 Arie
 Arisholm
 Arletta
+Armanios
 Arto
+Asher
 Asshole
 Atul
 Audris
@@ -90,6 +92,7 @@ Blincoe
 BlueJ
 Boehm
 Boehm's
+Bogdan
 Bohay
 Borland
 Borst
@@ -128,6 +131,7 @@ Caviglioli
 Centered
 Centric
 Chacon
+Chattopadhyay
 Checkstyle
 Cherubini
 Cheryan
@@ -169,6 +173,7 @@ DocBook
 Doo
 Dror
 DuckDuckGo
+Dybå
 EDM
 EOF
 EOFError
@@ -253,6 +258,7 @@ GitKraken
 GitLab
 Gitinabard
 Gitlet
+Gitvine
 Glanville
 Glanz
 Glerum
@@ -293,6 +299,7 @@ Heckman
 Hedderik
 Hegde
 Hellas
+Hemank
 Hennie
 Henrich
 Herbsleb
@@ -311,6 +318,7 @@ Hofstra
 Homebrew
 Horenstein
 Hossein
+Houck
 Hoye
 Hsing
 Hu
@@ -395,12 +403,14 @@ Kuchner
 Kuhrmann
 Kulikova
 Kulkarni
+Kästner
 LLC
 LPP
 LTM
 LaTeX
 Labeling
 Labor
+Lamba
 Lawrie
 LeGoues
 Leitao
@@ -423,6 +433,7 @@ MBTI
 MSR
 MVC
 MacOS
+Maddila
 Mahnaz
 Maithri
 Makefile
@@ -513,6 +524,7 @@ POS
 PRs
 PSP
 Packt
+Pandita
 Panichella
 Parnin
 Parning
@@ -600,6 +612,7 @@ Sami
 Sami's
 Santander
 Sapna
+Sarma
 Sascha
 Sathiyanarayanan
 Saïda
@@ -641,6 +654,7 @@ Sigweni
 Sillitti
 Sira
 Sjoberg
+Sjøberg
 Slava
 SmartBear
 Snakemake
@@ -650,6 +664,7 @@ Sohon
 Solnit
 SourceGear
 SourceTree
+Souti
 Souza
 Spinellis
 Springer
@@ -700,6 +715,7 @@ Torkar
 Transformative
 Tregubov
 Treude
+Trockman
 Tulk
 Tunnell
 Turhan
@@ -718,6 +734,7 @@ VL
 VM
 VMs
 Valgrind
+Vasilescu
 Vassallo
 Venolia
 Vigen
@@ -872,11 +889,11 @@ neurotypical
 nighter
 nighters
 nobis
+npm
 observables
 ocracy
 offense
 onboarding
-pC
 parameterless
 parsers
 paypaI
@@ -918,6 +935,7 @@ speling
 styrofoam
 subclasses
 sys
+templated
 tentupling
 testability
 theater

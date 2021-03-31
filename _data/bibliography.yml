@@ -497,6 +497,21 @@
   year: 2014
   isbn: 978-1484200773
 
+- key: Chattopadhyay2020
+  author:
+  - Souti Chattopadhyay
+  - Nicholas Nelson
+  - Audrey Au
+  - Natalia Morales
+  - Christopher Sanchez
+  - Rahul Pandita
+  - Anita Sarma
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380330
+  kind: inproceedings
+  title: "A Tale From the Trenches: Cognitive Biases and Software Development"
+  year: 2020
+
 - key: Cherubini2007
   kind: inproceedings
   author:
@@ -876,6 +891,22 @@
   year: 2018
   isbn: 978-1942788331
 
+- key: Forsgren2021
+  kind: article
+  author:
+  - Nicole Forsgren
+  - Margaret-Anne Storey
+  - Chandra Maddila
+  - Thomas Zimmermann
+  - Brian Houck
+  - Jenna Butler
+  title: "The SPACE of Developer Productivity"
+  journal: "ACM Queue"
+  year: 2021
+  volume: 19
+  number: 1
+  doi: 10.1145/3454122.3454124
+
 - key: Fowler2018
   kind: book
   author:
@@ -1052,6 +1083,20 @@
   title: "An Empirical Study on the Impact of Static Typing on Software Maintainability"
   year: 2013
   doi: 10.1007/s10664-013-9289-1
+
+- key: Hannay2009
+  author:
+  - Jo E. Hannay
+  - Tore Dybå
+  - Erik Arisholm
+  - Dag I.K. Sjøberg
+  title: "The Effectiveness of Pair Programming: A Meta-Analysis"
+  doi: 10.1016/j.infsof.2009.02.001
+  journal: Information and Software Technology
+  kind: article
+  volume: 51
+  number: 7
+  year: 2009
 
 - key: Hannay2010
   author:
@@ -1524,6 +1569,20 @@
   publisher: Island Press
   title: "Marketing for Scientists: How to Shine in Tough Times"
   year: 2011
+
+- key: Lamba2020
+  author:
+  - Hemank Lamba
+  - Asher Trockman
+  - Daniel Armanios
+  - Christian Kästner
+  - Heather Miller
+  - Bogdan Vasilescu
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409705
+  kind: inproceedings
+  title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
+  year: 2020
 
 - key: Lave1991
   kind: book

@@ -254,6 +254,12 @@ Scott Chacon and Ben Straub:
 <em>Pro Git</em> (2nd edition).
 Apress, 2014, 978-1484200773.
 </dd>
+<dt id="chattopadhyay2020" class="bibliography">Chattopadhyay2020</dt>
+<dd>
+Souti Chattopadhyay, Nicholas Nelson, Audrey Au, Natalia Morales, Christopher Sanchez, Rahul Pandita, and Anita Sarma:
+"A Tale From the Trenches: Cognitive Biases and Software Development".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380330">10.1145/3377811.3380330</a>.
+</dd>
 <dt id="cherubini2007" class="bibliography">Cherubini2007</dt>
 <dd>
 Mauro Cherubini, Gina Venolia, Rob DeLine, and Amy J. Ko:
@@ -452,6 +458,12 @@ Nicole Forsgren, Jez Humble, and Gene Kim:
 <em>Accelerate: Building and Scaling High Performing Technology Organizations</em>.
 IT Revolution Press, 2018, 978-1942788331.
 </dd>
+<dt id="forsgren2021" class="bibliography">Forsgren2021</dt>
+<dd>
+Nicole Forsgren, Margaret-Anne Storey, Chandra Maddila, Thomas Zimmermann, Brian Houck, and Jenna Butler:
+"The SPACE of Developer Productivity".
+<em>ACM Queue</em>, 19(1), 2021, <a href="https://doi.org/10.1145/3454122.3454124">10.1145/3454122.3454124</a>.
+</dd>
 <dt id="fowler2018" class="bibliography">Fowler2018</dt>
 <dd>
 Martin Fowler:
@@ -535,6 +547,12 @@ ASCD, 2015, 978-1416619901.
 Stefan Hanenberg, Sebastian Kleinschmager, Romain Robbes, Éric Tanter, and Andreas Stefik:
 "An Empirical Study on the Impact of Static Typing on Software Maintainability".
 <em>ESE</em>, 19(5), 2013, <a href="https://doi.org/10.1007/s10664-013-9289-1">10.1007/s10664-013-9289-1</a>.
+</dd>
+<dt id="hannay2009" class="bibliography">Hannay2009</dt>
+<dd>
+Jo E. Hannay, Tore Dybå, Erik Arisholm, and Dag I.K. Sjøberg:
+"The Effectiveness of Pair Programming: A Meta-Analysis".
+<em>Information and Software Technology</em>, 51(7), 2009, <a href="https://doi.org/10.1016/j.infsof.2009.02.001">10.1016/j.infsof.2009.02.001</a>.
 </dd>
 <dt id="hannay2010" class="bibliography">Hannay2010</dt>
 <dd>
@@ -779,6 +797,12 @@ Justin Kruger and David Dunning:
 Marc J. Kuchner:
 <em>Marketing for Scientists: How to Shine in Tough Times</em>.
 Island Press, 2011, 978-1597269940.
+</dd>
+<dt id="lamba2020" class="bibliography">Lamba2020</dt>
+<dd>
+Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, and Bogdan Vasilescu:
+"Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem".
+<em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409705">10.1145/3368089.3409705</a>.
 </dd>
 <dt id="lave1991" class="bibliography">Lave1991</dt>
 <dd>
