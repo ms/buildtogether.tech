@@ -99,6 +99,18 @@ Andrew Begel and Thomas Zimmermann:
 "Analyze This! 145 Questions for Data Scientists in Software Engineering".
 <em>Proc. ICSE'14</em>, <a href="https://doi.org/10.1145/2568225.2568233">10.1145/2568225.2568233</a>.
 </dd>
+<dt id="behroozi2019" class="bibliography">Behroozi2019</dt>
+<dd>
+Mahnaz Behroozi, Chris Parnin, and Titus Barik:
+"Hiring is Broken: What Do Developers Say About Technical Interviews?".
+<em>Proc. VL/HCC'19</em>, <a href="https://doi.org/10.1109/VLHCC.2019.8818836">10.1109/VLHCC.2019.8818836</a>.
+</dd>
+<dt id="behroozi2020" class="bibliography">Behroozi2020</dt>
+<dd>
+Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, and Chris Parnin:
+"Debugging Hiring: What Went Right and What Went Wrong in the Technical Interview Process".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377815.3381372">10.1145/3377815.3381372</a>.
+</dd>
 <dt id="beller2018" class="bibliography">Beller2018</dt>
 <dd>
 Moritz Beller, Niels Spruit, Diomidis Spinellis, and Andy Zaidman:
@@ -924,6 +936,12 @@ Orna Muller, David Ginat, and Bruria Haberman:
 "Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction".
 <em>Proc. SIGCSE'07</em>, <a href="https://doi.org/10.1145/1268784.1268830">10.1145/1268784.1268830</a>.
 </dd>
+<dt id="nafus2011" class="bibliography">Nafus2011</dt>
+<dd>
+Dawn Nafus:
+"'Patches don't have gender': What is not open in open source software".
+<em>New Media & Society</em>, 14(4), 2011, <a href="https://doi.org/10.1177/1461444811422887">10.1177/1461444811422887</a>.
+</dd>
 <dt id="nakshatri2016" class="bibliography">Nakshatri2016</dt>
 <dd>
 Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
@@ -1201,6 +1219,12 @@ Jeffrey Stylos and Steven Clarke:
 Morgan Taschuk and Greg Wilson:
 "Ten Simple Rules for Making Research Software More Robust"".
 <em>PLoS Computational Biology</em>, 13(4), 2017, <a href="https://doi.org/10.1371/journal.pcbi.1005412">10.1371/journal.pcbi.1005412</a>.
+</dd>
+<dt id="tedre2008" class="bibliography">Tedre2008</dt>
+<dd>
+Matti Tedre and Erkki Sutinen:
+"Three Traditions of Computing: What Educators Should Know".
+<em>CSE</em>, 18(3), 2008, <a href="https://doi.org/10.1080/08993400802332332">10.1080/08993400802332332</a>.
 </dd>
 <dt id="thomas2019" class="bibliography">Thomas2019</dt>
 <dd>

@@ -78,5 +78,7 @@
   title: "*IEEE Transactions on Software Engineering*"
 - key: "TSEM"
   title: "*ACM Transactions on Software Engineering and Methodology*"
+- key: "VL/HCC"
+  title: "IEEE Symposium on Visual Languages and Human-Centric Computing"
 - key: "WCRE"
   title: "Working Conference on Reverse Engineering"

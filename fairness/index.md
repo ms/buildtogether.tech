@@ -8,6 +8,8 @@ companies do wrong and what others do right.
 
 ## What's Wrong
 
+<span class="fixme">cite Behroozi 2019 and Behroozi2020</span>
+
 <blockquote markdown="1">
 
 If poor inner-city children consistently outscored children from wealthy
@@ -102,9 +104,11 @@ do, so they have to smile and put up with whatever the company does.
 
 ## What's Right
 
-<span class="fixme">Describe a good hiring process</span>
+<span class="fixme">Describe a good hiring process from Automattic</span>
 
 ## Fair Play
+
+<span class="fixme">Cite Nafus2011</span>
 
 You're due to have a meeting with someone.  There's a box with half a dozen
 cookies in the room, so you help yourself to a couple before the other person

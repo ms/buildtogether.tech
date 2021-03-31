@@ -71,6 +71,7 @@ Behar
 Behavior
 Behavioral
 Behaviors
+Behroozi
 Beigl
 Belknap
 Beller
@@ -125,6 +126,7 @@ Cathrin
 Caulfield
 Caviglioli
 Centered
+Centric
 Chacon
 Checkstyle
 Cherubini
@@ -189,6 +191,7 @@ Endrikat
 Engvik
 Ensmenger
 Erdogmus
+Erkki
 Etienne
 Experientialism
 Extraversion
@@ -273,6 +276,7 @@ Grunspan
 Gudith
 Guilherme
 Guo
+HCC
 Haberman
 Hachette
 Hakan
@@ -419,6 +423,7 @@ MBTI
 MSR
 MVC
 MacOS
+Mahnaz
 Maithri
 Makefile
 Maletic
@@ -432,6 +437,7 @@ Martyn
 Masood
 Massimiliano
 MathML
+Matti
 Maurizio
 McCauley
 McElligott
@@ -467,6 +473,7 @@ NPM
 NPMS
 NSPW
 Nachiappan
+Nafus
 Nagappan
 Najar
 Nakshatri
@@ -624,6 +631,8 @@ Shennum
 Shepperd
 Shesh
 Shihab
+Shirolkar
+Shivani
 Sholler
 Shopify
 Siebert
@@ -660,6 +669,7 @@ Suman
 Sumeracki
 Sunghun
 Surinder
+Sutinen
 Swidan
 SyntaxError
 TCE
@@ -675,6 +685,7 @@ Tapio
 Taschuk
 Tavish
 Tayana
+Tedre
 Tejeda
 Tejinder
 Testability
@@ -703,6 +714,7 @@ United's
 Upchurch
 Usenix
 Uyaguari
+VL
 VM
 VMs
 Valgrind

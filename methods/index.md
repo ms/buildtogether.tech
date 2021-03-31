@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">Cite Tedre2008</span>
+
 Back in 2016 [I tweeted][excel-tweet], "If anyone has data showing <span
 i="Excel">Excel</span> is *more* error-prone than <span
 i="MATLAB">MATLAB</span>/<span i="Python">Python</span>/<span i="R (programming
