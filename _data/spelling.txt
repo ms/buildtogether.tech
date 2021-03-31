@@ -52,6 +52,7 @@ Aul
 Aurélio
 Automattic
 Automattic's
+Automatticians
 Auvinen
 Averick
 Ayres
@@ -821,6 +822,7 @@ catalogs
 centers
 centric
 choosealicense
+codebase
 color
 colored
 colorized
@@ -946,6 +948,7 @@ tentupling
 testability
 theater
 this'll
+timebox
 timesheet
 timeslicing
 timezones
@@ -966,5 +969,6 @@ vanishingly
 von
 walkthrough
 warmup
+whiteboarding
 Åkerblom
 Éric

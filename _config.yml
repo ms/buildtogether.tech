@@ -81,10 +81,12 @@ chapters:
     title: "Thinking and Learning"
   - slug: "methods"
     title: "Research Methods"
-  - slug: "evaluation"
-    title: "Performance Evaluation"
+  - slug: "hiring"
+    title: "Automattic's Hiring Process"
   - slug: "onboarding"
     title: "Onboarding Checklist"
+  - slug: "evaluation"
+    title: "Performance Evaluation"
   - slug: "10-good"
     title: "How to Do Good and Get Paid"
 
@@ -110,6 +112,7 @@ kramdown:
       "apache": ["https://apache.org/", "Apache Software Foundation"],
       "apt": ["https://en.wikipedia.org/wiki/APT_(software)", "APT"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
+      "automattic": ["https://automattic.com/", "Automattic"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
       "bitbucket": ["https://bitbucket.org/", "Bitbucket"],
       "black": ["https://pypi.org/project/black/", "Black"],
@@ -228,6 +231,7 @@ kramdown:
       "tldr-gpl": ["https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)", "tl;dr summary of the GPL"],
       "tldr-legal": ["https://tldrlegal.com/", "Software Licenses in Plain English"],
       "travis-ci": ["https://travis-ci.org/", "Travis CI"],
+      "ucsf-unconscious-bias": ["https://diversity.ucsf.edu/resources/state-science-unconscious-bias", "State of Science on Unconscious Bias"],
       "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
       "uk-home-office-a11y": ["https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf", "UK Home Office posters on accesibility"],
       "ultima-online-players": ["https://twitter.com/ZenOfDesign/status/1371347166736834560", "Number of badly-behaved players in Ultima Online"],

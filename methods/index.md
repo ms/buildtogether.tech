@@ -206,6 +206,15 @@ until we had analyzed all the postmortem reviews.
 
 ## The Fourth Tradition
 
+<blockquote markdown="1">
+
+"Once the rockets are up, who cares where they come down?
+<br/>
+That's not my department!" says Wernher von Braun
+
+--- Tom Lehrer
+</blockquote>
+
 <cite>Tedre2008</cite> describes three traditions that have shaped how we think
 about computing: the mathematical, which focuses on algorithms and proofs; the
 scientific, which studies programs and programmers empirically; and the
@@ -219,13 +228,4 @@ like, "Who does this help?", "Who does this hurt?", and, "Who decides?"  Just as
 the most interesting software engineering research these days is look at how the
 way we think interacts with the way we program (<span x="research"/>), the most
 interesting thinking about computing as a whole is coming from people who have
-outgrown the "move fast and break things" mentality.
-
-<blockquote>
-
-"Once the rockets are up, who cares where they come down?
-<br/>
-That's not my department!" says Wernher von Braun
-
---- Tom Lehrer
-</blockquote>
+outgrown the "Wernher von Braun" mentality.

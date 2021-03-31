@@ -10,6 +10,8 @@ companies do wrong and what others do right.
 
 <span class="fixme">cite Behroozi 2019 and Behroozi2020</span>
 
+<span class="fixme">forward ref to <span x="hiring"/></span>
+
 In 1905, Harvard began selecting students based on their College Entrance Exam
 Board results.  As a result, Jewish enrolment began to rise, and by the early
 1920s they made up more than a fifth of the incoming class.  This wasn't an
@@ -91,10 +93,6 @@ They were right: most people don't have the privilege and financial security I
 do, so they have to smile and put up with whatever the company does.
 
 </div>
-
-## What's Right
-
-<span class="fixme">Describe a good hiring process from Automattic</span>
 
 ## Fair Play
 

@@ -179,19 +179,24 @@ entries:
   label: H
   slug: methods
   title: Research Methods
-- file: ./evaluation/index.md
+- file: ./hiring/index.md
   kind: Appendix
   label: I
-  slug: evaluation
-  title: Performance Evaluation
+  slug: hiring
+  title: Automattic's Hiring Process
 - file: ./onboarding/index.md
   kind: Appendix
   label: J
   slug: onboarding
   title: Onboarding Checklist
-- file: ./10-good/index.md
+- file: ./evaluation/index.md
   kind: Appendix
   label: K
+  slug: evaluation
+  title: Performance Evaluation
+- file: ./10-good/index.md
+  kind: Appendix
+  label: L
   slug: 10-good
   title: How to Do Good and Get Paid
 figures:

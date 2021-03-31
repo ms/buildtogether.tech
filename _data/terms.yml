@@ -234,6 +234,7 @@ git-team:
 - key: rebase_git
   term: rebase
 glossary: []
+hiring: []
 important:
 - key: adhd
   term: attention-deficit/hyperactivity disorder
