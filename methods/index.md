@@ -1,8 +1,6 @@
 ---
 ---
 
-<span class="fixme">Cite Tedre2008</span>
-
 Back in 2016 [I tweeted][excel-tweet], "If anyone has data showing <span
 i="Excel">Excel</span> is *more* error-prone than <span
 i="MATLAB">MATLAB</span>/<span i="Python">Python</span>/<span i="R (programming
@@ -163,6 +161,18 @@ of a small number of cases to tease out common patterns.  Articles like
 <cite>Sharp2016</cite> do an excellent job of explaining how these methods work
 and what their strengths and limitations are.
 
+<div class="callout" markdown="1">
+
+### Wish I knew then what I know now
+
+My classes in engineering taught me to look down on anything that wasn't a
+controlled laboratory experiment whose results could be neatly displayed in a
+scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
+that the "fuzzy" methods of the social sciences were just as rigorous when used
+properly, and the only ones that could produce certain valuable insights.
+
+</div>
+
 <cite>Washburn2016</cite> demonstrates the kinds of insights these methods can
 produce. They analyzed 155 <span g="post_mortem">post mortem</span> reviews of
 game projects to identify characteristics of game development, link the
@@ -194,17 +204,28 @@ until we had analyzed all the postmortem reviews.
 
 </blockquote>
 
-## A Personal Note
+## The Fourth Tradition
 
-My classes in engineering taught me to look down on anything that wasn't a
-controlled laboratory experiment whose results could be neatly displayed in a
-scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
-that the "fuzzy" methods of the social sciences were just as rigorous when used
-properly, and the only ones that could produce certain valuable insights.
+<cite>Tedre2008</cite> describes three traditions that have shaped how we think
+about computing: the mathematical, which focuses on algorithms and proofs; the
+scientific, which studies programs and programmers empirically; and the
+engineering tradition, which centers the fact that computing matters because we
+can actually build useful things.
 
-One other thing I was slow to learn was that it's OK to say, "I don't know."
-Historically, juries in Scotland were allowed to return one of <span
-g="scottish_verdict" i="Scottish verdict">three verdicts</span>: innocent,
-guilty, or not proven.  I think the world would be a better place if we were all
-more comfortable with not knowing, and with changing our minds as new evidence
-comes in.
+That paper changed how I think about our field, but in the past few years I have
+realized that another point of view is just as important, though not as well
+respected.  It draws on humanities and social sciences to explore questions
+like, "Who does this help?", "Who does this hurt?", and, "Who decides?"  Just as
+the most interesting software engineering research these days is look at how the
+way we think interacts with the way we program (<span x="research"/>), the most
+interesting thinking about computing as a whole is coming from people who have
+outgrown the "move fast and break things" mentality.
+
+<blockquote>
+
+"Once the rockets are up, who cares where they come down?
+<br/>
+That's not my department!" says Wernher von Braun
+
+--- Tom Lehrer
+</blockquote>

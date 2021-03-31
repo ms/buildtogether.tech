@@ -98,6 +98,7 @@ Borland
 Borst
 Boyce
 Bram
+Braun
 Brechmann
 Brookfield
 Brophy
@@ -413,6 +414,7 @@ Labor
 Lamba
 Lawrie
 LeGoues
+Lehrer
 Leitao
 Leitão
 Leong
@@ -421,6 +423,7 @@ Leveling
 Lewandowski
 Lifecycle
 Lindberg
+LinkedIn
 Littky
 Liu
 Loihle
@@ -687,6 +690,7 @@ Surinder
 Sutinen
 Swidan
 SyntaxError
+TA'd
 TCE
 TLA
 TLDRlegal
@@ -751,6 +755,7 @@ Wehaibi
 Weimer
 Weinstein
 Wenger
+Wernher
 Westley
 Whitlock
 Wickham
@@ -813,6 +818,7 @@ callout
 callout's
 canceled
 catalogs
+centers
 centric
 choosealicense
 color

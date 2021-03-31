@@ -308,8 +308,6 @@ methods:
   term: qualitative method
 - key: quasi_experiment
   term: quasi experiment
-- key: scottish_verdict
-  term: Scottish verdict
 - key: treatment_group
   term: treatment group
 onboarding: []
@@ -377,6 +375,8 @@ research:
   term: premature commitment
 - key: root_cause
   term: root cause
+- key: scottish_verdict
+  term: Scottish verdict
 - key: static_typing
   term: static typing
 security:

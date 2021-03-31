@@ -43,19 +43,11 @@ The data we have doesn't capture everything.
     several projects and found that many mis-report themselves in ways that will
     inevitably skew the results of simplistic analysis.
 
-<div class="callout" markdown="1">
-
-### What don't you want to know?
-
-<cite>Begel2014</cite> asked one set of developers what questions they most
-wanted researchers to answer, then asked another set of developers to rate those
-questions.  Respondents favored questions about how customers typically use
-their applications, but were opposed questions related to assessing the
-performance of individual employees or comparing them with one another;
-<cite>Huijgens2020</cite> found that data scientists viewed most possible
-research topics the same way.
-
-</div>
+Historically, juries in Scotland were allowed to return one of <span
+g="scottish_verdict" i="Scottish verdict">three verdicts</span>: innocent,
+guilty, or not proven.  I think the world would be a better place if we were all
+more comfortable with not knowing, and with changing our minds as new evidence
+comes in.
 
 ## What Do We Know About Programmer Productivity?
 
@@ -105,10 +97,6 @@ history of their version control repositories. If these measures are ever used
 for grading, students will immediately start making extra commits (or fewer, or
 whatever else is needed) in order to get the "right" profile.
 
-<div class="callout" markdown="1">
-
-### Who decides?
-
 Another thing to keep in mind is the way that privilege defines performance.
 People naturally value the things they're good at, so the people who define the
 criteria for high performance tend to emphasize things that just happen to give
@@ -116,6 +104,18 @@ them high scores.  As Kenneth Wesson wrote in <cite>Littky2004</cite>, "If poor
 inner-city children consistently outscored children from wealthy suburban homes
 on standardized tests, is anyone naïve enough to believe that we would still
 insist on using these tests as indicators of success?"
+
+<div class="callout" markdown="1">
+
+### What don't you want to know?
+
+<cite>Begel2014</cite> asked one set of developers what questions they most
+wanted researchers to answer, then asked another set of developers to rate those
+questions.  Respondents favored questions about how customers typically use
+their applications, but were opposed questions related to assessing the
+performance of individual employees or comparing them with one another;
+<cite>Huijgens2020</cite> found that data scientists viewed most possible
+research topics the same way.
 
 </div>
 
