@@ -200,7 +200,7 @@
   booktitle: "Proc. VL/HCC'19"
   doi: 10.1109/VLHCC.2019.8818836
 
-- key: Behroozi2020
+- key: Behroozi2020a
   kind: inproceedings
   author:
   - Mahnaz Behroozi
@@ -211,6 +211,18 @@
   year: 2020
   booktitle: "Proc. ICSE'20"
   doi: 10.1145/3377815.3381372
+
+- key: Behroozi2020b
+  kind: inproceedings
+  author:
+  - Mahnaz Behroozi
+  - Shivani Shirolkar
+  - Titus Barik
+  - Chris Parnin
+  title: "Does Stress Impact Technical Interview Performance?"
+  year: 2020
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409712
 
 - key: Beller2018
   kind: inproceedings
@@ -360,6 +372,15 @@
   number: 1
   year: 2011
   doi: 10.5406/amerjpsyc.124.1.0063
+
+- key: Bollier2014
+  author:
+  - David Bollier
+  isbn: 978-0865717688
+  kind: book
+  publisher: New Society Publishers
+  title: "Think Like a Commoner: A Short Introduction to the Life of the Commons"
+  year: 2014
 
 - key: Borst2015
   kind: inproceedings
@@ -584,6 +605,15 @@
   url: http://gitlet.maryrosecook.com/
   year: 2016
 
+- key: CriadoPerez2019
+  kind: book
+  author:
+  - Caroline Criado Perez
+  title: "Invisible Women: Data Bias in a World Designed for Men"
+  publisher: Harry N. Abrams
+  year: 2019
+  isbn: 978-1419729072
+
 - key: Csikszentmihalyi1991
   kind: book
   author:
@@ -701,6 +731,20 @@
   title: "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class"
   volume: 17
   year: 2018
+
+- key: Edwards2009
+  author:
+  - Stephen H. Edwards
+  - Jason Snyder
+  - Manuel A. Pérez-Quiñones
+  - Anthony Allevato
+  - Dongkwan Kim
+  - Betsy Tretola
+  booktitle: "Proc. ICER'09"
+  doi: 10.1145/1584322.1584325
+  kind: inproceedings
+  title: "Comparing Effective and Ineffective Behaviors of Student Programmers"
+  year: 2009
 
 - key: Eichberg2015
   author:
@@ -916,6 +960,15 @@
   publisher: Addison-Wesley Professional
   year: 2018
   isbn: 978-0134757599
+
+- key: Frankfurt2005
+  kind: book
+  author:
+  - Harry G. Frankfurt
+  title: "On Bullshit"
+  year: 2005
+  publisher: Princeton University Press
+  isbn: 978-0691122946
 
 - key: Freeman1972
   kind: article
@@ -1177,6 +1230,21 @@
   publisher: MIT Press
   year: 2018
   isbn: 978-0262535182
+
+- key: Hilderbrand2020
+  author:
+  - Claudia Hilderbrand
+  - Christopher Perdriau
+  - Lara Letaw
+  - Jillian Emard
+  - Zoe Steine-Hanson
+  - Margaret Burnett
+  - Anita Sarma
+  booktitle: "Proc. ICSE'20"
+  doi: 10.1145/3377811.3380371
+  kind: inproceedings
+  title: "Engineering Gender-Inclusivity into Software: Tales from the Trenches"
+  year: 2020
 
 - key: Hilton2016
   kind: inproceedings
@@ -1791,6 +1859,14 @@
   year: 2004
   isbn: 978-1579220860
 
+- key: Mildenberger2019
+  kind: link
+  author:
+  - Matto Mildenberger
+  title: "The Tragedy of 'The Tragedy of the Commons'"
+  year: 2019
+  url: https://blogs.scientificamerican.com/voices/the-tragedy-of-the-tragedy-of-the-commons/
+
 - key: Miller1956
   kind: article
   author:
@@ -1929,6 +2005,15 @@
   year: 2007
   isbn: 978-0321490452
 
+- key: Ostrom2015
+  author:
+  - Elinor Ostrom
+  isbn: 978-1107569782
+  kind: book
+  publisher: Cambridge University Press
+  title: "Governing the Commons: The Evolution of Institutions for Collective Action"
+  year: 2015
+
 - key: Pan2008
   author:
   - Kai Pan
@@ -2037,6 +2122,16 @@
   publisher: MIT Press
   year: 2016
   isbn: 978-0262035187
+
+- key: Phillips2019
+  kind: book
+  author:
+  - Leigh Phillips
+  - Michal Rozworski
+  title: "The People's Republic of Walmart"
+  year: 2019
+  publisher: Verso
+  isbn: 978-1786635167
 
 - key: Posnett2011
   author:
@@ -2418,6 +2513,14 @@
   publisher: Addison-Wesley Professional
   year: 2019
   isbn: 978-0135957059
+
+- key: Thompson2019
+  kind: link
+  author:
+  - Clive Thompson
+  title: "When Workers Control the Code"
+  url: https://www.wired.com/story/when-workers-control-gig-economy/
+  year: 2019
 
 - key: Tichy2010
   kind: incollection

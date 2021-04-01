@@ -177,16 +177,14 @@ evaluation: []
 fairness:
 - key: ally
   term: ally
-- key: myers_briggs
-  term: Myers-Briggs Type Indicator
-- key: ocean_model
-  term: OCEAN model
-- key: oppression
-  term: oppression
+- key: bullshit
+  term: bullshit
+- key: commons
+  term: commons
 - key: preparatory_privilege
   term: preparatory privilege
-- key: privilege
-  term: privilege
+- key: unconscious_bias
+  term: unconscious bias
 git-solo:
 - key: branch_git
   term: branch
@@ -234,7 +232,6 @@ git-team:
 - key: rebase_git
   term: rebase
 glossary: []
-hiring: []
 important:
 - key: adhd
   term: attention-deficit/hyperactivity disorder
@@ -354,8 +351,6 @@ process:
 research:
 - key: affective_state
   term: affective state
-- key: big_five
-  term: Big Five personality traits
 - key: brooks_law
   term: Brook's Law
 - key: code_metric
@@ -372,6 +367,10 @@ research:
   term: fmri
 - key: gqm
   term: goal-question-metric
+- key: myers_briggs
+  term: Myers-Briggs Type Indicator
+- key: ocean_model
+  term: OCEAN model
 - key: premature_commitment
   term: premature commitment
 - key: root_cause

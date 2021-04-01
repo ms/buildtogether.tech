@@ -1,13 +1,6 @@
 ---
 ---
 
-*I was interviewing for a new job as I was writing this book.  Some companies'
-recruitment and interviewing processes were awful, but
-[Automattic][automattic]'s was both carefully thought out and [well
-documented][automattic-hiring].  I have reproduced it here so you can see what
-hiring ought to look like, and in the hope that it will inspire (or shame) other
-companies to do better.*
-
 We know applying to jobs can be stressful and we want to ease the stress by
 giving clear expectations up front about what to expect from our process. Read
 on to learn more about how we hire developers.

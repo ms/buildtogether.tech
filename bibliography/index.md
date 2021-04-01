@@ -105,11 +105,17 @@ Mahnaz Behroozi, Chris Parnin, and Titus Barik:
 "Hiring is Broken: What Do Developers Say About Technical Interviews?".
 <em>Proc. VL/HCC'19</em>, <a href="https://doi.org/10.1109/VLHCC.2019.8818836">10.1109/VLHCC.2019.8818836</a>.
 </dd>
-<dt id="behroozi2020" class="bibliography">Behroozi2020</dt>
+<dt id="behroozi2020a" class="bibliography">Behroozi2020a</dt>
 <dd>
 Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, and Chris Parnin:
 "Debugging Hiring: What Went Right and What Went Wrong in the Technical Interview Process".
 <em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377815.3381372">10.1145/3377815.3381372</a>.
+</dd>
+<dt id="behroozi2020b" class="bibliography">Behroozi2020b</dt>
+<dd>
+Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, and Chris Parnin:
+"Does Stress Impact Technical Interview Performance?".
+<em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409712">10.1145/3368089.3409712</a>.
 </dd>
 <dt id="beller2018" class="bibliography">Beller2018</dt>
 <dd>
@@ -182,6 +188,12 @@ Prentice-Hall, 1981, 978-0138221225.
 Mark Bohay, Daniel P. Blakely, Andrea K. Tamplin, and Gabriel A. Radvansky:
 "Note Taking, Review, Memory, and Comprehension".
 <em>American Journal of Psychology</em>, 124(1), 2011, <a href="https://doi.org/10.5406/amerjpsyc.124.1.0063">10.5406/amerjpsyc.124.1.0063</a>.
+</dd>
+<dt id="bollier2014" class="bibliography">Bollier2014</dt>
+<dd>
+David Bollier:
+<em>Think Like a Commoner: A Short Introduction to the Life of the Commons</em>.
+New Society Publishers, 2014, 978-0865717688.
 </dd>
 <dt id="borst2015" class="bibliography">Borst2015</dt>
 <dd>
@@ -298,6 +310,12 @@ Melvin E. Conway:
 Mary Rose Cook:
 "<a href="http://gitlet.maryrosecook.com/">Gitlet</a>".
 </dd>
+<dt id="criadoperez2019" class="bibliography">CriadoPerez2019</dt>
+<dd>
+Caroline Criado Perez:
+<em>Invisible Women: Data Bias in a World Designed for Men</em>.
+Harry N. Abrams, 2019, 978-1419729072.
+</dd>
 <dt id="csikszentmihalyi1991" class="bibliography">Csikszentmihalyi1991</dt>
 <dd>
 Mihaly Csikszentmihalyi:
@@ -356,6 +374,12 @@ Frank Dobbin and Alexandra Kalev:
 Deborah A. Donovan, Georgianne L. Connell, and Daniel Z. Grunspan:
 "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class".
 <em>CBE---Life Sciences Education</em>, 17(4), 2018, <a href="https://doi.org/10.1187/cbe.17-12-0283">10.1187/cbe.17-12-0283</a>.
+</dd>
+<dt id="edwards2009" class="bibliography">Edwards2009</dt>
+<dd>
+Stephen H. Edwards, Jason Snyder, Manuel A. Pérez-Quiñones, Anthony Allevato, Dongkwan Kim, and Betsy Tretola:
+"Comparing Effective and Ineffective Behaviors of Student Programmers".
+<em>Proc. ICER'09</em>, <a href="https://doi.org/10.1145/1584322.1584325">10.1145/1584322.1584325</a>.
 </dd>
 <dt id="eichberg2015" class="bibliography">Eichberg2015</dt>
 <dd>
@@ -469,6 +493,12 @@ Nicole Forsgren, Margaret-Anne Storey, Chandra Maddila, Thomas Zimmermann, Brian
 Martin Fowler:
 <em>Refactoring</em> (2nd edition).
 Addison-Wesley Professional, 2018, 978-0134757599.
+</dd>
+<dt id="frankfurt2005" class="bibliography">Frankfurt2005</dt>
+<dd>
+Harry G. Frankfurt:
+<em>On Bullshit</em>.
+Princeton University Press, 2005, 978-0691122946.
 </dd>
 <dt id="freeman1972" class="bibliography">Freeman1972</dt>
 <dd>
@@ -594,6 +624,12 @@ Kim Herzig, Sascha Just, and Andreas Zeller:
 M, a, r, i, e,  , H, i, c, k, and s:
 <em>Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing</em>.
 MIT Press, 2018, 978-0262535182.
+</dd>
+<dt id="hilderbrand2020" class="bibliography">Hilderbrand2020</dt>
+<dd>
+Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, and Anita Sarma:
+"Engineering Gender-Inclusivity into Software: Tales from the Trenches".
+<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380371">10.1145/3377811.3380371</a>.
 </dd>
 <dt id="hilton2016" class="bibliography">Hilton2016</dt>
 <dd>
@@ -912,6 +948,11 @@ Larry K. Michaelson, Arletta Bauman Knight, and L. Dee Fink (eds.):
 <em>Team-Based Learning: A Transformative Use of Small Groups in College Teaching</em>.
 Stylus Publishing, 2004, 978-1579220860.
 </dd>
+<dt id="mildenberger2019" class="bibliography">Mildenberger2019</dt>
+<dd>
+Matto Mildenberger:
+"<a href="https://blogs.scientificamerican.com/voices/the-tragedy-of-the-tragedy-of-the-commons/">The Tragedy of 'The Tragedy of the Commons'</a>".
+</dd>
 <dt id="miller1956" class="bibliography">Miller1956</dt>
 <dd>
 George A. Miller:
@@ -990,6 +1031,12 @@ Russ Olsen:
 <em>Design Patterns in Ruby</em>.
 Addison-Wesley Professional, 2007, 978-0321490452.
 </dd>
+<dt id="ostrom2015" class="bibliography">Ostrom2015</dt>
+<dd>
+Elinor Ostrom:
+<em>Governing the Commons: The Evolution of Institutions for Collective Action</em>.
+Cambridge University Press, 2015, 978-1107569782.
+</dd>
 <dt id="pan2008" class="bibliography">Pan2008</dt>
 <dd>
 Kai Pan, Sunghun Kim, and E. James Whitehead:
@@ -1049,6 +1096,12 @@ Marian Petre:
 Marian Petre and André van der Hoek:
 <em>Software Design Decoded: 66 Ways Experts Think</em>.
 MIT Press, 2016, 978-0262035187.
+</dd>
+<dt id="phillips2019" class="bibliography">Phillips2019</dt>
+<dd>
+Leigh Phillips and Michal Rozworski:
+<em>The People's Republic of Walmart</em>.
+Verso, 2019, 978-1786635167.
 </dd>
 <dt id="posnett2011" class="bibliography">Posnett2011</dt>
 <dd>
@@ -1255,6 +1308,11 @@ Matti Tedre and Erkki Sutinen:
 David Thomas and Andrew Hunt:
 <em>The Pragmatic Programmer: Your Journey to Mastery</em>.
 Addison-Wesley Professional, 2019, 978-0135957059.
+</dd>
+<dt id="thompson2019" class="bibliography">Thompson2019</dt>
+<dd>
+Clive Thompson:
+"<a href="https://www.wired.com/story/when-workers-control-gig-economy/">When Workers Control the Code</a>".
 </dd>
 <dt id="tichy2010" class="bibliography">Tichy2010</dt>
 <dd>

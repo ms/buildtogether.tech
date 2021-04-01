@@ -103,12 +103,6 @@
       In object-oriented programming, a class from which other classes are
       derived.
 
-- key: big_five
-  en:
-    term: "Big Five personality traits"
-    def: >
-      FIXME
-
 - key: big_bang
   en:
     term: "big-bang integration"
@@ -166,6 +160,12 @@
    term: "build number"
    def: >
      FIXME
+
+- key: bullshit
+  en:
+    term: "bullshit"
+    def: >
+      FIXME <cite>Frankfurth2005</cite>.
 
 - key: business_rule
   en:
@@ -302,7 +302,15 @@
   en:
     term: "commit message"
     def: >
-      A comment attached to a [commit](#commit) that explains what was done and why.
+      A comment attached to a [commit](#commit) that explains what was done and
+      why.
+
+- key: commons
+  en:
+    term: "commons"
+    def: >
+      Something managed jointly by a community according to rules they
+      themselves have evolved and adopted.
 
 - key: community_of_practice
   en:
@@ -1119,12 +1127,6 @@
       closed for modification, i.e., it should be possible to extend
       functionality without having to rewrite existing code.
 
-- key: oppression
-  en:
-    term: "oppression"
-    def: >
-      FIXME
-
 - key: package_manager
   en:
     term: "package manager"
@@ -1242,12 +1244,6 @@
 - key: preparatory_privilege
   en:
     term: "preparatory privilege"
-    def: >
-      FIXME
-
-- key: privilege
-  en:
-    term: "privilege"
     def: >
       FIXME
 
@@ -1651,6 +1647,12 @@
 - key: type_declaration
   en:
     term: "type declaration"
+    def: >
+      FIXME
+
+- key: unconscious_bias
+  en:
+    term: "unconscious bias"
     def: >
       FIXME
 

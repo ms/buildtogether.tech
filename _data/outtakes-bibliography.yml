@@ -199,21 +199,6 @@
   title: "So Long, and No Thanks for the Externalities: The Rational Rejection of Security Advice by Users"
   year: 2009
 
-- key: Hilderbrand2020
-  author:
-  - Claudia Hilderbrand
-  - Christopher Perdriau
-  - Lara Letaw
-  - Jillian Emard
-  - Zoe Steine-Hanson
-  - Margaret Burnett
-  - Anita Sarma
-  booktitle: "Proc. ICSE'20"
-  doi: 10.1145/3377811.3380371
-  kind: inproceedings
-  title: "Engineering Gender-Inclusivity into Software: Tales from the Trenches"
-  year: 2020
-
 - key: Hubbard2018
   author:
   - Aleata Hubbard

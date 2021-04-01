@@ -49,76 +49,76 @@ entries:
   label: '10'
   slug: communicate
   title: Communicating
-- file: ./10-joining/index.md
-  kind: Chapter
-  label: '11'
-  slug: 10-joining
-  title: How to Join an Existing Project
 - file: ./testing/index.md
   kind: Chapter
-  label: '12'
+  label: '11'
   slug: testing
   title: Testing
 - file: ./design/index.md
   kind: Chapter
-  label: '13'
+  label: '12'
   slug: design
   title: Software Design
 - file: ./security/index.md
   kind: Chapter
-  label: '14'
+  label: '13'
   slug: security
   title: Security
 - file: ./errors/index.md
   kind: Chapter
-  label: '15'
+  label: '14'
   slug: errors
   title: Error Handling
 - file: ./debugging/index.md
   kind: Chapter
-  label: '16'
+  label: '15'
   slug: debugging
   title: Debugging
 - file: ./automation/index.md
   kind: Chapter
-  label: '17'
+  label: '16'
   slug: automation
   title: Automation
 - file: ./tooling/index.md
   kind: Chapter
-  label: '18'
+  label: '17'
   slug: tooling
   title: Tooling
 - file: ./10-comfortable/index.md
   kind: Chapter
-  label: '19'
+  label: '18'
   slug: 10-comfortable
   title: How to Make Yourself Comfortable
 - file: ./process/index.md
   kind: Chapter
-  label: '20'
+  label: '19'
   slug: process
   title: Process
 - file: ./10-newcomers/index.md
   kind: Chapter
-  label: '21'
+  label: '20'
   slug: 10-newcomers
   title: How to Welcome Newcomers
 - file: ./research/index.md
   kind: Chapter
-  label: '22'
+  label: '21'
   slug: research
   title: Research
 - file: ./10-research/index.md
   kind: Chapter
-  label: '23'
+  label: '22'
   slug: 10-research
   title: How to be a Good Research Partner
 - file: ./fairness/index.md
   kind: Chapter
-  label: '24'
+  label: '23'
   slug: fairness
   title: Fair Play
+- file: ./10-joining/index.md
+  kind: Chapter
+  label: '24'
+  slug: 10-joining
+  title: How to Join an Existing Project
 - file: ./10-fired/index.md
   kind: Chapter
   label: '25'
@@ -179,39 +179,34 @@ entries:
   label: H
   slug: methods
   title: Research Methods
-- file: ./hiring/index.md
-  kind: Appendix
-  label: I
-  slug: hiring
-  title: Automattic's Hiring Process
 - file: ./onboarding/index.md
   kind: Appendix
-  label: J
+  label: I
   slug: onboarding
   title: Onboarding Checklist
 - file: ./evaluation/index.md
   kind: Appendix
-  label: K
+  label: J
   slug: evaluation
   title: Performance Evaluation
 - file: ./10-good/index.md
   kind: Appendix
-  label: L
+  label: K
   slug: 10-good
   title: How to Do Good and Get Paid
 figures:
-  boehms-curve: '20.2'
-  comprehension-curves: '13.3'
-  er-diagram: '13.1'
-  feature-usage: '20.4'
-  feedback-loops: '20.1'
+  boehms-curve: '19.2'
+  comprehension-curves: '12.3'
+  er-diagram: '12.1'
+  feature-usage: '19.4'
+  feedback-loops: '19.1'
   four-models-of-instruction: '3.1'
-  process-matrix: '20.3'
+  process-matrix: '19.3'
   start-homework-5: '8.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3
   thinking-models: G.1
-  use-case-map: '13.2'
+  use-case-map: '12.2'
 tables:
   collaborate-code-review: '8.1'
   starting-spinellis-stats: '3.1'

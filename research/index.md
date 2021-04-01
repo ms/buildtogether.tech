@@ -450,16 +450,38 @@ significant difference on the creative task.
 The topic of personality often comes up in discussions of pair programming: do
 you need to be an extrovert to reap its benefits, is the contrast in personality
 with your peer important, and so on. Several studies have addressed these
-questions; <cite>Hannay2010</cite> is a good place to start reading about them.
-As they say, personality tests are commonly used in recruitment, but research
-suggests that other human-related factors such as motivation and general mental
-ability also affect performance.  They studied the impact of the <span
-g="big_five">Big Five</span> personality traits on the performance of pair
-programmers using 196 professionals in three countries and report, "We found no
-strong indications that personality affects pair programming performance or pair
-gain in a consistent manner." They go on to suggest that industry and research
-should "focus on other predictors of performance, including expertise and task
-complexity" instead, as these factors overshadow any personality effects.
+questions; <cite>Hannay2010</cite> is a good place to start reading about them;
+as they say, "We found no strong indications that personality affects pair
+programming performance or pair gain in a consistent manner." They go on to
+suggest that industry and research should "focus on other predictors of
+performance, including expertise and task complexity" instead, as these factors
+overshadow any personality effects.
+
+<div class="callout" markdown="1">
+
+### Myers-Briggs and other danger signs
+
+The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
+pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
+(MBTI) advertises itself as personality profiling tool.  It is popular on dating
+sites and some companies use it as part of their interview process---despite the
+fact that it is complete bullshit.  Half or more of people who repeat the test
+within a few weeks get a different personality classification, it fails to
+predict job performance, and its categories are based on outdated (and very
+Western-centric) psychological theories.  If a potential employer asks you to do
+it as part of the interview process, ask them if they would like a horoscope as
+well.
+
+Myers-Briggs has given the whole notion of personality profiling a bad
+reputation, but there *are* models of personality that have a scientific basis
+and are repeatable and cross-cultural.  For example, the <span
+g="ocean_model">OCEAN model</span> has five dimensions: Openness to experience,
+Conscientiousness, Extraversion, Agreeableness, and Neuroticism. Studies of
+twins and other research has found that about half of personality variation
+comes from genetics and about half from environment, and work like
+<cite>Hannay2010</cite> has used this model in studies of programmers.
+
+</div>
 
 ## What Do We Know About Innate Ability?
 
