@@ -141,8 +141,10 @@ I *have* to work extra hours to get them all done!" Sadly, that is often true:
 while people in industry joke that having two bosses means living in hell, most
 students can only dream of having just two, since most schools do a lousy job of
 coordinating due dates across differences courses.  <cite>Tregubov2017</cite>
-found, there is strong correlation between the number of projects and the number
-of interruptions that developers reported.
+found strong correlation between the number of projects and the number of
+interruptions that developers reported, while <cite>Edwards2009</cite> found
+that starting assignments early and working consistently both predicted good
+grades.
 
 The best strategy for <span i="time management">time management</span> is to
 prioritize and focus.  Prioritizing is important because most of us are very

@@ -116,7 +116,7 @@ check:
 
 ## check-bib: compare citations and definitions
 check-bib:
-	@bin/check-bib.py --bibliography ${BIB_YAML} --sources ${MARKDOWN} _includes/intro.md
+	@bin/check-bib.py --bibliography ${BIB_YAML} --sources ${MARKDOWN} ${BIB_YAML} _includes/intro.md
 
 ## check-boilerplate: check standard files
 check-boilerplate:

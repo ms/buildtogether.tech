@@ -16,6 +16,8 @@ Airbender
 Aivaloglou
 Akerblom
 Alaaeddin
+Alam
+Alastair
 Alexey
 Alexi
 Allevato
@@ -29,6 +31,7 @@ Amjad
 Anda
 Andreas
 Andrey
+Andro
 André
 Angophora
 Anikó
@@ -50,6 +53,7 @@ Asshole
 Atul
 Audris
 Aul
+Aung
 Aurélio
 Automattic
 Automattic's
@@ -77,6 +81,7 @@ Behavioral
 Behaviors
 Behroozi
 Beigl
+Beleicia
 Belknap
 Beller
 Beniamini
@@ -94,6 +99,7 @@ Blincoe
 BlueJ
 Boehm
 Boehm's
+Boettcher
 Bogdan
 Bohay
 Bollier
@@ -105,10 +111,12 @@ Braun
 Brechmann
 Brookfield
 Brophy
-Bruria
 Bruyckere
+Bueno
+BuenoDeMesquita
 Burak
 Burrell
+Butterworth
 Buzzfeed
 Byckling
 Böhme
@@ -145,6 +153,7 @@ Cleidson
 Connell
 Constructivist
 Conte
+Cottom
 Criado
 CriadoPerez
 Csikszentmihalyi
@@ -157,6 +166,7 @@ DOIs
 DOM
 Daleiden
 Daniela
+Daoism
 Darko
 DataCamp
 Davide
@@ -172,6 +182,7 @@ Devanbu
 Dhaliwal
 DiBella
 DiBernardo
+Diandra
 Didau
 DiffMerge
 Diomidis
@@ -180,6 +191,8 @@ Dobzhansky's
 DocBook
 Dongkwan
 Doo
+Doore
+Drobina
 Dror
 DuckDuckGo
 Dybå
@@ -190,6 +203,7 @@ ESEC
 ESEM
 ESLint
 Easterbrook
+Edzard
 Efthimia
 Eggett
 Eichberg
@@ -206,8 +220,10 @@ Endrikat
 Engvik
 Ensmenger
 Erdogmus
+Erete
 Erkki
 Etienne
+Eubanks
 Experientialism
 Extraversion
 Ezer
@@ -224,17 +240,20 @@ Feldt
 Felienne
 Femke
 Feng
+Ferreira
 FileShredder
 Fincher
 FindBugs
 Findable
 Fiorella
+Fisler
 Flon's
 Fogel
 Forsgren
 Fortran
 Foutse
 Frankfurth
+Frase
 Fredriksen
 FreeBSD
 Friesen
@@ -259,9 +278,9 @@ Georgianne
 Georgios
 Gerdt
 Gerosa
+Ghattas
 Ghostery
 Giancarlo
-Ginat
 Gingichashvili
 Giroux
 Git's
@@ -283,6 +302,7 @@ Goslin
 Goucher
 Goues
 Gousios
+Graeber
 Graf
 Grafana
 Graziotin
@@ -294,7 +314,6 @@ Gudith
 Guilherme
 Guo
 HCC
-Haberman
 Hachette
 Hakan
 Handoff
@@ -302,13 +321,17 @@ Hanenberg
 Hannay
 Hannák
 Hanselman
+Hao
 Harald
 Harjono
+HarperOne
 Hassan
 Hatton
+Hecht
 Heckman
 Hedderik
 Hegde
+Heila
 Hellas
 Hemank
 Hennie
@@ -322,6 +345,7 @@ Heymann
 Hilderbrand
 Hindle
 Hippel
+Hochschild
 Hoda
 Hoek
 Hoepelman
@@ -364,6 +388,7 @@ JSS
 JSTL
 Jacoby
 Jaffe
+Jakita
 Jarry
 Jelena
 Jelmer
@@ -371,7 +396,6 @@ Jere
 Jez
 Jihun
 Jin
-Jing
 Jira
 Johan
 Jordi
@@ -393,6 +417,7 @@ Karabel
 Karavirta
 Karras
 Katerine
+Kathi
 Kaufmann
 Kemerer
 Kendzior
@@ -432,15 +457,14 @@ Leitão
 Leong
 Letaw
 Letian
-Lewandowski
 Lifecycle
 Lindberg
 LinkedIn
+Linklater
 Littky
 Liu
 Loihle
 Lua
-Lubick
 Lumsdaine
 Luo
 Lutz
@@ -467,13 +491,15 @@ MathML
 Matti
 Matto
 Maurizio
-McCauley
 McElligott
 McGraw
+McMillanCottom
 Mechtaev
+Megha
 Meiyappan
 Meneely
 Mengxiao
+Mesquita
 Metcalfe
 Mezini
 Michaelson
@@ -484,6 +510,7 @@ Mildenberger
 Minahan
 Miryung
 Misclassification
+Mishra
 Mockus
 Modeling
 Mohan
@@ -494,8 +521,11 @@ Morisio
 Moritz
 Morrell
 Mortem
+Moshe
 Mosher
+Moyn
 Mujahid
+Mukherjee
 Mulders
 Mythbusters
 Münch
@@ -503,12 +533,15 @@ NOAA's
 NPM
 NPMS
 NSPW
+NYU
 Nachiappan
 Nagappan
+Naing
 Najar
 Nakshatri
 NameError
 Nanthaamornphong
+Nascimento
 Nattakarn
 Neto
 Neuberger
@@ -516,6 +549,7 @@ Nicki
 Niels
 Nihil
 Niki
+Nikolas
 Nishith
 Nitasha
 Nonmajors
@@ -523,6 +557,7 @@ Norenzayan
 Nourry
 Nystrom
 O'Reilly
+ONeil
 OOPSLA
 OPA
 Observables
@@ -533,7 +568,6 @@ Onboarding
 Oram
 Orbach
 Orgovan
-Orna
 Ostblom
 Ostrom
 PACMPL
@@ -546,6 +580,7 @@ PSP
 Packt
 Pandita
 Panichella
+Pankaj
 Parnin
 Parning
 Parsers
@@ -574,16 +609,20 @@ Potapov
 Pradel
 Pranay
 Pre
+Precel
 Prechelt
 Prem
 Premkumar
 Premraj
 Preskill
+Prioleau
 Pritchard
 Proc
+Proctorio
 Proksch
 Pryce
 Pseudocode
+PublicAffairs
 Péraire
 Pérez
 Quiñones
@@ -592,9 +631,10 @@ Radvansky
 Rahim
 Rahul
 Rai
+Rajagopalan
 Rashina
 Rastogi
-Rawls
+RateMyProfessor
 Rawson
 Rebasing
 Rebecca
@@ -604,8 +644,8 @@ Reekie
 Reengineering
 Reimann
 Renna
-Renée
 Reproducibility
+Restakis
 Riedel
 Rijn
 Robbes
@@ -620,6 +660,7 @@ Rotella
 Routledge
 Roychoudhury
 Rozworski
+Rua
 Rugaber
 Rukma
 Ruthann
@@ -630,6 +671,7 @@ SOSP
 STM
 SVG
 Sadowski
+Safiya
 Sahithi
 Sajaniemi
 Sami
@@ -652,6 +694,7 @@ Schneier
 Schon
 Schrödinger's
 Schröter
+Schuster
 Scriptability
 Sebastiano
 Sedano
@@ -685,6 +728,7 @@ Smetsers
 Snakemake
 Snowden
 Socio
+Soe
 Sohon
 Solnit
 SourceGear
@@ -733,6 +777,8 @@ Tejeda
 Tejinder
 Testability
 Thandra
+Therac
+Thuy
 Tianyin
 Tichy
 Tiku
@@ -742,9 +788,12 @@ Torchiano
 Torkar
 Transformative
 Tregubov
+Tressie
 Tretola
 Treude
+Triedman
 Trockman
+Tufekci
 Tulk
 Tunnell
 Turhan
@@ -756,7 +805,9 @@ Uber
 Ulrich
 Ultima
 Umair
+Umoja
 United's
+Unraveled
 Upchurch
 Usenix
 Uyaguari
@@ -764,6 +815,7 @@ VL
 VM
 VMs
 Valgrind
+Vardi
 Vasilescu
 Vassallo
 Venolia
@@ -771,9 +823,12 @@ Vigen
 Ville
 Vivek
 Vlasenko
+Vo
 WCRE
 WESCON
 Wachs
+Wachter
+WachterBoettcher
 Warmup
 Washburn
 WebAIM
@@ -814,8 +869,8 @@ Zaidman
 Zainab
 Zambrano
 Zampetti
-Zander
 Zeller
+Zeynep
 Zhan
 Zhang
 Zhao
@@ -829,7 +884,6 @@ Zuoning
 accesibility
 affective
 afterward
-allyship
 anthropogenic
 assed
 asshole
@@ -895,6 +949,7 @@ humor
 hypercorrection
 impactful
 inclusivity
+indispensible
 installable
 js
 kan
@@ -959,6 +1014,7 @@ sceptical
 schemas
 screencasts
 scriptable
+seatbelts
 sexualized
 signaled
 skeezy
@@ -994,5 +1050,6 @@ vanishingly
 von
 walkthrough
 warmup
+wayfinding
 Åkerblom
 Éric

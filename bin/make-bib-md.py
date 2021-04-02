@@ -137,7 +137,7 @@ def article_info(entry):
 def bookInfo(entry):
     '''Generate book information.'''
     assert ('publisher' in entry) and ('year' in entry) and ('isbn' in entry), \
-        'Entry requires publisher, year, and ISBN'
+        f'Entry requires publisher, year, and ISBN: {entry}'
     return f'{entry["publisher"]}, {entry["year"]}, {entry["isbn"]}.'
 
 

@@ -92,6 +92,15 @@
   booktitle: "Proc. ICSE'09"
   doi: 10.1109/ICSE.2009.5070530
 
+- key: Armstrong2007
+  author:
+  - Karen Armstrong
+  isbn: 978-0676974669
+  kind: book
+  title: "The Great Transformation: The Beginning of Our Religious Traditions"
+  year: 2007
+  publisher: Vintage Canada
+
 - key: Aurora2018
   kind: book
   author:
@@ -125,20 +134,14 @@
   booktitle: "Proc. ICSE'13"
   year: 2013
 
-- key: Barik2017
-  kind: inproceedings
+- key: Baker2006
+  kind: book
   author:
-  - Titus Barik
-  - Justin Smith
-  - Kevin Lubick
-  - Elisabeth Holmes
-  - Jing Feng
-  - Emerson Murphy-Hill
-  - Chris Parnin
-  title: "Do Developers Read Compiler Error Messages?"
-  booktitle: "Proc. ICSE'17"
-  year: 2017
-  doi: 10.1109/icse.2017.59
+  - Jean H. Baker
+  title: "Sisters: The Lives of America's Suffragists"
+  publisher: Hill and Wang
+  year: 2006
+  isbn: 978-0809087037
 
 - key: Barke2019
   kind: article
@@ -423,6 +426,15 @@
   year: 1983
   doi: 10.1037/0022-0663.75.5.631
 
+- key: Brown2007
+  author:
+  - Michael Jacoby Brown
+  isbn: 978-0977151806
+  kind: book
+  publisher: Long Haul Press
+  title: "Building Powerful Community Organizations: A Personal Guide to Creating Groups that Can Solve Problems and Change the World"
+  year: 2007
+
 - key: Brown2011
   kind: book
   editor:
@@ -473,6 +485,36 @@
   number: 2
   year : 2017
   doi: 10.1145/2994154
+
+- key: BuenoDeMesquita2012
+  kind: book
+  author:
+  - Bruce Bueno de Mesquita
+  - Alastair Smith
+  title: "The Dictator's Handbook: Why Bad Behavior is Almost Always Good Politics"
+  year: 2012
+  publisher: "PublicAffairs"
+  isbn: 978-1610391849
+
+- key: Bullock2021
+  author:
+  - Beleicia B. Bullock
+  - Fernando L. Nascimento
+  - Stacy A. Doore
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432468
+  kind: inproceedings
+  title: "Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms"
+  year: 2021
+
+- key: Butterworth2011
+  kind: book
+  author:
+  - Alex Butterworth
+  title: "The World That Never Was: A True Story of Dreamers, Schemers, Anarchists and Secret Agents"
+  year: 2011
+  publisher: Vintage Books
+  isbn: 978-0099551928
 
 - key: Casciaro2020
   kind: book
@@ -586,6 +628,18 @@
   publisher: "O'Reilly"
   year: 2010
   isbn: 978-0596808327
+
+- key: Cohen2021
+  author:
+  - Lena Cohen
+  - Heila Precel
+  - Harold Triedman
+  - Kathi Fisler
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432456
+  kind: inproceedings
+  title: "A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum"
+  year: 2021
 
 - key: Conway1968
   kind: article
@@ -816,6 +870,15 @@
   year: 2005
   doi: 10.1109/TSE.2005.37
 
+- key: Eubanks2019
+  kind: book
+  author:
+  - Virginia Eubanks
+  title: "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
+  publisher: Picador
+  year: 2019
+  isbn: 978-1250215789
+
 - key: Fagerholm2017
   kind: article
   author:
@@ -861,6 +924,16 @@
   publisher: Prentice-Hall
   year: 2004
   isbn: 978-0131177055
+
+- key: Ferreira2021
+  author:
+  - Rodrigo Ferreira
+  - Moshe Y. Vardi
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432449
+  kind: inproceedings
+  title: "Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science"
+  year: 2021
 
 - key: Fincher2001
   kind: book
@@ -961,6 +1034,15 @@
   year: 2018
   isbn: 978-0134757599
 
+- key: France2016
+  kind: book
+  author:
+  - David France
+  title: "How to Survive a Plague: The Inside Story of How Citizens and Science Tamed AIDS"
+  publisher: Knopf
+  year: 2016
+  isbn: 978-0307700636
+
 - key: Frankfurt2005
   kind: book
   author:
@@ -969,6 +1051,15 @@
   year: 2005
   publisher: Princeton University Press
   isbn: 978-0691122946
+
+- key: Frase2016
+  author:
+  - Peter Frase
+  kind: book
+  title: "Four Futures: Life After Capitalism"
+  year: 2016
+  publisher: Verso
+  isbn: 978-1781688137
 
 - key: Freeman1972
   kind: article
@@ -1060,6 +1151,15 @@
   year: 2011
   isbn:  978-0312430009
 
+- key: Ghattas2020
+  kind: book
+  author:
+  - Kim Ghattas
+  title: "Black Wave: Saudi Arabia, Iran, and the Forty-Year Rivalry That Unraveled Culture, Religion, and Collective Memory in the Middle East"
+  year: 2020
+  publisher: "Henry Holt & Co."
+  isbn: 978-1250131201
+
 - key: Gitinabard2020
   kind: inproceedings
   author:
@@ -1098,6 +1198,25 @@
   title: "Debugging in the (Very) Large: Ten Years of Implementation and Experience"
   booktitle: "Proc. SOSP'09"
   doi: 10.1145/1629575.1629586
+
+- key: Gordon2021
+  author:
+  - Nikolas Gordon
+  - Omar Alam
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432369
+  kind: inproceedings
+  title: "The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data"
+  year: 2021
+
+- key: Graeber2019
+  author:
+  - David Graeber
+  kind: book
+  title: "Bullshit Jobs: A Theory"
+  year: 2019
+  publisher: "Simon & Schuster"
+  isbn: 978-1501143335
 
 - key: Graziotin2014
   author:
@@ -1175,6 +1294,13 @@
   link: https://arxiv.org/abs/1304.5257
   year: 2013
 
+- key: Hao2021
+  kind: link
+  author:
+  - Karen Hao
+  title: "How Facebook Got Addicted to Spreading Misinformation"
+  url: https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/
+
 - key: Hatton2008
   kind: article
   author:
@@ -1185,6 +1311,15 @@
   number: 4
   year: 2008
   doi: 10.1109/ms.2008.100
+
+- key: Hecht2004
+  kind: book
+  author:
+  - Jennifer Hecht
+  title: "Doubt: A History"
+  year: 2004
+  isbn: 978-0060097950
+  publisher: HarperOne
 
 - key: Henrich2010
   kind: article
@@ -1267,6 +1402,15 @@
   publisher: "MIT Press"
   year: 2006
   isbn: 978-0262720472
+
+- key: Hochschild2006
+  author:
+  - Adam Hochschild
+  kind: book
+  title: "Bury the Chains: Prophets and Rebels in the Fight to Free an Empire's Slaves"
+  publisher: Mariner Books
+  year: 2006
+  isbn: 978-0618619078
 
 - key: Hofmeister2017
   kind: inproceedings
@@ -1494,6 +1638,24 @@
   year: 2009
   doi: 10.1109/tse.2009.27
 
+- key: Kendzior2018
+  kind: book
+  author:
+  - Sarah Kendzior
+  title: "The View from Flyover Country: Dispatches from the Forgotten America"
+  year: 2018
+  publisher: Flatiron Books
+  isbn: 978-1250189998
+
+- key: Kendzior2020
+  kind: book
+  author:
+  - Sarah Kendzior
+  title: "Hiding in Plain Sight: The Invention of Donald Trump and the Erosion of America"
+  publisher: Flatiron Books
+  year: 2020
+  isbn: 978-1250210715
+
 - key: Kerievsky2004
   kind: book
   author:
@@ -1716,6 +1878,15 @@
   year: 2008
   isbn: 978-0596517960
 
+- key: Linklater2013
+  author:
+  - Andro Linklater
+  kind: book
+  title: "Owning the Earth: The Transforming History Of Land Ownership"
+  publisher: Bloomsbury USA
+  year: 2013
+  isbn: 978-1620402894
+
 - key: Littky2004
   author:
   - Dennis Littky
@@ -1780,23 +1951,6 @@
   publisher: Cambridge University Press
   isbn: 978-0521735353
 
-- key: McCauley2008
-  kind: article
-  author:
-  - Renée McCauley
-  - Sue Fitzgerald
-  - Gary Lewandowski
-  - Laurie Murphy
-  - Beth Simon
-  - Lynda Thomas
-  - Carol Zander
-  title: "Debugging: A Review of the Literature from an Educational Perspective"
-  journal: "CSE"
-  volume: 18
-  number: 2
-  year: 2008
-  doi: 10.1080/08993400802114581
-
 - key: McIntosh2011
   author:
   - Shane McIntosh
@@ -1809,6 +1963,15 @@
   kind: inproceedings
   title: "An Empirical Study of Build Maintenance Effort"
   year: 2011
+
+- key: McMillanCottom2018
+  author:
+  - Tressie McMillan Cottom
+  isbn: 978-1620974384
+  kind: book
+  publisher: The New Press
+  title: "Lower Ed: The Troubling Rise of For-Profit Colleges in the New Economy"
+  year: 2018
 
 - key: Meneely2011
   author:
@@ -1913,6 +2076,15 @@
   year: 1986
   doi: 10.1177/088610998600100206
 
+- key: Mishra2013
+  kind: book
+  author:
+  - Pankaj Mishra
+  title: "From the Ruins of Empire: The Revolt Against the West and the Remaking of Asia"
+  year: 2013
+  publisher: Picador
+  isbn: 978-1250037718
+
 - key: Mockus2010
   kind: inproceedings
   doi: 10.1145/1882291.1882311
@@ -1941,16 +2113,23 @@
   booktitle: "Proc. ASEE North Midwest Section Conference"
   year: 2013
 
-- key: Muller2007
-  kind: inproceedings
+- key: Moyn2010
   author:
-  - Orna Muller
-  - David Ginat
-  - Bruria Haberman
-  title: "Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction"
-  booktitle: "Proc. SIGCSE'07"
-  year: 2007
-  doi: 10.1145/1268784.1268830
+  - Samuel Moyn
+  kind: book
+  title: "The Last Utopia: Human Rights in History"
+  year: 2010
+  publisher: Belknap Press
+  isbn: 978-0674048720
+
+- key: Mukherjee2011
+  kind: book
+  author:
+  - Siddhartha Mukherjee
+  title: "The Emperor of All Maladies: A Biography of Cancer"
+  year: 2011
+  publisher: Scribner
+  isbn: 978-1439170915
 
 - key: Nakshatri2016
   author:
@@ -1962,6 +2141,15 @@
   kind: inproceedings
   title: "Analysis of Exception Handling Patterns in Java Projects"
   year: 2016
+
+- key: Noble2018
+  kind: book
+  author:
+  - Safiya Umoja Noble
+  title: "Algorithms of Oppression: How Search Engines Reinforce Racism"
+  year: 2018
+  publisher: "NYU Press"
+  isbn: 978-1479837243
 
 - key: Nystrom2014
   kind: book
@@ -1993,6 +2181,14 @@
   publisher: Addison-Wesley Professional
   year: 2007
   isbn: 978-0321490452
+
+- key: ONeil2017
+  kind: book
+  author: "Cathy O'Neil"
+  title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+  publisher: Crown
+  year: 2017
+  isbn: 978-0553418835
 
 - key: Ostrom2015
   author:
@@ -2160,6 +2356,20 @@
   year: 2019
   isbn: 978-1484242209
 
+- key: Prioleau2021
+  author:
+  - Diandra Prioleau
+  - Brianna Richardson
+  - Emma Drobina
+  - Rua Williams
+  - Joshua Martin
+  - Juan E. Gilbert
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432360
+  kind: inproceedings
+  title: "How Students in Computing-Related Majors Distinguish Social Implications of Technology"
+  year: 2021
+
 - key: Pritchard2015
   author:
   - David Pritchard
@@ -2169,15 +2379,26 @@
   title: "Frequency Distribution of Error Messages"
   year: 2015
 
-- key: Rawls1999
-  kind: book
+- key: Rajagopalan2018
   author:
-  - John Rawls
-  title: "A Theory of Justice"
-  edition: revised
-  publisher: Belknap Press
-  year: 1999
-  isbn: 978-0674000780
+  - Megha Rajagopalan
+  - Lam Thuy Vo
+  - Aung Naing Soe
+  kind: link
+  title: "How Facebook Failed The Rohingya In Myanmar"
+  year: 2018
+  url: https://www.buzzfeednews.com/article/meghara/facebook-myanmar-rohingya-genocide
+
+- key: Rankin2021
+  author:
+  - Yolanda A. Rankin
+  - Jakita O. Thomas
+  - Sheena Erete
+  booktitle: "Proc. ICSE'21"
+  doi: 10.1145/3408877.3432432
+  kind: inproceedings
+  title: "Real Talk: Saturated Sites of Violence in CS Education"
+  year: 2021
 
 - key: Rawson2014
   kind: article
@@ -2210,6 +2431,15 @@
   publisher: Angophora Press
   year: 2006
   isbn: 978-0646458410
+
+- key: Restakis2010
+  author:
+  - John Restakis
+  kind: book
+  title: "Humanizing the Economy: Co-operatives in the Age of Capital"
+  publisher: New Society Publishers
+  year: 2010
+  isbn: 978-0865716513
 
 - key: Robinson2005
   kind: link
@@ -2330,6 +2560,15 @@
   year: 1984
   isbn: 978-0465068784
 
+- key: Scott1999
+  kind: book
+  author:
+  - James C. Scott
+  title: "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed"
+  year: 1999
+  publisher: Yale University Press
+  isbn: 978-0300078152
+
 - key: Sedano2017
   kind: inproceedings
   author:
@@ -2370,6 +2609,16 @@
   number: 9
   year: 2019
   doi: 10.1371/journal.pcbi.1007296
+
+- key: Singh2009
+  author:
+  - Simon Singh
+  - Edzard Ernst
+  kind: book
+  title: "Trick or Treatment: The Undeniable Facts about Alternative Medicine"
+  publisher: W. W. Norton
+  year: 2009
+  isbn: 978-0393337785
 
 - key: Smalls2021
   author:
@@ -2583,6 +2832,15 @@
   url: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
   year: 2018
 
+- key: Tufekci2018
+  kind: book
+  author:
+  - Zeynep Tufekci
+  title: "Twitter and Tear Gas: The Power and Fragility of Networked Protest"
+  year: 2018
+  publisher: Yale University Press
+  isbn: 978-0300234176
+
 - key: Vigen2015
   kind: book
   author:
@@ -2591,6 +2849,15 @@
   publisher: Hachette Books
   year: 2015
   isbn: 978-0316339438
+
+- key: WachterBoettcher2017
+  kind: book
+  author:
+  - Sara Wachter-Boettcher
+  title: "Technically Wrong: Why Digital Products Are Designed to Fail You"
+  publisher: WW Norton
+  year: 2017
+  isbn: 978-0393634631
 
 - key: Washburn2016
   author:

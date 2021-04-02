@@ -332,19 +332,7 @@ the safer all of us will be. As a programmer, you can push for this:
     exploits instead.
 
 1.  Add your voice to campaigns to get companies to clean up their act, and if
-    you have a choice, don't work for the worst of them.
-
-<div class="callout" markdown="1">
-
-### Misquoting Burke
-
-Edmund Burke never actually wrote, "All that is necessary for evil to triumph is
-for good men to do nothing," but it's still true.  In March 2019 a right-wing
-terrorist killed 51 people at prayer in Christchurch, New Zealand. Every single
-one of the sources he cited in his manifesto was making money through a store on
-Shopify; the company didn't stop doing business with any of them.
-
-</div>
+    you have a choice, don't work for the worst of them (<span x="fairness"/>).
 
 ## An Example Attack
 

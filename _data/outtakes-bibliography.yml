@@ -21,6 +21,21 @@
   year: 2017
   doi: 10.1145/3017680.3017761
 
+- key: Barik2017
+  kind: inproceedings
+  author:
+  - Titus Barik
+  - Justin Smith
+  - Kevin Lubick
+  - Elisabeth Holmes
+  - Jing Feng
+  - Emerson Murphy-Hill
+  - Chris Parnin
+  title: "Do Developers Read Compiler Error Messages?"
+  booktitle: "Proc. ICSE'17"
+  year: 2017
+  doi: 10.1109/icse.2017.59
+
 - key: Brian2015
   kind: inproceedings
   author:
@@ -32,17 +47,6 @@
   booktitle: "Proc. ITiCSE'15"
   year: 2015
   doi: 10.1145/2729094.2742631
-
-- key: Bullock2021
-  author:
-  - Beleicia B. Bullock
-  - Fernando L. Nascimento
-  - Stacy A. Doore
-  booktitle: "Proc. ICSE'21"
-  doi: 10.1145/3408877.3432468
-  kind: inproceedings
-  title: "Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms"
-  year: 2021
 
 - key: Carter2017
   kind: inproceedings
@@ -65,18 +69,6 @@
   number: 1
   year: 2016
   doi: 10.1080/08993408.2016.1160664
-
-- key: Cohen2021
-  author:
-  - Lena Cohen
-  - Heila Precel
-  - Harold Triedman
-  - Kathi Fisler
-  booktitle: "Proc. ICSE'21"
-  doi: 10.1145/3408877.3432456
-  kind: inproceedings
-  title: "A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum"
-  year: 2021
 
 - key: Cunningham2017
   kind: inproceedings
@@ -110,25 +102,6 @@
   year: 2014
   doi: 10.1145/2591708.2591757
 
-- key: Eubanks2019
-  kind: book
-  author:
-  - Virginia Eubanks
-  title: "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
-  publisher: Picador
-  year: 2019
-  isbn: 978-1250215789
-
-- key: Ferreira2021
-  author:
-  - Rodrigo Ferreira
-  - Moshe Y. Vardi
-  booktitle: "Proc. ICSE'21"
-  doi: 10.1145/3408877.3432449
-  kind: inproceedings
-  title: "Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science"
-  year: 2021
-
 - key: Fitzgerald2008
   kind: article
   author:
@@ -154,16 +127,6 @@
   doi: 10.1145/3408877.3432405
   kind: inproceedings
   title: "Peer Instruction in Software Engineering---Findings from Fine-grained Clicker Data"
-  year: 2021
-
-- key: Gordon2021
-  author:
-  - Nikolas Gordon
-  - Omar Alam
-  booktitle: "Proc. ICSE'21"
-  doi: 10.1145/3408877.3432369
-  kind: inproceedings
-  title: "The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data"
   year: 2021
 
 - key: Hata2019
@@ -279,6 +242,23 @@
   title: "Experience of Teaching a Course on Software Engineering Principles Without a Project"
   year: 2021
 
+- key: McCauley2008
+  kind: article
+  author:
+  - Renée McCauley
+  - Sue Fitzgerald
+  - Gary Lewandowski
+  - Laurie Murphy
+  - Beth Simon
+  - Lynda Thomas
+  - Carol Zander
+  title: "Debugging: A Review of the Literature from an Educational Perspective"
+  journal: "CSE"
+  volume: 18
+  number: 2
+  year: 2008
+  doi: 10.1080/08993400802114581
+
 - key: McIntosh2021
   author:
   - Lukas McIntosh
@@ -288,6 +268,17 @@
   kind: inproceedings
   title: "Do Hackathon Projects Change the World? An Empirical Analysis of GitHub Repositories"
   year: 2021
+
+- key: Muller2007
+  kind: inproceedings
+  author:
+  - Orna Muller
+  - David Ginat
+  - Bruria Haberman
+  title: "Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction"
+  booktitle: "Proc. SIGCSE'07"
+  year: 2007
+  doi: 10.1145/1268784.1268830
 
 - key: Murphy2008
   kind: article
@@ -316,23 +307,6 @@
   title: "'Patches don't have gender': What is not open in open source software"
   year: 2011
 
-- key: Noble2018
-  kind: book
-  author:
-  - Safiya Umoja Noble
-  title: "Algorithms of Oppression: How Search Engines Reinforce Racism"
-  year: 2018
-  publisher: "NYU Press"
-  isbn: 978-1479837243
-
-- key: ONeil2017
-  kind: book
-  author: "Cathy O'Neil"
-  title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
-  publisher: Crown
-  year: 2017
-  isbn: 978-0553418835
-
 - key: Pea1986
   kind: article
   author:
@@ -354,20 +328,6 @@
   title: "'You Sound Like a Good Program Manager': An Analysis of Gender in Women's Computing Life Histories"
   year: 2021
 
-- key: Prioleau2021
-  author:
-  - Diandra Prioleau
-  - Brianna Richardson
-  - Emma Drobina
-  - Rua Williams
-  - Joshua Martin
-  - Juan E. Gilbert
-  booktitle: "Proc. ICSE'21"
-  doi: 10.1145/3408877.3432360
-  kind: inproceedings
-  title: "How Students in Computing-Related Majors Distinguish Social Implications of Technology"
-  year: 2021
-
 - key: Qian2017
   kind: article
   author:
@@ -380,16 +340,15 @@
   year: 2017
   doi: 10.1145/3077618
 
-- key: Rankin2021
+- key: Rawls1999
+  kind: book
   author:
-  - Yolanda A. Rankin
-  - Jakita O. Thomas
-  - Sheena Erete
-  booktitle: "Proc. ICSE'21"
-  doi: 10.1145/3408877.3432432
-  kind: inproceedings
-  title: 'Real Talk: Saturated Sites of Violence in CS Education'
-  year: 2021
+  - John Rawls
+  title: "A Theory of Justice"
+  edition: revised
+  publisher: Belknap Press
+  year: 1999
+  isbn: 978-0674000780
 
 - key: Soloway1984
   kind: article
@@ -462,15 +421,6 @@
   kind: inproceedings
   title: "Gender and Engagement in CS Courses on Piazza"
   year: 2021
-
-- key: WachterBoettcher2017
-  kind: book
-  author:
-  - Sara Wachter-Boettcher
-  title: "Technically Wrong: Why Digital Products Are Designed to Fail You"
-  publisher: WW Norton
-  year: 2017
-  isbn: 978-0393634631
 
 - year: 2017
   author:

@@ -263,7 +263,7 @@ practice, because the student's evaluation of the professor doesn't affect the
 professor nearly as much as the professor's evaluation of the student affects
 the student.  This imbalance is why management fads like "radical candor" are
 <span g="bullshit">bullshit</span>: they brush aside reality in order to avoid
-having to acknowledge unwelcome truths.
+having to acknowledge unwelcome truths <cite>Frankfurt2005</cite>.
 
 The only effective way to address power disparities like these is collective
 action: many people with relatively little power each can defend their rights if
@@ -371,12 +371,179 @@ the lowest difficulty setting there is my whole life, and as a result don't
 realize how much harder things are for others whose default setting isn't "easy
 mode" <cite>Scalzi2012</cite>.
 
-## Outside
+## The Wider World
 
-<span class="fixme">ethics in the context of AI: https://github.com/gvwilson/buildtogether.tech/issues/26</span>
+Between 1985 and 1987, a programming bug in the [Therac-25][therac-25] resulted
+in six patients being given massive overdoses of radiation, leading to death or
+serious injury.  This incident has been used as a cautionary tale in software
+engineering courses ever since, but as far as I can tell, has had no effect on
+what programmers write or how they write it.  Very few of us write control
+software for medical radiation machines, so this example and others have always
+seemed very abstract.
 
-<span class="fixme">lending privilege as a form of allyship https://github.com/gvwilson/buildtogether.tech/issues/70</span>
+In the last few years, though, we have all seen first-hand just how much harm
+software can do to everyone.  A decade ago, Facebook discovered that angry
+people are more likely to engage with the platform, resulting in higher ad
+revenue for the company <cite>Hao2021</cite>.  Since disinformation and
+radicalization were profitable, the company did everything it could to deflect
+criticism and avoid responsibility, even as they fueled the rise of violent
+nationalism and a campaign of mass murder <cite>Rajagopalan2018</cite>.  By the
+time COVID-19 began to spread, tech companies had trained people all over the
+world believe in conspiracy theories rather than medicine.  Hundreds of
+thousands of people died needlessly as a result.
 
-<span class="fixme">being an active bystander https://github.com/gvwilson/buildtogether.tech/issues/78</span>
+<div class="callout" markdown="1">
 
-As <cite>Lee1962</cite> said, "With great power comes great responsibility."
+### We just sell the poison, we don't administer it
+
+In March 2019 a right-wing terrorist killed 51 people at prayer in Christchurch,
+New Zealand. Every single one of the sources he cited in his manifesto was
+making money through a store hosted by a company called Shopify; the company
+didn't stop hosting any of them.
+
+</div>
+
+Ethical failures by programmers now hurt us all.  For example, your school might
+use a piece of software called Proctorio, which records you (video and audio) as
+well as your screen while you write an exam, then uses algorithms to determine
+if you're cheating.  Nobody outside the company can check those algorithms to
+see if they're biased against people with physical tics, and nobody who has ever
+been the victim of online harassment or stalking should have to agree to
+invasive surveillance in order to pass a course.
+
+Many of these failures have their roots in a lack of compassion---i.e., in an
+inability to imagine the world through others' eyes.  As [Mike Hoye][hoye-mike]
+has pointed out, some wayfinding apps for phones have an option to avoid
+checkpoints; it's unlikely that the people who added that feature ever lost a
+loved one to a drunk driver.
+
+So now it's time for a confession.  This chapter is the reason I wrote this
+book.  After the 2016 election in the United States, I organized a group of
+people to write a guide for programmers to stuff that actually matters---the
+stuff that's in this chapter.  That project fizzled out, in part because someone
+like Brad (<span x="introduction"/>) simply wouldn't read something that said,
+"Programmers are breaking things and maybe you're part of the problem."  The
+work reported in
+<cite>Bullock2021,Cohen2021,Ferreira2021,Gordon2021,Prioleau2021,Rankin2021</cite>
+is a hopeful sign, but will take time to bear fruit. Meanwhile, I hope that
+starting with time management and version control, then talking about teams and
+conflict and product management, will give people like Brad and younger self a
+ramp to walk up instead of a cliff to climb, because if we don't find a way to
+change tech, our lives are going to keep getting worse.
+
+As a programmer you are able to shape the world in ways that most mad scientists
+can only dream of, but with great power comes great responsibility
+<cite>Lee1962</cite>.  If you'd like to understand what we're getting wrong now
+so that you can avoid making the same mistakes, ask your instructor to accept a
+report on one of these books for part of your project grade:
+
+-   *Automating Inequality* <cite>Eubanks2019</cite> shows how the algorithms used
+    to allocate health care, target people for tax audits, and decide where
+    police will patrol all punish the poor for being poor.  (And if your
+    reaction is, "I'm not poor so I don't care," talk to someone whose credit
+    rating has never recovered from someone with the same name missing a few
+    student loan payments.)
+
+-   *Algorithms of Oppression* <cite>Noble2018</cite> looks at how those same
+    algorithms and the ones used by search engines amplify and perpetuate racism
+    and sexism.
+
+-   *Weapons of Math Destruction* <cite>ONeil2017</cite> delves more deeply into
+    the math being used and abused by these systems.  For example, software that
+    predicts how likely someone is to commit a crime may use the age of their
+    first interaction with the police in its score.  Thanks to racially biased
+    policing practices, Black men are likely to have that encounter earlier than
+    white men.  The Black man is therefore more likely to receive a prison
+    sentence, which increases the chance of a future offense, which is then used
+    as evidence that the algorithm works.
+
+-   *Technically Wrong* <cite>WachterBoettcher2017</cite> and *Invisible Women*
+    <cite>CriadoPerez2019</cite> look at how the lack of diversity among
+    engineers and managers leads to products that either don't address
+    everyone's needs or actually do harm: seatbelts and airbags that injure
+    women because they were only tested on male models, facial recognition
+    systems that don't recognize Black faces, and "where's my phone?" apps that
+    help abusive domestic partners keep tabs on their victims.
+
+Looking more widely, the books below helped me understand how intellectually
+impoverished Silicon Valley's worldview is.  If you find them useful, I'd
+appreciate suggestions for additions.
+
+-   *The Great Transformation* <cite>Armstrong2007</cite> and *Doubt: A History*
+    <cite>Hecht2004</cite>.  The first book chronicles the critical centuries in
+    which Confucianism and Daoism arose in China, Hinduism and Buddhism in
+    India, monotheism in the Middle East, and rationalism in Greece; the second
+    Traces the evolution of one of the great traditions in Western thought (one
+    which even today makes many people uncomfortable).
+
+-   *Sisters: The Lives of America's Suffragists* <cite>Baker2006</cite>.
+    Explains history through biography, and does well at both.
+
+-   *How Buildings Learn* <cite>Brand1995</cite>.  One of the most practical
+    thinkers of the last century draws on his experience as an architect to
+    explain how many other things in our society come to be as they are.
+
+-   *Building Powerful Community Organizations* <cite>Brown2007</cite>.  The best
+    practical guide I know to creating and sustaining grassroots groups with a
+    purpose.
+
+-   *The World That Never Was* <cite>Butterworth2011</cite>.  Explores the early
+    days of the anarchist movement, and in doing so shows how governments create
+    the villains they need.
+
+-   *Lower Ed: The Troubling Rise of For-Profit Colleges in the New Economy*
+    <cite>McMillanCottom2018</cite>.  Describes how a large part of the
+    educational sector in the US exists to translate government grants into
+    personal debt for the poor and private profit for the rich.
+
+-   *Trick or Treatment* <cite>Singh2009</cite>.  A sceptical (but not hostile)
+    look at alternative medicine that is incidentally a great primer on
+    standards of evidence and how to interpret scientific findings.
+
+-   *Four Futures: Life After Capitalism* <cite>Frase2016</cite>.  Explores four
+    scenarios in which our reactions to increasing automation and worsening
+    climate change play out.
+
+-   *Bury the Chains* <cite>Hochschild2006</cite>.  "Slavery was to the nineteenth
+    century what oil is today: morally repugnant but economically
+    indispensible."  The fight against it was one of the first great triumphs of
+    democratic activism.
+
+-   *The View From Flyover Country* <cite>Kendzior2018</cite> and *Hiding in Plain
+    Sight* <cite>Kendzior2020</cite>.  Essential reading about the rise of
+    authoritarian kleptocracy in the United States.
+
+-   *Owning the Earth* <cite>Linklater2013</cite>.  The idea that individuals can
+    own land is a lot younger than most people realize, and its emergence holds
+    a lot of lessons for today's debates over intellectual property.
+
+-   *From the Ruins of Empire* <cite>Mishra2013</cite> and *Black Wave*
+    <cite>Ghattas2020</cite>.  The first is three intellectual biographies
+    showing how the peoples of Asia responded to the West; the second is a
+    history of the struggle between Saudi Arabia and Iran, and how it has shaped
+    the history of the last half century.
+
+-   *The Last Utopia* <cite>Moyn2010</cite>.  Argues that human rights became the
+    defining issue for post-war progressives only because others failed.
+
+-   *Humanizing the Economy* <cite>Restakis2010</cite>.  A history of the
+    co-operative movement and a blueprint for its future.
+
+-   *Seeing Like a State* <cite>Scott1999</cite> and *Bullshit Jobs: A Theory*
+    <cite>Graeber2019</cite>.  The first explains why large organizations always
+    prefer uniformity over productivity, and the price people pay for this; the
+    second explores the proliferation of meaningless busy-work jobs.
+
+-   *Twitter and Tear Gas* <cite>Tufekci2018</cite>.  A nuanced look at how social
+    media is and isn't changing politics and protest.
+
+-   *The Spirit Level* <cite>Wilkinson2011</cite>.  An evidence-based exploration
+    of how and why greater equality is better for everyone.
+
+-   *The Emperor of All Maladies* <cite>Mukherjee2011</cite> and *How to Survive a
+    Plague* <cite>France2016</cite>.  The first is a history of cancer and its
+    (mis)treatment; the second, of the AIDS crisis and how victims and their
+    allies came together when society as a whole let them down.
+
+-   *The Dictator's Handbook* <cite>BuenoDeMesquita2012</cite>.  Presents a
+    slightly cynical theory of why bad behavior is often good politics.

@@ -51,6 +51,12 @@ Jorge Aranda and Gina Venolia:
 "The Secret Life of Bugs: Going Past the Errors and Omissions in Software Repositories".
 <em>Proc. ICSE'09</em>, <a href="https://doi.org/10.1109/ICSE.2009.5070530">10.1109/ICSE.2009.5070530</a>.
 </dd>
+<dt id="armstrong2007" class="bibliography">Armstrong2007</dt>
+<dd>
+Karen Armstrong:
+<em>The Great Transformation: The Beginning of Our Religious Traditions</em>.
+Vintage Canada, 2007, 978-0676974669.
+</dd>
 <dt id="aurora2018" class="bibliography">Aurora2018</dt>
 <dd>
 Valerie Aurora and Mary Gardiner:
@@ -69,11 +75,11 @@ Alberto Bacchelli and Christian Bird:
 "Expectations, Outcomes, and Challenges of Modern Code Review".
 <em>Proc. ICSE'13</em>.
 </dd>
-<dt id="barik2017" class="bibliography">Barik2017</dt>
+<dt id="baker2006" class="bibliography">Baker2006</dt>
 <dd>
-Titus Barik, Justin Smith, Kevin Lubick, Elisabeth Holmes, Jing Feng, Emerson Murphy-Hill, and Chris Parnin:
-"Do Developers Read Compiler Error Messages?".
-<em>Proc. ICSE'17</em>, <a href="https://doi.org/10.1109/icse.2017.59">10.1109/icse.2017.59</a>.
+Jean H. Baker:
+<em>Sisters: The Lives of America's Suffragists</em>.
+Hill and Wang, 2006, 978-0809087037.
 </dd>
 <dt id="barke2019" class="bibliography">Barke2019</dt>
 <dd>
@@ -219,6 +225,12 @@ Jere E. Brophy:
 "Research on the Self-Fulfilling Prophecy and Teacher Expectations".
 <em>Journal of Educational Psychology</em>, 75(5), 1983, <a href="https://doi.org/10.1037/0022-0663.75.5.631">10.1037/0022-0663.75.5.631</a>.
 </dd>
+<dt id="brown2007" class="bibliography">Brown2007</dt>
+<dd>
+Michael Jacoby Brown:
+<em>Building Powerful Community Organizations: A Personal Guide to Creating Groups that Can Solve Problems and Change the World</em>.
+Long Haul Press, 2007, 978-0977151806.
+</dd>
 <dt id="brown2011" class="bibliography">Brown2011</dt>
 <dd>
 Amy Brown and Greg Wilson (eds.):
@@ -242,6 +254,24 @@ Lulu, 2016, 978-1329871274.
 Neil C. C. Brown and Amjad Altadmri:
 "Novice Java Programming Mistakes".
 <em>TCE</em>, 17(2), 2017, <a href="https://doi.org/10.1145/2994154">10.1145/2994154</a>.
+</dd>
+<dt id="buenodemesquita2012" class="bibliography">BuenoDeMesquita2012</dt>
+<dd>
+Bruce Bueno de Mesquita and Alastair Smith:
+<em>The Dictator's Handbook: Why Bad Behavior is Almost Always Good Politics</em>.
+PublicAffairs, 2012, 978-1610391849.
+</dd>
+<dt id="bullock2021" class="bibliography">Bullock2021</dt>
+<dd>
+Beleicia B. Bullock, Fernando L. Nascimento, and Stacy A. Doore:
+"Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432468">10.1145/3408877.3432468</a>.
+</dd>
+<dt id="butterworth2011" class="bibliography">Butterworth2011</dt>
+<dd>
+Alex Butterworth:
+<em>The World That Never Was: A True Story of Dreamers, Schemers, Anarchists and Secret Agents</em>.
+Vintage Books, 2011, 978-0099551928.
 </dd>
 <dt id="casciaro2020" class="bibliography">Casciaro2020</dt>
 <dd>
@@ -298,6 +328,12 @@ In
 Andy Oram and Greg Wilson (eds.):
 <em>Making Software.</em>
 O'Reilly, 2010, 978-0596808327.
+</dd>
+<dt id="cohen2021" class="bibliography">Cohen2021</dt>
+<dd>
+Lena Cohen, Heila Precel, Harold Triedman, and Kathi Fisler:
+"A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432456">10.1145/3408877.3432456</a>.
 </dd>
 <dt id="conway1968" class="bibliography">Conway1968</dt>
 <dd>
@@ -417,6 +453,12 @@ Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
 "On the Effectiveness of Test-First Approach to Programming".
 <em>TSE</em>, 31(3), 2005, <a href="https://doi.org/10.1109/TSE.2005.37">10.1109/TSE.2005.37</a>.
 </dd>
+<dt id="eubanks2019" class="bibliography">Eubanks2019</dt>
+<dd>
+Virginia Eubanks:
+<em>Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor</em>.
+Picador, 2019, 978-1250215789.
+</dd>
 <dt id="fagerholm2017" class="bibliography">Fagerholm2017</dt>
 <dd>
 Fabian Fagerholm, Marco Kuhrmann, and Jürgen Münch:
@@ -440,6 +482,12 @@ Eugene Farmer:
 Michael C. Feathers:
 <em>Working Effectively with Legacy Code</em>.
 Prentice-Hall, 2004, 978-0131177055.
+</dd>
+<dt id="ferreira2021" class="bibliography">Ferreira2021</dt>
+<dd>
+Rodrigo Ferreira and Moshe Y. Vardi:
+"Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432449">10.1145/3408877.3432449</a>.
 </dd>
 <dt id="fincher2001" class="bibliography">Fincher2001</dt>
 <dd>
@@ -494,11 +542,23 @@ Martin Fowler:
 <em>Refactoring</em> (2nd edition).
 Addison-Wesley Professional, 2018, 978-0134757599.
 </dd>
+<dt id="france2016" class="bibliography">France2016</dt>
+<dd>
+David France:
+<em>How to Survive a Plague: The Inside Story of How Citizens and Science Tamed AIDS</em>.
+Knopf, 2016, 978-0307700636.
+</dd>
 <dt id="frankfurt2005" class="bibliography">Frankfurt2005</dt>
 <dd>
 Harry G. Frankfurt:
 <em>On Bullshit</em>.
 Princeton University Press, 2005, 978-0691122946.
+</dd>
+<dt id="frase2016" class="bibliography">Frase2016</dt>
+<dd>
+Peter Frase:
+<em>Four Futures: Life After Capitalism</em>.
+Verso, 2016, 978-1781688137.
 </dd>
 <dt id="freeman1972" class="bibliography">Freeman1972</dt>
 <dd>
@@ -542,6 +602,12 @@ Atul Gawande:
 <em>The Checklist Manifesto: How to Get Things Right</em>.
 Picador, 2011, 978-0312430009.
 </dd>
+<dt id="ghattas2020" class="bibliography">Ghattas2020</dt>
+<dd>
+Kim Ghattas:
+<em>Black Wave: Saudi Arabia, Iran, and the Forty-Year Rivalry That Unraveled Culture, Religion, and Collective Memory in the Middle East</em>.
+Henry Holt & Co., 2020, 978-1250131201.
+</dd>
 <dt id="gitinabard2020" class="bibliography">Gitinabard2020</dt>
 <dd>
 Niki Gitinabard, Ruth Okoilu, Yiqao Xu, Sarah Heckman, Tiffany Barnes, and Collin Lynch:
@@ -559,6 +625,18 @@ Addison-Wesley Professional, 2002, 978-0321117427.
 Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, and Galen Hunt:
 "Debugging in the (Very) Large: Ten Years of Implementation and Experience".
 <em>Proc. SOSP'09</em>, <a href="https://doi.org/10.1145/1629575.1629586">10.1145/1629575.1629586</a>.
+</dd>
+<dt id="gordon2021" class="bibliography">Gordon2021</dt>
+<dd>
+Nikolas Gordon and Omar Alam:
+"The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432369">10.1145/3408877.3432369</a>.
+</dd>
+<dt id="graeber2019" class="bibliography">Graeber2019</dt>
+<dd>
+David Graeber:
+<em>Bullshit Jobs: A Theory</em>.
+Simon & Schuster, 2019, 978-1501143335.
 </dd>
 <dt id="graziotin2014" class="bibliography">Graziotin2014</dt>
 <dd>
@@ -595,11 +673,22 @@ J.E. Hannay, E. Arisholm, H. Engvik, and D.I.K. Sjoberg:
 Michael Hansen, Robert L. Goldstone, and Andrew Lumsdaine:
 "What Makes Code Hard to Understand?".
 </dd>
+<dt id="hao2021" class="bibliography">Hao2021</dt>
+<dd>
+Karen Hao:
+"<a href="https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/">How Facebook Got Addicted to Spreading Misinformation</a>".
+</dd>
 <dt id="hatton2008" class="bibliography">Hatton2008</dt>
 <dd>
 Les Hatton:
 "Testing the Value of Checklists in Code Inspections".
 <em>IEEE Software</em>, 25(4), 2008, <a href="https://doi.org/10.1109/ms.2008.100">10.1109/ms.2008.100</a>.
+</dd>
+<dt id="hecht2004" class="bibliography">Hecht2004</dt>
+<dd>
+Jennifer Hecht:
+<em>Doubt: A History</em>.
+HarperOne, 2004, 978-0060097950.
 </dd>
 <dt id="henrich2010" class="bibliography">Henrich2010</dt>
 <dd>
@@ -642,6 +731,12 @@ Michael Hilton, Timothy Tunnell, Kai Huang, Darko Marinov, and Danny Dig:
 Eric von Hippel:
 <em>Democratizing Innovation</em>.
 MIT Press, 2006, 978-0262720472.
+</dd>
+<dt id="hochschild2006" class="bibliography">Hochschild2006</dt>
+<dd>
+Adam Hochschild:
+<em>Bury the Chains: Prophets and Rebels in the Fight to Free an Empire's Slaves</em>.
+Mariner Books, 2006, 978-0618619078.
 </dd>
 <dt id="hofmeister2017" class="bibliography">Hofmeister2017</dt>
 <dd>
@@ -762,6 +857,18 @@ Chris F. Kemerer and Mark C. Paulk:
 "The Impact of Design and Code Reviews on Software Quality: An Empirical Study Based on PSP Data".
 <em>TSE</em>, 35(4), 2009, <a href="https://doi.org/10.1109/tse.2009.27">10.1109/tse.2009.27</a>.
 </dd>
+<dt id="kendzior2018" class="bibliography">Kendzior2018</dt>
+<dd>
+Sarah Kendzior:
+<em>The View from Flyover Country: Dispatches from the Forgotten America</em>.
+Flatiron Books, 2018, 978-1250189998.
+</dd>
+<dt id="kendzior2020" class="bibliography">Kendzior2020</dt>
+<dd>
+Sarah Kendzior:
+<em>Hiding in Plain Sight: The Invention of Donald Trump and the Erosion of America</em>.
+Flatiron Books, 2020, 978-1250210715.
+</dd>
 <dt id="kerievsky2004" class="bibliography">Kerievsky2004</dt>
 <dd>
 Joshua Kerievsky:
@@ -876,6 +983,12 @@ Van Lindberg:
 <em>Intellectual Property and Open Source: A Practical Guide to Protecting Code</em>.
 O'Reilly, 2008, 978-0596517960.
 </dd>
+<dt id="linklater2013" class="bibliography">Linklater2013</dt>
+<dd>
+Andro Linklater:
+<em>Owning the Earth: The Transforming History Of Land Ownership</em>.
+Bloomsbury USA, 2013, 978-1620402894.
+</dd>
 <dt id="littky2004" class="bibliography">Littky2004</dt>
 <dd>
 Dennis Littky:
@@ -912,17 +1025,17 @@ Richard E. Mayer:
 <em>Multimedia Learning</em> (2nd edition).
 Cambridge University Press, 2009, 978-0521735353.
 </dd>
-<dt id="mccauley2008" class="bibliography">McCauley2008</dt>
-<dd>
-Renée McCauley, Sue Fitzgerald, Gary Lewandowski, Laurie Murphy, Beth Simon, Lynda Thomas, and Carol Zander:
-"Debugging: A Review of the Literature from an Educational Perspective".
-<em>CSE</em>, 18(2), 2008, <a href="https://doi.org/10.1080/08993400802114581">10.1080/08993400802114581</a>.
-</dd>
 <dt id="mcintosh2011" class="bibliography">McIntosh2011</dt>
 <dd>
 Shane McIntosh, Bram Adams, Thanh H.D. Nguyen, Yasutaka Kamei, and Ahmed E. Hassan:
 "An Empirical Study of Build Maintenance Effort".
 <em>Proc. ICSE'11</em>, <a href="https://doi.org/10.1145/1985793.1985813">10.1145/1985793.1985813</a>.
+</dd>
+<dt id="mcmillancottom2018" class="bibliography">McMillanCottom2018</dt>
+<dd>
+Tressie McMillan Cottom:
+<em>Lower Ed: The Troubling Rise of For-Profit Colleges in the New Economy</em>.
+The New Press, 2018, 978-1620974384.
 </dd>
 <dt id="meneely2011" class="bibliography">Meneely2011</dt>
 <dd>
@@ -977,6 +1090,12 @@ Anne Minahan:
 "Martha's Rules".
 <em>Affilia</em>, 1(2), 1986, <a href="https://doi.org/10.1177/088610998600100206">10.1177/088610998600100206</a>.
 </dd>
+<dt id="mishra2013" class="bibliography">Mishra2013</dt>
+<dd>
+Pankaj Mishra:
+<em>From the Ruins of Empire: The Revolt Against the West and the Remaking of Asia</em>.
+Picador, 2013, 978-1250037718.
+</dd>
 <dt id="mockus2010" class="bibliography">Mockus2010</dt>
 <dd>
 Audris Mockus:
@@ -995,17 +1114,29 @@ Gretchen A. Mosher:
 "Formation and Development of Effective Student Teams to Facilitate Team-Based Learning".
 <em>Proc. ASEE North Midwest Section Conference</em>.
 </dd>
-<dt id="muller2007" class="bibliography">Muller2007</dt>
+<dt id="moyn2010" class="bibliography">Moyn2010</dt>
 <dd>
-Orna Muller, David Ginat, and Bruria Haberman:
-"Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction".
-<em>Proc. SIGCSE'07</em>, <a href="https://doi.org/10.1145/1268784.1268830">10.1145/1268784.1268830</a>.
+Samuel Moyn:
+<em>The Last Utopia: Human Rights in History</em>.
+Belknap Press, 2010, 978-0674048720.
+</dd>
+<dt id="mukherjee2011" class="bibliography">Mukherjee2011</dt>
+<dd>
+Siddhartha Mukherjee:
+<em>The Emperor of All Maladies: A Biography of Cancer</em>.
+Scribner, 2011, 978-1439170915.
 </dd>
 <dt id="nakshatri2016" class="bibliography">Nakshatri2016</dt>
 <dd>
 Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
 "Analysis of Exception Handling Patterns in Java Projects".
 <em>Proc. MSR'16</em>, <a href="https://doi.org/10.1145/2901739.2903499">10.1145/2901739.2903499</a>.
+</dd>
+<dt id="noble2018" class="bibliography">Noble2018</dt>
+<dd>
+Safiya Umoja Noble:
+<em>Algorithms of Oppression: How Search Engines Reinforce Racism</em>.
+NYU Press, 2018, 978-1479837243.
 </dd>
 <dt id="nystrom2014" class="bibliography">Nystrom2014</dt>
 <dd>
@@ -1024,6 +1155,12 @@ Barbara Oakley, Richard M. Felder, Rebecca Brent, and Imad Elhajj:
 Russ Olsen:
 <em>Design Patterns in Ruby</em>.
 Addison-Wesley Professional, 2007, 978-0321490452.
+</dd>
+<dt id="oneil2017" class="bibliography">ONeil2017</dt>
+<dd>
+C, a, t, h, y,  , O, ', N, e, i, and l:
+<em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>.
+Crown, 2017, 978-0553418835.
 </dd>
 <dt id="ostrom2015" class="bibliography">Ostrom2015</dt>
 <dd>
@@ -1118,17 +1255,28 @@ Caitlin Sadowski and Thomas Zimmermann (eds.):
 <em>Rethinking Productivity in Software Engineering.</em>
 Apress, 2019, 978-1484242209.
 </dd>
+<dt id="prioleau2021" class="bibliography">Prioleau2021</dt>
+<dd>
+Diandra Prioleau, Brianna Richardson, Emma Drobina, Rua Williams, Joshua Martin, and Juan E. Gilbert:
+"How Students in Computing-Related Majors Distinguish Social Implications of Technology".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432360">10.1145/3408877.3432360</a>.
+</dd>
 <dt id="pritchard2015" class="bibliography">Pritchard2015</dt>
 <dd>
 David Pritchard:
 "Frequency Distribution of Error Messages".
 <em>Proc. PLATEAU'15</em>, <a href="https://doi.org/10.1145/2846680.2846681">10.1145/2846680.2846681</a>.
 </dd>
-<dt id="rawls1999" class="bibliography">Rawls1999</dt>
+<dt id="rajagopalan2018" class="bibliography">Rajagopalan2018</dt>
 <dd>
-John Rawls:
-<em>A Theory of Justice</em> (revised edition).
-Belknap Press, 1999, 978-0674000780.
+Megha Rajagopalan, Lam Thuy Vo, and Aung Naing Soe:
+"<a href="https://www.buzzfeednews.com/article/meghara/facebook-myanmar-rohingya-genocide">How Facebook Failed The Rohingya In Myanmar</a>".
+</dd>
+<dt id="rankin2021" class="bibliography">Rankin2021</dt>
+<dd>
+Yolanda A. Rankin, Jakita O. Thomas, and Sheena Erete:
+"Real Talk: Saturated Sites of Violence in CS Education".
+<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432432">10.1145/3408877.3432432</a>.
 </dd>
 <dt id="rawson2014" class="bibliography">Rawson2014</dt>
 <dd>
@@ -1147,6 +1295,12 @@ O'Reilly Media, 2001, 978-0596001087.
 John Reekie and Rohan McAdam:
 <em>A Software Architecture Primer</em>.
 Angophora Press, 2006, 978-0646458410.
+</dd>
+<dt id="restakis2010" class="bibliography">Restakis2010</dt>
+<dd>
+John Restakis:
+<em>Humanizing the Economy: Co-operatives in the Age of Capital</em>.
+New Society Publishers, 2010, 978-0865716513.
 </dd>
 <dt id="robinson2005" class="bibliography">Robinson2005</dt>
 <dd>
@@ -1214,6 +1368,12 @@ Donald A. Schon:
 <em>The Reflective Practitioner: How Professionals Think in Action</em>.
 Basic Books, 1984, 978-0465068784.
 </dd>
+<dt id="scott1999" class="bibliography">Scott1999</dt>
+<dd>
+James C. Scott:
+<em>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</em>.
+Yale University Press, 1999, 978-0300078152.
+</dd>
 <dt id="sedano2017" class="bibliography">Sedano2017</dt>
 <dd>
 Todd Sedano, Paul Ralph, and Cécile Péraire:
@@ -1231,6 +1391,12 @@ Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
 Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wilson:
 "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
 <em>PLoS Computational Biology</em>, 15(9), 2019, <a href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
+</dd>
+<dt id="singh2009" class="bibliography">Singh2009</dt>
+<dd>
+Simon Singh and Edzard Ernst:
+<em>Trick or Treatment: The Undeniable Facts about Alternative Medicine</em>.
+W. W. Norton, 2009, 978-0393337785.
 </dd>
 <dt id="smalls2021" class="bibliography">Smalls2021</dt>
 <dd>
@@ -1351,11 +1517,23 @@ Christoph Treude and Margaret-Anne Storey:
 Chelsea Troy:
 "<a href="https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/">Why do Remote Meetings Suck so Much?</a>".
 </dd>
+<dt id="tufekci2018" class="bibliography">Tufekci2018</dt>
+<dd>
+Zeynep Tufekci:
+<em>Twitter and Tear Gas: The Power and Fragility of Networked Protest</em>.
+Yale University Press, 2018, 978-0300234176.
+</dd>
 <dt id="vigen2015" class="bibliography">Vigen2015</dt>
 <dd>
 Tyler Vigen:
 <em>Spurious Correlations</em>.
 Hachette Books, 2015, 978-0316339438.
+</dd>
+<dt id="wachterboettcher2017" class="bibliography">WachterBoettcher2017</dt>
+<dd>
+Sara Wachter-Boettcher:
+<em>Technically Wrong: Why Digital Products Are Designed to Fail You</em>.
+WW Norton, 2017, 978-0393634631.
 </dd>
 <dt id="washburn2016" class="bibliography">Washburn2016</dt>
 <dd>
