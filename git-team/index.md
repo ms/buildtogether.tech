@@ -280,13 +280,15 @@ Use checklists.
 :   <cite>Gawande2011</cite> popularized the idea that using checklists improves
     results even for experts.  While <cite>Hatton2008</cite> found no evidence
     that they made a difference to code reviews by professionals, I have found
-    them very useful as a starter for students. If you are new to code reviews,
+    them very useful as a starter for students.  If you are new to code reviews,
     ask the instructor for a list of the dozen most common problems to check
-    for.  (Anything more than that is likely to be overwhelming.) If you and
-    your teammates have been working together for a while, look at your own code
-    reviews and make a list of the things that keep coming up.  Having the list
-    will make you more aware of the issues while you're coding, which in turn
-    will make you less likely to keep making the same mistakes.
+    for, since anything more than that is likely to be overwhelming.  (The code
+    quality rubric developed in <cite>Stegeman2014,Stegeman2016</cite> is a good
+    starting point.)  If you and your teammates have been working together for a
+    while, look at your own code reviews and make a list of the things that keep
+    coming up.  Having the list will make you more aware of the issues while
+    you're coding, which in turn will make you less likely to keep making the
+    same mistakes.
 
 Look for algorithmic problems first.
 :   Code review isn't just (or even primarily) about style: its real purpose is

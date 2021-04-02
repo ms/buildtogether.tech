@@ -1952,17 +1952,6 @@
   year: 2007
   doi: 10.1145/1268784.1268830
 
-- key: Nafus2011
-  author:
-  - Dawn Nafus
-  doi: 10.1177/1461444811422887
-  journal: "New Media & Society"
-  kind: article
-  volume: 14
-  number: 4
-  title: "'Patches don't have gender': What is not open in open source software"
-  year: 2011
-
 - key: Nakshatri2016
   author:
   - Suman Nakshatri
@@ -2291,7 +2280,7 @@
   year: 2006
   doi: 10.1080/08993400600874584
 
-- key: Scal2012
+- key: Scalzi2012
   kind: link
   author:
   - John Scalzi
@@ -2456,6 +2445,28 @@
   title: "Programming Languages and Learning"
   year: 2017
   url: https://quorumlanguage.com/evidence.html
+
+- key: Stegeman2014
+  kind: inproceedings
+  author:
+  - Martijn Stegeman
+  - Erik Barendsen
+  - Sjaak Smetsers
+  title: "Towards an Empirically Validated Model for Assessment of Code Quality"
+  booktitle: "Proc. Koli'14"
+  year: 2014
+  doi: 10.1145/2674683.2674702
+
+- key: Stegeman2016
+  kind: inproceedings
+  author:
+  - Martijn Stegeman
+  - Erik Barendsen
+  - Sjaak Smetsers
+  title: "Designing a Rubric for Feedback on Code Quality in Programming Courses"
+  booktitle: "Proc. Koli'16"
+  year: 2016
+  doi: 10.1145/2999541.2999555
 
 - key: Steinmacher2014
   kind: inproceedings

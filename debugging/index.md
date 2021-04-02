@@ -9,6 +9,10 @@ spend anywhere from a quarter to three quarters of their time finding and fixing
 bugs.  A single chapter can't make up for that, but I hope the guidance below
 will help make you more efficient.
 
+The most important thing to remember is that debugging depends on being able to
+read code, which multiple studies have shown is the single most effective way to
+find bugs <cite>Basili1987,Kemerer2009,Bacchelli2013</cite>.
+
 ## Build Habits
 
 Software can fail in many different ways, but the process for diagnosing and

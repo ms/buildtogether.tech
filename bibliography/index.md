@@ -1001,12 +1001,6 @@ Orna Muller, David Ginat, and Bruria Haberman:
 "Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction".
 <em>Proc. SIGCSE'07</em>, <a href="https://doi.org/10.1145/1268784.1268830">10.1145/1268784.1268830</a>.
 </dd>
-<dt id="nafus2011" class="bibliography">Nafus2011</dt>
-<dd>
-Dawn Nafus:
-"'Patches don't have gender': What is not open in open source software".
-<em>New Media & Society</em>, 14(4), 2011, <a href="https://doi.org/10.1177/1461444811422887">10.1177/1461444811422887</a>.
-</dd>
 <dt id="nakshatri2016" class="bibliography">Nakshatri2016</dt>
 <dd>
 Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
@@ -1192,7 +1186,7 @@ Jorma Sajaniemi, Mordechai Ben-Ari, Pauli Byckling, Petri Gerdt, and Yevgeniya K
 "Roles of Variables in Three Programming Paradigms".
 <em>Computer Science Education</em>, 16(4), 2006, <a href="https://doi.org/10.1080/08993400600874584">10.1080/08993400600874584</a>.
 </dd>
-<dt id="scal2012" class="bibliography">Scal2012</dt>
+<dt id="scalzi2012" class="bibliography">Scalzi2012</dt>
 <dd>
 John Scalzi:
 "<a href="https://whatever.scalzi.com/2012/05/15/straight-white-male-the-lowest-difficulty-setting-there-is/">Straight White Male: The Lowest Difficulty Setting There Is</a>".
@@ -1278,6 +1272,18 @@ Andreas Stefik and Susanna Siebert:
 <dd>
 Andreas Stefik, Patrick Daleiden, Diana Franklin, Stefan Hanenberg, Antti-Juhani Kaijanaho, Walter Tichy, and Brett A. Becker:
 "<a href="https://quorumlanguage.com/evidence.html">Programming Languages and Learning</a>".
+</dd>
+<dt id="stegeman2014" class="bibliography">Stegeman2014</dt>
+<dd>
+Martijn Stegeman, Erik Barendsen, and Sjaak Smetsers:
+"Towards an Empirically Validated Model for Assessment of Code Quality".
+<em>Proc. Koli'14</em>, <a href="https://doi.org/10.1145/2674683.2674702">10.1145/2674683.2674702</a>.
+</dd>
+<dt id="stegeman2016" class="bibliography">Stegeman2016</dt>
+<dd>
+Martijn Stegeman, Erik Barendsen, and Sjaak Smetsers:
+"Designing a Rubric for Feedback on Code Quality in Programming Courses".
+<em>Proc. Koli'16</em>, <a href="https://doi.org/10.1145/2999541.2999555">10.1145/2999541.2999555</a>.
 </dd>
 <dt id="steinmacher2014" class="bibliography">Steinmacher2014</dt>
 <dd>

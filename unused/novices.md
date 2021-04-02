@@ -47,13 +47,6 @@ need 2--3 times longer than others to get through the same exercises.  Teaching
 the slower learners what the faster ones are doing will help make the group's
 overall progress more uniform.
 
-Debugging depends on being able to read code, which multiple studies have shown
-is the single most effective way to find bugs
-<cite>Basili1987,Kemerer2009,Bacchelli2013</cite>.  The code quality rubric
-developed in <cite>Stegeman2014,Stegeman2016</cite> is a good checklist of
-things to look for, though it is best presented in chunks rather than all at
-once.
-
 Novice programmers seem just as reluctant to test software as professionals.
 There's no doubt that doing it is valuable---<cite>Carter2017</cite> found that
 high-performing novices spent a lot of time testing, while low performers spent

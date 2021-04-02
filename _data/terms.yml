@@ -175,12 +175,16 @@ errors:
   term: YAML
 evaluation: []
 fairness:
+- key: active_bystander
+  term: active bystander
 - key: ally
   term: ally
 - key: bullshit
   term: bullshit
 - key: commons
   term: commons
+- key: lending_privilege
+  term: lending privilege
 - key: preparatory_privilege
   term: preparatory privilege
 - key: unconscious_bias

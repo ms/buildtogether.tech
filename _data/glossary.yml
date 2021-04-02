@@ -4,6 +4,12 @@
     def: >
       90% of people will watch, 9% will speak up, and 1% will actually do things.
 
+- key: active_bystander
+  en:
+    term: "active bystander"
+    def: >
+      FIXME
+
 - key: active_listening
   en:
     term: "active listening"
@@ -939,6 +945,12 @@
 - key: lpp
   en:
     term: legitimate peripheral participation
+    def: >
+      FIXME
+
+- key: lending_privilege
+  en:
+    term: "lending privilege"
     def: >
       FIXME
 

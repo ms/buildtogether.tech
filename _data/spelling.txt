@@ -62,6 +62,7 @@ Bacchelli
 Bae
 Bairavasundaram
 Baishakhi
+Barendsen
 Barik
 Barke
 Bas
@@ -149,6 +150,7 @@ CriadoPerez
 Csikszentmihalyi
 Curley
 Cécile
+DLF
 DLL
 DLS
 DOIs
@@ -456,6 +458,7 @@ Margolis
 Marinov
 Markku
 Marlyse
+Martijn
 Martiqua
 Martyn
 Masood
@@ -494,13 +497,13 @@ Mortem
 Mosher
 Mujahid
 Mulders
+Mythbusters
 Münch
 NOAA's
 NPM
 NPMS
 NSPW
 Nachiappan
-Nafus
 Nagappan
 Najar
 Nakshatri
@@ -637,7 +640,6 @@ Sarma
 Sascha
 Sathiyanarayanan
 Saïda
-Scal
 Scaliante
 Scalzi
 Scalzi's
@@ -674,10 +676,12 @@ Siegmund
 Sigweni
 Sillitti
 Sira
+Sjaak
 Sjoberg
 Sjøberg
 Slava
 SmartBear
+Smetsers
 Snakemake
 Snowden
 Socio
@@ -691,6 +695,7 @@ Spinellis
 Springer
 Spruit
 Stefik
+Stegeman
 Steine
 Steinmacher
 Stershic

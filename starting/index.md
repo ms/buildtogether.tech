@@ -415,6 +415,10 @@ diverse, which makes it more productive <cite>Zhan2020</cite>:
     didn't realize it was out of bounds.  (See also <span
     g="schrodingers_asshole">Schrödinger's asshole</span>.)
 
+Having a Code of Conduct is an empty gesture if you don't also have a way to
+respond to violation.  <cite>Aurora2018</cite> describes how, and learning the
+basics is a good first step toward becoming an ally (<span x="fairness"/>).
+
 <div class="callout" markdown="1">
 
 ### What they really mean
