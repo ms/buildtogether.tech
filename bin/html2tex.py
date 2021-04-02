@@ -136,8 +136,14 @@ def convert(node, accum, doEscape):
             add_class(bib, 'bibliography')
             for entry in bib.find_all('dt'):
                 add_class(entry, 'bibliography')
-        # Always convert children of div
-        convert_children(node, accum, doEscape)
+        # Callouts
+        if has_class(node, 'callout'):
+            accum.append('\\begin{callout}\n')
+            convert_children(node, accum, doEscape)
+            accum.append('\\end{callout}\n')
+        # Always convert children of other divs
+        else:
+            convert_children(node, accum, doEscape)
 
     # dl => description list
     elif node.name == 'dl':
