@@ -7,7 +7,7 @@ nochaptertitle: true
 <dd>
 Zahra Shakeri Hossein Abad, Oliver Karras, Kurt Schneider, Ken Barker, and Mike Bauer:
 "Task Interruption in Software Development Projects".
-<em>Proc. EASE'18</em>, <a href="https://doi.org/10.1145/3210459.3210471">10.1145/3210459.3210471</a>.
+<em>Proc. EASE'18</em>, <a class="doi" href="https://doi.org/10.1145/3210459.3210471">10.1145/3210459.3210471</a>.
 </dd>
 <dt id="abbate2012" class="bibliography">Abbate2012</dt>
 <dd>
@@ -19,37 +19,37 @@ MIT Press, 2012, 978-0262534536.
 <dd>
 Rabe Abdalkareem, Olivier Nourry, Sultan Wehaibi, Suhaib Mujahid, and Emad Shihab:
 "Why Do Developers Use Trivial Packages? An Empirical Case Study on NPM".
-<em>Proc. FSE'17</em>, <a href="https://doi.org/10.1145/3106237.3106267">10.1145/3106237.3106267</a>.
+<em>Proc. FSE'17</em>, <a class="doi" href="https://doi.org/10.1145/3106237.3106267">10.1145/3106237.3106267</a>.
 </dd>
 <dt id="aiken1975" class="bibliography">Aiken1975</dt>
 <dd>
 Edwin G. Aiken, Gary S. Thomas, and William A. Shennum:
 "Memory for a Lecture: Effects of Notes, Lecture Rate, and Informational Density".
-<em>Journal of Educational Psychology</em>, 67(3), 1975, <a href="https://doi.org/10.1037/h0076613">10.1037/h0076613</a>.
+<em>Journal of Educational Psychology</em>, 67(3), 1975, <a class="doi" href="https://doi.org/10.1037/h0076613">10.1037/h0076613</a>.
 </dd>
 <dt id="akerblom2015" class="bibliography">Akerblom2015</dt>
 <dd>
 Beatrice Åkerblom and Tobias Wrigstad:
 "Measuring Polymorphism in Python Programs".
-<em>Proc. DLS'15</em>, <a href="https://doi.org/10.1145/2816707.2816717">10.1145/2816707.2816717</a>.
+<em>Proc. DLS'15</em>, <a class="doi" href="https://doi.org/10.1145/2816707.2816717">10.1145/2816707.2816717</a>.
 </dd>
 <dt id="almeida2017" class="bibliography">Almeida2017</dt>
 <dd>
 Daniel A. Almeida, Gail C. Murphy, Greg Wilson, and Mike Hoye:
 "Do Software Developers Understand Open Source Licenses?".
-<em>Proc. ICPC'17</em>, <a href="https://doi.org/10.1109/ICPC.2017.7">10.1109/ICPC.2017.7</a>.
+<em>Proc. ICPC'17</em>, <a class="doi" href="https://doi.org/10.1109/ICPC.2017.7">10.1109/ICPC.2017.7</a>.
 </dd>
 <dt id="anda2009" class="bibliography">Anda2009</dt>
 <dd>
 B.C.D. Anda, D.I.K. Sjoberg, and A. Mockus:
 "Variability and Reproducibility in Software Engineering: A Study of Four Companies that Developed the Same System".
-<em>TSE</em>, 35(3), 2009, <a href="https://doi.org/10.1109/tse.2008.89">10.1109/tse.2008.89</a>.
+<em>TSE</em>, 35(3), 2009, <a class="doi" href="https://doi.org/10.1109/tse.2008.89">10.1109/tse.2008.89</a>.
 </dd>
 <dt id="aranda2009" class="bibliography">Aranda2009</dt>
 <dd>
 Jorge Aranda and Gina Venolia:
 "The Secret Life of Bugs: Going Past the Errors and Omissions in Software Repositories".
-<em>Proc. ICSE'09</em>, <a href="https://doi.org/10.1109/ICSE.2009.5070530">10.1109/ICSE.2009.5070530</a>.
+<em>Proc. ICSE'09</em>, <a class="doi" href="https://doi.org/10.1109/ICSE.2009.5070530">10.1109/ICSE.2009.5070530</a>.
 </dd>
 <dt id="armstrong2007" class="bibliography">Armstrong2007</dt>
 <dd>
@@ -67,7 +67,7 @@ Frame Shift Consulting LLC, 2018, 978-1386922575.
 <dd>
 Tapio Auvinen, Nickolas Falkner, Arto Hellas, Petri Ihantola, Ville Karavirta, and Otto Seppala:
 "Relation of Individual Time Management Practices and Time Management of Teams".
-<em>FIE'20</em>, <a href="https://doi.org/10.1109/fie44824.2020.9274203">10.1109/fie44824.2020.9274203</a>.
+<em>FIE'20</em>, <a class="doi" href="https://doi.org/10.1109/fie44824.2020.9274203">10.1109/fie44824.2020.9274203</a>.
 </dd>
 <dt id="bacchelli2013" class="bibliography">Bacchelli2013</dt>
 <dd>
@@ -85,61 +85,61 @@ Hill and Wang, 2006, 978-0809087037.
 <dd>
 Helena Barke and Lutz Prechelt:
 "Role Clarity Deficiencies Can Wreck Agile Teams".
-<em>PeerJ Computer Science</em>, 5, 2019, <a href="https://doi.org/10.7717/peerj-cs.241">10.7717/peerj-cs.241</a>.
+<em>PeerJ Computer Science</em>, 5, 2019, <a class="doi" href="https://doi.org/10.7717/peerj-cs.241">10.7717/peerj-cs.241</a>.
 </dd>
 <dt id="basili1987" class="bibliography">Basili1987</dt>
 <dd>
 Victor R. Basili and Richard W. Selby:
 "Comparing the Effectiveness of Software Testing Strategies".
-<em>TSE</em>, SE-13(12), 1987, <a href="https://doi.org/10.1109/tse.1987.232881">10.1109/tse.1987.232881</a>.
+<em>TSE</em>, SE-13(12), 1987, <a class="doi" href="https://doi.org/10.1109/tse.1987.232881">10.1109/tse.1987.232881</a>.
 </dd>
 <dt id="becker2016" class="bibliography">Becker2016</dt>
 <dd>
 Brett A. Becker, Graham Glanville, Ricardo Iwashima, Claire McDonnell, Kyle Goslin, and Catherine Mooney:
 "Effective Compiler Error Message Enhancement for Novice Programming Students".
-<em>CSE</em>, 26(2-3), 2016, <a href="https://doi.org/10.1080/08993408.2016.1225464">10.1080/08993408.2016.1225464</a>.
+<em>CSE</em>, 26(2-3), 2016, <a class="doi" href="https://doi.org/10.1080/08993408.2016.1225464">10.1080/08993408.2016.1225464</a>.
 </dd>
 <dt id="begel2014" class="bibliography">Begel2014</dt>
 <dd>
 Andrew Begel and Thomas Zimmermann:
 "Analyze This! 145 Questions for Data Scientists in Software Engineering".
-<em>Proc. ICSE'14</em>, <a href="https://doi.org/10.1145/2568225.2568233">10.1145/2568225.2568233</a>.
+<em>Proc. ICSE'14</em>, <a class="doi" href="https://doi.org/10.1145/2568225.2568233">10.1145/2568225.2568233</a>.
 </dd>
 <dt id="behroozi2019" class="bibliography">Behroozi2019</dt>
 <dd>
 Mahnaz Behroozi, Chris Parnin, and Titus Barik:
 "Hiring is Broken: What Do Developers Say About Technical Interviews?".
-<em>Proc. VL/HCC'19</em>, <a href="https://doi.org/10.1109/VLHCC.2019.8818836">10.1109/VLHCC.2019.8818836</a>.
+<em>Proc. VL/HCC'19</em>, <a class="doi" href="https://doi.org/10.1109/VLHCC.2019.8818836">10.1109/VLHCC.2019.8818836</a>.
 </dd>
 <dt id="behroozi2020a" class="bibliography">Behroozi2020a</dt>
 <dd>
 Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, and Chris Parnin:
 "Debugging Hiring: What Went Right and What Went Wrong in the Technical Interview Process".
-<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377815.3381372">10.1145/3377815.3381372</a>.
+<em>Proc. ICSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3377815.3381372">10.1145/3377815.3381372</a>.
 </dd>
 <dt id="behroozi2020b" class="bibliography">Behroozi2020b</dt>
 <dd>
 Mahnaz Behroozi, Shivani Shirolkar, Titus Barik, and Chris Parnin:
 "Does Stress Impact Technical Interview Performance?".
-<em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409712">10.1145/3368089.3409712</a>.
+<em>Proc. ESEC/FSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3368089.3409712">10.1145/3368089.3409712</a>.
 </dd>
 <dt id="beller2018" class="bibliography">Beller2018</dt>
 <dd>
 Moritz Beller, Niels Spruit, Diomidis Spinellis, and Andy Zaidman:
 "On the Dichotomy of Debugging Behavior Among Programmers".
-<em>Proc. ICSE'18</em>, <a href="https://doi.org/10.1145/3180155.3180175">10.1145/3180155.3180175</a>.
+<em>Proc. ICSE'18</em>, <a class="doi" href="https://doi.org/10.1145/3180155.3180175">10.1145/3180155.3180175</a>.
 </dd>
 <dt id="beller2019" class="bibliography">Beller2019</dt>
 <dd>
 Moritz Beller, Georgios Gousios, Annibale Panichella, Sebastian Proksch, Sven Amann, and Andy Zaidman:
 "Developer Testing in the IDE: Patterns, Beliefs, and Behavior".
-<em>TSE</em>, 45(3), 2019, <a href="https://doi.org/10.1109/tse.2017.2776152">10.1109/tse.2017.2776152</a>.
+<em>TSE</em>, 45(3), 2019, <a class="doi" href="https://doi.org/10.1109/tse.2017.2776152">10.1109/tse.2017.2776152</a>.
 </dd>
 <dt id="beniamini2017" class="bibliography">Beniamini2017</dt>
 <dd>
 Gal Beniamini, Sarah Gingichashvili, Alon Klein Orbach, and Dror G. Feitelson:
 "Meaningful Identifier Names: The Case of Single-Letter Variables".
-<em>Proc. ICPC'17</em>, <a href="https://doi.org/10.1109/icpc.2017.18">10.1109/icpc.2017.18</a>.
+<em>Proc. ICPC'17</em>, <a class="doi" href="https://doi.org/10.1109/icpc.2017.18">10.1109/icpc.2017.18</a>.
 </dd>
 <dt id="benner2000" class="bibliography">Benner2000</dt>
 <dd>
@@ -157,31 +157,31 @@ Farrar Straus and Giroux, 2000, 978-0374527174.
 <dd>
 Ethan S. Bernstein and Stephen Turban:
 "The Impact of the 'Open' Workspace on Human Collaboration".
-<em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, 373(1753), 2018, <a href="https://doi.org/10.1098/rstb.2017.0239">10.1098/rstb.2017.0239</a>.
+<em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, 373(1753), 2018, <a class="doi" href="https://doi.org/10.1098/rstb.2017.0239">10.1098/rstb.2017.0239</a>.
 </dd>
 <dt id="bettenburg2008" class="bibliography">Bettenburg2008</dt>
 <dd>
 Nicolas Bettenburg, Sascha Just, Adrian Schröter, Cathrin Weiss, Rahul Premraj, and Thomas Zimmermann:
 "What Makes a Good Bug Report?".
-<em>Proc. SIGSOFT'08</em>, <a href="https://doi.org/10.1145/1453101.1453146">10.1145/1453101.1453146</a>.
+<em>Proc. SIGSOFT'08</em>, <a class="doi" href="https://doi.org/10.1145/1453101.1453146">10.1145/1453101.1453146</a>.
 </dd>
 <dt id="bielaczyc1995" class="bibliography">Bielaczyc1995</dt>
 <dd>
 Katerine Bielaczyc, Peter L. Pirolli, and Ann L. Brown:
 "Training in Self-Explanation and Self-Regulation Strategies: Investigating the Effects of Knowledge Acquisition Activities on Problem Solving".
-<em>Cognition and Instruction</em>, 13(2), 1995, <a href="https://doi.org/10.1207/s1532690xci1302_3">10.1207/s1532690xci1302_3</a>.
+<em>Cognition and Instruction</em>, 13(2), 1995, <a class="doi" href="https://doi.org/10.1207/s1532690xci1302_3">10.1207/s1532690xci1302_3</a>.
 </dd>
 <dt id="binkley2012" class="bibliography">Binkley2012</dt>
 <dd>
 Dave Binkley, Marcia Davis, Dawn Lawrie, Jonathan I. Maletic, Christopher Morrell, and Bonita Sharif:
 "The Impact of Identifier Style on Effort and Comprehension".
-<em>ESE</em>, 18(2), 2012, <a href="https://doi.org/10.1007/s10664-012-9201-4">10.1007/s10664-012-9201-4</a>.
+<em>ESE</em>, 18(2), 2012, <a class="doi" href="https://doi.org/10.1007/s10664-012-9201-4">10.1007/s10664-012-9201-4</a>.
 </dd>
 <dt id="bird2011" class="bibliography">Bird2011</dt>
 <dd>
 Christian Bird, Nachiappan Nagappan, Brendan Murphy, Harald Gall, and Premkumar Devanbu:
 "Don't Touch My Code! Examining the Effects of Ownership on Software Quality".
-<em>Proc. FSE'11</em>, <a href="https://doi.org/10.1145/2025113.2025119">10.1145/2025113.2025119</a>.
+<em>Proc. FSE'11</em>, <a class="doi" href="https://doi.org/10.1145/2025113.2025119">10.1145/2025113.2025119</a>.
 </dd>
 <dt id="boehm1981" class="bibliography">Boehm1981</dt>
 <dd>
@@ -193,7 +193,7 @@ Prentice-Hall, 1981, 978-0138221225.
 <dd>
 Mark Bohay, Daniel P. Blakely, Andrea K. Tamplin, and Gabriel A. Radvansky:
 "Note Taking, Review, Memory, and Comprehension".
-<em>American Journal of Psychology</em>, 124(1), 2011, <a href="https://doi.org/10.5406/amerjpsyc.124.1.0063">10.5406/amerjpsyc.124.1.0063</a>.
+<em>American Journal of Psychology</em>, 124(1), 2011, <a class="doi" href="https://doi.org/10.5406/amerjpsyc.124.1.0063">10.5406/amerjpsyc.124.1.0063</a>.
 </dd>
 <dt id="bollier2014" class="bibliography">Bollier2014</dt>
 <dd>
@@ -205,7 +205,7 @@ New Society Publishers, 2014, 978-0865717688.
 <dd>
 Jelmer P. Borst, Niels A. Taatgen, and Hedderik van Rijn:
 "What Makes Interruptions Disruptive?".
-<em>Proc. CHI'15</em>, <a href="https://doi.org/10.1145/2702123.2702156">10.1145/2702123.2702156</a>.
+<em>Proc. CHI'15</em>, <a class="doi" href="https://doi.org/10.1145/2702123.2702156">10.1145/2702123.2702156</a>.
 </dd>
 <dt id="brand1995" class="bibliography">Brand1995</dt>
 <dd>
@@ -223,7 +223,7 @@ Jossey-Bass, 2016, 978-1119049715.
 <dd>
 Jere E. Brophy:
 "Research on the Self-Fulfilling Prophecy and Teacher Expectations".
-<em>Journal of Educational Psychology</em>, 75(5), 1983, <a href="https://doi.org/10.1037/0022-0663.75.5.631">10.1037/0022-0663.75.5.631</a>.
+<em>Journal of Educational Psychology</em>, 75(5), 1983, <a class="doi" href="https://doi.org/10.1037/0022-0663.75.5.631">10.1037/0022-0663.75.5.631</a>.
 </dd>
 <dt id="brown2007" class="bibliography">Brown2007</dt>
 <dd>
@@ -253,7 +253,7 @@ Lulu, 2016, 978-1329871274.
 <dd>
 Neil C. C. Brown and Amjad Altadmri:
 "Novice Java Programming Mistakes".
-<em>TCE</em>, 17(2), 2017, <a href="https://doi.org/10.1145/2994154">10.1145/2994154</a>.
+<em>TCE</em>, 17(2), 2017, <a class="doi" href="https://doi.org/10.1145/2994154">10.1145/2994154</a>.
 </dd>
 <dt id="buenodemesquita2012" class="bibliography">BuenoDeMesquita2012</dt>
 <dd>
@@ -265,7 +265,7 @@ PublicAffairs, 2012, 978-1610391849.
 <dd>
 Beleicia B. Bullock, Fernando L. Nascimento, and Stacy A. Doore:
 "Computing Ethics Narratives: Teaching Computing Ethics and the Impact of Predictive Algorithms".
-<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432468">10.1145/3408877.3432468</a>.
+<em>Proc. ICSE'21</em>, <a class="doi" href="https://doi.org/10.1145/3408877.3432468">10.1145/3408877.3432468</a>.
 </dd>
 <dt id="butterworth2011" class="bibliography">Butterworth2011</dt>
 <dd>
@@ -283,7 +283,7 @@ Packt, 2020, 978-1839214110.
 <dd>
 Marcelo Cataldo, James D. Herbsleb, and Kathleen M. Carley:
 "Socio-technical Congruence: A Framework for Assessing the Impact of Technical and Work Dependencies on Software Development Productivity".
-<em>ESEM'08</em>, <a href="https://doi.org/10.1145/1414004.1414008">10.1145/1414004.1414008</a>.
+<em>ESEM'08</em>, <a class="doi" href="https://doi.org/10.1145/1414004.1414008">10.1145/1414004.1414008</a>.
 </dd>
 <dt id="caulfield2016" class="bibliography">Caulfield2016</dt>
 <dd>
@@ -300,25 +300,25 @@ Apress, 2014, 978-1484200773.
 <dd>
 Souti Chattopadhyay, Nicholas Nelson, Audrey Au, Natalia Morales, Christopher Sanchez, Rahul Pandita, and Anita Sarma:
 "A Tale From the Trenches: Cognitive Biases and Software Development".
-<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380330">10.1145/3377811.3380330</a>.
+<em>Proc. ICSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3377811.3380330">10.1145/3377811.3380330</a>.
 </dd>
 <dt id="cherubini2007" class="bibliography">Cherubini2007</dt>
 <dd>
 Mauro Cherubini, Gina Venolia, Rob DeLine, and Amy J. Ko:
 "Let's Go to the Whiteboard: How and Why Software Developers Use Drawings".
-<em>Proc. CHI'07</em>, <a href="https://doi.org/10.1145/1240624.1240714">10.1145/1240624.1240714</a>.
+<em>Proc. CHI'07</em>, <a class="doi" href="https://doi.org/10.1145/1240624.1240714">10.1145/1240624.1240714</a>.
 </dd>
 <dt id="cheryan2009" class="bibliography">Cheryan2009</dt>
 <dd>
 Sapna Cheryan, Victoria C. Plaut, Paul G. Davies, and Claude M. Steele:
 "Ambient Belonging: How Stereotypical Cues Impact Gender Participation in Computer Science".
-<em>Journal of Personality and Social Psychology</em>, 97(6), 2009, <a href="https://doi.org/10.1037/a0016239">10.1037/a0016239</a>.
+<em>Journal of Personality and Social Psychology</em>, 97(6), 2009, <a class="doi" href="https://doi.org/10.1037/a0016239">10.1037/a0016239</a>.
 </dd>
 <dt id="chi1989" class="bibliography">Chi1989</dt>
 <dd>
 Michelene T. H. Chi, Miriam Bassok, Matthew W. Lewis, Peter Reimann, and Robert Glaser:
 "Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems".
-<em>Cognitive Science</em>, 13(2), 1989, <a href="https://doi.org/10.1207/s15516709cog1302_1">10.1207/s15516709cog1302_1</a>.
+<em>Cognitive Science</em>, 13(2), 1989, <a class="doi" href="https://doi.org/10.1207/s15516709cog1302_1">10.1207/s15516709cog1302_1</a>.
 </dd>
 <dt id="cohen2010" class="bibliography">Cohen2010</dt>
 <dd>
@@ -333,7 +333,7 @@ O'Reilly, 2010, 978-0596808327.
 <dd>
 Lena Cohen, Heila Precel, Harold Triedman, and Kathi Fisler:
 "A New Model for Weaving Responsible Computing Into Courses Across the CS Curriculum".
-<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432456">10.1145/3408877.3432456</a>.
+<em>Proc. ICSE'21</em>, <a class="doi" href="https://doi.org/10.1145/3408877.3432456">10.1145/3408877.3432456</a>.
 </dd>
 <dt id="conway1968" class="bibliography">Conway1968</dt>
 <dd>
@@ -380,13 +380,13 @@ Academic Press, 2015, 978-0128015377.
 <dd>
 Francisco Gomes de Oliveira Neto, Richard Torkar, Robert Feldt, Lucas Gren, Carlo A. Furia, and Ziwei Huang:
 "Evolution of Statistical Analysis in Empirical Software Engineering Research: Current State and Steps Forward".
-<em>JSS</em>, 156, 2019, <a href="https://doi.org/10.1016/j.jss.2019.07.002">10.1016/j.jss.2019.07.002</a>.
+<em>JSS</em>, 156, 2019, <a class="doi" href="https://doi.org/10.1016/j.jss.2019.07.002">10.1016/j.jss.2019.07.002</a>.
 </dd>
 <dt id="dibella2013" class="bibliography">DiBella2013</dt>
 <dd>
 Enrico di Bella, Ilenia Fronza, Nattakarn Phaphoom, Alberto Sillitti, Giancarlo Succi, and Jelena Vlasenko:
 "Pair Programming and Software Defects: A Large, Industrial Case Study".
-<em>TSE</em>, 39(7), 2013, <a href="https://doi.org/10.1109/TSE.2012.68">10.1109/TSE.2012.68</a>.
+<em>TSE</em>, 39(7), 2013, <a class="doi" href="https://doi.org/10.1109/TSE.2012.68">10.1109/TSE.2012.68</a>.
 </dd>
 <dt id="didau2016" class="bibliography">Didau2016</dt>
 <dd>
@@ -398,7 +398,7 @@ John Catt Educational, 2016, 978-1909717855.
 <dd>
 Frank Dobbin and Alexandra Kalev:
 "<a href="https://www.pnas.org/content/116/25/12255.abstract">The Promise and Peril of Sexual Harassment Programs</a>".
-<em>PNAS</em>, 116(25), 2019, <a href="https://doi.org/10.1073/pnas.1818477116">10.1073/pnas.1818477116</a>.
+<em>PNAS</em>, 116(25), 2019, <a class="doi" href="https://doi.org/10.1073/pnas.1818477116">10.1073/pnas.1818477116</a>.
 </dd>
 <dt id="dobbin2020" class="bibliography">Dobbin2020</dt>
 <dd>
@@ -409,25 +409,25 @@ Frank Dobbin and Alexandra Kalev:
 <dd>
 Deborah A. Donovan, Georgianne L. Connell, and Daniel Z. Grunspan:
 "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class".
-<em>CBE---Life Sciences Education</em>, 17(4), 2018, <a href="https://doi.org/10.1187/cbe.17-12-0283">10.1187/cbe.17-12-0283</a>.
+<em>CBE---Life Sciences Education</em>, 17(4), 2018, <a class="doi" href="https://doi.org/10.1187/cbe.17-12-0283">10.1187/cbe.17-12-0283</a>.
 </dd>
 <dt id="edwards2009" class="bibliography">Edwards2009</dt>
 <dd>
 Stephen H. Edwards, Jason Snyder, Manuel A. Pérez-Quiñones, Anthony Allevato, Dongkwan Kim, and Betsy Tretola:
 "Comparing Effective and Ineffective Behaviors of Student Programmers".
-<em>Proc. ICER'09</em>, <a href="https://doi.org/10.1145/1584322.1584325">10.1145/1584322.1584325</a>.
+<em>Proc. ICER'09</em>, <a class="doi" href="https://doi.org/10.1145/1584322.1584325">10.1145/1584322.1584325</a>.
 </dd>
 <dt id="eichberg2015" class="bibliography">Eichberg2015</dt>
 <dd>
 Michael Eichberg, Ben Hermann, Mira Mezini, and Leonid Glanz:
 "Hidden Truths in Dead Software Paths".
-<em>Proc. FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786865">10.1145/2786805.2786865</a>.
+<em>Proc. FSE'15</em>, <a class="doi" href="https://doi.org/10.1145/2786805.2786865">10.1145/2786805.2786865</a>.
 </dd>
 <dt id="elemam2001" class="bibliography">ElEmam2001</dt>
 <dd>
 Khaled El Emam, Saïda Benlarbi, Nishith Goel, and Shesh N. Rai:
 "The Confounding Effect of Class Size on the Validity of Object-Oriented Metrics".
-<em>TSE</em>, 27(7), 2001, <a href="https://doi.org/10.1109/32.935855">10.1109/32.935855</a>.
+<em>TSE</em>, 27(7), 2001, <a class="doi" href="https://doi.org/10.1109/32.935855">10.1109/32.935855</a>.
 </dd>
 <dt id="eley1995" class="bibliography">Eley1995</dt>
 <dd>
@@ -439,7 +439,7 @@ Penguin, 1995, 978-0140169126.
 <dd>
 Stefan Endrikat, Stefan Hanenberg, Romain Robbes, and Andreas Stefik:
 "How Do API Documentation and Static Typing Affect API Usability?".
-<em>Proc. ICSE'14</em>, <a href="https://doi.org/10.1145/2568225.2568299">10.1145/2568225.2568299</a>.
+<em>Proc. ICSE'14</em>, <a class="doi" href="https://doi.org/10.1145/2568225.2568299">10.1145/2568225.2568299</a>.
 </dd>
 <dt id="ensmenger2012" class="bibliography">Ensmenger2012</dt>
 <dd>
@@ -451,7 +451,7 @@ MIT Press, 2012, 978-0262517966.
 <dd>
 Hakan Erdogmus, Maurizio Morisio, and Marco Torchiano:
 "On the Effectiveness of Test-First Approach to Programming".
-<em>TSE</em>, 31(3), 2005, <a href="https://doi.org/10.1109/TSE.2005.37">10.1109/TSE.2005.37</a>.
+<em>TSE</em>, 31(3), 2005, <a class="doi" href="https://doi.org/10.1109/TSE.2005.37">10.1109/TSE.2005.37</a>.
 </dd>
 <dt id="eubanks2019" class="bibliography">Eubanks2019</dt>
 <dd>
@@ -463,19 +463,19 @@ Picador, 2019, 978-1250215789.
 <dd>
 Fabian Fagerholm, Marco Kuhrmann, and Jürgen Münch:
 "Guidelines for Using Empirical Studies in Software Engineering Education".
-<em>PeerJ Computer Science</em>, 3, 2017, <a href="https://doi.org/10.7717/peerj-cs.131">10.7717/peerj-cs.131</a>.
+<em>PeerJ Computer Science</em>, 3, 2017, <a class="doi" href="https://doi.org/10.7717/peerj-cs.131">10.7717/peerj-cs.131</a>.
 </dd>
 <dt id="farland2019" class="bibliography">Farland2019</dt>
 <dd>
 Michelle Z. Farland, Xiaoying Feng, Linda S. Behar-Horenstein, and Diane E. Beck:
 "Impact of Team Formation Method on Student Team Performance Across Multiple Courses Incorporating Team-based Learning".
-<em>American Journal of Pharmaceutical Education</em>, 83(6), 2019, <a href="https://doi.org/10.5688/ajpe7030">10.5688/ajpe7030</a>.
+<em>American Journal of Pharmaceutical Education</em>, 83(6), 2019, <a class="doi" href="https://doi.org/10.5688/ajpe7030">10.5688/ajpe7030</a>.
 </dd>
 <dt id="farmer2006" class="bibliography">Farmer2006</dt>
 <dd>
 Eugene Farmer:
 "The Gatekeeper's Guide,  or How to Kill a Tool".
-<em>IEEE Software</em>, 23(6), 2006, <a href="https://doi.org/10.1109/ms.2006.174">10.1109/ms.2006.174</a>.
+<em>IEEE Software</em>, 23(6), 2006, <a class="doi" href="https://doi.org/10.1109/ms.2006.174">10.1109/ms.2006.174</a>.
 </dd>
 <dt id="feathers2004" class="bibliography">Feathers2004</dt>
 <dd>
@@ -487,7 +487,7 @@ Prentice-Hall, 2004, 978-0131177055.
 <dd>
 Rodrigo Ferreira and Moshe Y. Vardi:
 "Deep Tech Ethics: An Approach to Teaching Social Justice in Computer Science".
-<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432449">10.1145/3408877.3432449</a>.
+<em>Proc. ICSE'21</em>, <a class="doi" href="https://doi.org/10.1145/3408877.3432449">10.1145/3408877.3432449</a>.
 </dd>
 <dt id="fincher2001" class="bibliography">Fincher2001</dt>
 <dd>
@@ -499,13 +499,13 @@ Springer, 2001, 978-1852333577.
 <dd>
 Lars Fischer and Stefan Hanenberg:
 "An Empirical Investigation of the Effects of Type Systems and Code Completion on API Usability Using TypeScript and JavaScript in MS Visual Studio".
-<em>Proc. DLS'15</em>, <a href="https://doi.org/10.1145/2816707.2816720">10.1145/2816707.2816720</a>.
+<em>Proc. DLS'15</em>, <a class="doi" href="https://doi.org/10.1145/2816707.2816720">10.1145/2816707.2816720</a>.
 </dd>
 <dt id="floyd2017" class="bibliography">Floyd2017</dt>
 <dd>
 Benjamin Floyd, Tyler Santander, and Westley Weimer:
 "Decoding the Representation of Code in the Brain: An fMRI Study of Code Review and Expertise".
-<em>Proc. ICSE'17</em>, <a href="https://doi.org/10.1109/ICSE.2017.24">10.1109/ICSE.2017.24</a>.
+<em>Proc. ICSE'17</em>, <a class="doi" href="https://doi.org/10.1109/ICSE.2017.24">10.1109/ICSE.2017.24</a>.
 </dd>
 <dt id="fogel2005" class="bibliography">Fogel2005</dt>
 <dd>
@@ -522,7 +522,7 @@ Karl Fogel:
 <dd>
 Denae Ford, Justin Smith, Philip J. Guo, and Chris Parnin:
 "Paradise Unplugged: Identifying Barriers for Female Participation on Stack Overflow".
-<em>Proc. FSE'16</em>, <a href="https://doi.org/10.1145/2950290.2950331">10.1145/2950290.2950331</a>.
+<em>Proc. FSE'16</em>, <a class="doi" href="https://doi.org/10.1145/2950290.2950331">10.1145/2950290.2950331</a>.
 </dd>
 <dt id="forsgren2018" class="bibliography">Forsgren2018</dt>
 <dd>
@@ -534,7 +534,7 @@ IT Revolution Press, 2018, 978-1942788331.
 <dd>
 Nicole Forsgren, Margaret-Anne Storey, Chandra Maddila, Thomas Zimmermann, Brian Houck, and Jenna Butler:
 "The SPACE of Developer Productivity".
-<em>ACM Queue</em>, 19(1), 2021, <a href="https://doi.org/10.1145/3454122.3454124">10.1145/3454122.3454124</a>.
+<em>ACM Queue</em>, 19(1), 2021, <a class="doi" href="https://doi.org/10.1145/3454122.3454124">10.1145/3454122.3454124</a>.
 </dd>
 <dt id="fowler2018" class="bibliography">Fowler2018</dt>
 <dd>
@@ -564,37 +564,37 @@ Verso, 2016, 978-1781688137.
 <dd>
 Jo Freeman:
 "The Tyranny of Structurelessness".
-<em>The Second Wave</em>, 2(1), 1972, <a href="https://doi.org/10.1353/wsq.2013.0072">10.1353/wsq.2013.0072</a>.
+<em>The Second Wave</em>, 2(1), 1972, <a class="doi" href="https://doi.org/10.1353/wsq.2013.0072">10.1353/wsq.2013.0072</a>.
 </dd>
 <dt id="fucci2016" class="bibliography">Fucci2016</dt>
 <dd>
 Davide Fucci, Giuseppe Scanniello, Simone Romano, Martin Shepperd, Boyce Sigweni, Fernando Uyaguari, Burak Turhan, Natalia Juristo, and Markku Oivo:
 "An External Replication on the Effects of Test-driven Development Using a Multi-site Blind Analysis Approach".
-<em>Proc. ESEM'16</em>, <a href="https://doi.org/10.1145/2961111.2962592">10.1145/2961111.2962592</a>.
+<em>Proc. ESEM'16</em>, <a class="doi" href="https://doi.org/10.1145/2961111.2962592">10.1145/2961111.2962592</a>.
 </dd>
 <dt id="fucci2017" class="bibliography">Fucci2017</dt>
 <dd>
 Davide Fucci, Hakan Erdogmus, Burak Turhan, Markku Oivo, and Natalia Juristo:
 "A Dissection of the Test-Driven Development Process: Does It Really Matter to Test-First or to Test-Last?".
-<em>TSE</em>, 43(7), 2017, <a href="https://doi.org/10.1109/tse.2016.2616877">10.1109/tse.2016.2616877</a>.
+<em>TSE</em>, 43(7), 2017, <a class="doi" href="https://doi.org/10.1109/tse.2016.2616877">10.1109/tse.2016.2616877</a>.
 </dd>
 <dt id="fucci2020" class="bibliography">Fucci2020</dt>
 <dd>
 Davide Fucci, Giuseppe Scanniello, Simone Romano, and Natalia Juristo:
 "Need for Sleep: The Impact of a Night of Sleep Deprivation on Novice Developers' Performance".
-<em>TSE</em>, 46(1), 2020, <a href="https://doi.org/10.1109/tse.2018.2834900">10.1109/tse.2018.2834900</a>.
+<em>TSE</em>, 46(1), 2020, <a class="doi" href="https://doi.org/10.1109/tse.2018.2834900">10.1109/tse.2018.2834900</a>.
 </dd>
 <dt id="gao2017" class="bibliography">Gao2017</dt>
 <dd>
 Zheng Gao, Christian Bird, and Earl T. Barr:
 "To Type or Not to Type: Quantifying Detectable Bugs in JavaScript".
-<em>ICSE'17</em>, <a href="https://doi.org/10.1109/ICSE.2017.75">10.1109/ICSE.2017.75</a>.
+<em>ICSE'17</em>, <a class="doi" href="https://doi.org/10.1109/ICSE.2017.75">10.1109/ICSE.2017.75</a>.
 </dd>
 <dt id="gaucher2011" class="bibliography">Gaucher2011</dt>
 <dd>
 Danielle Gaucher, Justin Friesen, and Aaron C. Kay:
 "Evidence that Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality".
-<em>Journal of Personality and Social Psychology</em>, 101(1), 2011, <a href="https://doi.org/10.1037/a0022530">10.1037/a0022530</a>.
+<em>Journal of Personality and Social Psychology</em>, 101(1), 2011, <a class="doi" href="https://doi.org/10.1037/a0022530">10.1037/a0022530</a>.
 </dd>
 <dt id="gawande2011" class="bibliography">Gawande2011</dt>
 <dd>
@@ -624,13 +624,13 @@ Addison-Wesley Professional, 2002, 978-0321117427.
 <dd>
 Kirk Glerum, Kinshuman Kinshumann, Steve Greenberg, Gabriel Aul, Vince Orgovan, Greg Nichols, David Grant, Gretchen Loihle, and Galen Hunt:
 "Debugging in the (Very) Large: Ten Years of Implementation and Experience".
-<em>Proc. SOSP'09</em>, <a href="https://doi.org/10.1145/1629575.1629586">10.1145/1629575.1629586</a>.
+<em>Proc. SOSP'09</em>, <a class="doi" href="https://doi.org/10.1145/1629575.1629586">10.1145/1629575.1629586</a>.
 </dd>
 <dt id="gordon2021" class="bibliography">Gordon2021</dt>
 <dd>
 Nikolas Gordon and Omar Alam:
 "The Role of Race and Gender in Teaching Evaluation of Computer Science Professors: A Large Scale Analysis on RateMyProfessor Data".
-<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432369">10.1145/3408877.3432369</a>.
+<em>Proc. ICSE'21</em>, <a class="doi" href="https://doi.org/10.1145/3408877.3432369">10.1145/3408877.3432369</a>.
 </dd>
 <dt id="graeber2019" class="bibliography">Graeber2019</dt>
 <dd>
@@ -642,7 +642,7 @@ Simon & Schuster, 2019, 978-1501143335.
 <dd>
 Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson:
 "Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering".
-<em>PeerJ</em>, 2, 2014, <a href="https://doi.org/10.7717/peerj.289">10.7717/peerj.289</a>.
+<em>PeerJ</em>, 2, 2014, <a class="doi" href="https://doi.org/10.7717/peerj.289">10.7717/peerj.289</a>.
 </dd>
 <dt id="gruenert2015" class="bibliography">Gruenert2015</dt>
 <dd>
@@ -654,19 +654,19 @@ ASCD, 2015, 978-1416619901.
 <dd>
 Stefan Hanenberg, Sebastian Kleinschmager, Romain Robbes, Éric Tanter, and Andreas Stefik:
 "An Empirical Study on the Impact of Static Typing on Software Maintainability".
-<em>ESE</em>, 19(5), 2013, <a href="https://doi.org/10.1007/s10664-013-9289-1">10.1007/s10664-013-9289-1</a>.
+<em>ESE</em>, 19(5), 2013, <a class="doi" href="https://doi.org/10.1007/s10664-013-9289-1">10.1007/s10664-013-9289-1</a>.
 </dd>
 <dt id="hannay2009" class="bibliography">Hannay2009</dt>
 <dd>
 Jo E. Hannay, Tore Dybå, Erik Arisholm, and Dag I.K. Sjøberg:
 "The Effectiveness of Pair Programming: A Meta-Analysis".
-<em>Information and Software Technology</em>, 51(7), 2009, <a href="https://doi.org/10.1016/j.infsof.2009.02.001">10.1016/j.infsof.2009.02.001</a>.
+<em>Information and Software Technology</em>, 51(7), 2009, <a class="doi" href="https://doi.org/10.1016/j.infsof.2009.02.001">10.1016/j.infsof.2009.02.001</a>.
 </dd>
 <dt id="hannay2010" class="bibliography">Hannay2010</dt>
 <dd>
 J.E. Hannay, E. Arisholm, H. Engvik, and D.I.K. Sjoberg:
 "Effects of Personality on Pair Programming".
-<em>TSE</em>, 36(1), 2010, <a href="https://doi.org/10.1109/tse.2009.41">10.1109/tse.2009.41</a>.
+<em>TSE</em>, 36(1), 2010, <a class="doi" href="https://doi.org/10.1109/tse.2009.41">10.1109/tse.2009.41</a>.
 </dd>
 <dt id="hansen2013" class="bibliography">Hansen2013</dt>
 <dd>
@@ -682,7 +682,7 @@ Karen Hao:
 <dd>
 Les Hatton:
 "Testing the Value of Checklists in Code Inspections".
-<em>IEEE Software</em>, 25(4), 2008, <a href="https://doi.org/10.1109/ms.2008.100">10.1109/ms.2008.100</a>.
+<em>IEEE Software</em>, 25(4), 2008, <a class="doi" href="https://doi.org/10.1109/ms.2008.100">10.1109/ms.2008.100</a>.
 </dd>
 <dt id="hecht2004" class="bibliography">Hecht2004</dt>
 <dd>
@@ -694,13 +694,13 @@ HarperOne, 2004, 978-0060097950.
 <dd>
 Joseph Henrich, Steven J. Heine, and Ara Norenzayan:
 "The Weirdest People in the World?".
-<em>Behavioral and Brain Sciences</em>, 33(2-3), 2010, <a href="https://doi.org/10.1017/s0140525x0999152x">10.1017/s0140525x0999152x</a>.
+<em>Behavioral and Brain Sciences</em>, 33(2-3), 2010, <a class="doi" href="https://doi.org/10.1017/s0140525x0999152x">10.1017/s0140525x0999152x</a>.
 </dd>
 <dt id="hermans2016" class="bibliography">Hermans2016</dt>
 <dd>
 Felienne Hermans, Bas Jansen, Sohon Roy, Efthimia Aivaloglou, Alaaeddin Swidan, and David Hoepelman:
 "Spreadsheets are Code: An Overview of Software Engineering Approaches Applied to Spreadsheets".
-<em>Proc. SANER'16</em>, <a href="https://doi.org/10.1109/saner.2016.86">10.1109/saner.2016.86</a>.
+<em>Proc. SANER'16</em>, <a class="doi" href="https://doi.org/10.1109/saner.2016.86">10.1109/saner.2016.86</a>.
 </dd>
 <dt id="herzig2013" class="bibliography">Herzig2013</dt>
 <dd>
@@ -718,13 +718,13 @@ MIT Press, 2018, 978-0262535182.
 <dd>
 Claudia Hilderbrand, Christopher Perdriau, Lara Letaw, Jillian Emard, Zoe Steine-Hanson, Margaret Burnett, and Anita Sarma:
 "Engineering Gender-Inclusivity into Software: Tales from the Trenches".
-<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380371">10.1145/3377811.3380371</a>.
+<em>Proc. ICSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3377811.3380371">10.1145/3377811.3380371</a>.
 </dd>
 <dt id="hilton2016" class="bibliography">Hilton2016</dt>
 <dd>
 Michael Hilton, Timothy Tunnell, Kai Huang, Darko Marinov, and Danny Dig:
 "Usage, Costs, and Benefits of Continuous Integration in Open-Source Projects".
-<em>Proc. ASE'16</em>, <a href="https://doi.org/10.1145/2970276.2970358">10.1145/2970276.2970358</a>.
+<em>Proc. ASE'16</em>, <a class="doi" href="https://doi.org/10.1145/2970276.2970358">10.1145/2970276.2970358</a>.
 </dd>
 <dt id="hippel2006" class="bibliography">Hippel2006</dt>
 <dd>
@@ -742,31 +742,31 @@ Mariner Books, 2006, 978-0618619078.
 <dd>
 Johannes Hofmeister, Janet Siegmund, and Daniel V. Holt:
 "Shorter Identifier Names Take Longer to Comprehend".
-<em>Proc. SANER'17</em>, <a href="https://doi.org/10.1109/saner.2017.7884623">10.1109/saner.2017.7884623</a>.
+<em>Proc. SANER'17</em>, <a class="doi" href="https://doi.org/10.1109/saner.2017.7884623">10.1109/saner.2017.7884623</a>.
 </dd>
 <dt id="hofstra2020" class="bibliography">Hofstra2020</dt>
 <dd>
 Bas Hofstra, Vivek V. Kulkarni, Sebastian Munoz-Najar Galvez, Bryan He, Dan Jurafsky, and Daniel A. McFarland:
 "The Diversity-Innovation Paradox in Science".
-<em>PNAS</em>, 117(17), 2020, <a href="https://doi.org/10.1073/pnas.1915378117">10.1073/pnas.1915378117</a>.
+<em>PNAS</em>, 117(17), 2020, <a class="doi" href="https://doi.org/10.1073/pnas.1915378117">10.1073/pnas.1915378117</a>.
 </dd>
 <dt id="holmes2014" class="bibliography">Holmes2014</dt>
 <dd>
 Reid Holmes, Michelle Craig, Karen Reid, and Eleni Stroulia:
 "Lessons Learned Managing Distributed Software Engineering Courses".
-<em>ICSE'14</em>, <a href="https://doi.org/10.1145/2591062.2591160">10.1145/2591062.2591160</a>.
+<em>ICSE'14</em>, <a class="doi" href="https://doi.org/10.1145/2591062.2591160">10.1145/2591062.2591160</a>.
 </dd>
 <dt id="holmes2018" class="bibliography">Holmes2018</dt>
 <dd>
 Reid Holmes, Meghan Allen, and Michelle Craig:
 "Dimensions of Experientialism for Software Engineering Education".
-<em>Proc. ICSE-SEET'18</em>, <a href="https://doi.org/10.1145/3183377.3183380">10.1145/3183377.3183380</a>.
+<em>Proc. ICSE-SEET'18</em>, <a class="doi" href="https://doi.org/10.1145/3183377.3183380">10.1145/3183377.3183380</a>.
 </dd>
 <dt id="hsing2019" class="bibliography">Hsing2019</dt>
 <dd>
 Courtney Hsing and Vanessa Gennarelli:
 "Using GitHub in the Classroom Predicts Student Learning Outcomes and Classroom Experiences".
-<em>Proc. SIGCSE'19</em>, <a href="https://doi.org/10.1145/3287324.3287460">10.1145/3287324.3287460</a>.
+<em>Proc. SIGCSE'19</em>, <a class="doi" href="https://doi.org/10.1145/3287324.3287460">10.1145/3287324.3287460</a>.
 </dd>
 <dt id="hu2019" class="bibliography">Hu2019</dt>
 <dd>
@@ -778,7 +778,7 @@ Yang Hu, Umair Z. Ahmed, Sergey Mechtaev, Ben Leong, and Abhik Roychoudhury:
 <dd>
 Hennie Huijgens, Ayushi Rastogi, Ernst Mulders, Georgios Gousios, and Arie van Deursen:
 "Questions for Data Scientists in Software Engineering: A Replication".
-<em>ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409717">10.1145/3368089.3409717</a>.
+<em>ESEC/FSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3368089.3409717">10.1145/3368089.3409717</a>.
 </dd>
 <dt id="hunt1999" class="bibliography">Hunt1999</dt>
 <dd>
@@ -825,19 +825,19 @@ Morgan Kaufmann, 2020, 978-0128182024.
 <dd>
 Slava Kalyuga, Paul Ayres, Paul Chandler, and John Sweller:
 "The Expertise Reversal Effect".
-<em>Educational Psychologist</em>, 38(1), 2003, <a href="https://doi.org/10.1207/s15326985ep3801_4">10.1207/s15326985ep3801_4</a>.
+<em>Educational Psychologist</em>, 38(1), 2003, <a class="doi" href="https://doi.org/10.1207/s15326985ep3801_4">10.1207/s15326985ep3801_4</a>.
 </dd>
 <dt id="kang2016" class="bibliography">Kang2016</dt>
 <dd>
 Sean H. K. Kang:
 "Spaced Repetition Promotes Efficient and Effective Learning".
-<em>Policy Insights from the Behavioral and Brain Sciences</em>, 3(1), 2016, <a href="https://doi.org/10.1177/2372732215624708">10.1177/2372732215624708</a>.
+<em>Policy Insights from the Behavioral and Brain Sciences</em>, 3(1), 2016, <a class="doi" href="https://doi.org/10.1177/2372732215624708">10.1177/2372732215624708</a>.
 </dd>
 <dt id="kapser2008" class="bibliography">Kapser2008</dt>
 <dd>
 Cory J. Kapser and Michael W. Godfrey:
 "'Cloning Considered Harmful' Considered Harmful: Patterns of Cloning in Software".
-<em>ESE</em>, 13(6), 2008, <a href="https://doi.org/10.1007/s10664-008-9076-6">10.1007/s10664-008-9076-6</a>.
+<em>ESE</em>, 13(6), 2008, <a class="doi" href="https://doi.org/10.1007/s10664-008-9076-6">10.1007/s10664-008-9076-6</a>.
 </dd>
 <dt id="karabel2006" class="bibliography">Karabel2006</dt>
 <dd>
@@ -849,13 +849,13 @@ Mariner Books, 2006, 978-0618773558.
 <dd>
 Deborah B. Kaufman and Richard M. Felder:
 "Accounting for Individual Effort in Cooperative Learning Teams".
-<em>Engineering Education</em>, 89(2), 2000, <a href="https://doi.org/10.1002/j.2168-9830.2000.tb00507.x">10.1002/j.2168-9830.2000.tb00507.x</a>.
+<em>Engineering Education</em>, 89(2), 2000, <a class="doi" href="https://doi.org/10.1002/j.2168-9830.2000.tb00507.x">10.1002/j.2168-9830.2000.tb00507.x</a>.
 </dd>
 <dt id="kemerer2009" class="bibliography">Kemerer2009</dt>
 <dd>
 Chris F. Kemerer and Mark C. Paulk:
 "The Impact of Design and Code Reviews on Software Quality: An Empirical Study Based on PSP Data".
-<em>TSE</em>, 35(4), 2009, <a href="https://doi.org/10.1109/tse.2009.27">10.1109/tse.2009.27</a>.
+<em>TSE</em>, 35(4), 2009, <a class="doi" href="https://doi.org/10.1109/tse.2009.27">10.1109/tse.2009.27</a>.
 </dd>
 <dt id="kendzior2018" class="bibliography">Kendzior2018</dt>
 <dd>
@@ -903,37 +903,37 @@ Addison-Wesley, 1999, 978-8177582482.
 <dd>
 Foutse Khomh, Tejinder Dhaliwal, Ying Zou, and Bram Adams:
 "Do Faster Releases Improve Software Quality? An Empirical Case Study of Mozilla Firefox".
-<em>Proc. MSR'12</em>, <a href="https://doi.org/10.1109/msr.2012.6224279">10.1109/msr.2012.6224279</a>.
+<em>Proc. MSR'12</em>, <a class="doi" href="https://doi.org/10.1109/msr.2012.6224279">10.1109/msr.2012.6224279</a>.
 </dd>
 <dt id="kirschner2006" class="bibliography">Kirschner2006</dt>
 <dd>
 Paul A. Kirschner, John Sweller, and Richard E. Clark:
 "Why Minimal Guidance During Instruction does not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching".
-<em>Educational Psychologist</em>, 41(2), 2006, <a href="https://doi.org/10.1207/s15326985ep4102_1">10.1207/s15326985ep4102_1</a>.
+<em>Educational Psychologist</em>, 41(2), 2006, <a class="doi" href="https://doi.org/10.1207/s15326985ep4102_1">10.1207/s15326985ep4102_1</a>.
 </dd>
 <dt id="kirschner2018" class="bibliography">Kirschner2018</dt>
 <dd>
 Paul A. Kirschner, John Sweller, Femke Kirschner, and Jimmy Zambrano R.:
 "From Cognitive Load Theory to Collaborative Cognitive Load Theory".
-<em>International Journal of Computer-Supported Collaborative Learning</em>, 13, 2018, <a href="https://doi.org/10.1007/s11412-018-9277-y">10.1007/s11412-018-9277-y</a>.
+<em>International Journal of Computer-Supported Collaborative Learning</em>, 13, 2018, <a class="doi" href="https://doi.org/10.1007/s11412-018-9277-y">10.1007/s11412-018-9277-y</a>.
 </dd>
 <dt id="krein2016" class="bibliography">Krein2016</dt>
 <dd>
 Jonathan L. Krein, Lutz Prechelt, Natalia Juristo, Aziz Nanthaamornphong, Jeffrey C. Carver, Sira Vegas, Charles D. Knutson, Kevin D. Seppi, and Dennis L. Eggett:
 "A Multi-Site Joint Replication of a Design Patterns Experiment Using Moderator Variables to Generalize across Contexts".
-<em>TSE</em>, 42(4), 2016, <a href="https://doi.org/10.1109/tse.2015.2488625">10.1109/tse.2015.2488625</a>.
+<em>TSE</em>, 42(4), 2016, <a class="doi" href="https://doi.org/10.1109/tse.2015.2488625">10.1109/tse.2015.2488625</a>.
 </dd>
 <dt id="krueger2020" class="bibliography">Krueger2020</dt>
 <dd>
 Ryan Krueger, Yu Huang, Xinyu Liu, Tyler Santander, Westley Weimer, and Kevin Leach:
 "Neurological Divide: An fMRI Study of Prose and Code Writing".
-<em>Proc. ICSE'20</em>, <a href="https://doi.org/10.1145/3377811.3380348">10.1145/3377811.3380348</a>.
+<em>Proc. ICSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3377811.3380348">10.1145/3377811.3380348</a>.
 </dd>
 <dt id="kruger1999" class="bibliography">Kruger1999</dt>
 <dd>
 Justin Kruger and David Dunning:
 "Unskilled and Unaware of It: How Difficulties in Recognizing Incompetence Lead to Inflated Self-Assessment".
-<em>Personality and Social Psychology</em>, 77(6), 1999, <a href="https://doi.org/10.1037/0022-3514.77.6.1121">10.1037/0022-3514.77.6.1121</a>.
+<em>Personality and Social Psychology</em>, 77(6), 1999, <a class="doi" href="https://doi.org/10.1037/0022-3514.77.6.1121">10.1037/0022-3514.77.6.1121</a>.
 </dd>
 <dt id="kuchner2011" class="bibliography">Kuchner2011</dt>
 <dd>
@@ -945,7 +945,7 @@ Island Press, 2011, 978-1597269940.
 <dd>
 Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, and Bogdan Vasilescu:
 "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem".
-<em>Proc. ESEC/FSE'20</em>, <a href="https://doi.org/10.1145/3368089.3409705">10.1145/3368089.3409705</a>.
+<em>Proc. ESEC/FSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3368089.3409705">10.1145/3368089.3409705</a>.
 </dd>
 <dt id="lave1991" class="bibliography">Lave1991</dt>
 <dd>
@@ -963,19 +963,19 @@ Stan Lee:
 <dd>
 Claire Le Goues, Michael Pradel, and Abhik Roychoudhury:
 "Automated Program Repair".
-<em>CACM</em>, 62(12), 2019, <a href="https://doi.org/10.1145/3318162">10.1145/3318162</a>.
+<em>CACM</em>, 62(12), 2019, <a class="doi" href="https://doi.org/10.1145/3318162">10.1145/3318162</a>.
 </dd>
 <dt id="leitao2019" class="bibliography">Leitao2019</dt>
 <dd>
 Roxanne Leitão:
 "Technology-Facilitated Intimate Partner Abuse: A Qualitative Analysis of Data from Online Domestic Abuse Forums".
-<em>Human--Computer Interaction</em>, 2019, <a href="https://doi.org/10.1080/07370024.2019.1685883">10.1080/07370024.2019.1685883</a>.
+<em>Human--Computer Interaction</em>, 2019, <a class="doi" href="https://doi.org/10.1080/07370024.2019.1685883">10.1080/07370024.2019.1685883</a>.
 </dd>
 <dt id="lin2020" class="bibliography">Lin2020</dt>
 <dd>
 Sarah Lin, Ibraheem Ali, and Greg Wilson:
 "Ten Quick Tips for Making Things Findable".
-<em>PLoS Computational Biology</em>, 16(12), 2020, <a href="https://doi.org/10.1371/journal.pcbi.1008469">10.1371/journal.pcbi.1008469</a>.
+<em>PLoS Computational Biology</em>, 16(12), 2020, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1008469">10.1371/journal.pcbi.1008469</a>.
 </dd>
 <dt id="lindberg2008" class="bibliography">Lindberg2008</dt>
 <dd>
@@ -1005,19 +1005,19 @@ MIT Press, 2002, 978-0262632690.
 <dd>
 Gloria Mark, Daniela Gudith, and Ulrich Klocke:
 "The Cost of Interrupted Work: More Speed and Stress".
-<em>Proc. CHI'08</em>, <a href="https://doi.org/10.1145/1357054.1357072">10.1145/1357054.1357072</a>.
+<em>Proc. CHI'08</em>, <a class="doi" href="https://doi.org/10.1145/1357054.1357072">10.1145/1357054.1357072</a>.
 </dd>
 <dt id="masood2018" class="bibliography">Masood2018</dt>
 <dd>
 Zainab Masood, Rashina Hoda, and Kelly Blincoe:
 "Adapting Agile Practices in University Contexts".
-<em>Journal of Systems and Software</em>, 144, 2018, <a href="https://doi.org/10.1016/j.jss.2018.07.011">10.1016/j.jss.2018.07.011</a>.
+<em>Journal of Systems and Software</em>, 144, 2018, <a class="doi" href="https://doi.org/10.1016/j.jss.2018.07.011">10.1016/j.jss.2018.07.011</a>.
 </dd>
 <dt id="may2019" class="bibliography">May2019</dt>
 <dd>
 Anna May, Johannes Wachs, and Anikó Hannák:
 "Gender Differences in Participation and Reward on Stack Overflow".
-<em>ESE</em>, 24(4), 2019, <a href="https://doi.org/10.1007/s10664-019-09685-x">10.1007/s10664-019-09685-x</a>.
+<em>ESE</em>, 24(4), 2019, <a class="doi" href="https://doi.org/10.1007/s10664-019-09685-x">10.1007/s10664-019-09685-x</a>.
 </dd>
 <dt id="mayer2009" class="bibliography">Mayer2009</dt>
 <dd>
@@ -1029,7 +1029,7 @@ Cambridge University Press, 2009, 978-0521735353.
 <dd>
 Shane McIntosh, Bram Adams, Thanh H.D. Nguyen, Yasutaka Kamei, and Ahmed E. Hassan:
 "An Empirical Study of Build Maintenance Effort".
-<em>Proc. ICSE'11</em>, <a href="https://doi.org/10.1145/1985793.1985813">10.1145/1985793.1985813</a>.
+<em>Proc. ICSE'11</em>, <a class="doi" href="https://doi.org/10.1145/1985793.1985813">10.1145/1985793.1985813</a>.
 </dd>
 <dt id="mcmillancottom2018" class="bibliography">McMillanCottom2018</dt>
 <dd>
@@ -1041,19 +1041,19 @@ The New Press, 2018, 978-1620974384.
 <dd>
 Andrew Meneely, Pete Rotella, and Laurie Williams:
 "Does Adding Manpower Also Affect Quality?".
-<em>Proc. SIGSOFT'11</em>, <a href="https://doi.org/10.1145/2025113.2025128">10.1145/2025113.2025128</a>.
+<em>Proc. SIGSOFT'11</em>, <a class="doi" href="https://doi.org/10.1145/2025113.2025128">10.1145/2025113.2025128</a>.
 </dd>
 <dt id="meneely2014" class="bibliography">Meneely2014</dt>
 <dd>
 Andrew Meneely, Alberto C. Rodriguez Tejeda, Brian Spates, Shannon Trudeau, Danielle Neuberger, Katherine Whitlock, Christopher Ketant, and Kayla Davis:
 "An Empirical Investigation of Socio-technical Code Review Metrics and Security Vulnerabilities".
-<em>Proc. SSE'14</em>, <a href="https://doi.org/10.1145/2661685.2661687">10.1145/2661685.2661687</a>.
+<em>Proc. SSE'14</em>, <a class="doi" href="https://doi.org/10.1145/2661685.2661687">10.1145/2661685.2661687</a>.
 </dd>
 <dt id="metcalfe2016" class="bibliography">Metcalfe2016</dt>
 <dd>
 Janet Metcalfe:
 "Learning from Errors".
-<em>Annual Review of Psychology</em>, 68(1), 2016, <a href="https://doi.org/10.1146/annurev-psych-010416-044022">10.1146/annurev-psych-010416-044022</a>.
+<em>Annual Review of Psychology</em>, 68(1), 2016, <a class="doi" href="https://doi.org/10.1146/annurev-psych-010416-044022">10.1146/annurev-psych-010416-044022</a>.
 </dd>
 <dt id="michaelson2004" class="bibliography">Michaelson2004</dt>
 <dd>
@@ -1070,25 +1070,25 @@ Matto Mildenberger:
 <dd>
 George A. Miller:
 "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information".
-<em>Psychological Review"</em>, 63(2), 1956, <a href="https://doi.org/10.1037/h0043158">10.1037/h0043158</a>.
+<em>Psychological Review"</em>, 63(2), 1956, <a class="doi" href="https://doi.org/10.1037/h0043158">10.1037/h0043158</a>.
 </dd>
 <dt id="miller1990" class="bibliography">Miller1990</dt>
 <dd>
 Barton P. Miller, Louis Fredriksen, and Bryan So:
 "An Empirical Study of the Reliability of UNIX Utilities".
-<em>CACM</em>, 33(12), 1990, <a href="https://doi.org/10.1145/96267.96279">10.1145/96267.96279</a>.
+<em>CACM</em>, 33(12), 1990, <a class="doi" href="https://doi.org/10.1145/96267.96279">10.1145/96267.96279</a>.
 </dd>
 <dt id="miller2020" class="bibliography">Miller2020</dt>
 <dd>
 Barton Miller, Mengxiao Zhang, and Elisa Heymann:
 "The Relevance of Classic Fuzz Testing: Have We Solved This One?".
-<em>TSE</em>, 2020, <a href="https://doi.org/10.1109/tse.2020.3047766">10.1109/tse.2020.3047766</a>.
+<em>TSE</em>, 2020, <a class="doi" href="https://doi.org/10.1109/tse.2020.3047766">10.1109/tse.2020.3047766</a>.
 </dd>
 <dt id="minahan1986" class="bibliography">Minahan1986</dt>
 <dd>
 Anne Minahan:
 "Martha's Rules".
-<em>Affilia</em>, 1(2), 1986, <a href="https://doi.org/10.1177/088610998600100206">10.1177/088610998600100206</a>.
+<em>Affilia</em>, 1(2), 1986, <a class="doi" href="https://doi.org/10.1177/088610998600100206">10.1177/088610998600100206</a>.
 </dd>
 <dt id="mishra2013" class="bibliography">Mishra2013</dt>
 <dd>
@@ -1100,13 +1100,13 @@ Picador, 2013, 978-1250037718.
 <dd>
 Audris Mockus:
 "Organizational Volatility and Its Effects on Software Defects".
-<em>Proc. FSE'10</em>, <a href="https://doi.org/10.1145/1882291.1882311">10.1145/1882291.1882311</a>.
+<em>Proc. FSE'10</em>, <a class="doi" href="https://doi.org/10.1145/1882291.1882311">10.1145/1882291.1882311</a>.
 </dd>
 <dt id="monperrus2018" class="bibliography">Monperrus2018</dt>
 <dd>
 Martin Monperrus:
 "Automatic Software Repair".
-<em>ACM Computing Surveys</em>, 51(1), 2018, <a href="https://doi.org/10.1145/3105906">10.1145/3105906</a>.
+<em>ACM Computing Surveys</em>, 51(1), 2018, <a class="doi" href="https://doi.org/10.1145/3105906">10.1145/3105906</a>.
 </dd>
 <dt id="mosher2013" class="bibliography">Mosher2013</dt>
 <dd>
@@ -1130,7 +1130,7 @@ Scribner, 2011, 978-1439170915.
 <dd>
 Suman Nakshatri, Maithri Hegde, and Sahithi Thandra:
 "Analysis of Exception Handling Patterns in Java Projects".
-<em>Proc. MSR'16</em>, <a href="https://doi.org/10.1145/2901739.2903499">10.1145/2901739.2903499</a>.
+<em>Proc. MSR'16</em>, <a class="doi" href="https://doi.org/10.1145/2901739.2903499">10.1145/2901739.2903499</a>.
 </dd>
 <dt id="noble2018" class="bibliography">Noble2018</dt>
 <dd>
@@ -1178,25 +1178,25 @@ Cambridge University Press, 2015, 978-1107569782.
 <dd>
 Kai Pan, Sunghun Kim, and E. James Whitehead:
 "Toward an Understanding of Bug Fix Patterns".
-<em>ESE</em>, 14(3), 2008, <a href="https://doi.org/10.1007/s10664-008-9077-5">10.1007/s10664-008-9077-5</a>.
+<em>ESE</em>, 14(3), 2008, <a class="doi" href="https://doi.org/10.1007/s10664-008-9077-5">10.1007/s10664-008-9077-5</a>.
 </dd>
 <dt id="park2012" class="bibliography">Park2012</dt>
 <dd>
 Jihun Park, Miryung Kim, Baishakhi Ray, and Doo-Hwan Bae:
 "An Empirical Study of Supplementary Bug Fixes".
-<em>Proc. MSR'12</em>, <a href="https://doi.org/10.1109/msr.2012.6224298">10.1109/msr.2012.6224298</a>.
+<em>Proc. MSR'12</em>, <a class="doi" href="https://doi.org/10.1109/msr.2012.6224298">10.1109/msr.2012.6224298</a>.
 </dd>
 <dt id="parnin2010" class="bibliography">Parnin2010</dt>
 <dd>
 Chris Parnin and Spencer Rugaber:
 "Resumption Strategies for Interrupted Programming Tasks".
-<em>Software Quality Journal</em>, 19(1), 2010, <a href="https://doi.org/10.1007/s11219-010-9104-9">10.1007/s11219-010-9104-9</a>.
+<em>Software Quality Journal</em>, 19(1), 2010, <a class="doi" href="https://doi.org/10.1007/s11219-010-9104-9">10.1007/s11219-010-9104-9</a>.
 </dd>
 <dt id="patitsas2016" class="bibliography">Patitsas2016</dt>
 <dd>
 Elizabeth Patitsas, Jesse Berlin, Michelle Craig, and Steve Easterbrook:
 "Evidence That Computer Science Grades Are Not Bimodal".
-<em>Proc. ICER'16</em>, <a href="https://doi.org/10.1145/2960310.2960312">10.1145/2960310.2960312</a>.
+<em>Proc. ICER'16</em>, <a class="doi" href="https://doi.org/10.1145/2960310.2960312">10.1145/2960310.2960312</a>.
 </dd>
 <dt id="peitek2021" class="bibliography">Peitek2021</dt>
 <dd>
@@ -1208,13 +1208,13 @@ Norman Peitek, Sven Apel, Chris Parning, André Brechmann, and Janet Siegmund:
 <dd>
 Santiago Perez De Rosso and Daniel Jackson:
 "What's Wrong With Git?".
-<em>Proc. Onward!'13</em>, <a href="https://doi.org/10.1145/2509578.2509584">10.1145/2509578.2509584</a>.
+<em>Proc. Onward!'13</em>, <a class="doi" href="https://doi.org/10.1145/2509578.2509584">10.1145/2509578.2509584</a>.
 </dd>
 <dt id="perezderosso2016" class="bibliography">PerezDeRosso2016</dt>
 <dd>
 Santiago Perez De Rosso and Daniel Jackson:
 "Purposes,  Concepts,  Misfits,  and a Redesign of Git".
-<em>Proc. OOPSLA'16</em>, <a href="https://doi.org/10.1145/2983990.2984018">10.1145/2983990.2984018</a>.
+<em>Proc. OOPSLA'16</em>, <a class="doi" href="https://doi.org/10.1145/2983990.2984018">10.1145/2983990.2984018</a>.
 </dd>
 <dt id="perri2018" class="bibliography">Perri2018</dt>
 <dd>
@@ -1226,7 +1226,7 @@ O'Reilly Media, 2018, 978-1491973790.
 <dd>
 Marian Petre:
 "UML in Practice".
-<em>Proc. ICSE'13</em>, <a href="https://doi.org/10.1109/icse.2013.6606618">10.1109/icse.2013.6606618</a>.
+<em>Proc. ICSE'13</em>, <a class="doi" href="https://doi.org/10.1109/icse.2013.6606618">10.1109/icse.2013.6606618</a>.
 </dd>
 <dt id="petre2016" class="bibliography">Petre2016</dt>
 <dd>
@@ -1244,13 +1244,13 @@ Verso, 2019, 978-1786635167.
 <dd>
 Daryl Posnett, Abram Hindle, and Prem Devanbu:
 "Got Issues? Do New Features and Code Improvements Affect Defects?".
-<em>Proc. WCRE'11</em>, <a href="https://doi.org/10.1109/wcre.2011.33">10.1109/wcre.2011.33</a>.
+<em>Proc. WCRE'11</em>, <a class="doi" href="https://doi.org/10.1109/wcre.2011.33">10.1109/wcre.2011.33</a>.
 </dd>
 <dt id="post2020" class="bibliography">Post2020</dt>
 <dd>
 Martiqua L Post, Anthony Barrett, Marlyse Williams, and Lauren Scharff:
 "Impact of Team Formation Method on Student Performance, Attitudes, and Behaviors".
-<em>JSTL</em>, 20(1), 2020, <a href="https://doi.org/10.14434/josotl.v20i1.24128">10.14434/josotl.v20i1.24128</a>.
+<em>JSTL</em>, 20(1), 2020, <a class="doi" href="https://doi.org/10.14434/josotl.v20i1.24128">10.14434/josotl.v20i1.24128</a>.
 </dd>
 <dt id="prechelt2019" class="bibliography">Prechelt2019</dt>
 <dd>
@@ -1265,13 +1265,13 @@ Apress, 2019, 978-1484242209.
 <dd>
 Diandra Prioleau, Brianna Richardson, Emma Drobina, Rua Williams, Joshua Martin, and Juan E. Gilbert:
 "How Students in Computing-Related Majors Distinguish Social Implications of Technology".
-<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432360">10.1145/3408877.3432360</a>.
+<em>Proc. ICSE'21</em>, <a class="doi" href="https://doi.org/10.1145/3408877.3432360">10.1145/3408877.3432360</a>.
 </dd>
 <dt id="pritchard2015" class="bibliography">Pritchard2015</dt>
 <dd>
 David Pritchard:
 "Frequency Distribution of Error Messages".
-<em>Proc. PLATEAU'15</em>, <a href="https://doi.org/10.1145/2846680.2846681">10.1145/2846680.2846681</a>.
+<em>Proc. PLATEAU'15</em>, <a class="doi" href="https://doi.org/10.1145/2846680.2846681">10.1145/2846680.2846681</a>.
 </dd>
 <dt id="rajagopalan2018" class="bibliography">Rajagopalan2018</dt>
 <dd>
@@ -1282,13 +1282,13 @@ Megha Rajagopalan, Lam Thuy Vo, and Aung Naing Soe:
 <dd>
 Yolanda A. Rankin, Jakita O. Thomas, and Sheena Erete:
 "Real Talk: Saturated Sites of Violence in CS Education".
-<em>Proc. ICSE'21</em>, <a href="https://doi.org/10.1145/3408877.3432432">10.1145/3408877.3432432</a>.
+<em>Proc. ICSE'21</em>, <a class="doi" href="https://doi.org/10.1145/3408877.3432432">10.1145/3408877.3432432</a>.
 </dd>
 <dt id="rawson2014" class="bibliography">Rawson2014</dt>
 <dd>
 Katherine A. Rawson, Ruthann C. Thomas, and Larry L. Jacoby:
 "The Power of Examples: Illustrative Examples Enhance Conceptual Learning of Declarative Concepts".
-<em>Educational Psychology Review</em>, 27(3), 2014, <a href="https://doi.org/10.1007/s10648-014-9273-3">10.1007/s10648-014-9273-3</a>.
+<em>Educational Psychology Review</em>, 27(3), 2014, <a class="doi" href="https://doi.org/10.1007/s10648-014-9273-3">10.1007/s10648-014-9273-3</a>.
 </dd>
 <dt id="raymond2001" class="bibliography">Raymond2001</dt>
 <dd>
@@ -1317,7 +1317,7 @@ Evan Robinson:
 <dd>
 Doug Rohrer, Robert F. Dedrick, and Sandra Stershic:
 "Interleaved Practice Improves Mathematics Learning".
-<em>Journal of Educational Psychology</em>, 107(3), 2015, <a href="https://doi.org/10.1037/edu0000001">10.1037/edu0000001</a>.
+<em>Journal of Educational Psychology</em>, 107(3), 2015, <a class="doi" href="https://doi.org/10.1037/edu0000001">10.1037/edu0000001</a>.
 </dd>
 <dt id="royce1970" class="bibliography">Royce1970</dt>
 <dd>
@@ -1344,7 +1344,7 @@ Apress, 2019, 978-1484242209.
 <dd>
 Jorma Sajaniemi, Mordechai Ben-Ari, Pauli Byckling, Petri Gerdt, and Yevgeniya Kulikova:
 "Roles of Variables in Three Programming Paradigms".
-<em>Computer Science Education</em>, 16(4), 2006, <a href="https://doi.org/10.1080/08993400600874584">10.1080/08993400600874584</a>.
+<em>Computer Science Education</em>, 16(4), 2006, <a class="doi" href="https://doi.org/10.1080/08993400600874584">10.1080/08993400600874584</a>.
 </dd>
 <dt id="scalzi2012" class="bibliography">Scalzi2012</dt>
 <dd>
@@ -1355,13 +1355,13 @@ John Scalzi:
 <dd>
 David A. Scanlan:
 "Structured Flowcharts Outperform Pseudocode: An Experimental Comparison".
-<em>IEEE Software</em>, 6(5), 1989, <a href="https://doi.org/10.1109/52.35587">10.1109/52.35587</a>.
+<em>IEEE Software</em>, 6(5), 1989, <a class="doi" href="https://doi.org/10.1109/52.35587">10.1109/52.35587</a>.
 </dd>
 <dt id="schankin2018" class="bibliography">Schankin2018</dt>
 <dd>
 Andrea Schankin, Annika Berger, Daniel V. Holt, Johannes C. Hofmeister, Till Riedel, and Michael Beigl:
 "Descriptive Compound Identifier Names Improve Source Code Comprehension".
-<em>ICPC'18</em>, <a href="https://doi.org/10.1145/3196321.3196332">10.1145/3196321.3196332</a>.
+<em>ICPC'18</em>, <a class="doi" href="https://doi.org/10.1145/3196321.3196332">10.1145/3196321.3196332</a>.
 </dd>
 <dt id="schneier2021" class="bibliography">Schneier2021</dt>
 <dd>
@@ -1384,19 +1384,19 @@ Yale University Press, 1999, 978-0300078152.
 <dd>
 Todd Sedano, Paul Ralph, and Cécile Péraire:
 "Software Development Waste".
-<em>Proc. ICSE'17</em>, <a href="https://doi.org/10.1109/ICSE.2017.20">10.1109/ICSE.2017.20</a>.
+<em>Proc. ICSE'17</em>, <a class="doi" href="https://doi.org/10.1109/ICSE.2017.20">10.1109/ICSE.2017.20</a>.
 </dd>
 <dt id="sharp2016" class="bibliography">Sharp2016</dt>
 <dd>
 Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
 "The Role of Ethnographic Studies in Empirical Software Engineering".
-<em>TSE</em>, 42(8), 2016, <a href="https://doi.org/10.1109/tse.2016.2519887">10.1109/tse.2016.2519887</a>.
+<em>TSE</em>, 42(8), 2016, <a class="doi" href="https://doi.org/10.1109/tse.2016.2519887">10.1109/tse.2016.2519887</a>.
 </dd>
 <dt id="sholler2019" class="bibliography">Sholler2019</dt>
 <dd>
 Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wilson:
 "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
-<em>PLoS Computational Biology</em>, 15(9), 2019, <a href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
+<em>PLoS Computational Biology</em>, 15(9), 2019, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
 </dd>
 <dt id="singh2009" class="bibliography">Singh2009</dt>
 <dd>
@@ -1408,7 +1408,7 @@ W. W. Norton, 2009, 978-0393337785.
 <dd>
 Danielle Smalls and Greg Wilson:
 "Ten Quick Tips for Staying Safe Online".
-<em>PLoS Computational Biology</em>, 17(3), 2021, <a href="https://doi.org/10.1371/journal.pcbi.1008563">10.1371/journal.pcbi.1008563</a>.
+<em>PLoS Computational Biology</em>, 17(3), 2021, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1008563">10.1371/journal.pcbi.1008563</a>.
 </dd>
 <dt id="snowden2019" class="bibliography">Snowden2019</dt>
 <dd>
@@ -1438,7 +1438,7 @@ Diomidis Spinellis:
 <dd>
 Andreas Stefik and Susanna Siebert:
 "An Empirical Investigation into Programming Language Syntax".
-<em>TCE</em>, 13(4), 2013, <a href="https://doi.org/10.1145/2534973">10.1145/2534973</a>.
+<em>TCE</em>, 13(4), 2013, <a class="doi" href="https://doi.org/10.1145/2534973">10.1145/2534973</a>.
 </dd>
 <dt id="stefik2017" class="bibliography">Stefik2017</dt>
 <dd>
@@ -1449,37 +1449,37 @@ Andreas Stefik, Patrick Daleiden, Diana Franklin, Stefan Hanenberg, Antti-Juhani
 <dd>
 Martijn Stegeman, Erik Barendsen, and Sjaak Smetsers:
 "Towards an Empirically Validated Model for Assessment of Code Quality".
-<em>Proc. Koli'14</em>, <a href="https://doi.org/10.1145/2674683.2674702">10.1145/2674683.2674702</a>.
+<em>Proc. Koli'14</em>, <a class="doi" href="https://doi.org/10.1145/2674683.2674702">10.1145/2674683.2674702</a>.
 </dd>
 <dt id="stegeman2016" class="bibliography">Stegeman2016</dt>
 <dd>
 Martijn Stegeman, Erik Barendsen, and Sjaak Smetsers:
 "Designing a Rubric for Feedback on Code Quality in Programming Courses".
-<em>Proc. Koli'16</em>, <a href="https://doi.org/10.1145/2999541.2999555">10.1145/2999541.2999555</a>.
+<em>Proc. Koli'16</em>, <a class="doi" href="https://doi.org/10.1145/2999541.2999555">10.1145/2999541.2999555</a>.
 </dd>
 <dt id="steinmacher2014" class="bibliography">Steinmacher2014</dt>
 <dd>
 Igor Steinmacher, Igor Scaliante Wiese, Tayana Conte, Marco Aurélio Gerosa, and David Redmiles:
 "The Hard Life of Open Source Software Project Newcomers".
-<em>Proc. CHASE'14</em>, <a href="https://doi.org/10.1145/2593702.2593704">10.1145/2593702.2593704</a>.
+<em>Proc. CHASE'14</em>, <a class="doi" href="https://doi.org/10.1145/2593702.2593704">10.1145/2593702.2593704</a>.
 </dd>
 <dt id="stylos2007" class="bibliography">Stylos2007</dt>
 <dd>
 Jeffrey Stylos and Steven Clarke:
 "Usability Implications of Requiring Parameters in Objects' Constructors".
-<em>Proc. ICSE'07</em>, <a href="https://doi.org/10.1109/icse.2007.92">10.1109/icse.2007.92</a>.
+<em>Proc. ICSE'07</em>, <a class="doi" href="https://doi.org/10.1109/icse.2007.92">10.1109/icse.2007.92</a>.
 </dd>
 <dt id="taschuk2017" class="bibliography">Taschuk2017</dt>
 <dd>
 Morgan Taschuk and Greg Wilson:
 "Ten Simple Rules for Making Research Software More Robust"".
-<em>PLoS Computational Biology</em>, 13(4), 2017, <a href="https://doi.org/10.1371/journal.pcbi.1005412">10.1371/journal.pcbi.1005412</a>.
+<em>PLoS Computational Biology</em>, 13(4), 2017, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1005412">10.1371/journal.pcbi.1005412</a>.
 </dd>
 <dt id="tedre2008" class="bibliography">Tedre2008</dt>
 <dd>
 Matti Tedre and Erkki Sutinen:
 "Three Traditions of Computing: What Educators Should Know".
-<em>CSE</em>, 18(3), 2008, <a href="https://doi.org/10.1080/08993400802332332">10.1080/08993400802332332</a>.
+<em>CSE</em>, 18(3), 2008, <a class="doi" href="https://doi.org/10.1080/08993400802332332">10.1080/08993400802332332</a>.
 </dd>
 <dt id="thomas2019" class="bibliography">Thomas2019</dt>
 <dd>
@@ -1510,13 +1510,13 @@ Nitasha Tiku:
 <dd>
 Alexey Tregubov, Barry Boehm, Natalia Rodchenko, and Jo Ann Lane:
 "Impact of Task Switching and Work Interruptions on Software Development Processes".
-<em>Proc. ICSSP'17</em>, <a href="https://doi.org/10.1145/3084100.3084116">10.1145/3084100.3084116</a>.
+<em>Proc. ICSSP'17</em>, <a class="doi" href="https://doi.org/10.1145/3084100.3084116">10.1145/3084100.3084116</a>.
 </dd>
 <dt id="treude2011" class="bibliography">Treude2011</dt>
 <dd>
 Christoph Treude and Margaret-Anne Storey:
 "Effective Communication of Software Development Knowledge Through Community Portals".
-<em>FSE'11</em>, <a href="https://doi.org/10.1145/2025113.2025129">10.1145/2025113.2025129</a>.
+<em>FSE'11</em>, <a class="doi" href="https://doi.org/10.1145/2025113.2025129">10.1145/2025113.2025129</a>.
 </dd>
 <dt id="troy2018" class="bibliography">Troy2018</dt>
 <dd>
@@ -1545,13 +1545,13 @@ WW Norton, 2017, 978-0393634631.
 <dd>
 Michael Washburn, Pavithra Sathiyanarayanan, Meiyappan Nagappan, Thomas Zimmermann, and Christian Bird:
 "What Went Right and What Went Wrong: An Analysis of 155 Postmortems from Game Development".
-<em>Proc. ICSE'16</em>, <a href="https://doi.org/10.1145/2889160.2889253">10.1145/2889160.2889253</a>.
+<em>Proc. ICSE'16</em>, <a class="doi" href="https://doi.org/10.1145/2889160.2889253">10.1145/2889160.2889253</a>.
 </dd>
 <dt id="washington2020" class="bibliography">Washington2020</dt>
 <dd>
 Alicia Nicki Washington:
 "When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing".
-<em>Proc. SIGCSE'20</em>, <a href="https://doi.org/10.1145/3328778.3366792">10.1145/3328778.3366792</a>.
+<em>Proc. SIGCSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3328778.3366792">10.1145/3328778.3366792</a>.
 </dd>
 <dt id="wayne2018" class="bibliography">Wayne2018</dt>
 <dd>
@@ -1581,7 +1581,7 @@ Bloomsbury Press, 2011, 978-1608193417.
 <dd>
 Laurie Williams and Richard L. Upchurch:
 "In Support of Student Pair-Programming".
-<em>Proc. SIGCSE'01</em>, <a href="https://doi.org/10.1145/364447.364614">10.1145/364447.364614</a>.
+<em>Proc. SIGCSE'01</em>, <a class="doi" href="https://doi.org/10.1145/364447.364614">10.1145/364447.364614</a>.
 </dd>
 <dt id="wilson2019" class="bibliography">Wilson2019</dt>
 <dd>
@@ -1599,13 +1599,13 @@ Jossey-Bass, 2017, 978-1119077992.
 <dd>
 Tianyin Xu, Long Jin, Xuepeng Fan, Yuanyuan Zhou, Shankar Pasupathy, and Rukma Talwadker:
 "Hey, You Have Given Me Too Many Knobs!: Understanding and Dealing with Over-Designed Configuration in System Software".
-<em>Proc. FSE'15</em>, <a href="https://doi.org/10.1145/2786805.2786852">10.1145/2786805.2786852</a>.
+<em>Proc. FSE'15</em>, <a class="doi" href="https://doi.org/10.1145/2786805.2786852">10.1145/2786805.2786852</a>.
 </dd>
 <dt id="yin2011" class="bibliography">Yin2011</dt>
 <dd>
 Zuoning Yin, Ding Yuan, Yuanyuan Zhou, Shankar Pasupathy, and Lakshmi Bairavasundaram:
 "How do Fixes Become Bugs?".
-<em>Proc. SIGSOFT/FSE'11</em>, <a href="https://doi.org/10.1145/2025113.2025121">10.1145/2025113.2025121</a>.
+<em>Proc. SIGSOFT/FSE'11</em>, <a class="doi" href="https://doi.org/10.1145/2025113.2025121">10.1145/2025113.2025121</a>.
 </dd>
 <dt id="yuan2015" class="bibliography">Yuan2015</dt>
 <dd>
@@ -1617,7 +1617,7 @@ Ding Yuan, Yu Luo, Xin Zhuang, Guilherme Renna Rodrigues, Xu Zhao, Yongle Zhang,
 <dd>
 Fiorella Zampetti, Carmine Vassallo, Sebastiano Panichella, Gerardo Canfora, Harald Gall, and Massimiliano Di Penta:
 "An Empirical Characterization of Bad Practices in Continuous Integration".
-<em>ESE</em>, 25(2), 2020, <a href="https://doi.org/10.1007/s10664-019-09785-8">10.1007/s10664-019-09785-8</a>.
+<em>ESE</em>, 25(2), 2020, <a class="doi" href="https://doi.org/10.1007/s10664-019-09785-8">10.1007/s10664-019-09785-8</a>.
 </dd>
 <dt id="zeller2009" class="bibliography">Zeller2009</dt>
 <dd>
@@ -1629,7 +1629,7 @@ Morgan Kaufmann, 2009, 978-0080923000.
 <dd>
 Andreas Zeller, Thomas Zimmermann, and Christian Bird:
 "Failure is a Four-Letter Word".
-<em>Proc. PROMISE'11</em>, <a href="https://doi.org/10.1145/2020390.2020395">10.1145/2020390.2020395</a>.
+<em>Proc. PROMISE'11</em>, <a class="doi" href="https://doi.org/10.1145/2020390.2020395">10.1145/2020390.2020395</a>.
 </dd>
 <dt id="zeller2019" class="bibliography">Zeller2019</dt>
 <dd>
@@ -1645,7 +1645,7 @@ Andreas Zeller:
 <dd>
 Letian Zhang:
 "An Institutional Approach to Gender Diversity and Firm Performance".
-<em>Organization Science</em>, 31(2), 2020, <a href="https://doi.org/10.1287/orsc.2019.1297">10.1287/orsc.2019.1297</a>.
+<em>Organization Science</em>, 31(2), 2020, <a class="doi" href="https://doi.org/10.1287/orsc.2019.1297">10.1287/orsc.2019.1297</a>.
 </dd>
 
 </dl>
