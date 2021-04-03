@@ -85,6 +85,8 @@ chapters:
     title: "Onboarding Checklist"
   - slug: "evaluation"
     title: "Performance Evaluation"
+  - slug: "reading"
+    title: "Further Reading"
   - slug: "10-good"
     title: "How to Do Good and Get Paid"
 

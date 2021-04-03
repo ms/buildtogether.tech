@@ -2182,6 +2182,15 @@
   year: 2007
   isbn: 978-0321490452
 
+- key: Oluo2019
+  kind: book
+  author:
+  - Ijeoma Oluo
+  title: "So You Want to Talk About Race"
+  year: 2019
+  publisher: Seal Press
+  isbn: 978-1580058827
+
 - key: ONeil2017
   kind: book
   author: "Cathy O'Neil"

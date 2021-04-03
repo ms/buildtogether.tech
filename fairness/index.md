@@ -465,85 +465,11 @@ report on one of these books for part of your project grade:
     systems that don't recognize Black faces, and "where's my phone?" apps that
     help abusive domestic partners keep tabs on their victims.
 
-Looking more widely, the books below helped me understand how intellectually
-impoverished Silicon Valley's worldview is.  If you find them useful, I'd
-appreciate suggestions for additions.
-
--   *The Great Transformation* <cite>Armstrong2007</cite> and *Doubt: A History*
-    <cite>Hecht2004</cite>.  The first book chronicles the critical centuries in
-    which Confucianism and Daoism arose in China, Hinduism and Buddhism in
-    India, monotheism in the Middle East, and rationalism in Greece; the second
-    Traces the evolution of one of the great traditions in Western thought (one
-    which even today makes many people uncomfortable).
-
--   *Sisters: The Lives of America's Suffragists* <cite>Baker2006</cite>.
-    Explains history through biography, and does well at both.
-
--   *How Buildings Learn* <cite>Brand1995</cite>.  One of the most practical
-    thinkers of the last century draws on his experience as an architect to
-    explain how many other things in our society come to be as they are.
-
--   *Building Powerful Community Organizations* <cite>Brown2007</cite>.  The best
-    practical guide I know to creating and sustaining grassroots groups with a
-    purpose.
-
--   *The World That Never Was* <cite>Butterworth2011</cite>.  Explores the early
-    days of the anarchist movement, and in doing so shows how governments create
-    the villains they need.
-
--   *Lower Ed: The Troubling Rise of For-Profit Colleges in the New Economy*
-    <cite>McMillanCottom2018</cite>.  Describes how a large part of the
-    educational sector in the US exists to translate government grants into
-    personal debt for the poor and private profit for the rich.
-
--   *Trick or Treatment* <cite>Singh2009</cite>.  A sceptical (but not hostile)
-    look at alternative medicine that is incidentally a great primer on
-    standards of evidence and how to interpret scientific findings.
-
--   *Four Futures: Life After Capitalism* <cite>Frase2016</cite>.  Explores four
-    scenarios in which our reactions to increasing automation and worsening
-    climate change play out.
-
--   *Bury the Chains* <cite>Hochschild2006</cite>.  "Slavery was to the nineteenth
-    century what oil is today: morally repugnant but economically
-    indispensible."  The fight against it was one of the first great triumphs of
-    democratic activism.
-
--   *The View From Flyover Country* <cite>Kendzior2018</cite> and *Hiding in Plain
-    Sight* <cite>Kendzior2020</cite>.  Essential reading about the rise of
-    authoritarian kleptocracy in the United States.
-
--   *Owning the Earth* <cite>Linklater2013</cite>.  The idea that individuals can
-    own land is a lot younger than most people realize, and its emergence holds
-    a lot of lessons for today's debates over intellectual property.
-
--   *From the Ruins of Empire* <cite>Mishra2013</cite> and *Black Wave*
-    <cite>Ghattas2020</cite>.  The first is three intellectual biographies
-    showing how the peoples of Asia responded to the West; the second is a
-    history of the struggle between Saudi Arabia and Iran, and how it has shaped
-    the history of the last half century.
-
--   *The Last Utopia* <cite>Moyn2010</cite>.  Argues that human rights became the
-    defining issue for post-war progressives only because others failed.
-
--   *Humanizing the Economy* <cite>Restakis2010</cite>.  A history of the
-    co-operative movement and a blueprint for its future.
-
--   *Seeing Like a State* <cite>Scott1999</cite> and *Bullshit Jobs: A Theory*
-    <cite>Graeber2019</cite>.  The first explains why large organizations always
-    prefer uniformity over productivity, and the price people pay for this; the
-    second explores the proliferation of meaningless busy-work jobs.
-
--   *Twitter and Tear Gas* <cite>Tufekci2018</cite>.  A nuanced look at how social
-    media is and isn't changing politics and protest.
-
--   *The Spirit Level* <cite>Wilkinson2011</cite>.  An evidence-based exploration
-    of how and why greater equality is better for everyone.
-
--   *The Emperor of All Maladies* <cite>Mukherjee2011</cite> and *How to Survive a
-    Plague* <cite>France2016</cite>.  The first is a history of cancer and its
-    (mis)treatment; the second, of the AIDS crisis and how victims and their
-    allies came together when society as a whole let them down.
-
--   *The Dictator's Handbook* <cite>BuenoDeMesquita2012</cite>.  Presents a
-    slightly cynical theory of why bad behavior is often good politics.
+The first and biggest mistake many programmers make is building the wrong thing;
+I hope this book and the ones listed above will help you avoid that trap.  <span
+x="reading"/> lists other books that aren't as specific to tech, but which
+helped me understand the world our programs are used in.  Since you are probably
+different from me in significant respects---age and geography among them---you
+may find others that help you more.  Either way, the most compassionate thing
+you can do is ask yourself at every turn, "What will this be like for people who
+aren't like me?"

@@ -189,9 +189,14 @@ entries:
   label: J
   slug: evaluation
   title: Performance Evaluation
-- file: ./10-good/index.md
+- file: ./reading/index.md
   kind: Appendix
   label: K
+  slug: reading
+  title: Further Reading
+- file: ./10-good/index.md
+  kind: Appendix
+  label: L
   slug: 10-good
   title: How to Do Good and Get Paid
 figures:

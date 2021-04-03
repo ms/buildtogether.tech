@@ -1156,6 +1156,12 @@ Russ Olsen:
 <em>Design Patterns in Ruby</em>.
 Addison-Wesley Professional, 2007, 978-0321490452.
 </dd>
+<dt id="oluo2019" class="bibliography">Oluo2019</dt>
+<dd>
+Ijeoma Oluo:
+<em>So You Want to Talk About Race</em>.
+Seal Press, 2019, 978-1580058827.
+</dd>
 <dt id="oneil2017" class="bibliography">ONeil2017</dt>
 <dd>
 C, a, t, h, y,  , O, ', N, e, i, and l:

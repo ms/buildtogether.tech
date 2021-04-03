@@ -373,6 +373,7 @@ ITiCSE
 Ibraheem
 Ie
 Ihantola
+Ijeoma
 Ilenia
 Imad
 Inclusivity
@@ -564,6 +565,7 @@ Observables
 Oivo
 Okoilu
 Oliveira
+Oluo
 Onboarding
 Oram
 Orbach
