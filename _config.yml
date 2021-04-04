@@ -3,6 +3,7 @@ subtitle: "a student's guide to being a compassionate programmer"
 url: https://buildtogether.tech
 repository: gvwilson/bst
 default_image: /static/fixme.svg
+cover_image: /static/cover-600.jpg
 
 chapters:
   - slug: "introduction"
