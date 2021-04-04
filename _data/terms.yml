@@ -108,12 +108,8 @@ design:
   term: already invented here syndrome
 - key: analysis_paralysis
   term: analysis paralysis
-- key: base_class
-  term: base class
 - key: conceptual_architecture
   term: conceptual architecture
-- key: derive
-  term: derive
 - key: design_by_contract
   term: design by contract
 - key: dry
@@ -206,8 +202,6 @@ git-solo:
   term: conflict
 - key: decentralized_system
   term: decentralized system
-- key: flag
-  term: flag
 - key: mental_model
   term: mental model
 - key: merge_git
@@ -222,8 +216,6 @@ git-solo:
   term: repository
 - key: software_portal
   term: software portal
-- key: sub_command
-  term: sub-command
 - key: timestamp
   term: timestamp
 git-team:
@@ -302,14 +294,12 @@ methods:
   term: double blind
 - key: placebo
   term: placebo
-- key: post_mortem
-  term: post-mortem
 - key: pre_registration
   term: pre-registration
 - key: qualitative_method
   term: qualitative method
 - key: quasi_experiment
-  term: quasi experiment
+  term: quasi-experiment
 - key: treatment_group
   term: treatment group
 onboarding: []
@@ -354,8 +344,6 @@ process:
   term: waterfall model
 reading: []
 research:
-- key: affective_state
-  term: affective state
 - key: brooks_law
   term: Brook's Law
 - key: code_metric
@@ -363,27 +351,21 @@ research:
 - key: cognitive_bias
   term: cognitive bias
 - key: cognitive_dimensions
-  term: cognitive dimensions framework
+  term: cognitive dimensions of notation
 - key: dead_code
   term: dead code
-- key: dynamic_typing
-  term: dynamic typing
 - key: fmri
-  term: fmri
+  term: functional magnetic resonance imaging
 - key: gqm
   term: goal-question-metric
 - key: myers_briggs
   term: Myers-Briggs Type Indicator
 - key: ocean_model
   term: OCEAN model
-- key: premature_commitment
-  term: premature commitment
 - key: root_cause
   term: root cause
 - key: scottish_verdict
   term: Scottish verdict
-- key: static_typing
-  term: static typing
 security:
 - key: 2fa
   term: two-factor authentication
@@ -540,8 +522,6 @@ tooling:
   term: dynamic analysis
 - key: dynamic_typing
   term: dynamic typing
-- key: experimental_control
-  term: experimental control
 - key: generational_garbage_collection
   term: generational garbage collection
 - key: gui_designer
@@ -560,8 +540,8 @@ tooling:
   term: plugin
 - key: refactoring
   term: refactoring
-- key: strong_typing
-  term: strong typing
+- key: static_typing
+  term: static typing
 - key: virtual_machine
   term: virtual machine
 - key: wysiwyg

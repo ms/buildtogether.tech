@@ -96,15 +96,15 @@ $ git config --global user.email "peggy@wolframhart.org"
 Breaking this down:
 
 -   Git commands are written as <code>git <em>verb</em></code>, where
-    <code><em>verb</em></code> is a <span g="sub_command">sub-command</span>
-    telling Git exactly what we want to do.
+    <code><em>verb</em></code> is a sub-command telling Git exactly what we want
+    to do.
 
--   The `--global` <span g="flag">flag</span> is used to specify a value for the
-    command in the same way that parameters are used to pass values to
-    functions. In this case, we're telling Git that we want to configure things
-    globally (i.e., for every project we have on this computer). We can also
-    configure things repository-by-repository if we want to have a different
-    name or email address for different projects.
+-   The `--global` option is used to specify a value for the command in the same
+    way that parameters are used to pass values to functions. In this case,
+    we're telling Git that we want to configure things globally (i.e., for every
+    project we have on this computer). We can also configure things
+    repository-by-repository if we want to have a different name or email
+    address for different projects.
 
 -   `user.name` is the thing we want to configure. There are a lot of these;
     `git config --list` displays them all.
@@ -206,7 +206,7 @@ $ git commit -m "Made the status bar display the user name"
 ```
 
 {: .continue}
-Here, `commit` is the verb and the `-m` (short for "message") flag is followed
+Here, `commit` is the verb and the `-m` (short for "message") option is followed
 by the comment we want to save in the log.
 
 <div class="callout" markdown="1">
@@ -214,7 +214,7 @@ by the comment we want to save in the log.
 ### The most popular question on Stack Overflow
 
 If you use Git on the command line and you *don't* provide a message using the
-`-m` flag, it will launch an editor so that you can write a longer message.
+`-m` option, it will launch an editor so that you can write a longer message.
 This is a good thing, except that the default editor on most Unix systems is
 something called Vim, whose interface is no more intuitive than Git's. (In fact,
 one of the most frequently-viewed questions on [Stack Overflow][stack-overflow]
@@ -291,7 +291,7 @@ The first paragraph titled "Changes to be committed" tells me which files I have
 asked Git to save using `git add`. The second paragraph, "Changes not staged for
 commit", shows that I have modified `version-control.md` (this chapter) since I
 last asked Git to save a snapshot. Both paragraphs tell me that I can use `git
-restore` with or without the `--staged` flag to put a file back the way it was
+restore` with or without the `--staged` option to put a file back the way it was
 if I decide I don't want to save the changes I've made.
 
 I can use `git restore` to recover an old version of a file from any previous
@@ -327,7 +327,7 @@ origin	https://github.com/gvwilson/bst (push)
 ```
 
 {: .continue}
-The `-v` flag (short for "verbose") tells Git to print more than just the
+The `-v` option (short for "verbose") tells Git to print more than just the
 remote's name. The remote itself is called `origin`, and Git lists two URLs for
 it because in theory you can download (or "fetch") from one and upload (or
 "push") to another. (I have been using Git for sixteen years, and have never

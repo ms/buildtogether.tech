@@ -330,10 +330,10 @@ logging.basicConfig(level=logging.DEBUG)
 ```
 
 {: .continue}
-somewhere near the start of your program. The `DEBUG` flag identifies the least
-important messages in your program---the ones you probably only want to see when
-you're trying to figure out what's gone wrong. In order, the more important
-levels in most logging libraries are `INFO`, `WARNING`, `ERROR`, and
+somewhere near the start of your program. The `DEBUG` option identifies the
+least important messages in your program---the ones you probably only want to
+see when you're trying to figure out what's gone wrong. In order, the more
+important levels in most logging libraries are `INFO`, `WARNING`, `ERROR`, and
 `CRITICAL`. If you only want messages at the `WARNING` level and above, you
 change the configuration to:
 

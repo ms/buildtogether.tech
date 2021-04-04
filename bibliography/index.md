@@ -644,6 +644,12 @@ Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson:
 "Happy Software Developers Solve Problems Better: Psychological Measurements in Empirical Software Engineering".
 <em>PeerJ</em>, 2, 2014, <a class="doi" href="https://doi.org/10.7717/peerj.289">10.7717/peerj.289</a>.
 </dd>
+<dt id="green1996" class="bibliography">Green1996</dt>
+<dd>
+Thomas R. Green and Marian Petre:
+"Usability Analysis of Visual Programming Environments: A 'Cognitive Dimensions' Framework".
+<em>Journal of Visual Languages & Computing</em>, 7(2), 1996, <a class="doi" href="https://doi.org/10.1006/jvlc.1996.0009">10.1006/jvlc.1996.0009</a>.
+</dd>
 <dt id="gruenert2015" class="bibliography">Gruenert2015</dt>
 <dd>
 Steve Gruenert and Todd Whitaker:

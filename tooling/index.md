@@ -79,15 +79,14 @@ Some languages are easier to learn than others.
     different languages. They found that <span
     g="curly_brace_language">curly-brace languages</span> like Java and Perl
     were as hard for people to learn as a language with a randomly designed
-    syntax. (They really did roll *Dungeons & Dragons* dice to pick random names
-    and characters for a made-up language as an <span
-    g="experimental_control">experimental control</span>.) Other languages like
-    [Ruby][ruby] and [Python][python] were significantly easier to learn, and
-    they are now building a language called [Quorum][quorum] by testing the
-    usability of every language feature.
+    syntax. (They rolled *Dungeons & Dragons* dice to pick random names and
+    characters for a made-up language.) Other languages like [Ruby][ruby] and
+    [Python][python] were significantly easier to learn, and they are now
+    building a language called [Quorum][quorum] by testing the usability of
+    every language feature.
 
-Strong typing helps, but only a little.
-:   A <span g="strong_typing">strongly-typed</span> language like Java requires
+Static typing helps, but only a little.
+:   A <span g="static_typing">statically-typed</span> language like Java requires
     programmers to specify the data type of each variable; a <span
     g="dynamic_typing">dynamically-typed</span> one like Python doesn't require
     them, though you can add them if you want, while TypeScript adds types as a
@@ -283,7 +282,7 @@ way; it's a good habit, and one you should cultivate.
 Another set of tools are a complement to the style checkers discussed in <span
 x="automation"/>.  Style checkers do static analysis, i.e., they look at the
 text of your program while it's at rest.  Other tools do <span
-g="dynamic_analysis">dynamic analysis</span>:: they watch your program run, and
+g="dynamic_analysis">dynamic analysis</span>: they watch your program run, and
 look for things like memory leaks, or inconsistent locking that might lead to
 deadlocks or race conditions. FindBugs is the best-known in the Java world; the
 Valgrind toolset is a lifesaver if you're using C or C++.

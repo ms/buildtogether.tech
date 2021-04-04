@@ -85,7 +85,7 @@ work.
     private may temper their public criticism, and you just might convert them.
 
 7. Keep it visible.
-    It's easy to start a blog and create a Twitter account, but that very ease
+:   It's easy to start a blog and create a Twitter account, but that very ease
     has reduced these channels' impact.  Is there a newsletter you can be
     included in (which makes you look more official)?  Can you make a
     presentation as part of some other event (rather than organizing a gathering

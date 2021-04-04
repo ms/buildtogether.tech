@@ -132,7 +132,7 @@ sami:~/bst $ git commit -a -m "Adding my email address"
 ```
 
 {: .continue}
-(Notice that Sami uses the `-a` flag to `git commit` to add all changes and
+(Notice that Sami uses the `-a` option to `git commit` to add all changes and
 commit them in a single step. This is both convenient and dangerous.)
 
 Sami's changes are only in their local repository.  They cannot create a pull

@@ -126,7 +126,7 @@ course. You can probably get away with just one: the assignment the software was
 submitted for.
 
 Most programs can report a version number, either through an "About…" menu item
-or through a command-line flag like `--version`.  It helps a lot when people are
+or through a command-line option like `--version`.  It helps a lot when people are
 reporting bugs.
 
 ## The Final Report

@@ -137,10 +137,9 @@ usable and self-documenting APIs by guiding programmers toward the correct use
 of objects and preventing errors. Contrary to expectations, programmers strongly
 preferred and were more effective with APIs that did not require constructor
 parameters.  They then analyzed subjects' behavior using the <span
-g="cognitive_dimensions">cognitive dimensions framework</span>, which showed
+g="cognitive_dimensions">cognitive dimensions</span> framework, which showed
 that that requiring constructor parameters interfered with common learning
-strategies and caused <span g="premature_commitment">premature
-commitment</span>.
+strategies.
 
 <cite>Binkley2012</cite> reported that reading and understanding code is
 fundamentally different from reading prose: "…the more formal structure and
@@ -227,16 +226,15 @@ developers don't seem to understand Boolean operators as well as they should.
 
 Program analysis can tell us many other things as well, all of which should
 influence the design of future systems. For example, Python, JavaScript, and
-many other languages are <span g="dynamic_typing">dynamically typed</span>: a
-variable can refer to values with many different types, as opposed to the <span
-g="static_typing">static typing</span> in languages like Java that restrict
-variables to particular types of data. <cite>Akerblom2015</cite> looked at how
-often Python programs actually rely on dynamic typing, and found that it was
-taken advantage of in only 2.5% of cases. Adding generics (i.e., type
-declarations like `Array<int>`) only makes half a percent of different.  This
-doesn't mean that languages shouldn't include more complex type systems, but it
-does (or should) mean that the onus is on their designers to show that the
-complexity is worthwhile.
+many other languages are dynamically typed: a variable can refer to values with
+many different types, as opposed to the static typing in languages like Java
+that restrict variables to particular types of data. <cite>Akerblom2015</cite>
+looked at how often Python programs actually rely on dynamic typing, and found
+that it was taken advantage of in only 2.5% of cases. Adding generics (i.e.,
+type declarations like `Array<int>`) only makes half a percent of different.
+This doesn't mean that languages shouldn't include more complex type systems,
+but it does (or should) mean that the onus is on their designers to show that
+the complexity is worthwhile.
 
 Meanwhile, lots of people say that copy-pasting code is bad practice: if you
 find yourself creating code clones, you should put the repeated code in its own
@@ -437,15 +435,14 @@ Do happy developers produce better code? If they do, then looking at what tools
 they use may be missing the point: it may be their environment and colleagues
 that matter more.  Unfortunately, researchers haven't yet discovered how to
 induce happiness, so a randomized controlled trial isn't an option. Instead,
-<cite>Graziotin2014</cite> measured <span g="affective_state">affective
-states</span> (the term psychology researchers use to describe emotional state)
-using a questionnaire developed by psychology researchers.  They divided up the
-study participants into a positive group (POS) and a non-positive group (N-POS),
-then looked at how the groups performed on an analytical task and a creative
-task.  They scored performance as a function of how many trials the participant
-passed and how long it took to solve each trial.  The result was that the POS
-group did better at the analytic task, but there was no statistically
-significant difference on the creative task.
+<cite>Graziotin2014</cite> measured emotional state using a questionnaire
+developed by psychology researchers.  They divided up the study participants
+into a positive group (POS) and a non-positive group (N-POS), then looked at how
+the groups performed on an analytical task and a creative task.  They scored
+performance as a function of how many trials the participant passed and how long
+it took to solve each trial.  The result was that the POS group did better at
+the analytic task, but there was no statistically significant difference on the
+creative task.
 
 The topic of personality often comes up in discussions of pair programming: do
 you need to be an extrovert to reap its benefits, is the contrast in personality

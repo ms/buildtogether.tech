@@ -174,11 +174,10 @@ properly, and the only ones that could produce certain valuable insights.
 </div>
 
 <cite>Washburn2016</cite> demonstrates the kinds of insights these methods can
-produce. They analyzed 155 <span g="post_mortem">post mortem</span> reviews of
-game projects to identify characteristics of game development, link the
-characteristics to positive and negative experiences, and distill a set of best
-practices and pitfalls for game development. Their description of their method
-is worth repeating in full:
+produce. They analyzed 155 post mortem reviews of game projects to identify
+characteristics of game development, link the characteristics to positive and
+negative experiences, and distill a set of best practices and pitfalls for game
+development. Their description of their method is worth repeating in full:
 
 <blockquote markdown="1">
 

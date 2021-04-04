@@ -295,8 +295,8 @@ need to modify this code to add another `elif` clause, and if we want to add
 another kind of event, we have to write another function *and* make sure we
 have an `if` or `elif` for kind of actor.
 
-A better design is to create a <span g="base_class">base class</span> that
-defines a generic behavior for all actors:
+A better design is to create a base class that defines a generic behavior for
+all actors:
 
 ```py
 class Actor:
@@ -307,7 +307,7 @@ class Actor:
 ```
 
 {: .continue}
-and then <span g="derive">derive</span> one class for each type of actor:
+and then derive one class for each type of actor:
 
 ```py
 class Nurse(Actor):
@@ -422,27 +422,28 @@ easier to understand, test, and extend.
 
 You can make programs controllable in at least three different ways:
 
-Command-line flags.
-:   Enable users to run it from the command line and control its operation via
-    flags. For example, the `-a` or `--all` flag could tell the program to
-    process all files even if there are errors, while `-o` or `--output` could
-    specify the name of the output directory.
+Command-line options.
+:   Enable users to run it and control its operation from the command line. For
+    example, the `-a` or `--all` option could tell the program to process all
+    files even if there are errors, while `-o` or `--output` could specify the
+    name of the output directory.
 
 Configuration files.
 :   Have the program load settings from one or more configuration files.  This
     option saves them typing in common settings over and over, and also provides
     a record of exactly what the settings were (which can be helpful when
     testing).
-
-    Configuration files are often <span g="layered_configuration">layered</span>:
-    the program reads a global configuration file with general settings, then a
-    user-specific configuration file (typically in the user's home directory)
-    with the user's preferences, and finally a project-specific file. Those
-    settings can then often be overridden using command-line flags.  And if you
-    are going to *read* settings from files, do the compassionate thing and
-    teach your programs how to *write* their complete settings to a file as
-    well.  These files make it easier for people to reproduce their work and are
-    an invaluable aid to debugging.
+    <br/>
+    Configuration files are often <span
+    g="layered_configuration">layered</span>: the program reads a global
+    configuration file with general settings, then a user-specific configuration
+    file (typically in the user's home directory) with the user's preferences,
+    and finally a project-specific file. Those settings can then often be
+    overridden using command-line options.  And if you are going to *read*
+    settings from files, do the compassionate thing and teach your programs how
+    to *write* their complete settings to a file as well.  These files make it
+    easier for people to reproduce their work and are an invaluable aid to
+    debugging.
 
 A programming interface.
 :   If the application is written as a set of libraries, each with its own API,

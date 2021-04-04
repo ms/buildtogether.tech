@@ -1231,6 +1231,18 @@
   volume: 2
   year: 2014
 
+- key: Green1996
+  kind: article
+  author:
+  - Thomas R. Green
+  - Marian Petre
+  title: "Usability Analysis of Visual Programming Environments: A 'Cognitive Dimensions' Framework"
+  year: 1996
+  journal: "Journal of Visual Languages & Computing"
+  volume: 7
+  number: 2
+  doi: 10.1006/jvlc.1996.0009
+
 - key: Gruenert2015
   kind: book
   author:
