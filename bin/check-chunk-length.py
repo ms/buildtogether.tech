@@ -26,9 +26,12 @@ def find_lengths(filename):
         text = reader.read()
         dom = BeautifulSoup(text, 'html.parser')
         for node in dom.find_all('pre'):
-            length = len(node.code.string.split('\n'))
+            try:
+                length = len(node.code.string.split('\n'))
+            except:
+                assert False, f'pre node {node} has no text'
             if length > utils.LENGTH:
-                entry = {'length': length}
+                entry = {'length': length, 'line': node.sourceline}
                 if 'class' in node:
                     entry['class'] = node['class']
                 if 'title' in node:
@@ -42,7 +45,8 @@ def report(options, problems):
     for filename in sorted(problems.keys()):
         print(f'  - {filename}')
         for p in problems[filename]:
-            print(f'    - line: {p["length"]}')
+            print(f'    - line: {p["line"]}')
+            print(f'      length: {p["length"]}')
             if 'class' in p:
                 print(f'        class: {p["class"]}')
             if 'title' in p:

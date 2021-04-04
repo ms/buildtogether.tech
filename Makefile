@@ -123,7 +123,7 @@ check-boilerplate:
 	@bin/check-boilerplate.py --config ${CONFIG} --license LICENSE.md
 
 ## check-chunk-length: see whether any inclusions are overly long
-check-chunk-length:
+check-chunk-length: ${HOME_PAGE}
 	@bin/check-chunk-length.py --sources ${HTML}
 
 ## check-code-blocks: check inline code blocks
