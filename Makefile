@@ -116,7 +116,7 @@ check:
 
 ## check-bib: compare citations and definitions
 check-bib:
-	@bin/check-bib.py --bibliography ${BIB_YAML} --sources ${MARKDOWN} ${BIB_YAML} _includes/intro.md
+	@bin/check-bib.py --bibliography ${BIB_YAML} --sources ${MARKDOWN} ${GLOSSARY_IN} _includes/intro.md
 
 ## check-boilerplate: check standard files
 check-boilerplate:
@@ -162,7 +162,7 @@ show-dom: ${HOME_PAGE}
 
 ## show-fixme: what still needs to be done?
 show-fixme:
-	@bin/show-fixme.py --config ${CONFIG} | column -t -s '|'
+	@bin/show-fixme.py --sources ${MARKDOWN} ${GLOSSARY_IN} | column -t -s '|'
 	@fgrep fixme ${MARKDOWN} | wc -l
 
 ## show-index: what terms are indexed where?

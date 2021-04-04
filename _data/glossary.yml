@@ -8,19 +8,21 @@
   en:
     term: "active bystander"
     def: >
-      FIXME
+      Someone who takes steps that will make a difference when they observe a
+      conflict or unacceptable behavior.
 
 - key: active_listening
   en:
     term: "active listening"
     def: >
-      FIXME
+      A discussion technique in which people summarize each other's statements
+      in order to ensure they have understood them correctly.
 
 - key: actor
   en:
     term: "actor"
     def: >
-      FIXME
+      Something that can take actions of its own volition.
 
 - key: actual_result
   en:
@@ -30,17 +32,12 @@
       [expected result](#expected_result), the test passes; if the two are
       different, the test fails.
 
-- key: affective_state
-  en:
-    term: "affective state"
-    def: >
-      FIXME
-
 - key: agile
   en:
     term: "agile development"
     def: >
-      FIXME
+      An iterative approach to software development built around several
+      short feedback loops rather than long-range planning.
 
 - key: ally
   en:
@@ -52,13 +49,14 @@
   en:
     term: "alpha geek"
     def: >
-      FIXME
+      A colloquial term for the most technically savvy person in a group.
 
 - key: aih
   en:
     term: "already invented here syndrome"
     def: >
-      FIXME.
+      An unwillingness to revisit previous design or implementation decisions
+      even when new information surfaces.
   ref:
     - nih
 
@@ -66,27 +64,31 @@
   en:
     term: "analysis & estimation"
     def: >
-      FIXME
+      The process of determining what work needs to be done and how long it's
+      likely to take so that a prioritized schedule can be drawn up.
 
 - key: analysis_paralysis
   en:
     term: "analysis paralysis"
     def: >
-      FIXME
+      The inability to make a decision because there is too much information to
+      process and/or too many options to consider.
 
 - key: assertion
   en:
     term: "assertion"
     def: >
-      A Boolean expression that must be true at a certain point in a
-      program. Assertions may be built into the language (as in Python) or
-      provided as a function (as in JavaScript).
+      A Boolean expression that must be true at a certain point in a program.
+      Assertions may be built into the language (as in Python) or provided as a
+      function (as in JavaScript).
 
 - key: adhd
   en:
     term: "attention-deficit/hyperactivity disorder"
     def: >
-      FIXME
+      A constellation of personality traits that include someone having
+      difficulty controlling what they pay attention to and higher-than-average
+      physical restlessness.
     acronym: ADHD
 
 - key: auto_completion
@@ -100,26 +102,22 @@
   en:
     term: "automated program repair"
     def: >
-      FIXME
-
-- key: base_class
-  en:
-    term: "base class"
-    def: >
-      In object-oriented programming, a class from which other classes are
-      derived.
+      The use of algorithms to fix bugs, typically by pattern matching or by
+      checking common solutions against a test suite.
 
 - key: big_bang
   en:
     term: "big-bang integration"
     def: >
-      FIXME
+      Bringing all of the modules that make up an application together at once
+      instead of one by one.  It usually fails.
 
 - key: boehm_curve
   en:
     term: "Boehm Curve"
     def: >
-      FIXME
+      Shows that the cost of fixing a bug climbs quickly if the bug is found
+      later in the software development cycle
 
 - key: branch_git
   en:
@@ -137,22 +135,29 @@
       each bug fix and merged when that work is completed.
 
 - key: breakpoint
+  ref:
+  - conditional_breakpoint
   en:
     term: "breakpoint"
     def: >
-      FIXME
+      A point in the program (typically the start of a line) where the debugger
+      is to halt the program so its state can be inspected.
 
 - key: brooks_law
   en:
     term: "Brook's Law"
     def: >
-      FIXME
+      The claim that adding people to a project that's late makes it later
+      (because people already on the team must now spend their time getting
+      newcomers up to speed).
 
 - key: bsd_license
   en:
     term: "BSD license"
     def: >
-      FIXME
+      An open software license that requires people to acknowledge the source of
+      the software, but does not require derived work to be open; legally
+      equivalent to the [MIT License](#mit_license).
 
 - key: build_manager
   en:
@@ -165,31 +170,40 @@
   en:
    term: "build number"
    def: >
-     FIXME
+     A unique serial number associated with a particular compiled and/or
+     packaged version of software; the least significant component in
+     [semantic versioning](#semantic_versioning).
 
 - key: bullshit
   en:
     term: "bullshit"
     def: >
-      FIXME <cite>Frankfurth2005</cite>.
+      Deliberate mistruth or misrepresentation.  Unlike lying, bullshit doesn't
+      attempt to conceal the truth, but rather disregards it entirely
+      <cite>Frankfurt2005</cite>.
 
 - key: business_rule
   en:
     term: "business rule"
     def: >
-      FIXME
+      A rule by which business is conducted, such as, "Apply discounts before
+      adding sales tax," or, "Library patrons are only allowed to renew a loan
+      if no one is waiting for that item."  Software embodies business rules,
+      but increasingly business rules are designed around what software can and
+      cannot do.
 
 - key: byte_code
   en:
     term: "byte code"
     def: >
-      FIXME
+      A set of instructions designed to be executed efficiently by an
+      [interpreter](#interpreter).
 
 - key: casual_threat
   en:
     term: "casual threat"
     def: >
-      FIXME
+      A low-effort threat from a relatively unskilled attacker.
 
 - key: catch_exception
   en:
@@ -201,25 +215,34 @@
   en:
     term: "CC-BY"
     def: >
-      FIXME
+      The Creative Commons - Attribution License, which allows copying, derived
+      works, and for-profit sale so long as the original source is acknowledged.
 
 - key: cc0
   en:
     term: "CC0"
     def: >
-      FIXME
+      A shorthand for putting something in the public domain, i.e., imposing no
+      restriction of any kind on its use.
 
 - key: centralized_system
+  ref:
+  - decentralized_system
   en:
     term: "centralized system"
     def: >
-      FIXME
+      A system in which components communicate with or are controlled by a
+      single coordinating component.  Centralized systems are easy to build but
+      difficult to scale, and the central component gives them a single point of
+      failure.
 
 - key: chaotic_decomposition
   en:
     term: "chaotic decomposition"
     def: >
-      FIXME
+      To divide work between team members without planning or coordination.  It
+      invariably results in some things not being done, others being done
+      multiple times, and the finished products not working together.
 
 - key: chunking
   en:
@@ -239,7 +262,9 @@
   en:
     term: "code browser"
     def: >
-      FIXME
+      A tool for navigating code more quickly than is possible in a conventional
+      text editor.  Code browsers typically include the ability to jump to the
+      definition of a class or to references to a variable.
 
 - key: code_coverage
   en:
@@ -253,25 +278,33 @@
   en:
     term: "code metric"
     def: >
-      FIXME
+      A quantitative measure of some aspect of source code.  The simplest and
+      most widely used metric is the number of lines of code (LoC) or the number
+      of lines once blank lines and comments are discounted.  Many other metrics
+      have been proposed; there is little evidence that any of them are better
+      at predicting effort or fault rates than LoC <cite>ElEmam2001</cite>.
 
 - key: code_review
   en:
     term: "code review"
     def: >
-      FIXME
+      The act of reading source code to find errors, design flaws, opportunities
+      for [refactoring](#refactoring), and style violations, or simply to learn
+      from it.
 
 - key: cognitive_bias
   en:
     term: "cognitive bias"
     def: >
-      FIXME
+      A systematic deviation from objectivity.  For example, recency bias leads
+      us to place more weight on recent events or impressions than older ones.
 
 - key: cognitive_dimensions
   en:
-    term: "cognitive dimensions framework"
+    term: "cognitive dimensions of notation"
     def: >
-      FIXME
+      A set of design principles for user interfaces and programming languages
+      <cite>Green1996</cite>.
 
 - key: cognitive_load
   en:
@@ -286,7 +319,9 @@
   en:
     term: "cognitive transition"
     def: >
-      FIXME
+      A change from one way of thinking to another, such as the one that occurs
+      as someone goes from being a [novice](#novice) to being a [competent
+      practitioner](#competent_practitioner) in some domain.
 
 - key: csv
   en:
@@ -322,13 +357,18 @@
   en:
     term: "community of practice"
     def: >
-      FIXME
+      A group of people working together on something who assist and mentor each
+      other.
 
 - key: competent_practitioner
+  ref:
+  - expert
+  - novice
   en:
     term: "competent practitioner"
     def: >
-      FIXME
+      Someone who can do normal tasks in some domain with normal effort under
+      normal circumstances.
 
 - key: compiled_language
   en:
@@ -344,13 +384,16 @@
   en:
     term: "conceptual architecture"
     def: >
-      FIXME
+      The "big picture" view of the things that make up an application and how
+      they relate to each other. A system's conceptual architecture may include
+      everything from the users and hardware to the class hierarchy.
 
 - key: conditional_breakpoint
   en:
     term: "conditional breakpoint"
     def: >
-      FIXME
+      A [breakpoint](#breakpoint) that only pauses the program if a
+      user-specified condition is met (e.g., if some variable's value is zero).
 
 - key: conflict_git
   en:
@@ -363,13 +406,15 @@
   en:
     term: "confounding variables"
     def: >
-      FIXME
+      Something that isn't being measured that can nevertheless affect the
+      result of an experiment.
 
 - key: console
   en:
     term: "console"
     def: >
-      FIXME
+      An interactive pane in an [IDE](#ide) where users can evaluate expressions
+      or issue commands.
 
 - key: ci
   en:
@@ -379,10 +424,12 @@
       available, typically in a temporary copy of the project.
 
 - key: control_group
+  ref:
+  - treatment_group
   en:
     term: "control group"
     def: >
-      FIXME
+      In experimental design, the subject that *don't* receive a treatment.
 
 - key: utc
   en:
@@ -398,26 +445,33 @@
   en:
     term: "copyright"
     def: >
-      FIXME
+      A form of intellectual property that grants the holder special rights
+      (such as exclusive use) to a creative work.
 
 - key: critical_mass
   en:
     term: "critical mass"
     def: >
-      FIXME
+      The number of people needed in order for a [community of
+      practice](#community_of_practice) to become self-perpetuating.
 
 - key: xss
   en:
     term: "cross-site scripting attack"
     def: >
-      FIXME
+      An attack in which malicious scripts are put in web pages in order to be
+      run in the target's browser.  For example, a comment on a message forum
+      could include JavaScript that sends the viewer's personal information to
+      the attacker.
     acronym: XSS
 
 - key: crunch_mode
   en:
     term: "crunch mode"
     def: >
-      FIXME
+      To work long hours with little sleep under deadline pressure.  It
+      inevitably makes matters worse, since the time needed to fix mistakes
+      is greater than the number of extra hours worked.
 
 - key: css_selector
   en:
@@ -429,37 +483,46 @@
   en:
     term: "curly-brace language"
     def: >
-      FIXME
+      A language that uses the same syntactic conventions as C, typically
+      including `{...}` to show code blocks and update operators like `+=`.
 
 - key: dark_matter_developer
   en:
     term: "dark matter developer"
     def: >
-      FIXME [original source][hanselman-dark-matter]
+      The majority of developers who are effectively invisible because they
+      don't radiate information though social media or by participating in open
+      source projects.  The term was [first used][hanselman-dark-matter] by
+      [Scott Hanselman][hanselman-scott].
 
 - key: data_mining
   en:
     term: "data mining"
     def: >
-      FIXME
+      The use of computers to search for patterns in large datasets.
 
 - key: dead_code
   en:
     term: "dead code"
     def: >
-      FIXME
+      A section of code that is never executed in any run of the program.  Dead
+      code is typically code that *was* needed at some point, but has been left
+      in after it is no longer used because nobody is sure they can take it out.
 
 - key: decentralized_system
   en:
     term: "decentralized system"
     def: >
-      FIXME
+      A system that doesn't have a single controller or central authority like a
+      [centralized system](#centralized_system).  Decentralized systems are more
+      robust and more scalable, but harder to build.
 
 - key: decision_meeting
   en:
     term: "decision meeting"
     def: >
-      FIXME
+      A meeting whose purpose is to make binding decisions.  The term is used in
+      contrast with [discussion meeting](#discussion_meeting).
 
 - key: defensive_programming
   en:
@@ -473,13 +536,9 @@
   en:
     term: "delta debugging"
     def: >
-      FIXME
-
-- key: derive
-  en:
-    term: "derive"
-    def: >
-      FIXME
+      A process that automatically tests subsets of the original [test
+      fixture](#fixture), then subsets of those subsets, to produce a minimal
+      failure-inducing case.
 
 - key: design_by_contract
   en:
@@ -497,7 +556,8 @@
   en:
     term: "design for test"
     def: >
-      FIXME
+      An approach to system design that focuses on making individual components
+      and overall behavior as easy to test as possible.
 
 - key: design_pattern
   en:
@@ -511,13 +571,15 @@
   en:
     term: "development process"
     def: >
-      FIXME
+      A method for dividing the work needed in a software project into pieces
+      and allocating those pieces to individuals.
 
 - key: devops
   en:
     term: "DevOps"
     def: >
-      FIXME
+      A set of software development, deployment, and management practices
+      intended to shorten the development cycle and make it more reliable.
 
 - key: diagnostic_power
   en:
@@ -530,31 +592,34 @@
   en:
     term: "dictionary attack"
     def: >
-      FIXME
+      An attack that uses a known set of words to try and guess passwords.
 
 - key: digital_signature
   en:
     term: "digital signature"
     def: >
-      FIXME
+      A method that uses cryptographic techniques to establish the authenticity
+      of a document.
 
 - key: discoverability
   en:
     term: "discoverability"
     def: >
-      FIXME
+      The ease with which something can be found or stumbled upon.
 
 - key: discussion_meeting
   en:
     term: "discussion meeting"
     def: >
-      FIXME
+      A meeting whose purpose is to share ideas or explore design alternatives.
+      The term is used in contrast with [decision meeting](#decision_meeting).
 
 - key: doc_comment
   en:
     term: "doc comment"
     def: >
-      FIXME
+      A specially-formatted comment containing documentation about a piece of
+      code that is embedded in the code itself.
 
 - key: docstring
   en:
@@ -568,7 +633,7 @@
   en:
     term: "Document Object Model"
     def: >
-      A standard in-memory representation of HTML and XML
+      A standard in-memory representation of HTML and XML.
     acronym: DOM
 
 - key: doc_generator
@@ -583,26 +648,31 @@
   en:
     term: "Don't Repeat Yourself"
     def: >
-      FIXME
+      A software design principle that states that every piece of knowledge in a
+      system is represented once and only once.
     acronym: DRY
 
 - key: double_blind
   en:
     term: "double blind"
     def: >
-      FIXME
+      An experimental procedure designed to avoid bias by ensuring that neither
+      the experimenter nor the subject knows whether someone is in the [control
+      group](#control_group) or [treatment group](#treatment_group).
 
 - key: dynamic_analysis
   en:
     term: "dynamic analysis"
     def: >
-      FIXME
+      To analyze the state of a running program in order to determine its
+      general properties and/or to find bugs.
 
 - key: dynamic_typing
   en:
     term: "dynamic typing"
     def: >
-      FIXME
+      Checking the types of values as the program is running.  The term is used
+      in contrast with [static typing](#static_typing).
 
 - key: elevator_pitch
   en:
@@ -615,13 +685,15 @@
   en:
     term: "embedded database"
     def: >
-      FIXME
+      A database that runs inside the user's application as a library rather
+      than as an external service.
 
 - key: er_diagram
   en:
     term: "entity-relationship diagram"
     def: >
-      FIXME
+      A graphical representation of the things represented in a database and how
+      they relate to each other.
 
 - key: exception
   en:
@@ -641,23 +713,24 @@
       The value that a piece of software is supposed to produce when tested in a
       certain way, or the state in which it is supposed to leave the system.
 
-- key: experimental_control
-  en:
-    term: "experimental control"
-    def: >
-      FIXME
-
 - key: expert
+  ref:
+  - competent_practitioner
+  - novice
   en:
     term: "expert"
     def: >
-      FIXME
+      Someone who can diagnose and handle unusual situations, knows when the
+      usual rules do not apply, and tends to recognize solutions rather than
+      reasoning to them.
 
 - key: expert_blind_spot
   en:
     term: "expert blind spot"
     def: >
-      FIXME
+      The inability of experts to empathize with novices who are encountering
+      concepts or practices for the first time because they have forgotten what
+      it's like to *not* know something.
 
 - key: external_error
   en:
@@ -676,49 +749,49 @@
   en:
     term: "failure"
     def: >
-      FIXME
+      <span class="fixme">failure</span>
 
 - key: fault
   en:
     term: "fault"
     def: >
-      FIXME
+      <span class="fixme">fault</span>
 
 - key: feature_boxing
   en:
     term: "feature boxing"
     def: >
-      FIXME
+      <span class="fixme">feature boxing</span>
 
 - key: feature_creep
   en:
     term: "feature creep"
     def: >
-      FIXME
+      <span class="fixme">feature creep</span>
 
 - key: feature_decomposition
   en:
     term: "feature decomposition"
     def: >
-      FIXME
+      <span class="fixme">feature decomposition</span>
 
 - key: feigning_ignorance
   en:
     term: "feigning ignorance"
     def: >
-      FIXME
+      <span class="fixme">feigning ignorance</span>
 
 - key: fidelity
   en:
     term: "fidelity"
     def: >
-      FIXME
+      <span class="fixme">fidelity</span>
 
 - key: fsm
   en:
     term: "finite state machine"
     def: >
-      FIXME
+      <span class="fixme">finite state machine</span>
     acronym: FSM
 
 - key: fixture
@@ -731,19 +804,19 @@
   en:
     term: "flag"
     def: >
-      FIXME
+      <span class="fixme">flag</span>
 
 - key: flow
   en:
     term: "flow"
     def: >
-      FIXME
+      <span class="fixme">flow</span>
 
 - key: fmri
   en:
     term: "fmri"
     def: >
-      FIXME
+      <span class="fixme">fmri</span>
 
 - key: fork_git
   en:
@@ -763,19 +836,19 @@
   en:
     term: "functional decomposition"
     def: >
-      FIXME
+      <span class="fixme">functional decomposition</span>
 
 - key: fuzz_testing
   en:
     term: "fuzz testing"
     def: >
-      FIXME
+      <span class="fixme">fuzz testing</span>
 
 - key: generational_garbage_collection
   en:
     term: "generational garbage collection"
     def: >
-      FIXME
+      <span class="fixme">generational garbage collection</span>
 
 - key: germane_load
   en:
@@ -788,32 +861,32 @@
   en:
     term: "GNU Public License"
     def: >
-      FIXME
+      <span class="fixme">GNU Public License</span>
 
 - key: gqm
   en:
     term: "goal-question-metric"
     def: >
-      FIXME
+      <span class="fixme">goal-question-metric</span>
     acronym: GQM
 
 - key: governance
   en:
     term: "governance"
     def: >
-      FIXME
+      <span class="fixme">governance</span>
 
 - key: gui_designer
   en:
     term: "GUI designer"
     def: >
-      FIXME
+      <span class="fixme">GUI designer</span>
 
 - key: heuristic
   en:
     term: "heuristic"
     def: >
-      FIXME
+      <span class="fixme">heuristic</span>
 
 - key: hitchhiker
   en:
@@ -825,13 +898,13 @@
   en:
     term: "hot spot"
     def: >
-      FIXME
+      <span class="fixme">hot spot</span>
 
 - key: hr
   en:
     term: "Human Resources"
     def: >
-      FIXME
+      <span class="fixme">Human Resources</span>
 
 - key: hypercorrection_effect
   en:
@@ -845,13 +918,13 @@
   en:
     term: "in-memory database"
     def: >
-      FIXME
+      <span class="fixme">in-memory database</span>
 
 - key: insider_threat
   en:
     term: "insider threat"
     def: >
-      FIXME
+      <span class="fixme">insider threat</span>
 
 - key: ide
   en:
@@ -866,7 +939,7 @@
   en:
     term: "intellectual property"
     def: >
-      FIXME
+      <span class="fixme">intellectual property</span>
 
 - key: internal_error
   en:
@@ -877,17 +950,25 @@
 
 - key: interpreted_language
   en:
-    term: "interpreted language"
+    term: interpreted language
     def: >
       A high-level language that is not executed directly by the computer, but
-      instead is run by an interpreter that translates program instructions into
-      machine commands on the fly.
+      instead is run by an [interpreter](#interpreter) that translates program
+      instructions into machine commands on the fly.
+
+- key: interpreter
+  en:
+    term: interpreter
+    def: >
+      A program whose job it is to run programs written in a high-level
+      [interpreted language](#interpreted_language). Interpreters can run
+      interactively, but may also execute commands saved in a file.
 
 - key: intimate_threat
   en:
     term: "intimate threat"
     def: >
-      FIXME
+      <span class="fixme">intimate threat</span>
 
 - key: intrinsic_load
   en:
@@ -899,7 +980,7 @@
   en:
     term: "issue tracker"
     def: >
-      FIXME
+      <span class="fixme">issue tracker</span>
 
 - key: json
   ref:
@@ -918,7 +999,7 @@
   en:
     term: "just-in-time compiler"
     def: >
-      FIXME
+      <span class="fixme">just-in-time compiler</span>
     acronym: JIT
 
 - key: key
@@ -946,19 +1027,19 @@
   en:
     term: legitimate peripheral participation
     def: >
-      FIXME
+      <span class="fixme">legitimate peripheral participation</span>
 
 - key: lending_privilege
   en:
     term: "lending privilege"
     def: >
-      FIXME
+      <span class="fixme">lending privilege</span>
 
 - key: license
   en:
     term: "license"
     def: >
-      FIXME
+      <span class="fixme">license</span>
 
 - key: linter
   en:
@@ -978,7 +1059,7 @@
   en:
     term: "long tail"
     def: >
-      FIXME
+      <span class="fixme">long tail</span>
 
 - key: long_term_memory
   en:
@@ -995,7 +1076,7 @@
   en:
     term: mail filter
     def: >
-      FIXME
+      <span class="fixme">mail filter</span>
 
 - key: markdown
   en:
@@ -1007,7 +1088,7 @@
   en:
     term: marketing
     def: >
-      FIXME
+      <span class="fixme">marketing</span>
 
 - key: marthas_rules
   en:
@@ -1033,7 +1114,7 @@
   en:
     term: "microservice"
     def: >
-      FIXME
+      <span class="fixme">microservice</span>
 
 - key: milestone
   en:
@@ -1046,7 +1127,9 @@
   en:
     term: "MIT License"
     def: >
-      FIXME
+      An open software license that requires people to acknowledge the source of
+      the software, but does not require derived work to be open; legally
+      equivalent to the [BSD License](#bsd_license).
 
 - key: mock_object
   en:
@@ -1060,26 +1143,26 @@
   en:
     term: "model"
     def: >
-      FIXME
+      <span class="fixme">model</span>
 
 - key: mvc
   en:
     term: "model-view-controller"
     def: >
-      FIXME
+      <span class="fixme">model-view-controller</span>
     acronym: MVC
 
 - key: modular_decomposition
   en:
     term: "modular decomposition"
     def: >
-      FIXME
+      <span class="fixme">modular decomposition</span>
 
 - key: myers_briggs
   en:
     term: "Myers-Briggs Type Indicator"
     def: >
-      FIXME
+      <span class="fixme">Myers-Briggs Type Indicator</span>
     acronym: MBTI
 
 - key: neurodivergent
@@ -1102,19 +1185,23 @@
   en:
     term: "non-disclosure agreement"
     def: >
-      FIXME
+      <span class="fixme">non-disclosure agreement</span>
 
 - key: nih
   en:
     term: "not invented here syndrome"
     def: >
-      FIXME see [already invented here syndrome](#aih).
+      <span class="fixme">NIH</span> see [already invented here syndrome](#aih).
 
 - key: novice
+  ref:
+  - competent_practitioner
+  - expert
   en:
     term: "novice"
     def: >
-      FIXME
+      Someone who has not yet built a usable mental model of a domain and
+      therefore struggles with even basic tasks.
 
 - key: ocean_model
   en:
@@ -1129,7 +1216,7 @@
   en:
     term: "open license"
     def: >
-      FIXME
+      <span class="fixme">open license</span>
 
 - key: open_closed_principle
   en:
@@ -1151,25 +1238,25 @@
   en:
     term: "package manifest"
     def: >
-      FIXME
+      <span class="fixme">package manifest</span>
 
 - key: pair_programming
   en:
     term: "pair programming"
     def: >
-      FIXME
+      <span class="fixme">pair programming</span>
 
 - key: patch
   en:
     term: "patch"
     def: >
-      FIXME
+      <span class="fixme">patch</span>
 
 - key: patent
   en:
     term: "patent"
     def: >
-      FIXME
+      <span class="fixme">patent</span>
 
 - key: path_coverage
   en:
@@ -1191,25 +1278,25 @@
   en:
     term: "phishing"
     def: >
-      FIXME
+      <span class="fixme">phishing</span>
 
 - key: placebo
   en:
     term: "placebo"
     def: >
-      FIXME
+      <span class="fixme">placebo</span>
 
 - key: plugin
   en:
     term: "plugin"
     def: >
-      FIXME
+      <span class="fixme">plugin</span>
 
 - key: post_commit_hook
   en:
     term: post-commit hook
     def: >
-      FIXME
+      <span class="fixme">post-commit hook</span>
 
 - key: post_condition
   en:
@@ -1224,13 +1311,13 @@
   en:
     term: "post-mortem"
     def: >
-      FIXME
+      <span class="fixme">post-mortem</span>
 
 - key: pre_commit_hook
   en:
     term: pre-commit hook
     def: >
-      FIXME
+      <span class="fixme">pre-commit hook</span>
 
 - key: pre_condition
   en:
@@ -1245,19 +1332,19 @@
   en:
     term: "pre-registration"
     def: >
-      FIXME
+      <span class="fixme">pre-registration</span>
 
 - key: premature_commitment
   en:
     term: "premature commitment"
     def: >
-      FIXME
+      <span class="fixme">premature commitment</span>
 
 - key: preparatory_privilege
   en:
     term: "preparatory privilege"
     def: >
-      FIXME
+      <span class="fixme">preparatory privilege</span>
 
 - key: product_manager
   en:
@@ -1269,7 +1356,7 @@
   en:
     term: "profiler"
     def: >
-      FIXME
+      <span class="fixme">profiler</span>
 
 - key: project_manager
   en:
@@ -1299,7 +1386,7 @@
   en:
     term: "qualitative method"
     def: >
-      FIXME
+      <span class="fixme">qualitative method</span>
   ref:
     - quantitative_method
 
@@ -1307,7 +1394,7 @@
   en:
     term: "quantitative method"
     def: >
-      FIXME
+      <span class="fixme">quantitative method</span>
   ref:
     - qualitative_method
 
@@ -1315,13 +1402,13 @@
   en:
     term: "quasi experiment"
     def: >
-      FIXME
+      <span class="fixme">quasi experiment</span>
 
 - key: rabbit_hole
   en:
     term: "rabbit hole"
     def: >
-      FIXME
+      <span class="fixme">rabbit hole</span>
 
 - key: raise_exception
   ref:
@@ -1342,7 +1429,7 @@
   en:
     term: "rebase"
     def: >
-      FIXME
+      <span class="fixme">rebase</span>
 
 - key: refactoring
   en:
@@ -1368,7 +1455,7 @@
   en:
     term: "Representational State Transfer"
     def: >
-      FIXME
+      <span class="fixme">Representational State Transfer</span>
     acronym: REST
 
 - key: reprex
@@ -1381,19 +1468,19 @@
   en:
     term: "requirements error"
     def: >
-      FIXME
+      <span class="fixme">requirements error</span>
 
 - key: root_cause
   en:
     term: "root cause"
     def: >
-      FIXME
+      <span class="fixme">root cause</span>
 
 - key: rotating_decomposition
   en:
     term: "rotating decomposition"
     def: >
-      FIXME
+      <span class="fixme">rotating decomposition</span>
 
 - key: rotating_file
   en:
@@ -1413,31 +1500,31 @@
   en:
     term: "Schrödinger's Asshole"
     def: >
-      FIXME
+      <span class="fixme">Schrödinger's Asshole</span>
 
 - key: scottish_verdict
   en:
     term: "Scottish verdict"
     def: >
-      FIXME [Wikipedia article][scottish-verdict]
+      <span class="fixme">Scottish verdict</span> [Wikipedia article][scottish-verdict]
 
 - key: scriptable
   en:
     term: "scriptable"
     def: >
-      FIXME
+      <span class="fixme">scriptable</span>
 
 - key: scrum
   en:
     term: "Scrum"
     def: >
-      FIXME
+      <span class="fixme">Scrum</span>
 
 - key: security_theater
   en:
     term: "security theater"
     def: >
-      FIXME
+      <span class="fixme">security theater</span>
 
 - key: semantic_versioning
   en:
@@ -1468,49 +1555,49 @@
   en:
     term: "social engineering"
     def: >
-      FIXME
+      <span class="fixme">social engineering</span>
 
 - key: sociotechnical_congruence
   en:
     term: "sociotechnical congruence"
     def: >
-      FIXME
+      <span class="fixme">sociotechnical congruence</span>
 
 - key: software_portal
   en:
     term: "software portal"
     def: >
-      FIXME
+      <span class="fixme">software portal</span>
 
 - key: spearphishing
   en:
     term: "spearphishing"
     def: >
-      FIXME
+      <span class="fixme">spearphishing</span>
 
 - key: sprint
   en:
     term: "sprint"
     def: >
-      FIXME
+      <span class="fixme">sprint</span>
 
 - key: sql_injection
   en:
     term: "SQL injection attack"
     def: >
-      FIXME
+      <span class="fixme">SQL injection attack</span>
 
 - key: stand_up_meeting
   en:
     term: "stand-up meeting"
     def: >
-      FIXME
+      <span class="fixme">stand-up meeting</span>
 
 - key: static_analysis
   en:
     term: "static analysis"
     def: >
-      FIXME
+      <span class="fixme">static analysis</span>
 
 - key: static_site_generator
   en:
@@ -1522,49 +1609,51 @@
   en:
     term: "static typing"
     def: >
-      FIXME
+      Checking the types of values before a program runs to ensure that they
+      will be valid.  The term is used in contrast with [dynamic
+      typing](#dynamic_typing).
 
 - key: string_io
   en:
     term: "string I/O"
     def: >
-      FIXME
+      <span class="fixme">string I/O</span>
 
 - key: strong_typing
   en:
     term: "strong typing"
     def: >
-      FIXME
+      <span class="fixme">strong typing</span>
 
 - key: style_checker
   en:
     term: "style checker"
     def: >
-      FIXME
+      <span class="fixme">style checker</span>
 
 - key: sub_command
   en:
     term: "sub-command"
     def: >
-      FIXME
+      <span class="fixme">sub-command</span>
 
 - key: symbolic_debugger
   en:
     term: "symbolic debugger"
     def: >
-      FIXME
+      <span class="fixme">symbolic debugger</span>
 
 - key: team_contract
   en:
     term: "team contract"
     def: >
-      FIXME
+      <span class="fixme">team contract</span>
 
 - key: technical_debt
   en:
     term: "technical debt"
     def: >
-      FIXME
+      <span class="fixme">technical debt</span>
 
 - key: test_framework
   en:
@@ -1582,7 +1671,7 @@
   en:
     term: "test suite"
     def: >
-      FIXME
+      <span class="fixme">test suite</span>
 
 - key: tdd
   en:
@@ -1602,7 +1691,7 @@
   en:
     term: "time boxing"
     def: >
-      FIXME
+      <span class="fixme">time boxing</span>
 
 - key: timestamp
   en:
@@ -1615,31 +1704,36 @@
   en:
     term: "to-don't list"
     def: >
-      FIXME
+      <span class="fixme">to-don't list</span>
 
 - key: tone_policing
   en:
     term: "tone policing"
     def: >
-      FIXME
+      <span class="fixme">tone policing</span>
 
 - key: trade_secret
   en:
     term: "trade secret"
     def: >
-      FIXME
+      <span class="fixme">trade secret</span>
 
 - key: trademark
   en:
     term: "trademark"
     def: >
-      FIXME
+      <span class="fixme">trademark</span>
 
 - key: treatment_group
+  ref:
+  - control_group
   en:
     term: "treatment group"
     def: >
-      FIXME
+      In experimental design, the subjects that receive some treatment or
+      stimulus.  If there are no significant differences between members of the
+      control group and members of the [treatment group](#treatment_group), the
+      experimenter should conclude that the treatment has no effect.
 
 - key: triage
   en:
@@ -1653,26 +1747,26 @@
   en:
     term: "two-factor authentication"
     def: >
-      FIXME
+      <span class="fixme">two-factor authentication</span>
     acronym: 2FA
 
 - key: type_declaration
   en:
     term: "type declaration"
     def: >
-      FIXME
+      <span class="fixme">type declaration</span>
 
 - key: unconscious_bias
   en:
     term: "unconscious bias"
     def: >
-      FIXME
+      <span class="fixme">unconscious bias</span>
 
 - key: uml
   en:
     term: "Unified Modeling Language"
     def: >
-      FIXME
+      <span class="fixme">Unified Modeling Language</span>
     acronym: UML
 
 - key: unit_test
@@ -1686,19 +1780,19 @@
   en:
     term: "use-case map"
     def: >
-      FIXME
+      <span class="fixme">use-case map</span>
 
 - key: user_story
   en:
     term: "user story"
     def: >
-      FIXME
+      <span class="fixme">user story</span>
 
 - key: version_number
   en:
     term: "version number"
     def: >
-      FIXME
+      <span class="fixme">version number</span>
 
 - key: virtual_machine
   en:
@@ -1715,20 +1809,20 @@
   en:
     term: "waterfall model"
     def: >
-      FIXME
+      <span class="fixme">waterfall model</span>
 
 - key: wysiwyg
   en:
     term: "What You See Is What You Get"
     def: >
-      FIXME
+      <span class="fixme">What You See Is What You Get</span>
     acronym: WYSIWYG
 
 - key: workflow_diagram
   en:
     term: "workflow diagram"
     def: >
-      FIXME
+      <span class="fixme">workflow diagram</span>
 
 - key: working_memory
   en:

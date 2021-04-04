@@ -108,12 +108,8 @@ design:
   term: already invented here syndrome
 - key: analysis_paralysis
   term: analysis paralysis
-- key: base_class
-  term: base class
 - key: conceptual_architecture
   term: conceptual architecture
-- key: derive
-  term: derive
 - key: design_by_contract
   term: design by contract
 - key: dry
@@ -354,8 +350,6 @@ process:
   term: waterfall model
 reading: []
 research:
-- key: affective_state
-  term: affective state
 - key: brooks_law
   term: Brook's Law
 - key: code_metric
@@ -363,7 +357,7 @@ research:
 - key: cognitive_bias
   term: cognitive bias
 - key: cognitive_dimensions
-  term: cognitive dimensions framework
+  term: cognitive dimensions of notation
 - key: dead_code
   term: dead code
 - key: dynamic_typing

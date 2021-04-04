@@ -137,7 +137,7 @@ usable and self-documenting APIs by guiding programmers toward the correct use
 of objects and preventing errors. Contrary to expectations, programmers strongly
 preferred and were more effective with APIs that did not require constructor
 parameters.  They then analyzed subjects' behavior using the <span
-g="cognitive_dimensions">cognitive dimensions framework</span>, which showed
+g="cognitive_dimensions">cognitive dimensions</span> framework, which showed
 that that requiring constructor parameters interfered with common learning
 strategies and caused <span g="premature_commitment">premature
 commitment</span>.
@@ -437,15 +437,14 @@ Do happy developers produce better code? If they do, then looking at what tools
 they use may be missing the point: it may be their environment and colleagues
 that matter more.  Unfortunately, researchers haven't yet discovered how to
 induce happiness, so a randomized controlled trial isn't an option. Instead,
-<cite>Graziotin2014</cite> measured <span g="affective_state">affective
-states</span> (the term psychology researchers use to describe emotional state)
-using a questionnaire developed by psychology researchers.  They divided up the
-study participants into a positive group (POS) and a non-positive group (N-POS),
-then looked at how the groups performed on an analytical task and a creative
-task.  They scored performance as a function of how many trials the participant
-passed and how long it took to solve each trial.  The result was that the POS
-group did better at the analytic task, but there was no statistically
-significant difference on the creative task.
+<cite>Graziotin2014</cite> measured emotional state using a questionnaire
+developed by psychology researchers.  They divided up the study participants
+into a positive group (POS) and a non-positive group (N-POS), then looked at how
+the groups performed on an analytical task and a creative task.  They scored
+performance as a function of how many trials the participant passed and how long
+it took to solve each trial.  The result was that the POS group did better at
+the analytic task, but there was no statistically significant difference on the
+creative task.
 
 The topic of personality often comes up in discussions of pair programming: do
 you need to be an extrovert to reap its benefits, is the contrast in personality

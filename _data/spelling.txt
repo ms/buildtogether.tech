@@ -227,7 +227,6 @@ Eubanks
 Experientialism
 Extraversion
 Ezer
-FIXME
 FSE
 FSM
 Fagerholm
@@ -252,7 +251,6 @@ Fogel
 Forsgren
 Fortran
 Foutse
-Frankfurth
 Frase
 Fredriksen
 FreeBSD
@@ -464,6 +462,7 @@ LinkedIn
 Linklater
 Littky
 Liu
+LoC
 Loihle
 Lua
 Lumsdaine
@@ -884,7 +883,6 @@ Ziwei
 Zou
 Zuoning
 accesibility
-affective
 afterward
 anthropogenic
 assed
@@ -909,6 +907,7 @@ color
 colored
 colorized
 coursemates
+cryptographic
 dataset
 datasets
 de
@@ -968,6 +967,7 @@ microservice
 microservices
 mis
 mish
+mistruth
 modeling
 mortem
 mortems
@@ -1001,6 +1001,7 @@ pytest
 rearchitect
 rebase
 rebasing
+recency
 recurse
 refactorings
 reinitializing
@@ -1011,6 +1012,7 @@ reproducibility
 reviewable
 rigourously
 roadmap
+scalable
 scatterplot
 sceptical
 schemas

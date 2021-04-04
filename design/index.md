@@ -295,8 +295,8 @@ need to modify this code to add another `elif` clause, and if we want to add
 another kind of event, we have to write another function *and* make sure we
 have an `if` or `elif` for kind of actor.
 
-A better design is to create a <span g="base_class">base class</span> that
-defines a generic behavior for all actors:
+A better design is to create a base class that defines a generic behavior for
+all actors:
 
 ```py
 class Actor:
@@ -307,7 +307,7 @@ class Actor:
 ```
 
 {: .continue}
-and then <span g="derive">derive</span> one class for each type of actor:
+and then derive one class for each type of actor:
 
 ```py
 class Nurse(Actor):

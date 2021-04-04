@@ -179,6 +179,7 @@ kramdown:
       "gritter-alloy": ["https://medium.com%2F@medium.com/@markgritter/finding-graph-counterexamples-with-alloy-e4114cc0f2fb", "Finding Graph Counterexamples with Alloy"],
       "gritter-tla-plus": ["https://medium.com%2F@medium.com/@fuzz_ai/reproducing-a-memory-tracking-bug-with-tla-35ce0652ce72", "Reproducing a Memory-Tracking Bug with TLA+"],
       "hanselman-dark-matter": ["https://www.hanselman.com/blog/dark-matter-developers-the-unseen-99", "Dark Matter Developers: The Unseen 99%"],
+      "hanselman-scott": ["https://www.hanselman.com/", "Scott Hanselman"],
       "hippocratic-license": ["https://firstdonoharm.dev/", "Hippocratic License"],
       "homebrew": ["https://en.wikipedia.org/wiki/Homebrew_(package_manager)", "Homebrew"],
       "hoye-mike": ["http://exple.tive.org/", "Mike Hoye"],
