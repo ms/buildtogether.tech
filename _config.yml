@@ -8,6 +8,8 @@ cover_image: /static/cover-600.jpg
 chapters:
   - slug: "introduction"
     title: "Introduction"
+    exercises:
+    - a.md
   - slug: "important"
     title: "The Important Stuff"
   - slug: "starting"
@@ -78,6 +80,8 @@ chapters:
     title: "Glossary"
   - slug: "links"
     title: "Links"
+  - slug: "solutions"
+    title: "Solutions"
   - slug: "thinking"
     title: "Thinking and Learning"
   - slug: "methods"

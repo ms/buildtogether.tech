@@ -169,34 +169,39 @@ entries:
   label: F
   slug: links
   title: Links
-- file: ./thinking/index.md
+- file: ./solutions/index.md
   kind: Appendix
   label: G
+  slug: solutions
+  title: Solutions
+- file: ./thinking/index.md
+  kind: Appendix
+  label: H
   slug: thinking
   title: Thinking and Learning
 - file: ./methods/index.md
   kind: Appendix
-  label: H
+  label: I
   slug: methods
   title: Research Methods
 - file: ./onboarding/index.md
   kind: Appendix
-  label: I
+  label: J
   slug: onboarding
   title: Onboarding Checklist
 - file: ./evaluation/index.md
   kind: Appendix
-  label: J
+  label: K
   slug: evaluation
   title: Performance Evaluation
 - file: ./reading/index.md
   kind: Appendix
-  label: K
+  label: L
   slug: reading
   title: Further Reading
 - file: ./10-good/index.md
   kind: Appendix
-  label: L
+  label: M
   slug: 10-good
   title: How to Do Good and Get Paid
 figures:
@@ -208,9 +213,9 @@ figures:
   four-models-of-instruction: '3.1'
   process-matrix: '19.3'
   start-homework-5: '8.1'
-  thinking-cognitive-architecture: G.2
-  thinking-frisian: G.3
-  thinking-models: G.1
+  thinking-cognitive-architecture: H.2
+  thinking-frisian: H.3
+  thinking-models: H.1
   use-case-map: '12.2'
 tables:
   collaborate-code-review: '8.1'

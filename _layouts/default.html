@@ -18,7 +18,7 @@
         {% include terms.html slug=slug %}
         {{ content }}
         {% if this.keypoints %}{% include keypoints.md points=this.keypoints %}{% endif %}
-        {% if this.exercises %}{% include problems.md exercises=this.exercises %}{% endif %}
+        {% if this.exercises %}{% include problems.md entry=this %}{% endif %}
       </main>
       {% include foot.html %}
     </div>

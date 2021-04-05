@@ -403,6 +403,7 @@ security:
   term: SQL injection attack
 - key: xss
   term: cross-site scripting attack
+solutions: []
 starting:
 - key: elevator_pitch
   term: elevator pitch
@@ -534,8 +535,6 @@ tooling:
   term: dynamic analysis
 - key: dynamic_typing
   term: dynamic typing
-- key: experimental_control
-  term: experimental control
 - key: generational_garbage_collection
   term: generational garbage collection
 - key: gui_designer
