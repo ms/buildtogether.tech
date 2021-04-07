@@ -1,11 +1,11 @@
 ---
 ---
 
-Knowing how to steer and change gears isn't the same as knowing how to drive in
-traffic---you need to know how to signal when you're turning or changing lanes.
-Similarly, knowing how to commit to Git and how to do a code review are
-necessary but not sufficient for collaborating with other programmers.  This
-chapter therefore looks at how to communicate with your teammates.
+Knowing how to steer and change gears isn't all there is to driving---you need
+to know how to signal when you're turning or changing lanes.  Similarly, knowing
+how to commit to Git and do a code review are necessary but not sufficient for
+working with other programmers.  This chapter therefore looks at how to
+communicate with your teammates.
 
 ## To Do
 
@@ -14,12 +14,14 @@ lab notebook, kept in a text file on your laptop, or in your head; wherever and
 however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
-At its simplest, an <span g="issue_tracker">issue tracker</span> is a shared
-to-do list. Issue tracking systems are also called ticketing systems and bug
-trackers, because most software projects use one to keep track of the bugs that
-developers and users find. These days, issue trackers are almost invariably
-web-based. To create a new issue, you enter a title and a short description; the
-system then assigns it a unique serial number. You can usually also specify:
+At its simplest, an <span g="issue_tracker" i="issue tracker; issue">issue
+tracker</span> is a shared to-do list. Issue tracking systems are also called
+<span i="ticketing system">ticketing systems</span> and <span i="bug
+tracker">bug trackers</span> because most software projects use them to keep
+track of the bugs that developers and users find. These days, issue trackers are
+almost invariably web-based. To create a new issue, you enter a title and a
+short description; the system then assigns it a unique serial number. You can
+usually also specify:
 
 -   what kind of issue it is (such as a bug report, a request for a new feature,
     or a question to be answered);
@@ -36,16 +38,18 @@ tracking system keeps track of where you're going. After version control, it is
 the most important part of a team project; without it, you and your teammates
 will have to constantly ask each other "What are you working on?", "What am I
 supposed to be working on?", and "Who was supposed to do that?" Once you start
-using one it's easy to find out what the project's status is: just look at the
-open issues and at those that have been closed recently.  You can use this to
-create agendas for your status meetings, and to remind yourself what you were
-doing three months ago when the time comes to write your final report.
+using one it's easy (or at least easier) to find out what the project's status
+is: just look at the open issues and at those that have been closed recently.
+You can use this to create agendas for your status meetings, and to remind
+yourself what you were doing three months ago when the time comes to write your
+final report.
 
 Of course, a issue tracker is only as useful as what you put into it.  If you're
 describing a bug in a large application, you should include enough information
 to allow someone to reproduce the problem. This is why industrial-strength
-systems like [Jira][jira] can have a couple of dozen fields for each issue,
-including:
+systems like <span i="Jira (issue tracker); issue
+tracker!Jira">[Jira][jira]</span> can have a couple of dozen <span
+i="issue!fields">fields</span> for each issue, including:
 
 -   what version of the software you were using;
 
@@ -65,34 +69,35 @@ This is a lot more information than student projects require. In addition,
 students are almost always working on several courses at once, and it's common
 for students to have to put their team project aside for a few days to work on
 assignments for other courses. For these reasons, I've found that most student
-teams won't actually use anything more sophisticated than a web-base to-do list:
-unless, of course, they're forced to by the grading scheme. In that case, most
-come away with the impression that issues are something you only use when you
-have to.
+teams won't actually use anything more sophisticated than a web-base to-do list
+unless they're forced to by the grading scheme. In that case, most come away
+with the impression that issues are something you only use when you have to.
 
 So what does a good issue look like?  <cite>Bettenburg2008</cite> found that the
 information users supply when they file a bug report tends not to be that which
 the relevant developers need the most, and most importantly, it differs in
 fairly predictable ways and for understandable reasons.  Here's one I filed for
-the duplicate file finder reviewed in the previous section:
+the duplicate file finder reviewed in <span x="git-team"/>:
 
 {% include file file="bug-report.txt" %}
 
 The ID on the first line is assigned by the issue tracker, an often serves as a
 shorthand name for the issue in conversation. ("Hey, is anyone working on number
-fifty-five yet?") The date is in <span g="utc">UTC</span> so that it is
-unambiguous: while your team may all be in one place, it's increasingly likely
-that you are scattered across several timezones.
+fifty-five yet?") The date is in <span g="utc" i="issue!timestamps">UTC</span>
+so that it is unambiguous: while your team may all be in one place, it's
+increasingly likely that you are scattered across several timezones.
 
-The title on line 3 is probably the most important part of the issue. Projects
-will accumulate hundreds of issues over time; a good subject line makes it much
-easier to find the ones you need. The `type`, `severity`, and `labels` fields
-also improve <span g="discoverability">discoverability</span>; while `type` and
-`severity` could be labels, having them in fields of their own makes it easier
-to sort and filter issues.
+The <span i="issue!good titles">title</span> on line 3 is probably the most
+important part of the issue. Projects will accumulate hundreds of issues over
+time; a good subject line makes it much easier to find the ones you need. The
+`type`, `severity`, and `labels` fields also improve <span i="discoverability!of
+issues" g="discoverability">discoverability</span>; while `type` and `severity`
+could be labels, having them in fields of their own makes it easier to sort and
+filter issues.
 
-Finally, the description briefly summarizes the problem. If the author hadn't
-already identified the cause, it should include a <span g="reprex">reproducible
+Finally, the <span i="issue!description of">description</span> briefly
+summarizes the problem. If the author hadn't already identified the cause, it
+should include a <span g="reprex" i="reproducible example (reprex)">reproducible
 example</span> (also called a reprex). This helps the person understand what the
 issue is much more than, "The program crashes when I open strange files," but
 experience shows that if people are required to come up with a reprex when
@@ -104,24 +109,25 @@ x="debugging"/>.
 
 ### When to start saying "no"
 
-As we will see in <span x="process"/>, one purpose of a schedule is to
-tell you when to start cutting corners. Similarly, one of the main reasons to
-keep issues in one place is to help you prioritize them when time starts to run
-short.
+As we will see in <span x="process"/>, one purpose of a schedule is to tell you
+when to start cutting corners. Similarly, one of the main reasons to keep <span
+i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
+one place is to help you prioritize work when time starts to run short.
 
 </div>
 
 ## Labeling Issues
 
 The bigger a project gets, the harder it is to find things.  Issue trackers
-therefore let project members add <span g="issue_label">labels</span> to issues
-to make things easier to search and organize.  Labels are also often called
-tags; whatever term is used, each one is just a descriptive word or two.
+therefore let project members add <span g="issue_label"
+i="issue!classifying">labels</span> to issues to make things easier to search
+and organize.  Labels are also often called tags; whatever term is used, each
+one is just a descriptive word or two.
 
 GitHub allows project owners to define any labels they want.  A small project
 should always use some variation on these three:
 
-Bug*
+Bug
 :   Something should work but doesn't.
 
 Enhancement
@@ -175,85 +181,93 @@ Duplicate
 Some projects use labels corresponding to upcoming assignments instead of
 Current, Next, and Eventually.  This approach works well in the short term, but
 becomes unwieldy as labels with names like `exercise-14` pile up.  Instead, a
-project team will usually create a <span g="milestone">milestone</span>, which
-is a set of issues and pull requests in a single project repository.  GitHub
-milestones can have a due date and display aggregate progress toward completion,
-so the team can easily see when work is due and how much is left to be done.
+project team will usually create a <span g="milestone" i="milestone (in issue
+tracker); issue tracker!milestones">milestone</span>, which is a set of issues
+and pull requests in a single project repository.  GitHub milestones can have a
+due date and display aggregate progress toward completion, so the team can
+easily see when work is due and how much is left to be done.
 
 ## Other Ways to Communicate
 
 Issues are the best way to keep track of where you are, but there are lots of
-other ways the team can and should communicate. These can be synchronous, like
-chat and video calls, or asynchronous, like issues and email. The former are
-better for quick back-and-forth and for maintaining social connections, but they
-can also be a constant stream of interruptions, which lowers productivity (<span
-x="important"/>). Synchronous tools also tend to bias communication in
-favor of people who are more self-confident, more fluent in the language, or
-have better network connections, and finding things afterward in archives of
-stream-of-consciousness exchanges is harder than finding things in asynchronous
-media.
+other ways the team can and should communicate. These can be <span
+i="communication!synchronous">synchronous</span>, like chat and video calls, or
+<span i="communication!asynchronous">asynchronous</span>, like issues and
+email. The former are better for quick back-and-forth and for maintaining social
+connections, but they can also be a constant stream of interruptions, which
+lowers productivity (<span x="important"/>). Synchronous tools also tend to bias
+communication in favor of people who are more self-confident, more fluent in the
+language, or have better network connections, and finding things afterward in
+archives of stream-of-consciousness exchanges is harder than finding things in
+asynchronous media.
 
-But who am I kidding? You're going to use instant messaging no matter what I
-say.  If more than two people are in the conversation, follow the same rules you
-would for a short meeting: post a summary of any decisions you made where
-everyone can see it.
+But who am I kidding? You're going to use <span i="communication!instant
+messaging; instant messagin!inevitable use of">instant messaging</span> no
+matter what I say.  If more than two people are in the conversation, follow the
+same rules you would for a short meeting: post a summary of any decisions you
+made where everyone can see it.
 
 If you prefer fewer interruptions and longer periods of thought, you can always
-go back to email, which has been used to run projects since the 1970s.  It
-brings content directly to people while allowing everyone to deal with issues
-when it's convenient for them, and supports long-running conversations. Email
-really comes into its own, though, when messages are routed through a central
-mailing list, so that people don't have to remember to CC the other five people
-on their team, and a shared archive can be created for later searching. The
-second point is as important as the first: if you can't go back and find out
-what was said a month ago---or, just as importantly, if someone *else* can't do
-that---you might as well not have said it.
+go back to <span i="communication!email; email (for team
+communication)">email</span>, which has been used to run projects since the
+1970s.  It brings content directly to people while allowing everyone to deal
+with issues when it's convenient for them, and supports long-running
+conversations. Email really comes into its own, though, when messages are routed
+through a central mailing list, so that people don't have to remember to CC the
+other five people on their team, and a shared archive can be created for later
+searching. The second point is as important as the first: if you can't go back
+and find out what was said a month ago---or, just as importantly, if someone
+*else* can't do that---you might as well not have said it.
 
 <div class="callout" markdown="1">
 
 ### Filters are your friend
 
-Every email client allows you to set up <span g="mail_filter">filters</span>
-that automatically flag messages matching certain patterns or file them in
-particular mailboxes. I have fourteen of these set up right now to organize
-messages belonging to particular projects; it only took a couple of minutes, and
-it means that when I check mail in the morning or after lunch, everything is set
-up for me to focus on one topic at a time.
+Every email client allows you to set up <span g="mail_filter"
+i="email!filters">filters</span> that automatically flag messages matching
+certain patterns or file them in particular mailboxes. I have fourteen of these
+set up right now to organize messages belonging to particular projects; it only
+took a couple of minutes, and it means that when I check mail in the morning or
+after lunch, everything is set up for me to focus on one topic at a time.
 
 </div>
 
-Software portals provide many other ways to communicate, which project members
-use in a wide variety of ways <cite>Treude2011</cite>.  Wikis seem like a good
-way to keep notes, create documentation, and so on. Their main strength is the
-fact that content is automatically and immediately visible on the web.  These
-days, you will probably get more mileage out of a bunch of Markdown pages under
-version control---you have to set up a repository anyway, and version control
-systems are much better at reconciling conflicts between concurrent authors than
-wikis.
+<span i="software portal!communication tools">Software portals</span> provide
+many other ways to communicate, which project members use in a wide variety of
+ways <cite>Treude2011</cite>.  <span i="wiki; communication!wiki">Wikis/span>
+seem like a good way to keep notes, create documentation, and so on. Their main
+strength is the fact that content is automatically and immediately visible on
+the web.  These days, you will probably get more mileage out of a bunch of <span
+i="Markdown">Markdown</span> pages under version control---you have to set up a
+repository anyway, and version control systems are much better at reconciling
+conflicts between concurrent authors than wikis.
 
-Blogs, on the other hand, have proven more useful. One kind of project blog
-consists of articles written by the team's members as a journal of their
-progress. This is most useful for people who are watching the project from the
-outside, like instructors.
+<span i="communication!blog; blog!as team journal">Blogs</span>, on the other
+hand, have proven more useful. One kind of project blog consists of articles
+written by the team's members as a journal of their progress. This is most
+useful for people who are watching the project from the outside, like
+instructors.
 
-The second kind of blog is one created automatically by tools. In many project
-management systems, every project has a blog.  Every time someone checks code
-into version control, creates or closes an issue, or sends email, an entry is
-added to that blog. This allows the project's members to see changes scroll by
-in their usual blog reader, which is a handy way to keep track of what their
-teammates are doing.
+The second kind of <span i="blog!automatically generated">blog</span> is one
+created automatically by tools. In many project management systems, every
+project has a blog.  Every time someone checks code into version control,
+creates or closes an issue, or sends email, an entry is added to that blog. This
+allows the project's members to see changes scroll by in their usual blog
+reader, which is a handy way to keep track of what their teammates are doing.
 
 If you are going to create a blog, use a <span g="static_site_generator"
 i="static site generator">static site generator</span> to format and publish
-content consistently.  On GitHub, for example, you can create a site with
-[GitHub Pages][github-pages] using a tool called [Jekyll][jekyll]; lots of
+content consistently.  On GitHub, for example, you can create a site with <span
+i="GitHub Pages">[GitHub Pages][github-pages]</span> using a tool called <span
+i="Jekyll; static site generator!Jekyll">[Jekyll][jekyll]</span>; lots of
 different themes are available, and there are many good tutorials online.
 
 <div class="callout" markdown="1">
 
 ### Comments as communication
 
-People don't usually think of comments as a form of communication like email or
+People don't usually think of <span i="comments!as communication;
+communication!comments">comments</span> as a form of communication like email or
 instant messaging, but if they are used properly, the only significant
 difference is that the comments are right there in the code where the recipients
 can't miss them rather than in an archive somewhere that they'll have to go and
@@ -277,9 +291,10 @@ threads = threads[1:] # We are already running the first thread, so save the oth
 
 ## Reporting Up
 
-As well as reporting progress to your teammates, you may have to report it
-regularly to your instructor, who is effectively your manager. [Julia
-Evans][evans-julia] has described [eight things your manager might not
+As well as reporting progress to your teammates, you may have to <span
+i="reporting!to your manager">report</span> it regularly to your instructor, who
+is effectively your manager. <span i="Evans, Julia">[Julia
+Evans][evans-julia]</span> has described [eight things your manager might not
 know][evans-manager], all of which apply to student teams:
 
 1.  What's slowing the team down.
@@ -299,10 +314,10 @@ know][evans-manager], all of which apply to student teams:
 1.  How compensation/promotions work at the company.  (For students, this one
     translates to, "How grading actually works.")
 
-[Jacob Kaplan-Moss][kaplan-moss-jacob] has a similar guide to [giving a status
-update to executives][kaplan-moss-executives], and [Ask a
-Manager][ask-a-manager] is full of good advice and discussion as well. If you
-follow those guidelines, you get briefs like this:
+<span i="Kaplan-Moss, Jacob">[Jacob Kaplan-Moss][kaplan-moss-jacob]</span> has a
+similar guide to [giving a status update to executives][kaplan-moss-executives],
+and [Ask a Manager][ask-a-manager] is full of good advice and discussion as
+well. If you follow those guidelines, you get briefs like this:
 
 <blockquote markdown="1">
 
@@ -329,14 +344,15 @@ team member.
 ## Documentation
 
 An old proverb says, "Trust, but verify."  The equivalent in programming is, "Be
-clear, but document."  No matter how well software is written, it always
-embodies decisions that aren't explicit in the final code or accommodates
-complications that aren't going to be obvious to the next reader.  Putting it
-another way, the best function names in the world aren't going to answer the
-questions "Why does the software do this?"  and "Why doesn't it do this in a
-simpler way?"
+clear, but <span i="documentation!as communication">document</span>."  No matter
+how well software is written, it always embodies decisions that aren't explicit
+in the final code or accommodates complications that aren't going to be obvious
+to the next reader.  Putting it another way, the best function names in the
+world aren't going to answer the questions "Why does the software do this?"  and
+"Why doesn't it do this in a simpler way?"
 
-In most cases, a short <span g="docstring">docstring</span> or <span
+In most cases, <span i="documentation!embedded">embedded documentation</span> in
+the form of a short <span g="docstring">docstring</span> or <span
 g="doc_comment">doc comment</span> to remind ourselves of each function's
 purpose is probably as much documentation as we need.  (In fact, it's probably
 better than what most people do.)  That one- or two-liner should begin with an
@@ -352,11 +368,11 @@ examples of good one-line docstrings include:
 -   "Reduce the red component of each pixel."
 
 {: .continue}
-We can tell our one-liners are useful if we can read them aloud in the order the
-functions are called in place of the function's name and parameters.
+You can tell our one-liners are useful if you can read them aloud in the order
+the functions are called in place of the function's name and parameters.
 
-Once we start writing code for other people (or our future selves) our
-documentation should include:
+Once you start writing code for other people (or your future self) your <span
+i="documentation!what to include">documentation</span> should include:
 
 -   The name and purpose of every public class, function, and constant in our
     code.
@@ -370,8 +386,8 @@ documentation should include:
 
 -   What exceptions those functions can raise and when.
 
-The word "public" in the first rule is important.  We don't have to write full
-documentation for helper functions that are only used inside our package and
+The word "public" in the first rule is important.  You don't have to write full
+documentation for helper functions that are only used inside your package and
 aren't meant to be called by users, but these should still have at least a
 comment explaining their purpose.
 
@@ -379,16 +395,19 @@ As <span x="thinking"/> explains, we can divide people in any domain into
 novices, competent practitioners, and experts.  Each of these three groups needs
 a different kind of documentation:
 
--    A novice needs a tutorial that introduces her to key ideas one by one and
-    shows how they fit together.
+-   A <span i="novice!documentation needs; documentation!for
+    novices">novice</span> needs a tutorial that introduces her to key ideas one
+    by one and shows how they fit together.
 
--   A competent practitioner needs reference guides, cookbooks, and Q&A sites;
-    these give her solutions close enough to what she needs that she can tweak
-    them the rest of the way.
+-   A <span i="competent practitioner!documentation needs; documentation!for
+    competent practitioners">competent practitioner needs reference guides,
+    cookbooks, and Q&A sites; these give her solutions close enough to what she
+    needs that she can tweak them the rest of the way.
 
--   Experts need this material as well---nobody's memory is perfect---but they may
-    also paradoxically want tutorials.  The difference between them and novices
-    is that experts want tutorials on how things work and why they were designed
+-   <span i="expert!documentation needs; documentation!for experts">Experts</span>
+    need this material as well---nobody's memory is perfect---but they may also
+    paradoxically want tutorials.  The difference between them and novices is
+    that experts want tutorials on how things work and why they were designed
     that way.
 
 The first thing to decide when writing documentation is therefore to decide
@@ -398,32 +417,32 @@ things they actually want to do rather than printing the numbers from 1 to 10,
 and should include regular check-ins so that people can tell if they're making
 progress.
 
-Tutorials help novices build a mental model, but competent practitioners and
-experts will be frustrated by their slow pace and low information density.  They
-will want single-point solutions to specific problems, like how to find cells in
-a spreadsheet that contain a certain string or how to configure the web server
-to load an access control module.  They can make use of an alphabetical list of
-the functions in a library, but are much happier if they can search by keyword
-to find what they need; one of the signs that someone is no longer a novice is
-that they're able to compose useful queries and tell if the results are on the
-right track or not.
+Tutorials help novices build a <span i="mental model">mental model</span>, but
+competent practitioners and experts will be frustrated by their slow pace and
+low information density.  They will want single-point solutions to specific
+problems, like how to find cells in a spreadsheet that contain a certain string
+or how to configure the web server to load an access control module.  They can
+make use of an alphabetical list of the functions in a library, but are much
+happier if they can search by keyword to find what they need; one of the signs
+that someone is no longer a novice is that they're able to compose useful
+queries and tell if the results are on the right track or not.
 
 ## Creating an FAQ
 
 As projects grow, documentation within functions alone may be insufficient for
 users to apply code to their own problems.  One strategy to assist other people
-with understanding a project is with an FAQ.  A good FAQ uses the terms and
-concepts that people bring to the software rather than the vocabulary of its
-authors; putting it another way, the questions should be things that people
-might search for online, and the answers should give them enough information to
-solve their problem.
+with understanding a project is with an <span i="FAQ">FAQ</span>.  A good FAQ
+uses the terms and concepts that people bring to the software rather than the
+vocabulary of its authors; putting it another way, the questions should be
+things that people actually search for online, not the things the program's
+developers wish they would ask.
 
 Creating and maintaining an FAQ is a lot of work, and unless the community is
 large and active, a lot of that effort may turn out to be wasted, because it's
 hard for the authors or maintainers of a piece of software to anticipate what
 newcomers will be mystified by.  A better approach is to leverage sites like
-[Stack Overflow][stack-overflow], which is where most programmers are going to
-look for answers anyway.
+<span i="Stack Overflow">[Stack Overflow][stack-overflow]</span>, which is where
+most programmers are going to look for answers anyway.
 
 The Stack Overflow guide to [asking a good
 question][stack-overflow-good-question] has been refined over many years, and is
@@ -442,8 +461,9 @@ Provide a minimal reprex.
     answers are for them if they can see *and understand* a few lines of code.
 
 Tag, tag, tag.
-:   Keywords make everything more findable, from scientific papers to
-    left-handed musical instruments.
+:   Keywords make everything from scientific papers to left-handed cellos easier
+    to find.  They are even more effective if the system encourages people to
+    re-use tags so that they don't proliferate <cite>Lin2020</cite>.
 
 Use "I" and question words (how/what/when/where/why).
 :   Writing this way forces us to think more clearly about what someone might
@@ -461,4 +481,5 @@ Allow for a chorus of explanations.
     that suggest different approaches or are written for different prior levels
     of understanding. This is one of the things that has made Stack Overflow so
     successful: if users are different from one another, they are best served by
-    a chorus of explanations <cite>Caulfield2016</cite>
+    a <span i="chorus of explanation">chorus of explanations</span>
+    <cite>Caulfield2016</cite>.

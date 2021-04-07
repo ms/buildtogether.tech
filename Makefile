@@ -166,7 +166,7 @@ show-fixme:
 	@fgrep fixme ${MARKDOWN} | wc -l
 
 ## show-index: what terms are indexed where?
-show-index:
+show-index: ${HOME_PAGE}
 	@bin/show-index.py --config ${CONFIG}
 
 ## show-pages: how many pages are in the PDF version?

@@ -317,9 +317,9 @@ situation and defend the person who is being attacked.
 ### Not acting is a choice as well
 
 Always remember that not acting is just as much a choice as acting.  <span
-x="10-newcomers"/> said that your organization's culture is defined by the worst
-behavior it tolerates; I have come to believe that who we really are as
-individuals is defined in the same way.
+x="10-newcomers"/> said that an organization's culture is defined by the worst
+behavior it tolerates <cite>Gruenert2015</cite>; I have come to believe that who
+we really are as individuals is defined in the same way.
 
 </div>
 

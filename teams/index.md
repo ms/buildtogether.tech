@@ -2,10 +2,11 @@
 ---
 
 Most people learn better together than they do on their own
-<cite>Michaelson2004</cite>.  As long as their teams work well, they achieve
-higher grades, retain information longer, are less likely to drop out of school,
-and graduate with better communication skills and a better understanding of what
-will be expected of them in their subsequent careers.
+<cite>Michaelson2004</cite>.  As long as their teams <span i="teams!learning
+benefits of"work well</span>, they achieve higher grades, retain information
+longer, are less likely to drop out of school, and graduate with better
+communication skills and a better understanding of what will be expected of them
+in their subsequent careers.
 
 But that "as long as" is important.  A badly-run team is worse than no team at
 all, since people will waste hours or days arguing with one another, duplicating
@@ -22,38 +23,41 @@ are a good start; this chapter will look at what else you can do.
 
 I once heard an anthropologist ask, "How big is a sports team?"  When people
 said it depends on the sport, she explained that in fact they all have about
-half a dozen members.  Anything larger than that splits into smaller groups: the
-forwards and backs in rugby, the infield and outfield in baseball, and so on.
-She went on to explain that hunting parties in non-agricultural societies are
-usually that size as well, as are basic military units around the world (a
-platoon is two squads of six people).  Since we can only keep a handful of
-things in our short-term memory at once (<span x="thinking"/>) that's as big as
-a team can practically be.
+<span i="teams!effective size of">half a dozen members</span>.  Anything larger
+than that splits into smaller groups: the forwards and backs in rugby, the
+infield and outfield in baseball, and so on.  She went on to explain that
+hunting parties in non-agricultural societies are usually that size as well, as
+are basic military units around the world (a platoon is two squads of six
+people).  Since we can only keep a handful of things in our short-term memory at
+once (<span x="thinking"/>) that's as big as a team can practically be.
 
 The same observation applies to software development.  Three or four people can
 work tightly on a single piece of code, but when there are more they define some
-interfaces and develop in parallel.  Collaborative tools like issue trackers
-allow groups to coordinate more effectively, but the groups themselves stay the
-same size.
+interfaces and develop in parallel.  Collaborative tools like software portals
+(<span x="git-solo"/>) help groups coordinate more effectively, but the groups
+themselves stay the same size.
 
 Teams of three to five provide a good balance between skills and accountability.
 A team of two may not have enough breadth and background to tackle a large piece
 of work; more importantly, one or the other person is likely to take a dominant
-role.  If you put six people in a team, on the other hand, you may not be able
-to divide up the work in a way that will keep everyone engaged and busy.  Teams
-that size or larger also increase the odds that at least one member will be a
-hitchhiker, and make scheduling meetings much more difficult.
+role.  If you put six or eight people in a team, on the other hand, you may not
+be able to divide up the work in a way that will keep everyone engaged and busy.
+Teams that size or larger also increase the odds that at least one member will
+be a <span i="hitchhiker">hitchhiker</span>, and make scheduling meetings much
+more difficult.
 
-Many students prefer to select their teammates, and students with high grades
-tend to want teammates with a similar profile.  <cite>Post2020</cite> found that
-matching students by grade led to a small improvement in outcomes, with a larger
-impact on team grades than on individual ones. The same study found that members
-of self-selected teams were more likely to already have friends on their team,
-but that this was *negatively* correlated with outcomes (possibly because people
-are less willing to hold friends accountable for missed work).
+Many students prefer to <span i="teams!selecting">select</span> their teammates,
+and students with high grades tend to want teammates with a similar profile.
+<cite>Post2020</cite> found that matching students by grade led to a small
+improvement in outcomes, with a larger impact on team grades than on individual
+ones. The same study found that members of self-selected teams were more likely
+to already have <span i="teams!effect of having friends on">friends</span> on
+their team, but that this was *negatively* correlated with outcomes (possibly
+because people are less willing to hold friends accountable for missed work).
 
-One surprising finding is that having students with a range of grades in the
-same team either has no effect or improves outcomes *for everyone*
+One surprising finding is that having students with <span i="teams!benefits of
+diverse ability levels">a range of grades</span> in the same team either has no
+effect or improves outcomes *for everyone*
 <cite>Mosher2013,Donovan2018,Farland2019,Auvinen2020</cite>.  It's easy to see
 how this benefits teams of weak students: they are likely to get coaching from
 their stronger teammates. One theory for why it also helps stronger students is
@@ -66,38 +70,39 @@ and conquer strategy, effectively reducing the project to a set of parallel
 sub-projects handled by one person each. This may feel more efficient, but most
 of the benefits of working in a team are lost: there's less back-and-forth
 discussion of design issues, and little improvement in communication skills.
-Those may not be important to you, but if there is a final exam in your course
-with questions about the project work, your mark on it may depend on how much
-you know about your teammates' work (<span x="delivery"/>).
+Those may not be important to you at first, but if there is a final exam in your
+course with questions about the project work, your mark on it may depend on how
+much you know about your teammates' work (<span x="delivery"/>).
 
-The most powerful argument for instructors selecting teams, though, is, "That's
-how it works in the real world" <cite>Oakley2004</cite>.  You probably won't get
-to pick your colleagues if you join a company or an academic research
-group. Instead, you'll be put on a project and expected to work well with
-whoever else is on it. Your performance will depend as much on your ability to
-get along with others as it will on your raw technical ability, so you might as
-well start practicing those skills now.
+The most powerful argument for instructors selecting teams, though, is that's
+how it works in the real world <cite>Oakley2004</cite>.  You probably won't get
+to pick your colleagues if you join a company or an academic research group.
+Instead, you'll be put on a project and expected to work well with whoever else
+is on it. Your performance will depend as much on your ability to get along with
+others as it will on your raw technical ability, so you might as well start
+practicing those skills now.
 
-If instructors create teams, they should avoid isolating at-risk students.
-Women and members of racial minority groups are more likely to drop out of
-computer science than other students, particularly in first and second year, and
-one of the main reasons is feeling isolated or out of place. Research has shown
-shown that putting at-risk students together in the first couple of years can
-mitigate this problem <cite>Margolis2002</cite>. It is less necessary in upper
-years, since by then students have a stronger commitment to whatever program
-they're in, but it still helps to prevent some of the problems discussed in the
-next section.
+If instructors create teams, they should <span i="teams!isolating at-risk
+students">avoid isolating at-risk students</span>.  Women and members of racial
+minority groups are more likely to drop out of computer science than other
+students, particularly in first and second year, and one of the main reasons is
+feeling isolated or out of place. Research has shown shown that putting at-risk
+students together in the first couple of years can mitigate this problem
+<cite>Margolis2002</cite>. It is less necessary in upper years, since by then
+students have a stronger commitment to whatever program they're in, but it still
+helps to prevent some of the problems discussed in the next section.
 
-The biggest headache when instructors select teams is scheduling.  COVID-19 has
-made distributed work more normal, but the last university I taught at had three
-campuses spread across a large metropolitan area, and some students commuted an
-hour and a half each way to get to classes.  Instructors should therefore take
-students' schedules into account when forming teams. If the class is small, the
-simplest way is to get each student to fill in a weekly timesheet showing when
-they're available, and then group people who have large blocks of overlap. If
-the class is larger, a web-based calendaring tool may be easier. Instructors can
-even try to use whatever software the university uses to figure out course
-timetables, although that usually doesn't scale down to in-class scheduling.
+The biggest headache when instructors select teams is <span i="teams!taking
+schedules into account">scheduling</span>.  COVID-19 has made distributed work
+more normal, but the last university I taught at had three campuses spread
+across a large metropolitan area, and some students commuted an hour and a half
+each way to get to classes.  Instructors should therefore take students'
+schedules into account when forming teams. If the class is small, the simplest
+way is to get each student to fill in a weekly timesheet showing when they're
+available, and then group people who have large blocks of overlap. If the class
+is larger, a web-based calendaring tool may be easier. Instructors can even try
+to use whatever software the university uses to figure out course timetables,
+although that usually doesn't scale down to in-class scheduling.
 
 Another factor to take into account is that some people are naturally early
 birds, while others are night owls. Putting the two on the same team pretty much
@@ -115,16 +120,18 @@ on into working time or vice versa.
 
 ## Who Does What
 
-All right, you've formed a team: now what? How do you decide who does what? How
-do you make sure that everyone actually does what they're supposed to? And most
+All right, you've formed a team: now what? How do you decide <span
+i="teams!allocating work;allocating work!in teams">who does what</span>? How do
+you make sure that everyone actually does what they're supposed to? And most
 importantly, how do you do this fairly?
 
-Some jobs have higher social status than others, and what is or isn't considered
-important usually reflects racial and gender divides within society---so much so
-that sociologists use the phrase "[women's work][womens-work]" to describe the
-phenomenon. It is also known as "[quarterback syndrome][quarterback-syndrome]":
-two thirds of NFL players overall in the United States are Black, but only 17%
-of quarterbacks, which is the position on a team with the highest social status.
+Some jobs have <span i="allocating work!effect of social status">higher social
+status</span> than others, and what is or isn't considered important usually
+reflects racial and gender divides within society---so much so that sociologists
+use the phrase "[women's work][womens-work]" to describe the phenomenon. It is
+also known as "[quarterback syndrome][quarterback-syndrome]": two thirds of NFL
+players overall in the United States are Black, but only 17% of quarterbacks,
+which is the position on a team with the highest social status.
 
 Among programmers, writing operating systems or other software that is close to
 the hardware has higher status than building user interfaces; people doing the
@@ -133,8 +140,10 @@ latter, regardless of ability or value delivered to the employer. This creates a
 feedback loop: white and Asian men pursue certain career paths because they have
 high status (they want to be "real programmers"), and the fact that they are
 pursuing those careers is what maintains their higher status. It also creates a
-confirmation loop: since women and people of color get fewer chances to do
-certain tasks, they are less good at them, which "confirms" the initial bias.
+<span g="confirmation_loop" i="allocating work!confirmation loop; confirmation
+loop!allocating work">confirmation loop</span>: since women and people of color
+get fewer chances to do certain tasks, they are less good at them, which
+"confirms" the initial bias.
 
 All of this starts in the classroom. In mixed-gender teams, for example, female
 students are more likely to be given responsibility for taking notes, writing
@@ -148,15 +157,15 @@ programming---after all, why play a game that's unfair?
 
 ### In the beginning
 
-Programming was originally considered a female occupation, but as it became more
-lucrative it came to be viewed as "naturally" male.  <cite>Abbate2012</cite> and
-<cite>Ensmenger2012</cite> describe how this happened, while
-<cite>Hicks2018</cite> looks at how Britain lost its early dominance in
-computing by systematically discriminating against its most qualified workers:
-women.  Some men become quite uncomfortable whenever this is brought up, but I
-believe we need to learn how to discuss our own history if we want to be able to
-think clearly about how the things we're doing today might change society
-tomorrow.
+<span i="history of computing">Programming</span> was originally considered a
+female occupation, but as it became more lucrative it came to be viewed as
+"naturally" male.  <cite>Abbate2012</cite> and <cite>Ensmenger2012</cite>
+describe how this happened, while <cite>Hicks2018</cite> looks at how Britain
+lost its early dominance in computing by systematically discriminating against
+its most qualified workers: women.  Some men become quite uncomfortable whenever
+this is brought up, but we need to learn how to discuss our own history if we
+want to be able to think clearly about how the things we're doing today might
+change society tomorrow.
 
 </div>
 
@@ -164,21 +173,23 @@ tomorrow.
 
 There are many ways to divide project work between team members, and as
 <cite>Conway1968</cite> observed, the software you get will reflect the division
-of labor, a phenomenon known as <span
-g="sociotechnical_congruence">socio-technical congruence</span>
-<cite>Cataldo2008</cite>. In a <span g="modular_decomposition">modular
-decomposition</span>, each person is responsible for one part of the
-program. For example, one person might design and build the GUI, while another
-writes the database interface, and a third implements the business rules. Having
-people own parts of the code like this produces lower failure rates in industry
-<cite>Bird2011</cite>, but is generally a bad strategy in a course project:
+of labor, a phenomenon known as <span g="conways_law" i="Conway's Law">Conway's
+Law</span> or <span g="sociotechnical_congruence" i="sociotechnical
+congruence">socio-technical congruence</span> <cite>Cataldo2008</cite>. In a
+<span g="modular_decomposition" i="modular decomposition; allocating
+work!modular decomposition">modular decomposition</span>, each person is
+responsible for one part of the program. For example, one person might design
+and build the GUI, while another writes the database interface, and a third
+implements the business rules. Having people own parts of the code like this
+produces lower failure rates in industry <cite>Bird2011</cite>, but is generally
+a bad strategy in a course project:
 
 1.  It increases the risk of people from marginalized groups being assigned
     lower-status work.
 
-2.  It leads to <span g="big_bang">big bang integration</span>, in which all the
-    components meet each other for the first time right at the end of the
-    project. Big bang almost always fails.
+2.  It leads to <span g="big_bang" i="big bang integration">big bang
+    integration</span>, in which all the components meet each other for the
+    first time right at the end of the project. Big bang almost always fails.
 
 3.  Each team member only really understands one aspect of the project. This can
     hurt a lot if there's a final exam that checks for overall understanding.
@@ -186,26 +197,27 @@ people own parts of the code like this produces lower failure rates in industry
 4.  If someone drops out or fails to complete their module, the project as a
     whole will fail.
 
-<span g="functional_decomposition">Functional decomposition</span>, in which
-each person is responsible for one type of task, is usually more
-successful. With this strategy, one person does the testing, another handles the
-documentation, a third does the bulk of the coding, and the fourth takes care of
-build and deployment.  This guarantees that everyone understands most of the
-project by the end of the term. The obvious drawback is that each person only
-gets to hone one set of skills.
+<span g="functional_decomposition" i="functional decomposition; allocating
+work!functional decomposition">Functional decomposition</span>, in which each
+person is responsible for one type of task, is usually more successful. With
+this strategy, one person does the testing, another handles the documentation, a
+third does the bulk of the coding, and the fourth takes care of build and
+deployment.  This guarantees that everyone understands most of the project by
+the end of the term. The obvious drawback is that each person only gets to hone
+one set of skills.
 
-Another, less obvious, drawback stems from the fact that some activities are
+Another drawback stems from the fact mentioned above that some activities are
 viewed as being more prestigious than others. If the team decomposes work
 functionally, the self-appointed <span g="alpha_geek">alpha geeks</span> will
 usually snag the plum jobs like architecture and coding, leaving less appealing
-work to people who aren't as pushy or self-confident. This tends to reinforce
-existing inequities; it also tends to lower the team's overall grade, since
-there's often little relationship between how outspoken people are and how well
-they work.
+work to people who aren't as pushy, privileged, or self-confident. This tends to
+reinforce existing inequities; it also tends to lower the team's overall grade,
+since there's often little relationship between how outspoken people are and how
+well they work.
 
 <div class="callout" markdown="1">
 
-### The Dunning-Kruger Effect
+### The <span i="Dunning-Kruger effect">Dunning-Kruger effect</span>
 
 <cite>Kruger1999</cite> reported that people who know a subject well can usually
 estimate their knowledge accurately, but people who don't will often
@@ -218,23 +230,26 @@ they're actually reporting is their self-esteem.
 
 </div>
 
-<span g="feature_decomposition">Feature decomposition</span> is a variation on
+<span g="feature_decomposition" i="feature decomposition; allocating
+work!feature decomposition">Feature decomposition</span> is a variation on
 modular decomposition that works well in practice. Instead of owning an entire
 subsystem for the life of the project, each team member handles the design,
 coding, testing, and documentation for one small feature after another.  Working
-this way is central to agile development (<span x="process"/>)) and is a
-good way to cope with the never-ending timeslicing of student life.
+this way is central to agile development (<span x="process"/>)) and is a good
+way to cope with the never-ending timeslicing of student life.
 
-Finally, there is <span g="rotating_decomposition">rotating
-decomposition</span>: everyone does one task for a few weeks, then a different
-task for the new few, and so on. This is initially less productive in absolute
-terms than either of the preceding strategies, since the team has to pay for
-ramp-up several times over. In the long term, though, it outperforms the
-alternatives: it is more robust (having a team member drop out is less harmful),
-and if everyone on the team is familiar with every aspect of the software, they
-can all contribute to design and debugging sessions.
+Finally, there is <span g="rotating_decomposition" i="rotating decomposition;
+allocating work!rotating decomposition">rotating decomposition</span>: everyone
+does one task for a few weeks, then a different task for the new few, and so
+on. This is initially less productive in absolute terms than either of the
+preceding strategies, since the team has to pay for ramp-up several times
+over. In the long term, though, it outperforms the alternatives: it is more
+robust (having a team member drop out is less harmful), and if everyone on the
+team is familiar with every aspect of the software, they can all contribute to
+design and debugging sessions.
 
-Any of these strategies is better than <span g="chaotic_decomposition">chaotic
+Any of these strategies is better than <span g="chaotic_decomposition"
+i="chaotic decomposition; allocating work!chaotic decomposition">chaotic
 decomposition</span>, which unfortunately is the most common approach. If people
 have different ideas about who's supposed to do what, some things won't be done
 at all while others will be done several times over. (You can tell if your
@@ -251,19 +266,19 @@ there when you need it.
 
 No matter how you allocate work, make sure that everyone understands who is
 doing what, when. As <cite>Barke2019</cite> found, actual roles can be fluid;
-what matters most is that team members understand and accept their own roles and
-everyone else's.
+what matters most is that team members understand and accept their
+responsibilities and everyone else's at any particular moment.
 
 </div>
 
 ## Team Contracts
 
 No matter what decomposition you use, your team should write, sign, and submit a
-<span g="team_contract">team contract</span> outlining what everyone has agreed
-to do to make the project a success. In my experience, this is most effective if
-each team creates their own as part of their first assignment so that they
-actually have to think about what they're promising their teammates.  Here's an
-example:
+<span g="team_contract" i="team contract">team contract</span> outlining what
+everyone has agreed to do to make the project a success. In my experience, this
+is most effective if each team creates their own as part of their first
+assignment so that they actually have to think about what they're promising
+their teammates.  Here's an example:
 
 <blockquote markdown="1">
 
@@ -303,16 +318,20 @@ We, the members of Team 12, agree that:
 
 </blockquote>
 
-It may sound a little silly, like those "contracts" that some parents and
-children make up regarding chores and allowances, but it's very effective.
-First, people may have very different ideas about what being in a team means:
-some may be happy with a bare pass, while others may want the team to shoot for
-an A+ on everything. Knowing who wants what won't make these tensions go away,
-but it certainly helps focus the argument.
+It may sound a little silly, like the contracts that some parents and children
+make up regarding chores and allowances, but it's very effective.  First, people
+may have very different ideas about what being in a team means: some may be
+happy with a bare pass, while others may want the team to shoot for an A+ on
+everything. Knowing who wants what won't make these tensions go away, but it
+helps focus the argument.
 
 Drawing up a contract also prevents later disagreements about who actually
 promised or agreed to what. As with meetings, people often remember things
 differently; having a signed record is everyone's second-best defense.
+
+<div class="callout" markdown="1">
+
+### Who's it for?
 
 I still don't know if teams should have to give copies of their contracts to
 their instructors or not. On the one hand, it's a great way to let your
@@ -323,24 +342,27 @@ really cool idea is unlikely to work in practice. On the other hand, as soon as
 something has to be handed in, some students will write what they think the
 instructor wants to read, rather than what they actually think.
 
-Two last notes. First, most software development teams in industry and open
-source don't bother with contracts like these. There may be corporate guidelines
-on good citizenship, or performance metrics written into job descriptions, but
-in general people expect that if you're doing this for a living, you know what
-others can reasonably expect of you, and you will live up to those expectations.
+</div>
 
-Second, if your instructor has you draw up a team contract at the start of the
-project, then she can and should base part of your team's grade on how well you
-stuck to it. If she handed you a team contract, she should definitely base part
-of the grade on compliance. If there was no contract at all, though, it's unfair
-to turn around at the end of the project and ask people to rate one another,
-since they won't have known while they were working what they were going to be
-rated on.
+Most software development teams in industry and open source don't bother with
+contracts like these. There may be corporate guidelines on good citizenship, or
+performance metrics written into job descriptions, but in general people expect
+that if you're doing this for a living, you know what others can reasonably
+expect of you, and you will live up to those expectations.
 
-Asking people on a team to rate their peers is a common practice in industry.
-Instructors sometimes shy away from it because they're afraid students will
-gives everyone in the team a high rating in order to boost grades. However, this
-actually occurs fairly infrequently <cite>Kaufman2000</cite>.
+If your instructor has you draw up a team contract at the start of the project,
+then she can and should base part of your team's grade on how well you stuck to
+it. If she handed you a team contract, she should definitely base part of the
+grade on compliance. If there was no contract at all, though, it's unfair to
+turn around at the end of the project and ask people to rate one another, since
+they won't have known while they were working what they were going to be rated
+on.
+
+Asking people on a team to <span i="peer evaluation">rate their peers</span> is
+a common practice in industry.  Instructors sometimes shy away from it because
+they're afraid students will gives everyone in the team a high rating in order
+to boost grades. However, this actually occurs fairly infrequently
+<cite>Kaufman2000</cite>.
 
 What's more, as long as evaluation is based on observables, rather than
 personality traits, peer assessment can actually be as accurate as assessment by
@@ -356,8 +378,8 @@ When I first put these notes together fifteen years ago, I wrote a section
 titled "People to Watch Out For" that described a dozen people who make teams
 less productive in different ways. As several reviewers have pointed out since,
 it was arrogant and harmful: arrogant because what I was really saying was, "If
-you don't work the same way I do, then you're wrong," and harmful because it
-would make people who already doubt themselves do so even more.
+you don't work the way I do then you're wrong," and harmful because it would
+make people who already doubt themselves do so even more.
 
 If you read one of those earlier versions, I apologize. What I've tried to do
 below is describe ways in which I've seen people undermine themselves.  If you
@@ -372,17 +394,18 @@ Not everything need to be completely correct.
     Cinematic Universe, the answer is probably no.
 
 The devil doesn't need more advocates.
-:   We remember when contrarians turn out to be right because it happens so
-    infrequently, but because those moments are memorable, some people fall into
-    the habit of taking the opposite point of view no matter what is being
-    discussed.
+:   We remember when <span i="contrarian (why not to be)">contrarians</span>
+    turn out to be right because it happens so infrequently, but because those
+    moments are memorable, some people fall into the habit of taking the
+    opposite point of view no matter what is being discussed.
 
 You wouldn't have gotten this far if you weren't good at this.
-:   Some people have so little confidence in their ability despite their good
-    grades that they won't make any decision, no matter how small, until they
-    have checked with someone else. This is often a result of social
-    conditioning: in particular, women are more likely to doubt themselves,
-    while men often over-estimate their ability.
+:   Some people have <span i="self-confidence (lack of)">so little
+    confidence</span> in their ability despite their good grades that they won't
+    make any decision, no matter how small, until they have checked with someone
+    else. This is often a result of social conditioning: in particular, women
+    are more likely to doubt themselves, while men often over-estimate their
+    ability.
 
 Not everything worth doing should be done.
 :   For many years my favorite phrase was, "Why don't we?" Why don't we write a
@@ -390,32 +413,35 @@ Not everything worth doing should be done.
     invent our own little language for designing GUIs? This energy and
     enthusiasm are hard to argue with, but argue you must.  Otherwise, for every
     step you move forward, the project's goalposts will recede by two. This is
-    called <span g="feature_creep">feature creep</span>, and has ruined many
-    projects that might otherwise have delivered something small but useful.  My
-    solution these days is to keep a <span g="to_dont_list">to-don't</span> list
-    of things that would be fun and worthwhile, but that I'm *not* going to
-    tackle.
+    called <span g="feature_creep" i="feature creep (danger of)">feature
+    creep</span>, and has ruined many projects that might otherwise have
+    delivered something small but useful.  My solution these days is to keep a
+    <span g="to_dont_list">to-don't</span> list of things that would be fun and
+    worthwhile, but that I'm *not* going to tackle.
 
 Success is a habit.
 :   The more you follow a routine, the more your brain will be able to focus on
     the right things at the right time. <cite>Gawande2011</cite> found that
-    checklists improve results even for experts, and <span x="important"/>
-    talked about the value of to-do lists for managing your time. Making these a
-    habit reduce cognitive load (<span x="thinking"/>) and gives you more mental
-    capacity for dealing with the work itself.
+    <span i="checklists!benefits of">checklists</span> improve results even for
+    experts, and <span x="important"/> talked about the value of to-do lists for
+    managing your time. Making these a habit reduce <span i="cognitive
+    load!impact of checklists">cognitive load</span> (<span x="thinking"/>) and
+    gives you more mental capacity for dealing with the work itself.
 
 Acting like an asshole doesn't make you cool---it just makes you an asshole.
 :   I had a teammate once whose favorite phrase was, "That's stupid."  If anyone
-    complained, he said, "Lighten up---it's just the way I talk." The problem
-    with people using vulgar or aggressive language in everyday conversation is
-    that for many other people, that language has often been followed by
-    bullying or discrimination. They're right not to trust you if those are the
-    signals you choose to send.
+    complained, he said, "It's just the way I talk." The problem with people
+    using vulgar or aggressive language in everyday conversation is that for
+    many other people, that language has often been followed by bullying or
+    discrimination. They're right not to trust you if those are the signals you
+    choose to send. (And no, calling someone out for being vulgar or aggressive
+    is not the same as <span i="tone policing">tone policing</span>.)
 
 Sometimes it's hard to care.
 :   You have a teammate who doesn't read the assignment specs, hasn't bothered
     to learn the tools and libraries you're supposed to be using, and commits
     code that doesn't even compile.  Before treating them like a hitchhiker, try
     to find out if there's a reason for their behavior: if he's caring for a
-    family member or struggling with mental health challenges, the most
-    compassionate thing to do is to help them get back on their feet.
+    family member or struggling with <span i="mental health">mental
+    health</span> issues, the most compassionate thing to do is to help them get
+    back on their feet.

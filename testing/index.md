@@ -14,34 +14,38 @@ modify, which in turn makes the next piece of work easier to tackle.
 
 ## Unit Testing
 
-As the name suggests, a <span g="unit_test">unit test</span> checks the
-correctness of a single unit of software.  Exactly what constitutes a "unit" is
-subjective, but it typically means the behavior of a single function or method
-in one situation.
+As the name suggests, a <span g="unit_test" i="unit test">unit test</span>
+checks the correctness of a single unit of software.  Exactly what constitutes a
+"unit" is subjective, but it typically means the behavior of a single function
+or method in one situation.
 
 A unit test will typically have:
 
--   A <span g="fixture">fixture</span>, which is the thing being tested (e.g., an
+-   A <span g="fixture" i="fixture (in unit test); unit
+    test!fixture">fixture</span>, which is the thing being tested (e.g., an
     array of numbers). The fixture is typically a subset or smaller version of
     the data the function will typically process. In fact, it should be a reprex
     (<span x="communicate"/>), i.e., exactly the same kind of minimal example
     you would post online if you were asking for help.
 
--   An <span g="actual_result">actual result</span>, which is what the code
-    produces when given the fixture.
+-   An <span g="actual_result" i="actual result (in unit test); unit test!actual
+    result">actual result</span>, which is what the code produces when given the
+    fixture.
 
--   An <span g="expected_result">expected result</span> that the actual result is
+-   An <span g="expected_result" i="expected result (in unit test); unit
+    test!expected result">expected result</span> that the actual result is
     compared to.
 
 Good programmers often run informal unit tests interactively when debugging
 (<span x="tooling"/>), but they are much more valuable when they can be re-run
 at a moment's notice to make sure that the most recent changes haven't broken
 anything that was working a few minutes ago.  To do this, you can use a <span
-g="test_framework">test framework</span> (also called a <span
-g="test_runner">test runner</span>).  Dozens of these have been built for almost
-every language you can think of; most are very similar because they were
-inspired by the same forerunners. The most widely-used test framework for Python
-is called [`pytest`][pytest], which structures tests like this:
+g="test_framework" i="test framework; unit test!test framework">test
+framework</span> (also called a <span g="test_runner" i="test runner">test
+runner</span>).  Dozens of these have been built for almost every language you
+can think of; most are very similar because they were inspired by the same
+forerunners. The most widely-used test framework for Python is called
+[`pytest`][pytest], which structures tests like this:
 
 1.  Tests are put in files whose names begin with `test_`.
 2.  Each test is a function whose name also begins with `test_`.
@@ -52,15 +56,16 @@ The `pytest` library comes with a command-line tool that is also called
 directory whose names match the pattern `test_*.py`.  It then runs the test
 functions it finds in these files and summarizes their results.
 
-If running all the tests is taking so long that it's disrupting your
-concentration (<span x="important"/>), you can give `pytest` (and other test
-runners) arguments to specify which subset of tests to run. This speeds up
-development, but you should always re-run the entire <span g="test_suite">test
-suite</span> before committing your changes to version control. If the tests
-reveal that the change you have just made to one part of a program unexpectedly
-affects some other part, it's a sign that you should change your design to
-remove that long-range interaction: sooner or later (probably sooner) it will
-break again, and you may not catch it the second time around.
+If running all the tests is taking so long that it's disrupting your <span
+i="flow">flow</span> (<span x="important"/>), you can give `pytest` (and other
+test runners) arguments to specify which subset of tests to run. This speeds up
+development, but you should always re-run the entire <span g="test_suite"
+i="test suite; unit test!test suite">test suite</span> before committing your
+changes to version control. If the tests reveal that the change you have just
+made to one part of a program unexpectedly affects some other part, it's a sign
+that you should change your design to remove that long-range interaction: sooner
+or later (probably sooner) it will break again, and you may not catch it the
+second time around.
 
 <div class="callout" markdown="1">
 
@@ -73,12 +78,12 @@ almost a third of the programs they tested, some of which had been in daily use
 for two decades.
 
 While they weren't the first people to test with random data, their results
-sparked interest in <span g="fuzz_testing">fuzz testing</span> (or "fuzzing" for
-short), which is now a standard part of most testers' repertoire
-<cite>Zeller2019</cite>.  Despite this, <cite>Miller2020</cite> found that
-thirty years later, programs are still failing at about the same rate and for
-the same reasons.  <span x="debugging"/> discusses a technique for making fuzz
-testing even more useful.
+sparked interest in <span g="fuzz_testing" i="fuzz testing; unit
+test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
+standard part of most testers' repertoire <cite>Zeller2019</cite>.  Despite
+this, <cite>Miller2020</cite> found that thirty years later, programs are still
+failing at about the same rate and for the same reasons.  <span x="debugging"/>
+discusses a technique for making fuzz testing even more useful.
 
 </div>
 
@@ -88,19 +93,22 @@ When most developers hear the word "design", they think about either the
 application's structure or its user interface. If you don't think about how
 you're going to test your application while you're designing it, though, the
 odds are very good that you'll build something that cannot (or cannot easily) be
-tested.  Conversely, if you <span g="design_for_test">design for test</span>,
-it'll be a lot easier to check whether your finished application actually does
-what it's supposed to.
+tested.  Conversely, if you <span g="design_for_test" i="design for test; unit
+test!influence on software design">design for test</span>, it'll be a lot easier
+to check whether your finished application actually does what it's supposed to.
 
 Thinking about testability from the start turns out to be a good <span
-g="heuristic">heuristic</span> for design in general <cite>Feathers2004</cite>,
-since it forces you to think in terms of small components with well-defined
-interfaces. Not only can these be tested more easily, they can also be modified
-or replaced in isolation, which significantly reduces the probability of
-requiring rework in the naïve model presented at the start of this chapter.
+g="heuristic" i="software design!influence of testability; testability!influence
+on software design">heuristic</span> for design in general
+<cite>Feathers2004</cite>, since it forces you to think in terms of small
+components with well-defined interfaces. Not only can these be tested more
+easily, they can also be modified or replaced in isolation, which significantly
+reduces the probability of requiring rework in the naïve model presented at the
+start of this chapter.
 
 For example, let's consider a typical three-tier web site that uses the <span
-g="mvc">Model-View-Controller</span> (MVC) <span g="design_pattern">design
+g="mvc" i="model-view-controller architecture">Model-View-Controller</span>
+(MVC) <span g="design_pattern" i="design pattern!model-view-controller">design
 pattern</span>. The model, which is stored in a relational database, is the data
 that the application manipulates, such as purchase orders and game states. The
 controller encapsulates the application's business rules: who's allowed to
@@ -123,7 +131,8 @@ great places to get started.
 
 </div>
 
-The MVC architecture presents several challenges for testing:
+The MVC architecture presents several <span i="model-view-controller
+architecture!testing">challenges for testing</span>:
 
 Unit testing libraries are designed to run within a single process.
 :   As the word "library" implies, they're made up of code that's meant to be
@@ -150,9 +159,9 @@ actual program, this library passes the text of an HTTP response back to our
 script, which then checks that the right values are present (about which more in
 a moment). The library's job is to emulate the environment the web app under
 test would see if it was being invoked by the real server: environment variables
-are set, standard input and output are replaced by <span g="string_io">string
-I/O</span> objects, and so on, so that the application has no (easy) way to tell
-how it's being invoked.
+are set, standard input and output are replaced by <span g="string_io" i="string
+I/O">string I/O</span> objects, and so on, so that the application has no (easy)
+way to tell how it's being invoked.
 
 Why go through this rigmarole? Why not just have a top-level function in the web
 app that takes a URL, a dictionary full of header keys and values, and a string
@@ -184,43 +193,44 @@ login, then somewhere on the page there ought to be an element like this:
 </div>
 ```
 
-We can find that pretty easily with a <span g="css_selector">CSS selector</span>
-that looks for a `div` with the ID `currentuser`.  We can then move the `div`
-around without breaking any of our tests; if we were a little more polite about
-formatting its internals (i.e., if we used something symbolic to highlight the
-user name and trusted CSS to do the formatting), we'd be in even better shape.
+We can find that pretty easily with a <span g="css_selector" i="CSS selector!use
+in testing">CSS selector</span> that looks for a `div` with the ID
+`currentuser`.  We can then move the `div` around without breaking any of our
+tests; if we were a little more polite about formatting its internals (i.e., if
+we used something symbolic to highlight the user name and trusted CSS to do the
+formatting), we'd be in even better shape.
 
 We've still only addressed half of our overall problem, though: our web
 application is still talking to a database, and reinitializing it each time a
 test runs is slow.  We can solve this by moving the database into memory. Most
 applications rely on an external database server, which is a long-lived process
-that manages data on disk. An alternative is an <span
-g="embedded_database">embedded database</span>, in which the database
-manipulation code runs inside the user's application as a normal library;
-[SQLite][sqlite] is probably the best known of these.
+that manages data on disk. An alternative is an <span g="embedded_database"
+i="embedded database!use in testing">embedded database</span>, in which the
+database manipulation code runs inside the user's application as a normal
+library; [SQLite][sqlite] is probably the best known of these.
 
 The advantage of using an embedded database from a testing point of view is that
 it can be told to store data in memory, rather than on disk. This would be a
 silly thing to do in a production environment (after all, the whole point of a
 database is that it persists), but in a testing environment, an <span
-g="in_memory_database">in-memory database</span> can speed things up by a factor
-of thousands, since the hard drive never has to come into play. The cost of
-doing this is that you have to either commit to using one database in both
-environments, or avoid using the "improvements" that different databases have
-added to SQL.
+g="in_memory_database" i="in-memory database!use in testing">in-memory
+database</span> can speed things up by a factor of thousands, since the hard
+drive never has to come into play. The cost of doing this is that you have to
+either commit to using one database in both environments, or avoid using the
+"improvements" that different databases have added to SQL.
 
 <div class="callout" markdown="1">
 
 ### Mock objects
 
-A third choice is to replace the database with a <span g="mock_object">mock
-object</span>.  A mock object has the same interface as the function, object,
-class, or library that it replaces, but is designed to be used solely for
-testing.  For example, Node's `mock-fs` library provides the same functions as
-its standard filesystem library, but stores everything in memory.  This prevents
-tests that create or delete files from doing anything unfortunate and also makes
-tests much faster (since in-memory operations are thousands of times faster than
-operations that touch the disk).
+A third choice is to replace the database with a <span g="mock_object" i="mock
+object">mock object</span>.  A mock object has the same interface as the
+function, object, class, or library that it replaces, but is designed to be used
+solely for testing.  For example, Node's `mock-fs` library provides the same
+functions as its standard filesystem library, but stores everything in memory.
+This prevents tests that create or delete files from doing anything unfortunate
+and also makes tests much faster (since in-memory operations are thousands of
+times faster than operations that touch the disk).
 
 A mock object can also be designed to give pre-programmed responses to just a
 handful of specific requests:
@@ -263,21 +273,23 @@ pressed, the back end will respond the right way. But how do we test that the
 browser will call the right function with the right parameters when the button
 is clicked?
 
-The answer is to use a tool like [Selenium][selenium] to automate the browser's
-actions. Similar tools exist for desktop and mobile applications; all of them
-rely on the fact that the browser or the screen manager is just another piece of
-software. With a little bit of work, we can tell them to move the cursor to a
-specific (X,Y) location or a particular button or menu, to generate a mouse
-click, or to pretend that the user just typed the letter 'G'. Once we've done
-that, we can check that the web page has the right elements or that the database
-has a new record just as we would with back-end tests.
+The answer is to use a tool like [Selenium][selenium] to <span i="browser
+automation!for testing; unit test!browser automation">automate the browser's
+actions</span>. Similar tools exist for desktop and mobile applications; all of
+them rely on the fact that the browser or the screen manager is just another
+piece of software. With a little bit of work, we can tell them to move the
+cursor to a specific (X,Y) location or a particular button or menu, to generate
+a mouse click, or to pretend that the user just typed the letter 'G'. Once we've
+done that, we can check that the web page has the right elements or that the
+database has a new record just as we would with back-end tests.
 
-Most GUI testing frameworks have two other useful features. The first is record
-and playback: you can step through a workflow manually, and the tool can then
-produce a script that will repeat those steps. These scripts tend to be
-fragile---i.e., small changes to the UI will break them---but if you edit them
-to replace things like absolute (X,Y) coordinates with the logical labels of UI
-elements, you can build a lot of tests in a hurry.
+Most GUI testing frameworks have two other useful features. The first is <span
+i="browser automation!record and playback">record and playback</span>: you can
+step through a workflow manually, and the tool can then produce a script that
+will repeat those steps. These scripts tend to be fragile---i.e., small changes
+to the UI will break them---but if you edit them to replace things like absolute
+(X,Y) coordinates with the logical labels of UI elements, you can build a lot of
+tests in a hurry.
 
 The other thing GUI testing frameworks can do is automate your day-to-day work.
 Any time you have to go to one website to do the first part of a task, then copy
@@ -293,12 +305,13 @@ you might as well use it to make your life easier.
 Programs don't just have to do the right thing; they have to do it quickly
 enough to be usable.  How fast that needs to be depends on the program, but if a
 text editor takes nine seconds to display each character, people are going to
-write their reports some other way. You should therefore measure how long your
-tests take to run so that you can tell when the application is slowing down and
-do something about it.
+write their reports some other way. You should therefore measure <span i="unit
+test!performance">how long your tests take to run</span> so that you can tell
+when the application is slowing down and do something about it.
 
-The simplest kind of performance testing is simply to measure how much time
-elapses between the start and end of a test. You can do this manually:
+The simplest kind of <span i="performance testing!manual">performance
+testing</span> is simply to measure how much time elapses between the start and
+end of a test. You can do this manually:
 
 ```py
 from datetime import datetime
@@ -315,27 +328,27 @@ example, the `--durations` will report the slowest tests or the running time for
 all tests. If you want to average over several runs (which you should, because
 your computer is probably doing other things while it runs the tests, and those
 other things might slow it down) you can use something like
-[pytest-benchmark][pytest-benchmark].
+[`pytest-benchmark`][pytest-benchmark].
 
 What most frameworks *don't* do is save performance data in a format that is
-easy to diff.  I almost always do this so that I can easily tell how my latest
-changes have impacted running times; in practice, that means saving the output
-of `pytest --durations=0` as a text file in version control, and then using a
-one-page program I wrote to find tests whose performance has changed by more
-than a few percent. It's probably more than you need for a class project, but it
-has probably saved my users from a lot of unnecessary frustration.
+easy to diff.  I sometimes do this so that I can tell how my latest changes have
+impacted running times; in practice, that means saving the output of `pytest
+--durations=0` as a text file in version control, and then using a one-page
+program I wrote to find tests whose performance has changed by more than a few
+percent. It's probably more than you need for a class project, but it has
+probably saved my users from a lot of unnecessary frustration.
 
 <div class="callout" markdown="1">
 
 ### Profiling
 
-If you find a performance problem, the next step is to use a <span
-g="profiler">profiler</span> to figure out where the time is actually
-going. While a coverage tool checks which lines of code are executed, a profiler
-measures how long each line, block, or function takes to run. Most will report
-both the average time per run and the total time so that you can spot things
-that are fast but still affect performance because they are called hundreds of
-millions of times.
+If you find a performance problem, the next step is to use a <span g="profiler"
+i="profiler; unit test!profiling">profiler</span> to figure out where the time
+is actually going. While a coverage tool checks which lines of code are
+executed, a profiler measures how long each line, block, or function takes to
+run. Most will report both the average time per run and the total time so that
+you can spot things that are fast but still affect performance because they are
+called hundreds of millions of times.
 
 Some profilers work by interrupting the program every few hundred microseconds
 and seeing what line of code is being executed; others work by adding extra
@@ -355,9 +368,9 @@ very easy to see.
 The last thing you need (and you *do* need it) is some idea of how well you are
 testing.  How much of your code do your tests actually check, and what parts of
 your code aren't being tested?  To find out, you can check the <span
-g="code_coverage">code coverage</span> of your tests, i.e., measure the number
-of lines, statements, or possible paths through the code that the tests are
-actually exercising.
+g="code_coverage" i="coverage!code; code coverage; unit test!code coverage">code
+coverage</span> of your tests, i.e., measure the number of lines, statements, or
+possible paths through the code that the tests are actually exercising.
 
 If you are using Python, you can check your tests' coverage with the `coverage`
 library.  The command:
@@ -384,10 +397,11 @@ So how much testing is enough?  The answer depends on what the software is being
 used for.  If it is for a safety-critical application such as a medical device,
 you should aim for 100% code coverage, i.e., every single line in the
 application should be tested.  In fact, we should probably go further and aim
-for 100% <span g="path_coverage">path coverage</span> to ensure that every
-possible path through the code has been checked.  Similarly, if the software has
-become popular and is being used by thousands of people all over the world, we
-should probably check that it's not going to embarrass us.
+for 100% <span g="path_coverage" i="coverage!path; path coverage; unit test!path
+coverage">path coverage</span> to ensure that every possible path through the
+code has been checked.  Similarly, if the software has become popular and is
+being used by thousands of people all over the world, we should probably check
+that it's not going to embarrass us.
 
 But most of us don't write software like that, so requiring 100% code coverage
 is like asking for ten decimal places of accuracy when checking the voltage of a
@@ -400,10 +414,12 @@ be sure we were checking the result of each one correctly?
 
 ## What's Hard to Test
 
-Some things are intrinsically harder to test than others. Take visualizations:
-any change to the dimension of the plot, however small, can change many pixels
-in a <span g="raster_image">raster image</span>, and cosmetic changes such as
-moving the legend up a couple of pixels will cause all of the tests to fail.
+Some things are intrinsically harder to test than others. Take <span
+i="visualization!difficulty of testing; unit
+test!visualization">visualizations</span>: any change to the dimension of the
+plot, however small, can change many pixels in a <span g="raster_image">raster
+image</span>, and cosmetic changes such as moving the legend up a couple of
+pixels will cause all of the tests to fail.
 
 The simplest solution is therefore to test the data used to produce the image
 rather than the image itself.  Unless the drawing library itself contains bugs,
@@ -413,16 +429,17 @@ designing the library so that it can draw axes without data points, points
 without axes, and so on will minimize the number of tests you need to rewrite
 as the library changes.
 
-Computer graphics, data science, and anything else that uses floating-point
-arithmetic is also hard to test. One problem is that floating-point numbers are
-approximations, just as 0.33333333 is an approximation to 1/3.  When we work
-with them, we have to think in terms of error bars, just as scientists working
-in a lab do; rather than checking if the actual result is exactly the same as
-the expected result, we have to ask, "Are they close enough that I don't have to
-worry?" To answer that question, we have to decide what is "close enough". One
-part in a thousand?  One part in a million? Any two programmers will probably
-answer this question differently; if nothing else, writing tests forces us to be
-explicit about our tolerances.
+Computer graphics, data science, and anything else that uses <span
+i="floating-point arithmetic!difficulty of testing; unit test!floating-point
+arithmetic">floating-point arithmetic</span> is also hard to test. One problem
+is that floating-point numbers are approximations, just as 0.33333333 is an
+approximation to 1/3.  When we work with them, we have to think in terms of
+error bars, just as scientists working in a lab do; rather than checking if the
+actual result is exactly the same as the expected result, we have to ask, "Are
+they close enough that I don't have to worry?" To answer that question, we have
+to decide what is "close enough". One part in a thousand?  One part in a
+million? Any two programmers will probably answer this question differently; if
+nothing else, writing tests forces us to be explicit about our tolerances.
 
 Another challenge when testing numerical software is that we often don't know
 what the right answer is. If your program is supposed to simulate the

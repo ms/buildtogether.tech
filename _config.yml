@@ -133,6 +133,7 @@ kramdown:
       "coco-problem": ["https://coco-net.org/problem-woman-colour-nonprofit-organizations/", "The 'Problem' Woman of Colour in the Workplace"],
       "contact": ["mailto:gvwilson@third-bit.com", "Contact email"],
       "contributor-covenant": ["https://www.contributor-covenant.org", "Contributor Covenant"],
+      "conways-law": ["https://en.wikipedia.org/wiki/Conway%27s_law", "Conway's Law"],
       "cook-mary-rose": ["https://maryrosecook.com/", "Mary Rose Cook"],
       "creative-commons": ["https://creativecommons.org/", "Creative Commons"],
       "ctan": ["https://www.ctan.org/", "The Comprehensive TeX Archive Network"],

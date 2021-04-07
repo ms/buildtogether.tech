@@ -7,7 +7,8 @@ didn't finish her stuff until the very last minute, which meant that no one else
 had time to spot the two big mistakes she'd made.  And Surinder didn't deliver
 at all---again.  If something doesn't change, you're going to fail this course.
 
-Conflicts like this come up all the time.  We can deal with them in four ways:
+<span i="conflict (interpersonal)">Conflicts</span> like this come up all the
+time.  We can deal with them in four ways:
 
 1.  Cross our fingers and hope that things will get better on their own, even
     though they didn't the last three times.
@@ -23,7 +24,7 @@ Conflicts like this come up all the time.  We can deal with them in four ways:
     aren't going to miss another dinner with their family in order to clean up a
     mess that someone else made.
 
-4.  Take constructive steps to fix the underlying problem.
+4.  Fix the underlying problem.
 
 Most of us find the first option easiest, even though it doesn't fix the
 problem.  The fourth option is harder because we don't like confrontation.
@@ -42,28 +43,29 @@ vaccination][wapost-facebook-vaccine]. Similarly, one of the designers of the
 game *Ultima Online* [reported][ultima-online-players], "…we asked players what
 percentage of the player base were degenerate player killers.  Players responded
 with 10%.  The metrics told us the answer was closer to 0.1%." These findings
-and many others tell us that a small number of people cause a disproportionate
-amount of grief in our communities (online and otherwise), and that they seem
-much more common than they are because incidents of abuse and conflict loom
-large in our memories.
+and many others tell us that <span i="toxic people!rarity of">a small number of
+people</span> cause a disproportionate amount of grief in our communities
+(online and otherwise), and that they seem much more common than they are
+because incidents of abuse and conflict loom large in our memories.
 
 The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
 when a real disaster strikes, most people actually rise to the occasion. As
-<cite>Solnit2010</cite> describes, neighbors don't turn on each other in the
-aftermath of an earthquake or a hurricane---instead, they are more likely to
-look out for each other than under normal circumstances. That doesn't make for
-exciting viewing, though, and the powerful have always wanted the rest of us to
-believe that the only alternative to their rule is chaos.
+<cite>Solnit2010</cite> describes, <span i="toxic people!misperception
+of">neighbors don't turn on each other</span> in the aftermath of an earthquake
+or a hurricane---instead, they are more likely to look out for each other than
+under normal circumstances. That doesn't make for exciting viewing, though, and
+the powerful have always wanted the rest of us to believe that the only
+alternative to their rule is chaos.
 
 </div>
 
 ## What to Do
 
-The first rule for meetings in <span x="important"/> was to agree on what
-the rules are so that everyone knows what's expected of them. A common
-understanding of how to handle conflict helps in the same way; as with first aid
-training, having some idea of what to do makes you more likely to actually do
-something when the time comes.
+The first rule for meetings in <span x="important"/> was to agree on what the
+rules are so that everyone knows what's expected of them. A shared understanding
+of <span i="conflict (interpersonal)!handling">how to handle conflict</span>
+helps in the same way; as with first aid training, having some idea of what to
+do makes you more likely to actually do something when the time comes.
 
 Make sure you are not guilty of the same sin.
 :   You won't get very far complaining about someone else interrupting in
@@ -105,47 +107,59 @@ Talk with the offender.
 Escalate as soon as there's a second offense.
 :   People who don't have good intentions count on us giving them one last
     chance after another until the project is finished and they can go suck the
-    life out of their next victim.  *Don't fall into this trap.*  If someone
-    stole your laptop, you would report it right away.  If someone steals time,
-    it's foolish to give them a chance to do it again and again.
+    life out of their next victim.  *Don't fall into this trap.* If someone
+    stole your laptop, you would report it right away.  If someone steals your
+    time, it's foolish to give them a chance to do it again and again.
 
 In a course project, "escalation" means "taking the issue to the instructor".
 Of course, they have probably had dozens of students complain to them over the
 years about teammates not doing their share, and it isn't uncommon to have both
 halves of a pair say that they're doing all the work.  (This is yet another
-reason to use version control: it makes it easy to check who's actually written
-what.)  In order to get them to take us seriously and help us fix our problem,
-we should send them an email signed by several people that describes the problem
-and the steps we have already taken to resolve it.  Make sure the offender gets
-a copy as well, and ask the instructor to arrange a meeting to resolve the
-issue.
+reason to use version control: as described in <span x="git-solo"/>, it makes it
+easy to check who's actually written what.)  In order to get them to take you
+seriously and help you fix the problem, you should send them an email signed by
+several people that describes what's happened and the steps already taken.  Make
+sure the offender gets a copy as well, and ask the instructor to arrange a
+meeting to resolve the issue.
 
 One technique your instructor may ask you to use in a meeting of this kind is
-<span g="active_listening">active listening</span>. When one person makes a
-point, the person on the other side of the issue explains it back to them, as
-in, "So what I think Igor is saying is…" This confirms that the second person
-has actually paid attention to what the first person said. It can also defuse a
-lot of tension, since explaining your position back to you clearly forces the
-other person to see the world through your eyes, if only for a few moments.
+<span g="active_listening" i="active listening">active listening</span>. When
+one person makes a point, the person on the other side of the issue explains it
+back to them, as in, "So what I think Igor is saying is…" This confirms that the
+second person has actually paid attention to what the first person said. It can
+also defuse a lot of tension, since explaining your position back to you clearly
+forces the other person to see the world through your eyes, if only for a few
+moments.
 
 <div class="callout" markdown="1">
 
 ### Hitchhikers
 
-<span g="hitchhiker">Hitchhikers</span> who show up but never actually do
-anything are particularly difficult to manage, in part because they are usually
-very good at appearing reasonable.  They will nod as we present our case, then
-say, "Well, yes, but…" and list a bunch of minor exceptions or cases where
-others on the team have also fallen short of expectations.  Tracking progress
-and contributions is essential for handling them.  If we can't back up our
-complaint, our instructor will likely be left with the impression that the whole
+<span g="hitchhiker" i="hitchhiker">Hitchhikers</span> who show up but never
+actually do anything are particularly difficult to manage, in part because they
+are usually very good at appearing reasonable.  They will nod as you present our
+case, then say, "Well, yes, but…" and list a bunch of minor exceptions or cases
+where others on the team have also fallen short of expectations.  Tracking
+progress and contributions is essential for handling them.  If you can't back up
+your complaint, the instructor may be left with the impression that the whole
 team is dysfunctional.
 
 </div>
 
+Finally, it's important to recognize that good principles sometimes conflict
+<cite>Berlin2000</cite>.  For example, suppose that a student has a medically
+diagnosed attention disorder that requires them to talk to themselves quite
+loudly while programming in order to stay focused, but other members of their
+team find this very distracting.  Asking the student in question to program
+somewhere else would be punishing them for something they can't control, while
+asking everyone else to put on headphones would make their interaction more
+difficult and their work less fun.  There might not be a solution that satisfies
+everyone; in such cases, the best guide is to do the kindest thing possible.
+
 ## Escalation
 
-What can we do if conflict becomes more personal and heated?
+What can you do if <span i="conflict (interpersonal)!escalating">conflict</span>
+becomes more personal and heated?
 
 1.  Be short, simple, and firm.
 
@@ -167,31 +181,21 @@ What can we do if conflict becomes more personal and heated?
 [Captain Awkward][captain-awkward] has useful advice for discussions like these,
 and [Charles' Rules of Argument][charles-rules] are very useful online.
 
-Finally, it's important to recognize that good principles sometimes conflict
-<cite>Berlin2000</cite>.  For example, suppose that a student has a medically
-diagnosed attention disorder that requires them to talk to themselves quite
-loudly while programming in order to stay focused, but other members of their
-team find this very distracting.  Asking the student in question to program
-somewhere else would be punishing them for something they can't control, while
-asking everyone else to put on headphones would make their interaction more
-difficult and their work less fun.  There might not be a solution that satisfies
-everyone; in such cases, the best guide is to do the kindest thing possible.
+Sometimes, though, it isn't just one person on the team who's a problem.
+Sometimes, the whole team is dysfunctional. In the mid-1990s, for example, I
+worked in a data visualization startup. Individually, we were all smart, decent
+people. Put us together, though, and somehow our IQs and personalities canceled
+out, so that collectively we were as dumb as a sack full of hammers.
 
-## Irreconcilable Differences
-
-Sometimes, it isn't just one person on the team who's a problem.  Sometimes, the
-whole team is dysfunctional. In the mid-1990s, for example, I worked in a data
-visualization startup. Individually, we were all smart, decent people. Put us
-together, though, and somehow our personalities and IQs canceled out, so that
-collectively we were as dumb as a sack full of hammers.
-
-Instructors can allow for this by announcing at the start of the course that
-teams will be dissolved and re-formed halfway through the project, *unless*
-every member on the team submits a separate signed request to stay together.
-There's a bit of psychology here: if people are required to ask for their team
-to be dissolved, they will often think, "It's more trouble than it's worth, I'll
-just put up with it." If dissolution is the default, though, then students won't
-be inhibited by any stigma attached to being the one who caused trouble.
+There's not a lot you can do in cases like this except <span
+i="teams!dissolving">start over</span>.  Instructors can allow for this by
+announcing at the start of the course that teams will be dissolved and re-formed
+halfway through the project, *unless* every member on the team submits a
+separate signed request to stay together.  There's a bit of psychology here: if
+people are required to ask for their team to be dissolved, they will often
+think, "It's more trouble than it's worth, I'll just put up with it." If
+dissolution is the default, though, then students won't be inhibited by any
+stigma attached to being the one who caused trouble.
 
 Students also usually understand that dissolving their team and forming a new
 one takes time that could be invested in earning a higher grade.  In practice,
