@@ -39,9 +39,8 @@ how to do it more efficiently.  This is why I think that lab exams should be
 part of project courses, i.e., that you should be required to demonstrate to
 your instructor that you're able to use a build manager or a debugger.  People
 learn how to use version control because they're required to in order to submit
-work for grading; if you are required to submit a screen recording of you
-finding a bug using the tools in your IDE as part of an assignment, it will help
-you in the long run.
+work for grading; if you are required to submit a screen recording of you using
+particular tools as part of an assignment, it will help you in the long run.
 
 </span>
 
@@ -193,9 +192,10 @@ if you are looking for a project to tackle, this would be a good one.
 You might already have a favorite editor. If you're like most programmers, you
 will change jobs, languages, operating systems, and nationality before you'll
 switch to another, because it has taken weeks or months for your hands to master
-the current one. However, if it is not an <span g="ide">integrated development
-environment</span> (IDE) that combines an editor with other programming tools
-then getting work done will take longer and hurt more than it needs to.
+the current one. However, if it is not an <span g="ide" i="IDE">integrated
+development environment</span> (IDE) that combines an editor with other
+programming tools then getting work done will take longer and hurt more than it
+needs to.
 
 IDEs were invented in the 1970s, but didn't really catch on until Borland
 released Turbo Pascal in the 1980s.  They usually include these tools:

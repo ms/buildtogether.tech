@@ -302,8 +302,9 @@ Report the attack.
     usually (eventually) take what steps they can once they know there is a
     problem. They are more inclined to take real action against the attacker if
     they believe that you might speak publicly about what has happened and
-    thereby damage their reputation, so never agree to a non-disclosure
-    agreement that would prevent you from doing so (<span x="fairness"/>).
+    thereby damage their reputation, so never agree to a <span i="non-disclosure
+    agreement!abuse of">non-disclosure agreement</span> that would prevent you
+    from doing so (<span x="fairness"/>).
 
 Above all, remember that it's not just about you. We don't just wear masks to
 prevent ourselves from becoming infected: we also wear them so that we will not

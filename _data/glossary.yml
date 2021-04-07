@@ -400,6 +400,15 @@
       A [breakpoint](#breakpoint) that only pauses the program if a
       user-specified condition is met (e.g., if some variable's value is zero).
 
+- key: confirmation_loop
+  en:
+    term: "confirmation loop"
+    def: >
+      A feedback loop in which a person does something well because they've had
+      opportunities to practice, which leads to them being given more
+      opportunities and more practice, thereby "confirming" the original
+      decision to give them the work.
+
 - key: conflict_git
   en:
     term: "conflict"
@@ -435,6 +444,13 @@
     term: "control group"
     def: >
       In experimental design, the subject that *don't* receive a treatment.
+
+- key: conways_law
+  en:
+    term: "Conway's Law"
+    def: >
+      States that [the structure of an application reflects the structure of the
+      organization that produced it][conways-law].
 
 - key: utc
   en:
@@ -748,7 +764,7 @@
 
 - key: extraneous_load
   en:
-    term: "extraneous-load"
+    term: "extraneous load"
     def: >
       Any [cognitive load](#cognitive_load) that distracts from learning.
 
@@ -801,6 +817,14 @@
     def: >
       To pretend not to know something.  People who have broken rules will
       sometimes pretend not to have known that the rule existed.
+
+- key: feigning_surprise
+  en:
+    term: "feigning surprise"
+    def: >
+      To pretend to be surprised, as in, "Oh, I thought *everyone* knew about X."
+      It isn't always intended to belittle the listener, but it usually has that
+      effect.
 
 - key: fidelity
   en:
@@ -927,6 +951,13 @@
     def: >
       A rule that isn't guaranteed to solve a problem, but which frequently
       produces a good or good enough solution.
+
+- key: hippocratic_license
+  en:
+    term: "Hippocratic License"
+    def: >
+      A software license that allows people to use and share software so long
+      as they [do not violate human rights][hippocratic-license].
 
 - key: hitchhiker
   en:

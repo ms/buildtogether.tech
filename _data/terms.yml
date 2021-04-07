@@ -186,8 +186,6 @@ fairness:
 - key: unconscious_bias
   term: unconscious bias
 git-solo:
-- key: branch_git
-  term: branch
 - key: branch_per_feature_workflow
   term: branch-per-feature workflow
 - key: centralized_system
@@ -210,6 +208,8 @@ git-solo:
   term: pull
 - key: push_git
   term: push
+- key: rebase_git
+  term: rebase
 - key: remote_git
   term: remote
 - key: repository
@@ -221,12 +221,12 @@ git-solo:
 git-team:
 - key: code_review
   term: code review
+- key: feigning_surprise
+  term: feigning surprise
 - key: fork_git
   term: fork
 - key: pull_request
   term: pull request
-- key: rebase_git
-  term: rebase
 glossary: []
 important:
 - key: adhd
@@ -263,6 +263,8 @@ ip:
   term: copyright
 - key: gpl
   term: GNU Public License
+- key: hippocratic_license
+  term: Hippocratic License
 - key: intellectual_property
   term: intellectual property
 - key: license
@@ -407,6 +409,10 @@ teams:
   term: big-bang integration
 - key: chaotic_decomposition
   term: chaotic decomposition
+- key: confirmation_loop
+  term: confirmation loop
+- key: conways_law
+  term: Conway's Law
 - key: feature_creep
   term: feature creep
 - key: feature_decomposition
@@ -486,7 +492,7 @@ thinking:
 - key: expert_blind_spot
   term: expert blind spot
 - key: extraneous_load
-  term: extraneous-load
+  term: extraneous load
 - key: formative_assessment
   term: formative assessment
 - key: germane_load

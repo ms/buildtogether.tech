@@ -370,11 +370,11 @@ i="standard project files; project organization!standard files">handful of
 standard files</span> in its root directory.  These may have UPPERCASE names
 without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
 
-`README`
+<span i="README file">`README`</span>
 :   A brief overview of the project that often serves as its home page on
     GitHub.
 
-`CONTRIBUTING`
+<span i="CONTRIBUTING file">`CONTRIBUTING`</span>
 :   How to contribute to the project. Should people file an issue when they have
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
@@ -382,25 +382,25 @@ without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
     x="fairness"/>); in my experience, they also reduce friction between team
     members.
 
-`CONDUCT`
+<span i="CONDUCT file">`CONDUCT`</span>
 :   The project's Code of Conduct, i.e., how people are required to treat one
     another.  As we'll discuss below, "be polite" or "use your common sense"
     aren't enough.
 
-`LICENSE`
+<span i="LICENSE file">`LICENSE`</span>
 :   Describes who can do what with the project materials.  We discuss various
     licenses below as well.
 
 ## Code of Conduct
 
-In order to get the most out of a team, it must do more than *allow* people to
+In order to get the most out of a team, it must do more than allow people to
 contribute: it has to be clear that the teams *wants* contributions.  Saying
 "the door is open" is not enough, since many people have painful personal
-experience of being less welcome than others.  In order to create a truly
-welcoming environment for everyone, the project must explicitly acknowledge that
-some people are treated unfairly in society and actively take steps to remedy
-this.  Doing this isn't just compassionate: it essential to making the team more
-diverse, which makes it more productive <cite>Zhan2020</cite>:
+experience of being less welcome than others.  A project must therefore
+acknowledge that some people are treated unfairly in society and actively take
+steps to remedy this.  Putting a <span i="Code of Conduct">Code of
+Conduct</span> in place isn't just compassionate: it also makes the team more
+diverse, which in turn makes it more productive <cite>Zhan2020</cite>:
 
 -   It reassures people who have experienced harassment or unwelcoming behavior
     before that this project takes inclusion seriously.
@@ -411,13 +411,15 @@ diverse, which makes it more productive <cite>Zhan2020</cite>:
     angry arguments starting with, "But *I* thought that…"
 
 -   It prevents people who misbehave from <span g="feigning_ignorance">feigning
-    ignorance</span>, i.e., claiming after they do something offensive that they
-    didn't realize it was out of bounds.  (See also <span
-    g="schrodingers_asshole">Schrödinger's asshole</span>.)
+    ignorance</span>, i.e., claiming after they say or do something offensive
+    that they didn't realize it was out of bounds or that they were "just
+    kidding". (See also <span g="schrodingers_asshole">Schrödinger's
+    asshole</span>.)
 
 Having a Code of Conduct is an empty gesture if you don't also have a way to
 respond to violation.  <cite>Aurora2018</cite> describes how, and learning the
-basics is a good first step toward becoming an ally (<span x="fairness"/>).
+basics is a good first step toward becoming an <span i="ally">ally</span> (<span
+x="fairness"/>).
 
 <div class="callout" markdown="1">
 
@@ -425,10 +427,9 @@ basics is a good first step toward becoming an ally (<span x="fairness"/>).
 
 In the early 2010s a lot of open source developers resisted the adoption of
 codes of conduct, saying that they were unnecessary or that that they infringed
-freedom of speech.  What they usually meant, and what the few people still
-arguing against them usually mean today, is that thinking about how they might
-have benefited from past inequity makes them feel uncomfortable.  If having a
-Code of Conduct leads to them going elsewhere, that will probably make the
-project run more smoothly.
+freedom of speech.  What they usually meant (and what the few people still
+arguing against them usually mean) is that thinking about how they have
+benefited from past inequity makes them feel uncomfortable.  If having a Code of
+Conduct makes them decide to go elsewhere, your project will be better off.
 
 </div>

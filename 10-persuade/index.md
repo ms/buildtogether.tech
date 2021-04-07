@@ -1,8 +1,9 @@
 ---
 ---
 
-Persuading people to do things is almost as essential to teamwork as running a
-good meeting. These ten simple rules have served me well.
+<span i="persuasion">Persuading</span> people to do things is almost as
+essential to teamwork as running a good meeting. These ten simple rules have
+served me well.
 
 1. Don't.
 :   If you have to talk someone into something, odds are that they don't really
@@ -12,19 +13,18 @@ good meeting. These ten simple rules have served me well.
 
 2. Be kind.
 :   I don't know if there actually is a book called *Secret Tricks of the Ninja
-    Sales Masters*, but if there is, it probably tells readers that doing
-    something for a potential customer creates a sense of obligation, which in
-    turn increases the odds of a sale.  That may work, but it only works once
-    and it's a skeezy thing to do even then.  If, on the other hand, you are
-    genuinely kind and help other people because it's what good people do, you
-    just might inspire them to be good people too.
+    Sales Masters*, but if there is, it probably tells readers that creating a
+    sense of obligation or guilt increases the odds of a sale.  That may work,
+    but it only works once and it's a skeezy thing to do even then.  If, on the
+    other hand, you are genuinely kind and help other people because it's what
+    good people do, you just might inspire them to be good people too.
 
 3. Appeal to the greater good.
 :   If you open by talking about what's in it for them, you are signalling that
     they should think of their interaction with you as a commercial exchange of
     value to be bargained over.  Instead, start by explaining how whatever you
     want them to help with is going to make the world a better place, and *mean
-    it*.  (If what you're proposing *isn't* going to make the world a better
+    it*.  (If what you're proposing isn't going to make the world a better
     place, propose something better.)
 
 4. Start small.  Most people are understandably reluctant to dive into things
@@ -33,14 +33,15 @@ good meeting. These ten simple rules have served me well.
     surprised or disappointed if that's where things end: everyone is busy or
     tired or has projects of their own, or maybe just has a different mental
     model of how collaboration is supposed to work.  Remember the <span
-    g="90_9_1_rule">90-9-1 rule</span> and set your expectations accordingly.
+    g="90_9_1_rule" i="90-9-1 rule">>90-9-1 rule</span> and set your
+    expectations accordingly.
 
 5. Don't build a project: build a community.
-:   I used to belong to a softball team that never actually played softball: our
-    "games" were just an excuse for us to enjoy each other's company.  You
-    probably don't want to go quite that far, but sharing a cup of tea with
-    someone or celebrating the birth of their first grandchild can get you
-    things that no reasonable amount of money can.
+:   There is a softball team here in Toronto that never actually plays games:
+    their practices are just an excuse for members to enjoy each other's
+    company.  You probably don't want to go quite that far, but sharing a cup of
+    tea with someone or celebrating the birth of their first grandchild can get
+    you things that no reasonable amount of money can.
 
 6. Establish a point of connection.
 :   "I was speaking to X" or "we met at Y" gives them context, which in turn

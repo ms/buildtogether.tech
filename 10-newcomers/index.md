@@ -58,9 +58,9 @@ of practice</span> <cite>Lave1991,Wenger1999</cite> with three characteristics:
 
 5. Have and enforce a code of conduct.
 :   We discussed this rule in <span x="starting"/>, but it bears repeating here.
-    Your project's culture is defined by the worst behavior it tolerates, and
-    every instance of bad behavior will drive current and potential contributors
-    away.
+    Your project's culture is defined by the worst behavior it tolerates
+    <cite>Gruenert2015</cite>, and every instance of bad behavior will drive
+    current and potential contributors away.
 
 6. Develop forms of legitimate peripheral participation.
 :   Newcomers become members of a community by participating in simple, low-risk
