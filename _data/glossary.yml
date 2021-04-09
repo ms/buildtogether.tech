@@ -712,6 +712,13 @@
       Checking the types of values as the program is running.  The term is used
       in contrast with [static typing](#static_typing).
 
+- key: effort_importance_grid
+  en:
+    term: "effort-importance grid"
+    def: >
+      A project planning tool that classifies work items according to how much
+      effort they will require and how important they are.
+
 - key: elevator_pitch
   en:
     term: "elevator pitch"

@@ -196,6 +196,29 @@
   doi: 10.1145/3377811.3380333
   year: 2020
 
+- key: Kuchner2011
+  author:
+  - Marc J. Kuchner
+  isbn: 978-1597269940
+  kind: book
+  publisher: Island Press
+  title: "Marketing for Scientists: How to Shine in Tough Times"
+  year: 2011
+
+- key: Lamba2020
+  author:
+  - Hemank Lamba
+  - Asher Trockman
+  - Daniel Armanios
+  - Christian Kästner
+  - Heather Miller
+  - Bogdan Vasilescu
+  booktitle: "Proc. ESEC/FSE'20"
+  doi: 10.1145/3368089.3409705
+  kind: inproceedings
+  title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
+  year: 2020
+
 - key: Lin2021
   author:
   - Xinyue Lin

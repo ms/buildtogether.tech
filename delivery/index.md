@@ -1,8 +1,8 @@
 ---
 ---
 
-In most courses, once you submit an assignment you never have to work on it
-again. Project courses are different:
+In most courses you never have to work on an assignment again once you submit
+it.  Most project courses are different:
 
 1.  Assignments are cumulative, i.e., each one builds on the ones before it.
 
@@ -24,38 +24,37 @@ At a minimum, your finished project should have:
     help newcomers orient themselves.
 
 1.  An architectural overview, including a block diagram of the major components
-    and a walkthrough of the processing cycle.
+    and a walkthrough of how it behaves.  (I prefer the <span i="use-case
+    map">use-case maps</span> introduced in <span x="design"/> for this.)
 
 1.  An installation guide.
 
-1.  An up-to-date set of issues. If the work has been done, the issue should be
+1.  An up-to-date set of <span i="issue tracker!as course
+    deliverable">issues</span>. If the work has been done, the issue should be
     closed; if not, it should describe the state of the bug (or enhancement, or
     question) well enough for someone to know where to start work.
 
 Another possible deliverable is a <span i="package!as course
 deliverable">package</span> that other people can download and install (<span
 x="design"/>). It isn't an either/or choice: every good package has a home page,
-a design description, installation instructions, and so on. If you are doing a
-data analysis project instead of straight software engineering, a package with
-some useful datasets and functions to work with them is a great goal to work
-toward.
+installation instructions, and so on.
 
-<span class="callout" markdown="1">
+<div class="callout" markdown="1">
 
 ## Bugs
 
 It's OK to have bugs in your code when you finish your project---after all,
 almost all products do. This isn't because developers are lazy or careless;
 instead, it's a matter of economics.  If you're near the end of the development
-cycle, it may be riskier to fix a minor bug (and in doing so, introduce new
-bugs) than to document its existence and provide a workaround.
+cycle, it may be riskier to fix a minor bug (and introduce new bugs in doing so)
+than to document its existence and provide a workaround.
 
-</span>
+</div>
 
 Depending on the structure of your course, you may be asked to figure out how
-much you would charge for the software you have produced.  It's a complicated
-question, and out of scope for this book, but <cite>Davidson2009</cite> is a
-good short introduction to the topic.
+much you would charge for the software you have produced.  The answer is out of
+scope for this book, but <cite>Davidson2009</cite> is a good short introduction
+to the topic.
 
 You may also be asked to do some <span g="marketing"
 i="marketing">Marketing</span>, which is the process of figuring out how to tell
@@ -63,8 +62,8 @@ the people you're trying to help how you can help them. This doesn't mean
 spamming people with discount coupons; instead, it means explaining the problem
 that the product will solve in ways that will reach the intended users.  I have
 been more startups fail because of poor marketing than because of poor
-programming; it is also out of scope for this book, but <cite>Kuchner2011</cite>
-is a good short introduction.
+programming; it is also out of scope for this book, but <cite>Jackson2017</cite>
+is a good introduction.
 
 ## Version Numbers
 
@@ -131,10 +130,11 @@ reporting bugs.
 
 ## The Final Report
 
-The other thing student projects usually have to deliver is some kind of final
-report. Most students short-change this part of the course, in part because it
-comes at the end, but also because they think, "I want to write code, not a
-novel." However, consider this from <cite>Fogel2005</cite>:
+The other thing student projects usually have to deliver is some kind of <span
+i="final report">final report</span>. Most students short-change this part of
+the course, in part because it comes at the end, but also because they think, "I
+want to write code, not a novel." However, <cite>Fogel2005</cite> had this to
+say:
 
 <blockquote markdown="1">
 
@@ -148,9 +148,9 @@ significant effect on a project's direction and momentum.
 
 </blockquote>
 
-End-of-project reports can range from half a dozen to fifty pages, depending on
-the course's structure and the instructor's whims.  Regardless of their size,
-they will usually include the following:
+Final reports can range from half a dozen to fifty pages, depending on the
+course's structure and the instructor's whims.  Regardless of their size, they
+will usually include the following:
 
 Title page, abstract, and table of contents.
 :   The first identifies the document; the second summarizes it in three or four
@@ -165,12 +165,12 @@ An introduction that orients the reader.
     *next* team will need in order to continue the project.
 
 A summary of what was accomplished.
-:   This should not just summarize the A&E (<span x="process"/>), although
-    that's a good place to start. Instead, it should describe the system's
-    architecture, any features of its data formats, class structure, or UI that
-    won't immediately make sense to a knowledgeable observer, and so on (span
-    x="design"/>). As with the introduction, the target audience is the next
-    team to work on the project.
+:   This should not just summarize the analysis & estimation (<span
+    x="process"/>), although that's a good place to start. Instead, it should
+    describe the system's architecture, any features of its data formats, class
+    structure, or UI that won't immediately make sense to a knowledgeable
+    observer, and so on (span x="design"/>). As with the introduction, the
+    target audience is the next team to work on the project.
 
 A summary of the current state of the project.
 :   This should include high-level criticism ("The persistence layer works fine,
@@ -181,42 +181,46 @@ A summary of the current state of the project.
 An evaluation of the project.
 :   What did the team learn about teamwork? What went well? What should they
     never do again?  Don't bother including generic statements about the
-    importance of version control ; instead, conduct a proper post mortem (as
+    importance of version control; instead, conduct a proper post mortem (as
     described below) and present as honest a summary of its findings as
-    possible.
+    possible.  (The checklists in <span x="project-eval"/> and <span
+    x="personal-eval"/> may be useful starting points.)
 
 References.
 :   Include books, papers, and links the team found helpful so that whoever
     inherits the project doesn't have to search for them again.
 
 This report is neither a user's guide nor maintenance documentation. Instead, it
-is like the end-of-contract reports I had to prepare when I was a consultant.
-What had I done to earn my customers' money? What should the next person (who
-might not be me) do? What could I tell them that would save them time? Internal
-documentation doesn't help with these questions, and anyway, the team should be
-producing that as they go along, not all in a rush at the end of term.
+is like the end-of-contract reports I prepare when I'm consulting.  What have I
+done to earn my customers' money? What should the next person (who might not be
+me) do? What can I tell them that would save them time?
 
 So much for what the final report should include; how should you actually go
 about writing it? It will probably include:
 
 -   paragraphs of text;
+
 -   equations;
+
 -   source code;
+
 -   vector graphics (such as graphs and line drawings); and
+
 -   raster graphics (such as screen shots).
 
-Lots of tools exist that will handle these, but they all have their flaws. You
+Lots of tools exist that will handle these, but they all have shortcomings.  You
 can create your report as a set of wiki pages or Google Docs, but they don't
-flag conflicts between concurrent authors.
+flag conflicts between concurrent authors.  On the other end of the spectrum are
+WYSIWYG editors like <span i="Microsoft Word">Microsoft Word</span> and <span
+i="LibreOffice">LibreOffice</span>. Unfortunately, these get in the way at least
+as much as they help:
 
-On the other end of the spectrum are WYSIWYG editors like Microsoft Word and
-OpenOffice. Unfortunately, these get in the way at least as much as they help:
+1.  They store documents in non-text formats that <span i="version
+    control!inability to handle office documents">version control systems can't
+    diff or merge</span>.
 
-1.  They store documents in non-text formats that version control systems can't
-    diff or merge.
-
-2.  It's hard to write scripts to process documents, so inclusions (such as code
-    fragments) have to be done manually.
+2.  It's hard to write scripts to process these documents, so inclusions (such
+    as code fragments) have to be done manually.
 
 3.  Neither one handles equations very well (although both are getting better).
 
@@ -224,25 +228,28 @@ OpenOffice. Unfortunately, these get in the way at least as much as they help:
     italic") rather than logical styles ("making this a book title"), which
     makes it difficult to keep the document consistent over time.
 
-For these reasons, most teams format their reports as a set of Markdown pages
-under version control and use a <span i="static site generator">static site
-generator</span> (<span x="communicate"/>) to turn them into a report. That
-solves the problem of multiple authors (Markdown is a text format, so diff and
-merge will work), and if you know a little CSS, you can make it look as pretty
-as you want. Diagrams and screenshots work well, and you can embed
-[MathML][mathml] for equations if you need to.
+For these reasons, most teams format their reports as a set of <span
+i="Markdown!for final report">Markdown</span> pages under version control and
+use a <span i="static site generator">static site generator</span> (<span
+x="communicate"/>) to turn them into a report. That solves the problem of
+multiple authors (Markdown is a text format, so diff and merge will work), and
+if you know a little CSS, you can make it look as pretty as you want. Diagrams
+and screenshots work well, and you can embed <span
+i="MathML">[MathML][mathml]</span> for equations if you need to.  The downside
+is that you can't actually see what your document is going to look like until
+you compile it, and doing that breaks your <span i="flow">flow</span>.
 
 <div class="callout" markdown="1">
 
 ### LaTeX
 
-LaTeX is a markup language that's much more sophisticated than HTML and has
-literally thousands of add-on packages for equations, code formatting, and just
-about everything else you could want. Like HTML, LaTeX is a text format, so it
-plays nicely with version control.  However, its power comes at a steep price:
-LaTeX is as hard to master as a programming language. It also has a
-frustratingly slow formatting cycle, since documents have to be compiled into
-PDF or another viewable format before you can see the effects of your changes.
+<span i="LaTeX">LaTeX</span> is a markup language that's much more sophisticated
+than HTML and has literally thousands of add-on packages for equations, code
+formatting, and just about everything else you could want. Like HTML, LaTeX is a
+text format, so it plays nicely with version control.  However, its power comes
+at a steep price: LaTeX is as hard to master as a programming language. It also
+has a frustratingly slow formatting cycle, since documents have to be compiled
+several times to resolve cross-references.
 
 </div>
 
@@ -257,7 +264,8 @@ The aim of a post mortem is to help the team and its members do better next time
 by giving everyone a chance to reflect on what they've just accomplished. It is
 *not* to shame people, but it can be hard to critique someone's work without
 them taking it personally, so post mortems add a few extra rules to the ones
-introduced for meetings in <span x="important"/>:
+introduced for <span i="meetings!extra rules for post mortems">meetings</span>
+in <span x="important"/>:
 
 Get a moderator who wasn't part of the project.
 :   Someone who doesn't have a stake in the project should run the meeting.

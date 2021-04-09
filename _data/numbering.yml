@@ -184,21 +184,31 @@ entries:
   label: I
   slug: onboarding
   title: Onboarding Checklist
-- file: ./evaluation/index.md
+- file: ./project-eval/index.md
   kind: Appendix
   label: J
-  slug: evaluation
-  title: Performance Evaluation
-- file: ./reading/index.md
+  slug: project-eval
+  title: Project Evaluation
+- file: ./personal-eval/index.md
   kind: Appendix
   label: K
-  slug: reading
-  title: Further Reading
-- file: ./10-good/index.md
+  slug: personal-eval
+  title: Personal Evaluation
+- file: ./reading/index.md
   kind: Appendix
   label: L
-  slug: 10-good
-  title: How to Do Good and Get Paid
+  slug: reading
+  title: Further Reading
+- file: ./10-freelance/index.md
+  kind: Appendix
+  label: M
+  slug: 10-freelance
+  title: How to Get Started Freelancing
+- file: ./10-change/index.md
+  kind: Appendix
+  label: N
+  slug: 10-change
+  title: How to Change the World
 figures:
   boehms-curve: '19.2'
   comprehension-curves: '12.3'

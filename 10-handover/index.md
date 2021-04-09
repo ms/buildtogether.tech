@@ -1,15 +1,15 @@
 ---
 ---
 
-Your course project will probably end when the course does, but you might decide
-to carry on with it.  If you do, and if other people join in, you may eventually
-decide that it's time for you to move over.  This advice is based on my
-experience of doing that; see [this post][petrov-handing-over] for some more
-ideas or [this talk][carpentrycon-talk] for some personal reflections.
+Thousands of books have been written about how to start projects, but only a
+handful about how to end them.  The advice below is based on my experience of
+doing that; see [this post][petrov-handing-over] from <span i="Petrov,
+Andrey">Andrey Petrov</span> for some more ideas or [this
+talk][carpentrycon-talk] for some personal reflections.
 
 1. Be sure you mean it.
-:   Letting go will be hard on you, but not letting go will be even harder on your
-    successors, so be sure you're actually going to let go.
+:   Letting go will be hard on you, but saying you're going to and not actually
+    doing it will be even harder on your successors.
 
 2. Do it when other people think you should.
 :   Just as you are the last person to realize when you're too tired to be coding,
@@ -18,8 +18,8 @@ ideas or [this talk][carpentrycon-talk] for some personal reflections.
 
 3. Be open about what, when, and why.
 :   Tell people that you're leaving and what the succession plan is as soon as
-    possible, which in practice means "as soon as you think you won't have to revise
-    what you have said publicly".
+    possible, which in practice means as soon as you think you won't have to revise
+    what you have said publicly.
 
 4. Leave for something.
 :   People who start things usually aren't good with idleness, and idleness tends

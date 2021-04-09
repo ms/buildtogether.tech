@@ -329,6 +329,11 @@ Andy Oram and Greg Wilson (eds.):
 <em>Making Software.</em>
 O'Reilly, 2010, 978-0596808327.
 </dd>
+<dt id="cohen2018" class="bibliography">Cohen2018</dt>
+<dd>
+Noam Cohen:
+"<a href="https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside">After Years of Abusive E-mails, the Creator of Linux Steps Aside</a>".
+</dd>
 <dt id="cohen2021" class="bibliography">Cohen2021</dt>
 <dd>
 Lena Cohen, Heila Precel, Harold Triedman, and Kathi Fisler:
@@ -810,6 +815,12 @@ Daniel Jackson:
 <em>Software Abstractions: Logic, Language, and Analysis</em> (revised edition).
 MIT Press, 2016, 978-0262528900.
 </dd>
+<dt id="jackson2017" class="bibliography">Jackson2017</dt>
+<dd>
+Justin Ian Jackson:
+<em>Marketing for Developers: Build, Launch, and Get Your First 100 Customers</em>.
+Nerd North, 2017, 978-0994973009.
+</dd>
 <dt id="jaffe2021" class="bibliography">Jaffe2021</dt>
 <dd>
 Sarah Jaffe:
@@ -947,18 +958,6 @@ Justin Kruger and David Dunning:
 "Unskilled and Unaware of It: How Difficulties in Recognizing Incompetence Lead to Inflated Self-Assessment".
 <em>Personality and Social Psychology</em>, 77(6), 1999, <a class="doi" href="https://doi.org/10.1037/0022-3514.77.6.1121">10.1037/0022-3514.77.6.1121</a>.
 </dd>
-<dt id="kuchner2011" class="bibliography">Kuchner2011</dt>
-<dd>
-Marc J. Kuchner:
-<em>Marketing for Scientists: How to Shine in Tough Times</em>.
-Island Press, 2011, 978-1597269940.
-</dd>
-<dt id="lamba2020" class="bibliography">Lamba2020</dt>
-<dd>
-Hemank Lamba, Asher Trockman, Daniel Armanios, Christian Kästner, Heather Miller, and Bogdan Vasilescu:
-"Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem".
-<em>Proc. ESEC/FSE'20</em>, <a class="doi" href="https://doi.org/10.1145/3368089.3409705">10.1145/3368089.3409705</a>.
-</dd>
 <dt id="lave1991" class="bibliography">Lave1991</dt>
 <dd>
 Jean Lave and Etienne Wenger:
@@ -1006,6 +1005,12 @@ Bloomsbury USA, 2013, 978-1620402894.
 Dennis Littky:
 <em>The Big Picture: Education Is Everyone's Business</em>.
 Association for Supervision & Curriculum Development, 2004, 978-0871209719.
+</dd>
+<dt id="manns2015" class="bibliography">Manns2015</dt>
+<dd>
+Mary Lynn Manns and Linda Rising:
+<em>Fearless Change: Patterns for Introducing New Ideas</em>.
+Addison-Wesley, 2015, 978-0201741575.
 </dd>
 <dt id="margolis2002" class="bibliography">Margolis2002</dt>
 <dd>
@@ -1611,6 +1616,12 @@ Routledge, 2018, 978-1138561724.
 Etienne Wenger:
 <em>Communities of Practice: Learning, Meaning, and Identity</em>.
 Cambridge University Press, 1999, 978-0521663632.
+</dd>
+<dt id="weziakbialowolska2018" class="bibliography">WeziakBialowolska2018</dt>
+<dd>
+Dorota Węziak-Białowolska, Zhao Dong, and Eileen McNeely:
+"Turning the Mirror on the Architects: A Study of the Open-Plan Office and Work Behaviors at an Architectural Company".
+<em>Frontiers in Psychology</em>, 9, 2018, <a class="doi" href="https://doi.org/10.3389/fpsyg.2018.02178">10.3389/fpsyg.2018.02178</a>.
 </dd>
 <dt id="wilkinson2011" class="bibliography">Wilkinson2011</dt>
 <dd>

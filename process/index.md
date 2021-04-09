@@ -25,9 +25,9 @@ fruitarian is secondary to eating better and exercising more.
 
 ## Feedback Loops
 
-I think about process in terms of feedback loops on different timescales (<span
-f="feedback-loops"/>).  Any particular team emphasizes some of these and pays
-less attention to others.
+I think about process in terms of <span i="feedback loops">feedback loops</span>
+on different timescales (<span f="feedback-loops"/>).  Any particular team
+emphasizes some of these and pays less attention to others.
 
 {% include figure
    id="feedback-loops"
@@ -43,7 +43,7 @@ less attention to others.
     First, the navigator will often notice mistakes in the driver's code, or
     remember design decisions that the driver is too busy typing to recall. This
     is the tightest of the feedback loops, since feedback is nearly continuous.
-
+    <br/>
     Second, pair programming spreads knowledge around: every piece of code has
     been seen by at least two people, which reduces the risk of "But I didn't
     know" mistakes.  It also helps people pick up new skills: if you have just
@@ -73,7 +73,7 @@ Unit testing.
     productive than doing a lot of coding followed by a lot of testing or vice
     versa <cite>Fucci2017</cite>.
 
-Continuous integration.
+<span i="continuous integration">Continuous integration</span>.
 :   As discussed in <span x="tooling"/>), building the software and running
     tests every time someone creates a pull request or commits to the main
     branch gives the whole team feedback about what state the software is in.
@@ -81,13 +81,13 @@ Continuous integration.
     each change might work in isolation, but combining them might break things
     if someone hasn't been careful about doing merges.
 
-Code review.
+<span i="code review">Code review</span>.
 :   <span x="git-team"/> explained when, why, and how to do this.
 
 The other practices---stand-up meetings, sprints, analysis & estimation---are
-the subject of this chapter, while delivering releases is covered in <span
-x="delivery"/>.  Before we explore them, let's take a look at a typical
-afternoon in the life of a student programmer.
+covered below, while delivering releases is covered in <span x="delivery"/>.
+Before we explore them, though, let's take a look at a typical afternoon in the
+life of a student programmer.
 
 ## Daily Routine
 
@@ -96,7 +96,7 @@ that you'll learn more from spacing things out than from cramming
 <cite>Weinstein2018</cite>, and doing a bit of work on your project every day is
 good insurance against getting sick or being interrupted by other work.
 However, it often isn't feasible when you're juggling deadlines in four or five
-other courses.
+courses.
 
 Even if you can't set a regular schedule, you *can* set aside blocks of time so
 that your flow isn't interrupted, and be systematic in those blocks.  Here's an
@@ -161,9 +161,10 @@ meeting to stay organized and you will be in great shape.
 
 To start our exploration of the longer feedback loops in <span
 f="feedback-loops"/>, let's look at a process that nobody uses, but which
-appears in almost every textbook. It's called the <span
-g="waterfall_model">waterfall model</span>, and it divides development into a
-series of discrete phases, each of which is completed before the next begins:
+appears in almost every textbook. It's called the <span i="waterfall model;
+process!waterfall" g="waterfall_model">waterfall model</span>, and it divides
+development into a series of discrete phases, each of which is completed before
+the next begins:
 
 1.  Gather requirements.
 
@@ -182,13 +183,14 @@ This process was first described in <cite>Royce1970</cite> as something that
 couldn't possibly work.  In real life, we always learn things in later stages
 that we couldn't reasonably have anticipated in earlier ones, which means we
 constantly have to go back and revise earlier decisions.  If we *do* try to
-figure out every detail in advance, we quickly succumb to analysis paralysis.
+figure out every detail in advance, we quickly succumb to <span i="analysis
+paralysis">analysis paralysis</span>.
 
 Every real software development processes attempts to resolve the tension
 between doing things once and spending so much time on planning that we never
 actually do anything.  In order to understand the differences between them it
-helps to look at the <span g="boehm_curve">Boehm Curve</span>, which shows the
-effort required to fix a bug based on when it is caught.
+helps to look at the <span g="boehm_curve" i="Boehm Curve">Boehm Curve</span>,
+which shows the effort required to fix a bug based on when it is caught.
 
 In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
 you move later and later in the development cycle <cite>Boehm1981</cite> (<span
@@ -208,32 +210,32 @@ The second strategy is to do a lot of planning and design to catch as many
 errors as possible during the early phases of the project.  This is the
 classical engineering mindset: when you're building a dam, fixing mistakes means
 moving several million tons of earth around, so it's the only one that makes
-sense. At the opposite end of the spectrum, we can move in many short steps
-with frequent course corrections.  If we can get accurate feedback at each step
-(and that's a big "if") this approach lets us adapt to changing circumstances
-and new realizations more easily.
+sense. The third strategy is to move in many short steps with frequent course
+corrections.  If we can get accurate feedback at each step (and that's a big
+"if") this approach lets us adapt to changing circumstances and new realizations
+more easily.
 
 ## Agile
 
-The term <span g="agile">agile</span> was coined in 2001 to describe a bottom-up
-approach to software project management based on very short iterations and
-frequent feedback from both developers and customers.  <cite>Masood2018</cite>
-and many others have found it to be effective for student projects; we will look
-at one form called <span g="scrum" i="Scrum">Scrum</span>.
+The term <span g="agile" i="agile development">agile</span> was coined in 2001
+to describe a bottom-up approach to software project management based on very
+short iterations and frequent feedback from both developers and customers.
+<cite>Masood2018</cite> and many others have found it to be effective for
+student projects; we will look at one form called <span g="scrum"
+i="Scrum">Scrum</span>.
 
 <div class="callout" markdown="1">
 
 ### Right place, right time
 
 Agile development practices are almost as old as programming, but they came into
-their own with the rise of the World Wide Web.  (We really did capitalize it
-back then.)  First, the web made it possible to release software weekly, daily,
-or even hourly, since updating a server is a lot faster, and a lot less
-expensive, than shipping CDs to thousands of people. Second, during the 1990s
-and early 2000s it seemed as if web programming tools were changing every single
-day. Multi-year development plans didn't make a lot of sense when everything
-they depended on would be obsolete by the time work started, much less by the
-time it finished.
+their own with the rise of the web in the late 1990s.  First, the web made it
+possible to release software weekly, daily, or even hourly, since updating a
+server is a lot faster, and a lot less expensive, than shipping CDs to thousands
+of people. Second, during the 1990s and early 2000s it seemed as if web
+programming tools were changing every single day. Multi-year development plans
+didn't make a lot of sense when everything they depended on would be obsolete by
+the time work started, much less by the time it finished.
 
 Third, the growth of the web was aided by, and fuelled, the growth of the open
 source movement. People couldn't help noticing that most open source projects
@@ -256,13 +258,14 @@ finding bugs becomes easier: instead of looking through weeks' or months' worth
 of software to find out where the problem is, developers usually only have to
 look at what's been written in the last few days.
 
-A typical working day starts with a <span g="stand_up_meeting">stand-up
-meeting</span> where everyone in the team reports what they did the day before,
-what they're planning to do that day, and what's blocking them (if anything).
-It's called a stand-up because it's usually held standing up, which encourages
-people to stay focused; each day, the team gets feedback on the progress they're
-making, whether they're still on track to meet the iteration's goals, whether
-the technical decisions they're making are paying off, and so on.
+A typical working day starts with a <span g="stand_up_meeting" i="stand-up
+meeting">stand-up meeting</span> where everyone in the team reports what they
+did the day before, what they're planning to do that day, and what's blocking
+them (if anything).  It's called a stand-up because it's usually held standing
+up, which encourages people to stay focused; each day, the team gets feedback on
+the progress they're making, whether they're still on track to meet the
+iteration's goals, whether the technical decisions they're making are paying
+off, and so on.
 
 For example, suppose your team is building a static site generator.  Your
 stand-up report might be:
@@ -286,7 +289,8 @@ at every meeting.  Without this rule, it's all too easy for someone to say,
 "Still working on X," several days in a row, which means that feedback, and the
 possibility of early course correction, are lost.
 
-Scrum and other agile processes work best when:
+Scrum and other agile processes <span i="agile development!conditions for
+success">work best</span> when:
 
 1.  Requirements are constantly changing, i.e., long-range planning simply isn't
     possible. This is often true of student projects, since the people on the
@@ -331,12 +335,12 @@ students have never had to do this kind of scheduling many find it the most
 valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.
 
-The <span g="product_manager">product manager</span> is the person who owns the
-spec <cite>Perri2018</cite>.  While developers are building Version N, she is
-talking to customers to find out what should go into Version N+1.  She doesn't
-ask them what features they want; if she does, she'll get a mish-mash of
-conversations overheard in frequent flyer lounges and buzzwords plucked from
-recent Twitter threads.  Instead, she asks:
+The <span g="product_manager" i="product manager">product manager</span> is the
+person who owns the spec <cite>Perri2018</cite>.  While developers are building
+Version N, she is talking to customers to find out what should go into Version
+N+1.  She doesn't ask them what features they want; if she does, she'll get a
+mish-mash of conversations overheard in frequent flyer lounges and buzzwords
+plucked from recent Twitter threads.  Instead, she asks:
 
 1.  What can't you do right now that you want to?
 
@@ -362,27 +366,30 @@ implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
 the build?  On deployment?  How will the feature be tested?  And so on.
 
-This process is called <span g="ae">analysis & estimation</span> (A&E).  The
-result is a short document, typically 1--5 pages long.  There's no set form for
-this, but they usually include whatever background information a well-informed
-developer is unlikely to already know, a discussion of the alternatives, lessons
-learned from any prototyping that was done, and an estimate of how much time
-would be needed to build each alternative.  This time includes estimates from QA
-(for testing), the technical writer (for documenting), the dev ops team
-responsible for managing deployment, and so on.
+This process is called <span g="ae" i="analysis & estimation">analysis &
+estimation</span> (A&E).  The result is a short document, typically 1--5 pages
+long.  There's no set form for this, but they usually include whatever
+background information a well-informed developer is unlikely to already know, a
+discussion of the alternatives, lessons learned from any prototyping that was
+done, and an estimate of how much time would be needed to build each
+alternative.  This time includes estimates from QA (for testing), the technical
+writer (for documenting), the dev ops team responsible for managing deployment,
+and so on.
 
 So now it's Monday morning again.  Three weeks have gone by and all the A&E's
 are done.  When the time estimates are totaled, they come to 700 developer-days.
 Unfortunately, there are only 240 available: the size of the team is fixed and
-the next release has to be available in May.  *This is normal.* There is *never*
+the next release has to be available in May.  This is normal: there is *never*
 enough time to add everything that everyone wants to a piece of software, and
 even if there was, it probably shouldn't be done anyway.
 
-What you do now is find a large whiteboard and draw a grid.  The X axis is
-labeled "effort" and is labeled "an hour", "a day", and "a week", while the Y
-axis "importance", and each is divided into "low", "medium", and "high".  Next,
-write each feature's name on a yellow sticky note and put it on the grid.  You
-should wind up with something like <span f="process-matrix"/>.
+What you do now is find a large whiteboard and draw an <span
+i="effort-importance grid" g="effort_importance_grid">effort-importance
+grid</span>.  The X axis is labeled "effort" and is labeled "an hour", "a day",
+and "a week", while the Y axis "importance", and each is divided into "low",
+"medium", and "high".  Next, write each feature's name on a yellow sticky note
+and put it on the grid.  You should wind up with something like <span
+f="process-matrix"/>.
 
 {% include figure id="process-matrix" alt="Effort/importance matrix" cap="An example of an effort/importance matrix." fixme=true %}
 
@@ -417,17 +424,16 @@ a persistence layer before?
     or three, but it probably won't be off by a factor of ten.  Even if it is,
     it's better than no guess at all.
 
-Remember: the more estimating you do the better you'll get, but only if you
-compare what actually happened to what you predicted. No feedback: no
-improvement.
+The more estimating you do the better you'll get, but only if you compare what
+actually happened to what you predicted. No feedback: no improvement.
 
 ## Cutting Corners
 
 A schedule's primary purpose is not to tell you what you're supposed to be doing
-on any given day, but to tell you when you should start cutting corners.
-Suppose that you have ten weeks in order to accomplish some task.  Five weeks
-after you start, you've only done the first four weeks' worth of work.  You have
-several options:
+on any given day, but to tell you when you should start <span i="cutting
+corners">cutting corners</span>.  Suppose that you have ten weeks in order to
+accomplish some task.  Five weeks after you start, you've only done the first
+four weeks' worth of work.  You have several options:
 
 Denial.
 :   This is very popular but doesn't actually solve the problem.
@@ -445,7 +451,7 @@ Ask for more time.
     university is concerned, whatever hasn't been done by then might as well not
     be done at all.
 
-Cut corners.
+Do less work.
 :   You can either do less testing (which is quickly self-defeating) or update
     the schedule to reflect the rate at which you're actually working and drop
     features if it now shows that you won't be able to finish in time.
@@ -461,11 +467,11 @@ you know it now and can start taking action (like lowering your instructor's
 expectations) well in advance of delivery.
 
 In the real world these calculations are the responsibility of the <span
-g="project_manager">project manager</span>.  Her job is to make sure everyone is
-doing what they're supposed to, to handle interruptions (there are *always*
-interruptions), and to track the team's progress.  After a few weeks, the
-project manager should compare how much has actually been done with how much was
-supposed to be done and adjust plans accordingly.
+i="project manager" g="project_manager">project manager</span>.  Her job is to
+make sure everyone is doing what they're supposed to, to handle interruptions
+(there are *always* interruptions), and to track the team's progress.  After a
+few weeks, the project manager should compare how much has actually been done
+with how much was supposed to be done and adjust plans accordingly.
 
 Real customers will thank you for doing this provided you do it early.  "I'm
 sorry, we're not going to have the frobnosticator for May 1" is OK on October 1,
@@ -481,18 +487,20 @@ Taking scheduling seriously is one of the things that distinguishes good
 software development teams from bad ones.  It's unfortunate that you'll only get
 to do it once or twice during your project course, since you only really see the
 benefits with practice, but I hope that even once will be enough to convince you
-that it's worth doing.
+of its value.
 
 ## Triage
 
 When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
-responsibilities is to <span g="triage">triage</span> the issues in a project's
-issue tracker (<span x="communicate"/>) periodically and adjust the schedule
-accordingly. The effort-importance grid that you drew at the start will help
-with this: by the time you are a few weeks into your project, you should be able
-to update the effort estimates, add newly-discovered issues, and draw up a more
+responsibilities is to <span i="triage" g="triage">triage</span> the issues in a
+project's <span i="issue tracker!helping triage; triage!using issue
+tracker">issue tracker</span> (<span x="communicate"/>) periodically and adjust
+the schedule accordingly. The <span i="effort-importance grid!helping
+triage">effort-importance grid</span> that you drew at the start will help with
+this: by the time you are a few weeks into your project, you should be able to
+update the effort estimates, add newly-discovered issues, and draw up a more
 realistic plan.
 
 But as well as cutting features, you can use what you have learned about the
@@ -503,9 +511,10 @@ Figuring this out is one of a project manager's most important responsibilities
 <cite>Perri2018</cite>; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
 keep it because you have it.  As <span f="feature-usage"/> shows using data from
-[Neil Brown][brown-neil] and the [Blackbox][blackbox] project, the frequency
-with which features are used drops off pretty quickly; sometimes only the tool's
-own developers use those in the <span g="long_tail">long tail</span>.
+<span i="Brown,Neil">[Neil Brown][brown-neil]</span> and the <span i="Blackbox
+project">[Blackbox][blackbox] project</span>, the frequency with which features
+are used drops off pretty quickly; sometimes only the tool's own developers use
+those in the <span g="long_tail">long tail</span>.
 
 {% include figure
    id="feature-usage"
@@ -527,20 +536,20 @@ tell you to follow the analyze-design-code-test-deploy cycle of the classical
 (sturdy) model or to work in two- or three-week agile iterations.  I usually use
 the former in courses, since:
 
--   you're very likely to encounter it after you graduate
+-   you're very likely to encounter it after you graduate;
 
--   it gives you more chance to hone your planning and scheduling skills, and
+-   it gives you more chance to hone your planning and scheduling skills; and
 
 -   close interaction with customers is a central tenet of most agile processes,
     but isn't really possible in a classroom setting.
 
 Since your project has to fit in one or two terms, you'll probably be asked to
 go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called <span
+expected to deliver in each iteration.  This is called <span i="time boxing"
 g="time_boxing">time boxing</span>: you specify how long a cycle will last, then
 see how much work you can fit into that interval.  The alternative is <span
-g="feature_boxing">feature boxing</span>: you decide what you want to do and
-then build a schedule that gives you enough time to do it.  Most people believe
-that time boxing works better, since it encourages developers to take smaller
-steps and allows them to give customers more frequent demos (which serve as
-course corrections).
+i="feature boxing" g="feature_boxing">feature boxing</span>: you decide what you
+want to do and then build a schedule that gives you enough time to do it.  Most
+people believe that time boxing works better, since it encourages developers to
+take smaller steps and allows them to give customers more frequent demos (which
+serve as course corrections).

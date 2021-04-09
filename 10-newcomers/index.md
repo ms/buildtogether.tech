@@ -1,18 +1,18 @@
 ---
 ---
 
-*This guide is derived from <cite>Sholler2019</cite>.*
-
 To survive and thrive, a community must attract and retain new members and help
-them be productive. These rules paper describe how to do this.
+them be productive. These rules, taken from <cite>Sholler2019</cite>, describe
+how to do this.
 
 <div class="callout" markdown="1">
 
 ### Communities of practice
 
 What exactly do we mean by "community"? In the case of open source and open
-science, the most usual meaning is a <span g="community_of_practice">community
-of practice</span> <cite>Lave1991,Wenger1999</cite> with three characteristics:
+science, the most usual meaning is a <span g="community_of_practice"
+i="community of practice">community of practice</span>
+<cite>Lave1991,Wenger1999</cite> with three characteristics:
 
 1.  Participants have a common product or purpose that they work on or
     toward.
@@ -39,24 +39,26 @@ of practice</span> <cite>Lave1991,Wenger1999</cite> with three characteristics:
 3. Make governance explicit.
 :   <cite>Raymond2001</cite> described an egalitarian world in which everyone
     could contribute equally to open projects. Two decades later, we can see how
-    unequal and unwelcoming open source can be if authority lies with those
-    willing to shout loudest and longest.  Large, well-established projects that
-    incorporate as non-profits are required to promulgate bylaws; smaller
-    projects should explain who gets a say in what and how to become someone
-    whose vote counts (<span x="important"/>).
+    misleading it was, and how unequal and unwelcoming projects can be if
+    authority lies with those willing to shout loudest and longest
+    <cite>Cohen2018</cite>.  Large, well-established projects that incorporate
+    as non-profits are required to promulgate bylaws; smaller projects should
+    have some explicit <span i="governance">governance</span> that explains who
+    gets a say in what and how to become someone whose vote counts (<span
+    x="important"/>).
 
 4. Keep knowledge up to date and findable.
 :   A single project may use wikis, files in GitHub, shared Google Docs, old
-    tweets or Slack messages, and email archives; keeping information about a
+    tweets or chat messages, and email archives; keeping information about a
     specific topic in a single place and clearly defining the purpose of each
     communication medium saves newcomers from having to navigate multiple
     unfamiliar data sources to find what they need <cite>Lin2020</cite>.  At the
-    same time, outdated documentation may lead newcomers to a wrong
-    understanding of the project, which is also demotivating. While it may be
-    hard to keep material up to date, community members should at least remove
-    or clearly mark outdated information.
+    same time, outdated documentation may lead newcomers to understand the
+    project incorrectly, which is also demotivating. While it's hard to keep
+    material up to date, community members should at least remove or clearly
+    mark outdated information.
 
-5. Have and enforce a code of conduct.
+5. Have and enforce a <span i="Code of Conduct">Code of Conduct</span>.
 :   We discussed this rule in <span x="starting"/>, but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates
     <cite>Gruenert2015</cite>, and every instance of bad behavior will drive
@@ -65,23 +67,23 @@ of practice</span> <cite>Lave1991,Wenger1999</cite> with three characteristics:
 6. Develop forms of legitimate peripheral participation.
 :   Newcomers become members of a community by participating in simple, low-risk
     tasks that existing community members believe are valuable. Through this
-    <span g="lpp">legitimate peripheral participation</span> (LPP), newcomers
-    become acquainted with the community's tasks, vocabulary, and governance so
-    that they can ease into the project. For example, submitting pull requests
-    on GitHub can be daunting for newcomers; asking people to file issues about
-    bugs they have found requires less up-front work, but is accepted as also
-    being useful.
+    <span g="lpp" i="legitimate peripheral participation">legitimate peripheral
+    participation</span>, newcomers become acquainted with the community's
+    tasks, vocabulary, and governance so that they can ease into the
+    project. For example, submitting pull requests on GitHub can be daunting for
+    newcomers; asking people to file issues about bugs they have found requires
+    less up-front work, but is accepted as also being useful.
 
 7. Make it easy for newcomers to get started.
-:   One way to facilitate LPP is to make it easy for newcomers to get set up so
-    that they can start work on contributions. Getting set up to work on a
-    project---going from "I want to help" to "I'm able to help" to "I'm
-    helping"---is often someone's first experience as a community
-    participant. Any complexity or confusion at this point is therefore a
-    significant barrier to participation <cite>Steinmacher2014</cite>. By
-    treating the process of getting involved with the same care and attention
-    you give to the product itself, you're making it clear that you value those
-    contributors' time and effort
+:   One way to facilitate legitimate peripheral participation is to make it easy
+    for newcomers to get set up so that they can start work on contributions.
+    Getting set up to work on a project---going from "I want to help" to "I'm
+    able to help" to "I'm helping"---is often someone's first experience as a
+    community participant. Any complexity or confusion at this point is
+    therefore a significant barrier to participation
+    <cite>Steinmacher2014</cite>. By treating the process of getting involved
+    with the same care and attention you give to the product itself, you're
+    making it clear that you value those contributors' time and effort
 
 8. Use opportunities for in-person interaction---with care.
 :   Combining newcomer-friendly events and activities with larger gatherings

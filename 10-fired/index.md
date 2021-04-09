@@ -1,9 +1,11 @@
 ---
 ---
 
-These rules are based on [my experience being fired by
-DataCamp][buzzfeed-datacamp] and on what friends and colleagues went through
-there and at other companies.
+I hope you're never fired, or if you are, that the company handles it
+professionally.  In case they don't, these rules are based on [my experience
+being fired by DataCamp][buzzfeed-datacamp] and on what friends and colleagues
+went through there and at other companies.  Remember: however much you like your
+job, it won't love you back <cite>Jaffe2021</cite>
 
 1. Insist on a record of all conversations.
 :   The biggest mistake you can make is to assume good faith on the part of
@@ -15,9 +17,9 @@ there and at other companies.
 
 2. Pause before speaking, posting, or tweeting.
 :   If possible, have someone you trust look everything over before you say it
-    or send it.  (Don't use someone who still works for the company, even if
-    they are your closest friend: it puts them in a legally and morally
-    difficult position.)
+    or send it.  Don't use someone who still works for the company, even if they
+    are your closest friend: it puts them in a legally and morally difficult
+    position.
 
 3. Keep your public statements brief.
 :   People may care, but most won't care as much as you do.  A simple recitation
@@ -33,21 +35,22 @@ there and at other companies.
 :   Your honesty is your greatest asset, and it's hypocritical to criticize your
     opponents for spin or selective reporting if you're doing it too,
 
-6. Don't sign any agreement that might prevent you from speaking about moral or legal concerns,
-:   or make sure the agreement explicitly excludes your concerns before signing
-    it.  (And yes, it's very privileged of me to be able to say this: someone
-    whose immigration status, essential health benefits, or family income is
-    being threatened may not have a choice.  That is why I think people who do
-    have a choice also have an obligation to fight.)
+6. Don't sign any agreement that might prevent you from speaking about moral or legal concerns.
+:   Or if you do, make sure the agreement explicitly excludes your concerns
+    before signing it.  And yes, it's very privileged of me to be able to say
+    this: someone whose immigration status, essential health benefits, or family
+    income is being threatened may not have a choice.  That is why I think
+    people who do have a choice also have an obligation to fight.
 
 7. Don't cite the law unless a lawyer tells you to.
-:   The law probably doesn't mean what you think it means, and they almost
-    certainly do have lawyers on their side who will seize on any misstatement
-    or mistake you make.
+:   The law probably doesn't mean what you think it means, and the company
+    almost certainly has lawyers on their side who will seize on any
+    misstatement or mistake you make.
 
 8. Don't try to get them to acknowledge that they were wrong.
-:   Whatever happened probably wouldn't have if they were the sort of people who
-    could do that.
+:   Their lawyers probably won't let them say anything that would acknowledge
+    wrongdoing or liability, and whatever happened probably wouldn't have if
+    they were the sort of people who could admit mistakes.
 
 9. Go for long walks.
 :   Or cook some healthy meals, or pick up the guitar you haven't touched in

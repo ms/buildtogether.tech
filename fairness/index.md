@@ -195,7 +195,7 @@ Have an org chart.
     barge in on strangers.
 
 Have written criteria for performance reviews.
-:   The ones shown in <span x="evaluation"/> are a good model, and these
+:   The ones shown in <span x="personal-eval"/> are a good model, and these
     *are* something a company can share before hiring you. If a company doesn't
     have criteria, or if performance reviews are only done when an employee asks
     for one, the system is once again biased toward the extroverted and the
@@ -235,7 +235,7 @@ intolerant taking advantage of that.
 We can disagree and still love each other unless your disagreement is rooted
 in my oppression and denial of my humanity and right to exist.
 
---- James Baldwin
+--- <span i="Baldwin, James">James Baldwin</span>
 
 </blockquote>
 

@@ -3,7 +3,7 @@
 
 <span i="version control!collaboration">Version control</span> really comes into
 its own when we are working with other people.  People can share work through a
-Git repository in one of two ways:
+Git repository in one of two ways <cite>Irving2021</cite>:
 
 1.  Everyone has read and write access to a <span i="version
     control!collaboration!using a shared repository">single shared

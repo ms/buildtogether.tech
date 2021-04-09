@@ -1,6 +1,7 @@
+10-change: []
 10-comfortable: []
 10-fired: []
-10-good: []
+10-freelance: []
 10-handover: []
 10-joining: []
 10-newcomers:
@@ -167,7 +168,6 @@ errors:
   term: rotating file
 - key: yaml
   term: YAML
-evaluation: []
 fairness:
 - key: active_bystander
   term: active bystander
@@ -303,6 +303,7 @@ methods:
 - key: treatment_group
   term: treatment group
 onboarding: []
+personal-eval: []
 process:
 - key: ae
   term: analysis & estimation
@@ -314,6 +315,8 @@ process:
   term: business rule
 - key: development_process
   term: development process
+- key: effort_importance_grid
+  term: effort-importance grid
 - key: feature_boxing
   term: feature boxing
 - key: json
@@ -342,6 +345,7 @@ process:
   term: triage
 - key: waterfall_model
   term: waterfall model
+project-eval: []
 reading: []
 research:
 - key: brooks_law

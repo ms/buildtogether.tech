@@ -126,8 +126,8 @@ misunderstandings that remain are entirely our fault.
 {% include thanks.html %}
 
 Portions of this book are adapted from material that originally appeared in
-<cite>Wilson2019,Irving2021,Smalls2021</cite>; I'm grateful to <span i="Taylor &
-Francis">[Taylor & Francis][taylor-francis]</span>, <span
+<cite>Sholler2019,Wilson2019,Irving2021,Smalls2021</cite>; I'm grateful to <span
+i="Taylor & Francis">[Taylor & Francis][taylor-francis]</span>, <span
 i="PLOS">[PLOS][plos]</span>, and my co-authors for making available under open
 licenses.  I would also like to thank <span i="Graf, David">David Graf</span>
 for <span i="doi2bib">[doi2bib][doi2bib]</span> and <span i="Elbakyan,

@@ -187,7 +187,7 @@ Rights">Universal Declaration of Human Rights</span>.  We have learned the hard
 way that software and science can be mis-used; adopting the Hippocratic License
 is a small step toward preventing this.
 
-<span class="callout" markdown="1">
+<div class="callout" markdown="1">
 
 ### What they really mean (part two)
 
@@ -202,7 +202,7 @@ they prefer a world in which programmers don't have to take responsibility for
 how the things they build are used, and would rather not have anyone set a
 precedent to the contrary.
 
-</span>
+</div>
 
 ## Creative Commons Licenses
 

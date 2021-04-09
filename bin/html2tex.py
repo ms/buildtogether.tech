@@ -355,7 +355,7 @@ def convert_glossary_index(node, accum, doEscape):
     if node.has_attr('i'):
         terms = [t.strip() for t in node['i'].split(';')]
         for term in terms:
-            accum.append(fr'\index{{{term}}}')
+            accum.append(fr'\index{{{escape(term, doEscape)}}}')
 
 
 def convert_links_table(node, accum):

@@ -629,6 +629,14 @@
   year: 2010
   isbn: 978-0596808327
 
+- key: Cohen2018
+  kind: link
+  author:
+  - Noam Cohen
+  title: "After Years of Abusive E-mails, the Creator of Linux Steps Aside"
+  url: https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside
+  year: 2018
+
 - key: Cohen2021
   author:
   - Lena Cohen
@@ -1552,6 +1560,15 @@
   publisher: "MIT Press"
   isbn: 978-0262528900
 
+- key: Jackson2017
+  kind: book
+  author:
+  - Justin Ian Jackson
+  title: "Marketing for Developers: Build, Launch, and Get Your First 100 Customers"
+  publisher: Nerd North
+  isbn: 978-0994973009
+  year: 2017
+
 - key: Jaffe2021
   kind: book
   author:
@@ -1812,29 +1829,6 @@
   year: 1999
   doi: 10.1037/0022-3514.77.6.1121
 
-- key: Kuchner2011
-  author:
-  - Marc J. Kuchner
-  isbn: 978-1597269940
-  kind: book
-  publisher: Island Press
-  title: "Marketing for Scientists: How to Shine in Tough Times"
-  year: 2011
-
-- key: Lamba2020
-  author:
-  - Hemank Lamba
-  - Asher Trockman
-  - Daniel Armanios
-  - Christian Kästner
-  - Heather Miller
-  - Bogdan Vasilescu
-  booktitle: "Proc. ESEC/FSE'20"
-  doi: 10.1145/3368089.3409705
-  kind: inproceedings
-  title: "Heard It Through the Gitvine: An Empirical Study of Tool Diffusion Across the npm Ecosystem"
-  year: 2020
-
 - key: Lave1991
   kind: book
   author:
@@ -1916,6 +1910,16 @@
   publisher: "Association for Supervision & Curriculum Development"
   title: "The Big Picture: Education Is Everyone's Business"
   year: 2004
+
+- key: Manns2015
+  author:
+  - Mary Lynn Manns
+  - Linda Rising
+  isbn: 978-0201741575
+  kind: book
+  publisher: Addison-Wesley
+  title: 'Fearless Change: Patterns for Introducing New Ideas'
+  year: 2015
 
 - key: Margolis2002
   kind: book
@@ -2986,6 +2990,18 @@
   publisher: Cambridge University Press
   title: "Communities of Practice: Learning, Meaning, and Identity"
   year: 1999
+
+- key: WeziakBialowolska2018
+  author:
+  - Dorota Węziak-Białowolska
+  - Zhao Dong
+  - Eileen McNeely
+  doi: 10.3389/fpsyg.2018.02178
+  journal: Frontiers in Psychology
+  kind: article
+  title: "Turning the Mirror on the Architects: A Study of the Open-Plan Office and Work Behaviors at an Architectural Company"
+  volume: 9
+  year: 2018
 
 - key: Wilkinson2011
   author:
