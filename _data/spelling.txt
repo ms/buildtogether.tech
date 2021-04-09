@@ -154,6 +154,7 @@ Connell
 Constructivist
 Conte
 Cottom
+CreateSpace
 Criado
 CriadoPerez
 Csikszentmihalyi
@@ -175,6 +176,7 @@ DeBruyckere
 DeLine
 DeOliveiraNeto
 Dedrick
+Defense
 Denae
 Deursen
 DevOps
@@ -202,7 +204,9 @@ EOFError
 ESEC
 ESEM
 ESLint
+EU's
 Easterbrook
+Easttom
 Edzard
 Efthimia
 Eggett
@@ -260,6 +264,7 @@ Fronza
 Fucci
 Furia
 GDB
+GDPR
 GPL
 GQM
 GUIs
@@ -576,7 +581,7 @@ Ostblom
 Ostrom
 PACMPL
 PDFs
-PLoS
+PLOS
 PNAS
 POS
 PRs
@@ -596,6 +601,7 @@ PeerJ
 Peitek
 Pekka
 Penta
+Pentesters
 Perdriau
 PerezDeRosso
 Perri
@@ -702,6 +708,7 @@ Schuster
 Scriptability
 Sebastiano
 Sedano
+Seitz
 Selby
 Seppala
 Seppi
@@ -835,6 +842,7 @@ Wachter
 WachterBoettcher
 Warmup
 Washburn
+Wayner
 WebAIM
 Wehaibi
 Weimer
@@ -848,6 +856,7 @@ Wiese
 Winton
 Wlodkowski
 Wrigstad
+XKCD
 XSS
 XYZ
 Xiaofeng
@@ -933,6 +942,7 @@ else's
 emptively
 eneething
 enumerative
+exfiltrate
 favor
 favored
 favorite
@@ -989,7 +999,6 @@ offense
 onboarding
 parameterless
 parsers
-paypaI
 popsicle
 practiced
 practicing
@@ -1051,6 +1060,7 @@ tumor
 unaffordable
 unindent
 unmute
+untrusted
 unwatched
 vanishingly
 von

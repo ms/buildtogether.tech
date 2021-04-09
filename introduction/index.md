@@ -126,9 +126,11 @@ misunderstandings that remain are entirely our fault.
 {% include thanks.html %}
 
 Portions of this book are adapted from material that originally appeared in
-<cite>Wilson2019</cite> and <cite>Irving2021</cite>; I'm grateful to Taylor &
-Francis and my co-authors for making both books available under open licenses.
-I would also like to thank <span i="Graf, David">David Graf</span> for <span
-i="doi2bib">[doi2bib][doi2bib]</span> and <span i="Elbakyan,
-Alexander">Alexandra Elbakyan</span> for <span i="Sci-Hub">Sci-Hub</span>; this
-book would have been much harder to write without their idealism and hard work.
+<cite>Wilson2019,Irving2021,Smalls2021</cite>; I'm grateful to <span i="Taylor &
+Francis">[Taylor & Francis][taylor-francis]</span>, <span
+i="PLOS">[PLOS][plos]</span>, and my co-authors for making available under open
+licenses.  I would also like to thank <span i="Graf, David">David Graf</span>
+for <span i="doi2bib">[doi2bib][doi2bib]</span> and <span i="Elbakyan,
+Alexander">Alexandra Elbakyan</span> for <span
+i="Sci-Hub">[Sci-Hub][sci-hub]</span>; this book would have been much harder to
+write without their idealism and hard work.

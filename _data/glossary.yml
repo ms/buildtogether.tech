@@ -105,6 +105,15 @@
       The use of algorithms to fix bugs, typically by pattern matching or by
       checking common solutions against a test suite.
 
+- key: back_door
+  en:
+    term: "back door"
+    def: >
+      A way to access software or data that isn't publicized or that doesn't
+      require authentication.  Programmers sometimes create back doors to
+      simplify testing or administration, but they are often exploited by
+      attackers.
+
 - key: big_bang
   en:
     term: "big-bang integration"
@@ -681,6 +690,12 @@
       the experimenter nor the subject knows whether someone is in the [control
       group](#control_group) or [treatment group](#treatment_group).
 
+- key: dumpster_diving
+  en:
+    term: "dumpster diving"
+    def: >
+      Searching through garbage in order to find items of value.
+
 - key: dynamic_analysis
   ref:
   - static_analysis
@@ -1089,13 +1104,6 @@
       [profiling](#profiler) to identify [hot spots](#hot_spot) that are worth
       optimizing.
     acronym: JIT
-
-- key: key
-  en:
-    term: "key"
-    def: >
-      A field or combination of fields whose value(s) uniquely identify a record
-      within a table or dataset.
 
 - key: issue_label
   en:
@@ -1639,6 +1647,13 @@
       one file with results for each day of the week, so that results from last
       Tuesday are overwritten this Tuesday.
 
+- key: sanitizing_data
+  en:
+    term: "sanitizing data"
+    def: >
+      Modifying data (particularly data supplied by an untrusted user) to remove
+      special characters or other potential security problems.
+
 - key: schema
   en:
     term: "schema"
@@ -1760,6 +1775,14 @@
       A brief status meeting in which project members report what they've done,
       what they're planning to do, and what's in their way.  Stand-up meetings
       are a common practice in [agile](#agile) development.
+
+- key: state_level_actor
+  en:
+    term: "state-level actor"
+    def: >
+      An entity with the resources of a government.  There is little the average
+      person can do to safeguard against attacks by state-level actors;
+      unfortunately, that category now includes many companies as well.
 
 - key: static_analysis
   ref:

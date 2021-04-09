@@ -300,11 +300,11 @@ Agree on the rules.
     meetings matters less than everyone agreeing on what the rules are.
 
 Keep discussion meetings and decision meetings separate.
-:   A <span g="discussion_meeting" i="meetings (discussion)">discussion
+:   A <span g="discussion_meeting" i="meetings! discussion">discussion
     meeting</span>'s purpose is to explore design alternatives or figure out
-    what next term's goals should be.  A <span g="decision_meeting" i="meetings
-    (decision)"">decision meeting</span> on the other hand, is for choosing
-    which alternatives to pursue.  Discussion meetings are meant to be
+    what next term's goals should be.  A <span g="decision_meeting"
+    i="meetings!decision"">decision meeting</span> on the other hand, is for
+    choosing which alternatives to pursue.  Discussion meetings are meant to be
     wide-ranging (and fun); decision meetings should be short and focused.  The
     two are never completely distinct in practice, but decision-making is more
     efficient if it isn't mixed with brainstorming. The rest of these rules
@@ -450,23 +450,25 @@ One of the problems in a synchronous meeting is the tendency of some people to
 speak far more than others.  Other meeting members may be so accustomed to this
 that they don't speak up even when they have valuable points to make.
 
-One way to combat this is to give everyone <span i="meetings (three sticky
-notes)">three sticky notes</span> (or coins, or paperclips---anything inedible
-will do).  at the start of the meeting.  Every time they speak, they have to
-give up one sticky note.  When they're out of stickies, they aren't allowed to
-speak until everyone has used at least one, at which point everyone gets all of
-their sticky notes back.  This ensures that nobody talks more than three times
-as often as the quietest person in the meeting, and completely changes group
-dynamics.  People who have given up trying to be heard suddenly have space to
-contribute, and the overly frequent speakers realize how unfair they have been.
+One way to combat this is to give everyone <span i="meetings!three sticky notes;
+three sticky notes (in meetings)">three sticky notes</span> (or coins, or
+paperclips---anything inedible will do).  at the start of the meeting.  Every
+time they speak, they have to give up one sticky note.  When they're out of
+stickies, they aren't allowed to speak until everyone has used at least one, at
+which point everyone gets all of their sticky notes back.  This ensures that
+nobody talks more than three times as often as the quietest person in the
+meeting, and completely changes group dynamics.  People who have given up trying
+to be heard suddenly have space to contribute, and the overly frequent speakers
+realize how unfair they have been.
 
-Another useful technique is called <span i="meetings (interruption
-bingo)">interruption bingo</span>.  Draw a grid and label the rows and columns
-with the participants' names.  Each time one person interrupts another, add a
-tally mark to the appropriate cell; halfway through the meeting, take a moment
-to look at the results.  In most cases it will be clear that one or two people
-are doing all of the interrupting.  After that, saying, "All right, I'm adding
-another tally to the bingo card," is often enough to get them to throttle back.
+Another useful technique is called <span i="meetings!interruption bingo;
+interruption bingo (in meetings)">interruption bingo</span>.  Draw a grid and
+label the rows and columns with the participants' names.  Each time one person
+interrupts another, add a tally mark to the appropriate cell; halfway through
+the meeting, take a moment to look at the results.  In most cases it will be
+clear that one or two people are doing all of the interrupting.  After that,
+saying, "All right, I'm adding another tally to the bingo card," is often enough
+to get them to throttle back.
 
 Online meetings provide special challenges, both in the context of regulating
 how often individuals speak, as well as running meetings in general.

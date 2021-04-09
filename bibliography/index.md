@@ -411,6 +411,12 @@ Deborah A. Donovan, Georgianne L. Connell, and Daniel Z. Grunspan:
 "Student Learning Outcomes and Attitudes Using Three Methods of Group Formation in a Nonmajors Biology Class".
 <em>CBE---Life Sciences Education</em>, 17(4), 2018, <a class="doi" href="https://doi.org/10.1187/cbe.17-12-0283">10.1187/cbe.17-12-0283</a>.
 </dd>
+<dt id="easttom2019" class="bibliography">Easttom2019</dt>
+<dd>
+Chuck Easttom:
+<em>Computer Security Fundamentals</em>.
+Pearson, 2019, 978-0135774779.
+</dd>
 <dt id="edwards2009" class="bibliography">Edwards2009</dt>
 <dd>
 Stephen H. Edwards, Jason Snyder, Manuel A. Pérez-Quiñones, Anthony Allevato, Dongkwan Kim, and Betsy Tretola:
@@ -981,7 +987,7 @@ Roxanne Leitão:
 <dd>
 Sarah Lin, Ibraheem Ali, and Greg Wilson:
 "Ten Quick Tips for Making Things Findable".
-<em>PLoS Computational Biology</em>, 16(12), 2020, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1008469">10.1371/journal.pcbi.1008469</a>.
+<em>PLOS Computational Biology</em>, 16(12), 2020, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1008469">10.1371/journal.pcbi.1008469</a>.
 </dd>
 <dt id="lindberg2008" class="bibliography">Lindberg2008</dt>
 <dd>
@@ -1030,6 +1036,12 @@ Anna May, Johannes Wachs, and Anikó Hannák:
 Richard E. Mayer:
 <em>Multimedia Learning</em> (2nd edition).
 Cambridge University Press, 2009, 978-0521735353.
+</dd>
+<dt id="mcdonald2020" class="bibliography">McDonald2020</dt>
+<dd>
+Malcolm McDonald:
+<em>Web Security for Developers: Real Threats, Practical Defense</em>.
+No Starch Press, 2020, 978-1593279943.
 </dd>
 <dt id="mcintosh2011" class="bibliography">McIntosh2011</dt>
 <dd>
@@ -1369,6 +1381,12 @@ Andrea Schankin, Annika Berger, Daniel V. Holt, Johannes C. Hofmeister, Till Rie
 "Descriptive Compound Identifier Names Improve Source Code Comprehension".
 <em>ICPC'18</em>, <a class="doi" href="https://doi.org/10.1145/3196321.3196332">10.1145/3196321.3196332</a>.
 </dd>
+<dt id="schneier2019" class="bibliography">Schneier2019</dt>
+<dd>
+Bruce Schneier:
+<em>Click Here to Kill Everybody: Security and Survival in a Hyper-connected World</em>.
+WW Norton, 2019, 978-0393357448.
+</dd>
 <dt id="schneier2021" class="bibliography">Schneier2021</dt>
 <dd>
 Bruce Schneier:
@@ -1392,6 +1410,12 @@ Todd Sedano, Paul Ralph, and Cécile Péraire:
 "Software Development Waste".
 <em>Proc. ICSE'17</em>, <a class="doi" href="https://doi.org/10.1109/ICSE.2017.20">10.1109/ICSE.2017.20</a>.
 </dd>
+<dt id="seitz2021" class="bibliography">Seitz2021</dt>
+<dd>
+Justin Seitz and Tim Arnold:
+<em>Black Hat Python: Python Programming for Hackers and Pentesters</em> (2nd edition).
+No Starch Press, 2021, 978-1718501126.
+</dd>
 <dt id="sharp2016" class="bibliography">Sharp2016</dt>
 <dd>
 Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
@@ -1402,7 +1426,7 @@ Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:
 <dd>
 Dan Sholler, Igor Steinmacher, Denae Ford, Mara Averick, Mike Hoye, and Greg Wilson:
 "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects".
-<em>PLoS Computational Biology</em>, 15(9), 2019, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
+<em>PLOS Computational Biology</em>, 15(9), 2019, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1007296">10.1371/journal.pcbi.1007296</a>.
 </dd>
 <dt id="singh2009" class="bibliography">Singh2009</dt>
 <dd>
@@ -1414,7 +1438,7 @@ W. W. Norton, 2009, 978-0393337785.
 <dd>
 Danielle Smalls and Greg Wilson:
 "Ten Quick Tips for Staying Safe Online".
-<em>PLoS Computational Biology</em>, 17(3), 2021, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1008563">10.1371/journal.pcbi.1008563</a>.
+<em>PLOS Computational Biology</em>, 17(3), 2021, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1008563">10.1371/journal.pcbi.1008563</a>.
 </dd>
 <dt id="snowden2019" class="bibliography">Snowden2019</dt>
 <dd>
@@ -1479,7 +1503,7 @@ Jeffrey Stylos and Steven Clarke:
 <dd>
 Morgan Taschuk and Greg Wilson:
 "Ten Simple Rules for Making Research Software More Robust"".
-<em>PLoS Computational Biology</em>, 13(4), 2017, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1005412">10.1371/journal.pcbi.1005412</a>.
+<em>PLOS Computational Biology</em>, 13(4), 2017, <a class="doi" href="https://doi.org/10.1371/journal.pcbi.1005412">10.1371/journal.pcbi.1005412</a>.
 </dd>
 <dt id="tedre2008" class="bibliography">Tedre2008</dt>
 <dd>
@@ -1564,6 +1588,12 @@ Alicia Nicki Washington:
 Hillel Wayne:
 <em>Practical TLA+: Planning Driven Development</em>.
 Apress, 2018, 978-1484238288.
+</dd>
+<dt id="wayner2009" class="bibliography">Wayner2009</dt>
+<dd>
+Peter Wayner:
+<em>Translucent Databases</em> (2nd edition).
+CreateSpace, 2009, 978-1441421340.
 </dd>
 <dt id="weinstein2018" class="bibliography">Weinstein2018</dt>
 <dd>
