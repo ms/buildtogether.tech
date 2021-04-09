@@ -786,6 +786,15 @@
   volume: 17
   year: 2018
 
+- key: Easttom2019
+  author:
+  - Chuck Easttom
+  kind: book
+  title: "Computer Security Fundamentals"
+  year: 2019
+  publisher: Pearson
+  isbn: 978-0135774779
+
 - key: Edwards2009
   author:
   - Stephen H. Edwards
@@ -1876,7 +1885,7 @@
   - Greg Wilson
   title: "Ten Quick Tips for Making Things Findable"
   doi: 10.1371/journal.pcbi.1008469
-  journal: PLoS Computational Biology
+  journal: PLOS Computational Biology
   volume: 16
   number: 12
   year: 2020
@@ -1962,6 +1971,15 @@
   year: 2009
   publisher: Cambridge University Press
   isbn: 978-0521735353
+
+- key: McDonald2020
+  author:
+  - Malcolm McDonald
+  kind: book
+  title: "Web Security for Developers: Real Threats, Practical Defense"
+  publisher: No Starch Press
+  year: 2020
+  isbn: 978-1593279943
 
 - key: McIntosh2011
   author:
@@ -2564,6 +2582,15 @@
   doi: 10.1145/3196321.3196332
   year: 2018
 
+- key: Schneier2019
+  kind: book
+  author:
+  - Bruce Schneier
+  title: "Click Here to Kill Everybody: Security and Survival in a Hyper-connected World"
+  year: 2019
+  publisher: WW Norton
+  isbn: 978-0393357448
+
 - key: Schneier2021
   kind: link
   author:
@@ -2601,6 +2628,17 @@
   booktitle: "Proc. ICSE'17"
   doi: 10.1109/ICSE.2017.20
 
+- key: Seitz2021
+  kind: book
+  author:
+  - Justin Seitz
+  - Tim Arnold
+  title: "Black Hat Python: Python Programming for Hackers and Pentesters"
+  edition: 2nd
+  year: 2021
+  publisher: No Starch Press
+  isbn: 978-1718501126
+
 - key: Sharp2016
   author:
   - Helen Sharp
@@ -2625,7 +2663,7 @@
   - Mike Hoye
   - Greg Wilson
   title: "Ten Simple Rules for Helping Newcomers Become Contributors to Open Projects"
-  journal: PLoS Computational Biology
+  journal: PLOS Computational Biology
   volume: 15
   number: 9
   year: 2019
@@ -2646,7 +2684,7 @@
   - Danielle Smalls
   - Greg Wilson
   doi: 10.1371/journal.pcbi.1008563
-  journal: PLoS Computational Biology
+  journal: PLOS Computational Biology
   kind: article
   volume: 17
   number: 3
@@ -2767,7 +2805,7 @@
   - Morgan Taschuk
   - Greg Wilson
   title: Ten Simple Rules for Making Research Software More Robust"
-  journal: "PLoS Computational Biology"
+  journal: PLOS Computational Biology
   volume: 13
   number: 4
   year: 2017
@@ -2910,6 +2948,16 @@
   title: "Practical TLA+: Planning Driven Development"
   publisher: Apress
   isbn: 978-1484238288
+
+- key: Wayner2009
+  kind: book
+  author:
+  - Peter Wayner
+  year: 2009
+  title: "Translucent Databases"
+  edition: "2nd"
+  publisher: "CreateSpace"
+  isbn: 978-1441421340
 
 - key: Weinstein2018
   kind: book

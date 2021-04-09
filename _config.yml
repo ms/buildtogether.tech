@@ -161,6 +161,8 @@ kramdown:
       "flower-annalee": ["https://flowerhorne.com/", "Annalee Flower"],
       "flower-good-intent": ["https://thebias.com/2017/09/26/how-good-intent-undermines-diversity-and-inclusion/", "How 'Good Intent' Undermines Diversity and Inclusion"],
       "gdb": ["https://www.gnu.org/software/gdb/", "GDB"],
+      "gdpr": ["https://en.wikipedia.org/wiki/General_Data_Protection_Regulation", "General Data Protection Regulation"],
+      "gdpr-forgotten": ["https://www.gdpreu.org/right-to-be-forgotten/", "GDPR-mandated right to be forgotten"],
       "gebru-firing": ["https://www.fastcompany.com/90608471/timnit-gebru-google-ai-ethics-equitable-tech-movement", "This is bigger than just Timnit"],
       "gender-decoder": ["http://gender-decoder.katmatfield.com/", "Gender Decoder"],
       "gendermag": ["http://gendermag.org/", "GenderMag"],
@@ -209,6 +211,7 @@ kramdown:
       "petrov-handing-over": ["https://shazow.net/posts/how-to-hand-over-an-open-source-project-to-a-new-maintainer/", "How to hand over an Open Source project to a new maintainer"],
       "pip": ["https://pypi.org/project/pip/", "pip"],
       "plantuml": ["https://plantuml.com/", "PlantUML"],
+      "plos": ["https://plos.org/", "PLOS"],
       "program-repair": ["https://program-repair.org/", "Program Repair"],
       "pryce-nat": ["http://www.natpryce.com/", "Nat Pryce"],
       "pryce-onboarding": ["https://twitter.com/natpryce/status/1375949072910200835", "Onboarding checklist"],
@@ -220,6 +223,7 @@ kramdown:
       "rake": ["https://ruby.github.io/rake/", "Rake"],
       "ruby": ["https://www.ruby-lang.org/", "Ruby"],
       "schneier-bruce": ["https://www.schneier.com/", "Bruce Schneier"],
+      "sci-hub": ["https://en.wikipedia.org/wiki/Sci-Hub", "Sci-Hub"],
       "scratch": ["https://scratch.mit.edu/", "Scratch"],
       "selenium": ["https://www.selenium.dev/", "Selenium"],
       "smartbear-code-review": ["https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/", "Best Practices for Peer Code Review"],
@@ -234,6 +238,7 @@ kramdown:
       "stone-quote": ["https://twitter.com/joncstone/status/1269961630940631041", "Jon Stone on channels"],
       "subversion": ["https://subversion.apache.org/", "Subversion"],
       "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
+      "taylor-francis": ["https://taylorandfrancis.com/", "Taylor & Francis"],
       "tech-solidarity": ["https://techsolidarity.org/", "Tech Solidarity"],
       "therac-25": ["https://en.wikipedia.org/wiki/Therac-25", "Therac-25"],
       "thirdbit-burnout": ["http://third-bit.com/2015/11/09/daddy-why-dont-you-ever-laugh/", "Daddy, Why Don't You Ever Laugh?"],
@@ -250,7 +255,8 @@ kramdown:
       "wayne-hillel": ["https://hillelwayne.com/", "Hillel Wayne"],
       "wayne-linked-lists": ["https://www.hillelwayne.com/post/linked-lists/", "Why Do Interviewers Ask Linked List Questions?"],
       "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"],
-      "womens-work": ["https://en.wikipedia.org/wiki/Women%27s_work", "Women's work"]
+      "womens-work": ["https://en.wikipedia.org/wiki/Women%27s_work", "Women's work"],
+      "xkcd-passwords": ["https://xkcd.com/936/", "XKCD on secure passwords"]
     }
 
 exclude:
