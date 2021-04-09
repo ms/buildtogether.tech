@@ -1416,6 +1416,11 @@ Justin Seitz and Tim Arnold:
 <em>Black Hat Python: Python Programming for Hackers and Pentesters</em> (2nd edition).
 No Starch Press, 2021, 978-1718501126.
 </dd>
+<dt id="sharma2021" class="bibliography">Sharma2021</dt>
+<dd>
+Ax Sharma:
+"<a href="https://www.bleepingcomputer.com/news/security/phps-git-server-hacked-to-add-backdoors-to-php-source-code/">PHP's Git server hacked to add backdoors to PHP source code</a>".
+</dd>
 <dt id="sharp2016" class="bibliography">Sharp2016</dt>
 <dd>
 Helen Sharp, Yvonne Dittrich, and Cleidson R. B. de Souza:

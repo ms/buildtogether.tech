@@ -82,8 +82,9 @@ How can you help counter these threats?
     signed</span there will still be evidence of tampering.
 
 1.  Do code reviews to ensure that programmers aren't inserting <span i="code
-    review!for security" g="back_door">back doors</span> in software or
-    accidentally leaving access points intended solely for testing.
+    review!for security" g="back_door">back doors</span> in software
+    <cite>Sharma2021</cite> or accidentally leaving access points intended
+    solely for testing.
 
 ## Authentication
 

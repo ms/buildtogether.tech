@@ -59,6 +59,7 @@ Automattic
 Automattic's
 Auvinen
 Averick
+Ax
 Ayres
 Ayushi
 Aziz
@@ -717,6 +718,7 @@ Sergey
 Shakeri
 Shankar
 Sharla
+Sharma
 Shennum
 Shepperd
 Shesh
@@ -901,6 +903,7 @@ assed
 asshole
 assholes
 auditable
+backdoors
 beens
 behavior
 behaviors

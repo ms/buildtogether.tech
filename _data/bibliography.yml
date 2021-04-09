@@ -2639,6 +2639,14 @@
   publisher: No Starch Press
   isbn: 978-1718501126
 
+- key: Sharma2021
+  kind: link
+  author:
+  - Ax Sharma
+  url: https://www.bleepingcomputer.com/news/security/phps-git-server-hacked-to-add-backdoors-to-php-source-code/
+  year: 2021
+  title: "PHP's Git server hacked to add backdoors to PHP source code"
+
 - key: Sharp2016
   author:
   - Helen Sharp
