@@ -120,7 +120,7 @@ The system's <span i="physical architecture!diagram; diagrams!physical architect
     directories, and circles showing running processes. A lot of this stuff can
     show up in the conceptual architecture as well.
 
-<span g="workflow_diagram" i="workflow diagram; diagrams!workflow>Workflow diagrams</span> that show how users accomplish things.
+<span g="workflow_diagram" i="workflow diagram; diagrams!workflow">Workflow diagrams</span> that show how users accomplish things.
 :   Workflows are almost always drawn as <span g="fsm" i="finite state
     machines!use in software design">finite state machines</span>. Each node
     represents a state the user and the system can be in, while the arcs show

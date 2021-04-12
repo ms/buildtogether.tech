@@ -234,6 +234,7 @@ important:
   term: sense vote
 - key: tone_policing
   term: tone policing
+index: []
 introduction: []
 ip:
 - key: bsd_license

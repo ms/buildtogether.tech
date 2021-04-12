@@ -94,6 +94,9 @@ chapters:
     title: "How to Get Started Freelancing"
   - slug: "rules-change"
     title: "How to Change the World"
+  - slug: "index"
+    title: "Index"
+    skip: true
 
 author:
   name: Greg Wilson

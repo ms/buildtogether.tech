@@ -1,0 +1,2906 @@
+- links:
+  - slug: rules-persuade
+    title: How to Talk People Into Things
+  term: 90-9-1 rule
+- links:
+  - slug: design
+    title: Software Design
+  term: accessibility
+- links:
+  - slug: design
+    title: Software Design
+  term: accessibility - WebAIM WAVE
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: active listening
+- links:
+  - slug: testing
+    title: Testing
+  term: actual result (in unit test)
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: ADHD
+- links:
+  - slug: process
+    title: Process
+  term: agile development
+- links:
+  - slug: process
+    title: Process
+  term: agile development - conditions for success
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: all-nighters
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - chaotic decomposition
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - confirmation loop
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - effect of social status
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - feature decomposition
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - functional decomposition
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - in teams
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - modular decomposition
+- links:
+  - slug: teams
+    title: Teams
+  term: allocating work - rotating decomposition
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Alloy
+- links:
+  - slug: starting
+    title: Starting
+  term: ally
+- links:
+  - slug: design
+    title: Software Design
+  term: already invented here syndrome
+- links:
+  - slug: process
+    title: Process
+  term: analysis & estimation
+- links:
+  - slug: design
+    title: Software Design
+  - slug: process
+    title: Process
+  term: analysis paralysis
+- links:
+  - slug: automation
+    title: Automation
+  term: Ant
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: Apache Software Foundation
+- links:
+  - slug: tooling
+    title: Tooling
+  term: APT
+- links:
+  - slug: errors
+    title: Error Handling
+  - slug: debugging
+    title: Debugging
+  term: assertion
+- links:
+  - slug: security
+    title: Security
+  term: authentication
+- links:
+  - slug: security
+    title: Security
+  term: authentication - two-factor
+- links:
+  - slug: tooling
+    title: Tooling
+  term: auto-completion
+- links:
+  - slug: debugging
+    title: Debugging
+  term: automated program repair
+- links:
+  - slug: automation
+    title: Automation
+  term: automation
+- links:
+  - slug: automation
+    title: Automation
+  term: automation - as programming
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Baldwin, James
+- links:
+  - slug: teams
+    title: Teams
+  term: big bang integration
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Bitbucket
+- links:
+  - slug: automation
+    title: Automation
+  term: Black
+- links:
+  - slug: process
+    title: Process
+  term: Blackbox project
+- links:
+  - slug: communicate
+    title: Communicating
+  term: blog - as team journal
+- links:
+  - slug: communicate
+    title: Communicating
+  term: blog - automatically generated
+- links:
+  - slug: process
+    title: Process
+  term: Boehm Curve
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Borland
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: branch (in Git)
+- links:
+  - slug: debugging
+    title: Debugging
+  term: breakpoint
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: breaks (importance of regular)
+- links:
+  - slug: research
+    title: Research
+  term: Brook's Law
+- links:
+  - slug: process
+    title: Process
+  term: Brown, Neil
+- links:
+  - slug: testing
+    title: Testing
+  term: browser automation - for testing
+- links:
+  - slug: testing
+    title: Testing
+  term: browser automation - record and playback
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: BSD License
+- links:
+  - slug: communicate
+    title: Communicating
+  term: bug tracker
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager - and version control
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager - Ant
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager - Make
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager - Rake
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager - rules for using
+- links:
+  - slug: automation
+    title: Automation
+  term: build manager - Snakemake
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: build number
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: C
+- links:
+  - slug: tooling
+    title: Tooling
+  term: C++
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Carnac
+- links:
+  - slug: security
+    title: Security
+  term: casual threat
+- links:
+  - slug: errors
+    title: Error Handling
+  term: catch exception
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: CC-BY license
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: CC0 license
+- links:
+  - slug: teams
+    title: Teams
+  term: chaotic decomposition
+- links:
+  - slug: teams
+    title: Teams
+  term: checklists - benefits of
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: checklists - use in code review
+- links:
+  - slug: automation
+    title: Automation
+  term: Checkstyle
+- links:
+  - slug: communicate
+    title: Communicating
+  term: chorus of explanation
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: chunking
+- links:
+  - slug: starting
+    title: Starting
+  term: co-op
+- links:
+  - slug: tooling
+    title: Tooling
+  term: code browser
+- links:
+  - slug: research
+    title: Research
+  term: code clones
+- links:
+  - slug: design
+    title: Software Design
+  term: code comprehension
+- links:
+  - slug: testing
+    title: Testing
+  term: code coverage
+- links:
+  - slug: research
+    title: Research
+  term: code metrics - ineffectiveness of
+- links:
+  - slug: starting
+    title: Starting
+  - slug: rules-newcomers
+    title: How to Welcome Newcomers
+  - slug: contributing
+    title: Contributing
+  term: Code of Conduct
+- links:
+  - slug: process
+    title: Process
+  term: code review
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: code review - effectiveness of
+- links:
+  - slug: security
+    title: Security
+  term: code review - for security
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: code review - procedure
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: code review - responding to
+- links:
+  - slug: research
+    title: Research
+  term: cognitive bias
+- links:
+  - slug: research
+    title: Research
+  term: cognitive dimensions framework
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: cognitive load
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: cognitive load - extraneous
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: cognitive load - germane
+- links:
+  - slug: teams
+    title: Teams
+  term: cognitive load - impact of checklists
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: cognitive load - intrinsic
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: cognitive load theory
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: cognitive transition
+- links:
+  - slug: communicate
+    title: Communicating
+  term: comments - as communication
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: commit (version control)
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: commit message (version control)
+- links:
+  - slug: debugging
+    title: Debugging
+  term: common programming errors
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - asynchronous
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - blog
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - comments
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - email
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - instant messaging
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - synchronous
+- links:
+  - slug: communicate
+    title: Communicating
+  term: communication - wiki
+- links:
+  - slug: rules-newcomers
+    title: How to Welcome Newcomers
+  term: community of practice
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: competent practitioner
+- links:
+  - slug: communicate
+    title: Communicating
+  term: competent practitioner - documentation needs
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Comprehensive TeX Archive Network (CTAN)
+- links:
+  - slug: design
+    title: Software Design
+  term: conceptual architecture - diagram
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: concrete examples
+- links:
+  - slug: debugging
+    title: Debugging
+  term: concurrent systems - difficult of debugging
+- links:
+  - slug: starting
+    title: Starting
+  - slug: ip
+    title: Intellectual Property
+  term: CONDUCT file
+- links:
+  - slug: design
+    title: Software Design
+  term: configuration - layered
+- links:
+  - slug: research
+    title: Research
+  term: configuration - parameters
+- links:
+  - slug: teams
+    title: Teams
+  term: confirmation loop - allocating work
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: conflict (in Git)
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: conflict (in Git) - repeating
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: conflict (interpersonal)
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: conflict (interpersonal) - escalating
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: conflict (interpersonal) - handling
+- links:
+  - slug: methods
+    title: Research Methods
+  term: confounding variable
+- links:
+  - slug: tooling
+    title: Tooling
+  term: console
+- links:
+  - slug: automation
+    title: Automation
+  term: continous integration - Travis CI
+- links:
+  - slug: automation
+    title: Automation
+  - slug: process
+    title: Process
+  term: continuous integration
+- links:
+  - slug: automation
+    title: Automation
+  term: continuous integration - GitHub Actions
+- links:
+  - slug: teams
+    title: Teams
+  term: contrarian (why not to be)
+- links:
+  - slug: important
+    title: The Important Stuff
+  - slug: starting
+    title: Starting
+  term: CONTRIBUTING file
+- links:
+  - slug: methods
+    title: Research Methods
+  term: control group
+- links:
+  - slug: methods
+    title: Research Methods
+  term: controlled experiments
+- links:
+  - slug: teams
+    title: Teams
+  term: Conway's Law
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: copyright
+- links:
+  - slug: testing
+    title: Testing
+  term: coverage - code
+- links:
+  - slug: testing
+    title: Testing
+  term: coverage - path
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Creative Commons
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Creative Commons - CC-BY license
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Creative Commons - CC0 license
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Creative Commons - ND clause
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Creative Commons - no commercial use
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Creative Commons - share-alike
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: crunch mode
+- links:
+  - slug: testing
+    title: Testing
+  term: CSS selector - use in testing
+- links:
+  - slug: process
+    title: Process
+  term: cutting corners
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: CVS (version control)
+- links:
+  - slug: methods
+    title: Research Methods
+  term: dark matter developer
+- links:
+  - slug: methods
+    title: Research Methods
+  term: data mining
+- links:
+  - slug: design
+    title: Software Design
+  term: data structure diagrams
+- links:
+  - slug: research
+    title: Research
+  term: dead code
+- links:
+  - slug: debugging
+    title: Debugging
+  term: debugger - breakpoint
+- links:
+  - slug: debugging
+    title: Debugging
+  term: debugger - single-stepping
+- links:
+  - slug: debugging
+    title: Debugging
+  term: debugging - concurrent systems
+- links:
+  - slug: debugging
+    title: Debugging
+  term: debugging - importance of good habits
+- links:
+  - slug: rules-comfortable
+    title: How to Make Yourself Comfortable
+  term: debugging - rubber duck
+- links:
+  - slug: debugging
+    title: Debugging
+  term: debugging - symbolic debugger
+- links:
+  - slug: debugging
+    title: Debugging
+  term: debugging - why schools don't teach
+- links:
+  - slug: errors
+    title: Error Handling
+  - slug: debugging
+    title: Debugging
+  term: defensive programming
+- links:
+  - slug: debugging
+    title: Debugging
+  term: delta debugging
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: demotivation
+- links:
+  - slug: design
+    title: Software Design
+  term: design by contract
+- links:
+  - slug: testing
+    title: Testing
+  term: design for test
+- links:
+  - slug: testing
+    title: Testing
+  term: design pattern - model-view-controller
+- links:
+  - slug: process
+    title: Process
+  term: development process
+- links:
+  - slug: automation
+    title: Automation
+  term: DevOps
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: diagnostic power (of formative assessment)
+- links:
+  - slug: design
+    title: Software Design
+  term: diagrams - conceptual architecture
+- links:
+  - slug: design
+    title: Software Design
+  term: diagrams - data structure
+- links:
+  - slug: design
+    title: Software Design
+  term: diagrams - entity-relationship
+- links:
+  - slug: design
+    title: Software Design
+  term: diagrams - physical architecture
+- links:
+  - slug: design
+    title: Software Design
+  term: diagrams - use-case map
+- links:
+  - slug: design
+    title: Software Design
+  term: diagrams - workflow
+- links:
+  - slug: security
+    title: Security
+  term: dictionary attack
+- links:
+  - slug: security
+    title: Security
+  term: digital signature - for activity logs
+- links:
+  - slug: communicate
+    title: Communicating
+  term: discoverability - of issues
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: discovery-based learning
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: do-ocracy
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Docker
+- links:
+  - slug: communicate
+    title: Communicating
+  term: documentation - as communication
+- links:
+  - slug: communicate
+    title: Communicating
+  term: documentation - embedded
+- links:
+  - slug: communicate
+    title: Communicating
+  term: documentation - for competent practitioners
+- links:
+  - slug: communicate
+    title: Communicating
+  term: documentation - for experts
+- links:
+  - slug: communicate
+    title: Communicating
+  term: documentation - for novices
+- links:
+  - slug: communicate
+    title: Communicating
+  term: documentation - what to include
+- links:
+  - slug: tooling
+    title: Tooling
+  term: documentation generator
+- links:
+  - slug: tooling
+    title: Tooling
+  term: documentation generator - JSDoc
+- links:
+  - slug: introduction
+    title: Introduction
+  term: doi2bib
+- links:
+  - slug: design
+    title: Software Design
+  term: Don't Repeat Yourself
+- links:
+  - slug: methods
+    title: Research Methods
+  term: double blind experiments
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: dual coding
+- links:
+  - slug: security
+    title: Security
+  term: dumpster diving
+- links:
+  - slug: teams
+    title: Teams
+  term: Dunning-Kruger effect
+- links:
+  - slug: tooling
+    title: Tooling
+  term: dynamic analysis
+- links:
+  - slug: tooling
+    title: Tooling
+  term: dynamic analysis - Valgrind
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: dynamic typing
+- links:
+  - slug: tooling
+    title: Tooling
+  term: editor - Emacs
+- links:
+  - slug: tooling
+    title: Tooling
+  term: editor - Notepad
+- links:
+  - slug: process
+    title: Process
+  term: effort-importance grid
+- links:
+  - slug: process
+    title: Process
+  term: effort-importance grid - helping triage
+- links:
+  - slug: design
+    title: Software Design
+  term: Eiffel
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: elaboration
+- links:
+  - slug: introduction
+    title: Introduction
+  term: Elbakyan, Alexander
+- links:
+  - slug: starting
+    title: Starting
+  - slug: design
+    title: Software Design
+  term: elevator pitch
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Emacs
+- links:
+  - slug: communicate
+    title: Communicating
+  term: email (for team communication)
+- links:
+  - slug: communicate
+    title: Communicating
+  term: email - filters
+- links:
+  - slug: testing
+    title: Testing
+  term: embedded database - use in testing
+- links:
+  - slug: methods
+    title: Research Methods
+  term: engineering tradition in computing
+- links:
+  - slug: design
+    title: Software Design
+  term: entity-relationship diagram
+- links:
+  - slug: debugging
+    title: Debugging
+  term: error - common
+- links:
+  - slug: errors
+    title: Error Handling
+  term: error - external
+- links:
+  - slug: errors
+    title: Error Handling
+  term: error - internal
+- links:
+  - slug: debugging
+    title: Debugging
+  term: error - misperception of frequency
+- links:
+  - slug: research
+    title: Research
+  term: error - root cause analysis
+- links:
+  - slug: errors
+    title: Error Handling
+  term: error message - internatioalizing
+- links:
+  - slug: errors
+    title: Error Handling
+  term: error message - writing helpful
+- links:
+  - slug: automation
+    title: Automation
+  term: ESLint
+- links:
+  - slug: communicate
+    title: Communicating
+  term: Evans, Julia
+- links:
+  - slug: methods
+    title: Research Methods
+  term: Excel
+- links:
+  - slug: errors
+    title: Error Handling
+  term: exception
+- links:
+  - slug: errors
+    title: Error Handling
+  term: exception - handling
+- links:
+  - slug: errors
+    title: Error Handling
+  term: exception - raise
+- links:
+  - slug: research
+    title: Research
+  term: exception - under-used and abused
+- links:
+  - slug: errors
+    title: Error Handling
+  term: exception - when to check
+- links:
+  - slug: security
+    title: Security
+  term: exfiltrate
+- links:
+  - slug: testing
+    title: Testing
+  term: expected result (in unit test)
+- links:
+  - slug: methods
+    title: Research Methods
+  term: experimenter bias
+- links:
+  - slug: design
+    title: Software Design
+  - slug: thinking
+    title: Thinking and Learning
+  term: expert
+- links:
+  - slug: design
+    title: Software Design
+  term: expert - code comprehension
+- links:
+  - slug: communicate
+    title: Communicating
+  term: expert - documentation needs
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: expert blind spot
+- links:
+  - slug: errors
+    title: Error Handling
+  term: external error
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: extraneous load
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: extrinsic motivation
+- links:
+  - slug: debugging
+    title: Debugging
+  term: failure
+- links:
+  - slug: communicate
+    title: Communicating
+  term: FAQ
+- links:
+  - slug: debugging
+    title: Debugging
+  term: fault
+- links:
+  - slug: process
+    title: Process
+  term: feature boxing
+- links:
+  - slug: teams
+    title: Teams
+  term: feature creep (danger of)
+- links:
+  - slug: teams
+    title: Teams
+  term: feature decomposition
+- links:
+  - slug: process
+    title: Process
+  term: feedback loops
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: final report
+- links:
+  - slug: design
+    title: Software Design
+  term: finite state machines - use in software design
+- links:
+  - slug: testing
+    title: Testing
+  term: fixture (in unit test)
+- links:
+  - slug: testing
+    title: Testing
+  term: floating-point arithmetic - difficulty of testing
+- links:
+  - slug: methods
+    title: Research Methods
+  term: Flon's Axiom
+- links:
+  - slug: important
+    title: The Important Stuff
+  - slug: testing
+    title: Testing
+  - slug: delivery
+    title: Wrapping Up
+  term: flow
+- links:
+  - slug: research
+    title: Research
+  term: flow graph - abstract inerpretation
+- links:
+  - slug: research
+    title: Research
+  term: flow graph - actual
+- links:
+  - slug: design
+    title: Software Design
+  term: flowchart
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: Ford, Henry
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: formative assessment
+- links:
+  - slug: teams
+    title: Teams
+  term: functional decomposition
+- links:
+  - slug: testing
+    title: Testing
+  - slug: debugging
+    title: Debugging
+  term: fuzz testing
+- links:
+  - slug: tooling
+    title: Tooling
+  term: garbage collection - generational
+- links:
+  - slug: security
+    title: Security
+  term: General Data Protection Regularion (GDPR)
+- links:
+  - slug: tooling
+    title: Tooling
+  term: generational garbage collection
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: germane load
+- links:
+  - slug: rules-research
+    title: How to be a Good Research Partner
+  term: Gilliam, Terry
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - basic commands
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - branch
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - branch names
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - cloning project
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - commit
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - commit ID
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  - slug: git-team
+    title: Using Git Together
+  term: Git - commit message
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - configuring
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - conflict
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - creating project
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - difference between add and commit
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - graphical interface
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - HEAD
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - history
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - ignoring files
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  - slug: git-team
+    title: Using Git Together
+  term: Git - interface (indistinguishable from hoax)
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - merge
+- links:
+  - slug: automation
+    title: Automation
+  term: Git - post-commit hook
+- links:
+  - slug: automation
+    title: Automation
+  term: Git - pre-commit hook
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: Git - pull request
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: Git - pull request - comments
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - reasons for popularity
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - rebase
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - recovering old files
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - remote
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - saving changes remotely
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - showing status
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - viewing differences
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Git - workflow
+- links:
+  - slug: automation
+    title: Automation
+  term: GitHub Actions
+- links:
+  - slug: communicate
+    title: Communicating
+  term: GitHub Pages
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: GitLab
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: GNU Public License (GPL)
+- links:
+  - slug: research
+    title: Research
+  term: Goal-Question-Metric
+- links:
+  - slug: debugging
+    title: Debugging
+  - slug: research
+    title: Research
+  term: Goodhart's Law
+- links:
+  - slug: introduction
+    title: Introduction
+  term: Google Summer of Code
+- links:
+  - slug: important
+    title: The Important Stuff
+  - slug: rules-newcomers
+    title: How to Welcome Newcomers
+  term: governance
+- links:
+  - slug: introduction
+    title: Introduction
+  term: Graf, David
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Grand Perspective
+- links:
+  - slug: tooling
+    title: Tooling
+  term: GUI designer
+- links:
+  - slug: conclusion
+    title: Conclusion
+  term: harassment
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Hippocratic License
+- links:
+  - slug: teams
+    title: Teams
+  term: history of computing
+- links:
+  - slug: teams
+    title: Teams
+  - slug: conflict
+    title: Managing Conflict
+  term: hitchhiker
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Homebrew
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: human rights
+- links:
+  - slug: methods
+    title: Research Methods
+  term: humanist tradition in computing
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: hypercorrection effect
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  - slug: tooling
+    title: Tooling
+  term: IDE
+- links:
+  - slug: tooling
+    title: Tooling
+  term: IDE - console
+- links:
+  - slug: tooling
+    title: Tooling
+  term: IDE - in browser
+- links:
+  - slug: research
+    title: Research
+  term: IDE - under-used and abused
+- links:
+  - slug: tooling
+    title: Tooling
+  term: IDE - VS Code
+- links:
+  - slug: testing
+    title: Testing
+  term: in-memory database - use in testing
+- links:
+  - slug: conclusion
+    title: Conclusion
+  term: inequality
+- links:
+  - slug: security
+    title: Security
+  term: insider threat
+- links:
+  - slug: communicate
+    title: Communicating
+  term: instant messagin - inevitable use of
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: intellectual property
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: intellectual property - copyright
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: intellectual property - patent
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: intellectual property - trade secret
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: intellectual property - trademark
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: interleaving
+- links:
+  - slug: errors
+    title: Error Handling
+  term: internal error
+- links:
+  - slug: starting
+    title: Starting
+  term: internship
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: interruption bingo (in meetings)
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: interruptions
+- links:
+  - slug: security
+    title: Security
+  term: intimate threat
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: intrinsic load
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: intrinsic motivation
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: introspection
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue - classifying
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue - description of
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue - fields
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue - good titles
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue - timestamps
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue tracker
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: issue tracker - as course deliverable
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: process
+    title: Process
+  term: issue tracker - helping triage
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue tracker - Jira
+- links:
+  - slug: communicate
+    title: Communicating
+  term: issue tracker - milestones
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: issue-tracking system
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: Java
+- links:
+  - slug: automation
+    title: Automation
+  term: Java - build manager
+- links:
+  - slug: automation
+    title: Automation
+  term: Java - style checker
+- links:
+  - slug: tooling
+    title: Tooling
+  term: JavaScript
+- links:
+  - slug: automation
+    title: Automation
+  term: JavaScript - style checker
+- links:
+  - slug: communicate
+    title: Communicating
+  term: Jekyll
+- links:
+  - slug: communicate
+    title: Communicating
+  term: Jira (issue tracker)
+- links:
+  - slug: tooling
+    title: Tooling
+  term: JSDoc
+- links:
+  - slug: tooling
+    title: Tooling
+  term: just-in-time compiler
+- links:
+  - slug: communicate
+    title: Communicating
+  term: Kaplan-Moss, Jacob
+- links:
+  - slug: rules-change
+    title: How to Change the World
+  term: Kendzior, Sarah
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: LaTeX
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learned helplessness
+- links:
+  - slug: introduction
+    title: Introduction
+  - slug: thinking
+    title: Thinking and Learning
+  term: learner persona
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies - concrete examples
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies - dual coding
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies - elaboration
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies - interleaving
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies - retrieval practice
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning strategies - spaced practice
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: learning styles
+- links:
+  - slug: rules-newcomers
+    title: How to Welcome Newcomers
+  term: legitimate peripheral participation
+- links:
+  - slug: methods
+    title: Research Methods
+  term: Lehrer, Tom
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: LibreOffice
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: license - software
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: license - why not to write your own
+- links:
+  - slug: starting
+    title: Starting
+  - slug: ip
+    title: Intellectual Property
+  term: LICENSE file
+- links:
+  - slug: automation
+    title: Automation
+  term: linter
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Linux
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Linux - toxic leadership
+- links:
+  - slug: errors
+    title: Error Handling
+  term: logging
+- links:
+  - slug: debugging
+    title: Debugging
+  term: logging - during debugging
+- links:
+  - slug: security
+    title: Security
+  - slug: errors
+    title: Error Handling
+  term: logging - for security
+- links:
+  - slug: errors
+    title: Error Handling
+  term: logging - levels
+- links:
+  - slug: errors
+    title: Error Handling
+  term: logging - output format
+- links:
+  - slug: errors
+    title: Error Handling
+  term: logging - rotating files
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: long-term memory
+- links:
+  - slug: design
+    title: Software Design
+  term: Lua
+- links:
+  - slug: tooling
+    title: Tooling
+  term: MacOS
+- links:
+  - slug: security
+    title: Security
+  term: macro
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: major version number
+- links:
+  - slug: automation
+    title: Automation
+  term: Make
+- links:
+  - slug: automation
+    title: Automation
+  term: Make - pattern rule
+- links:
+  - slug: automation
+    title: Automation
+  term: Make - shortcomings
+- links:
+  - slug: communicate
+    title: Communicating
+  term: Markdown
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: Markdown - for final report
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: marketing
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: Martha's Rules
+- links:
+  - slug: methods
+    title: Research Methods
+  term: mathematical tradition in computing
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: MathML
+- links:
+  - slug: methods
+    title: Research Methods
+  term: MATLAB
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: meetings
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: meetings (online)
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: meetings -  discussion
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: meetings - decision
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: meetings - extra rules for post mortems
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: meetings - interruption bingo
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: meetings - three sticky notes
+- links:
+  - slug: rules-research
+    title: How to be a Good Research Partner
+  term: Mencken, H.L.
+- links:
+  - slug: teams
+    title: Teams
+  term: mental health
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: mental health (stigma associated with)
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: thinking
+    title: Thinking and Learning
+  term: mental model
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: mental model - Git
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: mentoring
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Mercurial (version control)
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: merge (in Git)
+- links:
+  - slug: rules-comfortable
+    title: How to Make Yourself Comfortable
+  term: microphone
+- links:
+  - slug: design
+    title: Software Design
+  term: microservice
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Microsoft Project
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Microsoft Visual Studio Code
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: Microsoft Word
+- links:
+  - slug: communicate
+    title: Communicating
+  term: milestone (in issue tracker)
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: minor version number
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: minutes (of meetings)
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: MIT License
+- links:
+  - slug: testing
+    title: Testing
+  - slug: debugging
+    title: Debugging
+  term: mock object
+- links:
+  - slug: design
+    title: Software Design
+  term: model - of software development
+- links:
+  - slug: testing
+    title: Testing
+  term: model-view-controller architecture
+- links:
+  - slug: testing
+    title: Testing
+  term: model-view-controller architecture - testing
+- links:
+  - slug: tooling
+    title: Tooling
+  term: modeling tools - Alloy
+- links:
+  - slug: tooling
+    title: Tooling
+  term: modeling tools - TLA+
+- links:
+  - slug: teams
+    title: Teams
+  term: modular decomposition
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: motivation - extrinsic
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: motivation - intrinsic
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: motivation - self-efficacy
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: multitasking
+- links:
+  - slug: research
+    title: Research
+  - slug: thinking
+    title: Thinking and Learning
+  term: Myers-Briggs Type Indicator
+- links:
+  - slug: methods
+    title: Research Methods
+  term: negative results (failure to publish)
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: neurodivergent
+- links:
+  - slug: important
+    title: The Important Stuff
+  - slug: thinking
+    title: Thinking and Learning
+  term: neurotypical
+- links:
+  - slug: automation
+    title: Automation
+  - slug: tooling
+    title: Tooling
+  term: Node.js - package.json file
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: non-disclosure agreement
+- links:
+  - slug: security
+    title: Security
+  term: non-disclosure agreement - abuse of
+- links:
+  - slug: design
+    title: Software Design
+  term: not invented here syndrome
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: note-taking (as a learning strategy)
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Notepad
+- links:
+  - slug: design
+    title: Software Design
+  - slug: thinking
+    title: Thinking and Learning
+  term: novice
+- links:
+  - slug: design
+    title: Software Design
+  term: novice - code comprehension
+- links:
+  - slug: communicate
+    title: Communicating
+  term: novice - documentation needs
+- links:
+  - slug: tooling
+    title: Tooling
+  term: NPM
+- links:
+  - slug: tooling
+    title: Tooling
+  term: NPMS
+- links:
+  - slug: onboarding
+    title: Onboarding Checklist
+  term: onboarding checklist
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: open offices (evils of)
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Open Source Initiative
+- links:
+  - slug: design
+    title: Software Design
+  term: Open-Closed Principle
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: overwork
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: package - as course deliverable
+- links:
+  - slug: design
+    title: Software Design
+  term: package - building
+- links:
+  - slug: tooling
+    title: Tooling
+  term: package manager
+- links:
+  - slug: tooling
+    title: Tooling
+  term: package manager - APT
+- links:
+  - slug: tooling
+    title: Tooling
+  term: package manager - Homebrew
+- links:
+  - slug: tooling
+    title: Tooling
+  term: package manager - NPM
+- links:
+  - slug: tooling
+    title: Tooling
+  term: package manager - package ratings
+- links:
+  - slug: tooling
+    title: Tooling
+  term: package manager - pip
+- links:
+  - slug: automation
+    title: Automation
+  term: package manifest
+- links:
+  - slug: design
+    title: Software Design
+  term: packaging
+- links:
+  - slug: process
+    title: Process
+  term: pair programming
+- links:
+  - slug: research
+    title: Research
+  term: pair programming - effect of personality
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: patch (software)
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: patent
+- links:
+  - slug: testing
+    title: Testing
+  term: path coverage
+- links:
+  - slug: teams
+    title: Teams
+  term: peer evaluation
+- links:
+  - slug: research
+    title: Research
+  term: PEP8
+- links:
+  - slug: testing
+    title: Testing
+  term: performance testing - manual
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: Perl
+- links:
+  - slug: rules-persuade
+    title: How to Talk People Into Things
+  term: persuasion
+- links:
+  - slug: introduction
+    title: Introduction
+  term: Petre, Marian
+- links:
+  - slug: rules-handover
+    title: How to Hand Over and Move On
+  term: Petrov, Andrey
+- links:
+  - slug: security
+    title: Security
+  term: phishing
+- links:
+  - slug: design
+    title: Software Design
+  term: physical architecture - diagram
+- links:
+  - slug: tooling
+    title: Tooling
+  term: pip
+- links:
+  - slug: methods
+    title: Research Methods
+  term: placebo
+- links:
+  - slug: introduction
+    title: Introduction
+  term: PLOS
+- links:
+  - slug: tooling
+    title: Tooling
+  term: plugin - for IDE
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: post mortem
+- links:
+  - slug: automation
+    title: Automation
+  term: post-commit hook
+- links:
+  - slug: design
+    title: Software Design
+  term: post-condition
+- links:
+  - slug: design
+    title: Software Design
+  term: post-condition - strengthening
+- links:
+  - slug: errors
+    title: Error Handling
+  term: Pratchett, Terry
+- links:
+  - slug: automation
+    title: Automation
+  term: pre-commit hook
+- links:
+  - slug: design
+    title: Software Design
+  term: pre-condition
+- links:
+  - slug: design
+    title: Software Design
+  term: pre-condition - weakening
+- links:
+  - slug: methods
+    title: Research Methods
+  term: pre-registration of experiments
+- links:
+  - slug: process
+    title: Process
+  term: process - waterfall
+- links:
+  - slug: process
+    title: Process
+  term: product manager
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: productivity
+- links:
+  - slug: research
+    title: Research
+  term: productivity - comparative
+- links:
+  - slug: research
+    title: Research
+  term: productivity - SPACE framework
+- links:
+  - slug: testing
+    title: Testing
+  term: profiler
+- links:
+  - slug: research
+    title: Research
+  term: programmers - happiness
+- links:
+  - slug: research
+    title: Research
+  term: programming - innate ability
+- links:
+  - slug: design
+    title: Software Design
+  term: programming in the large
+- links:
+  - slug: tooling
+    title: Tooling
+  term: programming language - compiled
+- links:
+  - slug: tooling
+    title: Tooling
+  term: programming language - dynamically typed
+- links:
+  - slug: tooling
+    title: Tooling
+  term: programming language - ease of learning
+- links:
+  - slug: tooling
+    title: Tooling
+  term: programming language - interpreted
+- links:
+  - slug: tooling
+    title: Tooling
+  term: programming language - statically typed
+- links:
+  - slug: starting
+    title: Starting
+  term: project course - characteristics of
+- links:
+  - slug: process
+    title: Process
+  term: project manager
+- links:
+  - slug: starting
+    title: Starting
+  term: project organization - standard files
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: pseudoscience - learning styles
+- links:
+  - slug: research
+    title: Research
+  term: pseudoscience - Myers-Briggs Type Indicator
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: pull request
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: pull request - serial number
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  - slug: methods
+    title: Research Methods
+  term: Python
+- links:
+  - slug: research
+    title: Research
+  term: Python - PEP8 style guide
+- links:
+  - slug: automation
+    title: Automation
+  term: Python - style checker
+- links:
+  - slug: methods
+    title: Research Methods
+  term: qualitative methods
+- links:
+  - slug: methods
+    title: Research Methods
+  term: quasi-experiment
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Quorum
+- links:
+  - slug: methods
+    title: Research Methods
+  term: R (programming language)
+- links:
+  - slug: conclusion
+    title: Conclusion
+  term: radicalization
+- links:
+  - slug: errors
+    title: Error Handling
+  term: raise exception
+- links:
+  - slug: automation
+    title: Automation
+  term: Rake
+- links:
+  - slug: debugging
+    title: Debugging
+  - slug: research
+    title: Research
+  term: reading code
+- links:
+  - slug: research
+    title: Research
+  term: reading code - effect of variable names
+- links:
+  - slug: research
+    title: Research
+  term: reading code - eye tracking studies
+- links:
+  - slug: research
+    title: Research
+  term: reading code - fMRI studies
+- links:
+  - slug: important
+    title: The Important Stuff
+  - slug: starting
+    title: Starting
+  term: README file
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: rebasing (in version control)
+- links:
+  - slug: tooling
+    title: Tooling
+  term: refactoring
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: refactoring - for code review
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: remote (in Git)
+- links:
+  - slug: communicate
+    title: Communicating
+  term: reporting - to your manager
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: repository (version control)
+- links:
+  - slug: design
+    title: Software Design
+  term: Representational State Transfer
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: debugging
+    title: Debugging
+  term: reproducible example (reprex)
+- links:
+  - slug: debugging
+    title: Debugging
+  term: requirements error
+- links:
+  - slug: design
+    title: Software Design
+  term: REST
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: retrieval practice
+- links:
+  - slug: teams
+    title: Teams
+  term: rotating decomposition
+- links:
+  - slug: rules-comfortable
+    title: How to Make Yourself Comfortable
+  term: rubber duck debugging
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: Ruby
+- links:
+  - slug: security
+    title: Security
+  term: sanitizing data
+- links:
+  - slug: security
+    title: Security
+  term: Schneier, Bruce
+- links:
+  - slug: introduction
+    title: Introduction
+  term: Sci-Hub
+- links:
+  - slug: methods
+    title: Research Methods
+  term: scientific tradition in computing
+- links:
+  - slug: research
+    title: Research
+  term: Scottish verdict
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: Scratch
+- links:
+  - slug: design
+    title: Software Design
+  term: scriptability
+- links:
+  - slug: process
+    title: Process
+  term: Scrum
+- links:
+  - slug: security
+    title: Security
+  term: secure deletion tool
+- links:
+  - slug: security
+    title: Security
+  term: security theater
+- links:
+  - slug: teams
+    title: Teams
+  term: self-confidence (lack of)
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: self-efficacy
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: semantic versioning
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: sense vote
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: short-term memory
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: short-term memory - chunking
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: short-term memory - limited capacity of
+- links:
+  - slug: methods
+    title: Research Methods
+  term: significance hacking
+- links:
+  - slug: debugging
+    title: Debugging
+  term: single-stepping
+- links:
+  - slug: automation
+    title: Automation
+  term: Snakemake
+- links:
+  - slug: security
+    title: Security
+  term: Snowden, Edward
+- links:
+  - slug: security
+    title: Security
+  term: social engineering
+- links:
+  - slug: teams
+    title: Teams
+  term: sociotechnical congruence
+- links:
+  - slug: design
+    title: Software Design
+  term: software design - accessibility
+- links:
+  - slug: design
+    title: Software Design
+  term: software design - evolution
+- links:
+  - slug: testing
+    title: Testing
+  term: software design - influence of testability
+- links:
+  - slug: design
+    title: Software Design
+  term: software design - role of diagrams
+- links:
+  - slug: design
+    title: Software Design
+  term: software design - scriptability
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license - BSD License
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license - GNU Public License (GPL)
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license - Hippocratic License
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license - MIT License
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license - open
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: software license - why to use the MIT License
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: software patch
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: software portal - Bitbucket
+- links:
+  - slug: communicate
+    title: Communicating
+  term: software portal - communication tools
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: software portal - GitHub
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: software portal - GitLab
+- links:
+  - slug: research
+    title: Research
+  term: SPACE framework
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: spaced practice
+- links:
+  - slug: security
+    title: Security
+  term: spearphishing
+- links:
+  - slug: process
+    title: Process
+  term: sprint
+- links:
+  - slug: security
+    title: Security
+  term: SQL injection attack
+- links:
+  - slug: communicate
+    title: Communicating
+  term: Stack Overflow
+- links:
+  - slug: process
+    title: Process
+  term: stand-up meeting
+- links:
+  - slug: starting
+    title: Starting
+  term: standard project files
+- links:
+  - slug: automation
+    title: Automation
+  term: static analysis
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: delivery
+    title: Wrapping Up
+  term: static site generator
+- links:
+  - slug: communicate
+    title: Communicating
+  term: static site generator - Jekyll
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: static typing
+- links:
+  - slug: testing
+    title: Testing
+  term: string I/O
+- links:
+  - slug: automation
+    title: Automation
+  term: style checker
+- links:
+  - slug: automation
+    title: Automation
+  term: style checker - Black
+- links:
+  - slug: automation
+    title: Automation
+  term: style checker - Checkstyle
+- links:
+  - slug: automation
+    title: Automation
+  term: style checker - ESLint
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Subversion (version control)
+- links:
+  - slug: conclusion
+    title: Conclusion
+  term: surveillance
+- links:
+  - slug: debugging
+    title: Debugging
+  term: symbolic debugger
+- links:
+  - slug: introduction
+    title: Introduction
+  term: Taylor & Francis
+- links:
+  - slug: teams
+    title: Teams
+  term: team contract
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - allocating work
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - benefits of diverse ability levels
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: teams - dissolving
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - effect of having friends on
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - effective size of
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - isolating at-risk students
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - learning benefits of
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - selecting
+- links:
+  - slug: teams
+    title: Teams
+  term: teams - taking schedules into account
+- links:
+  - slug: security
+    title: Security
+  term: Tech Solidatiry
+- links:
+  - slug: contributing
+    title: Contributing
+  term: term
+- links:
+  - slug: testing
+    title: Testing
+  term: test framework
+- links:
+  - slug: testing
+    title: Testing
+  - slug: tooling
+    title: Tooling
+  term: test runner
+- links:
+  - slug: testing
+    title: Testing
+  term: test suite
+- links:
+  - slug: process
+    title: Process
+  term: test-driven development
+- links:
+  - slug: testing
+    title: Testing
+  term: testability - influence on software design
+- links:
+  - slug: security
+    title: Security
+  term: threat - casual
+- links:
+  - slug: security
+    title: Security
+  term: threat - insider
+- links:
+  - slug: security
+    title: Security
+  term: threat - intimate
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: three sticky notes (in meetings)
+- links:
+  - slug: errors
+    title: Error Handling
+  term: throw low, catch high
+- links:
+  - slug: communicate
+    title: Communicating
+  term: ticketing system
+- links:
+  - slug: process
+    title: Process
+  term: time boxing
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: time management
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: timestamp - of Git commit
+- links:
+  - slug: tooling
+    title: Tooling
+  term: TLA+
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: to-do list
+- links:
+  - slug: important
+    title: The Important Stuff
+  - slug: teams
+    title: Teams
+  term: tone policing
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: toxic people - misperception of
+- links:
+  - slug: conflict
+    title: Managing Conflict
+  term: toxic people - rarity of
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: trade secret
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: trademark
+- links:
+  - slug: automation
+    title: Automation
+  term: Travis CI
+- links:
+  - slug: methods
+    title: Research Methods
+  term: treatment group
+- links:
+  - slug: process
+    title: Process
+  term: triage
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: process
+    title: Process
+  term: triage - using issue tracker
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Turbo Pascal
+- links:
+  - slug: security
+    title: Security
+  term: two-factor authentication
+- links:
+  - slug: research
+    title: Research
+  term: type declaration - effect on readability
+- links:
+  - slug: research
+    title: Research
+  term: type declaration - effectiveness at catching bugs
+- links:
+  - slug: design
+    title: Software Design
+  term: type declaration - use in software design
+- links:
+  - slug: tooling
+    title: Tooling
+  term: TypeScript
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: typing - dynamic
+- links:
+  - slug: tooling
+    title: Tooling
+  - slug: research
+    title: Research
+  term: typing - static
+- links:
+  - slug: introduction
+    title: Introduction
+  term: UCOSP
+- links:
+  - slug: design
+    title: Software Design
+  term: Unified Modeling Language
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - actual result
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - browser automation
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - code coverage
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - expected result
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - fixture
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - floating-point arithmetic
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - fuzzing
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - influence on software design
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - path coverage
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - performance
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - profiling
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - test framework
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - test suite
+- links:
+  - slug: testing
+    title: Testing
+  term: unit test - visualization
+- links:
+  - slug: ip
+    title: Intellectual Property
+  term: Universal Declaration of Human Rights
+- links:
+  - slug: introduction
+    title: Introduction
+  term: University of Toronto
+- links:
+  - slug: design
+    title: Software Design
+  - slug: delivery
+    title: Wrapping Up
+  term: use-case map
+- links:
+  - slug: design
+    title: Software Design
+  term: user story - use in software design
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Valgrind
+- links:
+  - slug: research
+    title: Research
+  term: variable naming
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: version control
+- links:
+  - slug: automation
+    title: Automation
+  term: version control - and build manager
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - centralized
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: version control - collaboration
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: version control - collaboration - using a shared repository
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: version control - collaboration - using forked repositories
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - CVS
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - decentralized
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - Git
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: version control - inability to handle office documents
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - Mercurial
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - reasons to use
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - repository
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - Subversion
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: version control - systems
+- links:
+  - slug: git-team
+    title: Using Git Together
+  term: version control - when to commit
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: version numbers
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: version numbers - major
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: version numbers - minor
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: version numbers - patch
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: version numbers - semantic versioning
+- links:
+  - slug: delivery
+    title: Wrapping Up
+  term: vesion numbers - build
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: Vim editor - exiting
+- links:
+  - slug: tooling
+    title: Tooling
+  term: virtual machine
+- links:
+  - slug: security
+    title: Security
+  term: virus scanner
+- links:
+  - slug: design
+    title: Software Design
+  term: Visual Basic
+- links:
+  - slug: testing
+    title: Testing
+  term: visualization - difficulty of testing
+- links:
+  - slug: tooling
+    title: Tooling
+  term: VS Code
+- links:
+  - slug: rules-research
+    title: How to be a Good Research Partner
+  term: Wales, Jimmy
+- links:
+  - slug: important
+    title: The Important Stuff
+  term: waste (in software development)
+- links:
+  - slug: process
+    title: Process
+  term: waterfall model
+- links:
+  - slug: design
+    title: Software Design
+  term: WebAIM WAVE
+- links:
+  - slug: research
+    title: Research
+  term: WEIRD
+- links:
+  - slug: communicate
+    title: Communicating
+  term: wiki
+- links:
+  - slug: rules-research
+    title: How to be a Good Research Partner
+  term: Wikipedia
+- links:
+  - slug: design
+    title: Software Design
+  term: Wilson, Robert
+- links:
+  - slug: tooling
+    title: Tooling
+  term: Windows
+- links:
+  - slug: git-solo
+    title: Using Git On Your Own
+  term: workflow (in Git)
+- links:
+  - slug: design
+    title: Software Design
+  term: workflow diagram
+- links:
+  - slug: thinking
+    title: Thinking and Learning
+  term: working memory
+- links:
+  - slug: security
+    title: Security
+  term: YubiKey

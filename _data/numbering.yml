@@ -209,6 +209,11 @@ entries:
   label: N
   slug: rules-change
   title: How to Change the World
+- file: ./index/index.md
+  kind: Appendix
+  label: O
+  slug: index
+  title: Index
 figures:
   boehms-curve: '19.2'
   comprehension-curves: '12.3'

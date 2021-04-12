@@ -58,7 +58,9 @@ def get_filenames(site, config):
     '''Get names of input files from configuration data, marking the first appendix.'''
     result = []
     for entry in config['chapters']:
-        if 'slug' in entry:
+        if 'skip' in entry:
+            pass
+        elif 'slug' in entry:
             result.append(['entry', f"{site}/{entry['slug']}/index.html"])
         elif 'appendix' in entry:
             result.append(['appendix', None])

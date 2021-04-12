@@ -48,6 +48,7 @@ Arisholm
 Arletta
 Arto
 Asshole
+Atlassian
 Atul
 Audris
 Aul
@@ -723,6 +724,7 @@ Shirolkar
 Shivani
 Sholler
 Shopify
+Siaca
 Siebert
 Siegmund
 Sigweni
@@ -976,6 +978,7 @@ linter
 linters
 lockdown
 lurn
+mentorship
 microservice
 microservices
 mis
