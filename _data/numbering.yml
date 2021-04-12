@@ -19,10 +19,10 @@ entries:
   label: '4'
   slug: teams
   title: Teams
-- file: ./10-persuade/index.md
+- file: ./rules-persuade/index.md
   kind: Chapter
   label: '5'
-  slug: 10-persuade
+  slug: rules-persuade
   title: How to Talk People Into Things
 - file: ./conflict/index.md
   kind: Chapter
@@ -84,55 +84,55 @@ entries:
   label: '17'
   slug: tooling
   title: Tooling
-- file: ./10-comfortable/index.md
+- file: ./rules-comfortable/index.md
   kind: Chapter
   label: '18'
-  slug: 10-comfortable
+  slug: rules-comfortable
   title: How to Make Yourself Comfortable
 - file: ./process/index.md
   kind: Chapter
   label: '19'
   slug: process
   title: Process
-- file: ./10-newcomers/index.md
+- file: ./rules-newcomers/index.md
   kind: Chapter
   label: '20'
-  slug: 10-newcomers
+  slug: rules-newcomers
   title: How to Welcome Newcomers
 - file: ./research/index.md
   kind: Chapter
   label: '21'
   slug: research
   title: Research
-- file: ./10-research/index.md
+- file: ./rules-research/index.md
   kind: Chapter
   label: '22'
-  slug: 10-research
+  slug: rules-research
   title: How to be a Good Research Partner
 - file: ./fairness/index.md
   kind: Chapter
   label: '23'
   slug: fairness
   title: Fair Play
-- file: ./10-joining/index.md
+- file: ./rules-joining/index.md
   kind: Chapter
   label: '24'
-  slug: 10-joining
+  slug: rules-joining
   title: How to Join an Existing Project
-- file: ./10-fired/index.md
+- file: ./rules-fired/index.md
   kind: Chapter
   label: '25'
-  slug: 10-fired
+  slug: rules-fired
   title: How to Handle Being Fired
 - file: ./delivery/index.md
   kind: Chapter
   label: '26'
   slug: delivery
   title: Wrapping Up
-- file: ./10-handover/index.md
+- file: ./rules-handover/index.md
   kind: Chapter
   label: '27'
-  slug: 10-handover
+  slug: rules-handover
   title: How to Hand Over and Move On
 - file: ./conclusion/index.md
   kind: Chapter
@@ -199,15 +199,15 @@ entries:
   label: L
   slug: reading
   title: Further Reading
-- file: ./10-freelance/index.md
+- file: ./rules-freelance/index.md
   kind: Appendix
   label: M
-  slug: 10-freelance
+  slug: rules-freelance
   title: How to Get Started Freelancing
-- file: ./10-change/index.md
+- file: ./rules-change/index.md
   kind: Appendix
   label: N
-  slug: 10-change
+  slug: rules-change
   title: How to Change the World
 figures:
   boehms-curve: '19.2'

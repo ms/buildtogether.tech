@@ -22,7 +22,7 @@ hands (or algorithms): our industry has fueled them all, and being a programmer
 won't make you immune to the fallout.  None of us can fix this alone; if you
 have learned a little from this book about how to work well with others, I hope
 you will choose to use those skills to make the world a slightly better place.
-If you choose to do so, <span x="10-change"/> may help.
+If you choose to do so, <span x="rules-change"/> may help.
 
 Contributions to this book are welcome, from errata and minor improvements to
 entirely new sections and chapters, and everyone whose work is incorporated will

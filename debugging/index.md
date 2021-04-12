@@ -15,9 +15,9 @@ way known to find bugs <cite>Basili1987,Kemerer2009,Bacchelli2013</cite>.
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
 written about how to <span i="reading code">read</span> it
-(<cite>Spinellis2003</cite> being my favorite).  As <span x="10-joining"/> says,
-reading other people's code is one of the best ways to learn how to be a better
-programmer; tracking down a bug may not be when you want to broaden your
+(<cite>Spinellis2003</cite> being my favorite).  As <span x="rules-joining"/>
+says, reading other people's code is one of the best ways to learn how to be a
+better programmer; tracking down a bug may not be when you want to broaden your
 knowledge, but if you're there anyway, you might as well.
 
 ## Build Habits

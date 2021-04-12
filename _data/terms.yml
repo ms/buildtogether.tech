@@ -1,18 +1,3 @@
-10-change: []
-10-comfortable: []
-10-fired: []
-10-freelance: []
-10-handover: []
-10-joining: []
-10-newcomers:
-- key: community_of_practice
-  term: community of practice
-- key: lpp
-  term: legitimate peripheral participation
-10-persuade:
-- key: 90_9_1_rule
-  term: 90-9-1 rule
-10-research: []
 automation:
 - key: build_manager
   term: build manager
@@ -370,6 +355,21 @@ research:
   term: root cause
 - key: scottish_verdict
   term: Scottish verdict
+rules-change: []
+rules-comfortable: []
+rules-fired: []
+rules-freelance: []
+rules-handover: []
+rules-joining: []
+rules-newcomers:
+- key: community_of_practice
+  term: community of practice
+- key: lpp
+  term: legitimate peripheral participation
+rules-persuade:
+- key: 90_9_1_rule
+  term: 90-9-1 rule
+rules-research: []
 security:
 - key: 2fa
   term: two-factor authentication
