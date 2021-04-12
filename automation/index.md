@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">Manage dependencies early</span>
+
 Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
@@ -60,11 +62,11 @@ i="automation!as programming">approach builds as a programming problem</span>.
 
 The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The `package.json` file used by
-[Node.js][nodejs]</span> serves as both a <span g="package_manifest" i="package
-manifest; Node.js!package.json file">package manifest</g> and a build file---as
-the example below shows, some of its entries describe the package or its
-dependencies, while others store commands that can be re-run by typing things
-like `npm run test`:
+[Node.js][nodejs] serves as both a <span g="package_manifest" i="package
+manifest; Node.js!package.json file">package manifest</span> and a build
+file---as the example below shows, some of its entries describe the package or
+its dependencies, while others store commands that can be re-run by typing
+things like `npm run test`:
 
 ```js
 {

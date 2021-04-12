@@ -7,7 +7,7 @@ Having a comfortable environment will help as well.
 1. Peace and quiet.
 :   Study after study has shown that this has more impact on productivity than a
     fast network, a fat disk, or caffeine, but most workplaces are still too
-    crowded, too noisy, and filled with too many interrupts
+    crowded, too noisy, and filled with too many interruptions
     <cite>WeziakBialowolska2018</cite>. Some people still say, "If I can't
     overhear what other people are talking about, I might miss something
     important," but that only applies if the only people you're overhearing are
@@ -58,13 +58,14 @@ Having a comfortable environment will help as well.
     pointing, I find myself reaching for that heavy mug… Then I take a breath
     and clean my screen.
 
-8. A <span i="debugging!rubber duck; rubber duck debugging">rubber duck</span>.
-:   One of the creators of Unix kept a rubber duck next to his computer.  If a
-    bug took more than a few minutes to track down, he put the duck on his desk
-    and explained the problem to it, because speaking out loud forces you to
-    marshal your thoughts, which in turn highlights any contradictions or missed
-    steps that you hadn't noticed while everything was just swirling around
-    inside your head.
+8. A rubber duck.
+:   One of the creators of Unix kept a <span i="debugging!rubber duck; rubber
+    duck debugging">rubber duck</span> next to his computer.  If a bug took more
+    than a few minutes to track down, he put the duck on his desk and explained
+    the problem to it, because speaking out loud forces you to marshal your
+    thoughts, which in turn highlights any contradictions or missed steps that
+    you hadn't noticed while everything was just swirling around inside your
+    head.
 
 9. A chess set, a deck of cards, or some knitting.
 :   I'm a very bad chess player. Luckily, so are most people, so it's usually

@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">Do not put API keys in repositories</span>
+
 Companies, universities, and other institutions have mostly failed to protect us
 from online threats: nothing happens to them if they don't, and as <span
 i="Schneier, Bruce">Bruce Schneier</span> has pointed out, their business models

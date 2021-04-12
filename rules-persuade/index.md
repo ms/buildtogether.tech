@@ -27,14 +27,14 @@ served me well.
     it*.  (If what you're proposing isn't going to make the world a better
     place, propose something better.)
 
-4. Start small.  Most people are understandably reluctant to dive into things
-    head-first, so give them a chance to test the waters and to get to know you
-    and everyone else involved in whatever it is you want help with.  Don't be
-    surprised or disappointed if that's where things end: everyone is busy or
-    tired or has projects of their own, or maybe just has a different mental
-    model of how collaboration is supposed to work.  Remember the <span
-    g="90_9_1_rule" i="90-9-1 rule">>90-9-1 rule</span> and set your
-    expectations accordingly.
+4. Start small.
+:   Most people are understandably reluctant to dive into things head-first, so
+    give them a chance to test the waters and to get to know you and everyone
+    else involved in whatever it is you want help with.  Don't be surprised or
+    disappointed if that's where things end: everyone is busy or tired or has
+    projects of their own, or maybe just has a different mental model of how
+    collaboration is supposed to work.  Remember the <span g="90_9_1_rule"
+    i="90-9-1 rule">90-9-1 rule</span> and set your expectations accordingly.
 
 5. Don't build a project: build a community.
 :   There is a softball team here in Toronto that never actually plays games:

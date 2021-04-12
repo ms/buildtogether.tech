@@ -303,7 +303,7 @@ Keep discussion meetings and decision meetings separate.
 :   A <span g="discussion_meeting" i="meetings! discussion">discussion
     meeting</span>'s purpose is to explore design alternatives or figure out
     what next term's goals should be.  A <span g="decision_meeting"
-    i="meetings!decision"">decision meeting</span> on the other hand, is for
+    i="meetings!decision">decision meeting</span> on the other hand, is for
     choosing which alternatives to pursue.  Discussion meetings are meant to be
     wide-ranging (and fun); decision meetings should be short and focused.  The
     two are never completely distinct in practice, but decision-making is more

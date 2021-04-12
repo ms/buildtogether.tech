@@ -118,6 +118,8 @@ kramdown:
       "apt": ["https://en.wikipedia.org/wiki/APT_(software)", "APT"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
+      "baxter-interviews": ["https://github.com/tBaxter/questions-for-employers", "Questions for potential employers"],
+      "baxter-t-carter": ["https://twitter.com/tbaxter", "T. Carter Baxter"],
       "bitbucket": ["https://bitbucket.org/", "Bitbucket"],
       "black": ["https://pypi.org/project/black/", "Black"],
       "blackbox": ["https://bluej.org/blackbox/", "Blackbox"],

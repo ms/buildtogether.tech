@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">Talk about `print` and `asdf()` debugging in a callout</span>
+
 Finding errors is good; fixing them is better, so learning how to debug is as
 important as learning how to program in the first place.  However, while most
 schools teach defensive programming and unit testing, only a handful offer a
