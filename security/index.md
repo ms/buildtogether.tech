@@ -3,6 +3,8 @@
 
 <span class="fixme">Do not put API keys in repositories</span>
 
+<span class="fixme">Security for the sake of privacy: https://webdevlaw.uk/2021/03/21/privacy-curriculum-developers/ "I don't have anything to hide, I just don't want to share anything with you."</span>
+
 Companies, universities, and other institutions have mostly failed to protect us
 from online threats: nothing happens to them if they don't, and as <span
 i="Schneier, Bruce">Bruce Schneier</span> has pointed out, their business models
