@@ -369,6 +369,10 @@
     title: Teams
   term: cognitive load - impact of checklists
 - links:
+  - slug: debugging
+    title: Debugging
+  term: cognitive load - in debugging
+- links:
   - slug: thinking
     title: Thinking and Learning
   term: cognitive load - intrinsic

@@ -74,6 +74,14 @@
       The inability to make a decision because there is too much information to
       process and/or too many options to consider.
 
+- key: api_key
+  en:
+    term: "API key"
+    def: >
+      A unique identifier (usually randomly generated) used to authenticate a
+      user or an application.  Most web services require client applications to
+      provide an API key at the start of a session or for each transaction.
+
 - key: assertion
   en:
     term: "assertion"

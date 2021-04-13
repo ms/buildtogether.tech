@@ -1,39 +1,6 @@
 ---
 ---
 
-<blockquote markdown="1">
-
-If you are currently in…an undergraduate software engineering or
-computer science course, the first thing you need to understand is
-that you will spend your career working alongside equally competent
-professionals who had a completely different educational pathway from
-yours. They may have come to development from another field entirely;
-they may have come to development through a focused educational
-experience such as a code academy; and they may have fallen into
-development for the fun of it with no formal web education whatsoever…
-
-So if you're assuming that there will be a common set of knowledge of
-practices, procedures, and processes regarding privacy for you to draw
-upon throughout your career, you need to adjust your expectations…
-Don't look towards your management and leadership either, as they're
-none the wiser. If privacy is a factor in your future workplaces, it's
-likely to be driven by the legal department as a strictly reactive,
-scary, and deeply resented legal compliance obligation whose purpose
-is to cover your company's backside rather than protect the people in
-your data.
-
-All of that means that someone in your workplaces, and on your career
-journeys, needs to show leadership in privacy, and it might as well be
-you.
-
---- <span i="Burns, Heather">[Heather Burns][burns-privacy-quote]</span>
-
-</blockquote>
-
-<span class="fixme">Do not put API keys in repositories</span>
-
-<span class="fixme">Security for the sake of privacy: https://webdevlaw.uk/2021/03/21/privacy-curriculum-developers/ "I don't have anything to hide, I just don't want to share anything with you."</span>
-
 Companies, universities, and other institutions have mostly failed to protect us
 from online threats: nothing happens to them if they don't, and as <span
 i="Schneier, Bruce">Bruce Schneier</span> has pointed out, their business models
@@ -50,6 +17,20 @@ It doesn't have to be like this.  As <cite>Schneier2019</cite> points out, most
 security breaches are a result of poor design and rather than Hollywood-style
 hacking.  If we think about the threats people actually face, we can build
 systems that are safer to use <cite>Smalls2021</cite>.
+
+<div class="callout" markdown="1">
+
+### Privacy is a right
+
+Software doesn't just need to be secure to prevent fraud: it is also an
+essential to protecting your [right to privacy][privacy-right], which is
+guaranteed by the [Universal Declaration of Human Rights][udhr].  There are many
+situations in which governments and law enforcement agencies have legitimate
+reasons to violate that right, but we have learned the hard way that the more
+access we give them, the more likely that access is to be abused, both by them
+and by others.
+
+</div>
 
 ## Threat Models
 
@@ -395,6 +376,35 @@ the safer all of us will be. As a programmer, you can push for this:
 
 1.  Add your voice to campaigns to get companies to clean up their act, and if
     you have a choice, don't work for the worst of them (<span x="fairness"/>).
+
+<blockquote markdown="1">
+
+If you are currently in…an undergraduate software engineering or
+computer science course, the first thing you need to understand is
+that you will spend your career working alongside equally competent
+professionals who had a completely different educational pathway from
+yours. They may have come to development from another field entirely;
+they may have come to development through a focused educational
+experience such as a code academy; and they may have fallen into
+development for the fun of it with no formal web education whatsoever…
+
+So if you're assuming that there will be a common set of knowledge of
+practices, procedures, and processes regarding privacy for you to draw
+upon throughout your career, you need to adjust your expectations…
+Don't look towards your management and leadership either, as they're
+none the wiser. If privacy is a factor in your future workplaces, it's
+likely to be driven by the legal department as a strictly reactive,
+scary, and deeply resented legal compliance obligation whose purpose
+is to cover your company's backside rather than protect the people in
+your data.
+
+All of that means that someone in your workplaces, and on your career
+journeys, needs to show leadership in privacy, and it might as well be
+you.
+
+--- <span i="Burns, Heather">[Heather Burns][burns-privacy-quote]</span>
+
+</blockquote>
 
 ## An Example Attack
 

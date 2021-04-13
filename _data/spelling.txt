@@ -128,6 +128,7 @@ COVID
 CRC
 CSE
 CSV
+CTAN
 CamelCase
 Canas
 Canfora
@@ -219,6 +220,7 @@ Elbakyan
 Eleni
 Eley
 Elhajj
+Elon
 Emad
 Emam
 Emard
@@ -334,6 +336,7 @@ Hatton
 Hecht
 Heckman
 Hedderik
+Heeyoung
 Hegde
 Heila
 Hellas
@@ -505,6 +508,7 @@ Meneely
 Mengxiao
 Mesquita
 Metcalfe
+Meyvis
 Mezini
 Michaelson
 Michal
@@ -634,6 +638,7 @@ PublicAffairs
 Péraire
 Pérez
 Quiñones
+README
 Rabe
 Radvansky
 Rahim
@@ -874,6 +879,7 @@ Yevgeniya
 Ying
 Yiqao
 Yongle
+Yoon
 Yu
 Yuanyuan
 YubiKey
@@ -967,6 +973,7 @@ inclusivity
 indispensible
 installable
 js
+json
 kan
 keychain
 kleenex
@@ -983,6 +990,7 @@ microservice
 microservices
 mis
 mish
+misperception
 mistruth
 modeling
 mortem
@@ -1032,6 +1040,7 @@ scatterplot
 sceptical
 schemas
 screencasts
+scriptability
 scriptable
 seatbelts
 sexualized

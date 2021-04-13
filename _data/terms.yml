@@ -169,6 +169,8 @@ fairness:
 - key: unconscious_bias
   term: unconscious bias
 git-solo:
+- key: api_key
+  term: API key
 - key: branch_per_feature_workflow
   term: branch-per-feature workflow
 - key: centralized_system

@@ -1,8 +1,6 @@
 ---
 ---
 
-<span class="fixme">Talk about `print` and `asdf()` debugging in a callout</span>
-
 Finding errors is good; fixing them is better, so learning how to debug is as
 important as learning how to program in the first place.  However, while most
 schools teach defensive programming and unit testing, only a handful offer a
@@ -294,18 +292,18 @@ Inspection.
     variables change.  You can also tell it to step into function calls or just
     step over them so that you can stay focused on one particular problem.
 
-Using a debugger is generally more productive than adding `print` statements to
-your program and re-running it: the latter takes longer than clicking on a line
-and setting a breakpoint, and adding `print` statements distorts the code you're
-debugging by moving things around in memory, altering the flow of control,
-and/or changing the timing of thread execution.  It's all too easy to make a
-mistake in the `print` statement.  Few things are as frustrating as wasting an
-afternoon debugging a problem, only to realize that the `print` you copied and
-pasted isn't displaying the values you thought it was.
+Using a debugger generally takes less time than adding `print` statements to
+your program and re-running it.  It's also very easy to make a mistake in the
+`print` statement: few things are as frustrating as wasting an afternoon
+debugging a problem, only to realize that the `print` you copied and pasted
+isn't displaying the values you thought it was.
 
-Like all tools, a debugger only makes you more productive after you've learned
-how to use it.  The good news is that this only takes a few minutes if you're
-already using an IDE.
+That said, a page or two of printed output showing which functions are being
+called and what state the data is in at the start and end of each can be less
+<span i="cognitive load!in debugging">cognitive load</span> than holding that
+same information in your head while stepping through the program's execution.
+Again, if you *are* going to print things, using a <span i="logging!during
+debugging">logging</span> library to give yourself more control.
 
 <div class="callout" markdown="1">
 
