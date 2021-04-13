@@ -173,7 +173,7 @@ as hard to be taken half as seriously, if they are constantly passed over for
 promotion, or if discussions about who would make a good department chair
 continue to take place in the men's locker room after the department's Friday
 afternoon hockey game.  There are no easy fixes to these problems, but there are
-things companies can do, and that you can ask for even as a junior hire:
+things companies can do that you can ask for even as a junior hire:
 
 Share data on how well the company has been doing recently.
 :   It's reasonable to ask during an interview what proportion of a company's
@@ -207,11 +207,10 @@ Specify how much time employees can take off.
 ## Being an Ally
 
 But suppose you are a straight, physically able, white or Asian male without
-mental health issues---why should you feel compassion toward people who are
-marginalized because they aren't these things?  One argument is self-interest:
-study after study has shown that more diverse teams perform better, that
-companies with more diverse management are more profitable, and so on
-<cite>Zhan2020</cite>.
+mental health issues---why should you are about people who are marginalized
+because they aren't these things?  One argument is self-interest: study after
+study has shown that more diverse teams perform better, that companies with more
+diverse management are more profitable, and so on <cite>Zhan2020</cite>.
 
 <div class="callout" markdown="1">
 
@@ -220,18 +219,12 @@ companies with more diverse management are more profitable, and so on
 This finding is sometimes abused---men who want an excuse to continue to be
 assholes try to be clever with words and talk about "diversity of thought,"
 meaning, "I should be allowed to be offensive as long as I don't raise my
-voice."  This is an example of the [paradox of tolerance][paradox-of-tolerance]:
-if a group is tolerant without limit, it will eventually be undermined by the
-intolerant taking advantage of that.
-
-<blockquote markdown="1">
-
-We can disagree and still love each other unless your disagreement is rooted
-in my oppression and denial of my humanity and right to exist.
-
---- <span i="Baldwin, James">James Baldwin</span>
-
-</blockquote>
+voice."  This is an example of the <span i="paradox of tolerance">[paradox of
+tolerance][paradox-of-tolerance]</span>: if a group is tolerant without limit,
+it will eventually be undermined by the intolerant taking advantage of that. As
+<span i="Baldwin, James">James Baldwin</span> said, "We can disagree and still
+love each other unless your disagreement is rooted in my oppression and denial
+of my humanity and right to exist."
 
 </div>
 
@@ -263,14 +256,14 @@ innovation; ironically, the entrepreneurs and CEOs who are most vocal about the
 advantages of unrestricted capitalism all organize their companies along
 socialist lines <cite>Phillips2019</cite>.
 
-As an example of what working together looks like in practice, consider the
-difference between a ride-sharing company like <span i="Uber">Uber</span> and
-the house-cleaning company <span i="Up & Go">Up & Go</span>.  Uber controls the
-app that connects customers with drivers, and uses that control to extract
-profits by squeezing drivers. In contrast, the people who work for Up & Go own
-the app as a group; 5% of what customers pay goes to its upkeep, and the rest
-goes to the workers <cite>Thompson2019</cite>.  There might be one less
-billionaire in the world, but everyone else benefits.
+As an example of what working together looks like, consider the difference
+between a ride-sharing company like <span i="Uber">Uber</span> and the
+house-cleaning company <span i="Up & Go">Up & Go</span>.  Uber uses its control
+of the app that connects customers with drivers to extract profits by squeezing
+drivers. In contrast, the people who work for Up & Go own the app as a group; 5%
+of what customers pay goes to its upkeep, and the rest goes to the workers
+<cite>Thompson2019</cite>.  There might be one less billionaire in the world,
+but everyone else benefits.
 
 Up & Go is an example of a <span g="commons" i="commons">commons</span>:
 something managed jointly by a community according to rules they themselves have
@@ -291,6 +284,15 @@ put so much of my personal politics into it.  I pointed out that many schools
 have a course on the business of software that talk exclusively about for-profit
 startups backed by private investors and venture capital.  Choosing to discuss
 those topics is equally political---it's just more common.
+
+Other reviewers have pointed out that telling people they should support fair
+play because it will benefit *them* implies that if it didn't, they'd have no
+reason to support it.  The idea that people should only act out of self-interest
+is also political, and is one I strongly disagree with.  However, people like
+Brad (whom we met in <span x="introduction"/>) have been conditioned to believe
+that being cynical is the same thing as being smart; I have found out the hard
+way that if I say, "Do the right thing because it's the right thing," the people
+whose behavior most needs to change won't listen.
 
 </div>
 
@@ -458,21 +460,6 @@ Mike">[Mike Hoye][hoye-mike]</span> has pointed out, some wayfinding apps for
 phones have an option to avoid checkpoints; it's unlikely that the people who
 added that feature ever lost a loved one to a drunk driver.
 
-So now it's time for a confession.  This chapter is the reason I wrote this
-book.  After the 2016 election in the United States, I organized a group of
-people to write a guide for programmers to stuff that actually matters---the
-stuff that's in this chapter.  That project fizzled out, in part because someone
-like Brad (<span x="introduction"/>) simply wouldn't read something that said,
-"Programmers are breaking things and maybe you're part of the problem."  The
-work reported in
-<cite>Bullock2021,Cohen2021,Ferreira2021,Gordon2021,Prioleau2021,Rankin2021</cite>
-is a sign that these bigger issues might finally be added to the curriculum, but
-will take time to bear fruit. Meanwhile, I hope that starting with time
-management and version control, then talking about teams and conflict and
-product management, will give people like Brad and younger self a ramp to walk
-up instead of a cliff to climb, because if we don't find a way to change tech,
-our lives are going to keep getting worse.
-
 As a programmer you are able to shape the world in ways that most mad scientists
 can only dream of, but with great power comes great responsibility
 <cite>Lee1962</cite>.  If you'd like to understand what we're getting wrong now
@@ -515,3 +502,23 @@ different from me in significant respects---age and geography among them---you
 may find others that help you more.  Either way, the most compassionate thing
 you can do is ask yourself at every turn, "What will this be like for people who
 aren't like me?"
+
+<span class="callout" markdown="1">
+
+### Why I write
+
+It's time for a confession.  This chapter is the reason I wrote this book.
+After the 2016 election in the United States, I organized a group of people to
+write a guide for programmers to stuff that actually matters---the stuff that's
+in this chapter.  That project fizzled out, in part because someone like Brad
+(<span x="introduction"/>) simply wouldn't read something that said,
+"Programmers are doing harm and maybe you're part of the problem."
+<cite>Bullock2021,Cohen2021,Ferreira2021,Gordon2021,Prioleau2021,Rankin2021</cite>
+are a sign that these bigger issues might finally be added to the curriculum,
+but will take a long time to bear fruit. Meanwhile, I hope that starting with
+time management and version control, then talking about teams and conflict and
+product management, will give people like Brad and my younger self a ramp to
+walk up instead of a cliff to climb, because if we don't find a way to fix the
+tech industry, our lives are going to keep getting worse.
+
+</span>

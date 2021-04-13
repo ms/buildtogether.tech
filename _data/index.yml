@@ -1307,7 +1307,7 @@
 - links:
   - slug: fairness
     title: Fair Play
-  term: hiring process - healty
+  term: hiring process - healthy
 - links:
   - slug: fairness
     title: Fair Play
@@ -1998,6 +1998,10 @@
   - slug: research
     title: Research
   term: pair programming - effect of personality
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: paradox of tolerance
 - links:
   - slug: delivery
     title: Wrapping Up

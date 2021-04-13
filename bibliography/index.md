@@ -772,12 +772,6 @@ Johannes Hofmeister, Janet Siegmund, and Daniel V. Holt:
 "Shorter Identifier Names Take Longer to Comprehend".
 <em>Proc. SANER'17</em>, <a class="doi" href="https://doi.org/10.1109/saner.2017.7884623">10.1109/saner.2017.7884623</a>.
 </dd>
-<dt id="hofstra2020" class="bibliography">Hofstra2020</dt>
-<dd>
-Bas Hofstra, Vivek V. Kulkarni, Sebastian Munoz-Najar Galvez, Bryan He, Dan Jurafsky, and Daniel A. McFarland:
-"The Diversity-Innovation Paradox in Science".
-<em>PNAS</em>, 117(17), 2020, <a class="doi" href="https://doi.org/10.1073/pnas.1915378117">10.1073/pnas.1915378117</a>.
-</dd>
 <dt id="holmes2014" class="bibliography">Holmes2014</dt>
 <dd>
 Reid Holmes, Michelle Craig, Karen Reid, and Eleni Stroulia:
