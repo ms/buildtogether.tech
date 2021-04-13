@@ -107,7 +107,7 @@ to customers, along with instructions about where to put it, rather than
 creating a new installer. You should still give it a number, though, and make an
 entry in your release log.
 
-The <span g="build_number" i="build number; vesion numbers!build">build
+The <span g="build_number" i="build number; version numbers!build">build
 number</span> is incremented every time you create a new version of the product
 for QA to test. Build numbers are never reset, i.e. you don't go from 5.2.2.1001
 to 6.0.0.0, but from 5.2.2.1001 to 6.0.0.1002, and so on. Build numbers are what

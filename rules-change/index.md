@@ -1,11 +1,12 @@
 ---
 ---
 
-Tech gurus like Musk, Bezos, and Zuckerberg don't actually want to change the
-world: they just want to own more of it.  If you would like to set your sights a
-little higher than that, the ten rules below are a good place to start; if you'd
-like to know more <cite>Brown2007</cite> and <cite>Manns2015</cite> helped me,
-and I hope they will help you.
+Tech gurus like Musk, Bezos, and Zuckerberg don't actually want to
+change the world: they just want to own more of it
+<cite>Robinson2021</cite>.  If you would like to set your sights
+higher than that, the ten rules below are a good place to start; if
+you'd like to know more <cite>Brown2007</cite> and
+<cite>Manns2015</cite> helped me, and I hope they will help you.
 
 <blockquote markdown="1">
 

@@ -2045,6 +2045,18 @@
   year: 2016
   doi: 10.1146/annurev-psych-010416-044022
 
+- key: Meyvis2021
+  kind: article
+  author:
+  - Tom Meyvis
+  - Heeyoung Yoon
+  year: 2021
+  journal: Nature
+  volume: 592
+  number: 7853
+  doi: 10.1038/d41586-021-00592-0
+  title: "Adding is Favoured Over Subtracting in Problem Solving"
+
 - key: Michaelson2004
   kind: book
   editor:
@@ -2491,6 +2503,13 @@
   title: "Why Crunch Mode Doesn't Work: 6 Lessons"
   year: 2005
   url: https://igda.org/resources-archive/why-crunch-mode-doesnt-work-six-lessons-2005/
+
+- key: Robinson2021
+  kind: link
+  author:
+  - Nathan J. Robinson
+  title: "Surely We Can Do Better Than Elon Musk"
+  url: https://www.currentaffairs.org/2021/04/surely-we-can-do-better-than-elon-musk/
 
 - key: Rohrer2015
   kind: article

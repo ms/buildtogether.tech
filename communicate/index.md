@@ -202,7 +202,7 @@ archives of stream-of-consciousness exchanges is harder than finding things in
 asynchronous media.
 
 But who am I kidding? You're going to use <span i="communication!instant
-messaging; instant messagin!inevitable use of">instant messaging</span> no
+messaging; instant messaging!inevitable use of">instant messaging</span> no
 matter what I say.  If more than two people are in the conversation, follow the
 same rules you would for a short meeting: post a summary of any decisions you
 made where everyone can see it.
@@ -301,7 +301,7 @@ know][evans-manager], all of which apply to student teams:
 
 1.  Exactly what individual people on the team are working on.
 
-1.  Where the <span g="technical_debt">technical debt</span> is.
+1.  Where the <span g="technical_debt" i="technical debt">technical debt</span> is.
 
 1.  How to help you get better at your job.
 

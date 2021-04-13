@@ -18,7 +18,7 @@ HOME_PAGE=${SITE}/index.html
 INDEX_YML=_data/index.yml
 NUM_YML=_data/numbering.yml
 TERMS_YML=_data/terms.yml
-ALL_OUT=${BIB_MD} ${NUM_YML} ${TERMS_YML}
+ALL_OUT=${BIB_MD} ${INDEX_YML} ${NUM_YML} ${TERMS_YML}
 EXTRA_MARKDOWN=_includes/intro.md
 
 RELEASE_FILES=\

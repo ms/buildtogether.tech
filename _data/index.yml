@@ -235,6 +235,10 @@
     title: Wrapping Up
   term: build number
 - links:
+  - slug: security
+    title: Security
+  term: Burns, Heather
+- links:
   - slug: tooling
     title: Tooling
   - slug: research
@@ -497,10 +501,6 @@
 - links:
   - slug: automation
     title: Automation
-  term: continous integration - Travis CI
-- links:
-  - slug: automation
-    title: Automation
   - slug: process
     title: Process
   term: continuous integration
@@ -508,6 +508,10 @@
   - slug: automation
     title: Automation
   term: continuous integration - GitHub Actions
+- links:
+  - slug: automation
+    title: Automation
+  term: continuous integration - Travis CI
 - links:
   - slug: teams
     title: Teams
@@ -863,7 +867,7 @@
 - links:
   - slug: errors
     title: Error Handling
-  term: error message - internatioalizing
+  term: error message - internationalizing
 - links:
   - slug: errors
     title: Error Handling
@@ -1001,7 +1005,7 @@
 - links:
   - slug: research
     title: Research
-  term: flow graph - abstract inerpretation
+  term: flow graph - abstract interpretation
 - links:
   - slug: research
     title: Research
@@ -1035,7 +1039,7 @@
 - links:
   - slug: security
     title: Security
-  term: General Data Protection Regularion (GDPR)
+  term: General Data Protection Regulation (GDPR)
 - links:
   - slug: tooling
     title: Tooling
@@ -1291,7 +1295,7 @@
 - links:
   - slug: communicate
     title: Communicating
-  term: instant messagin - inevitable use of
+  term: instant messaging - inevitable use of
 - links:
   - slug: ip
     title: Intellectual Property
@@ -2499,7 +2503,13 @@
 - links:
   - slug: security
     title: Security
-  term: Tech Solidatiry
+  term: Tech Solidarity
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: automation
+    title: Automation
+  term: technical debt
 - links:
   - slug: contributing
     title: Contributing
@@ -2811,6 +2821,10 @@
 - links:
   - slug: delivery
     title: Wrapping Up
+  term: version numbers - build
+- links:
+  - slug: delivery
+    title: Wrapping Up
   term: version numbers - major
 - links:
   - slug: delivery
@@ -2824,10 +2838,6 @@
   - slug: delivery
     title: Wrapping Up
   term: version numbers - semantic versioning
-- links:
-  - slug: delivery
-    title: Wrapping Up
-  term: vesion numbers - build
 - links:
   - slug: git-solo
     title: Using Git On Your Own

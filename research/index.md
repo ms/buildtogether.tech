@@ -193,7 +193,7 @@ If engineering is applied science, then <cite>Eichberg2015</cite> is a great
 example of software engineering.  In it, the authors show that it's possible to
 identify a wide range of problems in code by comparing the actual <span i="flow
 graph!actual">flow graph</span> (which is the set of all possible paths through
-the program) with the <span i="flow graph!abstract inerpretation">abstract
+the program) with the <span i="flow graph!abstract interpretation">abstract
 interpretation flow graph</span> (which is the set of all paths once possible
 data values are taken into account).  To make this more concrete, the control
 flow graph for:

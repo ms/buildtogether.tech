@@ -1,6 +1,35 @@
 ---
 ---
 
+<blockquote markdown="1">
+
+If you are currently in…an undergraduate software engineering or
+computer science course, the first thing you need to understand is
+that you will spend your career working alongside equally competent
+professionals who had a completely different educational pathway from
+yours. They may have come to development from another field entirely;
+they may have come to development through a focused educational
+experience such as a code academy; and they may have fallen into
+development for the fun of it with no formal web education whatsoever…
+
+So if you're assuming that there will be a common set of knowledge of
+practices, procedures, and processes regarding privacy for you to draw
+upon throughout your career, you need to adjust your expectations…
+Don't look towards your management and leadership either, as they're
+none the wiser. If privacy is a factor in your future workplaces, it's
+likely to be driven by the legal department as a strictly reactive,
+scary, and deeply resented legal compliance obligation whose purpose
+is to cover your company's backside rather than protect the people in
+your data.
+
+All of that means that someone in your workplaces, and on your career
+journeys, needs to show leadership in privacy, and it might as well be
+you.
+
+--- <span i="Burns, Heather">[Heather Burns][burns-privacy-quote]</span>
+
+</blockquote>
+
 <span class="fixme">Do not put API keys in repositories</span>
 
 <span class="fixme">Security for the sake of privacy: https://webdevlaw.uk/2021/03/21/privacy-curriculum-developers/ "I don't have anything to hide, I just don't want to share anything with you."</span>
@@ -140,7 +169,7 @@ It is more secure to use an app for 2FA instead of text messages or email, but
 either is a big advance on single-factor authentication.  Many security experts
 now recommend using a physical 2FA key such as a <span
 i="YubiKey">YubiKey</span> that fits on a keychain and plugs into a standard USB
-port.  Sites like <span i="Tech Solidatiry">[Tech
+port.  Sites like <span i="Tech Solidarity">[Tech
 Solidarity][tech-solidarity]</span> have easy-to-follow instructions explaining
 how to set them up for a range of popular social networking sites.
 
@@ -288,7 +317,7 @@ Here are some things you can do as a developer to support these rules:
 The last of these rules shows why security is hard. On the one hand, people
 should be able to erase themselves from your records. On the other, abusers will
 use this to cover their tracks. You may not get to decide how to balance these
-two needs: legislation like the EU's <span i="General Data Protection Regularion
+two needs: legislation like the EU's <span i="General Data Protection Regulation
 (GDPR)">[General Data Protection Regulation][gdpr]</span> (GDPR) includes a
 [right to be forgotten][gdpr-forgotten].
 

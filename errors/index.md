@@ -249,7 +249,7 @@ if fname[-4:] != '.csv':
 
 {: .continue}
 A better approach is to put all the error messages in a <span i="error
-message!internatioalizing">dictionary</span>:
+message!internationalizing">dictionary</span>:
 
 ```py
 ERRORS = {
