@@ -162,12 +162,12 @@ fairness:
   term: bullshit
 - key: commons
   term: commons
+- key: implicit_bias
+  term: implicit bias
 - key: lending_privilege
   term: lending privilege
 - key: preparatory_privilege
   term: preparatory privilege
-- key: unconscious_bias
-  term: unconscious bias
 git-solo:
 - key: api_key
   term: API key

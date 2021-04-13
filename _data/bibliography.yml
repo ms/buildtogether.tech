@@ -1159,6 +1159,14 @@
   number: 1
   year: 2011
 
+- key: Gavett2017
+  kind: link
+  author:
+  - Gretchen Gavett
+  title: "What Research Tells Us About How Women Are Treated at Work"
+  url: https://hbr.org/2017/12/what-research-tells-us-about-how-women-are-treated-at-work
+  year: 2017
+
 - key: Gawande2011
   kind: book
   author:
@@ -1259,6 +1267,18 @@
   volume: 7
   number: 2
   doi: 10.1006/jvlc.1996.0009
+
+- key: Greenwald1995
+  author:
+  - Anthony G. Greenwald
+  - Mahzarin R. Banaji
+  doi: 10.1037/0033-295x.102.1.4
+  journal: Psychological Review
+  kind: article
+  volume: 102
+  number: 1
+  title: "Implicit Social Cognition: Attitudes, Self-esteem, and Stereotypes"
+  year: 1995
 
 - key: Gruenert2015
   kind: book
@@ -1605,6 +1625,22 @@
   publisher: Morgan Kaufmann
   year: 2020
   isbn: 978-0128182024
+
+- key: Jost2009
+  author:
+  - John T. Jost
+  - Laurie A. Rudman
+  - Irene V. Blair
+  - Dana R. Carney
+  - Nilanjana Dasgupta
+  - Jack Glaser
+  - Curtis D. Hardin
+  doi: 10.1016/j.riob.2009.10.001
+  journal: Research in Organizational Behavior
+  kind: article
+  title: "The Existence of Implicit Bias is Beyond Reasonable Doubt: A Refutation of Ideological and Methodological Objections and Executive Summary of Ten Studies that no Manager Should Ignore"
+  volume: 29
+  year: 2009
 
 - key: Kalyuga2003
   kind: article

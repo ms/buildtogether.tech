@@ -66,6 +66,7 @@ Bacchelli
 Bae
 Bairavasundaram
 Baishakhi
+Banaji
 Barendsen
 Barik
 Barke
@@ -171,6 +172,7 @@ Daleiden
 Daniela
 Daoism
 Darko
+Dasgupta
 DataCamp
 Davide
 De
@@ -275,6 +277,7 @@ Galvez
 Gantt
 Gao
 Gardiner
+Gavett
 Gawande
 Gebru
 Geez
@@ -313,6 +316,7 @@ Graf
 Grafana
 Graziotin
 Greenberg
+Greenwald
 Gren
 Gruenert
 Grunspan
@@ -408,6 +412,7 @@ Johan
 Jordi
 Jorma
 Jossey
+Jost
 Juhani
 Jurafsky
 Juristo
@@ -479,6 +484,7 @@ MVC
 MacOS
 Maddila
 Mahnaz
+Mahzarin
 Maithri
 Makefile
 Maletic
@@ -560,6 +566,7 @@ Niels
 Nihil
 Niki
 Nikolas
+Nilanjana
 Nishith
 Nitasha
 Noam
@@ -674,6 +681,7 @@ Routledge
 Roychoudhury
 Rozworski
 Rua
+Rudman
 Rugaber
 Rukma
 Ruthann
@@ -697,7 +705,6 @@ Sathiyanarayanan
 Saïda
 Scaliante
 Scalzi
-Scalzi's
 Scanlan
 Scanniello
 Schankin
@@ -968,7 +975,6 @@ hitchiker
 howevers
 humor
 hypercorrection
-impactful
 inclusivity
 indispensible
 installable
@@ -985,7 +991,6 @@ linter
 linters
 lockdown
 lurn
-mentorship
 microservice
 microservices
 mis

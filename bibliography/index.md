@@ -607,6 +607,11 @@ Danielle Gaucher, Justin Friesen, and Aaron C. Kay:
 "Evidence that Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality".
 <em>Journal of Personality and Social Psychology</em>, 101(1), 2011, <a class="doi" href="https://doi.org/10.1037/a0022530">10.1037/a0022530</a>.
 </dd>
+<dt id="gavett2017" class="bibliography">Gavett2017</dt>
+<dd>
+Gretchen Gavett:
+"<a href="https://hbr.org/2017/12/what-research-tells-us-about-how-women-are-treated-at-work">What Research Tells Us About How Women Are Treated at Work</a>".
+</dd>
 <dt id="gawande2011" class="bibliography">Gawande2011</dt>
 <dd>
 Atul Gawande:
@@ -660,6 +665,12 @@ Daniel Graziotin, Xiaofeng Wang, and Pekka Abrahamsson:
 Thomas R. Green and Marian Petre:
 "Usability Analysis of Visual Programming Environments: A 'Cognitive Dimensions' Framework".
 <em>Journal of Visual Languages & Computing</em>, 7(2), 1996, <a class="doi" href="https://doi.org/10.1006/jvlc.1996.0009">10.1006/jvlc.1996.0009</a>.
+</dd>
+<dt id="greenwald1995" class="bibliography">Greenwald1995</dt>
+<dd>
+Anthony G. Greenwald and Mahzarin R. Banaji:
+"Implicit Social Cognition: Attitudes, Self-esteem, and Stereotypes".
+<em>Psychological Review</em>, 102(1), 1995, <a class="doi" href="https://doi.org/10.1037/0033-295x.102.1.4">10.1037/0033-295x.102.1.4</a>.
 </dd>
 <dt id="gruenert2015" class="bibliography">Gruenert2015</dt>
 <dd>
@@ -843,6 +854,12 @@ Morgan Kaufmann, 2017, 978-0128044674.
 Jeff Johnson:
 <em>Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Guidelines</em> (3rd edition).
 Morgan Kaufmann, 2020, 978-0128182024.
+</dd>
+<dt id="jost2009" class="bibliography">Jost2009</dt>
+<dd>
+John T. Jost, Laurie A. Rudman, Irene V. Blair, Dana R. Carney, Nilanjana Dasgupta, Jack Glaser, and Curtis D. Hardin:
+"The Existence of Implicit Bias is Beyond Reasonable Doubt: A Refutation of Ideological and Methodological Objections and Executive Summary of Ten Studies that no Manager Should Ignore".
+<em>Research in Organizational Behavior</em>, 29, 2009, <a class="doi" href="https://doi.org/10.1016/j.riob.2009.10.001">10.1016/j.riob.2009.10.001</a>.
 </dd>
 <dt id="kalyuga2003" class="bibliography">Kalyuga2003</dt>
 <dd>
