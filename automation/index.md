@@ -1,8 +1,6 @@
 ---
 ---
 
-<span class="fixme">Manage dependencies early</span>
-
 Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
@@ -53,8 +51,8 @@ forehead.
 
 I could live with ugly syntax---if Ie kan lurn Inglish speling, Ie kan lurn
 eneething. But the lack of a debugger is a never-ending headache, because real
-build systems aren't just configured: they're programmed. Take this book, for
-example: its Makefile checks the consistency of cross-references and glossary
+build systems aren't just configured: they're programmed. For example, this
+book's Makefile checks the consistency of cross-references and glossary
 entries, makes sure all the bibliography citations are in place, and copies
 files to my web site, and is more complex than many programs I've written.
 Thinking of it as a "configuration" file is a mistake: you *have* to <span
@@ -112,6 +110,15 @@ Pick something that plays nicely with your other tools.
 :   For example, most Java editors and IDEs integrate with a build tool called
     <span i="build manager!Ant; Ant; Java!build manager">[Ant][ant]</span>,
     which means they can jump directly to compilation errors when they occur.
+
+Be very cautious about adding dependencies.
+:   "Reduce, re-use, recycle" is as important for software as it is for daily
+    life, but every library you depend on is one more way for your project to
+    accumulate <span i="technical debt">technical debt</span>.  Recent
+    research shows that we are all biased toward solving problems by adding
+    things instead of taking them away <cite>Meyvis2021</cite>; checking the
+    packages your project depends on before every release and cutting any you
+    can will prevent a lot of future headaches.
 
 Always use the build manager---never compile or copy things by hand.
 :   This isn't just for efficiency's sake: if any of the things you need to do

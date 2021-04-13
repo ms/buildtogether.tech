@@ -2045,6 +2045,18 @@
   year: 2016
   doi: 10.1146/annurev-psych-010416-044022
 
+- key: Meyvis2021
+  kind: article
+  author:
+  - Tom Meyvis
+  - Heeyoung Yoon
+  year: 2021
+  journal: Nature
+  volume: 592
+  number: 7853
+  doi: 10.1038/d41586-021-00592-0
+  title: "Adding is Favoured Over Subtracting in Problem Solving"
+
 - key: Michaelson2004
   kind: book
   editor:

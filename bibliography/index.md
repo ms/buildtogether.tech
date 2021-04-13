@@ -1078,6 +1078,12 @@ Janet Metcalfe:
 "Learning from Errors".
 <em>Annual Review of Psychology</em>, 68(1), 2016, <a class="doi" href="https://doi.org/10.1146/annurev-psych-010416-044022">10.1146/annurev-psych-010416-044022</a>.
 </dd>
+<dt id="meyvis2021" class="bibliography">Meyvis2021</dt>
+<dd>
+Tom Meyvis and Heeyoung Yoon:
+"Adding is Favoured Over Subtracting in Problem Solving".
+<em>Nature</em>, 592(7853), 2021, <a class="doi" href="https://doi.org/10.1038/d41586-021-00592-0">10.1038/d41586-021-00592-0</a>.
+</dd>
 <dt id="michaelson2004" class="bibliography">Michaelson2004</dt>
 <dd>
 Larry K. Michaelson, Arletta Bauman Knight, and L. Dee Fink (eds.):
@@ -1335,6 +1341,11 @@ New Society Publishers, 2010, 978-0865716513.
 <dd>
 Evan Robinson:
 "<a href="https://igda.org/resources-archive/why-crunch-mode-doesnt-work-six-lessons-2005/">Why Crunch Mode Doesn't Work: 6 Lessons</a>".
+</dd>
+<dt id="robinson2021" class="bibliography">Robinson2021</dt>
+<dd>
+Nathan J. Robinson:
+"<a href="https://www.currentaffairs.org/2021/04/surely-we-can-do-better-than-elon-musk/">Surely We Can Do Better Than Elon Musk</a>".
 </dd>
 <dt id="rohrer2015" class="bibliography">Rohrer2015</dt>
 <dd>

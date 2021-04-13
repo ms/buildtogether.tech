@@ -301,7 +301,7 @@ know][evans-manager], all of which apply to student teams:
 
 1.  Exactly what individual people on the team are working on.
 
-1.  Where the <span g="technical_debt">technical debt</span> is.
+1.  Where the <span g="technical_debt" i="technical debt">technical debt</span> is.
 
 1.  How to help you get better at your job.
 
