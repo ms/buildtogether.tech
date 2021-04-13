@@ -130,6 +130,7 @@ kramdown:
       "block-party": ["https://www.blockpartyapp.com/", "Block Party"],
       "brown-neil": ["https://twistedsquare.com/", "Neil C. C. Brown"],
       "bst-repo": ["https://github.com/gvwilson/buildtogether.tech/", "Building Software Together repository"],
+      "burns-privacy-quote": ["https://webdevlaw.uk/2021/03/21/privacy-curriculum-developers/", "Heather Burns on privacy"],
       "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
       "captain-awkward": ["https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup ", "Buzzfeed article on DataCamp"],
       "carnac": ["http://code52.org/carnac/", "Carnac"],
