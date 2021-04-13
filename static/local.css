@@ -258,11 +258,6 @@ figcaption {
     font-weight: bold;
 }
 
-/* Index entries */
-span[i] {
-    display: none;
-}
-
 /* Things to fix */
 span.fixme {
     color: var(--color-warning);
@@ -271,4 +266,9 @@ span.fixme {
 
 span.fixme::before {
     content: "FIXME: "
+}
+
+/* Index entries */
+span[i] {
+    background-color: var(--color-highlight);
 }

@@ -1,10 +1,12 @@
 ---
 ---
 
-*This onboarding checklist was [shared][pryce-onboarding] by [Nat Pryce][pryce-nat].*
-
-The following is a checklist of topics that we think you need to know to work on
-the OPA system.
+This <span i="onboarding checklist">onboarding checklist</span> was
+[shared][pryce-onboarding] by [Nat Pryce][pryce-nat], and is a checklist of
+topics that new hires need to know to work on an application called OPA.  If you
+create and share a checklist like this for people joining your project, ask them
+to keep track of where they found answers and how long it took so that you can
+improve it for the next person.
 
 -   Major architectural components.  Which are part of OPA and which are shared
     across CA (the larger product family)?

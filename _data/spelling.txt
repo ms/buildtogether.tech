@@ -46,10 +46,9 @@ Ari
 Arie
 Arisholm
 Arletta
-Armanios
 Arto
-Asher
 Asshole
+Atlassian
 Atul
 Audris
 Aul
@@ -59,6 +58,7 @@ Automattic
 Automattic's
 Auvinen
 Averick
+Ax
 Ayres
 Ayushi
 Aziz
@@ -89,6 +89,8 @@ Benlarbi
 Benner
 Benning
 Bettenburg
+Bezos
+Bia
 Bielaczyc
 Binkley
 Bitbucket
@@ -100,7 +102,6 @@ BlueJ
 Boehm
 Boehm's
 Boettcher
-Bogdan
 Bohay
 Bollier
 Borland
@@ -194,6 +195,7 @@ DocBook
 Dongkwan
 Doo
 Doore
+Dorota
 Drobina
 Dror
 DuckDuckGo
@@ -247,7 +249,6 @@ Feng
 Ferreira
 FileShredder
 Fincher
-FindBugs
 Findable
 Fiorella
 Fisler
@@ -292,7 +293,6 @@ GitKraken
 GitLab
 Gitinabard
 Gitlet
-Gitvine
 Glanville
 Glanz
 Glerum
@@ -337,7 +337,6 @@ Hedderik
 Hegde
 Heila
 Hellas
-Hemank
 Hennie
 Henrich
 Herbsleb
@@ -442,21 +441,18 @@ Koli
 Kramdown
 Krein
 Krueger
-Kuchner
 Kuhrmann
 Kulikova
 Kulkarni
-Kästner
 LLC
-LPP
 LTM
 LaTeX
 Labeling
 Labor
-Lamba
 Lawrie
 LeGoues
 Lehrer
+Lehrer's
 Leitao
 Leitão
 Leong
@@ -484,6 +480,7 @@ Maithri
 Makefile
 Maletic
 Mammino
+Manns
 Margolis
 Marinov
 Markku
@@ -500,6 +497,7 @@ Maurizio
 McElligott
 McGraw
 McMillanCottom
+McNeely
 Mechtaev
 Megha
 Meiyappan
@@ -560,6 +558,7 @@ Niki
 Nikolas
 Nishith
 Nitasha
+Noam
 Nonmajors
 Norenzayan
 Nourry
@@ -583,7 +582,6 @@ PACMPL
 PDFs
 PLOS
 PNAS
-POS
 PRs
 PSP
 Packt
@@ -717,6 +715,7 @@ Sergey
 Shakeri
 Shankar
 Sharla
+Sharma
 Shennum
 Shepperd
 Shesh
@@ -725,6 +724,7 @@ Shirolkar
 Shivani
 Sholler
 Shopify
+Siaca
 Siebert
 Siegmund
 Sigweni
@@ -803,7 +803,6 @@ Tressie
 Tretola
 Treude
 Triedman
-Trockman
 Tufekci
 Tulk
 Tunnell
@@ -827,7 +826,6 @@ VM
 VMs
 Valgrind
 Vardi
-Vasilescu
 Vassallo
 Venolia
 Vigen
@@ -850,12 +848,14 @@ Weinstein
 Wenger
 Wernher
 Westley
+WeziakBialowolska
 Whitlock
 Wickham
 Wiese
 Winton
 Wlodkowski
 Wrigstad
+Węziak
 XKCD
 XSS
 XYZ
@@ -893,14 +893,15 @@ Zhuang
 Zimmermann
 Ziwei
 Zou
+Zuckerberg
 Zuoning
-accesibility
 afterward
 anthropogenic
 assed
 asshole
 assholes
 auditable
+backdoors
 beens
 behavior
 behaviors
@@ -913,10 +914,10 @@ canceled
 candor
 catalogs
 centers
+centimeters
 centric
 choosealicense
 color
-colored
 colorized
 coursemates
 cryptographic
@@ -953,6 +954,7 @@ fruitarian
 fueled
 fueling
 github
+gooseneck
 gray
 gridded
 handoff
@@ -974,7 +976,9 @@ leveled
 lifecycle
 linter
 linters
+lockdown
 lurn
+mentorship
 microservice
 microservices
 mis
@@ -992,11 +996,11 @@ neurotypical
 nighter
 nighters
 nobis
-npm
 observables
 ocracy
 offense
 onboarding
+owolska
 parameterless
 parsers
 popsicle

@@ -370,7 +370,7 @@ the instructors and other outsiders. "Observables" means that instead of asking
 if the person is outgoing or if they have a positive attitude, assessments
 should ask if they listen attentively during meeting or attempt to solve
 problems before asking for help.  The performance review guidelines in <span
-x="evaluation"/> can serve as a useful starting point for such evaluations.
+x="personal-eval"/> are a useful starting point.
 
 ## Problems and Solutions
 

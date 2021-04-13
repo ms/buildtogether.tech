@@ -1,6 +1,8 @@
 ---
 ---
 
+<span class="fixme">Do not put API keys in repositories</span>
+
 Companies, universities, and other institutions have mostly failed to protect us
 from online threats: nothing happens to them if they don't, and as <span
 i="Schneier, Bruce">Bruce Schneier</span> has pointed out, their business models
@@ -16,7 +18,7 @@ encourage a would-be attacker to go to another entrance.
 It doesn't have to be like this.  As <cite>Schneier2019</cite> points out, most
 security breaches are a result of poor design and rather than Hollywood-style
 hacking.  If we think about the threats people actually face, we can build
-systems that are safer to use.
+systems that are safer to use <cite>Smalls2021</cite>.
 
 ## Threat Models
 
@@ -75,15 +77,16 @@ How can you help counter these threats?
     everyone who manufactures packaged food is required to list its
     ingredients.)
 
-1.  Keep a log of every administrative action (<span x="errors"/>) so that there
-    will be a record if someone uses their privileges inappropriately. They
-    might be able to delete that record, but if it is <span
-    g="digital_signature" i="digital signature!for activity logs">digitally
-    signed</span there will still be evidence of tampering.
+1.  Keep a <span i="logging!for security">log</span> of every administrative
+    action (<span x="errors"/>) so that there will be a record if someone uses
+    their privileges inappropriately. They might be able to delete that record,
+    but if it is <span g="digital_signature" i="digital signature!for activity
+    logs">digitally signed</span there will still be evidence of tampering.
 
 1.  Do code reviews to ensure that programmers aren't inserting <span i="code
-    review!for security" g="back_door">back doors</span> in software or
-    accidentally leaving access points intended solely for testing.
+    review!for security" g="back_door">back doors</span> in software
+    <cite>Sharma2021</cite> or accidentally leaving access points intended
+    solely for testing.
 
 ## Authentication
 

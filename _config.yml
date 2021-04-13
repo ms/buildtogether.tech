@@ -14,7 +14,7 @@ chapters:
     title: "Starting"
   - slug: "teams"
     title: "Teams"
-  - slug: "10-persuade"
+  - slug: "rules-persuade"
     title: "How to Talk People Into Things"
   - slug: "conflict"
     title: "Managing Conflict"
@@ -40,25 +40,25 @@ chapters:
     title: "Automation"
   - slug: "tooling"
     title: "Tooling"
-  - slug: "10-comfortable"
+  - slug: "rules-comfortable"
     title: "How to Make Yourself Comfortable"
   - slug: "process"
     title: "Process"
-  - slug: "10-newcomers"
+  - slug: "rules-newcomers"
     title: "How to Welcome Newcomers"
   - slug: "research"
     title: "Research"
-  - slug: "10-research"
+  - slug: "rules-research"
     title: "How to be a Good Research Partner"
   - slug: "fairness"
     title: "Fair Play"
-  - slug: "10-joining"
+  - slug: "rules-joining"
     title: "How to Join an Existing Project"
-  - slug: "10-fired"
+  - slug: "rules-fired"
     title: "How to Handle Being Fired"
   - slug: "delivery"
     title: "Wrapping Up"
-  - slug: "10-handover"
+  - slug: "rules-handover"
     title: "How to Hand Over and Move On"
   - slug: "conclusion"
     title: "Conclusion"
@@ -84,12 +84,19 @@ chapters:
     title: "Research Methods"
   - slug: "onboarding"
     title: "Onboarding Checklist"
-  - slug: "evaluation"
-    title: "Performance Evaluation"
+  - slug: "project-eval"
+    title: "Project Evaluation"
+  - slug: "personal-eval"
+    title: "Personal Evaluation"
   - slug: "reading"
     title: "Further Reading"
-  - slug: "10-good"
-    title: "How to Do Good and Get Paid"
+  - slug: "rules-freelance"
+    title: "How to Get Started Freelancing"
+  - slug: "rules-change"
+    title: "How to Change the World"
+  - slug: "index"
+    title: "Index"
+    skip: true
 
 author:
   name: Greg Wilson
@@ -114,6 +121,8 @@ kramdown:
       "apt": ["https://en.wikipedia.org/wiki/APT_(software)", "APT"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
+      "baxter-interviews": ["https://github.com/tBaxter/questions-for-employers", "Questions for potential employers"],
+      "baxter-t-carter": ["https://twitter.com/tbaxter", "T. Carter Baxter"],
       "bitbucket": ["https://bitbucket.org/", "Bitbucket"],
       "black": ["https://pypi.org/project/black/", "Black"],
       "blackbox": ["https://bluej.org/blackbox/", "Blackbox"],
@@ -235,7 +244,6 @@ kramdown:
       "stack-overflow": ["https://stackoverflow.com/", "Stack Overflow"],
       "stack-overflow-good-question": ["https://stackoverflow.com/help/how-to-ask", "How do I ask a good question?"],
       "stjs": ["https://stjs.tech/", "Software Tools in JavaScript"],
-      "stone-quote": ["https://twitter.com/joncstone/status/1269961630940631041", "Jon Stone on channels"],
       "subversion": ["https://subversion.apache.org/", "Subversion"],
       "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
       "taylor-francis": ["https://taylorandfrancis.com/", "Taylor & Francis"],
@@ -247,7 +255,7 @@ kramdown:
       "tldr-legal": ["https://tldrlegal.com/", "Software Licenses in Plain English"],
       "travis-ci": ["https://travis-ci.org/", "Travis CI"],
       "udhr": ["https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights", "Universal Declaration of Human Rights"],
-      "uk-home-office-a11y": ["https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf", "UK Home Office posters on accesibility"],
+      "uk-home-office-a11y": ["https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf", "UK Home Office posters on accessibility"],
       "ultima-online-players": ["https://twitter.com/ZenOfDesign/status/1371347166736834560", "Number of badly-behaved players in Ultima Online"],
       "visual-basic": ["https://en.wikipedia.org/wiki/Visual_Basic", "Visual Basic"],
       "vs-code": ["https://code.visualstudio.com/", "Microsoft Visual Studio Code"],

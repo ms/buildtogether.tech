@@ -4,13 +4,13 @@
 Back in 2016 [I tweeted][excel-tweet], "If anyone has data showing <span
 i="Excel">Excel</span> is *more* error-prone than <span
 i="MATLAB">MATLAB</span>/<span i="Python">Python</span>/<span i="R (programming
-language)">R</span> once you normalize for hours spent learning it, please post."
-It was clear from the responses and from other discussion online that most
-programmers believe this, but I'm not really sure what "this" is:
+language)">R</span> once you normalize for hours spent learning it, please
+post."  It was clear from the responses and from other discussion online that
+most programmers believe this, but I'm not really sure what "this" is:
 
 There are more errors in published results created with Excel than in results created with scripting languages like MATLAB, Python, and R.
-:   OK, but given that many more people use Excel, that's like saying that
-    people in China have more heart attacks than people in Luxembourg.
+:   Given that many more people use Excel, that's like saying that people in
+    China have more heart attacks than people in Luxembourg.
 
 Results calculated with Excel are more likely to be wrong than results calculated with scripting languages.
 :   This is what I had in mind when I tweeted, and I don't think the answer is
@@ -19,25 +19,28 @@ Results calculated with Excel are more likely to be wrong than results calculate
     Axiom">Flon's Axiom</span> states, "There is not now, nor has there ever
     been, nor will there ever be, any programming language in which it is the
     least bit difficult to write bad code.")
-
+    <br/>
     And even if this claim is true, correlation isn't causation.  I think that
-    people who do stats programmatically have probably invested more time in
-    mastering their tools than people who use spreadsheets.  The (hypothesized)
-    differences in error rates could easily be due to differences in time spent
-    in reflective practice.
+    people who do statistics programmatically have probably invested more time
+    in mastering their tools than people who use spreadsheets.  Any differences
+    in error rates could easily be due to differences in time spent in
+    reflective practice.
 
 People who are equally proficient in Excel and scripting languages are more likely to make mistakes in Excel.
 :   This formulation corrects the flaw identified above, but is nonsensical,
     since the only meaningful definition of "equally proficient" is "use equally
     well".
 
-Spreadsheets are intrinsically more error-prone than scripting languages because they don't show errors as clearly, they're harder to test, it's harder to figure out what calculations are actually being done, or they themselves are buggier than scripting languages' math libraries.
-:   These are all plausible, but may all be red herrings.  Yes, it's hard to
-    write unit tests for spreadsheets, but it's possible:
-    <cite>Hermans2016</cite> found that 8% of spreadsheets included tests like
-    `if(A1<>5, "ERROR", "OK")`.  I'd be surprised if more than 8% of people who
-    do statistics in Python or R regularly write unit tests for their scripts,
-    so the fact that they *could* is irrelevant.
+Spreadsheets are intrinsically more error-prone than scripting languages
+:   I have heard people claim that spreadsheets don't show errors as clearly,
+    they're harder to test, it's harder to figure out what calculations are
+    actually being done, or they themselves are buggier than scripting
+    languages' math libraries.  These are all plausible, but may all be red
+    herrings.  Yes, it's hard to write unit tests for spreadsheets, but it's
+    possible: <cite>Hermans2016</cite> found that 8% of spreadsheets included
+    tests like `if(A1<>5, "ERROR", "OK")`.  I'd be surprised if more than 8% of
+    people who do statistics in Python or R regularly write unit tests for their
+    scripts, so the fact that they *could* is irrelevant.
 
 To be clear, I'm not defending or recommending spreadsheets.  But if programming
 really is a better way to do crunch numbers, we ought to be able to use science
@@ -211,20 +214,23 @@ until we had analyzed all the postmortem reviews.
 <br/>
 That's not my department!" says Wernher von Braun
 
---- Tom Lehrer
+--- <span i="Lehrer, Tom">Tom Lehrer</span>
 </blockquote>
 
 <cite>Tedre2008</cite> describes three traditions that have shaped how we think
-about computing: the mathematical, which focuses on algorithms and proofs; the
-scientific, which studies programs and programmers empirically; and the
-engineering tradition, which centers the fact that computing matters because we
-can actually build useful things.
+about computing: the <span i="mathematical tradition in
+computing">mathematical</span>, which focuses on algorithms and proofs; the
+<span i="scientific tradition in computing">scientific</span>, which studies
+programs and programmers empirically; and the <span i="engineering tradition in
+computing">engineering tradition</span>, which centers the fact that computing
+matters because we can actually build useful things.
 
 That paper changed how I think about our field, but in the past few years I have
-realized that another point of view is just as important, though not as well
-respected.  It draws on humanities and social sciences to explore questions
-like, "Who does this help?", "Who does this hurt?", and, "Who decides?"  Just as
-the most interesting software engineering research these days is look at how the
-way we think interacts with the way we program (<span x="research"/>), the most
-interesting thinking about computing as a whole is coming from people who have
-outgrown the "Wernher von Braun" mentality.
+realized that <span i="humanist tradition in computing">another point of
+view</span> is just as important, though not as well respected.  It draws on
+humanities and social sciences to explore questions like, "Who does this help?",
+"Who does this hurt?", and, "Who decides?"  Just as the most interesting
+software engineering research these days is look at how the way we think
+interacts with the way we program (<span x="research"/>), the most interesting
+thinking about computing as a whole is coming from people who have outgrown the
+"Wernher von Braun" mentality of Lehrer's song.

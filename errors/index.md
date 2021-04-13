@@ -5,20 +5,21 @@
 
 When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
 
---- Terry Pratchett
+--- <span i="Pratchett, Terry">Terry Pratchett</span>
 
 </blockquote>
 
 We are imperfect people living in an imperfect world.  People will misunderstand
-how to use our programs, and even if we test thoroughly as described in the
-previous chapter, those programs might still contain bugs.  We should therefore
-plan from the start to detect and handle errors.
+how to use our programs, and even if we test thoroughly as described in <span
+x="testing"/>, those programs will probably still contain bugs.  We should
+therefore plan from the start to detect and handle errors.
 
 ## Handling Errors
 
-<span g="internal_error">Internal errors</span>, are mistakes in the program
-itself, such as calling a function with `None` instead of a list.  <span
-g="external_error">External errors</span> are usually caused by interactions
+<span g="internal_error" i="internal error; error!internal">Internal
+errors</span>, are mistakes in the program itself, such as calling a function
+with `None` instead of a list.  <span g="external_error" i="external error;
+error!external">External errors</span> are usually caused by interactions
 between the program and the outside world: a user may mis-type a filename, the
 network might be down, and so on.
 
@@ -27,21 +28,22 @@ it and halt the program.  If a function has been passed `None` instead of a
 valid list, for example, the odds are good that one of our data structures is
 corrupted.  We can try to guess what the problem is and take corrective action,
 but our guess will often be wrong and our attempt to correct the problem might
-actually make things worse.  When an external error occurs on the other hand, we
-don't always want the program to stop.  If a user mis-types her password,
-handling the error by prompting her to try again would be friendlier than
-halting and requiring her to restart the program.
+actually make things worse.  When an external error occurs, on the other hand,
+we don't always want the program to stop: if a user mis-types her password,
+prompting her to try again is friendlier than halting and requiring her to
+restart the program.
 
-Most modern programming languages use <span g="exception">exceptions</span> for
-error handling.  In Python, for example, exceptions are handled using the
-keywords `try` and `except`.  If nothing unexpected happens inside the `try`
-block, the `except` block isn't run If something does go wrong, on the other
-hand, the program jumps immediately to the `except`.
+Most modern programming languages use <span g="exception"
+i="exception">exceptions</span> for error handling.  In Python, for example,
+exceptions are handled using the keywords `try` and `except`.  If nothing
+unexpected happens inside the `try` block, the `except` block isn't run, but if
+something does go wrong, the program jumps immediately to the body of the
+`except`.
 
 We often want to know exactly what went wrong, so Python and other languages
 store information about the error in an object (which is also called an
-exception).  We can <span g="catch_exception">catch</span> an exception and
-inspect it as follows:
+exception).  We can <span g="catch_exception" i="exception!handling; catch
+exception">catch</span> an exception and inspect it as follows:
 
 ```py
 for denom in [-5, 0, 5]:
@@ -81,7 +83,8 @@ index 3 out of range
 ```
 
 So where do exceptions come from?  The answer is that programmers can <span
-g="raise_exception">raise</span> them explicitly:
+g="raise_exception" i="exception!raise; raise exception">raise</span> them
+explicitly:
 
 ```py
 for number in [1, 0, -1]:
@@ -98,21 +101,25 @@ for number in [1, 0, -1]:
 exception: no negatives: -1
 ```
 
+{: .continue}
 We can define our own exception types, and many libraries do, but the built-in
 types are enough to cover common cases.
 
 One final note is that exceptions don't have to be handled where they are
-raised.  In fact, their greatest strength is that they allow long-range error
+raised: in fact, their greatest strength is that they allow long-range error
 handling.  If an exception occurs inside a function and there is no `except` for
 it there, Python checks to see if whoever called the function is willing to
 handle the error.  It keeps working its way up through the call stack until it
 finds a matching `except`.  If there isn't one, Python takes care of the
 exception itself.
 
-This behavior is designed to support a pattern called "throw low, catch high":
-write most of your code without exception handlers, since there's nothing useful
-you can do in the middle of a small utility function, but put a few handlers in
-the uppermost functions of your program to catch and report all errors.
+This behavior is designed to support a pattern called "<span i="throw low, catch
+high">throw low, catch high</span>": write most of your code without exception
+handlers, since there's nothing useful you can do in the middle of a small
+utility function, but put a few handlers in the outermost functions of your
+program to catch and report all errors.  This also makes libraries more
+reusable: different applications will want to handle errors in different ways,
+so the library should just report the problem.
 
 <div class="callout" markdown="1">
 
@@ -125,26 +132,28 @@ that programmers can't anticipate everything that can go wrong when running a
 program, so there should always be an `except` somewhere to deal with unexpected
 cases.
 
-The one rule we should *always* follow is to check for errors as early as
-possible so that we don't waste the user's time.  Few things are as frustrating
-as being told at the end of an hour-long calculation that the program doesn't
-have permission to write to an output directory.  It's a little extra work to
-check things like this up front, but the larger your program or the longer it
-runs, the more useful those checks will be.
+The one rule we should *always* follow is to check for errors <span
+i="exception!when to check">as early as possible</span> so that we don't waste
+the user's time.  Few things are as frustrating as being told at the end of an
+hour-long calculation that the program doesn't have permission to write to an
+output directory.  It's a little extra work to check things like this up front,
+but the larger your program or the longer it runs, the more useful those checks
+will be.
 
 </div>
 
 ## Defensive Programming
 
 The first step in building confidence in our programs is to assume that mistakes
-will happen and guard against them.  This is called <span
-g="defensive_programming">defensive programming</span>, and the most common way
-to do it is to add <span g="assertion">assertions</span> to our code so that it
-checks itself as it runs.  An assertion is a statement that something must be
-true at a certain point in a program.  When the program runs, it checks the
-assertion's condition.  If it's true, the program does nothing; if it's false,
-it halts and prints a user-defined error message.  For example, this Python code
-halts as soon as the loop encounters an impossible word frequency:
+will happen and guard against them.  This is called <span i="defensive
+programming" g="defensive_programming">defensive programming</span>, and the
+most common way to do it is to add <span g="assertion"
+i="assertion">assertions</span> to our code so that it checks itself as it runs.
+An assertion is a statement that something must be true at a certain point in a
+program.  When the program runs, it checks the assertion's condition.  If it's
+true, the program does nothing; if it's false, it halts and prints a
+user-defined error message.  For example, this Python code halts as soon as the
+loop encounters a negative word frequency:
 
 ```py
 frequencies = [13, 10, 2, -4, 5, 6, 25]
@@ -156,8 +165,9 @@ print('total frequency of first 5 words:', total)
 ```
 
 {: .continue}
-Programs intended for widespread use are full of assertions: 10--20% of the code
-they contain are there to check that the other 80--90% are working correctly.
+Programs intended for widespread use are typically full of assertions: 10--20%
+of the code they contain is there to check that the other 80--90% is working
+correctly.
 
 ## Writing Useful Error Messages
 
@@ -168,20 +178,22 @@ OSError: Something went wrong, try again.
 ```
 
 {: .continue}
-It doesn't provide any information on what went wrong, so it is difficult to
-know what to change for next time.  A slightly better message would be:
+It doesn't provide any information on what went wrong, so it is difficult for
+the user to know what to change next time.  A slightly better message is:
 
 ```out
 OSError: Unsupported file type.
 ```
 
+{: .continue}
 This message tells us the problem is with the type of file we're trying to
 process, but it still doesn't tell us what file types are supported, which means
 we have to rely on guesswork or read the source code.  Telling the user that a
 file isn't a <span g="csv">CSV</span> file makes it clear that the program only
 works with files of that type, but since we don't actually check the content of
 the file, this message could confuse someone who has comma-separated values
-saved in a `.txt` file.  An even better message would therefore be:
+saved in a `.txt` file.  An even <span i="error message!writing helpful">better
+message</span> would therefore be:
 
 ```out
 OSError: File must end in .csv
@@ -191,11 +203,11 @@ OSError: File must end in .csv
 This message tells us exactly what the criteria are to avoid the error.
 
 Error messages are often the first thing people read about a piece of software,
-so they should therefore be the most carefully written documentation for that
-software.  A web search for "writing good error messages" turns up hundreds of
-hits, but recommendations are often more like gripes than guidelines and are
-usually not backed up by evidence.  What research there is gives us the
-following rules <cite>Becker2016</cite>:
+so they should be its most carefully written documentation.  A web search for
+"writing good error messages" turns up hundreds of hits, but recommendations are
+often more like gripes than guidelines and are usually not backed up by
+evidence.  What research there is gives us the following rules
+<cite>Becker2016</cite>:
 
 Tell the user what they did, not what the program did.
 :   Putting it another way, the message shouldn't state the effect of the error,
@@ -236,7 +248,8 @@ if fname[-4:] != '.csv':
 ```
 
 {: .continue}
-A better approach is to put all the error messages in a dictionary:
+A better approach is to put all the error messages in a <span i="error
+message!internatioalizing">dictionary</span>:
 
 ```py
 ERRORS = {
@@ -273,6 +286,7 @@ ERRORS = {
 }
 ```
 
+{: .continue}
 The error report is then looked up and formatted as:
 
 ```py
@@ -285,8 +299,8 @@ where `user_language` is a two-letter code for the user's preferred language.
 ## Logging
 
 Something else you can design into your system to make your life easier later on
-is <span g="logging">logging</span>. Instead of writing `print` statements like
-this:
+is <span g="logging" i="logging">logging</span>. Instead of writing `print`
+statements like this:
 
 ```py
 def extrapolate(basis, case):
@@ -303,7 +317,7 @@ def extrapolate(basis, case):
 ```
 
 {: continue}
-you use your language's logging library like this:
+you use your language's logging library:
 
 ```py
 import logging
@@ -322,7 +336,7 @@ def extrapolate(basis, case):
 ```
 
 At first glance this is just more verbose. The benefit, though, is that your
-messages are now divided into two classes. If you want to get all the messages,
+messages are now divided into categories. If you want to get all the messages
 you put:
 
 ```py
@@ -331,11 +345,11 @@ logging.basicConfig(level=logging.DEBUG)
 
 {: .continue}
 somewhere near the start of your program. The `DEBUG` option identifies the
-least important messages in your program---the ones you probably only want to
-see when you're trying to figure out what's gone wrong. In order, the more
-important levels in most logging libraries are `INFO`, `WARNING`, `ERROR`, and
-`CRITICAL`. If you only want messages at the `WARNING` level and above, you
-change the configuration to:
+lowest-level messages in your program---the ones you probably only want to see
+when you're trying to figure out what's gone wrong. In order, the more important
+<span i="logging!levels">levels</span> in most logging libraries are `INFO`,
+`WARNING`, `ERROR`, and `CRITICAL`. If you only want messages at the `WARNING`
+level and above, you change the configuration to:
 
 ```py
 logging.basicConfig(level=logging.WARNING)
@@ -374,20 +388,21 @@ some idea of what it was doing beforehand.
 
 ### Logging for security
 
-One of the recommendations in <span x="security"/> was to log actions to help
-you find suspicious activity.  When you do this, make sure the log records who,
-what, and when; in particular, make sure you have a record of every time
-permissions were changed or new accounts were created.
+One of the recommendations in <span x="security"/> was to <span i="logging!for
+security">log actions</span> to help you find suspicious activity.  When you do
+this, make sure the log records who, what, and when; in particular, make sure
+you have a record of every time permissions were changed or new accounts were
+created.
 
 </div>
 
-Most logging libraries also support <span g="rotating_file">rotating
-files</span>, i.e., they will write to `log.1` on the first day, `log.2` on the
-second day, and so on until they reach (for example) `log.7`, then wrap around
-and overwrite `log.1`. Web servers and other long-lived programs are usually set
-up to do this so that they don't fill up the disk with log information.  It's
-all straightforward to set up, and once it's in place, it gives you a lot more
-insight into what your program is actually doing.
+Most logging libraries also support <span g="rotating_file" i="logging!rotating
+files">rotating files</span>, i.e., they will write to `log.1` on the first day,
+`log.2` on the second day, and so on until they reach (for example) `log.7`,
+then wrap around and overwrite `log.1`. Web servers and other long-lived
+programs are usually set up to do this so that they don't fill up the disk with
+log information.  It's all straightforward to set up, and once it's in place, it
+gives you a lot more insight into what your program is actually doing.
 
 <div class="callout" markdown="1">
 
@@ -395,9 +410,9 @@ insight into what your program is actually doing.
 
 You will sometimes inspect logs yourself, but you will also frequently want to
 search them for patterns. All of the logs you produce should therefore be in a
-machine-readable format like CSV, JSON, or <span g="yaml">YAML</span>; you can
-easily write a small program to pretty-print the data you want for manual
-inspection.
+<span i="logging!output format">machine-readable format</span> like CSV, JSON,
+or <span g="yaml">YAML</span>; you can easily write a small program to
+pretty-print the data you want for manual inspection.
 
 This guideline is one instance of a more general design rule.  The world has
 more data formats than it needs, so if anyone has to write a parser to analyze

@@ -1,6 +1,12 @@
 ---
 ---
 
+<span class="fixme">More on research about hiring: https://rework.withgoogle.com/guides/hiring-use-structured-interviewing/steps/learn-the-external-research/</span>
+
+<span class="fixme">Hiring process isn't *designed* to find people like managers: that happens because they don't think about doing anything else.</span>
+
+<span class="fixme">Talk about difference between mentorship and sponsorship https://larahogan.me/blog/what-sponsorship-looks-like/</span>
+
 This book is about course projects, but as <span x="starting"/> said, these are
 often designed to prepare you for real jobs.  Since the transition from being a
 student to working full time is one of the most important in your career, this
@@ -47,10 +53,10 @@ discovered when he looked at [their history][wayne-linked-lists], they might
 have indicated how much experience someone had using C or Pascal in the 1980s,
 but they have no more to do with on-the-job performance than the essay questions
 used by Ivy League schools have to do with your ability to learn.  When [April
-Christina Curley][curley-april] began coaching Black students how to prepare for
-interviews with Google that included questions like these the company shut her
-down, even though schools like Stanford had been running coaching sessions for
-their students for years <cite>Tiku2021</cite>.
+Christina Curley][curley-april], a recruiter at Google, began coaching Black
+students how to prepare for interviews with Google that included questions like
+these the company shut her down, even though schools like Stanford had been
+running coaching sessions for their students for years <cite>Tiku2021</cite>.
 
 <cite>Behroozi2019,Behroozi2020a,Behroozi2020b</cite> summarize many other
 things that often go wrong in hiring, from interviewers not knowing which job
@@ -73,6 +79,7 @@ don't have as many options open to them as I do.
 </div>
 
 So how can companies do hiring well?
+<span class="fixme">Students can't control this but they can judge it.</span>
 
 Write inclusive, accessible job ads.
 :   <cite>Gaucher2011</cite> is just one of many studies showing that gendered
@@ -127,8 +134,9 @@ If the answers are "no", the next questions to ask is, "How can we fix this?"
 I have interviewed people who didn't ask a single question about the company,
 what an average day would look like, or how their career might evolve over time.
 [Julia Evans][evans-julia] has a good list of [questions to ask in
-interviews][evans-interviews]; there probably isn't time to get to them all,
-but asking two or three that matter to you most will impress your interviewer as
+interviews][evans-interviews], and [T. Carter Baxter][baxter-t-carter] has
+[another][baxter-interviews].  There won't be time to get to them all, but
+asking two or three that matter to you most will impress your interviewer as
 well as giving you valuable information.
 
 </div>
@@ -195,7 +203,7 @@ Have an org chart.
     barge in on strangers.
 
 Have written criteria for performance reviews.
-:   The ones shown in <span x="evaluation"/> are a good model, and these
+:   The ones shown in <span x="personal-eval"/> are a good model, and these
     *are* something a company can share before hiring you. If a company doesn't
     have criteria, or if performance reviews are only done when an employee asks
     for one, the system is once again biased toward the extroverted and the
@@ -235,7 +243,7 @@ intolerant taking advantage of that.
 We can disagree and still love each other unless your disagreement is rooted
 in my oppression and denial of my humanity and right to exist.
 
---- James Baldwin
+--- <span i="Baldwin, James">James Baldwin</span>
 
 </blockquote>
 
@@ -317,9 +325,9 @@ situation and defend the person who is being attacked.
 ### Not acting is a choice as well
 
 Always remember that not acting is just as much a choice as acting.  <span
-x="10-newcomers"/> said that an organization's culture is defined by the worst
-behavior it tolerates <cite>Gruenert2015</cite>; I have come to believe that who
-we really are as individuals is defined in the same way.
+x="rules-newcomers"/> said that an organization's culture is defined by the
+worst behavior it tolerates <cite>Gruenert2015</cite>; I have come to believe
+that who we really are as individuals is defined in the same way.
 
 </div>
 

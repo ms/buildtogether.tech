@@ -78,6 +78,8 @@ original Git.
 
 </div>
 
+<span class="fixme">Mention Atlassian Git tutorial https://www.atlassian.com/git/tutorials</span>
+
 This chapter won't try to teach you Git from scratch: [GitHub's
 guides][github-guides] do an excellent job of that, as does [the Carpentries
 lesson on Git][carpentries-git].  Instead, we will review the basics that we
@@ -241,6 +243,8 @@ commits?][so-configure-git-editor]" One of the many reasons you should interact
 with Git through a GUI is to avoid this issue.
 
 </div>
+
+<span class="fixme">Discuss `git add` before `git commit` (with diagram) and talk about workflow for temporary work</span>
 
 Before we run `git commit`, though, we need to tell Git which files we want to
 save in the commit, which we do using `git add`:

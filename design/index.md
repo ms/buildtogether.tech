@@ -5,7 +5,7 @@
 
 A week of hard work can sometimes save an hour of thought.
 
---- Robert Wilson
+--- <span i="Wilson, Robert">Robert Wilson</span>
 
 </blockquote>
 
@@ -120,7 +120,7 @@ The system's <span i="physical architecture!diagram; diagrams!physical architect
     directories, and circles showing running processes. A lot of this stuff can
     show up in the conceptual architecture as well.
 
-<span g="workflow_diagram" i="workflow diagram; diagrams!workflow>Workflow diagrams</span> that show how users accomplish things.
+<span g="workflow_diagram" i="workflow diagram; diagrams!workflow">Workflow diagrams</span> that show how users accomplish things.
 :   Workflows are almost always drawn as <span g="fsm" i="finite state
     machines!use in software design">finite state machines</span>. Each node
     represents a state the user and the system can be in, while the arcs show
@@ -450,16 +450,16 @@ Configuration files.
     a record of exactly what the settings were (which can be helpful when
     testing).
     <br/>
-    Configuration files are often <span i="layered configuration;
-    configuration!layered" g="layered_configuration">layered</span>: the program
-    reads a global configuration file with general settings, then a
-    user-specific configuration file (typically in the user's home directory)
-    with the user's preferences, and finally a project-specific file. Those
-    settings can then often be overridden using command-line options.  And if
-    you are going to *read* settings from files, do the compassionate thing and
-    teach your programs how to *write* their complete settings to a file as
-    well.  These files make it easier for people to reproduce their work and are
-    an invaluable aid to debugging.
+    Configuration files are often <span i="configuration!layered"
+    g="layered_configuration">layered</span>: the program reads a global
+    configuration file with general settings, then a user-specific configuration
+    file (typically in the user's home directory) with the user's preferences,
+    and finally a project-specific file. Those settings can then often be
+    overridden using command-line options.  And if you are going to *read*
+    settings from files, do the compassionate thing and teach your programs how
+    to *write* their complete settings to a file as well.  These files make it
+    easier for people to reproduce their work and are an invaluable aid to
+    debugging.
 
 A programming interface.
 :   If the application is written as a set of libraries, each with its own API,
