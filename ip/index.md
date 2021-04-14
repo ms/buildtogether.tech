@@ -229,6 +229,14 @@ to get credit for your work.
 Other Creative Commons licenses incorporate various restrictions, and are
 usually referred two using the two-letter abbreviations listed below:
 
+-   <span i="Creative Commons!no commercial use">NC (no commercial use)</span>
+    does *not* mean that people cannot charge money for something that includes
+    our work, though some publishers still try to imply that in order to scare
+    people away from open licensing.  Instead, the NC clause means that people
+    cannot charge for something that uses our work without our explicit
+    permission, which we can give under whatever terms we want.  (We use the
+    CC-BY-NC license for this work.)
+
 -   <span i="Creative Commons!ND clause">no derivative works (no derivative
     works)</span> prevents people from creating modified versions of our work.
     Unfortunately, this also inhibits translation and reformatting.
@@ -237,13 +245,6 @@ usually referred two using the two-letter abbreviations listed below:
     to share work that incorporates ours on the same terms that we used.  Again,
     it is fine in principle but in practice makes aggregation and recombination
     difficult.
-
--   <span i="Creative Commons!no commercial use">NC (no commercial use)</span>
-    does *not* mean that people cannot charge money for something that includes
-    our work, though some publishers still try to imply that in order to scare
-    people away from open licensing.  Instead, the NC clause means that people
-    cannot charge for something that uses our work without our explicit
-    permission, which we can give under whatever terms we want.
 
 <div class="callout" markdown="1">
 

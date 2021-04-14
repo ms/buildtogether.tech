@@ -410,8 +410,6 @@ summary of what it's like to be [the "problem" woman of color in the
 workplace][coco-problem].  If what it describes isn't familiar, you might be a
 part of the problem, just as I was in my teens and twenties.
 
-</span>
-
 ## The Wider World
 
 Between 1985 and 1987, a programming bug in the [Therac-25][therac-25] resulted

@@ -55,7 +55,8 @@ of more than a century, including some on novice software developers
 <cite>Fucci2020</cite>.  The data behind them is as solid as the data linking
 smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
-science somehow didn't apply to them.  To quote Robinson's article:
+science somehow didn't apply to them.  To quote <span i="Robinson,
+Evan">Robinson</span>'s article:
 
 <blockquote markdown="1">
 

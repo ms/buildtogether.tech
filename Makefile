@@ -24,6 +24,7 @@ EXTRA_MARKDOWN=_includes/intro.md
 RELEASE_FILES=\
   CONDUCT.md\
   CONTRIBUTING.md\
+  LICENSE.md\
   Makefile\
   Gemfile\
   Gemfile.lock\
@@ -44,7 +45,8 @@ RELEASE_EXCLUDES=\
   bin/__pycache__/*\
   misc\
   misc/*.*\
-  *~
+  *~\
+  */*~
 
 .DEFAULT: commands
 
@@ -92,7 +94,6 @@ make-terms: ${TERMS_YML}
 check:
 	@make check-bib
 	@make check-gloss
-	@make check-boilerplate
 	@make check-chunk-length
 	@make check-code-blocks
 	@make check-dom
@@ -103,10 +104,6 @@ check:
 ## check-bib: compare citations and definitions
 check-bib:
 	@bin/check-bib.py --bibliography ${BIB_YML} --sources ${MARKDOWN} ${GLOSSARY_IN} _includes/intro.md
-
-## check-boilerplate: check standard files
-check-boilerplate:
-	@bin/check-boilerplate.py --config ${CONFIG} --license LICENSE.md
 
 ## check-chunk-length: see whether any inclusions are overly long
 check-chunk-length: ${HOME_PAGE}

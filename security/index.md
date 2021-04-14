@@ -93,7 +93,7 @@ How can you help counter these threats?
     action (<span x="errors"/>) so that there will be a record if someone uses
     their privileges inappropriately. They might be able to delete that record,
     but if it is <span g="digital_signature" i="digital signature!for activity
-    logs">digitally signed</span there will still be evidence of tampering.
+    logs">digitally signed</span> there will still be evidence of tampering.
 
 1.  Do code reviews to ensure that programmers aren't inserting <span i="code
     review!for security" g="back_door">back doors</span> in software

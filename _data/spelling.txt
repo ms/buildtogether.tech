@@ -227,6 +227,7 @@ Emad
 Emam
 Emard
 Endrikat
+Enforceability
 Engvik
 Ensmenger
 Erdogmus
@@ -273,7 +274,6 @@ GDPR
 GPL
 GQM
 GUIs
-Galvez
 Gantt
 Gao
 Gardiner
@@ -360,7 +360,6 @@ Hoda
 Hoek
 Hoepelman
 Hofmeister
-Hofstra
 Homebrew
 Horenstein
 Hossein
@@ -414,7 +413,6 @@ Jorma
 Jossey
 Jost
 Juhani
-Jurafsky
 Juristo
 Jürgen
 Kai
@@ -451,7 +449,6 @@ Krein
 Krueger
 Kuhrmann
 Kulikova
-Kulkarni
 LLC
 LTM
 LaTeX
@@ -466,6 +463,8 @@ Leitão
 Leong
 Letaw
 Letian
+Licensor
+Licensor's
 Lifecycle
 Lindberg
 LinkedIn
@@ -479,6 +478,7 @@ Lumsdaine
 Luo
 Lutz
 MBTI
+MERCHANTABILITY
 MSR
 MVC
 MacOS
@@ -546,6 +546,7 @@ Münch
 NDA
 NDAs
 NOAA's
+NONINFRINGEMENT
 NPM
 NPMS
 NSPW
@@ -553,7 +554,6 @@ NYU
 Nachiappan
 Nagappan
 Naing
-Najar
 Nakshatri
 NameError
 Nanthaamornphong
@@ -570,6 +570,7 @@ Nilanjana
 Nishith
 Nitasha
 Noam
+NonCommercial
 Nonmajors
 Norenzayan
 Nourry
@@ -842,7 +843,6 @@ Vassallo
 Venolia
 Vigen
 Ville
-Vivek
 Vlasenko
 Vo
 WCRE
@@ -986,6 +986,7 @@ kleenex
 labeled
 labor
 leveled
+licensor
 lifecycle
 linter
 linters
@@ -1057,6 +1058,7 @@ spearphishing
 speling
 styrofoam
 subclasses
+sublicense
 sys
 templated
 tentupling
@@ -1076,6 +1078,7 @@ triaging
 troff
 tumor
 unaffordable
+unenforceability
 unindent
 unmute
 untrusted

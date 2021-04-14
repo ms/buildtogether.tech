@@ -1,7 +1,7 @@
 title: Building Software Together
 subtitle: "a student's guide to being a compassionate programmer"
 url: https://buildtogether.tech
-repository: gvwilson/bst
+repository: gvwilson/buildtogether.tech
 default_image: /static/fixme.svg
 cover_image: /static/bst-600.jpg
 
@@ -142,7 +142,6 @@ kramdown:
       "choose-license": ["https://choosealicense.com/", "Choose a License"],
       "coco": ["https://coco-net.org/", "Centre for Community Organizations"],
       "coco-problem": ["https://coco-net.org/problem-woman-colour-nonprofit-organizations/", "The 'Problem' Woman of Colour in the Workplace"],
-      "contact": ["mailto:gvwilson@third-bit.com", "Contact email"],
       "contributor-covenant": ["https://www.contributor-covenant.org", "Contributor Covenant"],
       "conways-law": ["https://en.wikipedia.org/wiki/Conway%27s_law", "Conway's Law"],
       "cook-mary-rose": ["https://maryrosecook.com/", "Mary Rose Cook"],
