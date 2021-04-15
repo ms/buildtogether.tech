@@ -325,6 +325,7 @@ Guilherme
 Guo
 HCC
 Hachette
+Haddara
 Hakan
 Handoff
 Hanenberg
@@ -429,6 +430,7 @@ Karras
 Katerine
 Kathi
 Kaufmann
+Kazmi
 Kemerer
 Kendzior
 Kerievsky
@@ -541,6 +543,7 @@ Moyn
 Mujahid
 Mukherjee
 Mulders
+Mustafa
 Mythbusters
 Münch
 NDA
@@ -893,6 +896,7 @@ Yuanyuan
 YubiKey
 Zahra
 Zaidman
+Zain
 Zainab
 Zambrano
 Zampetti
