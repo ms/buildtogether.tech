@@ -366,7 +366,7 @@ No distractions.
 
 Take minutes.
 :   Someone other than the moderator should take <span i="minutes (of
-    meetings)">point-form notes</a> about the most important information that
+    meetings)">point-form notes</span> about the most important information that
     was shared, and about every decision that was made or every task that was
     assigned to someone.  This responsibility should rotate each meeting so that
     everyone has to take a turn; otherwise, as discussed in <span x="teams"/>,

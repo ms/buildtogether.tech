@@ -207,7 +207,7 @@ Specify how much time employees can take off.
 ## Being an Ally
 
 But suppose you are a straight, physically able, white or Asian male without
-mental health issues---why should you are about people who are marginalized
+mental health issues---why should you care about people who are marginalized
 because they aren't these things?  One argument is self-interest: study after
 study has shown that more diverse teams perform better, that companies with more
 diverse management are more profitable, and so on <cite>Zhan2020</cite>.
@@ -368,7 +368,7 @@ whole life, and as a result don't realize how much harder things are for others
 whose default setting isn't "<span i="easy mode (as a metaphor for
 privilege)">easy mode</span>" <cite>Scalzi2012</cite>.
 
-<span class="callout" markdown="1">
+<div class="callout" markdown="1">
 
 ### How far back should we go?
 
@@ -409,6 +409,8 @@ intentions.  The [Centre for Community Organizations][coco] has a depressing
 summary of what it's like to be [the "problem" woman of color in the
 workplace][coco-problem].  If what it describes isn't familiar, you might be a
 part of the problem, just as I was in my teens and twenties.
+
+</div>
 
 ## The Wider World
 
@@ -501,7 +503,7 @@ may find others that help you more.  Either way, the most compassionate thing
 you can do is ask yourself at every turn, "What will this be like for people who
 aren't like me?"
 
-<span class="callout" markdown="1">
+<div class="callout" markdown="1">
 
 ### Why I write
 
@@ -519,4 +521,4 @@ product management, will give people like Brad and my younger self a ramp to
 walk up instead of a cliff to climb, because if we don't find a way to fix the
 tech industry, our lives are going to keep getting worse.
 
-</span>
+</div>
