@@ -209,9 +209,14 @@ entries:
   label: N
   slug: rules-change
   title: How to Change the World
-- file: ./index/index.md
+- file: ./authors/index.md
   kind: Appendix
   label: O
+  slug: authors
+  title: Authors
+- file: ./index/index.md
+  kind: Appendix
+  label: P
   slug: index
   title: Index
 figures:

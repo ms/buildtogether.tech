@@ -1,3 +1,4 @@
+authors: []
 automation:
 - key: build_manager
   term: build manager
