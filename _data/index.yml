@@ -3037,6 +3037,10 @@
     title: How to be a Good Research Partner
   term: Wikipedia
 - links:
+  - slug: authors
+    title: Authors
+  term: Wilson, Greg
+- links:
   - slug: design
     title: Software Design
   term: Wilson, Robert
