@@ -40,15 +40,8 @@ doesn't run well enough to pass all existing tests.
 Suppose Amira and Sami are working together on a course.  They decided at the
 start of semester that Sami would host the project repository in her GitHub
 account, so they created `https://github.com/sami/bst` and gave Amira permission
-to push to it. They have both cloned that repository to their laptops, so when
-they start work on homework 5, their setups look like <span
-f="start-homework-5"/>.
-
-{% include figure
-   id="start-homework-5"
-   alt="Starting homework"
-   cap="What repositories are where at the start of homework 5."
-   fixme=true %}
+to push to it. They have both cloned that repository to their laptops to start
+work on homework 5.
 
 We will modify Amira's prompt to include her desktop user ID (`amira`) and
 working directory (initially `~`, meaning "home directory") to make it easier to

@@ -198,7 +198,11 @@ f="boehms-curve"/>).  Better tools and vastly more powerful computers have
 flattened Boehm's curve over the past thirty years, but it is still takes more
 effort to fix things later than earlier <cite>Dawson2010</cite>.
 
-{% include figure id="boehms-curve" alt="Boehm's Curve" cap="The cost of fixing bugs increases later in the development cycle." fixme=true %}
+{% include figure
+   id="boehms-curve"
+   img="boehms-curve.svg"
+   alt="Boehm's Curve"
+   cap="The cost of fixing bugs increases later in the development cycle." %}
 
 Development teams deal with this in three ways.  The first is to ignore it.  If
 you're being paid a steady salary by a company that can survive delays and cost
@@ -386,12 +390,16 @@ even if there was, it probably shouldn't be done anyway.
 What you do now is find a large whiteboard and draw an <span
 i="effort-importance grid" g="effort_importance_grid">effort-importance
 grid</span>.  The X axis is labeled "effort" and is labeled "an hour", "a day",
-and "a week", while the Y axis "importance", and each is divided into "low",
+and "a week", while the Y axis "importance", and is divided into "low",
 "medium", and "high".  Next, write each feature's name on a yellow sticky note
 and put it on the grid.  You should wind up with something like <span
-f="process-matrix"/>.
+f="effort-importance"/>.
 
-{% include figure id="process-matrix" alt="Effort/importance matrix" cap="An example of an effort/importance matrix." fixme=true %}
+{% include figure
+   id="effort-importance"
+   img="effort-importance.svg"
+   alt="Effort/importance matrix"
+   cap="An example of an effort/importance matrix." %}
 
 You then throw away the high-effort, low-importance items in the bottom-right
 three cells---you aren't going to get to those.  Next, you start assembling the

@@ -222,12 +222,11 @@ entries:
 figures:
   boehms-curve: '19.2'
   comprehension-curves: '12.3'
+  effort-importance: '19.3'
   er-diagram: '12.1'
   feature-usage: '19.4'
   feedback-loops: '19.1'
   four-models-of-instruction: '3.1'
-  process-matrix: '19.3'
-  start-homework-5: '8.1'
   thinking-cognitive-architecture: G.2
   thinking-frisian: G.3
   thinking-models: G.1
