@@ -1,4 +1,5 @@
 ---
+draft: true
 ---
 
 This book is about course projects, which are often designed to prepare you for
