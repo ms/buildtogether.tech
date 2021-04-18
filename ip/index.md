@@ -237,8 +237,8 @@ usually referred two using the two-letter abbreviations listed below:
     permission, which we can give under whatever terms we want.  (We use the
     CC-BY-NC license for this work.)
 
--   <span i="Creative Commons!ND clause">no derivative works (no derivative
-    works)</span> prevents people from creating modified versions of our work.
+-   <span i="Creative Commons!no derivative works">ND (no derivative works)</span>
+    prevents people from creating modified versions of our work.
     Unfortunately, this also inhibits translation and reformatting.
 
 -   <span i="Creative Commons!share-alike">SA (share-alike)</span> requires people

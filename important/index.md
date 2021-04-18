@@ -141,7 +141,7 @@ be---and pace yourself accordingly.
 I *have* to work extra hours to get them all done!" Sadly, that is often true:
 while people in industry joke that having two bosses means living in hell, most
 students can only dream of having just two, since most schools do a lousy job of
-coordinating due dates across differences courses.  <cite>Tregubov2017</cite>
+coordinating due dates across different courses.  <cite>Tregubov2017</cite>
 found strong correlation between the number of projects and the number of
 interruptions that developers reported, while <cite>Edwards2009</cite> found
 that starting assignments early and working consistently both predicted good

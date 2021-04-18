@@ -234,7 +234,7 @@ after lunch, everything is set up for me to focus on one topic at a time.
 
 <span i="software portal!communication tools">Software portals</span> provide
 many other ways to communicate, which project members use in a wide variety of
-ways <cite>Treude2011</cite>.  <span i="wiki; communication!wiki">Wikis/span>
+ways <cite>Treude2011</cite>.  <span i="wiki; communication!wiki">Wikis</span>
 seem like a good way to keep notes, create documentation, and so on. Their main
 strength is the fact that content is automatically and immediately visible on
 the web.  These days, you will probably get more mileage out of a bunch of <span
@@ -400,7 +400,7 @@ a different kind of documentation:
     by one and shows how they fit together.
 
 -   A <span i="competent practitioner!documentation needs; documentation!for
-    competent practitioners">competent practitioner needs reference guides,
+    competent practitioners">competent practitioner</span> needs reference guides,
     cookbooks, and Q&A sites; these give her solutions close enough to what she
     needs that she can tweak them the rest of the way.
 
