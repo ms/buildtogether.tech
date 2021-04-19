@@ -223,7 +223,7 @@ you all adopt the same IDE. This will also let you help one another solve
 problems and share plugins.
 
 But calling VS Code is the world's most popular IDE is misleading.  If you open
-<span i="IDE!in browser">developer tools</span. in Firefox, Chrome, or Edge, you
+<span i="IDE!in browser">developer tools</span>. in Firefox, Chrome, or Edge, you
 will be shown an HTML browser that's smart enough to tell you which bits of CSS
 are in effect where, a console that displays messages from the JavaScript
 running in the page, a breakpointing debugger (<span x="debugging"/>), a network

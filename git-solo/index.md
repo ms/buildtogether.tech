@@ -78,18 +78,17 @@ original Git.
 
 </div>
 
-<span class="fixme">Mention Atlassian Git tutorial https://www.atlassian.com/git/tutorials</span>
-
 This chapter won't try to teach you Git from scratch: [GitHub's
-guides][github-guides] do an excellent job of that, as does [the Carpentries
-lesson on Git][carpentries-git].  Instead, we will review the basics that we
-hope you have learned previously, then look at how to use Git and GitHub to
-collaborate in <span x="git-team"/>.  We will show the commands as if you were
-running them in the Unix shell, but we recommend that you use a <span
-i="Git!graphical interface">graphical interface</span> like
-[GitKraken][gitkraken], [SourceTree][sourcetree], or the one that comes with
-your <span i="IDE">IDE</span> (<span x="tooling"/>). These are layered on top of
-the commands we are going to discuss, so they (should) all work the same way.
+guides][github-guides] and [the Atlassian Git tutorial][atlassian-git] do an
+excellent job of that, as does [the Carpentries lesson on Git][carpentries-git].
+Instead, we will review the basics that we hope you have learned previously,
+then look at how to use Git and GitHub to collaborate in <span x="git-team"/>.
+We will show the commands as if you were running them in the Unix shell, but we
+recommend that you use a <span i="Git!graphical interface">graphical
+interface</span> like [GitKraken][gitkraken], [SourceTree][sourcetree], or the
+one that comes with your <span i="IDE">IDE</span> (<span x="tooling"/>). These
+are layered on top of the commands we are going to discuss, so they (should) all
+work the same way.
 
 ## A Review of the Basics
 
@@ -244,8 +243,6 @@ with Git through a GUI is to avoid this issue.
 
 </div>
 
-<span class="fixme">Discuss `git add` before `git commit` (with diagram) and talk about workflow for temporary work</span>
-
 Before we run `git commit`, though, we need to tell Git which files we want to
 save in the commit, which we do using `git add`:
 
@@ -283,6 +280,11 @@ includes:
 __pycache__
 _site
 ```
+
+Be careful not to put files containing passwords or <span g="api_key">API
+keys</span> for web services into version control: even if the repository is
+private now, it might be public in future, or the team might grow to include
+someone who shouldn't have access (<span x="security"/>).
 
 </div>
 

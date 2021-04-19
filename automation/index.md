@@ -185,7 +185,7 @@ definitions in code helps programmers understand software as well.
 
 Build tools will do a lot more for you if you adopt some kind of <span g="ci"
 i="continuous integration">continuous integration</span> system such as <span
-i="Travis CI; continous integration!Travis CI">[Travis CI][travis-ci]</span> or
+i="Travis CI; continuous integration!Travis CI">[Travis CI][travis-ci]</span> or
 <span i="GitHub Actions; continuous integration!GitHub Actions">[GitHub
 Actions][github-actions]</span>.  These can be set up to run either at regular
 intervals (e.g., every hour or at three a.m.), or every time someone checks into

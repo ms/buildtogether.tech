@@ -202,7 +202,7 @@ archives of stream-of-consciousness exchanges is harder than finding things in
 asynchronous media.
 
 But who am I kidding? You're going to use <span i="communication!instant
-messaging; instant messagin!inevitable use of">instant messaging</span> no
+messaging; instant messaging!inevitable use of">instant messaging</span> no
 matter what I say.  If more than two people are in the conversation, follow the
 same rules you would for a short meeting: post a summary of any decisions you
 made where everyone can see it.

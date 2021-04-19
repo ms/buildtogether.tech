@@ -10,94 +10,225 @@ import utils
 
 
 KNOWN = {
-    'a': {'aria-label', 'class', 'href', 'title'},
+    'a': {
+        'aria-label': None,
+        'class': {'doi', 'dropdown-item'},
+        'href': None,
+        'title': None
+    },
     'blockquote': {},
-    'body': {},
+    'body': {
+        'class': {'draft'}
+    },
     'br': {},
     'caption': {},
     'cite': {},
-    'code': {'class'},
-    'dd': {'class'},
-    'div': {'class', 'id'},
-    'dl': {'class'},
-    'dt': {'class', 'id'},
+    'code': {
+        'class': {
+            'language-html',
+            'language-js',
+            'language-make',
+            'language-out',
+            'language-py',
+            'language-sh',
+            'language-txt',
+            'language-yml'
+        }
+    },
+    'dd': {
+        'class': None
+    },
+    'div': {
+        'class': {
+            'glossary',
+            'callout',
+            'centered',
+            'container',
+            'content',
+            'dropdown',
+            'dropdown-content',
+            'file-link',
+            'terms'
+        },
+        'id': None
+    },
+    'dl': {
+        'class': {
+            'bibliography',
+            'glossary'
+        }
+    },
+    'dt': {
+        'class': {
+            'bibliography',
+            'glossary'
+        },
+        'id': None
+    },
     'em': {},
     'figcaption': {},
-    'figure': {'class', 'id', 'slug'},
+    'figure': {
+        'class': None,
+        'id': None,
+        'slug': None
+    },
     'footer': {},
-    'h1': {'class', 'slug'},
-    'h2': {'class', 'id'},
-    'h3': {'id'},
+    'h1': {
+        'class': {
+            'landing-title',
+            'nochaptertitle',
+            'page-title'
+        },
+        'slug': None
+    },
+    'h2': {
+        'class': {
+            'landing-subtitle'
+        },
+        'id': None
+    },
+    'h3': {
+        'id': None
+    },
     'head': {},
     'header': {},
     'hr': {},
-    'html': {'lang'},
-    'i': {'aria-hidden', 'class'},
-    'img': {'alt', 'src'},
+    'html': {
+        'lang': {
+            'en'
+        }
+    },
+    'i': {
+        'aria-hidden': None,
+        'class': None
+    },
+    'img': {
+        'alt': None,
+        'class': {
+            'iconlink'
+        },
+        'src': None
+    },
     'li': {},
-    'link': {'href', 'rel', 'type'},
+    'link': {
+        'href': None,
+        'rel': {
+            'icon',
+            'shortcut',
+            'stylesheet',
+            'image/x-icon',
+            'text/css'
+        },
+        'type': None
+    },
     'main': {},
-    'meta': {'charset', 'content', 'name'},
-    'nav': {'class'},
+    'meta': {
+        'charset': None,
+        'content': None,
+        'name': None
+    },
+    'nav': {
+        'class': {
+            'nav-main'
+        }
+    },
     'ol': {},
-    'p': {'class'},
-    'pre': {'class', 'title'},
-    'script': {'async', 'src', 'type'},
+    'p': {
+        'class': {
+            'continue'
+        }
+    },
+    'pre': {
+        'class': None,
+        'title': None
+    },
+    'script': {
+        'async': None,
+        'crossorigin': None,
+        'src': None,
+        'type': None
+    },
     'small': {},
-    'span': {'class', 'f', 'g', 'i', 't', 'x'},
+    'span': {
+        'class': {
+            'copyright',
+            'navtitle',
+            'nowrap'
+        },
+        'f': None,
+        'g': None,
+        'i': None,
+        't': None,
+        'x': None
+    },
     'strong': {},
-    'table': {'class', 'id'},
+    'table': {
+        'class': {
+            'links'
+        },
+        'id': None
+    },
     'tbody': {},
-    'td': {'style'},
-    'th': {'style'},
+    'td': {
+        'style': None
+    },
+    'th': {
+        'style': None
+    },
     'thead': {},
-    'time': {'datetime'},
+    'time': {
+        'datetime': None
+    },
     'title': {},
     'tr': {},
-    'ul': {'class'}
+    'ul': {
+        'class': {
+            'toc'
+        }
+    }
 }
 
 
 def check_dom(options):
     '''Main driver.'''
-    elements = set()
-    attributes = {}
+    problems = {}
     for filename in options.sources:
         with open(filename, 'r') as reader:
             doc = bs4.BeautifulSoup(reader, features='lxml')
             for node in doc.descendants:
                 if isinstance(node, bs4.element.Tag):
-                    check(elements, attributes, node)
-    report(elements, attributes)
+                    check(problems, filename, node)
+    report(problems)
 
 
-def check(elements, attributes, node):
+def check(problems, filename, node):
     '''Check individual element.'''
     if node.name not in KNOWN:
-        elements.add(node.name)
+        problems[node.name] = f'unknown ({filename})'
         return
     for attr in node.attrs:
         if attr not in KNOWN[node.name]:
-            if node.name not in attributes:
-                attributes[node.name] = set()
-            attributes[node.name].add(attr)
+            if node.name not in problems:
+                problems[node.name] = []
+            problems[node.name].append(f'unknown attribute "{attr}" in {filename}')
+        elif KNOWN[node.name][attr] is not None:
+            values = node[attr] if isinstance(node[attr], list) else [node[attr]]
+            for value in values:
+                if value not in KNOWN[node.name][attr]:
+                    if node.name not in problems:
+                        problems[node.name] = []
+                    problems[node.name].append(f'"{attr}" has unknown value "{value}" in {filename}')
 
 
-def report(elements, attributes):
+def report(problems):
     '''Report results.'''
-    if (not elements) and (not attributes):
+    if not problems:
         return
-    print('- unknown')
-    if elements:
-        print('  - elements')
-        for name in sorted(elements):
-            print(f'    - {name}')
-    if attributes:
-        print('  - attributes')
-        for name in sorted(attributes.keys()):
-            print(f'    - {name}')
-            for attr in sorted(attributes[name]):
-                print(f'      - {attr}')
+    print('- DOM')
+    for name in sorted(problems.keys()):
+        print(f'  - {name}')
+        for problem in problems[name]:
+            print(f'    - {problem}')
 
 
 if __name__ == '__main__':

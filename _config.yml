@@ -1,7 +1,7 @@
 title: Building Software Together
 subtitle: "a student's guide to being a compassionate programmer"
 url: https://buildtogether.tech
-repository: gvwilson/bst
+repository: gvwilson/buildtogether.tech
 default_image: /static/fixme.svg
 cover_image: /static/bst-600.jpg
 
@@ -94,6 +94,8 @@ chapters:
     title: "How to Get Started Freelancing"
   - slug: "rules-change"
     title: "How to Change the World"
+  - slug: "authors"
+    title: "Authors"
   - slug: "index"
     title: "Index"
     skip: true
@@ -117,9 +119,11 @@ kramdown:
       "adhd-thread": ["https://twitter.com/NomeDaBarbarian/status/1369846245200515072", "A thread on ADHD"],
       "alloy": ["https://alloytools.org/", "Alloy"],
       "ant": ["https://ant.apache.org/", "Apache Ant"],
+      "aosa": ["https://aosabook.org/", "The Architecture of Open Source Applications"],
       "apache": ["https://apache.org/", "Apache Software Foundation"],
       "apt": ["https://en.wikipedia.org/wiki/APT_(software)", "APT"],
       "ask-a-manager": ["https://www.askamanager.org/", "Ask a Manager"],
+      "atlassian-git": ["https://www.atlassian.com/git/tutorials", "Atlassian Git tutorials"],
       "automattic-hiring": ["https://automattic.com/work-with-us/how-we-hire-developers/", "Automattic hiring process"],
       "baxter-interviews": ["https://github.com/tBaxter/questions-for-employers", "Questions for potential employers"],
       "baxter-t-carter": ["https://twitter.com/tbaxter", "T. Carter Baxter"],
@@ -134,6 +138,7 @@ kramdown:
       "buzzfeed-datacamp": ["http://third-bit.com/2019/04/22/datacamp-clarifications/", "DataCamp Clarifications"],
       "captain-awkward": ["https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup ", "Buzzfeed article on DataCamp"],
       "carnac": ["http://code52.org/carnac/", "Carnac"],
+      "carpentries": ["https://carpentries.org/", "The Carpentries"],
       "carpentries-git": ["https://swcarpentry.github.io/git-novice/", "The Carpentries' lesson on Git"],
       "carpentrycon-talk": ["https://www.youtube.com/watch?v=7xR50ty5DZ0", "Greg Wilson's CarpentryCon keynote"],
       "charles-rules": ["https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument", "Charles' Rules of Argument"],
@@ -141,7 +146,6 @@ kramdown:
       "choose-license": ["https://choosealicense.com/", "Choose a License"],
       "coco": ["https://coco-net.org/", "Centre for Community Organizations"],
       "coco-problem": ["https://coco-net.org/problem-woman-colour-nonprofit-organizations/", "The 'Problem' Woman of Colour in the Workplace"],
-      "contact": ["mailto:gvwilson@third-bit.com", "Contact email"],
       "contributor-covenant": ["https://www.contributor-covenant.org", "Contributor Covenant"],
       "conways-law": ["https://en.wikipedia.org/wiki/Conway%27s_law", "Conway's Law"],
       "cook-mary-rose": ["https://maryrosecook.com/", "Mary Rose Cook"],
@@ -199,6 +203,7 @@ kramdown:
       "jekyll": ["https://jekyllrb.com/", "Jekyll"],
       "jekyll-bug": ["https://stackoverflow.com/questions/66320774/how-to-pre-define-links-in-jekyll-config-yml-using-kramdown-links-def-options", "A bug in Jekyll"],
       "jira": ["https://www.atlassian.com/software/jira", "Jira"],
+      "js4ds": ["https://js4ds.org/", "JavaScript for Data Science"],
       "jsdoc": ["https://jsdoc.app/", "JSDoc"],
       "kaplan-moss-executives": ["https://jacobian.org/2021/mar/5/exec-status-update/", "How to Give a Status Update to Executives"],
       "kaplan-moss-jacob": ["https://jacobian.org/", "Jacob Kaplan-Moss"],
@@ -222,6 +227,7 @@ kramdown:
       "pip": ["https://pypi.org/project/pip/", "pip"],
       "plantuml": ["https://plantuml.com/", "PlantUML"],
       "plos": ["https://plos.org/", "PLOS"],
+      "privacy-right": ["https://en.wikipedia.org/wiki/Right_to_privacy", "Right to privacy"],
       "program-repair": ["https://program-repair.org/", "Program Repair"],
       "pryce-nat": ["http://www.natpryce.com/", "Nat Pryce"],
       "pryce-onboarding": ["https://twitter.com/natpryce/status/1375949072910200835", "Onboarding checklist"],
@@ -246,6 +252,7 @@ kramdown:
       "stack-overflow-good-question": ["https://stackoverflow.com/help/how-to-ask", "How do I ask a good question?"],
       "stjs": ["https://stjs.tech/", "Software Tools in JavaScript"],
       "subversion": ["https://subversion.apache.org/", "Subversion"],
+      "t3": ["http://teachtogether.tech/", "Teaching Tech Together"],
       "t3-personas": ["https://teachtogether.tech/en/index.html#s:process-personas", "Learner Personas"],
       "taylor-francis": ["https://taylorandfrancis.com/", "Taylor & Francis"],
       "tech-solidarity": ["https://techsolidarity.org/", "Tech Solidarity"],
@@ -264,6 +271,7 @@ kramdown:
       "wayne-hillel": ["https://hillelwayne.com/", "Hillel Wayne"],
       "wayne-linked-lists": ["https://www.hillelwayne.com/post/linked-lists/", "Why Do Interviewers Ask Linked List Questions?"],
       "webaim-wave": ["https://wave.webaim.org/", "WebAIM WAVE"],
+      "wilson-greg": ["https://third-bit.com/", "Greg Wilson"],
       "womens-work": ["https://en.wikipedia.org/wiki/Women%27s_work", "Women's work"],
       "xkcd-passwords": ["https://xkcd.com/936/", "XKCD on secure passwords"]
     }

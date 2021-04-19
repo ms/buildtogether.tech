@@ -74,6 +74,14 @@
       The inability to make a decision because there is too much information to
       process and/or too many options to consider.
 
+- key: api_key
+  en:
+    term: "API key"
+    def: >
+      A unique identifier (usually randomly generated) used to authenticate a
+      user or an application.  Most web services require client applications to
+      provide an API key at the start of a session or for each transaction.
+
 - key: assertion
   en:
     term: "assertion"
@@ -1011,6 +1019,13 @@
       The more strongly someone believed that their answer on a test was right,
       the more likely they are not to repeat the error once they discover that in
       fact they were wrong.
+
+- key: implicit_bias
+  en:
+    term: "implicit bias"
+    def: >
+      A prejudice in favor of or against something or someone that a person is
+      not consciously aware of.
 
 - key: in_memory_database
   en:
@@ -1972,13 +1987,6 @@
     def: >
       An annotation in a program stating that a variable may only contain or
       refer to values of a particular data type.
-
-- key: unconscious_bias
-  en:
-    term: "unconscious bias"
-    def: >
-      A prejudice in favor of or against something or someone that a person is
-      not aware of.
 
 - key: uml
   en:

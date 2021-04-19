@@ -559,7 +559,11 @@ $$\sqrt{x^2 | y^2}$$ is actually more readable than the medieval expression "the
 side of the square whose area is the sum of the areas of the two squares whose
 sides are given by the first part and the second part".
 
-{% include figure id="comprehension-curves" alt="Comprehension curves" cap="How the relationship between abstraction and comprehension differs for novices and experts." fixme=true %}
+{% include figure
+   id="comprehension-curves"
+   img="comprehension-curves.svg"
+   alt="Comprehension curves"
+   cap="How the relationship between abstraction and comprehension differs for novices and experts." %}
 
 This difference implies that the software that is quickest for a novice to
 comprehend will almost certainly be different from the software that an expert

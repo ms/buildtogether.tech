@@ -1,3 +1,4 @@
+authors: []
 automation:
 - key: build_manager
   term: build manager
@@ -162,13 +163,15 @@ fairness:
   term: bullshit
 - key: commons
   term: commons
+- key: implicit_bias
+  term: implicit bias
 - key: lending_privilege
   term: lending privilege
 - key: preparatory_privilege
   term: preparatory privilege
-- key: unconscious_bias
-  term: unconscious bias
 git-solo:
+- key: api_key
+  term: API key
 - key: branch_per_feature_workflow
   term: branch-per-feature workflow
 - key: centralized_system

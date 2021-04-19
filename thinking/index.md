@@ -64,7 +64,11 @@ this explains why they can solve problems at a glance, but also why they have
 trouble explaining their thinking: they can't tell someone else how they did it
 any more than we can explain how we recognize faces.
 
-{% include figure id="thinking-models" alt="Mental models" cap="The differences between novice, competent, and expert mental models." fixme=true %}
+{% include figure
+   id="thinking-models"
+   img="thinking-models.svg"
+   alt="Mental models"
+   cap="The differences between novice, competent, and expert mental models." %}
 
 <div class="callout" markdown="1">
 
@@ -202,7 +206,11 @@ the things we didn't.
 
 ## Cognitive Load
 
-{% include figure id="thinking-cognitive-architecture" alt="Cognitive architecture" cap="The cognitive architecture of the human mind (simplified)." fixme=true %}
+{% include figure
+   id="thinking-cognitive-architecture"
+   img="cognitive-architecture.svg"
+   alt="Cognitive architecture"
+   cap="The cognitive architecture of the human mind (simplified)." %}
 
 <span f="thinking-cognitive-architecture"/> shows a very (very) simple model of
 the cognitive architecture of the human brain. On the left is <span
@@ -252,7 +260,11 @@ and more accurately if the words are all in the same font, no matter what that
 font is, than you will if your brain is wondering whether the difference is
 significant.
 
-{% include figure id="thinking-frisian" alt="Translating a sentence" cap="Reducing germane load while increasing extraneous load." fixme=true %}
+{% include figure
+   id="thinking-frisian"
+   img="thinking-frisian.svg"
+   alt="Translating a sentence"
+   cap="Reducing germane load while increasing extraneous load." %}
 
 Cognitive load theory explains why tools like <span
 i="Scratch">[Scratch][scratch]</span> work so well: they reduce germane load by

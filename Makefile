@@ -18,12 +18,13 @@ HOME_PAGE=${SITE}/index.html
 INDEX_YML=_data/index.yml
 NUM_YML=_data/numbering.yml
 TERMS_YML=_data/terms.yml
-ALL_OUT=${BIB_MD} ${NUM_YML} ${TERMS_YML}
+ALL_OUT=${BIB_MD} ${INDEX_YML} ${NUM_YML} ${TERMS_YML}
 EXTRA_MARKDOWN=_includes/intro.md
 
 RELEASE_FILES=\
   CONDUCT.md\
   CONTRIBUTING.md\
+  LICENSE.md\
   Makefile\
   Gemfile\
   Gemfile.lock\
@@ -31,7 +32,9 @@ RELEASE_FILES=\
   _layouts\
   bin\
   favicon.ico\
+  authors\
   glossary\
+  index\
   links\
   static/local.*\
   static/*.pdf\
@@ -44,7 +47,8 @@ RELEASE_EXCLUDES=\
   bin/__pycache__/*\
   misc\
   misc/*.*\
-  *~
+  *~\
+  */*~
 
 .DEFAULT: commands
 
@@ -53,11 +57,11 @@ commands:
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
 
 ## build: rebuild site without running server
-build: ${ALL_OUT} LICENSE.md
+build: ${ALL_OUT}
 	${JEKYLL} build
 
 ## serve: build site and run server
-serve: ${ALL_OUT} LICENSE.md
+serve: ${ALL_OUT}
 	${JEKYLL} serve
 
 ## book.tex: create LaTeX file
@@ -92,7 +96,6 @@ make-terms: ${TERMS_YML}
 check:
 	@make check-bib
 	@make check-gloss
-	@make check-boilerplate
 	@make check-chunk-length
 	@make check-code-blocks
 	@make check-dom
@@ -103,10 +106,6 @@ check:
 ## check-bib: compare citations and definitions
 check-bib:
 	@bin/check-bib.py --bibliography ${BIB_YML} --sources ${MARKDOWN} ${GLOSSARY_IN} _includes/intro.md
-
-## check-boilerplate: check standard files
-check-boilerplate:
-	@bin/check-boilerplate.py --config ${CONFIG} --license LICENSE.md
 
 ## check-chunk-length: see whether any inclusions are overly long
 check-chunk-length: ${HOME_PAGE}
@@ -193,14 +192,11 @@ ${NUM_YML}: bin/make-numbering.py ${CONFIG} ${MARKDOWN}
 ${TERMS_YML}: bin/make-terms.py ${CONFIG} ${MARKDOWN} ${GLOSSARY_IN}
 	bin/make-terms.py --config ${CONFIG} --glossary ${GLOSSARY_IN} --language ${LANGUAGE} --output ${TERMS_YML}
 
-${HOME_PAGE}: ${CONFIG} ${MARKDOWN} ${INCLUDES} ${LAYOUTS} ${STATIC} ${ALL_OUT} LICENSE.md
+${HOME_PAGE}: ${CONFIG} ${MARKDOWN} ${INCLUDES} ${LAYOUTS} ${STATIC} ${ALL_OUT}
 	${JEKYLL} build
 
 $(filter-out bin/utils.py,$(wildcard bin/*.py)): bin/utils.py
 	touch $@
-
-LICENSE.md: _config.yml bin/make-license.py
-	@bin/make-license.py --config ${CONFIG} --output $@
 
 # Local commands if available.
 -include local.mk

@@ -162,6 +162,22 @@
   title: "So Long, and No Thanks for the Externalities: The Rational Rejection of Security Advice by Users"
   year: 2009
 
+- key: Hofstra2020
+  author:
+  - Bas Hofstra
+  - Vivek V. Kulkarni
+  - Sebastian Munoz-Najar Galvez
+  - Bryan He
+  - Dan Jurafsky
+  - Daniel A. McFarland
+  doi: 10.1073/pnas.1915378117
+  journal: PNAS
+  kind: article
+  volume: 117
+  number: 17
+  title: "The Diversity-Innovation Paradox in Science"
+  year: 2020
+
 - key: Hubbard2018
   author:
   - Aleata Hubbard

@@ -11,6 +11,10 @@
     title: Software Design
   term: accessibility - WebAIM WAVE
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: active bystander
+- links:
   - slug: conflict
     title: Managing Conflict
   term: active listening
@@ -73,6 +77,8 @@
 - links:
   - slug: starting
     title: Starting
+  - slug: fairness
+    title: Fair Play
   term: ally
 - links:
   - slug: design
@@ -133,7 +139,19 @@
 - links:
   - slug: fairness
     title: Fair Play
+  term: Automattic - hiring process
+- links:
+  - slug: fairness
+    title: Fair Play
   term: Baldwin, James
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Baxter, T. Carter
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: bias
 - links:
   - slug: teams
     title: Teams
@@ -235,6 +253,10 @@
     title: Wrapping Up
   term: build number
 - links:
+  - slug: security
+    title: Security
+  term: Burns, Heather
+- links:
   - slug: tooling
     title: Tooling
   - slug: research
@@ -321,6 +343,10 @@
     title: Contributing
   term: Code of Conduct
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: Code of Conduct - responding to violations
+- links:
   - slug: process
     title: Process
   term: code review
@@ -365,6 +391,10 @@
     title: Teams
   term: cognitive load - impact of checklists
 - links:
+  - slug: debugging
+    title: Debugging
+  term: cognitive load - in debugging
+- links:
   - slug: thinking
     title: Thinking and Learning
   term: cognitive load - intrinsic
@@ -376,6 +406,10 @@
   - slug: thinking
     title: Thinking and Learning
   term: cognitive transition
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: collective action
 - links:
   - slug: communicate
     title: Communicating
@@ -392,6 +426,10 @@
   - slug: debugging
     title: Debugging
   term: common programming errors
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: commons
 - links:
   - slug: communicate
     title: Communicating
@@ -497,10 +535,6 @@
 - links:
   - slug: automation
     title: Automation
-  term: continous integration - Travis CI
-- links:
-  - slug: automation
-    title: Automation
   - slug: process
     title: Process
   term: continuous integration
@@ -508,6 +542,10 @@
   - slug: automation
     title: Automation
   term: continuous integration - GitHub Actions
+- links:
+  - slug: automation
+    title: Automation
+  term: continuous integration - Travis CI
 - links:
   - slug: teams
     title: Teams
@@ -574,6 +612,10 @@
   - slug: testing
     title: Testing
   term: CSS selector - use in testing
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: cultural fit (as unconscious bias)
 - links:
   - slug: process
     title: Process
@@ -705,6 +747,10 @@
     title: Thinking and Learning
   term: discovery-based learning
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: discrimination
+- links:
   - slug: important
     title: The Important Stuff
   term: do-ocracy
@@ -782,6 +828,10 @@
   - slug: research
     title: Research
   term: dynamic typing
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: easy mode (as a metaphor for privilege)
 - links:
   - slug: tooling
     title: Tooling
@@ -863,7 +913,7 @@
 - links:
   - slug: errors
     title: Error Handling
-  term: error message - internatioalizing
+  term: error message - internationalizing
 - links:
   - slug: errors
     title: Error Handling
@@ -875,6 +925,8 @@
 - links:
   - slug: communicate
     title: Communicating
+  - slug: fairness
+    title: Fair Play
   term: Evans, Julia
 - links:
   - slug: methods
@@ -947,6 +999,10 @@
     title: Debugging
   term: failure
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: fairness
+- links:
   - slug: communicate
     title: Communicating
   term: FAQ
@@ -1001,7 +1057,7 @@
 - links:
   - slug: research
     title: Research
-  term: flow graph - abstract inerpretation
+  term: flow graph - abstract interpretation
 - links:
   - slug: research
     title: Research
@@ -1033,9 +1089,17 @@
     title: Tooling
   term: garbage collection - generational
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: Gender Decoder
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: GenderMag
+- links:
   - slug: security
     title: Security
-  term: General Data Protection Regularion (GDPR)
+  term: General Data Protection Regulation (GDPR)
 - links:
   - slug: tooling
     title: Tooling
@@ -1199,6 +1263,10 @@
     title: Research
   term: Goodhart's Law
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: Google - unfair hiring practices
+- links:
   - slug: introduction
     title: Introduction
   term: Google Summer of Code
@@ -1229,6 +1297,22 @@
     title: Intellectual Property
   term: Hippocratic License
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: hiring process
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: hiring process - Automattic
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: hiring process - healthy
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: hiring process - mistakes
+- links:
   - slug: teams
     title: Teams
   term: history of computing
@@ -1242,6 +1326,10 @@
   - slug: tooling
     title: Tooling
   term: Homebrew
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Hoye, Mike
 - links:
   - slug: ip
     title: Intellectual Property
@@ -1277,6 +1365,10 @@
     title: Tooling
   term: IDE - VS Code
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: implicit bias
+- links:
   - slug: testing
     title: Testing
   term: in-memory database - use in testing
@@ -1291,7 +1383,11 @@
 - links:
   - slug: communicate
     title: Communicating
-  term: instant messagin - inevitable use of
+  term: instant messaging - inevitable use of
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: institutional priorities
 - links:
   - slug: ip
     title: Intellectual Property
@@ -1498,6 +1594,10 @@
   - slug: methods
     title: Research Methods
   term: Lehrer, Tom
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: lending privilege
 - links:
   - slug: delivery
     title: Wrapping Up
@@ -1843,6 +1943,10 @@
     title: Software Design
   term: Open-Closed Principle
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: org chart - importance of
+- links:
   - slug: important
     title: The Important Stuff
   term: overwork
@@ -1895,6 +1999,10 @@
     title: Research
   term: pair programming - effect of personality
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: paradox of tolerance
+- links:
   - slug: delivery
     title: Wrapping Up
   term: patch (software)
@@ -1914,6 +2022,10 @@
   - slug: research
     title: Research
   term: PEP8
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: performance review - importance of written criteria for
 - links:
   - slug: testing
     title: Testing
@@ -2000,6 +2112,10 @@
   - slug: process
     title: Process
   term: process - waterfall
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Proctorio (invasive surveillance)
 - links:
   - slug: process
     title: Process
@@ -2113,6 +2229,10 @@
     title: Research Methods
   term: R (programming language)
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: radical candor (as bullshit)
+- links:
   - slug: conclusion
     title: Conclusion
   term: radicalization
@@ -2195,6 +2315,10 @@
     title: Thinking and Learning
   term: retrieval practice
 - links:
+  - slug: important
+    title: The Important Stuff
+  term: Robinson, Evan
+- links:
   - slug: teams
     title: Teams
   term: rotating decomposition
@@ -2212,6 +2336,10 @@
   - slug: security
     title: Security
   term: sanitizing data
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Scalzi, John
 - links:
   - slug: security
     title: Security
@@ -2264,6 +2392,10 @@
   - slug: important
     title: The Important Stuff
   term: sense vote
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Shopify - support for alt-right sites
 - links:
   - slug: thinking
     title: Thinking and Learning
@@ -2499,7 +2631,13 @@
 - links:
   - slug: security
     title: Security
-  term: Tech Solidatiry
+  term: Tech Solidarity
+- links:
+  - slug: communicate
+    title: Communicating
+  - slug: automation
+    title: Automation
+  term: technical debt
 - links:
   - slug: contributing
     title: Contributing
@@ -2647,9 +2785,17 @@
     title: Research
   term: typing - static
 - links:
+  - slug: fairness
+    title: Fair Play
+  term: Uber
+- links:
   - slug: introduction
     title: Introduction
   term: UCOSP
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: unconscious bias
 - links:
   - slug: design
     title: Software Design
@@ -2722,6 +2868,10 @@
   - slug: introduction
     title: Introduction
   term: University of Toronto
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: Up & Go
 - links:
   - slug: design
     title: Software Design
@@ -2811,6 +2961,10 @@
 - links:
   - slug: delivery
     title: Wrapping Up
+  term: version numbers - build
+- links:
+  - slug: delivery
+    title: Wrapping Up
   term: version numbers - major
 - links:
   - slug: delivery
@@ -2824,10 +2978,6 @@
   - slug: delivery
     title: Wrapping Up
   term: version numbers - semantic versioning
-- links:
-  - slug: delivery
-    title: Wrapping Up
-  term: vesion numbers - build
 - links:
   - slug: git-solo
     title: Using Git On Your Own
@@ -2867,11 +3017,17 @@
 - links:
   - slug: design
     title: Software Design
+  - slug: fairness
+    title: Fair Play
   term: WebAIM WAVE
 - links:
   - slug: research
     title: Research
   term: WEIRD
+- links:
+  - slug: fairness
+    title: Fair Play
+  term: whiteboard coding questions
 - links:
   - slug: communicate
     title: Communicating
@@ -2880,6 +3036,10 @@
   - slug: rules-research
     title: How to be a Good Research Partner
   term: Wikipedia
+- links:
+  - slug: authors
+    title: Authors
+  term: Wilson, Greg
 - links:
   - slug: design
     title: Software Design

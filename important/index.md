@@ -55,7 +55,8 @@ of more than a century, including some on novice software developers
 <cite>Fucci2020</cite>.  The data behind them is as solid as the data linking
 smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
-science somehow didn't apply to them.  To quote Robinson's article:
+science somehow didn't apply to them.  To quote <span i="Robinson,
+Evan">Robinson</span>'s article:
 
 <blockquote markdown="1">
 
@@ -365,7 +366,7 @@ No distractions.
 
 Take minutes.
 :   Someone other than the moderator should take <span i="minutes (of
-    meetings)">point-form notes</a> about the most important information that
+    meetings)">point-form notes</span> about the most important information that
     was shared, and about every decision that was made or every task that was
     assigned to someone.  This responsibility should rotate each meeting so that
     everyone has to take a turn; otherwise, as discussed in <span x="teams"/>,

@@ -51,7 +51,7 @@ This book can be read on its own or as a companion to *[Software Tools in
 JavaScript][stjs]*, which teaches the basics of software design by showing you
 how to build the tools you program with.  If you are looking for a project to do
 in a course, adding a tool to those covered there would be fun as well as
-educational.  Please see <span x="conclusion"/> for more details.
+educational.
 
 ## Topics
 
@@ -100,12 +100,9 @@ successful if we take motivation into account. And as we learn more, the best
 way for us to learn changes in predictable ways, so how we are taught should
 change too.
 
-## Contributing
+## Using and Contributing
 
-If you would like to improve what we have or add new material, please see the
-Code of Conduct in <span x="conduct"/> and the contributor guidelines in <span
-x="contributing"/>.  If you have questions or would like to use this material in
-a course, please [send us email][contact].
+{% include contributing.md %}
 
 ## Acknowledgments
 
