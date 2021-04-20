@@ -1200,7 +1200,7 @@
   en:
     term: magic number
     def: >
-      A hardcoded value which could be replaced by a named constant.
+      An arbitrary value in code that could be replaced by a named constant.
 
 - key: mail_filter
   en:
