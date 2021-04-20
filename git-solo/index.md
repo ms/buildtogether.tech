@@ -152,7 +152,7 @@ project">clone</span>. For example, if you want a clone of this book, you can do
 this:
 
 ```sh
-$ git clone https://github.com/gvwilson/bst.git
+$ git clone https://github.com/gvwilson/buildtogether.tech.git
 ```
 
 {: .continue}
@@ -349,8 +349,8 @@ get a list of remotes like this:
 $ git remote -v
 ```
 ```out
-origin	https://github.com/gvwilson/bst (fetch)
-origin	https://github.com/gvwilson/bst (push)
+origin	https://github.com/gvwilson/buildtogether.tech.git (fetch)
+origin	https://github.com/gvwilson/buildtogether.tech.git (push)
 ```
 
 {: .continue}
@@ -407,7 +407,7 @@ changes; we'll explore this in <span x="tooling"/>.
 So far we have only used a sequential timeline with Git: each change builds on
 the one before, and *only* on the one before.  However, there are times when we
 want to work on several things at once.  To do this, we can use <span i="branch
-(in Git); Git!branch"> g="branch_git">branches</span> to work on separate tasks
+(in Git); Git!branch">branches</span> to work on separate tasks
 in parallel.  Each branch is like a parallel timeline: changes made to one
 branch have no effect on other branches unless and until we explicitly merge
 them.
