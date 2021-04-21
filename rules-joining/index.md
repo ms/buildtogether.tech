@@ -2,9 +2,9 @@
 ---
 
 Hundreds of books have been published about how to start a tech business, and
-works like <cite>Fogel2020</cite> have a lot of advice on how to set up and run
-open source projects.  Much less has been written about how to join an existing
-project, even though that's what most people do most of the time.  These simple
+works like <cite>Fogel2020</cite> have a lot of advice on setting up and running
+open source projects.  Much less has been written about how to join existing
+projects, even though that's what most people do most of the time.  These simple
 rules can help, and can be read as a complement to <span x="rules-newcomers"/>.
 
 <div class="callout" markdown="1">
