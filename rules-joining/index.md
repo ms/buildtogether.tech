@@ -11,8 +11,8 @@ rules can help, and can be read as a complement to <span x="rules-newcomers"/>.
 
 ### Buddies and mentors
 
-Well-run companies have a process for getting newly-hired people up to speed.
-This can be as simple as a checklist like the one in <span x="onboarding"/> or a
+A well-run company's process for getting newly-hired people up to speed can be
+anything from a simple checklist like the one in <span x="onboarding"/> to a
 multi-week sequence of courses.  However it's done, it is most effective when
 new people are paired with buddies or mentors so that they have someone specific
 to direct their first questions to, and someone who will check in with them
