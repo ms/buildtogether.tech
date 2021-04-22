@@ -512,14 +512,14 @@ It's time for a confession.  This chapter is the reason I wrote this book.
 After the 2016 election in the United States, I organized a group of people to
 write a guide for programmers to stuff that actually matters---the stuff that's
 in this chapter.  That project fizzled out, in part because someone like Brad
-(<span x="introduction"/>) simply wouldn't read something that said,
-"Programmers are doing harm and maybe you're part of the problem."
+(<span x="introduction"/>) wouldn't read something that said, "Programmers are
+doing harm and maybe you're part of the problem."
 <cite>Bullock2021,Cohen2021,Ferreira2021,Gordon2021,Prioleau2021,Rankin2021</cite>
 are a sign that these bigger issues might finally be added to the curriculum,
 but will take a long time to bear fruit. Meanwhile, I hope that starting with
-time management and version control, then talking about teams and conflict and
-product management, will give people like Brad and my younger self a ramp to
-walk up instead of a cliff to climb, because if we don't find a way to fix the
-tech industry, our lives are going to keep getting worse.
+time management and version control, then talking about teams and conflict, will
+give people like Brad (and my younger self) a ramp to walk up instead of a cliff
+to climb, because if we don't find a way to fix the tech industry our lives are
+going to keep getting worse.
 
 </div>
