@@ -436,13 +436,13 @@ thousands of people died needlessly as a result.
 
 <div class="callout" markdown="1">
 
-### We just sell the poison, we don't administer it
+### We just sell the poison; we don't administer it
 
-In March 2019 a right-wing terrorist killed 51 people at prayer in Christchurch,
-New Zealand. Every single one of the sources he cited in his manifesto was
-making money through a store hosted by a company called <span i="Shopify!support
-for alt-right sites">Shopify</span>; the company didn't end its relationship
-with any of them.
+In March 2019, a right-wing terrorist killed 51 people at prayer in
+Christchurch, New Zealand. Every one of the sources he cited in his manifesto
+was making money through a store hosted by a company called <span
+i="Shopify!support for alt-right sites">Shopify</span>; the company didn't end
+its relationship with any of them.
 
 </div>
 
@@ -471,12 +471,12 @@ report on one of these books for part of your project grade:
     to allocate health care, target people for tax audits, and decide where
     police will patrol all punish the poor for being poor.  (And if your
     reaction is, "I'm not poor so I don't care," talk to someone whose credit
-    rating has never recovered from someone with the same name missing a few
-    student loan payments.)
+    rating has never recovered from someone else with the same name missing a
+    few student loan payments.)
 
--   *Algorithms of Oppression* <cite>Noble2018</cite> looks at how those same
-    algorithms and the ones used by search engines amplify and perpetuate racism
-    and sexism.
+-   *Algorithms of Oppression* <cite>Noble2018</cite> looks at how those
+    algorithms, and the ones used by search engines, amplify and perpetuate
+    racism and sexism.
 
 -   *Weapons of Math Destruction* <cite>ONeil2017</cite> delves more deeply into
     the math being used and abused by these systems.  For example, software that
@@ -497,12 +497,12 @@ report on one of these books for part of your project grade:
 
 The first and biggest mistake many programmers make is building the wrong thing;
 I hope this book and the ones listed above will help you avoid that trap.  <span
-x="reading"/> lists other books that aren't as specific to tech, but which
-helped me understand the world our programs are used in.  Since you are probably
-different from me in significant respects---age and geography among them---you
-may find others that help you more.  Either way, the most compassionate thing
-you can do is ask yourself at every turn, "What will this be like for people who
-aren't like me?"
+x="reading"/> lists other books that aren't as specific to tech but which helped
+me understand the world our programs are used in.  Since you probably differ
+from me in age, geography, and other significant respects, you may find others
+that help you more.  No matter what, the most compassionate thing you can do is
+ask yourself at every turn, "What will this be like for people who aren't like
+me?"
 
 <div class="callout" markdown="1">
 
