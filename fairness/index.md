@@ -418,10 +418,9 @@ part of the problem, just as I was in my teens and twenties.
 Between 1985 and 1987, a programming bug in the [Therac-25][therac-25] resulted
 in six patients being given massive overdoses of radiation, leading to death or
 serious injury.  This incident has been used as a cautionary tale in software
-engineering courses ever since, but as far as I can tell, has had no effect on
-what programmers write or how they write it.  Very few of us write control
-software for medical radiation machines, so this example and others like it seem
-very abstract.
+engineering courses ever since, but since very few of us write control software
+for medical radiation machines, this example and others like it seem very
+abstract.
 
 In the last few years, though, we have all seen first-hand just how much harm
 software can do to everyone.  A decade ago, Facebook discovered that angry
@@ -430,9 +429,9 @@ revenue for the company <cite>Hao2021</cite>.  Since disinformation and
 radicalization were profitable, the company did everything it could to deflect
 criticism and avoid responsibility, even as they fueled the rise of violent
 nationalism and a campaign of mass murder <cite>Rajagopalan2018</cite>.  By the
-time COVID-19 began to spread, tech companies had trained people all over the
-world believe in conspiracy theories rather than medicine.  Hundreds of
-thousands of people died needlessly as a result.
+time COVID-19 began to spread, it and other tech companies had trained people
+all over the world believe in conspiracy theories rather than medicine, with
+fatal consequences.
 
 <div class="callout" markdown="1">
 
