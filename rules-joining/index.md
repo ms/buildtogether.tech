@@ -2,21 +2,20 @@
 ---
 
 Hundreds of books have been published about how to start a tech business, and
-works like <cite>Fogel2020</cite> have a lot of advice on how to set up and run
-open source projects.  Much less has been written about how to join an existing
-project, even though that's what most people do most of the time.  These simple
+works like <cite>Fogel2020</cite> have a lot of advice on setting up and running
+open source projects.  Much less has been written about how to join existing
+projects, even though that's what most people do most of the time.  These simple
 rules can help, and can be read as a complement to <span x="rules-newcomers"/>.
 
 <div class="callout" markdown="1">
 
 ### Buddies and mentors
 
-Well-run companies have a process for getting newly-hired people up to speed.
-This can be as simple as a checklist like the one in <span x="onboarding"/> or a
+A well-run company's process for getting newly-hired people up to speed can be
+anything from a simple checklist like the one in <span x="onboarding"/> to a
 multi-week sequence of courses.  However it's done, it is most effective when
-new people are paired with buddies or mentors so that they have someone specific
-to direct their first questions to, and someone who will check in with them
-regularly to see how they're doing.
+new people are paired with buddies or mentors to direct their first questions
+to, and who will check in with them regularly to see how they're doing.
 
 </div>
 

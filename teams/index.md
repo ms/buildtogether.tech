@@ -3,7 +3,7 @@
 
 Most people learn better together than they do on their own
 <cite>Michaelson2004</cite>.  As long as their teams <span i="teams!learning
-benefits of"work well</span>, they achieve higher grades, retain information
+benefits of">work well</span>, they achieve higher grades, retain information
 longer, are less likely to drop out of school, and graduate with better
 communication skills and a better understanding of what will be expected of them
 in their subsequent careers.

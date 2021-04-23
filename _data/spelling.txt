@@ -381,6 +381,7 @@ IDEs
 IM
 IQs
 ITiCSE
+Iain
 Ibraheem
 Ie
 Ihantola
@@ -425,6 +426,7 @@ Kamei
 Kang
 Kaplan
 Kapser
+Kapur
 Karabel
 Karavirta
 Karras
@@ -608,6 +610,7 @@ Panichella
 Pankaj
 Parnin
 Parning
+Parris
 Parsers
 Pasupathy
 Patitsas
@@ -675,6 +678,7 @@ Reproducibility
 Restakis
 Riedel
 Rijn
+Ritu
 Robbes
 Rodchenko
 Rodrigues

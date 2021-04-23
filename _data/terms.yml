@@ -172,6 +172,8 @@ fairness:
 git-solo:
 - key: api_key
   term: API key
+- key: branch_git
+  term: branch
 - key: branch_per_feature_workflow
   term: branch-per-feature workflow
 - key: centralized_system

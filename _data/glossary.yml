@@ -1196,6 +1196,12 @@
   ref:
   - short_term_memory
 
+- key: magic_number
+  en:
+    term: magic number
+    def: >
+      An arbitrary value in code that could be replaced by a named constant.
+
 - key: mail_filter
   en:
     term: mail filter

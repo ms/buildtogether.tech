@@ -418,10 +418,9 @@ part of the problem, just as I was in my teens and twenties.
 Between 1985 and 1987, a programming bug in the [Therac-25][therac-25] resulted
 in six patients being given massive overdoses of radiation, leading to death or
 serious injury.  This incident has been used as a cautionary tale in software
-engineering courses ever since, but as far as I can tell, has had no effect on
-what programmers write or how they write it.  Very few of us write control
-software for medical radiation machines, so this example and others like it seem
-very abstract.
+engineering courses ever since, but since very few of us write control software
+for medical radiation machines, this example and others like it seem very
+abstract.
 
 In the last few years, though, we have all seen first-hand just how much harm
 software can do to everyone.  A decade ago, Facebook discovered that angry
@@ -430,19 +429,19 @@ revenue for the company <cite>Hao2021</cite>.  Since disinformation and
 radicalization were profitable, the company did everything it could to deflect
 criticism and avoid responsibility, even as they fueled the rise of violent
 nationalism and a campaign of mass murder <cite>Rajagopalan2018</cite>.  By the
-time COVID-19 began to spread, tech companies had trained people all over the
-world believe in conspiracy theories rather than medicine.  Hundreds of
-thousands of people died needlessly as a result.
+time COVID-19 began to spread, it and other tech companies had trained people
+all over the world believe in conspiracy theories rather than medicine, with
+fatal consequences.
 
 <div class="callout" markdown="1">
 
-### We just sell the poison, we don't administer it
+### We just sell the poison; we don't administer it
 
-In March 2019 a right-wing terrorist killed 51 people at prayer in Christchurch,
-New Zealand. Every single one of the sources he cited in his manifesto was
-making money through a store hosted by a company called <span i="Shopify!support
-for alt-right sites">Shopify</span>; the company didn't end its relationship
-with any of them.
+In March 2019, a right-wing terrorist killed 51 people at prayer in
+Christchurch, New Zealand. Every one of the sources he cited in his manifesto
+was making money through a store hosted by a company called <span
+i="Shopify!support for alt-right sites">Shopify</span>; the company didn't end
+its relationship with any of them.
 
 </div>
 
@@ -471,12 +470,12 @@ report on one of these books for part of your project grade:
     to allocate health care, target people for tax audits, and decide where
     police will patrol all punish the poor for being poor.  (And if your
     reaction is, "I'm not poor so I don't care," talk to someone whose credit
-    rating has never recovered from someone with the same name missing a few
-    student loan payments.)
+    rating has never recovered from someone else with the same name missing a
+    few student loan payments.)
 
--   *Algorithms of Oppression* <cite>Noble2018</cite> looks at how those same
-    algorithms and the ones used by search engines amplify and perpetuate racism
-    and sexism.
+-   *Algorithms of Oppression* <cite>Noble2018</cite> looks at how those
+    algorithms, and the ones used by search engines, amplify and perpetuate
+    racism and sexism.
 
 -   *Weapons of Math Destruction* <cite>ONeil2017</cite> delves more deeply into
     the math being used and abused by these systems.  For example, software that
@@ -497,12 +496,12 @@ report on one of these books for part of your project grade:
 
 The first and biggest mistake many programmers make is building the wrong thing;
 I hope this book and the ones listed above will help you avoid that trap.  <span
-x="reading"/> lists other books that aren't as specific to tech, but which
-helped me understand the world our programs are used in.  Since you are probably
-different from me in significant respects---age and geography among them---you
-may find others that help you more.  Either way, the most compassionate thing
-you can do is ask yourself at every turn, "What will this be like for people who
-aren't like me?"
+x="reading"/> lists other books that aren't as specific to tech but which helped
+me understand the world our programs are used in.  Since you probably differ
+from me in age, geography, and other significant respects, you may find others
+that help you more.  No matter what, the most compassionate thing you can do is
+ask yourself at every turn, "What will this be like for people who aren't like
+me?"
 
 <div class="callout" markdown="1">
 
@@ -512,14 +511,14 @@ It's time for a confession.  This chapter is the reason I wrote this book.
 After the 2016 election in the United States, I organized a group of people to
 write a guide for programmers to stuff that actually matters---the stuff that's
 in this chapter.  That project fizzled out, in part because someone like Brad
-(<span x="introduction"/>) simply wouldn't read something that said,
-"Programmers are doing harm and maybe you're part of the problem."
+(<span x="introduction"/>) wouldn't read something that said, "Programmers are
+doing harm and maybe you're part of the problem."
 <cite>Bullock2021,Cohen2021,Ferreira2021,Gordon2021,Prioleau2021,Rankin2021</cite>
 are a sign that these bigger issues might finally be added to the curriculum,
 but will take a long time to bear fruit. Meanwhile, I hope that starting with
-time management and version control, then talking about teams and conflict and
-product management, will give people like Brad and my younger self a ramp to
-walk up instead of a cliff to climb, because if we don't find a way to fix the
-tech industry, our lives are going to keep getting worse.
+time management and version control, then talking about teams and conflict, will
+give people like Brad (and my younger self) a ramp to walk up instead of a cliff
+to climb, because if we don't find a way to fix the tech industry our lives are
+going to keep getting worse.
 
 </div>
