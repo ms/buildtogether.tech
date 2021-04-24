@@ -217,10 +217,10 @@ diverse management are more profitable, and so on <cite>Zhan2020</cite>.
 
 ### Setting limits
 
-This finding is sometimes abused---men who want an excuse to continue to be
-assholes try to be clever with words and talk about "diversity of thought,"
-meaning, "I should be allowed to be offensive as long as I don't raise my
-voice."  This is an example of the <span i="paradox of tolerance">[paradox of
+Men who want an excuse to continue to be assholes sometimes try to be clever
+with words and talk about "diversity of thought," meaning, "I should be allowed
+to be offensive as long as I don't raise my voice."  This is an example of the
+<span i="paradox of tolerance">[paradox of
 tolerance][paradox-of-tolerance]</span>: if a group is tolerant without limit,
 it will eventually be undermined by the intolerant taking advantage of that. As
 <span i="Baldwin, James">James Baldwin</span> said, "We can disagree and still
@@ -231,11 +231,11 @@ of my humanity and right to exist."
 
 Another reason to care about these issues is that discussion of fair play stops
 being theoretical as soon as we talk about your rights as an employee.  Until
-recently there has been a lot less discussion of this in tech than of
-intellectual property rights (<span x="ip"/>), but in the wake of incidents like
-[Google's decision to fire the AI researcher Timnit Gebru][gebru-firing], tech
-workers are belatedly realizing that the industry they have created will treat
-them just as callously as it treats everyone else.
+recently there has been less discussion of this in tech than of intellectual
+property rights (<span x="ip"/>), but in the wake of incidents like [Google's
+decision to fire the AI researcher Timnit Gebru][gebru-firing], programmers are
+belatedly realizing that the industry they have created will treat them just as
+callously as it treats everyone else.
 
 Standing up to a bad boss or an unfair professor is easier in theory than in
 practice, though, because the student's evaluation of the professor doesn't
