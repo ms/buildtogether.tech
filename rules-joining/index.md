@@ -41,11 +41,10 @@ to, and who will check in with them regularly to see how they're doing.
 
 4.  Respect what has already been done.
 :   If the first thing you do when you walk into someone's home is say, "Here's
-    how I'd redecorate," you shouldn't expect to be invited back.  When you
-    first join a project, Follow its coding conventions even if you prefer
-    something else.  Use existing tags for issues, and above all, don't
-    introduce yourself by suggesting that they rearchitect the code or change
-    languages.
+    how I'd redecorate," you shouldn't expect to be invited back.  Follow the
+    project's existing coding conventions even if you prefer something else.
+    Use existing tags for issues, and above all, don't introduce yourself by
+    suggesting that they rearchitect the code or change languages.
 
 5.  Be patient.
 :   It took me almost three months of full-time work to get up to speed in my
