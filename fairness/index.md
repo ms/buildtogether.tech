@@ -374,31 +374,30 @@ privilege)">easy mode</span>" <cite>Scalzi2012</cite>.
 ### How far back should we go?
 
 <span g="preparatory_privilege">Preparatory privilege</span> is the advantage
-someone has in an supposedly objective assessment as a result of having
-opportunities earlier in life that other people didn't have.  Ignoring it is
-like ignoring the difference between professional athletes who are paid to train
-all day and amateurs whose jobs only allow them to train in the evening or on
-weekends, or pretending that people doing interviews in their second or third
-language are on an equal footing with people who are interviewing in their
-native language.
+someone has in a supposedly objective assessment as a result of opportunities
+earlier in life that other people didn't have.  Ignoring it is like ignoring the
+difference between professional athletes who are paid to train all day and
+amateurs whose jobs only allow them to train in the evening or on weekends, or
+pretending that people doing interviews in their second or third language are on
+an equal footing with people who are interviewing in their native language.
 
 But imagine you're about to have a meeting with someone.  There's a box with
 half a dozen cookies in the room, so you help yourself to a couple before the
 other person shows up. When they do, you have to make a choice: do you say,
-"I've already had two, so I should only have one more and you should get three?"
+"I've already had two, so I should only have one more and you should get three"
 or, "There were four cookies in the box when you arrived, so we get two each"
 (meaning that you will have had four in total).
 
 Most people would say that the first answer is the moral one---in my experience,
 people who don't aren't people you'd want on your team.  On the other hand, if I
 had a couple of cookies yesterday or last week, I probably won't feel obliged to
-give you more than half today.  Is it really a company's responsibility to take
-past inequities into account when hiring?
+give you more than half today.  Is it a company's responsibility to take past
+inequities into account when hiring?
 
 If the company is interested in on-the-job performance, the answer is "yes".
 Going back to the athletic analogy, an amateur who can run a hundred meters in
-11 seconds could well perform better than a professional who can do it in 10.5
-*once they start training full-time*, i.e., once their disadvantage is removed.
+12 seconds could perform better than a professional who can do it in 11 *once
+they start training full-time*, i.e., once their disadvantage is removed.
 Similarly, female students are less likely to be called on in class and more
 likely to be given non-coding tasks in team projects than male students.  If
 they can get a B despite that, they will probably outperform a male student who
