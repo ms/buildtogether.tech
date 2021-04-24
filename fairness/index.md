@@ -13,10 +13,10 @@ i="fairness">fairness</span> and <span i="bias">bias</span> in the tech
 industry.  I was interviewing for a new job as I was writing this book, and
 while some companies' interviewing processes were designed to create a level
 playing field, others were not (and that's putting it politely).  How companies
-get this wrong is reflected in, and contributes to, how the things they build
-sometimes harm society as well as embarrassing their creators.  It easy to avoid
-these mistakes if you are willing to look beyond the code you write, but that
-first step is often the hardest.  I hope this discussion will help you take it.
+get this wrong contributes to how they sometimes build things that harm society
+and embarrass their creators.  It easy to avoid these mistakes if you are
+willing to look beyond the code you write; that first step is often the hardest,
+but I hope this discussion will help you take it.
 
 ## How Tech Companies Get Hiring Wrong
 
