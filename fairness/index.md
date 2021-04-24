@@ -299,14 +299,13 @@ whose behavior most needs to change won't listen.
 
 You might think there isn't a lot you can do as a student or as a junior
 programmer to fix what's broken in our industry, but there is.  An <span
-i="ally" g="ally">ally</span> is a someone with unearned advantages who is
-working to understand their own privilege and create an environment that's fair
-for everyone.  As [this guide][dlf-active-bystander] from the [Digital Library
-Foundation][dlf] explains, there are several ways in which you can be an <span
-i="active bystander" g="active_bystander">active bystander</span>, i.e., several
-ways in which you can <span i="lending privilege" g="lending_privilege">lend
-your privilege</span> to defuse the situation and defend the person who is being
-attacked.
+i="ally" g="ally">ally</span> is a someone with unearned advantages who tries to
+understand their own privilege and create an environment that's fair for
+everyone.  As [this guide][dlf-active-bystander] from the [Digital Library
+Foundation][dlf] explains, there are several waysto be an <span i="active
+bystander" g="active_bystander">active bystander</span>, i.e., several ways to
+<span i="lending privilege" g="lending_privilege">lend your privilege</span> to
+defuse situations and defend people who are being attacked.
 
 <div class="callout" markdown="1">
 
