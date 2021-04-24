@@ -37,13 +37,13 @@ train the smartest people it can.  It makes more sense when you realize that
 to perpetuate themselves: if it wasn't, they probably wouldn't still be around.
 
 Similarly, the hiring process at many tech companies isn't designed to find the
-best programmers: instead, it is designed (or has just evolved) to find the
-people who are most like the people doing the hiring.  Phrases like "<span
-i="cultural fit (as unconscious bias)">cultural fit</span>" are almost always
-code for "people like us": consciously or not, we are all <span i="unconscious
-bias">biased</span> toward those who look like us, talk like us, and make the
-same pop culture references as us, which has nothing to do with on-the-job
-ability <cite>Greenwald1995,Jost2009</cite>.
+best programmers: instead, it is designed (or more often has just evolved) to
+find people who are like those doing the hiring.  "<span i="cultural fit (as
+unconscious bias)">Cultural fit</span>" almost always means "like me":
+consciously or not, we are all <span i="unconscious bias">biased</span> toward
+those who look like us, talk like us, and make the same pop culture references
+as us, which has nothing to do with on-the-job ability
+<cite>Greenwald1995,Jost2009</cite>.
 
 One way this shows up in tech hiring is in <span i="whiteboard coding
 questions">whiteboard coding questions</span> about linked lists, dynamic
