@@ -136,7 +136,7 @@ Have candidates solve realistic problems with their preferred tools.
 These guidelines apply to your school and your courses as well.  Are course
 descriptions and course websites inclusive? Are instructors required to use
 blinded grading to ensure that personal likes and dislikes don't affect grades?
-If the answers are "no", the next questions to ask is, "How can we fix this?"
+If the answers are "no", what can you and your classmates do to fix things?
 
 <div class="callout" markdown="1">
 
