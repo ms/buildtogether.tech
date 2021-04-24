@@ -28,11 +28,11 @@ to, and who will check in with them regularly to see how they're doing.
     when they answer.
 
 2.  But do ask.
-:   The biggest mistake I've seen newcomers to a project make is to spend hours
-    or days looking for something rather than asking a question.  If you have
-    searched and haven't found anything useful, it's OK to take a minute of
-    someone else's time, particularly if you post your question where they can
-    deal with it in their own time.
+:   The biggest mistake newcomers make is to spend hours looking for something
+    rather than asking a question.  If you have searched but haven't found
+    anything helpful, it's OK to take a minute of someone else's time,
+    especially if you post your question where the answer can be found by the
+    next newcomer.
 
 3.  Remember that software is only one part of a project.
 :   There are many ways to contribute to a software project.  Updating or
@@ -74,14 +74,16 @@ to, and who will check in with them regularly to see how they're doing.
     more insight into why the code works the way it does (and where and why it
     stops working).  If you feel that this is a less productive use of your time
     than coding, think about how much time musicians spend listening to each
-    other or how much artists look at each other's work.  In my experience, the
-    best approach to learning your way around a new code base is to trace what
-    happens during typical operation.  What functions or methods are called in
-    what order as an HTTP request is processed?  What objects are created and
-    (perhaps most importantly) what permanent changes are made to files or
-    databases, if any?  The "step over" button your debugger is a very useful
-    tool for this (<span x="debugging"/>), since it allows you ignore low-level
-    details while you're trying to paint a bigger picture.
+    other or how much artists look at each other's work.
+    <br/>
+    In my experience, the best approach to learning your way around a new code
+    base is to trace what happens during typical operation.  What functions or
+    methods are called in what order as an HTTP request is processed?  What
+    objects are created and (perhaps most importantly) what permanent changes
+    are made to files or databases, if any?  The "step over" button your
+    debugger is a very useful tool for this (<span x="debugging"/>), since it
+    allows you ignore low-level details while you're trying to paint a bigger
+    picture.
 
 8.  Get to know people.
 :   There is a softball team here in Toronto that practices every Thursday from
@@ -90,8 +92,9 @@ to, and who will check in with them regularly to see how they're doing.
     for people who like each other to hang out.  A lot of software projects are
     like that, in industry as well as open source: participants get satisfaction
     from working with one another as well as from what they produce.  While your
-    job and your software won't ever love you back <cite>Jaffe2021</cite>, the
-    friendships you make with people you work beside may outlast both.
+    job won't ever love you back <cite>Jaffe2021</cite>, the relationships you
+    make with the people you work beside may be as rewarding as the software you
+    build.
 
 9.  Remember that most relationships don't end in marriage.
 :   It's OK to do a little work on an open source project and then decide it's
