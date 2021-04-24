@@ -101,8 +101,8 @@ to, and who will check in with them regularly to see how they're doing.
     you by making you feel guilty about this.
 
 10. Share what you learn.
-:   If you aren't the first person to join a project, you probably won't be the 
+:   If you aren't the first person to join a project, you probably won't be the
     last.  One of the most compassionate things you can do is share what you
-    found out as you were getting up to speed so that the next person can climb
-    the hill more quickly.  Doing this also helps you figure out what you know
-    now that you didn't know then, which can help you the next time around.
+    found out as you were learning your way around so that the next person can
+    do so more quickly.  Doing this also helps you figure out what you know now
+    that you didn't know then, which can help you the next time around.
