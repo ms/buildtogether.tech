@@ -287,12 +287,12 @@ startups backed by private investors and venture capital.  Choosing to discuss
 those topics is equally political---it's just more common.
 
 Other reviewers have pointed out that telling people they should support fair
-play because it will benefit *them* implies that if it didn't, they'd have no
-reason to support it.  The idea that people should only act out of self-interest
-is also political, and is one I strongly disagree with.  However, people like
-Brad (whom we met in <span x="introduction"/>) have been conditioned to believe
-that being cynical is the same thing as being smart; I have found out the hard
-way that if I say, "Do the right thing because it's the right thing," the people
+play because it will benefit *them* implies that they would have no reason to do
+so if it didn't.  The idea that people should only act out of self-interest is
+also political, and one I strongly disagree with.  However, people like Brad
+(whom we met in <span x="introduction"/>) have been conditioned to believe that
+being cynical is the same thing as being smart; I have found out the hard way
+that if I say, "Do the right thing because it's the right thing," the people
 whose behavior most needs to change won't listen.
 
 </div>
