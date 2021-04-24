@@ -143,9 +143,9 @@ If the answers are "no", what can you and your classmates do to fix things?
 ### Questions to ask
 
 I have interviewed people who didn't ask a single question about the company,
-what an average day would look like, or how their career might evolve over time.
-<span i="Evans, Julia">[Julia Evans][evans-julia]</span> has a good list of
-[questions to ask in interviews][evans-interviews], and <span i="Baxter,
+what an average day would look like, or how their career might evolve.  <span
+i="Evans, Julia">[Julia Evans][evans-julia]</span> has a good list of [questions
+to ask in interviews][evans-interviews], and <span i="Baxter,
 T. Carter">[T. Carter Baxter][baxter-t-carter]</span> has
 [another][baxter-interviews].  There won't be time to get to them all, but
 asking two or three will impress your interviewer as well as giving you valuable
