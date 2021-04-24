@@ -267,10 +267,10 @@ of what customers pay goes to its upkeep, and the rest goes to the workers
 but everyone else benefits.
 
 Up & Go is an example of a <span g="commons" i="commons">commons</span>:
-something managed jointly by a community according to rules they themselves have
-evolved and adopted.  All three parts of that definition are essential: a
-commons isn't just a shared pasture or an open source software stack, but also
-includes the community that shares it and the rules they use to do so
+something managed jointly by a community according to rules they have evolved
+themselves.  All three parts of that definition are essential: a commons isn't
+just a shared pasture or an open source software stack; it also includes the
+community that shares it and the rules they use to do so
 <cite>Bollier2014,Ostrom2015</cite>.  As <cite>Mildenberger2019</cite>
 describes, the idea of "the tragedy of the commons" gets things completely
 wrong: people exploiting a shared resource so much that it collapses is what
