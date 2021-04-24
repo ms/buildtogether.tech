@@ -74,16 +74,14 @@ correlate with how well they can program in a full-time job.
 
 ### A sign of privilege
 
-Mistakes like these are signs of a dysfunctional company culture, and it's
-usually safe to assume that you won't be treated with any more respect once you
-start work than you were while you were interviewing.  However, in the first
-draft of this section I wrote, "If a company does any of these things, you
-should find somewhere else to work."  One of the early reviewers wrote, "Gosh,
-it must be nice to be able to walk away from a job."  They were right: most
-people aren't as financially secure as me, so they aren't able to be as finicky
-about who they work for as I am.  In other words, I made the same mistake as a
-team lead who assumed that since their evenings and weekends were theirs to do
-with as they wished, everyone else's would be too.
+You probably won't be treated with any more respect on the job than you were
+while interviewing.  However, when I wrote, "If a company does any of these
+things, go find another one," in the first draft of this chapter, one of the
+reviewers wrote, "Gosh, it must be nice to be able to walk away from a job."
+They were right: most people aren't as financially secure as me, so they aren't
+able to be as finicky about who they work for as I am.  In other words, I made
+the same mistake as a team lead who assumed that since their evenings and
+weekends were theirs to do with as they wished, everyone else's would be too.
 
 </div>
 
