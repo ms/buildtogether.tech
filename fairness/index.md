@@ -250,12 +250,12 @@ for not speaking out more or more loudly.
 
 The only effective way to address power disparities like these is <span
 i="collective action">collective action</span>: many people with relatively
-little power each can defend their rights if they organize.  Forty years of
+little power can defend their rights if they band together.  Forty years of
 sustained disinformation from the rich and powerful have made many people
 believe that collectives are intrinsically inefficient or that they stifle
-innovation; ironically, the entrepreneurs and CEOs who are most vocal about the
-advantages of unrestricted capitalism all organize their companies along
-socialist lines <cite>Phillips2019</cite>.
+innovation; ironically, the entrepreneurs and CEOs who are the most vocal
+proponents unrestricted capitalism all organize their companies along socialist
+lines <cite>Phillips2019</cite>.
 
 As an example of what working together looks like, consider the difference
 between a ride-sharing company like <span i="Uber">Uber</span> and the
