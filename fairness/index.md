@@ -45,7 +45,7 @@ those who look like us, talk like us, and make the same pop culture references
 as us, which has nothing to do with on-the-job ability
 <cite>Greenwald1995,Jost2009</cite>.
 
-One way this shows up in tech hiring is in <span i="whiteboard coding
+One way this bias shows up is in <span i="whiteboard coding
 questions">whiteboard coding questions</span> about linked lists, dynamic
 programming, and other topics from computer science classes on data structures
 and algorithms.  As [Hillel Wayne][wayne-hillel] discovered when he looked at
