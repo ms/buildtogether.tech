@@ -57,13 +57,13 @@ to, and who will check in with them regularly to see how they're doing.
 
 6.  Start small.
 :   This is a corollary of the previous three points.  As you learn your way
-    around a project, socially as well as technologically, you will build a
+    around a project socially as well as technologically, you will build a
     mental model of how it works (<span x="thinking"/>).  Offering a small
-    contribution is a way to test that mental model.  Do you really understand
-    the application's architecture?  Do you know where tests are supposed to go
-    and how review and merging work?  A three-line change to documentation is a
-    more cost-effective way to test this than three hundred lines of new code
-    that might completely miss the mark.
+    contribution is a way to test that mental model.  Do you understand the
+    application's architecture?  Do you know where tests are supposed to go and
+    how review and merging work?  A three-line change to documentation is a more
+    cost-effective way to test this than three hundred lines of new code that
+    might completely miss the mark.
 
 7.  Keep exploring.
 :   Thousands of books have been written about how to *write* code, but only a
