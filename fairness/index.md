@@ -87,8 +87,8 @@ weekends were theirs to do with as they wished, everyone else's would be too.
 
 As a student looking for your first full-time job you probably won't have any
 control over the hiring process, but seeing whether the company does it well or
-not can give you valuable information about how well run it is.  Here are <span
-i="hiring process!healthy">a few things to look for</span>:
+not gives you valuable information about how well run it is.  Here are <span
+i="hiring process!healthy">a few positive indicators</span>:
 
 Write inclusive, accessible job ads.
 :   <cite>Gaucher2011</cite> is just one of many studies showing that gendered
