@@ -111,13 +111,13 @@ Post a public description of the hiring process.
 Use blinded screening.
 :   Everyone has <span g="implicit_bias" i="implicit bias">implicit
     biases</span>, and many of the rules scientists follow when running
-    experiments are designed to prevent them contaminating results (<span
-    x="research"/>).  The same is true of hiring, and so is the solution. For
-    example, my first-round interview with Automattic was done by text over
-    Slack so that my appearance, my accent, or the fact that I sometimes need a
-    couple of moments to collect my thoughts wouldn't bias the interviewer.
-    Similarly, companies should redact things like a candidate's age, race, and
-    gender when evaluating resumes.
+    experiments are designed to prevent their biases contaminating their results
+    (<span x="research"/>).  The same is true of hiring, and so is the
+    solution. For example, my first-round interview with Automattic was done
+    over Slack so that my appearance, my accent, or the fact that I sometimes
+    need a couple of moments to collect my thoughts wouldn't bias the
+    interviewer.  Similarly, companies should redact things like a candidate's
+    age, race, and gender when evaluating resumes.
 
 Use diverse interview panels.
 :   Giving people from under-represented backgrounds a say in who's hired next
