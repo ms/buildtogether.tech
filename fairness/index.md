@@ -104,9 +104,9 @@ Write inclusive, accessible job ads.
 
 Post a public description of the hiring process.
 :   <span i="Automattic!hiring process; hiring
-    process!Automattic">[Automattic's][automattic-hiring]</span> is a good
-    model: it lays out what's going to happen in what order, how much time is
-    expected, and the principles everything is based on.
+    process!Automattic">[Automattic's][automattic-hiring]</span> description is
+    a good example: it lays out what's going to happen in what order, how much
+    time is expected, and the principles everything is based on.
 
 Use blinded screening.
 :   Everyone has <span g="implicit_bias" i="implicit bias">implicit
