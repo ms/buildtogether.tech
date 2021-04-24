@@ -195,12 +195,12 @@ Have <span i="performance review!importance of written criteria for">written cri
 
 Specify how much time employees can take off.
 :   Some tech companies have an "unlimited vacation" policy, meaning that
-    employees can take as much time as they want as long as their work is
-    getting done.  This sounds very attractive, but [people actually take *less*
-    time off][namely-time-off] under these policies, both because they feel
-    guilty and because they worry about taking too much.  It also saves
-    companies money: if someone is owed vacation days when they're laid off, the
-    company has to compensate them, but if there's no target, they don't.
+    employees can take as much time off as they want as long as their work gets
+    done.  This sounds very attractive, but [people actually take *less* time
+    off][namely-time-off] under these policies, both because they feel guilty
+    and because they worry about taking too much.  It also saves companies
+    money: if someone is owed vacation days when they're laid off, the company
+    has to compensate them, but if there's no target, they don't.
 
 ## Being an Ally
 
