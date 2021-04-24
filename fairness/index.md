@@ -190,7 +190,7 @@ Have <span i="performance review!importance of written criteria for">written cri
 :   The ones shown in <span x="personal-eval"/> are a good model, and these
     *are* something a company can share before hiring you. If a company doesn't
     have criteria, or if performance reviews are only done when an employee asks
-    for one, the system is once again biased toward the extroverted and the
+    for one, the system is once again biased toward extroverts and the
     well-connected.
 
 Specify how much time employees can take off.
