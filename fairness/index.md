@@ -32,9 +32,10 @@ back down to an "acceptable" 15%.
 
 Harvard's decision to turn away more capable people in favor of less capable
 ones doesn't make sense if you think that a university's job is to find and
-train the smartest people it can.  It makes a lot of sense when you realize that
-<span i="institutional priorities">most institutions' first priority</span> is
-to perpetuate themselves---if it wasn't, they probably wouldn't still be around.
+train the smartest people it can.  It makes much more sense when you realize
+that <span i="institutional priorities">most institutions' first priority</span>
+is to perpetuate themselves: if it wasn't, they probably wouldn't still be
+around.
 
 Similarly, the hiring process at many tech companies isn't designed to find the
 best programmers: instead, it is designed (or has just evolved) to find the
