@@ -327,31 +327,32 @@ being told they should, while the people who are part of the problem resent
 being told that and tend to take out their anger on the people the training is
 meant to protect.
 
-But <cite>Dobbin2019</cite> also found that what *did* make a difference was
-showing people how to intervene, since this made them more likely to do so in
-the same way that having some first aid training makes you more likely to take
-action in a crisis.  An example of this is the guidelines in
-<cite>Aurora2018</cite> for responding to <span i="Code of Conduct!responding to
-violations">Code of Conduct violations</span> (<span x="starting"/>). On a
-smaller scale, your instructor can have you work through scenarios like this
+However, <cite>Dobbin2019</cite> also found that what *did* make a difference
+was showing people how to intervene, since this made them more likely to do so
+(in the same way that having some first aid training makes you more likely to
+take action in a crisis).  An example of this kind of training is the guidelines
+in <cite>Aurora2018</cite> for responding to <span i="Code of Conduct!responding
+to violations">Code of Conduct violations</span> (<span x="starting"/>). On a
+smaller scale, your instructor can have you work through scenarios like this one
 with your teammates and the rest of your class:
 
 <blockquote markdown="1">
 
 Some of the students in a team project course are openly gay.  Some other
-students have privately told the instructor that for religious reasons they
-would rather not be in the same teams as the gay students.  How should the
-instructor respond?
+students have privately told the instructor that they would rather not be in the
+same teams as the gay students for religious reasons.  How should the instructor
+respond?
 
 </blockquote>
 
+{: .continue}
 Another scenario might be:
 
 <blockquote markdown="1">
 
-Your and your teammates frequently work together in the library of the business
-school (which has better WiFi and more comfortable chairs than the computer
-labs).  Every time you do, one of your teammates makes a point of sitting beside
+Your and your teammates frequently work together in the business school library
+(which has better WiFi and more comfortable chairs than the computer labs).
+Every time you do, one of your teammates makes a point of sitting beside some
 younger students that they find attractive and talking with them.  It's clear
 from those students' body language that they find the attention unwelcome;
 you've pointed this out to your teammate, but their behavior has continued.
@@ -362,12 +363,12 @@ What should you do next?
 Neither of these scenarios is about programming, but I hope you understand by
 now that the success or failure of your project depends on a lot more than just
 the code you write.  Learning how to handle situations like these may also help
-you become more compassionate: if you've never had to worry about them before,
-the odds are that (in <span i="Scalzi, John">John Scalzi</span>'s memorable
-analogy) you've been playing on the lowest difficulty setting there is your
-whole life, and as a result don't realize how much harder things are for others
-whose default setting isn't "<span i="easy mode (as a metaphor for
-privilege)">easy mode</span>" <cite>Scalzi2012</cite>.
+you become more compassionate: if you've never had to worry about them, the odds
+are that (in <span i="Scalzi, John">John Scalzi</span>'s memorable analogy)
+you've been playing at the lowest difficulty level there is your whole life, and
+as a result don't realize how much harder things are for others whose default
+setting isn't "<span i="easy mode (as a metaphor for privilege)">easy
+mode</span>" <cite>Scalzi2012</cite>.
 
 <div class="callout" markdown="1">
 
