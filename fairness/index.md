@@ -64,12 +64,11 @@ process!mistakes">many other things that often go wrong in hiring</span>, from
 long delays waiting for feedback to asking candidates to spend several days
 working for free on programming assignments.  These aren't just signs of
 dysfunctional company culture: they also make hiring harder for some people than
-others.  For example, a single parent or someone caring for a relative with a
-chronic illness may simply not be able to devote ten hours to an unpaid side
-project. If doing that is required as part of the interview process, the company
-is effectively preferring people who are economically secure and have lots of
-free time, which doesn't correlate with how well they can program in a full-time
-job.
+others.  For example, a single parent or someone caring for a relative with
+chronic illness may not be able to devote ten hours to an unpaid side project.
+If the interview process requires that, the company is effectively biased toward
+people who are economically secure and have lots of free time, which doesn't
+correlate with how well they can program in a full-time job.
 
 <div class="callout" markdown="1">
 
