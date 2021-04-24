@@ -66,8 +66,8 @@ to, and who will check in with them regularly to see how they're doing.
     might completely miss the mark.
 
 7.  Keep exploring.
-:   Thousands of books have been written about how to *write* code, but only a
-    few about how to *read* it (<cite>Spinellis2003</cite> being my favorite).
+:   Thousands of books have been written about how to write code, but only a few
+    explain how to read it (<cite>Spinellis2003</cite> being my favorite).
     However, reading other people's code is one of the best ways to learn how to
     be a better programmer, while browsing a project's issues can give you even
     more insight into why the code works the way it does (and where and why it
@@ -76,13 +76,12 @@ to, and who will check in with them regularly to see how they're doing.
     other or how much artists look at each other's work.
     <br/>
     In my experience, the best approach to learning your way around a new code
-    base is to trace what happens during typical operation.  What functions or
+    base is to trace what happens during a typical operation.  What functions or
     methods are called in what order as an HTTP request is processed?  What
-    objects are created and (perhaps most importantly) what permanent changes
-    are made to files or databases, if any?  The "step over" button your
-    debugger is a very useful tool for this (<span x="debugging"/>), since it
-    allows you ignore low-level details while you're trying to paint a bigger
-    picture.
+    objects are created?  What changes are made to files or databases, if any?
+    The "step over" button your debugger is a very useful tool for this (<span
+    x="debugging"/>), since it allows you ignore low-level details while you're
+    trying to paint a bigger picture.
 
 8.  Get to know people.
 :   There is a softball team here in Toronto that practices every Thursday from
