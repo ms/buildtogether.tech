@@ -165,13 +165,13 @@ same way in majority-white workplaces in Europe and North America, and
 discrimination based on race, faith, and caste are endemic in the rest of the
 world as well.
 
-Many companies have taken steps to remedy this during hiring, but hiring more
-people from under-represented groups doesn't matter if they have to work twice
-as hard to be taken half as seriously, if they are constantly passed over for
-promotion, or if discussions about who would make a good department chair
-continue to take place in the men's locker room after the department's Friday
-afternoon hockey game.  There are no easy fixes to these problems, but there are
-things companies can do that you can ask for even as a junior hire:
+Many companies have taken steps to remedy this during hiring. However, hiring
+more people from under-represented groups doesn't make a difference if they have
+to work twice as hard to be taken half as seriously, if they are constantly
+passed over for promotion, or if discussions about promotion continue to take
+place in the men's locker room after the department's Friday afternoon hockey
+game.  There are no easy fixes to these problems, but there are things companies
+can do that you can ask for even as a junior hire:
 
 Share data on how well the company has been doing recently.
 :   It's reasonable to ask during an interview what proportion of a company's
