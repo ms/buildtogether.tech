@@ -21,11 +21,11 @@ to, and who will check in with them regularly to see how they're doing.
 
 1.  Search first.
 :   Whatever question you have, the odds are pretty good that someone has asked
-    it before, or has opened an issue about it or discussed it in the project
-    chat.  It should only take a minute to find out if the project is well
-    organized (<span x="communicate"/>), and if you mention what you searched
-    for when you do ask a question, people will probably point you in the right
-    direction when they answer.
+    it before, opened an issue about it, or discussed it in the project chat.
+    If the project is well organized it should only take a minute to find out 
+    (<span x="communicate"/>), and if you mention what you searched for when you
+    do ask a question, people will probably point you in the right direction
+    when they answer.
 
 2.  But do ask.
 :   The biggest mistake I've seen newcomers to a project make is to spend hours
