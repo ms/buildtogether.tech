@@ -84,15 +84,14 @@ to, and who will check in with them regularly to see how they're doing.
     trying to paint a bigger picture.
 
 8.  Get to know people.
-:   There is a softball team here in Toronto that practices every Thursday from
-    May to October, but hasn't played an actual game in twenty years.  As with
-    many groups, their ostensible reason for existing is really just an excuse
-    for people who like each other to hang out.  A lot of software projects are
-    like that, in industry as well as open source: participants get satisfaction
-    from working with one another as well as from what they produce.  While your
-    job won't ever love you back <cite>Jaffe2021</cite>, the relationships you
-    make with the people you work beside may be as rewarding as the software you
-    build.
+:   There is a softball team here in Toronto that practices every Thursday but
+    hasn't played an actual game in twenty years.  As with many groups, their
+    ostensible reason for existing is just an excuse for people who like each
+    other to hang out.  A lot of software projects are like that, in industry as
+    well as open source: participants get satisfaction from working with one
+    another as well as from what they produce.  While your job won't ever love
+    you back <cite>Jaffe2021</cite>, the relationships you make with the people
+    you work beside may be as rewarding as the software you build.
 
 9.  Remember that most relationships don't end in marriage.
 :   It's OK to do a little work on an open source project and then decide it's
