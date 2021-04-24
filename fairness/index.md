@@ -312,20 +312,18 @@ attacked.
 
 ### Not acting is a choice as well
 
-Always remember that not acting is just as much a choice as acting.  <span
-x="rules-newcomers"/> said that an organization's culture is defined by the
-worst behavior it tolerates <cite>Gruenert2015</cite>; I have come to believe
-that who we are as individuals is defined in the same way.
+<span x="rules-newcomers"/> said that an organization's culture is defined by
+the worst behavior it tolerates <cite>Gruenert2015</cite>; I believe that who we
+are as individuals is defined in the same way.
 
 </div>
 
 <cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
 of what American companies have done over the past twenty years to reduce sexual
-harassment and discrimination has either had no effect or has actually made
-things worse. The reason is that the people who care don't gain anything from
-being told they should, while the people who are part of the problem resent
-being told that and tend to take out their anger on the people the training is
-meant to protect.
+harassment and discrimination has either had no effect or made things worse. The
+reason is that the people who care don't gain anything from being told they
+should, while the people who are part of the problem resent being told that and
+tend to take out their anger on the people the training is meant to protect.
 
 However, <cite>Dobbin2019</cite> also found that what *did* make a difference
 was showing people how to intervene, since this made them more likely to do so
