@@ -181,7 +181,7 @@ Share data on how well the company has been doing recently.
     that data or won't share it, you've just learned something.
 
 Have an <span i="org chart!importance of">org chart</span>.
-:   As we said in <span x="important"/>, everyone organization has a power
+:   As we said in <span x="important"/>, every organization has a power
     structure: the only question is whether it's public and accountable, or
     whether the organization runs on who you know and how willing people are to
     barge in on strangers.
