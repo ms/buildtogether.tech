@@ -94,11 +94,11 @@ to, and who will check in with them regularly to see how they're doing.
     you work beside may be as rewarding as the software you build.
 
 9.  Remember that most relationships don't end in marriage.
-:   It's OK to do a little work on an open source project and then decide it's
-    not for you.  It's equally OK to look for a new job if you're not happy with
-    the one you're in: after all, most companies wouldn't hesitate to eliminate
-    your job if they needed to cut costs.  Don't let anyone manipulate you by
-    making you feel guilty about this.
+:   It's OK to do a little work on an open source project and then decide if
+    it's for you or not.  It's equally OK to look for a new job if you're not
+    happy with the one you're in: after all, most companies wouldn't hesitate to
+    eliminate your job if they needed to cut costs.  Don't let anyone manipulate
+    you by making you feel guilty about this.
 
 10. Share what you learn.
 :   If you aren't the first person to join a project, you probably won't be the 
