@@ -176,9 +176,9 @@ can do that you can ask for even as a junior hire:
 Share data on how well the company has been doing recently.
 :   It's reasonable to ask during an interview what proportion of a company's
     staff (technical and otherwise) come from under-represented backgrounds and
-    what the average length of stay at the company is.  If the interviewer
-    doesn't know the answer they should be able to get it; if the company
-    doesn't have that data or won't share it, you've just learned something.
+    about the average length of stay at the company.  If the interviewer doesn't
+    know the answer, they should be able to get it; if the company doesn't have
+    that data or won't share it, you've just learned something.
 
 Have an <span i="org chart!importance of">org chart</span>.
 :   As we said in <span x="important"/>, everyone organization has a power
