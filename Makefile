@@ -8,6 +8,7 @@ LAYOUTS=$(wildcard _layouts/*.html)
 MARKDOWN=$(wildcard *.md) $(wildcard */index.md)
 HTML=${SITE}/index.html $(wildcard ${SITE}/*/index.html)
 EXERCISES=$(wildcard */x-*/problem.md) $(wildcard */x-*/solution.md)
+TABLES=$(wildcard */*.tbl)
 STATIC=$(wildcard static/*.*)
 TEX=$(wildcard tex/*.*)
 
@@ -121,7 +122,7 @@ check-dom: ${HOME_PAGE}
 
 ## check-gloss: compare references and definitions
 check-gloss:
-	@bin/check-gloss.py --glossary ${GLOSSARY_IN} --language ${LANGUAGE} --sources ${MARKDOWN} ${EXERCISES}
+	@bin/check-gloss.py --glossary ${GLOSSARY_IN} --language ${LANGUAGE} --sources ${MARKDOWN} ${EXERCISES} ${TABLES}
 
 ## check-links: make sure all external links resolve
 check-links:
