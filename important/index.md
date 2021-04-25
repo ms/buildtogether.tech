@@ -215,7 +215,7 @@ Take a ten-minute <span i="breaks (importance of regular)">break</span>.
     me for an hour can be solved by a five-minute walk.) When you're done, check
     that your to-do list is still in the right order and start again.
 
-If any task on your list is more than an hour long, break it down into into
+If any task on your list is more than an hour long, break it down into
 smaller pieces and prioritize those separately.  And keep in mind that the
 future is approaching at a fixed rate of one day every 24 hours: if something's
 going to take sixty hours to do you had better allow at least ten working days
@@ -543,7 +543,7 @@ way to do this in groups with up to a few dozen members
 Every group that uses Martha's Rules must make two procedural decisions:
 
 How are proposals put forward?
-:   The easiest way do do this in a software project is to file an issue in the
+:   The easiest way to do this in a software project is to file an issue in the
     project's issue tracker tagged *Proposal*.  Team members can then comment on
     the proposal, and the sponsor can revise it before bringing it to a vote.
 

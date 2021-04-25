@@ -38,7 +38,7 @@ How did you do?
 
 5 or less
 :   There is a lot of room for improvement, but don't try to fix everything at
-    once.  Instead, get the team to agree to tackle one thing at at time.
+    once.  Instead, get the team to agree to tackle one thing at time.
 
 6--10
 :   Most mature development teams are in this range and can bootstrap other

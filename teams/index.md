@@ -86,7 +86,7 @@ If instructors create teams, they should <span i="teams!isolating at-risk
 students">avoid isolating at-risk students</span>.  Women and members of racial
 minority groups are more likely to drop out of computer science than other
 students, particularly in first and second year, and one of the main reasons is
-feeling isolated or out of place. Research has shown shown that putting at-risk
+feeling isolated or out of place. Research has shown that putting at-risk
 students together in the first couple of years can mitigate this problem
 <cite>Margolis2002</cite>. It is less necessary in upper years, since by then
 students have a stronger commitment to whatever program they're in, but it still
@@ -387,7 +387,7 @@ go through this list with your teammates and tell them what you'd like to get
 better at, they'll probably help you. And if what you want to get better at
 isn't on this list, please see <span x="contributing"/>.
 
-Not everything need to be completely correct.
+Not everything needs to be completely correct.
 :   Before correcting a factual error, ask yourself whether it really matters.
     If it's the name of the configuration file the program reads on startup, the
     answer is probably yes; if it's the name of a minor villain from the Marvel

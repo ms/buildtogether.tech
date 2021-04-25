@@ -61,7 +61,7 @@ portal!GitHub" g="software_portal">software portal</span> in existence, and
 offers all of the tools a small software team needs. Other portals exist, such
 as <span i="Bitbucket; software portal!Bitbucket">[Bitbucket][bitbucket]</span>
 and <span i="GitLab; software portal!GitLab">[GitLab][gitlab]</span>, but
-GitHub's share of the educational market is even larger than than its share
+GitHub's share of the educational market is even larger than its share
 among professional developers.  If you're using anything in class, you're almost
 certainly using it, and it's probably helping you become a better programmer
 <cite>Hsing2019</cite>.
@@ -200,7 +200,7 @@ Each entry has:
 -   Two lines showing who saved the state of the project and when. The name and
     email address in the `Author` field are the ones we set up with `git
     config`; the <span g="timestamp" i="timestamp!of Git
-    commit">timestamp</span> is accurate to the second, and includes timezone
+    commit">timestamp</span> is accurate to the second, and includes time zone
     information like the `-0500` showing that I'm in Eastern time so that anyone
     in the world can tell exactly when these files were saved.
 
@@ -580,7 +580,7 @@ If the file `README.md` has been changed in both `main` and `homework4`,
 `git diff` will show the conflict:
 
 ```sh
-$ git diff homework4..main
+$ git diff homework4.main
 ```
 
 When we try to merge `homework4` into `main`, Git doesn't know which of these

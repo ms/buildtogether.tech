@@ -85,7 +85,7 @@ The ID on the first line is assigned by the issue tracker, an often serves as a
 shorthand name for the issue in conversation. ("Hey, is anyone working on number
 fifty-five yet?") The date is in <span g="utc" i="issue!timestamps">UTC</span>
 so that it is unambiguous: while your team may all be in one place, it's
-increasingly likely that you are scattered across several timezones.
+increasingly likely that you are scattered across several time zones.
 
 The <span i="issue!good titles">title</span> on line 3 is probably the most
 important part of the issue. Projects will accumulate hundreds of issues over

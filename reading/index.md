@@ -64,7 +64,7 @@ therefore be very welcome.
 
 -   *Bury the Chains* <cite>Hochschild2006</cite>.  "Slavery was to the nineteenth
     century what oil is today: morally repugnant but economically
-    indispensible."  The fight against it was one of the first great triumphs of
+    indispensable."  The fight against it was one of the first great triumphs of
     democratic activism.
 
 -   *From the Ruins of Empire* <cite>Mishra2013</cite> and *Black Wave*
