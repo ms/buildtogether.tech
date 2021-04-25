@@ -106,6 +106,6 @@ Uses metrics for process improvement.
     this data into recommendations for process and/or product improvement.
 
 Contributes to project planning.
-:   Participates in post mortems; evaluates feasibility of design and feature
+:   Participates in postmortems; evaluates feasibility of design and feature
     proposals; explains technical issues/opportunities to upstream and
     downstream colleagues.

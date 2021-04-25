@@ -61,7 +61,7 @@ i="marketing">Marketing</span>, which is the process of figuring out how to tell
 the people you're trying to help how you can help them. This doesn't mean
 spamming people with discount coupons; instead, it means explaining the problem
 that the product will solve in ways that will reach the intended users.  I have
-been more startups fail because of poor marketing than because of poor
+seen more startups fail because of poor marketing than because of poor
 programming; it is also out of scope for this book, but <cite>Jackson2017</cite>
 is a good introduction.
 

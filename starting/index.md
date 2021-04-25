@@ -196,7 +196,7 @@ Handoff
 Review
 :   The only way to get better at something is to reflect on how you've done and
     what you could have done better.  Every project should therefore end with a
-    post mortem in which team members talk about what went right and what went
+    postmortem in which team members talk about what went right and what went
     wrong.  As mentioned earlier, this may then be the subject of the final
     report.
 
@@ -245,7 +245,7 @@ Teamwork (10%)
 
 Final report (20%)
 :   This describes the architecture of the code as it was actually built (rather
-    than as it was designed) and summarizes the post mortem so that the next
+    than as it was designed) and summarizes the postmortem so that the next
     team can avoid any pitfalls this team ran into.
 
 Final state of project (20%)
@@ -353,7 +353,7 @@ website like this one, for example, the layout is:
 :   The directory containing the generated web pages. If the site doesn't need
     any special plugins, this directory doesn't have to be included in version
     control: GitHub will re-create it automatically. If the site does use
-    plugins, on the other hand, the authors have to generated the HTML and
+    plugins, on the other hand, the authors have to generate the HTML and
     commit it themselves.
 
 If your project's goal is to build a package, on the other hand, you will have

@@ -8,7 +8,7 @@ something are willing to invest time in learning how to do it better.
 
 I believe that processes are more important than tools, but that's because I
 know how to use whatever tools I have to support productive working practices.
-However, I focus on tools when talking to students because they are are more
+However, I focus on tools when talking to students because they are more
 tangible: it's easier to tell if someone is using version control or a style
 checker than it is to tell if they're designing or estimating sensibly.
 

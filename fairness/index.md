@@ -299,7 +299,7 @@ programmer to fix what's broken in our industry, but there is.  An <span
 i="ally" g="ally">ally</span> is a someone with unearned advantages who tries to
 understand their own privilege and create an environment that's fair for
 everyone.  As [this guide][dlf-active-bystander] from the [Digital Library
-Foundation][dlf] explains, there are several waysto be an <span i="active
+Foundation][dlf] explains, there are several ways to be an <span i="active
 bystander" g="active_bystander">active bystander</span>, i.e., several ways to
 <span i="lending privilege" g="lending_privilege">lend your privilege</span> to
 defuse situations and defend people who are being attacked.
