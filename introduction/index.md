@@ -80,9 +80,9 @@ medium term:
 -   What to do when things go wrong.
 
 We have included other material as well, since there is a lot of variation
-between project courses (and even more between the people doing them), but the
-core topics include.  Throughout, we are guided by a modified version of
-[Dobzhansky's Rule][dobzhansky]:
+between project courses (and even more between the people doing them).
+Throughout, we are guided by a modified version of [Dobzhansky's
+Rule][dobzhansky]:
 
 <blockquote markdown="1">
 
