@@ -23,7 +23,7 @@ fruitarian is secondary to eating better and exercising more.
 
 </div>
 
-## Feedback Loops
+## Process as Feedback Loops
 
 I think about process in terms of <span i="feedback loops">feedback loops</span>
 on different timescales (<span f="feedback-loops"/>).  Any particular team
