@@ -486,6 +486,7 @@ MBTI
 MERCHANTABILITY
 MSR
 MVC
+MacDougall
 MacOS
 Maddila
 Mahnaz
@@ -768,6 +769,7 @@ Socio
 Soe
 Sohon
 Solnit
+Sookraj
 SourceGear
 SourceTree
 Souti
