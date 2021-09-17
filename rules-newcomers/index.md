@@ -29,7 +29,7 @@ i="community of practice">community of practice</span>
     project's social media, offering assistance in making an initial
     contribution, and connecting them with existing project members.
 
-2: Help potential contributors evaluate if the project is a good fit.
+2. Help potential contributors evaluate if the project is a good fit.
 :   The first and most important step in being welcoming is to help them
     determine whether this project is a good fit for their interests and
     abilities.  To do this, the project should explicitly state what the
