@@ -9,3 +9,5 @@ __pycache__
 _cache
 _site
 book.*
+Gemfile.lock
+.ruby-version
