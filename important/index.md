@@ -37,7 +37,7 @@ stupors did to my teammates' productivity.
 My mistake was to confuse "long hours" with "getting things done".  You can't
 produce software (or anything else) without doing some work, but you can easily
 do lots of work without producing anything of value.  Scientific study of <span
-i="overwork">overwork </span> goes back to at least the 1890s---see
+i="overwork">overwork</span> goes back to at least the 1890s---see
 <cite>Robinson2005</cite> for a short, readable summary.  The most important
 results for developers are:
 

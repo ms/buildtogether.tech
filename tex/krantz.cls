@@ -13,6 +13,9 @@
 \newif\if@openright
 \newif\if@mainmatter \@mainmattertrue
 \if@compatibility\else
+\DeclareOption{leanpubtechnical}
+   {\setlength\paperheight {9.1in}%
+    \setlength\paperwidth  {7in}}
 \DeclareOption{a4paper}
    {\setlength\paperheight {297mm}%
     \setlength\paperwidth  {210mm}}
