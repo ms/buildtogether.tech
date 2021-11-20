@@ -975,16 +975,16 @@ Jean Lave and Etienne Wenger:
 Cambridge University Press, 1991, 978-0521423748.
 </p>
 
-<p id="LeGoues2019" class="bibliography"><span class="bibliographykey">LeGoues2019</span>
-Claire Le Goues, Michael Pradel, and Abhik Roychoudhury:
-"Automated Program Repair".
-<em>CACM</em>, 62(12), 2019, <a class="doi" href="https://doi.org/10.1145/3318162">10.1145/3318162</a>.
-</p>
-
 <p id="Lee1962" class="bibliography"><span class="bibliographykey">Lee1962</span>
 Stan Lee:
 "The Amazing Spider-Man".
 <em>Amazing Fantasy</em>, 15, 1962.
+</p>
+
+<p id="LeGoues2019" class="bibliography"><span class="bibliographykey">LeGoues2019</span>
+Claire Le Goues, Michael Pradel, and Abhik Roychoudhury:
+"Automated Program Repair".
+<em>CACM</em>, 62(12), 2019, <a class="doi" href="https://doi.org/10.1145/3318162">10.1145/3318162</a>.
 </p>
 
 <p id="Leitao2019" class="bibliography"><span class="bibliographykey">Leitao2019</span>
@@ -1184,12 +1184,6 @@ Robert Nystrom:
 Genever Benning, 2014, 978-0990582908.
 </p>
 
-<p id="ONeil2017" class="bibliography"><span class="bibliographykey">ONeil2017</span>
-C, a, t, h, y,  , O, ', N, e, i, and l:
-<em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>.
-Crown, 2017, 978-0553418835.
-</p>
-
 <p id="Oakley2004" class="bibliography"><span class="bibliographykey">Oakley2004</span>
 Barbara Oakley, Richard M. Felder, Rebecca Brent, and Imad Elhajj:
 "Turning Student Groups into Effective Teams".
@@ -1206,6 +1200,12 @@ Addison-Wesley Professional, 2007, 978-0321490452.
 Ijeoma Oluo:
 <em>So You Want to Talk About Race</em>.
 Seal Press, 2019, 978-1580058827.
+</p>
+
+<p id="ONeil2017" class="bibliography"><span class="bibliographykey">ONeil2017</span>
+C, a, t, h, y,  , O, ', N, e, i, and l:
+<em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>.
+Crown, 2017, 978-0553418835.
 </p>
 
 <p id="Ostrom2015" class="bibliography"><span class="bibliographykey">Ostrom2015</span>

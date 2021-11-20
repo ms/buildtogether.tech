@@ -120,7 +120,9 @@ x="thinking"/>). Where those don't have answers, I have drawn on the experience
 of the students and programmers mentioned below.  Any errors, omissions, or
 misunderstandings that remain are entirely our fault.
 
-{% include thanks.html %}
+<div class="latex" command="\vspace{\baselineskip}"/>
+
+{% include thanks.html table=true %}
 
 Portions of this book are adapted from material that originally appeared in
 <cite>Sholler2019,Wilson2019,Irving2021,Smalls2021</cite>; I'm grateful to <span

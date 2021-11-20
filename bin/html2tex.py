@@ -27,12 +27,16 @@ RECURSE_ONLY = {
     'th'
 }
 
+# Long links (updated by main driver).
+LONG_LINKS = {}
+
 # Numbering (updated by main driver).
 NUMBERING = {}
 
 
 def html2tex(options):
     '''Main driver.'''
+    update_long_links(options.links)
     update_numbering(options.numbering)
     config = utils.read_yaml(options.config)
     entries = get_filenames(options.site, config)
@@ -44,6 +48,14 @@ def html2tex(options):
             accum.append('\n\\appendix\n')
     result = ''.join(accum)
     display(options, config, result)
+
+
+def update_long_links(filename):
+    '''Update table of long links that have to be line-broken.'''
+    global LONG_LINKS
+    for link in utils.read_yaml(filename):
+        key = link.replace(r'-\\ ', '')
+        LONG_LINKS[key] = link
 
 
 def update_numbering(filename):
@@ -71,6 +83,7 @@ def convert_file(filename, accum):
     '''Translate a file from HTML to LaTeX.'''
     with open(filename, 'r') as reader:
         text = reader.read()
+        text = convert_mathjax_to_math(text)
         dom = BeautifulSoup(text, 'html.parser')
         convert(dom.html, accum, True)
     return accum
@@ -100,6 +113,11 @@ def convert(node, accum, doEscape):
         link = escape(node['href'], doEscape)
         accum.append(rf'\href{{{link}}}{{{link}}}')
 
+    # HTML-only
+    elif (node.name == 'a') and has_class(node, 'html-only'):
+        temp = ''.join(convert_children(node, [], doEscape))
+        accum.append(temp)
+
     # a => regular hyperlink
     elif node.name == 'a':
         link = escape(node['href'], doEscape)
@@ -122,11 +140,11 @@ def convert(node, accum, doEscape):
         convert_children(node, accum, doEscape)
         accum.append('}')
 
-    # code => typewriter text
+    # inline code => typewriter text
     elif node.name == 'code':
-        accum.append(r'\texttt{')
-        convert_children(node, accum, doEscape)
-        accum.append(r'}')
+        temp = ''.join(convert_children(node, [], True))
+        temp = temp.replace("'", r'{\textquotesingle}')
+        accum.append(rf'\texttt{{{temp}}}')
 
     # dd => just a paragraph in normal text, but remove internal links in glossary
     elif node.name == 'dd':
@@ -135,17 +153,27 @@ def convert(node, accum, doEscape):
         accum.append(temp)
         accum.append('\n')
 
-    # div callout
+    # bibliography div
+    elif (node.name == 'div') and has_class(node, 'bibliography'):
+        accum.append(r'\begin{thebibliography}{\hskip-3pt}')
+        convert_children(node, accum, doEscape)
+        accum.append(r'\end{thebibliography}')
+
+    # callout div
     elif (node.name == 'div') and has_class(node, 'callout'):
         accum.append('\\begin{callout}\n')
         convert_children(node, accum, doEscape)
         accum.append('\\end{callout}\n')
 
-    # bibliography div
-    elif (node.name == 'div') and has_class(node, 'bibliography'):
-        accum.append(r'\begin{thebibliography}{ABCD}')
+    # copy-through LaTeX command
+    elif (node.name == 'div') and has_class(node, 'latex'):
+        accum.append(node['command'])
+
+    # terms defined div
+    elif (node.name == 'div') and has_class(node, 'terms'):
+        accum.append('\\noindent')
         convert_children(node, accum, doEscape)
-        accum.append(r'\end{thebibliography}')
+        accum.append(' \\')
 
     # other div
     elif node.name == 'div':
@@ -218,6 +246,10 @@ def convert(node, accum, doEscape):
         convert_children(node, accum, doEscape)
         accum.append('\n')
 
+    # pass math through untouched
+    elif node.name == 'math':
+        accum.append(str(node))
+
     # ordered list
     elif node.name == 'ol':
         accum.append('\\begin{enumerate}\n')
@@ -234,7 +266,7 @@ def convert(node, accum, doEscape):
     # p => paragraph
     elif node.name == 'p':
         accum.append('\n')
-        if has_class(node, 'noindent'):
+        if has_class(node, 'continue'):
             accum.append(r'\noindent')
             accum.append('\n')
         convert_children(node, accum, doEscape)
@@ -341,7 +373,7 @@ def convert_figure(node, accum):
         path = f'{slug}/{path}'
     alt = node.img['alt']
     caption = ''.join(convert_children(node.figcaption, [], True))
-    accum.append(f'\\figpdf{{{label}}}{{{path}}}{{{caption}}}{{0.75}}')
+    accum.append(f'\\figpdf{{{label}}}{{{path}}}{{{caption}}}{{0.6}}')
 
 
 def convert_glossary_index(node, accum, doEscape):
@@ -372,6 +404,8 @@ def convert_links_table(node, accum):
     for row in rows:
         child = row.td.a
         link = escape(child['href'], True)
+        if link in LONG_LINKS:
+            link = LONG_LINKS[link]
         text = ''.join(convert_children(child, [], True))
         accum.append(f'\n\n\\item[{text}] {link}')
     accum.append('\\end{description}\n')
@@ -416,7 +450,10 @@ def convert_table_row(row, tag):
     result = []
     for cell in cells:
         temp = convert(cell, [], True)
-        result.append(''.join(temp))
+        temp = ''.join(temp)
+        if tag == 'th':
+            temp = rf'\textbf{{\underline{{{temp}}}}}'
+        result.append(temp)
     return ' & '.join(result) + r' \\'
 
 
@@ -445,6 +482,8 @@ def display(options, config, text):
         .replace('“', "``")\
         .replace('”', "''")\
         .replace('’', "'")
+    text = patch_code_listings(text)
+    text = convert_math_to_mathjax(text)
     head = head.replace(r'\title{TITLE}',
                         f'\\title{{{config["title"]}}}')
     subtitle = f'\\subtitle{{{config["subtitle"]}}}' \
@@ -456,6 +495,19 @@ def display(options, config, text):
     print(foot)
 
 
+def patch_code_listings(text):
+    '''Remove multiple blank lines from the start and end of code listings.'''
+    def f(match):
+        front = match.group(1)
+        body = match.group(2)
+        back = match.group(3)
+        body = body.lstrip('\n').rstrip('\n')
+        return f'{front}\n{body}\n{back}'
+
+    pat = re.compile(r'(\\begin\{lstlisting\}\[.+?\])(.+?)(\\end\{lstlisting\})', re.DOTALL)
+    return pat.sub(f, text)
+
+
 def patch_bibliography(node):
     '''Patch the bibliography div.'''
     assert (node.name == 'div'), 'Expected div'
@@ -465,6 +517,31 @@ def patch_bibliography(node):
     add_class(bib, 'bibliography')
     for entry in bib.find_all('dt'):
         add_class(entry, 'bibliography')
+
+
+def convert_mathjax_to_math(text):
+    '''
+    Temporarily replace MathJax markers with <math> tags so that
+    we can avoid recursing into math blocks during conversion.
+    This assumes that '\(...\)' is only used for MathJax.
+    '''
+    def f(match):
+        return f'<math>{match.group(1)}</math>'
+
+    pat = re.compile(r'\\\((.+?)\\\)', re.DOTALL)
+    result = pat.sub(f, text)
+    return result
+
+
+def convert_math_to_mathjax(text):
+    '''
+    Replace <math>...</math> with \(...\) on the way out.
+    '''
+    def f(match):
+        return rf'\({match.group(1)}\)'
+
+    pat = re.compile(r'<math>(.+?)</math>', re.DOTALL)
+    return pat.sub(f, text)
 
 
 def replace_internal_links(text):
@@ -480,10 +557,10 @@ def escape(text, doEscape):
     if not doEscape:
         return text
     return text\
+        .replace('{', 'ACTUAL-LEFT-CURLY-BRACE')\
+        .replace('}', 'ACTUAL-RIGHT-CURLY-BRACE')\
         .replace('\\', r'{\textbackslash}')\
         .replace('$', r'\$')\
-        .replace(r'{\textbackslash}(', '$')\
-        .replace(r'{\textbackslash})', '$')\
         .replace('%', r'\%')\
         .replace('_', r'\_')\
         .replace('^', r'{\textasciicircum}')\
@@ -491,7 +568,9 @@ def escape(text, doEscape):
         .replace('&', r'\&')\
         .replace('©', r'{\textcopyright}')\
         .replace('μ', r'{\textmu}')\
-        .replace('…', '...')
+        .replace('…', '...')\
+        .replace('ACTUAL-LEFT-CURLY-BRACE', r'\{')\
+        .replace('ACTUAL-RIGHT-CURLY-BRACE', r'\}')
 
 
 if __name__ == '__main__':
@@ -499,6 +578,7 @@ if __name__ == '__main__':
         ['--config', False, 'Path to YAML configuration file'],
         ['--foot', False, 'Path to LaTeX footer file'],
         ['--head', False, 'Path to LaTeX header file'],
+        ['--links', False, 'Path to long-links translation file'],
         ['--numbering', False, 'Path to numbering file'],
         ['--site', False, 'Path to root directory of HTML site']
     )

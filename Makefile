@@ -7,7 +7,7 @@ INCLUDES=$(wildcard _includes/*)
 LAYOUTS=$(wildcard _layouts/*.html)
 MARKDOWN=$(wildcard *.md) $(wildcard */index.md)
 HTML=${SITE}/index.html $(wildcard ${SITE}/*/index.html)
-EXERCISES=$(wildcard */x-*/problem.md) $(wildcard */x-*/solution.md)
+EXERCISES=$(wildcard */x-*.md)
 STATIC=$(wildcard static/*.*)
 TEX=$(wildcard tex/*.*)
 
@@ -16,6 +16,7 @@ BIB_MD=bibliography/index.md
 GLOSSARY_IN=_data/glossary.yml
 HOME_PAGE=${SITE}/index.html
 INDEX_YML=_data/index.yml
+LINKS_YML=_data/long-links.yml
 NUM_YML=_data/numbering.yml
 TERMS_YML=_data/terms.yml
 ALL_OUT=${BIB_MD} ${INDEX_YML} ${NUM_YML} ${TERMS_YML}
@@ -65,8 +66,8 @@ serve: ${ALL_OUT}
 	${JEKYLL} serve
 
 ## book.tex: create LaTeX file
-book.tex: ${HOME_PAGE} bin/html2tex.py ${NUM_YML} ${TEX}
-	bin/html2tex.py --config ${CONFIG} --numbering ${NUM_YML} --site _site --head tex/head.tex --foot tex/foot.tex > book.tex
+book.tex: ${HOME_PAGE} bin/html2tex.py ${NUM_YML} ${LINKS_YML} ${TEX}
+	bin/html2tex.py --config ${CONFIG} --numbering ${NUM_YML} --site _site --head tex/head.tex --foot tex/foot.tex --links ${LINKS_YML} > book.tex
 
 ## book.pdf: create PDF file
 book.pdf: book.tex ${TEX}
@@ -99,6 +100,7 @@ check:
 	@make check-chunk-length
 	@make check-code-blocks
 	@make check-dom
+	@make check-filter-tags
 	@make check-links
 	@make check-numbering
 	@make check-spelling
@@ -114,6 +116,10 @@ check-chunk-length: ${HOME_PAGE}
 ## check-code-blocks: check inline code blocks
 check-code-blocks:
 	@bin/check-code-blocks.py --config ${CONFIG}
+
+## check-filter-tags: see whether any code filtering tags have survived into the HTML
+check-filter-tags: ${HOME_PAGE}
+	@bin/check-filter-tags.py --sources ${HTML}
 
 ## check-dom: check classes and attributes in generated HTML.
 check-dom: ${HOME_PAGE}
@@ -205,7 +211,7 @@ ${NUM_YML}: bin/make-numbering.py ${CONFIG} ${MARKDOWN}
 ${TERMS_YML}: bin/make-terms.py ${CONFIG} ${MARKDOWN} ${GLOSSARY_IN}
 	bin/make-terms.py --config ${CONFIG} --glossary ${GLOSSARY_IN} --language ${LANGUAGE} --output ${TERMS_YML}
 
-${HOME_PAGE}: ${CONFIG} ${MARKDOWN} ${INCLUDES} ${LAYOUTS} ${STATIC} ${ALL_OUT}
+${HOME_PAGE}: ${CONFIG} ${MARKDOWN} ${EXERCISES} ${INCLUDES} ${LAYOUTS} ${STATIC} ${ALL_OUT}
 	${JEKYLL} build
 
 $(filter-out bin/utils.py,$(wildcard bin/*.py)): bin/utils.py

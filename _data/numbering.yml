@@ -164,59 +164,54 @@ entries:
   label: E
   slug: glossary
   title: Glossary
-- file: ./links/index.md
-  kind: Appendix
-  label: F
-  slug: links
-  title: Links
 - file: ./thinking/index.md
   kind: Appendix
-  label: G
+  label: F
   slug: thinking
   title: Thinking and Learning
 - file: ./methods/index.md
   kind: Appendix
-  label: H
+  label: G
   slug: methods
   title: Research Methods
 - file: ./onboarding/index.md
   kind: Appendix
-  label: I
+  label: H
   slug: onboarding
   title: Onboarding Checklist
 - file: ./project-eval/index.md
   kind: Appendix
-  label: J
+  label: I
   slug: project-eval
   title: Project Evaluation
 - file: ./personal-eval/index.md
   kind: Appendix
-  label: K
+  label: J
   slug: personal-eval
   title: Personal Evaluation
 - file: ./reading/index.md
   kind: Appendix
-  label: L
+  label: K
   slug: reading
   title: Further Reading
 - file: ./rules-freelance/index.md
   kind: Appendix
-  label: M
+  label: L
   slug: rules-freelance
   title: How to Get Started Freelancing
 - file: ./rules-change/index.md
   kind: Appendix
-  label: N
+  label: M
   slug: rules-change
   title: How to Change the World
 - file: ./authors/index.md
   kind: Appendix
-  label: O
+  label: N
   slug: authors
   title: Authors
 - file: ./index/index.md
   kind: Appendix
-  label: P
+  label: O
   slug: index
   title: Index
 figures:
@@ -227,9 +222,9 @@ figures:
   feature-usage: '19.4'
   feedback-loops: '19.1'
   four-models-of-instruction: '3.1'
-  thinking-cognitive-architecture: G.2
-  thinking-frisian: G.3
-  thinking-models: G.1
+  thinking-cognitive-architecture: F.2
+  thinking-frisian: F.3
+  thinking-models: F.1
   use-case-map: '12.2'
 tables:
   collaborate-code-review: '8.1'
