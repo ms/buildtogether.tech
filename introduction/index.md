@@ -107,10 +107,13 @@ change too.
 ## Acknowledgments
 
 This book is dedicated to <span i="Petre, Marian">[Marian
-Petre][petre-marian]</span>, who taught me how to think about how programmers
-think and work.  I am also grateful to all of the students who did projects with
-me at the <span i="University of Toronto">University of Toronto</span> and
-through <span i="Google Summer of Code">Google Summer of Code</span>, and to
+Petre][petre-marian]</span>, who taught me that not everything worth
+studying can be measured, and to <span i="Wilkie, Tom">Tom
+Wilkie</span>, who taught me that an author's job is to create the
+manure in which an editor grows something worth reading.  I am also
+grateful to all of the students who did projects with me at the <span
+i="University of Toronto">University of Toronto</span> and through
+<span i="Google Summer of Code">Google Summer of Code</span>, and to
 everyone who took part in <span i="UCOSP">UCOSP</span>
 <cite>Holmes2014,Holmes2018</cite>.
 
