@@ -13,16 +13,16 @@ you'd like to know more <cite>Brown2007</cite> and
 >
 > --- <span i="Kendzior, Sarah">Sarah Kendzior</span>
 
-1. Be sure this is where you want to focus your efforts.
+Be sure this is where you want to focus your efforts.
 :   It's going to take years, it could well fail, and there are many other
     things you could do, so be sure this particular change is the one you want
     to fight for.
 
-2. Ask those who will be affected.
+Ask those who will be affected.
 :   "Nothing about us without us" is always a good motto, and asking for
     opinions often reveals potential allies.
 
-3. Be specific.
+Be specific.
 :   Few people would argue in public against fair hiring practices in principle,
     but the organization has to implement something specific in order for that
     to mean anything, and people very well might argue against those specifics.
@@ -30,7 +30,7 @@ you'd like to know more <cite>Brown2007</cite> and
     concrete plan for achieving it.  And start with whatever is likely to have
     broadest support, because success breeds success.
 
-4. Figure out who has the power to make that change and what they care about.
+Figure out who has the power to make that change and what they care about.
 :   Your neighbors don't make policy for your local public school: school board
     trustees do, so that's who you need to influence.  Help someone who wants
     the same change as you get elected, or help someone who doesn't oppose your
@@ -40,7 +40,7 @@ you'd like to know more <cite>Brown2007</cite> and
     you want and what you can do to help them: for example, if it's going to
     eliminate jobs, what else can those people usefully do?
 
-5. Build alliances,
+Build alliances,
 :   "I'll help you if you'll help me" makes the world go around.  It's hard when
     people want the same thing for very different reasons, but this rule is
     *not* cynical: people whose beliefs are aligned may still have different
@@ -50,14 +50,14 @@ you'd like to know more <cite>Brown2007</cite> and
     (either inside your group or externally), or who have a wide range of
     connections are all useful allies.
 
-6. Test the waters.
+Test the waters.
 :   At every stage, refine your idea and presentation in front of a small group
     first.  But remember: when done honestly, refining your idea sometimes means
     accepting that you wanted the wrong thing.  And note that it can be useful
     to ask someone to be the official skeptic: giving them a way to critique in
     private may temper their public criticism, and you just might convert them.
 
-7. Keep it visible.
+Keep it visible.
 :   It's easy to start a blog and create a Twitter account, but that very ease
     has reduced these channels' impact.  Is there a newsletter you can be
     included in (which makes you look more official)?  Can you make a
@@ -67,7 +67,7 @@ you'd like to know more <cite>Brown2007</cite> and
     lunchroom? The elevator? The washrooms? Local restaurants?  And always share
     a single point of contact that someone actually checks (frequently).
 
-8. Collect data but tell stories.
+Collect data but tell stories.
 :   Sooner or later someone is going to ask what financial impact this change is
     going to have, so be ready for that.  Data about other changes or from other
     organizations helps a lot, but data doesn't have nearly as powerful an
@@ -76,11 +76,11 @@ you'd like to know more <cite>Brown2007</cite> and
     person's life better.  And if you've never cried when telling that story,
     tell a better story.
 
-9. Learn how to run meetings.
+Learn how to run meetings.
 :   You don't have to be a great public speaker, but you won't accomplish much
     if you don't know how to run a meeting <a section="important"/>.
 
-10. Celebrate when you can, grieve when you need to.
+Celebrate when you can, grieve when you need to.
 :   [Burnout][thirdbit-burnout] is an occupational hazard for everyone trying to
     make meaningful change, in part because we get so used to doing things on
     our own at the start that we don't share the load even when there are people

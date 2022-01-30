@@ -10,7 +10,7 @@ find ways to work together.
 
 ## If You Are a Researcher in Academia
 
-1. Remember that companies work in weeks, not seasons.
+Remember that companies work in weeks, not seasons.
 :   Academic semesters are rooted in the seasons of an agricultural era, but
     practitioners in industry have to work at a more accelerated pace. In the
     time it takes you to write a grant, a company might develop and release two
@@ -18,7 +18,7 @@ find ways to work together.
     Discuss timescales with your industrial research partners early on, and be
     realistic about how slowly things will proceed.
 
-2. Be open.
+Be open.
 :   Research is of no use to practitioners who cannot easily find it and read
     it. While <span i="Wales, Jimmy">Jimmy Wales</span> (the founder of <span
     i="Wikipedia">Wikipedia</span>) may not actually have said, "Open
@@ -32,7 +32,7 @@ find ways to work together.
     sourly, it's the equivalent of inviting people to your house for dinner and
     then expecting them to pay for the drinks.
 
-3. Value action over insight.
+Value action over insight.
 :   The goal for practitioners is not to understand the world, but to change
     it. "We know X" is much less useful to them than "we can do Y". When
     presenting your findings, you should therefore focus on how someone might
@@ -40,13 +40,13 @@ find ways to work together.
     Does It Make?" at strategic points in your presentations. If you can't think
     of what to write next, you may want to rethink what you're focused on.
 
-4. Don't hesitate to sacrifice detail for clarity.
+Don't hesitate to sacrifice detail for clarity.
 :   Understanding doesn't have to be complete in order to be actionable. You may
     need to hedge conclusions with qualifiers in order to get your work past
     Reviewer #3, but those "maybes" and "howevers" can often be omitted if they
     don't change what practitioners should try next.
 
-5. Apologize in advance for the state of academic publishing.
+Apologize in advance for the state of academic publishing.
 :   Modern academic publishing isn't actually a conspiracy by a handful of large
     companies to line their pockets with government money that could and should
     be used to lift researchers out of penury, but it is functionally
@@ -57,7 +57,7 @@ find ways to work together.
 
 ## If You Are a Practitioner in Industry
 
-6. Remember that universities work in seasons, not weeks.
+Remember that universities work in seasons, not weeks.
 :   The timescale mis-match described in Rule #1 is due in part to the fact that
     academic researchers are almost always multi-tasking, and that many of those
     tasks are things they've never been trained to do. As students, they juggle
@@ -68,7 +68,7 @@ find ways to work together.
     appear to move at a snail's pace. Be as sympathetic as you can: they are
     even less happy with the situation than you are.
 
-7. Remember that academic success is measured in publications, not sales.
+Remember that academic success is measured in publications, not sales.
 :   University presidents routinely make about the economic value of research,
     but the only things that truly matter for academic advancement are
     publication, publication, and publication. Researchers are not given grants
@@ -81,7 +81,7 @@ find ways to work together.
     door to genuinely new research topics by pushing researchers out of their
     comfort zone.)
 
-8. Do the background reading.
+Do the background reading.
 :   <span i="Mencken, H.L.">H.L. Mencken</span> once wrote that, "There is
     always a well-known solution to every human problem---neat, plausible, and
     wrong." Your problem is almost certainly one of those, and is almost
@@ -91,7 +91,7 @@ find ways to work together.
     time reinventing wheels and so that your research partner can think, work,
     and talk at full speed.
 
-9. Don't overstate what has been learned.
+Don't overstate what has been learned.
 :   This rule is also a complement to Rule #4. The "maybes" and "howevers" that
     researchers are so fond of do sometimes matter; if your research partner has
     found that regular doses of a new drug seems to slow tumor growth in lab
@@ -100,7 +100,7 @@ find ways to work together.
 
 ## If You Are Either
 
-10. Apologize in advance for the state of your data.
+Apologize in advance for the state of your data.
 :   The final rule applies equally to both researchers and practitioners. Files'
     names and locations, the meanings of column headers in tables, how those
     tables relate to one another, how missing values are represented and

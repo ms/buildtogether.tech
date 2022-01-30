@@ -7,24 +7,24 @@ one question I'm sometimes asked is, "How do you get started?"  The rules below
 are the advice I give people who want to become freelance trainers (which is the
 most rewarding work I've ever had).
 
-1.  Start in the backup band.
+Start in the backup band.
 :   Be a helper at a gig someone else has organized in order to learn the
     business and make contacts.  If it's commercial training, the lead
     instructor should cover your travel and accommodation and pay a few hundred
     dollars for a day of your time; if it's not, ask if they will let you teach
     one hour of the class and then give you feedback.
 
-2.  Start with friends.
+Start with friends.
 :   Is a friend or colleague working somewhere that would benefit from training?
     If so, see if they can introduce you to their boss or to someone in HR
     (which is often responsible for arranging training).
 
-3.  Start with conferences.
+Start with conferences.
 :   Many conferences have a tutorial track; take a look at what's 6-12 months
     out and contact the organizers or the tutorial chair to see what they're
     looking for or whether they want what you already have.
 
-4.  Go where other people aren't.
+Go where other people aren't.
 :   Lots of recovering academics teach programming or data science to
     pharmaceutical companies and financial institutions.  Fewer think about less
     glamorous industries like trucking or office building management, but they
@@ -33,27 +33,27 @@ most rewarding work I've ever had).
     2.  Talk to a few people *other than your initial contacts*
         to get a sense of what the average community member actually knows.
 
-5.  Charge the going rate.
+Charge the going rate.
 :   You would expect to pay between $300 and $1000 for a day-long conference
     workshop; assuming a 20-person class and a 50/50 split between the
     instructor and the venue, that works out to $3K--$5K for you.  You should
     always add travel costs and accommodation on top of this, but none of my
     clients ever agreed to pay me for my travel time.
 
-6.  Negotiate for prep time.
+Negotiate for prep time.
 :   If you are offering a workshop at a conference, the organizers probably
     won't pay for your prep: they'll assume you already have a course.  If
     you're going on site to train a single client, ask for $50--$100/hr to
     prepare custom material, but don't be surprised if they say "no".
 
-7.  Never give away the rights to your material.
+Never give away the rights to your material.
 :   I strongly recommend publishing training material under a Creative Commons
     license, because if it's any good, it's going to wind up on the web anyway.
     If you'd rather keep it to yourself, that's OK, but do *not* let a client
     tell you that they own it or have an exclusive right to its use unless they
     have paid you (well) for the privilege.
 
-8.  Talk to your employer.
+Talk to your employer.
 :   Many people start training professional on the side and only switch to it
     full-time once they're sure they can support themselves.  I've never heard
     of an employer saying "no" to this, but:
@@ -70,7 +70,7 @@ most rewarding work I've ever had).
         conference workshops or elsewhere---make sure you confirm in writing or by
         email that your employer is OK with that *before* you do it.
 
-9.  Create a professional-looking website.
+Create a professional-looking website.
 :   And make sure your LinkedIn profile is up-to-date, because potential
     customers are going to check you out before signing anything.  Your website
     will usually not include your rates: for whatever reason, people seem not
@@ -89,7 +89,7 @@ most rewarding work I've ever had).
         and
     -   the Code of Conduct for your workshops.
 
-10. Don't be afraid to say "no".
+Don't be afraid to say "no".
 :   Most people have a to-do list; if you're going to any kind of independent
     consulting or training, you should have a to-don't list as well.  Mine
     includes:

@@ -2,7 +2,7 @@ copyrightyear: 2022
 author: "Greg Wilson"
 repo: https://github.com/gvwilson/mccole
 tool: McCole
-title: "Software Tools in JavaScript"
+title: "Building Software Together"
 
 src: .
 dst: docs
@@ -34,6 +34,7 @@ chapters:
     lede: "How people can work together productively"
   - slug: "rules-persuade"
     title: "How to Talk People Into Things"
+    lede: "An essential skill for working with others"
   - slug: "conflict"
     title: "Managing Conflict"
     lede: "The hardest part of working together"

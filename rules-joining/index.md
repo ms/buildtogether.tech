@@ -8,15 +8,7 @@ open source projects.  Much less has been written about how to join existing
 projects, even though that's what most people do most of the time.  These simple
 rules can help, and can be read as a complement to <a section="rules-newcomers"/>.
 
-> ### Buddies and mentors
->
-> A well-run company's process for getting newly-hired people up to speed can be
-> anything from a simple checklist like the one in <a section="onboarding"/> to a
-> multi-week sequence of courses.  However it's done, it is most effective when
-> new people are paired with buddies or mentors to direct their first questions
-> to, and who will check in with them regularly to see how they're doing.
-
-1.  Search first.
+Search first.
 :   Whatever question you have, the odds are pretty good that someone has asked
     it before, opened an issue about it, or discussed it in the project chat.
     If the project is well organized it should only take a minute to find out 
@@ -24,26 +16,26 @@ rules can help, and can be read as a complement to <a section="rules-newcomers"/
     do ask a question, people will probably point you in the right direction
     when they answer.
 
-2.  But do ask.
+But do ask.
 :   The biggest mistake newcomers make is to spend hours looking for something
     rather than asking a question.  If you have searched but haven't found
     anything helpful, it's OK to take a minute of someone else's time,
     especially if you post your question where the answer can be found by the
     next newcomer.
 
-3.  Remember that software is only one part of a project.
+Remember that software is only one part of a project.
 :   There are many ways to contribute to a software project.  Updating or
     translating documentation and testing bug fixes are good places to start;
     they will also help you learn your way around and make you friends.
 
-4.  Respect what has already been done.
+Respect what has already been done.
 :   If the first thing you do when you walk into someone's home is say, "Here's
     how I'd redecorate," you shouldn't expect to be invited back.  Follow the
     project's existing coding conventions even if you prefer something else.
     Use existing tags for issues, and above all, don't introduce yourself by
     suggesting that they rearchitect the code or change languages.
 
-5.  Be patient.
+Be patient.
 :   It took me almost three months of full-time work to get up to speed in my
     previous job, and the first contributor to the Python scripts used to build
     this book needed a couple of evenings to find their way around.  Depending
@@ -52,7 +44,7 @@ rules can help, and can be read as a complement to <a section="rules-newcomers"/
     productive.  (You will always look back and say, "I could have done this so
     much more quickly."  You will always be wrong.)
 
-6.  Start small.
+Start small.
 :   This is a corollary of the previous three points.  As you learn your way
     around a project socially as well as technologically, you will build a
     mental model of how it works (<a section="thinking"/>).  Offering a small
@@ -62,7 +54,7 @@ rules can help, and can be read as a complement to <a section="rules-newcomers"/
     cost-effective way to test this than three hundred lines of new code that
     might completely miss the mark.
 
-7.  Keep exploring.
+Keep exploring.
 :   Thousands of books have been written about how to write code, but only a few
     explain how to read it (<cite>Spinellis2003</cite> being my favorite).
     However, reading other people's code is one of the best ways to learn how to
@@ -80,7 +72,7 @@ rules can help, and can be read as a complement to <a section="rules-newcomers"/
     (<a section="debugging"/>), since it allows you ignore low-level details while you're
     trying to paint a bigger picture.
 
-8.  Get to know people.
+Get to know people.
 :   There is a softball team here in Toronto that practices every Thursday but
     hasn't played an actual game in twenty years.  As with many groups, their
     ostensible reason for existing is just an excuse for people who like each
@@ -90,16 +82,24 @@ rules can help, and can be read as a complement to <a section="rules-newcomers"/
     you back <cite>Jaffe2021</cite>, the relationships you make with the people
     you work beside may be as rewarding as the software you build.
 
-9.  Remember that most relationships don't end in marriage.
+Remember that most relationships don't end in marriage.
 :   It's OK to do a little work on an open source project and then decide if
     it's for you or not.  It's equally OK to look for a new job if you're not
     happy with the one you're in: after all, most companies wouldn't hesitate to
     eliminate your job if they needed to cut costs.  Don't let anyone manipulate
     you by making you feel guilty about this.
 
-10. Share what you learn.
+Share what you learn.
 :   If you aren't the first person to join a project, you probably won't be the
     last.  One of the most compassionate things you can do is share what you
     found out as you were learning your way around so that the next person can
     do so more quickly.  Doing this also helps you figure out what you know now
     that you didn't know then, which can help you the next time around.
+
+> ### Buddies and mentors
+>
+> A well-run company's process for getting newly-hired people up to speed can be
+> anything from a simple checklist like the one in <a section="onboarding"/> to a
+> multi-week sequence of courses.  However it's done, it is most effective when
+> new people are paired with buddies or mentors to direct their first questions
+> to, and who will check in with them regularly to see how they're doing.

@@ -20,20 +20,20 @@ how to do this.
 >
 > 3.  They develop shared resources and domain knowledge.
 
-1. Be welcoming.
+Be welcoming.
 :   Projects should not just say that they welcome new members: they should make
     an effort to foster positive feelings by posting a welcome message on the
     project's social media, offering assistance in making an initial
     contribution, and connecting them with existing project members.
 
-2. Help potential contributors evaluate if the project is a good fit.
+Help potential contributors evaluate if the project is a good fit.
 :   The first and most important step in being welcoming is to help them
     determine whether this project is a good fit for their interests and
     abilities.  To do this, the project should explicitly state what the
     different types of skills required are. This information should be easily
     accessible and guide new members to the tasks they may handle.
 
-3. Make governance explicit.
+Make governance explicit.
 :   <cite>Raymond2001</cite> described an egalitarian world in which everyone
     could contribute equally to open projects. Two decades later, we can see how
     misleading it was, and how unequal and unwelcoming projects can be if
@@ -44,7 +44,7 @@ how to do this.
     gets a say in what and how to become someone whose vote counts
     (<a section="important"/>).
 
-4. Keep knowledge up to date and findable.
+Keep knowledge up to date and findable.
 :   A single project may use wikis, files in GitHub, shared Google Docs, old
     tweets or chat messages, and email archives; keeping information about a
     specific topic in a single place and clearly defining the purpose of each
@@ -55,13 +55,13 @@ how to do this.
     material up to date, community members should at least remove or clearly
     mark outdated information.
 
-5. Have and enforce a <span i="Code of Conduct">Code of Conduct</span>.
+Have and enforce a <span i="Code of Conduct">Code of Conduct</span>.
 :   We discussed this rule in <a section="starting"/>, but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates
     <cite>Gruenert2015</cite>, and every instance of bad behavior will drive
     current and potential contributors away.
 
-6. Develop forms of legitimate peripheral participation.
+Develop forms of legitimate peripheral participation.
 :   Newcomers become members of a community by participating in simple, low-risk
     tasks that existing community members believe are valuable. Through this
     <span g="lpp" i="legitimate peripheral participation">legitimate peripheral
@@ -71,7 +71,7 @@ how to do this.
     newcomers; asking people to file issues about bugs they have found requires
     less up-front work, but is accepted as also being useful.
 
-7. Make it easy for newcomers to get started.
+Make it easy for newcomers to get started.
 :   One way to facilitate legitimate peripheral participation is to make it easy
     for newcomers to get set up so that they can start work on contributions.
     Getting set up to work on a project---going from "I want to help" to "I'm
@@ -82,7 +82,7 @@ how to do this.
     with the same care and attention you give to the product itself, you're
     making it clear that you value those contributors' time and effort
 
-8. Use opportunities for in-person interaction---with care.
+Use opportunities for in-person interaction---with care.
 :   Combining newcomer-friendly events and activities with larger gatherings
     such as conferences amortize participants' financial costs and travel time.
     However, potential contributors might shy away from the project if they are
@@ -92,7 +92,7 @@ how to do this.
     case, not going to a meetup may leave them feeling less a part of the
     community.
 
-9. Acknowledge all contributions.
+Acknowledge all contributions.
 :   People in open source sometimes joke that a programmer is someone who will
     do something for a laptop sticker that they would not do for a hundred
     dollars. The kernel of truth in this joke is that gratitude and recognition
@@ -102,7 +102,7 @@ how to do this.
     what constitutes a contribution, how contributions will be acknowledged, and
     how they will be used.
 
-10. Follow up on both success and failure.
+Follow up on both success and failure.
 :   Once someone has carried their first contribution over the line, you and
     they are likely to have a better sense of what they have to offer and how
     the project can help them. Helping newcomers find the next problem they

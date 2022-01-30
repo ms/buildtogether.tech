@@ -5,7 +5,7 @@ template: page.html
 Having the right tools on your computer will help you be more productive.
 Having a comfortable environment will help as well.
 
-1. Peace and quiet.
+Peace and quiet.
 :   Study after study has shown that this has more impact on productivity than a
     fast network, a fat disk, or caffeine, but most workplaces are still too
     crowded, too noisy, and filled with too many interruptions
@@ -14,7 +14,7 @@ Having a comfortable environment will help as well.
     important," but that only applies if the only people you're overhearing are
     members of your own team (and even then, it's a dubious claim).
 
-2. A comfortable chair.
+A comfortable chair.
 :   A good chair with a firm back costs half what a mid-range laptop does. A
     full-sized keyboard (I have large hands---most laptop keyboards force me to
     bend my wrists uncomfortably) costs fifty dollars, and a lamp with a soft
@@ -25,14 +25,14 @@ Having a comfortable environment will help as well.
     an exercise ball has been good for my abs and lets me bounce up and down
     during boring meetings.
 
-3. A good microphone.
+A good microphone.
 :   You can have a very productive meeting with video turned off, but if you
     don't have decent audio you're sunk. It's therefore worth investing in a
     decent <span i="microphone">microphone</span>. Mine cost me forty dollars; I
     spent another twelve dollars to get a gooseneck stand to keep it ten
     centimeters away from both my keyboard and my mouth.
 
-4. A pad of gridded paper and several ballpoint pens.
+A pad of gridded paper and several ballpoint pens.
 :   I often make notes for myself when programming, or draw box-and-arrow
     diagrams of my data structures when debugging. I used to keep an editor open
     in a background window to do the former, but when my wrists started acting
@@ -43,23 +43,23 @@ Having a comfortable environment will help as well.
     programmers (which from my point of view is most programmers these days)
     may prefer to use an online note-taking app or something on their phone.
 
-5. A heavy mug for coffee or tea.
+A heavy mug for coffee or tea.
 :   I don't know why, but a styrofoam cup, or a normal teacup, just isn't as
     satisfying as a little hand-sized ceramic boulder. Maybe it satisfies my
     subconscious atavistic urge to whack my computer when it misbehaves…
 
-6. A toothbrush.
+A toothbrush.
 :   You'll feel better, you'll get sick less often, and your colleagues might
     stop suggesting that the team switch stick with virtual meetings even after
     lockdown ends.
 
-7. A squirt bottle of glass cleaner and a box of kleenex.
+A squirt bottle of glass cleaner and a box of kleenex.
 :   I can't stand smears on my screen. They drive me nuts. Whenever I'm showing
     something to someone, and they actually *touch my screen* instead of just
     pointing, I find myself reaching for that heavy mug… Then I take a breath
     and clean my screen.
 
-8. A rubber duck.
+A rubber duck.
 :   One of the creators of Unix kept a <span i="debugging!rubber duck; rubber
     duck debugging">rubber duck</span> next to his computer.  If a bug took more
     than a few minutes to track down, he put the duck on his desk and explained
@@ -68,7 +68,7 @@ Having a comfortable environment will help as well.
     you hadn't noticed while everything was just swirling around inside your
     head.
 
-9. A chess set, a deck of cards, or some knitting.
+A chess set, a deck of cards, or some knitting.
 :   I'm a very bad chess player. Luckily, so are most people, so it's usually
     possible to find someone at my level for a quick game at lunch.  Other
     programmers I know play euchre, or knit---a programmers' stitch and bitch
@@ -77,7 +77,7 @@ Having a comfortable environment will help as well.
     in the middle of the day than to say, "Must… keep…  coding…" and produce
     garbage that just has to be rewritten later.
 
-10. Pictures.
+Pictures.
 :   Everyone wants to feel at home; everyone wants to make wherever they are
     uniquely theirs. I hang a few postcards on the wall wherever I work, along
     with a photograph of my wife and daughter taken a few months after she was
