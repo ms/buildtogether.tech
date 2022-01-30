@@ -66,17 +66,13 @@ among professional developers.  If you're using anything in class, you're almost
 certainly using it, and it's probably helping you become a better programmer
 <cite>Hsing2019</cite>.
 
-<div class="callout" markdown="1">
-
-### Why can't we fix it?
-
-If Git's interface is a problem, why can't we build a new one?
-<cite>PerezDeRosso2016</cite> tried, but as they report, the gravity of the
-existing interface is simply too powerful: as soon as people run into a problem
-and start searching online for solutions, they're thrown back into the world of
-original Git.
-
-</div>
+> ### Why can't we fix it?
+>
+> If Git's interface is a problem, why can't we build a new one?
+> <cite>PerezDeRosso2016</cite> tried, but as they report, the gravity of the
+> existing interface is simply too powerful: as soon as people run into a problem
+> and start searching online for solutions, they're thrown back into the world of
+> original Git.
 
 This chapter won't try to teach you Git from scratch: [GitHub's
 guides][github-guides] and [the Atlassian Git tutorial][atlassian-git] do an
@@ -134,16 +130,12 @@ you're using one). Either way, this command creates a sub-directory called
 something a project: it stores the data Git uses to keep track of what files you
 have and how they've changed.
 
-<div class="callout" markdown="1">
-
-### Don't mess
-
-Don't edit the files in your `.git` directory yourself---it will have the same
-unfortunate effect as editing a spreadsheet or an image as if it was a text
-file. If you'd like to know more about what they're for and how Git uses them,
-please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
-
-</div>
+> ### Don't mess
+>
+> Don't edit the files in your `.git` directory yourself---it will have the same
+> unfortunate effect as editing a spreadsheet or an image as if it was a text
+> file. If you'd like to know more about what they're for and how Git uses them,
+> please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
 
 If your instructor or one of your teammates has already created a project, you
 won't use `git init`. Instead, you will use `git clone` followed by the
@@ -155,7 +147,7 @@ this:
 $ git clone https://github.com/gvwilson/buildtogether.tech.git
 ```
 
-{: .continue}
+<!-- continue -->
 This will create a directory with the same name as the project, create a `.git`
 sub-directory inside it, and download the project's history so that you can
 start work.
@@ -221,27 +213,23 @@ like:
 $ git commit -m "Made the status bar display the user name"
 ```
 
-{: .continue}
+<!-- continue -->
 Here, `commit` is the verb and the `-m` (short for "message") option is followed
 by the comment we want to save in the log.
 
-<div class="callout" markdown="1">
-
-### The most popular question on Stack Overflow
-
-If you use Git on the command line and you *don't* provide a message using the
-`-m` option, it will launch an editor so that you can write a longer message.
-This is a good thing, except that the default editor on most Unix systems is
-something called <span i="Vim editor!exiting">Vim</span>, whose interface is no
-more intuitive than Git's. (In fact, one of the most frequently-viewed questions
-on [Stack Overflow][stack-overflow] is "[How do I exit the Vim
-editor?][so-exit-vim]". Unsurprisingly, another <span
-i="Git!configuring">frequently-viewed question</span> on Stack Overflow is "[How
-do I make Git use the editor of my choice for my
-commits?][so-configure-git-editor]" One of the many reasons you should interact
-with Git through a GUI is to avoid this issue.
-
-</div>
+> ### The most popular question on Stack Overflow
+>
+> If you use Git on the command line and you *don't* provide a message using the
+> `-m` option, it will launch an editor so that you can write a longer message.
+> This is a good thing, except that the default editor on most Unix systems is
+> something called <span i="Vim editor!exiting">Vim</span>, whose interface is no
+> more intuitive than Git's. (In fact, one of the most frequently-viewed questions
+> on [Stack Overflow][stack-overflow] is "[How do I exit the Vim
+> editor?][so-exit-vim]". Unsurprisingly, another <span
+> i="Git!configuring">frequently-viewed question</span> on Stack Overflow is "[How
+> do I make Git use the editor of my choice for my
+> commits?][so-configure-git-editor]" One of the many reasons you should interact
+> with Git through a GUI is to avoid this issue.
 
 Before we run `git commit`, though, we need to tell Git which files we want to
 save in the commit, which we do using `git add`:
@@ -250,7 +238,7 @@ save in the commit, which we do using `git add`:
 $ git add version-control.md _data/glossary.yml
 ```
 
-{: .continue}
+<!-- continue -->
 <span i="Git!difference between add and commit">One way to think about
 this</span> is that `git add` puts things in a box to be shipped, while `git
 commit` actually sends the package. Git requires us to do this in two steps
@@ -261,32 +249,28 @@ then realize that some of them (like editor backup files or temporary files
 created by the compiler) shouldn't be saved, so we take them out before
 committing.
 
-<div class="callout" markdown="1">
-
-### Teach us to care and not to care
-
-You can tell Git to <span i="Git!ignoring files">ignore certain kinds of
-files</span> by putting their names, or patterns that match multiple names, in a
-file called `.gitignore`.  For example, the `.gitignore` file for this project
-includes:
-
-```txt
-*.pyc
-*~
-.DS_Store
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-__pycache__
-_site
-```
-
-Be careful not to put files containing passwords or <span g="api_key">API
-keys</span> for web services into version control: even if the repository is
-private now, it might be public in future, or the team might grow to include
-someone who shouldn't have access (<span x="security"/>).
-
-</div>
+> ### Teach us to care and not to care
+>
+> You can tell Git to <span i="Git!ignoring files">ignore certain kinds of
+> files</span> by putting their names, or patterns that match multiple names, in a
+> file called `.gitignore`.  For example, the `.gitignore` file for this project
+> includes:
+>
+> ```txt
+> *.pyc
+> *~
+> .DS_Store
+> .jekyll-cache
+> .jekyll-metadata
+> .sass-cache
+> __pycache__
+> _site
+> ```
+>
+> Be careful not to put files containing passwords or <span g="api_key">API
+> keys</span> for web services into version control: even if the repository is
+> private now, it might be public in future, or the team might grow to include
+> someone who shouldn't have access (<span x="security"/>).
 
 We can keep track of which changes haven't yet been added and which ones have
 using <span i="Git!showing status">`git status`</span>. If I run this command
@@ -311,7 +295,7 @@ Changes not staged for commit:
 	modified:   version-control.md
 ```
 
-{: .continue}
+<!-- continue -->
 The first paragraph titled "Changes to be committed" tells me which files I have
 asked Git to save using `git add`. The second paragraph, "Changes not staged for
 commit", shows that I have modified `version-control.md` (this chapter) since I
@@ -330,7 +314,7 @@ then run:
 $ git restore --source 2be70844 version-control.md
 ```
 
-{: .continue}
+<!-- continue -->
 I can also count backward from where I am now.  The most recent commit has the
 special <span i="Git!HEAD">symbolic name `HEAD`</span>; the expression `HEAD~1`
 means "the one before it", while `HEAD~2` goes back two commits and so
@@ -353,7 +337,7 @@ origin	https://github.com/gvwilson/buildtogether.tech.git (fetch)
 origin	https://github.com/gvwilson/buildtogether.tech.git (push)
 ```
 
-{: .continue}
+<!-- continue -->
 The `-v` option (short for "verbose") tells Git to print more than just the
 remote's name. The remote itself is called `origin`, and Git lists two URLs for
 it because in theory you can download (or "fetch") from one and upload (or
@@ -370,7 +354,7 @@ GitHub, I have to push them explicitly:
 $ git push origin main
 ```
 
-{: .continue}
+<!-- continue -->
 The verb is `push`; the word `origin` identifies where I want to send things,
 and the word `main` identifies the branch I'm on.  We'll discuss branches in the
 next section, but for now, you can run `git branch` to see which ones you have
@@ -388,19 +372,15 @@ work. They're also very useful operations if you're working on your own and
 using two or more computers (such as a personal laptop and your school's
 servers).
 
-<div class="callout" markdown="1">
-
-### Clean and build
-
-Many instructors require learners to submit work by committing it to a Git
-repository. One way to check that what works for you will work for whoever is
-grading it is to clone a fresh copy of the project in a temporary directory and
-make sure that everything builds and runs there. Doing that will tell you if you
-or one of your teammates has forgotten to commit a key file. In an advanced
-course, you might be asked to do this automatically every time someone commits
-changes; we'll explore this in <span x="tooling"/>.
-
-</div>
+> ### Clean and build
+>
+> Many instructors require learners to submit work by committing it to a Git
+> repository. One way to check that what works for you will work for whoever is
+> grading it is to clone a fresh copy of the project in a temporary directory and
+> make sure that everything builds and runs there. Doing that will tell you if you
+> or one of your teammates has forgotten to commit a key file. In an advanced
+> course, you might be asked to do this automatically every time someone commits
+> changes; we'll explore this in <span x="tooling"/>.
 
 ## A Branch-Based Workflow
 
@@ -428,7 +408,7 @@ When we initialize a repository, Git automatically creates a branch called
 $ git branch -m main
 ```
 
-{: .continue}
+<!-- continue -->
 immediately after running `git init`.  The <span i="Git!branch names">`main`
 branch</span> is usually considered the "official" version of the repository,
 i.e., the version of the project that should be graded or published for other
@@ -470,15 +450,11 @@ this point `main` and `homework3` are at the same point in the repository's
 history.  Commands like `ls` and `git log` therefore show that the files and
 history haven't changed.
 
-<div class="callout" markdown="1">
-
-### Where branches are saved
-
-Git saves every version of every file in the repository's `.git` directory.
-When we switch from one branch to another, it copies files out of there and
-rearranges directories to restore that state of the world.
-
-</div>
+> ### Where branches are saved
+>
+> Git saves every version of every file in the repository's `.git` directory.
+> When we switch from one branch to another, it copies files out of there and
+> rearranges directories to restore that state of the world.
 
 Why go to all this trouble?  Because it allows us to work on several things at
 once without stepping on our own toes, just as putting variables inside objects
@@ -499,7 +475,7 @@ i="Git!viewing differences">`git diff`</span> with those branches' names:
 $ git diff homework3..main
 ```
 
-{: .continue}
+<!-- continue -->
 More generally, we can use `git diff` to compare any two states of the
 repository, including old versions with current ones:
 
@@ -529,25 +505,21 @@ index 4c756f4..10efe1c 100755
      display(options, config, result)
 ```
 
-{: .continue}
+<!-- continue -->
 The output marks additions with a `+` and deletions with a `-`. A line that has
 changed is shown as a deletion followed by an addition, and the lines marked
 with `@@` show where in the file the change occurred.
 
-<div class="callout" markdown="1">
-
-### See the difference
-
-You have to be a bit of a masochist to read diffs like this; it's a lot easier
-using a <span i="Git!graphical interface">GUI</span> like
-[DiffMerge][diffmerge].  You can [use other tools to view diffs][git-difftool]
-between files that aren't plain text, but only if such tools exist. They don't
-for many common file formats: for example, there isn't an easy way to see the
-differences between two version of an SVG diagram or between two spreadsheets.
-If you are looking for projects to work on that people will actually use, these
-would be good ones.
-
-</div>
+> ### See the difference
+>
+> You have to be a bit of a masochist to read diffs like this; it's a lot easier
+> using a <span i="Git!graphical interface">GUI</span> like
+> [DiffMerge][diffmerge].  You can [use other tools to view diffs][git-difftool]
+> between files that aren't plain text, but only if such tools exist. They don't
+> for many common file formats: for example, there isn't an easy way to see the
+> differences between two version of an SVG diagram or between two spreadsheets.
+> If you are looking for projects to work on that people will actually use, these
+> would be good ones.
 
 Once we're sure we actually want to merge changes, we do so like this:
 
@@ -555,7 +527,7 @@ Once we're sure we actually want to merge changes, we do so like this:
 $ git merge homework3 main
 ```
 
-{: .continue}
+<!-- continue -->
 Git automatically creates a new commit to represent the merge.  If we now run
 `git diff main..homework3`, Git doesn't print anything because there aren't any
 differences to show.
@@ -633,26 +605,22 @@ some more work.  Each time we switch to it, we merge changes *from* `main`
 branches as needed to work on the code), and then merge *from* `homework4` *to*
 `main` once the documentation is updated.
 
-<div class="callout" markdown="1">
-
-### Rebasing
-
-One way to make the history of a repository easier to read is to squash several
-consecutive commits into one.  This is called <span g="rebase_git"
-i="Git!rebase; rebasing (in version control)">rebasing</span>, and can be done
-using:
-
-```sh
-$ git rebase -i START
-```
-
-{: .continue}
-where `START` identifies the commit *before* the ones you want to start merging
-(i.e., the last one *not* to modify). Rebasing can go wrong in a lot of
-confusing ways, particularly if you have merged changes from another branch into
-the one you're squashing, so we recommend that you avoid it for schoolwork.
-
-</div>
+> ### Rebasing
+>
+> One way to make the history of a repository easier to read is to squash several
+> consecutive commits into one.  This is called <span g="rebase_git"
+> i="Git!rebase; rebasing (in version control)">rebasing</span>, and can be done
+> using:
+>
+> ```sh
+> $ git rebase -i START
+> ```
+>
+> <!-- continue -->
+> where `START` identifies the commit *before* the ones you want to start merging
+> (i.e., the last one *not* to modify). Rebasing can go wrong in a lot of
+> confusing ways, particularly if you have merged changes from another branch into
+> the one you're squashing, so we recommend that you avoid it for schoolwork.
 
 Branches can be confused, but this <span i="Git!workflow; workflow (in
 Git)">workflow</span> will help you keep track of what you are doing:

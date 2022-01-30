@@ -15,25 +15,21 @@ Git repository in one of two ways <cite>Irving2021</cite>:
     repositories">fork</span> the main repository to create one that they own,
     do their work in that, and then submit their changes to the main repository.
 
-{: .continue}
+<!-- continue -->
 The first approach works well for teams of up to half a dozen people, so we will
 focus on it. If the project is larger, or if contributors are worried that they
 might make a mess in the `main` branch, the second approach is safer.
 
-<div class="callout" markdown="1">
-
-### When to commit
-
-When you're working on your own, it's natural to fall into a rhythm of updating
-your laptop from your repository in the morning and committing whatever you've
-managed to accomplish when you wrap up for the day. You need to break this habit
-when you become part of a team. Instead, <span i="version control!when to
-commit">you should commit</span> when you finish a chunk of work that moves the
-project forward or is fit for someone else to review. A good rule is "never
-break the build" (<span x="automation"/>), i.e., never commit anything that
-doesn't run well enough to pass all existing tests.
-
-</div>
+> ### When to commit
+>
+> When you're working on your own, it's natural to fall into a rhythm of updating
+> your laptop from your repository in the morning and committing whatever you've
+> managed to accomplish when you wrap up for the day. You need to break this habit
+> when you become part of a team. Instead, <span i="version control!when to
+> commit">you should commit</span> when you finish a chunk of work that moves the
+> project forward or is fit for someone else to review. A good rule is "never
+> break the build" (<span x="automation"/>), i.e., never commit anything that
+> doesn't run well enough to pass all existing tests.
 
 ## Using Git Together
 
@@ -88,7 +84,7 @@ To github.com:sami/bst.git
    f5f7d30..433a2d5  main -> main
 ```
 
-{: .continue}
+<!-- continue -->
 And no, <span i="Git!interface (indistinguishable from hoax)">Git's
 output</span> here isn't particularly useful to anyone except people who are
 debugging Git's internals.
@@ -124,14 +120,14 @@ To see this in action, suppose Sami wants to add their email address to
 sami:~/bst $ git checkout -b adding-email
 ```
 
-{: .continue}
+<!-- continue -->
 then make a change and commit it:
 
 ```sh
 sami:~/bst $ git commit -a -m "Adding my email address"
 ```
 
-{: .continue}
+<!-- continue -->
 (Notice that Sami uses the `-a` option to `git commit` to add all changes and
 commit them in a single step. This is both convenient and dangerous.)
 
@@ -181,15 +177,11 @@ two or more people are constantly making incompatible changes to the same files,
 they should discuss who's supposed to be doing what, or rearrange the project's
 contents so that they aren't stepping on each other's toes.
 
-<div class="callout" markdown="1">
-
-### Trust but verify
-
-<span x="automation"/> describes how to configure Git to run tests each time
-someone tries to commit a change.  The commit only takes effect if those tests
-pass, so the team can ensure that the software is always as good as its tests.
-
-</div>
+> ### Trust but verify
+>
+> <span x="automation"/> describes how to configure Git to run tests each time
+> someone tries to commit a change.  The commit only takes effect if those tests
+> pass, so the team can ensure that the software is always as good as its tests.
 
 ## Commit Messages
 
@@ -237,20 +229,16 @@ between team members: if you read someone else's code, you have a chance to
 learn all the things that you didn't know to ask and they didn't realize they
 should tell you.
 
-<div class="callout" markdown="1">
-
-### Do more eyes make for fewer bugs?
-
-Some people have claimed that many eyes make all bugs shallow (i.e., easy to
-find), but the evidence doesn't support that claim: <cite>Meneely2014</cite>
-reports that, "…source code files reviewed by more developers are,
-counter-intuitively, more likely to be vulnerable (even after accounting for
-file size). However, files are less likely to be vulnerable if they were
-reviewed by developers who had experience participating on prior
-vulnerability-fixing reviews." In short, *whose* eyes matters more than how
-many.
-
-</div>
+> ### Do more eyes make for fewer bugs?
+>
+> Some people have claimed that many eyes make all bugs shallow (i.e., easy to
+> find), but the evidence doesn't support that claim: <cite>Meneely2014</cite>
+> reports that, "…source code files reviewed by more developers are,
+> counter-intuitively, more likely to be vulnerable (even after accounting for
+> file size). However, files are less likely to be vulnerable if they were
+> reviewed by developers who had experience participating on prior
+> vulnerability-fixing reviews." In short, *whose* eyes matters more than how
+> many.
 
 There are lots of guides online for doing code reviews, most of them based on
 their authors' personal experience. A notable exception is the [SmartBear

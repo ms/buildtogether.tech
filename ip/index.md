@@ -123,16 +123,12 @@ and therefore need to be asked for approval when a license is changed.
 Similarly, changing a license does not change it retroactively, so different
 users may wind up operating under different licensing structures.
 
-<div class="callout" markdown="1">
-
-### Leave it to the professionals
-
-<span i="license!why not to write your own">Don't write your own license.</span>
-Legalese is a highly technical language, and words don't mean what you think
-they do.  What's more, it's often hard to understand the interactions between
-multiple licenses on different kinds of material <cite>Almeida2017</cite>.
-
-</div>
+> ### Leave it to the professionals
+>
+> <span i="license!why not to write your own">Don't write your own license.</span>
+> Legalese is a highly technical language, and words don't mean what you think
+> they do.  What's more, it's often hard to understand the interactions between
+> multiple licenses on different kinds of material <cite>Almeida2017</cite>.
 
 Just as the project's Code of Conduct is usually placed in a root-level file
 called <span i="CONDUCT file">`CONDUCT.md`</span>, its license is usually put in
@@ -156,16 +152,12 @@ i="GNU Public License (GPL); software license!GNU Public License (GPL)">GNU
 Public License</span> (GPL) gives people similar rights, but requires them to
 share their own work on the same terms:
 
-<blockquote markdown="1">
-
-You may copy, distribute and modify the software as long as you track
-changes/dates in source files.  Any modifications to or software including
-(via compiler) GPL-licensed code must also be made available under the GPL
-along with build and install instructions.
-
---- [tl;dr][tldr-gpl]
-
-</blockquote>
+> You may copy, distribute and modify the software as long as you track
+> changes/dates in source files.  Any modifications to or software including
+> (via compiler) GPL-licensed code must also be made available under the GPL
+> along with build and install instructions.
+>
+> --- [tl;dr][tldr-gpl]
 
 In other words, if someone modifies GPL-licensed software or incorporates it
 into their own project, and then distributes what they have created, they have
@@ -187,22 +179,18 @@ Rights">Universal Declaration of Human Rights</span>.  We have learned the hard
 way that software and science can be mis-used; adopting the Hippocratic License
 is a small step toward preventing this.
 
-<div class="callout" markdown="1">
-
-### What they really mean (part two)
-
-Just as some people in open source argued against codes of conduct ten years
-ago, some now argue that the Hippocratic License isn't a real open source
-license because of its "do no harm" requirement or because the Open Source
-Initiative hasn't approved it. The first argument ignores the fact that many
-other licenses put restrictions on use; the second argument is like saying, "It
-wasn't recorded in Nashville so it's not a real country song."  As with
-arguments against codes of conduct, what people are usually revealing is that
-they prefer a world in which programmers don't have to take responsibility for
-how the things they build are used, and would rather not have anyone set a
-precedent to the contrary.
-
-</div>
+> ### What they really mean (part two)
+>
+> Just as some people in open source argued against codes of conduct ten years
+> ago, some now argue that the Hippocratic License isn't a real open source
+> license because of its "do no harm" requirement or because the Open Source
+> Initiative hasn't approved it. The first argument ignores the fact that many
+> other licenses put restrictions on use; the second argument is like saying, "It
+> wasn't recorded in Nashville so it's not a real country song."  As with
+> arguments against codes of conduct, what people are usually revealing is that
+> they prefer a world in which programmers don't have to take responsibility for
+> how the things they build are used, and would rather not have anyone set a
+> precedent to the contrary.
 
 ## Creative Commons Licenses
 
@@ -246,13 +234,9 @@ usually referred two using the two-letter abbreviations listed below:
     it is fine in principle but in practice makes aggregation and recombination
     difficult.
 
-<div class="callout" markdown="1">
-
-### Why be open?
-
-<cite>Hippel2006</cite> reports that 85% of all interesting innovations in all
-industries come not from the suppliers but from the users.  The more open work
-is, the better able users are to tinker with it and do things that the first
-contributors would never have thought of trying.
-
-</div>
+> ### Why be open?
+>
+> <cite>Hippel2006</cite> reports that 85% of all interesting innovations in all
+> industries come not from the suppliers but from the users.  The more open work
+> is, the better able users are to tinker with it and do things that the first
+> contributors would never have thought of trying.

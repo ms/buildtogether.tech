@@ -31,7 +31,7 @@ game.exe : game.bc graphics.bc utils.bc
         tx -C $<
 ```
 
-{: .continue}
+<!-- continue -->
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
 the `tx` compiler with several options.  Below that is a <span i="Make!pattern
@@ -87,7 +87,7 @@ things like `npm run test`:
 }
 ```
 
-{: .continue}
+<!-- continue -->
 `package.json` files have two flaws: there is no standard way to write comments
 (since <span g="json">JSON</span> itself doesn't have this) and there is no way
 to express dependencies between tasks, i.e., there's no way to say, "A depends
@@ -137,21 +137,17 @@ project. Set up the build and make sure it works even when there isn't anything
 to compile, run, test, or copy. Now add something---anything.  Does the build
 still work? If it does, you're on your way.
 
-<div class="callout" markdown="1">
-
-### Never break the build
-
-Once you have a build system in place, never commit anything to version control
-that breaks the <span i="version control!and build manager; build manager!and
-version control">build</span>. This is one of the golden rules of working in a
-team: if your code won't compile, or doesn't pass whatever automated tests you
-have, then putting it into the repository means putting every other person on
-your team into exactly the same broken state you're in. When you're working on
-your own, it's OK to use version control as a way to transfer files from one
-machine to another, or as a way to back things up at the end of the day. Do
-*not* carry this habit over to teamwork.
-
-</div>
+> ### Never break the build
+>
+> Once you have a build system in place, never commit anything to version control
+> that breaks the <span i="version control!and build manager; build manager!and
+> version control">build</span>. This is one of the golden rules of working in a
+> team: if your code won't compile, or doesn't pass whatever automated tests you
+> have, then putting it into the repository means putting every other person on
+> your team into exactly the same broken state you're in. When you're working on
+> your own, it's OK to use version control as a way to transfer files from one
+> machine to another, or as a way to back things up at the end of the day. Do
+> *not* carry this habit over to teamwork.
 
 ## Checking Style
 
@@ -263,18 +259,14 @@ hooks</span> to your repository to specify actions to run on your machine before
 and after each commit. When I set these up, I almost always have them run
 commands via the build manager so that I can also run checks whenever I want.
 
-<div class="callout" markdown="1">
-
-### Getting past the dip
-
-Any new tool or practice initially makes you less productive, so if you're up
-against a deadline (as you almost always will be), the safest course of action
-is often to keep doing things the "wrong" way because there isn't time to learn
-how to do it more efficiently.  This is why I think that lab exams should be
-part of project courses, i.e., that you should be required to demonstrate to
-your instructor that you're able to use a build manager or a debugger.  People
-learn how to use version control because they're required to in order to submit
-work for grading; if you are required to submit a screen recording of you using
-particular tools as part of an assignment, it will help you in the long run.
-
-</div>
+> ### Getting past the dip
+>
+> Any new tool or practice initially makes you less productive, so if you're up
+> against a deadline (as you almost always will be), the safest course of action
+> is often to keep doing things the "wrong" way because there isn't time to learn
+> how to do it more efficiently.  This is why I think that lab exams should be
+> part of project courses, i.e., that you should be required to demonstrate to
+> your instructor that you're able to use a build manager or a debugger.  People
+> learn how to use version control because they're required to in order to submit
+> work for grading; if you are required to submit a screen recording of you using
+> particular tools as part of an assignment, it will help you in the long run.

@@ -105,16 +105,12 @@ filing an issue, they will often solve their own problem along the way.  We'll
 talk more about the value of minimal reproducible examples in <span
 x="debugging"/>.
 
-<div class="callout" markdown="1">
-
-### When to start saying "no"
-
-As we will see in <span x="process"/>, one purpose of a schedule is to tell you
-when to start cutting corners. Similarly, one of the main reasons to keep <span
-i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
-one place is to help you prioritize work when time starts to run short.
-
-</div>
+> ### When to start saying "no"
+>
+> As we will see in <span x="process"/>, one purpose of a schedule is to tell you
+> when to start cutting corners. Similarly, one of the main reasons to keep <span
+> i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
+> one place is to help you prioritize work when time starts to run short.
 
 ## Labeling Issues
 
@@ -219,18 +215,14 @@ searching. The second point is as important as the first: if you can't go back
 and find out what was said a month ago---or, just as importantly, if someone
 *else* can't do that---you might as well not have said it.
 
-<div class="callout" markdown="1">
-
-### Filters are your friend
-
-Every email client allows you to set up <span g="mail_filter"
-i="email!filters">filters</span> that automatically flag messages matching
-certain patterns or file them in particular mailboxes. I have fourteen of these
-set up right now to organize messages belonging to particular projects; it only
-took a couple of minutes, and it means that when I check mail in the morning or
-after lunch, everything is set up for me to focus on one topic at a time.
-
-</div>
+> ### Filters are your friend
+>
+> Every email client allows you to set up <span g="mail_filter"
+> i="email!filters">filters</span> that automatically flag messages matching
+> certain patterns or file them in particular mailboxes. I have fourteen of these
+> set up right now to organize messages belonging to particular projects; it only
+> took a couple of minutes, and it means that when I check mail in the morning or
+> after lunch, everything is set up for me to focus on one topic at a time.
 
 <span i="software portal!communication tools">Software portals</span> provide
 many other ways to communicate, which project members use in a wide variety of
@@ -262,32 +254,28 @@ i="GitHub Pages">[GitHub Pages][github-pages]</span> using a tool called <span
 i="Jekyll; static site generator!Jekyll">[Jekyll][jekyll]</span>; lots of
 different themes are available, and there are many good tutorials online.
 
-<div class="callout" markdown="1">
-
-### Comments as communication
-
-People don't usually think of <span i="comments!as communication;
-communication!comments">comments</span> as a form of communication like email or
-instant messaging, but if they are used properly, the only significant
-difference is that the comments are right there in the code where the recipients
-can't miss them rather than in an archive somewhere that they'll have to go and
-search.  If you choose names for functions and variables carefully, the code
-itself will explain what it's doing when someone reads it aloud; the comments
-should therefore explain *why*, just as you would in an email.  For example,
-this is not a useful comment:
-
-```py
-x = x[1:] # take all but first element of list
-```
-
-{: .continue}
-This, on the other hand, tells the next person why we're doing it:
-
-```py
-threads = threads[1:] # We are already running the first thread, so save the others.
-```
-
-</div>
+> ### Comments as communication
+>
+> People don't usually think of <span i="comments!as communication;
+> communication!comments">comments</span> as a form of communication like email or
+> instant messaging, but if they are used properly, the only significant
+> difference is that the comments are right there in the code where the recipients
+> can't miss them rather than in an archive somewhere that they'll have to go and
+> search.  If you choose names for functions and variables carefully, the code
+> itself will explain what it's doing when someone reads it aloud; the comments
+> should therefore explain *why*, just as you would in an email.  For example,
+> this is not a useful comment:
+>
+> ```py
+> x = x[1:] # take all but first element of list
+> ```
+>
+> <!-- continue -->
+> This, on the other hand, tells the next person why we're doing it:
+>
+> ```py
+> threads = threads[1:] # We are already running the first thread, so save the others.
+> ```
 
 ## Reporting Up
 
@@ -319,24 +307,20 @@ similar guide to [giving a status update to executives][kaplan-moss-executives],
 and [Ask a Manager][ask-a-manager] is full of good advice and discussion as
 well. If you follow those guidelines, you get briefs like this:
 
-<blockquote markdown="1">
-
-Project X is running smoothly. We're making steady progress: we've delivered a
-bit over half of the features on our roadmap, and we're on track to launch
-publicly in May.
-
-I want to particularly highlight J's design work; every time we share a new
-demo with our user research group they rave over how much they love the
-design.
-
-We do have some cost risk: right now, the code's pretty inefficient and would
-require us to increase our AWS spend by 25% when we put this into
-production. We either need to decide that cost is acceptable, or add some
-extra time to the schedule for performance optimization. I need some guidance
-from this team on that point: can you folks let me know if that cost seems OK
-or not?
-
-</blockquote>
+> Project X is running smoothly. We're making steady progress: we've delivered a
+> bit over half of the features on our roadmap, and we're on track to launch
+> publicly in May.
+>
+> I want to particularly highlight J's design work; every time we share a new
+> demo with our user research group they rave over how much they love the
+> design.
+>
+> We do have some cost risk: right now, the code's pretty inefficient and would
+> require us to increase our AWS spend by 25% when we put this into
+> production. We either need to decide that cost is acceptable, or add some
+> extra time to the schedule for performance optimization. I need some guidance
+> from this team on that point: can you folks let me know if that cost seems OK
+> or not?
 
 If you learn how to summarize your status like this, you will be a very popular
 team member.
@@ -367,7 +351,7 @@ examples of good one-line docstrings include:
 -   "Clip signals to lie in [0...1]."
 -   "Reduce the red component of each pixel."
 
-{: .continue}
+<!-- continue -->
 You can tell our one-liners are useful if you can read them aloud in the order
 the functions are called in place of the function's name and parameters.
 
