@@ -263,7 +263,7 @@ the original fixture, then subsets of those subsets, to produce a minimal
 
 The tools described above will make you more productive, but sooner or later
 you're going to have to track a bug down yourself.
-A <span g="symbolic_debugger">symbolic debugger i="debugging!symbolic debugger; symbolic debugger"</span>
+A <span g="symbolic_debugger" i="debugging!symbolic debugger; symbolic debugger">symbolic debugger</span>
 is a program that allows you to
 control and inspect the execution of another program. Some, like [GDB][gdb], are
 standalone programs; others are built into IDEs, but they all have the same
