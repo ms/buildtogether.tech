@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Having the right tools on your computer will help you be more productive.
@@ -27,7 +28,7 @@ Having a comfortable environment will help as well.
 3. A good microphone.
 :   You can have a very productive meeting with video turned off, but if you
     don't have decent audio you're sunk. It's therefore worth investing in a
-    decent <span i="microphone">microphone<span>. Mine cost me forty dollars; I
+    decent <span i="microphone">microphone</span>. Mine cost me forty dollars; I
     spent another twelve dollars to get a gooseneck stand to keep it ten
     centimeters away from both my keyboard and my mouth.
 

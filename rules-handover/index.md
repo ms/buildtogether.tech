@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Thousands of books have been written about how to start projects, but only a

@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 In most courses you never have to work on an assignment again once you submit
@@ -25,7 +26,7 @@ At a minimum, your finished project should have:
 
 1.  An architectural overview, including a block diagram of the major components
     and a walkthrough of how it behaves.  (I prefer the <span i="use-case
-    map">use-case maps</span> introduced in <span x="design"/> for this.)
+    map">use-case maps</span> introduced in <a section="design"/> for this.)
 
 1.  An installation guide.
 
@@ -35,8 +36,8 @@ At a minimum, your finished project should have:
     question) well enough for someone to know where to start work.
 
 Another possible deliverable is a <span i="package!as course
-deliverable">package</span> that other people can download and install (<span
-x="design"/>). It isn't an either/or choice: every good package has a home page,
+deliverable">package</span> that other people can download and install
+(<a section="design"/>). It isn't an either/or choice: every good package has a home page,
 installation instructions, and so on.
 
 > ## Bugs
@@ -69,9 +70,9 @@ exactly what version you're working on at any time, where it came from, and
 where it's going.
 
 The usual way to do this is with <span g="version_number" i="version
-numbers">version numbers</span>.  Most projects these days use <span
-g="semantic_versioning" i="semantic versioning; version numbers!semantic
-versioning">semantic versioning</span>; when you see a number like "6.2.3.1407"
+numbers">version numbers</span>.  Most projects these days use
+<span g="semantic_versioning" i="semantic versioning; version numbers!semantic versioning">semantic versioning</span>;
+when you see a number like "6.2.3.1407"
 attached to a piece of software, it generally means:
 
 -   major version 6
@@ -157,8 +158,8 @@ An introduction that orients the reader.
     *next* team will need in order to continue the project.
 
 A summary of what was accomplished.
-:   This should not just summarize the analysis & estimation (<span
-    x="process"/>), although that's a good place to start. Instead, it should
+:   This should not just summarize the analysis & estimation
+    (<a section="process"/>), although that's a good place to start. Instead, it should
     describe the system's architecture, any features of its data formats, class
     structure, or UI that won't immediately make sense to a knowledgeable
     observer, and so on (span x="design"/>). As with the introduction, the
@@ -175,8 +176,8 @@ An evaluation of the project.
     never do again?  Don't bother including generic statements about the
     importance of version control; instead, conduct a proper post mortem (as
     described below) and present as honest a summary of its findings as
-    possible.  (The checklists in <span x="project-eval"/> and <span
-    x="personal-eval"/> may be useful starting points.)
+    possible.  (The checklists in <a section="project-eval"/> and
+    <a section="personal-eval"/> may be useful starting points.)
 
 References.
 :   Include books, papers, and links the team found helpful so that whoever
@@ -222,8 +223,8 @@ as much as they help:
 
 For these reasons, most teams format their reports as a set of <span
 i="Markdown!for final report">Markdown</span> pages under version control and
-use a <span i="static site generator">static site generator</span> (<span
-x="communicate"/>) to turn them into a report. That solves the problem of
+use a <span i="static site generator">static site generator</span>
+(<a section="communicate"/>) to turn them into a report. That solves the problem of
 multiple authors (Markdown is a text format, so diff and merge will work), and
 if you know a little CSS, you can make it look as pretty as you want. Diagrams
 and screenshots work well, and you can embed <span
@@ -254,7 +255,7 @@ by giving everyone a chance to reflect on what they've just accomplished. It is
 *not* to shame people, but it can be hard to critique someone's work without
 them taking it personally, so post mortems add a few extra rules to the ones
 introduced for <span i="meetings!extra rules for post mortems">meetings</span>
-in <span x="important"/>:
+in <a section="important"/>:
 
 Get a moderator who wasn't part of the project.
 :   Someone who doesn't have a stake in the project should run the meeting.

@@ -1,7 +1,45 @@
 ---
+template: page.html
 ---
 
-{% include intro.md %}
+Three books changed my life as a programmer. <cite>Kernighan1981</cite> taught
+me that I could do more than just write software---I could *design* it---while
+<cite>Glass2002</cite> taught me that we could investigate software and software
+development scientifically, and by doing so discover what actually works and
+what doesn't.
+
+In between those two books I read <cite>Hunt1999</cite>, as did many other
+programmers of my generation. For many of us, it was the first time someone had
+described the craft of software construction in a way that made sense. When I
+began supervising undergraduate projects at the University of Toronto in the
+early 2000s, I referred to it over and over again.
+
+Looking at it and at its twentieth anniversary edition <cite>Thomas2019</cite>,
+I am struck by how useful it continues to be, but also by what it *doesn't*
+discuss.  How do you run a meeting in a way that ensures decisions actually get
+made and everyone is heard?  After working in tech for forty years, I believe
+that is the most important skill I ever learned.  Why and how do tech companies
+build products that people don't want? Why do they marginalize women, people of
+color, and members of the LGBT community despite all the evidence showing that
+more diverse teams are more productive?  And given how online platforms have
+fueled radicalization and disinformation in ways that threaten us all, shouldn't
+every guide to being a better programmer at least mention the problem?
+
+If you are an undergraduate student embarking on a semester-long software
+project as part of a team, this book will give you tools that will help you
+succeed.  Some of these are purely technical, like a version control system or
+an IDE; others are guidelines to help you form teams, manage people who aren't
+pulling their weight, cut features when time runs short, and understand who owns
+the things you produce.
+
+Our aim is to teach you how to be a *compassionate programmer*: one who cares as
+much about the well-being of their colleagues and users as they do about their
+own.  This focus is not entirely altruistic---everything you do to help others
+also helps your future self---but now that we all know how much harm software
+can do, we hope you'll be interested in some practical idealism.
+
+*All proceeds from this project will go to support
+the [Red Door Family Shelter][red-door-shelter].*
 
 ## Audience
 
@@ -98,7 +136,21 @@ change too.
 
 ## Using and Contributing
 
-{% include contributing.md %}
+All of the written material on this site is made available under the Creative
+Commons - Attribution - NonCommercial 4.0 International license (CC-BY-NC-4.0),
+while the software is made available under the Hippocratic License.  The first
+allows you to use and remix this material for non-commercial purposes, as-is or
+in adapted form, provided you cite its original source; the second allows you to
+use and remix the software on this site provided you do not violate
+international agreements governing human rights. Please see <a section="license"/>
+for details.
+
+If you would like to improve what we have or add new material, please see the
+Code of Conduct in <a section="conduct"/> and the contributor guidelines in
+<a section="contributing"/>.  If you have questions or would like to use this material in
+a course, please file an issue in [this site's GitHub
+repository](https://github.com/{{site.repository}}) or [send us
+email](mailto:{{site.author.email}}).
 
 ## Acknowledgments
 
@@ -114,14 +166,53 @@ everyone who took part in <span i="UCOSP">UCOSP</span>
 <cite>Holmes2014,Holmes2018</cite>.
 
 I have tried to base recommendations on empirical software engineering research
-(<span x="research"/>) and on the science of teaching and learning (<span
-x="thinking"/>). Where those don't have answers, I have drawn on the experience
+(<a section="research"/>) and on the science of teaching and learning
+(<a section="thinking"/>). Where those don't have answers, I have drawn on the experience
 of the students and programmers mentioned below.  Any errors, omissions, or
 misunderstandings that remain are entirely our fault.
 
-<div class="latex" command="\vspace{\baselineskip}"/>
-
-{% include thanks.html table=true %}
+- [Bram Adams](https://mcis.cs.queensu.ca/bram.html)
+- [Rohan Alexander](https://rohanalexander.com/)
+- [Tavish Armstrong](http://tavisharmstrong.com/)
+- [Titus Barik](https://www.barik.net/)
+- [Robert Beghian](http://www.vasken.ca/)
+- [Yanina Bellini Saibene](https://yabellini.netlify.app/)
+- [Neil Brown](https://twistedsquare.com/)
+- [Jordi Cabot](https://jordicabot.com/)
+- [Silvia Canelón](https://silvia.rbind.io/)
+- Francisco Canas
+- [Mike Conley](https://mikeconley.ca/)
+- [Michael DiBernardo](https://mikedebo.com/)
+- [Isaac Ezer](http://www.isaacezer.com/)
+- [Ian Flores Siaca](https://ianfs.dev/)
+- [Adam Goucher](https://adam.goucher.ca/)
+- [Mustafa Haddara](https://twitter.com/MustafaHaddara/)
+- [Johan Harjono](http://johanharjono.com/)
+- [Kate Hertweck](https://katehertweck.com/)
+- [Daniel Jackson](https://people.csail.mit.edu/dnj/)
+- [Jacob Kaplan-Moss](https://jacobian.org/)
+- [Ritu Kapur](https://sites.google.com/view/ritu-kapur)
+- [Zain Kazmi](https://zainhkazmi.github.io/)
+- [Laurie MacDougall Sookraj](https://www.linkedin.com/in/lauriemacdougallsookraj/)
+- [Darren McElligott](https://www.linkedin.com/in/darren-mcelligott-07689473/)
+- [Kim Moir](https://kimmoir.blog/)
+- [Natalia Morandeira](https://nmorandeira.netlify.app/)
+- [Meiyappan Nagappan](https://cs.uwaterloo.ca/~m2nagapp/)
+- [Iain Parris](https://parris.org/)
+- [Elizabeth Patitsas](https://patitsas.github.io/)
+- [Andrew Petersen](https://utmandrew.bitbucket.io/)
+- [Andrey Petrov](https://shazow.net/)
+- [Andrew Potapov](https://www.andrewpotapov.com/)
+- [Lutz Prechelt](http://www.mi.fu-berlin.de/w/Main/LutzPrechelt)
+- [Yim Register](https://students.washington.edu/yreg/)
+- [Evan Schultz](https://evanjustevan.com/)
+- [Alex Serebrenik](https://www.win.tue.nl/~aserebre/)
+- [Naaz Sibia](https://www.linkedin.com/in/naaz-sibia/)
+- [Andreas Stefik](https://web.cs.unlv.edu/stefika/)
+- Rory Tulk
+- [Blake Winton](https://bwinton.latte.ca/)
+- [Andy Zaidman](https://azaidman.github.io/)
+- [Andreas Zeller](https://andreas-zeller.info/)
 
 Portions of this book are adapted from material that originally appeared in
 <cite>Sholler2019,Wilson2019,Irving2021,Smalls2021</cite>; I'm grateful to <span

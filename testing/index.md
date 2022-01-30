@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 A friend of mine once told me that she could write any application I wanted in
@@ -25,7 +26,7 @@ A unit test will typically have:
     test!fixture">fixture</span>, which is the thing being tested (e.g., an
     array of numbers). The fixture is typically a subset or smaller version of
     the data the function will typically process. In fact, it should be a reprex
-    (<span x="communicate"/>), i.e., exactly the same kind of minimal example
+    (<a section="communicate"/>), i.e., exactly the same kind of minimal example
     you would post online if you were asking for help.
 
 -   An <span g="actual_result" i="actual result (in unit test); unit test!actual
@@ -37,7 +38,7 @@ A unit test will typically have:
     compared to.
 
 Good programmers often run informal unit tests interactively when debugging
-(<span x="tooling"/>), but they are much more valuable when they can be re-run
+(<a section="tooling"/>), but they are much more valuable when they can be re-run
 at a moment's notice to make sure that the most recent changes haven't broken
 anything that was working a few minutes ago.  To do this, you can use a <span
 g="test_framework" i="test framework; unit test!test framework">test
@@ -57,7 +58,7 @@ directory whose names match the pattern `test_*.py`.  It then runs the test
 functions it finds in these files and summarizes their results.
 
 If running all the tests is taking so long that it's disrupting your <span
-i="flow">flow</span> (<span x="important"/>), you can give `pytest` (and other
+i="flow">flow</span> (<a section="important"/>), you can give `pytest` (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
 development, but you should always re-run the entire <span g="test_suite"
 i="test suite; unit test!test suite">test suite</span> before committing your
@@ -80,7 +81,7 @@ second time around.
 > test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
 > standard part of most testers' repertoire <cite>Zeller2019</cite>.  Despite
 > this, <cite>Miller2020</cite> found that thirty years later, programs are still
-> failing at about the same rate and for the same reasons.  <span x="debugging"/>
+> failing at about the same rate and for the same reasons.  <a section="debugging"/>
 > discusses a technique for making fuzz testing even more useful.
 
 ## Design for Testability

@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Give your project 1 for each "yes", 0 for each "no", and -1 for "I don't know"

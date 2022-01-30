@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 To survive and thrive, a community must attract and retain new members and help
@@ -40,8 +41,8 @@ how to do this.
     <cite>Cohen2018</cite>.  Large, well-established projects that incorporate
     as non-profits are required to promulgate bylaws; smaller projects should
     have some explicit <span i="governance">governance</span> that explains who
-    gets a say in what and how to become someone whose vote counts (<span
-    x="important"/>).
+    gets a say in what and how to become someone whose vote counts
+    (<a section="important"/>).
 
 4. Keep knowledge up to date and findable.
 :   A single project may use wikis, files in GitHub, shared Google Docs, old
@@ -55,7 +56,7 @@ how to do this.
     mark outdated information.
 
 5. Have and enforce a <span i="Code of Conduct">Code of Conduct</span>.
-:   We discussed this rule in <span x="starting"/>, but it bears repeating here.
+:   We discussed this rule in <a section="starting"/>, but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates
     <cite>Gruenert2015</cite>, and every instance of bad behavior will drive
     current and potential contributors away.

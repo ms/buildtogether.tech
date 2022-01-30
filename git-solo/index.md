@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 <span i="version control!reasons to use">Version control</span> is the
@@ -56,8 +57,8 @@ So why do people keep using <span i="Git!reasons for popularity">Git</span>? The
 answer these days is, "Because it's the tax they have to pay in order to use
 [GitHub][github]." At the time of writing, GitHub has over 40 million users and
 hosts over 28 million public repositories, including those for many well-known
-open source projects. It is easily the most popular <span i="software
-portal!GitHub" g="software_portal">software portal</span> in existence, and
+open source projects. It is easily the most popular
+<span g="software_portal" i="software portal!GitHub">software portal</span> in existence, and
 offers all of the tools a small software team needs. Other portals exist, such
 as <span i="Bitbucket; software portal!Bitbucket">[Bitbucket][bitbucket]</span>
 and <span i="GitLab; software portal!GitLab">[GitLab][gitlab]</span>, but
@@ -78,11 +79,11 @@ This chapter won't try to teach you Git from scratch: [GitHub's
 guides][github-guides] and [the Atlassian Git tutorial][atlassian-git] do an
 excellent job of that, as does [the Carpentries lesson on Git][carpentries-git].
 Instead, we will review the basics that we hope you have learned previously,
-then look at how to use Git and GitHub to collaborate in <span x="git-team"/>.
+then look at how to use Git and GitHub to collaborate in <a section="git-team"/>.
 We will show the commands as if you were running them in the Unix shell, but we
 recommend that you use a <span i="Git!graphical interface">graphical
 interface</span> like [GitKraken][gitkraken], [SourceTree][sourcetree], or the
-one that comes with your <span i="IDE">IDE</span> (<span x="tooling"/>). These
+one that comes with your <span i="IDE">IDE</span> (<a section="tooling"/>). These
 are layered on top of the commands we are going to discuss, so they (should) all
 work the same way.
 
@@ -198,7 +199,7 @@ Each entry has:
 
 -   A short comment called a <span g="commit_message" i="commit message (version
     control); Git!commit message">commit message</span> that tells us what this
-    change is all about. We will take a look in <span x="git-team"/> at how to
+    change is all about. We will take a look in <a section="git-team"/> at how to
     write a good commit message; for now, just remember that if you and your
     teammates have made a hundred changes to the project over the course of ten
     or twelve weeks, you're going to want something more informative than "Fixed
@@ -270,7 +271,7 @@ committing.
 > Be careful not to put files containing passwords or <span g="api_key">API
 > keys</span> for web services into version control: even if the repository is
 > private now, it might be public in future, or the team might grow to include
-> someone who shouldn't have access (<span x="security"/>).
+> someone who shouldn't have access (<a section="security"/>).
 
 We can keep track of which changes haven't yet been added and which ones have
 using <span i="Git!showing status">`git status`</span>. If I run this command
@@ -325,9 +326,9 @@ intact.
 Finally, I should make sure there's a second physical copy of my work so that if
 my drive fails or my laptop is stolen I don't lose everything I've done. If I
 created the repository by cloning something on GitHub, then Git will
-automatically have created a bookmark called a <span i="Git!remote; remote (in
-Git)" g="remote_git">remote</span> that points at the original repository. I can
-get a list of remotes like this:
+automatically have created a bookmark called a
+<span g="remote_git" i="Git!remote; remote (in Git)">remote</span> that points
+at the original repository. I can get a list of remotes like this:
 
 ```sh
 $ git remote -v
@@ -380,16 +381,16 @@ servers).
 > make sure that everything builds and runs there. Doing that will tell you if you
 > or one of your teammates has forgotten to commit a key file. In an advanced
 > course, you might be asked to do this automatically every time someone commits
-> changes; we'll explore this in <span x="tooling"/>.
+> changes; we'll explore this in <a section="tooling"/>.
 
 ## A Branch-Based Workflow
 
 So far we have only used a sequential timeline with Git: each change builds on
 the one before, and *only* on the one before.  However, there are times when we
-want to work on several things at once.  To do this, we can use <span i="branch
-(in Git); Git!branch" g="branch_git">branches</span> to work on separate tasks
-in parallel.  Each branch is like a parallel timeline: changes made to one
-branch have no effect on other branches unless and until we explicitly merge
+want to work on several things at once.  To do this, we can use
+<span g="branch_git" i="branch (in Git); Git!branch">branches</span> to work on
+separate tasks in parallel.  Each branch is like a parallel timeline: changes made
+to one branch have no effect on other branches unless and until we explicitly merge
 them.
 
 We can see what branches exist in a repository like this:

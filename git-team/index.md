@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 <span i="version control!collaboration">Version control</span> really comes into
@@ -28,7 +29,7 @@ might make a mess in the `main` branch, the second approach is safer.
 > when you become part of a team. Instead, <span i="version control!when to
 > commit">you should commit</span> when you finish a chunk of work that moves the
 > project forward or is fit for someone else to review. A good rule is "never
-> break the build" (<span x="automation"/>), i.e., never commit anything that
+> break the build" (<a section="automation"/>), i.e., never commit anything that
 > doesn't run well enough to pass all existing tests.
 
 ## Using Git Together
@@ -98,9 +99,9 @@ sami:~/bst $ git pull origin main
 
 But what if Sami is working on some changes to homework 4 (which homework 5
 builds on)? She could just make her changes and push, but that would lead to a
-lot of merge conflicts.  Instead, almost everyone uses <span i="pull request;
-Git!pull request" g="pull_request">pull requests</span> (PR).  A PR is
-essentially a note saying, "Someone would like to merge branch A into branch B".
+lot of merge conflicts.  Instead, almost everyone uses
+<span g="pull_request" i="pull request; Git!pull request">pull requests</span> (PR).
+A PR is essentially a note saying, "Someone would like to merge branch A into branch B".
 The PR does not contain the changes, but instead points at two particular
 branches.  That way, the difference displayed is always up to date if either
 branch changes.
@@ -179,7 +180,7 @@ contents so that they aren't stepping on each other's toes.
 
 > ### Trust but verify
 >
-> <span x="automation"/> describes how to configure Git to run tests each time
+> <a section="automation"/> describes how to configure Git to run tests each time
 > someone tries to commit a change.  The commit only takes effect if those tests
 > pass, so the team can ensure that the software is always as good as its tests.
 
@@ -187,8 +188,8 @@ contents so that they aren't stepping on each other's toes.
 
 A [DuckDuckGo][duckduckgo] search for "how to write a good <span i="Git!commit
 message">commit message</span>" turns up several thousand articles. Most are
-variations on the sample shown below; as with programming style (<span
-x="research"/>), the most important thing is being consistent rather than the
+variations on the sample shown below; as with programming style
+(<a section="research"/>), the most important thing is being consistent rather than the
 particular rules you follow.
 
 ```txt
@@ -255,7 +256,7 @@ Have the instructor do a demonstration review.
 Authors should clean up code before review.
 :   If the person creating the PR goes through and adds some more comments,
     cleans up some variable names, and does a bit of <span i="refactoring!for
-    code review">refactoring</span> (<span x="design"/>), they won't just make
+    code review">refactoring</span> (<a section="design"/>), they won't just make
     reviewing easier: the odds are very good that they will find and fix a few
     problems on their own.
 
@@ -265,7 +266,7 @@ Review at most 200 lines of a code at a time.
     our experience it's better to start with something smaller and work up to
     that.  A corollary of this rule is that no PR should be more than 200 lines
     long.  If one is, the odds are that reviewers won't be able to hold it all
-    in their head at once (<span x="thinking"/>) and so will miss things.
+    in their head at once (<a section="thinking"/>) and so will miss things.
 
 Use checklists.
 :   <cite>Gawande2011</cite> popularized the idea that using <span
@@ -320,8 +321,8 @@ Don't tolerate rudeness.
     you are, you probably don't need to be told that, and if you aren't, those
     two works alone won't change your behavior. What *will* is teammates
     defending the victims of rudeness by telling the offender, "That's not how
-    we speak to each other."  We'll talk about this more in <span
-    x="fairness"/>.
+    we speak to each other."  We'll talk about this more in
+    <a section="fairness"/>.
 
 How we <span i="code review!responding to">respond</span> to reviews is just as
 important:
@@ -336,9 +337,28 @@ Thank your reviewers.
     doing it.
 
 So what does a code review actually look like? Here's a Python program that
-searches for duplicated files. <span t="collaborate-code-review"/> shows the
+searches for duplicated files. <a table="collaborate-code-review"/> shows the
 comments I left when reviewing it.
 
-{% include file file="dup.py" %}
+<div class="include" file="dup.py"/>
 
-{% include table id="collaborate-code-review" file="code-review.tbl" cap="Code Review" %}
+<div class="table" id="collaborate-code-review" cap="Code Review">
+| Line(s) | Comment |
+| ------- | ------- |
+| 02      | Add a <span g="docstring">docstring</span> describing the program. |
+| 03      | Put imports in alphabetical order. |
+| 07      | Use a set instead of a list for faster lookup. |
+|         | One entry per line will be easier to read. |
+| 09      | `SENSES` isn't used anywhere: delete. |
+| 12      | Add a docstring describing this function. |
+| 12-22   | Use `argparse` to handle options. |
+| 12-22   | Put option handling in its own function. |
+| 17      | Print error message to `sys.stderr`. |
+| 33      | Add a docstring describing this function. |
+| 34-39   | Use `any` instead of a loop to check this. |
+| 41      | <span g="magic_number">Magic number</span> 10. |
+| 41      | Provide option to control progress reporting. |
+| 47      | Use `'rb'` to read files as binary. |
+| 57      | Add a docstring describing this function. |
+| 60      | Why `paths.pop()`? |
+</div>

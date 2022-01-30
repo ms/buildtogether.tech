@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Tech gurus like Musk, Bezos, and Zuckerberg don't actually want to
@@ -77,7 +78,7 @@ you'd like to know more <cite>Brown2007</cite> and
 
 9. Learn how to run meetings.
 :   You don't have to be a great public speaker, but you won't accomplish much
-    if you don't know how to run a meeting <span x="important"/>.
+    if you don't know how to run a meeting <a section="important"/>.
 
 10. Celebrate when you can, grieve when you need to.
 :   [Burnout][thirdbit-burnout] is an occupational hazard for everyone trying to

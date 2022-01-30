@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 This <span i="onboarding checklist">onboarding checklist</span> was

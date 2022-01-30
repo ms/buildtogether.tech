@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Tools don't just help us do things more easily; they shape what we consider
@@ -12,7 +13,7 @@ However, I focus on tools when talking to students because they are more
 tangible: it's easier to tell if someone is using version control or a style
 checker than it is to tell if they're designing or estimating sensibly.
 
-<span x="automation"/> introduced build managers, style checkers, and profilers;
+<a section="automation"/> introduced build managers, style checkers, and profilers;
 the sections below discuss some other tools you might want in your toolbox.  You
 shouldn't try to adopt all of them in a single semester unless the focus of your
 project course is to try out as many tools as possible (which is actually a good
@@ -37,11 +38,10 @@ i="C">C</span> optimized the machine's.
 
 Today, the balance has shifted in favor of higher-level languages. One reason is
 that processors have gotten faster but people haven't, so one programmer-hour is
-worth many more computer-hours than before. Another reason is that <span
-i="just-in-time compiler" g="jit">just-in-time compilers</span> (JITs) and
-<span i="generational garbage collection; garbage collection!generational"
-g="generational_garbage_collection">generational garbage collection</span> have
-made higher-level languages intrinsically faster. The biggest, though, is that
+worth many more computer-hours than before. Another reason is that
+<span g="jit" i="just-in-time compiler">just-in-time compilers</span> (JITs) and
+<span g="generational_garbage_collection" i="generational garbage collection; garbage collection!generational">generational garbage collection</span>
+have made higher-level languages intrinsically faster. The biggest, though, is that
 the execution time of a modern application depends less on squeezing cycles out
 of processors than it used to. The bottleneck in a web site is almost always
 network latency or the time required to perform database operations; your code
@@ -68,9 +68,8 @@ Static typing helps, but only a little.
 :   A <span g="static_typing" i="static typing; typing!static; programming
     language!statically typed">statically-typed</span> language like <span
     i="Java">Java</span> requires programmers to specify the data type of each
-    variable; a <span i="dynamic typing; typing!dynamic; programming
-    language!dynamically typed" g="dynamic_typing">dynamically-typed</span> one
-    like <span i="Python">Python</span> doesn't require them, though you can add
+    variable; a <span g="dynamic_typing" i="dynamic typing; typing!dynamic; programming language!dynamically typed">dynamically-typed</span>
+    one like <span i="Python">Python</span> doesn't require them, though you can add
     them if you want, while <span i="TypeScript">TypeScript</span> adds types as
     a layer on top of <span i="JavaScript">JavaScript</span>.
     <cite>Endrikat2014</cite> found that declaring types does add complexity to
@@ -150,7 +149,7 @@ Keep an eye on security updates.
 > operating system on top of another to create a <span g="virtual_machine"
 > i="virtual machine">virtual machine</span> (VM) that is isolated from everything
 > beneath it.  It and other tools like it are used by most cloud computing
-> services and to run continuous integration systems (<span x="automation"/>), but
+> services and to run continuous integration systems (<a section="automation"/>), but
 > they are essentially an admission that we haven't figured out how to manage
 > packaging reliably.
 
@@ -200,8 +199,8 @@ in the 1980s.  They usually include these tools:
 
 -   A <span i="test runner">test runner</span> to display the results of tests and
     let you jump directly to ones that have failed. This is usually a GUI built
-    on top of whatever unit testing framework you are using (<span
-    x="testing"/>), just as graphical interfaces for version control are usually
+    on top of whatever unit testing framework you are using
+    (<a section="testing"/>), just as graphical interfaces for version control are usually
     built on top of the command-line tools.
 
 The most popular IDE today is probably <span i="VS Code; Microsoft Visual Studio
@@ -219,7 +218,7 @@ But calling VS Code is the world's most popular IDE is misleading.  If you open
 <span i="IDE!in browser">developer tools</span>. in Firefox, Chrome, or Edge, you
 will be shown an HTML browser that's smart enough to tell you which bits of CSS
 are in effect where, a console that displays messages from the JavaScript
-running in the page, a breakpointing debugger (<span x="debugging"/>), a network
+running in the page, a breakpointing debugger (<a section="debugging"/>), a network
 monitor, and much more. It won't help you with your C# or Python---at least, not
 yet---but it will make all of your front-end work a lot easier.
 
@@ -248,7 +247,7 @@ reduces the chances of making a mistake so that you don't lose time later trying
 to figure out what's gone wrong.  (The `alfblue` error mentioned in the previous
 paragraph cost me about ten minutes.)  It also helps you maintain concentration,
 since you don't have to make a mental switch from the code you're writing to the
-refactoring you're doing and then back again (<span x="important"/>).
+refactoring you're doing and then back again (<a section="important"/>).
 
 ## The Next Level
 
@@ -269,8 +268,8 @@ makes a lot of sense to keep the source of the documentation right beside the
 code. Many introductory courses require students to document their packages,
 classes, and methods this way; it's a good habit, and one you should cultivate.
 
-Another set of tools complement the style checkers discussed in <span
-x="automation"/>.  Style checkers do static analysis, i.e., they look at the
+Another set of tools complement the style checkers discussed in <a section="automation"/>.
+Style checkers do static analysis, i.e., they look at the
 text of your program while it's at rest.  Other tools do <span
 g="dynamic_analysis" i="dynamic analysis">dynamic analysis</span>: tools like
 <span i="Valgrind; dynamic analysis!Valgrind">Valgrind</span> watch your <span
@@ -293,7 +292,7 @@ over and over again, write a program to do it for you.
 > A lot of open source projects and commercial products began with one programmer
 > solving a problem for themselves and then discovering that other people found it
 > useful as well. <span i="Grand Perspective">[Grand
-> Perspective][grand-perspective]<span> displays a tree map to show what's using
+> Perspective][grand-perspective]</span> displays a tree map to show what's using
 > disk space on a Mac; <span i="Carnac">[Carnac][carnac]</span> shows what special
 > keys you're pressing on Windows so that if you're doing a demo, people can see
 > the keyboard shortcuts you're using, and so on.  Building one small thing well

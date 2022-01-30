@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 We know as much about teaching and learning as we do about public health. The
@@ -47,7 +48,7 @@ To explain where these differences come from, imagine that the knowledge in your
 brain is stored as a graph in which ideas are nodes and the connections between
 them are arcs. (Your brain doesn't actually work this way, but it's a useful
 metaphor.) A novice's mental model is disconnected: some key facts are missing,
-and other pieces don't join up (<span f="thinking-models"/>). In contrast,
+and other pieces don't join up (<a figure="thinking-models"/>). In contrast,
 a competent practitioner's mental model is fully connected: given fact `A`, he
 can reason his way through `B` and `C` to solution `D`. He might take a wrong
 turn to `Y` and `Z` along the way and have to backtrack, but he'll get there
@@ -64,11 +65,10 @@ this explains why they can solve problems at a glance, but also why they have
 trouble explaining their thinking: they can't tell someone else how they did it
 any more than we can explain how we recognize faces.
 
-{% include figure
-   id="thinking-models"
-   img="thinking-models.svg"
-   alt="Mental models"
-   cap="The differences between novice, competent, and expert mental models." %}
+<figure id="thinking-models">
+  <img src="thinking-models.svg" alt="Mental models"/>
+  <figcaption>The differences between novice, competent, and expert mental models.</figcaption>
+</figure>
 
 > ### Learning styles aren't a thing
 >
@@ -79,7 +79,7 @@ any more than we can explain how we recognize faces.
 > materials based on this myth, no one has ever shown that tuning what or how we
 > teach to match people's preferences has any impact on outcomes
 > <cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs Type
-> Indicator">Myers-Briggs personality types</span> (<span x="fairness"/>),
+> Indicator">Myers-Briggs personality types</span> (<a section="fairness"/>),
 > learning styles belong with healing crystals and astrology.
 
 This model of learning leaves almost everything discussed in
@@ -194,13 +194,12 @@ the things we didn't.
 
 ## Cognitive Load
 
-{% include figure
-   id="thinking-cognitive-architecture"
-   img="cognitive-architecture.svg"
-   alt="Cognitive architecture"
-   cap="The cognitive architecture of the human mind (simplified)." %}
+<figure id="thinking-cognitive-architecture">
+  <img src="cognitive-architecture.svg" alt="Cognitive architecture"/>
+  <figcaption>The cognitive architecture of the human mind (simplified).</figcaption>
+</figure>
 
-<span f="thinking-cognitive-architecture"/> shows a very (very) simple model of
+<a figure="thinking-cognitive-architecture"/> shows a very (very) simple model of
 the cognitive architecture of the human brain. On the left is <span
 g="long_term_memory" i="long-term memory">long-term memory</span> (LTM), which
 is where you store things like the spelling of your name and how that awful
@@ -241,18 +240,17 @@ For example, suppose you are learning the grammar of Frisian. If I ask you to
 translate, "How is her knee today?" then the intrinsic load is the rules of
 grammar, but there is also the germane load of recalling vocabulary (which is
 necessary, but isn't the main focus of the lesson). If, on the other hand, I
-give you the words as shown in <span f="thinking-frisian"/> and ask you to
+give you the words as shown in <a figure="thinking-frisian"/> and ask you to
 rearrange them, I have eliminated the germane load, but have added some
 extraneous load by using a mix of fonts. You will solve the problem more quickly
 and more accurately if the words are all in the same font, no matter what that
 font is, than you will if your brain is wondering whether the difference is
 significant.
 
-{% include figure
-   id="thinking-frisian"
-   img="thinking-frisian.svg"
-   alt="Translating a sentence"
-   cap="Reducing germane load while increasing extraneous load." %}
+<figure id="thinking-frisian">
+  <img src="thinking-frisian.svg" alt="Translating a sentence"/>
+  <figcaption>"Reducing germane load while increasing extraneous load.</figcaption>
+</figure>
 
 Cognitive load theory explains why tools like <span
 i="Scratch">[Scratch][scratch]</span> work so well: they reduce germane load by
@@ -422,7 +420,7 @@ these three factors influence most people:
 Utility.
 :   Students will learn more if they think the material is useful, but it has to
     be useful to *them*.  One reason to create <span i="learner persona">learner
-    personas</span> like the ones in <span x="introduction"/> is to remind
+    personas</span> like the ones in <a section="introduction"/> is to remind
     instructors of the second rule of teaching: "You are not your learners."
     (The first is, "Be kind.")
 

@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
@@ -34,10 +35,10 @@ game.exe : game.bc graphics.bc utils.bc
 <!-- continue -->
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
-the `tx` compiler with several options.  Below that is a <span i="Make!pattern
-rule" g="pattern_rule">pattern rule</span> telling Make how to create any `.bc`
-file from a `.grace` file with the same root name; the cryptic expression `$<`
-is Make's way of saying "the first thing the target depends on".
+the `tx` compiler with several options.  Below that is a
+<span g="pattern_rule" i="Make!pattern rule">pattern rule</span> telling Make
+how to create any `.bc` file from a `.grace` file with the same root name;
+the cryptic expression `$<` is Make's way of saying "the first thing the target depends on".
 
 Make has been used by hundreds of thousands of programmers for more than thirty
 years, but has some <span i="Make!shortcomings">fundamental flaws</span>. The
@@ -174,7 +175,7 @@ analysis">static analysis</span> tool, since they work by parsing the source
 code for your program rather than by watching the program run. Compilers also do
 a lot of static analysis; the non-fatal warnings they produce are a lot more
 useful than many students realize, and a "zero warnings" policy can prevent a
-lot of subtle bugs.  As we'll see in <span x="research"/>, requiring type
+lot of subtle bugs.  As we'll see in <a section="research"/>, requiring type
 definitions in code helps programmers understand software as well.
 
 ## Continuous Integration

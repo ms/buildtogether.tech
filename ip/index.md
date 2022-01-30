@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Which of these do you believe is true?

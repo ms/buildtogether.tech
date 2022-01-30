@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 I have worked for myself almost as often as I've worked for other people, and

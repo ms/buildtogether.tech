@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 I hope you're never fired, or if you are, that the company handles it

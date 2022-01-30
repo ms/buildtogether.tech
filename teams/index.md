@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Most people learn better together than they do on their own
@@ -15,8 +16,8 @@ instead.  These conflicts are more wearying than any number of buffer overruns
 or accidentally erased files, which is why most computer science courses stick
 to individual assignments.
 
-It doesn't take much to make a team work smoothly, though. The rules in <span
-x="important"/> for running meetings, making decisions, and resolving conflicts
+It doesn't take much to make a team work smoothly, though. The rules in
+<a section="important"/> for running meetings, making decisions, and resolving conflicts
 are a good start; this chapter will look at what else you can do.
 
 ## Picking Teams
@@ -29,12 +30,12 @@ infield and outfield in baseball, and so on.  She went on to explain that
 hunting parties in non-agricultural societies are usually that size as well, as
 are basic military units around the world (a platoon is two squads of six
 people).  Since we can only keep a handful of things in our short-term memory at
-once (<span x="thinking"/>) that's as big as a team can practically be.
+once (<a section="thinking"/>) that's as big as a team can practically be.
 
 The same observation applies to software development.  Three or four people can
 work tightly on a single piece of code, but when there are more they define some
 interfaces and develop in parallel.  Collaborative tools like software portals
-(<span x="git-solo"/>) help groups coordinate more effectively, but the groups
+(<a section="git-solo"/>) help groups coordinate more effectively, but the groups
 themselves stay the same size.
 
 Teams of three to five provide a good balance between skills and accountability.
@@ -72,7 +73,7 @@ of the benefits of working in a team are lost: there's less back-and-forth
 discussion of design issues, and little improvement in communication skills.
 Those may not be important to you at first, but if there is a final exam in your
 course with questions about the project work, your mark on it may depend on how
-much you know about your teammates' work (<span x="delivery"/>).
+much you know about your teammates' work (<a section="delivery"/>).
 
 The most powerful argument for instructors selecting teams, though, is that's
 how it works in the real world <cite>Oakley2004</cite>.  You probably won't get
@@ -150,7 +151,7 @@ students are more likely to be given responsibility for taking notes, writing
 documentation, and other low-status tasks. Some have experienced this so often
 that they have come to accept it as the price they have to pay for being in
 tech. Others protest, but those who do are often dismissed as being "difficult"
-(<span x="important"/>). Many take a third path and decide to leave
+(<a section="important"/>). Many take a third path and decide to leave
 programming---after all, why play a game that's unfair?
 
 > ### In the beginning
@@ -227,7 +228,7 @@ work!feature decomposition">Feature decomposition</span> is a variation on
 modular decomposition that works well in practice. Instead of owning an entire
 subsystem for the life of the project, each team member handles the design,
 coding, testing, and documentation for one small feature after another.  Working
-this way is central to agile development (<span x="process"/>)) and is a good
+this way is central to agile development (<a section="process"/>)) and is a good
 way to cope with the never-ending timeslicing of student life.
 
 Finally, there is <span g="rotating_decomposition" i="rotating decomposition;
@@ -349,8 +350,8 @@ personality traits, peer assessment can actually be as accurate as assessment by
 the instructors and other outsiders. "Observables" means that instead of asking
 if the person is outgoing or if they have a positive attitude, assessments
 should ask if they listen attentively during meeting or attempt to solve
-problems before asking for help.  The performance review guidelines in <span
-x="personal-eval"/> are a useful starting point.
+problems before asking for help.  The performance review guidelines in
+<a section="personal-eval"/> are a useful starting point.
 
 ## Problems and Solutions
 
@@ -365,7 +366,7 @@ If you read one of those earlier versions, I apologize. What I've tried to do
 below is describe ways in which I've seen people undermine themselves.  If you
 go through this list with your teammates and tell them what you'd like to get
 better at, they'll probably help you. And if what you want to get better at
-isn't on this list, please see <span x="contributing"/>.
+isn't on this list, please see <a section="contributing"/>.
 
 Not everything needs to be completely correct.
 :   Before correcting a factual error, ask yourself whether it really matters.
@@ -403,9 +404,9 @@ Success is a habit.
 :   The more you follow a routine, the more your brain will be able to focus on
     the right things at the right time. <cite>Gawande2011</cite> found that
     <span i="checklists!benefits of">checklists</span> improve results even for
-    experts, and <span x="important"/> talked about the value of to-do lists for
+    experts, and <a section="important"/> talked about the value of to-do lists for
     managing your time. Making these a habit reduce <span i="cognitive
-    load!impact of checklists">cognitive load</span> (<span x="thinking"/>) and
+    load!impact of checklists">cognitive load</span> (<a section="thinking"/>) and
     gives you more mental capacity for dealing with the work itself.
 
 Acting like an asshole doesn't make you cool---it just makes you an asshole.

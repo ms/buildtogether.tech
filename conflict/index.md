@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 You just missed an important deadline, and people are unhappy.  The sick feeling
@@ -57,7 +58,7 @@ avoid making it necessary.
 
 ## What to Do
 
-The first rule for meetings in <span x="important"/> was to agree on what the
+The first rule for meetings in <a section="important"/> was to agree on what the
 rules are so that everyone knows what's expected of them. A shared understanding
 of <span i="conflict (interpersonal)!handling">how to handle conflict</span>
 helps in the same way; as with first aid training, having some idea of what to
@@ -69,8 +70,8 @@ Make sure you are not guilty of the same sin.
 
 Check expectations.
 :   Are you sure the offender knows what standards they are supposed to be meeting?
-    This is where things like the team contracts described in <span
-    x="teams"/> come in handy.
+    This is where things like the team contracts described in
+    <a section="teams"/> come in handy.
 
 Check the situation.
 :   Is someone dealing with an ailing parent or immigration woes?  Do they have
@@ -111,7 +112,7 @@ In a course project, "escalation" means "taking the issue to the instructor".
 Of course, they have probably had dozens of students complain to them over the
 years about teammates not doing their share, and it isn't uncommon to have both
 halves of a pair say that they're doing all the work.  (This is yet another
-reason to use version control: as described in <span x="git-solo"/>, it makes it
+reason to use version control: as described in <a section="git-solo"/>, it makes it
 easy to check who's actually written what.)  In order to get them to take you
 seriously and help you fix the problem, you should send them an email signed by
 several people that describes what's happened and the steps already taken.  Make

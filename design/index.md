@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 > A week of hard work can sometimes save an hour of thought.
@@ -9,8 +10,8 @@ Building large programs with other people is different from building small
 programs on your own in two important ways. The first is communication: in order
 for you and your teammates to collaborate, you need to agree about what you're
 collaborating *on*, which means you need to tell each other how you are breaking
-the problem up into pieces and how those pieces will interact <span
-x="communicate"/>.
+the problem up into pieces and how those pieces will interact
+(<a section="communicate"/>).
 
 The second difference between programming in the small and <span i="programming
 in the large">programming in the large</span> is that while you can hack your
@@ -40,7 +41,7 @@ This <span i="model!of software development">model</span> is unrealistic in
 every way---the odds of rewriting old code is lower than the odds of rewriting
 recent code, for example---but it captures a key point: the cost of rework grows
 faster than the number of pieces of work.  You can't lower $$C$$ by increasing
-$$L$$ (since as <span x="thinking"/> explains, there's a limit to how much you
+$$L$$ (since as <a section="thinking"/> explains, there's a limit to how much you
 can hold in your mind at once), so your goal when designing software is to lower
 $$N$$ by re-using code from libraries or to reduce the cost of reworking things
 by lowering $$p$$.
@@ -64,7 +65,7 @@ tell a good design from a bad one, so we'll start with that.
 > this material and can be used as a starting point for many different class
 > projects.
 >
-> The discussion of how to design for test in <span x="testing"/> is another
+> The discussion of how to design for test in <a section="testing"/> is another
 > example of teaching by example. A general rule like, "Building components that
 > can easily be replaced makes testing easier," would only have been meaningful if
 > you already understand the point; explaining it with a specific example (testing
@@ -76,7 +77,7 @@ tell a good design from a bad one, so we'll start with that.
 i="software design!role of diagrams">diagrams</span> to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
-otherwise be able to keep track of (<span x="thinking"/>). In many cases, the
+otherwise be able to keep track of (<a section="thinking"/>). In many cases, the
 people who drew the diagrams couldn't make sense of them a day later; it could
 be that the benefit of diagrams therefore comes from the act of drawing, not
 from having them to study.
@@ -123,29 +124,27 @@ Schemas or data models.
     augmented with arrows to show what's a foreign key for what, or <span
     g="er_diagram" i="entity-relationship diagram;
     diagrams!entity-relationship">entity-relationship diagrams</span> that also
-    show which relationships are one-to-one, one-to-many, and so on (<span
-    f="er-diagram"/>).
+    show which relationships are one-to-one, one-to-many, and so on
+    (<a figure="er-diagram"/>).
 
-{% include figure
-   id="er-diagram"
-   img="er-diagram.svg"
-   alt="Entity-relationship diagram"
-   cap="An example of an entity-relationship diagram for students, instructors, and courses." %}
+<figure id="er-diagram">
+  <img src="er-diagram.svg" alt="Entity-relationship diagram"/>
+  <figcaption>An example of an entity-relationship diagram for students, instructors, and courses.</figcaption>
+</figure>
 
 The two kinds of diagram that I find most useful are ER diagrams and a
 combination of conceptual and <span g="use_case_map" i="use-case map;
 diagrams!use-case map">use-case maps</span> <cite>Reekie2006</cite>.  The
 background of a use-case map is the system's conceptual architecture; the
-overlay traces what happens during a particular workflow (<span
-f="use-case-map"/>).  I find these particularly useful for checking the behavior
+overlay traces what happens during a particular workflow
+(<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
 of systems built from lots of <span g="microservice"
 i="microservice">microservices</span>.
 
-{% include figure
-   id="use-case-map"
-   img="use-case-map.png"
-   alt="Use case maps"
-   cap="An example of a use case map (from Reekie2006)." %}
+<figure id="use-case-map">
+  <img src="use-case-map.png" alt="Use case maps"/>
+  <figcaption>An example of a use case map (from Reekie2006).</figcaption>
+</figure>
 
 > ### UML and why not
 >
@@ -166,11 +165,11 @@ i="microservice">microservices</span>.
 > will convert specially-formatted text into diagrams for you, and the former are
 > much easier for version control systems to work with.  In my opinion, though,
 > you'll get more out of investing time in the modeling tools described at the end
-> of <span x="tooling"/>.
+> of <a section="tooling"/>.
 >
-> One often-overlooked finding about visualization is that people understand <span
-> i="flowchart">flowcharts</span> better than pseudocode *if both are equally well
-> structured* <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode
+> One often-overlooked finding about visualization is that people understand
+> flowcharts better than pseudocode *if both are
+> equally well structured* <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode
 > outperformed flowcharts used structured pseudocode and tangled flowcharts; when
 > the playing field was leveled, novices did better with the graphical
 > representation.
@@ -179,12 +178,12 @@ i="microservice">microservices</span>.
 
 Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
-to write your <span i="elevator pitch">elevator pitch</span> (<span
-x="starting"/>). Next, write one or two point-form <span g="user_story" i="user
-story!use in software design">user stories</span> describing how the
-application, feature, or library would be used. Be as concrete as possible:
-instead of saying, "Allows the user to find overlaps between their calendar and
-their friends' calendars," say:
+to write your <span i="elevator pitch">elevator pitch</span>
+(<a section="starting"/>). Next, write one or two point-form
+<span g="user_story" i="user story!use in software design">user stories</span>
+describing how the application, feature, or library would be used. Be as concrete
+as possible: instead of saying, "Allows the user to find overlaps between their
+calendar and their friends' calendars," say:
 
 1.  The user selects one of her friends' calendars.
 
@@ -261,7 +260,7 @@ basically saying is, "Argue enough, but not too much."
 ## Design for Evolution
 
 How easily we can swap one component for another in order to test a system is
-one way to tell how well designed that system is (<span x="testing"/>). Another
+one way to tell how well designed that system is (<a section="testing"/>). Another
 is how easily we can modify or <span i="software design!evolution">extend</span>
 the system to do new things. If our design is perfect, we can implement changes
 by adding code without modifying what's already there.  This is called the <span
@@ -434,8 +433,9 @@ Configuration files.
     a record of exactly what the settings were (which can be helpful when
     testing).
     <br/>
-    Configuration files are often <span i="configuration!layered"
-    g="layered_configuration">layered</span>: the program reads a global
+    Configuration files are often
+    <span g="layered_configuration" i="configuration!layered">layered</span>:
+    the program reads a global
     configuration file with general settings, then a user-specific configuration
     file (typically in the user's home directory) with the user's preferences,
     and finally a project-specific file. Those settings can then often be
@@ -511,7 +511,7 @@ setup(
 <!-- continue -->
 The `name` and `author` fields are self-explanatory; the `packages` field lists
 the sub-directories containing packages (there may actually be several), and
-we'll talk about versioning in <span x="delivery"/>.  Once you have this in
+we'll talk about versioning in <a section="delivery"/>.  Once you have this in
 place, you can run:
 
 ```sh
@@ -524,13 +524,13 @@ to create a package.
 ## Find Your Current Comfort Zone
 
 When we use a low-level language, we incur the cognitive load of assembling
-micro-steps into something more meaningful (<span x="thinking"/>) When we use a
+micro-steps into something more meaningful (<a section="thinking"/>) When we use a
 high-level language, we incur a similar load translating functions of functions
 of functions (or meta-classes templated on object factories) into actual
 operations on actual data.
 
 More experienced programmers are more capable at both ends of the curve, but
-that's not the only thing that changes.  <span f="comprehension-curves"/>
+that's not the only thing that changes.  <a figure="comprehension-curves"/>
 compares a <span i="code comprehension; novice!code
 comprehension">novice</span>'s comprehension curve with an <span i="expert!code
 comprehension">expert</span>'s.  Experts don't just understand more at all
@@ -539,11 +539,10 @@ $$\sqrt{x^2 | y^2}$$ is actually more readable than the medieval expression "the
 side of the square whose area is the sum of the areas of the two squares whose
 sides are given by the first part and the second part".
 
-{% include figure
-   id="comprehension-curves"
-   img="comprehension-curves.svg"
-   alt="Comprehension curves"
-   cap="How the relationship between abstraction and comprehension differs for novices and experts." %}
+<figure id="comprehension-curves">
+  <img src="comprehension-curves.svg" alt="Comprehension curves"/>
+  <figcaption>How the relationship between abstraction and comprehension differs for novices and experts.</figcaption>
+</figure>
 
 This difference implies that the software that is quickest for a novice to
 comprehend will almost certainly be different from the software that an expert

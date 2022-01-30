@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 > When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
@@ -6,8 +7,8 @@
 > --- <span i="Pratchett, Terry">Terry Pratchett</span>
 
 We are imperfect people living in an imperfect world.  People will misunderstand
-how to use our programs, and even if we test thoroughly as described in <span
-x="testing"/>, those programs will probably still contain bugs.  We should
+how to use our programs, and even if we test thoroughly as described in
+<a section="testing"/>, those programs will probably still contain bugs.  We should
 therefore plan from the start to detect and handle errors.
 
 ## Handling Errors
@@ -137,8 +138,8 @@ so the library should just report the problem.
 ## Defensive Programming
 
 The first step in building confidence in our programs is to assume that mistakes
-will happen and guard against them.  This is called <span i="defensive
-programming" g="defensive_programming">defensive programming</span>, and the
+will happen and guard against them.  This is called
+<span g="defensive_programming" i="defensive programming">defensive programming</span>, and the
 most common way to do it is to add <span g="assertion"
 i="assertion">assertions</span> to our code so that it checks itself as it runs.
 An assertion is a statement that something must be true at a certain point in a
@@ -378,7 +379,7 @@ some idea of what it was doing beforehand.
 
 > ### Logging for security
 >
-> One of the recommendations in <span x="security"/> was to <span i="logging!for
+> One of the recommendations in <a section="security"/> was to <span i="logging!for
 > security">log actions</span> to help you find suspicious activity.  When you do
 > this, make sure the log records who, what, and when; in particular, make sure
 > you have a record of every time permissions were changed or new accounts were

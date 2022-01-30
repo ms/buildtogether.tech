@@ -1,12 +1,14 @@
 ---
-permalink: /contributing/
 ---
+
+# Contributing
 
 All contributors must abide by our <span i="Code of Conduct">Code of Conduct</span>.
 
 ## Making Decisions
 
-This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite> for consensus decision making:
+This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite>
+or consensus decision making:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal by filing an
     issue in the GitHub repository tagged "proposal".  Proposals must be filed
@@ -48,83 +50,56 @@ This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite> for c
 
 ## Formatting
 
-1.  The commands to rebuild the site, run a server, produce the PDF version, and
-    check internal consistency are stored in `Makefile` and use the tools in
-    `bin/`. Run `make` on its own to get a list of available actions.
+This site uses [McCole][mccole]	for formatting. Please see its documentation for
+formatting guidelines. In brief:
 
-1.  Each chapter or appendix is identified by a slug such as `some-topic`.  Its
-    text lives in <code><em>slug</em>/index.md</code>, and there is an entry
-    under the `chapters` key in `_config.yml` with its slug and its title. This
-    list controls ordering.
+-   McCole uses [CommonMark][commonmark] with extensions.
+    (In our defense, *everyone* adds extensions…)
 
-1.  Use only level-2 headings within chapters and appendices and use "Title
-    Case" the titles.
+-   Chapter titles go in the `mccole.yml` configuration file,
+    *not* in the chapter itself.
 
-1.  To create cross-references:
-    -   Use `{% raw %}<span g="key">some text</span>{% endraw %}` for glossary
-        entries. The key must appear in `_data/glossary.yml`.
-    -   Use `{% raw %}<span x="slug"/>{% endraw %}` to cross-reference a chapter or
-        appendix. The slugs must appear in `_config.yml`.
-    -   Use `{% raw %}<span f="key"/>{% endraw %}` to cross-reference a figure
-        and `{% raw %}<span t="key"/>{% endraw %}` to cross-reference a table.
-    -    Use `{% raw %}<cite>key,key</cite>{% endraw %}` for bibliography
-        citations.  The keys must appear in `bibliography/index.md`.
+-   All level-2 section headings should have an ID.
 
-1.  Use `{% raw %}<span i="term">text</span>{% endraw %}` to add an index entry.
-    This can be combined with a glossary reference, as in
-    `{% raw %}<span i="term" g="key">text</span>{% endraw %}`.
-
-1.  To include a code sample use
-    `{% raw %}{% include code file="name.ext" %}{% endraw %}`.
-    The path to the file must be relative to the including file.
-    In most cases it will be in the same directory as the chapter or appendix.
-
-1.  To continue a paragraph that has been interrupted by a code sample or
-    something else, use:
-
+-   Figures are created using:
     ```
-    {: .continue}
-    text of paragraph
+    <figure id="short-figure">
+      <img src="figures/short.svg" alt="Short caption" />
+      <figcaption>Long version of short caption.</figcaption>
+    </figure>
     ```
 
-    This has no effect on the appearance of the HTML, but prevents an unwanted
-    paragraph indent in the PDF version.
-
-1.  To create a callout box, use:
-
+-   Tables are created using:
     ```
-    <div class="callout" markdown="1">
-
-    ### Title of callout
-
-    text of callout
-
-    </div>
+    <div class="table" id="short-table" cap="Short table caption.">
+    | Left | Right |
+    | ---- | ----- |
+    | 123  | 456   |
     ```
 
-    Use "Sentence case" for the callout's title, and please put blank lines
-    before and after the opening and closing `<div>` markers.
+-   Use `<a section="label"/>` to reference a section,
+    `<a figure="label"/>` to reference a figure,
+    and `<a table="label"/>` to reference a figure.
 
-1.  To insert an external link, use `{% raw %}[text][tag]{% endraw %}` in the
-    body, then add the link to the Kramdown `link_defs` section in
-    `_config.yml`.  The clumsy syntax is necessary to get around [this
-    bug][jekyll-bug].
+-   Use `<cite>Key1,Key2</cite>` for bibliographic citations.
+    Bibliography entries go in `_data/bibliography.bib`.
 
-1.  To create a figure, put the image file in the same directory as the chapter
-    or appendix and use this to include it:
+-   Use `<span g="gloss_key">text</span>` to reference the glossary.
+    The glossary is in `_data/glossary.yml` in [Glosario][glosario]
+    format.
 
+-   Use `<span i="index term">text</span>` for index entries.
+
+-   If a term is both a glossary entry and an index entry,
+    use `<span g="gloss_key" i="index term">text</span>`;
+    the `g` must come before the `i` attribute.
+
+-   Use a blockquote with a level-3 heading to create a callout:
     ```
-    {% raw %}{% include figure id="label" img="file.svg"
-                      alt="short text" cap="full caption" %}{% endraw %}
+    > ### Callout Title
+    >
+    > This is a paragraph.
     ```
 
-    where `label` is <code><em>chapter-slug</em>-<em>image-slug</em></code>,
-    `alt` is just a few words long (plain text), and `cap` is the full caption
-    that will appear inline (Markdown).
-
-1.  Use [diagrams.net][diagrams] to create SVG diagrams.  Avoid screenshots when
-    possible, since getting them to display correctly in print is a pain.
-
-Note: you will need Python and LaTeX in order to build the PDF version of this book.
-After installing them, you will need the packages listed in `requirements/python.txt`
-and `requirements/latex.txt`.
+-   Use `[text][key]` for external links, which are defined
+    in `_data/links.yml`.

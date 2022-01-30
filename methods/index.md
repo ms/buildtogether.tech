@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Back in 2016 [I tweeted][excel-tweet], "If anyone has data showing <span
@@ -19,7 +20,7 @@ Results calculated with Excel are more likely to be wrong than results calculate
     Axiom">Flon's Axiom</span> states, "There is not now, nor has there ever
     been, nor will there ever be, any programming language in which it is the
     least bit difficult to write bad code.")
-    <br/>
+
     And even if this claim is true, correlation isn't causation.  I think that
     people who do statistics programmatically have probably invested more time
     in mastering their tools than people who use spreadsheets.  Any differences
@@ -134,7 +135,7 @@ One reason for this is that the web ranges from unwelcoming to actively hostile
 for people from under-represented groups <cite>Ford2016,May2019</cite>.
 Unfortunately, in-person workplaces are often no better: many are filled with
 small signs that make many people feel out of place <cite>Cheryan2009</cite>.
-<span x="fairness"/> takes a closer look at these issues.
+<a section="fairness"/> takes a closer look at these issues.
 
 > ### A cautionary tale
 >
@@ -216,6 +217,6 @@ view</span> is just as important, though not as well respected.  It draws on
 humanities and social sciences to explore questions like, "Who does this help?",
 "Who does this hurt?", and, "Who decides?"  Just as the most interesting
 software engineering research these days is look at how the way we think
-interacts with the way we program (<span x="research"/>), the most interesting
+interacts with the way we program (<a section="research"/>), the most interesting
 thinking about computing as a whole is coming from people who have outgrown the
 "Wernher von Braun" mentality of Lehrer's song.

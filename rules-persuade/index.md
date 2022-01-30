@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 <span i="persuasion">Persuading</span> people to do things is almost as

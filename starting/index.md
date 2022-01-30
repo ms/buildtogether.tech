@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Now that the most important stuff is out of the way, let's take a closer look at
@@ -51,18 +52,17 @@ To tie everything you've learned together,
 Because they're fun.
 :   At least, if they're done right.
 
-One goal of project courses is to move learners from the left side of <span
-f="four-models-of-instruction"/> to the right. Most of the learning will
+One goal of project courses is to move learners from the left side of
+<a figure="four-models-of-instruction"/> to the right. Most of the learning will
 take place in a team or on your own; the instructor's job is to mentor rather
-than to lecture. Using the terms of <span x="thinking"/>, a project course
+than to lecture. Using the terms of <a section="thinking"/>, a project course
 is where your school starts treating you like a competent practitioner rather
 than like a novice.
 
-{% include figure
-   img="four-models-of-instruction.svg"
-   id="four-models-of-instruction"
-   alt="Four models of instruction"
-   cap="Four models of instruction that shift control from instructors to learners." %}
+<figure id="four-models-of-instruction">
+  <img src="four-models-of-instruction.svg" alt="Four models of instruction" />
+  <figcaption>Four models of instruction that shift control from instructors to learners.</figcaption>
+</figure>
 
 There are as many ways to run a project course as there are instructors teaching
 them <cite>Fincher2001</cite>.  The most important variable is whether your team
@@ -140,11 +140,18 @@ A final exam.
 
 Just like real development projects, course projects can and should produce a
 lot more than just code.  For example, <cite>Spinellis2007</cite> looked at how
-much content of different kinds went into the FreeBSD project in 2006.  <span
-t="starting-spinellis-stats"/> doesn't divide "source code" into
+much content of different kinds went into the FreeBSD project in 2006.
+<a table="starting-spinellis-stats"/> doesn't divide "source code" into
 "application code" and "tests", but it's still an eye-opener.
 
-{% include table id="starting-spinellis-stats" file="spinellis-stats.tbl" cap="FreeBSD 2006" %}
+<div class="table" id="starting-spinellis-stats" cap="FreeBSD 2006">
+| Asset | Source | Size (KB) | Percentage |
+| ----- | ------ | --------- | ---------- |
+| Issues database | GNATS | 711783 | 30.5% |
+| Source code | C/C++ | 431519 | 18.5% |
+| Documentation | troff, DocBook | 114450 | 5.0% |
+| Version history | CVS | 1076762 | 46.0% |
+</div>
 
 Here are some of the things that you might be required to produce:
 
@@ -227,7 +234,7 @@ Testing (10%)
     tested.  And it's no good saying, "But I can't write unit tests for my GUI"
     because it's simply not true: you can always test the core functionality,
     and if you design your program the right way you can test a lot more of your
-    front end than you might think (<span x="testing"/>).
+    front end than you might think (<a section="testing"/>).
 
 Demos (10%)
 :   I used to require students to prepare a 20-minute lecture on a topic of
@@ -349,8 +356,8 @@ website like this one, for example, the layout is:
     commit it themselves.
 
 If your project's goal is to build a package, on the other hand, you will have
-to organize your files according to the packaging system's rules; <span
-x="design"/> gives an example.  In all cases, learning what goes where is like
+to organize your files according to the packaging system's rules;
+<a section="design"/> gives an example.  In all cases, learning what goes where is like
 learning when to signal when driving a car: the rules may vary from place to
 place, but everywhere *has* rules, and knowing them will help prevent you from
 crashing.
@@ -370,8 +377,8 @@ without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
 :   How to contribute to the project. Should people file an issue when they have
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
-    contribution guidelines increase the odds of people contributing (<span
-    x="fairness"/>); in my experience, they also reduce friction between team
+    contribution guidelines increase the odds of people contributing
+    (<a section="fairness"/>); in my experience, they also reduce friction between team
     members.
 
 <span i="CONDUCT file">`CONDUCT`</span>
@@ -410,8 +417,8 @@ diverse, which in turn makes it more productive <cite>Zhan2020</cite>:
 
 Having a Code of Conduct is an empty gesture if you don't also have a way to
 respond to violation.  <cite>Aurora2018</cite> describes how, and learning the
-basics is a good first step toward becoming an <span i="ally">ally</span> (<span
-x="fairness"/>).
+basics is a good first step toward becoming an <span i="ally">ally</span>
+(<a section="fairness"/>).
 
 > ### What they really mean
 >

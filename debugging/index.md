@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Finding errors is good; fixing them is better, so learning how to debug is as
@@ -15,7 +16,7 @@ way known to find bugs <cite>Basili1987,Kemerer2009,Bacchelli2013</cite>.
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
 written about how to <span i="reading code">read</span> it
-(<cite>Spinellis2003</cite> being my favorite).  As <span x="rules-joining"/>
+(<cite>Spinellis2003</cite> being my favorite).  As <a section="rules-joining"/>
 says, reading other people's code is one of the best ways to learn how to be a
 better programmer; tracking down a bug may not be when you want to broaden your
 knowledge, but if you're there anyway, you might as well.
@@ -57,13 +58,13 @@ Make sure you understand what the bug actually is.
 
 Make it fail.
 :   You can only debug things when you can see them going wrong, so as we
-    discussed in <span x="communicate"/>, you should try to create a minimal
+    discussed in <a section="communicate"/>, you should try to create a minimal
     <span i="reproducible example (reprex)">reproducible example</span> or
     reprex.  Doing this finds the problem in a surprising number of cases, since
     each time you throw out part of the original program or dataset because the
     bug reoccurs without it, you are also throwing out a bunch of possible
     causes.
-    <br/>
+
     The easiest way to create a reprex is to divide and conquer.  The <span
     g="fault" i="fault">fault</span> responsible for a <span g="failure"
     i="failure">failure</span> has to occur before the failure, so check the
@@ -91,7 +92,7 @@ Change one thing at a time.
     odds you'll get it right the second?  (Or ninth, or twenty-third?)  Instead,
     change one thing and then re-run your tests to see if the program works,
     breaks in the same way, or breaks in a new way.
-    <br/>
+
     This is another place where version control helps: if you have made a change
     and it hasn't fixed things, `git restore` will put your code back exactly
     the way it was so that you're not trying to fix something that is mutating
@@ -105,12 +106,12 @@ Change one thing at a time.
 > that the order of events is unpredictable; it's often not repeatable, so
 > creating a reliable reprex may be impossible.  What's worse, the act of
 > observing can hide the bug: a `print` statement or a breakpoint can change
-> timing in a way that makes the bug disappear.  Modeling tools can help (<span
-> x="tooling"/>), as can the use of immutable data structures, but the best
+> timing in a way that makes the bug disappear.  Modeling tools can help
+> (<a section="tooling"/>), as can the use of immutable data structures, but the best
 > solutions are to test components in isolation using <span i="mock object">mock
-> objects</span> in place of the things they communicate with (<span
-> x="testing"/>) and to add *lots* of assertions to check the consistency of data
-> structures.  In particular, giving every class a method called `isOK` to check
+> objects</span> in place of the things they communicate with
+> (<a section="testing"/>) and to add *lots* of assertions to check the consistency
+> of data structures.  In particular, giving every class a method called `isOK` to check
 > that it's in good shape can save hours of later debugging, as well as helping
 > the next programmer understand what the data is supposed to look like.
 
@@ -178,7 +179,7 @@ Trees and graphs
     greater than one.
 
 <!-- continue -->
-As <span x="git-team"/> said, the longer list in
+As <a section="git-team"/> said, the longer list in
 <cite>Stegeman2014,Stegeman2016</cite> can be adapted for more advanced
 students' programs.
 
@@ -240,7 +241,7 @@ Symbolic execution.
     either the empty string or the first string in the list that belongs to the
     set containing the longest strings in the list.  The complexity of that
     sentence is a sign of how complex symbolic execution can be, but when
-    combined with the modeling tools discussed in <span x="tooling"/>, this
+    combined with the modeling tools discussed in <a section="tooling"/>, this
     approach can find bugs that would otherwise escape detection for years.
 
 Most [program repair tools][program-repair] are still research prototypes, but
@@ -249,10 +250,10 @@ giving feedback on assignments <cite>Hu2019</cite>.  If you are looking for an
 ambitious course project that might lead to graduate research, this is a good
 place to start.
 
-Another semi-automated technique for finding bugs is <span i="delta debugging"
-g="delta_debugging">delta debugging</span> <cite>Zeller2009,Zeller2021</cite>.
+Another semi-automated technique for finding bugs is <span g="delta_debugging"
+i="delta debugging">delta debugging</span> <cite>Zeller2009,Zeller2021</cite>.
 <span i="fuzz testing">Fuzz testing</span> can automatically generate inputs
-that make programs fail (<span x="testing"/>), but since those inputs are partly
+that make programs fail (<a section="testing"/>), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
 why they make the software fail.  Delta debugging repeatedly tests subsets of
 the original fixture, then subsets of those subsets, to produce a minimal
@@ -261,15 +262,15 @@ the original fixture, then subsets of those subsets, to produce a minimal
 ## Using a Debugger
 
 The tools described above will make you more productive, but sooner or later
-you're going to have to track a bug down yourself.  A <span
-i="debugging!symbolic debugger; symbolic debugger"
-g="symbolic_debugger">symbolic debugger</span> is a program that allows you to
+you're going to have to track a bug down yourself.
+A <span g="symbolic_debugger">symbolic debugger i="debugging!symbolic debugger; symbolic debugger"</span>
+is a program that allows you to
 control and inspect the execution of another program. Some, like [GDB][gdb], are
 standalone programs; others are built into IDEs, but they all have the same
 basic capabilities.  (Depending on the language you're using, you may have to
 compile or run your program with specific options to make it debuggable.)
 
-<span g="breakpoint" i="breakpoint; debugger!breakpoint">Breakpoints<span>.
+<span g="breakpoint" i="breakpoint; debugger!breakpoint">Breakpoints</span>.
 :   You can tell the debugger to pause the program whenever it reaches a certain
     line.  You can also create a <span g="conditional_breakpoint">conditional
     breakpoint</span> that only pauses on that line if some test is true, e.g.,

@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 Researchers have been studying programs and programmers since at least the
@@ -21,7 +22,7 @@ entrepreneur who struck it lucky constitute "proof".
 This chapter therefore presents a few evidence-based results that are relevant
 to the kind of work you may be doing in your project and that your instructor
 might want to incorporate into your course <cite>Fagerholm2017</cite>.  If you
-find them interesting and want to dig further, <span x="methods"/> describes the
+find them interesting and want to dig further, <a section="methods"/> describes the
 methods software engineering researchers use.  As with all research, though,
 some caution is required when interpreting results:
 
@@ -68,9 +69,9 @@ respectively.
 
 <cite>Sadowski2019a</cite> summarizes of what we know, and more importantly, how
 to think about the problem.  The chapter <cite>Sadowski2019b</cite> lays out a
-three-axis framework for discussion based on the <span i="Goal-Question-Metric"
-g="gqm">goal-question-metric</span> approach.  The more recent <span i="SPACE
-framework; productivity!SPACE framework">SPACE framework</span> looks at
+three-axis framework for discussion based on the
+<span g="gqm" i="Goal-Question-Metric">goal-question-metric</span> approach.
+The more recent <span i="SPACE framework; productivity!SPACE framework">SPACE framework</span> looks at
 Satisfaction, Performance, Activity, Communication, and Efficiency
 <cite>Forsgren2018,Forsgren2021</cite>.  However productivity is measured, it's
 important to remember <span i="Goodhart's Law">[Goodhart's
@@ -102,7 +103,7 @@ insist on using these tests as indicators of success?"
 
 ## What Do We Know About Programming Style?
 
-As we mentioned in <span x="tooling"/>, <cite>Stefik2013</cite> found that
+As we mentioned in <a section="tooling"/>, <cite>Stefik2013</cite> found that
 languages like <span i="C">C</span>, <span i="Java">Java</span>, and <span
 i="Perl">Perl</span> were as hard for people to learn as a language with a
 randomly designed syntax, while languages like <span i="Ruby">Ruby</span> and
@@ -116,8 +117,8 @@ constructors. They hypothesized that required parameters would create more
 usable and self-documenting APIs by guiding programmers toward the correct use
 of objects and preventing errors. Contrary to expectations, programmers strongly
 preferred and were more effective with APIs that did not require constructor
-parameters.  They then analyzed subjects' behavior using the <span i="cognitive
-dimensions framework" g="cognitive_dimensions">cognitive dimensions</span>
+parameters.  They then analyzed subjects' behavior using the
+<span g="cognitive_dimensions" i="cognitive dimensions framework">cognitive dimensions</span>
 framework, which showed that that requiring constructor parameters interfered
 with common learning strategies.
 
@@ -141,8 +142,8 @@ these guidelines.  In contrast, <cite>Schankin2018</cite> found that:
 > program comprehension for more experienced developers but not for less
 > experienced developers.
 
-More recently, <cite>Floyd2017,Krueger2020,Peitek2021</cite> have used <span
-i="reading code!fMRI studies" g="fmri">fMRI</span> to look at what programmers'
+More recently, <cite>Floyd2017,Krueger2020,Peitek2021</cite> have used
+<span g="fmri" i="reading code!fMRI studies">fMRI</span> to look at what programmers'
 brain do when they are reading or writing code. The main findings are that
 reading code is cognitively different from reading prose, but that the more
 experienced programmers are, the less of a difference there is. This
@@ -199,8 +200,8 @@ flow graph for:
 <!-- continue -->
 includes the statement on line 3, but the abstract interpretation flow graph
 doesn't, because there's no way it could ever be executed given the possible
-value(s) of `x`.  Code paths that are never executed signal <span i="dead code"
-g="dead_code">dead code</span>, which in turn usually signals logic errors, such
+value(s) of `x`.  Code paths that are never executed signal
+<span g="dead_code" i="dead code">dead code</span>, which in turn usually signals logic errors, such
 as use of `and` instead of `or` in a logical test.  The results from this kind
 of analysis are impressive: the authors found that a lot of code in widely-used
 libraries is littered with unnecessary `null` checks, and that even experienced
@@ -221,7 +222,7 @@ on their designers to show that the complexity is worthwhile.
 Meanwhile, lots of people say that copy-pasting code is bad practice: if you
 find yourself creating <span i="code clones">code clones</span>, you should put
 the repeated code in its own method and call it from all the original copies
-(<span x="design"/>).  But when <cite>Kapser2008</cite> explored *why*
+(<a section="design"/>).  But when <cite>Kapser2008</cite> explored *why*
 developers create code clones, they found that code clones are OK in some cases:
 
 > …the results of the case study identify a set of patterns that are most often

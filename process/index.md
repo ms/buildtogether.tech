@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 A <span g="development_process" i="development process">development
@@ -22,14 +23,13 @@ routine to the chaos of student life.
 ## Process as Feedback Loops
 
 I think about process in terms of <span i="feedback loops">feedback loops</span>
-on different timescales (<span f="feedback-loops"/>).  Any particular team
+on different timescales (<a figure="feedback-loops"/>).  Any particular team
 emphasizes some of these and pays less attention to others.
 
-{% include figure
-   id="feedback-loops"
-   img="feedback-loops.svg"
-   alt="Feedback loops"
-   cap="Software development feedback loops on different timescales." %}
+<figure id="feedback-loops">
+  <img src="feedback-loops.svg" alt="Feedback loops"/>
+  <figcaption>Software development feedback loops on different timescales.</figcaption>
+</figure>
 
 <span g="pair_programming" i="pair programming">Pair programming</span>.
 :   One programmer, the driver, does the typing, while the other, called the
@@ -39,7 +39,7 @@ emphasizes some of these and pays less attention to others.
     First, the navigator will often notice mistakes in the driver's code, or
     remember design decisions that the driver is too busy typing to recall. This
     is the tightest of the feedback loops, since feedback is nearly continuous.
-    <br/>
+
     Second, pair programming spreads knowledge around: every piece of code has
     been seen by at least two people, which reduces the risk of "But I didn't
     know" mistakes.  It also helps people pick up new skills: if you have just
@@ -70,7 +70,7 @@ Unit testing.
     versa <cite>Fucci2017</cite>.
 
 <span i="continuous integration">Continuous integration</span>.
-:   As discussed in <span x="tooling"/>), building the software and running
+:   As discussed in <a section="tooling"/>), building the software and running
     tests every time someone creates a pull request or commits to the main
     branch gives the whole team feedback about what state the software is in.
     This is particularly important when other people or pairs are working on it:
@@ -78,10 +78,10 @@ Unit testing.
     if someone hasn't been careful about doing merges.
 
 <span i="code review">Code review</span>.
-:   <span x="git-team"/> explained when, why, and how to do this.
+:   <a section="git-team"/> explained when, why, and how to do this.
 
 The other practices---stand-up meetings, sprints, analysis & estimation---are
-covered below, while delivering releases is covered in <span x="delivery"/>.
+covered below, while delivering releases is covered in <a section="delivery"/>.
 Before we explore them, though, let's take a look at a typical afternoon in the
 life of a student programmer.
 
@@ -108,7 +108,7 @@ example:
     ones, three of which are assigned to you.  It looks like the file parser you
     wrote last week doesn't handle the "clarification" the prof posted on
     Monday.  You create a new branch and start writing unit tests to isolate the
-    things that are breaking (<span x="design"/>).
+    things that are breaking (<a section="design"/>).
 
 3:25 p.m.
 :   You have added twelve new tests, each between three and ten lines long.
@@ -155,12 +155,11 @@ meeting to stay organized and you will be in great shape.
 
 ## The Waterfall Model
 
-To start our exploration of the longer feedback loops in <span
-f="feedback-loops"/>, let's look at a process that nobody uses, but which
-appears in almost every textbook. It's called the <span i="waterfall model;
-process!waterfall" g="waterfall_model">waterfall model</span>, and it divides
-development into a series of discrete phases, each of which is completed before
-the next begins:
+To start our exploration of the longer feedback loops in
+<a figure="feedback-loops"/>, let's look at a process that nobody uses, but which
+appears in almost every textbook. It's called the <span g="waterfall_model" i="waterfall model; process!waterfall">waterfall model</span>,
+and it divides development into a series of discrete phases,
+each of which is completed before the next begins:
 
 1.  Gather requirements.
 
@@ -189,16 +188,15 @@ helps to look at the <span g="boehm_curve" i="Boehm Curve">Boehm Curve</span>,
 which shows the effort required to fix a bug based on when it is caught.
 
 In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
-you move later and later in the development cycle <cite>Boehm1981</cite> (<span
-f="boehms-curve"/>).  Better tools and vastly more powerful computers have
+you move later and later in the development cycle <cite>Boehm1981</cite>
+(<a figure="boehms-curve"/>).  Better tools and vastly more powerful computers have
 flattened Boehm's curve over the past thirty years, but it is still takes more
 effort to fix things later than earlier <cite>Dawson2010</cite>.
 
-{% include figure
-   id="boehms-curve"
-   img="boehms-curve.svg"
-   alt="Boehm's Curve"
-   cap="The cost of fixing bugs increases later in the development cycle." %}
+<figure id="boehms-curve">
+  <img src="boehms-curve.svg" alt="Boehm's Curve"/>
+  <figcaption>The cost of fixing bugs increases later in the development cycle.</figcaption>
+</figure>
 
 Development teams deal with this in three ways.  The first is to ignore it.  If
 you're being paid a steady salary by a company that can survive delays and cost
@@ -353,7 +351,7 @@ up the build", and "upgrade to the latest version of Node".
 So, it's Monday morning.  Version N shipped last Thursday; the team has had a
 weekend to catch its collective breath and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week
-to recover, go back and re-read <span x="important"/>.)  At this
+to recover, go back and re-read <a section="important"/>.)  At this
 point the product manager divides up the list of desired features and assigns
 them to the developers.  Each developer then has some time---typically a few
 days to a couple of weeks---to do a little research, write some throwaway
@@ -379,19 +377,18 @@ the next release has to be available in May.  This is normal: there is *never*
 enough time to add everything that everyone wants to a piece of software, and
 even if there was, it probably shouldn't be done anyway.
 
-What you do now is find a large whiteboard and draw an <span
-i="effort-importance grid" g="effort_importance_grid">effort-importance
-grid</span>.  The X axis is labeled "effort" and is labeled "an hour", "a day",
+What you do now is find a large whiteboard and draw an
+<span g="effort_importance_grid" i="effort-importance grid">effort-importance grid</span>.
+The X axis is labeled "effort" and is labeled "an hour", "a day",
 and "a week", while the Y axis "importance", and is divided into "low",
 "medium", and "high".  Next, write each feature's name on a yellow sticky note
-and put it on the grid.  You should wind up with something like <span
-f="effort-importance"/>.
+and put it on the grid.  You should wind up with something like
+<a figure="effort-importance"/>.
 
-{% include figure
-   id="effort-importance"
-   img="effort-importance.svg"
-   alt="Effort/importance matrix"
-   cap="An example of an effort/importance matrix." %}
+<figure id="effort-importance">
+  <img src="effort-importance.svg" alt="Effort/importance matrix"/>
+  <figcaption>An example of an effort/importance matrix.</figcaption>
+</figure>
 
 You then throw away the high-effort, low-importance items in the bottom-right
 three cells---you aren't going to get to those.  Next, you start assembling the
@@ -439,8 +436,8 @@ Denial.
 :   This is very popular but doesn't actually solve the problem.
 
 Start working evenings and weekends.
-:   This is also very popular, but is quickly self-defeating.  As <span
-    x="important"/> explained, the quality of your work goes down when
+:   This is also very popular, but is quickly self-defeating.  As
+    <a section="important"/> explained, the quality of your work goes down when
     you're tired, so any ground you gain by working until three a.m.  you lose
     to extra debugging and rewriting.
 
@@ -466,8 +463,8 @@ ten-week window.  That's OK: it's a shame you won't get to them, but at least
 you know it now and can start taking action (like lowering your instructor's
 expectations) well in advance of delivery.
 
-In the real world these calculations are the responsibility of the <span
-i="project manager" g="project_manager">project manager</span>.  Her job is to
+In the real world these calculations are the responsibility of the
+<span g="project_manager" i="project manager">project manager</span>.  Her job is to
 make sure everyone is doing what they're supposed to, to handle interruptions
 (there are *always* interruptions), and to track the team's progress.  After a
 few weeks, the project manager should compare how much has actually been done
@@ -494,9 +491,9 @@ of its value.
 When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
-responsibilities is to <span i="triage" g="triage">triage</span> the issues in a
+responsibilities is to <span g="triage" i="triage">triage</span> the issues in a
 project's <span i="issue tracker!helping triage; triage!using issue
-tracker">issue tracker</span> (<span x="communicate"/>) periodically and adjust
+tracker">issue tracker</span> (<a section="communicate"/>) periodically and adjust
 the schedule accordingly. The <span i="effort-importance grid!helping
 triage">effort-importance grid</span> that you drew at the start will help with
 this: by the time you are a few weeks into your project, you should be able to
@@ -510,17 +507,16 @@ users' needs that your original plan *wouldn't* satisfy could you help with?
 Figuring this out is one of a project manager's most important responsibilities
 <cite>Perri2018</cite>; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
-keep it because you have it.  As <span f="feature-usage"/> shows using data from
+keep it because you have it.  As <a figure="feature-usage"/> shows using data from
 <span i="Brown, Neil">[Neil Brown][brown-neil]</span> and the <span i="Blackbox
 project">[Blackbox][blackbox] project</span>, the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
 those in the <span g="long_tail">long tail</span>.
 
-{% include figure
-   id="feature-usage"
-   img="feature-usage.svg"
-   alt="Distribution of feature usage"
-   cap="Distribution of feature usage in BlueJ (data courtesy of Neil Brown)." %}
+<figure id="feature-usage">
+  <img src="feature-usage.svg" alt="Distribution of feature usage"/>
+  <figcaption>Distribution of feature usage in BlueJ (data courtesy of Neil Brown).</figcaption>
+</figure>
 
 ## Which Process Should You Use?
 
@@ -545,10 +541,10 @@ the former in courses, since:
 
 Since your project has to fit in one or two terms, you'll probably be asked to
 go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called <span i="time boxing"
-g="time_boxing">time boxing</span>: you specify how long a cycle will last, then
-see how much work you can fit into that interval.  The alternative is <span
-i="feature boxing" g="feature_boxing">feature boxing</span>: you decide what you
+expected to deliver in each iteration.  This is called <span g="time_boxing" i="time boxing">time boxing</span>:
+you specify how long a cycle will last, then
+see how much work you can fit into that interval.  The alternative is
+<span g="feature_boxing" i="feature boxing">feature boxing</span>: you decide what you
 want to do and then build a schedule that gives you enough time to do it.  Most
 people believe that time boxing works better, since it encourages developers to
 take smaller steps and allows them to give customers more frequent demos (which

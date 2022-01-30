@@ -1,4 +1,5 @@
 ---
+template: page.html
 ---
 
 The material below is adapted from the guidelines for annual performance reviews
