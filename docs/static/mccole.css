@@ -86,8 +86,15 @@ figcaption {
 }
 
 /* Footer */
-footer {
+footer p {
+    font-size: var(--large-font);
     text-align: center;
+    vertical-align: middle;
+}
+
+/* Images */
+img.icon {
+    height: 1em;
 }
 
 /* Glossary entries */
@@ -103,6 +110,11 @@ span[g] {
 /* Headings */
 h1 {
     text-align: center;
+}
+
+h2.subtitle {
+    text-align: center;
+    font-style: italic;
 }
 
 blockquote h3::before {
