@@ -7,17 +7,13 @@ open source projects.  Much less has been written about how to join existing
 projects, even though that's what most people do most of the time.  These simple
 rules can help, and can be read as a complement to <span x="rules-newcomers"/>.
 
-<div class="callout" markdown="1">
-
-### Buddies and mentors
-
-A well-run company's process for getting newly-hired people up to speed can be
-anything from a simple checklist like the one in <span x="onboarding"/> to a
-multi-week sequence of courses.  However it's done, it is most effective when
-new people are paired with buddies or mentors to direct their first questions
-to, and who will check in with them regularly to see how they're doing.
-
-</div>
+> ### Buddies and mentors
+>
+> A well-run company's process for getting newly-hired people up to speed can be
+> anything from a simple checklist like the one in <span x="onboarding"/> to a
+> multi-week sequence of courses.  However it's done, it is most effective when
+> new people are paired with buddies or mentors to direct their first questions
+> to, and who will check in with them regularly to see how they're doing.
 
 1.  Search first.
 :   Whatever question you have, the odds are pretty good that someone has asked

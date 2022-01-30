@@ -153,21 +153,17 @@ tech. Others protest, but those who do are often dismissed as being "difficult"
 (<span x="important"/>). Many take a third path and decide to leave
 programming---after all, why play a game that's unfair?
 
-<div class="callout" markdown="1">
-
-### In the beginning
-
-<span i="history of computing">Programming</span> was originally considered a
-female occupation, but as it became more lucrative it came to be viewed as
-"naturally" male.  <cite>Abbate2012</cite> and <cite>Ensmenger2012</cite>
-describe how this happened, while <cite>Hicks2018</cite> looks at how Britain
-lost its early dominance in computing by systematically discriminating against
-its most qualified workers: women.  Some men become quite uncomfortable whenever
-this is brought up, but we need to learn how to discuss our own history if we
-want to be able to think clearly about how the things we're doing today might
-change society tomorrow.
-
-</div>
+> ### In the beginning
+>
+> <span i="history of computing">Programming</span> was originally considered a
+> female occupation, but as it became more lucrative it came to be viewed as
+> "naturally" male.  <cite>Abbate2012</cite> and <cite>Ensmenger2012</cite>
+> describe how this happened, while <cite>Hicks2018</cite> looks at how Britain
+> lost its early dominance in computing by systematically discriminating against
+> its most qualified workers: women.  Some men become quite uncomfortable whenever
+> this is brought up, but we need to learn how to discuss our own history if we
+> want to be able to think clearly about how the things we're doing today might
+> change society tomorrow.
 
 ## Division of Labor
 
@@ -215,20 +211,16 @@ reinforce existing inequities; it also tends to lower the team's overall grade,
 since there's often little relationship between how outspoken people are and how
 well they work.
 
-<div class="callout" markdown="1">
-
-### The <span i="Dunning-Kruger effect">Dunning-Kruger effect</span>
-
-<cite>Kruger1999</cite> reported that people who know a subject well can usually
-estimate their knowledge accurately, but people who don't will often
-overestimate their competence because they don't know what they don't know.
-More recent work has cast doubt on this finding: it could simply be an artifact
-of the way the original researchers did their statistics <cite>Jarry2020</cite>.
-Either way, you should never trust self-reported expertise, as there's no easy
-way to tell if someone really knows what they're talking about or if what
-they're actually reporting is their self-esteem.
-
-</div>
+> ### The <span i="Dunning-Kruger effect">Dunning-Kruger effect</span>
+>
+> <cite>Kruger1999</cite> reported that people who know a subject well can usually
+> estimate their knowledge accurately, but people who don't will often
+> overestimate their competence because they don't know what they don't know.
+> More recent work has cast doubt on this finding: it could simply be an artifact
+> of the way the original researchers did their statistics <cite>Jarry2020</cite>.
+> Either way, you should never trust self-reported expertise, as there's no easy
+> way to tell if someone really knows what they're talking about or if what
+> they're actually reporting is their self-esteem.
 
 <span g="feature_decomposition" i="feature decomposition; allocating
 work!feature decomposition">Feature decomposition</span> is a variation on
@@ -260,16 +252,12 @@ chaos under pressure, so it's important to establish rules early and stick to
 them when the going is easy so that the instinct to do the right thing will be
 there when you need it.
 
-<div class="callout" markdown="1">
-
-### Clarity
-
-No matter how you allocate work, make sure that everyone understands who is
-doing what, when. As <cite>Barke2019</cite> found, actual roles can be fluid;
-what matters most is that team members understand and accept their
-responsibilities and everyone else's at any particular moment.
-
-</div>
+> ### Clarity
+>
+> No matter how you allocate work, make sure that everyone understands who is
+> doing what, when. As <cite>Barke2019</cite> found, actual roles can be fluid;
+> what matters most is that team members understand and accept their
+> responsibilities and everyone else's at any particular moment.
 
 ## Team Contracts
 
@@ -280,43 +268,39 @@ is most effective if each team creates their own as part of their first
 assignment so that they actually have to think about what they're promising
 their teammates.  Here's an example:
 
-<blockquote markdown="1">
-
-We, the members of Team 12, agree that:
-
-1.  Work on each assignment will divided according to role. Two people will
-    code, one will test, and one will be responsible for documentation. One of
-    the coders will run the weekly meeting; the other will take minutes and
-    post them to the project wiki on the same day as the meeting. These roles
-    will rotate for each assignment; no one will code two assignments in a
-    row.
-
-2.  The tester will be responsible for submitting the assignment.  A team
-    member will only be listed as contributing to that assignment if at least
-    two other members of the team agree they completed, or made significant
-    progress on, at least one work item.
-
-3.  We will aim to get at least 80% on each assignment.
-
-4.  We will hold a half-hour status meeting every week on Thursdays at 4:00
-    pm.  Everyone will be in the meeting by 4:05 pm; if someone cannot attend,
-    they will let the rest of the team know by email no later than 2:00 pm
-    that day.
-
-5.  Everyone will add a brief point-form summary of their progress that week
-    to the project wiki no later than 12:00 noon on Thursday.  Everyone will
-    read everyone else's summary before the 4:00 meeting.
-
-6.  All discussion about the project will take place on the team's Slack
-    channel so that everyone can see it and search through it later.
-
-7.  No one will check code into version control that fails to compile.  No one
-    will check in code that fails to pass existing tests without first getting
-    the permission of that round's tester. No one will change the database
-    schema or add dependencies on new libraries without first getting
-    permission from the whole team.
-
-</blockquote>
+> We, the members of Team 12, agree that:
+>
+> 1.  Work on each assignment will divided according to role. Two people will
+>     code, one will test, and one will be responsible for documentation. One of
+>     the coders will run the weekly meeting; the other will take minutes and
+>     post them to the project wiki on the same day as the meeting. These roles
+>     will rotate for each assignment; no one will code two assignments in a
+>     row.
+>
+> 2.  The tester will be responsible for submitting the assignment.  A team
+>     member will only be listed as contributing to that assignment if at least
+>     two other members of the team agree they completed, or made significant
+>     progress on, at least one work item.
+>
+> 3.  We will aim to get at least 80% on each assignment.
+>
+> 4.  We will hold a half-hour status meeting every week on Thursdays at 4:00
+>     pm.  Everyone will be in the meeting by 4:05 pm; if someone cannot attend,
+>     they will let the rest of the team know by email no later than 2:00 pm
+>     that day.
+>
+> 5.  Everyone will add a brief point-form summary of their progress that week
+>     to the project wiki no later than 12:00 noon on Thursday.  Everyone will
+>     read everyone else's summary before the 4:00 meeting.
+>
+> 6.  All discussion about the project will take place on the team's Slack
+>     channel so that everyone can see it and search through it later.
+>
+> 7.  No one will check code into version control that fails to compile.  No one
+>     will check in code that fails to pass existing tests without first getting
+>     the permission of that round's tester. No one will change the database
+>     schema or add dependencies on new libraries without first getting
+>     permission from the whole team.
 
 It may sound a little silly, like the contracts that some parents and children
 make up regarding chores and allowances, but it's very effective.  First, people
@@ -329,20 +313,16 @@ Drawing up a contract also prevents later disagreements about who actually
 promised or agreed to what. As with meetings, people often remember things
 differently; having a signed record is everyone's second-best defense.
 
-<div class="callout" markdown="1">
-
-### Who's it for?
-
-I still don't know if teams should have to give copies of their contracts to
-their instructors or not. On the one hand, it's a great way to let your
-instructor know how you're planning to operate, and what you're planning to
-achieve. Given that she probably has a lot more experience than you, it gives
-her a chance to tell you if you've forgotten anything or that your teammate's
-really cool idea is unlikely to work in practice. On the other hand, as soon as
-something has to be handed in, some students will write what they think the
-instructor wants to read, rather than what they actually think.
-
-</div>
+> ### Who's it for?
+>
+> I still don't know if teams should have to give copies of their contracts to
+> their instructors or not. On the one hand, it's a great way to let your
+> instructor know how you're planning to operate, and what you're planning to
+> achieve. Given that she probably has a lot more experience than you, it gives
+> her a chance to tell you if you've forgotten anything or that your teammate's
+> really cool idea is unlikely to work in practice. On the other hand, as soon as
+> something has to be handed in, some students will write what they think the
+> instructor wants to read, rather than what they actually think.
 
 Most software development teams in industry and open source don't bother with
 contracts like these. There may be corporate guidelines on good citizenship, or

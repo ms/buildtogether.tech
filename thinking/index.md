@@ -70,21 +70,17 @@ any more than we can explain how we recognize faces.
    alt="Mental models"
    cap="The differences between novice, competent, and expert mental models." %}
 
-<div class="callout" markdown="1">
-
-### Learning styles aren't a thing
-
-You may have heard of "<span i="learning styles; pseudoscience!learning
-styles">learning styles</span>", i.e., that some people learn better visually,
-while others do so more quickly or more accurately by listening, reading, or
-otherwise using language. It's bullshit: while lots of companies make and sell
-materials based on this myth, no one has ever shown that tuning what or how we
-teach to match people's preferences has any impact on outcomes
-<cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs Type
-Indicator">Myers-Briggs personality types</span> (<span x="fairness"/>),
-learning styles belong with healing crystals and astrology.
-
-</div>
+> ### Learning styles aren't a thing
+>
+> You may have heard of "<span i="learning styles; pseudoscience!learning
+> styles">learning styles</span>", i.e., that some people learn better visually,
+> while others do so more quickly or more accurately by listening, reading, or
+> otherwise using language. It's bullshit: while lots of companies make and sell
+> materials based on this myth, no one has ever shown that tuning what or how we
+> teach to match people's preferences has any impact on outcomes
+> <cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs Type
+> Indicator">Myers-Briggs personality types</span> (<span x="fairness"/>),
+> learning styles belong with healing crystals and astrology.
 
 This model of learning leaves almost everything discussed in
 <cite>Kirschner2018</cite> and other recent work, but is good enough to start
@@ -125,16 +121,12 @@ Finally, the most effective way to "teach" experts is to have them reflect or
 Suppose you are teaching a child how to do addition and you give them this
 multiple-choice question:
 
-<blockquote markdown="1">
-
-What is 37 + 45?
-
-- 82
-- 72
-- 712
-- 73
-
-</blockquote>
+> What is 37 + 45?
+>
+> - 82
+> - 72
+> - 712
+> - 73
 
 If they pick the first answer, it shows they know how to add multi-digit
 numbers. If they pick the second, it signals that they don't know how to carry:
@@ -165,19 +157,15 @@ misunderstand things in different ways; a good formative assessment tells the
 instructor what misconceptions these particular learners have and therefore what
 needs to be corrected.
 
-<div class="callout" markdown="1">
-
-### Recordings can't respond
-
-If an instructor uses a formative assessment in class and then says whatever
-they planned to say next instead of responding to the learner's actual
-misunderstandings, they're not a good teacher. Unfortunately, that is what
-almost all recorded videos do: they always say the same next thing regardless of
-what the viewer did or didn't understand.  Good video games provide many paths
-around or through each obstacle; recorded courses could in theory do that too,
-but in practice the cost is prohibitive.
-
-</div>
+> ### Recordings can't respond
+>
+> If an instructor uses a formative assessment in class and then says whatever
+> they planned to say next instead of responding to the learner's actual
+> misunderstandings, they're not a good teacher. Unfortunately, that is what
+> almost all recorded videos do: they always say the same next thing regardless of
+> what the viewer did or didn't understand.  Good video games provide many paths
+> around or through each obstacle; recorded courses could in theory do that too,
+> but in practice the cost is prohibitive.
 
 Formative assessments have many other benefits. One is that in order to come up
 with good ones, the instructor has to build a mental model of all the ways in

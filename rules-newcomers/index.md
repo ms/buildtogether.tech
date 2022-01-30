@@ -5,23 +5,19 @@ To survive and thrive, a community must attract and retain new members and help
 them be productive. These rules, taken from <cite>Sholler2019</cite>, describe
 how to do this.
 
-<div class="callout" markdown="1">
-
-### Communities of practice
-
-What exactly do we mean by "community"? In the case of open source and open
-science, the most usual meaning is a <span g="community_of_practice"
-i="community of practice">community of practice</span>
-<cite>Lave1991,Wenger1999</cite> with three characteristics:
-
-1.  Participants have a common product or purpose that they work on or
-    toward.
-
-2.  They are mutually engaged, i.e., they assist and mentor each another.
-
-3.  They develop shared resources and domain knowledge.
-
-</div>
+> ### Communities of practice
+>
+> What exactly do we mean by "community"? In the case of open source and open
+> science, the most usual meaning is a <span g="community_of_practice"
+> i="community of practice">community of practice</span>
+> <cite>Lave1991,Wenger1999</cite> with three characteristics:
+>
+> 1.  Participants have a common product or purpose that they work on or
+>     toward.
+>
+> 2.  They are mutually engaged, i.e., they assist and mentor each another.
+>
+> 3.  They develop shared resources and domain knowledge.
 
 1. Be welcoming.
 :   Projects should not just say that they welcome new members: they should make

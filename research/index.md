@@ -90,19 +90,15 @@ inner-city children consistently outscored children from wealthy suburban homes
 on standardized tests, is anyone naïve enough to believe that we would still
 insist on using these tests as indicators of success?"
 
-<div class="callout" markdown="1">
-
-### What don't you want to know?
-
-<cite>Begel2014</cite> asked one set of developers what questions they most
-wanted researchers to answer, then asked another set of developers to rate those
-questions.  Respondents favored questions about how customers typically use
-their applications, but were opposed questions related to assessing the
-performance of individual employees or comparing them with one another;
-<cite>Huijgens2020</cite> found that data scientists viewed most possible
-research topics the same way.
-
-</div>
+> ### What don't you want to know?
+>
+> <cite>Begel2014</cite> asked one set of developers what questions they most
+> wanted researchers to answer, then asked another set of developers to rate those
+> questions.  Respondents favored questions about how customers typically use
+> their applications, but were opposed questions related to assessing the
+> performance of individual employees or comparing them with one another;
+> <cite>Huijgens2020</cite> found that data scientists viewed most possible
+> research topics the same way.
 
 ## What Do We Know About Programming Style?
 
@@ -136,18 +132,14 @@ have style guides (e.g., <span i="PEP8; Python!PEP8 style
 guide">[PEP8][pep8]</span> for Python) and tools to check that code follows
 these guidelines.  In contrast, <cite>Schankin2018</cite> found that:
 
-<blockquote markdown="1">
-
-With descriptive identifier names, developers spent more time in the lines of
-code before the actual defect occurred and changed their reading direction less
-often, finding the semantic defect about 14% faster than with shorter but less
-descriptive identifier names. These effects disappeared when developers searched
-for a syntax error, i.e., when no in-depth understanding of the code was
-required. Interestingly, the style of identifier names had a clear impact on
-program comprehension for more experienced developers but not for less
-experienced developers.
-
-</blockquote>
+> With descriptive identifier names, developers spent more time in the lines of
+> code before the actual defect occurred and changed their reading direction less
+> often, finding the semantic defect about 14% faster than with shorter but less
+> descriptive identifier names. These effects disappeared when developers searched
+> for a syntax error, i.e., when no in-depth understanding of the code was
+> required. Interestingly, the style of identifier names had a clear impact on
+> program comprehension for more experienced developers but not for less
+> experienced developers.
 
 More recently, <cite>Floyd2017,Krueger2020,Peitek2021</cite> have used <span
 i="reading code!fMRI studies" g="fmri">fMRI</span> to look at what programmers'
@@ -204,7 +196,7 @@ flow graph for:
 03:     x = 1
 ```
 
-{: .continue}
+<!-- continue -->
 includes the statement on line 3, but the abstract interpretation flow graph
 doesn't, because there's no way it could ever be executed given the possible
 value(s) of `x`.  Code paths that are never executed signal <span i="dead code"
@@ -232,19 +224,15 @@ the repeated code in its own method and call it from all the original copies
 (<span x="design"/>).  But when <cite>Kapser2008</cite> explored *why*
 developers create code clones, they found that code clones are OK in some cases:
 
-<blockquote markdown="1">
-
-…the results of the case study identify a set of patterns that are most often
-harmful, namely *verbatim snippets* and *parameterized code*. While there were
-several examples of good usage of these clone patterns, the majority were deemed
-harmful. This may be an indication that developers should avoid this form of
-cloning. On the other hand several patterns were found to be mostly good:
-*boiler-plating*, *replicate and specialize*, and *cross-cutting
-concerns*. While not always good, when used with care (as with any form of
-design or implementation decision) these patterns are more likely to achieve an
-overall beneficial effect on the software system.
-
-</blockquote>
+> …the results of the case study identify a set of patterns that are most often
+> harmful, namely *verbatim snippets* and *parameterized code*. While there were
+> several examples of good usage of these clone patterns, the majority were deemed
+> harmful. This may be an indication that developers should avoid this form of
+> cloning. On the other hand several patterns were found to be mostly good:
+> *boiler-plating*, *replicate and specialize*, and *cross-cutting
+> concerns*. While not always good, when used with care (as with any form of
+> design or implementation decision) these patterns are more likely to achieve an
+> overall beneficial effect on the software system.
 
 ## What Do We Know About the Quality of Software?
 
@@ -275,17 +263,13 @@ have. <cite>Beller2019</cite> monitored 2,443 software engineers over the course
 of 2.5 years in four <span i="IDE!under-used and abused">IDEs</span>. They found
 that:
 
-<blockquote markdown="1">
-
-…half of the developers in our study does not test; developers rarely run their
-tests in the IDE; only once they start testing, do they do it heftily; most
-programming sessions end without any test execution; only a quarter of test
-cases is responsible for three quarters of all test failures; 12% of tests show
-flaky behavior; Test-Driven Development is not widely practiced; and software
-developers only spend a quarter of their time engineering tests, whereas they
-think they test half of their time.
-
-</blockquote>
+> …half of the developers in our study does not test; developers rarely run their
+> tests in the IDE; only once they start testing, do they do it heftily; most
+> programming sessions end without any test execution; only a quarter of test
+> cases is responsible for three quarters of all test failures; 12% of tests show
+> flaky behavior; Test-Driven Development is not widely practiced; and software
+> developers only spend a quarter of their time engineering tests, whereas they
+> think they test half of their time.
 
 Another factor that affects quality is how comprehensible the software is: in
 particular, how easy or difficult it is to set it up.  <cite>Xu2015</cite>
@@ -321,19 +305,15 @@ than half of the trivial packages include tests; instead, they are "deployment
 tested", i.e., their authors fix the breakages that users report, so that while
 they might not work in all situations, they work in all situations that matter.
 
-<div class="callout" markdown="1">
-
-### What *can't* we learn?
-
-Many people have put forward <span g="code_metric" i="code
-metrics!ineffectiveness of">code metrics</span> that are supposed to measure the
-complexity or likely number of bugs in a piece of software. However,
-<cite>ElEmam2001</cite> found that these metrics are no better at predicting
-things than simply counting the number of lines of code, because the longer the
-program is, the more likely it is to contain whatever kinds of problems those
-more sophisticated metrics are looking for.
-
-</div>
+> ### What *can't* we learn?
+>
+> Many people have put forward <span g="code_metric" i="code
+> metrics!ineffectiveness of">code metrics</span> that are supposed to measure the
+> complexity or likely number of bugs in a piece of software. However,
+> <cite>ElEmam2001</cite> found that these metrics are no better at predicting
+> things than simply counting the number of lines of code, because the longer the
+> program is, the more likely it is to contain whatever kinds of problems those
+> more sophisticated metrics are looking for.
 
 ## What Do We Know About Software Projects?
 
@@ -389,18 +369,14 @@ happened before. <cite>McIntosh2011</cite> provides a baseline for both how much
 effort is required to keep the build system in working order, and how much those
 figures can be improved:
 
-<blockquote markdown="1">
-
-…despite the difference in scale, the build system churn rate is comparable to
-that of the source code, and build changes induce more relative churn on the
-build system than source code changes induce on the source code. Furthermore,
-build maintenance yields up to a 27% overhead on source code development and a
-44% overhead on test development. Up to 79% of source code developers and 89%
-of test code developers are significantly impacted by build maintenance, yet
-investment in build experts can reduce the proportion of impacted developers
-to 22% of source code developers and 24% of test code developers.
-
-</blockquote>
+> …despite the difference in scale, the build system churn rate is comparable to
+> that of the source code, and build changes induce more relative churn on the
+> build system than source code changes induce on the source code. Furthermore,
+> build maintenance yields up to a 27% overhead on source code development and a
+> 44% overhead on test development. Up to 79% of source code developers and 89%
+> of test code developers are significantly impacted by build maintenance, yet
+> investment in build experts can reduce the proportion of impacted developers
+> to 22% of source code developers and 24% of test code developers.
 
 How reliable are results like these?  To find out, <cite>Anda2009</cite> had
 four teams build the same software independently and in parallel so that they
@@ -413,7 +389,7 @@ could look at which outcomes were reproducible and which were not:
 -   Low reproducibility: firm price, planned schedule, schedule overrun,
     reliability, and maintainability
 
-{: .continue}
+<!-- continue -->
 Putting something in the "low" category here doesn't mean that it was uniformly
 poor.  Instead, it means that there was wide variation, i.e., that results were
 unpredictable.  Their results match software engineering folklore, and are a
@@ -443,30 +419,26 @@ industry and research should "focus on other predictors of performance,
 including expertise and task complexity" instead, as these factors overshadow
 any personality effects.
 
-<div class="callout" markdown="1">
-
-### Myers-Briggs and other danger signs
-
-The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
-pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
-advertises itself as personality profiling tool.  It is popular on dating sites
-and some companies use it as part of their interview process---despite the fact
-that it is complete bullshit.  Half or more of people who repeat the test within
-a few weeks get a different personality classification, it fails to predict job
-performance, and its categories are based on outdated (and very Western-centric)
-psychological theories.  If a potential employer asks you to do it as part of
-the interview process, ask them if they would like a horoscope as well.
-
-Myers-Briggs has given the whole notion of personality profiling a bad
-reputation, but there are models of personality that have a scientific basis and
-are repeatable and cross-cultural.  For example, the <span g="ocean_model">OCEAN
-model</span> has five dimensions: Openness to experience, Conscientiousness,
-Extraversion, Agreeableness, and Neuroticism. Studies of twins and other
-research has found that about half of personality variation comes from genetics
-and about half from environment, and work like <cite>Hannay2010</cite> has used
-this model in studies of programmers.
-
-</div>
+> ### Myers-Briggs and other danger signs
+>
+> The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
+> pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
+> advertises itself as personality profiling tool.  It is popular on dating sites
+> and some companies use it as part of their interview process---despite the fact
+> that it is complete bullshit.  Half or more of people who repeat the test within
+> a few weeks get a different personality classification, it fails to predict job
+> performance, and its categories are based on outdated (and very Western-centric)
+> psychological theories.  If a potential employer asks you to do it as part of
+> the interview process, ask them if they would like a horoscope as well.
+>
+> Myers-Briggs has given the whole notion of personality profiling a bad
+> reputation, but there are models of personality that have a scientific basis and
+> are repeatable and cross-cultural.  For example, the <span g="ocean_model">OCEAN
+> model</span> has five dimensions: Openness to experience, Conscientiousness,
+> Extraversion, Agreeableness, and Neuroticism. Studies of twins and other
+> research has found that about half of personality variation comes from genetics
+> and about half from environment, and work like <cite>Hannay2010</cite> has used
+> this model in studies of programmers.
 
 ## What Do We Know About Innate Ability?
 
@@ -474,25 +446,21 @@ The most important result in this chapter comes from <cite>Patitsas2016</cite>.
 <span i="programming!innate ability">Its abstract</span> is worth repeating in
 full:
 
-<blockquote markdown="1">
-
-Although it has never been rigourously demonstrated, there is a common belief
-that CS grades are bimodal. We statistically analyzed 778 distributions of final
-course grades from a large research university, and found only 5.8% of the
-distributions passed tests of multimodality. We then devised a psychology
-experiment to understand why CS educators believe their grades to be bimodal.
-
-We showed 53 CS professors a series of histograms displaying ambiguous
-distributions and asked them to categorize the distributions. A random half of
-participants were primed to think about the fact that CS grades are commonly
-thought to be bimodal; these participants were more likely to label ambiguous
-distributions as bimodal. Participants were also more likely to label
-distributions as bimodal if they believed that some students are innately
-predisposed to do better at CS. These results suggest that bimodal grades are
-instructional folklore in CS, caused by confirmation bias and instructor beliefs
-about their students.
-
-</blockquote>
+> Although it has never been rigourously demonstrated, there is a common belief
+> that CS grades are bimodal. We statistically analyzed 778 distributions of final
+> course grades from a large research university, and found only 5.8% of the
+> distributions passed tests of multimodality. We then devised a psychology
+> experiment to understand why CS educators believe their grades to be bimodal.
+>
+> We showed 53 CS professors a series of histograms displaying ambiguous
+> distributions and asked them to categorize the distributions. A random half of
+> participants were primed to think about the fact that CS grades are commonly
+> thought to be bimodal; these participants were more likely to label ambiguous
+> distributions as bimodal. Participants were also more likely to label
+> distributions as bimodal if they believed that some students are innately
+> predisposed to do better at CS. These results suggest that bimodal grades are
+> instructional folklore in CS, caused by confirmation bias and instructor beliefs
+> about their students.
 
 In plain language, if some people are born programmers and others aren't, there
 ought to be two humps in the grade distribution. There isn't, but if people

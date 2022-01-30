@@ -6,21 +6,17 @@ software.  Instead, the worst mistakes people make are related to the human side
 of things. Before we look at teamwork or tools, we need to talk about overwork,
 how to run a meeting, and how to resolve arguments.
 
-<div class="callout" markdown="1">
-
-### Not writing software takes less time
-
-<cite>Sedano2017</cite> found that software development projects have <span
-i="waste (in software development)">nine types of waste</span>: building the
-wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
-solutions, extraneous <span i="cognitive load">cognitive load</span> (<span
-x="thinking"/>), psychological distress, waiting and <span
-i="multitasking">multitasking</span>, knowledge loss, and ineffective
-communication.  *None of these are software issues,* so if you only think about
-the software side of your project, it's going to take longer and hurt more than
-it needs to.
-
-</div>
+> ### Not writing software takes less time
+>
+> <cite>Sedano2017</cite> found that software development projects have <span
+> i="waste (in software development)">nine types of waste</span>: building the
+> wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
+> solutions, extraneous <span i="cognitive load">cognitive load</span> (<span
+> x="thinking"/>), psychological distress, waiting and <span
+> i="multitasking">multitasking</span>, knowledge loss, and ineffective
+> communication.  *None of these are software issues,* so if you only think about
+> the software side of your project, it's going to take longer and hurt more than
+> it needs to.
 
 ## Crunch Mode
 
@@ -58,28 +54,24 @@ habit is killing them, people in the software industry still talk and act as if
 science somehow didn't apply to them.  To quote <span i="Robinson,
 Evan">Robinson</span>'s article:
 
-<blockquote markdown="1">
-
-When <span i="Ford, Henry">Henry Ford</span> famously adopted a 40-hour workweek
-in 1926, he was bitterly criticized by members of the National Association of
-Manufacturers.  But his experiments, which he'd been conducting for at least 12
-years, showed him clearly that cutting the workday from ten hours to eight
-hours---and the workweek from six days to five days---increased total worker
-output and reduced production cost…  the core of his argument was that reduced
-shift length meant more output.
-
-…many studies, conducted by businesses, universities, industry associations and
-the military, …support the basic notion that, for most people, eight hours a
-day, five days per week, is the best sustainable long-term balance point between
-output and exhaustion.  Throughout the 30s, 40s, and 50s, these studies were
-apparently conducted by the hundreds; and by the 1960s, the benefits of the
-40-hour week were accepted almost beyond question in corporate America.  In
-1962, the Chamber of Commerce even published a pamphlet extolling the
-productivity gains of reduced hours.
-
-But, somehow, Silicon Valley didn't get the memo…
-
-</blockquote>
+> When <span i="Ford, Henry">Henry Ford</span> famously adopted a 40-hour workweek
+> in 1926, he was bitterly criticized by members of the National Association of
+> Manufacturers.  But his experiments, which he'd been conducting for at least 12
+> years, showed him clearly that cutting the workday from ten hours to eight
+> hours---and the workweek from six days to five days---increased total worker
+> output and reduced production cost…  the core of his argument was that reduced
+> shift length meant more output.
+>
+> …many studies, conducted by businesses, universities, industry associations and
+> the military, …support the basic notion that, for most people, eight hours a
+> day, five days per week, is the best sustainable long-term balance point between
+> output and exhaustion.  Throughout the 30s, 40s, and 50s, these studies were
+> apparently conducted by the hundreds; and by the 1960s, the benefits of the
+> 40-hour week were accepted almost beyond question in corporate America.  In
+> 1962, the Chamber of Commerce even published a pamphlet extolling the
+> productivity gains of reduced hours.
+>
+> But, somehow, Silicon Valley didn't get the memo…
 
 I was part of a data visualization startup in the mid-1990s.  Three months
 before our first release, the head of development "asked" us to start coming in
@@ -101,14 +93,10 @@ It only takes me a couple of minutes to create a bug that will take hours to
 track down later---or days, if someone else is unlucky enough to have to track
 it down.  This is summarized in Robinson's first rule:
 
-<blockquote markdown="1">
-
-<span i="productivity">Productivity</span> varies over the course of the
-workday, with the greatest productivity occurring in the first four to six
-hours.  After enough hours, productivity approaches zero; eventually it becomes
-negative.
-
-</blockquote>
+> <span i="productivity">Productivity</span> varies over the course of the
+> workday, with the greatest productivity occurring in the first four to six
+> hours.  After enough hours, productivity approaches zero; eventually it becomes
+> negative.
 
 It's hard to quantify the productivity of programmers, testers, and UI
 designers, but five eight-hour days per week has been proven to maximize
@@ -155,18 +143,14 @@ of organizing can help a lot---as <cite>Mark2008</cite> reported, "…people
 compensate for interruptions by working faster, but this comes at a price:
 experiencing more stress, higher frustration, time pressure and effort."
 
-<div class="callout" markdown="1">
-
-### How bad is it?
-
-A student of mine kept a stopwatch beside his computer for a couple of weeks
-during term.  Every time he read mail, put Twitter in the foreground, or went to
-Manchester United's web site he hit the button to stop it.  At the end of two
-weeks he discovered that he only spent 28% of his "working" time working.  Put
-it another way, he could have finished his assignments in a third of the time
-they actually took.
-
-</div>
+> ### How bad is it?
+>
+> A student of mine kept a stopwatch beside his computer for a couple of weeks
+> during term.  Every time he read mail, put Twitter in the foreground, or went to
+> Manchester United's web site he hit the button to stop it.  At the end of two
+> weeks he discovered that he only spent 28% of his "working" time working.  Put
+> it another way, he could have finished his assignments in a third of the time
+> they actually took.
 
 Make a list of the things you have to do.
 :   I still use a hardcover lab notebook for this so that I can doodle in it
@@ -244,48 +228,40 @@ but your friends will stop mocking you when they see that you're able to finish
 your assignments and still have time to play some badminton and catch a movie.
 They may even start to imitate you.
 
-<div class="callout" markdown="1">
+> ### Open offices suck
+>
+> <span i="open offices (evils of)">Open offices</span> were created so that
+> (mostly male) managers could keep an eye on (mostly female) office workers, and
+> to reduce air conditioning costs <cite>Eley1995</cite>.  In every other way we
+> can measure, they lower productivity <cite>Bernstein2018</cite>.
 
-### Open offices suck
-
-<span i="open offices (evils of)">Open offices</span> were created so that
-(mostly male) managers could keep an eye on (mostly female) office workers, and
-to reduce air conditioning costs <cite>Eley1995</cite>.  In every other way we
-can measure, they lower productivity <cite>Bernstein2018</cite>.
-
-</div>
-
-<div class="callout" markdown="1">
-
-### Nihil de nobis sine nobis
-
-The rules laid out above were created by and for people near the middle of the
-bell curve with respect to focus and attention span. People who are <span
-g="neurodivergent" i="neurodivergent">neurodivergent</span>, i.e., whose brains
-work differently from the average when it comes to sociability, learning,
-attention, and mood, may find that other approaches work better for them.
-
-But while society accepts that people of different heights need different desks
-and seating to be comfortable, there is still a lot of <span i="mental health
-(stigma associated with)">stigma</span> associated with differences in mental
-function, which are often measured by [how inconvenient they are to other
-people][adhd-thread].  One example is how tests for <span g="adhd"
-i="ADHD">attention-deficit/hyperactivity disorder</span> (ADHD) are
-phrased. "Subject is overly talkative": compared to who? "Subject does X when it
-is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
-people with ADHD can pay very close attention, but not when they are in
-environments that are full of distractions (like noisy classrooms).
-
-The title of this callout is Latin for, "Nothing about us without us." It means
-that no decisions should be made without the full participation of those who
-will be affected.  If you are neurodivergent, you probably have a set of
-strategies for managing time and attention. If you are <span g="neurotypical"
-i="neurotypical">neurotypical</span> and have neurodivergent teammates, ask them
-what works well for them rather than ignoring the difference or guessing what
-they might want. Please do the same if you have teammates who have difficulty
-seeing, hearing, or moving about: they have expertise you don't.
-
-</div>
+> ### Nihil de nobis sine nobis
+>
+> The rules laid out above were created by and for people near the middle of the
+> bell curve with respect to focus and attention span. People who are <span
+> g="neurodivergent" i="neurodivergent">neurodivergent</span>, i.e., whose brains
+> work differently from the average when it comes to sociability, learning,
+> attention, and mood, may find that other approaches work better for them.
+>
+> But while society accepts that people of different heights need different desks
+> and seating to be comfortable, there is still a lot of <span i="mental health
+> (stigma associated with)">stigma</span> associated with differences in mental
+> function, which are often measured by [how inconvenient they are to other
+> people][adhd-thread].  One example is how tests for <span g="adhd"
+> i="ADHD">attention-deficit/hyperactivity disorder</span> (ADHD) are
+> phrased. "Subject is overly talkative": compared to who? "Subject does X when it
+> is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
+> people with ADHD can pay very close attention, but not when they are in
+> environments that are full of distractions (like noisy classrooms).
+>
+> The title of this callout is Latin for, "Nothing about us without us." It means
+> that no decisions should be made without the full participation of those who
+> will be affected.  If you are neurodivergent, you probably have a set of
+> strategies for managing time and attention. If you are <span g="neurotypical"
+> i="neurotypical">neurotypical</span> and have neurodivergent teammates, ask them
+> what works well for them rather than ignoring the difference or guessing what
+> they might want. Please do the same if you have teammates who have difficulty
+> seeing, hearing, or moving about: they have expertise you don't.
 
 ## Meetings
 
@@ -376,33 +352,25 @@ End early.
 :   If the meeting is scheduled for 10:00--11:00, aim to end at 10:50 to give
     people a break before whatever they're doing next.
 
-<div class="callout" markdown="1">
-
-### I don't like your tone
-
-<span g="tone_policing" i="tone policing">Tone policing</span> is a tactic used
-to shut down discussion by criticizing people for expressing emotion.  It is
-often used against women, who are told to "calm down" when they show any sign of
-being angry at being excluded or not taken seriously. As [this
-article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
-
-<blockquote>
-
-People often reach for positive statements like "assume good intent" because
-they're worried about people being "shamed" over innocent mistakes. But society
-at large is already inclined to assume good intent in people with power and
-privilege–even when they're not demonstrating it. If you want to build a culture
-of "assuming good intent," start by assuming good intent in marginalized people.
-
-Assume that they already tried being nice. Assume that their feelings are
-valid. Assume that, after a lifetime of practice, they are responding to harmful
-behavior in the way that is safest for them.  Prioritize that safety over the
-momentary discomfort people feel when they realize they've done something
-hurtful.
-
-</blockquote>
-
-</div>
+> ### I don't like your tone
+>
+> <span g="tone_policing" i="tone policing">Tone policing</span> is a tactic used
+> to shut down discussion by criticizing people for expressing emotion.  It is
+> often used against women, who are told to "calm down" when they show any sign of
+> being angry at being excluded or not taken seriously. As [this
+> article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
+>
+> *People often reach for positive statements like "assume good intent" because
+> they're worried about people being "shamed" over innocent mistakes. But society
+> at large is already inclined to assume good intent in people with power and
+> privilege–even when they're not demonstrating it. If you want to build a culture
+> of "assuming good intent," start by assuming good intent in marginalized people.*
+>
+> *Assume that they already tried being nice. Assume that their feelings are
+> valid. Assume that, after a lifetime of practice, they are responding to harmful
+> behavior in the way that is safest for them.  Prioritize that safety over the
+> momentary discomfort people feel when they realize they've done something
+> hurtful.*
 
 As soon as the meeting is over, add a summary to the project's wiki, version
 control repository, or wherever else things are being stored:
@@ -431,15 +399,11 @@ Please don't email minutes to everyone: our inboxes are full enough, and the
 more places new team members need to search in order to find things, the more
 likely they are to miss something important.
 
-<div class="callout" markdown="1">
-
-### Are you a blowfish or a clam?
-
-[NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
-labels and even more useful advice for handling people who may send meetings off
-course.
-
-</div>
+> ### Are you a blowfish or a clam?
+>
+> [NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
+> labels and even more useful advice for handling people who may send meetings off
+> course.
 
 If you would like to become better at sharing information and making decisions,
 there is no better place to start than <cite>Brookfield2016</cite>. This book

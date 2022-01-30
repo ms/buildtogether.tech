@@ -67,25 +67,21 @@ that you should change your design to remove that long-range interaction: sooner
 or later (probably sooner) it will break again, and you may not catch it the
 second time around.
 
-<div class="callout" markdown="1">
-
-### Fuzzing
-
-In 1988, a professor teaching a class on operating systems decided to throw
-randomly-generated strings at standard Unix command-line utilities
-<cite>Miller1990</cite>.  To their surprise, the students were able to crash
-almost a third of the programs they tested, some of which had been in daily use
-for two decades.
-
-While they weren't the first people to test with random data, their results
-sparked interest in <span g="fuzz_testing" i="fuzz testing; unit
-test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
-standard part of most testers' repertoire <cite>Zeller2019</cite>.  Despite
-this, <cite>Miller2020</cite> found that thirty years later, programs are still
-failing at about the same rate and for the same reasons.  <span x="debugging"/>
-discusses a technique for making fuzz testing even more useful.
-
-</div>
+> ### Fuzzing
+>
+> In 1988, a professor teaching a class on operating systems decided to throw
+> randomly-generated strings at standard Unix command-line utilities
+> <cite>Miller1990</cite>.  To their surprise, the students were able to crash
+> almost a third of the programs they tested, some of which had been in daily use
+> for two decades.
+>
+> While they weren't the first people to test with random data, their results
+> sparked interest in <span g="fuzz_testing" i="fuzz testing; unit
+> test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
+> standard part of most testers' repertoire <cite>Zeller2019</cite>.  Despite
+> this, <cite>Miller2020</cite> found that thirty years later, programs are still
+> failing at about the same rate and for the same reasons.  <span x="debugging"/>
+> discusses a technique for making fuzz testing even more useful.
 
 ## Design for Testability
 
@@ -117,19 +113,15 @@ out-of-province orders, and so on.  Finally, the view translates the
 application's state into HTML for display and handles the button clicks and form
 submissions that drive the system from one state to another.
 
-<div class="callout" markdown="1">
-
-### Design patterns help
-
-Design patterns were a hot topic in the 1990s and early 2000s, and while there
-isn't as much excitement about them now, their value has not diminished.
-Knowing some design patterns is like knowing chord progressions in music: it
-gives you a larger mental toolkit to work with.  <cite>Tichy2010</cite>
-summarizes some of the evidence, more recent studies like <cite>Krein2016</cite>
-confirm it, and books like <cite>Olsen2007,Nystrom2014,Casciaro2020</cite> are
-great places to get started.
-
-</div>
+> ### Design patterns help
+>
+> Design patterns were a hot topic in the 1990s and early 2000s, and while there
+> isn't as much excitement about them now, their value has not diminished.
+> Knowing some design patterns is like knowing chord progressions in music: it
+> gives you a larger mental toolkit to work with.  <cite>Tichy2010</cite>
+> summarizes some of the evidence, more recent studies like <cite>Krein2016</cite>
+> confirm it, and books like <cite>Olsen2007,Nystrom2014,Casciaro2020</cite> are
+> great places to get started.
 
 The MVC architecture presents several <span i="model-view-controller
 architecture!testing">challenges for testing</span>:
@@ -219,42 +211,38 @@ drive never has to come into play. The cost of doing this is that you have to
 either commit to using one database in both environments, or avoid using the
 "improvements" that different databases have added to SQL.
 
-<div class="callout" markdown="1">
-
-### Mock objects
-
-A third choice is to replace the database with a <span g="mock_object" i="mock
-object">mock object</span>.  A mock object has the same interface as the
-function, object, class, or library that it replaces, but is designed to be used
-solely for testing.  For example, Node's `mock-fs` library provides the same
-functions as its standard filesystem library, but stores everything in memory.
-This prevents tests that create or delete files from doing anything unfortunate
-and also makes tests much faster (since in-memory operations are thousands of
-times faster than operations that touch the disk).
-
-A mock object can also be designed to give pre-programmed responses to just a
-handful of specific requests:
-
-```py
-INDEX_PAGE = '<html><body><h1>Index Page</h1></body></html>'
-USER_PAGE = '<html><body><h1>User Page</h1></body></html>'
-
-def mock_http_server(url):
-    if url == '/':
-        return INDEX_PAGE
-    elif url in ['/user/', '/user/index.html']:
-        return USER_PAGE
-    else:
-        raise UrlError(f'unhandled URL "{url}"')
-```
-
-{: .continue}
-The strength of the pre-programmed approach is that if anything ever sends an
-unexpected URL, the failure will be obvious.  The weakness is the tedium of
-writing out all the cases, though in most testing scenarios there are fewer than
-you might expect.
-
-</div>
+> ### Mock objects
+>
+> A third choice is to replace the database with a <span g="mock_object" i="mock
+> object">mock object</span>.  A mock object has the same interface as the
+> function, object, class, or library that it replaces, but is designed to be used
+> solely for testing.  For example, Node's `mock-fs` library provides the same
+> functions as its standard filesystem library, but stores everything in memory.
+> This prevents tests that create or delete files from doing anything unfortunate
+> and also makes tests much faster (since in-memory operations are thousands of
+> times faster than operations that touch the disk).
+>
+> A mock object can also be designed to give pre-programmed responses to just a
+> handful of specific requests:
+>
+> ```py
+> INDEX_PAGE = '<html><body><h1>Index Page</h1></body></html>'
+> USER_PAGE = '<html><body><h1>User Page</h1></body></html>'
+>
+> def mock_http_server(url):
+>     if url == '/':
+>         return INDEX_PAGE
+>     elif url in ['/user/', '/user/index.html']:
+>         return USER_PAGE
+>     else:
+>         raise UrlError(f'unhandled URL "{url}"')
+> ```
+>
+> <!-- continue -->
+> The strength of the pre-programmed approach is that if anything ever sends an
+> unexpected URL, the failure will be obvious.  The weakness is the tedium of
+> writing out all the cases, though in most testing scenarios there are fewer than
+> you might expect.
 
 Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
@@ -322,7 +310,7 @@ def test_something():
     elapsed = datetime.now().microsecond - start.microsecond
 ```
 
-{: .continue}
+<!-- continue -->
 but most test frameworks will do it for you. If you are using `pytest`, for
 example, the `--durations` will report the slowest tests or the running time for
 all tests. If you want to average over several runs (which you should, because
@@ -338,30 +326,26 @@ program I wrote to find tests whose performance has changed by more than a few
 percent. It's probably more than you need for a class project, but it has
 probably saved my users from a lot of unnecessary frustration.
 
-<div class="callout" markdown="1">
-
-### Profiling
-
-If you find a performance problem, the next step is to use a <span g="profiler"
-i="profiler; unit test!profiling">profiler</span> to figure out where the time
-is actually going. While a coverage tool checks which lines of code are
-executed, a profiler measures how long each line, block, or function takes to
-run. Most will report both the average time per run and the total time so that
-you can spot things that are fast but still affect performance because they are
-called hundreds of millions of times.
-
-Some profilers work by interrupting the program every few hundred microseconds
-and seeing what line of code is being executed; others work by adding extra
-instructions to the code to record the start and end times of functions. Both
-methods change the program's behavior, so the output doesn't reflect the running
-time of the unwatched program perfectly. (By analogy, if you put a thermometer
-in a glass of water, what it reports is the weighted average of its own
-temperature and the water's.) However, most modern profiling tools don't affect
-performance very much, and tend to slow down most parts of the program by the
-same amount; in practice, the <span g="hot_spot">hot spots</span> are usually
-very easy to see.
-
-</div>
+> ### Profiling
+>
+> If you find a performance problem, the next step is to use a <span g="profiler"
+> i="profiler; unit test!profiling">profiler</span> to figure out where the time
+> is actually going. While a coverage tool checks which lines of code are
+> executed, a profiler measures how long each line, block, or function takes to
+> run. Most will report both the average time per run and the total time so that
+> you can spot things that are fast but still affect performance because they are
+> called hundreds of millions of times.
+>
+> Some profilers work by interrupting the program every few hundred microseconds
+> and seeing what line of code is being executed; others work by adding extra
+> instructions to the code to record the start and end times of functions. Both
+> methods change the program's behavior, so the output doesn't reflect the running
+> time of the unwatched program perfectly. (By analogy, if you put a thermometer
+> in a glass of water, what it reports is the weighted average of its own
+> temperature and the water's.) However, most modern profiling tools don't affect
+> performance very much, and tend to slow down most parts of the program by the
+> same amount; in practice, the <span g="hot_spot">hot spots</span> are usually
+> very easy to see.
 
 ## Are We Done Yet?
 
@@ -379,7 +363,7 @@ library.  The command:
 $ coverage run -m pytest
 ```
 
-{: .continue}
+<!-- continue -->
 doesn't display any information of its own, since mixing that in with our
 program's output would be confusing.  Instead, it puts coverage data in a file
 called `.coverage` in the current directory.  To display that data, you run:

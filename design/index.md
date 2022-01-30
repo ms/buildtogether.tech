@@ -1,13 +1,9 @@
 ---
 ---
 
-<blockquote markdown="1">
-
-A week of hard work can sometimes save an hour of thought.
-
---- <span i="Wilson, Robert">Robert Wilson</span>
-
-</blockquote>
+> A week of hard work can sometimes save an hour of thought.
+>
+> --- <span i="Wilson, Robert">Robert Wilson</span>
 
 Building large programs with other people is different from building small
 programs on your own in two important ways. The first is communication: in order
@@ -55,28 +51,24 @@ questions, and setting problems for you to think about, but that doesn't
 translate well to print.  I can also tell you how to describe designs and how to
 tell a good design from a bad one, so we'll start with that.
 
-<div class="callout" markdown="1">
-
-### Learning by example
-
-The best way to learn design in any field is to study examples
-<cite>Schon1984,Petre2016</cite>, and some of the best examples of software
-design come from the tools programmers use in their own work.
-<cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> introduced the Unix
-philosophy to an entire generation of programmers;
-<cite>Brown2011,Brown2012,Brown2016</cite> and [Mary Rose
-Cook][cook-mary-rose]'s [Gitlet][gitlet] take this approach as well.  There is
-also *[Software Tools in JavaScript][stjs]*, which was developed in tandem with
-this material and can be used as a starting point for many different class
-projects.
-
-The discussion of how to design for test in <span x="testing"/> is another
-example of teaching by example. A general rule like, "Building components that
-can easily be replaced makes testing easier," would only have been meaningful if
-you already understand the point; explaining it with a specific example (testing
-an MVC application) made it more relatable.
-
-</div>
+> ### Learning by example
+>
+> The best way to learn design in any field is to study examples
+> <cite>Schon1984,Petre2016</cite>, and some of the best examples of software
+> design come from the tools programmers use in their own work.
+> <cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> introduced the Unix
+> philosophy to an entire generation of programmers;
+> <cite>Brown2011,Brown2012,Brown2016</cite> and [Mary Rose
+> Cook][cook-mary-rose]'s [Gitlet][gitlet] take this approach as well.  There is
+> also *[Software Tools in JavaScript][stjs]*, which was developed in tandem with
+> this material and can be used as a starting point for many different class
+> projects.
+>
+> The discussion of how to design for test in <span x="testing"/> is another
+> example of teaching by example. A general rule like, "Building components that
+> can easily be replaced makes testing easier," would only have been meaningful if
+> you already understand the point; explaining it with a specific example (testing
+> an MVC application) made it more relatable.
 
 ## Describing Designs
 
@@ -155,37 +147,33 @@ i="microservice">microservices</span>.
    alt="Use case maps"
    cap="An example of a use case map (from Reekie2006)." %}
 
-<div class="callout" markdown="1">
-
-### UML and why not
-
-I'm not a fan of the <span g="uml" i="Unified Modeling Language">Unified
-Modeling Language</span> (UML). It defines over a dozen different types of
-diagrams for showing the relationships between classes, the order in which
-things happen when methods are invoked, the states a system goes through when
-performing an action, and so on.  Hundreds of books and thousands of articles
-have been written about UML, but in all the years I've been programming, I've
-only ever met one person who drew UML diagrams of his own free will on a regular
-basis. I've known a handful of other people who occasionally sketched class
-diagrams as part of a larger description of a design, and that's pretty much
-it. Unlike blueprints in architecture or flow diagrams in chemical engineering,
-UML doesn't actually seem to help practitioners very much
-<cite>Petre2013</cite>.
-
-If you have to use UML because it's a course requirement, [PlantUML][plantuml]
-will convert specially-formatted text into diagrams for you, and the former are
-much easier for version control systems to work with.  In my opinion, though,
-you'll get more out of investing time in the modeling tools described at the end
-of <span x="tooling"/>.
-
-One often-overlooked finding about visualization is that people understand <span
-i="flowchart">flowcharts</span> better than pseudocode *if both are equally well
-structured* <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode
-outperformed flowcharts used structured pseudocode and tangled flowcharts; when
-the playing field was leveled, novices did better with the graphical
-representation.
-
-</div>
+> ### UML and why not
+>
+> I'm not a fan of the <span g="uml" i="Unified Modeling Language">Unified
+> Modeling Language</span> (UML). It defines over a dozen different types of
+> diagrams for showing the relationships between classes, the order in which
+> things happen when methods are invoked, the states a system goes through when
+> performing an action, and so on.  Hundreds of books and thousands of articles
+> have been written about UML, but in all the years I've been programming, I've
+> only ever met one person who drew UML diagrams of his own free will on a regular
+> basis. I've known a handful of other people who occasionally sketched class
+> diagrams as part of a larger description of a design, and that's pretty much
+> it. Unlike blueprints in architecture or flow diagrams in chemical engineering,
+> UML doesn't actually seem to help practitioners very much
+> <cite>Petre2013</cite>.
+>
+> If you have to use UML because it's a course requirement, [PlantUML][plantuml]
+> will convert specially-formatted text into diagrams for you, and the former are
+> much easier for version control systems to work with.  In my opinion, though,
+> you'll get more out of investing time in the modeling tools described at the end
+> of <span x="tooling"/>.
+>
+> One often-overlooked finding about visualization is that people understand <span
+> i="flowchart">flowcharts</span> better than pseudocode *if both are equally well
+> structured* <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode
+> outperformed flowcharts used structured pseudocode and tangled flowcharts; when
+> the playing field was leveled, novices did better with the graphical
+> representation.
 
 ## Getting Started
 
@@ -257,22 +245,18 @@ a decision about that, let's not reopen the debate." Any of these can sink a
 project; together, they show why it's so hard to teach design, since what I'm
 basically saying is, "Argue enough, but not too much."
 
-<div class="callout" markdown="1">
-
-### How experts do it
-
-One of the biggest differences between <span i="expert">experts</span> and
-non-experts in any field is how quickly experts can rule out possibilities
-<cite>Schon1984</cite>. Whether it is software design, chess, or medical
-diagnosis, <span i="novice">novices</span> check to see if their plan will work;
-experts, on the other hand, search for a refutation---a reason why it won't---so
-that they can narrow their focus as early as possible. One way to do this is to
-jump back and forth between a high-level plan and its low-level consequences; if
-one of those consequences reveals a flaw in the plan, they go back to the high
-level and make a correction. Doing this efficiently depends on having experience
-of past failures so that you know how a good idea might fail in practice.
-
-</div>
+> ### How experts do it
+>
+> One of the biggest differences between <span i="expert">experts</span> and
+> non-experts in any field is how quickly experts can rule out possibilities
+> <cite>Schon1984</cite>. Whether it is software design, chess, or medical
+> diagnosis, <span i="novice">novices</span> check to see if their plan will work;
+> experts, on the other hand, search for a refutation---a reason why it won't---so
+> that they can narrow their focus as early as possible. One way to do this is to
+> jump back and forth between a high-level plan and its low-level consequences; if
+> one of those consequences reveals a flaw in the plan, they go back to the high
+> level and make a correction. Doing this efficiently depends on having experience
+> of past failures so that you know how a good idea might fail in practice.
 
 ## Design for Evolution
 
@@ -300,7 +284,7 @@ def handle_cardiac_arrest(all_actors):
             ...do some default action...
 ```
 
-{: .continue}
+<!-- continue -->
 (The term <span g="actor">actor</span> is often used in simulations to mean
 "anything that can take actions".) If we want to add another kind of actor, we
 need to modify this code to add another `elif` clause, and if we want to add
@@ -318,7 +302,7 @@ class Actor:
         pass # by default, don't do anything
 ```
 
-{: .continue}
+<!-- continue -->
 and then derive one class for each type of actor:
 
 ```py
@@ -340,7 +324,7 @@ def handle_cardiac_arrest(all_actors):
         actor.handle_cardiac_arrest()
 ```
 
-{: .continue}
+<!-- continue -->
 If we want to add another kind of actor, we derive another class from `Actor`
 and override methods to give it the behaviors we want: the general
 `handle_cardiac_arrest` function doesn't need to change.
@@ -478,16 +462,12 @@ particularly helpful when you want to test a user interface, since it allows you
 to write short programs that trigger events like "click this button" or "enter
 this password" and to interrogate the system's state afterward.
 
-<div class="callout" markdown="1">
-
-### Merely useful
-
-Why do we call them scripts instead of programs, and why do we call it scripting
-instead of programming? The answer, I think, is that if everyone can do it, it
-can't be cool: as a computer science professor said to me once about something
-similar, "I realize it's popular, but it's merely useful."
-
-</div>
+> ### Merely useful
+>
+> Why do we call them scripts instead of programs, and why do we call it scripting
+> instead of programming? The answer, I think, is that if everyone can do it, it
+> can't be cool: as a computer science professor said to me once about something
+> similar, "I realize it's popular, but it's merely useful."
 
 The other way to script something is through an external interface.  Most web
 applications these days provide some sort of <span g="rest" i="Representational
@@ -528,7 +508,7 @@ setup(
     packages=['pkg_name'])
 ```
 
-{: .continue}
+<!-- continue -->
 The `name` and `author` fields are self-explanatory; the `packages` field lists
 the sub-directories containing packages (there may actually be several), and
 we'll talk about versioning in <span x="delivery"/>.  Once you have this in
@@ -538,7 +518,7 @@ place, you can run:
 $ pip install .
 ```
 
-{: .continue}
+<!-- continue -->
 to create a package.
 
 ## Find Your Current Comfort Zone

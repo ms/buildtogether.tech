@@ -136,25 +136,21 @@ Unfortunately, in-person workplaces are often no better: many are filled with
 small signs that make many people feel out of place <cite>Cheryan2009</cite>.
 <span x="fairness"/> takes a closer look at these issues.
 
-<div class="callout" markdown="1">
-
-### A cautionary tale
-
-<cite>Zeller2011</cite> did what too many researchers in too many fields do on a
-regular basis: throw some data at some machine learning algorithms and then
-claim that whatever comes out the other end is significant. Luckily for us, they
-did it on purpose to make a point.
-
-They took data on code and errors for the Eclipse IDE and correlated the two to
-find good predictors of bugs. Which sounds sensible---except they did the
-correlation at the level of individual characters. It turns out that 'i', 'r',
-'o', and 'p' are most strongly correlated with errors. What is a sensible
-researcher to do facing these findings? Take those letters out of the keyboard,
-of course.  The authors then go over everything that's wrong with their
-approach, from lack of theoretical grounding to dishonest use of
-statistics. Before you read too much research, make sure to read this.
-
-</div>
+> ### A cautionary tale
+>
+> <cite>Zeller2011</cite> did what too many researchers in too many fields do on a
+> regular basis: throw some data at some machine learning algorithms and then
+> claim that whatever comes out the other end is significant. Luckily for us, they
+> did it on purpose to make a point.
+>
+> They took data on code and errors for the Eclipse IDE and correlated the two to
+> find good predictors of bugs. Which sounds sensible---except they did the
+> correlation at the level of individual characters. It turns out that 'i', 'r',
+> 'o', and 'p' are most strongly correlated with errors. What is a sensible
+> researcher to do facing these findings? Take those letters out of the keyboard,
+> of course.  The authors then go over everything that's wrong with their
+> approach, from lack of theoretical grounding to dishonest use of
+> statistics. Before you read too much research, make sure to read this.
 
 ## Qualitative Methods
 
@@ -164,17 +160,13 @@ of a small number of cases to tease out common patterns.  Articles like
 <cite>Sharp2016</cite> do an excellent job of explaining how these methods work
 and what their strengths and limitations are.
 
-<div class="callout" markdown="1">
-
-### Wish I knew then what I know now
-
-My classes in engineering taught me to look down on anything that wasn't a
-controlled laboratory experiment whose results could be neatly displayed in a
-scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
-that the "fuzzy" methods of the social sciences were just as rigorous when used
-properly, and the only ones that could produce certain valuable insights.
-
-</div>
+> ### Wish I knew then what I know now
+>
+> My classes in engineering taught me to look down on anything that wasn't a
+> controlled laboratory experiment whose results could be neatly displayed in a
+> scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
+> that the "fuzzy" methods of the social sciences were just as rigorous when used
+> properly, and the only ones that could produce certain valuable insights.
 
 <cite>Washburn2016</cite> demonstrates the kinds of insights these methods can
 produce. They analyzed 155 postmortem reviews of game projects to identify
@@ -182,40 +174,33 @@ characteristics of game development, link the characteristics to positive and
 negative experiences, and distill a set of best practices and pitfalls for game
 development. Their description of their method is worth repeating in full:
 
-<blockquote markdown="1">
-
-Initially, we started with 12 categories of common aspects of development…  In
-order to identify additional categories, we performed 3 iterations of analysis
-and identification.  The first week, we each read and analyzed 3 postmortem
-reviews each, classifying the items discussed in each section into the 12
-predetermined categories of common aspects that impact development.  While
-analyzing these reviews, we identified additional categories of items that went
-right or wrong during development, and revisited the reviews we had already
-analyzed to update the categorization of items. For the next two weeks we
-repeated this process of analyzing postmortems and identifying categories,
-analyzing 10 postmortems each in week 2, and 15 postmortems each in week
-3. After each iteration, we discussed the additional categories we identified,
-and determined if they were viable.
-
-After our initial iterations for identifying additional categories, we had
-completed the analysis of 60 postmortem reviews.  We then stopped identifying
-new categories, and began analyzing postmortems at a combined rate of about 40
-postmortem reviews per week.  After each week we reviewed what we had done to
-ensure we both had the same understanding of each category.  This continued
-until we had analyzed all the postmortem reviews.
-
-</blockquote>
+> Initially, we started with 12 categories of common aspects of development…  In
+> order to identify additional categories, we performed 3 iterations of analysis
+> and identification.  The first week, we each read and analyzed 3 postmortem
+> reviews each, classifying the items discussed in each section into the 12
+> predetermined categories of common aspects that impact development.  While
+> analyzing these reviews, we identified additional categories of items that went
+> right or wrong during development, and revisited the reviews we had already
+> analyzed to update the categorization of items. For the next two weeks we
+> repeated this process of analyzing postmortems and identifying categories,
+> analyzing 10 postmortems each in week 2, and 15 postmortems each in week
+> 3. After each iteration, we discussed the additional categories we identified,
+> and determined if they were viable.
+>
+> After our initial iterations for identifying additional categories, we had
+> completed the analysis of 60 postmortem reviews.  We then stopped identifying
+> new categories, and began analyzing postmortems at a combined rate of about 40
+> postmortem reviews per week.  After each week we reviewed what we had done to
+> ensure we both had the same understanding of each category.  This continued
+> until we had analyzed all the postmortem reviews.
 
 ## The Fourth Tradition
 
-<blockquote markdown="1">
-
-"Once the rockets are up, who cares where they come down?
-<br/>
-That's not my department!" says Wernher von Braun
-
---- <span i="Lehrer, Tom">Tom Lehrer</span>
-</blockquote>
+> "Once the rockets are up, who cares where they come down?
+> <br/>
+> That's not my department!" says Wernher von Braun
+>
+> --- <span i="Lehrer, Tom">Tom Lehrer</span>
 
 <cite>Tedre2008</cite> describes three traditions that have shaped how we think
 about computing: the <span i="mathematical tradition in

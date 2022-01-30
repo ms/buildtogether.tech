@@ -97,26 +97,22 @@ Change one thing at a time.
     the way it was so that you're not trying to fix something that is mutating
     while you work.
 
-<div class="callout" markdown="1">
-
-### Programs concurrent to debug hard are
-
-<span i="concurrent systems!difficult of debugging; debugging!concurrent
-systems">Concurrent systems</span> in which many things are happening
-simultaneously are much harder to debug than sequential systems.  It's not just
-that the order of events is unpredictable; it's often not repeatable, so
-creating a reliable reprex may be impossible.  What's worse, the act of
-observing can hide the bug: a `print` statement or a breakpoint can change
-timing in a way that makes the bug disappear.  Modeling tools can help (<span
-x="tooling"/>), as can the use of immutable data structures, but the best
-solutions are to test components in isolation using <span i="mock object">mock
-objects</span> in place of the things they communicate with (<span
-x="testing"/>) and to add *lots* of assertions to check the consistency of data
-structures.  In particular, giving every class a method called `isOK` to check
-that it's in good shape can save hours of later debugging, as well as helping
-the next programmer understand what the data is supposed to look like.
-
-</div>
+> ### Programs concurrent to debug hard are
+>
+> <span i="concurrent systems!difficult of debugging; debugging!concurrent
+> systems">Concurrent systems</span> in which many things are happening
+> simultaneously are much harder to debug than sequential systems.  It's not just
+> that the order of events is unpredictable; it's often not repeatable, so
+> creating a reliable reprex may be impossible.  What's worse, the act of
+> observing can hide the bug: a `print` statement or a breakpoint can change
+> timing in a way that makes the bug disappear.  Modeling tools can help (<span
+> x="tooling"/>), as can the use of immutable data structures, but the best
+> solutions are to test components in isolation using <span i="mock object">mock
+> objects</span> in place of the things they communicate with (<span
+> x="testing"/>) and to add *lots* of assertions to check the consistency of data
+> structures.  In particular, giving every class a method called `isOK` to check
+> that it's in good shape can save hours of later debugging, as well as helping
+> the next programmer understand what the data is supposed to look like.
 
 ## Common Errors
 
@@ -147,7 +143,7 @@ common errors in Python programs were (in order):
 1.  SyntaxError: unexpected EOF while parsing
 1.  IndentationError: unindent does not match any outer indentation level
 
-{: .continue}
+<!-- continue -->
 while the most common in Java were:
 
 1.  cannot find symbol - variable NAME
@@ -181,7 +177,7 @@ Trees and graphs
     self-referential (head points to head); circular sub-structure; depth
     greater than one.
 
-{: .continue}
+<!-- continue -->
 As <span x="git-team"/> said, the longer list in
 <cite>Stegeman2014,Stegeman2016</cite> can be adapted for more advanced
 students' programs.
@@ -305,26 +301,22 @@ same information in your head while stepping through the program's execution.
 Again, if you *are* going to print things, using a <span i="logging!during
 debugging">logging</span> library to give yourself more control.
 
-<div class="callout" markdown="1">
-
-### If it was important, it would be on the exam
-
-Over the years I've been surprised by how few programmers know how to use a
-debugger <cite>Beller2018</cite>. The reason can't be the five or ten minutes it
-takes to learn how to use one---that pays for itself almost immediately.  The
-best explanation I've been able to come up with relates to <span i="Goodhart's
-Law">[Goodhart's Law][goodhart-law]</span>, which says that as soon as you use
-some measure to evaluate people it ceases to be a good measure because people
-will start to game the system.
-
-The inverse of that is that if something *isn't* being evaluated, it isn't
-important---or rather, if you're juggling five or six courses, you can't afford
-to put time into things that aren't going to affect your grades.  Most students
-have to learn version control because it's the only way to submit their work,
-but "show that you can use the debugger" is (almost) never part of gradable
-work.  As a result, there's no point at which students have to master it.  I
-think this could now be fixed by having students submit screencasts of
-themselves setting breakpoints, inspecting variables, and so on; if you ever try
-this in your class, please let me know how it goes.
-
-</div>
+> ### If it was important, it would be on the exam
+>
+> Over the years I've been surprised by how few programmers know how to use a
+> debugger <cite>Beller2018</cite>. The reason can't be the five or ten minutes it
+> takes to learn how to use one---that pays for itself almost immediately.  The
+> best explanation I've been able to come up with relates to <span i="Goodhart's
+> Law">[Goodhart's Law][goodhart-law]</span>, which says that as soon as you use
+> some measure to evaluate people it ceases to be a good measure because people
+> will start to game the system.
+>
+> The inverse of that is that if something *isn't* being evaluated, it isn't
+> important---or rather, if you're juggling five or six courses, you can't afford
+> to put time into things that aren't going to affect your grades.  Most students
+> have to learn version control because it's the only way to submit their work,
+> but "show that you can use the debugger" is (almost) never part of gradable
+> work.  As a result, there's no point at which students have to master it.  I
+> think this could now be fixed by having students submit screencasts of
+> themselves setting breakpoints, inspecting variables, and so on; if you ever try
+> this in your class, please let me know how it goes.

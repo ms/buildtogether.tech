@@ -39,17 +39,13 @@ deliverable">package</span> that other people can download and install (<span
 x="design"/>). It isn't an either/or choice: every good package has a home page,
 installation instructions, and so on.
 
-<div class="callout" markdown="1">
-
-## Bugs
-
-It's OK to have bugs in your code when you finish your project---after all,
-almost all products do. This isn't because developers are lazy or careless;
-instead, it's a matter of economics.  If you're near the end of the development
-cycle, it may be riskier to fix a minor bug (and introduce new bugs in doing so)
-than to document its existence and provide a workaround.
-
-</div>
+> ## Bugs
+>
+> It's OK to have bugs in your code when you finish your project---after all,
+> almost all products do. This isn't because developers are lazy or careless;
+> instead, it's a matter of economics.  If you're near the end of the development
+> cycle, it may be riskier to fix a minor bug (and introduce new bugs in doing so)
+> than to document its existence and provide a workaround.
 
 Depending on the structure of your course, you may be asked to figure out how
 much you would charge for the software you have produced.  The answer is out of
@@ -136,17 +132,13 @@ the course, in part because it comes at the end, but also because they think, "I
 want to write code, not a novel." However, <cite>Fogel2005</cite> had this to
 say:
 
-<blockquote markdown="1">
-
-The ability to write clearly is perhaps the most important skill one can have in
-an open source environment. In the long run it matters more than programming
-talent. A great programmer with lousy communication skills can only get one
-thing done at a time, and even then may have trouble convincing others to pay
-attention. But a lousy programmer with good communication skills can coordinate
-and persuade many people to do many different things, and thereby have a
-significant effect on a project's direction and momentum.
-
-</blockquote>
+> The ability to write clearly is perhaps the most important skill one can have in
+> an open source environment. In the long run it matters more than programming
+> talent. A great programmer with lousy communication skills can only get one
+> thing done at a time, and even then may have trouble convincing others to pay
+> attention. But a lousy programmer with good communication skills can coordinate
+> and persuade many people to do many different things, and thereby have a
+> significant effect on a project's direction and momentum.
 
 Final reports can range from half a dozen to fifty pages, depending on the
 course's structure and the instructor's whims.  Regardless of their size, they
@@ -239,19 +231,16 @@ i="MathML">[MathML][mathml]</span> for equations if you need to.  The downside
 is that you can't actually see what your document is going to look like until
 you compile it, and doing that breaks your <span i="flow">flow</span>.
 
-<div class="callout" markdown="1">
+> ### LaTeX
+>
+> <span i="LaTeX">LaTeX</span> is a markup language that's much more sophisticated
+> than HTML and has literally thousands of add-on packages for equations, code
+> formatting, and just about everything else you could want. Like HTML, LaTeX is a
+> text format, so it plays nicely with version control.  However, its power comes
+> at a steep price: LaTeX is as hard to master as a programming language. It also
+> has a frustratingly slow formatting cycle, since documents have to be compiled
+> several times to resolve cross-references.
 
-### LaTeX
-
-<span i="LaTeX">LaTeX</span> is a markup language that's much more sophisticated
-than HTML and has literally thousands of add-on packages for equations, code
-formatting, and just about everything else you could want. Like HTML, LaTeX is a
-text format, so it plays nicely with version control.  However, its power comes
-at a steep price: LaTeX is as hard to master as a programming language. It also
-has a frustratingly slow formatting cycle, since documents have to be compiled
-several times to resolve cross-references.
-
-</div>
 
 ## The Post Mortem
 
@@ -320,14 +309,10 @@ are the recommendations that came out of one post mortem I did with students:
 5.  Teams should have to report test coverage at every progress meeting to make
     sure that a lot of untested code doesn't pile up during the term.
 
-<div class="callout" markdown="1">
-
-### Pay it forward
-
-Ask your instructor at the start of your course for copies of the post mortems
-written by previous student teams.  Go through and pick out some common themes,
-then use them as a list of things to do or avoid in your own project.  Sharing
-what you've learned with those who come after you is the most compassionate
-thing you can do.
-
-</div>
+> ### Pay it forward
+>
+> Ask your instructor at the start of your course for copies of the post mortems
+> written by previous student teams.  Go through and pick out some common themes,
+> then use them as a list of things to do or avoid in your own project.  Sharing
+> what you've learned with those who come after you is the most compassionate
+> thing you can do.

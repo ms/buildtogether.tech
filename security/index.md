@@ -19,19 +19,15 @@ security breaches are a result of poor design and rather than Hollywood-style
 hacking.  If we think about the threats people actually face, we can build
 systems that are safer to use <cite>Smalls2021</cite>.
 
-<div class="callout" markdown="1">
-
-### Privacy is a right
-
-Software doesn't just need to be secure to prevent fraud: it is also an
-essential to protecting your [right to privacy][privacy-right], which is
-guaranteed by the [Universal Declaration of Human Rights][udhr].  There are many
-situations in which governments and law enforcement agencies have legitimate
-reasons to violate that right, but we have learned the hard way that the more
-access we give them, the more likely that access is to be abused, both by them
-and by others.
-
-</div>
+> ### Privacy is a right
+>
+> Software doesn't just need to be secure to prevent fraud: it is also an
+> essential to protecting your [right to privacy][privacy-right], which is
+> guaranteed by the [Universal Declaration of Human Rights][udhr].  There are many
+> situations in which governments and law enforcement agencies have legitimate
+> reasons to violate that right, but we have learned the hard way that the more
+> access we give them, the more likely that access is to be abused, both by them
+> and by others.
 
 ## Threat Models
 
@@ -125,18 +121,14 @@ words long and hard to forget).  Doing this does create a single point of
 attack, but is still safer than choosing passwords yourself.  In addition,
 password managers aren't fooled by sites with names like `paypaI.com`.
 
-<div class="callout" markdown="1">
-
-### I know how to do that
-
-Writing passwords down and keeping them in your wallet is not necessarily a bad
-practice---it depends on who is doing it. For example, an elderly person who
-finds tech confusing might well choose simple, easy-to-guess passwords for their
-accounts if they have to be remembered. On the other hand, they have a lifetime
-of practice keeping track of bits of paper, and will probably notice if their
-purse or wallet is stolen.
-
-</div>
+> ### I know how to do that
+>
+> Writing passwords down and keeping them in your wallet is not necessarily a bad
+> practice---it depends on who is doing it. For example, an elderly person who
+> finds tech confusing might well choose simple, easy-to-guess passwords for their
+> accounts if they have to be remembered. On the other hand, they have a lifetime
+> of practice keeping track of bits of paper, and will probably notice if their
+> purse or wallet is stolen.
 
 Passwords are just one form of <span i="authentication">authentication</span>.
 In general, proving your identity relies on something you know (like a
@@ -200,27 +192,23 @@ And when you go to a web site, check the real domain name in the URL:
 it pretends to be, and `wwwpaypal.com` is a different domain than
 `www.paypal.com`.
 
-<div class="callout" markdown="1">
-
-### Trained to do the wrong thing
-
-Many sites send an email with a random URL to confirm your identity when you are
-resetting your password. On the one hand, this means that an attacker has to get
-access to your email in order to break into your account. On the other hand,
-random URLs are hard to type in, so these emails encourage us to click on links
-in emails. If you are not expecting a password reset email, *don't click on the
-link*, even if it includes your name or other details: <span i="spearphishing"
-g="spearphishing">spearphishing</span> uses data harvested from previous victims
-to attack specific targets.
-
-Similarly, if someone from your bank calls you up and asks for information to
-confirm your identity, you should ask *them* for information to confirm theirs,
-such as, "What were the dates of my last two transactions?"  If they say they're
-unable to answer because that's another department, end the conversation and
-then call your bank directly to either complete the operation or report the
-attack.
-
-</div>
+> ### Trained to do the wrong thing
+>
+> Many sites send an email with a random URL to confirm your identity when you are
+> resetting your password. On the one hand, this means that an attacker has to get
+> access to your email in order to break into your account. On the other hand,
+> random URLs are hard to type in, so these emails encourage us to click on links
+> in emails. If you are not expecting a password reset email, *don't click on the
+> link*, even if it includes your name or other details: <span i="spearphishing"
+> g="spearphishing">spearphishing</span> uses data harvested from previous victims
+> to attack specific targets.
+>
+> Similarly, if someone from your bank calls you up and asks for information to
+> confirm your identity, you should ask *them* for information to confirm theirs,
+> such as, "What were the dates of my last two transactions?"  If they say they're
+> unable to answer because that's another department, end the conversation and
+> then call your bank directly to either complete the operation or report the
+> attack.
 
 How can you support these safety rules with software?
 
@@ -303,20 +291,16 @@ two needs: legislation like the EU's <span i="General Data Protection Regulation
 (GDPR)">[General Data Protection Regulation][gdpr]</span> (GDPR) includes a
 [right to be forgotten][gdpr-forgotten].
 
-<div class="callout" markdown="1">
-
-### When you travel
-
-Many experts recommend using separate devices or accounts for work and personal
-life, but this is unrealistic for most people: everyone checks their personal
-email from their work device eventually, and everyone uses their personal phone
-for 2FA. However, you should consider getting a second phone for international
-travel: the legalities around who can take your devices and/or force you to
-unlock them are complicated and frequently overstepped, so you should assume
-that anything on or connected to the devices you are traveling with will be
-compromised.
-
-</div>
+> ### When you travel
+>
+> Many experts recommend using separate devices or accounts for work and personal
+> life, but this is unrealistic for most people: everyone checks their personal
+> email from their work device eventually, and everyone uses their personal phone
+> for 2FA. However, you should consider getting a second phone for international
+> travel: the legalities around who can take your devices and/or force you to
+> unlock them are complicated and frequently overstepped, so you should assume
+> that anything on or connected to the devices you are traveling with will be
+> compromised.
 
 ## Fighting Back
 
@@ -378,34 +362,30 @@ the safer all of us will be. As a programmer, you can push for this:
 1.  Add your voice to campaigns to get companies to clean up their act, and if
     you have a choice, don't work for the worst of them (<span x="fairness"/>).
 
-<blockquote markdown="1">
-
-If you are currently in…an undergraduate software engineering or
-computer science course, the first thing you need to understand is
-that you will spend your career working alongside equally competent
-professionals who had a completely different educational pathway from
-yours. They may have come to development from another field entirely;
-they may have come to development through a focused educational
-experience such as a code academy; and they may have fallen into
-development for the fun of it with no formal web education whatsoever…
-
-So if you're assuming that there will be a common set of knowledge of
-practices, procedures, and processes regarding privacy for you to draw
-upon throughout your career, you need to adjust your expectations…
-Don't look towards your management and leadership either, as they're
-none the wiser. If privacy is a factor in your future workplaces, it's
-likely to be driven by the legal department as a strictly reactive,
-scary, and deeply resented legal compliance obligation whose purpose
-is to cover your company's backside rather than protect the people in
-your data.
-
-All of that means that someone in your workplaces, and on your career
-journeys, needs to show leadership in privacy, and it might as well be
-you.
-
---- <span i="Burns, Heather">[Heather Burns][burns-privacy-quote]</span>
-
-</blockquote>
+> If you are currently in…an undergraduate software engineering or
+> computer science course, the first thing you need to understand is
+> that you will spend your career working alongside equally competent
+> professionals who had a completely different educational pathway from
+> yours. They may have come to development from another field entirely;
+> they may have come to development through a focused educational
+> experience such as a code academy; and they may have fallen into
+> development for the fun of it with no formal web education whatsoever…
+>
+> So if you're assuming that there will be a common set of knowledge of
+> practices, procedures, and processes regarding privacy for you to draw
+> upon throughout your career, you need to adjust your expectations…
+> Don't look towards your management and leadership either, as they're
+> none the wiser. If privacy is a factor in your future workplaces, it's
+> likely to be driven by the legal department as a strictly reactive,
+> scary, and deeply resented legal compliance obligation whose purpose
+> is to cover your company's backside rather than protect the people in
+> your data.
+>
+> All of that means that someone in your workplaces, and on your career
+> journeys, needs to show leadership in privacy, and it might as well be
+> you.
+>
+> --- <span i="Burns, Heather">[Heather Burns][burns-privacy-quote]</span>
 
 ## An Example Attack
 
@@ -432,14 +412,14 @@ quotes. But suppose a malicious user enters this as their username:
 "; drop table User; select "
 ```
 
-{: .continue}
+<!-- continue -->
 Once this is inserted, the query becomes:
 
 ```py
 select * from User where username=""; drop table User; select "";'
 ```
 
-{: .continue}
+<!-- continue -->
 which looks up a user without a name, erases all of the data in the `User`
 table, and then returns an empty string (the final `select`).  This is called an
 <span g="sql_injection" i="SQL injection attack">SQL injection attack</span>,
@@ -455,7 +435,7 @@ be written as:
     result = database_connection.run(query, username)
 ```
 
-{: .continue}
+<!-- continue -->
 The database connection library will escape special characters like the quotes
 and semi-colons in the user's input and then use the result in place of the
 question mark `?` in the query.

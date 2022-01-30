@@ -84,13 +84,9 @@ between project courses (and even more between the people doing them).
 Throughout, we are guided by a modified version of [Dobzhansky's
 Rule][dobzhansky]:
 
-<blockquote markdown="1">
+> Nothing in software engineering makes sense except in the light of psychology.
 
-Nothing in software engineering makes sense except in the light of psychology.
-
-</blockquote>
-
-{: .continue}
+<!-- continue -->
 Many of the hard problems in software engineering stem from the fact that human
 beings think and feel, and we do those things in certain ways.  Our mental
 capacity is limited, which means we have to design programs so that they will

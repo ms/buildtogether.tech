@@ -1,13 +1,9 @@
 ---
 ---
 
-<blockquote markdown="1">
-
-When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
-
---- <span i="Pratchett, Terry">Terry Pratchett</span>
-
-</blockquote>
+> When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
+>
+> --- <span i="Pratchett, Terry">Terry Pratchett</span>
 
 We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in <span
@@ -101,7 +97,7 @@ for number in [1, 0, -1]:
 exception: no negatives: -1
 ```
 
-{: .continue}
+<!-- continue -->
 We can define our own exception types, and many libraries do, but the built-in
 types are enough to cover common cases.
 
@@ -121,26 +117,22 @@ program to catch and report all errors.  This also makes libraries more
 reusable: different applications will want to handle errors in different ways,
 so the library should just report the problem.
 
-<div class="callout" markdown="1">
-
-### Kinds of errors
-
-The "`if` then `raise`" approach is sometimes referred to as, "Look before you
-leap," while the `try/except` approach is, "It's easier to ask for forgiveness
-than permission."  The first approach is more precise, but has the shortcoming
-that programmers can't anticipate everything that can go wrong when running a
-program, so there should always be an `except` somewhere to deal with unexpected
-cases.
-
-The one rule we should *always* follow is to check for errors <span
-i="exception!when to check">as early as possible</span> so that we don't waste
-the user's time.  Few things are as frustrating as being told at the end of an
-hour-long calculation that the program doesn't have permission to write to an
-output directory.  It's a little extra work to check things like this up front,
-but the larger your program or the longer it runs, the more useful those checks
-will be.
-
-</div>
+> ### Kinds of errors
+>
+> The "`if` then `raise`" approach is sometimes referred to as, "Look before you
+> leap," while the `try/except` approach is, "It's easier to ask for forgiveness
+> than permission."  The first approach is more precise, but has the shortcoming
+> that programmers can't anticipate everything that can go wrong when running a
+> program, so there should always be an `except` somewhere to deal with unexpected
+> cases.
+>
+> The one rule we should *always* follow is to check for errors <span
+> i="exception!when to check">as early as possible</span> so that we don't waste
+> the user's time.  Few things are as frustrating as being told at the end of an
+> hour-long calculation that the program doesn't have permission to write to an
+> output directory.  It's a little extra work to check things like this up front,
+> but the larger your program or the longer it runs, the more useful those checks
+> will be.
 
 ## Defensive Programming
 
@@ -164,7 +156,7 @@ for freq in frequencies[:5]:
 print('total frequency of first 5 words:', total)
 ```
 
-{: .continue}
+<!-- continue -->
 Programs intended for widespread use are typically full of assertions: 10--20%
 of the code they contain is there to check that the other 80--90% is working
 correctly.
@@ -177,7 +169,7 @@ This is not a useful error message:
 OSError: Something went wrong, try again.
 ```
 
-{: .continue}
+<!-- continue -->
 It doesn't provide any information on what went wrong, so it is difficult for
 the user to know what to change next time.  A slightly better message is:
 
@@ -185,7 +177,7 @@ the user to know what to change next time.  A slightly better message is:
 OSError: Unsupported file type.
 ```
 
-{: .continue}
+<!-- continue -->
 This message tells us the problem is with the type of file we're trying to
 process, but it still doesn't tell us what file types are supported, which means
 we have to rely on guesswork or read the source code.  Telling the user that a
@@ -199,7 +191,7 @@ message</span> would therefore be:
 OSError: File must end in .csv
 ```
 
-{: .continue}
+<!-- continue -->
 This message tells us exactly what the criteria are to avoid the error.
 
 Error messages are often the first thing people read about a piece of software,
@@ -247,7 +239,7 @@ if fname[-4:] != '.csv':
     raise OSError(f'{fname}: File must end in .csv')
 ```
 
-{: .continue}
+<!-- continue -->
 A better approach is to put all the error messages in a <span i="error
 message!internationalizing">dictionary</span>:
 
@@ -259,7 +251,7 @@ ERRORS = {
 }
 ```
 
-{: .continue}
+<!-- continue -->
 and then only use messages from that dictionary:
 
 ```py
@@ -286,7 +278,7 @@ ERRORS = {
 }
 ```
 
-{: .continue}
+<!-- continue -->
 The error report is then looked up and formatted as:
 
 ```py
@@ -343,7 +335,7 @@ you put:
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-{: .continue}
+<!-- continue -->
 somewhere near the start of your program. The `DEBUG` option identifies the
 lowest-level messages in your program---the ones you probably only want to see
 when you're trying to figure out what's gone wrong. In order, the more important
@@ -355,7 +347,7 @@ level and above, you change the configuration to:
 logging.basicConfig(level=logging.WARNING)
 ```
 
-{: .continue}
+<!-- continue -->
 so that `DEBUG` and `INFO` messages aren't printed.
 
 A logging library allows you to control how much your program tells you about
@@ -384,17 +376,13 @@ error or not: if you leave logging turned on every time you run it, then
 whenever it does something unexpected (like crashing), you will have at least
 some idea of what it was doing beforehand.
 
-<div class="callout" markdown="1">
-
-### Logging for security
-
-One of the recommendations in <span x="security"/> was to <span i="logging!for
-security">log actions</span> to help you find suspicious activity.  When you do
-this, make sure the log records who, what, and when; in particular, make sure
-you have a record of every time permissions were changed or new accounts were
-created.
-
-</div>
+> ### Logging for security
+>
+> One of the recommendations in <span x="security"/> was to <span i="logging!for
+> security">log actions</span> to help you find suspicious activity.  When you do
+> this, make sure the log records who, what, and when; in particular, make sure
+> you have a record of every time permissions were changed or new accounts were
+> created.
 
 Most logging libraries also support <span g="rotating_file" i="logging!rotating
 files">rotating files</span>, i.e., they will write to `log.1` on the first day,
@@ -404,18 +392,14 @@ programs are usually set up to do this so that they don't fill up the disk with
 log information.  It's all straightforward to set up, and once it's in place, it
 gives you a lot more insight into what your program is actually doing.
 
-<div class="callout" markdown="1">
-
-### Parsers as a sign of bad design
-
-You will sometimes inspect logs yourself, but you will also frequently want to
-search them for patterns. All of the logs you produce should therefore be in a
-<span i="logging!output format">machine-readable format</span> like CSV, JSON,
-or <span g="yaml">YAML</span>; you can easily write a small program to
-pretty-print the data you want for manual inspection.
-
-This guideline is one instance of a more general design rule.  The world has
-more data formats than it needs, so if anyone has to write a parser to analyze
-what your program produces, you should probably be producing something else.
-
-</div>
+> ### Parsers as a sign of bad design
+>
+> You will sometimes inspect logs yourself, but you will also frequently want to
+> search them for patterns. All of the logs you produce should therefore be in a
+> <span i="logging!output format">machine-readable format</span> like CSV, JSON,
+> or <span g="yaml">YAML</span>; you can easily write a small program to
+> pretty-print the data you want for manual inspection.
+>
+> This guideline is one instance of a more general design rule.  The world has
+> more data formats than it needs, so if anyone has to write a parser to analyze
+> what your program produces, you should probably be producing something else.

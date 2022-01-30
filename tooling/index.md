@@ -144,19 +144,16 @@ Keep an eye on security updates.
     The world would be a slightly safer place if other package managers did this
     as well.
 
-<div class="callout" markdown="1">
+> ### Docker
+>
+> <span i="Docker">[Docker][docker]</span> uses some clever tricks to run one
+> operating system on top of another to create a <span g="virtual_machine"
+> i="virtual machine">virtual machine</span> (VM) that is isolated from everything
+> beneath it.  It and other tools like it are used by most cloud computing
+> services and to run continuous integration systems (<span x="automation"/>), but
+> they are essentially an admission that we haven't figured out how to manage
+> packaging reliably.
 
-### Docker
-
-<span i="Docker">[Docker][docker]</span> uses some clever tricks to run one
-operating system on top of another to create a <span g="virtual_machine"
-i="virtual machine">virtual machine</span> (VM) that is isolated from everything
-beneath it.  It and other tools like it are used by most cloud computing
-services and to run continuous integration systems (<span x="automation"/>), but
-they are essentially an admission that we haven't figured out how to manage
-packaging reliably.
-
-</div>
 
 ## Integrated Development Environment
 
@@ -168,20 +165,16 @@ i="Windows">Windows</span>) to very large ones like <span i="Emacs;
 editor!Emacs">Emacs</span> (which some people claim is actually Lisp-based
 operating system in disguise).
 
-<div class="callout" markdown="1">
-
-### Stuck in the punchcard era
-
-In many ways, programming is still stuck in the punchcard era: we still insist
-that source code be represented as lines of characters that are drawn
-one-for-one on the screen.  <span g="wysiwyg">WYSIWYG</span> editors like
-Microsoft Word did away with this model decades ago; they store the file in a
-machine-friendly format and then render it in a human-friendly way. There's no
-reason we couldn't do the same with programs.  There's no reason we shouldn't be
-able to draw a diagram directly in our source code like we can in a Google Doc;
-if you are looking for a project to tackle, this would be a good one.
-
-</div>
+> ### Stuck in the punchcard era
+>
+> In many ways, programming is still stuck in the punchcard era: we still insist
+> that source code be represented as lines of characters that are drawn
+> one-for-one on the screen.  <span g="wysiwyg">WYSIWYG</span> editors like
+> Microsoft Word did away with this model decades ago; they store the file in a
+> machine-friendly format and then render it in a human-friendly way. There's no
+> reason we couldn't do the same with programs.  There's no reason we shouldn't be
+> able to draw a diagram directly in our source code like we can in a Google Doc;
+> if you are looking for a project to tackle, this would be a good one.
 
 You might already have a favorite editor. If you're like most programmers, you
 will change jobs, languages, operating systems, and nationality before you'll
@@ -295,21 +288,17 @@ cross-references, make sure I'm using the right CSS attributes for elements, and
 so on.  If you and your teammates find yourselves typing in the same commands
 over and over again, write a program to do it for you.
 
-<div class="callout" markdown="1">
-
-### From seeds to trees
-
-A lot of open source projects and commercial products began with one programmer
-solving a problem for themselves and then discovering that other people found it
-useful as well. <span i="Grand Perspective">[Grand
-Perspective][grand-perspective]<span> displays a tree map to show what's using
-disk space on a Mac; <span i="Carnac">[Carnac][carnac]</span> shows what special
-keys you're pressing on Windows so that if you're doing a demo, people can see
-the keyboard shortcuts you're using, and so on.  Building one small thing well
-is a lot more useful, and a lot more likely to be used, than building half of
-something larger.
-
-</div>
+> ### From seeds to trees
+>
+> A lot of open source projects and commercial products began with one programmer
+> solving a problem for themselves and then discovering that other people found it
+> useful as well. <span i="Grand Perspective">[Grand
+> Perspective][grand-perspective]<span> displays a tree map to show what's using
+> disk space on a Mac; <span i="Carnac">[Carnac][carnac]</span> shows what special
+> keys you're pressing on Windows so that if you're doing a demo, people can see
+> the keyboard shortcuts you're using, and so on.  Building one small thing well
+> is a lot more useful, and a lot more likely to be used, than building half of
+> something larger.
 
 ## Modeling
 
