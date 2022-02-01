@@ -12,8 +12,8 @@ gloss: _data/glossary.yml
 lang: en
 
 copy:
-- "*/figures/*.svg"
-- "*/figures/*.pdf"
+- "*/*.png"
+- "*/*.svg"
 - "static/*.*"
 - "favicon.ico"
 - "CNAME"
