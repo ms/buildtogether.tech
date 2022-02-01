@@ -394,7 +394,7 @@ household electrical outlet.  We always need to balance the effort required to
 create tests against the likelihood that those tests will uncover useful
 information.  We also have to accept that no amount of testing can prove a piece
 of software is completely correct.  A function with only two numeric arguments
-has $$2^{128}$$ possible inputs.  Even if we could write the tests, how could we
+has \\(2^{128}\\) possible inputs.  Even if we could write the tests, how could we
 be sure we were checking the result of each one correctly?
 
 ## What's Hard to Test

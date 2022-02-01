@@ -19,32 +19,32 @@ way from an empty `.js` or `.py` file to a hundred-line program in a reasonable
 time, the re-work required by that strategy becomes unaffordable when your final
 product is a thousand lines long.
 
-To see why, suppose the final program is $$N$$ lines long and is made up of
-chunks that are each $$L$$ lines long, so there are $$C = N/L$$ chunks in total.
-You write chunks one by one; each time you add one, there is a probability $$p$$
+To see why, suppose the final program is \\(N\\) lines long and is made up of
+chunks that are each \\(L\\) lines long, so there are \\(C = N/L\\) chunks in total.
+You write chunks one by one; each time you add one, there is a probability \\(p\\)
 that each of the chunks already written needs to be rewritten.  How many chunks
 do you actually wind up writing?
 
 -   The first chunk always needs to be written, so that's 1.
 
 -   When you write the second chunk you need to rewrite the first chunk with
-    probability $$p$$, so the likely cost of the second chunk is $$1+p$$.
+    probability \\(p\\), so the likely cost of the second chunk is \\(1+p\\).
 
--   The likely cost of the third chunk is $$1+2p$$, since you might have to
+-   The likely cost of the third chunk is \\(1+2p\\), since you might have to
     rewrite either or both of the first two chunks.
 
--   In general, the cost of adding chunk $$i$$ is $$1+(i-1)p$$, so the total cost
-    of writing $$C$$ chunks is $$C + p\sum_{i=0}^{C-1}{i}$$, which is
-    $$C + p(C-1)(C-2)/2$$ or $$pC^{2}/2 + (1-p)C + 1$$.
+-   In general, the cost of adding chunk \\(i\\) is \\(1+(i-1)p\\), so the total cost
+    of writing \\(C\\) chunks is \\(C + p\sum_{i=0}^{C-1}{i}\\), which is
+    \\(C + p(C-1)(C-2)/2\\) or \\(pC^{2}/2 + (1-p)C + 1\\).
 
 This <span i="model!of software development">model</span> is unrealistic in
 every way---the odds of rewriting old code is lower than the odds of rewriting
 recent code, for example---but it captures a key point: the cost of rework grows
-faster than the number of pieces of work.  You can't lower $$C$$ by increasing
-$$L$$ (since as <a section="thinking"/> explains, there's a limit to how much you
+faster than the number of pieces of work.  You can't lower \\(C\\) by increasing
+\\(L\\) (since as <a section="thinking"/> explains, there's a limit to how much you
 can hold in your mind at once), so your goal when designing software is to lower
-$$N$$ by re-using code from libraries or to reduce the cost of reworking things
-by lowering $$p$$.
+\\(N\\) by re-using code from libraries or to reduce the cost of reworking things
+by lowering \\(p\\).
 
 I can't tell you how to design software, and I don't know anyone who can. I can
 *show* you by working through examples on a whiteboard, asking rhetorical
@@ -535,7 +535,7 @@ compares a <span i="code comprehension; novice!code
 comprehension">novice</span>'s comprehension curve with an <span i="expert!code
 comprehension">expert</span>'s.  Experts don't just understand more at all
 levels of abstraction; their *preferred* level has also shifted so that
-$$\sqrt{x^2 | y^2}$$ is actually more readable than the medieval expression "the
+\\(\sqrt{x^2 | y^2}\\) is actually more readable than the medieval expression "the
 side of the square whose area is the sum of the areas of the two squares whose
 sides are given by the first part and the second part".
 
