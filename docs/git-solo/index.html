@@ -473,8 +473,8 @@ would be good ones.</p>
 <code>git diff main..homework3</code>, Git doesn't print anything because there aren't any
 differences to show.</p>
 <p>After we merge the changes from <code>homework3</code> into <code>main</code> there is no need to keep
-the <code>homework</code> branch, so we can delete it:</p>
-<pre><code class="language-sh">$ git branch -d fit
+the <code>homework3</code> branch, so we can delete it:</p>
+<pre><code class="language-sh">$ git branch -d homework3
 </code></pre>
 <pre><code class="language-out">Deleted branch homework3 (was 1577404).
 </code></pre>
@@ -485,11 +485,11 @@ in different ways in two branches or when a file has been deleted in one branch
 but edited in the other.</p>
 <p>If the file <code>README.md</code> has been changed in both <code>main</code> and <code>homework4</code>,
 <code>git diff</code> will show the conflict:</p>
-<pre><code class="language-sh">$ git diff homework4.main
+<pre><code class="language-sh">$ git diff homework4..main
 </code></pre>
 <p>When we try to merge <code>homework4</code> into <code>main</code>, Git doesn't know which of these
 changes to keep:</p>
-<pre><code class="language-sh">$ git merge docs main
+<pre><code class="language-sh">$ git merge homework4 main
 </code></pre>
 <p>After we run this command, Git has put both sets of changes into <code>README.md</code>,
 but has marked which came from where:</p>
