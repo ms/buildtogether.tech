@@ -534,10 +534,10 @@ Git automatically creates a new commit to represent the merge.  If we now run
 differences to show.
 
 After we merge the changes from `homework3` into `main` there is no need to keep
-the `homework` branch, so we can delete it:
+the `homework3` branch, so we can delete it:
 
 ```sh
-$ git branch -d fit
+$ git branch -d homework3
 ```
 ```out
 Deleted branch homework3 (was 1577404).
@@ -553,14 +553,14 @@ If the file `README.md` has been changed in both `main` and `homework4`,
 `git diff` will show the conflict:
 
 ```sh
-$ git diff homework4.main
+$ git diff homework4..main
 ```
 
 When we try to merge `homework4` into `main`, Git doesn't know which of these
 changes to keep:
 
 ```sh
-$ git merge docs main
+$ git merge homework4 main
 ```
 
 After we run this command, Git has put both sets of changes into `README.md`,
