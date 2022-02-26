@@ -1,0 +1,10 @@
+<hr/>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      {% for item in site.footer %}
+      <td align="center"><a href="{{item.0}}">{{item.1}}</a></td>
+      {% endfor %}
+    </tr>
+  </table>
+</div>
