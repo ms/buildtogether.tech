@@ -1,39 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="errors">Error Handling</h1></title>
+    <title>Building Software Together: Error Handling</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="errors">Error Handling</h1>
-      <div class="lede"><p>The most neglected part of software design</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#assertion">assertion</a>, <a href="../glossary/#catch_exception">catch (an exception)</a>, <a href="../glossary/#csv">comma-separated values</a>, <a href="../glossary/#defensive_programming">defensive programming</a>, <a href="../glossary/#exception">exception</a>, <a href="../glossary/#external_error">external error</a>, <a href="../glossary/#internal_error">internal error</a>, <a href="../glossary/#logging">logging</a>, <a href="../glossary/#raise_exception">raise (an exception)</a>, <a href="../glossary/#rotating_file">rotating file</a>, <a href="../glossary/#yaml">YAML</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Error Handling</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <blockquote>
+<blockquote>
 <p>When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.</p>
 <p>--- <span i="Pratchett, Terry">Terry Pratchett</span></p>
 </blockquote>
 <p>We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in
-<a class="secref" href="../testing/#testing">Chapter&nbsp;11</a>, those programs will probably still contain bugs.  We should
+<a section="testing"/>, those programs will probably still contain bugs.  We should
 therefore plan from the start to detect and handle errors.</p>
 <h2>Handling Errors</h2>
 <p><span g="internal_error" i="internal error; error!internal">Internal
@@ -51,7 +43,8 @@ actually make things worse.  When an external error occurs, on the other hand,
 we don't always want the program to stop: if a user mis-types her password,
 prompting her to try again is friendlier than halting and requiring her to
 restart the program.</p>
-<p>Most modern programming languages use <span g="exception" i="exception">exceptions</span> for error handling.  In Python, for example,
+<p>Most modern programming languages use <span g="exception"
+i="exception">exceptions</span> for error handling.  In Python, for example,
 exceptions are handled using the keywords <code>try</code> and <code>except</code>.  If nothing
 unexpected happens inside the <code>try</code> block, the <code>except</code> block isn't run, but if
 something does go wrong, the program jumps immediately to the body of the
@@ -90,7 +83,8 @@ for i in [0, 1, 2, 3]:
 1/5 == 0.2
 index 3 out of range
 </code></pre>
-<p>So where do exceptions come from?  The answer is that programmers can <span g="raise_exception" i="exception!raise; raise exception">raise</span> them
+<p>So where do exceptions come from?  The answer is that programmers can <span
+g="raise_exception" i="exception!raise; raise exception">raise</span> them
 explicitly:</p>
 <pre><code class="language-py">for number in [1, 0, -1]:
     try:
@@ -114,8 +108,8 @@ it there, Python checks to see if whoever called the function is willing to
 handle the error.  It keeps working its way up through the call stack until it
 finds a matching <code>except</code>.  If there isn't one, Python takes care of the
 exception itself.</p>
-<p>This behavior is designed to support a pattern called &quot;<span i="throw low, catch
-high">throw low, catch high</span>&quot;: write most of your code without exception
+<p>This behavior is designed to support a pattern called "<span i="throw low, catch
+high">throw low, catch high</span>": write most of your code without exception
 handlers, since there's nothing useful you can do in the middle of a small
 utility function, but put a few handlers in the outermost functions of your
 program to catch and report all errors.  This also makes libraries more
@@ -123,13 +117,14 @@ reusable: different applications will want to handle errors in different ways,
 so the library should just report the problem.</p>
 <blockquote>
 <h3>Kinds of errors</h3>
-<p>The &quot;<code>if</code> then <code>raise</code>&quot; approach is sometimes referred to as, &quot;Look before you
-leap,&quot; while the <code>try/except</code> approach is, &quot;It's easier to ask for forgiveness
-than permission.&quot;  The first approach is more precise, but has the shortcoming
+<p>The "<code>if</code> then <code>raise</code>" approach is sometimes referred to as, "Look before you
+leap," while the <code>try/except</code> approach is, "It's easier to ask for forgiveness
+than permission."  The first approach is more precise, but has the shortcoming
 that programmers can't anticipate everything that can go wrong when running a
 program, so there should always be an <code>except</code> somewhere to deal with unexpected
 cases.</p>
-<p>The one rule we should <em>always</em> follow is to check for errors <span i="exception!when to check">as early as possible</span> so that we don't waste
+<p>The one rule we should <em>always</em> follow is to check for errors <span
+i="exception!when to check">as early as possible</span> so that we don't waste
 the user's time.  Few things are as frustrating as being told at the end of an
 hour-long calculation that the program doesn't have permission to write to an
 output directory.  It's a little extra work to check things like this up front,
@@ -140,7 +135,8 @@ will be.</p>
 <p>The first step in building confidence in our programs is to assume that mistakes
 will happen and guard against them.  This is called
 <span g="defensive_programming" i="defensive programming">defensive programming</span>, and the
-most common way to do it is to add <span g="assertion" i="assertion">assertions</span> to our code so that it checks itself as it runs.
+most common way to do it is to add <span g="assertion"
+i="assertion">assertions</span> to our code so that it checks itself as it runs.
 An assertion is a statement that something must be true at a certain point in a
 program.  When the program runs, it checks the assertion's condition.  If it's
 true, the program does nothing; if it's false, it halts and prints a
@@ -181,10 +177,10 @@ message</span> would therefore be:</p>
 <p>This message tells us exactly what the criteria are to avoid the error.</p>
 <p>Error messages are often the first thing people read about a piece of software,
 so they should be its most carefully written documentation.  A web search for
-&quot;writing good error messages&quot; turns up hundreds of hits, but recommendations are
+"writing good error messages" turns up hundreds of hits, but recommendations are
 often more like gripes than guidelines and are usually not backed up by
 evidence.  What research there is gives us the following rules
-[<a href="../bibliography/#Becker2016">Becker2016</a>]:</p>
+<cite>Becker2016</cite>:</p>
 <dl>
 <dt>Tell the user what they did, not what the program did.</dt>
 <dd>Putting it another way, the message shouldn't state the effect of the error,
@@ -193,13 +189,13 @@ it should state the cause.</dd>
 <dd>I.e., point at the actual location of the error.  Few things are as
 frustrating as being pointed at line 28 when the problem is on line 35.</dd>
 <dt>Be as specific as possible.</dt>
-<dd>For example, &quot;file not found&quot; is very different from &quot;cannot open file&quot;,
-since the latter could mean &quot;no permissions&quot; or many other things.</dd>
+<dd>For example, "file not found" is very different from "cannot open file",
+since the latter could mean "no permissions" or many other things.</dd>
 <dt>Write for your audience's level of understanding.</dt>
 <dd>For example, error messages should never use programming terms more advanced
 than those you would use to describe the code to the user.</dd>
 <dt>Do not blame the user, and do not use words like fatal, illegal, etc.</dt>
-<dd>The former can be frustrating---in many cases, &quot;user error&quot; actually
+<dd>The former can be frustrating---in many cases, "user error" actually
 isn't---and the latter can make people worry that the program has damaged
 their data, their computer, or their reputation.</dd>
 <dt>Do not try to make the computer sound like a human being.</dt>
@@ -322,7 +318,7 @@ whenever it does something unexpected (like crashing), you will have at least
 some idea of what it was doing beforehand.</p>
 <blockquote>
 <h3>Logging for security</h3>
-<p>One of the recommendations in <a class="secref" href="../security/#security">Chapter&nbsp;13</a> was to <span i="logging!for
+<p>One of the recommendations in <a section="security"/> was to <span i="logging!for
 security">log actions</span> to help you find suspicious activity.  When you do
 this, make sure the log records who, what, and when; in particular, make sure
 you have a record of every time permissions were changed or new accounts were
@@ -347,18 +343,26 @@ more data formats than it needs, so if anyone has to write a parser to analyze
 what your program produces, you should probably be producing something else.</p>
 </blockquote>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

@@ -24,17 +24,18 @@ TRANSLATIONS = {
     },
 }
 
-# Configuration sections
+# Configuration sections and default values.
 CONFIGURATIONS = {
-    "bibliography",  # bibliography entries
-    "citations",  # references to bibliography entries
-    "definitions",  # glossary definitions
-    "figures",  # numbered figures
-    "glossary",  # full glossary
-    "headings",  # number chapter, section, and appendix headings
-    "inclusions",  # included files
-    "index",  # index entries
-    "tables"  # numbered tables
+    "bibliography": set(),  # bibliography entries
+    "citations": set(),  # references to bibliography entries
+    "definitions": set(),  # glossary definitions
+    "figures": {},  # numbered figures
+    "glossary": [],  # full glossary
+    "headings": {},  # number chapter, section, and appendix headings
+    "inclusions": {},  # included files
+    "index": set(),  # index entries
+    "links": [],  # links table entries
+    "tables": {}  # numbered tables
 }
 
 
@@ -55,7 +56,7 @@ def make_config(part, filler=None):
     """Make configuration subsection."""
     if part not in CONFIGURATIONS:
         fail(f"Unknown configuration section '{part}'")
-    filler = filler if (filler is not None) else {}
+    filler = filler if (filler is not None) else CONFIGURATIONS[part]
     return ivy.site.config.setdefault("mccole", {}).setdefault(part, filler)
 
 

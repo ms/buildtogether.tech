@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="git-solo">Using Git On Your Own</h1></title>
+    <title>Building Software Together: Using Git On Your Own</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="git-solo">Using Git On Your Own</h1>
-      <div class="lede"><p>A quick guide to your most important tool</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#api_key">API key</a>, <a href="../glossary/#branch_git">branch</a>, <a href="../glossary/#branch_per_feature_workflow">branch-per-feature workflow</a>, <a href="../glossary/#centralized_system">centralized system</a>, <a href="../glossary/#clone_git">clone</a>, <a href="../glossary/#commit">commit</a>, <a href="../glossary/#commit_message">commit message</a>, <a href="../glossary/#conflict_git">conflict</a>, <a href="../glossary/#decentralized_system">decentralized system</a>, <a href="../glossary/#mental_model">mental model</a>, <a href="../glossary/#merge_git">merge</a>, <a href="../glossary/#pull_git">pull</a>, <a href="../glossary/#push_git">push</a>, <a href="../glossary/#rebase_git">rebase</a>, <a href="../glossary/#remote_git">remote</a>, <a href="../glossary/#repository">repository</a>, <a href="../glossary/#software_portal">software portal</a>, <a href="../glossary/#timestamp">timestamp</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Using Git On Your Own</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p><span i="version control!reasons to use">Version control</span> is the
+<p><span i="version control!reasons to use">Version control</span> is the
 collective memory of the project. It's what lets you move files from one machine
 to another without clobbering stuff you just spent three hours writing and
 without worrying about whether you forgot something important.  It also lets you
@@ -40,35 +32,39 @@ exist. <span i="version control!CVS; CVS (version control)"><a href="https://www
 was the workhorse of the open source world for many years; it was replaced by
 <span i="version control!Subversion; Subversion (version
 control)"><a href="https://subversion.apache.org/">Subversion</a></span>, which fixed many of its predecessor's
-flaws while introducing a few minor ones of its own. Both of these were <span g="centralized_system" i="version control!centralized">centralized
+flaws while introducing a few minor ones of its own. Both of these were <span
+g="centralized_system" i="version control!centralized">centralized
 systems</span>:</p>
 <ol>
 <li>
 <p>One <span g="repository" i="version control!repository; repository (version
-control)">repository</span> stored the definitive copy of the project's
-files.</p>
+    control)">repository</span> stored the definitive copy of the project's
+    files.</p>
 </li>
 <li>
 <p>Nobody ever edited the contents of the main repository directly. Instead,
-everyone worked in a local copy.</p>
+    everyone worked in a local copy.</p>
 </li>
 <li>
 <p>In order to share files with other people (or to create a backup, which is
-really just a way to share files with your future self) people would <span g="push_git">push</span> the contents of their copy to the main repository.
-To get other people's work, they would <span g="pull_git">pull</span>
-changes from the main repository and combine them with their own work.</p>
+    really just a way to share files with your future self) people would <span
+    g="push_git">push</span> the contents of their copy to the main repository.
+    To get other people's work, they would <span g="pull_git">pull</span>
+    changes from the main repository and combine them with their own work.</p>
 </li>
 </ol>
-<p>Centralized version control systems have largely been replaced by <span g="decentralized_system" i="version control!decentralized">decentralized</span>
+<p>Centralized version control systems have largely been replaced by <span
+g="decentralized_system" i="version control!decentralized">decentralized</span>
 ones, and in particular by <span i="version
 control!Git;Git"><a href="https://git-scm.com/">Git</a></span>. In theory, Git doesn't need a main
 repository: developers can merge the contents of any repository into any other.
 In practice, almost every project designates one repository as the master copy
 so that people know where to look to find the current state of the project.</p>
 <p>Unfortunately, Git has a needlessly complicated interface.
-[<a href="../bibliography/#PerezDeRosso2013">PerezDeRosso2013</a>] found that even experienced users have a <span g="mental_model" i="mental model!Git">mental model</span> of how it works that
+<cite>PerezDeRosso2013</cite> found that even experienced users have a <span
+g="mental_model" i="mental model!Git">mental model</span> of how it works that
 contradicts its actual operation in important ways, and each of those
-contradictions produces a steady stream of &quot;what the hell?&quot;  moments. Other
+contradictions produces a steady stream of "what the hell?"  moments. Other
 distributed version control systems like <span i="version control!Mercurial;
 Mercurial (version control)"><a href="https://www.mercurial-scm.org/">Mercurial</a></span> are proof that this
 complexity and pain are unnecessary.  The fact that most people don't
@@ -76,8 +72,8 @@ immediately realize that <a href="https://git-man-page-generator.lokaltog.net/">
 generator</a> is a <span i="Git!interface
 (indistinguishable from hoax)">hoax</span> says a lot as well.</p>
 <p>So why do people keep using <span i="Git!reasons for popularity">Git</span>? The
-answer these days is, &quot;Because it's the tax they have to pay in order to use
-<a href="https://github.com/">GitHub</a>.&quot; At the time of writing, GitHub has over 40 million users and
+answer these days is, "Because it's the tax they have to pay in order to use
+<a href="https://github.com/">GitHub</a>." At the time of writing, GitHub has over 40 million users and
 hosts over 28 million public repositories, including those for many well-known
 open source projects. It is easily the most popular
 <span g="software_portal" i="software portal!GitHub">software portal</span> in existence, and
@@ -87,11 +83,11 @@ and <span i="GitLab; software portal!GitLab"><a href="https://gitlab.com/">GitLa
 GitHub's share of the educational market is even larger than its share
 among professional developers.  If you're using anything in class, you're almost
 certainly using it, and it's probably helping you become a better programmer
-[<a href="../bibliography/#Hsing2019">Hsing2019</a>].</p>
+<cite>Hsing2019</cite>.</p>
 <blockquote>
 <h3>Why can't we fix it?</h3>
 <p>If Git's interface is a problem, why can't we build a new one?
-[<a href="../bibliography/#PerezDeRosso2016">PerezDeRosso2016</a>] tried, but as they report, the gravity of the
+<cite>PerezDeRosso2016</cite> tried, but as they report, the gravity of the
 existing interface is simply too powerful: as soon as people run into a problem
 and start searching online for solutions, they're thrown back into the world of
 original Git.</p>
@@ -100,11 +96,11 @@ original Git.</p>
 guides</a> and <a href="https://www.atlassian.com/git/tutorials">the Atlassian Git tutorial</a> do an
 excellent job of that, as does <a href="https://swcarpentry.github.io/git-novice/">the Carpentries lesson on Git</a>.
 Instead, we will review the basics that we hope you have learned previously,
-then look at how to use Git and GitHub to collaborate in <a class="secref" href="../git-team/#git-team">Chapter&nbsp;8</a>.
+then look at how to use Git and GitHub to collaborate in <a section="git-team"/>.
 We will show the commands as if you were running them in the Unix shell, but we
 recommend that you use a <span i="Git!graphical interface">graphical
 interface</span> like <a href="https://www.gitkraken.com/">GitKraken</a>, <a href="https://www.sourcetreeapp.com/">SourceTree</a>, or the
-one that comes with your <span i="IDE">IDE</span> (<a class="secref" href="../tooling/#tooling">Chapter&nbsp;17</a>). These
+one that comes with your <span i="IDE">IDE</span> (<a section="tooling"/>). These
 are layered on top of the commands we are going to discuss, so they (should) all
 work the same way.</p>
 <h2>A Review of the Basics</h2>
@@ -121,25 +117,25 @@ $ git config --global user.email &quot;peggy@wolframhart.org&quot;
 <ul>
 <li>
 <p>Git commands are written as <code>git <em>verb</em></code>, where
-<code><em>verb</em></code> is a sub-command telling Git exactly what we want
-to do.</p>
+    <code><em>verb</em></code> is a sub-command telling Git exactly what we want
+    to do.</p>
 </li>
 <li>
 <p>The <code>--global</code> option is used to specify a value for the command in the same
-way that parameters are used to pass values to functions. In this case,
-we're telling Git that we want to configure things globally (i.e., for every
-project we have on this computer). We can also configure things
-repository-by-repository if we want to have a different name or email
-address for different projects.</p>
+    way that parameters are used to pass values to functions. In this case,
+    we're telling Git that we want to configure things globally (i.e., for every
+    project we have on this computer). We can also configure things
+    repository-by-repository if we want to have a different name or email
+    address for different projects.</p>
 </li>
 <li>
 <p><code>user.name</code> is the thing we want to configure. There are a lot of these;
-<code>git config --list</code> displays them all.</p>
+    <code>git config --list</code> displays them all.</p>
 </li>
 <li>
 <p>Finally, we specify the values we want <code>user.name</code> and <code>user.email</code> to
-have. We wrap these in quotes because they contain spaces and the <code>@</code>
-symbol, which might otherwise confuse the shell.</p>
+    have. We wrap these in quotes because they contain spaces and the <code>@</code>
+    symbol, which might otherwise confuse the shell.</p>
 </li>
 </ul>
 <p>Now that Git knows who we are, let's <span i="Git!creating project">set up a
@@ -155,7 +151,7 @@ have and how they've changed.</p>
 <p>Don't edit the files in your <code>.git</code> directory yourself---it will have the same
 unfortunate effect as editing a spreadsheet or an image as if it was a text
 file. If you'd like to know more about what they're for and how Git uses them,
-please see [<a href="../bibliography/#Chacon2014">Chacon2014</a>] or [<a href="../bibliography/#Cook2019">Cook2019</a>].</p>
+please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.</p>
 </blockquote>
 <p>If your instructor or one of your teammates has already created a project, you
 won't use <code>git init</code>. Instead, you will use <code>git clone</code> followed by the
@@ -197,26 +193,27 @@ Date:   Wed Feb 17 20:48:04 2021 -0500
 <ul>
 <li>
 <p>A line labeled <code>commit</code> followed by a large hexadecimal number.  This number
-is a unique <span i="Git!commit ID">label</span> for the state of the
-project's files at that point in time.  if we want to refer to a particular
-version of our project, we can use this or its first half-dozen digits (such
-as <code>6e30bd</code>) so long as the latter is unambiguous.</p>
+    is a unique <span i="Git!commit ID">label</span> for the state of the
+    project's files at that point in time.  if we want to refer to a particular
+    version of our project, we can use this or its first half-dozen digits (such
+    as <code>6e30bd</code>) so long as the latter is unambiguous.</p>
 </li>
 <li>
 <p>Two lines showing who saved the state of the project and when. The name and
-email address in the <code>Author</code> field are the ones we set up with <code>git config</code>; the <span g="timestamp" i="timestamp!of Git
-commit">timestamp</span> is accurate to the second, and includes time zone
-information like the <code>-0500</code> showing that I'm in Eastern time so that anyone
-in the world can tell exactly when these files were saved.</p>
+    email address in the <code>Author</code> field are the ones we set up with <code>git
+    config</code>; the <span g="timestamp" i="timestamp!of Git
+    commit">timestamp</span> is accurate to the second, and includes time zone
+    information like the <code>-0500</code> showing that I'm in Eastern time so that anyone
+    in the world can tell exactly when these files were saved.</p>
 </li>
 <li>
 <p>A short comment called a <span g="commit_message" i="commit message (version
-control); Git!commit message">commit message</span> that tells us what this
-change is all about. We will take a look in <a class="secref" href="../git-team/#git-team">Chapter&nbsp;8</a> at how to
-write a good commit message; for now, just remember that if you and your
-teammates have made a hundred changes to the project over the course of ten
-or twelve weeks, you're going to want something more informative than &quot;Fixed
-stuff.&quot;</p>
+    control); Git!commit message">commit message</span> that tells us what this
+    change is all about. We will take a look in <a section="git-team"/> at how to
+    write a good commit message; for now, just remember that if you and your
+    teammates have made a hundred changes to the project over the course of ten
+    or twelve weeks, you're going to want something more informative than "Fixed
+    stuff."</p>
 </li>
 </ul>
 <p>All right: what are <span g="commit" i="commit (version control);
@@ -226,7 +223,7 @@ like:</p>
 <pre><code class="language-sh">$ git commit -m &quot;Made the status bar display the user name&quot;
 </code></pre>
 <!-- continue -->
-<p>Here, <code>commit</code> is the verb and the <code>-m</code> (short for &quot;message&quot;) option is followed
+<p>Here, <code>commit</code> is the verb and the <code>-m</code> (short for "message") option is followed
 by the comment we want to save in the log.</p>
 <blockquote>
 <h3>The most popular question on Stack Overflow</h3>
@@ -235,10 +232,11 @@ by the comment we want to save in the log.</p>
 This is a good thing, except that the default editor on most Unix systems is
 something called <span i="Vim editor!exiting">Vim</span>, whose interface is no
 more intuitive than Git's. (In fact, one of the most frequently-viewed questions
-on <a href="https://stackoverflow.com/">Stack Overflow</a> is &quot;<a href="https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor">How do I exit the Vim
-editor?</a>&quot;. Unsurprisingly, another <span i="Git!configuring">frequently-viewed question</span> on Stack Overflow is &quot;<a href="https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits">How
+on <a href="https://stackoverflow.com/">Stack Overflow</a> is "<a href="https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor">How do I exit the Vim
+editor?</a>". Unsurprisingly, another <span
+i="Git!configuring">frequently-viewed question</span> on Stack Overflow is "<a href="https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits">How
 do I make Git use the editor of my choice for my
-commits?</a>&quot; One of the many reasons you should interact
+commits?</a>" One of the many reasons you should interact
 with Git through a GUI is to avoid this issue.</p>
 </blockquote>
 <p>Before we run <code>git commit</code>, though, we need to tell Git which files we want to
@@ -247,7 +245,8 @@ save in the commit, which we do using <code>git add</code>:</p>
 </code></pre>
 <!-- continue -->
 <p><span i="Git!difference between add and commit">One way to think about
-this</span> is that <code>git add</code> puts things in a box to be shipped, while <code>git commit</code> actually sends the package. Git requires us to do this in two steps
+this</span> is that <code>git add</code> puts things in a box to be shipped, while <code>git
+commit</code> actually sends the package. Git requires us to do this in two steps
 because we might change our mind about what we want to store: for example, we
 might <code>git add</code> a file, then realize we need to make a few more edits, <code>git add</code>
 it again, and then <code>git commit</code>. Alternatively, we might add a bunch of files,
@@ -260,19 +259,19 @@ committing.</p>
 files</span> by putting their names, or patterns that match multiple names, in a
 file called <code>.gitignore</code>.  For example, the <code>.gitignore</code> file for this project
 includes:</p>
-<pre><code class="language-txt">*.pyc
+<p><code>txt
+*.pyc
 *~
 .DS_Store
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
 __pycache__
-_site
-</code></pre>
+_site</code></p>
 <p>Be careful not to put files containing passwords or <span g="api_key">API
 keys</span> for web services into version control: even if the repository is
 private now, it might be public in future, or the team might grow to include
-someone who shouldn't have access (<a class="secref" href="../security/#security">Chapter&nbsp;13</a>).</p>
+someone who shouldn't have access (<a section="security"/>).</p>
 </blockquote>
 <p>We can keep track of which changes haven't yet been added and which ones have
 using <span i="Git!showing status"><code>git status</code></span>. If I run this command
@@ -284,20 +283,21 @@ Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
-	modified:   _includes/links.md
-	modified:   bibliography.md
-	modified:   version-control.md
+    modified:   _includes/links.md
+    modified:   bibliography.md
+    modified:   version-control.md
 
 Changes not staged for commit:
   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
   (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
-	modified:   version-control.md
+    modified:   version-control.md
 </code></pre>
 <!-- continue -->
-<p>The first paragraph titled &quot;Changes to be committed&quot; tells me which files I have
-asked Git to save using <code>git add</code>. The second paragraph, &quot;Changes not staged for
-commit&quot;, shows that I have modified <code>version-control.md</code> (this chapter) since I
-last asked Git to save a snapshot. Both paragraphs tell me that I can use <code>git restore</code> with or without the <code>--staged</code> option to put a file back the way it was
+<p>The first paragraph titled "Changes to be committed" tells me which files I have
+asked Git to save using <code>git add</code>. The second paragraph, "Changes not staged for
+commit", shows that I have modified <code>version-control.md</code> (this chapter) since I
+last asked Git to save a snapshot. Both paragraphs tell me that I can use <code>git
+restore</code> with or without the <code>--staged</code> option to put a file back the way it was
 if I decide I don't want to save the changes I've made.</p>
 <p>I can use <span i="Git!recovering old files"><code>git restore</code></span> to recover an
 old version of a file from any previous commit. Being able to do this was the
@@ -310,7 +310,7 @@ then run:</p>
 <!-- continue -->
 <p>I can also count backward from where I am now.  The most recent commit has the
 special <span i="Git!HEAD">symbolic name <code>HEAD</code></span>; the expression <code>HEAD~1</code>
-means &quot;the one before it&quot;, while <code>HEAD~2</code> goes back two commits and so
+means "the one before it", while <code>HEAD~2</code> goes back two commits and so
 on. Regardless of how I specify what I want, restoring an old version doesn't
 erase any of the ones I have saved since then: the project's history stays
 intact.</p>
@@ -322,18 +322,19 @@ automatically have created a bookmark called a
 at the original repository. I can get a list of remotes like this:</p>
 <pre><code class="language-sh">$ git remote -v
 </code></pre>
-<pre><code class="language-out">origin	https://github.com/gvwilson/buildtogether.tech.git (fetch)
-origin	https://github.com/gvwilson/buildtogether.tech.git (push)
+<pre><code class="language-out">origin  https://github.com/gvwilson/buildtogether.tech.git (fetch)
+origin  https://github.com/gvwilson/buildtogether.tech.git (push)
 </code></pre>
 <!-- continue -->
-<p>The <code>-v</code> option (short for &quot;verbose&quot;) tells Git to print more than just the
+<p>The <code>-v</code> option (short for "verbose") tells Git to print more than just the
 remote's name. The remote itself is called <code>origin</code>, and Git lists two URLs for
-it because in theory you can download (or &quot;fetch&quot;) from one and upload (or
-&quot;push&quot;) to another. (I have been using Git for sixteen years, and have never
+it because in theory you can download (or "fetch") from one and upload (or
+"push") to another. (I have been using Git for sixteen years, and have never
 once needed this feature.)</p>
 <p>One of the differences between a version control system like Git and a file
 backup tool like <a href="https://dropbox.com">Dropbox</a> is that Git <em>doesn't</em> automatically
-synchronize local changes to the remote repository.  If I want to <span i="Git!saving changes remotely">save</span> everything I've done locally on
+synchronize local changes to the remote repository.  If I want to <span
+i="Git!saving changes remotely">save</span> everything I've done locally on
 GitHub, I have to push them explicitly:</p>
 <pre><code class="language-sh">$ git push origin main
 </code></pre>
@@ -358,7 +359,7 @@ grading it is to clone a fresh copy of the project in a temporary directory and
 make sure that everything builds and runs there. Doing that will tell you if you
 or one of your teammates has forgotten to commit a key file. In an advanced
 course, you might be asked to do this automatically every time someone commits
-changes; we'll explore this in <a class="secref" href="../tooling/#tooling">Chapter&nbsp;17</a>.</p>
+changes; we'll explore this in <a section="tooling"/>.</p>
 </blockquote>
 <h2>A Branch-Based Workflow</h2>
 <p>So far we have only used a sequential timeline with Git: each change builds on
@@ -379,7 +380,7 @@ them.</p>
 </code></pre>
 <!-- continue -->
 <p>immediately after running <code>git init</code>.  The <span i="Git!branch names"><code>main</code>
-branch</span> is usually considered the &quot;official&quot; version of the repository,
+branch</span> is usually considered the "official" version of the repository,
 i.e., the version of the project that should be graded or published for other
 people to use.  The asterisk <code>*</code> indicates that it is currently active, i.e.,
 that all changes we make will take place in this branch by default.</p>
@@ -387,7 +388,8 @@ that all changes we make will take place in this branch by default.</p>
 <pre><code class="language-sh">$ git branch homework3
 </code></pre>
 <p>The name of the branch should indicate what it's for, just like the names of
-files and variables.  We can check that the branch exists by running <code>git branch</code> again:</p>
+files and variables.  We can check that the branch exists by running <code>git
+branch</code> again:</p>
 <pre><code class="language-sh">$ git branch
 </code></pre>
 <pre><code class="language-out">* main
@@ -421,7 +423,8 @@ early start on homework 4, we can create a new branch from <code>main</code> cal
 Git!merge">merge</span> the state of one branch back into another. Merging
 doesn't change the source branch, but once it's done, all of the changes made
 there are in the destination branch.</p>
-<p>To see what the differences are between two branches, we use <span i="Git!viewing differences"><code>git diff</code></span> with those branches' names:</p>
+<p>To see what the differences are between two branches, we use <span
+i="Git!viewing differences"><code>git diff</code></span> with those branches' names:</p>
 <pre><code class="language-sh">$ git diff homework3..main
 </code></pre>
 <!-- continue -->
@@ -523,12 +526,13 @@ branches as needed to work on the code), and then merge <em>from</em> <code>home
 <blockquote>
 <h3>Rebasing</h3>
 <p>One way to make the history of a repository easier to read is to squash several
-consecutive commits into one.  This is called <span g="rebase_git" i="Git!rebase; rebasing (in version control)">rebasing</span>, and can be done
+consecutive commits into one.  This is called <span g="rebase_git"
+i="Git!rebase; rebasing (in version control)">rebasing</span>, and can be done
 using:</p>
-<pre><code class="language-sh">$ git rebase -i START
-</code></pre>
-<!-- continue -->
-<p>where <code>START</code> identifies the commit <em>before</em> the ones you want to start merging
+<p><code>sh
+$ git rebase -i START</code></p>
+<p><!-- continue -->
+where <code>START</code> identifies the commit <em>before</em> the ones you want to start merging
 (i.e., the last one <em>not</em> to modify). Rebasing can go wrong in a lot of
 confusing ways, particularly if you have merged changes from another branch into
 the one you're squashing, so we recommend that you avoid it for schoolwork.</p>
@@ -541,44 +545,45 @@ Git)">workflow</span> will help you keep track of what you are doing:</p>
 </li>
 <li>
 <p><code>git checkout -b name-of-feature</code> to create a new branch.  <em>Always</em> create a
-branch when making changes, since you never know what else might come up.
-The branch name should be as descriptive as a variable name or filename
-would be.</p>
+    branch when making changes, since you never know what else might come up.
+    The branch name should be as descriptive as a variable name or filename
+    would be.</p>
 </li>
 <li>
 <p>Make your changes.  If something occurs to you along the way---for example,
-if we are writing a new function and realize that the documentation for some
-other function should be updated---<em>don't</em> do that work in this branch.
-Instead, commit our changes, switch back to <code>main</code>, and create a new branch
-for the other work.</p>
+    if we are writing a new function and realize that the documentation for some
+    other function should be updated---<em>don't</em> do that work in this branch.
+    Instead, commit our changes, switch back to <code>main</code>, and create a new branch
+    for the other work.</p>
 </li>
 <li>
 <p>When the new feature is complete, use <code>git merge</code> to get any changes you
-merged into <code>main</code> after creating <code>name-of-feature</code> and resolve any
-conflicts.  This is an important step: you want to test that everything
-works while you are in your feature branch, not in <code>main</code>.</p>
+    merged into <code>main</code> after creating <code>name-of-feature</code> and resolve any
+    conflicts.  This is an important step: you want to test that everything
+    works while you are in your feature branch, not in <code>main</code>.</p>
 </li>
 <li>
 <p>Finally, switch back to <code>main</code> and <code>git merge name-of-feature main</code> to merge
-your changes into <code>main</code>.  You should not have any conflicts, and all of
-your tests should pass.</p>
+    your changes into <code>main</code>.  You should not have any conflicts, and all of
+    your tests should pass.</p>
 </li>
 </ol>
-<p>Most developers use this <span g="branch_per_feature_workflow">branch-per-feature workflow</span>, but what
-exactly is a &quot;feature&quot;?  These rules make sense for small projects:</p>
+<p>Most developers use this <span
+g="branch_per_feature_workflow">branch-per-feature workflow</span>, but what
+exactly is a "feature"?  These rules make sense for small projects:</p>
 <ol>
 <li>
 <p>Anything cosmetic that is only one or two lines long can be done in <code>main</code>
-and committed right away.  &quot;Cosmetic&quot; means changes to comments or
-documentation: nothing that affects how code runs, not even a simple
-variable renaming.</p>
+    and committed right away.  "Cosmetic" means changes to comments or
+    documentation: nothing that affects how code runs, not even a simple
+    variable renaming.</p>
 </li>
 <li>
 <p>A pure addition that doesn't change anything else is a feature and goes into
-a branch.  For example, if you are adding a feature to the user interfaces,
-that should be done on its own branch because it might take several tries to
-get right, and you might interrupt yourself to fix things you discover along
-the way.</p>
+    a branch.  For example, if you are adding a feature to the user interfaces,
+    that should be done on its own branch because it might take several tries to
+    get right, and you might interrupt yourself to fix things you discover along
+    the way.</p>
 </li>
 <li>
 <p>Every bug fix is also done in a separate branch</p>
@@ -590,18 +595,26 @@ are pragmatic about this on small projects; on large ones, where dozens of
 people might be committing, even the smallest and most innocuous change needs to
 be in its own branch so that it can be reviewed (which we discuss below).</p>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

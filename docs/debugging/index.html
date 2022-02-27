@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="debugging">Debugging</h1></title>
+    <title>Building Software Together: Debugging</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="debugging">Debugging</h1>
-      <div class="lede"><p>Tracking down the causes of errors</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#automated_program_repair">automated program repair</a>, <a href="../glossary/#breakpoint">breakpoint</a>, <a href="../glossary/#conditional_breakpoint">conditional breakpoint</a>, <a href="../glossary/#delta_debugging">delta debugging</a>, <a href="../glossary/#failure">failure</a>, <a href="../glossary/#fault">fault</a>, <a href="../glossary/#rabbit_hole">rabbit hole</a>, <a href="../glossary/#requirements_error">requirements error</a>, <a href="../glossary/#symbolic_debugger">symbolic debugger</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Debugging</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>Finding errors is good; fixing them is better, so learning how to debug is as
+<p>Finding errors is good; fixing them is better, so learning how to debug is as
 important as learning how to program in the first place.  However, while most
 schools teach defensive programming and unit testing, only a handful offer a
 course on <span i="debugging!why schools don't teach">debugging</span>, which is
@@ -36,11 +28,11 @@ three quarters of their time finding and fixing bugs.  A single chapter can't
 make up for that, but I hope the guidance below will help make you more
 efficient.</p>
 <p>Debugging depends on being able to read code, which is the single most effective
-way known to find bugs [<a href="../bibliography/#Basili1987">Basili1987</a>, <a href="../bibliography/#Kemerer2009">Kemerer2009</a>, <a href="../bibliography/#Bacchelli2013">Bacchelli2013</a>].
+way known to find bugs <cite>Basili1987,Kemerer2009,Bacchelli2013</cite>.
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
 written about how to <span i="reading code">read</span> it
-([<a href="../bibliography/#Spinellis2003">Spinellis2003</a>] being my favorite).  As <a class="secref" href="../rules-joining/#rules-joining">Chapter&nbsp;20</a>
+(<cite>Spinellis2003</cite> being my favorite).  As <a section="rules-joining"/>
 says, reading other people's code is one of the best ways to learn how to be a
 better programmer; tracking down a bug may not be when you want to broaden your
 knowledge, but if you're there anyway, you might as well.</p>
@@ -55,19 +47,17 @@ when it matters most.</p>
 <p>What habits should you have?</p>
 <dl>
 <dt>Make sure you are trying to build the right thing.</dt>
-<dd>
-<p><span g="requirements_error" i="requirements error">Requirements
+<dd><span g="requirements_error" i="requirements error">Requirements
 errors</span> are a major cause of software projects failing in the real
 world, and every instructor has horror stories about students
 misinterpreting assignments and spending days building the wrong thing. When
 in doubt, ask, and to make your question and its answer clear, provide an
-example and describe what you think the code is supposed to do in that case.</p>
-</dd>
+example and describe what you think the code is supposed to do in that case.</dd>
 <dt>Make sure you understand what the bug actually is.</dt>
 <dd>
-<p>&quot;It doesn't work&quot; isn't good enough: what exactly is going wrong and how do
+<p>"It doesn't work" isn't good enough: what exactly is going wrong and how do
 you know? If I can't spot a problem in less than a minute, I jot down a note
-to myself like, &quot;shouldn't recurse into footer elements&quot;.  Without this, I
+to myself like, "shouldn't recurse into footer elements".  Without this, I
 often find myself <span g="rabbit_hole">going down a rabbit hole</span> and
 losing sight of what I was originally trying to fix.</p>
 <p>Writing down what's supposed to be happening also helps you check that you
@@ -81,33 +71,33 @@ you an hour of trying to fix something that isn't actually broken.</p>
 <dt>Make it fail.</dt>
 <dd>
 <p>You can only debug things when you can see them going wrong, so as we
-discussed in <a class="secref" href="../communicate/#communicate">Chapter&nbsp;10</a>, you should try to create a minimal
+discussed in <a section="communicate"/>, you should try to create a minimal
 <span i="reproducible example (reprex)">reproducible example</span> or
 reprex.  Doing this finds the problem in a surprising number of cases, since
 each time you throw out part of the original program or dataset because the
 bug reoccurs without it, you are also throwing out a bunch of possible
 causes.</p>
-<p>The easiest way to create a reprex is to divide and conquer.  The <span g="fault" i="fault">fault</span> responsible for a <span g="failure" i="failure">failure</span> has to occur before the failure, so check the
+<p>The easiest way to create a reprex is to divide and conquer.  The <span
+g="fault" i="fault">fault</span> responsible for a <span g="failure"
+i="failure">failure</span> has to occur before the failure, so check the
 input to the function where the bug is showing up.  If that's wrong, check
 the function that's calling it, and so on.</p>
 </dd>
 </dl>
 <p>Instrument your code.
-Add <span i="assertion">assertions</span> to make the checks in your code
-explicit: they'll help you keep track of what you have looked at for this
-bug, and if you leave them in, they will help prevent others in future.
-(This is a form of after-the-fact <span i="defensive programming">defensive
-programming</span>.)</p>
+    Add <span i="assertion">assertions</span> to make the checks in your code
+    explicit: they'll help you keep track of what you have looked at for this
+    bug, and if you leave them in, they will help prevent others in future.
+    (This is a form of after-the-fact <span i="defensive programming">defensive
+    programming</span>.)</p>
 <dl>
 <dt>Alternate between exploration and confirmation.</dt>
-<dd>
-<p>I often don't know what assertions to write until I've looked at the state
+<dd>I often don't know what assertions to write until I've looked at the state
 of the program, so I go back and forth between adding logging statements (or
 just <code>print</code> statements if the code is small and I'm reasonably sure I can
 find the bug quickly) and adding assertions.  <span i="logging!during
-  debugging">Logging</span> gives me new information to help me formulate
-hypotheses; assertions either confirm or refute those hypotheses.</p>
-</dd>
+debugging">Logging</span> gives me new information to help me formulate
+hypotheses; assertions either confirm or refute those hypotheses.</dd>
 <dt>Change one thing at a time.</dt>
 <dd>
 <p>Replacing random pieces of code in the hope of fixing a bug is unlikely to
@@ -130,10 +120,10 @@ that the order of events is unpredictable; it's often not repeatable, so
 creating a reliable reprex may be impossible.  What's worse, the act of
 observing can hide the bug: a <code>print</code> statement or a breakpoint can change
 timing in a way that makes the bug disappear.  Modeling tools can help
-(<a class="secref" href="../tooling/#tooling">Chapter&nbsp;17</a>), as can the use of immutable data structures, but the best
+(<a section="tooling"/>), as can the use of immutable data structures, but the best
 solutions are to test components in isolation using <span i="mock object">mock
 objects</span> in place of the things they communicate with
-(<a class="secref" href="../testing/#testing">Chapter&nbsp;11</a>) and to add <em>lots</em> of assertions to check the consistency
+(<a section="testing"/>) and to add <em>lots</em> of assertions to check the consistency
 of data structures.  In particular, giving every class a method called <code>isOK</code> to check
 that it's in good shape can save hours of later debugging, as well as helping
 the next programmer understand what the data is supposed to look like.</p>
@@ -141,21 +131,21 @@ the next programmer understand what the data is supposed to look like.</p>
 <h2>Common Errors</h2>
 <p>What mistakes do programmers make <span i="common programming errors;
 error!common">most often</span>?  The largest study of this for novices is
-[<a href="../bibliography/#Brown2017">Brown2017</a>], which found that mismatched quotes and parentheses are
+<cite>Brown2017</cite>, which found that mismatched quotes and parentheses are
 the most common type of errors in novice Java programs, but also the easiest to
 fix, while some mistakes (like putting the condition of an <code>if</code> in <code>{…}</code> instead
 of <code>(…)</code> are most often made only once.  Unsurprisingly, mistakes that produce
 compiler errors are fixed much faster than ones that don't.  Some mistakes,
 however, are made many times, like invoking methods with the wrong arguments
 (e.g., passing a string instead of an integer).</p>
-<p>[<a href="../bibliography/#Brown2017">Brown2017</a>] also compared <span i="error!misperception of
+<p><cite>Brown2017</cite> also compared <span i="error!misperception of
 frequency">the mistakes novices actually make</span> with what their teachers
-thought they made.  They found that, &quot;…educators formed only a weak consensus
+thought they made.  They found that, "…educators formed only a weak consensus
 about which mistakes are most frequent, that their rankings bore only a moderate
 correspondence to the students in the…data, and that educators' experience had
-no effect on this level of agreement.&quot;  For example, mistaking <code>=</code> (assignment)
+no effect on this level of agreement."  For example, mistaking <code>=</code> (assignment)
 and <code>==</code> (equality) wasn't nearly as common as most teachers believed.</p>
-<p>For experienced programmers, [<a href="../bibliography/#Pritchard2015">Pritchard2015</a>] reported that the most
+<p>For experienced programmers, <cite>Pritchard2015</cite> reported that the most
 common errors in Python programs were (in order):</p>
 <ol>
 <li>SyntaxError: invalid syntax</li>
@@ -196,45 +186,45 @@ self-referential (head points to head); circular sub-structure; depth
 greater than one.</dd>
 </dl>
 <!-- continue -->
-<p>As <a class="secref" href="../git-team/#git-team">Chapter&nbsp;8</a> said, the longer list in
-[<a href="../bibliography/#Stegeman2014">Stegeman2014</a>, <a href="../bibliography/#Stegeman2016">Stegeman2016</a>] can be adapted for more advanced
+<p>As <a section="git-team"/> said, the longer list in
+<cite>Stegeman2014,Stegeman2016</cite> can be adapted for more advanced
 students' programs.</p>
 <p>One of the most common errors programmers make is to assume that their first
-attempt at fixing a problem actually worked.  [<a href="../bibliography/#Yin2011">Yin2011</a>] found that
-14--25% of bug &quot;fixes&quot; released for major operating systems didn't actually fix
+attempt at fixing a problem actually worked.  <cite>Yin2011</cite> found that
+14--25% of bug "fixes" released for major operating systems didn't actually fix
 the bug (a figure that rose to 39% for concurrency-related bugs), while
-[<a href="../bibliography/#Park2012">Park2012</a>] found that up to a third of bugs required more than one
+<cite>Park2012</cite> found that up to a third of bugs required more than one
 attempt to fix.</p>
-<p>But there is good news as well.  [<a href="../bibliography/#Pan2008">Pan2008</a>] identified 27 patterns for
+<p>But there is good news as well.  <cite>Pan2008</cite> identified 27 patterns for
 bug fixes by inspecting the history of seven large open source Java projects and
 found that the five most common are:</p>
 <ol>
 <li>
 <p>changing the condition in an <code>if</code> statement (e.g., replacing <code>==</code> with <code>&gt;=</code>
-or vice versa);</p>
+    or vice versa);</p>
 </li>
 <li>
 <p>adding a pre-condition check to an <code>if</code> statement (e.g., checking that a
-variable is not <code>null</code> before comparing its value to a constant);</p>
+    variable is not <code>null</code> before comparing its value to a constant);</p>
 </li>
 <li>
 <p>changing the values passed to a method call (e.g., converting a
-case-sensitive string match to a case-insensitive match);</p>
+    case-sensitive string match to a case-insensitive match);</p>
 </li>
 <li>
 <p>changing the number of parameters to a method call (e.g., adding a
-non-default value for a parameter where the default value was previously
-being used); and</p>
+    non-default value for a parameter where the default value was previously
+    being used); and</p>
 </li>
 <li>
 <p>changing the value assigned to a variable <em>without</em> changing the variable
-being assigned to.</p>
+    being assigned to.</p>
 </li>
 </ol>
 <p>Wherever we find patterns we can try to write programs to spot them and act on
 them.  The goal of research in <span g="automated_program_repair" i="automated
 program repair">automated program repair</span> is to build tools that can fix
-common bugs on their own [<a href="../bibliography/#Monperrus2018">Monperrus2018</a>, <a href="../bibliography/#LeGoues2019">LeGoues2019</a>].  These tools
+common bugs on their own <cite>Monperrus2018,LeGoues2019</cite>.  These tools
 use several approaches:</p>
 <dl>
 <dt>Generate and validate.</dt>
@@ -249,26 +239,28 @@ particular changes.</dd>
 <dt>Symbolic execution.</dt>
 <dd>Rather than a program on a particular set of inputs, a tool can simulate
 execution to build constraints, then check if those constraints can be
-satisfied. For example, if a program contains the statements:<pre><code class="language-py">longest = ''
+satisfied. For example, if a program contains the statements:
+<code>py
+longest = ''
 for name in all_names:
     if len(name) &gt; len(longest):
-        longest = name
-</code></pre>
+        longest = name</code>
 then symbolic execution can determine that the final value of <code>longest</code> is
 either the empty string or the first string in the list that belongs to the
 set containing the longest strings in the list.  The complexity of that
 sentence is a sign of how complex symbolic execution can be, but when
-combined with the modeling tools discussed in <a class="secref" href="../tooling/#tooling">Chapter&nbsp;17</a>, this
+combined with the modeling tools discussed in <a section="tooling"/>, this
 approach can find bugs that would otherwise escape detection for years.</dd>
 </dl>
 <p>Most <a href="https://program-repair.org/">program repair tools</a> are still research prototypes, but
 one particularly interesting use case is repairing student programs as a way of
-giving feedback on assignments [<a href="../bibliography/#Hu2019">Hu2019</a>].  If you are looking for an
+giving feedback on assignments <cite>Hu2019</cite>.  If you are looking for an
 ambitious course project that might lead to graduate research, this is a good
 place to start.</p>
-<p>Another semi-automated technique for finding bugs is <span g="delta_debugging" i="delta debugging">delta debugging</span> [<a href="../bibliography/#Zeller2009">Zeller2009</a>, <a href="../bibliography/#Zeller2021">Zeller2021</a>].
+<p>Another semi-automated technique for finding bugs is <span g="delta_debugging"
+i="delta debugging">delta debugging</span> <cite>Zeller2009,Zeller2021</cite>.
 <span i="fuzz testing">Fuzz testing</span> can automatically generate inputs
-that make programs fail (<a class="secref" href="../testing/#testing">Chapter&nbsp;11</a>), but since those inputs are partly
+that make programs fail (<a section="testing"/>), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
 why they make the software fail.  Delta debugging repeatedly tests subsets of
 the original fixture, then subsets of those subsets, to produce a minimal
@@ -291,7 +283,7 @@ if a list is empty or a loop index is zero.</dd>
 <dt>Inspection.</dt>
 <dd>While the program is paused, you can ask the debugger to show you the values
 of variables in both the current active function call and in the call stack.
-This is why we use the word &quot;symbolic&quot;: instead of displaying the bytes at
+This is why we use the word "symbolic": instead of displaying the bytes at
 particular addresses in memory, the debugger uses the names you wrote.</dd>
 <dt><span i="single-stepping; debugger!single-stepping">Single-stepping</span>.</dt>
 <dd>Rather than requiring you to set breakpoints on several successive lines,
@@ -314,7 +306,7 @@ debugging">logging</span> library to give yourself more control.</p>
 <blockquote>
 <h3>If it was important, it would be on the exam</h3>
 <p>Over the years I've been surprised by how few programmers know how to use a
-debugger [<a href="../bibliography/#Beller2018">Beller2018</a>]. The reason can't be the five or ten minutes it
+debugger <cite>Beller2018</cite>. The reason can't be the five or ten minutes it
 takes to learn how to use one---that pays for itself almost immediately.  The
 best explanation I've been able to come up with relates to <span i="Goodhart's
 Law"><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law">Goodhart's Law</a></span>, which says that as soon as you use
@@ -324,25 +316,33 @@ will start to game the system.</p>
 important---or rather, if you're juggling five or six courses, you can't afford
 to put time into things that aren't going to affect your grades.  Most students
 have to learn version control because it's the only way to submit their work,
-but &quot;show that you can use the debugger&quot; is (almost) never part of gradable
+but "show that you can use the debugger" is (almost) never part of gradable
 work.  As a result, there's no point at which students have to master it.  I
 think this could now be fixed by having students submit screencasts of
 themselves setting breakpoints, inspecting variables, and so on; if you ever try
 this in your class, please let me know how it goes.</p>
 </blockquote>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

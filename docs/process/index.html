@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="process">Process</h1></title>
+    <title>Building Software Together: Process</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="process">Process</h1>
-      <div class="lede"><p>How to structure your time</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#agile">agile development</a>, <a href="../glossary/#ae">analysis & estimation</a>, <a href="../glossary/#boehm_curve">Boehm Curve</a>, <a href="../glossary/#business_rule">business rule</a>, <a href="../glossary/#development_process">development process</a>, <a href="../glossary/#effort_importance_grid">effort-importance grid</a>, <a href="../glossary/#feature_boxing">feature boxing</a>, <a href="../glossary/#json">JavaScript Object Notation</a>, <a href="../glossary/#long_tail">long tail</a>, <a href="../glossary/#pair_programming">pair programming</a>, <a href="../glossary/#product_manager">product manager</a>, <a href="../glossary/#project_manager">project manager</a>, <a href="../glossary/#schema">schema</a>, <a href="../glossary/#scrum">Scrum</a>, <a href="../glossary/#sprint">sprint</a>, <a href="../glossary/#stand_up_meeting">stand-up meeting</a>, <a href="../glossary/#tdd">test-driven development</a>, <a href="../glossary/#time_boxing">time boxing</a>, <a href="../glossary/#triage">triage</a>, <a href="../glossary/#waterfall_model">waterfall model</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Process</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>A <span g="development_process" i="development process">development
+<p>A <span g="development_process" i="development process">development
 process</span> defines who does what, when, in order to build a piece of
 software.  Many have been described over the last fifty-odd years; most have
 passionate advocates and equally passionate detractors, but the differences
@@ -46,25 +38,26 @@ fruitarian is secondary to eating better and exercising more.</p>
 </blockquote>
 <h2>Process as Feedback Loops</h2>
 <p>I think about process in terms of <span i="feedback loops">feedback loops</span>
-on different timescales (<a class="figref" href="#feedback-loops">Figure&nbsp;19.1</a>).  Any particular team
+on different timescales (<a figure="feedback-loops"/>).  Any particular team
 emphasizes some of these and pays less attention to others.</p>
 <figure id="feedback-loops">
   <img src="feedback-loops.svg" alt="Feedback loops"/>
-  <figcaption>Figure&nbsp;19.1: Software development feedback loops on different timescales.</figcaption>
+  <figcaption>Software development feedback loops on different timescales.</figcaption>
 </figure>
+
 <dl>
 <dt><span g="pair_programming" i="pair programming">Pair programming</span>.</dt>
 <dd>
 <p>One programmer, the driver, does the typing, while the other, called the
 navigator, watches and comments.  Every twenty minutes or or so, the pair
 switches roles.  The benefits of pair programming are proven for students as
-well as for professionals [<a href="../bibliography/#Williams2001">Williams2001</a>, <a href="../bibliography/#Hannay2009">Hannay2009</a>, <a href="../bibliography/#DiBella2013">DiBella2013</a>].
+well as for professionals <cite>Williams2001,Hannay2009,DiBella2013</cite>.
 First, the navigator will often notice mistakes in the driver's code, or
 remember design decisions that the driver is too busy typing to recall. This
 is the tightest of the feedback loops, since feedback is nearly continuous.</p>
 <p>Second, pair programming spreads knowledge around: every piece of code has
-been seen by at least two people, which reduces the risk of &quot;But I didn't
-know&quot; mistakes.  It also helps people pick up new skills: if you have just
+been seen by at least two people, which reduces the risk of "But I didn't
+know" mistakes.  It also helps people pick up new skills: if you have just
 seen someone do something with two clicks, you will probably do it that way
 when it's your turn to drive, rather than spending two minutes doing it the
 way you always have.  Finally, most people are less likely to check email
@@ -72,51 +65,48 @@ every five minutes if someone else is working with them.</p>
 </dd>
 <dt>Unit testing.</dt>
 <dd>
-<p>Many developers are passionate about a technique called <span g="tdd" i="test-driven development">test-driven development</span>, where you write
+<p>Many developers are passionate about a technique called <span g="tdd"
+i="test-driven development">test-driven development</span>, where you write
 the tests for a new bit of software before you write the software
 itself. Its advocates claim that it makes developers more productive
 because:</p>
 <ol>
 <li>
 <p>writing the tests first helps you figure out what you're actually trying
-to do,</p>
+    to do,</p>
 </li>
 <li>
 <p>you're less likely to polish things needlessly if you have set yourself
-a goal, and</p>
+    a goal, and</p>
 </li>
 <li>
 <p>it ensures the tests actually get written.</p>
 </li>
 </ol>
 <p>However, multiple studies over many years have failed to show that it makes
-developers more productive [<a href="../bibliography/#Erdogmus2005">Erdogmus2005</a>, <a href="../bibliography/#Fucci2016">Fucci2016</a>].  What
+developers more productive <cite>Erdogmus2005,Fucci2016</cite>.  What
 <em>might</em> be the case is that working in short, interleaved segments is more
 productive than doing a lot of coding followed by a lot of testing or vice
-versa [<a href="../bibliography/#Fucci2017">Fucci2017</a>].</p>
+versa <cite>Fucci2017</cite>.</p>
 </dd>
 <dt><span i="continuous integration">Continuous integration</span>.</dt>
-<dd>
-<p>As discussed in <a class="secref" href="../tooling/#tooling">Chapter&nbsp;17</a>), building the software and running
+<dd>As discussed in <a section="tooling"/>), building the software and running
 tests every time someone creates a pull request or commits to the main
 branch gives the whole team feedback about what state the software is in.
 This is particularly important when other people or pairs are working on it:
 each change might work in isolation, but combining them might break things
-if someone hasn't been careful about doing merges.</p>
-</dd>
+if someone hasn't been careful about doing merges.</dd>
 <dt><span i="code review">Code review</span>.</dt>
-<dd>
-<p><a class="secref" href="../git-team/#git-team">Chapter&nbsp;8</a> explained when, why, and how to do this.</p>
-</dd>
+<dd><a section="git-team"/> explained when, why, and how to do this.</dd>
 </dl>
 <p>The other practices---stand-up meetings, sprints, analysis &amp; estimation---are
-covered below, while delivering releases is covered in <a class="secref" href="../delivery/#delivery">Chapter&nbsp;26</a>.
+covered below, while delivering releases is covered in <a section="delivery"/>.
 Before we explore them, though, let's take a look at a typical afternoon in the
 life of a student programmer.</p>
 <h2>Daily Routine</h2>
 <p>Most guides to being productive tell you to establish a routine.  Research shows
 that you'll learn more from spacing things out than from cramming
-[<a href="../bibliography/#Weinstein2018">Weinstein2018</a>], and doing a bit of work on your project every day is
+<cite>Weinstein2018</cite>, and doing a bit of work on your project every day is
 good insurance against getting sick or being interrupted by other work.
 However, it often isn't feasible when you're juggling deadlines in four or five
 courses.</p>
@@ -131,9 +121,9 @@ meeting two days ago.</dd>
 <dt>3:05 p.m.</dt>
 <dd>You log in to GitHub.  Five issues have been closed, but there are eight new
 ones, three of which are assigned to you.  It looks like the file parser you
-wrote last week doesn't handle the &quot;clarification&quot; the prof posted on
+wrote last week doesn't handle the "clarification" the prof posted on
 Monday.  You create a new branch and start writing unit tests to isolate the
-things that are breaking (<a class="secref" href="../design/#design">Chapter&nbsp;12</a>).</dd>
+things that are breaking (<a section="design"/>).</dd>
 <dt>3:25 p.m.</dt>
 <dd>You have added twelve new tests, each between three and ten lines long.
 Eleven fail the way you expect; the twelfth triggers an assertion in a data
@@ -151,10 +141,11 @@ learned the hard way that you can't resist looking at new messages if you
 get notifications.</dd>
 <dt>4:05 p.m.</dt>
 <dd>You can now start work on the feature you want to add, which translates part
-of the program's internal data structure into a blob of <span g="json">JSON</span> to send to a web server.  You have an hour less to do
+of the program's internal data structure into a blob of <span
+g="json">JSON</span> to send to a web server.  You have an hour less to do
 this than you originally planned, but that's OK: by fixing bugs first,
 you've avoided the all-too-common situation of only half the code working
-when the project is &quot;done&quot;. Again, the first step is to create a new branch
+when the project is "done". Again, the first step is to create a new branch
 so that you can later create a small (i.e., reviewable) pull request.</dd>
 <dt>4:30 p.m.</dt>
 <dd>after a couple of drafts, you're happy with the design of the new
@@ -173,7 +164,7 @@ stupid things.</dd>
 meeting to stay organized and you will be in great shape.</p>
 <h2>The Waterfall Model</h2>
 <p>To start our exploration of the longer feedback loops in
-<a class="figref" href="#feedback-loops">Figure&nbsp;19.1</a>, let's look at a process that nobody uses, but which
+<a figure="feedback-loops"/>, let's look at a process that nobody uses, but which
 appears in almost every textbook. It's called the <span g="waterfall_model" i="waterfall model; process!waterfall">waterfall model</span>,
 and it divides development into a series of discrete phases,
 each of which is completed before the next begins:</p>
@@ -183,7 +174,7 @@ each of which is completed before the next begins:</p>
 </li>
 <li>
 <p>Analyze them to produce <span g="schema">data schemas</span> and
-<span g="business_rule">business rules</span>.</p>
+    <span g="business_rule">business rules</span>.</p>
 </li>
 <li>
 <p>Design the software.</p>
@@ -198,7 +189,7 @@ each of which is completed before the next begins:</p>
 <p>Deploy it (i.e., install it, configure it, etc.).</p>
 </li>
 </ol>
-<p>This process was first described in [<a href="../bibliography/#Royce1970">Royce1970</a>] as something that
+<p>This process was first described in <cite>Royce1970</cite> as something that
 couldn't possibly work.  In real life, we always learn things in later stages
 that we couldn't reasonably have anticipated in earlier ones, which means we
 constantly have to go back and revise earlier decisions.  If we <em>do</em> try to
@@ -210,14 +201,15 @@ actually do anything.  In order to understand the differences between them it
 helps to look at the <span g="boehm_curve" i="Boehm Curve">Boehm Curve</span>,
 which shows the effort required to fix a bug based on when it is caught.</p>
 <p>In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
-you move later and later in the development cycle [<a href="../bibliography/#Boehm1981">Boehm1981</a>]
-(<a class="figref" href="#boehms-curve">Figure&nbsp;19.2</a>).  Better tools and vastly more powerful computers have
+you move later and later in the development cycle <cite>Boehm1981</cite>
+(<a figure="boehms-curve"/>).  Better tools and vastly more powerful computers have
 flattened Boehm's curve over the past thirty years, but it is still takes more
-effort to fix things later than earlier [<a href="../bibliography/#Dawson2010">Dawson2010</a>].</p>
+effort to fix things later than earlier <cite>Dawson2010</cite>.</p>
 <figure id="boehms-curve">
   <img src="boehms-curve.svg" alt="Boehm's Curve"/>
-  <figcaption>Figure&nbsp;19.2: The cost of fixing bugs increases later in the development cycle.</figcaption>
+  <figcaption>The cost of fixing bugs increases later in the development cycle.</figcaption>
 </figure>
+
 <p>Development teams deal with this in three ways.  The first is to ignore it.  If
 you're being paid a steady salary by a company that can survive delays and cost
 overruns in your project, or if you're willing to give up your evenings and
@@ -229,14 +221,15 @@ classical engineering mindset: when you're building a dam, fixing mistakes means
 moving several million tons of earth around, so it's the only one that makes
 sense. The third strategy is to move in many short steps with frequent course
 corrections.  If we can get accurate feedback at each step (and that's a big
-&quot;if&quot;) this approach lets us adapt to changing circumstances and new realizations
+"if") this approach lets us adapt to changing circumstances and new realizations
 more easily.</p>
 <h2>Agile</h2>
 <p>The term <span g="agile" i="agile development">agile</span> was coined in 2001
 to describe a bottom-up approach to software project management based on very
 short iterations and frequent feedback from both developers and customers.
-[<a href="../bibliography/#Masood2018">Masood2018</a>] and many others have found it to be effective for
-student projects; we will look at one form called <span g="scrum" i="Scrum">Scrum</span>.</p>
+<cite>Masood2018</cite> and many others have found it to be effective for
+student projects; we will look at one form called <span g="scrum"
+i="Scrum">Scrum</span>.</p>
 <blockquote>
 <h3>Right place, right time</h3>
 <p>Agile development practices are almost as old as programming, but they came into
@@ -252,7 +245,8 @@ source movement. People couldn't help noticing that most open source projects
 didn't have long-range plans, but nevertheless produced high-quality software
 faster than many closed-source commercial projects.</p>
 </blockquote>
-<p>Scrum breaks development down into short <span g="sprint" i="sprint">sprints</span>, typically no more than two weeks long, and sometimes
+<p>Scrum breaks development down into short <span g="sprint"
+i="sprint">sprints</span>, typically no more than two weeks long, and sometimes
 as short as a single day.  In each sprint, the team decides what to build next,
 designs it, builds it, tests it, and delivers it.</p>
 <p>Users often don't know what they want until they see it, so short sprints are a
@@ -288,30 +282,30 @@ it link to the ones it has, halt with an error message, or something else?</dd>
 <p>The key to making this work is that each task is at most a day long.  Anything
 longer is broken into sub-tasks so that there's something substantial to report
 at every meeting.  Without this rule, it's all too easy for someone to say,
-&quot;Still working on X,&quot; several days in a row, which means that feedback, and the
+"Still working on X," several days in a row, which means that feedback, and the
 possibility of early course correction, are lost.</p>
 <p>Scrum and other agile processes <span i="agile development!conditions for
 success">work best</span> when:</p>
 <ol>
 <li>
 <p>Requirements are constantly changing, i.e., long-range planning simply isn't
-possible. This is often true of student projects, since the people on the
-team may not have worked in this domain or with these tools before.</p>
+    possible. This is often true of student projects, since the people on the
+    team may not have worked in this domain or with these tools before.</p>
 </li>
 <li>
 <p>Developers and users can communicate continuously, or at worst daily or
-weekly. This varies widely from one student project to another: if you are
-your own customers it's not a problem, but if you have a real external
-client, you may only be able to meet with them every few weeks.</p>
+    weekly. This varies widely from one student project to another: if you are
+    your own customers it's not a problem, but if you have a real external
+    client, you may only be able to meet with them every few weeks.</p>
 </li>
 <li>
 <p>The team is small, so that everyone can take part in a single stand-up
-meeting. This is usually true for student projects, though getting everyone
-to show up for a morning meeting can be a challenge.</p>
+    meeting. This is usually true for student projects, though getting everyone
+    to show up for a morning meeting can be a challenge.</p>
 </li>
 <li>
-<p>Team members are disciplined enough not to use &quot;agile&quot; as an excuse for
-chaotic coding.</p>
+<p>Team members are disciplined enough not to use "agile" as an excuse for
+    chaotic coding.</p>
 </li>
 <li>
 <p>Everyone on the team can make some progress every day.</p>
@@ -320,8 +314,8 @@ chaotic coding.</p>
 <p>The last two points are the most important.  Most developers don't like writing
 plans before they code, or documentation when they're done.  Coincidentally,
 agile doesn't require them to do much of either.  It's therefore all too common
-for developers to say &quot;we're agile&quot; when what they mean is &quot;we're not going to
-bother doing anything we don't want to&quot;.  In reality, agile requires <em>more</em>
+for developers to say "we're agile" when what they mean is "we're not going to
+bother doing anything we don't want to".  In reality, agile requires <em>more</em>
 discipline, not less, just as improvising well requires even more musical talent
 than playing a score exactly.</p>
 <p>In addition, most students can't put an hour or two into their project every
@@ -339,7 +333,7 @@ students have never had to do this kind of scheduling many find it the most
 valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.</p>
 <p>The <span g="product_manager" i="product manager">product manager</span> is the
-person who owns the spec [<a href="../bibliography/#Perri2018">Perri2018</a>].  While developers are building
+person who owns the spec <cite>Perri2018</cite>.  While developers are building
 Version N, she is talking to customers to find out what should go into Version
 N+1.  She doesn't ask them what features they want; if she does, she'll get a
 mish-mash of conversations overheard in frequent flyer lounges and buzzwords
@@ -358,12 +352,12 @@ plucked from recent Twitter threads.  Instead, she asks:</p>
 <p>She then translates the answers into a list of features to be considered for
 Version N+1.  The product manager usually also talks to developers to find out
 what they don't like about the current software and adds their wishes to the
-pile.  Typically, these are things like &quot;refactor the persistence layer&quot;, &quot;clean
-up the build&quot;, and &quot;upgrade to the latest version of Node&quot;.</p>
+pile.  Typically, these are things like "refactor the persistence layer", "clean
+up the build", and "upgrade to the latest version of Node".</p>
 <p>So, it's Monday morning.  Version N shipped last Thursday; the team has had a
 weekend to catch its collective breath and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week
-to recover, go back and re-read <a class="secref" href="../important/#important">Chapter&nbsp;2</a>.)  At this
+to recover, go back and re-read <a section="important"/>.)  At this
 point the product manager divides up the list of desired features and assigns
 them to the developers.  Each developer then has some time---typically a few
 days to a couple of weeks---to do a little research, write some throwaway
@@ -388,15 +382,16 @@ enough time to add everything that everyone wants to a piece of software, and
 even if there was, it probably shouldn't be done anyway.</p>
 <p>What you do now is find a large whiteboard and draw an
 <span g="effort_importance_grid" i="effort-importance grid">effort-importance grid</span>.
-The X axis is labeled &quot;effort&quot; and is labeled &quot;an hour&quot;, &quot;a day&quot;,
-and &quot;a week&quot;, while the Y axis &quot;importance&quot;, and is divided into &quot;low&quot;,
-&quot;medium&quot;, and &quot;high&quot;.  Next, write each feature's name on a yellow sticky note
+The X axis is labeled "effort" and is labeled "an hour", "a day",
+and "a week", while the Y axis "importance", and is divided into "low",
+"medium", and "high".  Next, write each feature's name on a yellow sticky note
 and put it on the grid.  You should wind up with something like
-<a class="figref" href="#effort-importance">Figure&nbsp;19.3</a>.</p>
+<a figure="effort-importance"/>.</p>
 <figure id="effort-importance">
   <img src="effort-importance.svg" alt="Effort/importance matrix"/>
-  <figcaption>Figure&nbsp;19.3: An example of an effort/importance matrix.</figcaption>
+  <figcaption>An example of an effort/importance matrix.</figcaption>
 </figure>
+
 <p>You then throw away the high-effort, low-importance items in the bottom-right
 three cells---you aren't going to get to those.  Next, you start assembling the
 other items into a schedule, starting with the upper-left corner.  These are the
@@ -418,15 +413,15 @@ a persistence layer before?</p>
 <ol>
 <li>
 <p>You're not expected to pull an number out of thin air (at least, not by
-managers who know what they're doing).  Instead, you should budget enough
-time to write some throwaway code or download and mess around with an open
-source tool in order to get a feel for it.</p>
+    managers who know what they're doing).  Instead, you should budget enough
+    time to write some throwaway code or download and mess around with an open
+    source tool in order to get a feel for it.</p>
 </li>
 <li>
 <p>You've had to learn other new technologies before and then apply them in
-courses.  A guess based on that experience might be off by a factor of two
-or three, but it probably won't be off by a factor of ten.  Even if it is,
-it's better than no guess at all.</p>
+    courses.  A guess based on that experience might be off by a factor of two
+    or three, but it probably won't be off by a factor of ten.  Even if it is,
+    it's better than no guess at all.</p>
 </li>
 </ol>
 <p>The more estimating you do the better you'll get, but only if you compare what
@@ -442,7 +437,7 @@ four weeks' worth of work.  You have several options:</p>
 <dd>This is very popular but doesn't actually solve the problem.</dd>
 <dt>Start working evenings and weekends.</dt>
 <dd>This is also very popular, but is quickly self-defeating.  As
-<a class="secref" href="../important/#important">Chapter&nbsp;2</a> explained, the quality of your work goes down when
+<a section="important"/> explained, the quality of your work goes down when
 you're tired, so any ground you gain by working until three a.m.  you lose
 to extra debugging and rewriting.</dd>
 <dt>Ask for more time.</dt>
@@ -471,11 +466,11 @@ make sure everyone is doing what they're supposed to, to handle interruptions
 (there are <em>always</em> interruptions), and to track the team's progress.  After a
 few weeks, the project manager should compare how much has actually been done
 with how much was supposed to be done and adjust plans accordingly.</p>
-<p>Real customers will thank you for doing this provided you do it early.  &quot;I'm
-sorry, we're not going to have the frobnosticator for May 1&quot; is OK on October 1,
+<p>Real customers will thank you for doing this provided you do it early.  "I'm
+sorry, we're not going to have the frobnosticator for May 1" is OK on October 1,
 or even January 1, since it gives whoever was counting on the frobnosticator
 time to make other plans.  It is <em>not</em> OK on April 30; neither is saying (or
-worse, not saying) that it's &quot;done&quot; but full of bugs.</p>
+worse, not saying) that it's "done" but full of bugs.</p>
 <p>It's more problematic in student projects, particularly if the instructor has
 specified the full feature set needed for an A.  In that case the best you can
 do is ask which features are worth the fewest marks and cut those.</p>
@@ -490,7 +485,7 @@ immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
 responsibilities is to <span g="triage" i="triage">triage</span> the issues in a
 project's <span i="issue tracker!helping triage; triage!using issue
-tracker">issue tracker</span> (<a class="secref" href="../communicate/#communicate">Chapter&nbsp;10</a>) periodically and adjust
+tracker">issue tracker</span> (<a section="communicate"/>) periodically and adjust
 the schedule accordingly. The <span i="effort-importance grid!helping
 triage">effort-importance grid</span> that you drew at the start will help with
 this: by the time you are a few weeks into your project, you should be able to
@@ -501,17 +496,18 @@ users' needs to revise the spec.  What features do you now believe are unlikely
 to be used?  Which ones could be consolidated?  Most importantly, which of the
 users' needs that your original plan <em>wouldn't</em> satisfy could you help with?
 Figuring this out is one of a project manager's most important responsibilities
-[<a href="../bibliography/#Perri2018">Perri2018</a>]; whatever you do, don't fall into the trap of thinking
+<cite>Perri2018</cite>; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
-keep it because you have it.  As <a class="figref" href="#feature-usage">Figure&nbsp;19.4</a> shows using data from
+keep it because you have it.  As <a figure="feature-usage"/> shows using data from
 <span i="Brown, Neil"><a href="https://twistedsquare.com/">Neil Brown</a></span> and the <span i="Blackbox
 project"><a href="https://bluej.org/blackbox/">Blackbox</a> project</span>, the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
 those in the <span g="long_tail">long tail</span>.</p>
 <figure id="feature-usage">
   <img src="feature-usage.svg" alt="Distribution of feature usage"/>
-  <figcaption>Figure&nbsp;19.4: Distribution of feature usage in BlueJ (data courtesy of Neil Brown).</figcaption>
+  <figcaption>Distribution of feature usage in BlueJ (data courtesy of Neil Brown).</figcaption>
 </figure>
+
 <h2>Which Process Should You Use?</h2>
 <p>In practice, the differences between these processes are a lot smaller than
 their advocates would have you believe.  Regardless of what which one they're
@@ -532,7 +528,7 @@ the former in courses, since:</p>
 </li>
 <li>
 <p>close interaction with customers is a central tenet of most agile processes,
-but isn't really possible in a classroom setting.</p>
+    but isn't really possible in a classroom setting.</p>
 </li>
 </ul>
 <p>Since your project has to fit in one or two terms, you'll probably be asked to
@@ -546,18 +542,26 @@ people believe that time boxing works better, since it encourages developers to
 take smaller steps and allows them to give customers more frequent demos (which
 serve as course corrections).</p>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

@@ -146,7 +146,7 @@ much content of different kinds went into the FreeBSD project in 2006.
 <a table="starting-spinellis-stats"/> doesn't divide "source code" into
 "application code" and "tests", but it's still an eye-opener.
 
-<div class="table" id="starting-spinellis-stats" cap="FreeBSD 2006">
+<div class="table" id="starting-spinellis-stats" caption="FreeBSD 2006" markdown="1">
 | Asset | Source | Size (KB) | Percentage |
 | ----- | ------ | --------- | ---------- |
 | Issues database | GNATS | 711783 | 30.5% |

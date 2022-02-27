@@ -1,36 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="contributing">Contributing</h1></title>
+    <title>Building Software Together: Contributing</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1>Contributing</h1>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>Appendix D: Contributing</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
+
 <p>All contributors must abide by our <span i="Code of Conduct">Code of Conduct</span>.</p>
 <h2>Making Decisions</h2>
-<p>This project uses <a href="https://journals.sagepub.com/doi/10.1177/088610998600100206">Martha's Rules</a> [<a href="../bibliography/#Minahan1986">Minahan1986</a>]
+<p>This project uses <a href="https://journals.sagepub.com/doi/10.1177/088610998600100206">Martha's Rules</a> <cite>Minahan1986</cite>
 or consensus decision making:</p>
 <ol>
 <li>
 <p>Before each meeting, anyone who wishes may sponsor a proposal by filing an
-issue in the GitHub repository tagged &quot;proposal&quot;.  Proposals must be filed
-at least 24 hours before a meeting in order to be considered at that
-meeting, and must include:</p>
+    issue in the GitHub repository tagged "proposal".  Proposals must be filed
+    at least 24 hours before a meeting in order to be considered at that
+    meeting, and must include:</p>
 <ul>
 <li>a one-line summary (the subject line of the issue)</li>
 <li>the full text of the proposal</li>
@@ -41,17 +39,17 @@ meeting, and must include:</p>
 </li>
 <li>
 <p>A quorum is established in a meeting if half or more of voting members are
-present.</p>
+    present.</p>
 </li>
 <li>
 <p>Once a person has sponsored a proposal, they are responsible for it.  The
-group may not discuss or vote on the issue unless the sponsor or their
-delegate is present.  The sponsor is also responsible for presenting the
-item to the group.</p>
+    group may not discuss or vote on the issue unless the sponsor or their
+    delegate is present.  The sponsor is also responsible for presenting the
+    item to the group.</p>
 </li>
 <li>
-<p>After the sponsor presents the proposal, a &quot;sense&quot; vote is cast for the
-proposal prior to any discussion:</p>
+<p>After the sponsor presents the proposal, a "sense" vote is cast for the
+    proposal prior to any discussion:</p>
 <ul>
 <li>Who likes the proposal?</li>
 <li>Who can live with the proposal?</li>
@@ -60,100 +58,43 @@ proposal prior to any discussion:</p>
 </li>
 <li>
 <p>If all of the group likes or can live with the proposal, it passes
-immediately.</p>
+    immediately.</p>
 </li>
 <li>
 <p>If most of the group is uncomfortable with the proposal, it is postponed for
-further rework by the sponsor.</p>
+    further rework by the sponsor.</p>
 </li>
 <li>
 <p>Otherwise, members who are uncomfortable can briefly state their objections.
-A timer is then set for a brief discussion moderated by the facilitator.
-After 10 minutes or when no one has anything further to add (whichever comes
-first), the facilitator calls for a yes-or-no vote on the question: &quot;Should
-we implement this decision over the stated objections?&quot;  If a majority votes
-&quot;yes&quot; the proposal is implemented.  Otherwise, the proposal is returned to
-the sponsor for further work.</p>
+    A timer is then set for a brief discussion moderated by the facilitator.
+    After 10 minutes or when no one has anything further to add (whichever comes
+    first), the facilitator calls for a yes-or-no vote on the question: "Should
+    we implement this decision over the stated objections?"  If a majority votes
+    "yes" the proposal is implemented.  Otherwise, the proposal is returned to
+    the sponsor for further work.</p>
 </li>
 </ol>
-<h2>Formatting</h2>
-<p>This site uses <a href="https://gvwilson.github.io/mccole/">McCole</a>	for formatting. Please see its documentation for
-formatting guidelines. In brief:</p>
-<ul>
-<li>
-<p>McCole uses <a href="https://commonmark.org/">CommonMark</a> with extensions.
-(In our defense, <em>everyone</em> adds extensions…)</p>
-</li>
-<li>
-<p>Chapter titles go in the <code>mccole.yml</code> configuration file,
-<em>not</em> in the chapter itself.</p>
-</li>
-<li>
-<p>All level-2 section headings should have an ID.</p>
-</li>
-<li>
-<p>Figures are created using:</p>
-<pre><code>&lt;figure id=&quot;short-figure&quot;&gt;
-  &lt;img src=&quot;figures/short.svg&quot; alt=&quot;Short caption&quot; /&gt;
-  &lt;figcaption&gt;Long version of short caption.&lt;/figcaption&gt;
-&lt;/figure&gt;
-</code></pre>
-</li>
-<li>
-<p>Tables are created using:</p>
-<pre><code>&lt;div class=&quot;table&quot; id=&quot;short-table&quot; cap=&quot;Short table caption.&quot;&gt;
-| Left | Right |
-| ---- | ----- |
-| 123  | 456   |
-</code></pre>
-</li>
-<li>
-<p>Use <code>&lt;a section=&quot;label&quot;/&gt;</code> to reference a section,
-<code>&lt;a figure=&quot;label&quot;/&gt;</code> to reference a figure,
-and <code>&lt;a table=&quot;label&quot;/&gt;</code> to reference a figure.</p>
-</li>
-<li>
-<p>Use <code>&lt;cite&gt;Key1,Key2&lt;/cite&gt;</code> for bibliographic citations.
-Bibliography entries go in <code>_data/bibliography.bib</code>.</p>
-</li>
-<li>
-<p>Use <code>&lt;span g=&quot;gloss_key&quot;&gt;text&lt;/span&gt;</code> to reference the glossary.
-The glossary is in <code>_data/glossary.yml</code> in <a href="https://glosario.carpentries.org/">Glosario</a>
-format.</p>
-</li>
-<li>
-<p>Use <code>&lt;span i=&quot;index term&quot;&gt;text&lt;/span&gt;</code> for index entries.</p>
-</li>
-<li>
-<p>If a term is both a glossary entry and an index entry,
-use <code>&lt;span g=&quot;gloss_key&quot; i=&quot;index term&quot;&gt;text&lt;/span&gt;</code>;
-the <code>g</code> must come before the <code>i</code> attribute.</p>
-</li>
-<li>
-<p>Use a blockquote with a level-3 heading to create a callout:</p>
-<pre><code>&gt; ### Callout Title
-&gt;
-&gt; This is a paragraph.
-</code></pre>
-</li>
-<li>
-<p>Use <code>[text][key]</code> for external links, which are defined
-in <code>_data/links.yml</code>.</p>
-</li>
-</ul>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

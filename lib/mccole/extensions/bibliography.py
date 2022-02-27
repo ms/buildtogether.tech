@@ -23,7 +23,7 @@ def bib_ref(pargs, kwargs, node):
     if len(pargs) == 0:
         util.fail(f"Empty 'b' shortcode in {node.filepath}")
 
-    citations = util.make_config("citations", set())
+    citations = util.make_config("citations")
     citations |= set(pargs)
 
     keys = [f'<a href="@root/bibliography/#{k}">{k}</a>' for k in pargs]
@@ -58,7 +58,9 @@ def bibliography(pargs, kwargs, node):
 
 @ivy.events.register(ivy.events.Event.EXIT)
 def check():
-    citations = util.get_config("citations")
-    bibliography = util.get_config("bibliography")
+    if (citations := util.get_config("citations")) is None:
+        return
+    if (bibliography := util.get_config("bibliography")) is None:
+        return
     util.report("unknown bibliography citations", citations - bibliography)
     util.report("unused bibliography entries", bibliography - citations)

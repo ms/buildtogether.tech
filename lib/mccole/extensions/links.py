@@ -1,7 +1,13 @@
 """Manage links in Markdown files.
 
-To keep links consistent between files, create a list `config["links"]`
-of three-part tuples: a slug, a URL, and a short description.
+To keep links consistent between files, create a YAML file containing
+links triples:
+
+    - key: "some-identifier"
+      url: "https://some/url/"
+      title: "Some identifying text"
+
+and then add `links = "filename.yml"` entry to `config.py`.
 
 -   The `[% links %]` shortcode turns this into an HTML table showing
     the descriptions and URLs.
@@ -15,20 +21,23 @@ of three-part tuples: a slug, a URL, and a short description.
     in Markdown pages can be written `[text][slug]`.
 """
 
+import yaml
+
 import ivy
 import shortcodes
+
+import util
 
 
 @shortcodes.register("links")
 def links_table(pargs, kwargs, node):
     """Create a table of links."""
-    if "links" not in ivy.site.config:
-        return ""
+    links = util.get_config("links")
 
     links = "\n".join(
         [
-            f'<tr><td>{title}</td><td><a href="{url}">{url}</a></td></tr>'
-            for (_, url, title) in ivy.site.config["links"]
+            f'<tr><td>{entry["title"]}</td><td><a href="{entry["url"]}">{entry["url"]}</a></td></tr>'
+            for entry in links
         ]
     )
     title = "<tr><th>Link</th><th>URL</th></tr>"
@@ -41,9 +50,11 @@ def links_append():
     if "links" not in ivy.site.config:
         return
 
-    links_table = "\n".join(
-        f"[{slug}]: {url}" for (slug, url, _) in ivy.site.config["links"]
-    )
+    with open(ivy.site.config["links"], "r") as reader:
+        links = yaml.safe_load(reader)
+    util.make_config("links", links)
+
+    links_table = "\n".join(f'[{entry["key"]}]: {entry["url"]}' for entry in links)
 
     def visitor(node):
         if _needs_links(node):

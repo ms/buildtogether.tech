@@ -31,7 +31,7 @@ def glossary_ref(pargs, kwargs, node):
     if len(pargs) != 2:
         util.fail(f"Badly-formatted 'g' shortcode {pargs} in {node.filepath}")
 
-    definitions = util.make_config("definitions", set())
+    definitions = util.make_config("definitions")
     slug, text = pargs
     definitions.add(slug)
 
@@ -64,11 +64,13 @@ def glossary(pargs, kwargs, node):
 
 @ivy.events.register(ivy.events.Event.EXIT)
 def check():
+    lang = ivy.site.config["lang"]
+
     glossary = util.get_config("glossary")
     glossary_keys = {entry["key"] for entry in glossary}
 
-    lang = ivy.site.config["lang"]
-    definitions = util.get_config("definitions")
+    if (definitions := util.get_config("definitions")) is None:
+        return
     definitions |= _internal_references(glossary, lang)
 
     util.report("unknown glossary references", definitions - glossary_keys)

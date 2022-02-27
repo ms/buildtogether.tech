@@ -1,47 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="security">Security</h1></title>
+    <title>Building Software Together: Security</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="security">Security</h1>
-      <div class="lede"><p>The most important part of software design</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#back_door">back door</a>, <a href="../glossary/#casual_threat">casual threat</a>, <a href="../glossary/#xss">cross-site scripting attack</a>, <a href="../glossary/#dictionary_attack">dictionary attack</a>, <a href="../glossary/#digital_signature">digital signature</a>, <a href="../glossary/#dumpster_diving">dumpster diving</a>, <a href="../glossary/#insider_threat">insider threat</a>, <a href="../glossary/#intimate_threat">intimate threat</a>, <a href="../glossary/#phishing">phishing</a>, <a href="../glossary/#sanitizing_data">sanitizing data</a>, <a href="../glossary/#security_theater">security theater</a>, <a href="../glossary/#social_engineering">social engineering</a>, <a href="../glossary/#spearphishing">spearphishing</a>, <a href="../glossary/#sql_injection">SQL injection attack</a>, <a href="../glossary/#state_level_actor">state-level actor</a>, <a href="../glossary/#2fa">two-factor authentication</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Security</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>Companies, universities, and other institutions have mostly failed to protect us
+<p>Companies, universities, and other institutions have mostly failed to protect us
 from online threats: nothing happens to them if they don't, and as
 <span i="Schneier, Bruce">Bruce Schneier</span> has pointed out, their business models
 are designed to put the cost of security failures on users
-[<a href="../bibliography/#Schneier2021">Schneier2021</a>]. As a result, much of what we are forced to go through
+<cite>Schneier2021</cite>. As a result, much of what we are forced to go through
 is <span g="security_theater" i="security theater">security theater</span>
 intended to make us believe something is being done rather than to actually make
 us safer: forcing people to change passwords every three months encourages
 people to choose memorable (and therefore easy-to-guess) passwords, while all
 that random searches of backpacks and bags at the entrance to the subway do is
 encourage a would-be attacker to go to another entrance.</p>
-<p>It doesn't have to be like this.  As [<a href="../bibliography/#Schneier2019">Schneier2019</a>] points out, most
+<p>It doesn't have to be like this.  As <cite>Schneier2019</cite> points out, most
 security breaches are a result of poor design and rather than Hollywood-style
 hacking.  If we think about the threats people actually face, we can build
-systems that are safer to use [<a href="../bibliography/#Smalls2021">Smalls2021</a>].</p>
+systems that are safer to use <cite>Smalls2021</cite>.</p>
 <blockquote>
 <h3>Privacy is a right</h3>
 <p>Software doesn't just need to be secure to prevent fraud: it is also an
@@ -66,65 +58,65 @@ this is to pay attention to what's happening and respond accordingly.  However,
 being on guard all the time is exhausting; <span i="Snowden, Edward">Edward
 Snowden</span> and the journalists who worked with him took extraordinary
 measures to safeguard themselves against <span g="state_level_actor">state-level
-actors</span> [<a href="../bibliography/#Snowden2019">Snowden2019</a>], but most of us aren't involved in issues
+actors</span> <cite>Snowden2019</cite>, but most of us aren't involved in issues
 of national security and don't need to take those kinds of precautions.
 Instead, we typically face one of three kinds of threat:</p>
 <ul>
 <li>
 <p><span g="casual_threat" i="casual threat; threat!casual">Casual threats</span>
-are opportunistic. For example, Monica, a professor, is targeted by Mohan,
-an undergraduate who spends hours every day in online echo chambers
-complaining about how &quot;SJW bullshit&quot; is ruining tech. He thinks it would be
-a laugh to make her the target of anonymous abuse online; he is unlikely to
-invest significant effort in his attack, but his attack may be backed up by
-more knowledgeable allies in online forums.</p>
+    are opportunistic. For example, Monica, a professor, is targeted by Mohan,
+    an undergraduate who spends hours every day in online echo chambers
+    complaining about how "SJW bullshit" is ruining tech. He thinks it would be
+    a laugh to make her the target of anonymous abuse online; he is unlikely to
+    invest significant effort in his attack, but his attack may be backed up by
+    more knowledgeable allies in online forums.</p>
 </li>
 <li>
 <p><span g="intimate_threat" i="intimate threat; threat!intimate">Intimate
-threats</span> come from people who know their targets' passwords or have a
-chance to install spyware on their targets' devices (which abusers
-frequently do [<a href="../bibliography/#Leitao2019">Leitao2019</a>]). For example, Elena has ended an
-unhappy relationship and is rebuilding her life.  Her ex, Eric, is obsessed
-with the idea that she left him for someone else and is now stalking her.
-He knows the IDs she uses on social media, some of her old passwords, and
-the PIN for phone.</p>
+    threats</span> come from people who know their targets' passwords or have a
+    chance to install spyware on their targets' devices (which abusers
+    frequently do <cite>Leitao2019</cite>). For example, Elena has ended an
+    unhappy relationship and is rebuilding her life.  Her ex, Eric, is obsessed
+    with the idea that she left him for someone else and is now stalking her.
+    He knows the IDs she uses on social media, some of her old passwords, and
+    the PIN for phone.</p>
 </li>
 <li>
 <p><span g="insider_threat" i="insider threat; threat!insider">Insider
-threats</span> come from people who abuse legitimate access to accounts and
-devices. For example, Boris, a professor, has agreed to serve as an expert
-witness in an upcoming lawsuit; Bethany, a sys admin in his department, has
-been asked by a former colleague to find out what he is going to say in
-order to discredit his testimony.</p>
+    threats</span> come from people who abuse legitimate access to accounts and
+    devices. For example, Boris, a professor, has agreed to serve as an expert
+    witness in an upcoming lawsuit; Bethany, a sys admin in his department, has
+    been asked by a former colleague to find out what he is going to say in
+    order to discredit his testimony.</p>
 </li>
 </ul>
 <p>How can you help counter these threats?</p>
 <ol>
 <li>
-<p>Have and enforce a Code of Conduct (<a class="secref" href="../important/#important">Chapter&nbsp;2</a>) for any site you
-build so that people who are abusing the system can be shut down quickly.
-Requiring a 24-hour waiting period for creation of new accounts helps as
-well: if casual abusers can't get their kicks right away, many of them will
-move on.</p>
+<p>Have and enforce a Code of Conduct (<a section="important"/>) for any site you
+    build so that people who are abusing the system can be shut down quickly.
+    Requiring a 24-hour waiting period for creation of new accounts helps as
+    well: if casual abusers can't get their kicks right away, many of them will
+    move on.</p>
 </li>
 <li>
 <p>Notify a device's owner when you send data from their device to someone
-else. (Doing this should be required by law for the same reason that
-everyone who manufactures packaged food is required to list its
-ingredients.)</p>
+    else. (Doing this should be required by law for the same reason that
+    everyone who manufactures packaged food is required to list its
+    ingredients.)</p>
 </li>
 <li>
 <p>Keep a <span i="logging!for security">log</span> of every administrative
-action (<a class="secref" href="../errors/#errors">Chapter&nbsp;14</a>) so that there will be a record if someone uses
-their privileges inappropriately. They might be able to delete that record,
-but if it is <span g="digital_signature" i="digital signature!for activity
-logs">digitally signed</span> there will still be evidence of tampering.</p>
+    action (<a section="errors"/>) so that there will be a record if someone uses
+    their privileges inappropriately. They might be able to delete that record,
+    but if it is <span g="digital_signature" i="digital signature!for activity
+    logs">digitally signed</span> there will still be evidence of tampering.</p>
 </li>
 <li>
 <p>Do code reviews to ensure that programmers aren't inserting
-<span g="back_door" i="code review!for security">back doors</span> in software
-[<a href="../bibliography/#Sharma2021">Sharma2021</a>] or accidentally leaving access points intended
-solely for testing.</p>
+    <span g="back_door" i="code review!for security">back doors</span> in software
+    <cite>Sharma2021</cite> or accidentally leaving access points intended
+    solely for testing.</p>
 </li>
 </ol>
 <h2>Authentication</h2>
@@ -173,22 +165,22 @@ have easy-to-follow instructions explaining
 how to set them up for a range of popular social networking sites.</p>
 <p>What you should <em>never</em> do is share a confirmation code, since a common attack
 is to trigger a password reset and then call the victim pretending to be from
-the IT department and ask them to read the code back to &quot;verify&quot; your
+the IT department and ask them to read the code back to "verify" your
 account. As soon as you do this, the attacker can change your password and get
 into your account.</p>
 <p>The advice above leads directly to some recommendations for developers:</p>
 <ol>
 <li>
 <p>Require strong passwords, but don't require people to change them
-frequently.</p>
+    frequently.</p>
 </li>
 <li>
 <p>Support two-factor authentication. (Use a library rather than building
-it yourself.)</p>
+    it yourself.)</p>
 </li>
 <li>
 <p>Include a health warning with every confirmation code you send to your
-users telling them not to share the code with anyone, ever.</p>
+    users telling them not to share the code with anyone, ever.</p>
 </li>
 </ol>
 <h2>Don't Open That</h2>
@@ -202,7 +194,8 @@ can email everyone in your address book, or send a copy of it to anyone in the
 world.  Microsoft Word and various game mods are particularly notorious for this
 vulnerability.</p>
 <p>Attempts to get you to open an email attachment, click on a link, install
-software, or log into a website are called <span g="phishing" i="phishing">phishing</span> attacks.  The strongest defense is to never do
+software, or log into a website are called <span g="phishing"
+i="phishing">phishing</span> attacks.  The strongest defense is to never do
 these things, but that would make most work impossible. The second-best defense
 is to invest in a <span i="virus scanner">virus scanner</span> to check email
 attachments and downloads before you open them.</p>
@@ -211,7 +204,7 @@ hover over the link and see if it matches the site it claims to be.  You can
 also log into the site manually rather than following the provided link: it may
 take a few extra seconds, but is still faster than fixing your credit rating.
 And when you go to a web site, check the real domain name in the URL:
-<code>paypaI.com</code> with an upper-case &quot;I&quot; instead of a lower-case &quot;l&quot; is not the site
+<code>paypaI.com</code> with an upper-case "I" instead of a lower-case "l" is not the site
 it pretends to be, and <code>wwwpaypal.com</code> is a different domain than
 <code>www.paypal.com</code>.</p>
 <blockquote>
@@ -226,7 +219,7 @@ link</em>, even if it includes your name or other details:
 from previous victims to attack specific targets.</p>
 <p>Similarly, if someone from your bank calls you up and asks for information to
 confirm your identity, you should ask <em>them</em> for information to confirm theirs,
-such as, &quot;What were the dates of my last two transactions?&quot;  If they say they're
+such as, "What were the dates of my last two transactions?"  If they say they're
 unable to answer because that's another department, end the conversation and
 then call your bank directly to either complete the operation or report the
 attack.</p>
@@ -234,21 +227,22 @@ attack.</p>
 <p>How can you support these safety rules with software?</p>
 <ol>
 <li>
-<p>I really want to say, &quot;Don't send attachments,&quot; but that's not practical.
-What you <em>can</em> do is send email telling people that there's a document for
-them to download, then require them to log in to your site in order to
-download it.</p>
+<p>I really want to say, "Don't send attachments," but that's not practical.
+    What you <em>can</em> do is send email telling people that there's a document for
+    them to download, then require them to log in to your site in order to
+    download it.</p>
 </li>
 <li>
 <p>Notify people immediately of any data breaches so that they can warn others.
-Don't wait until a breach happens before figuring out how to do this: build
-an emergency notification system directly into your product.</p>
+    Don't wait until a breach happens before figuring out how to do this: build
+    an emergency notification system directly into your product.</p>
 </li>
 </ol>
 <h2>Delete Before Discarding</h2>
 <p>Moving files into the trash and then emptying it does not actually erase the
 data: it just tells the computer that the space is available for reuse. (This is
-why reporters and private investigators regularly go <span g="dumpster_diving" i="dumpster diving">dumpster diving</span>.) The best way to address this
+why reporters and private investigators regularly go <span g="dumpster_diving"
+i="dumpster diving">dumpster diving</span>.) The best way to address this
 problem is to encrypt your hard drive, which is a quick setup option for all
 major operating systems these days.</p>
 <p>Even with that, you should act as if any device you throw away might fall into
@@ -260,15 +254,15 @@ Linux or Windows) or <a href="https://voidtech.net/apps/fileshredder/">FileShred
 recycling, or discarding your hardware, but keep in mind that this doesn't
 affect backups or files stored online on sites like <a href="https://dropbox.com">Dropbox</a>. And keep
 in mind that it is practically impossible to truly delete data from social
-networking sites: in most cases, their &quot;delete&quot; usually means &quot;don't show any
-more&quot; rather than &quot;erase all past record of&quot;.</p>
+networking sites: in most cases, their "delete" usually means "don't show any
+more" rather than "erase all past record of".</p>
 <p>That brings us to the fact that many tech companies who offer free products and
 services make money by selling targeted advertising to you using the data they
 have about you, or by selling the data you've given them to third parties.  (As
 they saying goes, if you're not paying for the service, you are probably the
 product.)  Companies do give users some control over personal data, but they
 frequently change their terms of service in opaque ways. Seemingly-innocuous
-information can give attackers valuable clues: restaurant &quot;likes&quot; reveal where
+information can give attackers valuable clues: restaurant "likes" reveal where
 you were at specific times, while funny stories about childhood birthday parties
 reveal likely answers to security questions. Again, it's a good practice to get
 into the habit of checking your privacy settings every time you do some other
@@ -288,19 +282,19 @@ information leakage.</p>
 <ol>
 <li>
 <p>Don't store any information you don't have to, or only store it in encrypted
-form [<a href="../bibliography/#Wayner2009">Wayner2009</a>].</p>
+    form <cite>Wayner2009</cite>.</p>
 </li>
 <li>
 <p>Charge people for your software or the service you provide rather than
-relying on ads or selling their data. You won't see the kind of growth that
-Facebook did in its early days, but on the other hand, you won't be <a href="https://www.buzzfeednews.com/article/meghara/facebook-myanmar-rohingya-genocide">fueling
-genocide</a>.</p>
+    relying on ads or selling their data. You won't see the kind of growth that
+    Facebook did in its early days, but on the other hand, you won't be <a href="https://www.buzzfeednews.com/article/meghara/facebook-myanmar-rohingya-genocide">fueling
+    genocide</a>.</p>
 </li>
 <li>
 <p>Make your terms of service as clear as possible, and provide a translation
-into everyday language. For example, look up the license for your favorite
-social media site on <a href="https://tldrlegal.com/">TLDRlegal</a> and compare the legal language
-to the plain English description.</p>
+    into everyday language. For example, look up the license for your favorite
+    social media site on <a href="https://tldrlegal.com/">TLDRlegal</a> and compare the legal language
+    to the plain English description.</p>
 </li>
 <li>
 <p>Allow people to actually delete personal information.</p>
@@ -349,8 +343,8 @@ usually (eventually) take what steps they can once they know there is a
 problem. They are more inclined to take real action against the attacker if
 they believe that you might speak publicly about what has happened and
 thereby damage their reputation, so never agree to a <span i="non-disclosure
-  agreement!abuse of">non-disclosure agreement</span> that would prevent you
-from doing so (<a class="secref" href="../fairness/#fairness">Chapter&nbsp;24</a>).</dd>
+agreement!abuse of">non-disclosure agreement</span> that would prevent you
+from doing so (<a section="fairness"/>).</dd>
 </dl>
 <p>Above all, remember that it's not just about you. We don't just wear masks to
 prevent ourselves from becoming infected: we also wear them so that we will not
@@ -368,18 +362,18 @@ the safer all of us will be. As a programmer, you can push for this:</p>
 <ol>
 <li>
 <p>The next time there is an election in your area, ask the candidates whether
-they support meaningful liability for privacy breaches and online abuse.  In
-my experience, if three people ask about something in quick succession,
-candidates will decide that they need to have some sort of answer.</p>
+    they support meaningful liability for privacy breaches and online abuse.  In
+    my experience, if three people ask about something in quick succession,
+    candidates will decide that they need to have some sort of answer.</p>
 </li>
 <li>
 <p>The next time your college or university is updating its curriculum,
-petition for a full-semester course on computer security---one that focuses
-on common exploits rather than the minutiae of cryptography.</p>
+    petition for a full-semester course on computer security---one that focuses
+    on common exploits rather than the minutiae of cryptography.</p>
 </li>
 <li>
 <p>Add your voice to campaigns to get companies to clean up their act, and if
-you have a choice, don't work for the worst of them (<a class="secref" href="../fairness/#fairness">Chapter&nbsp;24</a>).</p>
+    you have a choice, don't work for the worst of them (<a section="fairness"/>).</p>
 </li>
 </ol>
 <blockquote>
@@ -407,7 +401,7 @@ you.</p>
 </blockquote>
 <h2>An Example Attack</h2>
 <p>Dozens of books have been written about the mechanics of computer security
-[<a href="../bibliography/#Easttom2019">Easttom2019</a>, <a href="../bibliography/#McDonald2020">McDonald2020</a>, <a href="../bibliography/#Seitz2021">Seitz2021</a>].  We won't try to cover all of
+<cite>Easttom2019,McDonald2020,Seitz2021</cite>.  We won't try to cover all of
 that here, but it wouldn't feel right to wrap up this chapter without showing
 you at least one software exploit that's unfortunately still quite common.</p>
 <p>Suppose your application lets the user type in their ID, then uses that to look
@@ -430,7 +424,8 @@ quotes. But suppose a malicious user enters this as their username:</p>
 <p>which looks up a user without a name, erases all of the data in the <code>User</code>
 table, and then returns an empty string (the final <code>select</code>).  This is called an
 <span g="sql_injection" i="SQL injection attack">SQL injection attack</span>,
-and with a few modifications, it can be used to <span i="exfiltrate">exfiltrate</span> data rather than delete it.</p>
+and with a few modifications, it can be used to <span
+i="exfiltrate">exfiltrate</span> data rather than delete it.</p>
 <p>You defend against this by always <span g="sanitizing_data" i="sanitizing
 data">sanitizing user input</span> before using it. In this case, the query can
 be written as:</p>
@@ -449,18 +444,26 @@ browser. Again, the defense is to sanitize input; as with SQL, use a well-tested
 library (preferably one whose source code you can check) rather than trying to
 figure out the details yourself.</p>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

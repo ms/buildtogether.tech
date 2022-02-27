@@ -1,32 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="onboarding">Onboarding Checklist</h1></title>
+    <title>Building Software Together: Onboarding Checklist</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="onboarding">Onboarding Checklist</h1>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
       
-      <nav>
-	
-      </nav>
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Onboarding Checklist</h1>
       
-      <p>This <span i="onboarding checklist">onboarding checklist</span> was
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
+
+<p>This <span i="onboarding checklist">onboarding checklist</span> was
 <a href="https://twitter.com/natpryce/status/1375949072910200835">shared</a> by <a href="http://www.natpryce.com/">Nat Pryce</a>, and is a checklist of
 topics that new hires need to know to work on an application called OPA.  If you
 create and share a checklist like this for people joining your project, ask them
@@ -35,29 +28,29 @@ improve it for the next person.</p>
 <ul>
 <li>
 <p>Major architectural components.  Which are part of OPA and which are shared
-across CA (the larger product family)?</p>
+    across CA (the larger product family)?</p>
 </li>
 <li>
 <p>Code structure and naming conventions: naming, package locations, where
-different things live, etc.</p>
+    different things live, etc.</p>
 </li>
 <li>
 <p>Error handling strategy; results vs. exceptions.</p>
 </li>
 <li>
 <p>Testing strategy: automated vs. exploratory testing, testing across
-integration points with legacy systems.</p>
+    integration points with legacy systems.</p>
 </li>
 <li>
 <p>How to run the application locally.</p>
 </li>
 <li>
 <p>Business context: what part of the business does OPA support, and the
-upstream/downstream business processes.</p>
+    upstream/downstream business processes.</p>
 </li>
 <li>
 <p>Coding style: options vs. nulls, strong types vs. strings, no reflection,
-etc.</p>
+    etc.</p>
 </li>
 <li>
 <p>Project history: why did it get this way?</p>
@@ -67,7 +60,7 @@ etc.</p>
 </li>
 <li>
 <p>Technical context: which systems do we integrate with, either within the
-company or external systems.</p>
+    company or external systems.</p>
 </li>
 <li>
 <p>Logging and monitoring.</p>
@@ -77,7 +70,7 @@ company or external systems.</p>
 </li>
 <li>
 <p>The preserve/expand/contract process for zero-downtime deployment, both
-technically and how that relates to stories and cards on the board.</p>
+    technically and how that relates to stories and cards on the board.</p>
 </li>
 <li>
 <p>Technical toolset: Jira/Kotlin/IntelliJ/ELK/Grafana/Casperpass etc.</p>
@@ -96,18 +89,26 @@ technically and how that relates to stories and cards on the board.</p>
 </li>
 </ul>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

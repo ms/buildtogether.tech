@@ -344,7 +344,7 @@ comments I left when reviewing it.
 
 <div class="include" file="dup.py"/>
 
-<div class="table" id="collaborate-code-review" cap="Code Review">
+<div class="table" id="collaborate-code-review" caption="Code Review" markdown="1">
 | Line(s) | Comment |
 | ------- | ------- |
 | 02      | Add a <span g="docstring">docstring</span> describing the program. |

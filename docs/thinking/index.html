@@ -1,53 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="thinking">Thinking and Learning</h1></title>
+    <title>Building Software Together: Thinking</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="thinking">Thinking and Learning</h1>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
       
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#chunking">chunking</a>, <a href="../glossary/#cognitive_load">cognitive load</a>, <a href="../glossary/#cognitive_transition">cognitive transition</a>, <a href="../glossary/#competent_practitioner">competent practitioner</a>, <a href="../glossary/#diagnostic_power">diagnostic power</a>, <a href="../glossary/#expert">expert</a>, <a href="../glossary/#expert_blind_spot">expert blind spot</a>, <a href="../glossary/#extraneous_load">extraneous load</a>, <a href="../glossary/#formative_assessment">formative assessment</a>, <a href="../glossary/#germane_load">germane load</a>, <a href="../glossary/#hypercorrection_effect">hypercorrection_effect</a>, <a href="../glossary/#intrinsic_load">intrinsic load</a>, <a href="../glossary/#long_term_memory">long-term memory</a>, <a href="../glossary/#mental_model">mental model</a>, <a href="../glossary/#novice">novice</a>, <a href="../glossary/#short_term_memory">short-term memory</a>, <a href="../glossary/#working_memory">working memory</a></p></div>
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Thinking</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>We know as much about teaching and learning as we do about public health. The
+<p>We know as much about teaching and learning as we do about public health. The
 problem is, while university professors are experts in their own fields, many of
 them don't know what we know.  Most people in the tech industry don't either,
 which means many of us learn more slowly and less reliably than we could.  This
 chapter will give you a short overview of a few key facts that can help fix
 that.</p>
 <h2>Different Kinds of Learners</h2>
-<p>Research starting in the 1980s showed that most <span i="neurotypical">neurotypical</span> adults undergo a series of fairly
+<p>Research starting in the 1980s showed that most <span
+i="neurotypical">neurotypical</span> adults undergo a series of fairly
 predictable <span g="cognitive_transition" i="cognitive transition">cognitive
 transitions</span> on their way from being a novice to being an expert in any
-domain [<a href="../bibliography/#Benner2000">Benner2000</a>]. (We say &quot;most&quot; and &quot;neurotypical&quot; because as
+domain <cite>Benner2000</cite>. (We say "most" and "neurotypical" because as
 with anything involving people, there will be outliers.)</p>
-<p>For our purposes, we will say that people are <span g="novice" i="novice">novices</span>, <span g="competent_practitioner" i="competent
-practitioner">competent practitioners</span>, or <span g="expert" i="expert">experts</span>. Some characteristics that most novices share include
+<p>For our purposes, we will say that people are <span g="novice"
+i="novice">novices</span>, <span g="competent_practitioner" i="competent
+practitioner">competent practitioners</span>, or <span g="expert"
+i="expert">experts</span>. Some characteristics that most novices share include
 doing things by rote (i.e., following a series of steps without understanding
-why they work), asking questions that don't make sense (&quot;What color is the
-database?&quot;) and not being able to tell what is and isn't relevant---for example,
+why they work), asking questions that don't make sense ("What color is the
+database?") and not being able to tell what is and isn't relevant---for example,
 using their own filenames or variable names when searching for help online
 because they don't yet have a clear distinction between what belongs to the
 library and application and what is specific to their code.</p>
-<p>What ties these things together is that novices don't have a <span g="mental_model" i="mental model">mental model</span> of the problem. A mental
+<p>What ties these things together is that novices don't have a <span
+g="mental_model" i="mental model">mental model</span> of the problem. A mental
 model is a simplified representation of something that's good enough for present
 needs. One example is the ball-and-spring models used to represent molecules in
 chemistry classes: real atoms aren't marbles and atomic bonds aren't springs,
@@ -63,7 +59,7 @@ forgotten how hard it is for newcomers.</p>
 brain is stored as a graph in which ideas are nodes and the connections between
 them are arcs. (Your brain doesn't actually work this way, but it's a useful
 metaphor.) A novice's mental model is disconnected: some key facts are missing,
-and other pieces don't join up (<a class="figref" href="#thinking-models">Figure&nbsp;F.1</a>). In contrast,
+and other pieces don't join up (<a figure="thinking-models"/>). In contrast,
 a competent practitioner's mental model is fully connected: given fact <code>A</code>, he
 can reason his way through <code>B</code> and <code>C</code> to solution <code>D</code>. He might take a wrong
 turn to <code>Y</code> and <code>Z</code> along the way and have to backtrack, but he'll get there
@@ -80,53 +76,55 @@ trouble explaining their thinking: they can't tell someone else how they did it
 any more than we can explain how we recognize faces.</p>
 <figure id="thinking-models">
   <img src="thinking-models.svg" alt="Mental models"/>
-  <figcaption>Figure&nbsp;F.1: The differences between novice, competent, and expert mental models.</figcaption>
+  <figcaption>The differences between novice, competent, and expert mental models.</figcaption>
 </figure>
+
 <blockquote>
 <h3>Learning styles aren't a thing</h3>
-<p>You may have heard of &quot;<span i="learning styles; pseudoscience!learning
-styles">learning styles</span>&quot;, i.e., that some people learn better visually,
+<p>You may have heard of "<span i="learning styles; pseudoscience!learning
+styles">learning styles</span>", i.e., that some people learn better visually,
 while others do so more quickly or more accurately by listening, reading, or
 otherwise using language. It's bullshit: while lots of companies make and sell
 materials based on this myth, no one has ever shown that tuning what or how we
 teach to match people's preferences has any impact on outcomes
-[<a href="../bibliography/#DeBruyckere2015">DeBruyckere2015</a>]. Like <span i="Myers-Briggs Type
-Indicator">Myers-Briggs personality types</span> (<a class="secref" href="../fairness/#fairness">Chapter&nbsp;24</a>),
+<cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs Type
+Indicator">Myers-Briggs personality types</span> (<a section="fairness"/>),
 learning styles belong with healing crystals and astrology.</p>
 </blockquote>
 <p>This model of learning leaves almost everything discussed in
-[<a href="../bibliography/#Kirschner2018">Kirschner2018</a>] and other recent work, but is good enough to start
+<cite>Kirschner2018</cite> and other recent work, but is good enough to start
 with.  Novices, competent practitioners, and experts are at different stages of
 cognitive development, so they need different kinds of teaching
-[<a href="../bibliography/#Kalyuga2003">Kalyuga2003</a>]. Novices need to be told what to learn next: since they
+<cite>Kalyuga2003</cite>. Novices need to be told what to learn next: since they
 don't have yet a mental model of the problem, they don't know what to ask for.
-As [<a href="../bibliography/#Kirschner2006">Kirschner2006</a>] and many others have shown, <span i="discovery-based learning">discovery-based learning</span> in which people are
-told &quot;go figure out how to solve this problem&quot; is less effective for novices
+As <cite>Kirschner2006</cite> and many others have shown, <span
+i="discovery-based learning">discovery-based learning</span> in which people are
+told "go figure out how to solve this problem" is less effective for novices
 than guided learning because they don't know what to ask next.</p>
 <p>Once someone is a competent practitioner, though, being told step-by-step what
 to tackle next is both unnecessary and frustrating.  Competent practitioners
 should be <span i="mentoring">mentored</span> instead of lectured: they should
 tackle problems on their own, but have someone at hand to get them unstuck if it
 takes them more than a few minutes to figure out what to do next.</p>
-<p>Finally, the most effective way to &quot;teach&quot; experts is to have them reflect or
+<p>Finally, the most effective way to "teach" experts is to have them reflect or
 <span i="introspection">introspect</span> on their own practice
-[<a href="../bibliography/#Schon1984">Schon1984</a>]. This usually happens in three stages:</p>
+<cite>Schon1984</cite>. This usually happens in three stages:</p>
 <ol>
 <li>
 <p>You do some work and get feedback on it.  For example, someone in grade
-school might write an essay about what they did with their summer holiday
-and get feedback from the teacher on their spelling, grammar, and structure.</p>
+    school might write an essay about what they did with their summer holiday
+    and get feedback from the teacher on their spelling, grammar, and structure.</p>
 </li>
 <li>
 <p>You give feedback on other people's work and get feedback <em>on your
-feedback</em>. This is what most literature courses are about: instead of
-writing new material, people learn how to critique and analyze things.</p>
+    feedback</em>. This is what most literature courses are about: instead of
+    writing new material, people learn how to critique and analyze things.</p>
 </li>
 <li>
 <p>Once you know how to critique things, you can start to critique your own
-work as you produce it. This is the tightest feedback loop there can be, and
-people who reach this stage start to see continuous improvement in their
-work as a result.</p>
+    work as you produce it. This is the tightest feedback loop there can be, and
+    people who reach this stage start to see continuous improvement in their
+    work as a result.</p>
 </li>
 </ol>
 <h2>Formative Assessment</h2>
@@ -155,7 +153,8 @@ the tens column.</p>
 (of formative assessment)">diagnostic power</span>. Like a good unit test, this
 multiple choice question doesn't just tell us that something is wrong: it points
 us at the source of the problem. Using questions like these in class in order to
-diagnose misunderstandings so that they can be corrected is called <span g="formative_assessment" i="formative assessment">formative assessment</span>
+diagnose misunderstandings so that they can be corrected is called <span
+g="formative_assessment" i="formative assessment">formative assessment</span>
 because it forms (or shapes) the learning as it is taking place.</p>
 <p>A good formative assessment question takes 30--60 seconds to do (so that it
 doesn't disrupt the flow of the lesson) and has an unambiguous right answer (so
@@ -188,10 +187,10 @@ won't fill in the gaps in their knowledge, but at least they'll know what they
 do and don't actually understand.</p>
 <p>Finally, formative assessments can be used pre-emptively. I once had a professor
 start a math class by putting up a multiple choice question. It was pretty
-easy---I think everyone in the class got it---so he said, &quot;All right, here's
-twenty minutes of your life I don't need to waste,&quot; and set aside a section of
+easy---I think everyone in the class got it---so he said, "All right, here's
+twenty minutes of your life I don't need to waste," and set aside a section of
 his slides. He then did it again, and again, enough of us got it right that he
-said, &quot;Here's another twenty minutes of your life I don't have to waste,&quot; and
+said, "Here's another twenty minutes of your life I don't have to waste," and
 set aside the second chunk of slides. It wasn't until his third question that
 enough of us were wrong that he started lecturing. He did that with every topic
 in the course, and it was great: it meant he wasn't wasting time telling us
@@ -200,30 +199,34 @@ the things we didn't.</p>
 <h2>Cognitive Load</h2>
 <figure id="thinking-cognitive-architecture">
   <img src="cognitive-architecture.svg" alt="Cognitive architecture"/>
-  <figcaption>Figure&nbsp;F.2: The cognitive architecture of the human mind (simplified).</figcaption>
+  <figcaption>The cognitive architecture of the human mind (simplified).</figcaption>
 </figure>
-<p><a class="figref" href="#thinking-cognitive-architecture">Figure&nbsp;F.2</a> shows a very (very) simple model of
-the cognitive architecture of the human brain. On the left is <span g="long_term_memory" i="long-term memory">long-term memory</span> (LTM), which
+
+<p><a figure="thinking-cognitive-architecture"/> shows a very (very) simple model of
+the cognitive architecture of the human brain. On the left is <span
+g="long_term_memory" i="long-term memory">long-term memory</span> (LTM), which
 is where you store things like the spelling of your name and how that awful
 clown scared you when you were ten years old. It is very large---you can keep
 adding to it as long as you live---but you don't have direct conscious access to
 it.</p>
-<p>Instead, evolution has given you a second subsystem called <span g="short_term_memory" i="short-term memory">short-term memory</span> (STM) or
+<p>Instead, evolution has given you a second subsystem called <span
+g="short_term_memory" i="short-term memory">short-term memory</span> (STM) or
 <span g="working_memory" i="working memory">working memory</span>. (More
 sophisticated models distinguish between these two concepts, but this simple
 model is good enough for our needs.)  You are constantly fetching things from
 LTM into STM to use them, then re-encoding them and writing them back to LTM.
 This is one of the differences between your brain and a computer: reading data
 from a hard drive doesn't alter it, but every time you access something in LTM,
-you may write it back in a different or augmented form. We call this &quot;learning&quot;.</p>
+you may write it back in a different or augmented form. We call this "learning".</p>
 <p>Here's the problem: <span i="short-term memory!limited capacity of">STM is
-very small</span>.  [<a href="../bibliography/#Miller1956">Miller1956</a>] famously estimated that it could
+very small</span>.  <cite>Miller1956</cite> famously estimated that it could
 hold 7±2 things at one time; more modern estimates put the number closer to 4±1
-[<a href="../bibliography/#Didau2016">Didau2016</a>]. This means that STM is a bottleneck for learning: if too
+<cite>Didau2016</cite>. This means that STM is a bottleneck for learning: if too
 many new ideas are presented too quickly, the new arrivals will knock older ones
 out of STM before you have a chance to encode them and store them in LTM, so
 learning won't take place.</p>
-<p>This realization and others have produced the theory of <span g="cognitive_load" i="cognitive load theory">cognitive load</span>, which (among other things)
+<p>This realization and others have produced the theory of <span g="cognitive_load"
+i="cognitive load theory">cognitive load</span>, which (among other things)
 divides the things you have to do while learning into three categories. The
 <span g="intrinsic_load" i="intrinsic load; cognitive load!intrinsic">intrinsic
 load</span> is the thinking that is required by the learning task itself. The
@@ -233,10 +236,10 @@ isn't the focus of the lesson, while the <span g="extraneous_load" i="extraneous
 load; cognitive load!extraneous">extraneous load</span> is everything you're
 being asked to do that is irrelevant.</p>
 <p>For example, suppose you are learning the grammar of Frisian. If I ask you to
-translate, &quot;How is her knee today?&quot; then the intrinsic load is the rules of
+translate, "How is her knee today?" then the intrinsic load is the rules of
 grammar, but there is also the germane load of recalling vocabulary (which is
 necessary, but isn't the main focus of the lesson). If, on the other hand, I
-give you the words as shown in <a class="figref" href="#thinking-frisian">Figure&nbsp;F.3</a> and ask you to
+give you the words as shown in <a figure="thinking-frisian"/> and ask you to
 rearrange them, I have eliminated the germane load, but have added some
 extraneous load by using a mix of fonts. You will solve the problem more quickly
 and more accurately if the words are all in the same font, no matter what that
@@ -244,19 +247,22 @@ font is, than you will if your brain is wondering whether the difference is
 significant.</p>
 <figure id="thinking-frisian">
   <img src="thinking-frisian.svg" alt="Translating a sentence"/>
-  <figcaption>Figure&nbsp;F.3: "Reducing germane load while increasing extraneous load.</figcaption>
+  <figcaption>"Reducing germane load while increasing extraneous load.</figcaption>
 </figure>
-<p>Cognitive load theory explains why tools like <span i="Scratch"><a href="https://scratch.mit.edu/">Scratch</a></span> work so well: they reduce germane load by
+
+<p>Cognitive load theory explains why tools like <span
+i="Scratch"><a href="https://scratch.mit.edu/">Scratch</a></span> work so well: they reduce germane load by
 getting rid of the commas, curly braces, and other distractions so that learners
 can focus on mastering concepts like assignment and loops. It also explains why
 working with code written in a mix of styles is so painful: each minor
 difference adds extraneous load.</p>
-<p>In order to handle larger sets of information, our minds create <span g="chunking" i="chunking; short-term memory!chunking">chunks</span> that only
+<p>In order to handle larger sets of information, our minds create <span
+g="chunking" i="chunking; short-term memory!chunking">chunks</span> that only
 take up one slot in STM.  For example, most of us remember words as single items
 rather than as sequences of letters.  Similarly, the pattern made by five spots
 on cards or dice is remembered as a whole rather than as five separate pieces of
 information.</p>
-<p>Experts have more and larger chunks than non-experts, i.e., experts &quot;see&quot; larger
+<p>Experts have more and larger chunks than non-experts, i.e., experts "see" larger
 patterns and have more patterns to match things against.  This allows them to
 reason at a higher level and to search for information more quickly and more
 accurately.  However, chunking can also mislead us if we mis-identify things:
@@ -268,11 +274,11 @@ competent practitioners think and talk to each other in many domains, but
 pattern catalogs are too dry and too abstract for novices to make sense of on
 their own.  However, giving names to a small number of patterns does seem to
 help, primarily by giving the learners a richer vocabulary to think and
-communicate with [<a href="../bibliography/#Sajaniemi2006">Sajaniemi2006</a>].</p>
+communicate with <cite>Sajaniemi2006</cite>.</p>
 <h2>Learning Strategies</h2>
 <p>All of this leads to six <span i="learning strategies">strategies</span> that
 have been proven to help people learn faster and better
-[<a href="../bibliography/#Weinstein2018">Weinstein2018</a>].  While researchers still disagree on <em>why</em> they
+<cite>Weinstein2018</cite>.  While researchers still disagree on <em>why</em> they
 work, everyone now agrees that they <em>do</em>.</p>
 <dl>
 <dt><span i="spaced practice; learning strategies!spaced practice">Spaced practice</span>.</dt>
@@ -281,7 +287,7 @@ work, everyone now agrees that they <em>do</em>.</p>
 five-hour days, and far better than one ten-hour day.  You should therefore
 create a study schedule that spreads study activities over time: block off
 at least half an hour to study each topic each day rather than trying to
-cram everything in the night before an exam [<a href="../bibliography/#Kang2016">Kang2016</a>].</p>
+cram everything in the night before an exam <cite>Kang2016</cite>.</p>
 <p>You should also review material after each class, but not immediately
 after---take at least a half-hour break.  Doing this also helps you catch
 any gaps or mistakes in previous sets of notes while there's still time to
@@ -309,18 +315,16 @@ swapping flash cards with a partner helps you discover important ideas that
 you may have missed or misunderstood.</p>
 </dd>
 <dt><span i="interleaving; learning strategies!interleaving">Interleaving</span>.</dt>
-<dd>
-<p>One way you can space your practice is to interleave study of different
+<dd>One way you can space your practice is to interleave study of different
 topics: instead of mastering one subject, then a second and third, shuffle
 study sessions.  Even better, switch up the order: <code>A-B-C-B-A-C</code> is better
 than <code>A-B-C-A-B-C</code>, which in turn is better than <code>A-A-B-B-C-C</code>
-[<a href="../bibliography/#Rohrer2015">Rohrer2015</a>].  This works because interleaving fosters creation
+<cite>Rohrer2015</cite>.  This works because interleaving fosters creation
 of more links between different topics, which in turn improves recall.
 Interleaving study will initially feel harder than focusing on one topic at
 a time, but that's a sign that it's working.  If you are using flash cards
 or practice tests to gauge your progress, you should see improvement after
-only a couple of days.</p>
-</dd>
+only a couple of days.</dd>
 <dt><span i="elaboration; learning strategies!elaboration">Elaboration</span>.</dt>
 <dd>
 <p>Explaining things to yourself as you go through them helps you understand
@@ -330,8 +334,8 @@ conversely with an explanation of why some other plausible answer isn't.
 Another is to tell yourself how a new idea is similar to or different from
 one you have seen previously.</p>
 <p>Talking to yourself may seem like an odd way to study, but
-[<a href="../bibliography/#Bielaczyc1995">Bielaczyc1995</a>] found that people trained in self-explanation
-outperformed those who hadn't been trained.  Similarly, [<a href="../bibliography/#Chi1989">Chi1989</a>]
+<cite>Bielaczyc1995</cite> found that people trained in self-explanation
+outperformed those who hadn't been trained.  Similarly, <cite>Chi1989</cite>
 found that some learners simply halt when they hit a step they don't
 understand when trying to solve problems.  Others pause and generate an
 explanation of what's going on, and the latter group learns faster.  An
@@ -342,14 +346,14 @@ say why it is there and what it accomplishes.</p>
 of real-time elaboration: it forces you to organize and reflect on material
 as it's coming in, which in turn increases the likelihood that you will
 transfer it to long-term memory.  Many studies have shown that taking notes
-while learning improves retention [<a href="../bibliography/#Aiken1975">Aiken1975</a>, <a href="../bibliography/#Bohay2011">Bohay2011</a>].</p>
+while learning improves retention <cite>Aiken1975,Bohay2011</cite>.</p>
 </dd>
 <dt><span i="concrete examples; learning strategies!concrete examples">Concrete examples</span>.</dt>
 <dd>
 <p>One particularly useful form of elaboration is the use of concrete examples.
 Whenever you have a statement of a general principle, try to provide one or
 more examples of its use, or conversely take each particular problem and
-list the general principles it embodies.  [<a href="../bibliography/#Rawson2014">Rawson2014</a>] found that
+list the general principles it embodies.  <cite>Rawson2014</cite> found that
 interleaving examples and definitions like this made it more likely that
 learners would remember the latter correctly.</p>
 <p>One structured way to do this is the ADEPT method: give an analogy, draw a
@@ -366,7 +370,7 @@ information, so if complementary information is presented through both
 channels, they can reinforce one another.  However, learning is less
 effective when the same information is presented simultaneously in two
 different channels, because then the brain has to expend effort to check the
-channels against each other [<a href="../bibliography/#Mayer2009">Mayer2009</a>].</p>
+channels against each other <cite>Mayer2009</cite>.</p>
 <p>One way to take advantage of dual coding is to draw or label timelines,
 maps, family trees, or whatever else seems appropriate to the material.  (I
 am personally fond of pictures showing which functions call which others in
@@ -374,21 +378,24 @@ a program.)  Drawing a diagram without labels and then coming back later to
 label it is excellent retrieval practice.</p>
 </dd>
 </dl>
-<p>One powerful finding in learning research is the <span g="hypercorrection_effect" i="hypercorrection effect">hypercorrection
-effect</span> [<a href="../bibliography/#Metcalfe2016">Metcalfe2016</a>].  Most people don't like to be told
+<p>One powerful finding in learning research is the <span
+g="hypercorrection_effect" i="hypercorrection effect">hypercorrection
+effect</span> <cite>Metcalfe2016</cite>.  Most people don't like to be told
 they're wrong, so it would be reasonable to assume that the more confident
 someone is in the answer they've given on a test, the harder it is to change
 their mind if they were actually wrong.  It turns out that the opposite is true:
 the more confident someone is that they were right, the more likely they are not
 to repeat the error if they are corrected.</p>
 <h2>Motivation</h2>
-<p>One of the strongest predictors of whether or not a <span i="neurotypical">neurotypical</span> adult will learn something or not is
+<p>One of the strongest predictors of whether or not a <span
+i="neurotypical">neurotypical</span> adult will learn something or not is
 whether they are <span i="intrinsic motivation;
 motivation!intrinsic">intrinsically motivated</span> to learn it, i.e., whether
-they're learning it to satisfy their own goals.  If someone is <span i="extrinsic motivation; motivation!extrinsic">extrinsically
+they're learning it to satisfy their own goals.  If someone is <span
+i="extrinsic motivation; motivation!extrinsic">extrinsically
 motivated</span>---for example, if they're taking a course because it's a degree
 requirement but they have no real interest in the topic---the learning probably
-won't stick [<a href="../bibliography/#Wlodkowski2017">Wlodkowski2017</a>].  While motivation is deeply personal,
+won't stick <cite>Wlodkowski2017</cite>.  While motivation is deeply personal,
 these three factors influence most people:</p>
 <dl>
 <dt><span i="self-efficacy; motivation!self-efficacy">Self-efficacy</span>.</dt>
@@ -401,9 +408,9 @@ answers, it shows students that they have some control over their lives.</dd>
 <dt>Utility.</dt>
 <dd>Students will learn more if they think the material is useful, but it has to
 be useful to <em>them</em>.  One reason to create <span i="learner persona">learner
-personas</span> like the ones in <a class="secref" href="../introduction/#introduction">Chapter&nbsp;1</a> is to remind
-instructors of the second rule of teaching: &quot;You are not your learners.&quot;
-(The first is, &quot;Be kind.&quot;)</dd>
+personas</span> like the ones in <a section="introduction"/> is to remind
+instructors of the second rule of teaching: "You are not your learners."
+(The first is, "Be kind.")</dd>
 <dt>Community.</dt>
 <dd>Most people prefer to learn things that they can share with other people who
 are also learning it.  (I can only dream of inspiring the same enthusiasm
@@ -421,7 +428,7 @@ bug or a poorly-written grading rubric is familiar with it.</dd>
 <dt>Unfairness.</dt>
 <dd>If people believe that a game is rigged, they will all try less hard:
 the people who are favored will know they can slack off, while everyone
-else will see less point in trying [<a href="../bibliography/#Wilkinson2011">Wilkinson2011</a>].</dd>
+else will see less point in trying <cite>Wilkinson2011</cite>.</dd>
 <dt>Indifference.</dt>
 <dd>Most of us have had a teacher who didn't care whether we learned or not,
 and that kind of apathy is infectious.</dd>
@@ -430,18 +437,26 @@ and that kind of apathy is infectious.</dd>
 may not be able to control all of them, but whatever you <em>can</em> do will be repaid
 many times over.</p>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

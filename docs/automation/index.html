@@ -1,43 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="automation">Automation</h1></title>
+    <title>Building Software Together: Automation</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="automation">Automation</h1>
-      <div class="lede"><p>Because computers are better than epople at repeating things</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#build_manager">build manager</a>, <a href="../glossary/#ci">continuous integration</a>, <a href="../glossary/#critical_mass">critical mass</a>, <a href="../glossary/#devops">DevOps</a>, <a href="../glossary/#json">JavaScript Object Notation</a>, <a href="../glossary/#linter">linter</a>, <a href="../glossary/#package_manifest">package manifest</a>, <a href="../glossary/#pattern_rule">pattern rule</a>, <a href="../glossary/#post_commit_hook">post-commit hook</a>, <a href="../glossary/#pre_commit_hook">pre-commit hook</a>, <a href="../glossary/#static_analysis">static analysis</a>, <a href="../glossary/#style_checker">style checker</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Automation</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
+<p>Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
 implementing a change and that change being tested, integrated, tested again,
-and deployed.  Those practices have one thing in common: <span i="automation">automating</span> as many steps as possible to make them fast and
+and deployed.  Those practices have one thing in common: <span
+i="automation">automating</span> as many steps as possible to make them fast and
 reliable.  You may not be required to do this for your project, but if you have
 time, you should try to do a little---it will save time when you are up against
 the end-of-term deadline, and more importantly, prevent mistakes when you are
 stretched thin.</p>
 <h2>Build Manager</h2>
-<p>The foundation for almost all automation in software development is a <span g="build_manager" i="build manager">build manager</span>---a tool that will
+<p>The foundation for almost all automation in software development is a <span
+g="build_manager" i="build manager">build manager</span>---a tool that will
 transform what you've typed into what you want to deliver. The origin build
 manager is <span i="Make; build manager!Make"><a href="https://www.gnu.org/software/make/">Make</a></span>, which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
@@ -56,7 +50,7 @@ update them. For example:</p>
 the <code>tx</code> compiler with several options.  Below that is a
 <span g="pattern_rule" i="Make!pattern rule">pattern rule</span> telling Make
 how to create any <code>.bc</code> file from a <code>.grace</code> file with the same root name;
-the cryptic expression <code>$&lt;</code> is Make's way of saying &quot;the first thing the target depends on&quot;.</p>
+the cryptic expression <code>$&lt;</code> is Make's way of saying "the first thing the target depends on".</p>
 <p>Make has been used by hundreds of thousands of programmers for more than thirty
 years, but has some <span i="Make!shortcomings">fundamental flaws</span>. The
 first is its syntax, which looks like something produced by a cat dancing on the
@@ -72,7 +66,8 @@ build systems aren't just configured: they're programmed. For example, this
 book's Makefile checks the consistency of cross-references and glossary
 entries, makes sure all the bibliography citations are in place, and copies
 files to my web site, and is more complex than many programs I've written.
-Thinking of it as a &quot;configuration&quot; file is a mistake: you <em>have</em> to <span i="automation!as programming">approach builds as a programming problem</span>.</p>
+Thinking of it as a "configuration" file is a mistake: you <em>have</em> to <span
+i="automation!as programming">approach builds as a programming problem</span>.</p>
 <p>The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The <code>package.json</code> file used by
 <a href="https://nodejs.org/en/">Node.js</a> serves as both a <span g="package_manifest" i="package
@@ -102,11 +97,11 @@ things like <code>npm run test</code>:</p>
 <!-- continue -->
 <p><code>package.json</code> files have two flaws: there is no standard way to write comments
 (since <span g="json">JSON</span> itself doesn't have this) and there is no way
-to express dependencies between tasks, i.e., there's no way to say, &quot;A depends
-on B which depends on C&quot;.</p>
+to express dependencies between tasks, i.e., there's no way to say, "A depends
+on B which depends on C".</p>
 <p><span i="build manager!Snakemake; Snakemake"><a href="https://snakemake.readthedocs.io/en/stable/">Snakemake</a></span> and
-<span i="build manager!Rake; Rake"><a href="https://ruby.github.io/rake/">Rake</a></span> take the idea of &quot;build
-file as data structure&quot; one step further. Their users describe dependencies as
+<span i="build manager!Rake; Rake"><a href="https://ruby.github.io/rake/">Rake</a></span> take the idea of "build
+file as data structure" one step further. Their users describe dependencies as
 small Python or Ruby programs respectively, making use of an extensive support
 library that handles dependencies, invokes appropriate compilers, and so on.
 Debugging is still problematic, but at least it's possible. Unfortunately, like
@@ -121,11 +116,11 @@ using">follow these rules</span>:</p>
 <span i="build manager!Ant; Ant; Java!build manager"><a href="https://ant.apache.org/">Ant</a></span>,
 which means they can jump directly to compilation errors when they occur.</dd>
 <dt>Be very cautious about adding dependencies.</dt>
-<dd>&quot;Reduce, re-use, recycle&quot; is as important for software as it is for daily
+<dd>"Reduce, re-use, recycle" is as important for software as it is for daily
 life, but every library you depend on is one more way for your project to
 accumulate <span i="technical debt">technical debt</span>.  Recent
 research shows that we are all biased toward solving problems by adding
-things instead of taking them away [<a href="../bibliography/#Meyvis2021">Meyvis2021</a>]; checking the
+things instead of taking them away <cite>Meyvis2021</cite>; checking the
 packages your project depends on before every release and cutting any you
 can will prevent a lot of future headaches.</dd>
 <dt>Always use the build manager---never compile or copy things by hand.</dt>
@@ -135,11 +130,11 @@ odds are that you'll forget a crucial step right before your end-of-term
 demo.</dd>
 <dt>Always use the build manager---never compile or copy things by hand.</dt>
 <dd>Yes, I'm repeating myself, but this time the reason is different. If you do
-something by hand, one of your teammates might do it differently.  &quot;But it
-works on my machine!&quot; isn't something you want to hear an hour before a
+something by hand, one of your teammates might do it differently.  "But it
+works on my machine!" isn't something you want to hear an hour before a
 deadline…</dd>
 </dl>
-<p>A good way to start using a build manager is to create a &quot;version zero&quot; of the
+<p>A good way to start using a build manager is to create a "version zero" of the
 project. Set up the build and make sure it works even when there isn't anything
 to compile, run, test, or copy. Now add something---anything.  Does the build
 still work? If it does, you're on your way.</p>
@@ -161,8 +156,8 @@ is something that runs a <span g="style_checker" i="style checker">style
 checker</span> to make sure your code follows the team's formatting rules.
 (Style checkers are often called <span g="linter" i="linter">linters</span>
 because an early one called <code>lint</code> looked for problems in C programs.)  Some of
-these rules are as simple as &quot;no method can be longer than 100 lines&quot; or &quot;class
-names must be written in CamelCase&quot;.  Modern tools like <span i="style
+these rules are as simple as "no method can be longer than 100 lines" or "class
+names must be written in CamelCase".  Modern tools like <span i="style
 checker!ESLint; ESLint"><a href="https://eslint.org/">ESLint</a></span> for <span i="JavaScript!style
 checker">JavaScript</span>, <span i="Checkstyle; style
 checker!Checkstyle"><a href="https://checkstyle.org/">Checkstyle</a></span> for <span i="Java!style
@@ -177,19 +172,21 @@ broken build.</p>
 analysis">static analysis</span> tool, since they work by parsing the source
 code for your program rather than by watching the program run. Compilers also do
 a lot of static analysis; the non-fatal warnings they produce are a lot more
-useful than many students realize, and a &quot;zero warnings&quot; policy can prevent a
-lot of subtle bugs.  As we'll see in <a class="secref" href="../research/#research">Chapter&nbsp;22</a>, requiring type
+useful than many students realize, and a "zero warnings" policy can prevent a
+lot of subtle bugs.  As we'll see in <a section="research"/>, requiring type
 definitions in code helps programmers understand software as well.</p>
 <h2>Continuous Integration</h2>
-<p>Build tools will do a lot more for you if you adopt some kind of <span g="ci" i="continuous integration">continuous integration</span> system such as <span i="Travis CI; continuous integration!Travis CI"><a href="https://travis-ci.org/">Travis CI</a></span> or
+<p>Build tools will do a lot more for you if you adopt some kind of <span g="ci"
+i="continuous integration">continuous integration</span> system such as <span
+i="Travis CI; continuous integration!Travis CI"><a href="https://travis-ci.org/">Travis CI</a></span> or
 <span i="GitHub Actions; continuous integration!GitHub Actions"><a href="https://github.com/features/actions">GitHub
 Actions</a></span>.  These can be set up to run either at regular
 intervals (e.g., every hour or at three a.m.), or every time someone checks into
 version control (which I find more useful). Each time they run, they check a
 fresh copy of the project out of version control, build it, re-run all the
 tests, and post the results to the project's blog, web site, and mailing list.</p>
-<p>Research has proven the benefits of CI [<a href="../bibliography/#Hilton2016">Hilton2016</a>].  It acts as a
-&quot;heartbeat&quot; for the project: as soon as anything goes wrong, everyone knows. It
+<p>Research has proven the benefits of CI <cite>Hilton2016</cite>.  It acts as a
+"heartbeat" for the project: as soon as anything goes wrong, everyone knows. It
 also encourages good development practices: if someone checks something in that
 doesn't compile, run, or pass the project's tests, everyone will know very
 quickly. (Funnily enough, after the system has shamed you a couple of times,
@@ -224,35 +221,37 @@ jobs:
 <ul>
 <li>
 <p>The <code>name</code> key tells GitHub what this action is called, while the values
-associated with the <code>on</code> key determine when the action runs.</p>
+    associated with the <code>on</code> key determine when the action runs.</p>
 </li>
 <li>
 <p>An action can have many jobs (or tasks); in this case there's just one called
-<code>check</code>.  We want it to run on the latest version of Ubuntu Linux.</p>
+    <code>check</code>.  We want it to run on the latest version of Ubuntu Linux.</p>
 </li>
 <li>
 <p>The <code>uses</code> key tells GitHub to run the steps in another action before
-running the steps for this one; <code>actions/checkout@v2</code> points at steps in
-GitHub's own <code>actions</code> repository, but there are lots of others.</p>
+    running the steps for this one; <code>actions/checkout@v2</code> points at steps in
+    GitHub's own <code>actions</code> repository, but there are lots of others.</p>
 </li>
 <li>
 <p>Similarly, we can use a pre-defined action to set up Python 3.9, and then
-use <code>pip</code> to install our project's requirements (which are listed in a file
-called <code>requirements.txt</code>). This ensures that we have a brand-new
-environment every time we run our checks.</p>
+    use <code>pip</code> to install our project's requirements (which are listed in a file
+    called <code>requirements.txt</code>). This ensures that we have a brand-new
+    environment every time we run our checks.</p>
 </li>
 <li>
 <p>We can now run our checks: <code>black</code> to check code style, <code>flake8</code> to look for
-common errors, and <code>pytest</code> to run our tests. If any of these fail (i.e., if
-any return a non-zero exit status), the overall action fails and the push or
-pull request doesn't go through.</p>
+    common errors, and <code>pytest</code> to run our tests. If any of these fail (i.e., if
+    any return a non-zero exit status), the overall action fails and the push or
+    pull request doesn't go through.</p>
 </li>
 </ul>
 <p>Configuring actions like these is a programming task like any other, except for
 the fact that you specify what you want in YAML rather than in Python,
-JavaScript, or some other language.  [<a href="../bibliography/#Zampetti2020">Zampetti2020</a>] looks at how
+JavaScript, or some other language.  <cite>Zampetti2020</cite> looks at how
 <em>not</em> to use CI, and can serve as a good checklist of things to avoid.</p>
-<p>If you don't want to go this far, you can add <span g="pre_commit_hook" i="pre-commit hook; Git!pre-commit hook">pre-commit</span> or <span g="post_commit_hook" i="post-commit hook; Git!post-commit hook">post-commit
+<p>If you don't want to go this far, you can add <span g="pre_commit_hook"
+i="pre-commit hook; Git!pre-commit hook">pre-commit</span> or <span
+g="post_commit_hook" i="post-commit hook; Git!post-commit hook">post-commit
 hooks</span> to your repository to specify actions to run on your machine before
 and after each commit. When I set these up, I almost always have them run
 commands via the build manager so that I can also run checks whenever I want.</p>
@@ -260,7 +259,7 @@ commands via the build manager so that I can also run checks whenever I want.</p
 <h3>Getting past the dip</h3>
 <p>Any new tool or practice initially makes you less productive, so if you're up
 against a deadline (as you almost always will be), the safest course of action
-is often to keep doing things the &quot;wrong&quot; way because there isn't time to learn
+is often to keep doing things the "wrong" way because there isn't time to learn
 how to do it more efficiently.  This is why I think that lab exams should be
 part of project courses, i.e., that you should be required to demonstrate to
 your instructor that you're able to use a build manager or a debugger.  People
@@ -269,18 +268,26 @@ work for grading; if you are required to submit a screen recording of you using
 particular tools as part of an assignment, it will help you in the long run.</p>
 </blockquote>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

@@ -90,9 +90,9 @@ def _collect(node, collected):
     collected[node.slug] = []
     for (i, match) in enumerate(TABLE.finditer(node.text)):
         if (caption := TABLE_CAPTION.search(match.group(0))) is None:
-            util.fail(f"Table div {match} without caption in {node.filepath}")
+            util.fail(f"Table div '{match.group(0)}' without caption in {node.filepath}")
         if (slug := TABLE_ID.search(match.group(0))) is None:
-            util.fail(f"Table div {match} without ID in {node.filepath}")
+            util.fail(f"Table div '{match.group(0)}' without ID in {node.filepath}")
         collected[node.slug].append(
             Table(fileslug=node.slug, caption=caption.group(1), slug=slug.group(1))
         )

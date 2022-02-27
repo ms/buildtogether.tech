@@ -1,50 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="methods">Research Methods</h1></title>
+    <title>Building Software Together: Research Methods</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="methods">Research Methods</h1>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
       
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#confounding_variables">confounding variables</a>, <a href="../glossary/#control_group">control group</a>, <a href="../glossary/#dark_matter_developer">dark matter developer</a>, <a href="../glossary/#data_mining">data mining</a>, <a href="../glossary/#double_blind">double blind</a>, <a href="../glossary/#placebo">placebo</a>, <a href="../glossary/#pre_registration">pre-registration</a>, <a href="../glossary/#qualitative_method">qualitative method</a>, <a href="../glossary/#quasi_experiment">quasi-experiment</a>, <a href="../glossary/#treatment_group">treatment group</a></p></div>
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Research Methods</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>Back in 2016 <a href="https://twitter.com/gvwilson/status/776733301419630592">I tweeted</a>, &quot;If anyone has data showing <span i="Excel">Excel</span> is <em>more</em> error-prone than <span i="MATLAB">MATLAB</span>/<span i="Python">Python</span>/<span i="R (programming
+<p>Back in 2016 <a href="https://twitter.com/gvwilson/status/776733301419630592">I tweeted</a>, "If anyone has data showing <span
+i="Excel">Excel</span> is <em>more</em> error-prone than <span
+i="MATLAB">MATLAB</span>/<span i="Python">Python</span>/<span i="R (programming
 language)">R</span> once you normalize for hours spent learning it, please
-post.&quot;  It was clear from the responses and from other discussion online that
-most programmers believe this, but I'm not really sure what &quot;this&quot; is:</p>
+post."  It was clear from the responses and from other discussion online that
+most programmers believe this, but I'm not really sure what "this" is:</p>
 <dl>
 <dt>There are more errors in published results created with Excel than in results created with scripting languages like MATLAB, Python, and R.</dt>
-<dd>
-<p>Given that many more people use Excel, that's like saying that people in
-China have more heart attacks than people in Luxembourg.</p>
-</dd>
+<dd>Given that many more people use Excel, that's like saying that people in
+China have more heart attacks than people in Luxembourg.</dd>
 <dt>Results calculated with Excel are more likely to be wrong than results calculated with scripting languages.</dt>
 <dd>
 <p>This is what I had in mind when I tweeted, and I don't think the answer is
 obvious.  Yes, there are lots of examples of people botching spreadsheets,
 but there's also a lot of buggy code out there.  (<span i="Flon's
-  Axiom">Flon's Axiom</span> states, &quot;There is not now, nor has there ever
+Axiom">Flon's Axiom</span> states, "There is not now, nor has there ever
 been, nor will there ever be, any programming language in which it is the
-least bit difficult to write bad code.&quot;)</p>
+least bit difficult to write bad code.")</p>
 <p>And even if this claim is true, correlation isn't causation.  I think that
 people who do statistics programmatically have probably invested more time
 in mastering their tools than people who use spreadsheets.  Any differences
@@ -52,23 +44,19 @@ in error rates could easily be due to differences in time spent in
 reflective practice.</p>
 </dd>
 <dt>People who are equally proficient in Excel and scripting languages are more likely to make mistakes in Excel.</dt>
-<dd>
-<p>This formulation corrects the flaw identified above, but is nonsensical,
-since the only meaningful definition of &quot;equally proficient&quot; is &quot;use equally
-well&quot;.</p>
-</dd>
+<dd>This formulation corrects the flaw identified above, but is nonsensical,
+since the only meaningful definition of "equally proficient" is "use equally
+well".</dd>
 <dt>Spreadsheets are intrinsically more error-prone than scripting languages</dt>
-<dd>
-<p>I have heard people claim that spreadsheets don't show errors as clearly,
+<dd>I have heard people claim that spreadsheets don't show errors as clearly,
 they're harder to test, it's harder to figure out what calculations are
 actually being done, or they themselves are buggier than scripting
 languages' math libraries.  These are all plausible, but may all be red
 herrings.  Yes, it's hard to write unit tests for spreadsheets, but it's
-possible: [<a href="../bibliography/#Hermans2016">Hermans2016</a>] found that 8% of spreadsheets included
-tests like <code>if(A1&lt;&gt;5, &quot;ERROR&quot;, &quot;OK&quot;)</code>.  I'd be surprised if more than 8% of
+possible: <cite>Hermans2016</cite> found that 8% of spreadsheets included
+tests like <code>if(A1&lt;&gt;5, "ERROR", "OK")</code>.  I'd be surprised if more than 8% of
 people who do statistics in Python or R regularly write unit tests for their
-scripts, so the fact that they <em>could</em> is irrelevant.</p>
-</dd>
+scripts, so the fact that they <em>could</em> is irrelevant.</dd>
 </dl>
 <p>To be clear, I'm not defending or recommending spreadsheets.  But if programming
 really is a better way to do crunch numbers, we ought to be able to use science
@@ -83,7 +71,7 @@ normal) and a <span g="treatment_group" i="treatment group">treatment
 group</span> (who do things in an alternative way). If the difference between
 the groups is large enough statistically, the experimenter can say that the
 treatment probably has an effect on outcomes.</p>
-<p>There are several traps in this for the unwary [<a href="../bibliography/#DeOliveiraNeto2019">DeOliveiraNeto2019</a>]:</p>
+<p>There are several traps in this for the unwary <cite>DeOliveiraNeto2019</cite>:</p>
 <dl>
 <dt><span i="experimenter bias">Experimenter bias</span>.</dt>
 <dd>People have many biases, both conscious and unconscious.  In order to make
@@ -99,9 +87,9 @@ possible to achieve this when doing software engineering experiments.</dd>
 almost certainly find <em>something</em> that passes a test for statistical
 significance. For example, there is a strong correlation between the number
 of letters in winning words in spelling competitions and the number of
-people killed by venomous spiders [<a href="../bibliography/#Vigen2015">Vigen2015</a>]. To guard against
+people killed by venomous spiders <cite>Vigen2015</cite>. To guard against
 this, researchers should <span g="pre_registration" i="pre-registration of
-  experiments">pre-register</span> their analyses, i.e., say in advance what
+experiments">pre-register</span> their analyses, i.e., say in advance what
 they're going to compare against what, and then use various statistical
 techniques that require a higher standard of proof when they are checking
 more possible combinations.</dd>
@@ -119,10 +107,12 @@ the plausibility of your idea. If you need to be really confident, build up the
 evidence base over time in multiple experiments, increasing the sample size and
 improving the methodology each time to get a stronger answer for a more specific
 question.</p>
-<p>Researchers often rely on <span g="quasi_experiment" i="quasi-experiment">quasi-experiments</span> when doing this, i.e., they look
+<p>Researchers often rely on <span g="quasi_experiment"
+i="quasi-experiment">quasi-experiments</span> when doing this, i.e., they look
 at pre-existing groups like programmers who have decided for themselves to use a
 new IDE against ones who have not. Quasi-experiments are cheaper and easier to
-set up, but researchers must be careful to account for <span g="confounding_variables" i="confounding variable">confounding
+set up, but researchers must be careful to account for <span
+g="confounding_variables" i="confounding variable">confounding
 variables</span>. For example, are programmers who choose to use an IDE younger
 and therefore less experienced than ones who use legacy text editors? If so, how
 does that difference skew the results?</p>
@@ -133,26 +123,27 @@ can get her hands on. Doing this is called <span g="data_mining" i="data
 mining">data mining</span>, and most studies of this kind make use of the wealth
 of information available online at sites like <a href="https://github.com/">GitHub</a>]<a href="https://github.com/">github</a> and <a href="https://stackoverflow.com/">Stack
 Overflow</a> or from millions of crash reports collected online
-[<a href="../bibliography/#Glerum2009">Glerum2009</a>].  Data mining has produced many valuable insights, but
+<cite>Glerum2009</cite>.  Data mining has produced many valuable insights, but
 has challenges of its own.  The largest of these is that people who work in the
 open aren't typical, so any results we get from studying them must be
 interpreted cautiously.</p>
 <p>One problem with data mining is that once again, correlation doesn't imply
 causation.  Another is that we usually don't know whether the data we have
-access to is representative.  In 2012, Scott Hanselman coined the term <span g="dark_matter_developer" i="dark matter developer">dark matter
+access to is representative.  In 2012, Scott Hanselman coined the term <span
+g="dark_matter_developer" i="dark matter developer">dark matter
 developers</span> to describe programmers who don't blog, don't answer questions
 in online forums, don't have their work in public repositories, and so on. Just
 as dark matter makes up most of the universe, dark matter developers make up
 most of our industry, and just as the matter we can see is vanishingly atypical,
 so too are developers who radiate information.</p>
 <p>One reason for this is that the web ranges from unwelcoming to actively hostile
-for people from under-represented groups [<a href="../bibliography/#Ford2016">Ford2016</a>, <a href="../bibliography/#May2019">May2019</a>].
+for people from under-represented groups <cite>Ford2016,May2019</cite>.
 Unfortunately, in-person workplaces are often no better: many are filled with
-small signs that make many people feel out of place [<a href="../bibliography/#Cheryan2009">Cheryan2009</a>].
-<a class="secref" href="../fairness/#fairness">Chapter&nbsp;24</a> takes a closer look at these issues.</p>
+small signs that make many people feel out of place <cite>Cheryan2009</cite>.
+<a section="fairness"/> takes a closer look at these issues.</p>
 <blockquote>
 <h3>A cautionary tale</h3>
-<p>[<a href="../bibliography/#Zeller2011">Zeller2011</a>] did what too many researchers in too many fields do on a
+<p><cite>Zeller2011</cite> did what too many researchers in too many fields do on a
 regular basis: throw some data at some machine learning algorithms and then
 claim that whatever comes out the other end is significant. Luckily for us, they
 did it on purpose to make a point.</p>
@@ -166,19 +157,20 @@ approach, from lack of theoretical grounding to dishonest use of
 statistics. Before you read too much research, make sure to read this.</p>
 </blockquote>
 <h2>Qualitative Methods</h2>
-<p>The third set of approaches are called <span g="qualitative_method" i="qualitative methods">qualitative methods</span>, and involve close analysis
+<p>The third set of approaches are called <span g="qualitative_method"
+i="qualitative methods">qualitative methods</span>, and involve close analysis
 of a small number of cases to tease out common patterns.  Articles like
-[<a href="../bibliography/#Sharp2016">Sharp2016</a>] do an excellent job of explaining how these methods work
+<cite>Sharp2016</cite> do an excellent job of explaining how these methods work
 and what their strengths and limitations are.</p>
 <blockquote>
 <h3>Wish I knew then what I know now</h3>
 <p>My classes in engineering taught me to look down on anything that wasn't a
 controlled laboratory experiment whose results could be neatly displayed in a
 scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
-that the &quot;fuzzy&quot; methods of the social sciences were just as rigorous when used
+that the "fuzzy" methods of the social sciences were just as rigorous when used
 properly, and the only ones that could produce certain valuable insights.</p>
 </blockquote>
-<p>[<a href="../bibliography/#Washburn2016">Washburn2016</a>] demonstrates the kinds of insights these methods can
+<p><cite>Washburn2016</cite> demonstrates the kinds of insights these methods can
 produce. They analyzed 155 postmortem reviews of game projects to identify
 characteristics of game development, link the characteristics to positive and
 negative experiences, and distill a set of best practices and pitfalls for game
@@ -205,12 +197,12 @@ until we had analyzed all the postmortem reviews.</p>
 </blockquote>
 <h2>The Fourth Tradition</h2>
 <blockquote>
-<p>&quot;Once the rockets are up, who cares where they come down?
+<p>"Once the rockets are up, who cares where they come down?
 <br/>
-That's not my department!&quot; says Wernher von Braun</p>
+That's not my department!" says Wernher von Braun</p>
 <p>--- <span i="Lehrer, Tom">Tom Lehrer</span></p>
 </blockquote>
-<p>[<a href="../bibliography/#Tedre2008">Tedre2008</a>] describes three traditions that have shaped how we think
+<p><cite>Tedre2008</cite> describes three traditions that have shaped how we think
 about computing: the <span i="mathematical tradition in
 computing">mathematical</span>, which focuses on algorithms and proofs; the
 <span i="scientific tradition in computing">scientific</span>, which studies
@@ -220,25 +212,33 @@ matters because we can actually build useful things.</p>
 <p>That paper changed how I think about our field, but in the past few years I have
 realized that <span i="humanist tradition in computing">another point of
 view</span> is just as important, though not as well respected.  It draws on
-humanities and social sciences to explore questions like, &quot;Who does this help?&quot;,
-&quot;Who does this hurt?&quot;, and, &quot;Who decides?&quot;  Just as the most interesting
+humanities and social sciences to explore questions like, "Who does this help?",
+"Who does this hurt?", and, "Who decides?"  Just as the most interesting
 software engineering research these days is look at how the way we think
-interacts with the way we program (<a class="secref" href="../research/#research">Chapter&nbsp;22</a>), the most interesting
+interacts with the way we program (<a section="research"/>), the most interesting
 thinking about computing as a whole is coming from people who have outgrown the
-&quot;Wernher von Braun&quot; mentality of Lehrer's song.</p>
+"Wernher von Braun" mentality of Lehrer's song.</p>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

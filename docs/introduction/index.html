@@ -1,42 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="introduction">Introduction</h1></title>
+    <title>Building Software Together: Introduction</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="introduction">Introduction</h1>
-      <div class="lede"><p>Who you are and what you'll learn</p></div>
-      <nav>
-	
-      </nav>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
       
-      <p>Three books changed my life as a programmer. [<a href="../bibliography/#Kernighan1981">Kernighan1981</a>] taught
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>Chapter 1: Introduction</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
+
+<p>Three books changed my life as a programmer. <cite>Kernighan1981</cite> taught
 me that I could do more than just write software---I could <em>design</em> it---while
-[<a href="../bibliography/#Glass2002">Glass2002</a>] taught me that we could investigate software and software
+<cite>Glass2002</cite> taught me that we could investigate software and software
 development scientifically, and by doing so discover what actually works and
 what doesn't.</p>
-<p>In between those two books I read [<a href="../bibliography/#Hunt1999">Hunt1999</a>], as did many other
+<p>In between those two books I read <cite>Hunt1999</cite>, as did many other
 programmers of my generation. For many of us, it was the first time someone had
 described the craft of software construction in a way that made sense. When I
 began supervising undergraduate projects at the University of Toronto in the
 early 2000s, I referred to it over and over again.</p>
-<p>Looking at it and at its twentieth anniversary edition [<a href="../bibliography/#Thomas2019">Thomas2019</a>],
+<p>Looking at it and at its twentieth anniversary edition <cite>Thomas2019</cite>,
 I am struck by how useful it continues to be, but also by what it <em>doesn't</em>
 discuss.  How do you run a meeting in a way that ensures decisions actually get
 made and everyone is heard?  After working in tech for forty years, I believe
@@ -65,48 +58,48 @@ the [Red Door Family Shelter][red-door-shelter].</em></p>
 <ul>
 <li>
 <p>Yanina is in the third year of a computer science degree. She worked on
-several volunteer projects in high school and through her mosque, but the
-&quot;Introduction to Software Engineering&quot; course she's about to take will be
-her first semester-long team project at university. This guide will help her
-and her teammates figure out what to do when.</p>
+    several volunteer projects in high school and through her mosque, but the
+    "Introduction to Software Engineering" course she's about to take will be
+    her first semester-long team project at university. This guide will help her
+    and her teammates figure out what to do when.</p>
 </li>
 <li>
 <p>Brad is in Yanina's classes. He started programming when he was nine years
-old, and as a result can do many practical assignments in half the time it
-takes other students (something he attributes to intelligence and aptitude
-rather than to his parents being able to afford to send him to after-school
-coding camps). He finds any discussion of what he privately called &quot;social
-justice bullshit&quot; tiresome; this guide will help him understand why that
-attitude is self-defeating.</p>
+    old, and as a result can do many practical assignments in half the time it
+    takes other students (something he attributes to intelligence and aptitude
+    rather than to his parents being able to afford to send him to after-school
+    coding camps). He finds any discussion of what he privately called "social
+    justice bullshit" tiresome; this guide will help him understand why that
+    attitude is self-defeating.</p>
 </li>
 <li>
 <p>Ahmadou worked as an illustrator for several years before doing an intensive
-14-week conversion course to become a JavaScript developer. He has a lot of
-experience working in teams to meet deadlines, but is still often bewildered
-by the tools, jargon, and culture of programming. This guide will help him
-figure out what his new colleagues think is &quot;normal&quot;.</p>
+    14-week conversion course to become a JavaScript developer. He has a lot of
+    experience working in teams to meet deadlines, but is still often bewildered
+    by the tools, jargon, and culture of programming. This guide will help him
+    figure out what his new colleagues think is "normal".</p>
 </li>
 <li>
 <p>Sharla teaches JavaScript at Yanina's college and for the conversion course
-that Ahmadou went through. They taught the &quot;Introduction to Software
-Engineering&quot; class last semester, and felt that they and their students
-wasted a lot of time on things that turned out not to be useful. This guide
-will help them give more structure to the next offering and set more
-realistic expectations.</p>
+    that Ahmadou went through. They taught the "Introduction to Software
+    Engineering" class last semester, and felt that they and their students
+    wasted a lot of time on things that turned out not to be useful. This guide
+    will help them give more structure to the next offering and set more
+    realistic expectations.</p>
 </li>
 </ul>
 <p>Like these personas, readers should:</p>
 <ul>
 <li>
 <p>Be able to write multi-page programs in Java, Python, JavaScript, or some
-other modern programming language.</p>
+    other modern programming language.</p>
 </li>
 <li>
 <p>Be able to create static web sites using HTML and CSS.</p>
 </li>
 <li>
 <p>Know how to create directories, delete files, and find things with the Unix
-shell.</p>
+    shell.</p>
 </li>
 <li>
 <p>Have used <a href="https://git-scm.com/">Git</a> on individual projects.</p>
@@ -124,27 +117,27 @@ medium term:</p>
 <ul>
 <li>
 <p>How to work effectively in a small team when you are constantly being
-interrupted by other tasks like the homework for your other courses.</p>
+    interrupted by other tasks like the homework for your other courses.</p>
 </li>
 <li>
 <p>What tools you should use to build, test, deploy, and describe software
-in less time and with less pain.</p>
+    in less time and with less pain.</p>
 </li>
 <li>
 <p>How to design a program (or a set of related programs) that will take
-several weeks to write.</p>
+    several weeks to write.</p>
 </li>
 <li>
 <p>How a few simple changes in your study habits will enable you to learn more
-and more quickly.</p>
+    and more quickly.</p>
 </li>
 <li>
 <p>What legal rights you have to the software you create as a student (and on
-the job).</p>
+    the job).</p>
 </li>
 <li>
 <p>What we actually know about software development and why we believe it's
-true.</p>
+    true.</p>
 </li>
 <li>
 <p>What to do when things go wrong.</p>
@@ -173,13 +166,13 @@ while the software is made available under the Hippocratic License.  The first
 allows you to use and remix this material for non-commercial purposes, as-is or
 in adapted form, provided you cite its original source; the second allows you to
 use and remix the software on this site provided you do not violate
-international agreements governing human rights. Please see <a class="secref" href="../license/#license">Appendix&nbsp;A</a>
+international agreements governing human rights. Please see <a section="license"/>
 for details.</p>
 <p>If you would like to improve what we have or add new material, please see the
-Code of Conduct in <a class="secref" href="../conduct/#conduct">Appendix&nbsp;C</a> and the contributor guidelines in
-<a class="secref" href="../contributing/#contributing">Appendix&nbsp;D</a>.  If you have questions or would like to use this material in
-a course, please file an issue in <a href="https://github.com/%7B%7Bsite.repository%7D%7D">this site's GitHub
-repository</a> or <a href="mailto:%7B%7Bsite.author.email%7D%7D">send us
+Code of Conduct in <a section="conduct"/> and the contributor guidelines in
+<a section="contributing"/>.  If you have questions or would like to use this material in
+a course, please file an issue in <a href="https://github.com/{{site.repository}}">this site's GitHub
+repository</a> or <a href="mailto:{{site.author.email}}">send us
 email</a>.</p>
 <h2>Acknowledgments</h2>
 <p>This book is dedicated to <span i="Petre, Marian"><a href="https://www.open.ac.uk/people/mp8">Marian
@@ -187,13 +180,14 @@ Petre</a></span>, who taught me that not everything worth
 studying can be measured, and to <span i="Wilkie, Tom">Tom
 Wilkie</span>, who taught me that an author's job is to create the
 manure in which an editor grows something worth reading.  I am also
-grateful to all of the students who did projects with me at the <span i="University of Toronto">University of Toronto</span> and through
+grateful to all of the students who did projects with me at the <span
+i="University of Toronto">University of Toronto</span> and through
 <span i="Google Summer of Code">Google Summer of Code</span>, and to
 everyone who took part in <span i="UCOSP">UCOSP</span>
-[<a href="../bibliography/#Holmes2014">Holmes2014</a>, <a href="../bibliography/#Holmes2018">Holmes2018</a>].</p>
+<cite>Holmes2014,Holmes2018</cite>.</p>
 <p>I have tried to base recommendations on empirical software engineering research
-(<a class="secref" href="../research/#research">Chapter&nbsp;22</a>) and on the science of teaching and learning
-(<a class="secref" href="../thinking/#thinking">Appendix&nbsp;F</a>). Where those don't have answers, I have drawn on the experience
+(<a section="research"/>) and on the science of teaching and learning
+(<a section="thinking"/>). Where those don't have answers, I have drawn on the experience
 of the students and programmers mentioned below.  Any errors, omissions, or
 misunderstandings that remain are entirely our fault.</p>
 <ul>
@@ -241,24 +235,35 @@ misunderstandings that remain are entirely our fault.</p>
 <li><a href="https://andreas-zeller.info/">Andreas Zeller</a></li>
 </ul>
 <p>Portions of this book are adapted from material that originally appeared in
-[<a href="../bibliography/#Sholler2019">Sholler2019</a>, <a href="../bibliography/#Wilson2019">Wilson2019</a>, <a href="../bibliography/#Irving2021">Irving2021</a>, <a href="../bibliography/#Smalls2021">Smalls2021</a>]; I'm grateful to <span i="Taylor & Francis"><a href="https://taylorandfrancis.com/">Taylor &amp; Francis</a></span>, <span i="PLOS"><a href="https://plos.org/">PLOS</a></span>, and my co-authors for making available under open
+<cite>Sholler2019,Wilson2019,Irving2021,Smalls2021</cite>; I'm grateful to <span
+i="Taylor & Francis"><a href="https://taylorandfrancis.com/">Taylor &amp; Francis</a></span>, <span
+i="PLOS"><a href="https://plos.org/">PLOS</a></span>, and my co-authors for making available under open
 licenses.  I would also like to thank <span i="Graf, David">David Graf</span>
 for <span i="doi2bib"><a href="https://doi2bib.org/">doi2bib</a></span> and <span i="Elbakyan,
-Alexander">Alexandra Elbakyan</span> for <span i="Sci-Hub"><a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci-Hub</a></span>; this book would have been much harder to
+Alexander">Alexandra Elbakyan</span> for <span
+i="Sci-Hub"><a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci-Hub</a></span>; this book would have been much harder to
 write without their idealism and hard work.</p>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>

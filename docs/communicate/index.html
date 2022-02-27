@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
-<script src="../static/mccole.js"></script>
-<script>window.onload = () => fixPage()</script>
+    <meta charset="utf-8">
+<script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+<link rel="icon" type="image/x-icon" href="../files/favicon.ico">
+<link rel="stylesheet" href="../mccole.css">
 
-    <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
-
-    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
-    <title>Building Software Together: <h1 id="communicate">Communicating</h1></title>
+    <title>Building Software Together: Communicating</title>
   </head>
-  <body>
-    <main>
-      <p class="home"><a href="../">Building Software Together</a></p>
-      <h1 id="communicate">Communicating</h1>
-      <div class="lede"><p>Sharing information with teammates and managers</p></div>
-      <nav>
-	
-      </nav>
-      <div class="keyterms"><p><a href="../glossary/#utc">Coordinated Universal Time</a>, <a href="../glossary/#discoverability">discoverability</a>, <a href="../glossary/#doc_comment">doc comment</a>, <a href="../glossary/#docstring">docstring</a>, <a href="../glossary/#issue_tracker">issue tracker</a>, <a href="../glossary/#issue_label">label (an issue)</a>, <a href="../glossary/#mail_filter">mail filter</a>, <a href="../glossary/#milestone">milestone</a>, <a href="../glossary/#reprex">reproducible example (reprex)</a>, <a href="../glossary/#static_site_generator">static site generator</a>, <a href="../glossary/#technical_debt">technical debt</a></p></div>
+  <body class="page">
+    <div align="center" style="padding-top: 2rem;">
+      
+      <h2><a href="../">Building Software Together</a></h2>
+      <h1>: Communicating</h1>
+      
+      <p>
+        <img src="../files/codebender.svg" alt="logo" width="10%" />
+      </p>
+    </div>
 
-      <p>Knowing how to steer and change gears isn't all there is to driving---you need
+<p>Knowing how to steer and change gears isn't all there is to driving---you need
 to know how to signal when you're turning or changing lanes.  Similarly, knowing
 how to commit to Git and do a code review are necessary but not sufficient for
 working with other programmers.  This chapter therefore looks at how to
@@ -48,11 +40,11 @@ usually also specify:</p>
 <ul>
 <li>
 <p>what kind of issue it is (such as a bug report, a request for a new feature,
-or a question to be answered);</p>
+    or a question to be answered);</p>
 </li>
 <li>
 <p>who is responsible for the issue (i.e., who's supposed to fix the bug, test
-the fix, or update the documentation);</p>
+    the fix, or update the documentation);</p>
 </li>
 <li>
 <p>how important it is; and</p>
@@ -64,8 +56,8 @@ the fix, or update the documentation);</p>
 <p>If version control keeps track of where your project has been, your issue
 tracking system keeps track of where you're going. After version control, it is
 the most important part of a team project; without it, you and your teammates
-will have to constantly ask each other &quot;What are you working on?&quot;, &quot;What am I
-supposed to be working on?&quot;, and &quot;Who was supposed to do that?&quot; Once you start
+will have to constantly ask each other "What are you working on?", "What am I
+supposed to be working on?", and "Who was supposed to do that?" Once you start
 using one it's easy (or at least easier) to find out what the project's status
 is: just look at the open issues and at those that have been closed recently.
 You can use this to create agendas for your status meetings, and to remind
@@ -75,7 +67,8 @@ final report.</p>
 describing a bug in a large application, you should include enough information
 to allow someone to reproduce the problem. This is why industrial-strength
 systems like <span i="Jira (issue tracker); issue
-tracker!Jira"><a href="https://www.atlassian.com/software/jira">Jira</a></span> can have a couple of dozen <span i="issue!fields">fields</span> for each issue, including:</p>
+tracker!Jira"><a href="https://www.atlassian.com/software/jira">Jira</a></span> can have a couple of dozen <span
+i="issue!fields">fields</span> for each issue, including:</p>
 <ul>
 <li>
 <p>what version of the software you were using;</p>
@@ -106,28 +99,16 @@ assignments for other courses. For these reasons, I've found that most student
 teams won't actually use anything more sophisticated than a web-base to-do list
 unless they're forced to by the grading scheme. In that case, most come away
 with the impression that issues are something you only use when you have to.</p>
-<p>So what does a good issue look like?  [<a href="../bibliography/#Bettenburg2008">Bettenburg2008</a>] found that the
+<p>So what does a good issue look like?  <cite>Bettenburg2008</cite> found that the
 information users supply when they file a bug report tends not to be that which
 the relevant developers need the most, and most importantly, it differs in
 fairly predictable ways and for understandable reasons.  Here's one I filed for
-the duplicate file finder reviewed in <a class="secref" href="../git-team/#git-team">Chapter&nbsp;8</a>:</p>
-<pre title="bug-report.txt"><code class="language-txt">id: 47                                                      # 01
-date: 2021-02-19T09:30:20+0500                              # 02
-title: Binary files are read as text files                  # 03
-type: bug                                                   # 04
-severity: low                                               # 05
-labels: utilities                                           # 06
-                                                            # 07
-The `dup.py` utility opens all files using `'r'` (for       # 08
-text) instead of `'rb'` (for binary), so any carriage       # 09
-return/newline pairs are converted to newlines only before  # 10
-the hash is calculated. This doesn't break the matching,    # 11
-since it is done consistently, but probably slows the       # 12
-program down a little.                                      # 13
-</code></pre>
+the duplicate file finder reviewed in <a section="git-team"/>:</p>
+<div class="include" file="bug-report.txt"/>
+
 <p>The ID on the first line is assigned by the issue tracker, an often serves as a
-shorthand name for the issue in conversation. (&quot;Hey, is anyone working on number
-fifty-five yet?&quot;) The date is in <span g="utc" i="issue!timestamps">UTC</span>
+shorthand name for the issue in conversation. ("Hey, is anyone working on number
+fifty-five yet?") The date is in <span g="utc" i="issue!timestamps">UTC</span>
 so that it is unambiguous: while your team may all be in one place, it's
 increasingly likely that you are scattered across several time zones.</p>
 <p>The <span i="issue!good titles">title</span> on line 3 is probably the most
@@ -141,20 +122,22 @@ makes it easier to sort and filter issues.</p>
 summarizes the problem. If the author hadn't already identified the cause, it
 should include a <span g="reprex" i="reproducible example (reprex)">reproducible
 example</span> (also called a reprex). This helps the person understand what the
-issue is much more than, &quot;The program crashes when I open strange files,&quot; but
+issue is much more than, "The program crashes when I open strange files," but
 experience shows that if people are required to come up with a reprex when
 filing an issue, they will often solve their own problem along the way.  We'll
 talk more about the value of minimal reproducible examples in
-<a class="secref" href="../debugging/#debugging">Chapter&nbsp;15</a>.</p>
+<a section="debugging"/>.</p>
 <blockquote>
-<h3>When to start saying &quot;no&quot;</h3>
-<p>As we will see in <a class="secref" href="../process/#process">Chapter&nbsp;19</a>, one purpose of a schedule is to tell you
-when to start cutting corners. Similarly, one of the main reasons to keep <span i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
+<h3>When to start saying "no"</h3>
+<p>As we will see in <a section="process"/>, one purpose of a schedule is to tell you
+when to start cutting corners. Similarly, one of the main reasons to keep <span
+i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
 one place is to help you prioritize work when time starts to run short.</p>
 </blockquote>
 <h2>Labeling Issues</h2>
 <p>The bigger a project gets, the harder it is to find things.  Issue trackers
-therefore let project members add <span g="issue_label" i="issue!classifying">labels</span> to issues to make things easier to search
+therefore let project members add <span g="issue_label"
+i="issue!classifying">labels</span> to issues to make things easier to search
 and organize.  Labels are also often called tags; whatever term is used, each
 one is just a descriptive word or two.</p>
 <p>GitHub allows project owners to define any labels they want.  A small project
@@ -213,11 +196,12 @@ due date and display aggregate progress toward completion, so the team can
 easily see when work is due and how much is left to be done.</p>
 <h2>Other Ways to Communicate</h2>
 <p>Issues are the best way to keep track of where you are, but there are lots of
-other ways the team can and should communicate. These can be <span i="communication!synchronous">synchronous</span>, like chat and video calls, or
+other ways the team can and should communicate. These can be <span
+i="communication!synchronous">synchronous</span>, like chat and video calls, or
 <span i="communication!asynchronous">asynchronous</span>, like issues and
 email. The former are better for quick back-and-forth and for maintaining social
 connections, but they can also be a constant stream of interruptions, which
-lowers productivity (<a class="secref" href="../important/#important">Chapter&nbsp;2</a>). Synchronous tools also tend to bias
+lowers productivity (<a section="important"/>). Synchronous tools also tend to bias
 communication in favor of people who are more self-confident, more fluent in the
 language, or have better network connections, and finding things afterward in
 archives of stream-of-consciousness exchanges is harder than finding things in
@@ -240,7 +224,8 @@ and find out what was said a month ago---or, just as importantly, if someone
 <em>else</em> can't do that---you might as well not have said it.</p>
 <blockquote>
 <h3>Filters are your friend</h3>
-<p>Every email client allows you to set up <span g="mail_filter" i="email!filters">filters</span> that automatically flag messages matching
+<p>Every email client allows you to set up <span g="mail_filter"
+i="email!filters">filters</span> that automatically flag messages matching
 certain patterns or file them in particular mailboxes. I have fourteen of these
 set up right now to organize messages belonging to particular projects; it only
 took a couple of minutes, and it means that when I check mail in the morning or
@@ -248,10 +233,11 @@ after lunch, everything is set up for me to focus on one topic at a time.</p>
 </blockquote>
 <p><span i="software portal!communication tools">Software portals</span> provide
 many other ways to communicate, which project members use in a wide variety of
-ways [<a href="../bibliography/#Treude2011">Treude2011</a>].  <span i="wiki; communication!wiki">Wikis</span>
+ways <cite>Treude2011</cite>.  <span i="wiki; communication!wiki">Wikis</span>
 seem like a good way to keep notes, create documentation, and so on. Their main
 strength is the fact that content is automatically and immediately visible on
-the web.  These days, you will probably get more mileage out of a bunch of <span i="Markdown">Markdown</span> pages under version control---you have to set up a
+the web.  These days, you will probably get more mileage out of a bunch of <span
+i="Markdown">Markdown</span> pages under version control---you have to set up a
 repository anyway, and version control systems are much better at reconciling
 conflicts between concurrent authors than wikis.</p>
 <p><span i="communication!blog; blog!as team journal">Blogs</span>, on the other
@@ -265,8 +251,11 @@ project has a blog.  Every time someone checks code into version control,
 creates or closes an issue, or sends email, an entry is added to that blog. This
 allows the project's members to see changes scroll by in their usual blog
 reader, which is a handy way to keep track of what their teammates are doing.</p>
-<p>If you are going to create a blog, use a <span g="static_site_generator" i="static site generator">static site generator</span> to format and publish
-content consistently.  On GitHub, for example, you can create a site with <span i="GitHub Pages"><a href="https://pages.github.com/">GitHub Pages</a></span> using a tool called <span i="Jekyll; static site generator!Jekyll"><a href="https://jekyllrb.com/">Jekyll</a></span>; lots of
+<p>If you are going to create a blog, use a <span g="static_site_generator"
+i="static site generator">static site generator</span> to format and publish
+content consistently.  On GitHub, for example, you can create a site with <span
+i="GitHub Pages"><a href="https://pages.github.com/">GitHub Pages</a></span> using a tool called <span
+i="Jekyll; static site generator!Jekyll"><a href="https://jekyllrb.com/">Jekyll</a></span>; lots of
 different themes are available, and there are many good tutorials online.</p>
 <blockquote>
 <h3>Comments as communication</h3>
@@ -279,15 +268,16 @@ search.  If you choose names for functions and variables carefully, the code
 itself will explain what it's doing when someone reads it aloud; the comments
 should therefore explain <em>why</em>, just as you would in an email.  For example,
 this is not a useful comment:</p>
-<pre><code class="language-py">x = x[1:] # take all but first element of list
-</code></pre>
-<!-- continue -->
-<p>This, on the other hand, tells the next person why we're doing it:</p>
-<pre><code class="language-py">threads = threads[1:] # We are already running the first thread, so save the others.
-</code></pre>
+<p><code>py
+x = x[1:] # take all but first element of list</code></p>
+<p><!-- continue -->
+This, on the other hand, tells the next person why we're doing it:</p>
+<p><code>py
+threads = threads[1:] # We are already running the first thread, so save the others.</code></p>
 </blockquote>
 <h2>Reporting Up</h2>
-<p>As well as reporting progress to your teammates, you may have to <span i="reporting!to your manager">report</span> it regularly to your instructor, who
+<p>As well as reporting progress to your teammates, you may have to <span
+i="reporting!to your manager">report</span> it regularly to your instructor, who
 is effectively your manager. <span i="Evans, Julia"><a href="https://jvns.ca/">Julia
 Evans</a></span> has described <a href="https://jvns.ca/blog/things-your-manager-might-not-know/">eight things your manager might not
 know</a>, all of which apply to student teams:</p>
@@ -315,7 +305,7 @@ know</a>, all of which apply to student teams:</p>
 </li>
 <li>
 <p>How compensation/promotions work at the company.  (For students, this one
-translates to, &quot;How grading actually works.&quot;)</p>
+    translates to, "How grading actually works.")</p>
 </li>
 </ol>
 <p><span i="Kaplan-Moss, Jacob"><a href="https://jacobian.org/">Jacob Kaplan-Moss</a></span> has a
@@ -339,39 +329,41 @@ or not?</p>
 <p>If you learn how to summarize your status like this, you will be a very popular
 team member.</p>
 <h2>Documentation</h2>
-<p>An old proverb says, &quot;Trust, but verify.&quot;  The equivalent in programming is, &quot;Be
-clear, but <span i="documentation!as communication">document</span>.&quot;  No matter
+<p>An old proverb says, "Trust, but verify."  The equivalent in programming is, "Be
+clear, but <span i="documentation!as communication">document</span>."  No matter
 how well software is written, it always embodies decisions that aren't explicit
 in the final code or accommodates complications that aren't going to be obvious
 to the next reader.  Putting it another way, the best function names in the
-world aren't going to answer the questions &quot;Why does the software do this?&quot;  and
-&quot;Why doesn't it do this in a simpler way?&quot;</p>
+world aren't going to answer the questions "Why does the software do this?"  and
+"Why doesn't it do this in a simpler way?"</p>
 <p>In most cases, <span i="documentation!embedded">embedded documentation</span> in
-the form of a short <span g="docstring">docstring</span> or <span g="doc_comment">doc comment</span> to remind ourselves of each function's
+the form of a short <span g="docstring">docstring</span> or <span
+g="doc_comment">doc comment</span> to remind ourselves of each function's
 purpose is probably as much documentation as we need.  (In fact, it's probably
 better than what most people do.)  That one- or two-liner should begin with an
 active verb and describe either how inputs are turned into outputs, or what side
 effects the function has; as we discuss below, if we need to describe both, we
 should probably rewrite our function.</p>
-<p>An active verb is something like &quot;extract&quot;, &quot;normalize&quot;, or &quot;plot&quot;.  Some
+<p>An active verb is something like "extract", "normalize", or "plot".  Some
 examples of good one-line docstrings include:</p>
 <ul>
-<li>&quot;Create a list of capital cities from a list of countries.&quot;</li>
-<li>&quot;Clip signals to lie in [0...1].&quot;</li>
-<li>&quot;Reduce the red component of each pixel.&quot;</li>
+<li>"Create a list of capital cities from a list of countries."</li>
+<li>"Clip signals to lie in [0...1]."</li>
+<li>"Reduce the red component of each pixel."</li>
 </ul>
 <!-- continue -->
 <p>You can tell our one-liners are useful if you can read them aloud in the order
 the functions are called in place of the function's name and parameters.</p>
-<p>Once you start writing code for other people (or your future self) your <span i="documentation!what to include">documentation</span> should include:</p>
+<p>Once you start writing code for other people (or your future self) your <span
+i="documentation!what to include">documentation</span> should include:</p>
 <ul>
 <li>
 <p>The name and purpose of every public class, function, and constant in our
-code.</p>
+    code.</p>
 </li>
 <li>
 <p>The name, purpose, and default value (if any) of every parameter to every
-function.</p>
+    function.</p>
 </li>
 <li>
 <p>Any side effects the functions and methods have.</p>
@@ -383,31 +375,31 @@ function.</p>
 <p>What exceptions those functions can raise and when.</p>
 </li>
 </ul>
-<p>The word &quot;public&quot; in the first rule is important.  You don't have to write full
+<p>The word "public" in the first rule is important.  You don't have to write full
 documentation for helper functions that are only used inside your package and
 aren't meant to be called by users, but these should still have at least a
 comment explaining their purpose.</p>
-<p>As <a class="secref" href="../thinking/#thinking">Appendix&nbsp;F</a> explains, we can divide people in any domain into
+<p>As <a section="thinking"/> explains, we can divide people in any domain into
 novices, competent practitioners, and experts.  Each of these three groups needs
 a different kind of documentation:</p>
 <ul>
 <li>
 <p>A <span i="novice!documentation needs; documentation!for
-novices">novice</span> needs a tutorial that introduces her to key ideas one
-by one and shows how they fit together.</p>
+    novices">novice</span> needs a tutorial that introduces her to key ideas one
+    by one and shows how they fit together.</p>
 </li>
 <li>
 <p>A <span i="competent practitioner!documentation needs; documentation!for
-competent practitioners">competent practitioner</span> needs reference guides,
-cookbooks, and Q&amp;A sites; these give her solutions close enough to what she
-needs that she can tweak them the rest of the way.</p>
+    competent practitioners">competent practitioner</span> needs reference guides,
+    cookbooks, and Q&amp;A sites; these give her solutions close enough to what she
+    needs that she can tweak them the rest of the way.</p>
 </li>
 <li>
 <p><span i="expert!documentation needs; documentation!for experts">Experts</span>
-need this material as well---nobody's memory is perfect---but they may also
-paradoxically want tutorials.  The difference between them and novices is
-that experts want tutorials on how things work and why they were designed
-that way.</p>
+    need this material as well---nobody's memory is perfect---but they may also
+    paradoxically want tutorials.  The difference between them and novices is
+    that experts want tutorials on how things work and why they were designed
+    that way.</p>
 </li>
 </ul>
 <p>The first thing to decide when writing documentation is therefore to decide
@@ -444,8 +436,8 @@ question</a> has been refined over many years, and is
 a good guide for any project:</p>
 <dl>
 <dt>Write the most specific title we can.</dt>
-<dd>&quot;Why does division sometimes give a different result in Python 2.7 and
-Python 3.5?&quot;  is much better than, &quot;Help! Math in Python!!&quot;</dd>
+<dd>"Why does division sometimes give a different result in Python 2.7 and
+Python 3.5?"  is much better than, "Help! Math in Python!!"</dd>
 <dt>Give context before giving sample code.</dt>
 <dd>A few sentences to explain what we are trying to do and why it will help
 people determine if their question is a close match to ours or not.</dd>
@@ -455,8 +447,8 @@ answers are for them if they can see <em>and understand</em> a few lines of code
 <dt>Tag, tag, tag.</dt>
 <dd>Keywords make everything from scientific papers to left-handed cellos easier
 to find.  They are even more effective if the system encourages people to
-re-use tags so that they don't proliferate [<a href="../bibliography/#Lin2020">Lin2020</a>].</dd>
-<dt>Use &quot;I&quot; and question words (how/what/when/where/why).</dt>
+re-use tags so that they don't proliferate <cite>Lin2020</cite>.</dd>
+<dt>Use "I" and question words (how/what/when/where/why).</dt>
 <dd>Writing this way forces us to think more clearly about what someone might
 actually be thinking when they need help.</dd>
 <dt>Keep each item short.</dt>
@@ -471,21 +463,29 @@ that suggest different approaches or are written for different prior levels
 of understanding. This is one of the things that has made Stack Overflow so
 successful: if users are different from one another, they are best served by
 a <span i="chorus of explanation">chorus of explanations</span>
-[<a href="../bibliography/#Caulfield2016">Caulfield2016</a>].</dd>
+<cite>Caulfield2016</cite>.</dd>
 </dl>
 
-    </main>
-    <footer>
   <hr/>
-  <p>
-    Copyright © 2022 Greg Wilson
-    &nbsp;
-    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
-    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
-    <a href="https://github.com/gvwilson/mccole"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
-    <a href="mailto:"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
-  </p>
-</footer>
+<div align="center">
+  <table class="plain" width="90%">
+    <tr>
+      
+      <td align="center"><a href="../license/">License</a></td>
+      
+      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      
+      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      
+      <td align="center"><a href="../glossary/">Glossary</a></td>
+      
+      <td align="center"><a href="../links/">Links</a></td>
+      
+      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      
+    </tr>
+  </table>
+</div>
 
   </body>
 </html>
