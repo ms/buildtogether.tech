@@ -7,7 +7,7 @@ All contributors must abide by our <span i="Code of Conduct">Code of Conduct</sp
 
 ## Making Decisions
 
-This project uses [Martha's Rules][marthas-rules] <cite>Minahan1986</cite>
+This project uses [Martha's Rules][marthas-rules] [% b Minahan1986 %]
 or consensus decision making:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal by filing an

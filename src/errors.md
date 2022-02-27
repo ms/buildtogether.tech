@@ -202,7 +202,7 @@ so they should be its most carefully written documentation.  A web search for
 "writing good error messages" turns up hundreds of hits, but recommendations are
 often more like gripes than guidelines and are usually not backed up by
 evidence.  What research there is gives us the following rules
-<cite>Becker2016</cite>:
+[% b Becker2016 %]:
 
 Tell the user what they did, not what the program did.
 :   Putting it another way, the message shouldn't state the effect of the error,

@@ -120,7 +120,7 @@ which means they can jump directly to compilation errors when they occur.</dd>
 life, but every library you depend on is one more way for your project to
 accumulate <span i="technical debt">technical debt</span>.  Recent
 research shows that we are all biased toward solving problems by adding
-things instead of taking them away <cite>Meyvis2021</cite>; checking the
+things instead of taking them away [<a href="../bibliography/#Meyvis2021">Meyvis2021</a>]; checking the
 packages your project depends on before every release and cutting any you
 can will prevent a lot of future headaches.</dd>
 <dt>Always use the build manager---never compile or copy things by hand.</dt>
@@ -185,7 +185,7 @@ intervals (e.g., every hour or at three a.m.), or every time someone checks into
 version control (which I find more useful). Each time they run, they check a
 fresh copy of the project out of version control, build it, re-run all the
 tests, and post the results to the project's blog, web site, and mailing list.</p>
-<p>Research has proven the benefits of CI <cite>Hilton2016</cite>.  It acts as a
+<p>Research has proven the benefits of CI [<a href="../bibliography/#Hilton2016">Hilton2016</a>].  It acts as a
 "heartbeat" for the project: as soon as anything goes wrong, everyone knows. It
 also encourages good development practices: if someone checks something in that
 doesn't compile, run, or pass the project's tests, everyone will know very
@@ -247,7 +247,7 @@ jobs:
 </ul>
 <p>Configuring actions like these is a programming task like any other, except for
 the fact that you specify what you want in YAML rather than in Python,
-JavaScript, or some other language.  <cite>Zampetti2020</cite> looks at how
+JavaScript, or some other language.  [<a href="../bibliography/#Zampetti2020">Zampetti2020</a>] looks at how
 <em>not</em> to use CI, and can serve as a good checklist of things to avoid.</p>
 <p>If you don't want to go this far, you can add <span g="pre_commit_hook"
 i="pre-commit hook; Git!pre-commit hook">pre-commit</span> or <span

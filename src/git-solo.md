@@ -44,7 +44,7 @@ In practice, almost every project designates one repository as the master copy
 so that people know where to look to find the current state of the project.
 
 Unfortunately, Git has a needlessly complicated interface.
-<cite>PerezDeRosso2013</cite> found that even experienced users have a <span
+[% b PerezDeRosso2013 %] found that even experienced users have a <span
 g="mental_model" i="mental model!Git">mental model</span> of how it works that
 contradicts its actual operation in important ways, and each of those
 contradictions produces a steady stream of "what the hell?"  moments. Other
@@ -67,12 +67,12 @@ and <span i="GitLab; software portal!GitLab">[GitLab][gitlab]</span>, but
 GitHub's share of the educational market is even larger than its share
 among professional developers.  If you're using anything in class, you're almost
 certainly using it, and it's probably helping you become a better programmer
-<cite>Hsing2019</cite>.
+[% b Hsing2019 %].
 
 > ### Why can't we fix it?
 >
 > If Git's interface is a problem, why can't we build a new one?
-> <cite>PerezDeRosso2016</cite> tried, but as they report, the gravity of the
+> [% b PerezDeRosso2016 %] tried, but as they report, the gravity of the
 > existing interface is simply too powerful: as soon as people run into a problem
 > and start searching online for solutions, they're thrown back into the world of
 > original Git.
@@ -138,7 +138,7 @@ have and how they've changed.
 > Don't edit the files in your `.git` directory yourself---it will have the same
 > unfortunate effect as editing a spreadsheet or an image as if it was a text
 > file. If you'd like to know more about what they're for and how Git uses them,
-> please see <cite>Chacon2014</cite> or <cite>Cook2019</cite>.
+> please see [% b Chacon2014 %] or [% b Cook2019 %].
 
 If your instructor or one of your teammates has already created a project, you
 won't use `git init`. Instead, you will use `git clone` followed by the

@@ -23,7 +23,7 @@ entrepreneur who struck it lucky constitute "proof".
 
 This chapter therefore presents a few evidence-based results that are relevant
 to the kind of work you may be doing in your project and that your instructor
-might want to incorporate into your course <cite>Fagerholm2017</cite>.  If you
+might want to incorporate into your course [% b Fagerholm2017 %].  If you
 find them interesting and want to dig further, <a section="methods"/> describes the
 methods software engineering researchers use.  As with all research, though,
 some caution is required when interpreting results:
@@ -35,13 +35,13 @@ Theories change as more data becomes available.
 
 Most of these studies' subjects are <span i="WEIRD">WEIRD</span>.
 :   They are from Western, Education, Industrialized, Rich, and Democratic
-    societies <cite>Henrich2010</cite>, and may not be representative of the
+    societies [% b Henrich2010 %], and may not be representative of the
     other 99% of humanity.
 
 The data we have doesn't capture everything.
-:   <cite>Aranda2009</cite> found that in every one of the bugs they traced,
+:   [% b Aranda2009 %] found that in every one of the bugs they traced,
     some key insight or action wasn't captured digitally. Similarly,
-    <cite>Herzig2013</cite> carefully examined thousands of bug reports from
+    [% b Herzig2013 %] carefully examined thousands of bug reports from
     several projects and found that many mis-report themselves in ways that will
     inevitably skew the results of simplistic analysis.
 
@@ -56,7 +56,7 @@ comes in.
 Let's start our exploration of research results with the often-repeated claim
 that some programmers are <span i="productivity!comparative">ten times more
 productive</span> than others.  Is it actually true?  The short answer is, "It's
-complicated."  As <cite>Prechelt2019</cite> shows, the answer depends on what
+complicated."  As [% b Prechelt2019 %] shows, the answer depends on what
 exactly the question is intended to mean. Looking at exactly the same data, you
 could conclude that some programmers are 105 times more productive than
 others---except this doesn't take into account whether people's code actually
@@ -69,17 +69,17 @@ the median of the top 10%, the ratio is 5:1 or 11:1, depending on whether you
 use everyone in the sample or restrict it to those who used the same language
 respectively.
 
-<cite>Sadowski2019a</cite> summarizes of what we know, and more importantly, how
-to think about the problem.  The chapter <cite>Sadowski2019b</cite> lays out a
+[% b Sadowski2019a %] summarizes of what we know, and more importantly, how
+to think about the problem.  The chapter [% b Sadowski2019b %] lays out a
 three-axis framework for discussion based on the
 <span g="gqm" i="Goal-Question-Metric">goal-question-metric</span> approach.
 The more recent <span i="SPACE framework; productivity!SPACE framework">SPACE framework</span> looks at
 Satisfaction, Performance, Activity, Communication, and Efficiency
-<cite>Forsgren2018,Forsgren2021</cite>.  However productivity is measured, it's
+[% b Forsgren2018 Forsgren2021 %].  However productivity is measured, it's
 important to remember <span i="Goodhart's Law">[Goodhart's
 Law][goodhart-law]</span>: as soon as you use some measure to evaluate people it
 ceases to be a good measure because people will start to game the system.  For
-example, <cite>Gitinabard2020</cite> reports that it's possible to classify
+example, [% b Gitinabard2020 %] reports that it's possible to classify
 student software teams as collaborative, cooperative, or solo-submit by
 analyzing the history of their version control repositories. If these measures
 are ever used for grading, students will immediately start making extra commits
@@ -88,24 +88,24 @@ are ever used for grading, students will immediately start making extra commits
 Another thing to keep in mind is the way that privilege defines performance.
 People naturally value the things they're good at, so the people who define the
 criteria for high performance tend to emphasize things that just happen to give
-them high scores.  As Kenneth Wesson wrote in <cite>Littky2004</cite>, "If poor
+them high scores.  As Kenneth Wesson wrote in [% b Littky2004 %], "If poor
 inner-city children consistently outscored children from wealthy suburban homes
 on standardized tests, is anyone naïve enough to believe that we would still
 insist on using these tests as indicators of success?"
 
 > ### What don't you want to know?
 >
-> <cite>Begel2014</cite> asked one set of developers what questions they most
+> [% b Begel2014 %] asked one set of developers what questions they most
 > wanted researchers to answer, then asked another set of developers to rate those
 > questions.  Respondents favored questions about how customers typically use
 > their applications, but were opposed questions related to assessing the
 > performance of individual employees or comparing them with one another;
-> <cite>Huijgens2020</cite> found that data scientists viewed most possible
+> [% b Huijgens2020 %] found that data scientists viewed most possible
 > research topics the same way.
 
 ## What Do We Know About Programming Style?
 
-As we mentioned in <a section="tooling"/>, <cite>Stefik2013</cite> found that
+As we mentioned in <a section="tooling"/>, [% b Stefik2013 %] found that
 languages like <span i="C">C</span>, <span i="Java">Java</span>, and <span
 i="Perl">Perl</span> were as hard for people to learn as a language with a
 randomly designed syntax, while languages like <span i="Ruby">Ruby</span> and
@@ -113,7 +113,7 @@ randomly designed syntax, while languages like <span i="Ruby">Ruby</span> and
 is one of several showing that a programming language is a user interface that
 can be studied and evaluated like any other.
 
-For example, <cite>Stylos2007</cite> assessed how programmers use APIs with
+For example, [% b Stylos2007 %] assessed how programmers use APIs with
 required parameters in objects' constructors as opposed to parameterless default
 constructors. They hypothesized that required parameters would create more
 usable and self-documenting APIs by guiding programmers toward the correct use
@@ -124,7 +124,7 @@ parameters.  They then analyzed subjects' behavior using the
 framework, which showed that that requiring constructor parameters interfered
 with common learning strategies.
 
-<cite>Binkley2012</cite> reported that <span i="reading code">reading</span> and
+[% b Binkley2012 %] reported that <span i="reading code">reading</span> and
 understanding code is fundamentally different from reading prose: "…the more
 formal structure and syntax of source code allows programmers to assimilate and
 comprehend parts of the code quite rapidly independent of style.  In
@@ -133,7 +133,7 @@ also found that experienced developers are relatively unaffected by identifier
 style, so just to use consistent style in all examples.  Since most languages
 have style guides (e.g., <span i="PEP8; Python!PEP8 style
 guide">[PEP8][pep8]</span> for Python) and tools to check that code follows
-these guidelines.  In contrast, <cite>Schankin2018</cite> found that:
+these guidelines.  In contrast, [% b Schankin2018 %] found that:
 
 > With descriptive identifier names, developers spent more time in the lines of
 > code before the actual defect occurred and changed their reading direction less
@@ -144,24 +144,24 @@ these guidelines.  In contrast, <cite>Schankin2018</cite> found that:
 > program comprehension for more experienced developers but not for less
 > experienced developers.
 
-More recently, <cite>Floyd2017,Krueger2020,Peitek2021</cite> have used
+More recently, [% b Floyd2017 Krueger2020 Peitek2021 %] have used
 <span g="fmri" i="reading code!fMRI studies">fMRI</span> to look at what programmers'
 brain do when they are reading or writing code. The main findings are that
 reading code is cognitively different from reading prose, but that the more
 experienced programmers are, the less of a difference there is. This
 corroborates earlier work with <span i="reading code!eye tracking studies">eye
-tracking</span> like <cite>Hansen2013</cite>, which also found that experience
+tracking</span> like [% b Hansen2013 %], which also found that experience
 increases performance in most cases, but can actually *hurt* performance when
 assumptions about what code is supposed to do are violated (i.e., when the eye
 sees what the brain expects).
 
-<cite>Kernighan1999</cite> wrote, "Programmers are often encouraged to use long
+[% b Kernighan1999 %] wrote, "Programmers are often encouraged to use long
 variable names regardless of context.  This is a mistake: clarity is often
 achieved through brevity."  Lots of programmers believe this, but
-<cite>Hofmeister2017</cite> found that using full words in <span i="reading
+[% b Hofmeister2017 %] found that using full words in <span i="reading
 code!effect of variable names; variable naming">variable names</span> led to an
 average of 19% faster comprehension compared to letters and abbreviations.  In
-contrast, <cite>Beniamini2017</cite> found that using single-letter variable
+contrast, [% b Beniamini2017 %] found that using single-letter variable
 names didn't affect novices' ability to modify code.  This may be because their
 programs are shorter than professionals' or because some single-letter variable
 names have implicit types and meanings.  For example, most programmers assume
@@ -172,10 +172,10 @@ Similarly, programmers have argued for decades about whether <span i="type
 declaration!effect on readability">variables' data types</span> should have to
 be declared or not, usually based on their personal experience as professionals
 rather than on any kind of data.
-<cite>Hanenberg2013,Endrikat2014,Fischer2015</cite> found that requiring
+[% b Hanenberg2013 Endrikat2014 Fischer2015 %] found that requiring
 variable type declarations does add some complexity to programs, but it pays off
 by acting as documentation for a method's use---in particular, by forestalling
-questions about what's available and how to use it. <cite>Gao2017</cite> looked
+questions about what's available and how to use it. [% b Gao2017 %] looked
 at how many bugs in JavaScript programs would have been caught if the code had
 been written in TypeScript (which <span i="type declaration!effectiveness at
 catching bugs">adds types</span>), and came up with a figure of 15%, which is
@@ -184,7 +184,7 @@ at it.
 
 ## What Can We Learn From Analyzing Code?
 
-If engineering is applied science, then <cite>Eichberg2015</cite> is a great
+If engineering is applied science, then [% b Eichberg2015 %] is a great
 example of software engineering.  In it, the authors show that it's possible to
 identify a wide range of problems in code by comparing the actual <span i="flow
 graph!actual">flow graph</span> (which is the set of all possible paths through
@@ -214,7 +214,7 @@ influence the design of future systems. For example, Python, JavaScript, and
 many other languages are <span i="dynamic typing; typing!dynamic">dynamically
 typed</span>, while <span i="static typing; typing!static">statically
 typed</span> languages like Java that restrict variables to particular types of
-data. <cite>Akerblom2015</cite> looked at how often Python programs actually
+data. [% b Akerblom2015 %] looked at how often Python programs actually
 rely on dynamic typing, and found that it was taken advantage of in only 2.5% of
 cases. Adding generics (i.e., type declarations like `Array<int>`) only makes
 half a percent of difference.  This doesn't mean that languages shouldn't
@@ -224,7 +224,7 @@ on their designers to show that the complexity is worthwhile.
 Meanwhile, lots of people say that copy-pasting code is bad practice: if you
 find yourself creating <span i="code clones">code clones</span>, you should put
 the repeated code in its own method and call it from all the original copies
-(<a section="design"/>).  But when <cite>Kapser2008</cite> explored *why*
+(<a section="design"/>).  But when [% b Kapser2008 %] explored *why*
 developers create code clones, they found that code clones are OK in some cases:
 
 > …the results of the case study identify a set of patterns that are most often
@@ -240,7 +240,7 @@ developers create code clones, they found that code clones are OK in some cases:
 ## What Do We Know About the Quality of Software?
 
 The answer to the question in this section's title is, "A lot, and it's not good
-news." For example, <cite>Nakshatri2016</cite> looked at how <span
+news." For example, [% b Nakshatri2016 %] looked at how <span
 i="exception!under-used and abused">exceptions</span> are actually used in Java
 programs.  Rather than being used to make software more robust, exceptions are
 either ignored or used as a debugging aid.  For example, the most common `catch`
@@ -251,7 +251,7 @@ most programmers ignore Java's elaborate exception hierarchy and simply catch
 `Exception` (78%) or `Throwable` (84%) rather than any of their more specific
 subclasses.
 
-In a similar vein, <cite>Yuan2015</cite> analyzed the <span g="root_cause"
+In a similar vein, [% b Yuan2015 %] analyzed the <span g="root_cause"
 i="error!root cause analysis">root cause</span> of around 200 confirmed failures
 in large distributed systems. They report many findings, but the key one is that
 92% of the catastrophic system failures are the result of incorrect handling of
@@ -262,7 +262,7 @@ simple testing of error-handling code.  The lesson is clear: make sure your
 tests check that your program does the right thing when things go wrong.
 
 One reason things go wrong is that developers don't make use of the tools they
-have. <cite>Beller2019</cite> monitored 2,443 software engineers over the course
+have. [% b Beller2019 %] monitored 2,443 software engineers over the course
 of 2.5 years in four <span i="IDE!under-used and abused">IDEs</span>. They found
 that:
 
@@ -275,7 +275,7 @@ that:
 > think they test half of their time.
 
 Another factor that affects quality is how comprehensible the software is: in
-particular, how easy or difficult it is to set it up.  <cite>Xu2015</cite>
+particular, how easy or difficult it is to set it up.  [% b Xu2015 %]
 looked at how often various <span i="configuration!parameters">configuration
 parameters</span> are actually used, and how correctly; they report that:
 
@@ -302,7 +302,7 @@ parameters</span> are actually used, and how correctly; they report that:
 
 That said, most software actually *does* run despite the fact that programmers
 don't do things the "right" way. One possible reason comes from the study of
-trivial packages reported in <cite>Abdalkareem2017</cite>, which looked at
+trivial packages reported in [% b Abdalkareem2017 %], which looked at
 230,000 NPM packages and 38,000 JavaScript applications. It turns out that less
 than half of the trivial packages include tests; instead, they are "deployment
 tested", i.e., their authors fix the breakages that users report, so that while
@@ -313,7 +313,7 @@ they might not work in all situations, they work in all situations that matter.
 > Many people have put forward <span g="code_metric" i="code
 > metrics!ineffectiveness of">code metrics</span> that are supposed to measure the
 > complexity or likely number of bugs in a piece of software. However,
-> <cite>ElEmam2001</cite> found that these metrics are no better at predicting
+> [% b ElEmam2001 %] found that these metrics are no better at predicting
 > things than simply counting the number of lines of code, because the longer the
 > program is, the more likely it is to contain whatever kinds of problems those
 > more sophisticated metrics are looking for.
@@ -322,7 +322,7 @@ they might not work in all situations, they work in all situations that matter.
 
 If there is one "law" of software development that most practitioners have heard
 of, it is <span g="brooks_law" i="Brook's Law">Brooks' Law</span>: adding people
-to a late project makes it later. <cite>Meneely2011</cite> explores the
+to a late project makes it later. [% b Meneely2011 %] explores the
 correlation between adding people to a team and the quality of the software the
 team works on.  The paper reports that adding people is correlated with a later
 increase in software quality, but adding them too quickly (that is, at a faster
@@ -331,7 +331,7 @@ is puzzling because theoretically, adding people to a project increases its
 coordination costs, which in turn should impact all metrics of team success
 negatively, including quality.
 
-<cite>Meneely2011</cite> isn't an isolated finding: <cite>Mockus2010</cite>
+[% b Meneely2011 %] isn't an isolated finding: [% b Mockus2010 %]
 found that more newcomers are not correlated with more defects, which supports
 this finding. One possibility is that newcomers are assigned easy tasks, and so
 they can't really break things too dramatically or in a way that won't get
@@ -339,7 +339,7 @@ caught internally in time. Another possibility is that the product has matured
 over time---that software quality would go up no matter the team size simply
 because there's less new functionality added as time goes on.
 
-<cite>Posnett2011</cite> present an interesting twist on this. In the open
+[% b Posnett2011 %] present an interesting twist on this. In the open
 source projects they studied, they found that although code changes in general
 are associated with future defect fixing activity, as we might expect, those
 changes that correspond to new feature development and to code improvements are
@@ -349,7 +349,7 @@ well-established open source projects tend to be quite conservative, and new
 feature code is heavily scrutinized, so that most defects are found and sorted
 out before the code is integrated.
 
-Another surprising result comes from <cite>Khomh2012</cite>. They examined the
+Another surprising result comes from [% b Khomh2012 %]. They examined the
 effects of Mozilla's switch from a yearly (or longer) release cycle to a much
 more frequent cycle. Their raw material is bug and crash data; their conclusions
 are:
@@ -368,7 +368,7 @@ don't have an explanation.
 
 One of the many reasons software projects fail is poor estimation, and one of
 the reasons people estimate badly is that they don't keep track of what's
-happened before. <cite>McIntosh2011</cite> provides a baseline for both how much
+happened before. [% b McIntosh2011 %] provides a baseline for both how much
 effort is required to keep the build system in working order, and how much those
 figures can be improved:
 
@@ -381,7 +381,7 @@ figures can be improved:
 > investment in build experts can reduce the proportion of impacted developers
 > to 22% of source code developers and 24% of test code developers.
 
-How reliable are results like these?  To find out, <cite>Anda2009</cite> had
+How reliable are results like these?  To find out, [% b Anda2009 %] had
 four teams build the same software independently and in parallel so that they
 could look at which outcomes were reproducible and which were not:
 
@@ -404,7 +404,7 @@ Do <span i="programmers!happiness">happy programmers</span> produce better code?
 If they do, then focusing on their tools may be missing the point: it may be
 their environment and colleagues that matter more.  Unfortunately, researchers
 haven't yet discovered how to induce happiness, so a randomized controlled trial
-isn't an option. Instead, <cite>Graziotin2014</cite> measured emotional state
+isn't an option. Instead, [% b Graziotin2014 %] measured emotional state
 using a questionnaire developed by psychology researchers.  They divided up the
 study participants into positive and non-positive groups, then looked at how
 those groups performed on an analytical task and a creative task.  The positive
@@ -415,7 +415,7 @@ The <span i="pair programming!effect of personality">broader topic of
 personality</span> also comes up in discussions of pair programming: do you need
 to be an extrovert to reap its benefits, is the contrast in personality with
 your peer important, and so on. Several studies have addressed these questions;
-<cite>Hannay2010</cite> is a good place to start reading about them.  As they
+[% b Hannay2010 %] is a good place to start reading about them.  As they
 say, "We found no strong indications that personality affects pair programming
 performance or pair gain in a consistent manner." They go on to suggest that
 industry and research should "focus on other predictors of performance,
@@ -440,12 +440,12 @@ any personality effects.
 > model</span> has five dimensions: Openness to experience, Conscientiousness,
 > Extraversion, Agreeableness, and Neuroticism. Studies of twins and other
 > research has found that about half of personality variation comes from genetics
-> and about half from environment, and work like <cite>Hannay2010</cite> has used
+> and about half from environment, and work like [% b Hannay2010 %] has used
 > this model in studies of programmers.
 
 ## What Do We Know About Innate Ability?
 
-The most important result in this chapter comes from <cite>Patitsas2016</cite>.
+The most important result in this chapter comes from [% b Patitsas2016 %].
 <span i="programming!innate ability">Its abstract</span> is worth repeating in
 full:
 
@@ -469,7 +469,7 @@ In plain language, if some people are born programmers and others aren't, there
 ought to be two humps in the grade distribution. There isn't, but if people
 believe some people are "just better" at coding, they're more likely to *see*
 two humps. These beliefs matter because they are a self-fulfilling prophecy
-<cite>Brophy1983</cite>: if a teacher believes that student A is more likely to
+[% b Brophy1983 %]: if a teacher believes that student A is more likely to
 succeed than student B, they will give student A more attention, which *makes*
 them more likely to succeed, which confirms the teacher's bias.
 
@@ -477,9 +477,9 @@ them more likely to succeed, which confirms the teacher's bias.
 
 Some of the most interesting work in software engineering today is coming from
 people studying how we think when we program and how the ways we think should
-shape the tools we build. For example, <cite>Johnson2020</cite> reverse
+shape the tools we build. For example, [% b Johnson2020 %] reverse
 engineers the cognitive foundations of user interface guidelines, while
-<cite>Chattopadhyay2020</cite> found that roughly 70% of the actions programmers
+[% b Chattopadhyay2020 %] found that roughly 70% of the actions programmers
 later undo could be attributed to <span g="cognitive_bias" i="cognitive
 bias">cognitive bias</span>.
 

@@ -5,7 +5,7 @@ template: page
 ---
 
 Most people learn better together than they do on their own
-<cite>Michaelson2004</cite>.  As long as their teams <span i="teams!learning
+[% b Michaelson2004 %].  As long as their teams <span i="teams!learning
 benefits of">work well</span>, they achieve higher grades, retain information
 longer, are less likely to drop out of school, and graduate with better
 communication skills and a better understanding of what will be expected of them
@@ -51,7 +51,7 @@ more difficult.
 
 Many students prefer to <span i="teams!selecting">select</span> their teammates,
 and students with high grades tend to want teammates with a similar profile.
-<cite>Post2020</cite> found that matching students by grade led to a small
+[% b Post2020 %] found that matching students by grade led to a small
 improvement in outcomes, with a larger impact on team grades than on individual
 ones. The same study found that members of self-selected teams were more likely
 to already have <span i="teams!effect of having friends on">friends</span> on
@@ -61,7 +61,7 @@ because people are less willing to hold friends accountable for missed work).
 One surprising finding is that having students with <span i="teams!benefits of
 diverse ability levels">a range of grades</span> in the same team either has no
 effect or improves outcomes *for everyone*
-<cite>Mosher2013,Donovan2018,Farland2019,Auvinen2020</cite>.  It's easy to see
+[% b Mosher2013 Donovan2018 Farland2019 Auvinen2020 %].  It's easy to see
 how this benefits teams of weak students: they are likely to get coaching from
 their stronger teammates. One theory for why it also helps stronger students is
 that the best way to learn something is to explain it to someone else; bringing
@@ -78,7 +78,7 @@ course with questions about the project work, your mark on it may depend on how
 much you know about your teammates' work (<a section="delivery"/>).
 
 The most powerful argument for instructors selecting teams, though, is that's
-how it works in the real world <cite>Oakley2004</cite>.  You probably won't get
+how it works in the real world [% b Oakley2004 %].  You probably won't get
 to pick your colleagues if you join a company or an academic research group.
 Instead, you'll be put on a project and expected to work well with whoever else
 is on it. Your performance will depend as much on your ability to get along with
@@ -91,7 +91,7 @@ minority groups are more likely to drop out of computer science than other
 students, particularly in first and second year, and one of the main reasons is
 feeling isolated or out of place. Research has shown that putting at-risk
 students together in the first couple of years can mitigate this problem
-<cite>Margolis2002</cite>. It is less necessary in upper years, since by then
+[% b Margolis2002 %]. It is less necessary in upper years, since by then
 students have a stronger commitment to whatever program they're in, but it still
 helps to prevent some of the problems discussed in the next section.
 
@@ -160,8 +160,8 @@ programming---after all, why play a game that's unfair?
 >
 > <span i="history of computing">Programming</span> was originally considered a
 > female occupation, but as it became more lucrative it came to be viewed as
-> "naturally" male.  <cite>Abbate2012</cite> and <cite>Ensmenger2012</cite>
-> describe how this happened, while <cite>Hicks2018</cite> looks at how Britain
+> "naturally" male.  [% b Abbate2012 %] and [% b Ensmenger2012 %]
+> describe how this happened, while [% b Hicks2018 %] looks at how Britain
 > lost its early dominance in computing by systematically discriminating against
 > its most qualified workers: women.  Some men become quite uncomfortable whenever
 > this is brought up, but we need to learn how to discuss our own history if we
@@ -171,16 +171,16 @@ programming---after all, why play a game that's unfair?
 ## Division of Labor
 
 There are many ways to divide project work between team members, and as
-<cite>Conway1968</cite> observed, the software you get will reflect the division
+[% b Conway1968 %] observed, the software you get will reflect the division
 of labor, a phenomenon known as <span g="conways_law" i="Conway's Law">Conway's
 Law</span> or <span g="sociotechnical_congruence" i="sociotechnical
-congruence">socio-technical congruence</span> <cite>Cataldo2008</cite>. In a
+congruence">socio-technical congruence</span> [% b Cataldo2008 %]. In a
 <span g="modular_decomposition" i="modular decomposition; allocating
 work!modular decomposition">modular decomposition</span>, each person is
 responsible for one part of the program. For example, one person might design
 and build the GUI, while another writes the database interface, and a third
 implements the business rules. Having people own parts of the code like this
-produces lower failure rates in industry <cite>Bird2011</cite>, but is generally
+produces lower failure rates in industry [% b Bird2011 %], but is generally
 a bad strategy in a course project:
 
 1.  It increases the risk of people from marginalized groups being assigned
@@ -216,11 +216,11 @@ well they work.
 
 > ### The <span i="Dunning-Kruger effect">Dunning-Kruger effect</span>
 >
-> <cite>Kruger1999</cite> reported that people who know a subject well can usually
+> [% b Kruger1999 %] reported that people who know a subject well can usually
 > estimate their knowledge accurately, but people who don't will often
 > overestimate their competence because they don't know what they don't know.
 > More recent work has cast doubt on this finding: it could simply be an artifact
-> of the way the original researchers did their statistics <cite>Jarry2020</cite>.
+> of the way the original researchers did their statistics [% b Jarry2020 %].
 > Either way, you should never trust self-reported expertise, as there's no easy
 > way to tell if someone really knows what they're talking about or if what
 > they're actually reporting is their self-esteem.
@@ -258,7 +258,7 @@ there when you need it.
 > ### Clarity
 >
 > No matter how you allocate work, make sure that everyone understands who is
-> doing what, when. As <cite>Barke2019</cite> found, actual roles can be fluid;
+> doing what, when. As [% b Barke2019 %] found, actual roles can be fluid;
 > what matters most is that team members understand and accept their
 > responsibilities and everyone else's at any particular moment.
 
@@ -345,7 +345,7 @@ Asking people on a team to <span i="peer evaluation">rate their peers</span> is
 a common practice in industry.  Instructors sometimes shy away from it because
 they're afraid students will gives everyone in the team a high rating in order
 to boost grades. However, this actually occurs fairly infrequently
-<cite>Kaufman2000</cite>.
+[% b Kaufman2000 %].
 
 What's more, as long as evaluation is based on observables, rather than
 personality traits, peer assessment can actually be as accurate as assessment by
@@ -404,7 +404,7 @@ Not everything worth doing should be done.
 
 Success is a habit.
 :   The more you follow a routine, the more your brain will be able to focus on
-    the right things at the right time. <cite>Gawande2011</cite> found that
+    the right things at the right time. [% b Gawande2011 %] found that
     <span i="checklists!benefits of">checklists</span> improve results even for
     experts, and <a section="important"/> talked about the value of to-do lists for
     managing your time. Making these a habit reduce <span i="cognitive

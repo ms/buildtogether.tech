@@ -14,11 +14,11 @@ make up for that, but I hope the guidance below will help make you more
 efficient.
 
 Debugging depends on being able to read code, which is the single most effective
-way known to find bugs <cite>Basili1987,Kemerer2009,Bacchelli2013</cite>.
+way known to find bugs [% b Basili1987 Kemerer2009 Bacchelli2013 %].
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
 written about how to <span i="reading code">read</span> it
-(<cite>Spinellis2003</cite> being my favorite).  As <a section="rules-joining"/>
+([% b Spinellis2003 %] being my favorite).  As <a section="rules-joining"/>
 says, reading other people's code is one of the best ways to learn how to be a
 better programmer; tracking down a bug may not be when you want to broaden your
 knowledge, but if you're there anyway, you might as well.
@@ -121,7 +121,7 @@ Change one thing at a time.
 
 What mistakes do programmers make <span i="common programming errors;
 error!common">most often</span>?  The largest study of this for novices is
-<cite>Brown2017</cite>, which found that mismatched quotes and parentheses are
+[% b Brown2017 %], which found that mismatched quotes and parentheses are
 the most common type of errors in novice Java programs, but also the easiest to
 fix, while some mistakes (like putting the condition of an `if` in `{…}` instead
 of `(…)` are most often made only once.  Unsurprisingly, mistakes that produce
@@ -129,7 +129,7 @@ compiler errors are fixed much faster than ones that don't.  Some mistakes,
 however, are made many times, like invoking methods with the wrong arguments
 (e.g., passing a string instead of an integer).
 
-<cite>Brown2017</cite> also compared <span i="error!misperception of
+[% b Brown2017 %] also compared <span i="error!misperception of
 frequency">the mistakes novices actually make</span> with what their teachers
 thought they made.  They found that, "…educators formed only a weak consensus
 about which mistakes are most frequent, that their rankings bore only a moderate
@@ -137,7 +137,7 @@ correspondence to the students in the…data, and that educators' experience had
 no effect on this level of agreement."  For example, mistaking `=` (assignment)
 and `==` (equality) wasn't nearly as common as most teachers believed.
 
-For experienced programmers, <cite>Pritchard2015</cite> reported that the most
+For experienced programmers, [% b Pritchard2015 %] reported that the most
 common errors in Python programs were (in order):
 
 1.  SyntaxError: invalid syntax
@@ -182,17 +182,17 @@ Trees and graphs
 
 <!-- continue -->
 As <a section="git-team"/> said, the longer list in
-<cite>Stegeman2014,Stegeman2016</cite> can be adapted for more advanced
+[% b Stegeman2014 Stegeman2016 %] can be adapted for more advanced
 students' programs.
 
 One of the most common errors programmers make is to assume that their first
-attempt at fixing a problem actually worked.  <cite>Yin2011</cite> found that
+attempt at fixing a problem actually worked.  [% b Yin2011 %] found that
 14--25% of bug "fixes" released for major operating systems didn't actually fix
 the bug (a figure that rose to 39% for concurrency-related bugs), while
-<cite>Park2012</cite> found that up to a third of bugs required more than one
+[% b Park2012 %] found that up to a third of bugs required more than one
 attempt to fix.
 
-But there is good news as well.  <cite>Pan2008</cite> identified 27 patterns for
+But there is good news as well.  [% b Pan2008 %] identified 27 patterns for
 bug fixes by inspecting the history of seven large open source Java projects and
 found that the five most common are:
 
@@ -215,7 +215,7 @@ found that the five most common are:
 Wherever we find patterns we can try to write programs to spot them and act on
 them.  The goal of research in <span g="automated_program_repair" i="automated
 program repair">automated program repair</span> is to build tools that can fix
-common bugs on their own <cite>Monperrus2018,LeGoues2019</cite>.  These tools
+common bugs on their own [% b Monperrus2018 LeGoues2019 %].  These tools
 use several approaches:
 
 Generate and validate.
@@ -248,12 +248,12 @@ Symbolic execution.
 
 Most [program repair tools][program-repair] are still research prototypes, but
 one particularly interesting use case is repairing student programs as a way of
-giving feedback on assignments <cite>Hu2019</cite>.  If you are looking for an
+giving feedback on assignments [% b Hu2019 %].  If you are looking for an
 ambitious course project that might lead to graduate research, this is a good
 place to start.
 
 Another semi-automated technique for finding bugs is <span g="delta_debugging"
-i="delta debugging">delta debugging</span> <cite>Zeller2009,Zeller2021</cite>.
+i="delta debugging">delta debugging</span> [% b Zeller2009 Zeller2021 %].
 <span i="fuzz testing">Fuzz testing</span> can automatically generate inputs
 that make programs fail (<a section="testing"/>), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
@@ -307,7 +307,7 @@ debugging">logging</span> library to give yourself more control.
 > ### If it was important, it would be on the exam
 >
 > Over the years I've been surprised by how few programmers know how to use a
-> debugger <cite>Beller2018</cite>. The reason can't be the five or ten minutes it
+> debugger [% b Beller2018 %]. The reason can't be the five or ten minutes it
 > takes to learn how to use one---that pays for itself almost immediately.  The
 > best explanation I've been able to come up with relates to <span i="Goodhart's
 > Law">[Goodhart's Law][goodhart-law]</span>, which says that as soon as you use

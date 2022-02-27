@@ -26,7 +26,7 @@ In 1905, Harvard began selecting students based on their College Entrance Exam
 Board results.  As a result, Jewish enrolment began to rise, and by the early
 1920s they made up more than a fifth of the incoming class.  This wasn't an
 outcome the establishment was willing to accept, but neither were explicit
-quotas, so they moved the goalposts <cite>Karabel2006</cite>.  Admissions
+quotas, so they moved the goalposts [% b Karabel2006 %].  Admissions
 officers began asking questions about the "character" of prospective students,
 and the university began asking for personal essays that could be graded however
 the university found most convenient. By 1933, the rate of Jewish admission was
@@ -45,7 +45,7 @@ unconscious bias)">Cultural fit</span>" almost always means "like me":
 consciously or not, we are all <span i="unconscious bias">biased</span> toward
 those who look like us, talk like us, and make the same pop culture references
 as us, which has nothing to do with on-the-job ability
-<cite>Greenwald1995,Jost2009</cite>.
+[% b Greenwald1995 Jost2009 %].
 
 One way this bias shows up is in <span i="whiteboard coding
 questions">whiteboard coding questions</span> about linked lists, dynamic
@@ -59,9 +59,9 @@ Curley][curley-april], a recruiter at <span i="Google!unfair hiring
 practices">Google</span>, began coaching Black students how to prepare for
 interviews with Google that included questions like these, the company shut her
 down---even though schools like Stanford had been running coaching sessions for
-their students for years <cite>Tiku2021</cite>.
+their students for years [% b Tiku2021 %].
 
-<cite>Behroozi2019,Behroozi2020a,Behroozi2020b</cite> summarize <span i="hiring
+[% b Behroozi2019 Behroozi2020a Behroozi2020b %] summarize <span i="hiring
 process!mistakes">many other things that often go wrong in hiring</span>, from
 long delays waiting for feedback to asking candidates to spend several days
 working for free on programming assignments.  These aren't just signs of
@@ -89,14 +89,14 @@ not gives you valuable information about how well run it is.  Here are <span
 i="hiring process!healthy">a few positive indicators</span>:
 
 Write inclusive, accessible job ads.
-:   <cite>Gaucher2011</cite> is just one of many studies showing that gendered
+:   [% b Gaucher2011 %] is just one of many studies showing that gendered
     wording in job ads reinforces gender inequality in male-dominated
     occupations. <span i="Gender Decoder">[Gender
     Decoder][gender-decoder]</span> and <span
     i="GenderMag">[GenderMag][gendermag]</span> can help you find bugs like this
-    in ads and software <cite>Hilderbrand2020</cite>. Tools for finding and
+    in ads and software [% b Hilderbrand2020 %]. Tools for finding and
     eliminating racial bias and other problems aren't as common, but
-    <cite>Washington2020</cite> will tell you what to aim for, and if <span
+    [% b Washington2020 %] will tell you what to aim for, and if <span
     i="WebAIM WAVE">[WebAIM WAVE][webaim-wave]</span> doesn't give your online
     job ads a clean bill of health, please fix them.
 
@@ -154,7 +154,7 @@ shown that <span i="discrimination">men and women are treated differently on the
 job</span>: women have to work twice as hard to be given half as much credit,
 they are listened to less often or given less credit for new ideas, and what is
 seen as confidence in men is seen as pushiness or stridency in women
-<cite>Gavett2017</cite>.  People of color are undermined and discounted in the
+[% b Gavett2017 %].  People of color are undermined and discounted in the
 same way in majority-white workplaces in Europe and North America, and
 discrimination based on race, faith, and caste are endemic in the rest of the
 world as well.
@@ -202,7 +202,7 @@ But suppose you are a straight, physically able, white or Asian male without
 mental health issues---why should you care about people who are marginalized
 because they aren't these things?  One argument is self-interest: study after
 study has shown that more diverse teams perform better, that companies with more
-diverse management are more profitable, and so on <cite>Zhan2020</cite>.
+diverse management are more profitable, and so on [% b Zhan2020 %].
 
 > ### Setting limits
 >
@@ -230,7 +230,7 @@ affect the professor nearly as much as the professor's evaluation of the student
 affects the student.  This imbalance is why management fads like "<span
 i="radical candor (as bullshit)">radical candor</span>" are <span
 g="bullshit">bullshit</span> (in the technical sense of the word
-<cite>Frankfurt2005</cite>). The idea that everyone should say what they think
+[% b Frankfurt2005 %]). The idea that everyone should say what they think
 is appealing in theory; in practice, managers will brush aside the fact that
 they can fire people who say things they don't like and blame the marginalized
 for not speaking out more or more loudly.
@@ -242,7 +242,7 @@ sustained disinformation from the rich and powerful have made many people
 believe that collectives are intrinsically inefficient or that they stifle
 innovation; ironically, the entrepreneurs and CEOs who are the most vocal
 proponents unrestricted capitalism all organize their companies along socialist
-lines <cite>Phillips2019</cite>.
+lines [% b Phillips2019 %].
 
 As an example of what working together looks like, consider the difference
 between a ride-sharing company like <span i="Uber">Uber</span> and the
@@ -250,7 +250,7 @@ house-cleaning company <span i="Up & Go">Up & Go</span>.  Uber uses its control
 of the app that connects customers with drivers to extract profits by squeezing
 drivers. In contrast, the people who work for Up & Go own the app as a group; 5%
 of what customers pay goes to its upkeep, and the rest goes to the workers
-<cite>Thompson2019</cite>.  There might be one less billionaire in the world,
+[% b Thompson2019 %].  There might be one less billionaire in the world,
 but everyone else benefits.
 
 Up & Go is an example of a <span g="commons" i="commons">commons</span>:
@@ -258,7 +258,7 @@ something managed jointly by a community according to rules they have evolved
 themselves.  All three parts of that definition are essential: a commons isn't
 just a shared pasture or an open source software stack; it also includes the
 community that shares it and the rules they use to do so
-<cite>Bollier2014,Ostrom2015</cite>.  As <cite>Mildenberger2019</cite>
+[% b Bollier2014 Ostrom2015 %].  As [% b Mildenberger2019 %]
 describes, the idea of "the tragedy of the commons" gets things completely
 wrong: people exploiting a shared resource so much that it collapses is what
 happens when a commons breaks down.
@@ -293,21 +293,21 @@ defuse situations and defend people who are being attacked.
 > ### Not acting is a choice as well
 >
 > <a section="rules-newcomers"/> said that an organization's culture is defined by
-> the worst behavior it tolerates <cite>Gruenert2015</cite>; I believe that who we
+> the worst behavior it tolerates [% b Gruenert2015 %]; I believe that who we
 > are as individuals is defined in the same way.
 
-<cite>Dobbin2019</cite> (summarized in <cite>Dobbin2020</cite>) found that most
+[% b Dobbin2019 %] (summarized in [% b Dobbin2020 %]) found that most
 of what American companies have done over the past twenty years to reduce sexual
 harassment and discrimination has either had no effect or made things worse. The
 reason is that the people who care don't gain anything from being told they
 should, while the people who are part of the problem resent being told that and
 tend to take out their anger on the people the training is meant to protect.
 
-However, <cite>Dobbin2019</cite> also found that what *did* make a difference
+However, [% b Dobbin2019 %] also found that what *did* make a difference
 was showing people how to intervene, since this made them more likely to do so
 (in the same way that having some first aid training makes you more likely to
 take action in a crisis).  An example of this kind of training is the guidelines
-in <cite>Aurora2018</cite> for responding to <span i="Code of Conduct!responding
+in [% b Aurora2018 %] for responding to <span i="Code of Conduct!responding
 to violations">Code of Conduct violations</span> (<a section="starting"/>). On a
 smaller scale, your instructor can have you work through scenarios like this one
 with your teammates and the rest of your class:
@@ -336,7 +336,7 @@ are that (in <span i="Scalzi, John">John Scalzi</span>'s memorable analogy)
 you've been playing at the lowest difficulty level there is your whole life, and
 as a result don't realize how much harder things are for others whose default
 setting isn't "<span i="easy mode (as a metaphor for privilege)">easy
-mode</span>" <cite>Scalzi2012</cite>.
+mode</span>" [% b Scalzi2012 %].
 
 > ### How far back should we go?
 >
@@ -389,10 +389,10 @@ abstract.
 In the last few years, though, we have all seen first-hand just how much harm
 software can do to everyone.  A decade ago, Facebook discovered that angry
 people are more likely to engage with the platform, resulting in higher ad
-revenue for the company <cite>Hao2021</cite>.  Since disinformation and
+revenue for the company [% b Hao2021 %].  Since disinformation and
 radicalization were profitable, the company did everything it could to deflect
 criticism and avoid responsibility, even as they fueled the rise of violent
-nationalism and a campaign of mass murder <cite>Rajagopalan2018</cite>.  By the
+nationalism and a campaign of mass murder [% b Rajagopalan2018 %].  By the
 time COVID-19 began to spread, it and other tech companies had trained people
 all over the world believe in conspiracy theories rather than medicine, with
 fatal consequences.
@@ -422,22 +422,22 @@ added that feature ever lost a loved one to a drunk driver.
 
 As a programmer you are able to shape the world in ways that most mad scientists
 can only dream of, but with great power comes great responsibility
-<cite>Lee1962</cite>.  If you'd like to understand what we're getting wrong now
+[% b Lee1962 %].  If you'd like to understand what we're getting wrong now
 so that you can avoid making the same mistakes, ask your instructor to accept a
 report on one of these books for part of your project grade:
 
--   *Automating Inequality* <cite>Eubanks2019</cite> shows how the algorithms used
+-   *Automating Inequality* [% b Eubanks2019 %] shows how the algorithms used
     to allocate health care, target people for tax audits, and decide where
     police will patrol all punish the poor for being poor.  (And if your
     reaction is, "I'm not poor so I don't care," talk to someone whose credit
     rating has never recovered from someone else with the same name missing a
     few student loan payments.)
 
--   *Algorithms of Oppression* <cite>Noble2018</cite> looks at how those
+-   *Algorithms of Oppression* [% b Noble2018 %] looks at how those
     algorithms, and the ones used by search engines, amplify and perpetuate
     racism and sexism.
 
--   *Weapons of Math Destruction* <cite>ONeil2017</cite> delves more deeply into
+-   *Weapons of Math Destruction* [% b ONeil2017 %] delves more deeply into
     the math being used and abused by these systems.  For example, software that
     predicts how likely someone is to commit a crime may use the age of their
     first interaction with the police in its score.  Thanks to racially biased
@@ -446,8 +446,8 @@ report on one of these books for part of your project grade:
     sentence, which increases the chance of a future offense, which is then used
     as evidence that the algorithm works.
 
--   *Technically Wrong* <cite>WachterBoettcher2017</cite> and *Invisible Women*
-    <cite>CriadoPerez2019</cite> look at how the lack of diversity among
+-   *Technically Wrong* [% b WachterBoettcher2017 %] and *Invisible Women*
+    [% b CriadoPerez2019 %] look at how the lack of diversity among
     engineers and managers leads to products that either don't address
     everyone's needs or actually do harm: seatbelts and airbags that injure
     women because they were only tested on male models, facial recognition
@@ -471,7 +471,7 @@ me?"
 > in this chapter.  That project fizzled out, in part because someone like Brad
 > (<a section="introduction"/>) wouldn't read something that said, "Programmers are
 > doing harm and maybe you're part of the problem."
-> <cite>Bullock2021,Cohen2021,Ferreira2021,Gordon2021,Prioleau2021,Rankin2021</cite>
+> [% b Bullock2021 Cohen2021 Ferreira2021 Gordon2021 Prioleau2021 Rankin2021 %]
 > are a sign that these bigger issues might finally be added to the curriculum,
 > but will take a long time to bear fruit. Meanwhile, I hope that starting with
 > time management and version control, then talking about teams and conflict, will

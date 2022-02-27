@@ -11,7 +11,7 @@ how to run a meeting, and how to resolve arguments.
 
 > ### Not writing software takes less time
 >
-> <cite>Sedano2017</cite> found that software development projects have
+> [% b Sedano2017 %] found that software development projects have
 > <span i="waste (in software development)">nine types of waste</span>: building the
 > wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
 > solutions, extraneous <span i="cognitive load">cognitive load</span>
@@ -37,7 +37,7 @@ My mistake was to confuse "long hours" with "getting things done".  You can't
 produce software (or anything else) without doing some work, but you can easily
 do lots of work without producing anything of value.  Scientific study of <span
 i="overwork">overwork</span> goes back to at least the 1890s---see
-<cite>Robinson2005</cite> for a short, readable summary.  The most important
+[% b Robinson2005 %] for a short, readable summary.  The most important
 results for developers are:
 
 1.  Working more than eight hours a day for more than a couple of weeks of time
@@ -51,7 +51,7 @@ results for developers are:
 
 These facts have been verified through hundreds of experiments over the course
 of more than a century, including some on novice software developers
-<cite>Fucci2020</cite>.  The data behind them is as solid as the data linking
+[% b Fucci2020 %].  The data behind them is as solid as the data linking
 smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
 science somehow didn't apply to them.  To quote <span i="Robinson,
@@ -132,9 +132,9 @@ be---and pace yourself accordingly.
 I *have* to work extra hours to get them all done!" Sadly, that is often true:
 while people in industry joke that having two bosses means living in hell, most
 students can only dream of having just two, since most schools do a lousy job of
-coordinating due dates across different courses.  <cite>Tregubov2017</cite>
+coordinating due dates across different courses.  [% b Tregubov2017 %]
 found strong correlation between the number of projects and the number of
-interruptions that developers reported, while <cite>Edwards2009</cite> found
+interruptions that developers reported, while [% b Edwards2009 %] found
 that starting assignments early and working consistently both predicted good
 grades.
 
@@ -142,7 +142,7 @@ The best strategy for <span i="time management">time management</span> is to
 prioritize and focus.  Prioritizing is important because most of us are very
 good at spending hours on things that don't need to be done and then finding
 themselves with too little time for the things that actually count. A little bit
-of organizing can help a lot---as <cite>Mark2008</cite> reported, "…people
+of organizing can help a lot---as [% b Mark2008 %] reported, "…people
 compensate for interruptions by working faster, but this comes at a price:
 experiencing more stress, higher frustration, time pressure and effort."
 
@@ -211,7 +211,7 @@ the deadline.  Since breaking large tasks down into small ones takes time, don't
 be surprised if "plan XYZ" appears as a task in your list.
 
 The point of all this organization and preparation is to get yourself into the
-most productive mental state possible.  <cite>Csikszentmihalyi1991</cite>
+most productive mental state possible.  [% b Csikszentmihalyi1991 %]
 popularized the term <span g="flow" i="flow">flow</span> for this; athletes call
 it "being in the zone", while musicians talk about losing themselves in what
 they're playing.  Whatever name you use, you will produce much more in this
@@ -219,10 +219,10 @@ state than normal.
 
 The bad news is that it takes anywhere from several seconds to several minutes
 to get back into a productive flow after an interruption
-<cite>Parnin2010,Borst2015</cite>.  This means that if you are interrupted half
+[% b Parnin2010 Borst2015 %].  This means that if you are interrupted half
 a dozen times per hour you are *never* at your productive peak. Ironically, the
 cost of self-interruptions may be even worse than the cost for external
-interruptions <cite>Abad2018</cite>.  It's very much like processes being paged
+interruptions [% b Abad2018 %].  It's very much like processes being paged
 in and out by an operating system: if it happens too often, the CPU spends all
 its time moving things around and none doing useful work.
 
@@ -235,8 +235,8 @@ They may even start to imitate you.
 >
 > <span i="open offices (evils of)">Open offices</span> were created so that
 > (mostly male) managers could keep an eye on (mostly female) office workers, and
-> to reduce air conditioning costs <cite>Eley1995</cite>.  In every other way we
-> can measure, they lower productivity <cite>Bernstein2018</cite>.
+> to reduce air conditioning costs [% b Eley1995 %].  In every other way we
+> can measure, they lower productivity [% b Bernstein2018 %].
 
 > ### Nihil de nobis sine nobis
 >
@@ -409,7 +409,7 @@ likely they are to miss something important.
 > course.
 
 If you would like to become better at sharing information and making decisions,
-there is no better place to start than <cite>Brookfield2016</cite>. This book
+there is no better place to start than [% b Brookfield2016 %]. This book
 catalogs fifty different techniques and explains when and why each is useful.
 
 ## Air Time
@@ -440,7 +440,7 @@ to get them to throttle back.
 
 Online meetings provide special challenges, both in the context of regulating
 how often individuals speak, as well as running meetings in general.
-<cite>Troy2018</cite> discusses why <span i="meetings (online)">online
+[% b Troy2018 %] discusses why <span i="meetings (online)">online
 meetings</span> are often frustrating and unproductive and points out that in
 most online meetings, the first person to speak during a pause gets the floor.
 As a result, "If you have something you want to say, you have to stop listening
@@ -460,7 +460,7 @@ The purpose of a meeting is to make decisions, so sooner or later, the members
 of a project must decide who has a say in what.  The first step is to
 acknowledge that every team has a power structure: the question is whether it's
 formal or informal---in other words, whether it's accountable or unaccountable
-<cite>Freeman1972</cite>.  The latter can work for groups of up to half a dozen
+[% b Freeman1972 %].  The latter can work for groups of up to half a dozen
 people in which everyone knows everyone else.  Beyond that, groups need to spell
 out who has the authority to make which decisions and how to achieve consensus.
 In short, they need explicit <span g="governance"
@@ -468,7 +468,7 @@ i="governance">governance</span>.
 
 <span g="marthas_rules" i="Martha's Rules">Martha's Rules</span> are a practical
 way to do this in groups with up to a few dozen members
-<cite>Minahan1986</cite>, and work very well for smaller teams too:
+[% b Minahan1986 %], and work very well for smaller teams too:
 
 1.  Before each meeting, anyone who wishes may sponsor a proposal.  Proposals
     must be filed at least 24 hours before a meeting in order to be considered
@@ -538,4 +538,4 @@ section in the project's <span i="README file">`README`</span> file
 conventions to use for functions, what tags to put on issues, or how to install
 and configure the software needed to start work on the project.  Wherever it
 goes, remember that the easier it is for people to get set up, the more likely
-they are to contribute <cite>Steinmacher2014</cite>.
+they are to contribute [% b Steinmacher2014 %].

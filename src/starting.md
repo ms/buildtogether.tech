@@ -67,7 +67,7 @@ than like a novice.
 </figure>
 
 There are as many ways to run a project course as there are instructors teaching
-them <cite>Fincher2001</cite>.  The most important variable is whether your team
+them [% b Fincher2001 %].  The most important variable is whether your team
 has a real customer or not.  Finding and interviewing people who actually want
 software built and then meeting their needs is tremendously rewarding.  However,
 it's also a lot of work and puts an extra burden on the instructor as well.  For
@@ -84,7 +84,7 @@ something you can show off in a job interview.
 ## Grades
 
 Many organizations make the mistake of focusing on outputs rather than on
-outcomes <cite>Perri2018</cite>. In software companies, this usually takes the
+outcomes [% b Perri2018 %]. In software companies, this usually takes the
 form of measuring progress by the number of features added to a product rather
 than by whether changes to the product are actually making people's lives
 easier. Claims like "80% of people only use 20% of a product's features" are
@@ -141,7 +141,7 @@ A final exam.
     determine who actually did the work and who was just along for the ride.
 
 Just like real development projects, course projects can and should produce a
-lot more than just code.  For example, <cite>Spinellis2007</cite> looked at how
+lot more than just code.  For example, [% b Spinellis2007 %] looked at how
 much content of different kinds went into the FreeBSD project in 2006.
 <a table="starting-spinellis-stats"/> doesn't divide "source code" into
 "application code" and "tests", but it's still an eye-opener.
@@ -401,7 +401,7 @@ experience of being less welcome than others.  A project must therefore
 acknowledge that some people are treated unfairly in society and actively take
 steps to remedy this.  Putting a <span i="Code of Conduct">Code of
 Conduct</span> in place isn't just compassionate: it also makes the team more
-diverse, which in turn makes it more productive <cite>Zhan2020</cite>:
+diverse, which in turn makes it more productive [% b Zhan2020 %]:
 
 -   It reassures people who have experienced harassment or unwelcoming behavior
     before that this project takes inclusion seriously.
@@ -418,7 +418,7 @@ diverse, which in turn makes it more productive <cite>Zhan2020</cite>:
     asshole</span>.)
 
 Having a Code of Conduct is an empty gesture if you don't also have a way to
-respond to violation.  <cite>Aurora2018</cite> describes how, and learning the
+respond to violation.  [% b Aurora2018 %] describes how, and learning the
 basics is a good first step toward becoming an <span i="ally">ally</span>
 (<a section="fairness"/>).
 

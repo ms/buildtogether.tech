@@ -110,7 +110,7 @@ the project's long-term sustainability.
 Every creative work automatically has some sort of license; the only question is
 whether authors and users know what it is and choose to enforce it.  Choosing a
 license for a project can be complex, not least because the law hasn't kept up
-with everyday practice; <cite>Lindberg2008</cite> is a good exploration of these
+with everyday practice; [% b Lindberg2008 %] is a good exploration of these
 issues if you want details.  Depending on country, institution, and job role,
 most creative works are automatically eligible for intellectual property
 protection.  However, members of the team may have different levels of copyright
@@ -131,7 +131,7 @@ users may wind up operating under different licensing structures.
 > <span i="license!why not to write your own">Don't write your own license.</span>
 > Legalese is a highly technical language, and words don't mean what you think
 > they do.  What's more, it's often hard to understand the interactions between
-> multiple licenses on different kinds of material <cite>Almeida2017</cite>.
+> multiple licenses on different kinds of material [% b Almeida2017 %].
 
 Just as the project's Code of Conduct is usually placed in a root-level file
 called <span i="CONDUCT file">`CONDUCT.md`</span>, its license is usually put in
@@ -239,7 +239,7 @@ usually referred two using the two-letter abbreviations listed below:
 
 > ### Why be open?
 >
-> <cite>Hippel2006</cite> reports that 85% of all interesting innovations in all
+> [% b Hippel2006 %] reports that 85% of all interesting innovations in all
 > industries come not from the suppliers but from the users.  The more open work
 > is, the better able users are to tinker with it and do things that the first
 > contributors would never have thought of trying.

@@ -16,7 +16,7 @@ Research starting in the 1980s showed that most <span
 i="neurotypical">neurotypical</span> adults undergo a series of fairly
 predictable <span g="cognitive_transition" i="cognitive transition">cognitive
 transitions</span> on their way from being a novice to being an expert in any
-domain <cite>Benner2000</cite>. (We say "most" and "neurotypical" because as
+domain [% b Benner2000 %]. (We say "most" and "neurotypical" because as
 with anything involving people, there will be outliers.)
 
 For our purposes, we will say that people are <span g="novice"
@@ -79,17 +79,17 @@ any more than we can explain how we recognize faces.
 > otherwise using language. It's bullshit: while lots of companies make and sell
 > materials based on this myth, no one has ever shown that tuning what or how we
 > teach to match people's preferences has any impact on outcomes
-> <cite>DeBruyckere2015</cite>. Like <span i="Myers-Briggs Type
+> [% b DeBruyckere2015 %]. Like <span i="Myers-Briggs Type
 > Indicator">Myers-Briggs personality types</span> (<a section="fairness"/>),
 > learning styles belong with healing crystals and astrology.
 
 This model of learning leaves almost everything discussed in
-<cite>Kirschner2018</cite> and other recent work, but is good enough to start
+[% b Kirschner2018 %] and other recent work, but is good enough to start
 with.  Novices, competent practitioners, and experts are at different stages of
 cognitive development, so they need different kinds of teaching
-<cite>Kalyuga2003</cite>. Novices need to be told what to learn next: since they
+[% b Kalyuga2003 %]. Novices need to be told what to learn next: since they
 don't have yet a mental model of the problem, they don't know what to ask for.
-As <cite>Kirschner2006</cite> and many others have shown, <span
+As [% b Kirschner2006 %] and many others have shown, <span
 i="discovery-based learning">discovery-based learning</span> in which people are
 told "go figure out how to solve this problem" is less effective for novices
 than guided learning because they don't know what to ask next.
@@ -102,7 +102,7 @@ takes them more than a few minutes to figure out what to do next.
 
 Finally, the most effective way to "teach" experts is to have them reflect or
 <span i="introspection">introspect</span> on their own practice
-<cite>Schon1984</cite>. This usually happens in three stages:
+[% b Schon1984 %]. This usually happens in three stages:
 
 1.  You do some work and get feedback on it.  For example, someone in grade
     school might write an essay about what they did with their summer holiday
@@ -219,9 +219,9 @@ from a hard drive doesn't alter it, but every time you access something in LTM,
 you may write it back in a different or augmented form. We call this "learning".
 
 Here's the problem: <span i="short-term memory!limited capacity of">STM is
-very small</span>.  <cite>Miller1956</cite> famously estimated that it could
+very small</span>.  [% b Miller1956 %] famously estimated that it could
 hold 7±2 things at one time; more modern estimates put the number closer to 4±1
-<cite>Didau2016</cite>. This means that STM is a bottleneck for learning: if too
+[% b Didau2016 %]. This means that STM is a bottleneck for learning: if too
 many new ideas are presented too quickly, the new arrivals will knock older ones
 out of STM before you have a chance to encode them and store them in LTM, so
 learning won't take place.
@@ -280,13 +280,13 @@ competent practitioners think and talk to each other in many domains, but
 pattern catalogs are too dry and too abstract for novices to make sense of on
 their own.  However, giving names to a small number of patterns does seem to
 help, primarily by giving the learners a richer vocabulary to think and
-communicate with <cite>Sajaniemi2006</cite>.
+communicate with [% b Sajaniemi2006 %].
 
 ## Learning Strategies
 
 All of this leads to six <span i="learning strategies">strategies</span> that
 have been proven to help people learn faster and better
-<cite>Weinstein2018</cite>.  While researchers still disagree on *why* they
+[% b Weinstein2018 %].  While researchers still disagree on *why* they
 work, everyone now agrees that they *do*.
 
 <span i="spaced practice; learning strategies!spaced practice">Spaced practice</span>.
@@ -294,7 +294,7 @@ work, everyone now agrees that they *do*.
     five-hour days, and far better than one ten-hour day.  You should therefore
     create a study schedule that spreads study activities over time: block off
     at least half an hour to study each topic each day rather than trying to
-    cram everything in the night before an exam <cite>Kang2016</cite>.
+    cram everything in the night before an exam [% b Kang2016 %].
 
     You should also review material after each class, but not immediately
     after---take at least a half-hour break.  Doing this also helps you catch
@@ -328,7 +328,7 @@ work, everyone now agrees that they *do*.
     topics: instead of mastering one subject, then a second and third, shuffle
     study sessions.  Even better, switch up the order: `A-B-C-B-A-C` is better
     than `A-B-C-A-B-C`, which in turn is better than `A-A-B-B-C-C`
-    <cite>Rohrer2015</cite>.  This works because interleaving fosters creation
+    [% b Rohrer2015 %].  This works because interleaving fosters creation
     of more links between different topics, which in turn improves recall.
     Interleaving study will initially feel harder than focusing on one topic at
     a time, but that's a sign that it's working.  If you are using flash cards
@@ -344,8 +344,8 @@ work, everyone now agrees that they *do*.
     one you have seen previously.
 
     Talking to yourself may seem like an odd way to study, but
-    <cite>Bielaczyc1995</cite> found that people trained in self-explanation
-    outperformed those who hadn't been trained.  Similarly, <cite>Chi1989</cite>
+    [% b Bielaczyc1995 %] found that people trained in self-explanation
+    outperformed those who hadn't been trained.  Similarly, [% b Chi1989 %]
     found that some learners simply halt when they hit a step they don't
     understand when trying to solve problems.  Others pause and generate an
     explanation of what's going on, and the latter group learns faster.  An
@@ -357,13 +357,13 @@ work, everyone now agrees that they *do*.
     of real-time elaboration: it forces you to organize and reflect on material
     as it's coming in, which in turn increases the likelihood that you will
     transfer it to long-term memory.  Many studies have shown that taking notes
-    while learning improves retention <cite>Aiken1975,Bohay2011</cite>.
+    while learning improves retention [% b Aiken1975 Bohay2011 %].
 
 <span i="concrete examples; learning strategies!concrete examples">Concrete examples</span>.
 :   One particularly useful form of elaboration is the use of concrete examples.
     Whenever you have a statement of a general principle, try to provide one or
     more examples of its use, or conversely take each particular problem and
-    list the general principles it embodies.  <cite>Rawson2014</cite> found that
+    list the general principles it embodies.  [% b Rawson2014 %] found that
     interleaving examples and definitions like this made it more likely that
     learners would remember the latter correctly.
 
@@ -380,7 +380,7 @@ work, everyone now agrees that they *do*.
     channels, they can reinforce one another.  However, learning is less
     effective when the same information is presented simultaneously in two
     different channels, because then the brain has to expend effort to check the
-    channels against each other <cite>Mayer2009</cite>.
+    channels against each other [% b Mayer2009 %].
 
     One way to take advantage of dual coding is to draw or label timelines,
     maps, family trees, or whatever else seems appropriate to the material.  (I
@@ -390,7 +390,7 @@ work, everyone now agrees that they *do*.
 
 One powerful finding in learning research is the <span
 g="hypercorrection_effect" i="hypercorrection effect">hypercorrection
-effect</span> <cite>Metcalfe2016</cite>.  Most people don't like to be told
+effect</span> [% b Metcalfe2016 %].  Most people don't like to be told
 they're wrong, so it would be reasonable to assume that the more confident
 someone is in the answer they've given on a test, the harder it is to change
 their mind if they were actually wrong.  It turns out that the opposite is true:
@@ -407,7 +407,7 @@ they're learning it to satisfy their own goals.  If someone is <span
 i="extrinsic motivation; motivation!extrinsic">extrinsically
 motivated</span>---for example, if they're taking a course because it's a degree
 requirement but they have no real interest in the topic---the learning probably
-won't stick <cite>Wlodkowski2017</cite>.  While motivation is deeply personal,
+won't stick [% b Wlodkowski2017 %].  While motivation is deeply personal,
 these three factors influence most people:
 
 <span i="self-efficacy; motivation!self-efficacy">Self-efficacy</span>.
@@ -443,7 +443,7 @@ Unpredictability.
 Unfairness.
 :   If people believe that a game is rigged, they will all try less hard:
     the people who are favored will know they can slack off, while everyone
-    else will see less point in trying <cite>Wilkinson2011</cite>.
+    else will see less point in trying [% b Wilkinson2011 %].
 
 Indifference.
 :   Most of us have had a teacher who didn't care whether we learned or not,

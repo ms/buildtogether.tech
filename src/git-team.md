@@ -6,7 +6,7 @@ template: page
 
 <span i="version control!collaboration">Version control</span> really comes into
 its own when we are working with other people.  People can share work through a
-Git repository in one of two ways <cite>Irving2021</cite>:
+Git repository in one of two ways [% b Irving2021 %]:
 
 1.  Everyone has read and write access to a <span i="version
     control!collaboration!using a shared repository">single shared
@@ -227,7 +227,7 @@ There's no point creating PRs if they are all merged as-is. The reason they
 exist is to allow <span g="code_review" i="code review!effectiveness of">code
 review</span>.  One study after another since the mid-1970s has proven that code
 review is the most cost-effective way to find bugs in software
-<cite>Cohen2010</cite>. It is also the most effective way to share knowledge
+[% b Cohen2010 %]. It is also the most effective way to share knowledge
 between team members: if you read someone else's code, you have a chance to
 learn all the things that you didn't know to ask and they didn't realize they
 should tell you.
@@ -235,7 +235,7 @@ should tell you.
 > ### Do more eyes make for fewer bugs?
 >
 > Some people have claimed that many eyes make all bugs shallow (i.e., easy to
-> find), but the evidence doesn't support that claim: <cite>Meneely2014</cite>
+> find), but the evidence doesn't support that claim: [% b Meneely2014 %]
 > reports that, "…source code files reviewed by more developers are,
 > counter-intuitively, more likely to be vulnerable (even after accounting for
 > file size). However, files are less likely to be vulnerable if they were
@@ -271,14 +271,14 @@ Review at most 200 lines of a code at a time.
     in their head at once (<a section="thinking"/>) and so will miss things.
 
 Use checklists.
-:   <cite>Gawande2011</cite> popularized the idea that using <span
+:   [% b Gawande2011 %] popularized the idea that using <span
     i="checklists!use in code review">checklists</span> improves results even
-    for experts.  While <cite>Hatton2008</cite> found no evidence that they made
+    for experts.  While [% b Hatton2008 %] found no evidence that they made
     a difference to code reviews by professionals, I have found them very useful
     as a starter for students.  If you are new to code reviews, ask the
     instructor for a list of the dozen most common problems to check for, since
     anything more than that is likely to be overwhelming.  (The code quality
-    rubric developed in <cite>Stegeman2014,Stegeman2016</cite> is a good
+    rubric developed in [% b Stegeman2014 Stegeman2016 %] is a good
     starting point.)  If you and your teammates have been working together for a
     while, look at your own code reviews and make a list of the things that keep
     coming up.  Having the list will make you more aware of the issues while

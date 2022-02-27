@@ -5,7 +5,7 @@ template: page
 ---
 
 To survive and thrive, a community must attract and retain new members and help
-them be productive. These rules, taken from <cite>Sholler2019</cite>, describe
+them be productive. These rules, taken from [% b Sholler2019 %], describe
 how to do this.
 
 > ### Communities of practice
@@ -13,7 +13,7 @@ how to do this.
 > What exactly do we mean by "community"? In the case of open source and open
 > science, the most usual meaning is a <span g="community_of_practice"
 > i="community of practice">community of practice</span>
-> <cite>Lave1991,Wenger1999</cite> with three characteristics:
+> [% b Lave1991 Wenger1999 %] with three characteristics:
 >
 > 1.  Participants have a common product or purpose that they work on or
 >     toward.
@@ -36,11 +36,11 @@ Help potential contributors evaluate if the project is a good fit.
     accessible and guide new members to the tasks they may handle.
 
 Make governance explicit.
-:   <cite>Raymond2001</cite> described an egalitarian world in which everyone
+:   [% b Raymond2001 %] described an egalitarian world in which everyone
     could contribute equally to open projects. Two decades later, we can see how
     misleading it was, and how unequal and unwelcoming projects can be if
     authority lies with those willing to shout loudest and longest
-    <cite>Cohen2018</cite>.  Large, well-established projects that incorporate
+    [% b Cohen2018 %].  Large, well-established projects that incorporate
     as non-profits are required to promulgate bylaws; smaller projects should
     have some explicit <span i="governance">governance</span> that explains who
     gets a say in what and how to become someone whose vote counts
@@ -51,7 +51,7 @@ Keep knowledge up to date and findable.
     tweets or chat messages, and email archives; keeping information about a
     specific topic in a single place and clearly defining the purpose of each
     communication medium saves newcomers from having to navigate multiple
-    unfamiliar data sources to find what they need <cite>Lin2020</cite>.  At the
+    unfamiliar data sources to find what they need [% b Lin2020 %].  At the
     same time, outdated documentation may lead newcomers to understand the
     project incorrectly, which is also demotivating. While it's hard to keep
     material up to date, community members should at least remove or clearly
@@ -60,7 +60,7 @@ Keep knowledge up to date and findable.
 Have and enforce a <span i="Code of Conduct">Code of Conduct</span>.
 :   We discussed this rule in <a section="starting"/>, but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates
-    <cite>Gruenert2015</cite>, and every instance of bad behavior will drive
+    [% b Gruenert2015 %], and every instance of bad behavior will drive
     current and potential contributors away.
 
 Develop forms of legitimate peripheral participation.
@@ -80,7 +80,7 @@ Make it easy for newcomers to get started.
     able to help" to "I'm helping"---is often someone's first experience as a
     community participant. Any complexity or confusion at this point is
     therefore a significant barrier to participation
-    <cite>Steinmacher2014</cite>. By treating the process of getting involved
+    [% b Steinmacher2014 %]. By treating the process of getting involved
     with the same care and attention you give to the product itself, you're
     making it clear that you value those contributors' time and effort
 

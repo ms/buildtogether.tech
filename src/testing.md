@@ -74,15 +74,15 @@ second time around.
 >
 > In 1988, a professor teaching a class on operating systems decided to throw
 > randomly-generated strings at standard Unix command-line utilities
-> <cite>Miller1990</cite>.  To their surprise, the students were able to crash
+> [% b Miller1990 %].  To their surprise, the students were able to crash
 > almost a third of the programs they tested, some of which had been in daily use
 > for two decades.
 >
 > While they weren't the first people to test with random data, their results
 > sparked interest in <span g="fuzz_testing" i="fuzz testing; unit
 > test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
-> standard part of most testers' repertoire <cite>Zeller2019</cite>.  Despite
-> this, <cite>Miller2020</cite> found that thirty years later, programs are still
+> standard part of most testers' repertoire [% b Zeller2019 %].  Despite
+> this, [% b Miller2020 %] found that thirty years later, programs are still
 > failing at about the same rate and for the same reasons.  <a section="debugging"/>
 > discusses a technique for making fuzz testing even more useful.
 
@@ -99,7 +99,7 @@ to check whether your finished application actually does what it's supposed to.
 Thinking about testability from the start turns out to be a good <span
 g="heuristic" i="software design!influence of testability; testability!influence
 on software design">heuristic</span> for design in general
-<cite>Feathers2004</cite>, since it forces you to think in terms of small
+[% b Feathers2004 %], since it forces you to think in terms of small
 components with well-defined interfaces. Not only can these be tested more
 easily, they can also be modified or replaced in isolation, which significantly
 reduces the probability of requiring rework in the naïve model presented at the
@@ -121,9 +121,9 @@ submissions that drive the system from one state to another.
 > Design patterns were a hot topic in the 1990s and early 2000s, and while there
 > isn't as much excitement about them now, their value has not diminished.
 > Knowing some design patterns is like knowing chord progressions in music: it
-> gives you a larger mental toolkit to work with.  <cite>Tichy2010</cite>
-> summarizes some of the evidence, more recent studies like <cite>Krein2016</cite>
-> confirm it, and books like <cite>Olsen2007,Nystrom2014,Casciaro2020</cite> are
+> gives you a larger mental toolkit to work with.  [% b Tichy2010 %]
+> summarizes some of the evidence, more recent studies like [% b Krein2016 %]
+> confirm it, and books like [% b Olsen2007 Nystrom2014 Casciaro2020 %] are
 > great places to get started.
 
 The MVC architecture presents several <span i="model-view-controller

@@ -20,7 +20,7 @@ the sections below discuss some other tools you might want in your toolbox.  You
 shouldn't try to adopt all of them in a single semester unless the focus of your
 project course is to try out as many tools as possible (which is actually a good
 theme for a project course).  If you'd rather not improve your tools, but are
-afraid that someone on your team might want to do so, <cite>Farmer2006</cite> is
+afraid that someone on your team might want to do so, [% b Farmer2006 %] is
 a not-entirely-serious guide to preventing something new from being adopted.
 
 ## Programming Language
@@ -53,7 +53,7 @@ its speed has less effect than you'd think.
 That said, there are three things to keep in mind:
 
 Some languages are <span i="programming language!ease of learning">easier to learn</span> than others.
-:   <cite>Stefik2013</cite> did a controlled experiment to see how quickly
+:   [% b Stefik2013 %] did a controlled experiment to see how quickly
     people could learn to recognize correct and incorrect syntax in several
     different languages. They found that <span
     g="curly_brace_language">curly-brace languages</span> like <span
@@ -74,7 +74,7 @@ Static typing helps, but only a little.
     one like <span i="Python">Python</span> doesn't require them, though you can add
     them if you want, while <span i="TypeScript">TypeScript</span> adds types as
     a layer on top of <span i="JavaScript">JavaScript</span>.
-    <cite>Endrikat2014</cite> found that declaring types does add complexity to
+    [% b Endrikat2014 %] found that declaring types does add complexity to
     programs, but it pays off fairly quickly by acting as documentation and by
     making <span g="auto_completion" i="auto-completion">auto-completion</span>
     more accurate.
@@ -83,10 +83,10 @@ The most important thing about a language is its community.
 :   Some programming communities work hard to welcome newcomers and treat
     everyone respectfully. Others are more likely to call naïve questions
     "stupid" or to make excuses when <span i="Linux!toxic leadership">their
-    leaders harass people</span> <cite>Cohen2018</cite>. As a junior programmer,
+    leaders harass people</span> [% b Cohen2018 %]. As a junior programmer,
     you will learn more from the former than from the latter.
 
-<cite>Stefik2017</cite> is a good short summary of what we know and why we
+[% b Stefik2017 %] is a good short summary of what we know and why we
 believe it's true. If someone disagrees with it, ask them to show you their
 evidence.
 
@@ -228,13 +228,13 @@ yet---but it will make all of your front-end work a lot easier.
 
 After a debugger, the most under-appreciated power of most IDEs is their ability
 to <span g="refactoring" i="refactoring">refactor</span> code, i.e., to change
-its structure without changing what it does <cite>Fowler2018</cite>.  It is just
+its structure without changing what it does [% b Fowler2018 %].  It is just
 as much a part of programming as writing code in the first place: nobody gets
 things right the first time, and needs or insights can change over time
-<cite>Brand1995</cite>.
+[% b Brand1995 %].
 
 Some common refactoring patterns include "hoist repeated calculation out of
-loop" and "replace repeated test with flag". As <cite>Kerievsky2004</cite>
+loop" and "replace repeated test with flag". As [% b Kerievsky2004 %]
 showed, many refactorings make code fit a design pattern or move code from one
 design pattern to another.  If you highlight a variable name in an IDE like VS
 Code and say, "Rename", it parses the code to find all uses of that variable and
@@ -305,8 +305,8 @@ over and over again, write a program to do it for you.
 
 If you want to go one big step further, you can start using modeling tools like
 <span i="Alloy; modeling tools!Alloy">[Alloy][alloy]</span>
-<cite>Jackson2016</cite> and <span i="TLA+; modeling
-tools!TLA+">[TLA+][tla-plus]</span> <cite>Wayne2018</cite>.  Instead of
+[% b Jackson2016 %] and <span i="TLA+; modeling
+tools!TLA+">[TLA+][tla-plus]</span> [% b Wayne2018 %].  Instead of
 analyzing source code, you use these tools to build and analyze a <span
 g="model">model</span> of what the code is supposed to do so that you can look
 for flaws in your algorithms.

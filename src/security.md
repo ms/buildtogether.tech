@@ -8,7 +8,7 @@ Companies, universities, and other institutions have mostly failed to protect us
 from online threats: nothing happens to them if they don't, and as
 <span i="Schneier, Bruce">Bruce Schneier</span> has pointed out, their business models
 are designed to put the cost of security failures on users
-<cite>Schneier2021</cite>. As a result, much of what we are forced to go through
+[% b Schneier2021 %]. As a result, much of what we are forced to go through
 is <span g="security_theater" i="security theater">security theater</span>
 intended to make us believe something is being done rather than to actually make
 us safer: forcing people to change passwords every three months encourages
@@ -16,10 +16,10 @@ people to choose memorable (and therefore easy-to-guess) passwords, while all
 that random searches of backpacks and bags at the entrance to the subway do is
 encourage a would-be attacker to go to another entrance.
 
-It doesn't have to be like this.  As <cite>Schneier2019</cite> points out, most
+It doesn't have to be like this.  As [% b Schneier2019 %] points out, most
 security breaches are a result of poor design and rather than Hollywood-style
 hacking.  If we think about the threats people actually face, we can build
-systems that are safer to use <cite>Smalls2021</cite>.
+systems that are safer to use [% b Smalls2021 %].
 
 > ### Privacy is a right
 >
@@ -47,7 +47,7 @@ this is to pay attention to what's happening and respond accordingly.  However,
 being on guard all the time is exhausting; <span i="Snowden, Edward">Edward
 Snowden</span> and the journalists who worked with him took extraordinary
 measures to safeguard themselves against <span g="state_level_actor">state-level
-actors</span> <cite>Snowden2019</cite>, but most of us aren't involved in issues
+actors</span> [% b Snowden2019 %], but most of us aren't involved in issues
 of national security and don't need to take those kinds of precautions.
 Instead, we typically face one of three kinds of threat:
 
@@ -62,7 +62,7 @@ Instead, we typically face one of three kinds of threat:
 -   <span g="intimate_threat" i="intimate threat; threat!intimate">Intimate
     threats</span> come from people who know their targets' passwords or have a
     chance to install spyware on their targets' devices (which abusers
-    frequently do <cite>Leitao2019</cite>). For example, Elena has ended an
+    frequently do [% b Leitao2019 %]). For example, Elena has ended an
     unhappy relationship and is rebuilding her life.  Her ex, Eric, is obsessed
     with the idea that she left him for someone else and is now stalking her.
     He knows the IDs she uses on social media, some of her old passwords, and
@@ -96,7 +96,7 @@ How can you help counter these threats?
 
 1.  Do code reviews to ensure that programmers aren't inserting
     <span g="back_door" i="code review!for security">back doors</span> in software
-    <cite>Sharma2021</cite> or accidentally leaving access points intended
+    [% b Sharma2021 %] or accidentally leaving access points intended
     solely for testing.
 
 ## Authentication
@@ -272,7 +272,7 @@ information leakage.
 Here are some things you can do as a developer to support these rules:
 
 1.  Don't store any information you don't have to, or only store it in encrypted
-    form <cite>Wayner2009</cite>.
+    form [% b Wayner2009 %].
 
 1.  Charge people for your software or the service you provide rather than
     relying on ads or selling their data. You won't see the kind of growth that
@@ -392,7 +392,7 @@ the safer all of us will be. As a programmer, you can push for this:
 ## An Example Attack
 
 Dozens of books have been written about the mechanics of computer security
-<cite>Easttom2019,McDonald2020,Seitz2021</cite>.  We won't try to cover all of
+[% b Easttom2019 McDonald2020 Seitz2021 %].  We won't try to cover all of
 that here, but it wouldn't feel right to wrap up this chapter without showing
 you at least one software exploit that's unfortunately still quite common.
 

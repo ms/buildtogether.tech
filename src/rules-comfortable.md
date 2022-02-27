@@ -11,7 +11,7 @@ Peace and quiet.
 :   Study after study has shown that this has more impact on productivity than a
     fast network, a fat disk, or caffeine, but most workplaces are still too
     crowded, too noisy, and filled with too many interruptions
-    <cite>WeziakBialowolska2018</cite>. Some people still say, "If I can't
+    [% b WeziakBialowolska2018 %]. Some people still say, "If I can't
     overhear what other people are talking about, I might miss something
     important," but that only applies if the only people you're overhearing are
     members of your own team (and even then, it's a dubious claim).

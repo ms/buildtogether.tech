@@ -8,7 +8,7 @@ I hope you're never fired, or if you are, that the company handles it
 professionally.  In case they don't, these rules are based on [my experience
 being fired by DataCamp][buzzfeed-datacamp] and on what friends and colleagues
 went through there and at other companies.  Remember: however much you like your
-job, it won't love you back <cite>Jaffe2021</cite>
+job, it won't love you back [% b Jaffe2021 %]
 
 Insist on a record of all conversations.
 :   The biggest mistake you can make is to assume good faith on the part of

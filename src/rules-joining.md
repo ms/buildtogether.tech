@@ -5,7 +5,7 @@ template: page
 ---
 
 Hundreds of books have been published about how to start a tech business, and
-works like <cite>Fogel2020</cite> have a lot of advice on setting up and running
+works like [% b Fogel2020 %] have a lot of advice on setting up and running
 open source projects.  Much less has been written about how to join existing
 projects, even though that's what most people do most of the time.  These simple
 rules can help, and can be read as a complement to <a section="rules-newcomers"/>.
@@ -58,7 +58,7 @@ Start small.
 
 Keep exploring.
 :   Thousands of books have been written about how to write code, but only a few
-    explain how to read it (<cite>Spinellis2003</cite> being my favorite).
+    explain how to read it ([% b Spinellis2003 %] being my favorite).
     However, reading other people's code is one of the best ways to learn how to
     be a better programmer, while browsing a project's issues can give you even
     more insight into why the code works the way it does (and where and why it
@@ -81,7 +81,7 @@ Get to know people.
     other to hang out.  A lot of software projects are like that, in industry as
     well as open source: participants get satisfaction from working with one
     another as well as from what they produce.  While your job won't ever love
-    you back <cite>Jaffe2021</cite>, the relationships you make with the people
+    you back [% b Jaffe2021 %], the relationships you make with the people
     you work beside may be as rewarding as the software you build.
 
 Remember that most relationships don't end in marriage.

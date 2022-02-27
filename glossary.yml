@@ -196,8 +196,7 @@
     term: "bullshit"
     def: >
       Deliberate mistruth or misrepresentation.  Unlike lying, bullshit doesn't
-      attempt to conceal the truth, but rather disregards it entirely
-      <cite>Frankfurt2005</cite>.
+      attempt to conceal the truth, but rather disregards it entirely.
 
 - key: business_rule
   en:
@@ -304,7 +303,7 @@
       most widely used metric is the number of lines of code (LoC) or the number
       of lines once blank lines and comments are discounted.  Many other metrics
       have been proposed; there is little evidence that any of them are better
-      at predicting effort or fault rates than LoC <cite>ElEmam2001</cite>.
+      at predicting effort or fault rates than LoC.
 
 - key: code_review
   en:
@@ -325,8 +324,7 @@
   en:
     term: "cognitive dimensions of notation"
     def: >
-      A set of design principles for user interfaces and programming languages
-      <cite>Green1996</cite>.
+      A set of design principles for user interfaces and programming languages.
 
 - key: cognitive_load
   en:
@@ -2049,9 +2047,9 @@
     def: >
       A project management method in which requirements gathering, design,
       implementation, testing, and deployment are each done once, to completion,
-      in exactly that order.  This process was first described in
-      <cite>Royce1970</cite> as something that couldn't possibly work, but
-      advocates of other processes frequently use it as a [straw man](#straw_man).
+      in exactly that order.  This process was first described as something that
+      couldn't possibly work, but advocates of other processes frequently use it
+      as a [straw man](#straw_man).
 
 - key: wysiwyg
   en:

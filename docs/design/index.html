@@ -73,11 +73,11 @@ tell a good design from a bad one, so we'll start with that.</p>
 <blockquote>
 <h3>Learning by example</h3>
 <p>The best way to learn design in any field is to study examples
-<cite>Schon1984,Petre2016</cite>, and some of the best examples of software
+[<a href="../bibliography/#Schon1984">Schon1984</a>, <a href="../bibliography/#Petre2016">Petre2016</a>], and some of the best examples of software
 design come from the tools programmers use in their own work.
-<cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> introduced the Unix
+[<a href="../bibliography/#Kernighan1979">Kernighan1979</a>, <a href="../bibliography/#Kernighan1981">Kernighan1981</a>, <a href="../bibliography/#Kernighan1983">Kernighan1983</a>] introduced the Unix
 philosophy to an entire generation of programmers;
-<cite>Brown2011,Brown2012,Brown2016</cite> and <a href="https://maryrosecook.com/">Mary Rose
+[<a href="../bibliography/#Brown2011">Brown2011</a>, <a href="../bibliography/#Brown2012">Brown2012</a>, <a href="../bibliography/#Brown2016">Brown2016</a>] and <a href="https://maryrosecook.com/">Mary Rose
 Cook</a>'s <a href="http://gitlet.maryrosecook.com/">Gitlet</a> take this approach as well.  There is
 also <em><a href="https://stjs.tech/">Software Tools in JavaScript</a></em>, which was developed in tandem with
 this material and can be used as a starting point for many different class
@@ -89,7 +89,7 @@ you already understand the point; explaining it with a specific example (testing
 an MVC application) made it more relatable.</p>
 </blockquote>
 <h2>Describing Designs</h2>
-<p><cite>Cherubini2007</cite> found that developers usually don't draw <span
+<p>[<a href="../bibliography/#Cherubini2007">Cherubini2007</a>] found that developers usually don't draw <span
 i="software design!role of diagrams">diagrams</span> to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
@@ -145,7 +145,7 @@ show which relationships are one-to-one, one-to-many, and so on
 
 <p>The two kinds of diagram that I find most useful are ER diagrams and a
 combination of conceptual and <span g="use_case_map" i="use-case map;
-diagrams!use-case map">use-case maps</span> <cite>Reekie2006</cite>.  The
+diagrams!use-case map">use-case maps</span> [<a href="../bibliography/#Reekie2006">Reekie2006</a>].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
 (<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
@@ -169,7 +169,7 @@ basis. I've known a handful of other people who occasionally sketched class
 diagrams as part of a larger description of a design, and that's pretty much
 it. Unlike blueprints in architecture or flow diagrams in chemical engineering,
 UML doesn't actually seem to help practitioners very much
-<cite>Petre2013</cite>.</p>
+[<a href="../bibliography/#Petre2013">Petre2013</a>].</p>
 <p>If you have to use UML because it's a course requirement, <a href="https://plantuml.com/">PlantUML</a>
 will convert specially-formatted text into diagrams for you, and the former are
 much easier for version control systems to work with.  In my opinion, though,
@@ -177,7 +177,7 @@ you'll get more out of investing time in the modeling tools described at the end
 of <a section="tooling"/>.</p>
 <p>One often-overlooked finding about visualization is that people understand
 flowcharts better than pseudocode <em>if both are
-equally well structured</em> <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode
+equally well structured</em> [<a href="../bibliography/#Scanlan1989">Scanlan1989</a>].  Earlier work showing that pseudocode
 outperformed flowcharts used structured pseudocode and tangled flowcharts; when
 the playing field was leveled, novices did better with the graphical
 representation.</p>
@@ -265,7 +265,7 @@ basically saying is, "Argue enough, but not too much."</p>
 <h3>How experts do it</h3>
 <p>One of the biggest differences between <span i="expert">experts</span> and
 non-experts in any field is how quickly experts can rule out possibilities
-<cite>Schon1984</cite>. Whether it is software design, chess, or medical
+[<a href="../bibliography/#Schon1984">Schon1984</a>]. Whether it is software design, chess, or medical
 diagnosis, <span i="novice">novices</span> check to see if their plan will work;
 experts, on the other hand, search for a refutation---a reason why it won't---so
 that they can narrow their focus as early as possible. One way to do this is to
@@ -390,7 +390,7 @@ tape some popsicle sticks to your fingers so you can't bend them and then see
 how easy it is to use something like Slack.</p>
 <p>Making software <span i="accessibility; software
 design!accessibility">accessible</span> doesn't just help people with obvious
-disabilities: as <cite>Johnson2017</cite> points out, the population is aging,
+disabilities: as [<a href="../bibliography/#Johnson2017">Johnson2017</a>] points out, the population is aging,
 and everything you do to help people who are deaf also helps people who are
 gradually losing their hearing.</p>
 <p>The best short guide I have found for accessible design is <a href="https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf">this set of posters
@@ -403,7 +403,7 @@ check for common problems, most of which are easy to fix. It only takes a few
 minutes, it's the compassionate thing to do, and almost every change you make
 will also make the software easier to test and maintain.</p>
 <h2>Scriptability</h2>
-<p>Rule #3 of <cite>Taschuk2017</cite> is, "Make common operations easy to
+<p>Rule #3 of [<a href="../bibliography/#Taschuk2017">Taschuk2017</a>] is, "Make common operations easy to
 control."  Like testing, it's a lot easier to do if you design programs with
 this goal in mind, and programs that are designed to do this tend to be
 easier to understand, test, and extend.</p>

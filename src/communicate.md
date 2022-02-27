@@ -76,7 +76,7 @@ teams won't actually use anything more sophisticated than a web-base to-do list
 unless they're forced to by the grading scheme. In that case, most come away
 with the impression that issues are something you only use when you have to.
 
-So what does a good issue look like?  <cite>Bettenburg2008</cite> found that the
+So what does a good issue look like?  [% b Bettenburg2008 %] found that the
 information users supply when they file a bug report tends not to be that which
 the relevant developers need the most, and most importantly, it differs in
 fairly predictable ways and for understandable reasons.  Here's one I filed for
@@ -229,7 +229,7 @@ and find out what was said a month ago---or, just as importantly, if someone
 
 <span i="software portal!communication tools">Software portals</span> provide
 many other ways to communicate, which project members use in a wide variety of
-ways <cite>Treude2011</cite>.  <span i="wiki; communication!wiki">Wikis</span>
+ways [% b Treude2011 %].  <span i="wiki; communication!wiki">Wikis</span>
 seem like a good way to keep notes, create documentation, and so on. Their main
 strength is the fact that content is automatically and immediately visible on
 the web.  These days, you will probably get more mileage out of a bunch of <span
@@ -450,7 +450,7 @@ Provide a minimal reprex.
 Tag, tag, tag.
 :   Keywords make everything from scientific papers to left-handed cellos easier
     to find.  They are even more effective if the system encourages people to
-    re-use tags so that they don't proliferate <cite>Lin2020</cite>.
+    re-use tags so that they don't proliferate [% b Lin2020 %].
 
 Use "I" and question words (how/what/when/where/why).
 :   Writing this way forces us to think more clearly about what someone might
@@ -469,4 +469,4 @@ Allow for a chorus of explanations.
     of understanding. This is one of the things that has made Stack Overflow so
     successful: if users are different from one another, they are best served by
     a <span i="chorus of explanation">chorus of explanations</span>
-    <cite>Caulfield2016</cite>.
+    [% b Caulfield2016 %].

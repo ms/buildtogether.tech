@@ -52,7 +52,7 @@ installation instructions, and so on.
 
 Depending on the structure of your course, you may be asked to figure out how
 much you would charge for the software you have produced.  The answer is out of
-scope for this book, but <cite>Davidson2009</cite> is a good short introduction
+scope for this book, but [% b Davidson2009 %] is a good short introduction
 to the topic.
 
 You may also be asked to do some <span g="marketing"
@@ -61,7 +61,7 @@ the people you're trying to help how you can help them. This doesn't mean
 spamming people with discount coupons; instead, it means explaining the problem
 that the product will solve in ways that will reach the intended users.  I have
 seen more startups fail because of poor marketing than because of poor
-programming; it is also out of scope for this book, but <cite>Jackson2017</cite>
+programming; it is also out of scope for this book, but [% b Jackson2017 %]
 is a good introduction.
 
 ## Version Numbers
@@ -132,7 +132,7 @@ reporting bugs.
 The other thing student projects usually have to deliver is some kind of <span
 i="final report">final report</span>. Most students short-change this part of
 the course, in part because it comes at the end, but also because they think, "I
-want to write code, not a novel." However, <cite>Fogel2005</cite> had this to
+want to write code, not a novel." However, [% b Fogel2005 %] had this to
 say:
 
 > The ability to write clearly is perhaps the most important skill one can have in

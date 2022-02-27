@@ -39,7 +39,7 @@ Spreadsheets are intrinsically more error-prone than scripting languages
     actually being done, or they themselves are buggier than scripting
     languages' math libraries.  These are all plausible, but may all be red
     herrings.  Yes, it's hard to write unit tests for spreadsheets, but it's
-    possible: <cite>Hermans2016</cite> found that 8% of spreadsheets included
+    possible: [% b Hermans2016 %] found that 8% of spreadsheets included
     tests like `if(A1<>5, "ERROR", "OK")`.  I'd be surprised if more than 8% of
     people who do statistics in Python or R regularly write unit tests for their
     scripts, so the fact that they *could* is irrelevant.
@@ -60,7 +60,7 @@ group</span> (who do things in an alternative way). If the difference between
 the groups is large enough statistically, the experimenter can say that the
 treatment probably has an effect on outcomes.
 
-There are several traps in this for the unwary <cite>DeOliveiraNeto2019</cite>:
+There are several traps in this for the unwary [% b DeOliveiraNeto2019 %]:
 
 <span i="experimenter bias">Experimenter bias</span>.
 :   People have many biases, both conscious and unconscious.  In order to make
@@ -77,7 +77,7 @@ There are several traps in this for the unwary <cite>DeOliveiraNeto2019</cite>:
     almost certainly find *something* that passes a test for statistical
     significance. For example, there is a strong correlation between the number
     of letters in winning words in spelling competitions and the number of
-    people killed by venomous spiders <cite>Vigen2015</cite>. To guard against
+    people killed by venomous spiders [% b Vigen2015 %]. To guard against
     this, researchers should <span g="pre_registration" i="pre-registration of
     experiments">pre-register</span> their analyses, i.e., say in advance what
     they're going to compare against what, and then use various statistical
@@ -117,7 +117,7 @@ can get her hands on. Doing this is called <span g="data_mining" i="data
 mining">data mining</span>, and most studies of this kind make use of the wealth
 of information available online at sites like [GitHub]][github] and [Stack
 Overflow][stack-overflow] or from millions of crash reports collected online
-<cite>Glerum2009</cite>.  Data mining has produced many valuable insights, but
+[% b Glerum2009 %].  Data mining has produced many valuable insights, but
 has challenges of its own.  The largest of these is that people who work in the
 open aren't typical, so any results we get from studying them must be
 interpreted cautiously.
@@ -133,14 +133,14 @@ most of our industry, and just as the matter we can see is vanishingly atypical,
 so too are developers who radiate information.
 
 One reason for this is that the web ranges from unwelcoming to actively hostile
-for people from under-represented groups <cite>Ford2016,May2019</cite>.
+for people from under-represented groups [% b Ford2016 May2019 %].
 Unfortunately, in-person workplaces are often no better: many are filled with
-small signs that make many people feel out of place <cite>Cheryan2009</cite>.
+small signs that make many people feel out of place [% b Cheryan2009 %].
 <a section="fairness"/> takes a closer look at these issues.
 
 > ### A cautionary tale
 >
-> <cite>Zeller2011</cite> did what too many researchers in too many fields do on a
+> [% b Zeller2011 %] did what too many researchers in too many fields do on a
 > regular basis: throw some data at some machine learning algorithms and then
 > claim that whatever comes out the other end is significant. Luckily for us, they
 > did it on purpose to make a point.
@@ -159,7 +159,7 @@ small signs that make many people feel out of place <cite>Cheryan2009</cite>.
 The third set of approaches are called <span g="qualitative_method"
 i="qualitative methods">qualitative methods</span>, and involve close analysis
 of a small number of cases to tease out common patterns.  Articles like
-<cite>Sharp2016</cite> do an excellent job of explaining how these methods work
+[% b Sharp2016 %] do an excellent job of explaining how these methods work
 and what their strengths and limitations are.
 
 > ### Wish I knew then what I know now
@@ -170,7 +170,7 @@ and what their strengths and limitations are.
 > that the "fuzzy" methods of the social sciences were just as rigorous when used
 > properly, and the only ones that could produce certain valuable insights.
 
-<cite>Washburn2016</cite> demonstrates the kinds of insights these methods can
+[% b Washburn2016 %] demonstrates the kinds of insights these methods can
 produce. They analyzed 155 postmortem reviews of game projects to identify
 characteristics of game development, link the characteristics to positive and
 negative experiences, and distill a set of best practices and pitfalls for game
@@ -204,7 +204,7 @@ development. Their description of their method is worth repeating in full:
 >
 > --- <span i="Lehrer, Tom">Tom Lehrer</span>
 
-<cite>Tedre2008</cite> describes three traditions that have shaped how we think
+[% b Tedre2008 %] describes three traditions that have shaped how we think
 about computing: the <span i="mathematical tradition in
 computing">mathematical</span>, which focuses on algorithms and proofs; the
 <span i="scientific tradition in computing">scientific</span>, which studies

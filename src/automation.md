@@ -119,7 +119,7 @@ Be very cautious about adding dependencies.
     life, but every library you depend on is one more way for your project to
     accumulate <span i="technical debt">technical debt</span>.  Recent
     research shows that we are all biased toward solving problems by adding
-    things instead of taking them away <cite>Meyvis2021</cite>; checking the
+    things instead of taking them away [% b Meyvis2021 %]; checking the
     packages your project depends on before every release and cutting any you
     can will prevent a lot of future headaches.
 
@@ -192,7 +192,7 @@ version control (which I find more useful). Each time they run, they check a
 fresh copy of the project out of version control, build it, re-run all the
 tests, and post the results to the project's blog, web site, and mailing list.
 
-Research has proven the benefits of CI <cite>Hilton2016</cite>.  It acts as a
+Research has proven the benefits of CI [% b Hilton2016 %].  It acts as a
 "heartbeat" for the project: as soon as anything goes wrong, everyone knows. It
 also encourages good development practices: if someone checks something in that
 doesn't compile, run, or pass the project's tests, everyone will know very
@@ -252,7 +252,7 @@ From top to bottom:
 
 Configuring actions like these is a programming task like any other, except for
 the fact that you specify what you want in YAML rather than in Python,
-JavaScript, or some other language.  <cite>Zampetti2020</cite> looks at how
+JavaScript, or some other language.  [% b Zampetti2020 %] looks at how
 *not* to use CI, and can serve as a good checklist of things to avoid.
 
 If you don't want to go this far, you can add <span g="pre_commit_hook"

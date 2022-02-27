@@ -51,7 +51,7 @@ avoid making it necessary.
 >
 > The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
 > when a real disaster strikes, most people actually rise to the occasion. As
-> <cite>Solnit2010</cite> describes, <span i="toxic people!misperception
+> [% b Solnit2010 %] describes, <span i="toxic people!misperception
 > of">neighbors don't turn on each other</span> in the aftermath of an earthquake
 > or a hurricane---instead, they are more likely to look out for each other than
 > under normal circumstances. That doesn't make for exciting viewing, though, and
@@ -142,7 +142,7 @@ moments.
 > team is dysfunctional.
 
 Finally, it's important to recognize that good principles sometimes conflict
-<cite>Berlin2000</cite>.  For example, suppose that a student has a medically
+[% b Berlin2000 %].  For example, suppose that a student has a medically
 diagnosed attention disorder that requires them to talk to themselves quite
 loudly while programming in order to stay focused, but other members of their
 team find this very distracting.  Asking the student in question to program

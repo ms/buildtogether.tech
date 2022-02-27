@@ -37,7 +37,7 @@ emphasizes some of these and pays less attention to others.
 :   One programmer, the driver, does the typing, while the other, called the
     navigator, watches and comments.  Every twenty minutes or or so, the pair
     switches roles.  The benefits of pair programming are proven for students as
-    well as for professionals <cite>Williams2001,Hannay2009,DiBella2013</cite>.
+    well as for professionals [% b Williams2001 Hannay2009 DiBella2013 %].
     First, the navigator will often notice mistakes in the driver's code, or
     remember design decisions that the driver is too busy typing to recall. This
     is the tightest of the feedback loops, since feedback is nearly continuous.
@@ -66,10 +66,10 @@ Unit testing.
     1.  it ensures the tests actually get written.
 
     However, multiple studies over many years have failed to show that it makes
-    developers more productive <cite>Erdogmus2005,Fucci2016</cite>.  What
+    developers more productive [% b Erdogmus2005 Fucci2016 %].  What
     *might* be the case is that working in short, interleaved segments is more
     productive than doing a lot of coding followed by a lot of testing or vice
-    versa <cite>Fucci2017</cite>.
+    versa [% b Fucci2017 %].
 
 <span i="continuous integration">Continuous integration</span>.
 :   As discussed in <a section="tooling"/>), building the software and running
@@ -91,7 +91,7 @@ life of a student programmer.
 
 Most guides to being productive tell you to establish a routine.  Research shows
 that you'll learn more from spacing things out than from cramming
-<cite>Weinstein2018</cite>, and doing a bit of work on your project every day is
+[% b Weinstein2018 %], and doing a bit of work on your project every day is
 good insurance against getting sick or being interrupted by other work.
 However, it often isn't feasible when you're juggling deadlines in four or five
 courses.
@@ -176,7 +176,7 @@ each of which is completed before the next begins:
 
 1.  Deploy it (i.e., install it, configure it, etc.).
 
-This process was first described in <cite>Royce1970</cite> as something that
+This process was first described in [% b Royce1970 %] as something that
 couldn't possibly work.  In real life, we always learn things in later stages
 that we couldn't reasonably have anticipated in earlier ones, which means we
 constantly have to go back and revise earlier decisions.  If we *do* try to
@@ -190,10 +190,10 @@ helps to look at the <span g="boehm_curve" i="Boehm Curve">Boehm Curve</span>,
 which shows the effort required to fix a bug based on when it is caught.
 
 In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
-you move later and later in the development cycle <cite>Boehm1981</cite>
+you move later and later in the development cycle [% b Boehm1981 %]
 (<a figure="boehms-curve"/>).  Better tools and vastly more powerful computers have
 flattened Boehm's curve over the past thirty years, but it is still takes more
-effort to fix things later than earlier <cite>Dawson2010</cite>.
+effort to fix things later than earlier [% b Dawson2010 %].
 
 <figure id="boehms-curve">
   <img src="boehms-curve.svg" alt="Boehm's Curve"/>
@@ -220,7 +220,7 @@ more easily.
 The term <span g="agile" i="agile development">agile</span> was coined in 2001
 to describe a bottom-up approach to software project management based on very
 short iterations and frequent feedback from both developers and customers.
-<cite>Masood2018</cite> and many others have found it to be effective for
+[% b Masood2018 %] and many others have found it to be effective for
 student projects; we will look at one form called <span g="scrum"
 i="Scrum">Scrum</span>.
 
@@ -332,7 +332,7 @@ valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.
 
 The <span g="product_manager" i="product manager">product manager</span> is the
-person who owns the spec <cite>Perri2018</cite>.  While developers are building
+person who owns the spec [% b Perri2018 %].  While developers are building
 Version N, she is talking to customers to find out what should go into Version
 N+1.  She doesn't ask them what features they want; if she does, she'll get a
 mish-mash of conversations overheard in frequent flyer lounges and buzzwords
@@ -507,7 +507,7 @@ users' needs to revise the spec.  What features do you now believe are unlikely
 to be used?  Which ones could be consolidated?  Most importantly, which of the
 users' needs that your original plan *wouldn't* satisfy could you help with?
 Figuring this out is one of a project manager's most important responsibilities
-<cite>Perri2018</cite>; whatever you do, don't fall into the trap of thinking
+[% b Perri2018 %]; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
 keep it because you have it.  As <a figure="feature-usage"/> shows using data from
 <span i="Brown, Neil">[Neil Brown][brown-neil]</span> and the <span i="Blackbox

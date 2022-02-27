@@ -57,11 +57,11 @@ tell a good design from a bad one, so we'll start with that.
 > ### Learning by example
 >
 > The best way to learn design in any field is to study examples
-> <cite>Schon1984,Petre2016</cite>, and some of the best examples of software
+> [% b Schon1984 Petre2016 %], and some of the best examples of software
 > design come from the tools programmers use in their own work.
-> <cite>Kernighan1979,Kernighan1981,Kernighan1983</cite> introduced the Unix
+> [% b Kernighan1979 Kernighan1981 Kernighan1983 %] introduced the Unix
 > philosophy to an entire generation of programmers;
-> <cite>Brown2011,Brown2012,Brown2016</cite> and [Mary Rose
+> [% b Brown2011 Brown2012 Brown2016 %] and [Mary Rose
 > Cook][cook-mary-rose]'s [Gitlet][gitlet] take this approach as well.  There is
 > also *[Software Tools in JavaScript][stjs]*, which was developed in tandem with
 > this material and can be used as a starting point for many different class
@@ -75,7 +75,7 @@ tell a good design from a bad one, so we'll start with that.
 
 ## Describing Designs
 
-<cite>Cherubini2007</cite> found that developers usually don't draw <span
+[% b Cherubini2007 %] found that developers usually don't draw <span
 i="software design!role of diagrams">diagrams</span> to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
@@ -136,7 +136,7 @@ Schemas or data models.
 
 The two kinds of diagram that I find most useful are ER diagrams and a
 combination of conceptual and <span g="use_case_map" i="use-case map;
-diagrams!use-case map">use-case maps</span> <cite>Reekie2006</cite>.  The
+diagrams!use-case map">use-case maps</span> [% b Reekie2006 %].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
 (<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
@@ -161,7 +161,7 @@ i="microservice">microservices</span>.
 > diagrams as part of a larger description of a design, and that's pretty much
 > it. Unlike blueprints in architecture or flow diagrams in chemical engineering,
 > UML doesn't actually seem to help practitioners very much
-> <cite>Petre2013</cite>.
+> [% b Petre2013 %].
 >
 > If you have to use UML because it's a course requirement, [PlantUML][plantuml]
 > will convert specially-formatted text into diagrams for you, and the former are
@@ -171,7 +171,7 @@ i="microservice">microservices</span>.
 >
 > One often-overlooked finding about visualization is that people understand
 > flowcharts better than pseudocode *if both are
-> equally well structured* <cite>Scanlan1989</cite>.  Earlier work showing that pseudocode
+> equally well structured* [% b Scanlan1989 %].  Earlier work showing that pseudocode
 > outperformed flowcharts used structured pseudocode and tangled flowcharts; when
 > the playing field was leveled, novices did better with the graphical
 > representation.
@@ -250,7 +250,7 @@ basically saying is, "Argue enough, but not too much."
 >
 > One of the biggest differences between <span i="expert">experts</span> and
 > non-experts in any field is how quickly experts can rule out possibilities
-> <cite>Schon1984</cite>. Whether it is software design, chess, or medical
+> [% b Schon1984 %]. Whether it is software design, chess, or medical
 > diagnosis, <span i="novice">novices</span> check to see if their plan will work;
 > experts, on the other hand, search for a refutation---a reason why it won't---so
 > that they can narrow their focus as early as possible. One way to do this is to
@@ -400,7 +400,7 @@ how easy it is to use something like Slack.
 
 Making software <span i="accessibility; software
 design!accessibility">accessible</span> doesn't just help people with obvious
-disabilities: as <cite>Johnson2017</cite> points out, the population is aging,
+disabilities: as [% b Johnson2017 %] points out, the population is aging,
 and everything you do to help people who are deaf also helps people who are
 gradually losing their hearing.
 
@@ -416,7 +416,7 @@ will also make the software easier to test and maintain.
 
 ## Scriptability
 
-Rule #3 of <cite>Taschuk2017</cite> is, "Make common operations easy to
+Rule #3 of [% b Taschuk2017 %] is, "Make common operations easy to
 control."  Like testing, it's a lot easier to do if you design programs with
 this goal in mind, and programs that are designed to do this tend to be
 easier to understand, test, and extend.
