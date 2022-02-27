@@ -436,8 +436,8 @@ any personality effects.
 >
 > Myers-Briggs has given the whole notion of personality profiling a bad
 > reputation, but there are models of personality that have a scientific basis and
-> are repeatable and cross-cultural.  For example, the <span g="ocean_model">OCEAN
-> model</span> has five dimensions: Openness to experience, Conscientiousness,
+> are repeatable and cross-cultural.  For example, the [% g ocean_model %]OCEAN
+> model[% /g %] has five dimensions: Openness to experience, Conscientiousness,
 > Extraversion, Agreeableness, and Neuroticism. Studies of twins and other
 > research has found that about half of personality variation comes from genetics
 > and about half from environment, and work like [% b Hannay2010 %] has used

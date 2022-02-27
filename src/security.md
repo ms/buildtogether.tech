@@ -46,8 +46,8 @@ their password than to break into their devices digitally.  The defense against
 this is to pay attention to what's happening and respond accordingly.  However,
 being on guard all the time is exhausting; <span i="Snowden, Edward">Edward
 Snowden</span> and the journalists who worked with him took extraordinary
-measures to safeguard themselves against <span g="state_level_actor">state-level
-actors</span> [% b Snowden2019 %], but most of us aren't involved in issues
+measures to safeguard themselves against [% g state_level_actor %]state-level
+actors[% /g %] [% b Snowden2019 %], but most of us aren't involved in issues
 of national security and don't need to take those kinds of precautions.
 Instead, we typically face one of three kinds of threat:
 
@@ -442,7 +442,7 @@ The database connection library will escape special characters like the quotes
 and semi-colons in the user's input and then use the result in place of the
 question mark `?` in the query.
 
-A <span g="xss">cross-site scripting</span> attack works in the same way.
+A [% g xss %]cross-site scripting[% /g %] attack works in the same way.
 Suppose an online chat system displays whatever the user types as a message.  If
 the user types in something that looks like a `<script>` tag containing some
 JavaScript, then whoever views the message will run that JavaScript in their

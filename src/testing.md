@@ -249,8 +249,7 @@ either commit to using one database in both environments, or avoid using the
 
 Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
-in changes to the code. The downside is the loss of <span
-g="fidelity">fidelity</span>: the system we're testing is a close cousin to what
+in changes to the code. The downside is the loss of [% g fidelity %]fidelity[% /g %]: the system we're testing is a close cousin to what
 we're deploying, but not exactly the same. However, this is a good economic
 tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
@@ -347,7 +346,7 @@ probably saved my users from a lot of unnecessary frustration.
 > in a glass of water, what it reports is the weighted average of its own
 > temperature and the water's.) However, most modern profiling tools don't affect
 > performance very much, and tend to slow down most parts of the program by the
-> same amount; in practice, the <span g="hot_spot">hot spots</span> are usually
+> same amount; in practice, the [% g hot_spot %]hot spots[% /g %] are usually
 > very easy to see.
 
 ## Are We Done Yet?
@@ -404,8 +403,8 @@ be sure we were checking the result of each one correctly?
 Some things are intrinsically harder to test than others. Take <span
 i="visualization!difficulty of testing; unit
 test!visualization">visualizations</span>: any change to the dimension of the
-plot, however small, can change many pixels in a <span g="raster_image">raster
-image</span>, and cosmetic changes such as moving the legend up a couple of
+plot, however small, can change many pixels in a [% g raster_image %]raster
+image[% /g %], and cosmetic changes such as moving the legend up a couple of
 pixels will cause all of the tests to fail.
 
 The simplest solution is therefore to test the data used to produce the image

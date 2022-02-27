@@ -228,8 +228,7 @@ Standing up to a bad boss or an unfair professor is easier in theory than in
 practice, though, because the student's evaluation of the professor doesn't
 affect the professor nearly as much as the professor's evaluation of the student
 affects the student.  This imbalance is why management fads like "<span
-i="radical candor (as bullshit)">radical candor</span>" are <span
-g="bullshit">bullshit</span> (in the technical sense of the word
+i="radical candor (as bullshit)">radical candor</span>" are [% g bullshit %]bullshit[% /g %] (in the technical sense of the word
 [% b Frankfurt2005 %]). The idea that everyone should say what they think
 is appealing in theory; in practice, managers will brush aside the fact that
 they can fire people who say things they don't like and blame the marginalized
@@ -340,7 +339,7 @@ mode</span>" [% b Scalzi2012 %].
 
 > ### How far back should we go?
 >
-> <span g="preparatory_privilege">Preparatory privilege</span> is the advantage
+> [% g preparatory_privilege %]Preparatory privilege[% /g %] is the advantage
 > someone has in a supposedly objective assessment as a result of opportunities
 > earlier in life that other people didn't have.  Ignoring it is like ignoring the
 > difference between professional athletes who are paid to train all day and

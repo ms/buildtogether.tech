@@ -47,7 +47,7 @@ Make sure you understand what the bug actually is.
 :   "It doesn't work" isn't good enough: what exactly is going wrong and how do
     you know? If I can't spot a problem in less than a minute, I jot down a note
     to myself like, "shouldn't recurse into footer elements".  Without this, I
-    often find myself <span g="rabbit_hole">going down a rabbit hole</span> and
+    often find myself [% g rabbit_hole %]going down a rabbit hole[% /g %] and
     losing sight of what I was originally trying to fix.
 
     Writing down what's supposed to be happening also helps you check that you
@@ -274,8 +274,8 @@ compile or run your program with specific options to make it debuggable.)
 
 <span g="breakpoint" i="breakpoint; debugger!breakpoint">Breakpoints</span>.
 :   You can tell the debugger to pause the program whenever it reaches a certain
-    line.  You can also create a <span g="conditional_breakpoint">conditional
-    breakpoint</span> that only pauses on that line if some test is true, e.g.,
+    line.  You can also create a [% g conditional_breakpoint %]conditional
+    breakpoint[% /g %] that only pauses on that line if some test is true, e.g.,
     if a list is empty or a loop index is zero.
 
 Inspection.

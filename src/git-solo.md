@@ -30,9 +30,8 @@ systems</span>:
     everyone worked in a local copy.
 
 1.  In order to share files with other people (or to create a backup, which is
-    really just a way to share files with your future self) people would <span
-    g="push_git">push</span> the contents of their copy to the main repository.
-    To get other people's work, they would <span g="pull_git">pull</span>
+    really just a way to share files with your future self) people would [% g push_git %]push[% /g %] the contents of their copy to the main repository.
+    To get other people's work, they would [% g pull_git %]pull[% /g %]
     changes from the main repository and combine them with their own work.
 
 Centralized version control systems have largely been replaced by <span
@@ -270,8 +269,8 @@ committing.
 > _site
 > ```
 >
-> Be careful not to put files containing passwords or <span g="api_key">API
-> keys</span> for web services into version control: even if the repository is
+> Be careful not to put files containing passwords or [% g api_key %]API
+> keys[% /g %] for web services into version control: even if the repository is
 > private now, it might be public in future, or the team might grow to include
 > someone who shouldn't have access (<a section="security"/>).
 
@@ -650,8 +649,7 @@ Git)">workflow</span> will help you keep track of what you are doing:
     your changes into `main`.  You should not have any conflicts, and all of
     your tests should pass.
 
-Most developers use this <span
-g="branch_per_feature_workflow">branch-per-feature workflow</span>, but what
+Most developers use this [% g branch_per_feature_workflow %]branch-per-feature workflow[% /g %], but what
 exactly is a "feature"?  These rules make sense for small projects:
 
 1.  Anything cosmetic that is only one or two lines long can be done in `main`

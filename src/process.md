@@ -131,8 +131,7 @@ example:
 
 4:05 p.m.
 :   You can now start work on the feature you want to add, which translates part
-    of the program's internal data structure into a blob of <span
-    g="json">JSON</span> to send to a web server.  You have an hour less to do
+    of the program's internal data structure into a blob of [% g json %]JSON[% /g %] to send to a web server.  You have an hour less to do
     this than you originally planned, but that's OK: by fixing bugs first,
     you've avoided the all-too-common situation of only half the code working
     when the project is "done". Again, the first step is to create a new branch
@@ -165,8 +164,8 @@ each of which is completed before the next begins:
 
 1.  Gather requirements.
 
-1.  Analyze them to produce <span g="schema">data schemas</span> and
-    <span g="business_rule">business rules</span>.
+1.  Analyze them to produce [% g schema %]data schemas[% /g %] and
+    [% g business_rule %]business rules[% /g %].
 
 1.  Design the software.
 
@@ -513,7 +512,7 @@ keep it because you have it.  As <a figure="feature-usage"/> shows using data fr
 <span i="Brown, Neil">[Neil Brown][brown-neil]</span> and the <span i="Blackbox
 project">[Blackbox][blackbox] project</span>, the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
-those in the <span g="long_tail">long tail</span>.
+those in the [% g long_tail %]long tail[% /g %].
 
 <figure id="feature-usage">
   <img src="feature-usage.svg" alt="Distribution of feature usage"/>

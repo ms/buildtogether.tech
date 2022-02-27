@@ -55,8 +55,7 @@ That said, there are three things to keep in mind:
 Some languages are <span i="programming language!ease of learning">easier to learn</span> than others.
 :   [% b Stefik2013 %] did a controlled experiment to see how quickly
     people could learn to recognize correct and incorrect syntax in several
-    different languages. They found that <span
-    g="curly_brace_language">curly-brace languages</span> like <span
+    different languages. They found that [% g curly_brace_language %]curly-brace languages[% /g %] like <span
     i="Java">Java</span> and <span i="Perl">Perl</span> were as hard for people
     to learn as a language with a randomly designed syntax. (They rolled
     *Dungeons & Dragons* dice to pick random names and characters for a made-up
@@ -170,7 +169,7 @@ operating system in disguise).
 >
 > In many ways, programming is still stuck in the punchcard era: we still insist
 > that source code be represented as lines of characters that are drawn
-> one-for-one on the screen.  <span g="wysiwyg">WYSIWYG</span> editors like
+> one-for-one on the screen.  [% g wysiwyg %]WYSIWYG[% /g %] editors like
 > Microsoft Word did away with this model decades ago; they store the file in a
 > machine-friendly format and then render it in a human-friendly way. There's no
 > reason we couldn't do the same with programs.  There's no reason we shouldn't be
@@ -307,8 +306,7 @@ If you want to go one big step further, you can start using modeling tools like
 <span i="Alloy; modeling tools!Alloy">[Alloy][alloy]</span>
 [% b Jackson2016 %] and <span i="TLA+; modeling
 tools!TLA+">[TLA+][tla-plus]</span> [% b Wayne2018 %].  Instead of
-analyzing source code, you use these tools to build and analyze a <span
-g="model">model</span> of what the code is supposed to do so that you can look
+analyzing source code, you use these tools to build and analyze a [% g model %]model[% /g %] of what the code is supposed to do so that you can look
 for flaws in your algorithms.
 
 Alloy focuses on describing complex relationships, such as the integrity of data

@@ -207,7 +207,7 @@ one set of skills.
 
 Another drawback stems from the fact mentioned above that some activities are
 viewed as being more prestigious than others. If the team decomposes work
-functionally, the self-appointed <span g="alpha_geek">alpha geeks</span> will
+functionally, the self-appointed [% g alpha_geek %]alpha geeks[% /g %] will
 usually snag the plum jobs like architecture and coding, leaving less appealing
 work to people who aren't as pushy, privileged, or self-confident. This tends to
 reinforce existing inequities; it also tends to lower the team's overall grade,
@@ -399,7 +399,7 @@ Not everything worth doing should be done.
     called <span g="feature_creep" i="feature creep (danger of)">feature
     creep</span>, and has ruined many projects that might otherwise have
     delivered something small but useful.  My solution these days is to keep a
-    <span g="to_dont_list">to-don't</span> list of things that would be fun and
+    [% g to_dont_list %]to-don't[% /g %] list of things that would be fun and
     worthwhile, but that I'm *not* going to tackle.
 
 Success is a habit.

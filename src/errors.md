@@ -184,7 +184,7 @@ OSError: Unsupported file type.
 This message tells us the problem is with the type of file we're trying to
 process, but it still doesn't tell us what file types are supported, which means
 we have to rely on guesswork or read the source code.  Telling the user that a
-file isn't a <span g="csv">CSV</span> file makes it clear that the program only
+file isn't a [% g csv %]CSV[% /g %] file makes it clear that the program only
 works with files of that type, but since we don't actually check the content of
 the file, this message could confuse someone who has comma-separated values
 saved in a `.txt` file.  An even <span i="error message!writing helpful">better
@@ -400,7 +400,7 @@ gives you a lot more insight into what your program is actually doing.
 > You will sometimes inspect logs yourself, but you will also frequently want to
 > search them for patterns. All of the logs you produce should therefore be in a
 > <span i="logging!output format">machine-readable format</span> like CSV, JSON,
-> or <span g="yaml">YAML</span>; you can easily write a small program to
+> or [% g yaml %]YAML[% /g %]; you can easily write a small program to
 > pretty-print the data you want for manual inspection.
 >
 > This guideline is one instance of a more general design rule.  The world has

@@ -92,7 +92,7 @@ things like `npm run test`:
 
 <!-- continue -->
 `package.json` files have two flaws: there is no standard way to write comments
-(since <span g="json">JSON</span> itself doesn't have this) and there is no way
+(since [% g json %]JSON[% /g %] itself doesn't have this) and there is no way
 to express dependencies between tasks, i.e., there's no way to say, "A depends
 on B which depends on C".
 
@@ -104,7 +104,7 @@ library that handles dependencies, invokes appropriate compilers, and so on.
 Debugging is still problematic, but at least it's possible. Unfortunately, like
 front-end JavaScript frameworks and static site generators, a simple build tool
 is so simple to create that hundreds have proliferated. As a result, none has
-achieved <span g="critical_mass">critical mass</span>.
+achieved [% g critical_mass %]critical mass[% /g %].
 
 Whatever you choose or are told to use, please <span i="build manager!rules for
 using">follow these rules</span>:

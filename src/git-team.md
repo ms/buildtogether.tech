@@ -296,7 +296,7 @@ Offer alternatives.
 :   Telling authors that something is wrong is helpful; telling them what they
     might do instead is more so.
 
-Don't <span g="feigning_surprise">feign surprise</span> or pass judgment.
+Don't [% g feigning_surprise %]feign surprise[% /g %] or pass judgment.
 :   "Gosh, didn't you know [some obscure fact]?" isn't helpful; neither is,
     "Geez, why don't you [some clever trick] here?"
 
@@ -347,7 +347,7 @@ comments I left when reviewing it.
 <div class="table" id="collaborate-code-review" caption="Code Review" markdown="1">
 | Line(s) | Comment |
 | ------- | ------- |
-| 02      | Add a <span g="docstring">docstring</span> describing the program. |
+| 02      | Add a [% g docstring %]docstring[% /g %] describing the program. |
 | 03      | Put imports in alphabetical order. |
 | 07      | Use a set instead of a list for faster lookup. |
 |         | One entry per line will be easier to read. |
@@ -358,7 +358,7 @@ comments I left when reviewing it.
 | 17      | Print error message to `sys.stderr`. |
 | 33      | Add a docstring describing this function. |
 | 34-39   | Use `any` instead of a loop to check this. |
-| 41      | <span g="magic_number">Magic number</span> 10. |
+| 41      | [% g magic_number %]Magic number[% /g %] 10. |
 | 41      | Provide option to control progress reporting. |
 | 47      | Use `'rb'` to read files as binary. |
 | 57      | Add a docstring describing this function. |

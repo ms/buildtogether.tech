@@ -286,7 +286,7 @@ def handle_cardiac_arrest(all_actors):
 ```
 
 <!-- continue -->
-(The term <span g="actor">actor</span> is often used in simulations to mean
+(The term [% g actor %]actor[% /g %] is often used in simulations to mean
 "anything that can take actions".) If we want to add another kind of actor, we
 need to modify this code to add another `elif` clause, and if we want to add
 another kind of event, we have to write another function *and* make sure we

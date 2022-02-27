@@ -339,8 +339,7 @@ world aren't going to answer the questions "Why does the software do this?"  and
 "Why doesn't it do this in a simpler way?"
 
 In most cases, <span i="documentation!embedded">embedded documentation</span> in
-the form of a short <span g="docstring">docstring</span> or <span
-g="doc_comment">doc comment</span> to remind ourselves of each function's
+the form of a short [% g docstring %]docstring[% /g %] or [% g doc_comment %]doc comment[% /g %] to remind ourselves of each function's
 purpose is probably as much documentation as we need.  (In fact, it's probably
 better than what most people do.)  That one- or two-liner should begin with an
 active verb and describe either how inputs are turned into outputs, or what side

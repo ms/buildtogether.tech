@@ -3,7 +3,7 @@
 Glossary data is stored in a [Glosario](https://glosario.carpentries.org/)-format
 file referenced by config["glossary"].
 
--   `glossary_ref` turns `[% g key "some text" %]` into a glossary reference.
+-   `glossary_ref` turns `[% g key %]some text[% /g %]` into a glossary reference.
     (The generated HTML assumes that the glossary is in `@root/glossary/index.html`.)
 
 -   `glossary` turns `[% glossary %]` into an HTML glossary.  It requires a
@@ -25,17 +25,17 @@ MULTISPACE = re.compile(r"\s+", re.DOTALL)
 INTERNAL_REF = re.compile(r'\]\(#(.+?)\)')
 
 
-@shortcodes.register("g")
-def glossary_ref(pargs, kwargs, node):
-    """Handle [% g slug "text" %] glossary reference shortcodes."""
-    if len(pargs) != 2:
+@shortcodes.register("g", "/g")
+def glossary_ref(pargs, kwargs, node, content):
+    """Handle [% g slug %]text[% /g %] glossary reference shortcodes."""
+    if len(pargs) != 1:
         util.fail(f"Badly-formatted 'g' shortcode {pargs} in {node.filepath}")
 
     definitions = util.make_config("definitions")
-    slug, text = pargs
+    slug = pargs[0]
     definitions.add(slug)
 
-    return f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{text}</a>'
+    return f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{content}</a>'
 
 
 @shortcodes.register("glossary")
