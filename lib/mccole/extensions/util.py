@@ -33,7 +33,7 @@ CONFIGURATIONS = {
     "glossary": [],  # full glossary
     "headings": {},  # number chapter, section, and appendix headings
     "inclusions": {},  # included files
-    "index": set(),  # index entries
+    "index": {},  # index entries
     "links": [],  # links table entries
     "tables": {}  # numbered tables
 }

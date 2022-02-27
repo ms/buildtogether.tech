@@ -66,7 +66,8 @@ def glossary(pargs, kwargs, node):
 def check():
     lang = ivy.site.config["lang"]
 
-    glossary = util.get_config("glossary")
+    if (glossary := util.get_config("glossary")) is None:
+        return
     glossary_keys = {entry["key"] for entry in glossary}
 
     if (definitions := util.get_config("definitions")) is None:
