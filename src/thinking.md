@@ -42,7 +42,7 @@ To explain where these differences come from, imagine that the knowledge in your
 brain is stored as a graph in which ideas are nodes and the connections between
 them are arcs. (Your brain doesn't actually work this way, but it's a useful
 metaphor.) A novice's mental model is disconnected: some key facts are missing,
-and other pieces don't join up (<a figure="thinking-models"/>). In contrast,
+and other pieces don't join up ([% f thinking-models %]). In contrast,
 a competent practitioner's mental model is fully connected: given fact `A`, he
 can reason his way through `B` and `C` to solution `D`. He might take a wrong
 turn to `Y` and `Z` along the way and have to backtrack, but he'll get there
@@ -59,10 +59,7 @@ this explains why they can solve problems at a glance, but also why they have
 trouble explaining their thinking: they can't tell someone else how they did it
 any more than we can explain how we recognize faces.
 
-<figure id="thinking-models">
-  <img src="thinking-models.svg" alt="Mental models"/>
-  <figcaption>The differences between novice, competent, and expert mental models.</figcaption>
-</figure>
+[% figure slug="thinking-models" img="thinking-models.svg" alt="Mental models" caption="The differences between novice, competent, and expert mental models." %]
 
 > ### Learning styles aren't a thing
 >
@@ -185,12 +182,9 @@ the things we didn't.
 
 ## Cognitive Load
 
-<figure id="thinking-cognitive-architecture">
-  <img src="cognitive-architecture.svg" alt="Cognitive architecture"/>
-  <figcaption>The cognitive architecture of the human mind (simplified).</figcaption>
-</figure>
+[% figure slug="thinking-cognitive-architecture" img="cognitive-architecture.svg" alt="Cognitive architecture" caption="The cognitive architecture of the human mind (simplified)." %]
 
-<a figure="thinking-cognitive-architecture"/> shows a very (very) simple model of
+[% f thinking-cognitive-architecture %] shows a very (very) simple model of
 the cognitive architecture of the human brain. On the left is [% i "long-term memory" %][% g long_term_memory %]long-term memory[% /g %][% /i %] (LTM), which
 is where you store things like the spelling of your name and how that awful
 clown scared you when you were ten years old. It is very large---you can keep
@@ -226,17 +220,14 @@ For example, suppose you are learning the grammar of Frisian. If I ask you to
 translate, "How is her knee today?" then the intrinsic load is the rules of
 grammar, but there is also the germane load of recalling vocabulary (which is
 necessary, but isn't the main focus of the lesson). If, on the other hand, I
-give you the words as shown in <a figure="thinking-frisian"/> and ask you to
+give you the words as shown in [% f thinking-frisian %] and ask you to
 rearrange them, I have eliminated the germane load, but have added some
 extraneous load by using a mix of fonts. You will solve the problem more quickly
 and more accurately if the words are all in the same font, no matter what that
 font is, than you will if your brain is wondering whether the difference is
 significant.
 
-<figure id="thinking-frisian">
-  <img src="thinking-frisian.svg" alt="Translating a sentence"/>
-  <figcaption>"Reducing germane load while increasing extraneous load.</figcaption>
-</figure>
+[% figure slug="thinking-frisian" img="thinking-frisian.svg" alt="Translating a sentence" caption=""Reducing germane load while increasing extraneous load." %]
 
 Cognitive load theory explains why tools like [% i "Scratch" %][Scratch][scratch][% /i %] work so well: they reduce germane load by
 getting rid of the commas, curly braces, and other distractions so that learners

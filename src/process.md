@@ -24,13 +24,10 @@ routine to the chaos of student life.
 ## Process as Feedback Loops
 
 I think about process in terms of [% i "feedback loops" %]feedback loops[% /i %]
-on different timescales (<a figure="feedback-loops"/>).  Any particular team
+on different timescales ([% f feedback-loops %]).  Any particular team
 emphasizes some of these and pays less attention to others.
 
-<figure id="feedback-loops">
-  <img src="feedback-loops.svg" alt="Feedback loops"/>
-  <figcaption>Software development feedback loops on different timescales.</figcaption>
-</figure>
+[% figure slug="feedback-loops" img="feedback-loops.svg" alt="Feedback loops" caption="Software development feedback loops on different timescales." %]
 
 [% i "pair programming" %][% g pair_programming %]Pair programming[% /g %][% /i %].
 :   One programmer, the driver, does the typing, while the other, called the
@@ -155,7 +152,7 @@ meeting to stay organized and you will be in great shape.
 ## The Waterfall Model
 
 To start our exploration of the longer feedback loops in
-<a figure="feedback-loops"/>, let's look at a process that nobody uses, but which
+[% f feedback-loops %], let's look at a process that nobody uses, but which
 appears in almost every textbook. It's called the [% i "waterfall model" "process!waterfall" %][% g waterfall_model %]waterfall model[% /g %][% /i %],
 and it divides development into a series of discrete phases,
 each of which is completed before the next begins:
@@ -188,14 +185,11 @@ which shows the effort required to fix a bug based on when it is caught.
 
 In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
 you move later and later in the development cycle [% b Boehm1981 %]
-(<a figure="boehms-curve"/>).  Better tools and vastly more powerful computers have
+([% f boehms-curve %]).  Better tools and vastly more powerful computers have
 flattened Boehm's curve over the past thirty years, but it is still takes more
 effort to fix things later than earlier [% b Dawson2010 %].
 
-<figure id="boehms-curve">
-  <img src="boehms-curve.svg" alt="Boehm's Curve"/>
-  <figcaption>The cost of fixing bugs increases later in the development cycle.</figcaption>
-</figure>
+[% figure slug="boehms-curve" img="boehms-curve.svg" alt="Boehm's Curve" caption="The cost of fixing bugs increases later in the development cycle." %]
 
 Development teams deal with this in three ways.  The first is to ignore it.  If
 you're being paid a steady salary by a company that can survive delays and cost
@@ -378,12 +372,9 @@ The X axis is labeled "effort" and is labeled "an hour", "a day",
 and "a week", while the Y axis "importance", and is divided into "low",
 "medium", and "high".  Next, write each feature's name on a yellow sticky note
 and put it on the grid.  You should wind up with something like
-<a figure="effort-importance"/>.
+[% f effort-importance %].
 
-<figure id="effort-importance">
-  <img src="effort-importance.svg" alt="Effort/importance matrix"/>
-  <figcaption>An example of an effort/importance matrix.</figcaption>
-</figure>
+[% figure slug="effort-importance" img="effort-importance.svg" alt="Effort/importance matrix" caption="An example of an effort/importance matrix." %]
 
 You then throw away the high-effort, low-importance items in the bottom-right
 three cells---you aren't going to get to those.  Next, you start assembling the
@@ -502,16 +493,13 @@ users' needs that your original plan *wouldn't* satisfy could you help with?
 Figuring this out is one of a project manager's most important responsibilities
 [% b Perri2018 %]; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
-keep it because you have it.  As <a figure="feature-usage"/> shows using data from
+keep it because you have it.  As [% f feature-usage %] shows using data from
 [% i "Brown, Neil" %][Neil Brown][brown-neil][% /i %] and the [% i "Blackbox
 project" %][Blackbox][blackbox] project[% /i %], the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
 those in the [% g long_tail %]long tail[% /g %].
 
-<figure id="feature-usage">
-  <img src="feature-usage.svg" alt="Distribution of feature usage"/>
-  <figcaption>Distribution of feature usage in BlueJ (data courtesy of Neil Brown).</figcaption>
-</figure>
+[% figure slug="feature-usage" img="feature-usage.svg" alt="Distribution of feature usage" caption="Distribution of feature usage in BlueJ (data courtesy of Neil Brown)." %]
 
 ## Which Process Should You Use?
 

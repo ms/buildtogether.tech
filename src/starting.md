@@ -54,16 +54,13 @@ Because they're fun.
 :   At least, if they're done right.
 
 One goal of project courses is to move learners from the left side of
-<a figure="four-models-of-instruction"/> to the right. Most of the learning will
+[% f four-models-of-instruction %] to the right. Most of the learning will
 take place in a team or on your own; the instructor's job is to mentor rather
 than to lecture. Using the terms of [% x thinking %], a project course
 is where your school starts treating you like a competent practitioner rather
 than like a novice.
 
-<figure id="four-models-of-instruction">
-  <img src="four-models-of-instruction.svg" alt="Four models of instruction" />
-  <figcaption>Four models of instruction that shift control from instructors to learners.</figcaption>
-</figure>
+[% figure slug="four-models-of-instruction" img="four-models-of-instruction.svg" alt="Four models of instruction"  caption="Four models of instruction that shift control from instructors to learners." %]
 
 There are as many ways to run a project course as there are instructors teaching
 them [% b Fincher2001 %].  The most important variable is whether your team

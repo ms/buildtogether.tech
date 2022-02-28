@@ -123,24 +123,18 @@ Schemas or data models.
 :   These can be fairly literal pictures of the tables in a database, possibly
     augmented with arrows to show what's a foreign key for what, or [% i "entity-relationship diagram" "diagrams!entity-relationship" %][% g er_diagram %]entity-relationship diagrams[% /g %][% /i %] that also
     show which relationships are one-to-one, one-to-many, and so on
-    (<a figure="er-diagram"/>).
+    ([% f er-diagram %]).
 
-<figure id="er-diagram">
-  <img src="er-diagram.svg" alt="Entity-relationship diagram"/>
-  <figcaption>An example of an entity-relationship diagram for students, instructors, and courses.</figcaption>
-</figure>
+[% figure slug="er-diagram" img="er-diagram.svg" alt="Entity-relationship diagram" caption="An example of an entity-relationship diagram for students, instructors, and courses." %]
 
 The two kinds of diagram that I find most useful are ER diagrams and a
 combination of conceptual and [% i "use-case map" "diagrams!use-case map" %][% g use_case_map %]use-case maps[% /g %][% /i %] [% b Reekie2006 %].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
-(<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
+([% f use-case-map %]).  I find these particularly useful for checking the behavior
 of systems built from lots of [% i "microservice" %][% g microservice %]microservices[% /g %][% /i %].
 
-<figure id="use-case-map">
-  <img src="use-case-map.png" alt="Use case maps"/>
-  <figcaption>An example of a use case map (from Reekie2006).</figcaption>
-</figure>
+[% figure slug="use-case-map" img="use-case-map.png" alt="Use case maps" caption="An example of a use case map (from Reekie2006)." %]
 
 > ### UML and why not
 >
@@ -511,7 +505,7 @@ of functions (or meta-classes templated on object factories) into actual
 operations on actual data.
 
 More experienced programmers are more capable at both ends of the curve, but
-that's not the only thing that changes.  <a figure="comprehension-curves"/>
+that's not the only thing that changes.  [% f comprehension-curves %]
 compares a [% i "code comprehension" "novice!code
 comprehension" %]novice[% /i %]'s comprehension curve with an [% i "expert!code
 comprehension" %]expert[% /i %]'s.  Experts don't just understand more at all
@@ -520,10 +514,7 @@ levels of abstraction; their *preferred* level has also shifted so that
 side of the square whose area is the sum of the areas of the two squares whose
 sides are given by the first part and the second part".
 
-<figure id="comprehension-curves">
-  <img src="comprehension-curves.svg" alt="Comprehension curves"/>
-  <figcaption>How the relationship between abstraction and comprehension differs for novices and experts.</figcaption>
-</figure>
+[% figure slug="comprehension-curves" img="comprehension-curves.svg" alt="Comprehension curves" caption="How the relationship between abstraction and comprehension differs for novices and experts." %]
 
 This difference implies that the software that is quickest for a novice to
 comprehend will almost certainly be different from the software that an expert

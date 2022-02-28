@@ -132,22 +132,22 @@ how to get from one state to another.</dd>
 <dd>These can be fairly literal pictures of the tables in a database, possibly
 augmented with arrows to show what's a foreign key for what, or <span class="indexref" key="entity-relationship diagram;diagrams!entity-relationship" markdown="1"><a class="glossref" href="../glossary/#er_diagram" markdown="1">entity-relationship diagrams</a></span> that also
 show which relationships are one-to-one, one-to-many, and so on
-(<a figure="er-diagram"/>).</dd>
+(<a class="figref" href="../design/#er-diagram">Figure 12.1</a>).</dd>
 </dl>
 <figure id="er-diagram">
-  <img src="er-diagram.svg" alt="Entity-relationship diagram"/>
-  <figcaption>An example of an entity-relationship diagram for students, instructors, and courses.</figcaption>
+  <img src="../files/er-diagram.svg" alt="Entity-relationship diagram" />
+  <figcaption markdown="1">Figure 12.1: An example of an entity-relationship diagram for students, instructors, and courses.</figcaption>
 </figure>
 
 <p>The two kinds of diagram that I find most useful are ER diagrams and a
 combination of conceptual and <span class="indexref" key="use-case map;diagrams!use-case map" markdown="1"><a class="glossref" href="../glossary/#use_case_map" markdown="1">use-case maps</a></span> [<a href="../bibliography/#Reekie2006">Reekie2006</a>].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
-(<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
+(<a class="figref" href="../design/#use-case-map">Figure 12.2</a>).  I find these particularly useful for checking the behavior
 of systems built from lots of <span class="indexref" key="microservice" markdown="1"><a class="glossref" href="../glossary/#microservice" markdown="1">microservices</a></span>.</p>
 <figure id="use-case-map">
-  <img src="use-case-map.png" alt="Use case maps"/>
-  <figcaption>An example of a use case map (from Reekie2006).</figcaption>
+  <img src="../files/use-case-map.png" alt="Use case maps" />
+  <figcaption markdown="1">Figure 12.2: An example of a use case map (from Reekie2006).</figcaption>
 </figure>
 
 <blockquote>
@@ -480,7 +480,7 @@ high-level language, we incur a similar load translating functions of functions
 of functions (or meta-classes templated on object factories) into actual
 operations on actual data.</p>
 <p>More experienced programmers are more capable at both ends of the curve, but
-that's not the only thing that changes.  <a figure="comprehension-curves"/>
+that's not the only thing that changes.  <a class="figref" href="../design/#comprehension-curves">Figure 12.3</a>
 compares a <span class="indexref" key="code comprehension;novice!code
 comprehension" markdown="1">novice</span>'s comprehension curve with an <span class="indexref" key="expert!code
 comprehension" markdown="1">expert</span>'s.  Experts don't just understand more at all
@@ -489,8 +489,8 @@ levels of abstraction; their <em>preferred</em> level has also shifted so that
 side of the square whose area is the sum of the areas of the two squares whose
 sides are given by the first part and the second part".</p>
 <figure id="comprehension-curves">
-  <img src="comprehension-curves.svg" alt="Comprehension curves"/>
-  <figcaption>How the relationship between abstraction and comprehension differs for novices and experts.</figcaption>
+  <img src="../files/comprehension-curves.svg" alt="Comprehension curves" />
+  <figcaption markdown="1">Figure 12.3: How the relationship between abstraction and comprehension differs for novices and experts.</figcaption>
 </figure>
 
 <p>This difference implies that the software that is quickest for a novice to
