@@ -15,7 +15,7 @@ However, I focus on tools when talking to students because they are more
 tangible: it's easier to tell if someone is using version control or a style
 checker than it is to tell if they're designing or estimating sensibly.
 
-<a section="automation"/> introduced build managers, style checkers, and profilers;
+[% x automation %] introduced build managers, style checkers, and profilers;
 the sections below discuss some other tools you might want in your toolbox.  You
 shouldn't try to adopt all of them in a single semester unless the focus of your
 project course is to try out as many tools as possible (which is actually a good
@@ -139,7 +139,7 @@ Keep an eye on security updates.
 > operating system on top of another to create a <span g="virtual_machine"
 > i="virtual machine">virtual machine</span> (VM) that is isolated from everything
 > beneath it.  It and other tools like it are used by most cloud computing
-> services and to run continuous integration systems (<a section="automation"/>), but
+> services and to run continuous integration systems ([% x automation %]), but
 > they are essentially an admission that we haven't figured out how to manage
 > packaging reliably.
 
@@ -186,7 +186,7 @@ in the 1980s.  They usually include these tools:
 -   A [% i "test runner" %]test runner[% /i %] to display the results of tests and
     let you jump directly to ones that have failed. This is usually a GUI built
     on top of whatever unit testing framework you are using
-    (<a section="testing"/>), just as graphical interfaces for version control are usually
+    ([% x testing %]), just as graphical interfaces for version control are usually
     built on top of the command-line tools.
 
 The most popular IDE today is probably [% i "VS Code" "Microsoft Visual Studio
@@ -204,7 +204,7 @@ But calling VS Code is the world's most popular IDE is misleading.  If you open
 [% i "IDE!in browser" %]developer tools[% /i %]. in Firefox, Chrome, or Edge, you
 will be shown an HTML browser that's smart enough to tell you which bits of CSS
 are in effect where, a console that displays messages from the JavaScript
-running in the page, a breakpointing debugger (<a section="debugging"/>), a network
+running in the page, a breakpointing debugger ([% x debugging %]), a network
 monitor, and much more. It won't help you with your C# or Python---at least, not
 yet---but it will make all of your front-end work a lot easier.
 
@@ -233,7 +233,7 @@ reduces the chances of making a mistake so that you don't lose time later trying
 to figure out what's gone wrong.  (The `alfblue` error mentioned in the previous
 paragraph cost me about ten minutes.)  It also helps you maintain concentration,
 since you don't have to make a mental switch from the code you're writing to the
-refactoring you're doing and then back again (<a section="important"/>).
+refactoring you're doing and then back again ([% x important %]).
 
 ## The Next Level
 
@@ -253,7 +253,7 @@ makes a lot of sense to keep the source of the documentation right beside the
 code. Many introductory courses require students to document their packages,
 classes, and methods this way; it's a good habit, and one you should cultivate.
 
-Another set of tools complement the style checkers discussed in <a section="automation"/>.
+Another set of tools complement the style checkers discussed in [% x automation %].
 Style checkers do static analysis, i.e., they look at the
 text of your program while it's at rest.  Other tools do [% i "dynamic analysis" %][% g dynamic_analysis %]dynamic analysis[% /g %][% /i %]: tools like
 [% i "Valgrind" "dynamic analysis!Valgrind" %]Valgrind[% /i %] watch your [% i "C" %]C[% /i %] or [% i "C++" %]C++[% /i %] program run and look for things like

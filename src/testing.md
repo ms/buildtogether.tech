@@ -27,7 +27,7 @@ A unit test will typically have:
 -   A [% i "fixture (in unit test)" "unit test!fixture" %][% g fixture %]fixture[% /g %][% /i %], which is the thing being tested (e.g., an
     array of numbers). The fixture is typically a subset or smaller version of
     the data the function will typically process. In fact, it should be a reprex
-    (<a section="communicate"/>), i.e., exactly the same kind of minimal example
+    ([% x communicate %]), i.e., exactly the same kind of minimal example
     you would post online if you were asking for help.
 
 -   An [% i "actual result (in unit test)" "unit test!actual result" %][% g actual_result %]actual result[% /g %][% /i %], which is what the code produces when given the
@@ -37,7 +37,7 @@ A unit test will typically have:
     compared to.
 
 Good programmers often run informal unit tests interactively when debugging
-(<a section="tooling"/>), but they are much more valuable when they can be re-run
+([% x tooling %]), but they are much more valuable when they can be re-run
 at a moment's notice to make sure that the most recent changes haven't broken
 anything that was working a few minutes ago.  To do this, you can use a [% i "test framework" "unit test!test framework" %][% g test_framework %]test framework[% /g %][% /i %] (also called a [% i "test runner" %][% g test_runner %]test runner[% /g %][% /i %]).  Dozens of these have been built for almost every language you
 can think of; most are very similar because they were inspired by the same
@@ -53,7 +53,7 @@ The `pytest` library comes with a command-line tool that is also called
 directory whose names match the pattern `test_*.py`.  It then runs the test
 functions it finds in these files and summarizes their results.
 
-If running all the tests is taking so long that it's disrupting your [% i "flow" %]flow[% /i %] (<a section="important"/>), you can give `pytest` (and other
+If running all the tests is taking so long that it's disrupting your [% i "flow" %]flow[% /i %] ([% x important %]), you can give `pytest` (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
 development, but you should always re-run the entire [% i "test suite" "unit test!test suite" %][% g test_suite %]test suite[% /g %][% /i %] before committing your
 changes to version control. If the tests reveal that the change you have just
@@ -74,7 +74,7 @@ second time around.
 > sparked interest in [% i "fuzz testing" "unit > test!fuzzing" %][% g fuzz_testing %]fuzz testing[% /g %][% /i %] (or "fuzzing" for short), which is now a
 > standard part of most testers' repertoire [% b Zeller2019 %].  Despite
 > this, [% b Miller2020 %] found that thirty years later, programs are still
-> failing at about the same rate and for the same reasons.  <a section="debugging"/>
+> failing at about the same rate and for the same reasons.  [% x debugging %]
 > discusses a technique for making fuzz testing even more useful.
 
 ## Design for Testability

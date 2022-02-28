@@ -15,7 +15,7 @@ how to run a meeting, and how to resolve arguments.
 > [% i "waste (in software development)" %]nine types of waste[% /i %]: building the
 > wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
 > solutions, extraneous [% i "cognitive load" %]cognitive load[% /i %]
-> (<a section="thinking"/>), psychological distress, waiting and <span
+> ([% x thinking %]), psychological distress, waiting and <span
 > i="multitasking">multitasking</span>, knowledge loss, and ineffective
 > communication.  *None of these are software issues,* so if you only think about
 > the software side of your project, it's going to take longer and hurt more than
@@ -160,7 +160,7 @@ Make a list of the things you have to do.
     themselves email messages that then go into a folder titled "To Do".
     However you do it, the important thing is to *write it all down*.  You can
     only keep a handful of things in short-term memory at once
-    (<a section="thinking"/>); if you try to manage a [% i "to-do list" %]to-do
+    ([% x thinking %]); if you try to manage a [% i "to-do list" %]to-do
     list[% /i %] longer than that in your head, you will forget things.
 
 Weed out everything that you don't need to do right away.
@@ -173,7 +173,7 @@ Sort the list so that the most important tasks are at the top.
 
 Make sure you have everything you need to see the first task through.
 :   The most recent files from [% i "version control" %]version control[% /i %]
-    (<a section="git-solo"/>), the assignment specification, a fresh cup of
+    ([% x git-solo %]), the assignment specification, a fresh cup of
     tea---whatever it is, don't give yourself an excuse to interrupt your work,
     because the world will provide enough of those.
 
@@ -344,7 +344,7 @@ Take minutes.
     meetings)" %]point-form notes[% /i %] about the most important information that
     was shared, and about every decision that was made or every task that was
     assigned to someone.  This responsibility should rotate each meeting so that
-    everyone has to take a turn; otherwise, as discussed in <a section="teams"/>,
+    everyone has to take a turn; otherwise, as discussed in [% x teams %],
     the burden will fall unfairly on some people.
 
 End early.
@@ -389,7 +389,7 @@ Everyone can check what was actually said or promised.
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
     follow up on them later.  If you are using an [% i "issue-tracking
-    system" %]issue-tracking system[% /i %] (<a section="tooling"/>), create an issue
+    system" %]issue-tracking system[% /i %] ([% x tooling %]), create an issue
     for each new question or task right after the meeting and update those that
     are being carried forward.  This helps a lot when the time comes to draw up
     the agenda for the next meeting.
@@ -516,14 +516,14 @@ Who gets to vote?
     *really* wants a change, but in practice it often means projects are driven
     by people who are extroverted or self-confident rather than by those with
     the best technical skills or the best understanding of what users
-    need. We'll revisit this in <a section="fairness"/>.
+    need. We'll revisit this in [% x fairness %].
 
 Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
 section in the project's [% i "README file" %]`README`[% /i %] file
-(<a section="starting"/>) or put into a separate file called
+([% x starting %]) or put into a separate file called
 [% i "CONTRIBUTING file" %]`CONTRIBUTING`[% /i %].  This material should describe the naming
 conventions to use for functions, what tags to put on issues, or how to install
 and configure the software needed to start work on the project.  Wherever it

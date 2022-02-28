@@ -39,7 +39,7 @@ or method in one situation.</p>
 <p>A <span class="indexref" key="fixture (in unit test);unit test!fixture" markdown="1"><a class="glossref" href="../glossary/#fixture" markdown="1">fixture</a></span>, which is the thing being tested (e.g., an
     array of numbers). The fixture is typically a subset or smaller version of
     the data the function will typically process. In fact, it should be a reprex
-    (<a section="communicate"/>), i.e., exactly the same kind of minimal example
+    (<a href="../communicate/">Chapter 10</a>), i.e., exactly the same kind of minimal example
     you would post online if you were asking for help.</p>
 </li>
 <li>
@@ -52,7 +52,7 @@ or method in one situation.</p>
 </li>
 </ul>
 <p>Good programmers often run informal unit tests interactively when debugging
-(<a section="tooling"/>), but they are much more valuable when they can be re-run
+(<a href="../tooling/">Chapter 17</a>), but they are much more valuable when they can be re-run
 at a moment's notice to make sure that the most recent changes haven't broken
 anything that was working a few minutes ago.  To do this, you can use a <span class="indexref" key="test framework;unit test!test framework" markdown="1"><a class="glossref" href="../glossary/#test_framework" markdown="1">test framework</a></span> (also called a <span class="indexref" key="test runner" markdown="1"><a class="glossref" href="../glossary/#test_runner" markdown="1">test runner</a></span>).  Dozens of these have been built for almost every language you
 can think of; most are very similar because they were inspired by the same
@@ -67,7 +67,7 @@ forerunners. The most widely-used test framework for Python is called
 <code>pytest</code>.  When it runs, it searches for all files in or below the working
 directory whose names match the pattern <code>test_*.py</code>.  It then runs the test
 functions it finds in these files and summarizes their results.</p>
-<p>If running all the tests is taking so long that it's disrupting your <span class="indexref" key="flow" markdown="1">flow</span> (<a section="important"/>), you can give <code>pytest</code> (and other
+<p>If running all the tests is taking so long that it's disrupting your <span class="indexref" key="flow" markdown="1">flow</span> (<a href="../important/">Chapter 2</a>), you can give <code>pytest</code> (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
 development, but you should always re-run the entire <span class="indexref" key="test suite;unit test!test suite" markdown="1"><a class="glossref" href="../glossary/#test_suite" markdown="1">test suite</a></span> before committing your
 changes to version control. If the tests reveal that the change you have just
@@ -86,7 +86,7 @@ for two decades.</p>
 sparked interest in <span class="indexref" key="fuzz testing;unit > test!fuzzing" markdown="1"&gt;<a class="glossref" href="../glossary/#fuzz_testing" markdown="1">fuzz testing</a></span> (or "fuzzing" for short), which is now a
 standard part of most testers' repertoire [<a href="../bibliography/#Zeller2019">Zeller2019</a>].  Despite
 this, [<a href="../bibliography/#Miller2020">Miller2020</a>] found that thirty years later, programs are still
-failing at about the same rate and for the same reasons.  <a section="debugging"/>
+failing at about the same rate and for the same reasons.  <a href="../debugging/">Chapter 15</a>
 discusses a technique for making fuzz testing even more useful.</p>
 </blockquote>
 <h2>Design for Testability</h2>

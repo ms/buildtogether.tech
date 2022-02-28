@@ -125,7 +125,7 @@ One reason for this is that the web ranges from unwelcoming to actively hostile
 for people from under-represented groups [% b Ford2016 May2019 %].
 Unfortunately, in-person workplaces are often no better: many are filled with
 small signs that make many people feel out of place [% b Cheryan2009 %].
-<a section="fairness"/> takes a closer look at these issues.
+[% x fairness %] takes a closer look at these issues.
 
 > ### A cautionary tale
 >
@@ -206,6 +206,6 @@ view[% /i %] is just as important, though not as well respected.  It draws on
 humanities and social sciences to explore questions like, "Who does this help?",
 "Who does this hurt?", and, "Who decides?"  Just as the most interesting
 software engineering research these days is look at how the way we think
-interacts with the way we program (<a section="research"/>), the most interesting
+interacts with the way we program ([% x research %]), the most interesting
 thinking about computing as a whole is coming from people who have outgrown the
 "Wernher von Braun" mentality of Lehrer's song.

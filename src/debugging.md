@@ -18,7 +18,7 @@ way known to find bugs [% b Basili1987 Kemerer2009 Bacchelli2013 %].
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
 written about how to [% i "reading code" %]read[% /i %] it
-([% b Spinellis2003 %] being my favorite).  As <a section="rules-joining"/>
+([% b Spinellis2003 %] being my favorite).  As [% x rules-joining %]
 says, reading other people's code is one of the best ways to learn how to be a
 better programmer; tracking down a bug may not be when you want to broaden your
 knowledge, but if you're there anyway, you might as well.
@@ -59,7 +59,7 @@ Make sure you understand what the bug actually is.
 
 Make it fail.
 :   You can only debug things when you can see them going wrong, so as we
-    discussed in <a section="communicate"/>, you should try to create a minimal
+    discussed in [% x communicate %], you should try to create a minimal
     [% i "reproducible example (reprex)" %]reproducible example[% /i %] or
     reprex.  Doing this finds the problem in a surprising number of cases, since
     each time you throw out part of the original program or dataset because the
@@ -106,10 +106,10 @@ Change one thing at a time.
 > creating a reliable reprex may be impossible.  What's worse, the act of
 > observing can hide the bug: a `print` statement or a breakpoint can change
 > timing in a way that makes the bug disappear.  Modeling tools can help
-> (<a section="tooling"/>), as can the use of immutable data structures, but the best
+> ([% x tooling %]), as can the use of immutable data structures, but the best
 > solutions are to test components in isolation using [% i "mock object" %]mock
 > objects[% /i %] in place of the things they communicate with
-> (<a section="testing"/>) and to add *lots* of assertions to check the consistency
+> ([% x testing %]) and to add *lots* of assertions to check the consistency
 > of data structures.  In particular, giving every class a method called `isOK` to check
 > that it's in good shape can save hours of later debugging, as well as helping
 > the next programmer understand what the data is supposed to look like.
@@ -177,7 +177,7 @@ Trees and graphs
     greater than one.
 
 <!-- continue -->
-As <a section="git-team"/> said, the longer list in
+As [% x git-team %] said, the longer list in
 [% b Stegeman2014 Stegeman2016 %] can be adapted for more advanced
 students' programs.
 
@@ -238,7 +238,7 @@ Symbolic execution.
     either the empty string or the first string in the list that belongs to the
     set containing the longest strings in the list.  The complexity of that
     sentence is a sign of how complex symbolic execution can be, but when
-    combined with the modeling tools discussed in <a section="tooling"/>, this
+    combined with the modeling tools discussed in [% x tooling %], this
     approach can find bugs that would otherwise escape detection for years.
 
 Most [program repair tools][program-repair] are still research prototypes, but
@@ -249,7 +249,7 @@ place to start.
 
 Another semi-automated technique for finding bugs is [% i "delta debugging" %][% g delta_debugging %]delta debugging[% /g %][% /i %] [% b Zeller2009 Zeller2021 %].
 [% i "fuzz testing" %]Fuzz testing[% /i %] can automatically generate inputs
-that make programs fail (<a section="testing"/>), but since those inputs are partly
+that make programs fail ([% x testing %]), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
 why they make the software fail.  Delta debugging repeatedly tests subsets of
 the original fixture, then subsets of those subsets, to produce a minimal

@@ -10,7 +10,7 @@ template: page
 
 We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in
-<a section="testing"/>, those programs will probably still contain bugs.  We should
+[% x testing %], those programs will probably still contain bugs.  We should
 therefore plan from the start to detect and handle errors.
 
 ## Handling Errors
@@ -375,7 +375,7 @@ some idea of what it was doing beforehand.
 
 > ### Logging for security
 >
-> One of the recommendations in <a section="security"/> was to [% i "logging!for
+> One of the recommendations in [% x security %] was to [% i "logging!for
 > security" %]log actions[% /i %] to help you find suspicious activity.  When you do
 > this, make sure the log records who, what, and when; in particular, make sure
 > you have a record of every time permissions were changed or new accounts were

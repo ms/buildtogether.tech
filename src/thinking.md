@@ -73,7 +73,7 @@ any more than we can explain how we recognize faces.
 > materials based on this myth, no one has ever shown that tuning what or how we
 > teach to match people's preferences has any impact on outcomes
 > [% b DeBruyckere2015 %]. Like [% i "Myers-Briggs Type
-> Indicator" %]Myers-Briggs personality types[% /i %] (<a section="fairness"/>),
+> Indicator" %]Myers-Briggs personality types[% /i %] ([% x fairness %]),
 > learning styles belong with healing crystals and astrology.
 
 This model of learning leaves almost everything discussed in
@@ -399,7 +399,7 @@ these three factors influence most people:
 Utility.
 :   Students will learn more if they think the material is useful, but it has to
     be useful to *them*.  One reason to create [% i "learner persona" %]learner
-    personas[% /i %] like the ones in <a section="introduction"/> is to remind
+    personas[% /i %] like the ones in [% x introduction %] is to remind
     instructors of the second rule of teaching: "You are not your learners."
     (The first is, "Be kind.")
 

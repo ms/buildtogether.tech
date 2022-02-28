@@ -13,7 +13,7 @@ programs on your own in two important ways. The first is communication: in order
 for you and your teammates to collaborate, you need to agree about what you're
 collaborating *on*, which means you need to tell each other how you are breaking
 the problem up into pieces and how those pieces will interact
-(<a section="communicate"/>).
+([% x communicate %]).
 
 The second difference between programming in the small and [% i "programming
 in the large" %]programming in the large[% /i %] is that while you can hack your
@@ -43,7 +43,7 @@ This [% i "model!of software development" %]model[% /i %] is unrealistic in
 every way---the odds of rewriting old code is lower than the odds of rewriting
 recent code, for example---but it captures a key point: the cost of rework grows
 faster than the number of pieces of work.  You can't lower \\(C\\) by increasing
-\\(L\\) (since as <a section="thinking"/> explains, there's a limit to how much you
+\\(L\\) (since as [% x thinking %] explains, there's a limit to how much you
 can hold in your mind at once), so your goal when designing software is to lower
 \\(N\\) by re-using code from libraries or to reduce the cost of reworking things
 by lowering \\(p\\).
@@ -67,7 +67,7 @@ tell a good design from a bad one, so we'll start with that.
 > this material and can be used as a starting point for many different class
 > projects.
 >
-> The discussion of how to design for test in <a section="testing"/> is another
+> The discussion of how to design for test in [% x testing %] is another
 > example of teaching by example. A general rule like, "Building components that
 > can easily be replaced makes testing easier," would only have been meaningful if
 > you already understand the point; explaining it with a specific example (testing
@@ -78,7 +78,7 @@ tell a good design from a bad one, so we'll start with that.
 [% b Cherubini2007 %] found that developers usually don't draw [% i "software design!role of diagrams" %]diagrams[% /i %] to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
-otherwise be able to keep track of (<a section="thinking"/>). In many cases, the
+otherwise be able to keep track of ([% x thinking %]). In many cases, the
 people who drew the diagrams couldn't make sense of them a day later; it could
 be that the benefit of diagrams therefore comes from the act of drawing, not
 from having them to study.
@@ -160,7 +160,7 @@ of systems built from lots of [% i "microservice" %][% g microservice %]microser
 > will convert specially-formatted text into diagrams for you, and the former are
 > much easier for version control systems to work with.  In my opinion, though,
 > you'll get more out of investing time in the modeling tools described at the end
-> of <a section="tooling"/>.
+> of [% x tooling %].
 >
 > One often-overlooked finding about visualization is that people understand
 > flowcharts better than pseudocode *if both are
@@ -174,7 +174,7 @@ of systems built from lots of [% i "microservice" %][% g microservice %]microser
 Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
 to write your [% i "elevator pitch" %]elevator pitch[% /i %]
-(<a section="starting"/>). Next, write one or two point-form
+([% x starting %]). Next, write one or two point-form
 [% i "user story!use in software design" %][% g user_story %]user stories[% /g %][% /i %]
 describing how the application, feature, or library would be used. Be as concrete
 as possible: instead of saying, "Allows the user to find overlaps between their
@@ -252,7 +252,7 @@ basically saying is, "Argue enough, but not too much."
 ## Design for Evolution
 
 How easily we can swap one component for another in order to test a system is
-one way to tell how well designed that system is (<a section="testing"/>). Another
+one way to tell how well designed that system is ([% x testing %]). Another
 is how easily we can modify or [% i "software design!evolution" %]extend[% /i %]
 the system to do new things. If our design is perfect, we can implement changes
 by adding code without modifying what's already there.  This is called the [% i "Open-Closed Principle" %][% g open_closed_principle %]Open-Closed Principle[% /g %][% /i %]: systems should be open for extension, but closed for
@@ -492,7 +492,7 @@ setup(
 <!-- continue -->
 The `name` and `author` fields are self-explanatory; the `packages` field lists
 the sub-directories containing packages (there may actually be several), and
-we'll talk about versioning in <a section="delivery"/>.  Once you have this in
+we'll talk about versioning in [% x delivery %].  Once you have this in
 place, you can run:
 
 ```sh
@@ -505,7 +505,7 @@ to create a package.
 ## Find Your Current Comfort Zone
 
 When we use a low-level language, we incur the cognitive load of assembling
-micro-steps into something more meaningful (<a section="thinking"/>) When we use a
+micro-steps into something more meaningful ([% x thinking %]) When we use a
 high-level language, we incur a similar load translating functions of functions
 of functions (or meta-classes templated on object factories) into actual
 operations on actual data.

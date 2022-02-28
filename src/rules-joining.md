@@ -8,13 +8,13 @@ Hundreds of books have been published about how to start a tech business, and
 works like [% b Fogel2020 %] have a lot of advice on setting up and running
 open source projects.  Much less has been written about how to join existing
 projects, even though that's what most people do most of the time.  These simple
-rules can help, and can be read as a complement to <a section="rules-newcomers"/>.
+rules can help, and can be read as a complement to [% x rules-newcomers %].
 
 Search first.
 :   Whatever question you have, the odds are pretty good that someone has asked
     it before, opened an issue about it, or discussed it in the project chat.
     If the project is well organized it should only take a minute to find out 
-    (<a section="communicate"/>), and if you mention what you searched for when you
+    ([% x communicate %]), and if you mention what you searched for when you
     do ask a question, people will probably point you in the right direction
     when they answer.
 
@@ -49,7 +49,7 @@ Be patient.
 Start small.
 :   This is a corollary of the previous three points.  As you learn your way
     around a project socially as well as technologically, you will build a
-    mental model of how it works (<a section="thinking"/>).  Offering a small
+    mental model of how it works ([% x thinking %]).  Offering a small
     contribution is a way to test that mental model.  Do you understand the
     application's architecture?  Do you know where tests are supposed to go and
     how review and merging work?  A three-line change to documentation is a more
@@ -71,7 +71,7 @@ Keep exploring.
     methods are called in what order as an HTTP request is processed?  What
     objects are created?  What changes are made to files or databases, if any?
     The "step over" button your debugger is a very useful tool for this
-    (<a section="debugging"/>), since it allows you ignore low-level details while you're
+    ([% x debugging %]), since it allows you ignore low-level details while you're
     trying to paint a bigger picture.
 
 Get to know people.
@@ -101,7 +101,7 @@ Share what you learn.
 > ### Buddies and mentors
 >
 > A well-run company's process for getting newly-hired people up to speed can be
-> anything from a simple checklist like the one in <a section="onboarding"/> to a
+> anything from a simple checklist like the one in [% x onboarding %] to a
 > multi-week sequence of courses.  However it's done, it is most effective when
 > new people are paired with buddies or mentors to direct their first questions
 > to, and who will check in with them regularly to see how they're doing.

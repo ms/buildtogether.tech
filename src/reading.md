@@ -3,7 +3,7 @@ title: "Further Reading"
 template: page
 ---
 
-<a section="fairness"/> ended with a list of books about stuff that actually
+[% x fairness %] ended with a list of books about stuff that actually
 matters.  The ones below also helped me understand how we got here and why so
 many things seem broken.  Like all such lists, it's very personal: I grew up
 straight, white, and male in a small town in western Canada fifty years ago, so

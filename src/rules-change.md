@@ -79,7 +79,7 @@ Collect data but tell stories.
 
 Learn how to run meetings.
 :   You don't have to be a great public speaker, but you won't accomplish much
-    if you don't know how to run a meeting <a section="important"/>.
+    if you don't know how to run a meeting [% x important %].
 
 Celebrate when you can, grieve when you need to.
 :   [Burnout][thirdbit-burnout] is an occupational hazard for everyone trying to

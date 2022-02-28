@@ -75,7 +75,7 @@ Instead, we typically face one of three kinds of threat:
 
 How can you help counter these threats?
 
-1.  Have and enforce a Code of Conduct (<a section="important"/>) for any site you
+1.  Have and enforce a Code of Conduct ([% x important %]) for any site you
     build so that people who are abusing the system can be shut down quickly.
     Requiring a 24-hour waiting period for creation of new accounts helps as
     well: if casual abusers can't get their kicks right away, many of them will
@@ -87,7 +87,7 @@ How can you help counter these threats?
     ingredients.)
 
 1.  Keep a [% i "logging!for security" %]log[% /i %] of every administrative
-    action (<a section="errors"/>) so that there will be a record if someone uses
+    action ([% x errors %]) so that there will be a record if someone uses
     their privileges inappropriately. They might be able to delete that record,
     but if it is [% i "digital signature!for activity logs" %][% g digital_signature %]digitally signed[% /g %][% /i %] there will still be evidence of tampering.
 
@@ -328,7 +328,7 @@ Report the attack.
     they believe that you might speak publicly about what has happened and
     thereby damage their reputation, so never agree to a [% i "non-disclosure
     agreement!abuse of" %]non-disclosure agreement[% /i %] that would prevent you
-    from doing so (<a section="fairness"/>).
+    from doing so ([% x fairness %]).
 
 Above all, remember that it's not just about you. We don't just wear masks to
 prevent ourselves from becoming infected: we also wear them so that we will not
@@ -355,7 +355,7 @@ the safer all of us will be. As a programmer, you can push for this:
     on common exploits rather than the minutiae of cryptography.
 
 1.  Add your voice to campaigns to get companies to clean up their act, and if
-    you have a choice, don't work for the worst of them (<a section="fairness"/>).
+    you have a choice, don't work for the worst of them ([% x fairness %]).
 
 > If you are currently in…an undergraduate software engineering or
 > computer science course, the first thing you need to understand is

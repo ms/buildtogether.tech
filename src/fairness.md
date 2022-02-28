@@ -5,7 +5,7 @@ template: page
 ---
 
 This book is about course projects, which are often designed to prepare you for
-real jobs (<a section="starting"/>).  Since the transition from being a student to
+real jobs ([% x starting %]).  Since the transition from being a student to
 working full time is one of the most important in your career, this chapter
 looks at the [% i "hiring process" %]hiring process[% /i %] and what happens
 afterward.
@@ -105,7 +105,7 @@ Post a public description of the hiring process.
 Use blinded screening.
 :   Everyone has [% i "implicit bias" %][% g implicit_bias %]implicit biases[% /g %][% /i %], and many of the rules scientists follow when running
     experiments are designed to prevent their biases contaminating their results
-    (<a section="research"/>).  The same is true of hiring, and so is the
+    ([% x research %]).  The same is true of hiring, and so is the
     solution. For example, my first-round interview with Automattic was done
     over Slack so that my appearance, my accent, or the fact that I sometimes
     need a couple of moments to collect my thoughts wouldn't bias the
@@ -170,13 +170,13 @@ Share data on how well the company has been doing recently.
     that data or won't share it, you've just learned something.
 
 Have an [% i "org chart!importance of" %]org chart[% /i %].
-:   As we said in <a section="important"/>, every organization has a power
+:   As we said in [% x important %], every organization has a power
     structure: the only question is whether it's public and accountable, or
     whether the organization runs on who you know and how willing people are to
     barge in on strangers.
 
 Have [% i "performance review!importance of written criteria for" %]written criteria for performance reviews[% /i %].
-:   The ones shown in <a section="personal-eval"/> are a good model, and these
+:   The ones shown in [% x personal-eval %] are a good model, and these
     *are* something a company can share before hiring you. If a company doesn't
     have criteria, or if performance reviews are only done when an employee asks
     for one, the system is once again biased toward extroverts and the
@@ -214,7 +214,7 @@ diverse management are more profitable, and so on [% b Zhan2020 %].
 Another reason to care about these issues is that discussion of fair play stops
 being theoretical as soon as we talk about your rights as an employee.  Until
 recently there has been less discussion of this in tech than of intellectual
-property rights (<a section="ip"/>), but in the wake of incidents like [Google's
+property rights ([% x ip %]), but in the wake of incidents like [Google's
 decision to fire the AI researcher Timnit Gebru][gebru-firing], programmers are
 belatedly realizing that the industry they have created will treat them just as
 callously as it treats everyone else.
@@ -267,7 +267,7 @@ happens when a commons breaks down.
 > play because it will benefit *them* implies that they would have no reason to do
 > so if it didn't.  The idea that people should only act out of self-interest is
 > also political, and one I strongly disagree with.  However, people like Brad
-> (whom we met in <a section="introduction"/>) have been conditioned to believe that
+> (whom we met in [% x introduction %]) have been conditioned to believe that
 > being cynical is the same thing as being smart; I have found out the hard way
 > that if I say, "Do the right thing because it's the right thing," the people
 > whose behavior most needs to change won't listen.
@@ -284,7 +284,7 @@ defuse situations and defend people who are being attacked.
 
 > ### Not acting is a choice as well
 >
-> <a section="rules-newcomers"/> said that an organization's culture is defined by
+> [% x rules-newcomers %] said that an organization's culture is defined by
 > the worst behavior it tolerates [% b Gruenert2015 %]; I believe that who we
 > are as individuals is defined in the same way.
 
@@ -300,7 +300,7 @@ was showing people how to intervene, since this made them more likely to do so
 (in the same way that having some first aid training makes you more likely to
 take action in a crisis).  An example of this kind of training is the guidelines
 in [% b Aurora2018 %] for responding to [% i "Code of Conduct!responding
-to violations" %]Code of Conduct violations[% /i %] (<a section="starting"/>). On a
+to violations" %]Code of Conduct violations[% /i %] ([% x starting %]). On a
 smaller scale, your instructor can have you work through scenarios like this one
 with your teammates and the rest of your class:
 
@@ -448,7 +448,7 @@ report on one of these books for part of your project grade:
 
 The first and biggest mistake many programmers make is building the wrong thing;
 I hope this book and the ones listed above will help you avoid that trap.
-<a section="reading"/> lists other books that aren't as specific to tech but which helped
+[% x reading %] lists other books that aren't as specific to tech but which helped
 me understand the world our programs are used in.  Since you probably differ
 from me in age, geography, and other significant respects, you may find others
 that help you more.  No matter what, the most compassionate thing you can do is
@@ -461,7 +461,7 @@ me?"
 > After the 2016 election in the United States, I organized a group of people to
 > write a guide for programmers to stuff that actually matters---the stuff that's
 > in this chapter.  That project fizzled out, in part because someone like Brad
-> (<a section="introduction"/>) wouldn't read something that said, "Programmers are
+> ([% x introduction %]) wouldn't read something that said, "Programmers are
 > doing harm and maybe you're part of the problem."
 > [% b Bullock2021 Cohen2021 Ferreira2021 Gordon2021 Prioleau2021 Rankin2021 %]
 > are a sign that these bigger issues might finally be added to the curriculum,

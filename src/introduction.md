@@ -144,12 +144,12 @@ while the software is made available under the Hippocratic License.  The first
 allows you to use and remix this material for non-commercial purposes, as-is or
 in adapted form, provided you cite its original source; the second allows you to
 use and remix the software on this site provided you do not violate
-international agreements governing human rights. Please see <a section="license"/>
+international agreements governing human rights. Please see [% x license %]
 for details.
 
 If you would like to improve what we have or add new material, please see the
-Code of Conduct in <a section="conduct"/> and the contributor guidelines in
-<a section="contributing"/>.  If you have questions or would like to use this material in
+Code of Conduct in [% x conduct %] and the contributor guidelines in
+[% x contributing %].  If you have questions or would like to use this material in
 a course, please file an issue in [this site's GitHub
 repository](https://github.com/{{site.repository}}) or [send us
 email](mailto:{{site.author.email}}).
@@ -167,8 +167,8 @@ everyone who took part in [% i "UCOSP" %]UCOSP[% /i %]
 [% b Holmes2014 Holmes2018 %].
 
 I have tried to base recommendations on empirical software engineering research
-(<a section="research"/>) and on the science of teaching and learning
-(<a section="thinking"/>). Where those don't have answers, I have drawn on the experience
+([% x research %]) and on the science of teaching and learning
+([% x thinking %]). Where those don't have answers, I have drawn on the experience
 of the students and programmers mentioned below.  Any errors, omissions, or
 misunderstandings that remain are entirely our fault.
 

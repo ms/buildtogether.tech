@@ -28,7 +28,7 @@ programs on your own in two important ways. The first is communication: in order
 for you and your teammates to collaborate, you need to agree about what you're
 collaborating <em>on</em>, which means you need to tell each other how you are breaking
 the problem up into pieces and how those pieces will interact
-(<a section="communicate"/>).</p>
+(<a href="../communicate/">Chapter 10</a>).</p>
 <p>The second difference between programming in the small and <span class="indexref" key="programming
 in the large" markdown="1">programming in the large</span> is that while you can hack your
 way from an empty <code>.js</code> or <code>.py</code> file to a hundred-line program in a reasonable
@@ -61,7 +61,7 @@ do you actually wind up writing?</p>
 every way---the odds of rewriting old code is lower than the odds of rewriting
 recent code, for example---but it captures a key point: the cost of rework grows
 faster than the number of pieces of work.  You can't lower \(C\) by increasing
-\(L\) (since as <a section="thinking"/> explains, there's a limit to how much you
+\(L\) (since as <a href="../thinking/">Appendix F</a> explains, there's a limit to how much you
 can hold in your mind at once), so your goal when designing software is to lower
 \(N\) by re-using code from libraries or to reduce the cost of reworking things
 by lowering \(p\).</p>
@@ -82,7 +82,7 @@ Cook</a>'s <a href="http://gitlet.maryrosecook.com/">Gitlet</a> take this approa
 also <em><a href="https://stjs.tech/">Software Tools in JavaScript</a></em>, which was developed in tandem with
 this material and can be used as a starting point for many different class
 projects.</p>
-<p>The discussion of how to design for test in <a section="testing"/> is another
+<p>The discussion of how to design for test in <a href="../testing/">Chapter 11</a> is another
 example of teaching by example. A general rule like, "Building components that
 can easily be replaced makes testing easier," would only have been meaningful if
 you already understand the point; explaining it with a specific example (testing
@@ -92,7 +92,7 @@ an MVC application) made it more relatable.</p>
 <p>[<a href="../bibliography/#Cherubini2007">Cherubini2007</a>] found that developers usually don't draw <span class="indexref" key="software design!role of diagrams" markdown="1">diagrams</span> to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
-otherwise be able to keep track of (<a section="thinking"/>). In many cases, the
+otherwise be able to keep track of (<a href="../thinking/">Appendix F</a>). In many cases, the
 people who drew the diagrams couldn't make sense of them a day later; it could
 be that the benefit of diagrams therefore comes from the act of drawing, not
 from having them to study.</p>
@@ -167,7 +167,7 @@ UML doesn't actually seem to help practitioners very much
 will convert specially-formatted text into diagrams for you, and the former are
 much easier for version control systems to work with.  In my opinion, though,
 you'll get more out of investing time in the modeling tools described at the end
-of <a section="tooling"/>.</p>
+of <a href="../tooling/">Chapter 17</a>.</p>
 <p>One often-overlooked finding about visualization is that people understand
 flowcharts better than pseudocode <em>if both are
 equally well structured</em> [<a href="../bibliography/#Scanlan1989">Scanlan1989</a>].  Earlier work showing that pseudocode
@@ -179,7 +179,7 @@ representation.</p>
 <p>Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
 to write your <span class="indexref" key="elevator pitch" markdown="1">elevator pitch</span>
-(<a section="starting"/>). Next, write one or two point-form
+(<a href="../starting/">Chapter 3</a>). Next, write one or two point-form
 <span class="indexref" key="user story!use in software design" markdown="1"><a class="glossref" href="../glossary/#user_story" markdown="1">user stories</a></span>
 describing how the application, feature, or library would be used. Be as concrete
 as possible: instead of saying, "Allows the user to find overlaps between their
@@ -266,7 +266,7 @@ of past failures so that you know how a good idea might fail in practice.</p>
 </blockquote>
 <h2>Design for Evolution</h2>
 <p>How easily we can swap one component for another in order to test a system is
-one way to tell how well designed that system is (<a section="testing"/>). Another
+one way to tell how well designed that system is (<a href="../testing/">Chapter 11</a>). Another
 is how easily we can modify or <span class="indexref" key="software design!evolution" markdown="1">extend</span>
 the system to do new things. If our design is perfect, we can implement changes
 by adding code without modifying what's already there.  This is called the <span class="indexref" key="Open-Closed Principle" markdown="1"><a class="glossref" href="../glossary/#open_closed_principle" markdown="1">Open-Closed Principle</a></span>: systems should be open for extension, but closed for
@@ -467,7 +467,7 @@ setup(
 <!-- continue -->
 <p>The <code>name</code> and <code>author</code> fields are self-explanatory; the <code>packages</code> field lists
 the sub-directories containing packages (there may actually be several), and
-we'll talk about versioning in <a section="delivery"/>.  Once you have this in
+we'll talk about versioning in <a href="../delivery/">Chapter 26</a>.  Once you have this in
 place, you can run:</p>
 <pre><code class="language-sh">$ pip install .
 </code></pre>
@@ -475,7 +475,7 @@ place, you can run:</p>
 <p>to create a package.</p>
 <h2>Find Your Current Comfort Zone</h2>
 <p>When we use a low-level language, we incur the cognitive load of assembling
-micro-steps into something more meaningful (<a section="thinking"/>) When we use a
+micro-steps into something more meaningful (<a href="../thinking/">Appendix F</a>) When we use a
 high-level language, we incur a similar load translating functions of functions
 of functions (or meta-classes templated on object factories) into actual
 operations on actual data.</p>

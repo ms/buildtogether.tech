@@ -170,7 +170,7 @@ Style checkers are just one kind of [% i "static analysis" %][% g static_analysi
 code for your program rather than by watching the program run. Compilers also do
 a lot of static analysis; the non-fatal warnings they produce are a lot more
 useful than many students realize, and a "zero warnings" policy can prevent a
-lot of subtle bugs.  As we'll see in <a section="research"/>, requiring type
+lot of subtle bugs.  As we'll see in [% x research %], requiring type
 definitions in code helps programmers understand software as well.
 
 ## Continuous Integration

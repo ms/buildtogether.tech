@@ -74,11 +74,11 @@ This chapter won't try to teach you Git from scratch: [GitHub's
 guides][github-guides] and [the Atlassian Git tutorial][atlassian-git] do an
 excellent job of that, as does [the Carpentries lesson on Git][carpentries-git].
 Instead, we will review the basics that we hope you have learned previously,
-then look at how to use Git and GitHub to collaborate in <a section="git-team"/>.
+then look at how to use Git and GitHub to collaborate in [% x git-team %].
 We will show the commands as if you were running them in the Unix shell, but we
 recommend that you use a [% i "Git!graphical interface" %]graphical
 interface[% /i %] like [GitKraken][gitkraken], [SourceTree][sourcetree], or the
-one that comes with your [% i "IDE" %]IDE[% /i %] (<a section="tooling"/>). These
+one that comes with your [% i "IDE" %]IDE[% /i %] ([% x tooling %]). These
 are layered on top of the commands we are going to discuss, so they (should) all
 work the same way.
 
@@ -191,7 +191,7 @@ Each entry has:
     in the world can tell exactly when these files were saved.
 
 -   A short comment called a [% i "commit message (version control)" "Git!commit message" %][% g commit_message %]commit message[% /g %][% /i %] that tells us what this
-    change is all about. We will take a look in <a section="git-team"/> at how to
+    change is all about. We will take a look in [% x git-team %] at how to
     write a good commit message; for now, just remember that if you and your
     teammates have made a hundred changes to the project over the course of ten
     or twelve weeks, you're going to want something more informative than "Fixed
@@ -262,7 +262,7 @@ committing.
 > Be careful not to put files containing passwords or [% g api_key %]API
 > keys[% /g %] for web services into version control: even if the repository is
 > private now, it might be public in future, or the team might grow to include
-> someone who shouldn't have access (<a section="security"/>).
+> someone who shouldn't have access ([% x security %]).
 
 We can keep track of which changes haven't yet been added and which ones have
 using [% i "Git!showing status" %]`git status`[% /i %]. If I run this command
@@ -371,7 +371,7 @@ servers).
 > make sure that everything builds and runs there. Doing that will tell you if you
 > or one of your teammates has forgotten to commit a key file. In an advanced
 > course, you might be asked to do this automatically every time someone commits
-> changes; we'll explore this in <a section="tooling"/>.
+> changes; we'll explore this in [% x tooling %].
 
 ## A Branch-Based Workflow
 

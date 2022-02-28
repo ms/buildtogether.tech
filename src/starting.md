@@ -56,7 +56,7 @@ Because they're fun.
 One goal of project courses is to move learners from the left side of
 <a figure="four-models-of-instruction"/> to the right. Most of the learning will
 take place in a team or on your own; the instructor's job is to mentor rather
-than to lecture. Using the terms of <a section="thinking"/>, a project course
+than to lecture. Using the terms of [% x thinking %], a project course
 is where your school starts treating you like a competent practitioner rather
 than like a novice.
 
@@ -235,7 +235,7 @@ Testing (10%)
     tested.  And it's no good saying, "But I can't write unit tests for my GUI"
     because it's simply not true: you can always test the core functionality,
     and if you design your program the right way you can test a lot more of your
-    front end than you might think (<a section="testing"/>).
+    front end than you might think ([% x testing %]).
 
 Demos (10%)
 :   I used to require students to prepare a 20-minute lecture on a topic of
@@ -358,7 +358,7 @@ website like this one, for example, the layout is:
 
 If your project's goal is to build a package, on the other hand, you will have
 to organize your files according to the packaging system's rules;
-<a section="design"/> gives an example.  In all cases, learning what goes where is like
+[% x design %] gives an example.  In all cases, learning what goes where is like
 learning when to signal when driving a car: the rules may vary from place to
 place, but everywhere *has* rules, and knowing them will help prevent you from
 crashing.
@@ -378,7 +378,7 @@ without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
     contribution guidelines increase the odds of people contributing
-    (<a section="fairness"/>); in my experience, they also reduce friction between team
+    ([% x fairness %]); in my experience, they also reduce friction between team
     members.
 
 [% i "CONDUCT file" %]`CONDUCT`[% /i %]
@@ -418,7 +418,7 @@ diverse, which in turn makes it more productive [% b Zhan2020 %]:
 Having a Code of Conduct is an empty gesture if you don't also have a way to
 respond to violation.  [% b Aurora2018 %] describes how, and learning the
 basics is a good first step toward becoming an [% i "ally" %]ally[% /i %]
-(<a section="fairness"/>).
+([% x fairness %]).
 
 > ### What they really mean
 >

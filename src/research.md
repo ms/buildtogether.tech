@@ -24,7 +24,7 @@ entrepreneur who struck it lucky constitute "proof".
 This chapter therefore presents a few evidence-based results that are relevant
 to the kind of work you may be doing in your project and that your instructor
 might want to incorporate into your course [% b Fagerholm2017 %].  If you
-find them interesting and want to dig further, <a section="methods"/> describes the
+find them interesting and want to dig further, [% x methods %] describes the
 methods software engineering researchers use.  As with all research, though,
 some caution is required when interpreting results:
 
@@ -104,7 +104,7 @@ insist on using these tests as indicators of success?"
 
 ## What Do We Know About Programming Style?
 
-As we mentioned in <a section="tooling"/>, [% b Stefik2013 %] found that
+As we mentioned in [% x tooling %], [% b Stefik2013 %] found that
 languages like [% i "C" %]C[% /i %], [% i "Java" %]Java[% /i %], and [% i "Perl" %]Perl[% /i %] were as hard for people to learn as a language with a
 randomly designed syntax, while languages like [% i "Ruby" %]Ruby[% /i %] and
 [% i "Python" %]Python[% /i %] were significantly easier to learn. This result
@@ -222,7 +222,7 @@ on their designers to show that the complexity is worthwhile.
 Meanwhile, lots of people say that copy-pasting code is bad practice: if you
 find yourself creating [% i "code clones" %]code clones[% /i %], you should put
 the repeated code in its own method and call it from all the original copies
-(<a section="design"/>).  But when [% b Kapser2008 %] explored *why*
+([% x design %]).  But when [% b Kapser2008 %] explored *why*
 developers create code clones, they found that code clones are OK in some cases:
 
 > …the results of the case study identify a set of patterns that are most often

@@ -44,7 +44,7 @@ Make governance explicit.
     as non-profits are required to promulgate bylaws; smaller projects should
     have some explicit [% i "governance" %]governance[% /i %] that explains who
     gets a say in what and how to become someone whose vote counts
-    (<a section="important"/>).
+    ([% x important %]).
 
 Keep knowledge up to date and findable.
 :   A single project may use wikis, files in GitHub, shared Google Docs, old
@@ -58,7 +58,7 @@ Keep knowledge up to date and findable.
     mark outdated information.
 
 Have and enforce a [% i "Code of Conduct" %]Code of Conduct[% /i %].
-:   We discussed this rule in <a section="starting"/>, but it bears repeating here.
+:   We discussed this rule in [% x starting %], but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates
     [% b Gruenert2015 %], and every instance of bad behavior will drive
     current and potential contributors away.

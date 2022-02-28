@@ -28,7 +28,7 @@ At a minimum, your finished project should have:
 
 1.  An architectural overview, including a block diagram of the major components
     and a walkthrough of how it behaves.  (I prefer the [% i "use-case
-    map" %]use-case maps[% /i %] introduced in <a section="design"/> for this.)
+    map" %]use-case maps[% /i %] introduced in [% x design %] for this.)
 
 1.  An installation guide.
 
@@ -39,7 +39,7 @@ At a minimum, your finished project should have:
 
 Another possible deliverable is a [% i "package!as course
 deliverable" %]package[% /i %] that other people can download and install
-(<a section="design"/>). It isn't an either/or choice: every good package has a home page,
+([% x design %]). It isn't an either/or choice: every good package has a home page,
 installation instructions, and so on.
 
 > ## Bugs
@@ -156,7 +156,7 @@ An introduction that orients the reader.
 
 A summary of what was accomplished.
 :   This should not just summarize the analysis & estimation
-    (<a section="process"/>), although that's a good place to start. Instead, it should
+    ([% x process %]), although that's a good place to start. Instead, it should
     describe the system's architecture, any features of its data formats, class
     structure, or UI that won't immediately make sense to a knowledgeable
     observer, and so on (span x="design"/>). As with the introduction, the
@@ -173,8 +173,8 @@ An evaluation of the project.
     never do again?  Don't bother including generic statements about the
     importance of version control; instead, conduct a proper post mortem (as
     described below) and present as honest a summary of its findings as
-    possible.  (The checklists in <a section="project-eval"/> and
-    <a section="personal-eval"/> may be useful starting points.)
+    possible.  (The checklists in [% x project-eval %] and
+    [% x personal-eval %] may be useful starting points.)
 
 References.
 :   Include books, papers, and links the team found helpful so that whoever
@@ -219,7 +219,7 @@ as much as they help:
 
 For these reasons, most teams format their reports as a set of [% i "Markdown!for final report" %]Markdown[% /i %] pages under version control and
 use a [% i "static site generator" %]static site generator[% /i %]
-(<a section="communicate"/>) to turn them into a report. That solves the problem of
+([% x communicate %]) to turn them into a report. That solves the problem of
 multiple authors (Markdown is a text format, so diff and merge will work), and
 if you know a little CSS, you can make it look as pretty as you want. Diagrams
 and screenshots work well, and you can embed [% i "MathML" %][MathML][mathml][% /i %] for equations if you need to.  The downside
@@ -248,7 +248,7 @@ by giving everyone a chance to reflect on what they've just accomplished. It is
 *not* to shame people, but it can be hard to critique someone's work without
 them taking it personally, so post mortems add a few extra rules to the ones
 introduced for [% i "meetings!extra rules for post mortems" %]meetings[% /i %]
-in <a section="important"/>:
+in [% x important %]:
 
 Get a moderator who wasn't part of the project.
 :   Someone who doesn't have a stake in the project should run the meeting.

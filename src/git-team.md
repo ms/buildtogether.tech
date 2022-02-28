@@ -29,7 +29,7 @@ might make a mess in the `main` branch, the second approach is safer.
 > when you become part of a team. Instead, [% i "version control!when to
 > commit" %]you should commit[% /i %] when you finish a chunk of work that moves the
 > project forward or is fit for someone else to review. A good rule is "never
-> break the build" (<a section="automation"/>), i.e., never commit anything that
+> break the build" ([% x automation %]), i.e., never commit anything that
 > doesn't run well enough to pass all existing tests.
 
 ## Using Git Together
@@ -180,7 +180,7 @@ contents so that they aren't stepping on each other's toes.
 
 > ### Trust but verify
 >
-> <a section="automation"/> describes how to configure Git to run tests each time
+> [% x automation %] describes how to configure Git to run tests each time
 > someone tries to commit a change.  The commit only takes effect if those tests
 > pass, so the team can ensure that the software is always as good as its tests.
 
@@ -189,7 +189,7 @@ contents so that they aren't stepping on each other's toes.
 A [DuckDuckGo][duckduckgo] search for "how to write a good [% i "Git!commit
 message" %]commit message[% /i %]" turns up several thousand articles. Most are
 variations on the sample shown below; as with programming style
-(<a section="research"/>), the most important thing is being consistent rather than the
+([% x research %]), the most important thing is being consistent rather than the
 particular rules you follow.
 
 ```txt
@@ -255,7 +255,7 @@ Have the instructor do a demonstration review.
 Authors should clean up code before review.
 :   If the person creating the PR goes through and adds some more comments,
     cleans up some variable names, and does a bit of [% i "refactoring!for
-    code review" %]refactoring[% /i %] (<a section="design"/>), they won't just make
+    code review" %]refactoring[% /i %] ([% x design %]), they won't just make
     reviewing easier: the odds are very good that they will find and fix a few
     problems on their own.
 
@@ -265,7 +265,7 @@ Review at most 200 lines of a code at a time.
     our experience it's better to start with something smaller and work up to
     that.  A corollary of this rule is that no PR should be more than 200 lines
     long.  If one is, the odds are that reviewers won't be able to hold it all
-    in their head at once (<a section="thinking"/>) and so will miss things.
+    in their head at once ([% x thinking %]) and so will miss things.
 
 Use checklists.
 :   [% b Gawande2011 %] popularized the idea that using
@@ -321,7 +321,7 @@ Don't tolerate rudeness.
     two works alone won't change your behavior. What *will* is teammates
     defending the victims of rudeness by telling the offender, "That's not how
     we speak to each other."  We'll talk about this more in
-    <a section="fairness"/>.
+    [% x fairness %].
 
 How we [% i "code review!responding to" %]respond[% /i %] to reviews is just as
 important:

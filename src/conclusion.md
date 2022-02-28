@@ -5,7 +5,7 @@ template: page
 ---
 
 We have come a long way since we talked about crunch mode and how to run a
-meeting in <a section="important"/>.  Using feature branches, triaging issues,
+meeting in [% x important %].  Using feature branches, triaging issues,
 designing software so that it can be tested---good developers do all of these
 things, and learning how to do them yourself will help you get more done in less
 time and with less pain.
@@ -23,10 +23,10 @@ hands (or algorithms): our industry has fueled them all, and being a programmer
 won't make you immune to the fallout.  None of us can fix this alone; if you
 have learned a little from this book about how to work well with others, I hope
 you will choose to use those skills to make the world a slightly better place.
-If you choose to do so, <a section="rules-change"/> may help.
+If you choose to do so, [% x rules-change %] may help.
 
 Contributions to this book are welcome, from errata and minor improvements to
 entirely new sections and chapters, and everyone whose work is incorporated will
 be acknowledged.  If you'd like to help, please file an issue or submit a pull
 request in [our GitHub repository][bst-repo], or see the contributors' guide
-(<a section="contributing"/>) for more information.
+([% x contributing %]) for more information.

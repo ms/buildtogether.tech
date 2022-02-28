@@ -78,7 +78,7 @@ So what does a good issue look like?  [% b Bettenburg2008 %] found that the
 information users supply when they file a bug report tends not to be that which
 the relevant developers need the most, and most importantly, it differs in
 fairly predictable ways and for understandable reasons.  Here's one I filed for
-the duplicate file finder reviewed in <a section="git-team"/>:
+the duplicate file finder reviewed in [% x git-team %]:
 
 <div class="include" file="bug-report.txt"/>
 
@@ -103,11 +103,11 @@ issue is much more than, "The program crashes when I open strange files," but
 experience shows that if people are required to come up with a reprex when
 filing an issue, they will often solve their own problem along the way.  We'll
 talk more about the value of minimal reproducible examples in
-<a section="debugging"/>.
+[% x debugging %].
 
 > ### When to start saying "no"
 >
-> As we will see in <a section="process"/>, one purpose of a schedule is to tell you
+> As we will see in [% x process %], one purpose of a schedule is to tell you
 > when to start cutting corners. Similarly, one of the main reasons to keep <span
 > i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
 > one place is to help you prioritize work when time starts to run short.
@@ -188,7 +188,7 @@ other ways the team can and should communicate. These can be [% i "communication
 [% i "communication!asynchronous" %]asynchronous[% /i %], like issues and
 email. The former are better for quick back-and-forth and for maintaining social
 connections, but they can also be a constant stream of interruptions, which
-lowers productivity (<a section="important"/>). Synchronous tools also tend to bias
+lowers productivity ([% x important %]). Synchronous tools also tend to bias
 communication in favor of people who are more self-confident, more fluent in the
 language, or have better network connections, and finding things afterward in
 archives of stream-of-consciousness exchanges is harder than finding things in
@@ -364,7 +364,7 @@ documentation for helper functions that are only used inside your package and
 aren't meant to be called by users, but these should still have at least a
 comment explaining their purpose.
 
-As <a section="thinking"/> explains, we can divide people in any domain into
+As [% x thinking %] explains, we can divide people in any domain into
 novices, competent practitioners, and experts.  Each of these three groups needs
 a different kind of documentation:
 
