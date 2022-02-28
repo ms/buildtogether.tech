@@ -33,7 +33,7 @@ Theories change as more data becomes available.
     wasn't used until 1968---so it would be surprising if everything we think
     we know turned out to be true.
 
-Most of these studies' subjects are <span i="WEIRD">WEIRD</span>.
+Most of these studies' subjects are [% i "WEIRD" %]WEIRD[% /i %].
 :   They are from Western, Education, Industrialized, Rich, and Democratic
     societies [% b Henrich2010 %], and may not be representative of the
     other 99% of humanity.
@@ -54,8 +54,8 @@ comes in.
 ## What Do We Know About Programmer Productivity?
 
 Let's start our exploration of research results with the often-repeated claim
-that some programmers are <span i="productivity!comparative">ten times more
-productive</span> than others.  Is it actually true?  The short answer is, "It's
+that some programmers are [% i "productivity!comparative" %]ten times more
+productive[% /i %] than others.  Is it actually true?  The short answer is, "It's
 complicated."  As [% b Prechelt2019 %] shows, the answer depends on what
 exactly the question is intended to mean. Looking at exactly the same data, you
 could conclude that some programmers are 105 times more productive than
@@ -73,11 +73,11 @@ respectively.
 to think about the problem.  The chapter [% b Sadowski2019b %] lays out a
 three-axis framework for discussion based on the
 <span g="gqm" i="Goal-Question-Metric">goal-question-metric</span> approach.
-The more recent <span i="SPACE framework; productivity!SPACE framework">SPACE framework</span> looks at
+The more recent [% i "SPACE framework" "productivity!SPACE framework" %]SPACE framework[% /i %] looks at
 Satisfaction, Performance, Activity, Communication, and Efficiency
 [% b Forsgren2018 Forsgren2021 %].  However productivity is measured, it's
-important to remember <span i="Goodhart's Law">[Goodhart's
-Law][goodhart-law]</span>: as soon as you use some measure to evaluate people it
+important to remember [% i "Goodhart's Law" %][Goodhart's
+Law][goodhart-law][% /i %]: as soon as you use some measure to evaluate people it
 ceases to be a good measure because people will start to game the system.  For
 example, [% b Gitinabard2020 %] reports that it's possible to classify
 student software teams as collaborative, cooperative, or solo-submit by
@@ -106,10 +106,9 @@ insist on using these tests as indicators of success?"
 ## What Do We Know About Programming Style?
 
 As we mentioned in <a section="tooling"/>, [% b Stefik2013 %] found that
-languages like <span i="C">C</span>, <span i="Java">Java</span>, and <span
-i="Perl">Perl</span> were as hard for people to learn as a language with a
-randomly designed syntax, while languages like <span i="Ruby">Ruby</span> and
-<span i="Python">Python</span> were significantly easier to learn. This result
+languages like [% i "C" %]C[% /i %], [% i "Java" %]Java[% /i %], and [% i "Perl" %]Perl[% /i %] were as hard for people to learn as a language with a
+randomly designed syntax, while languages like [% i "Ruby" %]Ruby[% /i %] and
+[% i "Python" %]Python[% /i %] were significantly easier to learn. This result
 is one of several showing that a programming language is a user interface that
 can be studied and evaluated like any other.
 
@@ -124,15 +123,15 @@ parameters.  They then analyzed subjects' behavior using the
 framework, which showed that that requiring constructor parameters interfered
 with common learning strategies.
 
-[% b Binkley2012 %] reported that <span i="reading code">reading</span> and
+[% b Binkley2012 %] reported that [% i "reading code" %]reading[% /i %] and
 understanding code is fundamentally different from reading prose: "…the more
 formal structure and syntax of source code allows programmers to assimilate and
 comprehend parts of the code quite rapidly independent of style.  In
 particular…beacons and program plans play a large role in comprehension."  It
 also found that experienced developers are relatively unaffected by identifier
 style, so just to use consistent style in all examples.  Since most languages
-have style guides (e.g., <span i="PEP8; Python!PEP8 style
-guide">[PEP8][pep8]</span> for Python) and tools to check that code follows
+have style guides (e.g., [% i "PEP8" "Python!PEP8 style
+guide" %][PEP8][pep8][% /i %] for Python) and tools to check that code follows
 these guidelines.  In contrast, [% b Schankin2018 %] found that:
 
 > With descriptive identifier names, developers spent more time in the lines of
@@ -149,8 +148,8 @@ More recently, [% b Floyd2017 Krueger2020 Peitek2021 %] have used
 brain do when they are reading or writing code. The main findings are that
 reading code is cognitively different from reading prose, but that the more
 experienced programmers are, the less of a difference there is. This
-corroborates earlier work with <span i="reading code!eye tracking studies">eye
-tracking</span> like [% b Hansen2013 %], which also found that experience
+corroborates earlier work with [% i "reading code!eye tracking studies" %]eye
+tracking[% /i %] like [% b Hansen2013 %], which also found that experience
 increases performance in most cases, but can actually *hurt* performance when
 assumptions about what code is supposed to do are violated (i.e., when the eye
 sees what the brain expects).
@@ -158,8 +157,8 @@ sees what the brain expects).
 [% b Kernighan1999 %] wrote, "Programmers are often encouraged to use long
 variable names regardless of context.  This is a mistake: clarity is often
 achieved through brevity."  Lots of programmers believe this, but
-[% b Hofmeister2017 %] found that using full words in <span i="reading
-code!effect of variable names; variable naming">variable names</span> led to an
+[% b Hofmeister2017 %] found that using full words in [% i "reading
+code!effect of variable names" "variable naming" %]variable names[% /i %] led to an
 average of 19% faster comprehension compared to letters and abbreviations.  In
 contrast, [% b Beniamini2017 %] found that using single-letter variable
 names didn't affect novices' ability to modify code.  This may be because their
@@ -168,8 +167,8 @@ names have implicit types and meanings.  For example, most programmers assume
 that `i`, `j`, and `n` are integers and that `s` is a string, while `x`, `y`,
 and `z` are either floating-point numbers or integers more or less equally.
 
-Similarly, programmers have argued for decades about whether <span i="type
-declaration!effect on readability">variables' data types</span> should have to
+Similarly, programmers have argued for decades about whether [% i "type
+declaration!effect on readability" %]variables' data types[% /i %] should have to
 be declared or not, usually based on their personal experience as professionals
 rather than on any kind of data.
 [% b Hanenberg2013 Endrikat2014 Fischer2015 %] found that requiring
@@ -177,8 +176,8 @@ variable type declarations does add some complexity to programs, but it pays off
 by acting as documentation for a method's use---in particular, by forestalling
 questions about what's available and how to use it. [% b Gao2017 %] looked
 at how many bugs in JavaScript programs would have been caught if the code had
-been written in TypeScript (which <span i="type declaration!effectiveness at
-catching bugs">adds types</span>), and came up with a figure of 15%, which is
+been written in TypeScript (which [% i "type declaration!effectiveness at
+catching bugs" %]adds types[% /i %]), and came up with a figure of 15%, which is
 either low (one in seven) or high (sales tax) depending on how you want to look
 at it.
 
@@ -186,10 +185,10 @@ at it.
 
 If engineering is applied science, then [% b Eichberg2015 %] is a great
 example of software engineering.  In it, the authors show that it's possible to
-identify a wide range of problems in code by comparing the actual <span i="flow
-graph!actual">flow graph</span> (which is the set of all possible paths through
-the program) with the <span i="flow graph!abstract interpretation">abstract
-interpretation flow graph</span> (which is the set of all paths once possible
+identify a wide range of problems in code by comparing the actual [% i "flow
+graph!actual" %]flow graph[% /i %] (which is the set of all possible paths through
+the program) with the [% i "flow graph!abstract interpretation" %]abstract
+interpretation flow graph[% /i %] (which is the set of all paths once possible
 data values are taken into account).  To make this more concrete, the control
 flow graph for:
 
@@ -211,9 +210,9 @@ developers don't seem to understand Boolean operators as well as they should.
 
 Program analysis can tell us many other things as well, all of which should
 influence the design of future systems. For example, Python, JavaScript, and
-many other languages are <span i="dynamic typing; typing!dynamic">dynamically
-typed</span>, while <span i="static typing; typing!static">statically
-typed</span> languages like Java that restrict variables to particular types of
+many other languages are [% i "dynamic typing" "typing!dynamic" %]dynamically
+typed[% /i %], while [% i "static typing" "typing!static" %]statically
+typed[% /i %] languages like Java that restrict variables to particular types of
 data. [% b Akerblom2015 %] looked at how often Python programs actually
 rely on dynamic typing, and found that it was taken advantage of in only 2.5% of
 cases. Adding generics (i.e., type declarations like `Array<int>`) only makes
@@ -222,7 +221,7 @@ include more complex type systems, but it does (or should) mean that the onus is
 on their designers to show that the complexity is worthwhile.
 
 Meanwhile, lots of people say that copy-pasting code is bad practice: if you
-find yourself creating <span i="code clones">code clones</span>, you should put
+find yourself creating [% i "code clones" %]code clones[% /i %], you should put
 the repeated code in its own method and call it from all the original copies
 (<a section="design"/>).  But when [% b Kapser2008 %] explored *why*
 developers create code clones, they found that code clones are OK in some cases:
@@ -240,8 +239,7 @@ developers create code clones, they found that code clones are OK in some cases:
 ## What Do We Know About the Quality of Software?
 
 The answer to the question in this section's title is, "A lot, and it's not good
-news." For example, [% b Nakshatri2016 %] looked at how <span
-i="exception!under-used and abused">exceptions</span> are actually used in Java
+news." For example, [% b Nakshatri2016 %] looked at how [% i "exception!under-used and abused" %]exceptions[% /i %] are actually used in Java
 programs.  Rather than being used to make software more robust, exceptions are
 either ignored or used as a debugging aid.  For example, the most common `catch`
 block is one that logs the error rather than trying to recover from it; the next
@@ -263,7 +261,7 @@ tests check that your program does the right thing when things go wrong.
 
 One reason things go wrong is that developers don't make use of the tools they
 have. [% b Beller2019 %] monitored 2,443 software engineers over the course
-of 2.5 years in four <span i="IDE!under-used and abused">IDEs</span>. They found
+of 2.5 years in four [% i "IDE!under-used and abused" %]IDEs[% /i %]. They found
 that:
 
 > …half of the developers in our study does not test; developers rarely run their
@@ -276,8 +274,8 @@ that:
 
 Another factor that affects quality is how comprehensible the software is: in
 particular, how easy or difficult it is to set it up.  [% b Xu2015 %]
-looked at how often various <span i="configuration!parameters">configuration
-parameters</span> are actually used, and how correctly; they report that:
+looked at how often various [% i "configuration!parameters" %]configuration
+parameters[% /i %] are actually used, and how correctly; they report that:
 
 -   Only a small percentage (6.1%-16.7%) of configuration parameters are set by
     the majority of users; a significant percentage (up to 54.1%) of parameters
@@ -400,7 +398,7 @@ guide to what research should focus on improving.
   
 ## What Do We Know About the Psychology of Programming?
 
-Do <span i="programmers!happiness">happy programmers</span> produce better code?
+Do [% i "programmers!happiness" %]happy programmers[% /i %] produce better code?
 If they do, then focusing on their tools may be missing the point: it may be
 their environment and colleagues that matter more.  Unfortunately, researchers
 haven't yet discovered how to induce happiness, so a randomized controlled trial
@@ -411,8 +409,8 @@ those groups performed on an analytical task and a creative task.  The positive
 group did better at the analytic task, but there was no statistically
 significant difference on the creative task.
 
-The <span i="pair programming!effect of personality">broader topic of
-personality</span> also comes up in discussions of pair programming: do you need
+The [% i "pair programming!effect of personality" %]broader topic of
+personality[% /i %] also comes up in discussions of pair programming: do you need
 to be an extrovert to reap its benefits, is the contrast in personality with
 your peer important, and so on. Several studies have addressed these questions;
 [% b Hannay2010 %] is a good place to start reading about them.  As they
@@ -446,7 +444,7 @@ any personality effects.
 ## What Do We Know About Innate Ability?
 
 The most important result in this chapter comes from [% b Patitsas2016 %].
-<span i="programming!innate ability">Its abstract</span> is worth repeating in
+[% i "programming!innate ability" %]Its abstract[% /i %] is worth repeating in
 full:
 
 > Although it has never been rigourously demonstrated, there is a common belief

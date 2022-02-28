@@ -8,8 +8,7 @@ Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
 implementing a change and that change being tested, integrated, tested again,
-and deployed.  Those practices have one thing in common: <span
-i="automation">automating</span> as many steps as possible to make them fast and
+and deployed.  Those practices have one thing in common: [% i "automation" %]automating[% /i %] as many steps as possible to make them fast and
 reliable.  You may not be required to do this for your project, but if you have
 time, you should try to do a little---it will save time when you are up against
 the end-of-term deadline, and more importantly, prevent mistakes when you are
@@ -20,7 +19,7 @@ stretched thin.
 The foundation for almost all automation in software development is a <span
 g="build_manager" i="build manager">build manager</span>---a tool that will
 transform what you've typed into what you want to deliver. The origin build
-manager is <span i="Make; build manager!Make">[Make][make]</span>, which was
+manager is [% i "Make" "build manager!Make" %][Make][make][% /i %], which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
 some modules depended on others. To use it, you create a Makefile that specifies
 the dependencies between the files in your project and the commands needed to
@@ -43,7 +42,7 @@ how to create any `.bc` file from a `.grace` file with the same root name;
 the cryptic expression `$<` is Make's way of saying "the first thing the target depends on".
 
 Make has been used by hundreds of thousands of programmers for more than thirty
-years, but has some <span i="Make!shortcomings">fundamental flaws</span>. The
+years, but has some [% i "Make!shortcomings" %]fundamental flaws[% /i %]. The
 first is its syntax, which looks like something produced by a cat dancing on the
 keyboard. The second is that it runs commands by handing them over to whatever
 operating system it is running on, which make portability a constant headache.
@@ -58,8 +57,7 @@ build systems aren't just configured: they're programmed. For example, this
 book's Makefile checks the consistency of cross-references and glossary
 entries, makes sure all the bibliography citations are in place, and copies
 files to my web site, and is more complex than many programs I've written.
-Thinking of it as a "configuration" file is a mistake: you *have* to <span
-i="automation!as programming">approach builds as a programming problem</span>.
+Thinking of it as a "configuration" file is a mistake: you *have* to [% i "automation!as programming" %]approach builds as a programming problem[% /i %].
 
 The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The `package.json` file used by
@@ -96,8 +94,8 @@ things like `npm run test`:
 to express dependencies between tasks, i.e., there's no way to say, "A depends
 on B which depends on C".
 
-<span i="build manager!Snakemake; Snakemake">[Snakemake][snakemake]</span> and
-<span i="build manager!Rake; Rake">[Rake][rake]</span> take the idea of "build
+[% i "build manager!Snakemake" "Snakemake" %][Snakemake][snakemake][% /i %] and
+[% i "build manager!Rake" "Rake" %][Rake][rake][% /i %] take the idea of "build
 file as data structure" one step further. Their users describe dependencies as
 small Python or Ruby programs respectively, making use of an extensive support
 library that handles dependencies, invokes appropriate compilers, and so on.
@@ -106,18 +104,18 @@ front-end JavaScript frameworks and static site generators, a simple build tool
 is so simple to create that hundreds have proliferated. As a result, none has
 achieved [% g critical_mass %]critical mass[% /g %].
 
-Whatever you choose or are told to use, please <span i="build manager!rules for
-using">follow these rules</span>:
+Whatever you choose or are told to use, please [% i "build manager!rules for
+using" %]follow these rules[% /i %]:
 
 Pick something that plays nicely with your other tools.
 :   For example, most Java editors and IDEs integrate with a build tool called
-    <span i="build manager!Ant; Ant; Java!build manager">[Ant][ant]</span>,
+    [% i "build manager!Ant" "Ant" "Java!build manager" %][Ant][ant][% /i %],
     which means they can jump directly to compilation errors when they occur.
 
 Be very cautious about adding dependencies.
 :   "Reduce, re-use, recycle" is as important for software as it is for daily
     life, but every library you depend on is one more way for your project to
-    accumulate <span i="technical debt">technical debt</span>.  Recent
+    accumulate [% i "technical debt" %]technical debt[% /i %].  Recent
     research shows that we are all biased toward solving problems by adding
     things instead of taking them away [% b Meyvis2021 %]; checking the
     packages your project depends on before every release and cutting any you
@@ -143,8 +141,8 @@ still work? If it does, you're on your way.
 > ### Never break the build
 >
 > Once you have a build system in place, never commit anything to version control
-> that breaks the <span i="version control!and build manager; build manager!and
-> version control">build</span>. This is one of the golden rules of working in a
+> that breaks the [% i "version control!and build manager" "build manager!and
+> version control" %]build[% /i %]. This is one of the golden rules of working in a
 > team: if your code won't compile, or doesn't pass whatever automated tests you
 > have, then putting it into the repository means putting every other person on
 > your team into exactly the same broken state you're in. When you're working on
@@ -160,12 +158,11 @@ checker</span> to make sure your code follows the team's formatting rules.
 (Style checkers are often called <span g="linter" i="linter">linters</span>
 because an early one called `lint` looked for problems in C programs.)  Some of
 these rules are as simple as "no method can be longer than 100 lines" or "class
-names must be written in CamelCase".  Modern tools like <span i="style
-checker!ESLint; ESLint">[ESLint][eslint]</span> for <span i="JavaScript!style
-checker">JavaScript</span>, <span i="Checkstyle; style
-checker!Checkstyle">[Checkstyle][checkstyle]</span> for <span i="Java!style
-checker">Java</span>, or <span i="style checker!Black;
-Black">[Black][black]</span> for <span i="Python!style checker">Python</span>
+names must be written in CamelCase".  Modern tools like [% i "style
+checker!ESLint" "ESLint" %][ESLint][eslint][% /i %] for [% i "JavaScript!style
+checker" %]JavaScript[% /i %], [% i "Checkstyle" "style
+checker!Checkstyle" %][Checkstyle][checkstyle][% /i %] for [% i "Java!style
+checker" %]Java[% /i %], or [% i "style checker!Black" "Black" %][Black][black][% /i %] for [% i "Python!style checker" %]Python[% /i %]
 can do a lot more: they can find code that is never called, parameters that are
 never used, duplicated code that could be refactored, and a lot more.  Code
 reviews are much more straightforward when the code you're looking at is
@@ -183,10 +180,9 @@ definitions in code helps programmers understand software as well.
 ## Continuous Integration
 
 Build tools will do a lot more for you if you adopt some kind of <span g="ci"
-i="continuous integration">continuous integration</span> system such as <span
-i="Travis CI; continuous integration!Travis CI">[Travis CI][travis-ci]</span> or
-<span i="GitHub Actions; continuous integration!GitHub Actions">[GitHub
-Actions][github-actions]</span>.  These can be set up to run either at regular
+i="continuous integration">continuous integration</span> system such as [% i "Travis CI" "continuous integration!Travis CI" %][Travis CI][travis-ci][% /i %] or
+[% i "GitHub Actions" "continuous integration!GitHub Actions" %][GitHub
+Actions][github-actions][% /i %].  These can be set up to run either at regular
 intervals (e.g., every hour or at three a.m.), or every time someone checks into
 version control (which I find more useful). Each time they run, they check a
 fresh copy of the project out of version control, build it, re-run all the

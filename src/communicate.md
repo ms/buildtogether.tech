@@ -19,8 +19,8 @@ due, and (possibly) how urgent they are.
 
 At its simplest, an <span g="issue_tracker" i="issue tracker; issue">issue
 tracker</span> is a shared to-do list. Issue tracking systems are also called
-<span i="ticketing system">ticketing systems</span> and <span i="bug
-tracker">bug trackers</span> because most software projects use them to keep
+[% i "ticketing system" %]ticketing systems[% /i %] and [% i "bug
+tracker" %]bug trackers[% /i %] because most software projects use them to keep
 track of the bugs that developers and users find. These days, issue trackers are
 almost invariably web-based. To create a new issue, you enter a title and a
 short description; the system then assigns it a unique serial number. You can
@@ -50,9 +50,8 @@ final report.
 Of course, a issue tracker is only as useful as what you put into it.  If you're
 describing a bug in a large application, you should include enough information
 to allow someone to reproduce the problem. This is why industrial-strength
-systems like <span i="Jira (issue tracker); issue
-tracker!Jira">[Jira][jira]</span> can have a couple of dozen <span
-i="issue!fields">fields</span> for each issue, including:
+systems like [% i "Jira (issue tracker)" "issue
+tracker!Jira" %][Jira][jira][% /i %] can have a couple of dozen [% i "issue!fields" %]fields[% /i %] for each issue, including:
 
 -   what version of the software you were using;
 
@@ -90,7 +89,7 @@ fifty-five yet?") The date is in <span g="utc" i="issue!timestamps">UTC</span>
 so that it is unambiguous: while your team may all be in one place, it's
 increasingly likely that you are scattered across several time zones.
 
-The <span i="issue!good titles">title</span> on line 3 is probably the most
+The [% i "issue!good titles" %]title[% /i %] on line 3 is probably the most
 important part of the issue. Projects will accumulate hundreds of issues over
 time; a good subject line makes it much easier to find the ones you need. The
 `type`, `severity`, and `labels` fields also improve
@@ -98,7 +97,7 @@ time; a good subject line makes it much easier to find the ones you need. The
 while `type` and `severity` could be labels, having them in fields of their own
 makes it easier to sort and filter issues.
 
-Finally, the <span i="issue!description of">description</span> briefly
+Finally, the [% i "issue!description of" %]description[% /i %] briefly
 summarizes the problem. If the author hadn't already identified the cause, it
 should include a <span g="reprex" i="reproducible example (reprex)">reproducible
 example</span> (also called a reprex). This helps the person understand what the
@@ -189,9 +188,8 @@ easily see when work is due and how much is left to be done.
 ## Other Ways to Communicate
 
 Issues are the best way to keep track of where you are, but there are lots of
-other ways the team can and should communicate. These can be <span
-i="communication!synchronous">synchronous</span>, like chat and video calls, or
-<span i="communication!asynchronous">asynchronous</span>, like issues and
+other ways the team can and should communicate. These can be [% i "communication!synchronous" %]synchronous[% /i %], like chat and video calls, or
+[% i "communication!asynchronous" %]asynchronous[% /i %], like issues and
 email. The former are better for quick back-and-forth and for maintaining social
 connections, but they can also be a constant stream of interruptions, which
 lowers productivity (<a section="important"/>). Synchronous tools also tend to bias
@@ -200,15 +198,15 @@ language, or have better network connections, and finding things afterward in
 archives of stream-of-consciousness exchanges is harder than finding things in
 asynchronous media.
 
-But who am I kidding? You're going to use <span i="communication!instant
-messaging; instant messaging!inevitable use of">instant messaging</span> no
+But who am I kidding? You're going to use [% i "communication!instant
+messaging" "instant messaging!inevitable use of" %]instant messaging[% /i %] no
 matter what I say.  If more than two people are in the conversation, follow the
 same rules you would for a short meeting: post a summary of any decisions you
 made where everyone can see it.
 
 If you prefer fewer interruptions and longer periods of thought, you can always
-go back to <span i="communication!email; email (for team
-communication)">email</span>, which has been used to run projects since the
+go back to [% i "communication!email" "email (for team
+communication)" %]email[% /i %], which has been used to run projects since the
 1970s.  It brings content directly to people while allowing everyone to deal
 with issues when it's convenient for them, and supports long-running
 conversations. Email really comes into its own, though, when messages are routed
@@ -227,23 +225,22 @@ and find out what was said a month ago---or, just as importantly, if someone
 > took a couple of minutes, and it means that when I check mail in the morning or
 > after lunch, everything is set up for me to focus on one topic at a time.
 
-<span i="software portal!communication tools">Software portals</span> provide
+[% i "software portal!communication tools" %]Software portals[% /i %] provide
 many other ways to communicate, which project members use in a wide variety of
-ways [% b Treude2011 %].  <span i="wiki; communication!wiki">Wikis</span>
+ways [% b Treude2011 %].  [% i "wiki" "communication!wiki" %]Wikis[% /i %]
 seem like a good way to keep notes, create documentation, and so on. Their main
 strength is the fact that content is automatically and immediately visible on
-the web.  These days, you will probably get more mileage out of a bunch of <span
-i="Markdown">Markdown</span> pages under version control---you have to set up a
+the web.  These days, you will probably get more mileage out of a bunch of [% i "Markdown" %]Markdown[% /i %] pages under version control---you have to set up a
 repository anyway, and version control systems are much better at reconciling
 conflicts between concurrent authors than wikis.
 
-<span i="communication!blog; blog!as team journal">Blogs</span>, on the other
+[% i "communication!blog" "blog!as team journal" %]Blogs[% /i %], on the other
 hand, have proven more useful. One kind of project blog consists of articles
 written by the team's members as a journal of their progress. This is most
 useful for people who are watching the project from the outside, like
 instructors.
 
-The second kind of <span i="blog!automatically generated">blog</span> is one
+The second kind of [% i "blog!automatically generated" %]blog[% /i %] is one
 created automatically by tools. In many project management systems, every
 project has a blog.  Every time someone checks code into version control,
 creates or closes an issue, or sends email, an entry is added to that blog. This
@@ -252,15 +249,12 @@ reader, which is a handy way to keep track of what their teammates are doing.
 
 If you are going to create a blog, use a <span g="static_site_generator"
 i="static site generator">static site generator</span> to format and publish
-content consistently.  On GitHub, for example, you can create a site with <span
-i="GitHub Pages">[GitHub Pages][github-pages]</span> using a tool called <span
-i="Jekyll; static site generator!Jekyll">[Jekyll][jekyll]</span>; lots of
+content consistently.  On GitHub, for example, you can create a site with [% i "GitHub Pages" %][GitHub Pages][github-pages][% /i %] using a tool called [% i "Jekyll" "static site generator!Jekyll" %][Jekyll][jekyll][% /i %]; lots of
 different themes are available, and there are many good tutorials online.
 
 > ### Comments as communication
 >
-> People don't usually think of <span i="comments!as communication;
-> communication!comments">comments</span> as a form of communication like email or
+> People don't usually think of [% i "comments!as communication" "> communication!comments" %]comments[% /i %] as a form of communication like email or
 > instant messaging, but if they are used properly, the only significant
 > difference is that the comments are right there in the code where the recipients
 > can't miss them rather than in an archive somewhere that they'll have to go and
@@ -282,10 +276,9 @@ different themes are available, and there are many good tutorials online.
 
 ## Reporting Up
 
-As well as reporting progress to your teammates, you may have to <span
-i="reporting!to your manager">report</span> it regularly to your instructor, who
-is effectively your manager. <span i="Evans, Julia">[Julia
-Evans][evans-julia]</span> has described [eight things your manager might not
+As well as reporting progress to your teammates, you may have to [% i "reporting!to your manager" %]report[% /i %] it regularly to your instructor, who
+is effectively your manager. [% i "Evans, Julia" %][Julia
+Evans][evans-julia][% /i %] has described [eight things your manager might not
 know][evans-manager], all of which apply to student teams:
 
 1.  What's slowing the team down.
@@ -305,7 +298,7 @@ know][evans-manager], all of which apply to student teams:
 1.  How compensation/promotions work at the company.  (For students, this one
     translates to, "How grading actually works.")
 
-<span i="Kaplan-Moss, Jacob">[Jacob Kaplan-Moss][kaplan-moss-jacob]</span> has a
+[% i "Kaplan-Moss, Jacob" %][Jacob Kaplan-Moss][kaplan-moss-jacob][% /i %] has a
 similar guide to [giving a status update to executives][kaplan-moss-executives],
 and [Ask a Manager][ask-a-manager] is full of good advice and discussion as
 well. If you follow those guidelines, you get briefs like this:
@@ -331,14 +324,14 @@ team member.
 ## Documentation
 
 An old proverb says, "Trust, but verify."  The equivalent in programming is, "Be
-clear, but <span i="documentation!as communication">document</span>."  No matter
+clear, but [% i "documentation!as communication" %]document[% /i %]."  No matter
 how well software is written, it always embodies decisions that aren't explicit
 in the final code or accommodates complications that aren't going to be obvious
 to the next reader.  Putting it another way, the best function names in the
 world aren't going to answer the questions "Why does the software do this?"  and
 "Why doesn't it do this in a simpler way?"
 
-In most cases, <span i="documentation!embedded">embedded documentation</span> in
+In most cases, [% i "documentation!embedded" %]embedded documentation[% /i %] in
 the form of a short [% g docstring %]docstring[% /g %] or [% g doc_comment %]doc comment[% /g %] to remind ourselves of each function's
 purpose is probably as much documentation as we need.  (In fact, it's probably
 better than what most people do.)  That one- or two-liner should begin with an
@@ -357,8 +350,7 @@ examples of good one-line docstrings include:
 You can tell our one-liners are useful if you can read them aloud in the order
 the functions are called in place of the function's name and parameters.
 
-Once you start writing code for other people (or your future self) your <span
-i="documentation!what to include">documentation</span> should include:
+Once you start writing code for other people (or your future self) your [% i "documentation!what to include" %]documentation[% /i %] should include:
 
 -   The name and purpose of every public class, function, and constant in our
     code.
@@ -381,16 +373,16 @@ As <a section="thinking"/> explains, we can divide people in any domain into
 novices, competent practitioners, and experts.  Each of these three groups needs
 a different kind of documentation:
 
--   A <span i="novice!documentation needs; documentation!for
-    novices">novice</span> needs a tutorial that introduces her to key ideas one
+-   A [% i "novice!documentation needs" "documentation!for
+    novices" %]novice[% /i %] needs a tutorial that introduces her to key ideas one
     by one and shows how they fit together.
 
--   A <span i="competent practitioner!documentation needs; documentation!for
-    competent practitioners">competent practitioner</span> needs reference guides,
+-   A [% i "competent practitioner!documentation needs" "documentation!for
+    competent practitioners" %]competent practitioner[% /i %] needs reference guides,
     cookbooks, and Q&A sites; these give her solutions close enough to what she
     needs that she can tweak them the rest of the way.
 
--   <span i="expert!documentation needs; documentation!for experts">Experts</span>
+-   [% i "expert!documentation needs" "documentation!for experts" %]Experts[% /i %]
     need this material as well---nobody's memory is perfect---but they may also
     paradoxically want tutorials.  The difference between them and novices is
     that experts want tutorials on how things work and why they were designed
@@ -403,7 +395,7 @@ things they actually want to do rather than printing the numbers from 1 to 10,
 and should include regular check-ins so that people can tell if they're making
 progress.
 
-Tutorials help novices build a <span i="mental model">mental model</span>, but
+Tutorials help novices build a [% i "mental model" %]mental model[% /i %], but
 competent practitioners and experts will be frustrated by their slow pace and
 low information density.  They will want single-point solutions to specific
 problems, like how to find cells in a spreadsheet that contain a certain string
@@ -417,7 +409,7 @@ queries and tell if the results are on the right track or not.
 
 As projects grow, documentation within functions alone may be insufficient for
 users to apply code to their own problems.  One strategy to assist other people
-with understanding a project is with an <span i="FAQ">FAQ</span>.  A good FAQ
+with understanding a project is with an [% i "FAQ" %]FAQ[% /i %].  A good FAQ
 uses the terms and concepts that people bring to the software rather than the
 vocabulary of its authors; putting it another way, the questions should be
 things that people actually search for online, not the things the program's
@@ -427,7 +419,7 @@ Creating and maintaining an FAQ is a lot of work, and unless the community is
 large and active, a lot of that effort may turn out to be wasted, because it's
 hard for the authors or maintainers of a piece of software to anticipate what
 newcomers will be mystified by.  A better approach is to leverage sites like
-<span i="Stack Overflow">[Stack Overflow][stack-overflow]</span>, which is where
+[% i "Stack Overflow" %][Stack Overflow][stack-overflow][% /i %], which is where
 most programmers are going to look for answers anyway.
 
 The Stack Overflow guide to [asking a good
@@ -467,5 +459,5 @@ Allow for a chorus of explanations.
     that suggest different approaches or are written for different prior levels
     of understanding. This is one of the things that has made Stack Overflow so
     successful: if users are different from one another, they are best served by
-    a <span i="chorus of explanation">chorus of explanations</span>
+    a [% i "chorus of explanation" %]chorus of explanations[% /i %]
     [% b Caulfield2016 %].

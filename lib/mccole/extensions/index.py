@@ -1,13 +1,12 @@
 """Create index and index references.
 
-Index entries are created using `[% i "some;key" %]...text...[% /i %]`.  Multiple
-index entries are separated by `;`, and individual entries can use `major!minor`
-notation to create subheadings (LaTeX-style).
+Index entries are created using `[% i "some" "key" %]...text...[% /i %]`.  Keys
+can use `major!minor` notation to create subheadings (LaTeX-style).
 
 If some text is in both the glossary and the index, wrap the index shortcode
 around the glossary shortcode:
 
-    [% i "some;key" %][% g key "some text" %][% /i %]
+    [% i "some" %][% g key %]some text[% /g %][% /i %]
 """
 
 import re
@@ -22,23 +21,23 @@ INDEX_MARKER = re.compile(r"<!--\s*INDEX\s*-->")
 
 @shortcodes.register("i", "/i")
 def index_ref(pargs, kwargs, node, content):
-    """Handle [% i "some;key" %]...text...[% /i %] index shortcodes."""
+    """Handle [% i "some" "key" %]...text...[% /i %] index shortcodes."""
     # Badly formatted.
-    if len(pargs) != 1:
+    if len(pargs) == 0:
         util.fail(f"Badly-formatted 'i' shortcode {pargs} in {node.filepath}")
 
     # Store entries.
-    key = pargs[0]
     index = util.make_config("index")
-    for entry in [k.strip() for k in key.strip().split(";") if k.strip()]:
+    for entry in [key.strip() for key in pargs]:
         entry = tuple(s.strip() for s in entry.split("!") if s.strip())
         if 1 <= len(entry) <= 2:
             index.setdefault(entry, set()).add(node.slug)
         else:
-            util.fail("Badly-formatted index key {key} in {node.filepath}")
+            util.fail(f"Badly-formatted index key {key} in {node.filepath}")
 
     # Format.
-    return f'<span class="indexref" key="key" markdown="1">{content}</span>'
+    joined = ";".join(pargs)
+    return f'<span class="indexref" key="{joined}" markdown="1">{content}</span>'
 
 
 @ivy.events.register(ivy.events.Event.EXIT)
@@ -96,6 +95,6 @@ def _make_links(slugs):
     titles = [headings[s].title for s in slugs]
     triples = list(zip(slugs, paths, titles))
     major = util.make_major()
-    triples.sort(key=lambda x: major[x[0]])
+    triples.sort(key=lambda x: str(major[x[0]]))
     result = ", ".join(f'<a href="{path}">{title}</a>' for (_, path, title) in triples)
     return result

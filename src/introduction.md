@@ -46,7 +46,7 @@ the [Red Door Family Shelter][red-door-shelter].*
 ## Audience
 
 Every lesson should be written with specific learners in mind.  These
-<span i="learner persona">[personas][t3-personas]</span> are ours:
+[% i "learner persona" %][personas][t3-personas][% /i %] are ours:
 
 -   Yanina is in the third year of a computer science degree. She worked on
     several volunteer projects in high school and through her mosque, but the
@@ -156,15 +156,14 @@ email](mailto:{{site.author.email}}).
 
 ## Acknowledgments
 
-This book is dedicated to <span i="Petre, Marian">[Marian
-Petre][petre-marian]</span>, who taught me that not everything worth
-studying can be measured, and to <span i="Wilkie, Tom">Tom
-Wilkie</span>, who taught me that an author's job is to create the
+This book is dedicated to [% i "Petre, Marian" %][Marian
+Petre][petre-marian][% /i %], who taught me that not everything worth
+studying can be measured, and to [% i "Wilkie, Tom" %]Tom
+Wilkie[% /i %], who taught me that an author's job is to create the
 manure in which an editor grows something worth reading.  I am also
-grateful to all of the students who did projects with me at the <span
-i="University of Toronto">University of Toronto</span> and through
-<span i="Google Summer of Code">Google Summer of Code</span>, and to
-everyone who took part in <span i="UCOSP">UCOSP</span>
+grateful to all of the students who did projects with me at the [% i "University of Toronto" %]University of Toronto[% /i %] and through
+[% i "Google Summer of Code" %]Google Summer of Code[% /i %], and to
+everyone who took part in [% i "UCOSP" %]UCOSP[% /i %]
 [% b Holmes2014 Holmes2018 %].
 
 I have tried to base recommendations on empirical software engineering research
@@ -217,11 +216,8 @@ misunderstandings that remain are entirely our fault.
 - [Andreas Zeller](https://andreas-zeller.info/)
 
 Portions of this book are adapted from material that originally appeared in
-[% b Sholler2019 Wilson2019 Irving2021 Smalls2021 %]; I'm grateful to <span
-i="Taylor & Francis">[Taylor & Francis][taylor-francis]</span>, <span
-i="PLOS">[PLOS][plos]</span>, and my co-authors for making available under open
-licenses.  I would also like to thank <span i="Graf, David">David Graf</span>
-for <span i="doi2bib">[doi2bib][doi2bib]</span> and <span i="Elbakyan,
-Alexander">Alexandra Elbakyan</span> for <span
-i="Sci-Hub">[Sci-Hub][sci-hub]</span>; this book would have been much harder to
+[% b Sholler2019 Wilson2019 Irving2021 Smalls2021 %]; I'm grateful to [% i "Taylor & Francis" %][Taylor & Francis][taylor-francis][% /i %], [% i "PLOS" %][PLOS][plos][% /i %], and my co-authors for making available under open
+licenses.  I would also like to thank [% i "Graf, David" %]David Graf[% /i %]
+for [% i "doi2bib" %][doi2bib][doi2bib][% /i %] and [% i "Elbakyan,
+Alexander" %]Alexandra Elbakyan[% /i %] for [% i "Sci-Hub" %][Sci-Hub][sci-hub][% /i %]; this book would have been much harder to
 write without their idealism and hard work.

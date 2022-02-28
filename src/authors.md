@@ -3,7 +3,7 @@ title: "Authors"
 template: page
 ---
 
-**<span i="Wilson, Greg">[Greg Wilson][wilson-greg]</span>** has worked in industry and academia for 35 years,
+**[% i "Wilson, Greg" %][Greg Wilson][wilson-greg][% /i %]** has worked in industry and academia for 35 years,
 and is the author or editor of several books,
 including *Beautiful Code*,
 *[The Architecture of Open Source Applications][aosa]*,

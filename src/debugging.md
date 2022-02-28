@@ -7,7 +7,7 @@ template: page
 Finding errors is good; fixing them is better, so learning how to debug is as
 important as learning how to program in the first place.  However, while most
 schools teach defensive programming and unit testing, only a handful offer a
-course on <span i="debugging!why schools don't teach">debugging</span>, which is
+course on [% i "debugging!why schools don't teach" %]debugging[% /i %], which is
 weird when you consider that most programmers spend anywhere from a quarter to
 three quarters of their time finding and fixing bugs.  A single chapter can't
 make up for that, but I hope the guidance below will help make you more
@@ -17,7 +17,7 @@ Debugging depends on being able to read code, which is the single most effective
 way known to find bugs [% b Basili1987 Kemerer2009 Bacchelli2013 %].
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
-written about how to <span i="reading code">read</span> it
+written about how to [% i "reading code" %]read[% /i %] it
 ([% b Spinellis2003 %] being my favorite).  As <a section="rules-joining"/>
 says, reading other people's code is one of the best ways to learn how to be a
 better programmer; tracking down a bug may not be when you want to broaden your
@@ -27,8 +27,8 @@ knowledge, but if you're there anyway, you might as well.
 
 Software can fail in many different ways, but the process for diagnosing and
 fixing problems is consistent from one bug to the next.  The first rule of
-debugging is therefore to make <span i="debugging!importance of good
-habits">good practices a habit</span>.  You are more likely to make mistakes or
+debugging is therefore to make [% i "debugging!importance of good
+habits" %]good practices a habit[% /i %].  You are more likely to make mistakes or
 overlook things when you're tired or under pressure; if writing assertions and
 unit testing aren't automatic by then, the odds are that you'll be at your worst
 when it matters most.
@@ -61,7 +61,7 @@ Make sure you understand what the bug actually is.
 Make it fail.
 :   You can only debug things when you can see them going wrong, so as we
     discussed in <a section="communicate"/>, you should try to create a minimal
-    <span i="reproducible example (reprex)">reproducible example</span> or
+    [% i "reproducible example (reprex)" %]reproducible example[% /i %] or
     reprex.  Doing this finds the problem in a surprising number of cases, since
     each time you throw out part of the original program or dataset because the
     bug reoccurs without it, you are also throwing out a bunch of possible
@@ -74,18 +74,18 @@ Make it fail.
     the function that's calling it, and so on.
 
 Instrument your code.
-    Add <span i="assertion">assertions</span> to make the checks in your code
+    Add [% i "assertion" %]assertions[% /i %] to make the checks in your code
     explicit: they'll help you keep track of what you have looked at for this
     bug, and if you leave them in, they will help prevent others in future.
-    (This is a form of after-the-fact <span i="defensive programming">defensive
-    programming</span>.)
+    (This is a form of after-the-fact [% i "defensive programming" %]defensive
+    programming[% /i %].)
 
 Alternate between exploration and confirmation.
 :   I often don't know what assertions to write until I've looked at the state
     of the program, so I go back and forth between adding logging statements (or
     just `print` statements if the code is small and I'm reasonably sure I can
-    find the bug quickly) and adding assertions.  <span i="logging!during
-    debugging">Logging</span> gives me new information to help me formulate
+    find the bug quickly) and adding assertions.  [% i "logging!during
+    debugging" %]Logging[% /i %] gives me new information to help me formulate
     hypotheses; assertions either confirm or refute those hypotheses.
 
 Change one thing at a time.
@@ -102,16 +102,16 @@ Change one thing at a time.
 
 > ### Programs concurrent to debug hard are
 >
-> <span i="concurrent systems!difficult of debugging; debugging!concurrent
-> systems">Concurrent systems</span> in which many things are happening
+> [% i "concurrent systems!difficult of debugging" "debugging!concurrent
+> systems" %]Concurrent systems[% /i %] in which many things are happening
 > simultaneously are much harder to debug than sequential systems.  It's not just
 > that the order of events is unpredictable; it's often not repeatable, so
 > creating a reliable reprex may be impossible.  What's worse, the act of
 > observing can hide the bug: a `print` statement or a breakpoint can change
 > timing in a way that makes the bug disappear.  Modeling tools can help
 > (<a section="tooling"/>), as can the use of immutable data structures, but the best
-> solutions are to test components in isolation using <span i="mock object">mock
-> objects</span> in place of the things they communicate with
+> solutions are to test components in isolation using [% i "mock object" %]mock
+> objects[% /i %] in place of the things they communicate with
 > (<a section="testing"/>) and to add *lots* of assertions to check the consistency
 > of data structures.  In particular, giving every class a method called `isOK` to check
 > that it's in good shape can save hours of later debugging, as well as helping
@@ -119,8 +119,7 @@ Change one thing at a time.
 
 ## Common Errors
 
-What mistakes do programmers make <span i="common programming errors;
-error!common">most often</span>?  The largest study of this for novices is
+What mistakes do programmers make [% i "common programming errors" "error!common" %]most often[% /i %]?  The largest study of this for novices is
 [% b Brown2017 %], which found that mismatched quotes and parentheses are
 the most common type of errors in novice Java programs, but also the easiest to
 fix, while some mistakes (like putting the condition of an `if` in `{…}` instead
@@ -129,8 +128,8 @@ compiler errors are fixed much faster than ones that don't.  Some mistakes,
 however, are made many times, like invoking methods with the wrong arguments
 (e.g., passing a string instead of an integer).
 
-[% b Brown2017 %] also compared <span i="error!misperception of
-frequency">the mistakes novices actually make</span> with what their teachers
+[% b Brown2017 %] also compared [% i "error!misperception of
+frequency" %]the mistakes novices actually make[% /i %] with what their teachers
 thought they made.  They found that, "…educators formed only a weak consensus
 about which mistakes are most frequent, that their rankings bore only a moderate
 correspondence to the students in the…data, and that educators' experience had
@@ -254,12 +253,12 @@ place to start.
 
 Another semi-automated technique for finding bugs is <span g="delta_debugging"
 i="delta debugging">delta debugging</span> [% b Zeller2009 Zeller2021 %].
-<span i="fuzz testing">Fuzz testing</span> can automatically generate inputs
+[% i "fuzz testing" %]Fuzz testing[% /i %] can automatically generate inputs
 that make programs fail (<a section="testing"/>), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
 why they make the software fail.  Delta debugging repeatedly tests subsets of
 the original fixture, then subsets of those subsets, to produce a minimal
-<span i="reproducible example (reprex)">reprex</span>.
+[% i "reproducible example (reprex)" %]reprex[% /i %].
 
 ## Using a Debugger
 
@@ -284,7 +283,7 @@ Inspection.
     This is why we use the word "symbolic": instead of displaying the bytes at
     particular addresses in memory, the debugger uses the names you wrote.
 
-<span i="single-stepping; debugger!single-stepping">Single-stepping</span>.
+[% i "single-stepping" "debugger!single-stepping" %]Single-stepping[% /i %].
 :   Rather than requiring you to set breakpoints on several successive lines,
     the debugger allows you to step through the program a line at a time to see
     which branches of `if`/`else` statements are taken or how the values of
@@ -299,18 +298,18 @@ isn't displaying the values you thought it was.
 
 That said, a page or two of printed output showing which functions are being
 called and what state the data is in at the start and end of each can be less
-<span i="cognitive load!in debugging">cognitive load</span> than holding that
+[% i "cognitive load!in debugging" %]cognitive load[% /i %] than holding that
 same information in your head while stepping through the program's execution.
-Again, if you *are* going to print things, using a <span i="logging!during
-debugging">logging</span> library to give yourself more control.
+Again, if you *are* going to print things, using a [% i "logging!during
+debugging" %]logging[% /i %] library to give yourself more control.
 
 > ### If it was important, it would be on the exam
 >
 > Over the years I've been surprised by how few programmers know how to use a
 > debugger [% b Beller2018 %]. The reason can't be the five or ten minutes it
 > takes to learn how to use one---that pays for itself almost immediately.  The
-> best explanation I've been able to come up with relates to <span i="Goodhart's
-> Law">[Goodhart's Law][goodhart-law]</span>, which says that as soon as you use
+> best explanation I've been able to come up with relates to [% i "Goodhart's
+> Law" %][Goodhart's Law][goodhart-law][% /i %], which says that as soon as you use
 > some measure to evaluate people it ceases to be a good measure because people
 > will start to game the system.
 >

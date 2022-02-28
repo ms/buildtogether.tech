@@ -3,7 +3,7 @@ title: "Contributing"
 template: page
 ---
 
-All contributors must abide by our <span i="Code of Conduct">Code of Conduct</span>.
+All contributors must abide by our [% i "Code of Conduct" %]Code of Conduct[% /i %].
 
 ## Making Decisions
 

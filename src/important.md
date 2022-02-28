@@ -12,9 +12,9 @@ how to run a meeting, and how to resolve arguments.
 > ### Not writing software takes less time
 >
 > [% b Sedano2017 %] found that software development projects have
-> <span i="waste (in software development)">nine types of waste</span>: building the
+> [% i "waste (in software development)" %]nine types of waste[% /i %]: building the
 > wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
-> solutions, extraneous <span i="cognitive load">cognitive load</span>
+> solutions, extraneous [% i "cognitive load" %]cognitive load[% /i %]
 > (<a section="thinking"/>), psychological distress, waiting and <span
 > i="multitasking">multitasking</span>, knowledge loss, and ineffective
 > communication.  *None of these are software issues,* so if you only think about
@@ -35,8 +35,7 @@ stupors did to my teammates' productivity.
 
 My mistake was to confuse "long hours" with "getting things done".  You can't
 produce software (or anything else) without doing some work, but you can easily
-do lots of work without producing anything of value.  Scientific study of <span
-i="overwork">overwork</span> goes back to at least the 1890s---see
+do lots of work without producing anything of value.  Scientific study of [% i "overwork" %]overwork[% /i %] goes back to at least the 1890s---see
 [% b Robinson2005 %] for a short, readable summary.  The most important
 results for developers are:
 
@@ -54,10 +53,10 @@ of more than a century, including some on novice software developers
 [% b Fucci2020 %].  The data behind them is as solid as the data linking
 smoking to lung cancer.  However, while most smokers will acknowledge that their
 habit is killing them, people in the software industry still talk and act as if
-science somehow didn't apply to them.  To quote <span i="Robinson,
-Evan">Robinson</span>'s article:
+science somehow didn't apply to them.  To quote [% i "Robinson,
+Evan" %]Robinson[% /i %]'s article:
 
-> When <span i="Ford, Henry">Henry Ford</span> famously adopted a 40-hour workweek
+> When [% i "Ford, Henry" %]Henry Ford[% /i %] famously adopted a 40-hour workweek
 > in 1926, he was bitterly criticized by members of the National Association of
 > Manufacturers.  But his experiments, which he'd been conducting for at least 12
 > years, showed him clearly that cutting the workday from ten hours to eight
@@ -96,7 +95,7 @@ It only takes me a couple of minutes to create a bug that will take hours to
 track down later---or days, if someone else is unlucky enough to have to track
 it down.  This is summarized in Robinson's first rule:
 
-> <span i="productivity">Productivity</span> varies over the course of the
+> [% i "productivity" %]Productivity[% /i %] varies over the course of the
 > workday, with the greatest productivity occurring in the first four to six
 > hours.  After enough hours, productivity approaches zero; eventually it becomes
 > negative.
@@ -110,7 +109,7 @@ Ah, you say, that's "long-term total output".  What about short bursts now and
 then, like pulling an all-nighter to meet a deadline?  That's been studied too,
 and the results aren't pleasant.  Your ability to think drops by 25 points for
 each 24 hours you're awake.  Put it another way, the average person's IQ is only
-75 after one <span i="all-nighters">all-nighter</span>, which puts them in the
+75 after one [% i "all-nighters" %]all-nighter[% /i %], which puts them in the
 bottom 5% of the population.  Two all nighters in a row and their effective IQ
 is 50---the level at which people are usually judged incapable of independent
 living.
@@ -138,7 +137,7 @@ interruptions that developers reported, while [% b Edwards2009 %] found
 that starting assignments early and working consistently both predicted good
 grades.
 
-The best strategy for <span i="time management">time management</span> is to
+The best strategy for [% i "time management" %]time management[% /i %] is to
 prioritize and focus.  Prioritizing is important because most of us are very
 good at spending hours on things that don't need to be done and then finding
 themselves with too little time for the things that actually count. A little bit
@@ -161,8 +160,8 @@ Make a list of the things you have to do.
     themselves email messages that then go into a folder titled "To Do".
     However you do it, the important thing is to *write it all down*.  You can
     only keep a handful of things in short-term memory at once
-    (<a section="thinking"/>); if you try to manage a <span i="to-do list">to-do
-    list</span> longer than that in your head, you will forget things.
+    (<a section="thinking"/>); if you try to manage a [% i "to-do list" %]to-do
+    list[% /i %] longer than that in your head, you will forget things.
 
 Weed out everything that you don't need to do right away.
 :   If you want to try out a new editor theme that's play time not work time,
@@ -173,12 +172,12 @@ Sort the list so that the most important tasks are at the top.
     into order, since I'm going to re-check my list before I get to them anyway.
 
 Make sure you have everything you need to see the first task through.
-:   The most recent files from <span i="version control">version control</span>
+:   The most recent files from [% i "version control" %]version control[% /i %]
     (<a section="git-solo"/>), the assignment specification, a fresh cup of
     tea---whatever it is, don't give yourself an excuse to interrupt your work,
     because the world will provide enough of those.
 
-Turn off <span i="interruptions">interruptions</span>.
+Turn off [% i "interruptions" %]interruptions[% /i %].
 :   Shut down your mail client, instant messaging, and your cell phone.  Don't
     panic, it's only for an hour---most people can't stay focused longer than
     that, and you'll need to stretch your muscles and get rid of that tea you
@@ -193,7 +192,7 @@ Set an alarm to go off in fifty minutes.
     keyboard, and I'm less likely to be distracted by a notebook than by a text
     editor.
 
-Take a ten-minute <span i="breaks (importance of regular)">break</span>.
+Take a ten-minute [% i "breaks (importance of regular)" %]break[% /i %].
 :   Get up and move around a little during these ten minutes, even if it's just
     to refill your water bottle, visit the toilet, or do a few stretches. You
     will be able to work longer if your back doesn't ache, and being away from
@@ -233,7 +232,7 @@ They may even start to imitate you.
 
 > ### Open offices suck
 >
-> <span i="open offices (evils of)">Open offices</span> were created so that
+> [% i "open offices (evils of)" %]Open offices[% /i %] were created so that
 > (mostly male) managers could keep an eye on (mostly female) office workers, and
 > to reduce air conditioning costs [% b Eley1995 %].  In every other way we
 > can measure, they lower productivity [% b Bernstein2018 %].
@@ -247,8 +246,8 @@ They may even start to imitate you.
 > attention, and mood, may find that other approaches work better for them.
 >
 > But while society accepts that people of different heights need different desks
-> and seating to be comfortable, there is still a lot of <span i="mental health
-> (stigma associated with)">stigma</span> associated with differences in mental
+> and seating to be comfortable, there is still a lot of [% i "mental health
+> (stigma associated with)" %]stigma[% /i %] associated with differences in mental
 > function, which are often measured by [how inconvenient they are to other
 > people][adhd-thread].  One example is how tests for <span g="adhd"
 > i="ADHD">attention-deficit/hyperactivity disorder</span> (ADHD) are
@@ -269,8 +268,7 @@ They may even start to imitate you.
 ## Meetings
 
 The previous section explained how to be productive individually---what about
-being productive in a team?  The most important thing is running <span
-i="meetings">meetings</span> efficiently.  The rules doing so are simple but
+being productive in a team?  The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently.  The rules doing so are simple but
 rarely followed:
 
 Agree on the rules.
@@ -344,8 +342,8 @@ No distractions.
     down and laptops should be closed during in-person meetings.
 
 Take minutes.
-:   Someone other than the moderator should take <span i="minutes (of
-    meetings)">point-form notes</span> about the most important information that
+:   Someone other than the moderator should take [% i "minutes (of
+    meetings)" %]point-form notes[% /i %] about the most important information that
     was shared, and about every decision that was made or every task that was
     assigned to someone.  This responsibility should rotate each meeting so that
     everyone has to take a turn; otherwise, as discussed in <a section="teams"/>,
@@ -392,8 +390,8 @@ Everyone can check what was actually said or promised.
 
 People can be held accountable at subsequent meetings.
 :   There's no point making lists of questions and action items if you don't
-    follow up on them later.  If you are using an <span i="issue-tracking
-    system">issue-tracking system</span> (<a section="tooling"/>), create an issue
+    follow up on them later.  If you are using an [% i "issue-tracking
+    system" %]issue-tracking system[% /i %] (<a section="tooling"/>), create an issue
     for each new question or task right after the meeting and update those that
     are being carried forward.  This helps a lot when the time comes to draw up
     the agenda for the next meeting.
@@ -418,8 +416,7 @@ One of the problems in a synchronous meeting is the tendency of some people to
 speak far more than others.  Other meeting members may be so accustomed to this
 that they don't speak up even when they have valuable points to make.
 
-One way to combat this is to give everyone <span i="meetings!three sticky notes;
-three sticky notes (in meetings)">three sticky notes</span> (or coins, or
+One way to combat this is to give everyone [% i "meetings!three sticky notes" "three sticky notes (in meetings)" %]three sticky notes[% /i %] (or coins, or
 paperclips---anything inedible will do).  at the start of the meeting.  Every
 time they speak, they have to give up one sticky note.  When they're out of
 stickies, they aren't allowed to speak until everyone has used at least one, at
@@ -429,8 +426,7 @@ meeting, and completely changes group dynamics.  People who have given up trying
 to be heard suddenly have space to contribute, and the overly frequent speakers
 realize how unfair they have been.
 
-Another useful technique is called <span i="meetings!interruption bingo;
-interruption bingo (in meetings)">interruption bingo</span>.  Draw a grid and
+Another useful technique is called [% i "meetings!interruption bingo" "interruption bingo (in meetings)" %]interruption bingo[% /i %].  Draw a grid and
 label the rows and columns with the participants' names.  Each time one person
 interrupts another, add a tally mark to the appropriate cell; halfway through
 the meeting, take a moment to look at the results.  In most cases it will be
@@ -440,8 +436,8 @@ to get them to throttle back.
 
 Online meetings provide special challenges, both in the context of regulating
 how often individuals speak, as well as running meetings in general.
-[% b Troy2018 %] discusses why <span i="meetings (online)">online
-meetings</span> are often frustrating and unproductive and points out that in
+[% b Troy2018 %] discusses why [% i "meetings (online)" %]online
+meetings[% /i %] are often frustrating and unproductive and points out that in
 most online meetings, the first person to speak during a pause gets the floor.
 As a result, "If you have something you want to say, you have to stop listening
 to the person currently speaking and instead focus on when they're gonna pause
@@ -518,9 +514,7 @@ Who gets to vote?
 :   In a course project the answer is "whoever is part of the team," but if the
     project grows and attracts volunteer contributors, a more explicit rule is
     needed.  One common method is for existing members to nominate new ones, and
-    for the team to hold a straight yes-or-no vote on each.  Another is <span
-    i="Apache Software Foundation">[Apache][apache]</span>'s "<span
-    i="do-ocracy">do-ocracy</span>" approach: if you have done the work and
+    for the team to hold a straight yes-or-no vote on each.  Another is [% i "Apache Software Foundation" %][Apache][apache][% /i %]'s "[% i "do-ocracy" %]do-ocracy[% /i %]" approach: if you have done the work and
     no-one explicitly objects, the proposal is accepted or the change is
     merged. This "put up or shut up" approach is a good way to test if someone
     *really* wants a change, but in practice it often means projects are driven
@@ -532,9 +526,9 @@ Rules that people don't know about can't help them.  Once your team agrees on a
 project structure, a workflow, how to get items on a meeting agenda, or how to
 make decisions, you should document this for newcomers (and to prevent disputes
 among people already in the team).  This information may be included as a
-section in the project's <span i="README file">`README`</span> file
+section in the project's [% i "README file" %]`README`[% /i %] file
 (<a section="starting"/>) or put into a separate file called
-<span i="CONTRIBUTING file">`CONTRIBUTING`</span>.  This material should describe the naming
+[% i "CONTRIBUTING file" %]`CONTRIBUTING`[% /i %].  This material should describe the naming
 conventions to use for functions, what tags to put on issues, or how to install
 and configure the software needed to start work on the project.  Wherever it
 goes, remember that the easier it is for people to get set up, the more likely

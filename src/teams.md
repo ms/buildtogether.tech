@@ -5,8 +5,8 @@ template: page
 ---
 
 Most people learn better together than they do on their own
-[% b Michaelson2004 %].  As long as their teams <span i="teams!learning
-benefits of">work well</span>, they achieve higher grades, retain information
+[% b Michaelson2004 %].  As long as their teams [% i "teams!learning
+benefits of" %]work well[% /i %], they achieve higher grades, retain information
 longer, are less likely to drop out of school, and graduate with better
 communication skills and a better understanding of what will be expected of them
 in their subsequent careers.
@@ -26,7 +26,7 @@ are a good start; this chapter will look at what else you can do.
 
 I once heard an anthropologist ask, "How big is a sports team?"  When people
 said it depends on the sport, she explained that in fact they all have about
-<span i="teams!effective size of">half a dozen members</span>.  Anything larger
+[% i "teams!effective size of" %]half a dozen members[% /i %].  Anything larger
 than that splits into smaller groups: the forwards and backs in rugby, the
 infield and outfield in baseball, and so on.  She went on to explain that
 hunting parties in non-agricultural societies are usually that size as well, as
@@ -46,20 +46,20 @@ of work; more importantly, one or the other person is likely to take a dominant
 role.  If you put six or eight people in a team, on the other hand, you may not
 be able to divide up the work in a way that will keep everyone engaged and busy.
 Teams that size or larger also increase the odds that at least one member will
-be a <span i="hitchhiker">hitchhiker</span>, and make scheduling meetings much
+be a [% i "hitchhiker" %]hitchhiker[% /i %], and make scheduling meetings much
 more difficult.
 
-Many students prefer to <span i="teams!selecting">select</span> their teammates,
+Many students prefer to [% i "teams!selecting" %]select[% /i %] their teammates,
 and students with high grades tend to want teammates with a similar profile.
 [% b Post2020 %] found that matching students by grade led to a small
 improvement in outcomes, with a larger impact on team grades than on individual
 ones. The same study found that members of self-selected teams were more likely
-to already have <span i="teams!effect of having friends on">friends</span> on
+to already have [% i "teams!effect of having friends on" %]friends[% /i %] on
 their team, but that this was *negatively* correlated with outcomes (possibly
 because people are less willing to hold friends accountable for missed work).
 
-One surprising finding is that having students with <span i="teams!benefits of
-diverse ability levels">a range of grades</span> in the same team either has no
+One surprising finding is that having students with [% i "teams!benefits of
+diverse ability levels" %]a range of grades[% /i %] in the same team either has no
 effect or improves outcomes *for everyone*
 [% b Mosher2013 Donovan2018 Farland2019 Auvinen2020 %].  It's easy to see
 how this benefits teams of weak students: they are likely to get coaching from
@@ -85,8 +85,8 @@ is on it. Your performance will depend as much on your ability to get along with
 others as it will on your raw technical ability, so you might as well start
 practicing those skills now.
 
-If instructors create teams, they should <span i="teams!isolating at-risk
-students">avoid isolating at-risk students</span>.  Women and members of racial
+If instructors create teams, they should [% i "teams!isolating at-risk
+students" %]avoid isolating at-risk students[% /i %].  Women and members of racial
 minority groups are more likely to drop out of computer science than other
 students, particularly in first and second year, and one of the main reasons is
 feeling isolated or out of place. Research has shown that putting at-risk
@@ -95,8 +95,8 @@ students together in the first couple of years can mitigate this problem
 students have a stronger commitment to whatever program they're in, but it still
 helps to prevent some of the problems discussed in the next section.
 
-The biggest headache when instructors select teams is <span i="teams!taking
-schedules into account">scheduling</span>.  COVID-19 has made distributed work
+The biggest headache when instructors select teams is [% i "teams!taking
+schedules into account" %]scheduling[% /i %].  COVID-19 has made distributed work
 more normal, but the last university I taught at had three campuses spread
 across a large metropolitan area, and some students commuted an hour and a half
 each way to get to classes.  Instructors should therefore take students'
@@ -123,13 +123,12 @@ on into working time or vice versa.
 
 ## Who Does What
 
-All right, you've formed a team: now what? How do you decide <span
-i="teams!allocating work;allocating work!in teams">who does what</span>? How do
+All right, you've formed a team: now what? How do you decide [% i "teams!allocating work" "allocating work!in teams" %]who does what[% /i %]? How do
 you make sure that everyone actually does what they're supposed to? And most
 importantly, how do you do this fairly?
 
-Some jobs have <span i="allocating work!effect of social status">higher social
-status</span> than others, and what is or isn't considered important usually
+Some jobs have [% i "allocating work!effect of social status" %]higher social
+status[% /i %] than others, and what is or isn't considered important usually
 reflects racial and gender divides within society---so much so that sociologists
 use the phrase "[women's work][womens-work]" to describe the phenomenon. It is
 also known as "[quarterback syndrome][quarterback-syndrome]": two thirds of NFL
@@ -158,7 +157,7 @@ programming---after all, why play a game that's unfair?
 
 > ### In the beginning
 >
-> <span i="history of computing">Programming</span> was originally considered a
+> [% i "history of computing" %]Programming[% /i %] was originally considered a
 > female occupation, but as it became more lucrative it came to be viewed as
 > "naturally" male.  [% b Abbate2012 %] and [% b Ensmenger2012 %]
 > describe how this happened, while [% b Hicks2018 %] looks at how Britain
@@ -214,7 +213,7 @@ reinforce existing inequities; it also tends to lower the team's overall grade,
 since there's often little relationship between how outspoken people are and how
 well they work.
 
-> ### The <span i="Dunning-Kruger effect">Dunning-Kruger effect</span>
+> ### The [% i "Dunning-Kruger effect" %]Dunning-Kruger effect[% /i %]
 >
 > [% b Kruger1999 %] reported that people who know a subject well can usually
 > estimate their knowledge accurately, but people who don't will often
@@ -341,7 +340,7 @@ turn around at the end of the project and ask people to rate one another, since
 they won't have known while they were working what they were going to be rated
 on.
 
-Asking people on a team to <span i="peer evaluation">rate their peers</span> is
+Asking people on a team to [% i "peer evaluation" %]rate their peers[% /i %] is
 a common practice in industry.  Instructors sometimes shy away from it because
 they're afraid students will gives everyone in the team a high rating in order
 to boost grades. However, this actually occurs fairly infrequently
@@ -377,14 +376,14 @@ Not everything needs to be completely correct.
     Cinematic Universe, the answer is probably no.
 
 The devil doesn't need more advocates.
-:   We remember when <span i="contrarian (why not to be)">contrarians</span>
+:   We remember when [% i "contrarian (why not to be)" %]contrarians[% /i %]
     turn out to be right because it happens so infrequently, but because those
     moments are memorable, some people fall into the habit of taking the
     opposite point of view no matter what is being discussed.
 
 You wouldn't have gotten this far if you weren't good at this.
-:   Some people have <span i="self-confidence (lack of)">so little
-    confidence</span> in their ability despite their good grades that they won't
+:   Some people have [% i "self-confidence (lack of)" %]so little
+    confidence[% /i %] in their ability despite their good grades that they won't
     make any decision, no matter how small, until they have checked with someone
     else. This is often a result of social conditioning: in particular, women
     are more likely to doubt themselves, while men often over-estimate their
@@ -405,10 +404,10 @@ Not everything worth doing should be done.
 Success is a habit.
 :   The more you follow a routine, the more your brain will be able to focus on
     the right things at the right time. [% b Gawande2011 %] found that
-    <span i="checklists!benefits of">checklists</span> improve results even for
+    [% i "checklists!benefits of" %]checklists[% /i %] improve results even for
     experts, and <a section="important"/> talked about the value of to-do lists for
-    managing your time. Making these a habit reduce <span i="cognitive
-    load!impact of checklists">cognitive load</span> (<a section="thinking"/>) and
+    managing your time. Making these a habit reduce [% i "cognitive
+    load!impact of checklists" %]cognitive load[% /i %] (<a section="thinking"/>) and
     gives you more mental capacity for dealing with the work itself.
 
 Acting like an asshole doesn't make you cool---it just makes you an asshole.
@@ -418,13 +417,13 @@ Acting like an asshole doesn't make you cool---it just makes you an asshole.
     many other people, that language has often been followed by bullying or
     discrimination. They're right not to trust you if those are the signals you
     choose to send. (And no, calling someone out for being vulgar or aggressive
-    is not the same as <span i="tone policing">tone policing</span>.)
+    is not the same as [% i "tone policing" %]tone policing[% /i %].)
 
 Sometimes it's hard to care.
 :   You have a teammate who doesn't read the assignment specs, hasn't bothered
     to learn the tools and libraries you're supposed to be using, and commits
     code that doesn't even compile.  Before treating them like a hitchhiker, try
     to find out if there's a reason for their behavior: if he's caring for a
-    family member or struggling with <span i="mental health">mental
-    health</span> issues, the most compassionate thing to do is to help them get
+    family member or struggling with [% i "mental health" %]mental
+    health[% /i %] issues, the most compassionate thing to do is to help them get
     back on their feet.

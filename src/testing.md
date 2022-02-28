@@ -59,8 +59,7 @@ The `pytest` library comes with a command-line tool that is also called
 directory whose names match the pattern `test_*.py`.  It then runs the test
 functions it finds in these files and summarizes their results.
 
-If running all the tests is taking so long that it's disrupting your <span
-i="flow">flow</span> (<a section="important"/>), you can give `pytest` (and other
+If running all the tests is taking so long that it's disrupting your [% i "flow" %]flow[% /i %] (<a section="important"/>), you can give `pytest` (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
 development, but you should always re-run the entire <span g="test_suite"
 i="test suite; unit test!test suite">test suite</span> before committing your
@@ -126,8 +125,8 @@ submissions that drive the system from one state to another.
 > confirm it, and books like [% b Olsen2007 Nystrom2014 Casciaro2020 %] are
 > great places to get started.
 
-The MVC architecture presents several <span i="model-view-controller
-architecture!testing">challenges for testing</span>:
+The MVC architecture presents several [% i "model-view-controller
+architecture!testing" %]challenges for testing[% /i %]:
 
 Unit testing libraries are designed to run within a single process.
 :   As the word "library" implies, they're made up of code that's meant to be
@@ -263,9 +262,9 @@ pressed, the back end will respond the right way. But how do we test that the
 browser will call the right function with the right parameters when the button
 is clicked?
 
-The answer is to use a tool like [Selenium][selenium] to <span i="browser
-automation!for testing; unit test!browser automation">automate the browser's
-actions</span>. Similar tools exist for desktop and mobile applications; all of
+The answer is to use a tool like [Selenium][selenium] to [% i "browser
+automation!for testing" "unit test!browser automation" %]automate the browser's
+actions[% /i %]. Similar tools exist for desktop and mobile applications; all of
 them rely on the fact that the browser or the screen manager is just another
 piece of software. With a little bit of work, we can tell them to move the
 cursor to a specific (X,Y) location or a particular button or menu, to generate
@@ -273,8 +272,7 @@ a mouse click, or to pretend that the user just typed the letter 'G'. Once we've
 done that, we can check that the web page has the right elements or that the
 database has a new record just as we would with back-end tests.
 
-Most GUI testing frameworks have two other useful features. The first is <span
-i="browser automation!record and playback">record and playback</span>: you can
+Most GUI testing frameworks have two other useful features. The first is [% i "browser automation!record and playback" %]record and playback[% /i %]: you can
 step through a workflow manually, and the tool can then produce a script that
 will repeat those steps. These scripts tend to be fragile---i.e., small changes
 to the UI will break them---but if you edit them to replace things like absolute
@@ -295,12 +293,12 @@ you might as well use it to make your life easier.
 Programs don't just have to do the right thing; they have to do it quickly
 enough to be usable.  How fast that needs to be depends on the program, but if a
 text editor takes nine seconds to display each character, people are going to
-write their reports some other way. You should therefore measure <span i="unit
-test!performance">how long your tests take to run</span> so that you can tell
+write their reports some other way. You should therefore measure [% i "unit
+test!performance" %]how long your tests take to run[% /i %] so that you can tell
 when the application is slowing down and do something about it.
 
-The simplest kind of <span i="performance testing!manual">performance
-testing</span> is simply to measure how much time elapses between the start and
+The simplest kind of [% i "performance testing!manual" %]performance
+testing[% /i %] is simply to measure how much time elapses between the start and
 end of a test. You can do this manually:
 
 ```py
@@ -400,9 +398,8 @@ be sure we were checking the result of each one correctly?
 
 ## What's Hard to Test
 
-Some things are intrinsically harder to test than others. Take <span
-i="visualization!difficulty of testing; unit
-test!visualization">visualizations</span>: any change to the dimension of the
+Some things are intrinsically harder to test than others. Take [% i "visualization!difficulty of testing" "unit
+test!visualization" %]visualizations[% /i %]: any change to the dimension of the
 plot, however small, can change many pixels in a [% g raster_image %]raster
 image[% /g %], and cosmetic changes such as moving the legend up a couple of
 pixels will cause all of the tests to fail.
@@ -415,9 +412,8 @@ designing the library so that it can draw axes without data points, points
 without axes, and so on will minimize the number of tests you need to rewrite
 as the library changes.
 
-Computer graphics, data science, and anything else that uses <span
-i="floating-point arithmetic!difficulty of testing; unit test!floating-point
-arithmetic">floating-point arithmetic</span> is also hard to test. One problem
+Computer graphics, data science, and anything else that uses [% i "floating-point arithmetic!difficulty of testing" "unit test!floating-point
+arithmetic" %]floating-point arithmetic[% /i %] is also hard to test. One problem
 is that floating-point numbers are approximations, just as 0.33333333 is an
 approximation to 1/3.  When we work with them, we have to think in terms of
 error bars, just as scientists working in a lab do; rather than checking if the

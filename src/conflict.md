@@ -10,7 +10,7 @@ didn't finish her stuff until the very last minute, which meant that no one else
 had time to spot the two big mistakes she'd made.  And Surinder didn't deliver
 at all---again.  If something doesn't change, you're going to fail this course.
 
-<span i="conflict (interpersonal)">Conflicts</span> like this come up all the
+[% i "conflict (interpersonal)" %]Conflicts[% /i %] like this come up all the
 time.  We can deal with them in four ways:
 
 1.  Cross our fingers and hope that things will get better on their own, even
@@ -44,15 +44,15 @@ avoid making it necessary.
 > game *Ultima Online* [reported][ultima-online-players], "…we asked players what
 > percentage of the player base were degenerate player killers.  Players responded
 > with 10%.  The metrics told us the answer was closer to 0.1%." These findings
-> and many others tell us that <span i="toxic people!rarity of">a small number of
-> people</span> cause a disproportionate amount of grief in our communities
+> and many others tell us that [% i "toxic people!rarity of" %]a small number of
+> people[% /i %] cause a disproportionate amount of grief in our communities
 > (online and otherwise), and that they seem much more common than they are
 > because incidents of abuse and conflict loom large in our memories.
 >
 > The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
 > when a real disaster strikes, most people actually rise to the occasion. As
-> [% b Solnit2010 %] describes, <span i="toxic people!misperception
-> of">neighbors don't turn on each other</span> in the aftermath of an earthquake
+> [% b Solnit2010 %] describes, [% i "toxic people!misperception
+> of" %]neighbors don't turn on each other[% /i %] in the aftermath of an earthquake
 > or a hurricane---instead, they are more likely to look out for each other than
 > under normal circumstances. That doesn't make for exciting viewing, though, and
 > the powerful have always wanted the rest of us to believe that the only
@@ -62,7 +62,7 @@ avoid making it necessary.
 
 The first rule for meetings in <a section="important"/> was to agree on what the
 rules are so that everyone knows what's expected of them. A shared understanding
-of <span i="conflict (interpersonal)!handling">how to handle conflict</span>
+of [% i "conflict (interpersonal)!handling" %]how to handle conflict[% /i %]
 helps in the same way; as with first aid training, having some idea of what to
 do makes you more likely to actually do something when the time comes.
 
@@ -153,7 +153,7 @@ everyone; in such cases, the best guide is to do the kindest thing possible.
 
 ## Escalation
 
-What can you do if <span i="conflict (interpersonal)!escalating">conflict</span>
+What can you do if [% i "conflict (interpersonal)!escalating" %]conflict[% /i %]
 becomes more personal and heated?
 
 1.  Be short, simple, and firm.
@@ -182,8 +182,7 @@ worked in a data visualization startup. Individually, we were all smart, decent
 people. Put us together, though, and somehow our IQs and personalities canceled
 out, so that collectively we were as dumb as a sack full of hammers.
 
-There's not a lot you can do in cases like this except <span
-i="teams!dissolving">start over</span>.  Instructors can allow for this by
+There's not a lot you can do in cases like this except [% i "teams!dissolving" %]start over[% /i %].  Instructors can allow for this by
 announcing at the start of the course that teams will be dissolved and re-formed
 halfway through the project, *unless* every member on the team submits a
 separate signed request to stay together.  There's a bit of psychology here: if

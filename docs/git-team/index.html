@@ -12,20 +12,20 @@
     <div align="center" style="padding-top: 2rem;">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>: Using Git Together</h1>
+      <h1>Chapter 8: Using Git Together</h1>
       
       <p>
         <img src="../files/codebender.svg" alt="logo" width="10%" />
       </p>
     </div>
 
-<p><span i="version control!collaboration">Version control</span> really comes into
+<p><span class="indexref" key="version control!collaboration" markdown="1">Version control</span> really comes into
 its own when we are working with other people.  People can share work through a
 Git repository in one of two ways [<a href="../bibliography/#Irving2021">Irving2021</a>]:</p>
 <ol>
 <li>
-<p>Everyone has read and write access to a <span i="version
-    control!collaboration!using a shared repository">single shared
+<p>Everyone has read and write access to a <span class="indexref" key="version
+    control!using a shared repository" markdown="1">single shared
     repository</span>.</p>
 </li>
 <li>
@@ -45,8 +45,8 @@ might make a mess in the <code>main</code> branch, the second approach is safer.
 <p>When you're working on your own, it's natural to fall into a rhythm of updating
 your laptop from your repository in the morning and committing whatever you've
 managed to accomplish when you wrap up for the day. You need to break this habit
-when you become part of a team. Instead, <span i="version control!when to
-commit">you should commit</span> when you finish a chunk of work that moves the
+when you become part of a team. Instead, <span class="indexref" key="version control!when to
+commit" markdown="1">you should commit</span> when you finish a chunk of work that moves the
 project forward or is fit for someone else to review. A good rule is "never
 break the build" (<a section="automation"/>), i.e., never commit anything that
 doesn't run well enough to pass all existing tests.</p>
@@ -91,7 +91,7 @@ To github.com:sami/bst.git
    f5f7d30..433a2d5  main -&gt; main
 </code></pre>
 <!-- continue -->
-<p>And no, <span i="Git!interface (indistinguishable from hoax)">Git's
+<p>And no, <span class="indexref" key="Git!interface (indistinguishable from hoax)" markdown="1">Git's
 output</span> here isn't particularly useful to anyone except people who are
 debugging Git's internals.</p>
 <p>Amira's changes are now on her desktop computer and in the GitHub repository but
@@ -107,7 +107,7 @@ The PR does not contain the changes, but instead points at two particular
 branches.  That way, the difference displayed is always up to date if either
 branch changes.</p>
 <p>But a PR can store more than just the source and destination branches: it can
-also store <span i="Git!pull request!comments">comments</span> people have made
+also store <span class="indexref" key="Git!comments" markdown="1">comments</span> people have made
 about the proposed merge.  Users can comment on the PR as a whole, or on
 particular lines, and mark comments as out of date if the author of the PR
 updates the code that the comment is attached to.  Complex changes can go
@@ -135,8 +135,8 @@ click on the button, GitHub displays a page showing the default source and
 destination of the PR and a pair of editable boxes for the pull request's title
 and a longer comment.</p>
 <p>If they scroll down, Sami can see a summary of the changes that will be in the
-PR.  When they click "Create Pull Request", Git gives it a unique <span i="pull
-request!serial number">serial number</span>.  This is <em>not</em> a commit ID;
+PR.  When they click "Create Pull Request", Git gives it a unique <span class="indexref" key="pull
+request!serial number" markdown="1">serial number</span>.  This is <em>not</em> a commit ID;
 instead, each PR in a particular repository is given a sequential ID.</p>
 <p>Clicking on the "Pull requests" tab in the repository brings up a list of PRs
 and clicking on the PR link itself displays its details.  Since there are no
@@ -156,7 +156,7 @@ interfaces, but doing it on our desktop means we can use our favorite editor to
 resolve the conflict.  It also means that if the change affects the project's
 code, we can run everything to make sure it still works.</p>
 <p>But what if Sami merges another PR while Amira is resolving this one?  In theory
-this <span i="conflict (in Git)!repeating">cycle</span> could go on forever; in
+this <span class="indexref" key="conflict (in Git)!repeating" markdown="1">cycle</span> could go on forever; in
 practice, it reveals a communication problem that the team needs to address.  If
 two or more people are constantly making incompatible changes to the same files,
 they should discuss who's supposed to be doing what, or rearrange the project's
@@ -168,8 +168,8 @@ someone tries to commit a change.  The commit only takes effect if those tests
 pass, so the team can ensure that the software is always as good as its tests.</p>
 </blockquote>
 <h2>Commit Messages</h2>
-<p>A <a href="https://duckduckgo.com/">DuckDuckGo</a> search for "how to write a good <span i="Git!commit
-message">commit message</span>" turns up several thousand articles. Most are
+<p>A <a href="https://duckduckgo.com/">DuckDuckGo</a> search for "how to write a good <span class="indexref" key="Git!commit
+message" markdown="1">commit message</span>" turns up several thousand articles. Most are
 variations on the sample shown below; as with programming style
 (<a section="research"/>), the most important thing is being consistent rather than the
 particular rules you follow.</p>
@@ -220,7 +220,7 @@ many.</p>
 <p>There are lots of guides online for doing code reviews, most of them based on
 their authors' personal experience. A notable exception is the <a href="https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/">SmartBear
 guide</a>, which draws on a large study of code review in
-industry. The <span i="code review!procedure">rules below</span> present some of
+industry. The <span class="indexref" key="code review!procedure" markdown="1">rules below</span> present some of
 their findings with modifications for students' situations.</p>
 <dl>
 <dt>Have the instructor do a demonstration review.</dt>
@@ -230,8 +230,8 @@ and going through it, thinking aloud as they notice things worth commenting
 on so that you have an idea of how much detail they expected.</dd>
 <dt>Authors should clean up code before review.</dt>
 <dd>If the person creating the PR goes through and adds some more comments,
-cleans up some variable names, and does a bit of <span i="refactoring!for
-code review">refactoring</span> (<a section="design"/>), they won't just make
+cleans up some variable names, and does a bit of <span class="indexref" key="refactoring!for
+code review" markdown="1">refactoring</span> (<a section="design"/>), they won't just make
 reviewing easier: the odds are very good that they will find and fix a few
 problems on their own.</dd>
 <dt>Review at most 200 lines of a code at a time.</dt>
@@ -242,8 +242,8 @@ that.  A corollary of this rule is that no PR should be more than 200 lines
 long.  If one is, the odds are that reviewers won't be able to hold it all
 in their head at once (<a section="thinking"/>) and so will miss things.</dd>
 <dt>Use checklists.</dt>
-<dd>[<a href="../bibliography/#Gawande2011">Gawande2011</a>] popularized the idea that using <span
-i="checklists!use in code review">checklists</span> improves results even
+<dd>[<a href="../bibliography/#Gawande2011">Gawande2011</a>] popularized the idea that using
+<span class="indexref" key="checklists!use in code review" markdown="1">checklists</span> improves results even
 for experts.  While [<a href="../bibliography/#Hatton2008">Hatton2008</a>] found no evidence that they made
 a difference to code reviews by professionals, I have found them very useful
 as a starter for students.  If you are new to code reviews, ask the
@@ -290,7 +290,7 @@ defending the victims of rudeness by telling the offender, "That's not how
 we speak to each other."  We'll talk about this more in
 <a section="fairness"/>.</dd>
 </dl>
-<p>How we <span i="code review!responding to">respond</span> to reviews is just as
+<p>How we <span class="indexref" key="code review!responding to" markdown="1">respond</span> to reviews is just as
 important:</p>
 <dl>
 <dt>Be specific in replies to reviewers.</dt>

@@ -12,7 +12,7 @@
     <div align="center" style="padding-top: 2rem;">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>: Wrapping Up</h1>
+      <h1>Chapter 26: Wrapping Up</h1>
       
       <p>
         <img src="../files/codebender.svg" alt="logo" width="10%" />
@@ -46,21 +46,21 @@ real world.</p>
 </li>
 <li>
 <p>An architectural overview, including a block diagram of the major components
-    and a walkthrough of how it behaves.  (I prefer the <span i="use-case
-    map">use-case maps</span> introduced in <a section="design"/> for this.)</p>
+    and a walkthrough of how it behaves.  (I prefer the <span class="indexref" key="use-case
+    map" markdown="1">use-case maps</span> introduced in <a section="design"/> for this.)</p>
 </li>
 <li>
 <p>An installation guide.</p>
 </li>
 <li>
-<p>An up-to-date set of <span i="issue tracker!as course
-    deliverable">issues</span>. If the work has been done, the issue should be
+<p>An up-to-date set of <span class="indexref" key="issue tracker!as course
+    deliverable" markdown="1">issues</span>. If the work has been done, the issue should be
     closed; if not, it should describe the state of the bug (or enhancement, or
     question) well enough for someone to know where to start work.</p>
 </li>
 </ol>
-<p>Another possible deliverable is a <span i="package!as course
-deliverable">package</span> that other people can download and install
+<p>Another possible deliverable is a <span class="indexref" key="package!as course
+deliverable" markdown="1">package</span> that other people can download and install
 (<a section="design"/>). It isn't an either/or choice: every good package has a home page,
 installation instructions, and so on.</p>
 <blockquote>
@@ -107,14 +107,14 @@ attached to a piece of software, it generally means:</p>
 <p>build 1407</p>
 </li>
 </ul>
-<p>The <span i="major version number; version numbers!major">major version
+<p>The <span class="indexref" key="major version number;version numbers!major" markdown="1">major version
 number</span> is only incremented when significant changes are made. In
 practice, "significant" means "changes that make it impossible for older
 versions to read the new version's data or configuration files". In practice,
 major version numbers are often under the control of the marketing
 department---if a competitor releases a new major version, we'd pretty much have
 to as well.</p>
-<p><span i="version numbers!minor; minor version number">Minor version
+<p><span class="indexref" key="version numbers!minor;minor version number" markdown="1">Minor version
 numbers</span> are what most people think of as releases. If you've added a few
 new features, changed part of the GUI, etc., you increment the minor version
 number so that your customers can talk intelligently about which version they
@@ -143,8 +143,7 @@ submitted for.</p>
 or through a command-line option like <code>--version</code>.  It helps a lot when people are
 reporting bugs.</p>
 <h2>The Final Report</h2>
-<p>The other thing student projects usually have to deliver is some kind of <span
-i="final report">final report</span>. Most students short-change this part of
+<p>The other thing student projects usually have to deliver is some kind of <span class="indexref" key="final report" markdown="1">final report</span>. Most students short-change this part of
 the course, in part because it comes at the end, but also because they think, "I
 want to write code, not a novel." However, [<a href="../bibliography/#Fogel2005">Fogel2005</a>] had this to
 say:</p>
@@ -220,13 +219,12 @@ about writing it? It will probably include:</p>
 <p>Lots of tools exist that will handle these, but they all have shortcomings.  You
 can create your report as a set of wiki pages or Google Docs, but they don't
 flag conflicts between concurrent authors.  On the other end of the spectrum are
-WYSIWYG editors like <span i="Microsoft Word">Microsoft Word</span> and <span
-i="LibreOffice">LibreOffice</span>. Unfortunately, these get in the way at least
+WYSIWYG editors like <span class="indexref" key="Microsoft Word" markdown="1">Microsoft Word</span> and <span class="indexref" key="LibreOffice" markdown="1">LibreOffice</span>. Unfortunately, these get in the way at least
 as much as they help:</p>
 <ol>
 <li>
-<p>They store documents in non-text formats that <span i="version
-    control!inability to handle office documents">version control systems can't
+<p>They store documents in non-text formats that <span class="indexref" key="version
+    control!inability to handle office documents" markdown="1">version control systems can't
     diff or merge</span>.</p>
 </li>
 <li>
@@ -242,19 +240,17 @@ as much as they help:</p>
     makes it difficult to keep the document consistent over time.</p>
 </li>
 </ol>
-<p>For these reasons, most teams format their reports as a set of <span
-i="Markdown!for final report">Markdown</span> pages under version control and
-use a <span i="static site generator">static site generator</span>
+<p>For these reasons, most teams format their reports as a set of <span class="indexref" key="Markdown!for final report" markdown="1">Markdown</span> pages under version control and
+use a <span class="indexref" key="static site generator" markdown="1">static site generator</span>
 (<a section="communicate"/>) to turn them into a report. That solves the problem of
 multiple authors (Markdown is a text format, so diff and merge will work), and
 if you know a little CSS, you can make it look as pretty as you want. Diagrams
-and screenshots work well, and you can embed <span
-i="MathML"><a href="https://www.w3.org/Math/">MathML</a></span> for equations if you need to.  The downside
+and screenshots work well, and you can embed <span class="indexref" key="MathML" markdown="1"><a href="https://www.w3.org/Math/">MathML</a></span> for equations if you need to.  The downside
 is that you can't actually see what your document is going to look like until
-you compile it, and doing that breaks your <span i="flow">flow</span>.</p>
+you compile it, and doing that breaks your <span class="indexref" key="flow" markdown="1">flow</span>.</p>
 <blockquote>
 <h3>LaTeX</h3>
-<p><span i="LaTeX">LaTeX</span> is a markup language that's much more sophisticated
+<p><span class="indexref" key="LaTeX" markdown="1">LaTeX</span> is a markup language that's much more sophisticated
 than HTML and has literally thousands of add-on packages for equations, code
 formatting, and just about everything else you could want. Like HTML, LaTeX is a
 text format, so it plays nicely with version control.  However, its power comes
@@ -271,7 +267,7 @@ software project, it's a look back at what went right and what went wrong.</p>
 by giving everyone a chance to reflect on what they've just accomplished. It is
 <em>not</em> to shame people, but it can be hard to critique someone's work without
 them taking it personally, so post mortems add a few extra rules to the ones
-introduced for <span i="meetings!extra rules for post mortems">meetings</span>
+introduced for <span class="indexref" key="meetings!extra rules for post mortems" markdown="1">meetings</span>
 in <a section="important"/>:</p>
 <dl>
 <dt>Get a moderator who wasn't part of the project.</dt>

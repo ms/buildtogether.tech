@@ -12,8 +12,7 @@ that.
 
 ## Different Kinds of Learners
 
-Research starting in the 1980s showed that most <span
-i="neurotypical">neurotypical</span> adults undergo a series of fairly
+Research starting in the 1980s showed that most [% i "neurotypical" %]neurotypical[% /i %] adults undergo a series of fairly
 predictable <span g="cognitive_transition" i="cognitive transition">cognitive
 transitions</span> on their way from being a novice to being an expert in any
 domain [% b Benner2000 %]. (We say "most" and "neurotypical" because as
@@ -73,14 +72,14 @@ any more than we can explain how we recognize faces.
 
 > ### Learning styles aren't a thing
 >
-> You may have heard of "<span i="learning styles; pseudoscience!learning
-> styles">learning styles</span>", i.e., that some people learn better visually,
+> You may have heard of "[% i "learning styles" "pseudoscience!learning
+> styles" %]learning styles[% /i %]", i.e., that some people learn better visually,
 > while others do so more quickly or more accurately by listening, reading, or
 > otherwise using language. It's bullshit: while lots of companies make and sell
 > materials based on this myth, no one has ever shown that tuning what or how we
 > teach to match people's preferences has any impact on outcomes
-> [% b DeBruyckere2015 %]. Like <span i="Myers-Briggs Type
-> Indicator">Myers-Briggs personality types</span> (<a section="fairness"/>),
+> [% b DeBruyckere2015 %]. Like [% i "Myers-Briggs Type
+> Indicator" %]Myers-Briggs personality types[% /i %] (<a section="fairness"/>),
 > learning styles belong with healing crystals and astrology.
 
 This model of learning leaves almost everything discussed in
@@ -89,19 +88,18 @@ with.  Novices, competent practitioners, and experts are at different stages of
 cognitive development, so they need different kinds of teaching
 [% b Kalyuga2003 %]. Novices need to be told what to learn next: since they
 don't have yet a mental model of the problem, they don't know what to ask for.
-As [% b Kirschner2006 %] and many others have shown, <span
-i="discovery-based learning">discovery-based learning</span> in which people are
+As [% b Kirschner2006 %] and many others have shown, [% i "discovery-based learning" %]discovery-based learning[% /i %] in which people are
 told "go figure out how to solve this problem" is less effective for novices
 than guided learning because they don't know what to ask next.
 
 Once someone is a competent practitioner, though, being told step-by-step what
 to tackle next is both unnecessary and frustrating.  Competent practitioners
-should be <span i="mentoring">mentored</span> instead of lectured: they should
+should be [% i "mentoring" %]mentored[% /i %] instead of lectured: they should
 tackle problems on their own, but have someone at hand to get them unstuck if it
 takes them more than a few minutes to figure out what to do next.
 
 Finally, the most effective way to "teach" experts is to have them reflect or
-<span i="introspection">introspect</span> on their own practice
+[% i "introspection" %]introspect[% /i %] on their own practice
 [% b Schon1984 %]. This usually happens in three stages:
 
 1.  You do some work and get feedback on it.  For example, someone in grade
@@ -218,8 +216,8 @@ This is one of the differences between your brain and a computer: reading data
 from a hard drive doesn't alter it, but every time you access something in LTM,
 you may write it back in a different or augmented form. We call this "learning".
 
-Here's the problem: <span i="short-term memory!limited capacity of">STM is
-very small</span>.  [% b Miller1956 %] famously estimated that it could
+Here's the problem: [% i "short-term memory!limited capacity of" %]STM is
+very small[% /i %].  [% b Miller1956 %] famously estimated that it could
 hold 7±2 things at one time; more modern estimates put the number closer to 4±1
 [% b Didau2016 %]. This means that STM is a bottleneck for learning: if too
 many new ideas are presented too quickly, the new arrivals will knock older ones
@@ -253,8 +251,7 @@ significant.
   <figcaption>"Reducing germane load while increasing extraneous load.</figcaption>
 </figure>
 
-Cognitive load theory explains why tools like <span
-i="Scratch">[Scratch][scratch]</span> work so well: they reduce germane load by
+Cognitive load theory explains why tools like [% i "Scratch" %][Scratch][scratch][% /i %] work so well: they reduce germane load by
 getting rid of the commas, curly braces, and other distractions so that learners
 can focus on mastering concepts like assignment and loops. It also explains why
 working with code written in a mix of styles is so painful: each minor
@@ -284,12 +281,12 @@ communicate with [% b Sajaniemi2006 %].
 
 ## Learning Strategies
 
-All of this leads to six <span i="learning strategies">strategies</span> that
+All of this leads to six [% i "learning strategies" %]strategies[% /i %] that
 have been proven to help people learn faster and better
 [% b Weinstein2018 %].  While researchers still disagree on *why* they
 work, everyone now agrees that they *do*.
 
-<span i="spaced practice; learning strategies!spaced practice">Spaced practice</span>.
+[% i "spaced practice" "learning strategies!spaced practice" %]Spaced practice[% /i %].
 :   Ten hours of study spread out over five days is more effective than two
     five-hour days, and far better than one ten-hour day.  You should therefore
     create a study schedule that spreads study activities over time: block off
@@ -301,7 +298,7 @@ work, everyone now agrees that they *do*.
     any gaps or mistakes in previous sets of notes while there's still time to
     correct them or ask questions.
 
-<span i="retrieval practice; learning strategies!retrieval practice">Retrieval practice</span>.
+[% i "retrieval practice" "learning strategies!retrieval practice" %]Retrieval practice[% /i %].
 :   The limiting factor for long-term memory is not retention (what is stored)
     but recall (what can be accessed).  Recall of specific information improves
     with practice, so outcomes in real situations can be improved by taking
@@ -323,7 +320,7 @@ work, everyone now agrees that they *do*.
     swapping flash cards with a partner helps you discover important ideas that
     you may have missed or misunderstood.
 
-<span i="interleaving; learning strategies!interleaving">Interleaving</span>.
+[% i "interleaving" "learning strategies!interleaving" %]Interleaving[% /i %].
 :   One way you can space your practice is to interleave study of different
     topics: instead of mastering one subject, then a second and third, shuffle
     study sessions.  Even better, switch up the order: `A-B-C-B-A-C` is better
@@ -335,7 +332,7 @@ work, everyone now agrees that they *do*.
     or practice tests to gauge your progress, you should see improvement after
     only a couple of days.
 
-<span i="elaboration; learning strategies!elaboration">Elaboration</span>.
+[% i "elaboration" "learning strategies!elaboration" %]Elaboration[% /i %].
 :   Explaining things to yourself as you go through them helps you understand
     and remember them.  One way to do this is to follow up each answer on a
     practice quiz with an explanation of why that answer is correct, or
@@ -353,13 +350,13 @@ work, everyone now agrees that they *do*.
     line with a class, having a different person explain each line in turn and
     say why it is there and what it accomplishes.
 
-    <span i="note-taking (as a learning strategy)">Note-taking</span> is a form
+    [% i "note-taking (as a learning strategy)" %]Note-taking[% /i %] is a form
     of real-time elaboration: it forces you to organize and reflect on material
     as it's coming in, which in turn increases the likelihood that you will
     transfer it to long-term memory.  Many studies have shown that taking notes
     while learning improves retention [% b Aiken1975 Bohay2011 %].
 
-<span i="concrete examples; learning strategies!concrete examples">Concrete examples</span>.
+[% i "concrete examples" "learning strategies!concrete examples" %]Concrete examples[% /i %].
 :   One particularly useful form of elaboration is the use of concrete examples.
     Whenever you have a statement of a general principle, try to provide one or
     more examples of its use, or conversely take each particular problem and
@@ -374,7 +371,7 @@ work, everyone now agrees that they *do*.
     examples actually embody the principle being discussed or which principles
     are used in an example that they haven't listed.
 
-<span i="dual coding; learning strategies!dual coding">Dual coding</span>.
+[% i "dual coding" "learning strategies!dual coding" %]Dual coding[% /i %].
 :   Different subsystems in our brains handle and store linguistic and visual
     information, so if complementary information is presented through both
     channels, they can reinforce one another.  However, learning is less
@@ -399,18 +396,15 @@ to repeat the error if they are corrected.
 
 ## Motivation
 
-One of the strongest predictors of whether or not a <span
-i="neurotypical">neurotypical</span> adult will learn something or not is
-whether they are <span i="intrinsic motivation;
-motivation!intrinsic">intrinsically motivated</span> to learn it, i.e., whether
-they're learning it to satisfy their own goals.  If someone is <span
-i="extrinsic motivation; motivation!extrinsic">extrinsically
-motivated</span>---for example, if they're taking a course because it's a degree
+One of the strongest predictors of whether or not a [% i "neurotypical" %]neurotypical[% /i %] adult will learn something or not is
+whether they are [% i "intrinsic motivation" "motivation!intrinsic" %]intrinsically motivated[% /i %] to learn it, i.e., whether
+they're learning it to satisfy their own goals.  If someone is [% i "extrinsic motivation" "motivation!extrinsic" %]extrinsically
+motivated[% /i %]---for example, if they're taking a course because it's a degree
 requirement but they have no real interest in the topic---the learning probably
 won't stick [% b Wlodkowski2017 %].  While motivation is deeply personal,
 these three factors influence most people:
 
-<span i="self-efficacy; motivation!self-efficacy">Self-efficacy</span>.
+[% i "self-efficacy" "motivation!self-efficacy" %]Self-efficacy[% /i %].
 :   Also called self-determination, this is the degree to which you feel you are
     in control of your own life. People don't enjoy being treated like robots;
     anything the teacher does to put control back in their hands will increase
@@ -420,8 +414,8 @@ these three factors influence most people:
 
 Utility.
 :   Students will learn more if they think the material is useful, but it has to
-    be useful to *them*.  One reason to create <span i="learner persona">learner
-    personas</span> like the ones in <a section="introduction"/> is to remind
+    be useful to *them*.  One reason to create [% i "learner persona" %]learner
+    personas[% /i %] like the ones in <a section="introduction"/> is to remind
     instructors of the second rule of teaching: "You are not your learners."
     (The first is, "Be kind.")
 
@@ -431,13 +425,13 @@ Community.
     for programming as I see in baseball forums and fan discussions of *Avatar:
     The Last Airbender*.)
 
-What about <span i="demotivation">demotivation</span>? Again, it turns out that
+What about [% i "demotivation" %]demotivation[% /i %]? Again, it turns out that
 the same few things turn most people off:
 
 Unpredictability.
 :   If what you do seems to have no effect on the outcome, you soon learn to
-    stop trying.  This is called <span i="learned helplessness">learned
-    helplessness</span>, and anyone who has ever wrestled with an intermittent
+    stop trying.  This is called [% i "learned helplessness" %]learned
+    helplessness[% /i %], and anyone who has ever wrestled with an intermittent
     bug or a poorly-written grading rubric is familiar with it.
 
 Unfairness.

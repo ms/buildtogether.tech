@@ -27,18 +27,18 @@ At a minimum, your finished project should have:
     help newcomers orient themselves.
 
 1.  An architectural overview, including a block diagram of the major components
-    and a walkthrough of how it behaves.  (I prefer the <span i="use-case
-    map">use-case maps</span> introduced in <a section="design"/> for this.)
+    and a walkthrough of how it behaves.  (I prefer the [% i "use-case
+    map" %]use-case maps[% /i %] introduced in <a section="design"/> for this.)
 
 1.  An installation guide.
 
-1.  An up-to-date set of <span i="issue tracker!as course
-    deliverable">issues</span>. If the work has been done, the issue should be
+1.  An up-to-date set of [% i "issue tracker!as course
+    deliverable" %]issues[% /i %]. If the work has been done, the issue should be
     closed; if not, it should describe the state of the bug (or enhancement, or
     question) well enough for someone to know where to start work.
 
-Another possible deliverable is a <span i="package!as course
-deliverable">package</span> that other people can download and install
+Another possible deliverable is a [% i "package!as course
+deliverable" %]package[% /i %] that other people can download and install
 (<a section="design"/>). It isn't an either/or choice: every good package has a home page,
 installation instructions, and so on.
 
@@ -85,16 +85,16 @@ attached to a piece of software, it generally means:
 
 -   build 1407
 
-The <span i="major version number; version numbers!major">major version
-number</span> is only incremented when significant changes are made. In
+The [% i "major version number" "version numbers!major" %]major version
+number[% /i %] is only incremented when significant changes are made. In
 practice, "significant" means "changes that make it impossible for older
 versions to read the new version's data or configuration files". In practice,
 major version numbers are often under the control of the marketing
 department---if a competitor releases a new major version, we'd pretty much have
 to as well.
 
-<span i="version numbers!minor; minor version number">Minor version
-numbers</span> are what most people think of as releases. If you've added a few
+[% i "version numbers!minor" "minor version number" %]Minor version
+numbers[% /i %] are what most people think of as releases. If you've added a few
 new features, changed part of the GUI, etc., you increment the minor version
 number so that your customers can talk intelligently about which version they
 have.
@@ -129,8 +129,7 @@ reporting bugs.
 
 ## The Final Report
 
-The other thing student projects usually have to deliver is some kind of <span
-i="final report">final report</span>. Most students short-change this part of
+The other thing student projects usually have to deliver is some kind of [% i "final report" %]final report[% /i %]. Most students short-change this part of
 the course, in part because it comes at the end, but also because they think, "I
 want to write code, not a novel." However, [% b Fogel2005 %] had this to
 say:
@@ -206,13 +205,12 @@ about writing it? It will probably include:
 Lots of tools exist that will handle these, but they all have shortcomings.  You
 can create your report as a set of wiki pages or Google Docs, but they don't
 flag conflicts between concurrent authors.  On the other end of the spectrum are
-WYSIWYG editors like <span i="Microsoft Word">Microsoft Word</span> and <span
-i="LibreOffice">LibreOffice</span>. Unfortunately, these get in the way at least
+WYSIWYG editors like [% i "Microsoft Word" %]Microsoft Word[% /i %] and [% i "LibreOffice" %]LibreOffice[% /i %]. Unfortunately, these get in the way at least
 as much as they help:
 
-1.  They store documents in non-text formats that <span i="version
-    control!inability to handle office documents">version control systems can't
-    diff or merge</span>.
+1.  They store documents in non-text formats that [% i "version
+    control!inability to handle office documents" %]version control systems can't
+    diff or merge[% /i %].
 
 2.  It's hard to write scripts to process these documents, so inclusions (such
     as code fragments) have to be done manually.
@@ -223,20 +221,18 @@ as much as they help:
     italic") rather than logical styles ("making this a book title"), which
     makes it difficult to keep the document consistent over time.
 
-For these reasons, most teams format their reports as a set of <span
-i="Markdown!for final report">Markdown</span> pages under version control and
-use a <span i="static site generator">static site generator</span>
+For these reasons, most teams format their reports as a set of [% i "Markdown!for final report" %]Markdown[% /i %] pages under version control and
+use a [% i "static site generator" %]static site generator[% /i %]
 (<a section="communicate"/>) to turn them into a report. That solves the problem of
 multiple authors (Markdown is a text format, so diff and merge will work), and
 if you know a little CSS, you can make it look as pretty as you want. Diagrams
-and screenshots work well, and you can embed <span
-i="MathML">[MathML][mathml]</span> for equations if you need to.  The downside
+and screenshots work well, and you can embed [% i "MathML" %][MathML][mathml][% /i %] for equations if you need to.  The downside
 is that you can't actually see what your document is going to look like until
-you compile it, and doing that breaks your <span i="flow">flow</span>.
+you compile it, and doing that breaks your [% i "flow" %]flow[% /i %].
 
 > ### LaTeX
 >
-> <span i="LaTeX">LaTeX</span> is a markup language that's much more sophisticated
+> [% i "LaTeX" %]LaTeX[% /i %] is a markup language that's much more sophisticated
 > than HTML and has literally thousands of add-on packages for equations, code
 > formatting, and just about everything else you could want. Like HTML, LaTeX is a
 > text format, so it plays nicely with version control.  However, its power comes
@@ -256,7 +252,7 @@ The aim of a post mortem is to help the team and its members do better next time
 by giving everyone a chance to reflect on what they've just accomplished. It is
 *not* to shame people, but it can be hard to critique someone's work without
 them taking it personally, so post mortems add a few extra rules to the ones
-introduced for <span i="meetings!extra rules for post mortems">meetings</span>
+introduced for [% i "meetings!extra rules for post mortems" %]meetings[% /i %]
 in <a section="important"/>:
 
 Get a moderator who wasn't part of the project.

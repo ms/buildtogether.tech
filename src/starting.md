@@ -8,8 +8,7 @@ Now that the most important stuff is out of the way, let's take a closer look at
 what you're actually supposed to be doing.  On one side are homework
 assignments, which typically include a handful of problems related to
 recently-taught material that you are meant to solve in a week or two.  On the
-other side are industrial <span i="internship">internships</span> or <span
-i="co-op">co-op</span> terms in which you work full- or part-time for a company,
+other side are industrial [% i "internship" %]internships[% /i %] or [% i "co-op" %]co-op[% /i %] terms in which you work full- or part-time for a company,
 drawing a salary and suffering through quarterly PowerPoint presentations on
 corporate strategy.  Lectures and exams usually aren't a part of these, though
 if you're lucky (or if the company you're working for knows what it's doing)
@@ -18,8 +17,8 @@ notes.
 
 In between are courses with names like "Introduction to Software Engineering",
 "Senior Thesis Project", or "Computer Science Capstone".  For the purposes of
-this guide, these have <span i="project course!characteristics of">three
-characteristics</span>.  First, learning how to work in a team is a goal of the
+this guide, these have [% i "project course!characteristics of" %]three
+characteristics[% /i %].  First, learning how to work in a team is a goal of the
 course.  This distinguishes these courses from (for example) upper-level courses
 in operating systems or computer graphics, in which you're working in a team but
 not being taught explicitly how to do so.
@@ -366,16 +365,15 @@ crashing.
 
 ## Standard Files
 
-Regardless of language or packaging system, every project should have a <span
-i="standard project files; project organization!standard files">handful of
-standard files</span> in its root directory.  These may have UPPERCASE names
+Regardless of language or packaging system, every project should have a [% i "standard project files" "project organization!standard files" %]handful of
+standard files[% /i %] in its root directory.  These may have UPPERCASE names
 without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
 
-<span i="README file">`README`</span>
+[% i "README file" %]`README`[% /i %]
 :   A brief overview of the project that often serves as its home page on
     GitHub.
 
-<span i="CONTRIBUTING file">`CONTRIBUTING`</span>
+[% i "CONTRIBUTING file" %]`CONTRIBUTING`[% /i %]
 :   How to contribute to the project. Should people file an issue when they have
     a question, email a list, or post something on chat, and if so, where?  What
     code formatting conventions does the project use?  Research shows that clear
@@ -383,12 +381,12 @@ without an extension, or may be plain text (`.txt)` or Markdown (`.md`) files.
     (<a section="fairness"/>); in my experience, they also reduce friction between team
     members.
 
-<span i="CONDUCT file">`CONDUCT`</span>
+[% i "CONDUCT file" %]`CONDUCT`[% /i %]
 :   The project's Code of Conduct, i.e., how people are required to treat one
     another.  As we'll discuss below, "be polite" or "use your common sense"
     aren't enough.
 
-<span i="LICENSE file">`LICENSE`</span>
+[% i "LICENSE file" %]`LICENSE`[% /i %]
 :   Describes who can do what with the project materials.  We discuss various
     licenses below as well.
 
@@ -399,8 +397,8 @@ contribute: it has to be clear that the teams *wants* contributions.  Saying
 "the door is open" is not enough, since many people have painful personal
 experience of being less welcome than others.  A project must therefore
 acknowledge that some people are treated unfairly in society and actively take
-steps to remedy this.  Putting a <span i="Code of Conduct">Code of
-Conduct</span> in place isn't just compassionate: it also makes the team more
+steps to remedy this.  Putting a [% i "Code of Conduct" %]Code of
+Conduct[% /i %] in place isn't just compassionate: it also makes the team more
 diverse, which in turn makes it more productive [% b Zhan2020 %]:
 
 -   It reassures people who have experienced harassment or unwelcoming behavior
@@ -419,7 +417,7 @@ diverse, which in turn makes it more productive [% b Zhan2020 %]:
 
 Having a Code of Conduct is an empty gesture if you don't also have a way to
 respond to violation.  [% b Aurora2018 %] describes how, and learning the
-basics is a good first step toward becoming an <span i="ally">ally</span>
+basics is a good first step toward becoming an [% i "ally" %]ally[% /i %]
 (<a section="fairness"/>).
 
 > ### What they really mean

@@ -6,7 +6,7 @@ template: page
 
 > A week of hard work can sometimes save an hour of thought.
 >
-> --- <span i="Wilson, Robert">Robert Wilson</span>
+> --- [% i "Wilson, Robert" %]Robert Wilson[% /i %]
 
 Building large programs with other people is different from building small
 programs on your own in two important ways. The first is communication: in order
@@ -15,8 +15,8 @@ collaborating *on*, which means you need to tell each other how you are breaking
 the problem up into pieces and how those pieces will interact
 (<a section="communicate"/>).
 
-The second difference between programming in the small and <span i="programming
-in the large">programming in the large</span> is that while you can hack your
+The second difference between programming in the small and [% i "programming
+in the large" %]programming in the large[% /i %] is that while you can hack your
 way from an empty `.js` or `.py` file to a hundred-line program in a reasonable
 time, the re-work required by that strategy becomes unaffordable when your final
 product is a thousand lines long.
@@ -39,7 +39,7 @@ do you actually wind up writing?
     of writing \\(C\\) chunks is \\(C + p\sum_{i=0}^{C-1}{i}\\), which is
     \\(C + p(C-1)(C-2)/2\\) or \\(pC^{2}/2 + (1-p)C + 1\\).
 
-This <span i="model!of software development">model</span> is unrealistic in
+This [% i "model!of software development" %]model[% /i %] is unrealistic in
 every way---the odds of rewriting old code is lower than the odds of rewriting
 recent code, for example---but it captures a key point: the cost of rework grows
 faster than the number of pieces of work.  You can't lower \\(C\\) by increasing
@@ -75,8 +75,7 @@ tell a good design from a bad one, so we'll start with that.
 
 ## Describing Designs
 
-[% b Cherubini2007 %] found that developers usually don't draw <span
-i="software design!role of diagrams">diagrams</span> to create a permanent
+[% b Cherubini2007 %] found that developers usually don't draw [% i "software design!role of diagrams" %]diagrams[% /i %] to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
 otherwise be able to keep track of (<a section="thinking"/>). In many cases, the
@@ -87,7 +86,7 @@ from having them to study.
 When experienced developers *do* draw something for later use, they generally
 draw the following:
 
-<span i="diagrams!data structure; data structure diagrams">Data structures</span>.
+[% i "diagrams!data structure" "data structure diagrams" %]Data structures[% /i %].
 :   These are blob-and-arrow pictures of the objects and containers that make up
     the program and the references that stitch them together. The more
     experience someone has, the fewer of these they need to draw, but everyone
@@ -108,7 +107,7 @@ The systems' <span g="conceptual_architecture" i="conceptual architecture!diagra
     enough of the class inheritance hierarchy to show how the servers will load
     user request handlers dynamically.
 
-The system's <span i="physical architecture!diagram; diagrams!physical architecture">physical architecture</span>.
+The system's [% i "physical architecture!diagram" "diagrams!physical architecture" %]physical architecture[% /i %].
 :   This is the files, processes, sockets, database tables, etc., that make it
     up. In most cases, this consists of a bunch of boxes representing the
     machines the application's components run on, trees showing files and
@@ -180,7 +179,7 @@ i="microservice">microservices</span>.
 
 Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
-to write your <span i="elevator pitch">elevator pitch</span>
+to write your [% i "elevator pitch" %]elevator pitch[% /i %]
 (<a section="starting"/>). Next, write one or two point-form
 <span g="user_story" i="user story!use in software design">user stories</span>
 describing how the application, feature, or library would be used. Be as concrete
@@ -248,10 +247,10 @@ basically saying is, "Argue enough, but not too much."
 
 > ### How experts do it
 >
-> One of the biggest differences between <span i="expert">experts</span> and
+> One of the biggest differences between [% i "expert" %]experts[% /i %] and
 > non-experts in any field is how quickly experts can rule out possibilities
 > [% b Schon1984 %]. Whether it is software design, chess, or medical
-> diagnosis, <span i="novice">novices</span> check to see if their plan will work;
+> diagnosis, [% i "novice" %]novices[% /i %] check to see if their plan will work;
 > experts, on the other hand, search for a refutation---a reason why it won't---so
 > that they can narrow their focus as early as possible. One way to do this is to
 > jump back and forth between a high-level plan and its low-level consequences; if
@@ -263,7 +262,7 @@ basically saying is, "Argue enough, but not too much."
 
 How easily we can swap one component for another in order to test a system is
 one way to tell how well designed that system is (<a section="testing"/>). Another
-is how easily we can modify or <span i="software design!evolution">extend</span>
+is how easily we can modify or [% i "software design!evolution" %]extend[% /i %]
 the system to do new things. If our design is perfect, we can implement changes
 by adding code without modifying what's already there.  This is called the <span
 g="open_closed_principle" i="Open-Closed Principle">Open-Closed
@@ -372,19 +371,19 @@ the inputs meet the pre-conditions, then the function guarantees that the output
 meets the post-conditions. Contracts like these are particularly useful when
 overriding methods or when software evolves:
 
-Pre-conditions can only be made <span i="pre-condition!weakening">weaker</span>.
+Pre-conditions can only be made [% i "pre-condition!weakening" %]weaker[% /i %].
 :   This rule is another way of saying that the new version of the code can only
     put *fewer* restrictions on the inputs it accepts, or equivalently, it must
     handle everything the old version could, but may handle more. If code breaks
     this rule, then it might fail in cases where the old code ran.
 
-Post-conditions can only be made <span i="post-condition!strengthening">stronger</span>.
+Post-conditions can only be made [% i "post-condition!strengthening" %]stronger[% /i %].
 :   This rule ensures that the new function can't produce anything that the old
     function might not have produced, and ensures that anything using the
     function's output will be able to handle everything the new version gives
     it.
 
-A programming language called <span i="Eiffel">[Eiffel][eiffel]</span>
+A programming language called [% i "Eiffel" %][Eiffel][eiffel][% /i %]
 demonstrated how powerful design by contract can be. Most other languages don't
 support it directly; we can emulate it by putting assertions at the start and
 end of our functions and methods, but there's no guarantee they'll be checked or
@@ -398,8 +397,8 @@ crippled by arthritis.  Better yet, don't imagine it: have one of your teammates
 tape some popsicle sticks to your fingers so you can't bend them and then see
 how easy it is to use something like Slack.
 
-Making software <span i="accessibility; software
-design!accessibility">accessible</span> doesn't just help people with obvious
+Making software [% i "accessibility" "software
+design!accessibility" %]accessible[% /i %] doesn't just help people with obvious
 disabilities: as [% b Johnson2017 %] points out, the population is aging,
 and everything you do to help people who are deaf also helps people who are
 gradually losing their hearing.
@@ -408,8 +407,7 @@ The best short guide I have found for accessible design is [this set of posters
 from the UK Home Office][uk-home-office-a11y]. Each one lays out a few simple
 do's and don'ts that will help make your software accessible to people who are
 neurodivergent, use screen readers, are dyslexic, have physical or motor
-challenges, or are hard of hearing. You can also use tools like <span
-i="accessibility!WebAIM WAVE; WebAIM WAVE">[WebAIM WAVE][webaim-wave]</span> to
+challenges, or are hard of hearing. You can also use tools like [% i "accessibility!WebAIM WAVE" "WebAIM WAVE" %][WebAIM WAVE][webaim-wave][% /i %] to
 check for common problems, most of which are easy to fix. It only takes a few
 minutes, it's the compassionate thing to do, and almost every change you make
 will also make the software easier to test and maintain.
@@ -457,8 +455,8 @@ The last of these is what we mean by saying that something is <span
 g="scriptable" i="scriptability; software
 design!scriptability">scriptable</span>.  One of the things that made Microsoft
 Office so popular was users' ability to write scripts for Word, Excel, and other
-tools in <span i="Visual Basic">[Visual Basic][visual-basic]</span>.  Today,
-many games include a scripting language like <span i="Lua">[Lua][lua]</span> so
+tools in [% i "Visual Basic" %][Visual Basic][visual-basic][% /i %].  Today,
+many games include a scripting language like [% i "Lua" %][Lua][lua][% /i %] so
 that users can write modifications right then and there.  Scripting is
 particularly helpful when you want to test a user interface, since it allows you
 to write short programs that trigger events like "click this button" or "enter
@@ -481,8 +479,7 @@ next chapter: security.
 
 ## Design for Packaging
 
-Every language and operating system has its own rules for <span i="packaging;
-package!building">building packages</span>; designing software with these rules
+Every language and operating system has its own rules for [% i "packaging" "package!building" %]building packages[% /i %]; designing software with these rules
 in mind makes packaging a lot easier.  In Python, for example, a package
 consists of one or more Python source files in a specific directory structure
 like this:
@@ -533,9 +530,9 @@ operations on actual data.
 
 More experienced programmers are more capable at both ends of the curve, but
 that's not the only thing that changes.  <a figure="comprehension-curves"/>
-compares a <span i="code comprehension; novice!code
-comprehension">novice</span>'s comprehension curve with an <span i="expert!code
-comprehension">expert</span>'s.  Experts don't just understand more at all
+compares a [% i "code comprehension" "novice!code
+comprehension" %]novice[% /i %]'s comprehension curve with an [% i "expert!code
+comprehension" %]expert[% /i %]'s.  Experts don't just understand more at all
 levels of abstraction; their *preferred* level has also shifted so that
 \\(\sqrt{x^2 | y^2}\\) is actually more readable than the medieval expression "the
 side of the square whose area is the sum of the areas of the two squares whose

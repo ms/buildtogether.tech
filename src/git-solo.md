@@ -4,7 +4,7 @@ lede: "A quick guide to your most important tool"
 template: page
 ---
 
-<span i="version control!reasons to use">Version control</span> is the
+[% i "version control!reasons to use" %]Version control[% /i %] is the
 collective memory of the project. It's what lets you move files from one machine
 to another without clobbering stuff you just spent three hours writing and
 without worrying about whether you forgot something important.  It also lets you
@@ -13,11 +13,11 @@ want to get back to where you were, version control lets you do it reliably with
 a single command. And if all that wasn't enough, version control keeps track of
 who did what so that you know who to turn to with questions.
 
-Dozens of <span i="version control!systems">version control</span> systems
-exist. <span i="version control!CVS; CVS (version control)">[CVS][cvs]</span>
+Dozens of [% i "version control!systems" %]version control[% /i %] systems
+exist. [% i "version control!CVS" "CVS (version control)" %][CVS][cvs][% /i %]
 was the workhorse of the open source world for many years; it was replaced by
-<span i="version control!Subversion; Subversion (version
-control)">[Subversion][subversion]</span>, which fixed many of its predecessor's
+[% i "version control!Subversion" "Subversion (version
+control)" %][Subversion][subversion][% /i %], which fixed many of its predecessor's
 flaws while introducing a few minor ones of its own. Both of these were <span
 g="centralized_system" i="version control!centralized">centralized
 systems</span>:
@@ -36,8 +36,8 @@ systems</span>:
 
 Centralized version control systems have largely been replaced by <span
 g="decentralized_system" i="version control!decentralized">decentralized</span>
-ones, and in particular by <span i="version
-control!Git;Git">[Git][git]</span>. In theory, Git doesn't need a main
+ones, and in particular by [% i "version
+control!Git" "Git" %][Git][git][% /i %]. In theory, Git doesn't need a main
 repository: developers can merge the contents of any repository into any other.
 In practice, almost every project designates one repository as the master copy
 so that people know where to look to find the current state of the project.
@@ -47,22 +47,21 @@ Unfortunately, Git has a needlessly complicated interface.
 g="mental_model" i="mental model!Git">mental model</span> of how it works that
 contradicts its actual operation in important ways, and each of those
 contradictions produces a steady stream of "what the hell?"  moments. Other
-distributed version control systems like <span i="version control!Mercurial;
-Mercurial (version control)">[Mercurial][mercurial]</span> are proof that this
+distributed version control systems like [% i "version control!Mercurial" "Mercurial (version control)" %][Mercurial][mercurial][% /i %] are proof that this
 complexity and pain are unnecessary.  The fact that most people don't
 immediately realize that [the random Git manual page
-generator][git-man-page-generator] is a <span i="Git!interface
-(indistinguishable from hoax)">hoax</span> says a lot as well.
+generator][git-man-page-generator] is a [% i "Git!interface
+(indistinguishable from hoax)" %]hoax[% /i %] says a lot as well.
 
-So why do people keep using <span i="Git!reasons for popularity">Git</span>? The
+So why do people keep using [% i "Git!reasons for popularity" %]Git[% /i %]? The
 answer these days is, "Because it's the tax they have to pay in order to use
 [GitHub][github]." At the time of writing, GitHub has over 40 million users and
 hosts over 28 million public repositories, including those for many well-known
 open source projects. It is easily the most popular
 <span g="software_portal" i="software portal!GitHub">software portal</span> in existence, and
 offers all of the tools a small software team needs. Other portals exist, such
-as <span i="Bitbucket; software portal!Bitbucket">[Bitbucket][bitbucket]</span>
-and <span i="GitLab; software portal!GitLab">[GitLab][gitlab]</span>, but
+as [% i "Bitbucket" "software portal!Bitbucket" %][Bitbucket][bitbucket][% /i %]
+and [% i "GitLab" "software portal!GitLab" %][GitLab][gitlab][% /i %], but
 GitHub's share of the educational market is even larger than its share
 among professional developers.  If you're using anything in class, you're almost
 certainly using it, and it's probably helping you become a better programmer
@@ -82,21 +81,21 @@ excellent job of that, as does [the Carpentries lesson on Git][carpentries-git].
 Instead, we will review the basics that we hope you have learned previously,
 then look at how to use Git and GitHub to collaborate in <a section="git-team"/>.
 We will show the commands as if you were running them in the Unix shell, but we
-recommend that you use a <span i="Git!graphical interface">graphical
-interface</span> like [GitKraken][gitkraken], [SourceTree][sourcetree], or the
-one that comes with your <span i="IDE">IDE</span> (<a section="tooling"/>). These
+recommend that you use a [% i "Git!graphical interface" %]graphical
+interface[% /i %] like [GitKraken][gitkraken], [SourceTree][sourcetree], or the
+one that comes with your [% i "IDE" %]IDE[% /i %] (<a section="tooling"/>). These
 are layered on top of the commands we are going to discuss, so they (should) all
 work the same way.
 
 ## A Review of the Basics
 
-When I am working on a solo project or in a small team, <span i="Git!basic
-commands">seven commands</span> account for roughly 85% of my Git
+When I am working on a solo project or in a small team, [% i "Git!basic
+commands" %]seven commands[% /i %] account for roughly 85% of my Git
 activity. Adding two more commands to set things up produces a toolkit that uses
 Git as a file backup system.
 
-The first step is to make sure that <span i="Git!configuring">Git knows who
-we</span> are by telling it our name and email address:
+The first step is to make sure that [% i "Git!configuring" %]Git knows who
+we[% /i %] are by telling it our name and email address:
 
 ```sh
 $ git config --global user.name "Peggy Springsteen"
@@ -123,8 +122,8 @@ Breaking this down:
     have. We wrap these in quotes because they contain spaces and the `@`
     symbol, which might otherwise confuse the shell.
 
-Now that Git knows who we are, let's <span i="Git!creating project">set up a
-project</span>.  If we are starting from scratch, we create a directory, go into
+Now that Git knows who we are, let's [% i "Git!creating project" %]set up a
+project[% /i %].  If we are starting from scratch, we create a directory, go into
 it, and run `git init`. This may or may not print out some messages depending on
 what version of Git you have and how much of its output your GUI shows (if
 you're using one). Either way, this command creates a sub-directory called
@@ -155,7 +154,7 @@ sub-directory inside it, and download the project's history so that you can
 start work.
 
 Regardless of how you create your repository, you can use `git log` to look at
-its <span i="Git!history">history</span>. If I run this command right now for
+its [% i "Git!history" %]history[% /i %]. If I run this command right now for
 this book, I get:
 
 ```sh
@@ -186,7 +185,7 @@ Date:   Wed Feb 17 20:48:04 2021 -0500
 Each entry has:
 
 -   A line labeled `commit` followed by a large hexadecimal number.  This number
-    is a unique <span i="Git!commit ID">label</span> for the state of the
+    is a unique [% i "Git!commit ID" %]label[% /i %] for the state of the
     project's files at that point in time.  if we want to refer to a particular
     version of our project, we can use this or its first half-dozen digits (such
     as `6e30bd`) so long as the latter is unambiguous.
@@ -224,7 +223,7 @@ by the comment we want to save in the log.
 > If you use Git on the command line and you *don't* provide a message using the
 > `-m` option, it will launch an editor so that you can write a longer message.
 > This is a good thing, except that the default editor on most Unix systems is
-> something called <span i="Vim editor!exiting">Vim</span>, whose interface is no
+> something called [% i "Vim editor!exiting" %]Vim[% /i %], whose interface is no
 > more intuitive than Git's. (In fact, one of the most frequently-viewed questions
 > on [Stack Overflow][stack-overflow] is "[How do I exit the Vim
 > editor?][so-exit-vim]". Unsurprisingly, another <span
@@ -241,8 +240,8 @@ $ git add version-control.md _data/glossary.yml
 ```
 
 <!-- continue -->
-<span i="Git!difference between add and commit">One way to think about
-this</span> is that `git add` puts things in a box to be shipped, while `git
+[% i "Git!difference between add and commit" %]One way to think about
+this[% /i %] is that `git add` puts things in a box to be shipped, while `git
 commit` actually sends the package. Git requires us to do this in two steps
 because we might change our mind about what we want to store: for example, we
 might `git add` a file, then realize we need to make a few more edits, `git add`
@@ -253,8 +252,8 @@ committing.
 
 > ### Teach us to care and not to care
 >
-> You can tell Git to <span i="Git!ignoring files">ignore certain kinds of
-> files</span> by putting their names, or patterns that match multiple names, in a
+> You can tell Git to [% i "Git!ignoring files" %]ignore certain kinds of
+> files[% /i %] by putting their names, or patterns that match multiple names, in a
 > file called `.gitignore`.  For example, the `.gitignore` file for this project
 > includes:
 >
@@ -275,7 +274,7 @@ committing.
 > someone who shouldn't have access (<a section="security"/>).
 
 We can keep track of which changes haven't yet been added and which ones have
-using <span i="Git!showing status">`git status`</span>. If I run this command
+using [% i "Git!showing status" %]`git status`[% /i %]. If I run this command
 right now in this book's project I get:
 
 ```sh
@@ -305,7 +304,7 @@ last asked Git to save a snapshot. Both paragraphs tell me that I can use `git
 restore` with or without the `--staged` option to put a file back the way it was
 if I decide I don't want to save the changes I've made.
 
-I can use <span i="Git!recovering old files">`git restore`</span> to recover an
+I can use [% i "Git!recovering old files" %]`git restore`[% /i %] to recover an
 old version of a file from any previous commit. Being able to do this was the
 original motivation for version control systems, and is still one of the main
 reasons people use them. For example, if I want to get the version of this file
@@ -318,7 +317,7 @@ $ git restore --source 2be70844 version-control.md
 
 <!-- continue -->
 I can also count backward from where I am now.  The most recent commit has the
-special <span i="Git!HEAD">symbolic name `HEAD`</span>; the expression `HEAD~1`
+special [% i "Git!HEAD" %]symbolic name `HEAD`[% /i %]; the expression `HEAD~1`
 means "the one before it", while `HEAD~2` goes back two commits and so
 on. Regardless of how I specify what I want, restoring an old version doesn't
 erase any of the ones I have saved since then: the project's history stays
@@ -348,8 +347,7 @@ once needed this feature.)
 
 One of the differences between a version control system like Git and a file
 backup tool like [Dropbox][dropbox] is that Git *doesn't* automatically
-synchronize local changes to the remote repository.  If I want to <span
-i="Git!saving changes remotely">save</span> everything I've done locally on
+synchronize local changes to the remote repository.  If I want to [% i "Git!saving changes remotely" %]save[% /i %] everything I've done locally on
 GitHub, I have to push them explicitly:
 
 ```sh
@@ -411,8 +409,8 @@ $ git branch -m main
 ```
 
 <!-- continue -->
-immediately after running `git init`.  The <span i="Git!branch names">`main`
-branch</span> is usually considered the "official" version of the repository,
+immediately after running `git init`.  The [% i "Git!branch names" %]`main`
+branch[% /i %] is usually considered the "official" version of the repository,
 i.e., the version of the project that should be graded or published for other
 people to use.  The asterisk `*` indicates that it is currently active, i.e.,
 that all changes we make will take place in this branch by default.
@@ -470,8 +468,7 @@ Git!merge">merge</span> the state of one branch back into another. Merging
 doesn't change the source branch, but once it's done, all of the changes made
 there are in the destination branch.
 
-To see what the differences are between two branches, we use <span
-i="Git!viewing differences">`git diff`</span> with those branches' names:
+To see what the differences are between two branches, we use [% i "Git!viewing differences" %]`git diff`[% /i %] with those branches' names:
 
 ```sh
 $ git diff homework3..main
@@ -515,7 +512,7 @@ with `@@` show where in the file the change occurred.
 > ### See the difference
 >
 > You have to be a bit of a masochist to read diffs like this; it's a lot easier
-> using a <span i="Git!graphical interface">GUI</span> like
+> using a [% i "Git!graphical interface" %]GUI[% /i %] like
 > [DiffMerge][diffmerge].  You can [use other tools to view diffs][git-difftool]
 > between files that aren't plain text, but only if such tools exist. They don't
 > for many common file formats: for example, there isn't an easy way to see the
@@ -624,8 +621,8 @@ branches as needed to work on the code), and then merge *from* `homework4` *to*
 > confusing ways, particularly if you have merged changes from another branch into
 > the one you're squashing, so we recommend that you avoid it for schoolwork.
 
-Branches can be confused, but this <span i="Git!workflow; workflow (in
-Git)">workflow</span> will help you keep track of what you are doing:
+Branches can be confused, but this [% i "Git!workflow" "workflow (in
+Git)" %]workflow[% /i %] will help you keep track of what you are doing:
 
 1.  `git checkout main` to make sure you are in the `main` branch.
 

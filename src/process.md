@@ -24,7 +24,7 @@ routine to the chaos of student life.
 
 ## Process as Feedback Loops
 
-I think about process in terms of <span i="feedback loops">feedback loops</span>
+I think about process in terms of [% i "feedback loops" %]feedback loops[% /i %]
 on different timescales (<a figure="feedback-loops"/>).  Any particular team
 emphasizes some of these and pays less attention to others.
 
@@ -71,7 +71,7 @@ Unit testing.
     productive than doing a lot of coding followed by a lot of testing or vice
     versa [% b Fucci2017 %].
 
-<span i="continuous integration">Continuous integration</span>.
+[% i "continuous integration" %]Continuous integration[% /i %].
 :   As discussed in <a section="tooling"/>), building the software and running
     tests every time someone creates a pull request or commits to the main
     branch gives the whole team feedback about what state the software is in.
@@ -79,7 +79,7 @@ Unit testing.
     each change might work in isolation, but combining them might break things
     if someone hasn't been careful about doing merges.
 
-<span i="code review">Code review</span>.
+[% i "code review" %]Code review[% /i %].
 :   <a section="git-team"/> explained when, why, and how to do this.
 
 The other practices---stand-up meetings, sprints, analysis & estimation---are
@@ -179,8 +179,8 @@ This process was first described in [% b Royce1970 %] as something that
 couldn't possibly work.  In real life, we always learn things in later stages
 that we couldn't reasonably have anticipated in earlier ones, which means we
 constantly have to go back and revise earlier decisions.  If we *do* try to
-figure out every detail in advance, we quickly succumb to <span i="analysis
-paralysis">analysis paralysis</span>.
+figure out every detail in advance, we quickly succumb to [% i "analysis
+paralysis" %]analysis paralysis[% /i %].
 
 Every real software development processes attempts to resolve the tension
 between doing things once and spending so much time on planning that we never
@@ -284,8 +284,8 @@ at every meeting.  Without this rule, it's all too easy for someone to say,
 "Still working on X," several days in a row, which means that feedback, and the
 possibility of early course correction, are lost.
 
-Scrum and other agile processes <span i="agile development!conditions for
-success">work best</span> when:
+Scrum and other agile processes [% i "agile development!conditions for
+success" %]work best[% /i %] when:
 
 1.  Requirements are constantly changing, i.e., long-range planning simply isn't
     possible. This is often true of student projects, since the people on the
@@ -428,8 +428,8 @@ actually happened to what you predicted. No feedback: no improvement.
 ## Cutting Corners
 
 A schedule's primary purpose is not to tell you what you're supposed to be doing
-on any given day, but to tell you when you should start <span i="cutting
-corners">cutting corners</span>.  Suppose that you have ten weeks in order to
+on any given day, but to tell you when you should start [% i "cutting
+corners" %]cutting corners[% /i %].  Suppose that you have ten weeks in order to
 accomplish some task.  Five weeks after you start, you've only done the first
 four weeks' worth of work.  You have several options:
 
@@ -493,10 +493,10 @@ When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
 responsibilities is to <span g="triage" i="triage">triage</span> the issues in a
-project's <span i="issue tracker!helping triage; triage!using issue
-tracker">issue tracker</span> (<a section="communicate"/>) periodically and adjust
-the schedule accordingly. The <span i="effort-importance grid!helping
-triage">effort-importance grid</span> that you drew at the start will help with
+project's [% i "issue tracker!helping triage" "triage!using issue
+tracker" %]issue tracker[% /i %] (<a section="communicate"/>) periodically and adjust
+the schedule accordingly. The [% i "effort-importance grid!helping
+triage" %]effort-importance grid[% /i %] that you drew at the start will help with
 this: by the time you are a few weeks into your project, you should be able to
 update the effort estimates, add newly-discovered issues, and draw up a more
 realistic plan.
@@ -509,8 +509,8 @@ Figuring this out is one of a project manager's most important responsibilities
 [% b Perri2018 %]; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
 keep it because you have it.  As <a figure="feature-usage"/> shows using data from
-<span i="Brown, Neil">[Neil Brown][brown-neil]</span> and the <span i="Blackbox
-project">[Blackbox][blackbox] project</span>, the frequency with which features
+[% i "Brown, Neil" %][Neil Brown][brown-neil][% /i %] and the [% i "Blackbox
+project" %][Blackbox][blackbox] project[% /i %], the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
 those in the [% g long_tail %]long tail[% /g %].
 

@@ -12,7 +12,7 @@
     <div align="center" style="padding-top: 2rem;">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>: Automation</h1>
+      <h1>Chapter 16: Automation</h1>
       
       <p>
         <img src="../files/codebender.svg" alt="logo" width="10%" />
@@ -23,8 +23,7 @@
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
 implementing a change and that change being tested, integrated, tested again,
-and deployed.  Those practices have one thing in common: <span
-i="automation">automating</span> as many steps as possible to make them fast and
+and deployed.  Those practices have one thing in common: <span class="indexref" key="automation" markdown="1">automating</span> as many steps as possible to make them fast and
 reliable.  You may not be required to do this for your project, but if you have
 time, you should try to do a little---it will save time when you are up against
 the end-of-term deadline, and more importantly, prevent mistakes when you are
@@ -33,7 +32,7 @@ stretched thin.</p>
 <p>The foundation for almost all automation in software development is a <span
 g="build_manager" i="build manager">build manager</span>---a tool that will
 transform what you've typed into what you want to deliver. The origin build
-manager is <span i="Make; build manager!Make"><a href="https://www.gnu.org/software/make/">Make</a></span>, which was
+manager is <span class="indexref" key="Make;build manager!Make" markdown="1"><a href="https://www.gnu.org/software/make/">Make</a></span>, which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
 some modules depended on others. To use it, you create a Makefile that specifies
 the dependencies between the files in your project and the commands needed to
@@ -52,7 +51,7 @@ the <code>tx</code> compiler with several options.  Below that is a
 how to create any <code>.bc</code> file from a <code>.grace</code> file with the same root name;
 the cryptic expression <code>$&lt;</code> is Make's way of saying "the first thing the target depends on".</p>
 <p>Make has been used by hundreds of thousands of programmers for more than thirty
-years, but has some <span i="Make!shortcomings">fundamental flaws</span>. The
+years, but has some <span class="indexref" key="Make!shortcomings" markdown="1">fundamental flaws</span>. The
 first is its syntax, which looks like something produced by a cat dancing on the
 keyboard. The second is that it runs commands by handing them over to whatever
 operating system it is running on, which make portability a constant headache.
@@ -66,8 +65,7 @@ build systems aren't just configured: they're programmed. For example, this
 book's Makefile checks the consistency of cross-references and glossary
 entries, makes sure all the bibliography citations are in place, and copies
 files to my web site, and is more complex than many programs I've written.
-Thinking of it as a "configuration" file is a mistake: you <em>have</em> to <span
-i="automation!as programming">approach builds as a programming problem</span>.</p>
+Thinking of it as a "configuration" file is a mistake: you <em>have</em> to <span class="indexref" key="automation!as programming" markdown="1">approach builds as a programming problem</span>.</p>
 <p>The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The <code>package.json</code> file used by
 <a href="https://nodejs.org/en/">Node.js</a> serves as both a <span g="package_manifest" i="package
@@ -99,8 +97,8 @@ things like <code>npm run test</code>:</p>
 (since <a class="glossref" href="../glossary/#json" markdown="1">JSON</a> itself doesn't have this) and there is no way
 to express dependencies between tasks, i.e., there's no way to say, "A depends
 on B which depends on C".</p>
-<p><span i="build manager!Snakemake; Snakemake"><a href="https://snakemake.readthedocs.io/en/stable/">Snakemake</a></span> and
-<span i="build manager!Rake; Rake"><a href="https://ruby.github.io/rake/">Rake</a></span> take the idea of "build
+<p><span class="indexref" key="build manager!Snakemake;Snakemake" markdown="1"><a href="https://snakemake.readthedocs.io/en/stable/">Snakemake</a></span> and
+<span class="indexref" key="build manager!Rake;Rake" markdown="1"><a href="https://ruby.github.io/rake/">Rake</a></span> take the idea of "build
 file as data structure" one step further. Their users describe dependencies as
 small Python or Ruby programs respectively, making use of an extensive support
 library that handles dependencies, invokes appropriate compilers, and so on.
@@ -108,17 +106,17 @@ Debugging is still problematic, but at least it's possible. Unfortunately, like
 front-end JavaScript frameworks and static site generators, a simple build tool
 is so simple to create that hundreds have proliferated. As a result, none has
 achieved <a class="glossref" href="../glossary/#critical_mass" markdown="1">critical mass</a>.</p>
-<p>Whatever you choose or are told to use, please <span i="build manager!rules for
-using">follow these rules</span>:</p>
+<p>Whatever you choose or are told to use, please <span class="indexref" key="build manager!rules for
+using" markdown="1">follow these rules</span>:</p>
 <dl>
 <dt>Pick something that plays nicely with your other tools.</dt>
 <dd>For example, most Java editors and IDEs integrate with a build tool called
-<span i="build manager!Ant; Ant; Java!build manager"><a href="https://ant.apache.org/">Ant</a></span>,
+<span class="indexref" key="build manager!Ant;Ant;Java!build manager" markdown="1"><a href="https://ant.apache.org/">Ant</a></span>,
 which means they can jump directly to compilation errors when they occur.</dd>
 <dt>Be very cautious about adding dependencies.</dt>
 <dd>"Reduce, re-use, recycle" is as important for software as it is for daily
 life, but every library you depend on is one more way for your project to
-accumulate <span i="technical debt">technical debt</span>.  Recent
+accumulate <span class="indexref" key="technical debt" markdown="1">technical debt</span>.  Recent
 research shows that we are all biased toward solving problems by adding
 things instead of taking them away [<a href="../bibliography/#Meyvis2021">Meyvis2021</a>]; checking the
 packages your project depends on before every release and cutting any you
@@ -141,8 +139,8 @@ still work? If it does, you're on your way.</p>
 <blockquote>
 <h3>Never break the build</h3>
 <p>Once you have a build system in place, never commit anything to version control
-that breaks the <span i="version control!and build manager; build manager!and
-version control">build</span>. This is one of the golden rules of working in a
+that breaks the <span class="indexref" key="version control!and build manager;build manager!and
+version control" markdown="1">build</span>. This is one of the golden rules of working in a
 team: if your code won't compile, or doesn't pass whatever automated tests you
 have, then putting it into the repository means putting every other person on
 your team into exactly the same broken state you're in. When you're working on
@@ -157,12 +155,11 @@ checker</span> to make sure your code follows the team's formatting rules.
 (Style checkers are often called <span g="linter" i="linter">linters</span>
 because an early one called <code>lint</code> looked for problems in C programs.)  Some of
 these rules are as simple as "no method can be longer than 100 lines" or "class
-names must be written in CamelCase".  Modern tools like <span i="style
-checker!ESLint; ESLint"><a href="https://eslint.org/">ESLint</a></span> for <span i="JavaScript!style
-checker">JavaScript</span>, <span i="Checkstyle; style
-checker!Checkstyle"><a href="https://checkstyle.org/">Checkstyle</a></span> for <span i="Java!style
-checker">Java</span>, or <span i="style checker!Black;
-Black"><a href="https://pypi.org/project/black/">Black</a></span> for <span i="Python!style checker">Python</span>
+names must be written in CamelCase".  Modern tools like <span class="indexref" key="style
+checker!ESLint;ESLint" markdown="1"><a href="https://eslint.org/">ESLint</a></span> for <span class="indexref" key="JavaScript!style
+checker" markdown="1">JavaScript</span>, <span class="indexref" key="Checkstyle;style
+checker!Checkstyle" markdown="1"><a href="https://checkstyle.org/">Checkstyle</a></span> for <span class="indexref" key="Java!style
+checker" markdown="1">Java</span>, or <span class="indexref" key="style checker!Black;Black" markdown="1"><a href="https://pypi.org/project/black/">Black</a></span> for <span class="indexref" key="Python!style checker" markdown="1">Python</span>
 can do a lot more: they can find code that is never called, parameters that are
 never used, duplicated code that could be refactored, and a lot more.  Code
 reviews are much more straightforward when the code you're looking at is
@@ -177,9 +174,8 @@ lot of subtle bugs.  As we'll see in <a section="research"/>, requiring type
 definitions in code helps programmers understand software as well.</p>
 <h2>Continuous Integration</h2>
 <p>Build tools will do a lot more for you if you adopt some kind of <span g="ci"
-i="continuous integration">continuous integration</span> system such as <span
-i="Travis CI; continuous integration!Travis CI"><a href="https://travis-ci.org/">Travis CI</a></span> or
-<span i="GitHub Actions; continuous integration!GitHub Actions"><a href="https://github.com/features/actions">GitHub
+i="continuous integration">continuous integration</span> system such as <span class="indexref" key="Travis CI;continuous integration!Travis CI" markdown="1"><a href="https://travis-ci.org/">Travis CI</a></span> or
+<span class="indexref" key="GitHub Actions;continuous integration!GitHub Actions" markdown="1"><a href="https://github.com/features/actions">GitHub
 Actions</a></span>.  These can be set up to run either at regular
 intervals (e.g., every hour or at three a.m.), or every time someone checks into
 version control (which I find more useful). Each time they run, they check a

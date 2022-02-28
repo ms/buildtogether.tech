@@ -4,7 +4,7 @@ lede: "An essential skill for working with others"
 template: page
 ---
 
-<span i="persuasion">Persuading</span> people to do things is almost as
+[% i "persuasion" %]Persuading[% /i %] people to do things is almost as
 essential to teamwork as running a good meeting. These simple rules have
 served me well.
 

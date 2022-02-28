@@ -35,12 +35,12 @@ traveling for work. Does that mean I owe my former employer a share of the
 royalties?
 
 Who owns what is just one of the rights that societies recognize.  Others
-guaranteed by the <span i="Universal Declaration of Human Rights; human
-rights">[Universal Declaration of Human Rights][udhr]</span> include the right
-to say what you want, the right to live free from fear, and the right to be
-treated the same way as everyone else regardless of your race, sex, orientation,
-religion, or disability.  Most countries have signed this declaration, meaning
-that in theory at least, it has the force of law.
+guaranteed by the
+[% i "Universal Declaration of Human Rights" "human rights" %][Universal Declaration of Human Rights][udhr][% /i %]
+include the right to say what you want, the right to live free from fear, and
+the right to be treated the same way as everyone else regardless of your race,
+sex, orientation, religion, or disability.  Most countries have signed this
+declaration, meaning that in theory at least, it has the force of law.
 
 However, the phrase "in theory" is doing a lot of work in the previous
 paragraph.  In practice, most societies still treat people unequally and
@@ -128,20 +128,20 @@ users may wind up operating under different licensing structures.
 
 > ### Leave it to the professionals
 >
-> <span i="license!why not to write your own">Don't write your own license.</span>
+> [% i "license!why not to write your own" %]Don't write your own license.[% /i %]
 > Legalese is a highly technical language, and words don't mean what you think
 > they do.  What's more, it's often hard to understand the interactions between
 > multiple licenses on different kinds of material [% b Almeida2017 %].
 
 Just as the project's Code of Conduct is usually placed in a root-level file
-called <span i="CONDUCT file">`CONDUCT.md`</span>, its license is usually put in
-a file called <span i="LICENSE file">`LICENSE.md`</span> that is also in the
+called [% i "CONDUCT file" %]`CONDUCT.md`[% /i %], its license is usually put in
+a file called [% i "LICENSE file" %]`LICENSE.md`[% /i %] that is also in the
 project's root directory.  To make license selection for code as easy as
 possible, GitHub allows us to select one of several common software licenses
 when creating a repository.  Unfortunately, their list does not include common
 licenses for data or written works like papers and reports.
 
-The <span i="Open Source Initiative">[Open Source Initiative][osi]</span>
+The [% i "Open Source Initiative" %][Open Source Initiative][osi][% /i %]
 maintains [a list][osi-license-list] of <span g="open_license" i="software
 license!open">open licenses</span>, and [choosealicense.com][choose-license]
 will help us find a license that suits our needs.  In order to choose the right
@@ -169,18 +169,18 @@ to distribute the source code for their own work as well.
 The GPL was created to prevent companies from taking advantage of open software
 without contributing anything back.  The last thirty years have shown that this
 restriction isn't necessary: many projects have survived and thrived without
-this safeguard.  We therefore <span i="software license!why to use the MIT
-License">recommend</span> that projects choose the MIT license, as it places the
+this safeguard.  We therefore [% i "software license!why to use the MIT
+License" %]recommend[% /i %] that projects choose the MIT license, as it places the
 fewest restrictions on future action.
 
 The <span g="hippocratic_license" i="Hippocratic License; software
 license!Hippocratic License">Hippocratic License</span> is a newer license;
 where the GPL requires people to share their work, the Hippocratic License
 requires them to do no harm.  More precisely, it forbids people from using the
-software in ways that violate the <span i="Universal Declaration of Human
-Rights">Universal Declaration of Human Rights</span>.  We have learned the hard
-way that software and science can be mis-used; adopting the Hippocratic License
-is a small step toward preventing this.
+software in ways that violate the
+[% i "Universal Declaration of Human Rights" %]Universal Declaration of Human Rights[% /i %].
+We have learned the hard way that software and science can be mis-used; adopting
+the Hippocratic License is a small step toward preventing this.
 
 > ### What they really mean (part two)
 >
@@ -199,8 +199,8 @@ is a small step toward preventing this.
 
 The MIT license, the GPL, and the Hippocratic License are intended for use with
 software.  When it comes to data and reports, the most widely used family of
-licenses are those produced by <span i="Creative Commons">[Creative
-Commons][creative-commons]</span>.  These have been written and checked by
+licenses are those produced by [% i "Creative Commons" %][Creative
+Commons][creative-commons][% /i %].  These have been written and checked by
 lawyers and are well understood by the community.
 
 The most liberal option is referred to as <span g="cc0" i="Creative Commons!CC0
@@ -220,7 +220,7 @@ to get credit for your work.
 Other Creative Commons licenses incorporate various restrictions, and are
 usually referred two using the two-letter abbreviations listed below:
 
--   <span i="Creative Commons!no commercial use">NC (no commercial use)</span>
+-   [% i "Creative Commons!no commercial use" %]NC (no commercial use)[% /i %]
     does *not* mean that people cannot charge money for something that includes
     our work, though some publishers still try to imply that in order to scare
     people away from open licensing.  Instead, the NC clause means that people
@@ -228,11 +228,11 @@ usually referred two using the two-letter abbreviations listed below:
     permission, which we can give under whatever terms we want.  (We use the
     CC-BY-NC license for this work.)
 
--   <span i="Creative Commons!no derivative works">ND (no derivative works)</span>
+-   [% i "Creative Commons!no derivative works" %]ND (no derivative works)[% /i %]
     prevents people from creating modified versions of our work.
     Unfortunately, this also inhibits translation and reformatting.
 
--   <span i="Creative Commons!share-alike">SA (share-alike)</span> requires people
+-   [% i "Creative Commons!share-alike" %]SA (share-alike)[% /i %] requires people
     to share work that incorporates ours on the same terms that we used.  Again,
     it is fine in principle but in practice makes aggregation and recombination
     difficult.

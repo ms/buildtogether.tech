@@ -3,10 +3,8 @@ title: "Research Methods"
 template: page
 ---
 
-Back in 2016 [I tweeted][excel-tweet], "If anyone has data showing <span
-i="Excel">Excel</span> is *more* error-prone than <span
-i="MATLAB">MATLAB</span>/<span i="Python">Python</span>/<span i="R (programming
-language)">R</span> once you normalize for hours spent learning it, please
+Back in 2016 [I tweeted][excel-tweet], "If anyone has data showing [% i "Excel" %]Excel[% /i %] is *more* error-prone than [% i "MATLAB" %]MATLAB[% /i %]/[% i "Python" %]Python[% /i %]/[% i "R (programming
+language)" %]R[% /i %] once you normalize for hours spent learning it, please
 post."  It was clear from the responses and from other discussion online that
 most programmers believe this, but I'm not really sure what "this" is:
 
@@ -17,8 +15,8 @@ There are more errors in published results created with Excel than in results cr
 Results calculated with Excel are more likely to be wrong than results calculated with scripting languages.
 :   This is what I had in mind when I tweeted, and I don't think the answer is
     obvious.  Yes, there are lots of examples of people botching spreadsheets,
-    but there's also a lot of buggy code out there.  (<span i="Flon's
-    Axiom">Flon's Axiom</span> states, "There is not now, nor has there ever
+    but there's also a lot of buggy code out there.  ([% i "Flon's
+    Axiom" %]Flon's Axiom[% /i %] states, "There is not now, nor has there ever
     been, nor will there ever be, any programming language in which it is the
     least bit difficult to write bad code.")
 
@@ -51,8 +49,8 @@ disposal and what they're good for.
 
 ## Controlled Experiments
 
-The first method that empirical research uses is <span i="controlled
-experiments">controlled experiments</span>: subjects are given a task and some
+The first method that empirical research uses is [% i "controlled
+experiments" %]controlled experiments[% /i %]: subjects are given a task and some
 aspect of their performance is measured.  Subjects are typically divided into a
 <span g="control_group" i="control group">control group</span> (who do things as
 normal) and a <span g="treatment_group" i="treatment group">treatment
@@ -62,7 +60,7 @@ treatment probably has an effect on outcomes.
 
 There are several traps in this for the unwary [% b DeOliveiraNeto2019 %]:
 
-<span i="experimenter bias">Experimenter bias</span>.
+[% i "experimenter bias" %]Experimenter bias[% /i %].
 :   People have many biases, both conscious and unconscious.  In order to make
     sure that these don't inadvertently affect the results, subjects should be
     assigned to groups at random. Going even further, experiments in medicine
@@ -72,7 +70,7 @@ There are several traps in this for the unwary [% b DeOliveiraNeto2019 %]:
     getting a <span g="placebo" i="placebo">placebo</span>. It's usually not
     possible to achieve this when doing software engineering experiments.
 
-<span i="significance hacking">Significance hacking</span>.
+[% i "significance hacking" %]Significance hacking[% /i %].
 :   If you measure enough things and look for enough correlations, you will
     almost certainly find *something* that passes a test for statistical
     significance. For example, there is a strong correlation between the number
@@ -84,7 +82,7 @@ There are several traps in this for the unwary [% b DeOliveiraNeto2019 %]:
     techniques that require a higher standard of proof when they are checking
     more possible combinations.
 
-<span i="negative results (failure to publish)">Failure to publish negative results</span>.
+[% i "negative results (failure to publish)" %]Failure to publish negative results[% /i %].
 :   An experiment isn't a failure if it doesn't find something that is
     statistically significant: ruling something out is just as useful as finding
     something new. However, negative results are not as exciting (and not as
@@ -202,19 +200,19 @@ development. Their description of their method is worth repeating in full:
 > <br/>
 > That's not my department!" says Wernher von Braun
 >
-> --- <span i="Lehrer, Tom">Tom Lehrer</span>
+> --- [% i "Lehrer, Tom" %]Tom Lehrer[% /i %]
 
 [% b Tedre2008 %] describes three traditions that have shaped how we think
-about computing: the <span i="mathematical tradition in
-computing">mathematical</span>, which focuses on algorithms and proofs; the
-<span i="scientific tradition in computing">scientific</span>, which studies
-programs and programmers empirically; and the <span i="engineering tradition in
-computing">engineering tradition</span>, which centers the fact that computing
+about computing: the [% i "mathematical tradition in
+computing" %]mathematical[% /i %], which focuses on algorithms and proofs; the
+[% i "scientific tradition in computing" %]scientific[% /i %], which studies
+programs and programmers empirically; and the [% i "engineering tradition in
+computing" %]engineering tradition[% /i %], which centers the fact that computing
 matters because we can actually build useful things.
 
 That paper changed how I think about our field, but in the past few years I have
-realized that <span i="humanist tradition in computing">another point of
-view</span> is just as important, though not as well respected.  It draws on
+realized that [% i "humanist tradition in computing" %]another point of
+view[% /i %] is just as important, though not as well respected.  It draws on
 humanities and social sciences to explore questions like, "Who does this help?",
 "Who does this hurt?", and, "Who decides?"  Just as the most interesting
 software engineering research these days is look at how the way we think

@@ -6,8 +6,8 @@ template: page
 
 Thousands of books have been written about how to start projects, but only a
 handful about how to end them.  The advice below is based on my experience of
-doing that; see [this post][petrov-handing-over] from <span i="Petrov,
-Andrey">Andrey Petrov</span> for some more ideas or [this
+doing that; see [this post][petrov-handing-over] from [% i "Petrov,
+Andrey" %]Andrey Petrov[% /i %] for some more ideas or [this
 talk][carpentrycon-talk] for some personal reflections.
 
 Be sure you mean it.

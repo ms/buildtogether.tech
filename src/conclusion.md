@@ -17,10 +17,8 @@ meetings, share ideas, base your opinions on the best available research, and
 protect people's rights in exactly the same way that you can learn how to use a
 debugger; I hope you will choose to do so.
 
-I also hope that your journey won't stop here.  <span i="surveillance">Pervasive
-surveillance</span>, online <span i="harassment">harassment</span>, <span
-i="radicalization">radicalization</span>, and the <span
-i="inequality">concentration of wealth and power</span> in a few unaccountable
+I also hope that your journey won't stop here.  [% i "surveillance" %]Pervasive
+surveillance[% /i %], online [% i "harassment" %]harassment[% /i %], [% i "radicalization" %]radicalization[% /i %], and the [% i "inequality" %]concentration of wealth and power[% /i %] in a few unaccountable
 hands (or algorithms): our industry has fueled them all, and being a programmer
 won't make you immune to the fallout.  None of us can fix this alone; if you
 have learned a little from this book about how to work well with others, I hope

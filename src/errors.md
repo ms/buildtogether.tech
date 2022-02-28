@@ -6,7 +6,7 @@ template: page
 
 > When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
 >
-> --- <span i="Pratchett, Terry">Terry Pratchett</span>
+> --- [% i "Pratchett, Terry" %]Terry Pratchett[% /i %]
 
 We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in
@@ -112,8 +112,8 @@ handle the error.  It keeps working its way up through the call stack until it
 finds a matching `except`.  If there isn't one, Python takes care of the
 exception itself.
 
-This behavior is designed to support a pattern called "<span i="throw low, catch
-high">throw low, catch high</span>": write most of your code without exception
+This behavior is designed to support a pattern called "[% i "throw low, catch
+high" %]throw low, catch high[% /i %]": write most of your code without exception
 handlers, since there's nothing useful you can do in the middle of a small
 utility function, but put a few handlers in the outermost functions of your
 program to catch and report all errors.  This also makes libraries more
@@ -187,8 +187,8 @@ we have to rely on guesswork or read the source code.  Telling the user that a
 file isn't a [% g csv %]CSV[% /g %] file makes it clear that the program only
 works with files of that type, but since we don't actually check the content of
 the file, this message could confuse someone who has comma-separated values
-saved in a `.txt` file.  An even <span i="error message!writing helpful">better
-message</span> would therefore be:
+saved in a `.txt` file.  An even [% i "error message!writing helpful" %]better
+message[% /i %] would therefore be:
 
 ```out
 OSError: File must end in .csv
@@ -243,8 +243,8 @@ if fname[-4:] != '.csv':
 ```
 
 <!-- continue -->
-A better approach is to put all the error messages in a <span i="error
-message!internationalizing">dictionary</span>:
+A better approach is to put all the error messages in a [% i "error
+message!internationalizing" %]dictionary[% /i %]:
 
 ```py
 ERRORS = {
@@ -342,7 +342,7 @@ logging.basicConfig(level=logging.DEBUG)
 somewhere near the start of your program. The `DEBUG` option identifies the
 lowest-level messages in your program---the ones you probably only want to see
 when you're trying to figure out what's gone wrong. In order, the more important
-<span i="logging!levels">levels</span> in most logging libraries are `INFO`,
+[% i "logging!levels" %]levels[% /i %] in most logging libraries are `INFO`,
 `WARNING`, `ERROR`, and `CRITICAL`. If you only want messages at the `WARNING`
 level and above, you change the configuration to:
 
@@ -381,8 +381,8 @@ some idea of what it was doing beforehand.
 
 > ### Logging for security
 >
-> One of the recommendations in <a section="security"/> was to <span i="logging!for
-> security">log actions</span> to help you find suspicious activity.  When you do
+> One of the recommendations in <a section="security"/> was to [% i "logging!for
+> security" %]log actions[% /i %] to help you find suspicious activity.  When you do
 > this, make sure the log records who, what, and when; in particular, make sure
 > you have a record of every time permissions were changed or new accounts were
 > created.
@@ -399,7 +399,7 @@ gives you a lot more insight into what your program is actually doing.
 >
 > You will sometimes inspect logs yourself, but you will also frequently want to
 > search them for patterns. All of the logs you produce should therefore be in a
-> <span i="logging!output format">machine-readable format</span> like CSV, JSON,
+> [% i "logging!output format" %]machine-readable format[% /i %] like CSV, JSON,
 > or [% g yaml %]YAML[% /g %]; you can easily write a small program to
 > pretty-print the data you want for manual inspection.
 >

@@ -33,10 +33,8 @@ experience, it makes a lot less difference than most people think…
 …as long as you use the right one, that is. Twenty years ago there was a pretty
 clear tradeoff between how quickly you can get a program running and how fast it
 ran.  <span g="interpreted_language" i="programming
-language!interpreted">Interpreted languages</span> like <span
-i="Perl">Perl</span> optimized programmers' time; <span g="compiled_language"
-i="programming language!compiled">compiled languages</span> like <span
-i="C">C</span> optimized the machine's.
+language!interpreted">Interpreted languages</span> like [% i "Perl" %]Perl[% /i %] optimized programmers' time; <span g="compiled_language"
+i="programming language!compiled">compiled languages</span> like [% i "C" %]C[% /i %] optimized the machine's.
 
 Today, the balance has shifted in favor of higher-level languages. One reason is
 that processors have gotten faster but people haven't, so one programmer-hour is
@@ -52,27 +50,23 @@ its speed has less effect than you'd think.
 
 That said, there are three things to keep in mind:
 
-Some languages are <span i="programming language!ease of learning">easier to learn</span> than others.
+Some languages are [% i "programming language!ease of learning" %]easier to learn[% /i %] than others.
 :   [% b Stefik2013 %] did a controlled experiment to see how quickly
     people could learn to recognize correct and incorrect syntax in several
-    different languages. They found that [% g curly_brace_language %]curly-brace languages[% /g %] like <span
-    i="Java">Java</span> and <span i="Perl">Perl</span> were as hard for people
+    different languages. They found that [% g curly_brace_language %]curly-brace languages[% /g %] like [% i "Java" %]Java[% /i %] and [% i "Perl" %]Perl[% /i %] were as hard for people
     to learn as a language with a randomly designed syntax. (They rolled
     *Dungeons & Dragons* dice to pick random names and characters for a made-up
-    language.) Other languages like <span i="Ruby">[Ruby][ruby]</span> and <span
-    i="Python">[Python][python]</span> were significantly easier to learn, and
-    they are now building a language called <span
-    i="Quorum">[Quorum][quorum]</span> by testing the usability of every
+    language.) Other languages like [% i "Ruby" %][Ruby][ruby][% /i %] and [% i "Python" %][Python][python][% /i %] were significantly easier to learn, and
+    they are now building a language called [% i "Quorum" %][Quorum][quorum][% /i %] by testing the usability of every
     language feature.
 
 Static typing helps, but only a little.
 :   A <span g="static_typing" i="static typing; typing!static; programming
-    language!statically typed">statically-typed</span> language like <span
-    i="Java">Java</span> requires programmers to specify the data type of each
+    language!statically typed">statically-typed</span> language like [% i "Java" %]Java[% /i %] requires programmers to specify the data type of each
     variable; a <span g="dynamic_typing" i="dynamic typing; typing!dynamic; programming language!dynamically typed">dynamically-typed</span>
-    one like <span i="Python">Python</span> doesn't require them, though you can add
-    them if you want, while <span i="TypeScript">TypeScript</span> adds types as
-    a layer on top of <span i="JavaScript">JavaScript</span>.
+    one like [% i "Python" %]Python[% /i %] doesn't require them, though you can add
+    them if you want, while [% i "TypeScript" %]TypeScript[% /i %] adds types as
+    a layer on top of [% i "JavaScript" %]JavaScript[% /i %].
     [% b Endrikat2014 %] found that declaring types does add complexity to
     programs, but it pays off fairly quickly by acting as documentation and by
     making <span g="auto_completion" i="auto-completion">auto-completion</span>
@@ -81,8 +75,8 @@ Static typing helps, but only a little.
 The most important thing about a language is its community.
 :   Some programming communities work hard to welcome newcomers and treat
     everyone respectfully. Others are more likely to call naïve questions
-    "stupid" or to make excuses when <span i="Linux!toxic leadership">their
-    leaders harass people</span> [% b Cohen2018 %]. As a junior programmer,
+    "stupid" or to make excuses when [% i "Linux!toxic leadership" %]their
+    leaders harass people[% /i %] [% b Cohen2018 %]. As a junior programmer,
     you will learn more from the former than from the latter.
 
 [% b Stefik2017 %] is a good short summary of what we know and why we
@@ -92,8 +86,8 @@ evidence.
 ## Package Management
 
 There is no point building software if you can't install it.  Inspired by the
-<span i="Comprehensive TeX Archive Network (CTAN)">[Comprehensive TeX Archive
-Network][ctan]</span>, most languages now have an online archive from which
+[% i "Comprehensive TeX Archive Network (CTAN)" %][Comprehensive TeX Archive
+Network][ctan][% /i %], most languages now have an online archive from which
 developers can download packages.  Each package typically has a name and one or
 more version(s); each version may have a list of dependencies, and the package
 may specify a version or range of versions for each dependency.
@@ -104,28 +98,26 @@ how they depend on each other.  Package managers became popular out of necessity
 in the 1990s along with Linux: so many distributions were being updated so often
 that people needed tools to keep track of what they had.
 
-Some package managers, like <span i="APT; package manager!APT">[APT][apt]</span>
-for <span i="Linux">Linux</span> and <span i="Homebrew; package
-manager!Homebrew">[Homebrew][homebrew]</span> for <span i="MacOS">MacOS</span>,
-can handle many languages. Others, like <span i="pip; package
-manager!pip">[pip][pip]</span> for <span i="Python">Python</span> and <span
-i="NPM; package manager!NPM">[NPM][npm]</span> for <span
-i="JavaScript">JavaScript</span>, are language-specific. No matter which one you
+Some package managers, like [% i "APT" "package manager!APT" %][APT][apt][% /i %]
+for [% i "Linux" %]Linux[% /i %] and [% i "Homebrew" "package
+manager!Homebrew" %][Homebrew][homebrew][% /i %] for [% i "MacOS" %]MacOS[% /i %],
+can handle many languages. Others, like [% i "pip" "package
+manager!pip" %][pip][pip][% /i %] for [% i "Python" %]Python[% /i %] and [% i "NPM" "package manager!NPM" %][NPM][npm][% /i %] for [% i "JavaScript" %]JavaScript[% /i %], are language-specific. No matter which one you
 use, the biggest challenge you'll face is finding the packages you need: at the
 time of writing, [this search][npm-xml-search] turns up over 700 XML parsers for
 a JavaScript. To help narrow the search, NPM allows the results to be sorted by
 popularity, quality, and maintenance. This obviously creates a feedback
 loop---if NPM labels a package "more popular" then more people will find it,
-which raises its popularity score even further---but <span i="NPMS; package
-manager!package ratings">[NPMS][npms]</span> is open about how these scores are
+which raises its popularity score even further---but [% i "NPMS" "package
+manager!package ratings" %][NPMS][npms][% /i %] is open about how these scores are
 calculated, so package authors can find out what they need to do in order to
 improve their scores.
 
 Whatever package manager you use, your project should follow these rules:
 
 Keep a record.
-:   NPM automatically updates a project's <span i="Node.js!package.json
-    file">`package.json`</span> file to show which packages have been installed
+:   NPM automatically updates a project's [% i "Node.js!package.json
+    file" %]`package.json`[% /i %] file to show which packages have been installed
     explicitly, and its `package-lock.json` file keeps track of exactly which
     versions of their dependencies have been installed as well, so in theory,
     someone else can duplicate your environment exactly. If you are using pip
@@ -146,7 +138,7 @@ Keep an eye on security updates.
 
 > ### Docker
 >
-> <span i="Docker">[Docker][docker]</span> uses some clever tricks to run one
+> [% i "Docker" %][Docker][docker][% /i %] uses some clever tricks to run one
 > operating system on top of another to create a <span g="virtual_machine"
 > i="virtual machine">virtual machine</span> (VM) that is isolated from everything
 > beneath it.  It and other tools like it are used by most cloud computing
@@ -160,9 +152,7 @@ Keep an eye on security updates.
 You are going to spend a lot of time editing code, documentation, and reports,
 so choosing a good editor is as important as choosing a comfortable chair.
 There are literally thousands to consider, from very small plain-text editors
-such as <span i="Notepad; editor!Notepad">Notepad</span> (which comes with <span
-i="Windows">Windows</span>) to very large ones like <span i="Emacs;
-editor!Emacs">Emacs</span> (which some people claim is actually Lisp-based
+such as [% i "Notepad" "editor!Notepad" %]Notepad[% /i %] (which comes with [% i "Windows" %]Windows[% /i %]) to very large ones like [% i "Emacs" "editor!Emacs" %]Emacs[% /i %] (which some people claim is actually Lisp-based
 operating system in disguise).
 
 > ### Stuck in the punchcard era
@@ -184,8 +174,7 @@ development environment</span> (IDE) that combines an editor with other
 programming tools then getting work done will take longer and hurt more than it
 needs to.
 
-IDEs were invented in the 1970s, but didn't really catch on until <span
-i="Borland">Borland</span> released <span i="Turbo Pascal">Turbo Pascal</span>
+IDEs were invented in the 1970s, but didn't really catch on until [% i "Borland" %]Borland[% /i %] released [% i "Turbo Pascal" %]Turbo Pascal[% /i %]
 in the 1980s.  They usually include these tools:
 
 -   A <span g="console" i="console; IDE!console">console</span> so that you can
@@ -198,14 +187,14 @@ in the 1980s.  They usually include these tools:
 -   A <span g="gui_designer" i="GUI designer">GUI designer</span> that lets you
     build GUIs by dragging and dropping components;
 
--   A <span i="test runner">test runner</span> to display the results of tests and
+-   A [% i "test runner" %]test runner[% /i %] to display the results of tests and
     let you jump directly to ones that have failed. This is usually a GUI built
     on top of whatever unit testing framework you are using
     (<a section="testing"/>), just as graphical interfaces for version control are usually
     built on top of the command-line tools.
 
-The most popular IDE today is probably <span i="VS Code; Microsoft Visual Studio
-Code; IDE!VS Code">[Microsoft Visual Studio Code][vs-code]</span>, often
+The most popular IDE today is probably [% i "VS Code" "Microsoft Visual Studio
+Code" "IDE!VS Code" %][Microsoft Visual Studio Code][vs-code][% /i %], often
 referred to simply as "VS Code".  Along with all the tools above, it has
 hundreds of <span g="plugin" i="plugin!for IDE">plugins</span> of varying
 quality to support database design, reverse engineering, dozens of different
@@ -216,7 +205,7 @@ you all adopt the same IDE. This will also let you help one another solve
 problems and share plugins.
 
 But calling VS Code is the world's most popular IDE is misleading.  If you open
-<span i="IDE!in browser">developer tools</span>. in Firefox, Chrome, or Edge, you
+[% i "IDE!in browser" %]developer tools[% /i %]. in Firefox, Chrome, or Edge, you
 will be shown an HTML browser that's smart enough to tell you which bits of CSS
 are in effect where, a console that displays messages from the JavaScript
 running in the page, a breakpointing debugger (<a section="debugging"/>), a network
@@ -258,8 +247,8 @@ though good developers have been relying on them for a decade or more. Others
 may be touched on, but only briefly, so a quick recap won't hurt.
 
 The first is a <span g="doc_generator" i="documentation generator">documentation
-generator</span> like <span i="JSDoc; documentation
-generator!JSDoc">[JSDoc][jsdoc]</span>. This is a compiler of a sort, but
+generator</span> like [% i "JSDoc" "documentation
+generator!JSDoc" %][JSDoc][jsdoc][% /i %]. This is a compiler of a sort, but
 instead of translating source code into something executable, it extracts
 information from specially-formatted comments and strings, and turns it into
 human-readable documentation.  The justification for this is that when code and
@@ -273,13 +262,12 @@ Another set of tools complement the style checkers discussed in <a section="auto
 Style checkers do static analysis, i.e., they look at the
 text of your program while it's at rest.  Other tools do <span
 g="dynamic_analysis" i="dynamic analysis">dynamic analysis</span>: tools like
-<span i="Valgrind; dynamic analysis!Valgrind">Valgrind</span> watch your <span
-i="C">C</span> or <span i="C++">C++</span> program run and look for things like
+[% i "Valgrind" "dynamic analysis!Valgrind" %]Valgrind[% /i %] watch your [% i "C" %]C[% /i %] or [% i "C++" %]C++[% /i %] program run and look for things like
 memory leaks, or inconsistent locking that might lead to deadlocks or race
 conditions.
 
 Real development projects rely on a lot of other tools as well: schedule
-builders like <span i="Microsoft Project">Microsoft Project</span>, requirements
+builders like [% i "Microsoft Project" %]Microsoft Project[% /i %], requirements
 tracing tools, and so on. Most are bigger hammers than undergraduate projects
 really require, but good programmers don't just use tools, they build them.  For
 example, I have written two dozen short programs to help me write and maintain
@@ -292,9 +280,9 @@ over and over again, write a program to do it for you.
 >
 > A lot of open source projects and commercial products began with one programmer
 > solving a problem for themselves and then discovering that other people found it
-> useful as well. <span i="Grand Perspective">[Grand
-> Perspective][grand-perspective]</span> displays a tree map to show what's using
-> disk space on a Mac; <span i="Carnac">[Carnac][carnac]</span> shows what special
+> useful as well. [% i "Grand Perspective" %][Grand
+> Perspective][grand-perspective][% /i %] displays a tree map to show what's using
+> disk space on a Mac; [% i "Carnac" %][Carnac][carnac][% /i %] shows what special
 > keys you're pressing on Windows so that if you're doing a demo, people can see
 > the keyboard shortcuts you're using, and so on.  Building one small thing well
 > is a lot more useful, and a lot more likely to be used, than building half of
@@ -303,9 +291,9 @@ over and over again, write a program to do it for you.
 ## Modeling
 
 If you want to go one big step further, you can start using modeling tools like
-<span i="Alloy; modeling tools!Alloy">[Alloy][alloy]</span>
-[% b Jackson2016 %] and <span i="TLA+; modeling
-tools!TLA+">[TLA+][tla-plus]</span> [% b Wayne2018 %].  Instead of
+[% i "Alloy" "modeling tools!Alloy" %][Alloy][alloy][% /i %]
+[% b Jackson2016 %] and [% i "TLA+" "modeling
+tools!TLA+" %][TLA+][tla-plus][% /i %] [% b Wayne2018 %].  Instead of
 analyzing source code, you use these tools to build and analyze a [% g model %]model[% /g %] of what the code is supposed to do so that you can look
 for flaws in your algorithms.
 

@@ -42,7 +42,7 @@ Make governance explicit.
     authority lies with those willing to shout loudest and longest
     [% b Cohen2018 %].  Large, well-established projects that incorporate
     as non-profits are required to promulgate bylaws; smaller projects should
-    have some explicit <span i="governance">governance</span> that explains who
+    have some explicit [% i "governance" %]governance[% /i %] that explains who
     gets a say in what and how to become someone whose vote counts
     (<a section="important"/>).
 
@@ -57,7 +57,7 @@ Keep knowledge up to date and findable.
     material up to date, community members should at least remove or clearly
     mark outdated information.
 
-Have and enforce a <span i="Code of Conduct">Code of Conduct</span>.
+Have and enforce a [% i "Code of Conduct" %]Code of Conduct[% /i %].
 :   We discussed this rule in <a section="starting"/>, but it bears repeating here.
     Your project's culture is defined by the worst behavior it tolerates
     [% b Gruenert2015 %], and every instance of bad behavior will drive

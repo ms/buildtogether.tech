@@ -12,7 +12,7 @@
     <div align="center" style="padding-top: 2rem;">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>: Error Handling</h1>
+      <h1>Chapter 14: Error Handling</h1>
       
       <p>
         <img src="../files/codebender.svg" alt="logo" width="10%" />
@@ -21,7 +21,7 @@
 
 <blockquote>
 <p>When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.</p>
-<p>--- <span i="Pratchett, Terry">Terry Pratchett</span></p>
+<p>--- <span class="indexref" key="Pratchett, Terry" markdown="1">Terry Pratchett</span></p>
 </blockquote>
 <p>We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in
@@ -108,8 +108,8 @@ it there, Python checks to see if whoever called the function is willing to
 handle the error.  It keeps working its way up through the call stack until it
 finds a matching <code>except</code>.  If there isn't one, Python takes care of the
 exception itself.</p>
-<p>This behavior is designed to support a pattern called "<span i="throw low, catch
-high">throw low, catch high</span>": write most of your code without exception
+<p>This behavior is designed to support a pattern called "<span class="indexref" key="throw low, catch
+high" markdown="1">throw low, catch high</span>": write most of your code without exception
 handlers, since there's nothing useful you can do in the middle of a small
 utility function, but put a few handlers in the outermost functions of your
 program to catch and report all errors.  This also makes libraries more
@@ -169,7 +169,7 @@ we have to rely on guesswork or read the source code.  Telling the user that a
 file isn't a <a class="glossref" href="../glossary/#csv" markdown="1">CSV</a> file makes it clear that the program only
 works with files of that type, but since we don't actually check the content of
 the file, this message could confuse someone who has comma-separated values
-saved in a <code>.txt</code> file.  An even <span i="error message!writing helpful">better
+saved in a <code>.txt</code> file.  An even <span class="indexref" key="error message!writing helpful" markdown="1">better
 message</span> would therefore be:</p>
 <pre><code class="language-out">OSError: File must end in .csv
 </code></pre>
@@ -212,8 +212,8 @@ messages directly in their code:</p>
     raise OSError(f'{fname}: File must end in .csv')
 </code></pre>
 <!-- continue -->
-<p>A better approach is to put all the error messages in a <span i="error
-message!internationalizing">dictionary</span>:</p>
+<p>A better approach is to put all the error messages in a <span class="indexref" key="error
+message!internationalizing" markdown="1">dictionary</span>:</p>
 <pre><code class="language-py">ERRORS = {
     'not_csv_suffix' : '{fname}: File must end in .csv',
     'config_corrupted' : '{config_name} corrupted',
@@ -288,7 +288,7 @@ you put:</p>
 <p>somewhere near the start of your program. The <code>DEBUG</code> option identifies the
 lowest-level messages in your program---the ones you probably only want to see
 when you're trying to figure out what's gone wrong. In order, the more important
-<span i="logging!levels">levels</span> in most logging libraries are <code>INFO</code>,
+<span class="indexref" key="logging!levels" markdown="1">levels</span> in most logging libraries are <code>INFO</code>,
 <code>WARNING</code>, <code>ERROR</code>, and <code>CRITICAL</code>. If you only want messages at the <code>WARNING</code>
 level and above, you change the configuration to:</p>
 <pre><code class="language-py">logging.basicConfig(level=logging.WARNING)
@@ -318,8 +318,8 @@ whenever it does something unexpected (like crashing), you will have at least
 some idea of what it was doing beforehand.</p>
 <blockquote>
 <h3>Logging for security</h3>
-<p>One of the recommendations in <a section="security"/> was to <span i="logging!for
-security">log actions</span> to help you find suspicious activity.  When you do
+<p>One of the recommendations in <a section="security"/> was to <span class="indexref" key="logging!for
+security" markdown="1">log actions</span> to help you find suspicious activity.  When you do
 this, make sure the log records who, what, and when; in particular, make sure
 you have a record of every time permissions were changed or new accounts were
 created.</p>
@@ -335,7 +335,7 @@ gives you a lot more insight into what your program is actually doing.</p>
 <h3>Parsers as a sign of bad design</h3>
 <p>You will sometimes inspect logs yourself, but you will also frequently want to
 search them for patterns. All of the logs you produce should therefore be in a
-<span i="logging!output format">machine-readable format</span> like CSV, JSON,
+<span class="indexref" key="logging!output format" markdown="1">machine-readable format</span> like CSV, JSON,
 or <a class="glossref" href="../glossary/#yaml" markdown="1">YAML</a>; you can easily write a small program to
 pretty-print the data you want for manual inspection.</p>
 <p>This guideline is one instance of a more general design rule.  The world has

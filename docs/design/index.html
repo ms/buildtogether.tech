@@ -12,7 +12,7 @@
     <div align="center" style="padding-top: 2rem;">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>: Software Design</h1>
+      <h1>Chapter 12: Software Design</h1>
       
       <p>
         <img src="../files/codebender.svg" alt="logo" width="10%" />
@@ -21,7 +21,7 @@
 
 <blockquote>
 <p>A week of hard work can sometimes save an hour of thought.</p>
-<p>--- <span i="Wilson, Robert">Robert Wilson</span></p>
+<p>--- <span class="indexref" key="Wilson, Robert" markdown="1">Robert Wilson</span></p>
 </blockquote>
 <p>Building large programs with other people is different from building small
 programs on your own in two important ways. The first is communication: in order
@@ -29,8 +29,8 @@ for you and your teammates to collaborate, you need to agree about what you're
 collaborating <em>on</em>, which means you need to tell each other how you are breaking
 the problem up into pieces and how those pieces will interact
 (<a section="communicate"/>).</p>
-<p>The second difference between programming in the small and <span i="programming
-in the large">programming in the large</span> is that while you can hack your
+<p>The second difference between programming in the small and <span class="indexref" key="programming
+in the large" markdown="1">programming in the large</span> is that while you can hack your
 way from an empty <code>.js</code> or <code>.py</code> file to a hundred-line program in a reasonable
 time, the re-work required by that strategy becomes unaffordable when your final
 product is a thousand lines long.</p>
@@ -57,7 +57,7 @@ do you actually wind up writing?</p>
     \(C + p(C-1)(C-2)/2\) or \(pC^{2}/2 + (1-p)C + 1\).</p>
 </li>
 </ul>
-<p>This <span i="model!of software development">model</span> is unrealistic in
+<p>This <span class="indexref" key="model!of software development" markdown="1">model</span> is unrealistic in
 every way---the odds of rewriting old code is lower than the odds of rewriting
 recent code, for example---but it captures a key point: the cost of rework grows
 faster than the number of pieces of work.  You can't lower \(C\) by increasing
@@ -89,8 +89,7 @@ you already understand the point; explaining it with a specific example (testing
 an MVC application) made it more relatable.</p>
 </blockquote>
 <h2>Describing Designs</h2>
-<p>[<a href="../bibliography/#Cherubini2007">Cherubini2007</a>] found that developers usually don't draw <span
-i="software design!role of diagrams">diagrams</span> to create a permanent
+<p>[<a href="../bibliography/#Cherubini2007">Cherubini2007</a>] found that developers usually don't draw <span class="indexref" key="software design!role of diagrams" markdown="1">diagrams</span> to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
 otherwise be able to keep track of (<a section="thinking"/>). In many cases, the
@@ -100,7 +99,7 @@ from having them to study.</p>
 <p>When experienced developers <em>do</em> draw something for later use, they generally
 draw the following:</p>
 <dl>
-<dt><span i="diagrams!data structure; data structure diagrams">Data structures</span>.</dt>
+<dt><span class="indexref" key="diagrams!data structure;data structure diagrams" markdown="1">Data structures</span>.</dt>
 <dd>These are blob-and-arrow pictures of the objects and containers that make up
 the program and the references that stitch them together. The more
 experience someone has, the fewer of these they need to draw, but everyone
@@ -119,7 +118,7 @@ to figure out a better load balancing strategy, on the other hand, I would
 draw most of what would go into a physical architecture diagram, plus just
 enough of the class inheritance hierarchy to show how the servers will load
 user request handlers dynamically.</dd>
-<dt>The system's <span i="physical architecture!diagram; diagrams!physical architecture">physical architecture</span>.</dt>
+<dt>The system's <span class="indexref" key="physical architecture!diagram;diagrams!physical architecture" markdown="1">physical architecture</span>.</dt>
 <dd>This is the files, processes, sockets, database tables, etc., that make it
 up. In most cases, this consists of a bunch of boxes representing the
 machines the application's components run on, trees showing files and
@@ -185,7 +184,7 @@ representation.</p>
 <h2>Getting Started</h2>
 <p>Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
-to write your <span i="elevator pitch">elevator pitch</span>
+to write your <span class="indexref" key="elevator pitch" markdown="1">elevator pitch</span>
 (<a section="starting"/>). Next, write one or two point-form
 <span g="user_story" i="user story!use in software design">user stories</span>
 describing how the application, feature, or library would be used. Be as concrete
@@ -263,10 +262,10 @@ project; together, they show why it's so hard to teach design, since what I'm
 basically saying is, "Argue enough, but not too much."</p>
 <blockquote>
 <h3>How experts do it</h3>
-<p>One of the biggest differences between <span i="expert">experts</span> and
+<p>One of the biggest differences between <span class="indexref" key="expert" markdown="1">experts</span> and
 non-experts in any field is how quickly experts can rule out possibilities
 [<a href="../bibliography/#Schon1984">Schon1984</a>]. Whether it is software design, chess, or medical
-diagnosis, <span i="novice">novices</span> check to see if their plan will work;
+diagnosis, <span class="indexref" key="novice" markdown="1">novices</span> check to see if their plan will work;
 experts, on the other hand, search for a refutation---a reason why it won't---so
 that they can narrow their focus as early as possible. One way to do this is to
 jump back and forth between a high-level plan and its low-level consequences; if
@@ -277,7 +276,7 @@ of past failures so that you know how a good idea might fail in practice.</p>
 <h2>Design for Evolution</h2>
 <p>How easily we can swap one component for another in order to test a system is
 one way to tell how well designed that system is (<a section="testing"/>). Another
-is how easily we can modify or <span i="software design!evolution">extend</span>
+is how easily we can modify or <span class="indexref" key="software design!evolution" markdown="1">extend</span>
 the system to do new things. If our design is perfect, we can implement changes
 by adding code without modifying what's already there.  This is called the <span
 g="open_closed_principle" i="Open-Closed Principle">Open-Closed
@@ -366,18 +365,18 @@ the inputs meet the pre-conditions, then the function guarantees that the output
 meets the post-conditions. Contracts like these are particularly useful when
 overriding methods or when software evolves:</p>
 <dl>
-<dt>Pre-conditions can only be made <span i="pre-condition!weakening">weaker</span>.</dt>
+<dt>Pre-conditions can only be made <span class="indexref" key="pre-condition!weakening" markdown="1">weaker</span>.</dt>
 <dd>This rule is another way of saying that the new version of the code can only
 put <em>fewer</em> restrictions on the inputs it accepts, or equivalently, it must
 handle everything the old version could, but may handle more. If code breaks
 this rule, then it might fail in cases where the old code ran.</dd>
-<dt>Post-conditions can only be made <span i="post-condition!strengthening">stronger</span>.</dt>
+<dt>Post-conditions can only be made <span class="indexref" key="post-condition!strengthening" markdown="1">stronger</span>.</dt>
 <dd>This rule ensures that the new function can't produce anything that the old
 function might not have produced, and ensures that anything using the
 function's output will be able to handle everything the new version gives
 it.</dd>
 </dl>
-<p>A programming language called <span i="Eiffel"><a href="https://www.eiffel.org/">Eiffel</a></span>
+<p>A programming language called <span class="indexref" key="Eiffel" markdown="1"><a href="https://www.eiffel.org/">Eiffel</a></span>
 demonstrated how powerful design by contract can be. Most other languages don't
 support it directly; we can emulate it by putting assertions at the start and
 end of our functions and methods, but there's no guarantee they'll be checked or
@@ -388,8 +387,8 @@ all day, every day. Imagine trying to use a computer when your hands are
 crippled by arthritis.  Better yet, don't imagine it: have one of your teammates
 tape some popsicle sticks to your fingers so you can't bend them and then see
 how easy it is to use something like Slack.</p>
-<p>Making software <span i="accessibility; software
-design!accessibility">accessible</span> doesn't just help people with obvious
+<p>Making software <span class="indexref" key="accessibility;software
+design!accessibility" markdown="1">accessible</span> doesn't just help people with obvious
 disabilities: as [<a href="../bibliography/#Johnson2017">Johnson2017</a>] points out, the population is aging,
 and everything you do to help people who are deaf also helps people who are
 gradually losing their hearing.</p>
@@ -397,8 +396,7 @@ gradually losing their hearing.</p>
 from the UK Home Office</a>. Each one lays out a few simple
 do's and don'ts that will help make your software accessible to people who are
 neurodivergent, use screen readers, are dyslexic, have physical or motor
-challenges, or are hard of hearing. You can also use tools like <span
-i="accessibility!WebAIM WAVE; WebAIM WAVE"><a href="https://wave.webaim.org/">WebAIM WAVE</a></span> to
+challenges, or are hard of hearing. You can also use tools like <span class="indexref" key="accessibility!WebAIM WAVE;WebAIM WAVE" markdown="1"><a href="https://wave.webaim.org/">WebAIM WAVE</a></span> to
 check for common problems, most of which are easy to fix. It only takes a few
 minutes, it's the compassionate thing to do, and almost every change you make
 will also make the software easier to test and maintain.</p>
@@ -441,8 +439,8 @@ the libraries if they want to extend the application's behavior.</dd>
 g="scriptable" i="scriptability; software
 design!scriptability">scriptable</span>.  One of the things that made Microsoft
 Office so popular was users' ability to write scripts for Word, Excel, and other
-tools in <span i="Visual Basic"><a href="https://en.wikipedia.org/wiki/Visual_Basic">Visual Basic</a></span>.  Today,
-many games include a scripting language like <span i="Lua"><a href="https://www.lua.org/">Lua</a></span> so
+tools in <span class="indexref" key="Visual Basic" markdown="1"><a href="https://en.wikipedia.org/wiki/Visual_Basic">Visual Basic</a></span>.  Today,
+many games include a scripting language like <span class="indexref" key="Lua" markdown="1"><a href="https://www.lua.org/">Lua</a></span> so
 that users can write modifications right then and there.  Scripting is
 particularly helpful when you want to test a user interface, since it allows you
 to write short programs that trigger events like "click this button" or "enter
@@ -462,8 +460,7 @@ authenticate in order to prove that they have a right to do what they want to;
 as soon as we're thinking about that, we need to think about the topic of the
 next chapter: security.</p>
 <h2>Design for Packaging</h2>
-<p>Every language and operating system has its own rules for <span i="packaging;
-package!building">building packages</span>; designing software with these rules
+<p>Every language and operating system has its own rules for <span class="indexref" key="packaging;package!building" markdown="1">building packages</span>; designing software with these rules
 in mind makes packaging a lot easier.  In Python, for example, a package
 consists of one or more Python source files in a specific directory structure
 like this:</p>
@@ -502,9 +499,9 @@ of functions (or meta-classes templated on object factories) into actual
 operations on actual data.</p>
 <p>More experienced programmers are more capable at both ends of the curve, but
 that's not the only thing that changes.  <a figure="comprehension-curves"/>
-compares a <span i="code comprehension; novice!code
-comprehension">novice</span>'s comprehension curve with an <span i="expert!code
-comprehension">expert</span>'s.  Experts don't just understand more at all
+compares a <span class="indexref" key="code comprehension;novice!code
+comprehension" markdown="1">novice</span>'s comprehension curve with an <span class="indexref" key="expert!code
+comprehension" markdown="1">expert</span>'s.  Experts don't just understand more at all
 levels of abstraction; their <em>preferred</em> level has also shifted so that
 \(\sqrt{x^2 | y^2}\) is actually more readable than the medieval expression "the
 side of the square whose area is the sum of the areas of the two squares whose

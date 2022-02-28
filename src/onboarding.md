@@ -3,7 +3,7 @@ title: "Onboarding Checklist"
 template: page
 ---
 
-This <span i="onboarding checklist">onboarding checklist</span> was
+This [% i "onboarding checklist" %]onboarding checklist[% /i %] was
 [shared][pryce-onboarding] by [Nat Pryce][pryce-nat], and is a checklist of
 topics that new hires need to know to work on an application called OPA.  If you
 create and share a checklist like this for people joining your project, ask them

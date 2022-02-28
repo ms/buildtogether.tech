@@ -4,13 +4,13 @@ lede: "Sharing and reviewing work"
 template: page
 ---
 
-<span i="version control!collaboration">Version control</span> really comes into
+[% i "version control!collaboration" %]Version control[% /i %] really comes into
 its own when we are working with other people.  People can share work through a
 Git repository in one of two ways [% b Irving2021 %]:
 
-1.  Everyone has read and write access to a <span i="version
-    control!collaboration!using a shared repository">single shared
-    repository</span>.
+1.  Everyone has read and write access to a [% i "version
+    control!using a shared repository" %]single shared
+    repository[% /i %].
 
 2.  Everyone can read from the project's main repository, but only a few people
     can commit changes to it.  The project's other contributors <span
@@ -28,8 +28,8 @@ might make a mess in the `main` branch, the second approach is safer.
 > When you're working on your own, it's natural to fall into a rhythm of updating
 > your laptop from your repository in the morning and committing whatever you've
 > managed to accomplish when you wrap up for the day. You need to break this habit
-> when you become part of a team. Instead, <span i="version control!when to
-> commit">you should commit</span> when you finish a chunk of work that moves the
+> when you become part of a team. Instead, [% i "version control!when to
+> commit" %]you should commit[% /i %] when you finish a chunk of work that moves the
 > project forward or is fit for someone else to review. A good rule is "never
 > break the build" (<a section="automation"/>), i.e., never commit anything that
 > doesn't run well enough to pass all existing tests.
@@ -88,8 +88,8 @@ To github.com:sami/bst.git
 ```
 
 <!-- continue -->
-And no, <span i="Git!interface (indistinguishable from hoax)">Git's
-output</span> here isn't particularly useful to anyone except people who are
+And no, [% i "Git!interface (indistinguishable from hoax)" %]Git's
+output[% /i %] here isn't particularly useful to anyone except people who are
 debugging Git's internals.
 
 Amira's changes are now on her desktop computer and in the GitHub repository but
@@ -109,7 +109,7 @@ branches.  That way, the difference displayed is always up to date if either
 branch changes.
 
 But a PR can store more than just the source and destination branches: it can
-also store <span i="Git!pull request!comments">comments</span> people have made
+also store [% i "Git!comments" %]comments[% /i %] people have made
 about the proposed merge.  Users can comment on the PR as a whole, or on
 particular lines, and mark comments as out of date if the author of the PR
 updates the code that the comment is attached to.  Complex changes can go
@@ -149,8 +149,8 @@ destination of the PR and a pair of editable boxes for the pull request's title
 and a longer comment.
 
 If they scroll down, Sami can see a summary of the changes that will be in the
-PR.  When they click "Create Pull Request", Git gives it a unique <span i="pull
-request!serial number">serial number</span>.  This is *not* a commit ID;
+PR.  When they click "Create Pull Request", Git gives it a unique [% i "pull
+request!serial number" %]serial number[% /i %].  This is *not* a commit ID;
 instead, each PR in a particular repository is given a sequential ID.
 
 Clicking on the "Pull requests" tab in the repository brings up a list of PRs
@@ -174,7 +174,7 @@ resolve the conflict.  It also means that if the change affects the project's
 code, we can run everything to make sure it still works.
 
 But what if Sami merges another PR while Amira is resolving this one?  In theory
-this <span i="conflict (in Git)!repeating">cycle</span> could go on forever; in
+this [% i "conflict (in Git)!repeating" %]cycle[% /i %] could go on forever; in
 practice, it reveals a communication problem that the team needs to address.  If
 two or more people are constantly making incompatible changes to the same files,
 they should discuss who's supposed to be doing what, or rearrange the project's
@@ -188,8 +188,8 @@ contents so that they aren't stepping on each other's toes.
 
 ## Commit Messages
 
-A [DuckDuckGo][duckduckgo] search for "how to write a good <span i="Git!commit
-message">commit message</span>" turns up several thousand articles. Most are
+A [DuckDuckGo][duckduckgo] search for "how to write a good [% i "Git!commit
+message" %]commit message[% /i %]" turns up several thousand articles. Most are
 variations on the sample shown below; as with programming style
 (<a section="research"/>), the most important thing is being consistent rather than the
 particular rules you follow.
@@ -246,7 +246,7 @@ should tell you.
 There are lots of guides online for doing code reviews, most of them based on
 their authors' personal experience. A notable exception is the [SmartBear
 guide][smartbear-code-review], which draws on a large study of code review in
-industry. The <span i="code review!procedure">rules below</span> present some of
+industry. The [% i "code review!procedure" %]rules below[% /i %] present some of
 their findings with modifications for students' situations.
 
 Have the instructor do a demonstration review.
@@ -257,8 +257,8 @@ Have the instructor do a demonstration review.
 
 Authors should clean up code before review.
 :   If the person creating the PR goes through and adds some more comments,
-    cleans up some variable names, and does a bit of <span i="refactoring!for
-    code review">refactoring</span> (<a section="design"/>), they won't just make
+    cleans up some variable names, and does a bit of [% i "refactoring!for
+    code review" %]refactoring[% /i %] (<a section="design"/>), they won't just make
     reviewing easier: the odds are very good that they will find and fix a few
     problems on their own.
 
@@ -271,8 +271,8 @@ Review at most 200 lines of a code at a time.
     in their head at once (<a section="thinking"/>) and so will miss things.
 
 Use checklists.
-:   [% b Gawande2011 %] popularized the idea that using <span
-    i="checklists!use in code review">checklists</span> improves results even
+:   [% b Gawande2011 %] popularized the idea that using
+    [% i "checklists!use in code review" %]checklists[% /i %] improves results even
     for experts.  While [% b Hatton2008 %] found no evidence that they made
     a difference to code reviews by professionals, I have found them very useful
     as a starter for students.  If you are new to code reviews, ask the
@@ -326,7 +326,7 @@ Don't tolerate rudeness.
     we speak to each other."  We'll talk about this more in
     <a section="fairness"/>.
 
-How we <span i="code review!responding to">respond</span> to reviews is just as
+How we [% i "code review!responding to" %]respond[% /i %] to reviews is just as
 important:
 
 Be specific in replies to reviewers.

@@ -12,7 +12,7 @@
     <div align="center" style="padding-top: 2rem;">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>: Testing</h1>
+      <h1>Chapter 11: Testing</h1>
       
       <p>
         <img src="../files/codebender.svg" alt="logo" width="10%" />
@@ -73,8 +73,7 @@ forerunners. The most widely-used test framework for Python is called
 <code>pytest</code>.  When it runs, it searches for all files in or below the working
 directory whose names match the pattern <code>test_*.py</code>.  It then runs the test
 functions it finds in these files and summarizes their results.</p>
-<p>If running all the tests is taking so long that it's disrupting your <span
-i="flow">flow</span> (<a section="important"/>), you can give <code>pytest</code> (and other
+<p>If running all the tests is taking so long that it's disrupting your <span class="indexref" key="flow" markdown="1">flow</span> (<a section="important"/>), you can give <code>pytest</code> (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
 development, but you should always re-run the entire <span g="test_suite"
 i="test suite; unit test!test suite">test suite</span> before committing your
@@ -134,8 +133,8 @@ summarizes some of the evidence, more recent studies like [<a href="../bibliogra
 confirm it, and books like [<a href="../bibliography/#Olsen2007">Olsen2007</a>, <a href="../bibliography/#Nystrom2014">Nystrom2014</a>, <a href="../bibliography/#Casciaro2020">Casciaro2020</a>] are
 great places to get started.</p>
 </blockquote>
-<p>The MVC architecture presents several <span i="model-view-controller
-architecture!testing">challenges for testing</span>:</p>
+<p>The MVC architecture presents several <span class="indexref" key="model-view-controller
+architecture!testing" markdown="1">challenges for testing</span>:</p>
 <dl>
 <dt>Unit testing libraries are designed to run within a single process.</dt>
 <dd>As the word "library" implies, they're made up of code that's meant to be
@@ -253,8 +252,8 @@ reasonably sure that if the interface calls the right function when a button is
 pressed, the back end will respond the right way. But how do we test that the
 browser will call the right function with the right parameters when the button
 is clicked?</p>
-<p>The answer is to use a tool like <a href="https://www.selenium.dev/">Selenium</a> to <span i="browser
-automation!for testing; unit test!browser automation">automate the browser's
+<p>The answer is to use a tool like <a href="https://www.selenium.dev/">Selenium</a> to <span class="indexref" key="browser
+automation!for testing;unit test!browser automation" markdown="1">automate the browser's
 actions</span>. Similar tools exist for desktop and mobile applications; all of
 them rely on the fact that the browser or the screen manager is just another
 piece of software. With a little bit of work, we can tell them to move the
@@ -262,8 +261,7 @@ cursor to a specific (X,Y) location or a particular button or menu, to generate
 a mouse click, or to pretend that the user just typed the letter 'G'. Once we've
 done that, we can check that the web page has the right elements or that the
 database has a new record just as we would with back-end tests.</p>
-<p>Most GUI testing frameworks have two other useful features. The first is <span
-i="browser automation!record and playback">record and playback</span>: you can
+<p>Most GUI testing frameworks have two other useful features. The first is <span class="indexref" key="browser automation!record and playback" markdown="1">record and playback</span>: you can
 step through a workflow manually, and the tool can then produce a script that
 will repeat those steps. These scripts tend to be fragile---i.e., small changes
 to the UI will break them---but if you edit them to replace things like absolute
@@ -281,10 +279,10 @@ you might as well use it to make your life easier.</p>
 <p>Programs don't just have to do the right thing; they have to do it quickly
 enough to be usable.  How fast that needs to be depends on the program, but if a
 text editor takes nine seconds to display each character, people are going to
-write their reports some other way. You should therefore measure <span i="unit
-test!performance">how long your tests take to run</span> so that you can tell
+write their reports some other way. You should therefore measure <span class="indexref" key="unit
+test!performance" markdown="1">how long your tests take to run</span> so that you can tell
 when the application is slowing down and do something about it.</p>
-<p>The simplest kind of <span i="performance testing!manual">performance
+<p>The simplest kind of <span class="indexref" key="performance testing!manual" markdown="1">performance
 testing</span> is simply to measure how much time elapses between the start and
 end of a test. You can do this manually:</p>
 <pre><code class="language-py">from datetime import datetime
@@ -367,9 +365,8 @@ of software is completely correct.  A function with only two numeric arguments
 has \(2^{128}\) possible inputs.  Even if we could write the tests, how could we
 be sure we were checking the result of each one correctly?</p>
 <h2>What's Hard to Test</h2>
-<p>Some things are intrinsically harder to test than others. Take <span
-i="visualization!difficulty of testing; unit
-test!visualization">visualizations</span>: any change to the dimension of the
+<p>Some things are intrinsically harder to test than others. Take <span class="indexref" key="visualization!difficulty of testing;unit
+test!visualization" markdown="1">visualizations</span>: any change to the dimension of the
 plot, however small, can change many pixels in a <a class="glossref" href="../glossary/#raster_image" markdown="1">raster
 image</a>, and cosmetic changes such as moving the legend up a couple of
 pixels will cause all of the tests to fail.</p>
@@ -380,9 +377,8 @@ drawing library itself, comparing pixels may be your only option; in that case,
 designing the library so that it can draw axes without data points, points
 without axes, and so on will minimize the number of tests you need to rewrite
 as the library changes.</p>
-<p>Computer graphics, data science, and anything else that uses <span
-i="floating-point arithmetic!difficulty of testing; unit test!floating-point
-arithmetic">floating-point arithmetic</span> is also hard to test. One problem
+<p>Computer graphics, data science, and anything else that uses <span class="indexref" key="floating-point arithmetic!difficulty of testing;unit test!floating-point
+arithmetic" markdown="1">floating-point arithmetic</span> is also hard to test. One problem
 is that floating-point numbers are approximations, just as 0.33333333 is an
 approximation to 1/3.  When we work with them, we have to think in terms of
 error bars, just as scientists working in a lab do; rather than checking if the
