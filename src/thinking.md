@@ -13,15 +13,11 @@ that.
 ## Different Kinds of Learners
 
 Research starting in the 1980s showed that most [% i "neurotypical" %]neurotypical[% /i %] adults undergo a series of fairly
-predictable <span g="cognitive_transition" i="cognitive transition">cognitive
-transitions</span> on their way from being a novice to being an expert in any
+predictable [% i "cognitive transition" %][% g cognitive_transition %]cognitive transitions[% /g %][% /i %] on their way from being a novice to being an expert in any
 domain [% b Benner2000 %]. (We say "most" and "neurotypical" because as
 with anything involving people, there will be outliers.)
 
-For our purposes, we will say that people are <span g="novice"
-i="novice">novices</span>, <span g="competent_practitioner" i="competent
-practitioner">competent practitioners</span>, or <span g="expert"
-i="expert">experts</span>. Some characteristics that most novices share include
+For our purposes, we will say that people are [% i "novice" %][% g novice %]novices[% /g %][% /i %], [% i "competent practitioner" %][% g competent_practitioner %]competent practitioners[% /g %][% /i %], or [% i "expert" %][% g expert %]experts[% /g %][% /i %]. Some characteristics that most novices share include
 doing things by rote (i.e., following a series of steps without understanding
 why they work), asking questions that don't make sense ("What color is the
 database?") and not being able to tell what is and isn't relevant---for example,
@@ -29,8 +25,7 @@ using their own filenames or variable names when searching for help online
 because they don't yet have a clear distinction between what belongs to the
 library and application and what is specific to their code.
 
-What ties these things together is that novices don't have a <span
-g="mental_model" i="mental model">mental model</span> of the problem. A mental
+What ties these things together is that novices don't have a [% i "mental model" %][% g mental_model %]mental model[% /g %][% /i %] of the problem. A mental
 model is a simplified representation of something that's good enough for present
 needs. One example is the ball-and-spring models used to represent molecules in
 chemistry classes: real atoms aren't marbles and atomic bonds aren't springs,
@@ -40,8 +35,7 @@ dioxide and water and a host of other things.
 What about experts? They can typically solve problems at a glance, and are
 usually much better at debugging than competent practitioners because they are
 better able to reason backward from effects to causes. They also tend to be
-*less* good as teachers because of <span g="expert_blind_spot" i="expert blind
-spot">expert blind spot</span>: they know their subject so well that they've
+*less* good as teachers because of [% i "expert blind spot" %][% g expert_blind_spot %]expert blind spot[% /g %][% /i %]: they know their subject so well that they've
 forgotten how hard it is for newcomers.
 
 To explain where these differences come from, imagine that the knowledge in your
@@ -139,12 +133,10 @@ it, they're treating the problem as two parallel single-digit problems. As for
 but they're adding it back into the ones column instead of carrying it over to
 the tens column.
 
-Each of these wrong answers has <span g="diagnostic_power" i="diagnostic power
-(of formative assessment)">diagnostic power</span>. Like a good unit test, this
+Each of these wrong answers has [% i "diagnostic power (of formative assessment)" %][% g diagnostic_power %]diagnostic power[% /g %][% /i %]. Like a good unit test, this
 multiple choice question doesn't just tell us that something is wrong: it points
 us at the source of the problem. Using questions like these in class in order to
-diagnose misunderstandings so that they can be corrected is called <span
-g="formative_assessment" i="formative assessment">formative assessment</span>
+diagnose misunderstandings so that they can be corrected is called [% i "formative assessment" %][% g formative_assessment %]formative assessment[% /g %][% /i %]
 because it forms (or shapes) the learning as it is taking place.
 
 A good formative assessment question takes 30--60 seconds to do (so that it
@@ -199,16 +191,14 @@ the things we didn't.
 </figure>
 
 <a figure="thinking-cognitive-architecture"/> shows a very (very) simple model of
-the cognitive architecture of the human brain. On the left is <span
-g="long_term_memory" i="long-term memory">long-term memory</span> (LTM), which
+the cognitive architecture of the human brain. On the left is [% i "long-term memory" %][% g long_term_memory %]long-term memory[% /g %][% /i %] (LTM), which
 is where you store things like the spelling of your name and how that awful
 clown scared you when you were ten years old. It is very large---you can keep
 adding to it as long as you live---but you don't have direct conscious access to
 it.
 
-Instead, evolution has given you a second subsystem called <span
-g="short_term_memory" i="short-term memory">short-term memory</span> (STM) or
-<span g="working_memory" i="working memory">working memory</span>. (More
+Instead, evolution has given you a second subsystem called [% i "short-term memory" %][% g short_term_memory %]short-term memory[% /g %][% /i %] (STM) or
+[% i "working memory" %][% g working_memory %]working memory[% /g %][% /i %]. (More
 sophisticated models distinguish between these two concepts, but this simple
 model is good enough for our needs.)  You are constantly fetching things from
 LTM into STM to use them, then re-encoding them and writing them back to LTM.
@@ -224,15 +214,12 @@ many new ideas are presented too quickly, the new arrivals will knock older ones
 out of STM before you have a chance to encode them and store them in LTM, so
 learning won't take place.
 
-This realization and others have produced the theory of <span g="cognitive_load"
-i="cognitive load theory">cognitive load</span>, which (among other things)
+This realization and others have produced the theory of [% i "cognitive load theory" %][% g cognitive_load %]cognitive load[% /g %][% /i %], which (among other things)
 divides the things you have to do while learning into three categories. The
-<span g="intrinsic_load" i="intrinsic load; cognitive load!intrinsic">intrinsic
-load</span> is the thinking that is required by the learning task itself. The
-<span g="germane_load" i="germane load; cognitive load!germane">germane</span>
+[% i "intrinsic load" "cognitive load!intrinsic" %][% g intrinsic_load %]intrinsic load[% /g %][% /i %] is the thinking that is required by the learning task itself. The
+[% i "germane load" "cognitive load!germane" %][% g germane_load %]germane[% /g %][% /i %]
 (or relevant) load is the other thinking that the problem requires, but which
-isn't the focus of the lesson, while the <span g="extraneous_load" i="extraneous
-load; cognitive load!extraneous">extraneous load</span> is everything you're
+isn't the focus of the lesson, while the [% i "extraneous load" "cognitive load!extraneous" %][% g extraneous_load %]extraneous load[% /g %][% /i %] is everything you're
 being asked to do that is irrelevant.
 
 For example, suppose you are learning the grammar of Frisian. If I ask you to
@@ -257,8 +244,7 @@ can focus on mastering concepts like assignment and loops. It also explains why
 working with code written in a mix of styles is so painful: each minor
 difference adds extraneous load.
 
-In order to handle larger sets of information, our minds create <span
-g="chunking" i="chunking; short-term memory!chunking">chunks</span> that only
+In order to handle larger sets of information, our minds create [% i "chunking" "short-term memory!chunking" %][% g chunking %]chunks[% /g %][% /i %] that only
 take up one slot in STM.  For example, most of us remember words as single items
 rather than as sequences of letters.  Similarly, the pattern made by five spots
 on cards or dice is remembered as a whole rather than as five separate pieces of
@@ -385,9 +371,7 @@ work, everyone now agrees that they *do*.
     a program.)  Drawing a diagram without labels and then coming back later to
     label it is excellent retrieval practice.
 
-One powerful finding in learning research is the <span
-g="hypercorrection_effect" i="hypercorrection effect">hypercorrection
-effect</span> [% b Metcalfe2016 %].  Most people don't like to be told
+One powerful finding in learning research is the [% i "hypercorrection effect" %][% g hypercorrection_effect %]hypercorrection effect[% /g %][% /i %] [% b Metcalfe2016 %].  Most people don't like to be told
 they're wrong, so it would be reasonable to assume that the more confident
 someone is in the answer they've given on a test, the harder it is to change
 their mind if they were actually wrong.  It turns out that the opposite is true:

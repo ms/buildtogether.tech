@@ -32,13 +32,10 @@ exist. <span class="indexref" key="version control!CVS;CVS (version control)" ma
 was the workhorse of the open source world for many years; it was replaced by
 <span class="indexref" key="version control!Subversion;Subversion (version
 control)" markdown="1"><a href="https://subversion.apache.org/">Subversion</a></span>, which fixed many of its predecessor's
-flaws while introducing a few minor ones of its own. Both of these were <span
-g="centralized_system" i="version control!centralized">centralized
-systems</span>:</p>
+flaws while introducing a few minor ones of its own. Both of these were <span class="indexref" key="version control!centralized" markdown="1"><a class="glossref" href="../glossary/#centralized_system" markdown="1">centralized systems</a></span>:</p>
 <ol>
 <li>
-<p>One <span g="repository" i="version control!repository; repository (version
-    control)">repository</span> stored the definitive copy of the project's
+<p>One <span class="indexref" key="version control!repository;repository (version control)" markdown="1"><a class="glossref" href="../glossary/#repository" markdown="1">repository</a></span> stored the definitive copy of the project's
     files.</p>
 </li>
 <li>
@@ -52,16 +49,14 @@ systems</span>:</p>
     changes from the main repository and combine them with their own work.</p>
 </li>
 </ol>
-<p>Centralized version control systems have largely been replaced by <span
-g="decentralized_system" i="version control!decentralized">decentralized</span>
+<p>Centralized version control systems have largely been replaced by <span class="indexref" key="version control!decentralized" markdown="1"><a class="glossref" href="../glossary/#decentralized_system" markdown="1">decentralized</a></span>
 ones, and in particular by <span class="indexref" key="version
 control!Git;Git" markdown="1"><a href="https://git-scm.com/">Git</a></span>. In theory, Git doesn't need a main
 repository: developers can merge the contents of any repository into any other.
 In practice, almost every project designates one repository as the master copy
 so that people know where to look to find the current state of the project.</p>
 <p>Unfortunately, Git has a needlessly complicated interface.
-[<a href="../bibliography/#PerezDeRosso2013">PerezDeRosso2013</a>] found that even experienced users have a <span
-g="mental_model" i="mental model!Git">mental model</span> of how it works that
+[<a href="../bibliography/#PerezDeRosso2013">PerezDeRosso2013</a>] found that even experienced users have a <span class="indexref" key="mental model!Git" markdown="1"><a class="glossref" href="../glossary/#mental_model" markdown="1">mental model</a></span> of how it works that
 contradicts its actual operation in important ways, and each of those
 contradictions produces a steady stream of "what the hell?"  moments. Other
 distributed version control systems like <span class="indexref" key="version control!Mercurial;Mercurial (version control)" markdown="1"><a href="https://www.mercurial-scm.org/">Mercurial</a></span> are proof that this
@@ -74,7 +69,7 @@ answer these days is, "Because it's the tax they have to pay in order to use
 <a href="https://github.com/">GitHub</a>." At the time of writing, GitHub has over 40 million users and
 hosts over 28 million public repositories, including those for many well-known
 open source projects. It is easily the most popular
-<span g="software_portal" i="software portal!GitHub">software portal</span> in existence, and
+<span class="indexref" key="software portal!GitHub" markdown="1"><a class="glossref" href="../glossary/#software_portal" markdown="1">software portal</a></span> in existence, and
 offers all of the tools a small software team needs. Other portals exist, such
 as <span class="indexref" key="Bitbucket;software portal!Bitbucket" markdown="1"><a href="https://bitbucket.org/">Bitbucket</a></span>
 and <span class="indexref" key="GitLab;software portal!GitLab" markdown="1"><a href="https://gitlab.com/">GitLab</a></span>, but
@@ -153,8 +148,7 @@ please see [<a href="../bibliography/#Chacon2014">Chacon2014</a>] or [<a href=".
 </blockquote>
 <p>If your instructor or one of your teammates has already created a project, you
 won't use <code>git init</code>. Instead, you will use <code>git clone</code> followed by the
-project's URL to get a local copy called a <span g="clone_git" i="Git!cloning
-project">clone</span>. For example, if you want a clone of this book, you can do
+project's URL to get a local copy called a <span class="indexref" key="Git!cloning project" markdown="1"><a class="glossref" href="../glossary/#clone_git" markdown="1">clone</a></span>. For example, if you want a clone of this book, you can do
 this:</p>
 <pre><code class="language-sh">$ git clone https://github.com/gvwilson/buildtogether.tech.git
 </code></pre>
@@ -199,14 +193,12 @@ Date:   Wed Feb 17 20:48:04 2021 -0500
 <li>
 <p>Two lines showing who saved the state of the project and when. The name and
     email address in the <code>Author</code> field are the ones we set up with <code>git
-    config</code>; the <span g="timestamp" i="timestamp!of Git
-    commit">timestamp</span> is accurate to the second, and includes time zone
+    config</code>; the <span class="indexref" key="timestamp!of Git commit" markdown="1"><a class="glossref" href="../glossary/#timestamp" markdown="1">timestamp</a></span> is accurate to the second, and includes time zone
     information like the <code>-0500</code> showing that I'm in Eastern time so that anyone
     in the world can tell exactly when these files were saved.</p>
 </li>
 <li>
-<p>A short comment called a <span g="commit_message" i="commit message (version
-    control); Git!commit message">commit message</span> that tells us what this
+<p>A short comment called a <span class="indexref" key="commit message (version control);Git!commit message" markdown="1"><a class="glossref" href="../glossary/#commit_message" markdown="1">commit message</a></span> that tells us what this
     change is all about. We will take a look in <a section="git-team"/> at how to
     write a good commit message; for now, just remember that if you and your
     teammates have made a hundred changes to the project over the course of ten
@@ -214,8 +206,7 @@ Date:   Wed Feb 17 20:48:04 2021 -0500
     stuff."</p>
 </li>
 </ul>
-<p>All right: what are <span g="commit" i="commit (version control);
-Git!commit">commits</span> and where do they come from? A commit is a snapshot
+<p>All right: what are <span class="indexref" key="commit (version control);Git!commit" markdown="1"><a class="glossref" href="../glossary/#commit" markdown="1">commits</a></span> and where do they come from? A commit is a snapshot
 of the project at a particular moment in time; we create them using a command
 like:</p>
 <pre><code class="language-sh">$ git commit -m &quot;Made the status bar display the user name&quot;
@@ -316,7 +307,7 @@ intact.</p>
 my drive fails or my laptop is stolen I don't lose everything I've done. If I
 created the repository by cloning something on GitHub, then Git will
 automatically have created a bookmark called a
-<span g="remote_git" i="Git!remote; remote (in Git)">remote</span> that points
+<span class="indexref" key="Git!remote;remote (in Git)" markdown="1"><a class="glossref" href="../glossary/#remote_git" markdown="1">remote</a></span> that points
 at the original repository. I can get a list of remotes like this:</p>
 <pre><code class="language-sh">$ git remote -v
 </code></pre>
@@ -362,7 +353,7 @@ changes; we'll explore this in <a section="tooling"/>.</p>
 <p>So far we have only used a sequential timeline with Git: each change builds on
 the one before, and <em>only</em> on the one before.  However, there are times when we
 want to work on several things at once.  To do this, we can use
-<span g="branch_git" i="branch (in Git); Git!branch">branches</span> to work on
+<span class="indexref" key="branch (in Git);Git!branch" markdown="1"><a class="glossref" href="../glossary/#branch_git" markdown="1">branches</a></span> to work on
 separate tasks in parallel.  Each branch is like a parallel timeline: changes made
 to one branch have no effect on other branches unless and until we explicitly merge
 them.</p>
@@ -416,8 +407,7 @@ and classes allows us to ignore the details of <em>this</em> when we're working 
 <em>that</em>. For example, if we are close to finishing homework 3 but want to get an
 early start on homework 4, we can create a new branch from <code>main</code> called
 <code>homework4</code> and start setting things up in there.</p>
-<p>When we are done, we can <span g="merge_git" i="merge (in Git);
-Git!merge">merge</span> the state of one branch back into another. Merging
+<p>When we are done, we can <span class="indexref" key="merge (in Git);Git!merge" markdown="1"><a class="glossref" href="../glossary/#merge_git" markdown="1">merge</a></span> the state of one branch back into another. Merging
 doesn't change the source branch, but once it's done, all of the changes made
 there are in the destination branch.</p>
 <p>To see what the differences are between two branches, we use <span class="indexref" key="Git!viewing differences" markdown="1"><code>git diff</code></span> with those branches' names:</p>
@@ -478,8 +468,7 @@ the <code>homework3</code> branch, so we can delete it:</p>
 <pre><code class="language-out">Deleted branch homework3 (was 1577404).
 </code></pre>
 <p>Merging <code>homework3</code> into <code>main</code> went smoothly, but if we are going to use
-branches, we must learn how to merge <span g="conflict_git" i="conflict (in
-Git); Git!conflict">conflicts</span>.  These occur when a line has been changed
+branches, we must learn how to merge <span class="indexref" key="conflict (in Git);Git!conflict" markdown="1"><a class="glossref" href="../glossary/#conflict_git" markdown="1">conflicts</a></span>.  These occur when a line has been changed
 in different ways in two branches or when a file has been deleted in one branch
 but edited in the other.</p>
 <p>If the file <code>README.md</code> has been changed in both <code>main</code> and <code>homework4</code>,

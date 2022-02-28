@@ -93,7 +93,7 @@ draw the following:
     falls back on them eventually (particularly during difficult debugging
     sessions).
 
-The systems' <span g="conceptual_architecture" i="conceptual architecture!diagram; diagrams!conceptual architecture">conceptual architecture</span>.
+The systems' [% i "conceptual architecture!diagram" "diagrams!conceptual architecture" %][% g conceptual_architecture %]conceptual architecture[% /g %][% /i %].
 :   This shows how the important parts of the system fit together. It's also
     the least constrained, since it can include everything from specific
     sections of configuration files to class hierarchies to replicated web
@@ -114,17 +114,14 @@ The system's [% i "physical architecture!diagram" "diagrams!physical architectur
     directories, and circles showing running processes. A lot of this stuff can
     show up in the conceptual architecture as well.
 
-<span g="workflow_diagram" i="workflow diagram; diagrams!workflow">Workflow diagrams</span> that show how users accomplish things.
-:   Workflows are almost always drawn as <span g="fsm" i="finite state
-    machines!use in software design">finite state machines</span>. Each node
+[% i "workflow diagram" "diagrams!workflow" %][% g workflow_diagram %]Workflow diagrams[% /g %][% /i %] that show how users accomplish things.
+:   Workflows are almost always drawn as [% i "finite state machines!use in software design" %][% g fsm %]finite state machines[% /g %][% /i %]. Each node
     represents a state the user and the system can be in, while the arcs show
     how to get from one state to another.
 
 Schemas or data models.
 :   These can be fairly literal pictures of the tables in a database, possibly
-    augmented with arrows to show what's a foreign key for what, or <span
-    g="er_diagram" i="entity-relationship diagram;
-    diagrams!entity-relationship">entity-relationship diagrams</span> that also
+    augmented with arrows to show what's a foreign key for what, or [% i "entity-relationship diagram" "diagrams!entity-relationship" %][% g er_diagram %]entity-relationship diagrams[% /g %][% /i %] that also
     show which relationships are one-to-one, one-to-many, and so on
     (<a figure="er-diagram"/>).
 
@@ -134,13 +131,11 @@ Schemas or data models.
 </figure>
 
 The two kinds of diagram that I find most useful are ER diagrams and a
-combination of conceptual and <span g="use_case_map" i="use-case map;
-diagrams!use-case map">use-case maps</span> [% b Reekie2006 %].  The
+combination of conceptual and [% i "use-case map" "diagrams!use-case map" %][% g use_case_map %]use-case maps[% /g %][% /i %] [% b Reekie2006 %].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
 (<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
-of systems built from lots of <span g="microservice"
-i="microservice">microservices</span>.
+of systems built from lots of [% i "microservice" %][% g microservice %]microservices[% /g %][% /i %].
 
 <figure id="use-case-map">
   <img src="use-case-map.png" alt="Use case maps"/>
@@ -149,8 +144,7 @@ i="microservice">microservices</span>.
 
 > ### UML and why not
 >
-> I'm not a fan of the <span g="uml" i="Unified Modeling Language">Unified
-> Modeling Language</span> (UML). It defines over a dozen different types of
+> I'm not a fan of the [% i "Unified Modeling Language" %][% g uml %]Unified > Modeling Language[% /g %][% /i %] (UML). It defines over a dozen different types of
 > diagrams for showing the relationships between classes, the order in which
 > things happen when methods are invoked, the states a system goes through when
 > performing an action, and so on.  Hundreds of books and thousands of articles
@@ -181,7 +175,7 @@ Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
 to write your [% i "elevator pitch" %]elevator pitch[% /i %]
 (<a section="starting"/>). Next, write one or two point-form
-<span g="user_story" i="user story!use in software design">user stories</span>
+[% i "user story!use in software design" %][% g user_story %]user stories[% /g %][% /i %]
 describing how the application, feature, or library would be used. Be as concrete
 as possible: instead of saying, "Allows the user to find overlaps between their
 calendar and their friends' calendars," say:
@@ -233,14 +227,11 @@ any previous decisions that your most recent decisions affect. Design is a very
 cyclic process: every time you add or change one thing, no matter how small, you
 may need to go back and re-design other things.
 
-There are three traps here for the inexperienced. The first is <span
-g="analysis_paralysis" i="analysis paralysis">analysis paralysis</span>, where
+There are three traps here for the inexperienced. The first is [% i "analysis paralysis" %][% g analysis_paralysis %]analysis paralysis[% /g %][% /i %], where
 you find yourself revisiting issues over and over again without ever making any
-decisions that stick. The second is <span g="nih" i="not invented here
-syndrome">not invented here</span> syndrome, which leads people to say, "Sure,
+decisions that stick. The second is [% i "not invented here syndrome" %][% g nih %]not invented here[% /g %][% /i %] syndrome, which leads people to say, "Sure,
 there's a library that does that, but I didn't write it so I'm not going to use
-it."  Its complement is <span g="aih" i="already invented here syndrome">already
-invented here</span> syndrome, in which someone says, "Look, we've already made
+it."  Its complement is [% i "already invented here syndrome" %][% g aih %]already invented here[% /g %][% /i %] syndrome, in which someone says, "Look, we've already made
 a decision about that, let's not reopen the debate." Any of these can sink a
 project; together, they show why it's so hard to teach design, since what I'm
 basically saying is, "Argue enough, but not too much."
@@ -264,9 +255,7 @@ How easily we can swap one component for another in order to test a system is
 one way to tell how well designed that system is (<a section="testing"/>). Another
 is how easily we can modify or [% i "software design!evolution" %]extend[% /i %]
 the system to do new things. If our design is perfect, we can implement changes
-by adding code without modifying what's already there.  This is called the <span
-g="open_closed_principle" i="Open-Closed Principle">Open-Closed
-Principle</span>: systems should be open for extension, but closed for
+by adding code without modifying what's already there.  This is called the [% i "Open-Closed Principle" %][% g open_closed_principle %]Open-Closed Principle[% /g %][% /i %]: systems should be open for extension, but closed for
 modification.
 
 For example, suppose that we are simulating a hospital emergency room. We could
@@ -352,13 +341,9 @@ that we can add new actors *and* new events without having to go back and change
 old code.
 
 But how can we be sure that our new code is going to do what the old code
-expects? The answer is a technique called <span g="design_by_contract" i="design
-by contract">design by contract</span>. Every function or method specifies <span
-g="pre_condition" i="pre-condition">pre-conditions</span> that must be true of
-its inputs in order for it to run successfully and <span g="post_condition"
-i="post-condition">post-conditions</span> that are guaranteed to be true of its
-results. <span g="type_declaration" i="type declaration!use in software
-design">Type declarations</span> are the most common kind of pre-condition and
+expects? The answer is a technique called [% i "design by contract" %][% g design_by_contract %]design by contract[% /g %][% /i %]. Every function or method specifies [% i "pre-condition" %][% g pre_condition %]pre-conditions[% /g %][% /i %] that must be true of
+its inputs in order for it to run successfully and [% i "post-condition" %][% g post_condition %]post-conditions[% /g %][% /i %] that are guaranteed to be true of its
+results. [% i "type declaration!use in software design" %][% g type_declaration %]Type declarations[% /g %][% /i %] are the most common kind of pre-condition and
 post-condition: they say things like, "The input must be a list of strings,"
 and, "The output is a single string." More sophisticated pre-conditions and
 post-conditions can be written as assertions that (for example) check that all
@@ -434,7 +419,7 @@ Configuration files.
     testing).
     <br/>
     Configuration files are often
-    <span g="layered_configuration" i="configuration!layered">layered</span>:
+    [% i "configuration!layered" %][% g layered_configuration %]layered[% /g %][% /i %]:
     the program reads a global
     configuration file with general settings, then a user-specific configuration
     file (typically in the user's home directory) with the user's preferences,
@@ -451,9 +436,7 @@ A programming interface.
     combines those libraries. Users can then write code of their own to control
     the libraries if they want to extend the application's behavior.
 
-The last of these is what we mean by saying that something is <span
-g="scriptable" i="scriptability; software
-design!scriptability">scriptable</span>.  One of the things that made Microsoft
+The last of these is what we mean by saying that something is [% i "scriptability" "software design!scriptability" %][% g scriptable %]scriptable[% /g %][% /i %].  One of the things that made Microsoft
 Office so popular was users' ability to write scripts for Word, Excel, and other
 tools in [% i "Visual Basic" %][Visual Basic][visual-basic][% /i %].  Today,
 many games include a scripting language like [% i "Lua" %][Lua][lua][% /i %] so
@@ -470,8 +453,7 @@ this password" and to interrogate the system's state afterward.
 > similar, "I realize it's popular, but it's merely useful."
 
 The other way to script something is through an external interface.  Most web
-applications these days provide some sort of <span g="rest" i="Representational
-State Transfer; REST">REST</span> API so that programs can send requests or post
+applications these days provide some sort of [% i "Representational State Transfer" "REST" %][% g rest %]REST[% /g %][% /i %] API so that programs can send requests or post
 data via HTTP to control the app's behavior. Many of these require programs to
 authenticate in order to prove that they have a right to do what they want to;
 as soon as we're thinking about that, we need to think about the topic of the
@@ -545,8 +527,7 @@ sides are given by the first part and the second part".
 
 This difference implies that the software that is quickest for a novice to
 comprehend will almost certainly be different from the software that an expert
-can understand most quickly, which is why design rules like <span g="dry"
-i="Don't Repeat Yourself">Don't Repeat Yourself</span> should be followed by the
+can understand most quickly, which is why design rules like [% i "Don't Repeat Yourself" %][% g dry %]Don't Repeat Yourself[% /g %][% /i %] should be followed by the
 word "however".  Duplicating some code so that it's right in front of the reader
 may help people at one level of development, even if it makes long-term
 maintenance more difficult for people at another level.  In the end, the only

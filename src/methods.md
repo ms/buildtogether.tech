@@ -52,9 +52,8 @@ disposal and what they're good for.
 The first method that empirical research uses is [% i "controlled
 experiments" %]controlled experiments[% /i %]: subjects are given a task and some
 aspect of their performance is measured.  Subjects are typically divided into a
-<span g="control_group" i="control group">control group</span> (who do things as
-normal) and a <span g="treatment_group" i="treatment group">treatment
-group</span> (who do things in an alternative way). If the difference between
+[% i "control group" %][% g control_group %]control group[% /g %][% /i %] (who do things as
+normal) and a [% i "treatment group" %][% g treatment_group %]treatment group[% /g %][% /i %] (who do things in an alternative way). If the difference between
 the groups is large enough statistically, the experimenter can say that the
 treatment probably has an effect on outcomes.
 
@@ -64,10 +63,9 @@ There are several traps in this for the unwary [% b DeOliveiraNeto2019 %]:
 :   People have many biases, both conscious and unconscious.  In order to make
     sure that these don't inadvertently affect the results, subjects should be
     assigned to groups at random. Going even further, experiments in medicine
-    are often <span g="double_blind" i="double blind experiments">double
-    blind</span>: neither the subject nor the person administering the treatment
+    are often [% i "double blind experiments" %][% g double_blind %]double blind[% /g %][% /i %]: neither the subject nor the person administering the treatment
     knows which subjects are getting the new heart medication and which are
-    getting a <span g="placebo" i="placebo">placebo</span>. It's usually not
+    getting a [% i "placebo" %][% g placebo %]placebo[% /g %][% /i %]. It's usually not
     possible to achieve this when doing software engineering experiments.
 
 [% i "significance hacking" %]Significance hacking[% /i %].
@@ -76,8 +74,7 @@ There are several traps in this for the unwary [% b DeOliveiraNeto2019 %]:
     significance. For example, there is a strong correlation between the number
     of letters in winning words in spelling competitions and the number of
     people killed by venomous spiders [% b Vigen2015 %]. To guard against
-    this, researchers should <span g="pre_registration" i="pre-registration of
-    experiments">pre-register</span> their analyses, i.e., say in advance what
+    this, researchers should [% i "pre-registration of experiments" %][% g pre_registration %]pre-register[% /g %][% /i %] their analyses, i.e., say in advance what
     they're going to compare against what, and then use various statistical
     techniques that require a higher standard of proof when they are checking
     more possible combinations.
@@ -97,13 +94,10 @@ evidence base over time in multiple experiments, increasing the sample size and
 improving the methodology each time to get a stronger answer for a more specific
 question.
 
-Researchers often rely on <span g="quasi_experiment"
-i="quasi-experiment">quasi-experiments</span> when doing this, i.e., they look
+Researchers often rely on [% i "quasi-experiment" %][% g quasi_experiment %]quasi-experiments[% /g %][% /i %] when doing this, i.e., they look
 at pre-existing groups like programmers who have decided for themselves to use a
 new IDE against ones who have not. Quasi-experiments are cheaper and easier to
-set up, but researchers must be careful to account for <span
-g="confounding_variables" i="confounding variable">confounding
-variables</span>. For example, are programmers who choose to use an IDE younger
+set up, but researchers must be careful to account for [% i "confounding variable" %][% g confounding_variables %]confounding variables[% /g %][% /i %]. For example, are programmers who choose to use an IDE younger
 and therefore less experienced than ones who use legacy text editors? If so, how
 does that difference skew the results?
 
@@ -111,8 +105,7 @@ does that difference skew the results?
 
 Quasi-experiments blend into the second major research approach, which uses
 statistics and machine learning to find patterns in whatever data the researcher
-can get her hands on. Doing this is called <span g="data_mining" i="data
-mining">data mining</span>, and most studies of this kind make use of the wealth
+can get her hands on. Doing this is called [% i "data mining" %][% g data_mining %]data mining[% /g %][% /i %], and most studies of this kind make use of the wealth
 of information available online at sites like [GitHub]][github] and [Stack
 Overflow][stack-overflow] or from millions of crash reports collected online
 [% b Glerum2009 %].  Data mining has produced many valuable insights, but
@@ -122,9 +115,7 @@ interpreted cautiously.
 
 One problem with data mining is that once again, correlation doesn't imply
 causation.  Another is that we usually don't know whether the data we have
-access to is representative.  In 2012, Scott Hanselman coined the term <span
-g="dark_matter_developer" i="dark matter developer">dark matter
-developers</span> to describe programmers who don't blog, don't answer questions
+access to is representative.  In 2012, Scott Hanselman coined the term [% i "dark matter developer" %][% g dark_matter_developer %]dark matter developers[% /g %][% /i %] to describe programmers who don't blog, don't answer questions
 in online forums, don't have their work in public repositories, and so on. Just
 as dark matter makes up most of the universe, dark matter developers make up
 most of our industry, and just as the matter we can see is vanishingly atypical,
@@ -154,8 +145,7 @@ small signs that make many people feel out of place [% b Cheryan2009 %].
 
 ## Qualitative Methods
 
-The third set of approaches are called <span g="qualitative_method"
-i="qualitative methods">qualitative methods</span>, and involve close analysis
+The third set of approaches are called [% i "qualitative methods" %][% g qualitative_method %]qualitative methods[% /g %][% /i %], and involve close analysis
 of a small number of cases to tease out common patterns.  Articles like
 [% b Sharp2016 %] do an excellent job of explaining how these methods work
 and what their strengths and limitations are.

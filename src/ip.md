@@ -53,8 +53,7 @@ you and other people have.
 
 ## Intellectual Property
 
-<span g="intellectual_property" i="intellectual property">Intellectual
-property</span> (IP) is a catch-all term that covers four separate kinds of
+[% i "intellectual property" %][% g intellectual_property %]Intellectual property[% /g %][% /i %] (IP) is a catch-all term that covers four separate kinds of
 rights: copyrights, patents, trade secrets, and trademarks. Each of these has
 evolved over several centuries to address the economic and moral concerns of
 people powerful enough to influence law-making. What ties them together is that,
@@ -63,15 +62,14 @@ copy. IP exists to ensure that creators can earn enough from producing
 intangible goods that they can keep doing it. Each kind of IP therefore gives
 its holder a limited monopoly over some kind of information.
 
-<span g="copyright" i="copyright; intellectual
-property!copyright">Copyrights</span> apply to any original expression that
+[% i "copyright" "intellectual property!copyright" %][% g copyright %]Copyrights[% /g %][% /i %] apply to any original expression that
 anyone creates. While people can't (yet) own facts, they *can* own any
 representation of those facts that contains an element of creativity.  As a
 result of this broad scope, there are several exceptions to copyright, making it
 the weakest protection available. When placed in the proper context, however,
 copyright is a powerful tool for IP protection.
 
-<span g="patent" i="patent; intellectual property!patent">Patents</span> apply
+[% i "patent" "intellectual property!patent" %][% g patent %]Patents[% /g %][% /i %] apply
 to inventions, technological improvements, certain designs, business methods,
 and a few other things. They grant a monopoly---the right to exclude others from
 using the patented idea---for a fixed period of time (usually twenty years).
@@ -83,16 +81,12 @@ Patents are intended to be a bargain between the inventor and the public: the
 inventor discloses how the invention works (so that other people can learn from)
 and in exchange society ensures that she is the only one who can profit from it
 for a reasonable time. If an inventor doesn't want anyone to know how her
-invention works she can treat it as a <span g="trade_secret" i="trade secret;
-intellectual property!trade secret">trade secret</span>.  This isn't a property
-right as such, but rather the practice of relying on things like <span
-g="non_disclosure_agreement" i="non-disclosure agreement">non-disclosure
-agreements</span> (NDA) to keep something secret. There is less risk of someone
+invention works she can treat it as a [% i "trade secret" "intellectual property!trade secret" %][% g trade_secret %]trade secret[% /g %][% /i %].  This isn't a property
+right as such, but rather the practice of relying on things like [% i "non-disclosure agreement" %][% g non_disclosure_agreement %]non-disclosure agreements[% /g %][% /i %] (NDA) to keep something secret. There is less risk of someone
 being inspired by your idea to create something better, but if the idea *does*
 leak, the inventor has less legal protection.
 
-Finally, <span g="trademark" i="trademark; intellectual
-property!trademark">trademarks</span> allow people to tell whether a product is
+Finally, [% i "trademark" "intellectual property!trademark" %][% g trademark %]trademarks[% /g %][% /i %] allow people to tell whether a product is
 authentic or not. Given that everyone has limited time in which to make
 decisions, a brand name acts as a form of mental shorthand: if company XYZ has a
 reputation for high quality or low prices, or if a particular medication has
@@ -101,7 +95,7 @@ itself has commercial value.
 
 ## Software Licenses
 
-A <span g="license" i="license!software; software license">license</span>
+A [% i "license!software" "software license" %][% g license %]license[% /g %][% /i %]
 dictates how project materials can be used and redistributed.  If the license or
 a publication agreement makes it difficult for people to contribute, the project
 is less likely to attract new members, so the choice of license is crucial to
@@ -142,17 +136,12 @@ when creating a repository.  Unfortunately, their list does not include common
 licenses for data or written works like papers and reports.
 
 The [% i "Open Source Initiative" %][Open Source Initiative][osi][% /i %]
-maintains [a list][osi-license-list] of <span g="open_license" i="software
-license!open">open licenses</span>, and [choosealicense.com][choose-license]
+maintains [a list][osi-license-list] of [% i "software license!open" %][% g open_license %]open licenses[% /g %][% /i %], and [choosealicense.com][choose-license]
 will help us find a license that suits our needs.  In order to choose the right
 one, we need to understand the difference between two kinds of license.  The
-<span g="mit_license" i="MIT License; software license!MIT License">MIT
-License</span> and its close sibling the <span g="bsd_license" i="BSD License;
-software license!BSD License">BSD License</span> say that people can do whatever
+[% i "MIT License" "software license!MIT License" %][% g mit_license %]MIT License[% /g %][% /i %] and its close sibling the [% i "BSD License" "software license!BSD License" %][% g bsd_license %]BSD License[% /g %][% /i %] say that people can do whatever
 they want to with the software as long as they cite the original source, and
-that the authors accept no responsibility if things go wrong.  The <span g="gpl"
-i="GNU Public License (GPL); software license!GNU Public License (GPL)">GNU
-Public License</span> (GPL) gives people similar rights, but requires them to
+that the authors accept no responsibility if things go wrong.  The [% i "GNU Public License (GPL)" "software license!GNU Public License (GPL)" %][% g gpl %]GNU Public License[% /g %][% /i %] (GPL) gives people similar rights, but requires them to
 share their own work on the same terms:
 
 > You may copy, distribute and modify the software as long as you track
@@ -173,8 +162,7 @@ this safeguard.  We therefore [% i "software license!why to use the MIT
 License" %]recommend[% /i %] that projects choose the MIT license, as it places the
 fewest restrictions on future action.
 
-The <span g="hippocratic_license" i="Hippocratic License; software
-license!Hippocratic License">Hippocratic License</span> is a newer license;
+The [% i "Hippocratic License" "software license!Hippocratic License" %][% g hippocratic_license %]Hippocratic License[% /g %][% /i %] is a newer license;
 where the GPL requires people to share their work, the Hippocratic License
 requires them to do no harm.  More precisely, it forbids people from using the
 software in ways that violate the
@@ -203,16 +191,14 @@ licenses are those produced by [% i "Creative Commons" %][Creative
 Commons][creative-commons][% /i %].  These have been written and checked by
 lawyers and are well understood by the community.
 
-The most liberal option is referred to as <span g="cc0" i="Creative Commons!CC0
-license; CC0 license">CC0</span> where the "0" stands for "zero restrictions".
+The most liberal option is referred to as [% i "Creative Commons!CC0 license" "CC0 license" %][% g cc0 %]CC0[% /g %][% /i %] where the "0" stands for "zero restrictions".
 This puts work in the public domain, i.e., allows anyone who wants to use it to
 do so however they want with no restrictions.  CC0 is usually the best choice
 for data, since it simplifies aggregate analysis involving datasets from
 different sources.
 
 The next step up is the Creative Commons--Attribution license, usually referred
-to as <span g="cc_by" i="Creative Commons!CC-BY license; CC-BY
-license">CC-BY</span>. This allows people to do whatever they want to with the
+to as [% i "Creative Commons!CC-BY license" "CC-BY license" %][% g cc_by %]CC-BY[% /g %][% /i %]. This allows people to do whatever they want to with the
 work as long as they cite the original source.  This is the best license to use
 for papers and report, since you want people to share them widely but also want
 to get credit for your work.

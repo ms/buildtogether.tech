@@ -122,7 +122,7 @@ sure the offender gets a copy as well, and ask the instructor to arrange a
 meeting to resolve the issue.
 
 One technique your instructor may ask you to use in a meeting of this kind is
-<span g="active_listening" i="active listening">active listening</span>. When
+[% i "active listening" %][% g active_listening %]active listening[% /g %][% /i %]. When
 one person makes a point, the person on the other side of the issue explains it
 back to them, as in, "So what I think Igor is saying is…" This confirms that the
 second person has actually paid attention to what the first person said. It can
@@ -132,7 +132,7 @@ moments.
 
 > ### Hitchhikers
 >
-> <span g="hitchhiker" i="hitchhiker">Hitchhikers</span> who show up but never
+> [% i "hitchhiker" %][% g hitchhiker %]Hitchhikers[% /g %][% /i %] who show up but never
 > actually do anything are particularly difficult to manage, in part because they
 > are usually very good at appearing reasonable.  They will nod as you present our
 > case, then say, "Well, yes, but…" and list a bunch of minor exceptions or cases

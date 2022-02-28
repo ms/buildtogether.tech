@@ -66,8 +66,7 @@ Have and enforce a [% i "Code of Conduct" %]Code of Conduct[% /i %].
 Develop forms of legitimate peripheral participation.
 :   Newcomers become members of a community by participating in simple, low-risk
     tasks that existing community members believe are valuable. Through this
-    <span g="lpp" i="legitimate peripheral participation">legitimate peripheral
-    participation</span>, newcomers become acquainted with the community's
+    [% i "legitimate peripheral participation" %][% g lpp %]legitimate peripheral participation[% /g %][% /i %], newcomers become acquainted with the community's
     tasks, vocabulary, and governance so that they can ease into the
     project. For example, submitting pull requests on GitHub can be daunting for
     newcomers; asking people to file issues about bugs they have found requires

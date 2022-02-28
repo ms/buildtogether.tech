@@ -103,8 +103,7 @@ Post a public description of the hiring process.
     time is expected, and the principles everything is based on.
 
 Use blinded screening.
-:   Everyone has <span g="implicit_bias" i="implicit bias">implicit
-    biases</span>, and many of the rules scientists follow when running
+:   Everyone has [% i "implicit bias" %][% g implicit_bias %]implicit biases[% /g %][% /i %], and many of the rules scientists follow when running
     experiments are designed to prevent their biases contaminating their results
     (<a section="research"/>).  The same is true of hiring, and so is the
     solution. For example, my first-round interview with Automattic was done
@@ -246,7 +245,7 @@ of what customers pay goes to its upkeep, and the rest goes to the workers
 [% b Thompson2019 %].  There might be one less billionaire in the world,
 but everyone else benefits.
 
-Up & Go is an example of a <span g="commons" i="commons">commons</span>:
+Up & Go is an example of a [% i "commons" %][% g commons %]commons[% /g %][% /i %]:
 something managed jointly by a community according to rules they have evolved
 themselves.  All three parts of that definition are essential: a commons isn't
 just a shared pasture or an open source software stack; it also includes the
@@ -275,12 +274,12 @@ happens when a commons breaks down.
 
 You might think there isn't a lot you can do as a student or as a junior
 programmer to fix what's broken in our industry, but there is.  An
-<span g="ally" i="ally">ally</span> is a someone with unearned advantages who tries to
+[% i "ally" %][% g ally %]ally[% /g %][% /i %] is a someone with unearned advantages who tries to
 understand their own privilege and create an environment that's fair for
 everyone.  As [this guide][dlf-active-bystander] from the [Digital Library
 Foundation][dlf] explains, there are several ways to be an
-<span g="active_bystander" i="active bystander">active bystander</span>, i.e., several ways to
-<span g="lending_privilege" i="lending privilege">lend your privilege</span> to
+[% i "active bystander" %][% g active_bystander %]active bystander[% /g %][% /i %], i.e., several ways to
+[% i "lending privilege" %][% g lending_privilege %]lend your privilege[% /g %][% /i %] to
 defuse situations and defend people who are being attacked.
 
 > ### Not acting is a choice as well

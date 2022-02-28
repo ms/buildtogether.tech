@@ -56,8 +56,7 @@ some key insight or action wasn't captured digitally. Similarly,
 several projects and found that many mis-report themselves in ways that will
 inevitably skew the results of simplistic analysis.</dd>
 </dl>
-<p>Historically, juries in Scotland were allowed to return one of <span
-g="scottish_verdict" i="Scottish verdict">three verdicts</span>: innocent,
+<p>Historically, juries in Scotland were allowed to return one of <span class="indexref" key="Scottish verdict" markdown="1"><a class="glossref" href="../glossary/#scottish_verdict" markdown="1">three verdicts</a></span>: innocent,
 guilty, or not proven.  The world would be a better place if we were all more
 comfortable saying, "I don't know," and with changing our minds as new evidence
 comes in.</p>
@@ -79,7 +78,7 @@ respectively.</p>
 <p>[<a href="../bibliography/#Sadowski2019a">Sadowski2019a</a>] summarizes of what we know, and more importantly, how
 to think about the problem.  The chapter [<a href="../bibliography/#Sadowski2019b">Sadowski2019b</a>] lays out a
 three-axis framework for discussion based on the
-<span g="gqm" i="Goal-Question-Metric">goal-question-metric</span> approach.
+<span class="indexref" key="Goal-Question-Metric" markdown="1"><a class="glossref" href="../glossary/#gqm" markdown="1">goal-question-metric</a></span> approach.
 The more recent <span class="indexref" key="SPACE framework;productivity!SPACE framework" markdown="1">SPACE framework</span> looks at
 Satisfaction, Performance, Activity, Communication, and Efficiency
 [<a href="../bibliography/#Forsgren2018">Forsgren2018</a>, <a href="../bibliography/#Forsgren2021">Forsgren2021</a>].  However productivity is measured, it's
@@ -122,7 +121,7 @@ usable and self-documenting APIs by guiding programmers toward the correct use
 of objects and preventing errors. Contrary to expectations, programmers strongly
 preferred and were more effective with APIs that did not require constructor
 parameters.  They then analyzed subjects' behavior using the
-<span g="cognitive_dimensions" i="cognitive dimensions framework">cognitive dimensions</span>
+<span class="indexref" key="cognitive dimensions framework" markdown="1"><a class="glossref" href="../glossary/#cognitive_dimensions" markdown="1">cognitive dimensions</a></span>
 framework, which showed that that requiring constructor parameters interfered
 with common learning strategies.</p>
 <p>[<a href="../bibliography/#Binkley2012">Binkley2012</a>] reported that <span class="indexref" key="reading code" markdown="1">reading</span> and
@@ -146,7 +145,7 @@ program comprehension for more experienced developers but not for less
 experienced developers.</p>
 </blockquote>
 <p>More recently, [<a href="../bibliography/#Floyd2017">Floyd2017</a>, <a href="../bibliography/#Krueger2020">Krueger2020</a>, <a href="../bibliography/#Peitek2021">Peitek2021</a>] have used
-<span g="fmri" i="reading code!fMRI studies">fMRI</span> to look at what programmers'
+<span class="indexref" key="reading code!fMRI studies" markdown="1"><a class="glossref" href="../glossary/#fmri" markdown="1">fMRI</a></span> to look at what programmers'
 brain do when they are reading or writing code. The main findings are that
 reading code is cognitively different from reading prose, but that the more
 experienced programmers are, the less of a difference there is. This
@@ -197,7 +196,7 @@ flow graph for:</p>
 <p>includes the statement on line 3, but the abstract interpretation flow graph
 doesn't, because there's no way it could ever be executed given the possible
 value(s) of <code>x</code>.  Code paths that are never executed signal
-<span g="dead_code" i="dead code">dead code</span>, which in turn usually signals logic errors, such
+<span class="indexref" key="dead code" markdown="1"><a class="glossref" href="../glossary/#dead_code" markdown="1">dead code</a></span>, which in turn usually signals logic errors, such
 as use of <code>and</code> instead of <code>or</code> in a logical test.  The results from this kind
 of analysis are impressive: the authors found that a lot of code in widely-used
 libraries is littered with unnecessary <code>null</code> checks, and that even experienced
@@ -240,8 +239,7 @@ exception into an unchecked exception so that it can be ignored.  Similarly,
 most programmers ignore Java's elaborate exception hierarchy and simply catch
 <code>Exception</code> (78%) or <code>Throwable</code> (84%) rather than any of their more specific
 subclasses.</p>
-<p>In a similar vein, [<a href="../bibliography/#Yuan2015">Yuan2015</a>] analyzed the <span g="root_cause"
-i="error!root cause analysis">root cause</span> of around 200 confirmed failures
+<p>In a similar vein, [<a href="../bibliography/#Yuan2015">Yuan2015</a>] analyzed the <span class="indexref" key="error!root cause analysis" markdown="1"><a class="glossref" href="../glossary/#root_cause" markdown="1">root cause</a></span> of around 200 confirmed failures
 in large distributed systems. They report many findings, but the key one is that
 92% of the catastrophic system failures are the result of incorrect handling of
 non-fatal errors explicitly signaled in software, i.e., the software said,
@@ -302,8 +300,7 @@ tested", i.e., their authors fix the breakages that users report, so that while
 they might not work in all situations, they work in all situations that matter.</p>
 <blockquote>
 <h3>What <em>can't</em> we learn?</h3>
-<p>Many people have put forward <span g="code_metric" i="code
-metrics!ineffectiveness of">code metrics</span> that are supposed to measure the
+<p>Many people have put forward <span class="indexref" key="code > metrics!ineffectiveness of" markdown="1"&gt;<a class="glossref" href="../glossary/#code_metric" markdown="1">code metrics</a></span> that are supposed to measure the
 complexity or likely number of bugs in a piece of software. However,
 [<a href="../bibliography/#ElEmam2001">ElEmam2001</a>] found that these metrics are no better at predicting
 things than simply counting the number of lines of code, because the longer the
@@ -312,7 +309,7 @@ more sophisticated metrics are looking for.</p>
 </blockquote>
 <h2>What Do We Know About Software Projects?</h2>
 <p>If there is one "law" of software development that most practitioners have heard
-of, it is <span g="brooks_law" i="Brook's Law">Brooks' Law</span>: adding people
+of, it is <span class="indexref" key="Brook's Law" markdown="1"><a class="glossref" href="../glossary/#brooks_law" markdown="1">Brooks' Law</a></span>: adding people
 to a late project makes it later. [<a href="../bibliography/#Meneely2011">Meneely2011</a>] explores the
 correlation between adding people to a team and the quality of the software the
 team works on.  The paper reports that adding people is correlated with a later
@@ -415,8 +412,7 @@ including expertise and task complexity" instead, as these factors overshadow
 any personality effects.</p>
 <blockquote>
 <h3>Myers-Briggs and other danger signs</h3>
-<p>The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
-pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
+<p>The <span class="indexref" key="Myers-Briggs Type Indicator;> pseudoscience!Myers-Briggs Type Indicator" markdown="1"&gt;<a class="glossref" href="../glossary/#myers_briggs" markdown="1">Myers-Briggs Type Indicator</a></span>
 advertises itself as personality profiling tool.  It is popular on dating sites
 and some companies use it as part of their interview process---despite the fact
 that it is complete bullshit.  Half or more of people who repeat the test within
@@ -466,8 +462,7 @@ people studying how we think when we program and how the ways we think should
 shape the tools we build. For example, [<a href="../bibliography/#Johnson2020">Johnson2020</a>] reverse
 engineers the cognitive foundations of user interface guidelines, while
 [<a href="../bibliography/#Chattopadhyay2020">Chattopadhyay2020</a>] found that roughly 70% of the actions programmers
-later undo could be attributed to <span g="cognitive_bias" i="cognitive
-bias">cognitive bias</span>.</p>
+later undo could be attributed to <span class="indexref" key="cognitive bias" markdown="1"><a class="glossref" href="../glossary/#cognitive_bias" markdown="1">cognitive bias</a></span>.</p>
 <p>You don't have to do a PhD to do this kind of research: you can gather and
 analyze data on your own, or collaborate with people in academia.  It takes time
 and there are frequent setbacks, but the same is true of programming, and being

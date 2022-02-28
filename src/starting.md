@@ -273,7 +273,7 @@ that it would actually work.
 
 Once you know where the goalposts are, the next thing is to get everyone to
 agree on what you're supposed to accomplish.  The best way to do this is write
-an <span g="elevator_pitch" i="elevator pitch">elevator pitch</span> like the
+an [% i "elevator pitch" %][% g elevator_pitch %]elevator pitch[% /g %][% /i %] like the
 one shown below to figure out what problem you're trying to solve, who it
 affects, and why your solution is a good one.
 

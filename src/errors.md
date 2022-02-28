@@ -15,10 +15,8 @@ therefore plan from the start to detect and handle errors.
 
 ## Handling Errors
 
-<span g="internal_error" i="internal error; error!internal">Internal
-errors</span>, are mistakes in the program itself, such as calling a function
-with `None` instead of a list.  <span g="external_error" i="external error;
-error!external">External errors</span> are usually caused by interactions
+[% i "internal error" "error!internal" %][% g internal_error %]Internal errors[% /g %][% /i %], are mistakes in the program itself, such as calling a function
+with `None` instead of a list.  [% i "external error" "error!external" %][% g external_error %]External errors[% /g %][% /i %] are usually caused by interactions
 between the program and the outside world: a user may mis-type a filename, the
 network might be down, and so on.
 
@@ -32,8 +30,7 @@ we don't always want the program to stop: if a user mis-types her password,
 prompting her to try again is friendlier than halting and requiring her to
 restart the program.
 
-Most modern programming languages use <span g="exception"
-i="exception">exceptions</span> for error handling.  In Python, for example,
+Most modern programming languages use [% i "exception" %][% g exception %]exceptions[% /g %][% /i %] for error handling.  In Python, for example,
 exceptions are handled using the keywords `try` and `except`.  If nothing
 unexpected happens inside the `try` block, the `except` block isn't run, but if
 something does go wrong, the program jumps immediately to the body of the
@@ -41,8 +38,7 @@ something does go wrong, the program jumps immediately to the body of the
 
 We often want to know exactly what went wrong, so Python and other languages
 store information about the error in an object (which is also called an
-exception).  We can <span g="catch_exception" i="exception!handling; catch
-exception">catch</span> an exception and inspect it as follows:
+exception).  We can [% i "exception!handling" "catch exception" %][% g catch_exception %]catch[% /g %][% /i %] an exception and inspect it as follows:
 
 ```py
 for denom in [-5, 0, 5]:
@@ -81,8 +77,7 @@ for i in [0, 1, 2, 3]:
 index 3 out of range
 ```
 
-So where do exceptions come from?  The answer is that programmers can <span
-g="raise_exception" i="exception!raise; raise exception">raise</span> them
+So where do exceptions come from?  The answer is that programmers can [% i "exception!raise" "raise exception" %][% g raise_exception %]raise[% /g %][% /i %] them
 explicitly:
 
 ```py
@@ -141,9 +136,8 @@ so the library should just report the problem.
 
 The first step in building confidence in our programs is to assume that mistakes
 will happen and guard against them.  This is called
-<span g="defensive_programming" i="defensive programming">defensive programming</span>, and the
-most common way to do it is to add <span g="assertion"
-i="assertion">assertions</span> to our code so that it checks itself as it runs.
+[% i "defensive programming" %][% g defensive_programming %]defensive programming[% /g %][% /i %], and the
+most common way to do it is to add [% i "assertion" %][% g assertion %]assertions[% /g %][% /i %] to our code so that it checks itself as it runs.
 An assertion is a statement that something must be true at a certain point in a
 program.  When the program runs, it checks the assertion's condition.  If it's
 true, the program does nothing; if it's false, it halts and prints a
@@ -294,7 +288,7 @@ where `user_language` is a two-letter code for the user's preferred language.
 ## Logging
 
 Something else you can design into your system to make your life easier later on
-is <span g="logging" i="logging">logging</span>. Instead of writing `print`
+is [% i "logging" %][% g logging %]logging[% /g %][% /i %]. Instead of writing `print`
 statements like this:
 
 ```py
@@ -387,8 +381,7 @@ some idea of what it was doing beforehand.
 > you have a record of every time permissions were changed or new accounts were
 > created.
 
-Most logging libraries also support <span g="rotating_file" i="logging!rotating
-files">rotating files</span>, i.e., they will write to `log.1` on the first day,
+Most logging libraries also support [% i "logging!rotating files" %][% g rotating_file %]rotating files[% /g %][% /i %], i.e., they will write to `log.1` on the first day,
 `log.2` on the second day, and so on until they reach (for example) `log.7`,
 then wrap around and overwrite `log.1`. Web servers and other long-lived
 programs are usually set up to do this so that they don't fill up the disk with

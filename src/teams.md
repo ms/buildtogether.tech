@@ -142,8 +142,7 @@ latter, regardless of ability or value delivered to the employer. This creates a
 feedback loop: white and Asian men pursue certain career paths because they have
 high status (they want to be "real programmers"), and the fact that they are
 pursuing those careers is what maintains their higher status. It also creates a
-<span g="confirmation_loop" i="allocating work!confirmation loop; confirmation
-loop!allocating work">confirmation loop</span>: since women and people of color
+[% i "allocating work!confirmation loop" "confirmation loop!allocating work" %][% g confirmation_loop %]confirmation loop[% /g %][% /i %]: since women and people of color
 get fewer chances to do certain tasks, they are less good at them, which
 "confirms" the initial bias.
 
@@ -171,11 +170,8 @@ programming---after all, why play a game that's unfair?
 
 There are many ways to divide project work between team members, and as
 [% b Conway1968 %] observed, the software you get will reflect the division
-of labor, a phenomenon known as <span g="conways_law" i="Conway's Law">Conway's
-Law</span> or <span g="sociotechnical_congruence" i="sociotechnical
-congruence">socio-technical congruence</span> [% b Cataldo2008 %]. In a
-<span g="modular_decomposition" i="modular decomposition; allocating
-work!modular decomposition">modular decomposition</span>, each person is
+of labor, a phenomenon known as [% i "Conway's Law" %][% g conways_law %]Conway's Law[% /g %][% /i %] or [% i "sociotechnical congruence" %][% g sociotechnical_congruence %]socio-technical congruence[% /g %][% /i %] [% b Cataldo2008 %]. In a
+[% i "modular decomposition" "allocating work!modular decomposition" %][% g modular_decomposition %]modular decomposition[% /g %][% /i %], each person is
 responsible for one part of the program. For example, one person might design
 and build the GUI, while another writes the database interface, and a third
 implements the business rules. Having people own parts of the code like this
@@ -185,8 +181,7 @@ a bad strategy in a course project:
 1.  It increases the risk of people from marginalized groups being assigned
     lower-status work.
 
-2.  It leads to <span g="big_bang" i="big bang integration">big bang
-    integration</span>, in which all the components meet each other for the
+2.  It leads to [% i "big bang integration" %][% g big_bang %]big bang integration[% /g %][% /i %], in which all the components meet each other for the
     first time right at the end of the project. Big bang almost always fails.
 
 3.  Each team member only really understands one aspect of the project. This can
@@ -195,8 +190,7 @@ a bad strategy in a course project:
 4.  If someone drops out or fails to complete their module, the project as a
     whole will fail.
 
-<span g="functional_decomposition" i="functional decomposition; allocating
-work!functional decomposition">Functional decomposition</span>, in which each
+[% i "functional decomposition" "allocating work!functional decomposition" %][% g functional_decomposition %]Functional decomposition[% /g %][% /i %], in which each
 person is responsible for one type of task, is usually more successful. With
 this strategy, one person does the testing, another handles the documentation, a
 third does the bulk of the coding, and the fourth takes care of build and
@@ -224,16 +218,14 @@ well they work.
 > way to tell if someone really knows what they're talking about or if what
 > they're actually reporting is their self-esteem.
 
-<span g="feature_decomposition" i="feature decomposition; allocating
-work!feature decomposition">Feature decomposition</span> is a variation on
+[% i "feature decomposition" "allocating work!feature decomposition" %][% g feature_decomposition %]Feature decomposition[% /g %][% /i %] is a variation on
 modular decomposition that works well in practice. Instead of owning an entire
 subsystem for the life of the project, each team member handles the design,
 coding, testing, and documentation for one small feature after another.  Working
 this way is central to agile development (<a section="process"/>)) and is a good
 way to cope with the never-ending timeslicing of student life.
 
-Finally, there is <span g="rotating_decomposition" i="rotating decomposition;
-allocating work!rotating decomposition">rotating decomposition</span>: everyone
+Finally, there is [% i "rotating decomposition" "allocating work!rotating decomposition" %][% g rotating_decomposition %]rotating decomposition[% /g %][% /i %]: everyone
 does one task for a few weeks, then a different task for the new few, and so
 on. This is initially less productive in absolute terms than either of the
 preceding strategies, since the team has to pay for ramp-up several times
@@ -242,9 +234,7 @@ robust (having a team member drop out is less harmful), and if everyone on the
 team is familiar with every aspect of the software, they can all contribute to
 design and debugging sessions.
 
-Any of these strategies is better than <span g="chaotic_decomposition"
-i="chaotic decomposition; allocating work!chaotic decomposition">chaotic
-decomposition</span>, which unfortunately is the most common approach. If people
+Any of these strategies is better than [% i "chaotic decomposition" "allocating work!chaotic decomposition" %][% g chaotic_decomposition %]chaotic decomposition[% /g %][% /i %], which unfortunately is the most common approach. If people
 have different ideas about who's supposed to do what, some things won't be done
 at all while others will be done several times over. (You can tell if your
 decomposition is chaotic by counting how many times people says, "I thought
@@ -264,7 +254,7 @@ there when you need it.
 ## Team Contracts
 
 No matter what decomposition you use, your team should write, sign, and submit a
-<span g="team_contract" i="team contract">team contract</span> outlining what
+[% i "team contract" %][% g team_contract %]team contract[% /g %][% /i %] outlining what
 everyone has agreed to do to make the project a success. In my experience, this
 is most effective if each team creates their own as part of their first
 assignment so that they actually have to think about what they're promising
@@ -395,8 +385,7 @@ Not everything worth doing should be done.
     invent our own little language for designing GUIs? This energy and
     enthusiasm are hard to argue with, but argue you must.  Otherwise, for every
     step you move forward, the project's goalposts will recede by two. This is
-    called <span g="feature_creep" i="feature creep (danger of)">feature
-    creep</span>, and has ruined many projects that might otherwise have
+    called [% i "feature creep (danger of)" %][% g feature_creep %]feature creep[% /g %][% /i %], and has ruined many projects that might otherwise have
     delivered something small but useful.  My solution these days is to keep a
     [% g to_dont_list %]to-don't[% /g %] list of things that would be fun and
     worthwhile, but that I'm *not* going to tackle.

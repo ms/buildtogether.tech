@@ -29,38 +29,32 @@ you will do what you can to minimize these.</p>
 programs so that they <em>can</em> be tested makes them easier to understand and
 modify, which in turn makes the next piece of work easier to tackle.</p>
 <h2>Unit Testing</h2>
-<p>As the name suggests, a <span g="unit_test" i="unit test">unit test</span>
+<p>As the name suggests, a <span class="indexref" key="unit test" markdown="1"><a class="glossref" href="../glossary/#unit_test" markdown="1">unit test</a></span>
 checks the correctness of a single unit of software.  Exactly what constitutes a
 "unit" is subjective, but it typically means the behavior of a single function
 or method in one situation.</p>
 <p>A unit test will typically have:</p>
 <ul>
 <li>
-<p>A <span g="fixture" i="fixture (in unit test); unit
-    test!fixture">fixture</span>, which is the thing being tested (e.g., an
+<p>A <span class="indexref" key="fixture (in unit test);unit test!fixture" markdown="1"><a class="glossref" href="../glossary/#fixture" markdown="1">fixture</a></span>, which is the thing being tested (e.g., an
     array of numbers). The fixture is typically a subset or smaller version of
     the data the function will typically process. In fact, it should be a reprex
     (<a section="communicate"/>), i.e., exactly the same kind of minimal example
     you would post online if you were asking for help.</p>
 </li>
 <li>
-<p>An <span g="actual_result" i="actual result (in unit test); unit test!actual
-    result">actual result</span>, which is what the code produces when given the
+<p>An <span class="indexref" key="actual result (in unit test);unit test!actual result" markdown="1"><a class="glossref" href="../glossary/#actual_result" markdown="1">actual result</a></span>, which is what the code produces when given the
     fixture.</p>
 </li>
 <li>
-<p>An <span g="expected_result" i="expected result (in unit test); unit
-    test!expected result">expected result</span> that the actual result is
+<p>An <span class="indexref" key="expected result (in unit test);unit test!expected result" markdown="1"><a class="glossref" href="../glossary/#expected_result" markdown="1">expected result</a></span> that the actual result is
     compared to.</p>
 </li>
 </ul>
 <p>Good programmers often run informal unit tests interactively when debugging
 (<a section="tooling"/>), but they are much more valuable when they can be re-run
 at a moment's notice to make sure that the most recent changes haven't broken
-anything that was working a few minutes ago.  To do this, you can use a <span
-g="test_framework" i="test framework; unit test!test framework">test
-framework</span> (also called a <span g="test_runner" i="test runner">test
-runner</span>).  Dozens of these have been built for almost every language you
+anything that was working a few minutes ago.  To do this, you can use a <span class="indexref" key="test framework;unit test!test framework" markdown="1"><a class="glossref" href="../glossary/#test_framework" markdown="1">test framework</a></span> (also called a <span class="indexref" key="test runner" markdown="1"><a class="glossref" href="../glossary/#test_runner" markdown="1">test runner</a></span>).  Dozens of these have been built for almost every language you
 can think of; most are very similar because they were inspired by the same
 forerunners. The most widely-used test framework for Python is called
 <a href="http://pytest.org/"><code>pytest</code></a>, which structures tests like this:</p>
@@ -75,8 +69,7 @@ directory whose names match the pattern <code>test_*.py</code>.  It then runs th
 functions it finds in these files and summarizes their results.</p>
 <p>If running all the tests is taking so long that it's disrupting your <span class="indexref" key="flow" markdown="1">flow</span> (<a section="important"/>), you can give <code>pytest</code> (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
-development, but you should always re-run the entire <span g="test_suite"
-i="test suite; unit test!test suite">test suite</span> before committing your
+development, but you should always re-run the entire <span class="indexref" key="test suite;unit test!test suite" markdown="1"><a class="glossref" href="../glossary/#test_suite" markdown="1">test suite</a></span> before committing your
 changes to version control. If the tests reveal that the change you have just
 made to one part of a program unexpectedly affects some other part, it's a sign
 that you should change your design to remove that long-range interaction: sooner
@@ -90,8 +83,7 @@ randomly-generated strings at standard Unix command-line utilities
 almost a third of the programs they tested, some of which had been in daily use
 for two decades.</p>
 <p>While they weren't the first people to test with random data, their results
-sparked interest in <span g="fuzz_testing" i="fuzz testing; unit
-test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
+sparked interest in <span class="indexref" key="fuzz testing;unit > test!fuzzing" markdown="1"&gt;<a class="glossref" href="../glossary/#fuzz_testing" markdown="1">fuzz testing</a></span> (or "fuzzing" for short), which is now a
 standard part of most testers' repertoire [<a href="../bibliography/#Zeller2019">Zeller2019</a>].  Despite
 this, [<a href="../bibliography/#Miller2020">Miller2020</a>] found that thirty years later, programs are still
 failing at about the same rate and for the same reasons.  <a section="debugging"/>
@@ -102,21 +94,16 @@ discusses a technique for making fuzz testing even more useful.</p>
 application's structure or its user interface. If you don't think about how
 you're going to test your application while you're designing it, though, the
 odds are very good that you'll build something that cannot (or cannot easily) be
-tested.  Conversely, if you <span g="design_for_test" i="design for test; unit
-test!influence on software design">design for test</span>, it'll be a lot easier
+tested.  Conversely, if you <span class="indexref" key="design for test;unit test!influence on software design" markdown="1"><a class="glossref" href="../glossary/#design_for_test" markdown="1">design for test</a></span>, it'll be a lot easier
 to check whether your finished application actually does what it's supposed to.</p>
-<p>Thinking about testability from the start turns out to be a good <span
-g="heuristic" i="software design!influence of testability; testability!influence
-on software design">heuristic</span> for design in general
+<p>Thinking about testability from the start turns out to be a good <span class="indexref" key="software design!influence of testability;testability!influence on software design" markdown="1"><a class="glossref" href="../glossary/#heuristic" markdown="1">heuristic</a></span> for design in general
 [<a href="../bibliography/#Feathers2004">Feathers2004</a>], since it forces you to think in terms of small
 components with well-defined interfaces. Not only can these be tested more
 easily, they can also be modified or replaced in isolation, which significantly
 reduces the probability of requiring rework in the naïve model presented at the
 start of this chapter.</p>
-<p>For example, let's consider a typical three-tier web site that uses the <span
-g="mvc" i="model-view-controller architecture">Model-View-Controller</span>
-(MVC) <span g="design_pattern" i="design pattern!model-view-controller">design
-pattern</span>. The model, which is stored in a relational database, is the data
+<p>For example, let's consider a typical three-tier web site that uses the <span class="indexref" key="model-view-controller architecture" markdown="1"><a class="glossref" href="../glossary/#mvc" markdown="1">Model-View-Controller</a></span>
+(MVC) <span class="indexref" key="design pattern!model-view-controller" markdown="1"><a class="glossref" href="../glossary/#design_pattern" markdown="1">design pattern</a></span>. The model, which is stored in a relational database, is the data
 that the application manipulates, such as purchase orders and game states. The
 controller encapsulates the application's business rules: who's allowed to
 cancel games while they're in progress, how much interest to add on
@@ -159,8 +146,7 @@ actual program, this library passes the text of an HTTP response back to our
 script, which then checks that the right values are present (about which more in
 a moment). The library's job is to emulate the environment the web app under
 test would see if it was being invoked by the real server: environment variables
-are set, standard input and output are replaced by <span g="string_io" i="string
-I/O">string I/O</span> objects, and so on, so that the application has no (easy)
+are set, standard input and output are replaced by <span class="indexref" key="string I/O" markdown="1"><a class="glossref" href="../glossary/#string_io" markdown="1">string I/O</a></span> objects, and so on, so that the application has no (easy)
 way to tell how it's being invoked.</p>
 <p>Why go through this rigmarole? Why not just have a top-level function in the web
 app that takes a URL, a dictionary full of header keys and values, and a string
@@ -187,8 +173,7 @@ login, then somewhere on the page there ought to be an element like this:</p>
 &lt;a href=&quot;http://www.example.org/preferences&quot;&gt;preferences&lt;/a&gt;)
 &lt;/div&gt;
 </code></pre>
-<p>We can find that pretty easily with a <span g="css_selector" i="CSS selector!use
-in testing">CSS selector</span> that looks for a <code>div</code> with the ID
+<p>We can find that pretty easily with a <span class="indexref" key="CSS selector!use in testing" markdown="1"><a class="glossref" href="../glossary/#css_selector" markdown="1">CSS selector</a></span> that looks for a <code>div</code> with the ID
 <code>currentuser</code>.  We can then move the <code>div</code> around without breaking any of our
 tests; if we were a little more polite about formatting its internals (i.e., if
 we used something symbolic to highlight the user name and trusted CSS to do the
@@ -197,23 +182,19 @@ formatting), we'd be in even better shape.</p>
 application is still talking to a database, and reinitializing it each time a
 test runs is slow.  We can solve this by moving the database into memory. Most
 applications rely on an external database server, which is a long-lived process
-that manages data on disk. An alternative is an <span g="embedded_database"
-i="embedded database!use in testing">embedded database</span>, in which the
+that manages data on disk. An alternative is an <span class="indexref" key="embedded database!use in testing" markdown="1"><a class="glossref" href="../glossary/#embedded_database" markdown="1">embedded database</a></span>, in which the
 database manipulation code runs inside the user's application as a normal
 library; <a href="https://www.sqlite.org/">SQLite</a> is probably the best known of these.</p>
 <p>The advantage of using an embedded database from a testing point of view is that
 it can be told to store data in memory, rather than on disk. This would be a
 silly thing to do in a production environment (after all, the whole point of a
-database is that it persists), but in a testing environment, an <span
-g="in_memory_database" i="in-memory database!use in testing">in-memory
-database</span> can speed things up by a factor of thousands, since the hard
+database is that it persists), but in a testing environment, an <span class="indexref" key="in-memory database!use in testing" markdown="1"><a class="glossref" href="../glossary/#in_memory_database" markdown="1">in-memory database</a></span> can speed things up by a factor of thousands, since the hard
 drive never has to come into play. The cost of doing this is that you have to
 either commit to using one database in both environments, or avoid using the
 "improvements" that different databases have added to SQL.</p>
 <blockquote>
 <h3>Mock objects</h3>
-<p>A third choice is to replace the database with a <span g="mock_object" i="mock
-object">mock object</span>.  A mock object has the same interface as the
+<p>A third choice is to replace the database with a <span class="indexref" key="mock > object" markdown="1"&gt;<a class="glossref" href="../glossary/#mock_object" markdown="1">mock object</a></span>.  A mock object has the same interface as the
 function, object, class, or library that it replaces, but is designed to be used
 solely for testing.  For example, Node's <code>mock-fs</code> library provides the same
 functions as its standard filesystem library, but stores everything in memory.
@@ -329,9 +310,7 @@ very easy to see.</p>
 <h2>Are We Done Yet?</h2>
 <p>The last thing you need (and you <em>do</em> need it) is some idea of how well you are
 testing.  How much of your code do your tests actually check, and what parts of
-your code aren't being tested?  To find out, you can check the <span
-g="code_coverage" i="coverage!code; code coverage; unit test!code coverage">code
-coverage</span> of your tests, i.e., measure the number of lines, statements, or
+your code aren't being tested?  To find out, you can check the <span class="indexref" key="coverage!code;code coverage;unit test!code coverage" markdown="1"><a class="glossref" href="../glossary/#code_coverage" markdown="1">code coverage</a></span> of your tests, i.e., measure the number of lines, statements, or
 possible paths through the code that the tests are actually exercising.</p>
 <p>If you are using Python, you can check your tests' coverage with the <code>coverage</code>
 library.  The command:</p>
@@ -351,8 +330,7 @@ line-by-line summary of execution.</p>
 used for.  If it is for a safety-critical application such as a medical device,
 you should aim for 100% code coverage, i.e., every single line in the
 application should be tested.  In fact, we should probably go further and aim
-for 100% <span g="path_coverage" i="coverage!path; path coverage; unit test!path
-coverage">path coverage</span> to ensure that every possible path through the
+for 100% <span class="indexref" key="coverage!path;path coverage;unit test!path coverage" markdown="1"><a class="glossref" href="../glossary/#path_coverage" markdown="1">path coverage</a></span> to ensure that every possible path through the
 code has been checked.  Similarly, if the software has become popular and is
 being used by thousands of people all over the world, we should probably check
 that it's not going to embarrass us.</p>

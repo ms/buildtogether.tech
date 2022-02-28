@@ -42,7 +42,7 @@ results for developers are:
 1.  Working more than eight hours a day for more than a couple of weeks of time
     lowers your total productivity, not just your hourly productivity---i.e.,
     you get less done *in total* (not just per hour) when you're in
-    <span g="crunch_mode" i="crunch mode">crunch mode</span> than you do when you work
+    [% i "crunch mode" %][% g crunch_mode %]crunch mode[% /g %][% /i %] than you do when you work
     regular hours.
 
 1.  Working over 21 hours in a stretch increases the odds of you making a
@@ -211,7 +211,7 @@ be surprised if "plan XYZ" appears as a task in your list.
 
 The point of all this organization and preparation is to get yourself into the
 most productive mental state possible.  [% b Csikszentmihalyi1991 %]
-popularized the term <span g="flow" i="flow">flow</span> for this; athletes call
+popularized the term [% i "flow" %][% g flow %]flow[% /g %][% /i %] for this; athletes call
 it "being in the zone", while musicians talk about losing themselves in what
 they're playing.  Whatever name you use, you will produce much more in this
 state than normal.
@@ -278,10 +278,8 @@ Agree on the rules.
     meetings matters less than everyone agreeing on what the rules are.
 
 Keep discussion meetings and decision meetings separate.
-:   A <span g="discussion_meeting" i="meetings! discussion">discussion
-    meeting</span>'s purpose is to explore design alternatives or figure out
-    what next term's goals should be.  A <span g="decision_meeting"
-    i="meetings!decision">decision meeting</span> on the other hand, is for
+:   A [% i "meetings! discussion" %][% g discussion_meeting %]discussion meeting[% /g %][% /i %]'s purpose is to explore design alternatives or figure out
+    what next term's goals should be.  A [% i "meetings!decision" %][% g decision_meeting %]decision meeting[% /g %][% /i %] on the other hand, is for
     choosing which alternatives to pursue.  Discussion meetings are meant to be
     wide-ranging (and fun); decision meetings should be short and focused.  The
     two are never completely distinct in practice, but decision-making is more
@@ -355,7 +353,7 @@ End early.
 
 > ### I don't like your tone
 >
-> <span g="tone_policing" i="tone policing">Tone policing</span> is a tactic used
+> [% i "tone policing" %][% g tone_policing %]Tone policing[% /g %][% /i %] is a tactic used
 > to shut down discussion by criticizing people for expressing emotion.  It is
 > often used against women, who are told to "calm down" when they show any sign of
 > being angry at being excluded or not taken seriously. As [this
@@ -459,10 +457,9 @@ formal or informal---in other words, whether it's accountable or unaccountable
 [% b Freeman1972 %].  The latter can work for groups of up to half a dozen
 people in which everyone knows everyone else.  Beyond that, groups need to spell
 out who has the authority to make which decisions and how to achieve consensus.
-In short, they need explicit <span g="governance"
-i="governance">governance</span>.
+In short, they need explicit [% i "governance" %][% g governance %]governance[% /g %][% /i %].
 
-<span g="marthas_rules" i="Martha's Rules">Martha's Rules</span> are a practical
+[% i "Martha's Rules" %][% g marthas_rules %]Martha's Rules[% /g %][% /i %] are a practical
 way to do this in groups with up to a few dozen members
 [% b Minahan1986 %], and work very well for smaller teams too:
 
@@ -483,8 +480,7 @@ way to do this in groups with up to a few dozen members
     delegate is present.  The sponsor is also responsible for presenting the
     item to the group.
 
-4.  After the sponsor presents the proposal a <span g="sense_vote" i="sense
-    vote">sense vote</span> is cast for the proposal prior to any discussion:
+4.  After the sponsor presents the proposal a [% i "sense vote" %][% g sense_vote %]sense vote[% /g %][% /i %] is cast for the proposal prior to any discussion:
     -   Who likes the proposal?
     -   Who can live with the proposal?
     -   Who is uncomfortable with the proposal?

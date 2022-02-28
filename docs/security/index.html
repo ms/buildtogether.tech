@@ -24,7 +24,7 @@ from online threats: nothing happens to them if they don't, and as
 <span class="indexref" key="Schneier, Bruce" markdown="1">Bruce Schneier</span> has pointed out, their business models
 are designed to put the cost of security failures on users
 [<a href="../bibliography/#Schneier2021">Schneier2021</a>]. As a result, much of what we are forced to go through
-is <span g="security_theater" i="security theater">security theater</span>
+is <span class="indexref" key="security theater" markdown="1"><a class="glossref" href="../glossary/#security_theater" markdown="1">security theater</a></span>
 intended to make us believe something is being done rather than to actually make
 us safer: forcing people to change passwords every three months encourages
 people to choose memorable (and therefore easy-to-guess) passwords, while all
@@ -51,7 +51,7 @@ try to reset an online account over the phone. In just a couple of minutes,
 everyone within a few meters knew their full name, their date of birth, their
 credit card number (including three-digit verification code on the back), and
 what was almost certainly their mother's maiden name.</p>
-<p><span g="social_engineering" i="social engineering">Social engineering</span> is
+<p><span class="indexref" key="social engineering" markdown="1"><a class="glossref" href="../glossary/#social_engineering" markdown="1">Social engineering</a></span> is
 far more common than hacking: it is much easier to trick someone into giving you
 their password than to break into their devices digitally.  The defense against
 this is to pay attention to what's happening and respond accordingly.  However,
@@ -63,7 +63,7 @@ of national security and don't need to take those kinds of precautions.
 Instead, we typically face one of three kinds of threat:</p>
 <ul>
 <li>
-<p><span g="casual_threat" i="casual threat; threat!casual">Casual threats</span>
+<p><span class="indexref" key="casual threat;threat!casual" markdown="1"><a class="glossref" href="../glossary/#casual_threat" markdown="1">Casual threats</a></span>
     are opportunistic. For example, Monica, a professor, is targeted by Mohan,
     an undergraduate who spends hours every day in online echo chambers
     complaining about how "SJW bullshit" is ruining tech. He thinks it would be
@@ -72,8 +72,7 @@ Instead, we typically face one of three kinds of threat:</p>
     more knowledgeable allies in online forums.</p>
 </li>
 <li>
-<p><span g="intimate_threat" i="intimate threat; threat!intimate">Intimate
-    threats</span> come from people who know their targets' passwords or have a
+<p><span class="indexref" key="intimate threat;threat!intimate" markdown="1"><a class="glossref" href="../glossary/#intimate_threat" markdown="1">Intimate threats</a></span> come from people who know their targets' passwords or have a
     chance to install spyware on their targets' devices (which abusers
     frequently do [<a href="../bibliography/#Leitao2019">Leitao2019</a>]). For example, Elena has ended an
     unhappy relationship and is rebuilding her life.  Her ex, Eric, is obsessed
@@ -82,8 +81,7 @@ Instead, we typically face one of three kinds of threat:</p>
     the PIN for phone.</p>
 </li>
 <li>
-<p><span g="insider_threat" i="insider threat; threat!insider">Insider
-    threats</span> come from people who abuse legitimate access to accounts and
+<p><span class="indexref" key="insider threat;threat!insider" markdown="1"><a class="glossref" href="../glossary/#insider_threat" markdown="1">Insider threats</a></span> come from people who abuse legitimate access to accounts and
     devices. For example, Boris, a professor, has agreed to serve as an expert
     witness in an upcoming lawsuit; Bethany, a sys admin in his department, has
     been asked by a former colleague to find out what he is going to say in
@@ -109,20 +107,18 @@ Instead, we typically face one of three kinds of threat:</p>
 <p>Keep a <span class="indexref" key="logging!for security" markdown="1">log</span> of every administrative
     action (<a section="errors"/>) so that there will be a record if someone uses
     their privileges inappropriately. They might be able to delete that record,
-    but if it is <span g="digital_signature" i="digital signature!for activity
-    logs">digitally signed</span> there will still be evidence of tampering.</p>
+    but if it is <span class="indexref" key="digital signature!for activity logs" markdown="1"><a class="glossref" href="../glossary/#digital_signature" markdown="1">digitally signed</a></span> there will still be evidence of tampering.</p>
 </li>
 <li>
 <p>Do code reviews to ensure that programmers aren't inserting
-    <span g="back_door" i="code review!for security">back doors</span> in software
+    <span class="indexref" key="code review!for security" markdown="1"><a class="glossref" href="../glossary/#back_door" markdown="1">back doors</a></span> in software
     [<a href="../bibliography/#Sharma2021">Sharma2021</a>] or accidentally leaving access points intended
     solely for testing.</p>
 </li>
 </ol>
 <h2>Authentication</h2>
 <p>Using a weak password is a good way to ensure that your account will eventually
-be compromised, in part because <span g="dictionary_attack" i="dictionary
-attack">dictionary attacks</span> can be run offline against stored passwords to
+be compromised, in part because <span class="indexref" key="dictionary attack" markdown="1"><a class="glossref" href="../glossary/#dictionary_attack" markdown="1">dictionary attacks</a></span> can be run offline against stored passwords to
 find ones that match common patterns. Using a clever password scheme, such as
 the name of the site plus a word only you know, does not make you more secure:
 whatever scheme you have thought of, attackers have seen before.  And since
@@ -151,8 +147,7 @@ purse or wallet is stolen.</p>
 <p>Passwords are just one form of <span class="indexref" key="authentication" markdown="1">authentication</span>.
 In general, proving your identity relies on something you know (like a
 password), something you have (like a swipe card), or something you are (like
-your fingerprints).  <span g="2fa" i="two-factor authentication;
-authentication!two-factor">Two-factor authentication</span> (2FA) requires two
+your fingerprints).  <span class="indexref" key="two-factor authentication;authentication!two-factor" markdown="1"><a class="glossref" href="../glossary/#2fa" markdown="1">Two-factor authentication</a></span> (2FA) requires two
 of these together to establish your identity, e.g., a password (which can be
 stolen electronically) plus a random code generated by an app on your phone
 (which means attackers need access to you).</p>
@@ -194,8 +189,7 @@ can email everyone in your address book, or send a copy of it to anyone in the
 world.  Microsoft Word and various game mods are particularly notorious for this
 vulnerability.</p>
 <p>Attempts to get you to open an email attachment, click on a link, install
-software, or log into a website are called <span g="phishing"
-i="phishing">phishing</span> attacks.  The strongest defense is to never do
+software, or log into a website are called <span class="indexref" key="phishing" markdown="1"><a class="glossref" href="../glossary/#phishing" markdown="1">phishing</a></span> attacks.  The strongest defense is to never do
 these things, but that would make most work impossible. The second-best defense
 is to invest in a <span class="indexref" key="virus scanner" markdown="1">virus scanner</span> to check email
 attachments and downloads before you open them.</p>
@@ -215,7 +209,7 @@ access to your email in order to break into your account. On the other hand,
 random URLs are hard to type in, so these emails encourage us to click on links
 in emails. If you are not expecting a password reset email, <em>don't click on the
 link</em>, even if it includes your name or other details:
-<span g="spearphishing" i="spearphishing">spearphishing</span> uses data harvested
+<span class="indexref" key="spearphishing" markdown="1"><a class="glossref" href="../glossary/#spearphishing" markdown="1">spearphishing</a></span> uses data harvested
 from previous victims to attack specific targets.</p>
 <p>Similarly, if someone from your bank calls you up and asks for information to
 confirm your identity, you should ask <em>them</em> for information to confirm theirs,
@@ -241,8 +235,7 @@ attack.</p>
 <h2>Delete Before Discarding</h2>
 <p>Moving files into the trash and then emptying it does not actually erase the
 data: it just tells the computer that the space is available for reuse. (This is
-why reporters and private investigators regularly go <span g="dumpster_diving"
-i="dumpster diving">dumpster diving</span>.) The best way to address this
+why reporters and private investigators regularly go <span class="indexref" key="dumpster diving" markdown="1"><a class="glossref" href="../glossary/#dumpster_diving" markdown="1">dumpster diving</a></span>.) The best way to address this
 problem is to encrypt your hard drive, which is a quick setup option for all
 major operating systems these days.</p>
 <p>Even with that, you should act as if any device you throw away might fall into
@@ -423,10 +416,9 @@ quotes. But suppose a malicious user enters this as their username:</p>
 <!-- continue -->
 <p>which looks up a user without a name, erases all of the data in the <code>User</code>
 table, and then returns an empty string (the final <code>select</code>).  This is called an
-<span g="sql_injection" i="SQL injection attack">SQL injection attack</span>,
+<span class="indexref" key="SQL injection attack" markdown="1"><a class="glossref" href="../glossary/#sql_injection" markdown="1">SQL injection attack</a></span>,
 and with a few modifications, it can be used to <span class="indexref" key="exfiltrate" markdown="1">exfiltrate</span> data rather than delete it.</p>
-<p>You defend against this by always <span g="sanitizing_data" i="sanitizing
-data">sanitizing user input</span> before using it. In this case, the query can
+<p>You defend against this by always <span class="indexref" key="sanitizing data" markdown="1"><a class="glossref" href="../glossary/#sanitizing_data" markdown="1">sanitizing user input</a></span> before using it. In this case, the query can
 be written as:</p>
 <pre><code class="language-py">    query = 'select * from User where username=?;'
     result = database_connection.run(query, username)

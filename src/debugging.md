@@ -36,8 +36,7 @@ when it matters most.
 What habits should you have?
 
 Make sure you are trying to build the right thing.
-:   <span g="requirements_error" i="requirements error">Requirements
-    errors</span> are a major cause of software projects failing in the real
+:   [% i "requirements error" %][% g requirements_error %]Requirements errors[% /g %][% /i %] are a major cause of software projects failing in the real
     world, and every instructor has horror stories about students
     misinterpreting assignments and spending days building the wrong thing. When
     in doubt, ask, and to make your question and its answer clear, provide an
@@ -67,9 +66,7 @@ Make it fail.
     bug reoccurs without it, you are also throwing out a bunch of possible
     causes.
 
-    The easiest way to create a reprex is to divide and conquer.  The <span
-    g="fault" i="fault">fault</span> responsible for a <span g="failure"
-    i="failure">failure</span> has to occur before the failure, so check the
+    The easiest way to create a reprex is to divide and conquer.  The [% i "fault" %][% g fault %]fault[% /g %][% /i %] responsible for a [% i "failure" %][% g failure %]failure[% /g %][% /i %] has to occur before the failure, so check the
     input to the function where the bug is showing up.  If that's wrong, check
     the function that's calling it, and so on.
 
@@ -212,8 +209,7 @@ found that the five most common are:
     being assigned to.
 
 Wherever we find patterns we can try to write programs to spot them and act on
-them.  The goal of research in <span g="automated_program_repair" i="automated
-program repair">automated program repair</span> is to build tools that can fix
+them.  The goal of research in [% i "automated program repair" %][% g automated_program_repair %]automated program repair[% /g %][% /i %] is to build tools that can fix
 common bugs on their own [% b Monperrus2018 LeGoues2019 %].  These tools
 use several approaches:
 
@@ -251,8 +247,7 @@ giving feedback on assignments [% b Hu2019 %].  If you are looking for an
 ambitious course project that might lead to graduate research, this is a good
 place to start.
 
-Another semi-automated technique for finding bugs is <span g="delta_debugging"
-i="delta debugging">delta debugging</span> [% b Zeller2009 Zeller2021 %].
+Another semi-automated technique for finding bugs is [% i "delta debugging" %][% g delta_debugging %]delta debugging[% /g %][% /i %] [% b Zeller2009 Zeller2021 %].
 [% i "fuzz testing" %]Fuzz testing[% /i %] can automatically generate inputs
 that make programs fail (<a section="testing"/>), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
@@ -264,14 +259,14 @@ the original fixture, then subsets of those subsets, to produce a minimal
 
 The tools described above will make you more productive, but sooner or later
 you're going to have to track a bug down yourself.
-A <span g="symbolic_debugger" i="debugging!symbolic debugger; symbolic debugger">symbolic debugger</span>
+A [% i "debugging!symbolic debugger" "symbolic debugger" %][% g symbolic_debugger %]symbolic debugger[% /g %][% /i %]
 is a program that allows you to
 control and inspect the execution of another program. Some, like [GDB][gdb], are
 standalone programs; others are built into IDEs, but they all have the same
 basic capabilities.  (Depending on the language you're using, you may have to
 compile or run your program with specific options to make it debuggable.)
 
-<span g="breakpoint" i="breakpoint; debugger!breakpoint">Breakpoints</span>.
+[% i "breakpoint" "debugger!breakpoint" %][% g breakpoint %]Breakpoints[% /g %][% /i %].
 :   You can tell the debugger to pause the program whenever it reaches a certain
     line.  You can also create a [% g conditional_breakpoint %]conditional
     breakpoint[% /g %] that only pauses on that line if some test is true, e.g.,

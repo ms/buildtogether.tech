@@ -28,10 +28,8 @@ how to use our programs, and even if we test thoroughly as described in
 <a section="testing"/>, those programs will probably still contain bugs.  We should
 therefore plan from the start to detect and handle errors.</p>
 <h2>Handling Errors</h2>
-<p><span g="internal_error" i="internal error; error!internal">Internal
-errors</span>, are mistakes in the program itself, such as calling a function
-with <code>None</code> instead of a list.  <span g="external_error" i="external error;
-error!external">External errors</span> are usually caused by interactions
+<p><span class="indexref" key="internal error;error!internal" markdown="1"><a class="glossref" href="../glossary/#internal_error" markdown="1">Internal errors</a></span>, are mistakes in the program itself, such as calling a function
+with <code>None</code> instead of a list.  <span class="indexref" key="external error;error!external" markdown="1"><a class="glossref" href="../glossary/#external_error" markdown="1">External errors</a></span> are usually caused by interactions
 between the program and the outside world: a user may mis-type a filename, the
 network might be down, and so on.</p>
 <p>When an internal error occurs, the only thing we can do in most cases is report
@@ -43,16 +41,14 @@ actually make things worse.  When an external error occurs, on the other hand,
 we don't always want the program to stop: if a user mis-types her password,
 prompting her to try again is friendlier than halting and requiring her to
 restart the program.</p>
-<p>Most modern programming languages use <span g="exception"
-i="exception">exceptions</span> for error handling.  In Python, for example,
+<p>Most modern programming languages use <span class="indexref" key="exception" markdown="1"><a class="glossref" href="../glossary/#exception" markdown="1">exceptions</a></span> for error handling.  In Python, for example,
 exceptions are handled using the keywords <code>try</code> and <code>except</code>.  If nothing
 unexpected happens inside the <code>try</code> block, the <code>except</code> block isn't run, but if
 something does go wrong, the program jumps immediately to the body of the
 <code>except</code>.</p>
 <p>We often want to know exactly what went wrong, so Python and other languages
 store information about the error in an object (which is also called an
-exception).  We can <span g="catch_exception" i="exception!handling; catch
-exception">catch</span> an exception and inspect it as follows:</p>
+exception).  We can <span class="indexref" key="exception!handling;catch exception" markdown="1"><a class="glossref" href="../glossary/#catch_exception" markdown="1">catch</a></span> an exception and inspect it as follows:</p>
 <pre><code class="language-py">for denom in [-5, 0, 5]:
     try:
         result = 1/denom
@@ -83,8 +79,7 @@ for i in [0, 1, 2, 3]:
 1/5 == 0.2
 index 3 out of range
 </code></pre>
-<p>So where do exceptions come from?  The answer is that programmers can <span
-g="raise_exception" i="exception!raise; raise exception">raise</span> them
+<p>So where do exceptions come from?  The answer is that programmers can <span class="indexref" key="exception!raise;raise exception" markdown="1"><a class="glossref" href="../glossary/#raise_exception" markdown="1">raise</a></span> them
 explicitly:</p>
 <pre><code class="language-py">for number in [1, 0, -1]:
     try:
@@ -134,9 +129,8 @@ will be.</p>
 <h2>Defensive Programming</h2>
 <p>The first step in building confidence in our programs is to assume that mistakes
 will happen and guard against them.  This is called
-<span g="defensive_programming" i="defensive programming">defensive programming</span>, and the
-most common way to do it is to add <span g="assertion"
-i="assertion">assertions</span> to our code so that it checks itself as it runs.
+<span class="indexref" key="defensive programming" markdown="1"><a class="glossref" href="../glossary/#defensive_programming" markdown="1">defensive programming</a></span>, and the
+most common way to do it is to add <span class="indexref" key="assertion" markdown="1"><a class="glossref" href="../glossary/#assertion" markdown="1">assertions</a></span> to our code so that it checks itself as it runs.
 An assertion is a statement that something must be true at a certain point in a
 program.  When the program runs, it checks the assertion's condition.  If it's
 true, the program does nothing; if it's false, it halts and prints a
@@ -249,7 +243,7 @@ makes it much easier to give messages in the user's preferred language:</p>
 where <code>user_language</code> is a two-letter code for the user's preferred language.</p>
 <h2>Logging</h2>
 <p>Something else you can design into your system to make your life easier later on
-is <span g="logging" i="logging">logging</span>. Instead of writing <code>print</code>
+is <span class="indexref" key="logging" markdown="1"><a class="glossref" href="../glossary/#logging" markdown="1">logging</a></span>. Instead of writing <code>print</code>
 statements like this:</p>
 <pre><code class="language-py">def extrapolate(basis, case):
     print &quot;entering extrapolate...&quot;
@@ -324,8 +318,7 @@ this, make sure the log records who, what, and when; in particular, make sure
 you have a record of every time permissions were changed or new accounts were
 created.</p>
 </blockquote>
-<p>Most logging libraries also support <span g="rotating_file" i="logging!rotating
-files">rotating files</span>, i.e., they will write to <code>log.1</code> on the first day,
+<p>Most logging libraries also support <span class="indexref" key="logging!rotating files" markdown="1"><a class="glossref" href="../glossary/#rotating_file" markdown="1">rotating files</a></span>, i.e., they will write to <code>log.1</code> on the first day,
 <code>log.2</code> on the second day, and so on until they reach (for example) <code>log.7</code>,
 then wrap around and overwrite <code>log.1</code>. Web servers and other long-lived
 programs are usually set up to do this so that they don't fill up the disk with

@@ -4,8 +4,7 @@ lede: "How to structure your time"
 template: page
 ---
 
-A <span g="development_process" i="development process">development
-process</span> defines who does what, when, in order to build a piece of
+A [% i "development process" %][% g development_process %]development process[% /g %][% /i %] defines who does what, when, in order to build a piece of
 software.  Many have been described over the last fifty-odd years; most have
 passionate advocates and equally passionate detractors, but the differences
 between them are smaller in practice than in theory.  This chapter therefore
@@ -33,7 +32,7 @@ emphasizes some of these and pays less attention to others.
   <figcaption>Software development feedback loops on different timescales.</figcaption>
 </figure>
 
-<span g="pair_programming" i="pair programming">Pair programming</span>.
+[% i "pair programming" %][% g pair_programming %]Pair programming[% /g %][% /i %].
 :   One programmer, the driver, does the typing, while the other, called the
     navigator, watches and comments.  Every twenty minutes or or so, the pair
     switches roles.  The benefits of pair programming are proven for students as
@@ -51,8 +50,7 @@ emphasizes some of these and pays less attention to others.
     every five minutes if someone else is working with them.
 
 Unit testing.
-:   Many developers are passionate about a technique called <span g="tdd"
-    i="test-driven development">test-driven development</span>, where you write
+:   Many developers are passionate about a technique called [% i "test-driven development" %][% g tdd %]test-driven development[% /g %][% /i %], where you write
     the tests for a new bit of software before you write the software
     itself. Its advocates claim that it makes developers more productive
     because:
@@ -158,7 +156,7 @@ meeting to stay organized and you will be in great shape.
 
 To start our exploration of the longer feedback loops in
 <a figure="feedback-loops"/>, let's look at a process that nobody uses, but which
-appears in almost every textbook. It's called the <span g="waterfall_model" i="waterfall model; process!waterfall">waterfall model</span>,
+appears in almost every textbook. It's called the [% i "waterfall model" "process!waterfall" %][% g waterfall_model %]waterfall model[% /g %][% /i %],
 and it divides development into a series of discrete phases,
 each of which is completed before the next begins:
 
@@ -185,7 +183,7 @@ paralysis" %]analysis paralysis[% /i %].
 Every real software development processes attempts to resolve the tension
 between doing things once and spending so much time on planning that we never
 actually do anything.  In order to understand the differences between them it
-helps to look at the <span g="boehm_curve" i="Boehm Curve">Boehm Curve</span>,
+helps to look at the [% i "Boehm Curve" %][% g boehm_curve %]Boehm Curve[% /g %][% /i %],
 which shows the effort required to fix a bug based on when it is caught.
 
 In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
@@ -216,12 +214,11 @@ more easily.
 
 ## Agile
 
-The term <span g="agile" i="agile development">agile</span> was coined in 2001
+The term [% i "agile development" %][% g agile %]agile[% /g %][% /i %] was coined in 2001
 to describe a bottom-up approach to software project management based on very
 short iterations and frequent feedback from both developers and customers.
 [% b Masood2018 %] and many others have found it to be effective for
-student projects; we will look at one form called <span g="scrum"
-i="Scrum">Scrum</span>.
+student projects; we will look at one form called [% i "Scrum" %][% g scrum %]Scrum[% /g %][% /i %].
 
 > ### Right place, right time
 >
@@ -239,8 +236,7 @@ i="Scrum">Scrum</span>.
 > didn't have long-range plans, but nevertheless produced high-quality software
 > faster than many closed-source commercial projects.
 
-Scrum breaks development down into short <span g="sprint"
-i="sprint">sprints</span>, typically no more than two weeks long, and sometimes
+Scrum breaks development down into short [% i "sprint" %][% g sprint %]sprints[% /g %][% /i %], typically no more than two weeks long, and sometimes
 as short as a single day.  In each sprint, the team decides what to build next,
 designs it, builds it, tests it, and delivers it.
 
@@ -253,8 +249,7 @@ finding bugs becomes easier: instead of looking through weeks' or months' worth
 of software to find out where the problem is, developers usually only have to
 look at what's been written in the last few days.
 
-A typical working day starts with a <span g="stand_up_meeting" i="stand-up
-meeting">stand-up meeting</span> where everyone in the team reports what they
+A typical working day starts with a [% i "stand-up meeting" %][% g stand_up_meeting %]stand-up meeting[% /g %][% /i %] where everyone in the team reports what they
 did the day before, what they're planning to do that day, and what's blocking
 them (if anything).  It's called a stand-up because it's usually held standing
 up, which encourages people to stay focused; each day, the team gets feedback on
@@ -330,7 +325,7 @@ students have never had to do this kind of scheduling many find it the most
 valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.
 
-The <span g="product_manager" i="product manager">product manager</span> is the
+The [% i "product manager" %][% g product_manager %]product manager[% /g %][% /i %] is the
 person who owns the spec [% b Perri2018 %].  While developers are building
 Version N, she is talking to customers to find out what should go into Version
 N+1.  She doesn't ask them what features they want; if she does, she'll get a
@@ -361,8 +356,7 @@ implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
 the build?  On deployment?  How will the feature be tested?  And so on.
 
-This process is called <span g="ae" i="analysis & estimation">analysis &
-estimation</span> (A&E).  The result is a short document, typically 1--5 pages
+This process is called [% i "analysis & estimation" %][% g ae %]analysis & estimation[% /g %][% /i %] (A&E).  The result is a short document, typically 1--5 pages
 long.  There's no set form for this, but they usually include whatever
 background information a well-informed developer is unlikely to already know, a
 discussion of the alternatives, lessons learned from any prototyping that was
@@ -379,7 +373,7 @@ enough time to add everything that everyone wants to a piece of software, and
 even if there was, it probably shouldn't be done anyway.
 
 What you do now is find a large whiteboard and draw an
-<span g="effort_importance_grid" i="effort-importance grid">effort-importance grid</span>.
+[% i "effort-importance grid" %][% g effort_importance_grid %]effort-importance grid[% /g %][% /i %].
 The X axis is labeled "effort" and is labeled "an hour", "a day",
 and "a week", while the Y axis "importance", and is divided into "low",
 "medium", and "high".  Next, write each feature's name on a yellow sticky note
@@ -465,7 +459,7 @@ you know it now and can start taking action (like lowering your instructor's
 expectations) well in advance of delivery.
 
 In the real world these calculations are the responsibility of the
-<span g="project_manager" i="project manager">project manager</span>.  Her job is to
+[% i "project manager" %][% g project_manager %]project manager[% /g %][% /i %].  Her job is to
 make sure everyone is doing what they're supposed to, to handle interruptions
 (there are *always* interruptions), and to track the team's progress.  After a
 few weeks, the project manager should compare how much has actually been done
@@ -492,7 +486,7 @@ of its value.
 When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
-responsibilities is to <span g="triage" i="triage">triage</span> the issues in a
+responsibilities is to [% i "triage" %][% g triage %]triage[% /g %][% /i %] the issues in a
 project's [% i "issue tracker!helping triage" "triage!using issue
 tracker" %]issue tracker[% /i %] (<a section="communicate"/>) periodically and adjust
 the schedule accordingly. The [% i "effort-importance grid!helping
@@ -542,10 +536,10 @@ the former in courses, since:
 
 Since your project has to fit in one or two terms, you'll probably be asked to
 go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called <span g="time_boxing" i="time boxing">time boxing</span>:
+expected to deliver in each iteration.  This is called [% i "time boxing" %][% g time_boxing %]time boxing[% /g %][% /i %]:
 you specify how long a cycle will last, then
 see how much work you can fit into that interval.  The alternative is
-<span g="feature_boxing" i="feature boxing">feature boxing</span>: you decide what you
+[% i "feature boxing" %][% g feature_boxing %]feature boxing[% /g %][% /i %]: you decide what you
 want to do and then build a schedule that gives you enough time to do it.  Most
 people believe that time boxing works better, since it encourages developers to
 take smaller steps and allows them to give customers more frequent demos (which

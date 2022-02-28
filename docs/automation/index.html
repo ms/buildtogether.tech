@@ -19,7 +19,7 @@
       </p>
     </div>
 
-<p>Everyone is talking about <span g="devops" i="DevOps">DevOps</span> these days,
+<p>Everyone is talking about <span class="indexref" key="DevOps" markdown="1"><a class="glossref" href="../glossary/#devops" markdown="1">DevOps</a></span> these days,
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
 implementing a change and that change being tested, integrated, tested again,
@@ -29,8 +29,7 @@ time, you should try to do a little---it will save time when you are up against
 the end-of-term deadline, and more importantly, prevent mistakes when you are
 stretched thin.</p>
 <h2>Build Manager</h2>
-<p>The foundation for almost all automation in software development is a <span
-g="build_manager" i="build manager">build manager</span>---a tool that will
+<p>The foundation for almost all automation in software development is a <span class="indexref" key="build manager" markdown="1"><a class="glossref" href="../glossary/#build_manager" markdown="1">build manager</a></span>---a tool that will
 transform what you've typed into what you want to deliver. The origin build
 manager is <span class="indexref" key="Make;build manager!Make" markdown="1"><a href="https://www.gnu.org/software/make/">Make</a></span>, which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
@@ -47,7 +46,7 @@ update them. For example:</p>
 <p>tells Make that <code>game.exe</code> can't be built until <code>game.bc</code>, <code>graphics.bc</code>, and
 <code>utils.bc</code> exist, and that once they do, the way to create <code>game.exe</code> is to run
 the <code>tx</code> compiler with several options.  Below that is a
-<span g="pattern_rule" i="Make!pattern rule">pattern rule</span> telling Make
+<span class="indexref" key="Make!pattern rule" markdown="1"><a class="glossref" href="../glossary/#pattern_rule" markdown="1">pattern rule</a></span> telling Make
 how to create any <code>.bc</code> file from a <code>.grace</code> file with the same root name;
 the cryptic expression <code>$&lt;</code> is Make's way of saying "the first thing the target depends on".</p>
 <p>Make has been used by hundreds of thousands of programmers for more than thirty
@@ -68,8 +67,7 @@ files to my web site, and is more complex than many programs I've written.
 Thinking of it as a "configuration" file is a mistake: you <em>have</em> to <span class="indexref" key="automation!as programming" markdown="1">approach builds as a programming problem</span>.</p>
 <p>The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The <code>package.json</code> file used by
-<a href="https://nodejs.org/en/">Node.js</a> serves as both a <span g="package_manifest" i="package
-manifest; Node.js!package.json file">package manifest</span> and a build
+<a href="https://nodejs.org/en/">Node.js</a> serves as both a <span class="indexref" key="package manifest;Node.js!package.json file" markdown="1"><a class="glossref" href="../glossary/#package_manifest" markdown="1">package manifest</a></span> and a build
 file---as the example below shows, some of its entries describe the package or
 its dependencies, while others store commands that can be re-run by typing
 things like <code>npm run test</code>:</p>
@@ -150,9 +148,8 @@ machine to another, or as a way to back things up at the end of the day. Do
 </blockquote>
 <h2>Checking Style</h2>
 <p>One task you should add to your build system right at the start of the project
-is something that runs a <span g="style_checker" i="style checker">style
-checker</span> to make sure your code follows the team's formatting rules.
-(Style checkers are often called <span g="linter" i="linter">linters</span>
+is something that runs a <span class="indexref" key="style checker" markdown="1"><a class="glossref" href="../glossary/#style_checker" markdown="1">style checker</a></span> to make sure your code follows the team's formatting rules.
+(Style checkers are often called <span class="indexref" key="linter" markdown="1"><a class="glossref" href="../glossary/#linter" markdown="1">linters</a></span>
 because an early one called <code>lint</code> looked for problems in C programs.)  Some of
 these rules are as simple as "no method can be longer than 100 lines" or "class
 names must be written in CamelCase".  Modern tools like <span class="indexref" key="style
@@ -165,16 +162,14 @@ never used, duplicated code that could be refactored, and a lot more.  Code
 reviews are much more straightforward when the code you're looking at is
 guaranteed to be clean, so if something violates style rules, treat it as a
 broken build.</p>
-<p>Style checkers are just one kind of <span g="static_analysis" i="static
-analysis">static analysis</span> tool, since they work by parsing the source
+<p>Style checkers are just one kind of <span class="indexref" key="static analysis" markdown="1"><a class="glossref" href="../glossary/#static_analysis" markdown="1">static analysis</a></span> tool, since they work by parsing the source
 code for your program rather than by watching the program run. Compilers also do
 a lot of static analysis; the non-fatal warnings they produce are a lot more
 useful than many students realize, and a "zero warnings" policy can prevent a
 lot of subtle bugs.  As we'll see in <a section="research"/>, requiring type
 definitions in code helps programmers understand software as well.</p>
 <h2>Continuous Integration</h2>
-<p>Build tools will do a lot more for you if you adopt some kind of <span g="ci"
-i="continuous integration">continuous integration</span> system such as <span class="indexref" key="Travis CI;continuous integration!Travis CI" markdown="1"><a href="https://travis-ci.org/">Travis CI</a></span> or
+<p>Build tools will do a lot more for you if you adopt some kind of <span class="indexref" key="continuous integration" markdown="1"><a class="glossref" href="../glossary/#ci" markdown="1">continuous integration</a></span> system such as <span class="indexref" key="Travis CI;continuous integration!Travis CI" markdown="1"><a href="https://travis-ci.org/">Travis CI</a></span> or
 <span class="indexref" key="GitHub Actions;continuous integration!GitHub Actions" markdown="1"><a href="https://github.com/features/actions">GitHub
 Actions</a></span>.  These can be set up to run either at regular
 intervals (e.g., every hour or at three a.m.), or every time someone checks into
@@ -245,10 +240,7 @@ jobs:
 the fact that you specify what you want in YAML rather than in Python,
 JavaScript, or some other language.  [<a href="../bibliography/#Zampetti2020">Zampetti2020</a>] looks at how
 <em>not</em> to use CI, and can serve as a good checklist of things to avoid.</p>
-<p>If you don't want to go this far, you can add <span g="pre_commit_hook"
-i="pre-commit hook; Git!pre-commit hook">pre-commit</span> or <span
-g="post_commit_hook" i="post-commit hook; Git!post-commit hook">post-commit
-hooks</span> to your repository to specify actions to run on your machine before
+<p>If you don't want to go this far, you can add <span class="indexref" key="pre-commit hook;Git!pre-commit hook" markdown="1"><a class="glossref" href="../glossary/#pre_commit_hook" markdown="1">pre-commit</a></span> or <span class="indexref" key="post-commit hook;Git!post-commit hook" markdown="1"><a class="glossref" href="../glossary/#post_commit_hook" markdown="1">post-commit hooks</a></span> to your repository to specify actions to run on your machine before
 and after each commit. When I set these up, I almost always have them run
 commands via the build manager so that I can also run checks whenever I want.</p>
 <blockquote>

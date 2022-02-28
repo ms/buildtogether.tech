@@ -32,15 +32,13 @@ experience, it makes a lot less difference than most people think…
 
 …as long as you use the right one, that is. Twenty years ago there was a pretty
 clear tradeoff between how quickly you can get a program running and how fast it
-ran.  <span g="interpreted_language" i="programming
-language!interpreted">Interpreted languages</span> like [% i "Perl" %]Perl[% /i %] optimized programmers' time; <span g="compiled_language"
-i="programming language!compiled">compiled languages</span> like [% i "C" %]C[% /i %] optimized the machine's.
+ran.  [% i "programming language!interpreted" %][% g interpreted_language %]Interpreted languages[% /g %][% /i %] like [% i "Perl" %]Perl[% /i %] optimized programmers' time; [% i "programming language!compiled" %][% g compiled_language %]compiled languages[% /g %][% /i %] like [% i "C" %]C[% /i %] optimized the machine's.
 
 Today, the balance has shifted in favor of higher-level languages. One reason is
 that processors have gotten faster but people haven't, so one programmer-hour is
 worth many more computer-hours than before. Another reason is that
-<span g="jit" i="just-in-time compiler">just-in-time compilers</span> (JITs) and
-<span g="generational_garbage_collection" i="generational garbage collection; garbage collection!generational">generational garbage collection</span>
+[% i "just-in-time compiler" %][% g jit %]just-in-time compilers[% /g %][% /i %] (JITs) and
+[% i "generational garbage collection" "garbage collection!generational" %][% g generational_garbage_collection %]generational garbage collection[% /g %][% /i %]
 have made higher-level languages intrinsically faster. The biggest, though, is that
 the execution time of a modern application depends less on squeezing cycles out
 of processors than it used to. The bottleneck in a web site is almost always
@@ -61,15 +59,14 @@ Some languages are [% i "programming language!ease of learning" %]easier to lear
     language feature.
 
 Static typing helps, but only a little.
-:   A <span g="static_typing" i="static typing; typing!static; programming
-    language!statically typed">statically-typed</span> language like [% i "Java" %]Java[% /i %] requires programmers to specify the data type of each
-    variable; a <span g="dynamic_typing" i="dynamic typing; typing!dynamic; programming language!dynamically typed">dynamically-typed</span>
+:   A [% i "static typing" "typing!static" "programming language!statically typed" %][% g static_typing %]statically-typed[% /g %][% /i %] language like [% i "Java" %]Java[% /i %] requires programmers to specify the data type of each
+    variable; a [% i "dynamic typing" "typing!dynamic" "programming language!dynamically typed" %][% g dynamic_typing %]dynamically-typed[% /g %][% /i %]
     one like [% i "Python" %]Python[% /i %] doesn't require them, though you can add
     them if you want, while [% i "TypeScript" %]TypeScript[% /i %] adds types as
     a layer on top of [% i "JavaScript" %]JavaScript[% /i %].
     [% b Endrikat2014 %] found that declaring types does add complexity to
     programs, but it pays off fairly quickly by acting as documentation and by
-    making <span g="auto_completion" i="auto-completion">auto-completion</span>
+    making [% i "auto-completion" %][% g auto_completion %]auto-completion[% /g %][% /i %]
     more accurate.
 
 The most important thing about a language is its community.
@@ -92,7 +89,7 @@ developers can download packages.  Each package typically has a name and one or
 more version(s); each version may have a list of dependencies, and the package
 may specify a version or range of versions for each dependency.
 
-A <span g="package_manager" i="package manager">package manager</span> is a
+A [% i "package manager" %][% g package_manager %]package manager[% /g %][% /i %] is a
 program that keeps track of which packages are installed on your computer and
 how they depend on each other.  Package managers became popular out of necessity
 in the 1990s along with Linux: so many distributions were being updated so often
@@ -169,22 +166,21 @@ operating system in disguise).
 You might already have a favorite editor. If you're like most programmers, you
 will change jobs, languages, operating systems, and nationality before you'll
 switch to another, because it has taken weeks or months for your hands to master
-the current one. However, if it is not an <span g="ide" i="IDE">integrated
-development environment</span> (IDE) that combines an editor with other
+the current one. However, if it is not an [% i "IDE" %][% g ide %]integrated development environment[% /g %][% /i %] (IDE) that combines an editor with other
 programming tools then getting work done will take longer and hurt more than it
 needs to.
 
 IDEs were invented in the 1970s, but didn't really catch on until [% i "Borland" %]Borland[% /i %] released [% i "Turbo Pascal" %]Turbo Pascal[% /i %]
 in the 1980s.  They usually include these tools:
 
--   A <span g="console" i="console; IDE!console">console</span> so that you can
+-   A [% i "console" "IDE!console" %][% g console %]console[% /g %][% /i %] so that you can
     type in expressions or call functions and see the results without having to
     start (or restart) your program.
 
--   A <span g="code_browser" i="code browser">code browser</span> that helps you
+-   A [% i "code browser" %][% g code_browser %]code browser[% /g %][% /i %] that helps you
     navigate the packages, classes, methods, and data in your program.
 
--   A <span g="gui_designer" i="GUI designer">GUI designer</span> that lets you
+-   A [% i "GUI designer" %][% g gui_designer %]GUI designer[% /g %][% /i %] that lets you
     build GUIs by dragging and dropping components;
 
 -   A [% i "test runner" %]test runner[% /i %] to display the results of tests and
@@ -196,7 +192,7 @@ in the 1980s.  They usually include these tools:
 The most popular IDE today is probably [% i "VS Code" "Microsoft Visual Studio
 Code" "IDE!VS Code" %][Microsoft Visual Studio Code][vs-code][% /i %], often
 referred to simply as "VS Code".  Along with all the tools above, it has
-hundreds of <span g="plugin" i="plugin!for IDE">plugins</span> of varying
+hundreds of [% i "plugin!for IDE" %][% g plugin %]plugins[% /g %][% /i %] of varying
 quality to support database design, reverse engineering, dozens of different
 programming languages, and more.  These all make you more productive than their
 disconnected counterparts. Since most of these store project data (including
@@ -215,7 +211,7 @@ yet---but it will make all of your front-end work a lot easier.
 ## Refactoring
 
 After a debugger, the most under-appreciated power of most IDEs is their ability
-to <span g="refactoring" i="refactoring">refactor</span> code, i.e., to change
+to [% i "refactoring" %][% g refactoring %]refactor[% /g %][% /i %] code, i.e., to change
 its structure without changing what it does [% b Fowler2018 %].  It is just
 as much a part of programming as writing code in the first place: nobody gets
 things right the first time, and needs or insights can change over time
@@ -246,8 +242,7 @@ productive. Some aren't part of the standard undergraduate curriculum yet, even
 though good developers have been relying on them for a decade or more. Others
 may be touched on, but only briefly, so a quick recap won't hurt.
 
-The first is a <span g="doc_generator" i="documentation generator">documentation
-generator</span> like [% i "JSDoc" "documentation
+The first is a [% i "documentation generator" %][% g doc_generator %]documentation generator[% /g %][% /i %] like [% i "JSDoc" "documentation
 generator!JSDoc" %][JSDoc][jsdoc][% /i %]. This is a compiler of a sort, but
 instead of translating source code into something executable, it extracts
 information from specially-formatted comments and strings, and turns it into
@@ -260,8 +255,7 @@ classes, and methods this way; it's a good habit, and one you should cultivate.
 
 Another set of tools complement the style checkers discussed in <a section="automation"/>.
 Style checkers do static analysis, i.e., they look at the
-text of your program while it's at rest.  Other tools do <span
-g="dynamic_analysis" i="dynamic analysis">dynamic analysis</span>: tools like
+text of your program while it's at rest.  Other tools do [% i "dynamic analysis" %][% g dynamic_analysis %]dynamic analysis[% /g %][% /i %]: tools like
 [% i "Valgrind" "dynamic analysis!Valgrind" %]Valgrind[% /i %] watch your [% i "C" %]C[% /i %] or [% i "C++" %]C++[% /i %] program run and look for things like
 memory leaks, or inconsistent locking that might lead to deadlocks or race
 conditions.

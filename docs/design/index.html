@@ -105,7 +105,7 @@ the program and the references that stitch them together. The more
 experience someone has, the fewer of these they need to draw, but everyone
 falls back on them eventually (particularly during difficult debugging
 sessions).</dd>
-<dt>The systems' <span g="conceptual_architecture" i="conceptual architecture!diagram; diagrams!conceptual architecture">conceptual architecture</span>.</dt>
+<dt>The systems' <span class="indexref" key="conceptual architecture!diagram;diagrams!conceptual architecture" markdown="1"><a class="glossref" href="../glossary/#conceptual_architecture" markdown="1">conceptual architecture</a></span>.</dt>
 <dd>This shows how the important parts of the system fit together. It's also
 the least constrained, since it can include everything from specific
 sections of configuration files to class hierarchies to replicated web
@@ -124,16 +124,13 @@ up. In most cases, this consists of a bunch of boxes representing the
 machines the application's components run on, trees showing files and
 directories, and circles showing running processes. A lot of this stuff can
 show up in the conceptual architecture as well.</dd>
-<dt><span g="workflow_diagram" i="workflow diagram; diagrams!workflow">Workflow diagrams</span> that show how users accomplish things.</dt>
-<dd>Workflows are almost always drawn as <span g="fsm" i="finite state
-machines!use in software design">finite state machines</span>. Each node
+<dt><span class="indexref" key="workflow diagram;diagrams!workflow" markdown="1"><a class="glossref" href="../glossary/#workflow_diagram" markdown="1">Workflow diagrams</a></span> that show how users accomplish things.</dt>
+<dd>Workflows are almost always drawn as <span class="indexref" key="finite state machines!use in software design" markdown="1"><a class="glossref" href="../glossary/#fsm" markdown="1">finite state machines</a></span>. Each node
 represents a state the user and the system can be in, while the arcs show
 how to get from one state to another.</dd>
 <dt>Schemas or data models.</dt>
 <dd>These can be fairly literal pictures of the tables in a database, possibly
-augmented with arrows to show what's a foreign key for what, or <span
-g="er_diagram" i="entity-relationship diagram;
-diagrams!entity-relationship">entity-relationship diagrams</span> that also
+augmented with arrows to show what's a foreign key for what, or <span class="indexref" key="entity-relationship diagram;diagrams!entity-relationship" markdown="1"><a class="glossref" href="../glossary/#er_diagram" markdown="1">entity-relationship diagrams</a></span> that also
 show which relationships are one-to-one, one-to-many, and so on
 (<a figure="er-diagram"/>).</dd>
 </dl>
@@ -143,13 +140,11 @@ show which relationships are one-to-one, one-to-many, and so on
 </figure>
 
 <p>The two kinds of diagram that I find most useful are ER diagrams and a
-combination of conceptual and <span g="use_case_map" i="use-case map;
-diagrams!use-case map">use-case maps</span> [<a href="../bibliography/#Reekie2006">Reekie2006</a>].  The
+combination of conceptual and <span class="indexref" key="use-case map;diagrams!use-case map" markdown="1"><a class="glossref" href="../glossary/#use_case_map" markdown="1">use-case maps</a></span> [<a href="../bibliography/#Reekie2006">Reekie2006</a>].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
 (<a figure="use-case-map"/>).  I find these particularly useful for checking the behavior
-of systems built from lots of <span g="microservice"
-i="microservice">microservices</span>.</p>
+of systems built from lots of <span class="indexref" key="microservice" markdown="1"><a class="glossref" href="../glossary/#microservice" markdown="1">microservices</a></span>.</p>
 <figure id="use-case-map">
   <img src="use-case-map.png" alt="Use case maps"/>
   <figcaption>An example of a use case map (from Reekie2006).</figcaption>
@@ -157,8 +152,7 @@ i="microservice">microservices</span>.</p>
 
 <blockquote>
 <h3>UML and why not</h3>
-<p>I'm not a fan of the <span g="uml" i="Unified Modeling Language">Unified
-Modeling Language</span> (UML). It defines over a dozen different types of
+<p>I'm not a fan of the <span class="indexref" key="Unified Modeling Language" markdown="1"><a class="glossref" href="../glossary/#uml" markdown="1">Unified &gt; Modeling Language</a></span> (UML). It defines over a dozen different types of
 diagrams for showing the relationships between classes, the order in which
 things happen when methods are invoked, the states a system goes through when
 performing an action, and so on.  Hundreds of books and thousands of articles
@@ -186,7 +180,7 @@ representation.</p>
 how do you describe something that doesn't exist yet? The best way to start is
 to write your <span class="indexref" key="elevator pitch" markdown="1">elevator pitch</span>
 (<a section="starting"/>). Next, write one or two point-form
-<span g="user_story" i="user story!use in software design">user stories</span>
+<span class="indexref" key="user story!use in software design" markdown="1"><a class="glossref" href="../glossary/#user_story" markdown="1">user stories</a></span>
 describing how the application, feature, or library would be used. Be as concrete
 as possible: instead of saying, "Allows the user to find overlaps between their
 calendar and their friends' calendars," say:</p>
@@ -249,14 +243,11 @@ people to view them"), figure out how to implement your solution, then revisit
 any previous decisions that your most recent decisions affect. Design is a very
 cyclic process: every time you add or change one thing, no matter how small, you
 may need to go back and re-design other things.</p>
-<p>There are three traps here for the inexperienced. The first is <span
-g="analysis_paralysis" i="analysis paralysis">analysis paralysis</span>, where
+<p>There are three traps here for the inexperienced. The first is <span class="indexref" key="analysis paralysis" markdown="1"><a class="glossref" href="../glossary/#analysis_paralysis" markdown="1">analysis paralysis</a></span>, where
 you find yourself revisiting issues over and over again without ever making any
-decisions that stick. The second is <span g="nih" i="not invented here
-syndrome">not invented here</span> syndrome, which leads people to say, "Sure,
+decisions that stick. The second is <span class="indexref" key="not invented here syndrome" markdown="1"><a class="glossref" href="../glossary/#nih" markdown="1">not invented here</a></span> syndrome, which leads people to say, "Sure,
 there's a library that does that, but I didn't write it so I'm not going to use
-it."  Its complement is <span g="aih" i="already invented here syndrome">already
-invented here</span> syndrome, in which someone says, "Look, we've already made
+it."  Its complement is <span class="indexref" key="already invented here syndrome" markdown="1"><a class="glossref" href="../glossary/#aih" markdown="1">already invented here</a></span> syndrome, in which someone says, "Look, we've already made
 a decision about that, let's not reopen the debate." Any of these can sink a
 project; together, they show why it's so hard to teach design, since what I'm
 basically saying is, "Argue enough, but not too much."</p>
@@ -278,9 +269,7 @@ of past failures so that you know how a good idea might fail in practice.</p>
 one way to tell how well designed that system is (<a section="testing"/>). Another
 is how easily we can modify or <span class="indexref" key="software design!evolution" markdown="1">extend</span>
 the system to do new things. If our design is perfect, we can implement changes
-by adding code without modifying what's already there.  This is called the <span
-g="open_closed_principle" i="Open-Closed Principle">Open-Closed
-Principle</span>: systems should be open for extension, but closed for
+by adding code without modifying what's already there.  This is called the <span class="indexref" key="Open-Closed Principle" markdown="1"><a class="glossref" href="../glossary/#open_closed_principle" markdown="1">Open-Closed Principle</a></span>: systems should be open for extension, but closed for
 modification.</p>
 <p>For example, suppose that we are simulating a hospital emergency room. We could
 write the function that simulates someone's response to a cardiac arrest like
@@ -347,13 +336,9 @@ and select a method to call based on the event:</p>
 that we can add new actors <em>and</em> new events without having to go back and change
 old code.</p>
 <p>But how can we be sure that our new code is going to do what the old code
-expects? The answer is a technique called <span g="design_by_contract" i="design
-by contract">design by contract</span>. Every function or method specifies <span
-g="pre_condition" i="pre-condition">pre-conditions</span> that must be true of
-its inputs in order for it to run successfully and <span g="post_condition"
-i="post-condition">post-conditions</span> that are guaranteed to be true of its
-results. <span g="type_declaration" i="type declaration!use in software
-design">Type declarations</span> are the most common kind of pre-condition and
+expects? The answer is a technique called <span class="indexref" key="design by contract" markdown="1"><a class="glossref" href="../glossary/#design_by_contract" markdown="1">design by contract</a></span>. Every function or method specifies <span class="indexref" key="pre-condition" markdown="1"><a class="glossref" href="../glossary/#pre_condition" markdown="1">pre-conditions</a></span> that must be true of
+its inputs in order for it to run successfully and <span class="indexref" key="post-condition" markdown="1"><a class="glossref" href="../glossary/#post_condition" markdown="1">post-conditions</a></span> that are guaranteed to be true of its
+results. <span class="indexref" key="type declaration!use in software design" markdown="1"><a class="glossref" href="../glossary/#type_declaration" markdown="1">Type declarations</a></span> are the most common kind of pre-condition and
 post-condition: they say things like, "The input must be a list of strings,"
 and, "The output is a single string." More sophisticated pre-conditions and
 post-conditions can be written as assertions that (for example) check that all
@@ -419,7 +404,7 @@ a record of exactly what the settings were (which can be helpful when
 testing).
 <br/>
 Configuration files are often
-<span g="layered_configuration" i="configuration!layered">layered</span>:
+<span class="indexref" key="configuration!layered" markdown="1"><a class="glossref" href="../glossary/#layered_configuration" markdown="1">layered</a></span>:
 the program reads a global
 configuration file with general settings, then a user-specific configuration
 file (typically in the user's home directory) with the user's preferences,
@@ -435,9 +420,7 @@ then the interface the general user sees can be written as a thin layer that
 combines those libraries. Users can then write code of their own to control
 the libraries if they want to extend the application's behavior.</dd>
 </dl>
-<p>The last of these is what we mean by saying that something is <span
-g="scriptable" i="scriptability; software
-design!scriptability">scriptable</span>.  One of the things that made Microsoft
+<p>The last of these is what we mean by saying that something is <span class="indexref" key="scriptability;software design!scriptability" markdown="1"><a class="glossref" href="../glossary/#scriptable" markdown="1">scriptable</a></span>.  One of the things that made Microsoft
 Office so popular was users' ability to write scripts for Word, Excel, and other
 tools in <span class="indexref" key="Visual Basic" markdown="1"><a href="https://en.wikipedia.org/wiki/Visual_Basic">Visual Basic</a></span>.  Today,
 many games include a scripting language like <span class="indexref" key="Lua" markdown="1"><a href="https://www.lua.org/">Lua</a></span> so
@@ -453,8 +436,7 @@ can't be cool: as a computer science professor said to me once about something
 similar, "I realize it's popular, but it's merely useful."</p>
 </blockquote>
 <p>The other way to script something is through an external interface.  Most web
-applications these days provide some sort of <span g="rest" i="Representational
-State Transfer; REST">REST</span> API so that programs can send requests or post
+applications these days provide some sort of <span class="indexref" key="Representational State Transfer;REST" markdown="1"><a class="glossref" href="../glossary/#rest" markdown="1">REST</a></span> API so that programs can send requests or post
 data via HTTP to control the app's behavior. Many of these require programs to
 authenticate in order to prove that they have a right to do what they want to;
 as soon as we're thinking about that, we need to think about the topic of the
@@ -513,8 +495,7 @@ sides are given by the first part and the second part".</p>
 
 <p>This difference implies that the software that is quickest for a novice to
 comprehend will almost certainly be different from the software that an expert
-can understand most quickly, which is why design rules like <span g="dry"
-i="Don't Repeat Yourself">Don't Repeat Yourself</span> should be followed by the
+can understand most quickly, which is why design rules like <span class="indexref" key="Don't Repeat Yourself" markdown="1"><a class="glossref" href="../glossary/#dry" markdown="1">Don't Repeat Yourself</a></span> should be followed by the
 word "however".  Duplicating some code so that it's right in front of the reader
 may help people at one level of development, even if it makes long-term
 maintenance more difficult for people at another level.  In the end, the only

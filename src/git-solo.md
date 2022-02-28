@@ -18,12 +18,9 @@ exist. [% i "version control!CVS" "CVS (version control)" %][CVS][cvs][% /i %]
 was the workhorse of the open source world for many years; it was replaced by
 [% i "version control!Subversion" "Subversion (version
 control)" %][Subversion][subversion][% /i %], which fixed many of its predecessor's
-flaws while introducing a few minor ones of its own. Both of these were <span
-g="centralized_system" i="version control!centralized">centralized
-systems</span>:
+flaws while introducing a few minor ones of its own. Both of these were [% i "version control!centralized" %][% g centralized_system %]centralized systems[% /g %][% /i %]:
 
-1.  One <span g="repository" i="version control!repository; repository (version
-    control)">repository</span> stored the definitive copy of the project's
+1.  One [% i "version control!repository" "repository (version control)" %][% g repository %]repository[% /g %][% /i %] stored the definitive copy of the project's
     files.
 
 1.  Nobody ever edited the contents of the main repository directly. Instead,
@@ -34,8 +31,7 @@ systems</span>:
     To get other people's work, they would [% g pull_git %]pull[% /g %]
     changes from the main repository and combine them with their own work.
 
-Centralized version control systems have largely been replaced by <span
-g="decentralized_system" i="version control!decentralized">decentralized</span>
+Centralized version control systems have largely been replaced by [% i "version control!decentralized" %][% g decentralized_system %]decentralized[% /g %][% /i %]
 ones, and in particular by [% i "version
 control!Git" "Git" %][Git][git][% /i %]. In theory, Git doesn't need a main
 repository: developers can merge the contents of any repository into any other.
@@ -43,8 +39,7 @@ In practice, almost every project designates one repository as the master copy
 so that people know where to look to find the current state of the project.
 
 Unfortunately, Git has a needlessly complicated interface.
-[% b PerezDeRosso2013 %] found that even experienced users have a <span
-g="mental_model" i="mental model!Git">mental model</span> of how it works that
+[% b PerezDeRosso2013 %] found that even experienced users have a [% i "mental model!Git" %][% g mental_model %]mental model[% /g %][% /i %] of how it works that
 contradicts its actual operation in important ways, and each of those
 contradictions produces a steady stream of "what the hell?"  moments. Other
 distributed version control systems like [% i "version control!Mercurial" "Mercurial (version control)" %][Mercurial][mercurial][% /i %] are proof that this
@@ -58,7 +53,7 @@ answer these days is, "Because it's the tax they have to pay in order to use
 [GitHub][github]." At the time of writing, GitHub has over 40 million users and
 hosts over 28 million public repositories, including those for many well-known
 open source projects. It is easily the most popular
-<span g="software_portal" i="software portal!GitHub">software portal</span> in existence, and
+[% i "software portal!GitHub" %][% g software_portal %]software portal[% /g %][% /i %] in existence, and
 offers all of the tools a small software team needs. Other portals exist, such
 as [% i "Bitbucket" "software portal!Bitbucket" %][Bitbucket][bitbucket][% /i %]
 and [% i "GitLab" "software portal!GitLab" %][GitLab][gitlab][% /i %], but
@@ -140,8 +135,7 @@ have and how they've changed.
 
 If your instructor or one of your teammates has already created a project, you
 won't use `git init`. Instead, you will use `git clone` followed by the
-project's URL to get a local copy called a <span g="clone_git" i="Git!cloning
-project">clone</span>. For example, if you want a clone of this book, you can do
+project's URL to get a local copy called a [% i "Git!cloning project" %][% g clone_git %]clone[% /g %][% /i %]. For example, if you want a clone of this book, you can do
 this:
 
 ```sh
@@ -192,21 +186,18 @@ Each entry has:
 
 -   Two lines showing who saved the state of the project and when. The name and
     email address in the `Author` field are the ones we set up with `git
-    config`; the <span g="timestamp" i="timestamp!of Git
-    commit">timestamp</span> is accurate to the second, and includes time zone
+    config`; the [% i "timestamp!of Git commit" %][% g timestamp %]timestamp[% /g %][% /i %] is accurate to the second, and includes time zone
     information like the `-0500` showing that I'm in Eastern time so that anyone
     in the world can tell exactly when these files were saved.
 
--   A short comment called a <span g="commit_message" i="commit message (version
-    control); Git!commit message">commit message</span> that tells us what this
+-   A short comment called a [% i "commit message (version control)" "Git!commit message" %][% g commit_message %]commit message[% /g %][% /i %] that tells us what this
     change is all about. We will take a look in <a section="git-team"/> at how to
     write a good commit message; for now, just remember that if you and your
     teammates have made a hundred changes to the project over the course of ten
     or twelve weeks, you're going to want something more informative than "Fixed
     stuff."
 
-All right: what are <span g="commit" i="commit (version control);
-Git!commit">commits</span> and where do they come from? A commit is a snapshot
+All right: what are [% i "commit (version control)" "Git!commit" %][% g commit %]commits[% /g %][% /i %] and where do they come from? A commit is a snapshot
 of the project at a particular moment in time; we create them using a command
 like:
 
@@ -327,7 +318,7 @@ Finally, I should make sure there's a second physical copy of my work so that if
 my drive fails or my laptop is stolen I don't lose everything I've done. If I
 created the repository by cloning something on GitHub, then Git will
 automatically have created a bookmark called a
-<span g="remote_git" i="Git!remote; remote (in Git)">remote</span> that points
+[% i "Git!remote" "remote (in Git)" %][% g remote_git %]remote[% /g %][% /i %] that points
 at the original repository. I can get a list of remotes like this:
 
 ```sh
@@ -387,7 +378,7 @@ servers).
 So far we have only used a sequential timeline with Git: each change builds on
 the one before, and *only* on the one before.  However, there are times when we
 want to work on several things at once.  To do this, we can use
-<span g="branch_git" i="branch (in Git); Git!branch">branches</span> to work on
+[% i "branch (in Git)" "Git!branch" %][% g branch_git %]branches[% /g %][% /i %] to work on
 separate tasks in parallel.  Each branch is like a parallel timeline: changes made
 to one branch have no effect on other branches unless and until we explicitly merge
 them.
@@ -463,8 +454,7 @@ and classes allows us to ignore the details of *this* when we're working on
 early start on homework 4, we can create a new branch from `main` called
 `homework4` and start setting things up in there.
 
-When we are done, we can <span g="merge_git" i="merge (in Git);
-Git!merge">merge</span> the state of one branch back into another. Merging
+When we are done, we can [% i "merge (in Git)" "Git!merge" %][% g merge_git %]merge[% /g %][% /i %] the state of one branch back into another. Merging
 doesn't change the source branch, but once it's done, all of the changes made
 there are in the destination branch.
 
@@ -542,8 +532,7 @@ Deleted branch homework3 (was 1577404).
 ```
 
 Merging `homework3` into `main` went smoothly, but if we are going to use
-branches, we must learn how to merge <span g="conflict_git" i="conflict (in
-Git); Git!conflict">conflicts</span>.  These occur when a line has been changed
+branches, we must learn how to merge [% i "conflict (in Git)" "Git!conflict" %][% g conflict_git %]conflicts[% /g %][% /i %].  These occur when a line has been changed
 in different ways in two branches or when a file has been deleted in one branch
 but edited in the other.
 

@@ -17,35 +17,29 @@ modify, which in turn makes the next piece of work easier to tackle.
 
 ## Unit Testing
 
-As the name suggests, a <span g="unit_test" i="unit test">unit test</span>
+As the name suggests, a [% i "unit test" %][% g unit_test %]unit test[% /g %][% /i %]
 checks the correctness of a single unit of software.  Exactly what constitutes a
 "unit" is subjective, but it typically means the behavior of a single function
 or method in one situation.
 
 A unit test will typically have:
 
--   A <span g="fixture" i="fixture (in unit test); unit
-    test!fixture">fixture</span>, which is the thing being tested (e.g., an
+-   A [% i "fixture (in unit test)" "unit test!fixture" %][% g fixture %]fixture[% /g %][% /i %], which is the thing being tested (e.g., an
     array of numbers). The fixture is typically a subset or smaller version of
     the data the function will typically process. In fact, it should be a reprex
     (<a section="communicate"/>), i.e., exactly the same kind of minimal example
     you would post online if you were asking for help.
 
--   An <span g="actual_result" i="actual result (in unit test); unit test!actual
-    result">actual result</span>, which is what the code produces when given the
+-   An [% i "actual result (in unit test)" "unit test!actual result" %][% g actual_result %]actual result[% /g %][% /i %], which is what the code produces when given the
     fixture.
 
--   An <span g="expected_result" i="expected result (in unit test); unit
-    test!expected result">expected result</span> that the actual result is
+-   An [% i "expected result (in unit test)" "unit test!expected result" %][% g expected_result %]expected result[% /g %][% /i %] that the actual result is
     compared to.
 
 Good programmers often run informal unit tests interactively when debugging
 (<a section="tooling"/>), but they are much more valuable when they can be re-run
 at a moment's notice to make sure that the most recent changes haven't broken
-anything that was working a few minutes ago.  To do this, you can use a <span
-g="test_framework" i="test framework; unit test!test framework">test
-framework</span> (also called a <span g="test_runner" i="test runner">test
-runner</span>).  Dozens of these have been built for almost every language you
+anything that was working a few minutes ago.  To do this, you can use a [% i "test framework" "unit test!test framework" %][% g test_framework %]test framework[% /g %][% /i %] (also called a [% i "test runner" %][% g test_runner %]test runner[% /g %][% /i %]).  Dozens of these have been built for almost every language you
 can think of; most are very similar because they were inspired by the same
 forerunners. The most widely-used test framework for Python is called
 [`pytest`][pytest], which structures tests like this:
@@ -61,8 +55,7 @@ functions it finds in these files and summarizes their results.
 
 If running all the tests is taking so long that it's disrupting your [% i "flow" %]flow[% /i %] (<a section="important"/>), you can give `pytest` (and other
 test runners) arguments to specify which subset of tests to run. This speeds up
-development, but you should always re-run the entire <span g="test_suite"
-i="test suite; unit test!test suite">test suite</span> before committing your
+development, but you should always re-run the entire [% i "test suite" "unit test!test suite" %][% g test_suite %]test suite[% /g %][% /i %] before committing your
 changes to version control. If the tests reveal that the change you have just
 made to one part of a program unexpectedly affects some other part, it's a sign
 that you should change your design to remove that long-range interaction: sooner
@@ -78,8 +71,7 @@ second time around.
 > for two decades.
 >
 > While they weren't the first people to test with random data, their results
-> sparked interest in <span g="fuzz_testing" i="fuzz testing; unit
-> test!fuzzing">fuzz testing</span> (or "fuzzing" for short), which is now a
+> sparked interest in [% i "fuzz testing" "unit > test!fuzzing" %][% g fuzz_testing %]fuzz testing[% /g %][% /i %] (or "fuzzing" for short), which is now a
 > standard part of most testers' repertoire [% b Zeller2019 %].  Despite
 > this, [% b Miller2020 %] found that thirty years later, programs are still
 > failing at about the same rate and for the same reasons.  <a section="debugging"/>
@@ -91,23 +83,18 @@ When most developers hear the word "design", they think about either the
 application's structure or its user interface. If you don't think about how
 you're going to test your application while you're designing it, though, the
 odds are very good that you'll build something that cannot (or cannot easily) be
-tested.  Conversely, if you <span g="design_for_test" i="design for test; unit
-test!influence on software design">design for test</span>, it'll be a lot easier
+tested.  Conversely, if you [% i "design for test" "unit test!influence on software design" %][% g design_for_test %]design for test[% /g %][% /i %], it'll be a lot easier
 to check whether your finished application actually does what it's supposed to.
 
-Thinking about testability from the start turns out to be a good <span
-g="heuristic" i="software design!influence of testability; testability!influence
-on software design">heuristic</span> for design in general
+Thinking about testability from the start turns out to be a good [% i "software design!influence of testability" "testability!influence on software design" %][% g heuristic %]heuristic[% /g %][% /i %] for design in general
 [% b Feathers2004 %], since it forces you to think in terms of small
 components with well-defined interfaces. Not only can these be tested more
 easily, they can also be modified or replaced in isolation, which significantly
 reduces the probability of requiring rework in the naïve model presented at the
 start of this chapter.
 
-For example, let's consider a typical three-tier web site that uses the <span
-g="mvc" i="model-view-controller architecture">Model-View-Controller</span>
-(MVC) <span g="design_pattern" i="design pattern!model-view-controller">design
-pattern</span>. The model, which is stored in a relational database, is the data
+For example, let's consider a typical three-tier web site that uses the [% i "model-view-controller architecture" %][% g mvc %]Model-View-Controller[% /g %][% /i %]
+(MVC) [% i "design pattern!model-view-controller" %][% g design_pattern %]design pattern[% /g %][% /i %]. The model, which is stored in a relational database, is the data
 that the application manipulates, such as purchase orders and game states. The
 controller encapsulates the application's business rules: who's allowed to
 cancel games while they're in progress, how much interest to add on
@@ -153,8 +140,7 @@ actual program, this library passes the text of an HTTP response back to our
 script, which then checks that the right values are present (about which more in
 a moment). The library's job is to emulate the environment the web app under
 test would see if it was being invoked by the real server: environment variables
-are set, standard input and output are replaced by <span g="string_io" i="string
-I/O">string I/O</span> objects, and so on, so that the application has no (easy)
+are set, standard input and output are replaced by [% i "string I/O" %][% g string_io %]string I/O[% /g %][% /i %] objects, and so on, so that the application has no (easy)
 way to tell how it's being invoked.
 
 Why go through this rigmarole? Why not just have a top-level function in the web
@@ -187,8 +173,7 @@ login, then somewhere on the page there ought to be an element like this:
 </div>
 ```
 
-We can find that pretty easily with a <span g="css_selector" i="CSS selector!use
-in testing">CSS selector</span> that looks for a `div` with the ID
+We can find that pretty easily with a [% i "CSS selector!use in testing" %][% g css_selector %]CSS selector[% /g %][% /i %] that looks for a `div` with the ID
 `currentuser`.  We can then move the `div` around without breaking any of our
 tests; if we were a little more polite about formatting its internals (i.e., if
 we used something symbolic to highlight the user name and trusted CSS to do the
@@ -198,25 +183,21 @@ We've still only addressed half of our overall problem, though: our web
 application is still talking to a database, and reinitializing it each time a
 test runs is slow.  We can solve this by moving the database into memory. Most
 applications rely on an external database server, which is a long-lived process
-that manages data on disk. An alternative is an <span g="embedded_database"
-i="embedded database!use in testing">embedded database</span>, in which the
+that manages data on disk. An alternative is an [% i "embedded database!use in testing" %][% g embedded_database %]embedded database[% /g %][% /i %], in which the
 database manipulation code runs inside the user's application as a normal
 library; [SQLite][sqlite] is probably the best known of these.
 
 The advantage of using an embedded database from a testing point of view is that
 it can be told to store data in memory, rather than on disk. This would be a
 silly thing to do in a production environment (after all, the whole point of a
-database is that it persists), but in a testing environment, an <span
-g="in_memory_database" i="in-memory database!use in testing">in-memory
-database</span> can speed things up by a factor of thousands, since the hard
+database is that it persists), but in a testing environment, an [% i "in-memory database!use in testing" %][% g in_memory_database %]in-memory database[% /g %][% /i %] can speed things up by a factor of thousands, since the hard
 drive never has to come into play. The cost of doing this is that you have to
 either commit to using one database in both environments, or avoid using the
 "improvements" that different databases have added to SQL.
 
 > ### Mock objects
 >
-> A third choice is to replace the database with a <span g="mock_object" i="mock
-> object">mock object</span>.  A mock object has the same interface as the
+> A third choice is to replace the database with a [% i "mock > object" %][% g mock_object %]mock object[% /g %][% /i %].  A mock object has the same interface as the
 > function, object, class, or library that it replaces, but is designed to be used
 > solely for testing.  For example, Node's `mock-fs` library provides the same
 > functions as its standard filesystem library, but stores everything in memory.
@@ -351,9 +332,7 @@ probably saved my users from a lot of unnecessary frustration.
 
 The last thing you need (and you *do* need it) is some idea of how well you are
 testing.  How much of your code do your tests actually check, and what parts of
-your code aren't being tested?  To find out, you can check the <span
-g="code_coverage" i="coverage!code; code coverage; unit test!code coverage">code
-coverage</span> of your tests, i.e., measure the number of lines, statements, or
+your code aren't being tested?  To find out, you can check the [% i "coverage!code" "code coverage" "unit test!code coverage" %][% g code_coverage %]code coverage[% /g %][% /i %] of your tests, i.e., measure the number of lines, statements, or
 possible paths through the code that the tests are actually exercising.
 
 If you are using Python, you can check your tests' coverage with the `coverage`
@@ -381,8 +360,7 @@ So how much testing is enough?  The answer depends on what the software is being
 used for.  If it is for a safety-critical application such as a medical device,
 you should aim for 100% code coverage, i.e., every single line in the
 application should be tested.  In fact, we should probably go further and aim
-for 100% <span g="path_coverage" i="coverage!path; path coverage; unit test!path
-coverage">path coverage</span> to ensure that every possible path through the
+for 100% [% i "coverage!path" "path coverage" "unit test!path coverage" %][% g path_coverage %]path coverage[% /g %][% /i %] to ensure that every possible path through the
 code has been checked.  Similarly, if the software has become popular and is
 being used by thousands of people all over the world, we should probably check
 that it's not going to embarrass us.

@@ -13,9 +13,7 @@ Git repository in one of two ways [% b Irving2021 %]:
     repository[% /i %].
 
 2.  Everyone can read from the project's main repository, but only a few people
-    can commit changes to it.  The project's other contributors <span
-    g="fork_git" i="version control!collaboration!using forked
-    repositories">fork</span> the main repository to create one that they own,
+    can commit changes to it.  The project's other contributors [% i "version control!using forked repositories" %][% g fork_git %]fork[% /g %][% /i %] the main repository to create one that they own,
     do their work in that, and then submit their changes to the main repository.
 
 <!-- continue -->
@@ -102,7 +100,7 @@ sami:~/bst $ git pull origin main
 But what if Sami is working on some changes to homework 4 (which homework 5
 builds on)? She could just make her changes and push, but that would lead to a
 lot of merge conflicts.  Instead, almost everyone uses
-<span g="pull_request" i="pull request; Git!pull request">pull requests</span> (PR).
+[% i "pull request" "Git!pull request" %][% g pull_request %]pull requests[% /g %][% /i %] (PR).
 A PR is essentially a note saying, "Someone would like to merge branch A into branch B".
 The PR does not contain the changes, but instead points at two particular
 branches.  That way, the difference displayed is always up to date if either
@@ -224,8 +222,7 @@ or not.
 ## Code Reviews
 
 There's no point creating PRs if they are all merged as-is. The reason they
-exist is to allow <span g="code_review" i="code review!effectiveness of">code
-review</span>.  One study after another since the mid-1970s has proven that code
+exist is to allow [% i "code review!effectiveness of" %][% g code_review %]code review[% /g %][% /i %].  One study after another since the mid-1970s has proven that code
 review is the most cost-effective way to find bugs in software
 [% b Cohen2010 %]. It is also the most effective way to share knowledge
 between team members: if you read someone else's code, you have a chance to

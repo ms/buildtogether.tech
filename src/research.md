@@ -45,8 +45,7 @@ The data we have doesn't capture everything.
     several projects and found that many mis-report themselves in ways that will
     inevitably skew the results of simplistic analysis.
 
-Historically, juries in Scotland were allowed to return one of <span
-g="scottish_verdict" i="Scottish verdict">three verdicts</span>: innocent,
+Historically, juries in Scotland were allowed to return one of [% i "Scottish verdict" %][% g scottish_verdict %]three verdicts[% /g %][% /i %]: innocent,
 guilty, or not proven.  The world would be a better place if we were all more
 comfortable saying, "I don't know," and with changing our minds as new evidence
 comes in.
@@ -72,7 +71,7 @@ respectively.
 [% b Sadowski2019a %] summarizes of what we know, and more importantly, how
 to think about the problem.  The chapter [% b Sadowski2019b %] lays out a
 three-axis framework for discussion based on the
-<span g="gqm" i="Goal-Question-Metric">goal-question-metric</span> approach.
+[% i "Goal-Question-Metric" %][% g gqm %]goal-question-metric[% /g %][% /i %] approach.
 The more recent [% i "SPACE framework" "productivity!SPACE framework" %]SPACE framework[% /i %] looks at
 Satisfaction, Performance, Activity, Communication, and Efficiency
 [% b Forsgren2018 Forsgren2021 %].  However productivity is measured, it's
@@ -119,7 +118,7 @@ usable and self-documenting APIs by guiding programmers toward the correct use
 of objects and preventing errors. Contrary to expectations, programmers strongly
 preferred and were more effective with APIs that did not require constructor
 parameters.  They then analyzed subjects' behavior using the
-<span g="cognitive_dimensions" i="cognitive dimensions framework">cognitive dimensions</span>
+[% i "cognitive dimensions framework" %][% g cognitive_dimensions %]cognitive dimensions[% /g %][% /i %]
 framework, which showed that that requiring constructor parameters interfered
 with common learning strategies.
 
@@ -144,7 +143,7 @@ these guidelines.  In contrast, [% b Schankin2018 %] found that:
 > experienced developers.
 
 More recently, [% b Floyd2017 Krueger2020 Peitek2021 %] have used
-<span g="fmri" i="reading code!fMRI studies">fMRI</span> to look at what programmers'
+[% i "reading code!fMRI studies" %][% g fmri %]fMRI[% /g %][% /i %] to look at what programmers'
 brain do when they are reading or writing code. The main findings are that
 reading code is cognitively different from reading prose, but that the more
 experienced programmers are, the less of a difference there is. This
@@ -202,7 +201,7 @@ flow graph for:
 includes the statement on line 3, but the abstract interpretation flow graph
 doesn't, because there's no way it could ever be executed given the possible
 value(s) of `x`.  Code paths that are never executed signal
-<span g="dead_code" i="dead code">dead code</span>, which in turn usually signals logic errors, such
+[% i "dead code" %][% g dead_code %]dead code[% /g %][% /i %], which in turn usually signals logic errors, such
 as use of `and` instead of `or` in a logical test.  The results from this kind
 of analysis are impressive: the authors found that a lot of code in widely-used
 libraries is littered with unnecessary `null` checks, and that even experienced
@@ -249,8 +248,7 @@ most programmers ignore Java's elaborate exception hierarchy and simply catch
 `Exception` (78%) or `Throwable` (84%) rather than any of their more specific
 subclasses.
 
-In a similar vein, [% b Yuan2015 %] analyzed the <span g="root_cause"
-i="error!root cause analysis">root cause</span> of around 200 confirmed failures
+In a similar vein, [% b Yuan2015 %] analyzed the [% i "error!root cause analysis" %][% g root_cause %]root cause[% /g %][% /i %] of around 200 confirmed failures
 in large distributed systems. They report many findings, but the key one is that
 92% of the catastrophic system failures are the result of incorrect handling of
 non-fatal errors explicitly signaled in software, i.e., the software said,
@@ -308,8 +306,7 @@ they might not work in all situations, they work in all situations that matter.
 
 > ### What *can't* we learn?
 >
-> Many people have put forward <span g="code_metric" i="code
-> metrics!ineffectiveness of">code metrics</span> that are supposed to measure the
+> Many people have put forward [% i "code > metrics!ineffectiveness of" %][% g code_metric %]code metrics[% /g %][% /i %] that are supposed to measure the
 > complexity or likely number of bugs in a piece of software. However,
 > [% b ElEmam2001 %] found that these metrics are no better at predicting
 > things than simply counting the number of lines of code, because the longer the
@@ -319,7 +316,7 @@ they might not work in all situations, they work in all situations that matter.
 ## What Do We Know About Software Projects?
 
 If there is one "law" of software development that most practitioners have heard
-of, it is <span g="brooks_law" i="Brook's Law">Brooks' Law</span>: adding people
+of, it is [% i "Brook's Law" %][% g brooks_law %]Brooks' Law[% /g %][% /i %]: adding people
 to a late project makes it later. [% b Meneely2011 %] explores the
 correlation between adding people to a team and the quality of the software the
 team works on.  The paper reports that adding people is correlated with a later
@@ -422,8 +419,7 @@ any personality effects.
 
 > ### Myers-Briggs and other danger signs
 >
-> The <span g="myers_briggs" i="Myers-Briggs Type Indicator;
-> pseudoscience!Myers-Briggs Type Indicator">Myers-Briggs Type Indicator</span>
+> The [% i "Myers-Briggs Type Indicator" "> pseudoscience!Myers-Briggs Type Indicator" %][% g myers_briggs %]Myers-Briggs Type Indicator[% /g %][% /i %]
 > advertises itself as personality profiling tool.  It is popular on dating sites
 > and some companies use it as part of their interview process---despite the fact
 > that it is complete bullshit.  Half or more of people who repeat the test within
@@ -478,8 +474,7 @@ people studying how we think when we program and how the ways we think should
 shape the tools we build. For example, [% b Johnson2020 %] reverse
 engineers the cognitive foundations of user interface guidelines, while
 [% b Chattopadhyay2020 %] found that roughly 70% of the actions programmers
-later undo could be attributed to <span g="cognitive_bias" i="cognitive
-bias">cognitive bias</span>.
+later undo could be attributed to [% i "cognitive bias" %][% g cognitive_bias %]cognitive bias[% /g %][% /i %].
 
 You don't have to do a PhD to do this kind of research: you can gather and
 analyze data on your own, or collaborate with people in academia.  It takes time
