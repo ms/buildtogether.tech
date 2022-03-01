@@ -69,7 +69,7 @@ things like `npm run test`:
 {
   "name": "stjs",
   "version": "1.0.0",
-  "description": "Software Tools in JavaScript",
+  "description": "Software Design by Example",
   "type": "module",
   "main": "index.js",
   "scripts": {

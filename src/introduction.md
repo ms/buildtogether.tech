@@ -41,7 +41,7 @@ also helps your future self---but now that we all know how much harm software
 can do, we hope you'll be interested in some practical idealism.
 
 *All proceeds from this project will go to support
-the [Red Door Family Shelter][red-door-shelter].*
+the [Red Door Family Shelter][red-door].*
 
 ## Audience
 
@@ -87,8 +87,8 @@ Like these personas, readers should:
 
 -   Have used [Git][git] on individual projects.
 
-This book can be read on its own or as a companion to *[Software Tools in
-JavaScript][stjs]*, which teaches the basics of software design by showing you
+This book can be read on its own or as a companion to *[Software Design by Example][stjs]*,
+which teaches the basics of software design by showing you
 how to build the tools you program with.  If you are looking for a project to do
 in a course, adding a tool to those covered there would be fun as well as
 educational.

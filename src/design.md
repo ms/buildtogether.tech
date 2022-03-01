@@ -63,7 +63,7 @@ tell a good design from a bad one, so we'll start with that.
 > philosophy to an entire generation of programmers;
 > [% b Brown2011 Brown2012 Brown2016 %] and [Mary Rose
 > Cook][cook-mary-rose]'s [Gitlet][gitlet] take this approach as well.  There is
-> also *[Software Tools in JavaScript][stjs]*, which was developed in tandem with
+> also *[Software Design by Example][stjs]*, which was developed in tandem with
 > this material and can be used as a starting point for many different class
 > projects.
 >
