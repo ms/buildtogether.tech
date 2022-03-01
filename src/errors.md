@@ -124,8 +124,8 @@ so the library should just report the problem.
 > program, so there should always be an `except` somewhere to deal with unexpected
 > cases.
 >
-> The one rule we should *always* follow is to check for errors <span
-> i="exception!when to check">as early as possible</span> so that we don't waste
+> The one rule we should *always* follow is to check for errors
+> [% i "exception!when to check" %]as early as possible[% /i %] so that we don't waste
 > the user's time.  Few things are as frustrating as being told at the end of an
 > hour-long calculation that the program doesn't have permission to write to an
 > output directory.  It's a little extra work to check things like this up front,

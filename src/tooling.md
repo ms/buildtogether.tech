@@ -136,8 +136,9 @@ Keep an eye on security updates.
 > ### Docker
 >
 > [% i "Docker" %][Docker][docker][% /i %] uses some clever tricks to run one
-> operating system on top of another to create a <span g="virtual_machine"
-> i="virtual machine">virtual machine</span> (VM) that is isolated from everything
+> operating system on top of another to create a
+> [% i "virtual machine" %][% g "virtual_machine" %]virtual machine[% /g %][% /i %]
+> (VM) that is isolated from everything
 > beneath it.  It and other tools like it are used by most cloud computing
 > services and to run continuous integration systems ([% x automation %]), but
 > they are essentially an admission that we haven't figured out how to manage

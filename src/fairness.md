@@ -134,10 +134,10 @@ If the answers are "no", what can you and your classmates do to fix things?
 > ### Questions to ask
 >
 > I have interviewed people who didn't ask a single question about the company,
-> what an average day would look like, or how their career might evolve.  <span
-> i="Evans, Julia">[Julia Evans][evans-julia]</span> has a good list of [questions
-> to ask in interviews][evans-interviews], and [% i "Baxter,
-> T. Carter" %][T. Carter Baxter][baxter-t-carter][% /i %] has
+> what an average day would look like, or how their career might evolve.
+> [% i "Evans, Julia" %][Julia Evans][evans-julia][% /i %] has a good list of
+> [questions to ask in interviews][evans-interviews], and
+> [% i "Baxter, T. Carter" %][T. Carter Baxter][baxter-t-carter][% /i %] has
 > [another][baxter-interviews].  There won't be time to get to them all, but
 > asking two or three will impress your interviewer as well as giving you valuable
 > information.
@@ -393,13 +393,14 @@ fatal consequences.
 >
 > In March 2019, a right-wing terrorist killed 51 people at prayer in
 > Christchurch, New Zealand. Every one of the sources he cited in his manifesto
-> was making money through a store hosted by a company called <span
-> i="Shopify!support for alt-right sites">Shopify</span>; the company didn't end
-> its relationship with any of them.
+> was making money through a store hosted by a company called
+> [% i "Shopify!support for alt-right sites %]Shopify[% /i %];
+> the company didn't end its relationship with any of them.
 
 Ethical failures by programmers now hurt us all.  For example, your school might
-use a piece of software called [% i "Proctorio (invasive
-surveillance)" %]Proctorio[% /i %], which records video and audio of you and your
+use a piece of software called
+[% i "Proctorio (invasive surveillance)" %]Proctorio[% /i %],
+which records video and audio of you and your
 screen while you write an exam, then uses algorithms to determine if you're
 cheating.  Nobody outside the company can check those algorithms to see if
 they're biased against people with nervous tics, and nobody who has ever been

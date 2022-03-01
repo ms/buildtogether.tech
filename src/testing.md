@@ -309,9 +309,10 @@ probably saved my users from a lot of unnecessary frustration.
 
 > ### Profiling
 >
-> If you find a performance problem, the next step is to use a <span g="profiler"
-> i="profiler; unit test!profiling">profiler</span> to figure out where the time
-> is actually going. While a coverage tool checks which lines of code are
+> If you find a performance problem, the next step is to use a
+> [% i "profiler" "unit test!profiling" %][% g "profiler" %]profiler[% /g %][% /i %]
+> to figure out where the time is actually going.
+> While a coverage tool checks which lines of code are
 > executed, a profiler measures how long each line, block, or function takes to
 > run. Most will report both the average time per run and the total time so that
 > you can spot things that are fast but still affect performance because they are

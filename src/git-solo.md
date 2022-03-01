@@ -217,11 +217,10 @@ by the comment we want to save in the log.
 > something called [% i "Vim editor!exiting" %]Vim[% /i %], whose interface is no
 > more intuitive than Git's. (In fact, one of the most frequently-viewed questions
 > on [Stack Overflow][stack-overflow] is "[How do I exit the Vim
-> editor?][so-exit-vim]". Unsurprisingly, another <span
-> i="Git!configuring">frequently-viewed question</span> on Stack Overflow is "[How
-> do I make Git use the editor of my choice for my
-> commits?][so-configure-git-editor]" One of the many reasons you should interact
-> with Git through a GUI is to avoid this issue.
+> editor?][so-exit-vim]". Unsurprisingly, another
+> [% i "Git!configuring %]frequently-viewed question[% /i %] on Stack Overflow is
+> "[How do I make Git use the editor of my choice for my commits?][so-configure-git-editor]"
+> One of the many reasons you should interact with Git through a GUI is to avoid this issue.
 
 Before we run `git commit`, though, we need to tell Git which files we want to
 save in the commit, which we do using `git add`:
@@ -596,9 +595,9 @@ branches as needed to work on the code), and then merge *from* `homework4` *to*
 > ### Rebasing
 >
 > One way to make the history of a repository easier to read is to squash several
-> consecutive commits into one.  This is called <span g="rebase_git"
-> i="Git!rebase; rebasing (in version control)">rebasing</span>, and can be done
-> using:
+> consecutive commits into one.  This is called
+> [% i "Git!rebase; rebasing (in version control)" %][% g "rebase_git" %]rebasing[% /g %][% /i %],
+> and can be done using:
 >
 > ```sh
 > $ git rebase -i START

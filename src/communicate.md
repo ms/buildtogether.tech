@@ -108,8 +108,8 @@ talk more about the value of minimal reproducible examples in
 > ### When to start saying "no"
 >
 > As we will see in [% x process %], one purpose of a schedule is to tell you
-> when to start cutting corners. Similarly, one of the main reasons to keep <span
-> i="issue tracker!helping triage; triage!using issue tracker">issues</span> in
+> when to start cutting corners. Similarly, one of the main reasons to keep
+> [% i "issue tracker!helping triage" "triage!using issue tracker" %]issues[% /i %] in
 > one place is to help you prioritize work when time starts to run short.
 
 ## Labeling Issues
@@ -214,8 +214,9 @@ and find out what was said a month ago---or, just as importantly, if someone
 
 > ### Filters are your friend
 >
-> Every email client allows you to set up <span g="mail_filter"
-> i="email!filters">filters</span> that automatically flag messages matching
+> Every email client allows you to set up
+> [% i "email!filters" %][% g "mail_filter" %]filters[% /g %][% /i %]
+> that automatically flag messages matching
 > certain patterns or file them in particular mailboxes. I have fourteen of these
 > set up right now to organize messages belonging to particular projects; it only
 > took a couple of minutes, and it means that when I check mail in the morning or
@@ -226,7 +227,8 @@ many other ways to communicate, which project members use in a wide variety of
 ways [% b Treude2011 %].  [% i "wiki" "communication!wiki" %]Wikis[% /i %]
 seem like a good way to keep notes, create documentation, and so on. Their main
 strength is the fact that content is automatically and immediately visible on
-the web.  These days, you will probably get more mileage out of a bunch of [% i "Markdown" %]Markdown[% /i %] pages under version control---you have to set up a
+the web.  These days, you will probably get more mileage out of a bunch of
+[% i "Markdown" %]Markdown[% /i %] pages under version control---you have to set up a
 repository anyway, and version control systems are much better at reconciling
 conflicts between concurrent authors than wikis.
 

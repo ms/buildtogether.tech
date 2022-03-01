@@ -15,8 +15,8 @@ how to run a meeting, and how to resolve arguments.
 > [% i "waste (in software development)" %]nine types of waste[% /i %]: building the
 > wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
 > solutions, extraneous [% i "cognitive load" %]cognitive load[% /i %]
-> ([% x thinking %]), psychological distress, waiting and <span
-> i="multitasking">multitasking</span>, knowledge loss, and ineffective
+> ([% x thinking %]), psychological distress, waiting and
+> [% i "multitasking" %]multitasking[% /i %], knowledge loss, and ineffective
 > communication.  *None of these are software issues,* so if you only think about
 > the software side of your project, it's going to take longer and hurt more than
 > it needs to.
@@ -240,18 +240,18 @@ They may even start to imitate you.
 > ### Nihil de nobis sine nobis
 >
 > The rules laid out above were created by and for people near the middle of the
-> bell curve with respect to focus and attention span. People who are <span
-> g="neurodivergent" i="neurodivergent">neurodivergent</span>, i.e., whose brains
-> work differently from the average when it comes to sociability, learning,
-> attention, and mood, may find that other approaches work better for them.
+> bell curve with respect to focus and attention span. People who are
+> [% i "neurodivergent" %][% g "neurodivergent" %]neurodivergent[% /g %][% /i %],
+> i.e., whose brains work differently from the average when it comes to sociability,
+> learning, attention, and mood, may find that other approaches work better for them.
 >
 > But while society accepts that people of different heights need different desks
 > and seating to be comfortable, there is still a lot of [% i "mental health
 > (stigma associated with)" %]stigma[% /i %] associated with differences in mental
 > function, which are often measured by [how inconvenient they are to other
-> people][adhd-thread].  One example is how tests for <span g="adhd"
-> i="ADHD">attention-deficit/hyperactivity disorder</span> (ADHD) are
-> phrased. "Subject is overly talkative": compared to who? "Subject does X when it
+> people][adhd-thread].  One example is how tests for
+> [% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
+> (ADHD) are phrased. "Subject is overly talkative": compared to who? "Subject does X when it
 > is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
 > people with ADHD can pay very close attention, but not when they are in
 > environments that are full of distractions (like noisy classrooms).
@@ -259,8 +259,9 @@ They may even start to imitate you.
 > The title of this callout is Latin for, "Nothing about us without us." It means
 > that no decisions should be made without the full participation of those who
 > will be affected.  If you are neurodivergent, you probably have a set of
-> strategies for managing time and attention. If you are <span g="neurotypical"
-> i="neurotypical">neurotypical</span> and have neurodivergent teammates, ask them
+> strategies for managing time and attention. If you are
+> [% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
+> and have neurodivergent teammates, ask them
 > what works well for them rather than ignoring the difference or guessing what
 > they might want. Please do the same if you have teammates who have difficulty
 > seeing, hearing, or moving about: they have expertise you don't.
@@ -424,7 +425,9 @@ meeting, and completely changes group dynamics.  People who have given up trying
 to be heard suddenly have space to contribute, and the overly frequent speakers
 realize how unfair they have been.
 
-Another useful technique is called [% i "meetings!interruption bingo" "interruption bingo (in meetings)" %]interruption bingo[% /i %].  Draw a grid and
+Another useful technique is called
+[% i "meetings!interruption bingo" "interruption bingo (in meetings)" %]interruption bingo[% /i %].
+Draw a grid and
 label the rows and columns with the participants' names.  Each time one person
 interrupts another, add a tally mark to the appropriate cell; halfway through
 the meeting, take a moment to look at the results.  In most cases it will be

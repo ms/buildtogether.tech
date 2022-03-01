@@ -159,7 +159,7 @@ A summary of what was accomplished.
     ([% x process %]), although that's a good place to start. Instead, it should
     describe the system's architecture, any features of its data formats, class
     structure, or UI that won't immediately make sense to a knowledgeable
-    observer, and so on (span x="design"/>). As with the introduction, the
+    observer, and so on ([% x "design" %]). As with the introduction, the
     target audience is the next team to work on the project.
 
 A summary of the current state of the project.
