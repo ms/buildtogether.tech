@@ -80,7 +80,7 @@ the relevant developers need the most, and most importantly, it differs in
 fairly predictable ways and for understandable reasons.  Here's one I filed for
 the duplicate file finder reviewed in [% x git-team %]:
 
-<div class="include" file="bug-report.txt"/>
+[% excerpt file="bug-report.txt" %]
 
 The ID on the first line is assigned by the issue tracker, an often serves as a
 shorthand name for the issue in conversation. ("Hey, is anyone working on number

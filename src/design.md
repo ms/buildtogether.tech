@@ -75,7 +75,8 @@ tell a good design from a bad one, so we'll start with that.
 
 ## Describing Designs
 
-[% b Cherubini2007 %] found that developers usually don't draw [% i "software design!role of diagrams" %]diagrams[% /i %] to create a permanent
+[% b Cherubini2007 %] found that developers usually don't draw
+[% i "software design!role of diagrams" %]diagrams[% /i %] to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
 moment---essentially, as a temporary store for ideas that they wouldn't
 otherwise be able to keep track of ([% x thinking %]). In many cases, the

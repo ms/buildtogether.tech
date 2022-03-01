@@ -339,7 +339,7 @@ So what does a code review actually look like? Here's a Python program that
 searches for duplicated files. [% t collaborate-code-review %] shows the
 comments I left when reviewing it.
 
-<div class="include" file="dup.py"/>
+[% excerpt file="dup.py" %]
 
 <div class="table" id="collaborate-code-review" caption="Code Review" markdown="1">
 | Line(s) | Comment |
