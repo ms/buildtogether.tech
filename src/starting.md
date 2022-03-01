@@ -139,7 +139,7 @@ A final exam.
 Just like real development projects, course projects can and should produce a
 lot more than just code.  For example, [% b Spinellis2007 %] looked at how
 much content of different kinds went into the FreeBSD project in 2006.
-<a table="starting-spinellis-stats"/> doesn't divide "source code" into
+[% t starting-spinellis-stats %] doesn't divide "source code" into
 "application code" and "tests", but it's still an eye-opener.
 
 <div class="table" id="starting-spinellis-stats" caption="FreeBSD 2006" markdown="1">

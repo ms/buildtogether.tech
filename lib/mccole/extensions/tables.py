@@ -81,7 +81,7 @@ def collector():
     for fileslug in collected:
         if fileslug in major:
             for (i, entry) in enumerate(collected[fileslug]):
-                entry.number = (str(s) for s in (major[fileslug], i + 1))
+                entry.number = (str(major[fileslug]), str(i + 1))
                 tables[entry.slug] = entry
 
 
@@ -125,6 +125,8 @@ def table_caption(text, node):
     def _replace(match):
         caption = match.group(1)
         slug = match.group(2)
-        return f'<div class="table"><table id="{slug}"><caption>{caption}</caption>'
+        table = util.get_config("tables")[slug]
+        label = util.make_label("table", table.number)
+        return f'<div class="table"><table id="{slug}"><caption>{label}: {caption}</caption>'
 
     return TABLE_DIV.sub(_replace, text)

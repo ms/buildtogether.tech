@@ -336,7 +336,7 @@ Thank your reviewers.
     doing it.
 
 So what does a code review actually look like? Here's a Python program that
-searches for duplicated files. <a table="collaborate-code-review"/> shows the
+searches for duplicated files. [% t collaborate-code-review %] shows the
 comments I left when reviewing it.
 
 <div class="include" file="dup.py"/>
