@@ -421,7 +421,7 @@ any personality effects.
 
 > ### Myers-Briggs and other danger signs
 >
-> The [% i "Myers-Briggs Type Indicator" "> pseudoscience!Myers-Briggs Type Indicator" %][% g myers_briggs %]Myers-Briggs Type Indicator[% /g %][% /i %]
+> The [% i "Myers-Briggs Type Indicator" "pseudoscience!Myers-Briggs Type Indicator" %][% g myers_briggs %]Myers-Briggs Type Indicator[% /g %][% /i %]
 > advertises itself as personality profiling tool.  It is popular on dating sites
 > and some companies use it as part of their interview process---despite the fact
 > that it is complete bullshit.  Half or more of people who repeat the test within

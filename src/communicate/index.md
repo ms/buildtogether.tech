@@ -251,7 +251,8 @@ different themes are available, and there are many good tutorials online.
 
 > ### Comments as communication
 >
-> People don't usually think of [% i "comments!as communication" "> communication!comments" %]comments[% /i %] as a form of communication like email or
+> People don't usually think of [% i "comments!as communication" "communication!comments" %]comments[% /i %]
+> as a form of communication like email or
 > instant messaging, but if they are used properly, the only significant
 > difference is that the comments are right there in the code where the recipients
 > can't miss them rather than in an archive somewhere that they'll have to go and

@@ -71,7 +71,8 @@ second time around.
 > for two decades.
 >
 > While they weren't the first people to test with random data, their results
-> sparked interest in [% i "fuzz testing" "unit > test!fuzzing" %][% g fuzz_testing %]fuzz testing[% /g %][% /i %] (or "fuzzing" for short), which is now a
+> sparked interest in [% i "fuzz testing" "unit test!fuzzing" %][% g fuzz_testing %]fuzz testing[% /g %][% /i %]
+> (or "fuzzing" for short), which is now a
 > standard part of most testers' repertoire [% b Zeller2019 %].  Despite
 > this, [% b Miller2020 %] found that thirty years later, programs are still
 > failing at about the same rate and for the same reasons.  [% x debugging %]
@@ -195,38 +196,36 @@ drive never has to come into play. The cost of doing this is that you have to
 either commit to using one database in both environments, or avoid using the
 "improvements" that different databases have added to SQL.
 
-> ### Mock objects
->
-> A third choice is to replace the database with a [% i "mock object" %][% g mock_object %]mock object[% /g %][% /i %].
-> A mock object has the same interface as the
-> function, object, class, or library that it replaces, but is designed to be used
-> solely for testing.  For example, Node's `mock-fs` library provides the same
-> functions as its standard filesystem library, but stores everything in memory.
-> This prevents tests that create or delete files from doing anything unfortunate
-> and also makes tests much faster (since in-memory operations are thousands of
-> times faster than operations that touch the disk).
->
-> A mock object can also be designed to give pre-programmed responses to just a
-> handful of specific requests:
->
-> ```py
-> INDEX_PAGE = '<html><body><h1>Index Page</h1></body></html>'
-> USER_PAGE = '<html><body><h1>User Page</h1></body></html>'
->
-> def mock_http_server(url):
->     if url == '/':
->         return INDEX_PAGE
->     elif url in ['/user/', '/user/index.html']:
->         return USER_PAGE
->     else:
->         raise UrlError(f'unhandled URL "{url}"')
-> ```
->
-> <!-- continue -->
-> The strength of the pre-programmed approach is that if anything ever sends an
-> unexpected URL, the failure will be obvious.  The weakness is the tedium of
-> writing out all the cases, though in most testing scenarios there are fewer than
-> you might expect.
+A third choice is to replace the database with a [% i "mock object" %][% g mock_object %]mock object[% /g %][% /i %].
+A mock object has the same interface as the
+function, object, class, or library that it replaces, but is designed to be used
+solely for testing.  For example, Node's `mock-fs` library provides the same
+functions as its standard filesystem library, but stores everything in memory.
+This prevents tests that create or delete files from doing anything unfortunate
+and also makes tests much faster (since in-memory operations are thousands of
+times faster than operations that touch the disk).
+
+A mock object can also be designed to give pre-programmed responses to just a
+handful of specific requests:
+
+```py
+INDEX_PAGE = '<html><body><h1>Index Page</h1></body></html>'
+USER_PAGE = '<html><body><h1>User Page</h1></body></html>'
+
+def mock_http_server(url):
+    if url == '/':
+        return INDEX_PAGE
+    elif url in ['/user/', '/user/index.html']:
+        return USER_PAGE
+    else:
+        raise UrlError(f'unhandled URL "{url}"')
+```
+
+<!-- continue -->
+The strength of the pre-programmed approach is that if anything ever sends an
+unexpected URL, the failure will be obvious.  The weakness is the tedium of
+writing out all the cases, though in most testing scenarios there are fewer than
+you might expect.
 
 Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking

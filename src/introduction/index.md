@@ -150,21 +150,19 @@ for details.
 If you would like to improve what we have or add new material, please see the
 Code of Conduct in [% x conduct %] and the contributor guidelines in
 [% x contributing %].  If you have questions or would like to use this material in
-a course, please file an issue in [this site's GitHub
-repository](https://github.com/{{site.repository}}) or [send us
-email](mailto:{{site.author.email}}).
+a course, please file an issue in [this site's GitHub repository][bst-repo] or
+[send us email][email].
 
 ## Acknowledgments
 
-This book is dedicated to [% i "Petre, Marian" %][Marian
-Petre][petre-marian][% /i %], who taught me that not everything worth
-studying can be measured, and to [% i "Wilkie, Tom" %]Tom
-Wilkie[% /i %], who taught me that an author's job is to create the
-manure in which an editor grows something worth reading.  I am also
-grateful to all of the students who did projects with me at the [% i "University of Toronto" %]University of Toronto[% /i %] and through
-[% i "Google Summer of Code" %]Google Summer of Code[% /i %], and to
-everyone who took part in [% i "UCOSP" %]UCOSP[% /i %]
-[% b Holmes2014 Holmes2018 %].
+This book is dedicated to [% i "Petre, Marian" %][Marian Petre][petre-marian][% /i %],
+who taught me that not everything worth studying can be measured,
+and to [% i "Wilkie, Tom" %]Tom Wilkie[% /i %],
+who taught me that an author's job is to create the manure in which an editor grows something worth reading.
+I am also grateful to all of the students who did projects with me at
+the [% i "University of Toronto" %]University of Toronto[% /i %]
+or through [% i "Google Summer of Code" %]Google Summer of Code[% /i %]
+or [% i "UCOSP" %]UCOSP[% /i %] [% b Holmes2014 Holmes2018 %].
 
 I have tried to base recommendations on empirical software engineering research
 ([% x research %]) and on the science of teaching and learning
