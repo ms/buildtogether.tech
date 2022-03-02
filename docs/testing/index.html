@@ -1,5 +1,5 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
@@ -9,13 +9,13 @@
     <title>Building Software Together: Testing</title>
   </head>
   <body class="page">
-    <div align="center" style="padding-top: 2rem;">
+    <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
       <h1>Chapter 11: Testing</h1>
       
       <p>
-        <img src="../files/codebender.svg" alt="logo" width="10%" />
+        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -194,7 +194,8 @@ either commit to using one database in both environments, or avoid using the
 "improvements" that different databases have added to SQL.</p>
 <blockquote>
 <h3>Mock objects</h3>
-<p>A third choice is to replace the database with a <span class="indexref" key="mock > object" markdown="1"&gt;<a class="glossref" href="../glossary/#mock_object" markdown="1">mock object</a></span>.  A mock object has the same interface as the
+<p>A third choice is to replace the database with a <span class="indexref" key="mock object" markdown="1"><a class="glossref" href="../glossary/#mock_object" markdown="1">mock object</a></span>.
+A mock object has the same interface as the
 function, object, class, or library that it replaces, but is designed to be used
 solely for testing.  For example, Node's <code>mock-fs</code> library provides the same
 functions as its standard filesystem library, but stores everything in memory.
@@ -222,7 +223,8 @@ you might expect.</p>
 </blockquote>
 <p>Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
-in changes to the code. The downside is the loss of <a class="glossref" href="../glossary/#fidelity" markdown="1">fidelity</a>: the system we're testing is a close cousin to what
+in changes to the code. The downside is the loss of <a class="glossref" href="../glossary/#fidelity" markdown="1">fidelity</a>:
+the system we're testing is a close cousin to what
 we're deploying, but not exactly the same. However, this is a good economic
 tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
@@ -379,21 +381,21 @@ think the right and wrong answers are so that we can have more productive
 conversations with our colleagues.</p>
 
   <hr/>
-<div align="center">
-  <table class="plain" width="90%">
+<div class="centered">
+  <table class="plain footer">
     <tr>
       
-      <td align="center"><a href="../license/">License</a></td>
+      <td><a href="../license/">License</a></td>
       
-      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      <td><a href="../conduct/">Code of Conduct</a></td>
       
-      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      <td><a href="../bibliography/">Bibliography</a></td>
       
-      <td align="center"><a href="../glossary/">Glossary</a></td>
+      <td><a href="../glossary/">Glossary</a></td>
       
-      <td align="center"><a href="../links/">Links</a></td>
+      <td><a href="../links/">Links</a></td>
       
-      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      <td><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
       
     </tr>
   </table>

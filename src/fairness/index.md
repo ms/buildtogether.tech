@@ -394,7 +394,7 @@ fatal consequences.
 > In March 2019, a right-wing terrorist killed 51 people at prayer in
 > Christchurch, New Zealand. Every one of the sources he cited in his manifesto
 > was making money through a store hosted by a company called
-> [% i "Shopify!support for alt-right sites %]Shopify[% /i %];
+> [% i "Shopify!support for alt-right sites" %]Shopify[% /i %];
 > the company didn't end its relationship with any of them.
 
 Ethical failures by programmers now hurt us all.  For example, your school might

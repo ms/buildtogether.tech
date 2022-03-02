@@ -96,10 +96,24 @@ h2 {
     content: "\2606 "; /* star */
 }
 
-/* Centering things. */
+/* Logos. */
+
+img.page-logo {
+    width: 10%;
+}
+
+img.slide-logo {
+    width: 20%;
+}
+
+/* Alignment and layout. */
 
 div.centered {
     text-align: center;
+}
+
+div.title {
+    padding-top: 2rem;
 }
 
 /* Multi-column layout. */
@@ -135,6 +149,14 @@ th, td {
 
 table th, td {
     border: 1px lightgray solid;
+}
+
+table.footer {
+    width: 90%;
+}
+
+table.footer td {
+    text-align: center;
 }
 
 table.plain td {

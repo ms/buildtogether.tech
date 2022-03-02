@@ -218,7 +218,7 @@ by the comment we want to save in the log.
 > more intuitive than Git's. (In fact, one of the most frequently-viewed questions
 > on [Stack Overflow][stack-overflow] is "[How do I exit the Vim
 > editor?][so-exit-vim]". Unsurprisingly, another
-> [% i "Git!configuring %]frequently-viewed question[% /i %] on Stack Overflow is
+> [% i "Git!configuring" %]frequently-viewed question[% /i %] on Stack Overflow is
 > "[How do I make Git use the editor of my choice for my commits?][so-configure-git-editor]"
 > One of the many reasons you should interact with Git through a GUI is to avoid this issue.
 

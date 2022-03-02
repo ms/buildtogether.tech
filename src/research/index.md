@@ -306,7 +306,9 @@ they might not work in all situations, they work in all situations that matter.
 
 > ### What *can't* we learn?
 >
-> Many people have put forward [% i "code > metrics!ineffectiveness of" %][% g code_metric %]code metrics[% /g %][% /i %] that are supposed to measure the
+> Many people have put forward
+> [% i "code metrics!ineffectiveness of" %][% g code_metric %]code metrics[% /g %][% /i %]
+> that are supposed to measure the
 > complexity or likely number of bugs in a piece of software. However,
 > [% b ElEmam2001 %] found that these metrics are no better at predicting
 > things than simply counting the number of lines of code, because the longer the

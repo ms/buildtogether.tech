@@ -197,7 +197,8 @@ either commit to using one database in both environments, or avoid using the
 
 > ### Mock objects
 >
-> A third choice is to replace the database with a [% i "mock > object" %][% g mock_object %]mock object[% /g %][% /i %].  A mock object has the same interface as the
+> A third choice is to replace the database with a [% i "mock object" %][% g mock_object %]mock object[% /g %][% /i %].
+> A mock object has the same interface as the
 > function, object, class, or library that it replaces, but is designed to be used
 > solely for testing.  For example, Node's `mock-fs` library provides the same
 > functions as its standard filesystem library, but stores everything in memory.
@@ -229,7 +230,8 @@ either commit to using one database in both environments, or avoid using the
 
 Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
-in changes to the code. The downside is the loss of [% g fidelity %]fidelity[% /g %]: the system we're testing is a close cousin to what
+in changes to the code. The downside is the loss of [% g fidelity %]fidelity[% /g %]:
+the system we're testing is a close cousin to what
 we're deploying, but not exactly the same. However, this is a good economic
 tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
