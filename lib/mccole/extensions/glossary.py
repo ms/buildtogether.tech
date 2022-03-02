@@ -22,7 +22,7 @@ import yaml
 MULTISPACE = re.compile(r"\s+", re.DOTALL)
 
 # Regex to extract internal cross-references from bodies of definitions.
-INTERNAL_REF = re.compile(r'\]\(#(.+?)\)')
+INTERNAL_REF = re.compile(r"\]\(#(.+?)\)")
 
 
 @shortcodes.register("g", "/g")
@@ -35,7 +35,9 @@ def glossary_ref(pargs, kwargs, node, content):
     slug = pargs[0]
     definitions.add(slug)
 
-    return f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{content}</a>'
+    return (
+        f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{content}</a>'
+    )
 
 
 @shortcodes.register("glossary")
@@ -73,6 +75,7 @@ def check():
     if (definitions := util.get_config("definitions")) is None:
         return
     definitions |= _internal_references(glossary, lang)
+    definitions |= _cross_references(glossary, lang)
 
     util.report("unknown glossary references", definitions - glossary_keys)
     util.report("unused glossary entries", glossary_keys - definitions)
@@ -99,8 +102,16 @@ def _as_markdown(lookup, lang, entry):
     return result
 
 
+def _cross_references(glossary, lang):
+    """Get all explicit cross-references from glossary entries."""
+    result = set()
+    for entry in glossary:
+        result.update(entry.get("ref", []))
+    return result
+
+
 def _internal_references(glossary, lang):
-    """Get all cross-references from body of glossary entries."""
+    """Get all in-body cross-references from glossary entries."""
     result = set()
     for entry in glossary:
         for match in INTERNAL_REF.finditer(entry[lang]["def"]):

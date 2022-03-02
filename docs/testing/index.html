@@ -1,5 +1,5 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
@@ -9,13 +9,13 @@
     <title>Building Software Together: Testing</title>
   </head>
   <body class="page">
-    <div align="center" style="padding-top: 2rem;">
+    <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
       <h1>Chapter 11: Testing</h1>
       
       <p>
-        <img src="../files/codebender.svg" alt="logo" width="10%" />
+        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -83,7 +83,8 @@ randomly-generated strings at standard Unix command-line utilities
 almost a third of the programs they tested, some of which had been in daily use
 for two decades.</p>
 <p>While they weren't the first people to test with random data, their results
-sparked interest in <span class="indexref" key="fuzz testing;unit > test!fuzzing" markdown="1"&gt;<a class="glossref" href="../glossary/#fuzz_testing" markdown="1">fuzz testing</a></span> (or "fuzzing" for short), which is now a
+sparked interest in <span class="indexref" key="fuzz testing;unit test!fuzzing" markdown="1"><a class="glossref" href="../glossary/#fuzz_testing" markdown="1">fuzz testing</a></span>
+(or "fuzzing" for short), which is now a
 standard part of most testers' repertoire [<a href="../bibliography/#Zeller2019">Zeller2019</a>].  Despite
 this, [<a href="../bibliography/#Miller2020">Miller2020</a>] found that thirty years later, programs are still
 failing at about the same rate and for the same reasons.  <a href="../debugging/">Chapter 15</a>
@@ -192,9 +193,8 @@ database is that it persists), but in a testing environment, an <span class="ind
 drive never has to come into play. The cost of doing this is that you have to
 either commit to using one database in both environments, or avoid using the
 "improvements" that different databases have added to SQL.</p>
-<blockquote>
-<h3>Mock objects</h3>
-<p>A third choice is to replace the database with a <span class="indexref" key="mock > object" markdown="1"&gt;<a class="glossref" href="../glossary/#mock_object" markdown="1">mock object</a></span>.  A mock object has the same interface as the
+<p>A third choice is to replace the database with a <span class="indexref" key="mock object" markdown="1"><a class="glossref" href="../glossary/#mock_object" markdown="1">mock object</a></span>.
+A mock object has the same interface as the
 function, object, class, or library that it replaces, but is designed to be used
 solely for testing.  For example, Node's <code>mock-fs</code> library provides the same
 functions as its standard filesystem library, but stores everything in memory.
@@ -203,26 +203,26 @@ and also makes tests much faster (since in-memory operations are thousands of
 times faster than operations that touch the disk).</p>
 <p>A mock object can also be designed to give pre-programmed responses to just a
 handful of specific requests:</p>
-<p>```py
-INDEX_PAGE = '<html><body><h1>Index Page</h1></body></html>'
-USER_PAGE = '<html><body><h1>User Page</h1></body></html>'</p>
-<p>def mock_http_server(url):
+<pre><code class="language-py">INDEX_PAGE = '&lt;html&gt;&lt;body&gt;&lt;h1&gt;Index Page&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;'
+USER_PAGE = '&lt;html&gt;&lt;body&gt;&lt;h1&gt;User Page&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;'
+
+def mock_http_server(url):
     if url == '/':
         return INDEX_PAGE
     elif url in ['/user/', '/user/index.html']:
         return USER_PAGE
     else:
-        raise UrlError(f'unhandled URL "{url}"')
-```</p>
-<p><!-- continue -->
-The strength of the pre-programmed approach is that if anything ever sends an
+        raise UrlError(f'unhandled URL &quot;{url}&quot;')
+</code></pre>
+<!-- continue -->
+<p>The strength of the pre-programmed approach is that if anything ever sends an
 unexpected URL, the failure will be obvious.  The weakness is the tedium of
 writing out all the cases, though in most testing scenarios there are fewer than
 you might expect.</p>
-</blockquote>
 <p>Once these changes have been made, the application zips through its tests
 quickly enough that developers actually will run the test suite before checking
-in changes to the code. The downside is the loss of <a class="glossref" href="../glossary/#fidelity" markdown="1">fidelity</a>: the system we're testing is a close cousin to what
+in changes to the code. The downside is the loss of <a class="glossref" href="../glossary/#fidelity" markdown="1">fidelity</a>:
+the system we're testing is a close cousin to what
 we're deploying, but not exactly the same. However, this is a good economic
 tradeoff: we may miss a few bugs because our fake HTTP handler doesn't translate
 HTTP requests exactly the same way as the real web server, but we catch (and
@@ -379,21 +379,21 @@ think the right and wrong answers are so that we can have more productive
 conversations with our colleagues.</p>
 
   <hr/>
-<div align="center">
-  <table class="plain" width="90%">
+<div class="centered">
+  <table class="plain footer">
     <tr>
       
-      <td align="center"><a href="../license/">License</a></td>
+      <td><a href="../license/">License</a></td>
       
-      <td align="center"><a href="../conduct/">Code of Conduct</a></td>
+      <td><a href="../conduct/">Code of Conduct</a></td>
       
-      <td align="center"><a href="../bibliography/">Bibliography</a></td>
+      <td><a href="../bibliography/">Bibliography</a></td>
       
-      <td align="center"><a href="../glossary/">Glossary</a></td>
+      <td><a href="../glossary/">Glossary</a></td>
       
-      <td align="center"><a href="../links/">Links</a></td>
+      <td><a href="../links/">Links</a></td>
       
-      <td align="center"><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
+      <td><a href="https://github.com/gvwilson/buildtogether.tech.git">GitHub</a></td>
       
     </tr>
   </table>

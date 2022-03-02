@@ -24,6 +24,7 @@ generates:
     `config["lang"]` that matches a language in `util.TRANSLATIONS`.
 """
 
+import shutil
 from dataclasses import dataclass
 from textwrap import dedent
 
@@ -36,6 +37,7 @@ import util
 class Figure:
     """Keep track of information about a figure."""
 
+    node: ivy.nodes.Node = None
     fileslug: str = ""
     slug: str = ""
     img: str = ""
@@ -65,8 +67,9 @@ def collector():
 
 def _collect(node, collected):
     """Collect information from node."""
+
     def _collect_one(pargs, kwargs, seen):
-        seen.append(Figure(**kwargs))
+        seen.append(Figure(node, **kwargs))
         return ""
 
     parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
@@ -87,7 +90,7 @@ def figure_def(pargs, kwargs, node):
     return dedent(
         f"""\
     <figure id="{figure.slug}">
-      <img src="@root/files/{figure.img}" alt="{figure.alt}" {width}/>
+      <img src="./{figure.img}" alt="{figure.alt}" {width}/>
       <figcaption markdown="1">{label}: {figure.caption}</figcaption>
     </figure>
     """
@@ -112,3 +115,16 @@ def figure_ref(pargs, kwargs, node):
     figure = figures[slug]
     label = util.make_label("figure", figure.number)
     return f'<a class="figref" href="@root/{figure.fileslug}/#{slug}">{label}</a>'
+
+
+@ivy.events.register(ivy.events.Event.EXIT)
+def copy_files():
+    """Copy all referenced images files."""
+    # Wrong part of the cycle.
+    if (figures := util.get_config("figures")) is None:
+        return
+
+    # Copy files.
+    for fig in figures.values():
+        src, dst = util.make_copy_paths(fig.node, fig.img)
+        shutil.copy(src, dst)

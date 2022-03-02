@@ -36,7 +36,6 @@ To make this work:
     does nothing; otehrwise, it dispatches to a case-specific handler.
 """
 
-import os
 import shutil
 
 import ivy
@@ -174,8 +173,7 @@ def _make_html(filepath, file, kind, lines):
 
 def _inclusion_filepath(inclusions, node, file):
     """Make path to included file."""
-    src = os.path.join(os.path.dirname(node.filepath), file)
-    dst = os.path.join(os.path.dirname(node.get_output_filepath()), file)
+    src, dst = util.make_copy_paths(node, file)
     inclusions[src] = dst
     return src
 

@@ -21,12 +21,10 @@ and then add `links = "filename.yml"` entry to `config.py`.
     in Markdown pages can be written `[text][slug]`.
 """
 
-import yaml
-
 import ivy
 import shortcodes
-
 import util
+import yaml
 
 
 @shortcodes.register("links")

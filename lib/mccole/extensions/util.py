@@ -1,5 +1,6 @@
 """McCole extension utilities."""
 
+import os
 import sys
 
 import ivy
@@ -35,7 +36,7 @@ CONFIGURATIONS = {
     "inclusions": {},  # included files
     "index": {},  # index entries
     "links": [],  # links table entries
-    "tables": {}  # numbered tables
+    "tables": {},  # numbered tables
 }
 
 
@@ -58,6 +59,13 @@ def make_config(part, filler=None):
         fail(f"Unknown configuration section '{part}'")
     filler = filler if (filler is not None) else CONFIGURATIONS[part]
     return ivy.site.config.setdefault("mccole", {}).setdefault(part, filler)
+
+
+def make_copy_paths(node, filename):
+    """Make source and destination paths for copying."""
+    src = os.path.join(os.path.dirname(node.filepath), filename)
+    dst = os.path.join(os.path.dirname(node.get_output_filepath()), filename)
+    return src, dst
 
 
 def make_label(kind, number):
