@@ -22,7 +22,7 @@ import yaml
 MULTISPACE = re.compile(r"\s+", re.DOTALL)
 
 # Regex to extract internal cross-references from bodies of definitions.
-INTERNAL_REF = re.compile(r'\]\(#(.+?)\)')
+INTERNAL_REF = re.compile(r"\]\(#(.+?)\)")
 
 
 @shortcodes.register("g", "/g")
@@ -35,7 +35,9 @@ def glossary_ref(pargs, kwargs, node, content):
     slug = pargs[0]
     definitions.add(slug)
 
-    return f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{content}</a>'
+    return (
+        f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{content}</a>'
+    )
 
 
 @shortcodes.register("glossary")

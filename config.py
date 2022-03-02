@@ -56,7 +56,7 @@ chapters = [
     "rules-fired",
     "delivery",
     "rules-handover",
-    "conclusion"
+    "conclusion",
 ]
 appendices = [
     "license",
@@ -72,7 +72,7 @@ appendices = [
     "reading",
     "rules-freelance",
     "rules-change",
-    "authors"
+    "authors",
 ]
 
 # BibTeX bibliography file and style.

@@ -93,7 +93,11 @@ def _gather(major):
             return
 
         # Use page metadata to create entry for level-1 heading.
-        seen[node.slug] = [Heading(node.slug, 1, node.meta["title"], node.slug)]
+        try:
+            title = node.meta["title"]
+        except KeyError:
+            util.fail(f"No title in metadata of {node.filepath}")
+        seen[node.slug] = [Heading(node.slug, 1, title, node.slug)]
 
         # Collect depth, text, and slug from each heading.
         seen[node.slug].extend(

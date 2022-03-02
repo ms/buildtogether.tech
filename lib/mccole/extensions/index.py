@@ -33,7 +33,7 @@ def index_ref(pargs, kwargs, node, content):
         if 1 <= len(entry) <= 2:
             index.setdefault(entry, set()).add(node.slug)
         else:
-            util.fail(f"Badly-formatted index key {key} in {node.filepath}")
+            util.fail(f"Badly-formatted index key {entry} in {node.filepath}")
 
     # Format.
     joined = ";".join(pargs)
@@ -80,7 +80,7 @@ def _make_index():
                 result.append(f"<li>{current[0]}</li>")
             result.append(f"<li>…{current[1]}: {links}</li>")
     result.append("</ul>")
-        
+
     return "\n".join(result)
 
 
