@@ -50,7 +50,7 @@ def filter_files(value, filepath):
     return result
 
 
-@ivy.events.register(ivy.events.Event.EXIT)
+@ivy.events.register(ivy.events.Event.EXIT_BUILD)
 def copy_files():
     """Copy all included files."""
     # Wrong part of the cycle.

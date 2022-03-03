@@ -117,7 +117,7 @@ def figure_ref(pargs, kwargs, node):
     return f'<a class="figref" href="@root/{figure.fileslug}/#{slug}">{label}</a>'
 
 
-@ivy.events.register(ivy.events.Event.EXIT)
+@ivy.events.register(ivy.events.Event.EXIT_BUILD)
 def copy_files():
     """Copy all referenced images files."""
     # Wrong part of the cycle.
