@@ -18,9 +18,6 @@ import shortcodes
 import util
 import yaml
 
-# Regex to turn multiple spaces in glossary definition body into single space.
-MULTISPACE = re.compile(r"\s+", re.DOTALL)
-
 # Regex to extract internal cross-references from bodies of definitions.
 INTERNAL_REF = re.compile(r"\]\(#(.+?)\)")
 
@@ -88,7 +85,7 @@ def _as_markdown(lookup, lang, entry):
     if "acronym" in entry[lang]:
         first += f" ({entry[lang]['acronym']})"
 
-    body = MULTISPACE.sub(entry[lang]["def"], " ").rstrip()
+    body = util.MULTISPACE.sub(entry[lang]["def"], " ").rstrip()
 
     if "ref" in entry[lang]:
         seealso = util.TRANSLATIONS[lang]["seealso"]

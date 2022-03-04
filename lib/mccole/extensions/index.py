@@ -15,9 +15,6 @@ import ivy
 import shortcodes
 import util
 
-# Match the index marker in an HTML page.
-INDEX_MARKER = re.compile(r"<!--\s*INDEX\s*-->")
-
 
 @shortcodes.register("i", "/i")
 def index_ref(pargs, kwargs, node, content):
@@ -26,41 +23,41 @@ def index_ref(pargs, kwargs, node, content):
     if len(pargs) == 0:
         util.fail(f"Badly-formatted 'i' shortcode {pargs} in {node.filepath}")
 
-    # Store entries.
-    index = util.make_config("index")
-    for entry in [key.strip() for key in pargs]:
-        entry = tuple(s.strip() for s in entry.split("!") if s.strip())
-        if 1 <= len(entry) <= 2:
-            index.setdefault(entry, set()).add(node.slug)
-        else:
-            util.fail(f"Badly-formatted index key {entry} in {node.filepath}")
-
     # Format.
     joined = ";".join(pargs)
     return f'<span class="indexref" key="{joined}" markdown="1">{content}</span>'
 
 
-@ivy.events.register(ivy.events.Event.EXIT)
-def make_index():
-    """Rewrite the file containing the overall index."""
-    # Find and rewrite the index file.
-    def visitor(node):
-        if node.slug == "contents":
-            out_path = node.get_output_filepath()
-            try:
-                with open(out_path, "r") as reader:
-                    content = reader.read()
-                content = INDEX_MARKER.sub(_make_index(), content)
-                with open(out_path, "w") as writer:
-                    writer.write(content)
-            except OSError:
-                pass  # we are clearing Ivy's output so the file doesn't exist
+@ivy.events.register(ivy.events.Event.INIT)
+def collector():
+    """Collect index information."""
+    # Gather information from a single index entry.
+    # `extra` is the pair `(node, accum)`, where `accum` is a dict
+    # from index keys to file slugs.
+    def _collect_one(pargs, kwargs, extra, content):
+        node, accum = extra
+        if not pargs:
+            util.fail(f"Empty index key in {node.filepath}")
+        for entry in [key.strip() for key in pargs]:
+            entry = util.MULTISPACE.sub(" ", entry)
+            entry = tuple(s.strip() for s in entry.split("!") if s.strip())
+            if 1 <= len(entry) <= 2:
+                accum.setdefault(entry, set()).add(node.slug)
+            else:
+                util.fail(f"Badly-formatted index key {entry} in {node.filepath}")
 
-    # Look for the node with the index file.
-    ivy.nodes.root().walk(visitor)
+    # Create a parser to handle index entries.
+    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
+    parser.register(_collect_one, "i", "/i")
+
+    # Collect index entries.
+    index = util.make_config("index")
+    ivy.nodes.root().walk(lambda node: parser.parse(node.text, (node, index)))
 
 
-def _make_index():
+@shortcodes.register("index")
+def make_index(pargs, kwargs, node):
+    """Handle [% index %] using saved data."""
     # No entries.
     if not (content := util.get_config("index")):
         return ""
@@ -68,13 +65,16 @@ def _make_index():
     # Format multi-level list.
     result = ['<ul class="indexlist">']
     previous = None
-    for (current, occurrences) in sorted(content.items()):
+    keys = list(content.keys())
+    keys.sort(key=lambda x: tuple(y.lower() for y in x))
+    for current in keys:
+        occurrences = content[current]
         links = _make_links(occurrences)
         if len(current) == 1:
             result.append(f"<li>{current[0]}: {links}</li>")
             previous = current[0]
         elif len(current) != 2:
-            util.fail(f"Internal error in index key {current}")
+            util.fail(f"Internal error in index key '{current}' found in {occurrences}")
         else:
             if current[0] != previous:
                 result.append(f"<li>{current[0]}</li>")

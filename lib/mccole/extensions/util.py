@@ -1,6 +1,7 @@
 """McCole extension utilities."""
 
 import os
+import re
 import sys
 
 import ivy
@@ -38,6 +39,9 @@ CONFIGURATIONS = {
     "links": [],  # links table entries
     "tables": {},  # numbered tables
 }
+
+# Regex to turn multiple spaces in glossary definition body into single space.
+MULTISPACE = re.compile(r"\s+", re.DOTALL)
 
 
 def fail(msg):

@@ -3,4 +3,4 @@ title: "Index"
 template: page
 ---
 
-<!-- INDEX -->
+[% index %]
