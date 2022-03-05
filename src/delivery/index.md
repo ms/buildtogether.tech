@@ -42,20 +42,23 @@ deliverable" %]package[% /i %] that other people can download and install
 ([% x design %]). It isn't an either/or choice: every good package has a home page,
 installation instructions, and so on.
 
-> ## Bugs
->
-> It's OK to have bugs in your code when you finish your project---after all,
-> almost all products do. This isn't because developers are lazy or careless;
-> instead, it's a matter of economics.  If you're near the end of the development
-> cycle, it may be riskier to fix a minor bug (and introduce new bugs in doing so)
-> than to document its existence and provide a workaround.
+<blockquote markdown="1">
+## Bugs
+
+It's OK to have bugs in your code when you finish your project---after all,
+almost all products do. This isn't because developers are lazy or careless;
+instead, it's a matter of economics.  If you're near the end of the development
+cycle, it may be riskier to fix a minor bug (and introduce new bugs in doing so)
+than to document its existence and provide a workaround.
+</blockquote>
 
 Depending on the structure of your course, you may be asked to figure out how
 much you would charge for the software you have produced.  The answer is out of
 scope for this book, but [% b Davidson2009 %] is a good short introduction
 to the topic.
 
-You may also be asked to do some [% i "marketing" %][% g marketing %]Marketing[% /g %][% /i %], which is the process of figuring out how to tell
+You may also be asked to do some [% i "marketing" %][% g marketing %]marketing[% /g %][% /i %],
+which is the process of figuring out how to tell
 the people you're trying to help how you can help them. This doesn't mean
 spamming people with discount coupons; instead, it means explaining the problem
 that the product will solve in ways that will reach the intended users.  I have
@@ -226,16 +229,17 @@ and screenshots work well, and you can embed [% i "MathML" %][MathML][mathml][% 
 is that you can't actually see what your document is going to look like until
 you compile it, and doing that breaks your [% i "flow" %]flow[% /i %].
 
-> ### LaTeX
->
-> [% i "LaTeX" %]LaTeX[% /i %] is a markup language that's much more sophisticated
-> than HTML and has literally thousands of add-on packages for equations, code
-> formatting, and just about everything else you could want. Like HTML, LaTeX is a
-> text format, so it plays nicely with version control.  However, its power comes
-> at a steep price: LaTeX is as hard to master as a programming language. It also
-> has a frustratingly slow formatting cycle, since documents have to be compiled
-> several times to resolve cross-references.
+<blockquote markdown="1">
+### LaTeX
 
+[% i "LaTeX" %]LaTeX[% /i %] is a markup language that's much more sophisticated
+than HTML and has literally thousands of add-on packages for equations, code
+formatting, and just about everything else you could want. Like HTML, LaTeX is a
+text format, so it plays nicely with version control.  However, its power comes
+at a steep price: LaTeX is as hard to master as a programming language. It also
+has a frustratingly slow formatting cycle, since documents have to be compiled
+several times to resolve cross-references.
+</blockquote>
 
 ## The Post Mortem
 
@@ -303,10 +307,12 @@ are the recommendations that came out of one post mortem I did with students:
 5.  Teams should have to report test coverage at every progress meeting to make
     sure that a lot of untested code doesn't pile up during the term.
 
-> ### Pay it forward
->
-> Ask your instructor at the start of your course for copies of the post mortems
-> written by previous student teams.  Go through and pick out some common themes,
-> then use them as a list of things to do or avoid in your own project.  Sharing
-> what you've learned with those who come after you is the most compassionate
-> thing you can do.
+<blockquote markdown="1">
+### Pay it forward
+
+Ask your instructor at the start of your course for copies of the post mortems
+written by previous student teams.  Go through and pick out some common themes,
+then use them as a list of things to do or avoid in your own project.  Sharing
+what you've learned with those who come after you is the most compassionate
+thing you can do.
+</blockquote>

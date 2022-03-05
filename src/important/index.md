@@ -9,17 +9,19 @@ software.  Instead, the worst mistakes people make are related to the human side
 of things. Before we look at teamwork or tools, we need to talk about overwork,
 how to run a meeting, and how to resolve arguments.
 
-> ### Not writing software takes less time
->
-> [% b Sedano2017 %] found that software development projects have
-> [% i "waste (in software development)" %]nine types of waste[% /i %]: building the
-> wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
-> solutions, extraneous [% i "cognitive load" %]cognitive load[% /i %]
-> ([% x thinking %]), psychological distress, waiting and
-> [% i "multitasking" %]multitasking[% /i %], knowledge loss, and ineffective
-> communication.  *None of these are software issues,* so if you only think about
-> the software side of your project, it's going to take longer and hurt more than
-> it needs to.
+<blockquote markdown="1">
+### Not writing software takes less time
+
+[% b Sedano2017 %] found that software development projects have
+[% i "waste (in software development)" %]nine types of waste[% /i %]: building the
+wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
+solutions, extraneous [% i "cognitive load" %]cognitive load[% /i %]
+([% x thinking %]), psychological distress, waiting and
+[% i "multitasking" %]multitasking[% /i %], knowledge loss, and ineffective
+communication.  *None of these are software issues,* so if you only think about
+the software side of your project, it's going to take longer and hurt more than
+it needs to.
+</blockquote>
 
 ## Crunch Mode
 
@@ -145,14 +147,16 @@ of organizing can help a lot---as [% b Mark2008 %] reported, "…people
 compensate for interruptions by working faster, but this comes at a price:
 experiencing more stress, higher frustration, time pressure and effort."
 
-> ### How bad is it?
->
-> A student of mine kept a stopwatch beside his computer for a couple of weeks
-> during term.  Every time he read mail, put Twitter in the foreground, or went to
-> Manchester United's web site he hit the button to stop it.  At the end of two
-> weeks he discovered that he only spent 28% of his "working" time working.  Put
-> it another way, he could have finished his assignments in a third of the time
-> they actually took.
+<blockquote markdown="1">
+### How bad is it?
+
+A student of mine kept a stopwatch beside his computer for a couple of weeks
+during term.  Every time he read mail, put Twitter in the foreground, or went to
+Manchester United's web site he hit the button to stop it.  At the end of two
+weeks he discovered that he only spent 28% of his "working" time working.  Put
+it another way, he could have finished his assignments in a third of the time
+they actually took.
+</blockquote>
 
 Make a list of the things you have to do.
 :   I still use a hardcover lab notebook for this so that I can doodle in it
@@ -230,47 +234,52 @@ but your friends will stop mocking you when they see that you're able to finish
 your assignments and still have time to play some badminton and catch a movie.
 They may even start to imitate you.
 
-> ### Open offices suck
->
-> [% i "open offices (evils of)" %]Open offices[% /i %] were created so that
-> (mostly male) managers could keep an eye on (mostly female) office workers, and
-> to reduce air conditioning costs [% b Eley1995 %].  In every other way we
-> can measure, they lower productivity [% b Bernstein2018 %].
+<blockquote markdown="1">
+### Open offices suck
 
-> ### Nihil de nobis sine nobis
->
-> The rules laid out above were created by and for people near the middle of the
-> bell curve with respect to focus and attention span. People who are
-> [% i "neurodivergent" %][% g "neurodivergent" %]neurodivergent[% /g %][% /i %],
-> i.e., whose brains work differently from the average when it comes to sociability,
-> learning, attention, and mood, may find that other approaches work better for them.
->
-> But while society accepts that people of different heights need different desks
-> and seating to be comfortable, there is still a lot of [% i "mental health
-> (stigma associated with)" %]stigma[% /i %] associated with differences in mental
-> function, which are often measured by [how inconvenient they are to other
-> people][adhd-thread].  One example is how tests for
-> [% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
-> (ADHD) are phrased. "Subject is overly talkative": compared to who? "Subject does X when it
-> is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
-> people with ADHD can pay very close attention, but not when they are in
-> environments that are full of distractions (like noisy classrooms).
->
-> The title of this callout is Latin for, "Nothing about us without us." It means
-> that no decisions should be made without the full participation of those who
-> will be affected.  If you are neurodivergent, you probably have a set of
-> strategies for managing time and attention. If you are
-> [% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
-> and have neurodivergent teammates, ask them
-> what works well for them rather than ignoring the difference or guessing what
-> they might want. Please do the same if you have teammates who have difficulty
-> seeing, hearing, or moving about: they have expertise you don't.
+[% i "open offices (evils of)" %]Open offices[% /i %] were created so that
+(mostly male) managers could keep an eye on (mostly female) office workers, and
+to reduce air conditioning costs [% b Eley1995 %].  In every other way we
+can measure, they lower productivity [% b Bernstein2018 %].
+</blockquote>
+
+<blockquote markdown="1">
+### Nihil de nobis sine nobis
+
+The rules laid out above were created by and for people near the middle of the
+bell curve with respect to focus and attention span. People who are
+[% i "neurodivergent" %][% g "neurodivergent" %]neurodivergent[% /g %][% /i %],
+i.e., whose brains work differently from the average when it comes to sociability,
+learning, attention, and mood, may find that other approaches work better for them.
+
+But while society accepts that people of different heights need different desks
+and seating to be comfortable, there is still a lot of [% i "mental health
+(stigma associated with)" %]stigma[% /i %] associated with differences in mental
+function, which are often measured by [how inconvenient they are to other
+people][adhd-thread].  One example is how tests for
+[% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
+(ADHD) are phrased. "Subject is overly talkative": compared to who? "Subject does X when it
+is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
+people with ADHD can pay very close attention, but not when they are in
+environments that are full of distractions (like noisy classrooms).
+
+The title of this callout is Latin for, "Nothing about us without us." It means
+that no decisions should be made without the full participation of those who
+will be affected.  If you are neurodivergent, you probably have a set of
+strategies for managing time and attention. If you are
+[% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
+and have neurodivergent teammates, ask them
+what works well for them rather than ignoring the difference or guessing what
+they might want. Please do the same if you have teammates who have difficulty
+seeing, hearing, or moving about: they have expertise you don't.
+</blockquote>
 
 ## Meetings
 
 The previous section explained how to be productive individually---what about
-being productive in a team?  The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently.  The rules doing so are simple but
-rarely followed:
+being productive in a team?
+The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently.
+The rules doing so are simple but rarely followed:
 
 Agree on the rules.
 :   Bridge and ping pong are both fun games, but you can't play both on the same
@@ -352,25 +361,27 @@ End early.
 :   If the meeting is scheduled for 10:00--11:00, aim to end at 10:50 to give
     people a break before whatever they're doing next.
 
-> ### I don't like your tone
->
-> [% i "tone policing" %][% g tone_policing %]Tone policing[% /g %][% /i %] is a tactic used
-> to shut down discussion by criticizing people for expressing emotion.  It is
-> often used against women, who are told to "calm down" when they show any sign of
-> being angry at being excluded or not taken seriously. As [this
-> article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
->
-> *People often reach for positive statements like "assume good intent" because
-> they're worried about people being "shamed" over innocent mistakes. But society
-> at large is already inclined to assume good intent in people with power and
-> privilege–even when they're not demonstrating it. If you want to build a culture
-> of "assuming good intent," start by assuming good intent in marginalized people.*
->
-> *Assume that they already tried being nice. Assume that their feelings are
-> valid. Assume that, after a lifetime of practice, they are responding to harmful
-> behavior in the way that is safest for them.  Prioritize that safety over the
-> momentary discomfort people feel when they realize they've done something
-> hurtful.*
+<blockquote markdown="1">
+### I don't like your tone
+
+[% i "tone policing" %][% g tone_policing %]Tone policing[% /g %][% /i %] is a tactic used
+to shut down discussion by criticizing people for expressing emotion.  It is
+often used against women, who are told to "calm down" when they show any sign of
+being angry at being excluded or not taken seriously. As [this
+article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
+
+*People often reach for positive statements like "assume good intent" because
+they're worried about people being "shamed" over innocent mistakes. But society
+at large is already inclined to assume good intent in people with power and
+privilege–even when they're not demonstrating it. If you want to build a culture
+of "assuming good intent," start by assuming good intent in marginalized people.*
+
+*Assume that they already tried being nice. Assume that their feelings are
+valid. Assume that, after a lifetime of practice, they are responding to harmful
+behavior in the way that is safest for them.  Prioritize that safety over the
+momentary discomfort people feel when they realize they've done something
+hurtful.*
+</blockquote>
 
 As soon as the meeting is over, add a summary to the project's wiki, version
 control repository, or wherever else things are being stored:
@@ -399,11 +410,13 @@ Please don't email minutes to everyone: our inboxes are full enough, and the
 more places new team members need to search in order to find things, the more
 likely they are to miss something important.
 
-> ### Are you a blowfish or a clam?
->
-> [NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
-> labels and even more useful advice for handling people who may send meetings off
-> course.
+<blockquote markdown="1">
+### Are you a blowfish or a clam?
+
+[NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
+labels and even more useful advice for handling people who may send meetings off
+course.
+</blockquote>
 
 If you would like to become better at sharing information and making decisions,
 there is no better place to start than [% b Brookfield2016 %]. This book

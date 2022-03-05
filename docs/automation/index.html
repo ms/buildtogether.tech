@@ -29,14 +29,15 @@ time, you should try to do a little---it will save time when you are up against
 the end-of-term deadline, and more importantly, prevent mistakes when you are
 stretched thin.</p>
 <h2>Build Manager</h2>
-<p>The foundation for almost all automation in software development is a <span class="indexref" key="build manager" markdown="1"><a class="glossref" href="../glossary/#build_manager" markdown="1">build manager</a></span>---a tool that will
+<p>The foundation for almost all automation in software development is a
+<span class="indexref" key="build manager" markdown="1"><a class="glossref" href="../glossary/#build_manager" markdown="1">build manager</a></span>---a tool that will
 transform what you've typed into what you want to deliver. The origin build
 manager is <span class="indexref" key="Make;build manager!Make" markdown="1"><a href="https://www.gnu.org/software/make/">Make</a></span>, which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
 some modules depended on others. To use it, you create a Makefile that specifies
 the dependencies between the files in your project and the commands needed to
 update them. For example:</p>
-<pre><code class="language-make">game.exe : game.bc graphics.bc utils.bc
+<pre class="language-make"><code class="language-make">game.exe : game.bc graphics.bc utils.bc
         tx -E -o game.exe game.bc graphics.bc utils.bc
 
 %.bc : %.grace
@@ -71,7 +72,7 @@ syntax, but most still don't have debuggers. The <code>package.json</code> file 
 file---as the example below shows, some of its entries describe the package or
 its dependencies, while others store commands that can be re-run by typing
 things like <code>npm run test</code>:</p>
-<pre><code class="language-js">{
+<pre class="language-js"><code class="language-js">{
   &quot;name&quot;: &quot;stjs&quot;,
   &quot;version&quot;: &quot;1.0.0&quot;,
   &quot;description&quot;: &quot;Software Design by Example&quot;,
@@ -185,7 +186,7 @@ you'll stop checking in broken code…)</p>
 <p>For example, we can check every attempt to push changes to the repository for a
 Python project, and every pull request created for that repository, by putting
 these commands in a file called <code>.github/workflows/check.yml</code>:</p>
-<pre><code class="language-yml">name: Check
+<pre class="language-yml"><code class="language-yml">name: Check
 
 on: [push, pull_request]
 

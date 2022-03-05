@@ -61,17 +61,19 @@ any more than we can explain how we recognize faces.
 
 [% figure slug="thinking-models" img="thinking-models.svg" alt="Mental models" caption="The differences between novice, competent, and expert mental models." %]
 
-> ### Learning styles aren't a thing
->
-> You may have heard of "[% i "learning styles" "pseudoscience!learning
-> styles" %]learning styles[% /i %]", i.e., that some people learn better visually,
-> while others do so more quickly or more accurately by listening, reading, or
-> otherwise using language. It's bullshit: while lots of companies make and sell
-> materials based on this myth, no one has ever shown that tuning what or how we
-> teach to match people's preferences has any impact on outcomes
-> [% b DeBruyckere2015 %]. Like [% i "Myers-Briggs Type
-> Indicator" %]Myers-Briggs personality types[% /i %] ([% x fairness %]),
-> learning styles belong with healing crystals and astrology.
+<blockquote markdown="1">
+### Learning styles aren't a thing
+
+You may have heard of "[% i "learning styles" "pseudoscience!learning
+styles" %]learning styles[% /i %]", i.e., that some people learn better visually,
+while others do so more quickly or more accurately by listening, reading, or
+otherwise using language. It's bullshit: while lots of companies make and sell
+materials based on this myth, no one has ever shown that tuning what or how we
+teach to match people's preferences has any impact on outcomes
+[% b DeBruyckere2015 %]. Like [% i "Myers-Briggs Type
+Indicator" %]Myers-Briggs personality types[% /i %] ([% x fairness %]),
+learning styles belong with healing crystals and astrology.
+</blockquote>
 
 This model of learning leaves almost everything discussed in
 [% b Kirschner2018 %] and other recent work, but is good enough to start
@@ -145,15 +147,17 @@ misunderstand things in different ways; a good formative assessment tells the
 instructor what misconceptions these particular learners have and therefore what
 needs to be corrected.
 
-> ### Recordings can't respond
->
-> If an instructor uses a formative assessment in class and then says whatever
-> they planned to say next instead of responding to the learner's actual
-> misunderstandings, they're not a good teacher. Unfortunately, that is what
-> almost all recorded videos do: they always say the same next thing regardless of
-> what the viewer did or didn't understand.  Good video games provide many paths
-> around or through each obstacle; recorded courses could in theory do that too,
-> but in practice the cost is prohibitive.
+<blockquote markdown="1">
+### Recordings can't respond
+
+If an instructor uses a formative assessment in class and then says whatever
+they planned to say next instead of responding to the learner's actual
+misunderstandings, they're not a good teacher. Unfortunately, that is what
+almost all recorded videos do: they always say the same next thing regardless of
+what the viewer did or didn't understand.  Good video games provide many paths
+around or through each obstacle; recorded courses could in theory do that too,
+but in practice the cost is prohibitive.
+</blockquote>
 
 Formative assessments have many other benefits. One is that in order to come up
 with good ones, the instructor has to build a mental model of all the ways in

@@ -32,11 +32,12 @@ exist. <span class="indexref" key="version control!CVS;CVS (version control)" ma
 was the workhorse of the open source world for many years; it was replaced by
 <span class="indexref" key="version control!Subversion;Subversion (version
 control)" markdown="1"><a href="https://subversion.apache.org/">Subversion</a></span>, which fixed many of its predecessor's
-flaws while introducing a few minor ones of its own. Both of these were <span class="indexref" key="version control!centralized" markdown="1"><a class="glossref" href="../glossary/#centralized_system" markdown="1">centralized systems</a></span>:</p>
+flaws while introducing a few minor ones of its own.
+Both of these were <span class="indexref" key="version control!centralized" markdown="1"><a class="glossref" href="../glossary/#centralized_system" markdown="1">centralized systems</a></span>:</p>
 <ol>
 <li>
-<p>One <span class="indexref" key="version control!repository;repository (version control)" markdown="1"><a class="glossref" href="../glossary/#repository" markdown="1">repository</a></span> stored the definitive copy of the project's
-    files.</p>
+<p>One <span class="indexref" key="version control!repository;repository (version control)" markdown="1"><a class="glossref" href="../glossary/#repository" markdown="1">repository</a></span>
+    stored the definitive copy of the project's files.</p>
 </li>
 <li>
 <p>Nobody ever edited the contents of the main repository directly. Instead,
@@ -44,22 +45,26 @@ flaws while introducing a few minor ones of its own. Both of these were <span cl
 </li>
 <li>
 <p>In order to share files with other people (or to create a backup, which is
-    really just a way to share files with your future self) people would <a class="glossref" href="../glossary/#push_git" markdown="1">push</a> the contents of their copy to the main repository.
+    really just a way to share files with your future self) people would <a class="glossref" href="../glossary/#push_git" markdown="1">push</a>
+    the contents of their copy to the main repository.
     To get other people's work, they would <a class="glossref" href="../glossary/#pull_git" markdown="1">pull</a>
     changes from the main repository and combine them with their own work.</p>
 </li>
 </ol>
-<p>Centralized version control systems have largely been replaced by <span class="indexref" key="version control!decentralized" markdown="1"><a class="glossref" href="../glossary/#decentralized_system" markdown="1">decentralized</a></span>
-ones, and in particular by <span class="indexref" key="version
-control!Git;Git" markdown="1"><a href="https://git-scm.com/">Git</a></span>. In theory, Git doesn't need a main
+<p>Centralized version control systems have largely been replaced by
+<span class="indexref" key="version control!decentralized" markdown="1"><a class="glossref" href="../glossary/#decentralized_system" markdown="1">decentralized</a></span>
+ones, and in particular by <span class="indexref" key="version control!Git;Git" markdown="1"><a href="https://git-scm.com/">Git</a></span>.
+In theory, Git doesn't need a main
 repository: developers can merge the contents of any repository into any other.
 In practice, almost every project designates one repository as the master copy
 so that people know where to look to find the current state of the project.</p>
 <p>Unfortunately, Git has a needlessly complicated interface.
-[<a href="../bibliography/#PerezDeRosso2013">PerezDeRosso2013</a>] found that even experienced users have a <span class="indexref" key="mental model!Git" markdown="1"><a class="glossref" href="../glossary/#mental_model" markdown="1">mental model</a></span> of how it works that
+[<a href="../bibliography/#PerezDeRosso2013">PerezDeRosso2013</a>] found that even experienced users have
+a <span class="indexref" key="mental model!Git" markdown="1"><a class="glossref" href="../glossary/#mental_model" markdown="1">mental model</a></span> of how it works that
 contradicts its actual operation in important ways, and each of those
 contradictions produces a steady stream of "what the hell?"  moments. Other
-distributed version control systems like <span class="indexref" key="version control!Mercurial;Mercurial (version control)" markdown="1"><a href="https://www.mercurial-scm.org/">Mercurial</a></span> are proof that this
+distributed version control systems like <span class="indexref" key="version control!Mercurial;Mercurial (version control)" markdown="1"><a href="https://www.mercurial-scm.org/">Mercurial</a></span>
+are proof that this
 complexity and pain are unnecessary.  The fact that most people don't
 immediately realize that <a href="https://git-man-page-generator.lokaltog.net/">the random Git manual page
 generator</a> is a <span class="indexref" key="Git!interface
@@ -103,7 +108,7 @@ activity. Adding two more commands to set things up produces a toolkit that uses
 Git as a file backup system.</p>
 <p>The first step is to make sure that <span class="indexref" key="Git!configuring" markdown="1">Git knows who
 we</span> are by telling it our name and email address:</p>
-<pre><code class="language-sh">$ git config --global user.name &quot;Peggy Springsteen&quot;
+<pre class="language-sh"><code class="language-sh">$ git config --global user.name &quot;Peggy Springsteen&quot;
 $ git config --global user.email &quot;peggy@wolframhart.org&quot;
 </code></pre>
 <p>Breaking this down:</p>
@@ -148,9 +153,10 @@ please see [<a href="../bibliography/#Chacon2014">Chacon2014</a>] or [<a href=".
 </blockquote>
 <p>If your instructor or one of your teammates has already created a project, you
 won't use <code>git init</code>. Instead, you will use <code>git clone</code> followed by the
-project's URL to get a local copy called a <span class="indexref" key="Git!cloning project" markdown="1"><a class="glossref" href="../glossary/#clone_git" markdown="1">clone</a></span>. For example, if you want a clone of this book, you can do
+project's URL to get a local copy called a <span class="indexref" key="Git!cloning project" markdown="1"><a class="glossref" href="../glossary/#clone_git" markdown="1">clone</a></span>.
+For example, if you want a clone of this book, you can do
 this:</p>
-<pre><code class="language-sh">$ git clone https://github.com/gvwilson/buildtogether.tech.git
+<pre class="language-sh"><code class="language-sh">$ git clone https://github.com/gvwilson/buildtogether.tech.git
 </code></pre>
 <!-- continue -->
 <p>This will create a directory with the same name as the project, create a <code>.git</code>
@@ -159,9 +165,9 @@ start work.</p>
 <p>Regardless of how you create your repository, you can use <code>git log</code> to look at
 its <span class="indexref" key="Git!history" markdown="1">history</span>. If I run this command right now for
 this book, I get:</p>
-<pre><code class="language-sh">$ git log
+<pre class="language-sh"><code class="language-sh">$ git log
 </code></pre>
-<pre><code class="language-out">commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
+<pre class="language-out"><code class="language-out">commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
 Author: Greg Wilson &lt;gvwilson@third-bit.com&gt;
 Date:   Fri Feb 19 09:48:37 2021 -0500
 
@@ -209,7 +215,7 @@ Date:   Wed Feb 17 20:48:04 2021 -0500
 <p>All right: what are <span class="indexref" key="commit (version control);Git!commit" markdown="1"><a class="glossref" href="../glossary/#commit" markdown="1">commits</a></span> and where do they come from? A commit is a snapshot
 of the project at a particular moment in time; we create them using a command
 like:</p>
-<pre><code class="language-sh">$ git commit -m &quot;Made the status bar display the user name&quot;
+<pre class="language-sh"><code class="language-sh">$ git commit -m &quot;Made the status bar display the user name&quot;
 </code></pre>
 <!-- continue -->
 <p>Here, <code>commit</code> is the verb and the <code>-m</code> (short for "message") option is followed
@@ -229,7 +235,7 @@ One of the many reasons you should interact with Git through a GUI is to avoid t
 </blockquote>
 <p>Before we run <code>git commit</code>, though, we need to tell Git which files we want to
 save in the commit, which we do using <code>git add</code>:</p>
-<pre><code class="language-sh">$ git add version-control.md _data/glossary.yml
+<pre class="language-sh"><code class="language-sh">$ git add version-control.md _data/glossary.yml
 </code></pre>
 <!-- continue -->
 <p><span class="indexref" key="Git!difference between add and commit" markdown="1">One way to think about
@@ -247,15 +253,15 @@ committing.</p>
 files</span> by putting their names, or patterns that match multiple names, in a
 file called <code>.gitignore</code>.  For example, the <code>.gitignore</code> file for this project
 includes:</p>
-<p><code>txt
-*.pyc
+<pre class="language-txt"><code class="language-txt">*.pyc
 *~
 .DS_Store
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
 __pycache__
-_site</code></p>
+_site
+</code></pre>
 <p>Be careful not to put files containing passwords or <a class="glossref" href="../glossary/#api_key" markdown="1">API
 keys</a> for web services into version control: even if the repository is
 private now, it might be public in future, or the team might grow to include
@@ -264,9 +270,9 @@ someone who shouldn't have access (<a href="../security/">Chapter 13</a>).</p>
 <p>We can keep track of which changes haven't yet been added and which ones have
 using <span class="indexref" key="Git!showing status" markdown="1"><code>git status</code></span>. If I run this command
 right now in this book's project I get:</p>
-<pre><code class="language-sh">$ git status
+<pre class="language-sh"><code class="language-sh">$ git status
 </code></pre>
-<pre><code class="language-out">On branch main
+<pre class="language-out"><code class="language-out">On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
@@ -293,7 +299,7 @@ original motivation for version control systems, and is still one of the main
 reasons people use them. For example, if I want to get the version of this file
 from two days ago, I can use <code>git log</code> to find the commit ID <code>2be70844</code>, and
 then run:</p>
-<pre><code class="language-sh">$ git restore --source 2be70844 version-control.md
+<pre class="language-sh"><code class="language-sh">$ git restore --source 2be70844 version-control.md
 </code></pre>
 <!-- continue -->
 <p>I can also count backward from where I am now.  The most recent commit has the
@@ -308,9 +314,9 @@ created the repository by cloning something on GitHub, then Git will
 automatically have created a bookmark called a
 <span class="indexref" key="Git!remote;remote (in Git)" markdown="1"><a class="glossref" href="../glossary/#remote_git" markdown="1">remote</a></span> that points
 at the original repository. I can get a list of remotes like this:</p>
-<pre><code class="language-sh">$ git remote -v
+<pre class="language-sh"><code class="language-sh">$ git remote -v
 </code></pre>
-<pre><code class="language-out">origin  https://github.com/gvwilson/buildtogether.tech.git (fetch)
+<pre class="language-out"><code class="language-out">origin  https://github.com/gvwilson/buildtogether.tech.git (fetch)
 origin  https://github.com/gvwilson/buildtogether.tech.git (push)
 </code></pre>
 <!-- continue -->
@@ -323,7 +329,7 @@ once needed this feature.)</p>
 backup tool like <a href="https://dropbox.com">Dropbox</a> is that Git <em>doesn't</em> automatically
 synchronize local changes to the remote repository.  If I want to <span class="indexref" key="Git!saving changes remotely" markdown="1">save</span> everything I've done locally on
 GitHub, I have to push them explicitly:</p>
-<pre><code class="language-sh">$ git push origin main
+<pre class="language-sh"><code class="language-sh">$ git push origin main
 </code></pre>
 <!-- continue -->
 <p>The verb is <code>push</code>; the word <code>origin</code> identifies where I want to send things,
@@ -332,7 +338,7 @@ next section, but for now, you can run <code>git branch</code> to see which ones
 and which one you're working in.</p>
 <p>The counterpart of <code>git push</code> is <code>git pull</code>. It downloads changes from the
 remote repository and merges them into your local copy:</p>
-<pre><code class="language-sh">$ git pull origin main
+<pre class="language-sh"><code class="language-sh">$ git pull origin main
 </code></pre>
 <p>Pushing and pulling changes allows you and your teammates to synchronize your
 work. They're also very useful operations if you're working on your own and
@@ -357,13 +363,13 @@ separate tasks in parallel.  Each branch is like a parallel timeline: changes ma
 to one branch have no effect on other branches unless and until we explicitly merge
 them.</p>
 <p>We can see what branches exist in a repository like this:</p>
-<pre><code class="language-sh">$ git branch
+<pre class="language-sh"><code class="language-sh">$ git branch
 </code></pre>
-<pre><code class="language-out">* main
+<pre class="language-out"><code class="language-out">* main
 </code></pre>
 <p>When we initialize a repository, Git automatically creates a branch called
 <code>master</code>; most people now rename this to <code>main</code> by running:</p>
-<pre><code class="language-sh">$ git branch -m main
+<pre class="language-sh"><code class="language-sh">$ git branch -m main
 </code></pre>
 <!-- continue -->
 <p>immediately after running <code>git init</code>.  The <span class="indexref" key="Git!branch names" markdown="1"><code>main</code>
@@ -372,22 +378,22 @@ i.e., the version of the project that should be graded or published for other
 people to use.  The asterisk <code>*</code> indicates that it is currently active, i.e.,
 that all changes we make will take place in this branch by default.</p>
 <p>To create a new branch called <code>homework3</code> we run:</p>
-<pre><code class="language-sh">$ git branch homework3
+<pre class="language-sh"><code class="language-sh">$ git branch homework3
 </code></pre>
 <p>The name of the branch should indicate what it's for, just like the names of
 files and variables.  We can check that the branch exists by running <code>git
 branch</code> again:</p>
-<pre><code class="language-sh">$ git branch
+<pre class="language-sh"><code class="language-sh">$ git branch
 </code></pre>
-<pre><code class="language-out">* main
+<pre class="language-out"><code class="language-out">* main
   homework3
 </code></pre>
 <p>Our branch is there, but the <code>*</code> shows that we are still in the <code>main</code> branch.
 To switch to our new branch we use the <code>checkout</code> command:</p>
-<pre><code class="language-sh">$ git checkout homework3
+<pre class="language-sh"><code class="language-sh">$ git checkout homework3
 $ git branch
 </code></pre>
-<pre><code class="language-out">  main
+<pre class="language-out"><code class="language-out">  main
 * homework3
 </code></pre>
 <p>We haven't made any changes since switching to the <code>homework3</code> branch, so at
@@ -410,14 +416,14 @@ early start on homework 4, we can create a new branch from <code>main</code> cal
 doesn't change the source branch, but once it's done, all of the changes made
 there are in the destination branch.</p>
 <p>To see what the differences are between two branches, we use <span class="indexref" key="Git!viewing differences" markdown="1"><code>git diff</code></span> with those branches' names:</p>
-<pre><code class="language-sh">$ git diff homework3..main
+<pre class="language-sh"><code class="language-sh">$ git diff homework3..main
 </code></pre>
 <!-- continue -->
 <p>More generally, we can use <code>git diff</code> to compare any two states of the
 repository, including old versions with current ones:</p>
-<pre><code class="language-sh">$ git diff HEAD~3..HEAD
+<pre class="language-sh"><code class="language-sh">$ git diff HEAD~3..HEAD
 </code></pre>
-<pre><code class="language-txt">diff --git a/bin/html2tex.py b/bin/html2tex.py
+<pre class="language-txt"><code class="language-txt">diff --git a/bin/html2tex.py b/bin/html2tex.py
 index 4c756f4..10efe1c 100755
 --- a/bin/html2tex.py
 +++ b/bin/html2tex.py
@@ -454,7 +460,7 @@ If you are looking for projects to work on that people will actually use, these
 would be good ones.</p>
 </blockquote>
 <p>Once we're sure we actually want to merge changes, we do so like this:</p>
-<pre><code class="language-sh">$ git merge homework3 main
+<pre class="language-sh"><code class="language-sh">$ git merge homework3 main
 </code></pre>
 <!-- continue -->
 <p>Git automatically creates a new commit to represent the merge.  If we now run
@@ -462,9 +468,9 @@ would be good ones.</p>
 differences to show.</p>
 <p>After we merge the changes from <code>homework3</code> into <code>main</code> there is no need to keep
 the <code>homework3</code> branch, so we can delete it:</p>
-<pre><code class="language-sh">$ git branch -d homework3
+<pre class="language-sh"><code class="language-sh">$ git branch -d homework3
 </code></pre>
-<pre><code class="language-out">Deleted branch homework3 (was 1577404).
+<pre class="language-out"><code class="language-out">Deleted branch homework3 (was 1577404).
 </code></pre>
 <p>Merging <code>homework3</code> into <code>main</code> went smoothly, but if we are going to use
 branches, we must learn how to merge <span class="indexref" key="conflict (in Git);Git!conflict" markdown="1"><a class="glossref" href="../glossary/#conflict_git" markdown="1">conflicts</a></span>.  These occur when a line has been changed
@@ -472,15 +478,15 @@ in different ways in two branches or when a file has been deleted in one branch
 but edited in the other.</p>
 <p>If the file <code>README.md</code> has been changed in both <code>main</code> and <code>homework4</code>,
 <code>git diff</code> will show the conflict:</p>
-<pre><code class="language-sh">$ git diff homework4..main
+<pre class="language-sh"><code class="language-sh">$ git diff homework4..main
 </code></pre>
 <p>When we try to merge <code>homework4</code> into <code>main</code>, Git doesn't know which of these
 changes to keep:</p>
-<pre><code class="language-sh">$ git merge homework4 main
+<pre class="language-sh"><code class="language-sh">$ git merge homework4 main
 </code></pre>
 <p>After we run this command, Git has put both sets of changes into <code>README.md</code>,
 but has marked which came from where:</p>
-<pre><code class="language-sh">$ cat README.md
+<pre class="language-sh"><code class="language-sh">$ cat README.md
 </code></pre>
 <p>The lines from <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> to <code>=======</code> are what was in <code>main</code>, while the
 lines from there to <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; docs</code> show what was in <code>homework4</code>.  If there were
@@ -492,15 +498,15 @@ and Git GUIs will help you view and edit these regions.</p>
 <code>homework4</code>, edit this part of the file to combine them, or write something new.
 Whatever we do, we must remove the <code>&gt;&gt;&gt;</code>, <code>===</code>, and <code>&lt;&lt;&lt;</code> markers.  Once we are
 done, we can add the file and commit the change like we would any other edit:</p>
-<pre><code class="language-sh">$ git add README.md
+<pre class="language-sh"><code class="language-sh">$ git add README.md
 $ git commit -m &quot;Merging README additions&quot;
 </code></pre>
 <p>Our branch's history will now show a single sequence of commits with the <code>main</code>
 changes on top of the earlier <code>homework4</code> changes:</p>
-<pre><code class="language-sh">$ git log --oneline -n 4
+<pre class="language-sh"><code class="language-sh">$ git log --oneline -n 4
 </code></pre>
 <p>If we want to see what happened, we can add the <code>--graph</code> option to <code>git log</code>:</p>
-<pre><code class="language-sh">$ git log --oneline --graph -n 4
+<pre class="language-sh"><code class="language-sh">$ git log --oneline --graph -n 4
 </code></pre>
 <p>At this point we can delete the <code>homework</code> branch or switch back to it and do
 some more work.  Each time we switch to it, we merge changes <em>from</em> <code>main</code>
@@ -513,10 +519,10 @@ branches as needed to work on the code), and then merge <em>from</em> <code>home
 consecutive commits into one.  This is called
 <span class="indexref" key="Git!rebase; rebasing (in version control)" markdown="1"><a class="glossref" href="../glossary/#rebase_git" markdown="1">rebasing</a></span>,
 and can be done using:</p>
-<p><code>sh
-$ git rebase -i START</code></p>
-<p><!-- continue -->
-where <code>START</code> identifies the commit <em>before</em> the ones you want to start merging
+<pre class="language-sh"><code class="language-sh">$ git rebase -i START
+</code></pre>
+<!-- continue -->
+<p>where <code>START</code> identifies the commit <em>before</em> the ones you want to start merging
 (i.e., the last one <em>not</em> to modify). Rebasing can go wrong in a lot of
 confusing ways, particularly if you have merged changes from another branch into
 the one you're squashing, so we recommend that you avoid it for schoolwork.</p>

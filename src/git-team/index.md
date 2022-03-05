@@ -13,7 +13,9 @@ Git repository in one of two ways [% b Irving2021 %]:
     repository[% /i %].
 
 2.  Everyone can read from the project's main repository, but only a few people
-    can commit changes to it.  The project's other contributors [% i "version control!using forked repositories" %][% g fork_git %]fork[% /g %][% /i %] the main repository to create one that they own,
+    can commit changes to it.  The project's other contributors
+    [% i "version control!using forked repositories" %][% g fork_git %]fork[% /g %][% /i %]
+    the main repository to create one that they own,
     do their work in that, and then submit their changes to the main repository.
 
 <!-- continue -->
@@ -21,16 +23,18 @@ The first approach works well for teams of up to half a dozen people, so we will
 focus on it. If the project is larger, or if contributors are worried that they
 might make a mess in the `main` branch, the second approach is safer.
 
-> ### When to commit
->
-> When you're working on your own, it's natural to fall into a rhythm of updating
-> your laptop from your repository in the morning and committing whatever you've
-> managed to accomplish when you wrap up for the day. You need to break this habit
-> when you become part of a team. Instead, [% i "version control!when to
-> commit" %]you should commit[% /i %] when you finish a chunk of work that moves the
-> project forward or is fit for someone else to review. A good rule is "never
-> break the build" ([% x automation %]), i.e., never commit anything that
-> doesn't run well enough to pass all existing tests.
+<blockquote markdown="1">
+### When to commit
+
+When you're working on your own, it's natural to fall into a rhythm of updating
+your laptop from your repository in the morning and committing whatever you've
+managed to accomplish when you wrap up for the day. You need to break this habit
+when you become part of a team. Instead, [% i "version control!when to
+commit" %]you should commit[% /i %] when you finish a chunk of work that moves the
+project forward or is fit for someone else to review. A good rule is "never
+break the build" ([% x automation %]), i.e., never commit anything that
+doesn't run well enough to pass all existing tests.
+</blockquote>
 
 ## Using Git Together
 
@@ -178,11 +182,13 @@ two or more people are constantly making incompatible changes to the same files,
 they should discuss who's supposed to be doing what, or rearrange the project's
 contents so that they aren't stepping on each other's toes.
 
-> ### Trust but verify
->
-> [% x automation %] describes how to configure Git to run tests each time
-> someone tries to commit a change.  The commit only takes effect if those tests
-> pass, so the team can ensure that the software is always as good as its tests.
+<blockquote markdown="1">
+### Trust but verify
+
+[% x automation %] describes how to configure Git to run tests each time
+someone tries to commit a change.  The commit only takes effect if those tests
+pass, so the team can ensure that the software is always as good as its tests.
+</blockquote>
 
 ## Commit Messages
 
@@ -229,16 +235,18 @@ between team members: if you read someone else's code, you have a chance to
 learn all the things that you didn't know to ask and they didn't realize they
 should tell you.
 
-> ### Do more eyes make for fewer bugs?
->
-> Some people have claimed that many eyes make all bugs shallow (i.e., easy to
-> find), but the evidence doesn't support that claim: [% b Meneely2014 %]
-> reports that, "…source code files reviewed by more developers are,
-> counter-intuitively, more likely to be vulnerable (even after accounting for
-> file size). However, files are less likely to be vulnerable if they were
-> reviewed by developers who had experience participating on prior
-> vulnerability-fixing reviews." In short, *whose* eyes matters more than how
-> many.
+<blockquote markdown="1">
+### Do more eyes make for fewer bugs?
+
+Some people have claimed that many eyes make all bugs shallow (i.e., easy to
+find), but the evidence doesn't support that claim: [% b Meneely2014 %]
+reports that, "…source code files reviewed by more developers are,
+counter-intuitively, more likely to be vulnerable (even after accounting for
+file size). However, files are less likely to be vulnerable if they were
+reviewed by developers who had experience participating on prior
+vulnerability-fixing reviews." In short, *whose* eyes matters more than how
+many.
+</blockquote>
 
 There are lots of guides online for doing code reviews, most of them based on
 their authors' personal experience. A notable exception is the [SmartBear

@@ -62,21 +62,23 @@ that you should change your design to remove that long-range interaction: sooner
 or later (probably sooner) it will break again, and you may not catch it the
 second time around.
 
-> ### Fuzzing
->
-> In 1988, a professor teaching a class on operating systems decided to throw
-> randomly-generated strings at standard Unix command-line utilities
-> [% b Miller1990 %].  To their surprise, the students were able to crash
-> almost a third of the programs they tested, some of which had been in daily use
-> for two decades.
->
-> While they weren't the first people to test with random data, their results
-> sparked interest in [% i "fuzz testing" "unit test!fuzzing" %][% g fuzz_testing %]fuzz testing[% /g %][% /i %]
-> (or "fuzzing" for short), which is now a
-> standard part of most testers' repertoire [% b Zeller2019 %].  Despite
-> this, [% b Miller2020 %] found that thirty years later, programs are still
-> failing at about the same rate and for the same reasons.  [% x debugging %]
-> discusses a technique for making fuzz testing even more useful.
+<blockquote markdown="1">
+### Fuzzing
+
+In 1988, a professor teaching a class on operating systems decided to throw
+randomly-generated strings at standard Unix command-line utilities
+[% b Miller1990 %].  To their surprise, the students were able to crash
+almost a third of the programs they tested, some of which had been in daily use
+for two decades.
+
+While they weren't the first people to test with random data, their results
+sparked interest in [% i "fuzz testing" "unit test!fuzzing" %][% g fuzz_testing %]fuzz testing[% /g %][% /i %]
+(or "fuzzing" for short), which is now a
+standard part of most testers' repertoire [% b Zeller2019 %].  Despite
+this, [% b Miller2020 %] found that thirty years later, programs are still
+failing at about the same rate and for the same reasons.  [% x debugging %]
+discusses a technique for making fuzz testing even more useful.
+</blockquote>
 
 ## Design for Testability
 
@@ -103,15 +105,17 @@ out-of-province orders, and so on.  Finally, the view translates the
 application's state into HTML for display and handles the button clicks and form
 submissions that drive the system from one state to another.
 
-> ### Design patterns help
->
-> Design patterns were a hot topic in the 1990s and early 2000s, and while there
-> isn't as much excitement about them now, their value has not diminished.
-> Knowing some design patterns is like knowing chord progressions in music: it
-> gives you a larger mental toolkit to work with.  [% b Tichy2010 %]
-> summarizes some of the evidence, more recent studies like [% b Krein2016 %]
-> confirm it, and books like [% b Olsen2007 Nystrom2014 Casciaro2020 %] are
-> great places to get started.
+<blockquote markdown="1">
+### Design patterns help
+
+Design patterns were a hot topic in the 1990s and early 2000s, and while there
+isn't as much excitement about them now, their value has not diminished.
+Knowing some design patterns is like knowing chord progressions in music: it
+gives you a larger mental toolkit to work with.  [% b Tichy2010 %]
+summarizes some of the evidence, more recent studies like [% b Krein2016 %]
+confirm it, and books like [% b Olsen2007 Nystrom2014 Casciaro2020 %] are
+great places to get started.
+</blockquote>
 
 The MVC architecture presents several [% i "model-view-controller
 architecture!testing" %]challenges for testing[% /i %]:
@@ -308,27 +312,29 @@ program I wrote to find tests whose performance has changed by more than a few
 percent. It's probably more than you need for a class project, but it has
 probably saved my users from a lot of unnecessary frustration.
 
-> ### Profiling
->
-> If you find a performance problem, the next step is to use a
-> [% i "profiler" "unit test!profiling" %][% g "profiler" %]profiler[% /g %][% /i %]
-> to figure out where the time is actually going.
-> While a coverage tool checks which lines of code are
-> executed, a profiler measures how long each line, block, or function takes to
-> run. Most will report both the average time per run and the total time so that
-> you can spot things that are fast but still affect performance because they are
-> called hundreds of millions of times.
->
-> Some profilers work by interrupting the program every few hundred microseconds
-> and seeing what line of code is being executed; others work by adding extra
-> instructions to the code to record the start and end times of functions. Both
-> methods change the program's behavior, so the output doesn't reflect the running
-> time of the unwatched program perfectly. (By analogy, if you put a thermometer
-> in a glass of water, what it reports is the weighted average of its own
-> temperature and the water's.) However, most modern profiling tools don't affect
-> performance very much, and tend to slow down most parts of the program by the
-> same amount; in practice, the [% g hot_spot %]hot spots[% /g %] are usually
-> very easy to see.
+<blockquote markdown="1">
+### Profiling
+
+If you find a performance problem, the next step is to use a
+[% i "profiler" "unit test!profiling" %][% g "profiler" %]profiler[% /g %][% /i %]
+to figure out where the time is actually going.
+While a coverage tool checks which lines of code are
+executed, a profiler measures how long each line, block, or function takes to
+run. Most will report both the average time per run and the total time so that
+you can spot things that are fast but still affect performance because they are
+called hundreds of millions of times.
+
+Some profilers work by interrupting the program every few hundred microseconds
+and seeing what line of code is being executed; others work by adding extra
+instructions to the code to record the start and end times of functions. Both
+methods change the program's behavior, so the output doesn't reflect the running
+time of the unwatched program perfectly. (By analogy, if you put a thermometer
+in a glass of water, what it reports is the weighted average of its own
+temperature and the water's.) However, most modern profiling tools don't affect
+performance very much, and tend to slow down most parts of the program by the
+same amount; in practice, the [% g hot_spot %]hot spots[% /g %] are usually
+very easy to see.
+</blockquote>
 
 ## Are We Done Yet?
 

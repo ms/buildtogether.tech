@@ -16,7 +16,8 @@ stretched thin.
 
 ## Build Manager
 
-The foundation for almost all automation in software development is a [% i "build manager" %][% g build_manager %]build manager[% /g %][% /i %]---a tool that will
+The foundation for almost all automation in software development is a
+[% i "build manager" %][% g build_manager %]build manager[% /g %][% /i %]---a tool that will
 transform what you've typed into what you want to deliver. The origin build
 manager is [% i "Make" "build manager!Make" %][Make][make][% /i %], which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
@@ -136,17 +137,19 @@ project. Set up the build and make sure it works even when there isn't anything
 to compile, run, test, or copy. Now add something---anything.  Does the build
 still work? If it does, you're on your way.
 
-> ### Never break the build
->
-> Once you have a build system in place, never commit anything to version control
-> that breaks the [% i "version control!and build manager" "build manager!and
-> version control" %]build[% /i %]. This is one of the golden rules of working in a
-> team: if your code won't compile, or doesn't pass whatever automated tests you
-> have, then putting it into the repository means putting every other person on
-> your team into exactly the same broken state you're in. When you're working on
-> your own, it's OK to use version control as a way to transfer files from one
-> machine to another, or as a way to back things up at the end of the day. Do
-> *not* carry this habit over to teamwork.
+<blockquote markdown="1">
+### Never break the build
+
+Once you have a build system in place, never commit anything to version control
+that breaks the [% i "version control!and build manager" "build manager!and
+version control" %]build[% /i %]. This is one of the golden rules of working in a
+team: if your code won't compile, or doesn't pass whatever automated tests you
+have, then putting it into the repository means putting every other person on
+your team into exactly the same broken state you're in. When you're working on
+your own, it's OK to use version control as a way to transfer files from one
+machine to another, or as a way to back things up at the end of the day. Do
+*not* carry this habit over to teamwork.
+</blockquote>
 
 ## Checking Style
 
@@ -250,14 +253,16 @@ If you don't want to go this far, you can add [% i "pre-commit hook" "Git!pre-co
 and after each commit. When I set these up, I almost always have them run
 commands via the build manager so that I can also run checks whenever I want.
 
-> ### Getting past the dip
->
-> Any new tool or practice initially makes you less productive, so if you're up
-> against a deadline (as you almost always will be), the safest course of action
-> is often to keep doing things the "wrong" way because there isn't time to learn
-> how to do it more efficiently.  This is why I think that lab exams should be
-> part of project courses, i.e., that you should be required to demonstrate to
-> your instructor that you're able to use a build manager or a debugger.  People
-> learn how to use version control because they're required to in order to submit
-> work for grading; if you are required to submit a screen recording of you using
-> particular tools as part of an assignment, it will help you in the long run.
+<blockquote markdown="1">
+### Getting past the dip
+
+Any new tool or practice initially makes you less productive, so if you're up
+against a deadline (as you almost always will be), the safest course of action
+is often to keep doing things the "wrong" way because there isn't time to learn
+how to do it more efficiently.  This is why I think that lab exams should be
+part of project courses, i.e., that you should be required to demonstrate to
+your instructor that you're able to use a build manager or a debugger.  People
+learn how to use version control because they're required to in order to submit
+work for grading; if you are required to submit a screen recording of you using
+particular tools as part of an assignment, it will help you in the long run.
+</blockquote>

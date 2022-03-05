@@ -154,17 +154,19 @@ tech. Others protest, but those who do are often dismissed as being "difficult"
 ([% x important %]). Many take a third path and decide to leave
 programming---after all, why play a game that's unfair?
 
-> ### In the beginning
->
-> [% i "history of computing" %]Programming[% /i %] was originally considered a
-> female occupation, but as it became more lucrative it came to be viewed as
-> "naturally" male.  [% b Abbate2012 %] and [% b Ensmenger2012 %]
-> describe how this happened, while [% b Hicks2018 %] looks at how Britain
-> lost its early dominance in computing by systematically discriminating against
-> its most qualified workers: women.  Some men become quite uncomfortable whenever
-> this is brought up, but we need to learn how to discuss our own history if we
-> want to be able to think clearly about how the things we're doing today might
-> change society tomorrow.
+<blockquote markdown="1">
+### In the beginning
+
+[% i "history of computing" %]Programming[% /i %] was originally considered a
+female occupation, but as it became more lucrative it came to be viewed as
+"naturally" male.  [% b Abbate2012 %] and [% b Ensmenger2012 %]
+describe how this happened, while [% b Hicks2018 %] looks at how Britain
+lost its early dominance in computing by systematically discriminating against
+its most qualified workers: women.  Some men become quite uncomfortable whenever
+this is brought up, but we need to learn how to discuss our own history if we
+want to be able to think clearly about how the things we're doing today might
+change society tomorrow.
+</blockquote>
 
 ## Division of Labor
 
@@ -207,16 +209,18 @@ reinforce existing inequities; it also tends to lower the team's overall grade,
 since there's often little relationship between how outspoken people are and how
 well they work.
 
-> ### The [% i "Dunning-Kruger effect" %]Dunning-Kruger effect[% /i %]
->
-> [% b Kruger1999 %] reported that people who know a subject well can usually
-> estimate their knowledge accurately, but people who don't will often
-> overestimate their competence because they don't know what they don't know.
-> More recent work has cast doubt on this finding: it could simply be an artifact
-> of the way the original researchers did their statistics [% b Jarry2020 %].
-> Either way, you should never trust self-reported expertise, as there's no easy
-> way to tell if someone really knows what they're talking about or if what
-> they're actually reporting is their self-esteem.
+<blockquote markdown="1">
+### The [% i "Dunning-Kruger effect" %]Dunning-Kruger effect[% /i %]
+
+[% b Kruger1999 %] reported that people who know a subject well can usually
+estimate their knowledge accurately, but people who don't will often
+overestimate their competence because they don't know what they don't know.
+More recent work has cast doubt on this finding: it could simply be an artifact
+of the way the original researchers did their statistics [% b Jarry2020 %].
+Either way, you should never trust self-reported expertise, as there's no easy
+way to tell if someone really knows what they're talking about or if what
+they're actually reporting is their self-esteem.
+</blockquote>
 
 [% i "feature decomposition" "allocating work!feature decomposition" %][% g feature_decomposition %]Feature decomposition[% /g %][% /i %] is a variation on
 modular decomposition that works well in practice. Instead of owning an entire
@@ -244,12 +248,14 @@ chaos under pressure, so it's important to establish rules early and stick to
 them when the going is easy so that the instinct to do the right thing will be
 there when you need it.
 
-> ### Clarity
->
-> No matter how you allocate work, make sure that everyone understands who is
-> doing what, when. As [% b Barke2019 %] found, actual roles can be fluid;
-> what matters most is that team members understand and accept their
-> responsibilities and everyone else's at any particular moment.
+<blockquote markdown="1">
+### Clarity
+
+No matter how you allocate work, make sure that everyone understands who is
+doing what, when. As [% b Barke2019 %] found, actual roles can be fluid;
+what matters most is that team members understand and accept their
+responsibilities and everyone else's at any particular moment.
+</blockquote>
 
 ## Team Contracts
 
@@ -305,16 +311,18 @@ Drawing up a contract also prevents later disagreements about who actually
 promised or agreed to what. As with meetings, people often remember things
 differently; having a signed record is everyone's second-best defense.
 
-> ### Who's it for?
->
-> I still don't know if teams should have to give copies of their contracts to
-> their instructors or not. On the one hand, it's a great way to let your
-> instructor know how you're planning to operate, and what you're planning to
-> achieve. Given that she probably has a lot more experience than you, it gives
-> her a chance to tell you if you've forgotten anything or that your teammate's
-> really cool idea is unlikely to work in practice. On the other hand, as soon as
-> something has to be handed in, some students will write what they think the
-> instructor wants to read, rather than what they actually think.
+<blockquote markdown="1">
+### Who's it for?
+
+I still don't know if teams should have to give copies of their contracts to
+their instructors or not. On the one hand, it's a great way to let your
+instructor know how you're planning to operate, and what you're planning to
+achieve. Given that she probably has a lot more experience than you, it gives
+her a chance to tell you if you've forgotten anything or that your teammate's
+really cool idea is unlikely to work in practice. On the other hand, as soon as
+something has to be handed in, some students will write what they think the
+instructor wants to read, rather than what they actually think.
+</blockquote>
 
 Most software development teams in industry and open source don't bother with
 contracts like these. There may be corporate guidelines on good citizenship, or

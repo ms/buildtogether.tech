@@ -17,7 +17,8 @@ lab notebook, kept in a text file on your laptop, or in your head; wherever and
 however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
-At its simplest, an [% i "issue tracker" "issue" %][% g issue_tracker %]issue tracker[% /g %][% /i %] is a shared to-do list. Issue tracking systems are also called
+At its simplest, an [% i "issue tracker" "issue" %][% g issue_tracker %]issue tracker[% /g %][% /i %]
+is a shared to-do list. Issue tracking systems are also called
 [% i "ticketing system" %]ticketing systems[% /i %] and [% i "bug
 tracker" %]bug trackers[% /i %] because most software projects use them to keep
 track of the bugs that developers and users find. These days, issue trackers are
@@ -105,12 +106,14 @@ filing an issue, they will often solve their own problem along the way.  We'll
 talk more about the value of minimal reproducible examples in
 [% x debugging %].
 
-> ### When to start saying "no"
->
-> As we will see in [% x process %], one purpose of a schedule is to tell you
-> when to start cutting corners. Similarly, one of the main reasons to keep
-> [% i "issue tracker!helping triage" "triage!using issue tracker" %]issues[% /i %] in
-> one place is to help you prioritize work when time starts to run short.
+<blockquote markdown="1">
+### When to start saying "no"
+
+As we will see in [% x process %], one purpose of a schedule is to tell you
+when to start cutting corners. Similarly, one of the main reasons to keep
+[% i "issue tracker!helping triage" "triage!using issue tracker" %]issues[% /i %] in
+one place is to help you prioritize work when time starts to run short.
+</blockquote>
 
 ## Labeling Issues
 
@@ -212,15 +215,17 @@ searching. The second point is as important as the first: if you can't go back
 and find out what was said a month ago---or, just as importantly, if someone
 *else* can't do that---you might as well not have said it.
 
-> ### Filters are your friend
->
-> Every email client allows you to set up
-> [% i "email!filters" %][% g "mail_filter" %]filters[% /g %][% /i %]
-> that automatically flag messages matching
-> certain patterns or file them in particular mailboxes. I have fourteen of these
-> set up right now to organize messages belonging to particular projects; it only
-> took a couple of minutes, and it means that when I check mail in the morning or
-> after lunch, everything is set up for me to focus on one topic at a time.
+<blockquote markdown="1">
+### Filters are your friend
+
+Every email client allows you to set up
+[% i "email!filters" %][% g "mail_filter" %]filters[% /g %][% /i %]
+that automatically flag messages matching
+certain patterns or file them in particular mailboxes. I have fourteen of these
+set up right now to organize messages belonging to particular projects; it only
+took a couple of minutes, and it means that when I check mail in the morning or
+after lunch, everything is set up for me to focus on one topic at a time.
+</blockquote>
 
 [% i "software portal!communication tools" %]Software portals[% /i %] provide
 many other ways to communicate, which project members use in a wide variety of
@@ -249,28 +254,30 @@ If you are going to create a blog, use a [% i "static site generator" %][% g sta
 content consistently.  On GitHub, for example, you can create a site with [% i "GitHub Pages" %][GitHub Pages][github-pages][% /i %] using a tool called [% i "Jekyll" "static site generator!Jekyll" %][Jekyll][jekyll][% /i %]; lots of
 different themes are available, and there are many good tutorials online.
 
-> ### Comments as communication
->
-> People don't usually think of [% i "comments!as communication" "communication!comments" %]comments[% /i %]
-> as a form of communication like email or
-> instant messaging, but if they are used properly, the only significant
-> difference is that the comments are right there in the code where the recipients
-> can't miss them rather than in an archive somewhere that they'll have to go and
-> search.  If you choose names for functions and variables carefully, the code
-> itself will explain what it's doing when someone reads it aloud; the comments
-> should therefore explain *why*, just as you would in an email.  For example,
-> this is not a useful comment:
->
-> ```py
-> x = x[1:] # take all but first element of list
-> ```
->
-> <!-- continue -->
-> This, on the other hand, tells the next person why we're doing it:
->
-> ```py
-> threads = threads[1:] # We are already running the first thread, so save the others.
-> ```
+<blockquote markdown="1">
+### Comments as communication
+
+People don't usually think of [% i "comments!as communication" "communication!comments" %]comments[% /i %]
+as a form of communication like email or
+instant messaging, but if they are used properly, the only significant
+difference is that the comments are right there in the code where the recipients
+can't miss them rather than in an archive somewhere that they'll have to go and
+search.  If you choose names for functions and variables carefully, the code
+itself will explain what it's doing when someone reads it aloud; the comments
+should therefore explain *why*, just as you would in an email.  For example,
+this is not a useful comment:
+
+```py
+x = x[1:] # take all but first element of list
+```
+
+<!-- continue -->
+This, on the other hand, tells the next person why we're doing it:
+
+```py
+threads = threads[1:] # We are already running the first thread, so save the others.
+```
+</blockquote>
 
 ## Reporting Up
 

@@ -215,3 +215,36 @@ ul.indexlist {
     padding: 0;
     margin: 0;
 }
+
+/* Code blocks */
+.language-html {
+    background-color: #b2cce0;
+}
+
+.language-js {
+    background-color: #cce0b2;
+}
+
+.language-make {
+    background-color: #cce0b2;
+}
+
+.language-out {
+    background-color: #eed7a8;
+}
+
+.language-py {
+    background-color: #cce0b2;
+}
+
+.language-sh {
+    background-color: #cce0ff;
+}
+
+.language-txt {
+    background-color: #b2cce0;
+}
+
+.language-yml {
+    background-color: #b2cce0;
+}

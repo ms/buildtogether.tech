@@ -36,27 +36,29 @@ don't have to be as afraid of it.  And if people believe that we will take steps
 when they lie, bully, procrastinate, or do a half-assed job, they will often
 avoid making it necessary.
 
-> ### A few bad apples
->
-> An internal study at Facebook in 2021 found that [just over 100 people were the
-> source of almost half of harmful disinformation about COVID-19
-> vaccination][wapost-facebook-vaccine]. Similarly, one of the designers of the
-> game *Ultima Online* [reported][ultima-online-players], "…we asked players what
-> percentage of the player base were degenerate player killers.  Players responded
-> with 10%.  The metrics told us the answer was closer to 0.1%." These findings
-> and many others tell us that [% i "toxic people!rarity of" %]a small number of
-> people[% /i %] cause a disproportionate amount of grief in our communities
-> (online and otherwise), and that they seem much more common than they are
-> because incidents of abuse and conflict loom large in our memories.
->
-> The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
-> when a real disaster strikes, most people actually rise to the occasion. As
-> [% b Solnit2010 %] describes, [% i "toxic people!misperception
-> of" %]neighbors don't turn on each other[% /i %] in the aftermath of an earthquake
-> or a hurricane---instead, they are more likely to look out for each other than
-> under normal circumstances. That doesn't make for exciting viewing, though, and
-> the powerful have always wanted the rest of us to believe that the only
-> alternative to their rule is chaos.
+<blockquote markdown="1">
+### A few bad apples
+
+An internal study at Facebook in 2021 found that [just over 100 people were the
+source of almost half of harmful disinformation about COVID-19
+vaccination][wapost-facebook-vaccine]. Similarly, one of the designers of the
+game *Ultima Online* [reported][ultima-online-players], "…we asked players what
+percentage of the player base were degenerate player killers.  Players responded
+with 10%.  The metrics told us the answer was closer to 0.1%." These findings
+and many others tell us that [% i "toxic people!rarity of" %]a small number of
+people[% /i %] cause a disproportionate amount of grief in our communities
+(online and otherwise), and that they seem much more common than they are
+because incidents of abuse and conflict loom large in our memories.
+
+The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
+when a real disaster strikes, most people actually rise to the occasion. As
+[% b Solnit2010 %] describes, [% i "toxic people!misperception
+of" %]neighbors don't turn on each other[% /i %] in the aftermath of an earthquake
+or a hurricane---instead, they are more likely to look out for each other than
+under normal circumstances. That doesn't make for exciting viewing, though, and
+the powerful have always wanted the rest of us to believe that the only
+alternative to their rule is chaos.
+</blockquote>
 
 ## What to Do
 
@@ -130,16 +132,18 @@ also defuse a lot of tension, since explaining your position back to you clearly
 forces the other person to see the world through your eyes, if only for a few
 moments.
 
-> ### Hitchhikers
->
-> [% i "hitchhiker" %][% g hitchhiker %]Hitchhikers[% /g %][% /i %] who show up but never
-> actually do anything are particularly difficult to manage, in part because they
-> are usually very good at appearing reasonable.  They will nod as you present our
-> case, then say, "Well, yes, but…" and list a bunch of minor exceptions or cases
-> where others on the team have also fallen short of expectations.  Tracking
-> progress and contributions is essential for handling them.  If you can't back up
-> your complaint, the instructor may be left with the impression that the whole
-> team is dysfunctional.
+<blockquote markdown="1">
+### Hitchhikers
+
+[% i "hitchhiker" %][% g hitchhiker %]Hitchhikers[% /g %][% /i %] who show up but never
+actually do anything are particularly difficult to manage, in part because they
+are usually very good at appearing reasonable.  They will nod as you present our
+case, then say, "Well, yes, but…" and list a bunch of minor exceptions or cases
+where others on the team have also fallen short of expectations.  Tracking
+progress and contributions is essential for handling them.  If you can't back up
+your complaint, the instructor may be left with the impression that the whole
+team is dysfunctional.
+</blockquote>
 
 Finally, it's important to recognize that good principles sometimes conflict
 [% b Berlin2000 %].  For example, suppose that a student has a medically
@@ -196,11 +200,13 @@ one takes time that could be invested in earning a higher grade.  In practice,
 therefore, teams will usually stick together if they see that troublemakers are
 actually being dealt with.
 
-> ### Who gets to keep the cat?
->
-> If the instructor allows or requires teams to re-form partway through the
-> project, they should explain at the start of the course what will happen to the
-> work the team has done up to that point. Can each member of the team that is
-> dissolving use everything the whole team has built up to that point? Do they
-> have to re-start with whatever has been written by the teams they are joining?
-> Knowing this in advance helps everyone decide whether breaking up is worth it.
+<blockquote markdown="1">
+### Who gets to keep the cat?
+
+If the instructor allows or requires teams to re-form partway through the
+project, they should explain at the start of the course what will happen to the
+work the team has done up to that point. Can each member of the team that is
+dissolving use everything the whole team has built up to that point? Do they
+have to re-start with whatever has been written by the teams they are joining?
+Knowing this in advance helps everyone decide whether breaking up is worth it.
+</blockquote>

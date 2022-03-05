@@ -21,15 +21,17 @@ security breaches are a result of poor design and rather than Hollywood-style
 hacking.  If we think about the threats people actually face, we can build
 systems that are safer to use [% b Smalls2021 %].
 
-> ### Privacy is a right
->
-> Software doesn't just need to be secure to prevent fraud: it is also an
-> essential to protecting your [right to privacy][privacy-right], which is
-> guaranteed by the [Universal Declaration of Human Rights][udhr].  There are many
-> situations in which governments and law enforcement agencies have legitimate
-> reasons to violate that right, but we have learned the hard way that the more
-> access we give them, the more likely that access is to be abused, both by them
-> and by others.
+<blockquote markdown="1">
+### Privacy is a right
+
+Software doesn't just need to be secure to prevent fraud: it is also an
+essential to protecting your [right to privacy][privacy-right], which is
+guaranteed by the [Universal Declaration of Human Rights][udhr].  There are many
+situations in which governments and law enforcement agencies have legitimate
+reasons to violate that right, but we have learned the hard way that the more
+access we give them, the more likely that access is to be abused, both by them
+and by others.
+</blockquote>
 
 ## Threat Models
 
@@ -119,14 +121,16 @@ words long and hard to forget).  Doing this does create a single point of
 attack, but is still safer than choosing passwords yourself.  In addition,
 password managers aren't fooled by sites with names like `paypaI.com`.
 
-> ### I know how to do that
->
-> Writing passwords down and keeping them in your wallet is not necessarily a bad
-> practice---it depends on who is doing it. For example, an elderly person who
-> finds tech confusing might well choose simple, easy-to-guess passwords for their
-> accounts if they have to be remembered. On the other hand, they have a lifetime
-> of practice keeping track of bits of paper, and will probably notice if their
-> purse or wallet is stolen.
+<blockquote markdown="1">
+### I know how to do that
+
+Writing passwords down and keeping them in your wallet is not necessarily a bad
+practice---it depends on who is doing it. For example, an elderly person who
+finds tech confusing might well choose simple, easy-to-guess passwords for their
+accounts if they have to be remembered. On the other hand, they have a lifetime
+of practice keeping track of bits of paper, and will probably notice if their
+purse or wallet is stolen.
+</blockquote>
 
 Passwords are just one form of [% i "authentication" %]authentication[% /i %].
 In general, proving your identity relies on something you know (like a
@@ -188,23 +192,25 @@ And when you go to a web site, check the real domain name in the URL:
 it pretends to be, and `wwwpaypal.com` is a different domain than
 `www.paypal.com`.
 
-> ### Trained to do the wrong thing
->
-> Many sites send an email with a random URL to confirm your identity when you are
-> resetting your password. On the one hand, this means that an attacker has to get
-> access to your email in order to break into your account. On the other hand,
-> random URLs are hard to type in, so these emails encourage us to click on links
-> in emails. If you are not expecting a password reset email, *don't click on the
-> link*, even if it includes your name or other details:
-> [% i "spearphishing" %][% g spearphishing %]spearphishing[% /g %][% /i %] uses data harvested
-> from previous victims to attack specific targets.
->
-> Similarly, if someone from your bank calls you up and asks for information to
-> confirm your identity, you should ask *them* for information to confirm theirs,
-> such as, "What were the dates of my last two transactions?"  If they say they're
-> unable to answer because that's another department, end the conversation and
-> then call your bank directly to either complete the operation or report the
-> attack.
+<blockquote markdown="1">
+### Trained to do the wrong thing
+
+Many sites send an email with a random URL to confirm your identity when you are
+resetting your password. On the one hand, this means that an attacker has to get
+access to your email in order to break into your account. On the other hand,
+random URLs are hard to type in, so these emails encourage us to click on links
+in emails. If you are not expecting a password reset email, *don't click on the
+link*, even if it includes your name or other details:
+[% i "spearphishing" %][% g spearphishing %]spearphishing[% /g %][% /i %] uses data harvested
+from previous victims to attack specific targets.
+
+Similarly, if someone from your bank calls you up and asks for information to
+confirm your identity, you should ask *them* for information to confirm theirs,
+such as, "What were the dates of my last two transactions?"  If they say they're
+unable to answer because that's another department, end the conversation and
+then call your bank directly to either complete the operation or report the
+attack.
+</blockquote>
 
 How can you support these safety rules with software?
 
@@ -286,16 +292,18 @@ two needs: legislation like the EU's [% i "General Data Protection Regulation
 (GDPR)" %][General Data Protection Regulation][gdpr][% /i %] (GDPR) includes a
 [right to be forgotten][gdpr-forgotten].
 
-> ### When you travel
->
-> Many experts recommend using separate devices or accounts for work and personal
-> life, but this is unrealistic for most people: everyone checks their personal
-> email from their work device eventually, and everyone uses their personal phone
-> for 2FA. However, you should consider getting a second phone for international
-> travel: the legalities around who can take your devices and/or force you to
-> unlock them are complicated and frequently overstepped, so you should assume
-> that anything on or connected to the devices you are traveling with will be
-> compromised.
+<blockquote markdown="1">
+### When you travel
+
+Many experts recommend using separate devices or accounts for work and personal
+life, but this is unrealistic for most people: everyone checks their personal
+email from their work device eventually, and everyone uses their personal phone
+for 2FA. However, you should consider getting a second phone for international
+travel: the legalities around who can take your devices and/or force you to
+unlock them are complicated and frequently overstepped, so you should assume
+that anything on or connected to the devices you are traveling with will be
+compromised.
+</blockquote>
 
 ## Fighting Back
 

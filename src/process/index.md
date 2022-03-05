@@ -11,15 +11,17 @@ between them are smaller in practice than in theory.  This chapter therefore
 starts by describing how most programmers work day-to-day and how to adapt that
 routine to the chaos of student life.
 
-> ### Paying attention matters most
->
-> I am sceptical of most claims made about processes, partly because teams that
-> adopt diametrically opposed processes all see productivity improve.  One
-> explanation is that common practice is the worst of all possible worlds, and any
-> change at all would be an improvement.  (There are days when I believe this.)  A
-> more likely explanation is that what really matters is paying attention to what
-> you're doing.  It's kind of like dieting: Atkins, macrobiotic, seasonal, or
-> fruitarian is secondary to eating better and exercising more.
+<blockquote markdown="1">
+### Paying attention matters most
+
+I am sceptical of most claims made about processes, partly because teams that
+adopt diametrically opposed processes all see productivity improve.  One
+explanation is that common practice is the worst of all possible worlds, and any
+change at all would be an improvement.  (There are days when I believe this.)  A
+more likely explanation is that what really matters is paying attention to what
+you're doing.  It's kind of like dieting: Atkins, macrobiotic, seasonal, or
+fruitarian is secondary to eating better and exercising more.
+</blockquote>
 
 ## Process as Feedback Loops
 
@@ -214,21 +216,23 @@ short iterations and frequent feedback from both developers and customers.
 [% b Masood2018 %] and many others have found it to be effective for
 student projects; we will look at one form called [% i "Scrum" %][% g scrum %]Scrum[% /g %][% /i %].
 
-> ### Right place, right time
->
-> Agile development practices are almost as old as programming, but they came into
-> their own with the rise of the web in the late 1990s.  First, the web made it
-> possible to release software weekly, daily, or even hourly, since updating a
-> server is a lot faster, and a lot less expensive, than shipping CDs to thousands
-> of people. Second, during the 1990s and early 2000s it seemed as if web
-> programming tools were changing every single day. Multi-year development plans
-> didn't make a lot of sense when everything they depended on would be obsolete by
-> the time work started, much less by the time it finished.
->
-> Third, the growth of the web was aided by, and fuelled, the growth of the open
-> source movement. People couldn't help noticing that most open source projects
-> didn't have long-range plans, but nevertheless produced high-quality software
-> faster than many closed-source commercial projects.
+<blockquote markdown="1">
+### Right place, right time
+
+Agile development practices are almost as old as programming, but they came into
+their own with the rise of the web in the late 1990s.  First, the web made it
+possible to release software weekly, daily, or even hourly, since updating a
+server is a lot faster, and a lot less expensive, than shipping CDs to thousands
+of people. Second, during the 1990s and early 2000s it seemed as if web
+programming tools were changing every single day. Multi-year development plans
+didn't make a lot of sense when everything they depended on would be obsolete by
+the time work started, much less by the time it finished.
+
+Third, the growth of the web was aided by, and fuelled, the growth of the open
+source movement. People couldn't help noticing that most open source projects
+didn't have long-range plans, but nevertheless produced high-quality software
+faster than many closed-source commercial projects.
+</blockquote>
 
 Scrum breaks development down into short [% i "sprint" %][% g sprint %]sprints[% /g %][% /i %], typically no more than two weeks long, and sometimes
 as short as a single day.  In each sprint, the team decides what to build next,

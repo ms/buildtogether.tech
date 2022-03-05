@@ -30,7 +30,9 @@ Git repository in one of two ways [<a href="../bibliography/#Irving2021">Irving2
 </li>
 <li>
 <p>Everyone can read from the project's main repository, but only a few people
-    can commit changes to it.  The project's other contributors <span class="indexref" key="version control!using forked repositories" markdown="1"><a class="glossref" href="../glossary/#fork_git" markdown="1">fork</a></span> the main repository to create one that they own,
+    can commit changes to it.  The project's other contributors
+    <span class="indexref" key="version control!using forked repositories" markdown="1"><a class="glossref" href="../glossary/#fork_git" markdown="1">fork</a></span>
+    the main repository to create one that they own,
     do their work in that, and then submit their changes to the main repository.</p>
 </li>
 </ol>
@@ -59,26 +61,26 @@ work on homework 5.</p>
 working directory (initially <code>~</code>, meaning "home directory") to make it easier to
 follow what's happening.  First, she updates her desktop repository to make sure
 she is starting with the most recent set of files:</p>
-<pre><code class="language-sh">amira:~ $ cd bst
+<pre class="language-sh"><code class="language-sh">amira:~ $ cd bst
 amira:~/bst $ git pull origin main
 amira:~/bst $ ls
 </code></pre>
-<pre><code class="language-out">LICENSE.md   README.md    hw1/    hw2/    hw3/    hw4/
+<pre class="language-out"><code class="language-out">LICENSE.md   README.md    hw1/    hw2/    hw3/    hw4/
 </code></pre>
 <p>Amira creates a new directory for homework 5 and adds a copy of the assignment spec:</p>
-<pre><code class="language-sh">amira:~/bst $ mkdir hw5
+<pre class="language-sh"><code class="language-sh">amira:~/bst $ mkdir hw5
 amira:~/bst $ cd hw5
 amira:~/bst $ cp ~/Downloads/Assignment5.txt hw5/spec.txt
 amira:~/bst $ git add .
 amira:~/bst $ git commit -m &quot;Adding homework 5 spec&quot;
 </code></pre>
-<pre><code class="language-out">[main f5f7d30] Adding homework 5 spec
+<pre class="language-out"><code class="language-out">[main f5f7d30] Adding homework 5 spec
  1 files changed, 132 insertions(+)
 </code></pre>
 <p>She then pushes her changes to the shared repository:</p>
-<pre><code class="language-sh">amira:~/bst $ git push origin main
+<pre class="language-sh"><code class="language-sh">amira:~/bst $ git push origin main
 </code></pre>
-<pre><code class="language-out">Enumerating objects: 7, done.
+<pre class="language-out"><code class="language-out">Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 4 threads
 Compressing objects: 100% (3/3), done.
@@ -94,7 +96,7 @@ output</span> here isn't particularly useful to anyone except people who are
 debugging Git's internals.</p>
 <p>Amira's changes are now on her desktop computer and in the GitHub repository but
 not on Sami's laptop. They can get them by running:</p>
-<pre><code class="language-sh">sami:~/bst $ git pull origin main
+<pre class="language-sh"><code class="language-sh">sami:~/bst $ git pull origin main
 </code></pre>
 <p>But what if Sami is working on some changes to homework 4 (which homework 5
 builds on)? She could just make her changes and push, but that would lead to a
@@ -113,11 +115,11 @@ through several rounds of review and revision before being merged, which makes
 PRs the review system we all wish journals actually had.</p>
 <p>To see this in action, suppose Sami wants to add their email address to
 <code>README.md</code>.  They create a new branch and switch to it:</p>
-<pre><code class="language-sh">sami:~/bst $ git checkout -b adding-email
+<pre class="language-sh"><code class="language-sh">sami:~/bst $ git checkout -b adding-email
 </code></pre>
 <!-- continue -->
 <p>then make a change and commit it:</p>
-<pre><code class="language-sh">sami:~/bst $ git commit -a -m &quot;Adding my email address&quot;
+<pre class="language-sh"><code class="language-sh">sami:~/bst $ git commit -a -m &quot;Adding my email address&quot;
 </code></pre>
 <!-- continue -->
 <p>(Notice that Sami uses the <code>-a</code> option to <code>git commit</code> to add all changes and
@@ -125,7 +127,7 @@ commit them in a single step. This is both convenient and dangerous.)</p>
 <p>Sami's changes are only in their local repository.  They cannot create a pull
 request until those changes are on GitHub, so they push their new branch to
 their repository on GitHub:</p>
-<pre><code class="language-sh">sami:~/bst $ git push origin adding-email
+<pre class="language-sh"><code class="language-sh">sami:~/bst $ git push origin adding-email
 </code></pre>
 <p>When Sami views their repository in the browser, GitHub notices that they have
 just pushed a new branch and asks them if they want to create a PR.  When they
@@ -171,7 +173,7 @@ message" markdown="1">commit message</span>" turns up several thousand articles.
 variations on the sample shown below; as with programming style
 (<a href="../research/">Chapter 22</a>), the most important thing is being consistent rather than the
 particular rules you follow.</p>
-<pre><code class="language-txt">One-line summary
+<pre class="language-txt"><code class="language-txt">One-line summary
 
 Detailed explanatory text separated from the summary by a blank line.  (If you
 do this, many tools will treat the first line like the subject of an email and
@@ -301,7 +303,7 @@ doing it.</dd>
 <p>So what does a code review actually look like? Here's a Python program that
 searches for duplicated files. <a class="tblref" href="../git-team/#collaborate-code-review">Table 8.1</a> shows the
 comments I left when reviewing it.</p>
-<pre><code class="language-py">#!/usr/bin/env python                                       # 01
+<pre class="language-py"><code class="language-py">#!/usr/bin/env python                                       # 01
 # 02
 import hashlib  # 05
 import os  # 04

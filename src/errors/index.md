@@ -15,10 +15,12 @@ therefore plan from the start to detect and handle errors.
 
 ## Handling Errors
 
-[% i "internal error" "error!internal" %][% g internal_error %]Internal errors[% /g %][% /i %], are mistakes in the program itself, such as calling a function
-with `None` instead of a list.  [% i "external error" "error!external" %][% g external_error %]External errors[% /g %][% /i %] are usually caused by interactions
-between the program and the outside world: a user may mis-type a filename, the
-network might be down, and so on.
+[% i "internal error" "error!internal" %][% g internal_error %]Internal errors[% /g %][% /i %]
+are mistakes in the program itself,
+such as calling a function with `None` instead of a list.
+[% i "external error" "error!external" %][% g external_error %]External errors[% /g %][% /i %]
+are usually caused by interactions between the program and the outside world:
+a user may mis-type a filename, the network might be down, and so on.
 
 When an internal error occurs, the only thing we can do in most cases is report
 it and halt the program.  If a function has been passed `None` instead of a
@@ -115,22 +117,24 @@ program to catch and report all errors.  This also makes libraries more
 reusable: different applications will want to handle errors in different ways,
 so the library should just report the problem.
 
-> ### Kinds of errors
->
-> The "`if` then `raise`" approach is sometimes referred to as, "Look before you
-> leap," while the `try/except` approach is, "It's easier to ask for forgiveness
-> than permission."  The first approach is more precise, but has the shortcoming
-> that programmers can't anticipate everything that can go wrong when running a
-> program, so there should always be an `except` somewhere to deal with unexpected
-> cases.
->
-> The one rule we should *always* follow is to check for errors
-> [% i "exception!when to check" %]as early as possible[% /i %] so that we don't waste
-> the user's time.  Few things are as frustrating as being told at the end of an
-> hour-long calculation that the program doesn't have permission to write to an
-> output directory.  It's a little extra work to check things like this up front,
-> but the larger your program or the longer it runs, the more useful those checks
-> will be.
+<blockquote markdown="1">
+### Kinds of errors
+
+The "`if` then `raise`" approach is sometimes referred to as, "Look before you
+leap," while the `try/except` approach is, "It's easier to ask for forgiveness
+than permission."  The first approach is more precise, but has the shortcoming
+that programmers can't anticipate everything that can go wrong when running a
+program, so there should always be an `except` somewhere to deal with unexpected
+cases.
+
+The one rule we should *always* follow is to check for errors
+[% i "exception!when to check" %]as early as possible[% /i %] so that we don't waste
+the user's time.  Few things are as frustrating as being told at the end of an
+hour-long calculation that the program doesn't have permission to write to an
+output directory.  It's a little extra work to check things like this up front,
+but the larger your program or the longer it runs, the more useful those checks
+will be.
+</blockquote>
 
 ## Defensive Programming
 
@@ -373,13 +377,15 @@ error or not: if you leave logging turned on every time you run it, then
 whenever it does something unexpected (like crashing), you will have at least
 some idea of what it was doing beforehand.
 
-> ### Logging for security
->
-> One of the recommendations in [% x security %] was to [% i "logging!for
-> security" %]log actions[% /i %] to help you find suspicious activity.  When you do
-> this, make sure the log records who, what, and when; in particular, make sure
-> you have a record of every time permissions were changed or new accounts were
-> created.
+<blockquote markdown="1">
+### Logging for security
+
+One of the recommendations in [% x security %] was to [% i "logging!for
+security" %]log actions[% /i %] to help you find suspicious activity.  When you do
+this, make sure the log records who, what, and when; in particular, make sure
+you have a record of every time permissions were changed or new accounts were
+created.
+</blockquote>
 
 Most logging libraries also support [% i "logging!rotating files" %][% g rotating_file %]rotating files[% /g %][% /i %], i.e., they will write to `log.1` on the first day,
 `log.2` on the second day, and so on until they reach (for example) `log.7`,
@@ -388,14 +394,16 @@ programs are usually set up to do this so that they don't fill up the disk with
 log information.  It's all straightforward to set up, and once it's in place, it
 gives you a lot more insight into what your program is actually doing.
 
-> ### Parsers as a sign of bad design
->
-> You will sometimes inspect logs yourself, but you will also frequently want to
-> search them for patterns. All of the logs you produce should therefore be in a
-> [% i "logging!output format" %]machine-readable format[% /i %] like CSV, JSON,
-> or [% g yaml %]YAML[% /g %]; you can easily write a small program to
-> pretty-print the data you want for manual inspection.
->
-> This guideline is one instance of a more general design rule.  The world has
-> more data formats than it needs, so if anyone has to write a parser to analyze
-> what your program produces, you should probably be producing something else.
+<blockquote markdown="1">
+### Parsers as a sign of bad design
+
+You will sometimes inspect logs yourself, but you will also frequently want to
+search them for patterns. All of the logs you produce should therefore be in a
+[% i "logging!output format" %]machine-readable format[% /i %] like CSV, JSON,
+or [% g yaml %]YAML[% /g %]; you can easily write a small program to
+pretty-print the data you want for manual inspection.
+
+This guideline is one instance of a more general design rule.  The world has
+more data formats than it needs, so if anyone has to write a parser to analyze
+what your program produces, you should probably be producing something else.
+</blockquote>

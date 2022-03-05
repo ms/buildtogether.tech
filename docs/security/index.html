@@ -399,7 +399,7 @@ that here, but it wouldn't feel right to wrap up this chapter without showing
 you at least one software exploit that's unfortunately still quite common.</p>
 <p>Suppose your application lets the user type in their ID, then uses that to look
 up their account details in a database:</p>
-<pre><code class="language-py">def get_account(database_connection):
+<pre class="language-py"><code class="language-py">def get_account(database_connection):
     username = input('Username:')
     query = 'select * from User where username=&quot;{}&quot;;'.format(username)
     result = database_connection.run(query)
@@ -407,11 +407,11 @@ up their account details in a database:</p>
 </code></pre>
 <p>It's simple, and the programmer has even remembered to wrap the username in
 quotes. But suppose a malicious user enters this as their username:</p>
-<pre><code class="language-txt">&quot;; drop table User; select &quot;
+<pre class="language-txt"><code class="language-txt">&quot;; drop table User; select &quot;
 </code></pre>
 <!-- continue -->
 <p>Once this is inserted, the query becomes:</p>
-<pre><code class="language-py">select * from User where username=&quot;&quot;; drop table User; select &quot;&quot;;'
+<pre class="language-py"><code class="language-py">select * from User where username=&quot;&quot;; drop table User; select &quot;&quot;;'
 </code></pre>
 <!-- continue -->
 <p>which looks up a user without a name, erases all of the data in the <code>User</code>
@@ -420,7 +420,7 @@ table, and then returns an empty string (the final <code>select</code>).  This i
 and with a few modifications, it can be used to <span class="indexref" key="exfiltrate" markdown="1">exfiltrate</span> data rather than delete it.</p>
 <p>You defend against this by always <span class="indexref" key="sanitizing data" markdown="1"><a class="glossref" href="../glossary/#sanitizing_data" markdown="1">sanitizing user input</a></span> before using it. In this case, the query can
 be written as:</p>
-<pre><code class="language-py">    query = 'select * from User where username=?;'
+<pre class="language-py"><code class="language-py">    query = 'select * from User where username=?;'
     result = database_connection.run(query, username)
 </code></pre>
 <!-- continue -->

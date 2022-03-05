@@ -168,7 +168,7 @@ changing the order of attributes within a tag, will break string comparison.</p>
 <p>A better strategy is to add unique IDs to significant elements in the HTML page,
 and only check the contents of those elements. For example, if we're testing
 login, then somewhere on the page there ought to be an element like this:</p>
-<pre><code class="language-html">&lt;div id=&quot;currentuser&quot;&gt;Logged in as &lt;strong&gt;marian&lt;/strong&gt;
+<pre class="language-html"><code class="language-html">&lt;div id=&quot;currentuser&quot;&gt;Logged in as &lt;strong&gt;marian&lt;/strong&gt;
 (&lt;a href=&quot;http://www.example.org/logout&quot;&gt;logout&lt;/a&gt;
 |
 &lt;a href=&quot;http://www.example.org/preferences&quot;&gt;preferences&lt;/a&gt;)
@@ -203,7 +203,7 @@ and also makes tests much faster (since in-memory operations are thousands of
 times faster than operations that touch the disk).</p>
 <p>A mock object can also be designed to give pre-programmed responses to just a
 handful of specific requests:</p>
-<pre><code class="language-py">INDEX_PAGE = '&lt;html&gt;&lt;body&gt;&lt;h1&gt;Index Page&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;'
+<pre class="language-py"><code class="language-py">INDEX_PAGE = '&lt;html&gt;&lt;body&gt;&lt;h1&gt;Index Page&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;'
 USER_PAGE = '&lt;html&gt;&lt;body&gt;&lt;h1&gt;User Page&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;'
 
 def mock_http_server(url):
@@ -266,7 +266,7 @@ when the application is slowing down and do something about it.</p>
 <p>The simplest kind of <span class="indexref" key="performance testing!manual" markdown="1">performance
 testing</span> is simply to measure how much time elapses between the start and
 end of a test. You can do this manually:</p>
-<pre><code class="language-py">from datetime import datetime
+<pre class="language-py"><code class="language-py">from datetime import datetime
 
 def test_something():
     start = datetime.now()
@@ -315,13 +315,13 @@ your code aren't being tested?  To find out, you can check the <span class="inde
 possible paths through the code that the tests are actually exercising.</p>
 <p>If you are using Python, you can check your tests' coverage with the <code>coverage</code>
 library.  The command:</p>
-<pre><code class="language-sh">$ coverage run -m pytest
+<pre class="language-sh"><code class="language-sh">$ coverage run -m pytest
 </code></pre>
 <!-- continue -->
 <p>doesn't display any information of its own, since mixing that in with our
 program's output would be confusing.  Instead, it puts coverage data in a file
 called <code>.coverage</code> in the current directory.  To display that data, you run:</p>
-<pre><code class="language-sh">$ coverage report -m
+<pre class="language-sh"><code class="language-sh">$ coverage report -m
 </code></pre>
 <p>Its output shows you what percentage of your program was and wasn't executed.
 You can get a more complete report by running <code>coverage html</code> at the command

@@ -417,11 +417,13 @@ respond to violation.  [% b Aurora2018 %] describes how, and learning the
 basics is a good first step toward becoming an [% i "ally" %]ally[% /i %]
 ([% x fairness %]).
 
-> ### What they really mean
->
-> In the early 2010s a lot of open source developers resisted the adoption of
-> codes of conduct, saying that they were unnecessary or that that they infringed
-> freedom of speech.  What they usually meant (and what the few people still
-> arguing against them usually mean) is that thinking about how they have
-> benefited from past inequity makes them feel uncomfortable.  If having a Code of
-> Conduct makes them decide to go elsewhere, your project will be better off.
+<blockquote markdown="1">
+### What they really mean
+
+In the early 2010s a lot of open source developers resisted the adoption of
+codes of conduct, saying that they were unnecessary or that that they infringed
+freedom of speech.  What they usually meant (and what the few people still
+arguing against them usually mean) is that thinking about how they have
+benefited from past inequity makes them feel uncomfortable.  If having a Code of
+Conduct makes them decide to go elsewhere, your project will be better off.
+</blockquote>

@@ -127,21 +127,23 @@ Unfortunately, in-person workplaces are often no better: many are filled with
 small signs that make many people feel out of place [% b Cheryan2009 %].
 [% x fairness %] takes a closer look at these issues.
 
-> ### A cautionary tale
->
-> [% b Zeller2011 %] did what too many researchers in too many fields do on a
-> regular basis: throw some data at some machine learning algorithms and then
-> claim that whatever comes out the other end is significant. Luckily for us, they
-> did it on purpose to make a point.
->
-> They took data on code and errors for the Eclipse IDE and correlated the two to
-> find good predictors of bugs. Which sounds sensible---except they did the
-> correlation at the level of individual characters. It turns out that 'i', 'r',
-> 'o', and 'p' are most strongly correlated with errors. What is a sensible
-> researcher to do facing these findings? Take those letters out of the keyboard,
-> of course.  The authors then go over everything that's wrong with their
-> approach, from lack of theoretical grounding to dishonest use of
-> statistics. Before you read too much research, make sure to read this.
+<blockquote markdown="1">
+### A cautionary tale
+
+[% b Zeller2011 %] did what too many researchers in too many fields do on a
+regular basis: throw some data at some machine learning algorithms and then
+claim that whatever comes out the other end is significant. Luckily for us, they
+did it on purpose to make a point.
+
+They took data on code and errors for the Eclipse IDE and correlated the two to
+find good predictors of bugs. Which sounds sensible---except they did the
+correlation at the level of individual characters. It turns out that 'i', 'r',
+'o', and 'p' are most strongly correlated with errors. What is a sensible
+researcher to do facing these findings? Take those letters out of the keyboard,
+of course.  The authors then go over everything that's wrong with their
+approach, from lack of theoretical grounding to dishonest use of
+statistics. Before you read too much research, make sure to read this.
+</blockquote>
 
 ## Qualitative Methods
 
@@ -150,13 +152,15 @@ of a small number of cases to tease out common patterns.  Articles like
 [% b Sharp2016 %] do an excellent job of explaining how these methods work
 and what their strengths and limitations are.
 
-> ### Wish I knew then what I know now
->
-> My classes in engineering taught me to look down on anything that wasn't a
-> controlled laboratory experiment whose results could be neatly displayed in a
-> scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
-> that the "fuzzy" methods of the social sciences were just as rigorous when used
-> properly, and the only ones that could produce certain valuable insights.
+<blockquote markdown="1">
+### Wish I knew then what I know now
+
+My classes in engineering taught me to look down on anything that wasn't a
+controlled laboratory experiment whose results could be neatly displayed in a
+scatterplot or bar chart.  It wasn't until I was in my thirties that I accepted
+that the "fuzzy" methods of the social sciences were just as rigorous when used
+properly, and the only ones that could produce certain valuable insights.
+</blockquote>
 
 [% b Washburn2016 %] demonstrates the kinds of insights these methods can
 produce. They analyzed 155 postmortem reviews of game projects to identify

@@ -153,7 +153,8 @@ of systems built from lots of <span class="indexref" key="microservice" markdown
 
 <blockquote>
 <h3>UML and why not</h3>
-<p>I'm not a fan of the <span class="indexref" key="Unified Modeling Language" markdown="1"><a class="glossref" href="../glossary/#uml" markdown="1">Unified &gt; Modeling Language</a></span> (UML). It defines over a dozen different types of
+<p>I'm not a fan of the <span class="indexref" key="Unified Modeling Language" markdown="1"><a class="glossref" href="../glossary/#uml" markdown="1">Unified &gt; Modeling Language</a></span> (UML).
+It defines over a dozen different types of
 diagrams for showing the relationships between classes, the order in which
 things happen when methods are invoked, the states a system goes through when
 performing an action, and so on.  Hundreds of books and thousands of articles
@@ -275,7 +276,7 @@ modification.</p>
 <p>For example, suppose that we are simulating a hospital emergency room. We could
 write the function that simulates someone's response to a cardiac arrest like
 this:</p>
-<pre><code class="language-py">def handle_cardiac_arrest(all_actors):
+<pre class="language-py"><code class="language-py">def handle_cardiac_arrest(all_actors):
     for actor in all_actors:
         if actor.kind == 'nurse':
             ...do something...
@@ -292,7 +293,7 @@ another kind of event, we have to write another function <em>and</em> make sure 
 have an <code>if</code> or <code>elif</code> for kind of actor.</p>
 <p>A better design is to create a base class that defines a generic behavior for
 all actors:</p>
-<pre><code class="language-py">class Actor:
+<pre class="language-py"><code class="language-py">class Actor:
     def __init__(...):
         ...do generic setup...
     def handle_cardiac_arrest(self):
@@ -300,7 +301,7 @@ all actors:</p>
 </code></pre>
 <!-- continue -->
 <p>and then derive one class for each type of actor:</p>
-<pre><code class="language-py">class Nurse(Actor):
+<pre class="language-py"><code class="language-py">class Nurse(Actor):
     def handle_cardiac_arrest(self):
         ...do something...
 
@@ -310,7 +311,7 @@ class Doctor(Actor):
 </code></pre>
 <p>We can then ask each actor to handle the cardiac arrest however they're supposed
 to:</p>
-<pre><code class="language-py">def handle_cardiac_arrest(all_actors):
+<pre class="language-py"><code class="language-py">def handle_cardiac_arrest(all_actors):
     for actor in all_actors:
         actor.handle_cardiac_arrest()
 </code></pre>
@@ -323,7 +324,7 @@ need to define a default response to it by adding a method to <code>Actor</code>
 override that method for the specific kinds of actors that have different
 behaviors. A more sophisticated design would define classes to represent events
 and select a method to call based on the event:</p>
-<pre><code class="language-py">class Actor:
+<pre class="language-py"><code class="language-py">class Actor:
     def __init__(...):
         ...do generic setup...
     def handle_event(self, event):
@@ -437,7 +438,8 @@ can't be cool: as a computer science professor said to me once about something
 similar, "I realize it's popular, but it's merely useful."</p>
 </blockquote>
 <p>The other way to script something is through an external interface.  Most web
-applications these days provide some sort of <span class="indexref" key="Representational State Transfer;REST" markdown="1"><a class="glossref" href="../glossary/#rest" markdown="1">REST</a></span> API so that programs can send requests or post
+applications these days provide some sort of <span class="indexref" key="Representational State Transfer;REST" markdown="1"><a class="glossref" href="../glossary/#rest" markdown="1">REST</a></span> API
+so that programs can send requests or post
 data via HTTP to control the app's behavior. Many of these require programs to
 authenticate in order to prove that they have a right to do what they want to;
 as soon as we're thinking about that, we need to think about the topic of the
@@ -447,7 +449,7 @@ next chapter: security.</p>
 in mind makes packaging a lot easier.  In Python, for example, a package
 consists of one or more Python source files in a specific directory structure
 like this:</p>
-<pre><code class="language-txt">pkg_name
+<pre class="language-txt"><code class="language-txt">pkg_name
 +-- pkg_name
 |   +-- module1.py
 |   +-- module2.py
@@ -457,7 +459,7 @@ like this:</p>
 <p>The top-level directory is named after the package.  It contains a directory
 that is also named after the package, which contains the package's source files.
 To turn this into an installable package, we put the following in <code>setup.py</code>:</p>
-<pre><code class="language-py">from setuptools import setup
+<pre class="language-py"><code class="language-py">from setuptools import setup
 
 setup(
     name='pkg_name',
@@ -470,7 +472,7 @@ setup(
 the sub-directories containing packages (there may actually be several), and
 we'll talk about versioning in <a href="../delivery/">Chapter 26</a>.  Once you have this in
 place, you can run:</p>
-<pre><code class="language-sh">$ pip install .
+<pre class="language-sh"><code class="language-sh">$ pip install .
 </code></pre>
 <!-- continue -->
 <p>to create a package.</p>

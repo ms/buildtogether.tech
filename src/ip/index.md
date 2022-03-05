@@ -120,12 +120,14 @@ and therefore need to be asked for approval when a license is changed.
 Similarly, changing a license does not change it retroactively, so different
 users may wind up operating under different licensing structures.
 
-> ### Leave it to the professionals
->
-> [% i "license!why not to write your own" %]Don't write your own license.[% /i %]
-> Legalese is a highly technical language, and words don't mean what you think
-> they do.  What's more, it's often hard to understand the interactions between
-> multiple licenses on different kinds of material [% b Almeida2017 %].
+<blockquote markdown="1">
+### Leave it to the professionals
+
+[% i "license!why not to write your own" %]Don't write your own license.[% /i %]
+Legalese is a highly technical language, and words don't mean what you think
+they do.  What's more, it's often hard to understand the interactions between
+multiple licenses on different kinds of material [% b Almeida2017 %].
+</blockquote>
 
 Just as the project's Code of Conduct is usually placed in a root-level file
 called [% i "CONDUCT file" %]`CONDUCT.md`[% /i %], its license is usually put in
@@ -170,18 +172,20 @@ software in ways that violate the
 We have learned the hard way that software and science can be mis-used; adopting
 the Hippocratic License is a small step toward preventing this.
 
-> ### What they really mean (part two)
->
-> Just as some people in open source argued against codes of conduct ten years
-> ago, some now argue that the Hippocratic License isn't a real open source
-> license because of its "do no harm" requirement or because the Open Source
-> Initiative hasn't approved it. The first argument ignores the fact that many
-> other licenses put restrictions on use; the second argument is like saying, "It
-> wasn't recorded in Nashville so it's not a real country song."  As with
-> arguments against codes of conduct, what people are usually revealing is that
-> they prefer a world in which programmers don't have to take responsibility for
-> how the things they build are used, and would rather not have anyone set a
-> precedent to the contrary.
+<blockquote markdown="1">
+### What they really mean (part two)
+
+Just as some people in open source argued against codes of conduct ten years
+ago, some now argue that the Hippocratic License isn't a real open source
+license because of its "do no harm" requirement or because the Open Source
+Initiative hasn't approved it. The first argument ignores the fact that many
+other licenses put restrictions on use; the second argument is like saying, "It
+wasn't recorded in Nashville so it's not a real country song."  As with
+arguments against codes of conduct, what people are usually revealing is that
+they prefer a world in which programmers don't have to take responsibility for
+how the things they build are used, and would rather not have anyone set a
+precedent to the contrary.
+</blockquote>
 
 ## Creative Commons Licenses
 
@@ -223,9 +227,11 @@ usually referred two using the two-letter abbreviations listed below:
     it is fine in principle but in practice makes aggregation and recombination
     difficult.
 
-> ### Why be open?
->
-> [% b Hippel2006 %] reports that 85% of all interesting innovations in all
-> industries come not from the suppliers but from the users.  The more open work
-> is, the better able users are to tinker with it and do things that the first
-> contributors would never have thought of trying.
+<blockquote markdown="1">
+### Why be open?
+
+[% b Hippel2006 %] reports that 85% of all interesting innovations in all
+industries come not from the suppliers but from the users.  The more open work
+is, the better able users are to tinker with it and do things that the first
+contributors would never have thought of trying.
+</blockquote>

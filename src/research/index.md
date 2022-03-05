@@ -92,15 +92,17 @@ inner-city children consistently outscored children from wealthy suburban homes
 on standardized tests, is anyone naïve enough to believe that we would still
 insist on using these tests as indicators of success?"
 
-> ### What don't you want to know?
->
-> [% b Begel2014 %] asked one set of developers what questions they most
-> wanted researchers to answer, then asked another set of developers to rate those
-> questions.  Respondents favored questions about how customers typically use
-> their applications, but were opposed questions related to assessing the
-> performance of individual employees or comparing them with one another;
-> [% b Huijgens2020 %] found that data scientists viewed most possible
-> research topics the same way.
+<blockquote markdown="1">
+### What don't you want to know?
+
+[% b Begel2014 %] asked one set of developers what questions they most
+wanted researchers to answer, then asked another set of developers to rate those
+questions.  Respondents favored questions about how customers typically use
+their applications, but were opposed questions related to assessing the
+performance of individual employees or comparing them with one another;
+[% b Huijgens2020 %] found that data scientists viewed most possible
+research topics the same way.
+</blockquote>
 
 ## What Do We Know About Programming Style?
 
@@ -304,16 +306,18 @@ than half of the trivial packages include tests; instead, they are "deployment
 tested", i.e., their authors fix the breakages that users report, so that while
 they might not work in all situations, they work in all situations that matter.
 
-> ### What *can't* we learn?
->
-> Many people have put forward
-> [% i "code metrics!ineffectiveness of" %][% g code_metric %]code metrics[% /g %][% /i %]
-> that are supposed to measure the
-> complexity or likely number of bugs in a piece of software. However,
-> [% b ElEmam2001 %] found that these metrics are no better at predicting
-> things than simply counting the number of lines of code, because the longer the
-> program is, the more likely it is to contain whatever kinds of problems those
-> more sophisticated metrics are looking for.
+<blockquote markdown="1">
+### What *can't* we learn?
+
+Many people have put forward
+[% i "code metrics!ineffectiveness of" %][% g code_metric %]code metrics[% /g %][% /i %]
+that are supposed to measure the
+complexity or likely number of bugs in a piece of software. However,
+[% b ElEmam2001 %] found that these metrics are no better at predicting
+things than simply counting the number of lines of code, because the longer the
+program is, the more likely it is to contain whatever kinds of problems those
+more sophisticated metrics are looking for.
+</blockquote>
 
 ## What Do We Know About Software Projects?
 
@@ -419,25 +423,27 @@ industry and research should "focus on other predictors of performance,
 including expertise and task complexity" instead, as these factors overshadow
 any personality effects.
 
-> ### Myers-Briggs and other danger signs
->
-> The [% i "Myers-Briggs Type Indicator" "pseudoscience!Myers-Briggs Type Indicator" %][% g myers_briggs %]Myers-Briggs Type Indicator[% /g %][% /i %]
-> advertises itself as personality profiling tool.  It is popular on dating sites
-> and some companies use it as part of their interview process---despite the fact
-> that it is complete bullshit.  Half or more of people who repeat the test within
-> a few weeks get a different personality classification, it fails to predict job
-> performance, and its categories are based on outdated (and very Western-centric)
-> psychological theories.  If a potential employer asks you to do it as part of
-> the interview process, ask them if they would like a horoscope as well.
->
-> Myers-Briggs has given the whole notion of personality profiling a bad
-> reputation, but there are models of personality that have a scientific basis and
-> are repeatable and cross-cultural.  For example, the [% g ocean_model %]OCEAN
-> model[% /g %] has five dimensions: Openness to experience, Conscientiousness,
-> Extraversion, Agreeableness, and Neuroticism. Studies of twins and other
-> research has found that about half of personality variation comes from genetics
-> and about half from environment, and work like [% b Hannay2010 %] has used
-> this model in studies of programmers.
+<blockquote markdown="1">
+### Myers-Briggs and other danger signs
+
+The [% i "Myers-Briggs Type Indicator" "pseudoscience!Myers-Briggs Type Indicator" %][% g myers_briggs %]Myers-Briggs Type Indicator[% /g %][% /i %]
+advertises itself as personality profiling tool.  It is popular on dating sites
+and some companies use it as part of their interview process---despite the fact
+that it is complete bullshit.  Half or more of people who repeat the test within
+a few weeks get a different personality classification, it fails to predict job
+performance, and its categories are based on outdated (and very Western-centric)
+psychological theories.  If a potential employer asks you to do it as part of
+the interview process, ask them if they would like a horoscope as well.
+
+Myers-Briggs has given the whole notion of personality profiling a bad
+reputation, but there are models of personality that have a scientific basis and
+are repeatable and cross-cultural.  For example, the [% g ocean_model %]OCEAN
+model[% /g %] has five dimensions: Openness to experience, Conscientiousness,
+Extraversion, Agreeableness, and Neuroticism. Studies of twins and other
+research has found that about half of personality variation comes from genetics
+and about half from environment, and work like [% b Hannay2010 %] has used
+this model in studies of programmers.
+</blockquote>
 
 ## What Do We Know About Innate Ability?
 

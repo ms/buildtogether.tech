@@ -71,20 +71,23 @@ If the interview process requires that, the company is effectively biased toward
 people who are economically secure and have lots of free time, which doesn't
 correlate with how well they can program in a full-time job.
 
-> ### A sign of privilege
->
-> You probably won't be treated with any more respect on the job than you were
-> while interviewing.  However, when I wrote, "If a company does any of these
-> things, go find another one," in the first draft of this chapter, one of the
-> reviewers wrote, "Gosh, it must be nice to be able to walk away from a job."
-> They were right: most people aren't as financially secure as me, so they aren't
-> able to be as finicky about who they work for as I am.  In other words, I made
-> the same mistake as a team lead who assumed that since their evenings and
-> weekends were theirs to do with as they wished, everyone else's would be too.
+<blockquote markdown="1">
+### A sign of privilege
+
+You probably won't be treated with any more respect on the job than you were
+while interviewing.  However, when I wrote, "If a company does any of these
+things, go find another one," in the first draft of this chapter, one of the
+reviewers wrote, "Gosh, it must be nice to be able to walk away from a job."
+They were right: most people aren't as financially secure as me, so they aren't
+able to be as finicky about who they work for as I am.  In other words, I made
+the same mistake as a team lead who assumed that since their evenings and
+weekends were theirs to do with as they wished, everyone else's would be too.
+</blockquote>
 
 As a student looking for your first full-time job you probably won't have any
 control over the hiring process, but seeing whether the company does it well or
-not gives you valuable information about how well run it is.  Here are [% i "hiring process!healthy" %]a few positive indicators[% /i %]:
+not gives you valuable information about how well run it is.
+Here are [% i "hiring process!healthy" %]a few positive indicators[% /i %]:
 
 Write inclusive, accessible job ads.
 :   [% b Gaucher2011 %] is just one of many studies showing that gendered
@@ -131,16 +134,18 @@ descriptions and course websites inclusive? Are instructors required to use
 blinded grading to ensure that personal likes and dislikes don't affect grades?
 If the answers are "no", what can you and your classmates do to fix things?
 
-> ### Questions to ask
->
-> I have interviewed people who didn't ask a single question about the company,
-> what an average day would look like, or how their career might evolve.
-> [% i "Evans, Julia" %][Julia Evans][evans-julia][% /i %] has a good list of
-> [questions to ask in interviews][evans-interviews], and
-> [% i "Baxter, T. Carter" %][T. Carter Baxter][baxter-t-carter][% /i %] has
-> [another][baxter-interviews].  There won't be time to get to them all, but
-> asking two or three will impress your interviewer as well as giving you valuable
-> information.
+<blockquote markdown="1">
+### Questions to ask
+
+I have interviewed people who didn't ask a single question about the company,
+what an average day would look like, or how their career might evolve.
+[% i "Evans, Julia" %][Julia Evans][evans-julia][% /i %] has a good list of
+[questions to ask in interviews][evans-interviews], and
+[% i "Baxter, T. Carter" %][T. Carter Baxter][baxter-t-carter][% /i %] has
+[another][baxter-interviews].  There won't be time to get to them all, but
+asking two or three will impress your interviewer as well as giving you valuable
+information.
+</blockquote>
 
 ## On the Job
 
@@ -199,17 +204,19 @@ because they aren't these things?  One argument is self-interest: study after
 study has shown that more diverse teams perform better, that companies with more
 diverse management are more profitable, and so on [% b Zhan2020 %].
 
-> ### Setting limits
->
-> Men who want an excuse to continue to be assholes sometimes try to be clever
-> with words and talk about "diversity of thought," meaning, "I should be allowed
-> to be offensive as long as I don't raise my voice."  This is an example of the
-> [% i "paradox of tolerance" %][paradox of
-> tolerance][paradox-of-tolerance][% /i %]: if a group is tolerant without limit,
-> it will eventually be undermined by the intolerant taking advantage of that. As
-> [% i "Baldwin, James" %]James Baldwin[% /i %] said, "We can disagree and still
-> love each other unless your disagreement is rooted in my oppression and denial
-> of my humanity and right to exist."
+<blockquote markdown="1">
+### Setting limits
+
+Men who want an excuse to continue to be assholes sometimes try to be clever
+with words and talk about "diversity of thought," meaning, "I should be allowed
+to be offensive as long as I don't raise my voice."  This is an example of the
+[% i "paradox of tolerance" %][paradox of
+tolerance][paradox-of-tolerance][% /i %]: if a group is tolerant without limit,
+it will eventually be undermined by the intolerant taking advantage of that. As
+[% i "Baldwin, James" %]James Baldwin[% /i %] said, "We can disagree and still
+love each other unless your disagreement is rooted in my oppression and denial
+of my humanity and right to exist."
+</blockquote>
 
 Another reason to care about these issues is that discussion of fair play stops
 being theoretical as soon as we talk about your rights as an employee.  Until
@@ -255,22 +262,24 @@ describes, the idea of "the tragedy of the commons" gets things completely
 wrong: people exploiting a shared resource so much that it collapses is what
 happens when a commons breaks down.
 
-> ### Your politics is showing
->
-> An early reviewer of this material asked whether it was appropriate for me to
-> put so much of my personal politics into it.  I pointed out that many schools
-> have a course on the business of software that talk exclusively about for-profit
-> startups backed by private investors and venture capital.  Choosing to discuss
-> those topics is equally political---it's just more common.
->
-> Other reviewers have pointed out that telling people they should support fair
-> play because it will benefit *them* implies that they would have no reason to do
-> so if it didn't.  The idea that people should only act out of self-interest is
-> also political, and one I strongly disagree with.  However, people like Brad
-> (whom we met in [% x introduction %]) have been conditioned to believe that
-> being cynical is the same thing as being smart; I have found out the hard way
-> that if I say, "Do the right thing because it's the right thing," the people
-> whose behavior most needs to change won't listen.
+<blockquote markdown="1">
+### Your politics is showing
+
+An early reviewer of this material asked whether it was appropriate for me to
+put so much of my personal politics into it.  I pointed out that many schools
+have a course on the business of software that talk exclusively about for-profit
+startups backed by private investors and venture capital.  Choosing to discuss
+those topics is equally political---it's just more common.
+
+Other reviewers have pointed out that telling people they should support fair
+play because it will benefit *them* implies that they would have no reason to do
+so if it didn't.  The idea that people should only act out of self-interest is
+also political, and one I strongly disagree with.  However, people like Brad
+(whom we met in [% x introduction %]) have been conditioned to believe that
+being cynical is the same thing as being smart; I have found out the hard way
+that if I say, "Do the right thing because it's the right thing," the people
+whose behavior most needs to change won't listen.
+</blockquote>
 
 You might think there isn't a lot you can do as a student or as a junior
 programmer to fix what's broken in our industry, but there is.  An
@@ -282,11 +291,13 @@ Foundation][dlf] explains, there are several ways to be an
 [% i "lending privilege" %][% g lending_privilege %]lend your privilege[% /g %][% /i %] to
 defuse situations and defend people who are being attacked.
 
-> ### Not acting is a choice as well
->
-> [% x rules-newcomers %] said that an organization's culture is defined by
-> the worst behavior it tolerates [% b Gruenert2015 %]; I believe that who we
-> are as individuals is defined in the same way.
+<blockquote markdown="1">
+### Not acting is a choice as well
+
+[% x rules-newcomers %] said that an organization's culture is defined by
+the worst behavior it tolerates [% b Gruenert2015 %]; I believe that who we
+are as individuals is defined in the same way.
+</blockquote>
 
 [% b Dobbin2019 %] (summarized in [% b Dobbin2020 %]) found that most
 of what American companies have done over the past twenty years to reduce sexual
@@ -330,44 +341,46 @@ as a result don't realize how much harder things are for others whose default
 setting isn't "[% i "easy mode (as a metaphor for privilege)" %]easy
 mode[% /i %]" [% b Scalzi2012 %].
 
-> ### How far back should we go?
->
-> [% g preparatory_privilege %]Preparatory privilege[% /g %] is the advantage
-> someone has in a supposedly objective assessment as a result of opportunities
-> earlier in life that other people didn't have.  Ignoring it is like ignoring the
-> difference between professional athletes who are paid to train all day and
-> amateurs whose jobs only allow them to train in the evening or on weekends, or
-> pretending that people doing interviews in their second or third language are on
-> an equal footing with people who are interviewing in their native language.
->
-> But imagine you're about to have a meeting with someone.  There's a box with
-> half a dozen cookies in the room, so you help yourself to a couple before the
-> other person shows up. When they do, you have to make a choice: do you say,
-> "I've already had two, so I should only have one more and you should get three"
-> or, "There were four cookies in the box when you arrived, so we get two each"
-> (meaning that you will have had four in total).
->
-> Most people would say that the first answer is the moral one---in my experience,
-> people who don't aren't people you'd want on your team.  On the other hand, if I
-> had a couple of cookies yesterday or last week, I probably won't feel obliged to
-> give you more than half today.  Is it a company's responsibility to take past
-> inequities into account when hiring?
->
-> If the company is interested in on-the-job performance, the answer is "yes".
-> Going back to the athletic analogy, an amateur who can run a hundred meters in
-> 12 seconds could perform better than a professional who can do it in 11 *once
-> they start training full-time*, i.e., once their disadvantage is removed.
-> Similarly, female students are less likely to be called on in class and more
-> likely to be given non-coding tasks in team projects than male students.  If
-> they can get a B despite that, they will probably outperform a male student who
-> only gets an A with the deck stacked in his favor, provided the company treats
-> both equally after they are hired.
->
-> That last statement is where many companies and universities fail despite good
-> intentions.  The [Centre for Community Organizations][coco] has a depressing
-> summary of what it's like to be [the "problem" woman of color in the
-> workplace][coco-problem].  If what it describes isn't familiar, you might be a
-> part of the problem, just as I was in my teens and twenties.
+<blockquote markdown="1">
+### How far back should we go?
+
+[% g preparatory_privilege %]Preparatory privilege[% /g %] is the advantage
+someone has in a supposedly objective assessment as a result of opportunities
+earlier in life that other people didn't have.  Ignoring it is like ignoring the
+difference between professional athletes who are paid to train all day and
+amateurs whose jobs only allow them to train in the evening or on weekends, or
+pretending that people doing interviews in their second or third language are on
+an equal footing with people who are interviewing in their native language.
+
+But imagine you're about to have a meeting with someone.  There's a box with
+half a dozen cookies in the room, so you help yourself to a couple before the
+other person shows up. When they do, you have to make a choice: do you say,
+"I've already had two, so I should only have one more and you should get three"
+or, "There were four cookies in the box when you arrived, so we get two each"
+(meaning that you will have had four in total).
+
+Most people would say that the first answer is the moral one---in my experience,
+people who don't aren't people you'd want on your team.  On the other hand, if I
+had a couple of cookies yesterday or last week, I probably won't feel obliged to
+give you more than half today.  Is it a company's responsibility to take past
+inequities into account when hiring?
+
+If the company is interested in on-the-job performance, the answer is "yes".
+Going back to the athletic analogy, an amateur who can run a hundred meters in
+12 seconds could perform better than a professional who can do it in 11 *once
+they start training full-time*, i.e., once their disadvantage is removed.
+Similarly, female students are less likely to be called on in class and more
+likely to be given non-coding tasks in team projects than male students.  If
+they can get a B despite that, they will probably outperform a male student who
+only gets an A with the deck stacked in his favor, provided the company treats
+both equally after they are hired.
+
+That last statement is where many companies and universities fail despite good
+intentions.  The [Centre for Community Organizations][coco] has a depressing
+summary of what it's like to be [the "problem" woman of color in the
+workplace][coco-problem].  If what it describes isn't familiar, you might be a
+part of the problem, just as I was in my teens and twenties.
+</blockquote>
 
 ## The Wider World
 
@@ -389,13 +402,15 @@ time COVID-19 began to spread, it and other tech companies had trained people
 all over the world believe in conspiracy theories rather than medicine, with
 fatal consequences.
 
-> ### We just sell the poison; we don't administer it
->
-> In March 2019, a right-wing terrorist killed 51 people at prayer in
-> Christchurch, New Zealand. Every one of the sources he cited in his manifesto
-> was making money through a store hosted by a company called
-> [% i "Shopify!support for alt-right sites" %]Shopify[% /i %];
-> the company didn't end its relationship with any of them.
+<blockquote markdown="1">
+### We just sell the poison; we don't administer it
+
+In March 2019, a right-wing terrorist killed 51 people at prayer in
+Christchurch, New Zealand. Every one of the sources he cited in his manifesto
+was making money through a store hosted by a company called
+[% i "Shopify!support for alt-right sites" %]Shopify[% /i %];
+the company didn't end its relationship with any of them.
+</blockquote>
 
 Ethical failures by programmers now hurt us all.  For example, your school might
 use a piece of software called
@@ -456,18 +471,20 @@ that help you more.  No matter what, the most compassionate thing you can do is
 ask yourself at every turn, "What will this be like for people who aren't like
 me?"
 
-> ### Why I write
->
-> It's time for a confession.  This chapter is the reason I wrote this book.
-> After the 2016 election in the United States, I organized a group of people to
-> write a guide for programmers to stuff that actually matters---the stuff that's
-> in this chapter.  That project fizzled out, in part because someone like Brad
-> ([% x introduction %]) wouldn't read something that said, "Programmers are
-> doing harm and maybe you're part of the problem."
-> [% b Bullock2021 Cohen2021 Ferreira2021 Gordon2021 Prioleau2021 Rankin2021 %]
-> are a sign that these bigger issues might finally be added to the curriculum,
-> but will take a long time to bear fruit. Meanwhile, I hope that starting with
-> time management and version control, then talking about teams and conflict, will
-> give people like Brad (and my younger self) a ramp to walk up instead of a cliff
-> to climb, because if we don't find a way to fix the tech industry our lives are
-> going to keep getting worse.
+<blockquote markdown="1">
+### Why I write
+
+It's time for a confession.  This chapter is the reason I wrote this book.
+After the 2016 election in the United States, I organized a group of people to
+write a guide for programmers to stuff that actually matters---the stuff that's
+in this chapter.  That project fizzled out, in part because someone like Brad
+([% x introduction %]) wouldn't read something that said, "Programmers are
+doing harm and maybe you're part of the problem."
+[% b Bullock2021 Cohen2021 Ferreira2021 Gordon2021 Prioleau2021 Rankin2021 %]
+are a sign that these bigger issues might finally be added to the curriculum,
+but will take a long time to bear fruit. Meanwhile, I hope that starting with
+time management and version control, then talking about teams and conflict, will
+give people like Brad (and my younger self) a ramp to walk up instead of a cliff
+to climb, because if we don't find a way to fix the tech industry our lives are
+going to keep getting worse.
+</blockquote>

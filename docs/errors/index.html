@@ -28,10 +28,12 @@ how to use our programs, and even if we test thoroughly as described in
 <a href="../testing/">Chapter 11</a>, those programs will probably still contain bugs.  We should
 therefore plan from the start to detect and handle errors.</p>
 <h2>Handling Errors</h2>
-<p><span class="indexref" key="internal error;error!internal" markdown="1"><a class="glossref" href="../glossary/#internal_error" markdown="1">Internal errors</a></span>, are mistakes in the program itself, such as calling a function
-with <code>None</code> instead of a list.  <span class="indexref" key="external error;error!external" markdown="1"><a class="glossref" href="../glossary/#external_error" markdown="1">External errors</a></span> are usually caused by interactions
-between the program and the outside world: a user may mis-type a filename, the
-network might be down, and so on.</p>
+<p><span class="indexref" key="internal error;error!internal" markdown="1"><a class="glossref" href="../glossary/#internal_error" markdown="1">Internal errors</a></span>
+are mistakes in the program itself,
+such as calling a function with <code>None</code> instead of a list.
+<span class="indexref" key="external error;error!external" markdown="1"><a class="glossref" href="../glossary/#external_error" markdown="1">External errors</a></span>
+are usually caused by interactions between the program and the outside world:
+a user may mis-type a filename, the network might be down, and so on.</p>
 <p>When an internal error occurs, the only thing we can do in most cases is report
 it and halt the program.  If a function has been passed <code>None</code> instead of a
 valid list, for example, the odds are good that one of our data structures is
@@ -49,21 +51,21 @@ something does go wrong, the program jumps immediately to the body of the
 <p>We often want to know exactly what went wrong, so Python and other languages
 store information about the error in an object (which is also called an
 exception).  We can <span class="indexref" key="exception!handling;catch exception" markdown="1"><a class="glossref" href="../glossary/#catch_exception" markdown="1">catch</a></span> an exception and inspect it as follows:</p>
-<pre><code class="language-py">for denom in [-5, 0, 5]:
+<pre class="language-py"><code class="language-py">for denom in [-5, 0, 5]:
     try:
         result = 1/denom
         print(f'1/{denom} == {result}')
     except Exception as error:
         print(f'{denom} has no reciprocal: {error}')
 </code></pre>
-<pre><code class="language-out">1/-5 == -0.2
+<pre class="language-out"><code class="language-out">1/-5 == -0.2
 0 has no reciprocal: division by zero
 1/5 == 0.2
 </code></pre>
 <p>Most languages also allow us to specify what kind of exception we want to catch.
 For example, we can write code to handle out-of-range indexing and division by
 zero in Python separately:</p>
-<pre><code class="language-py">numbers = [-5, 0, 5]
+<pre class="language-py"><code class="language-py">numbers = [-5, 0, 5]
 for i in [0, 1, 2, 3]:
     try:
         denom = numbers[i]
@@ -74,14 +76,14 @@ for i in [0, 1, 2, 3]:
     except ZeroDivisionError as error:
         print(f'{denom} has no reciprocal: {error}')
 </code></pre>
-<pre><code class="language-out">1/-5 == -0.2
+<pre class="language-out"><code class="language-out">1/-5 == -0.2
 0 has no reciprocal: division by zero
 1/5 == 0.2
 index 3 out of range
 </code></pre>
 <p>So where do exceptions come from?  The answer is that programmers can <span class="indexref" key="exception!raise;raise exception" markdown="1"><a class="glossref" href="../glossary/#raise_exception" markdown="1">raise</a></span> them
 explicitly:</p>
-<pre><code class="language-py">for number in [1, 0, -1]:
+<pre class="language-py"><code class="language-py">for number in [1, 0, -1]:
     try:
         if number &lt; 0:
             raise ValueError(f'no negatives: {number}')
@@ -89,7 +91,7 @@ explicitly:</p>
     except ValueError as error:
         print(f'exception: {error}')
 </code></pre>
-<pre><code class="language-out">1
+<pre class="language-out"><code class="language-out">1
 0
 exception: no negatives: -1
 </code></pre>
@@ -136,7 +138,7 @@ program.  When the program runs, it checks the assertion's condition.  If it's
 true, the program does nothing; if it's false, it halts and prints a
 user-defined error message.  For example, this Python code halts as soon as the
 loop encounters a negative word frequency:</p>
-<pre><code class="language-py">frequencies = [13, 10, 2, -4, 5, 6, 25]
+<pre class="language-py"><code class="language-py">frequencies = [13, 10, 2, -4, 5, 6, 25]
 total = 0.0
 for freq in frequencies[:5]:
     assert freq &gt;= 0.0, 'Word frequencies must be non-negative'
@@ -149,12 +151,12 @@ of the code they contain is there to check that the other 80--90% is working
 correctly.</p>
 <h2>Writing Useful Error Messages</h2>
 <p>This is not a useful error message:</p>
-<pre><code class="language-out">OSError: Something went wrong, try again.
+<pre class="language-out"><code class="language-out">OSError: Something went wrong, try again.
 </code></pre>
 <!-- continue -->
 <p>It doesn't provide any information on what went wrong, so it is difficult for
 the user to know what to change next time.  A slightly better message is:</p>
-<pre><code class="language-out">OSError: Unsupported file type.
+<pre class="language-out"><code class="language-out">OSError: Unsupported file type.
 </code></pre>
 <!-- continue -->
 <p>This message tells us the problem is with the type of file we're trying to
@@ -165,7 +167,7 @@ works with files of that type, but since we don't actually check the content of
 the file, this message could confuse someone who has comma-separated values
 saved in a <code>.txt</code> file.  An even <span class="indexref" key="error message!writing helpful" markdown="1">better
 message</span> would therefore be:</p>
-<pre><code class="language-out">OSError: File must end in .csv
+<pre class="language-out"><code class="language-out">OSError: File must end in .csv
 </code></pre>
 <!-- continue -->
 <p>This message tells us exactly what the criteria are to avoid the error.</p>
@@ -202,13 +204,13 @@ different people, but putting them all in one module makes review easier.</dd>
 </dl>
 <p>That last suggestion deserves a little elaboration.  Most people write error
 messages directly in their code:</p>
-<pre><code class="language-py">if fname[-4:] != '.csv':
+<pre class="language-py"><code class="language-py">if fname[-4:] != '.csv':
     raise OSError(f'{fname}: File must end in .csv')
 </code></pre>
 <!-- continue -->
 <p>A better approach is to put all the error messages in a <span class="indexref" key="error
 message!internationalizing" markdown="1">dictionary</span>:</p>
-<pre><code class="language-py">ERRORS = {
+<pre class="language-py"><code class="language-py">ERRORS = {
     'not_csv_suffix' : '{fname}: File must end in .csv',
     'config_corrupted' : '{config_name} corrupted',
     # ...more error messages...
@@ -216,12 +218,12 @@ message!internationalizing" markdown="1">dictionary</span>:</p>
 </code></pre>
 <!-- continue -->
 <p>and then only use messages from that dictionary:</p>
-<pre><code class="language-py">if fname[-4:] != '.csv':
+<pre class="language-py"><code class="language-py">if fname[-4:] != '.csv':
     raise OSError(ERRORS['not_csv_suffix'].format(fname=fname))
 </code></pre>
 <p>Doing this makes it much easier to ensure that messages are consistent.  It also
 makes it much easier to give messages in the user's preferred language:</p>
-<pre><code class="language-py">ERRORS = {
+<pre class="language-py"><code class="language-py">ERRORS = {
   'en' : {
     'not_csv_suffix' : '{fname}: File must end in .csv',
     'config_corrupted' : '{config_name} corrupted',
@@ -237,7 +239,7 @@ makes it much easier to give messages in the user's preferred language:</p>
 </code></pre>
 <!-- continue -->
 <p>The error report is then looked up and formatted as:</p>
-<pre><code class="language-py">ERRORS[user_language]['not_csv_suffix'].format(fname=fname)
+<pre class="language-py"><code class="language-py">ERRORS[user_language]['not_csv_suffix'].format(fname=fname)
 </code></pre>
 <p>{: continue}
 where <code>user_language</code> is a two-letter code for the user's preferred language.</p>
@@ -245,7 +247,7 @@ where <code>user_language</code> is a two-letter code for the user's preferred l
 <p>Something else you can design into your system to make your life easier later on
 is <span class="indexref" key="logging" markdown="1"><a class="glossref" href="../glossary/#logging" markdown="1">logging</a></span>. Instead of writing <code>print</code>
 statements like this:</p>
-<pre><code class="language-py">def extrapolate(basis, case):
+<pre class="language-py"><code class="language-py">def extrapolate(basis, case):
     print &quot;entering extrapolate...&quot;
     trials = count_basis_width(basis)
     if not trials:
@@ -259,7 +261,7 @@ statements like this:</p>
 </code></pre>
 <p>{: continue}
 you use your language's logging library:</p>
-<pre><code class="language-py">import logging
+<pre class="language-py"><code class="language-py">import logging
 
 def extrapolate(basis, case):
     logging.debug(&quot;entering extrapolate...&quot;)
@@ -276,7 +278,7 @@ def extrapolate(basis, case):
 <p>At first glance this is just more verbose. The benefit, though, is that your
 messages are now divided into categories. If you want to get all the messages
 you put:</p>
-<pre><code class="language-py">logging.basicConfig(level=logging.DEBUG)
+<pre class="language-py"><code class="language-py">logging.basicConfig(level=logging.DEBUG)
 </code></pre>
 <!-- continue -->
 <p>somewhere near the start of your program. The <code>DEBUG</code> option identifies the
@@ -285,7 +287,7 @@ when you're trying to figure out what's gone wrong. In order, the more important
 <span class="indexref" key="logging!levels" markdown="1">levels</span> in most logging libraries are <code>INFO</code>,
 <code>WARNING</code>, <code>ERROR</code>, and <code>CRITICAL</code>. If you only want messages at the <code>WARNING</code>
 level and above, you change the configuration to:</p>
-<pre><code class="language-py">logging.basicConfig(level=logging.WARNING)
+<pre class="language-py"><code class="language-py">logging.basicConfig(level=logging.WARNING)
 </code></pre>
 <!-- continue -->
 <p>so that <code>DEBUG</code> and <code>INFO</code> messages aren't printed.</p>
@@ -301,7 +303,7 @@ interface but only see errors and above from the image processing functions.
 They also let you control where your messages are sent. By default, they go to
 the screen, but you can send them to a file instead simply by changing the
 configuration:</p>
-<pre><code class="language-py">logging.basicConfig(level=logging.ERROR,
+<pre class="language-py"><code class="language-py">logging.basicConfig(level=logging.ERROR,
                     filename=&quot;/tmp/mylog.txt&quot;,
                     filemode=&quot;append&quot;)
 </code></pre>

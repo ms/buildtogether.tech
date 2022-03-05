@@ -133,17 +133,18 @@ Keep an eye on security updates.
     The world would be a slightly safer place if other package managers did this
     as well.
 
-> ### Docker
->
-> [% i "Docker" %][Docker][docker][% /i %] uses some clever tricks to run one
-> operating system on top of another to create a
-> [% i "virtual machine" %][% g "virtual_machine" %]virtual machine[% /g %][% /i %]
-> (VM) that is isolated from everything
-> beneath it.  It and other tools like it are used by most cloud computing
-> services and to run continuous integration systems ([% x automation %]), but
-> they are essentially an admission that we haven't figured out how to manage
-> packaging reliably.
+<blockquote markdown="1">
+### Docker
 
+[% i "Docker" %][Docker][docker][% /i %] uses some clever tricks to run one
+operating system on top of another to create a
+[% i "virtual machine" %][% g "virtual_machine" %]virtual machine[% /g %][% /i %]
+(VM) that is isolated from everything
+beneath it.  It and other tools like it are used by most cloud computing
+services and to run continuous integration systems ([% x automation %]), but
+they are essentially an admission that we haven't figured out how to manage
+packaging reliably.
+</blockquote>
 
 ## Integrated Development Environment
 
@@ -153,16 +154,18 @@ There are literally thousands to consider, from very small plain-text editors
 such as [% i "Notepad" "editor!Notepad" %]Notepad[% /i %] (which comes with [% i "Windows" %]Windows[% /i %]) to very large ones like [% i "Emacs" "editor!Emacs" %]Emacs[% /i %] (which some people claim is actually Lisp-based
 operating system in disguise).
 
-> ### Stuck in the punchcard era
->
-> In many ways, programming is still stuck in the punchcard era: we still insist
-> that source code be represented as lines of characters that are drawn
-> one-for-one on the screen.  [% g wysiwyg %]WYSIWYG[% /g %] editors like
-> Microsoft Word did away with this model decades ago; they store the file in a
-> machine-friendly format and then render it in a human-friendly way. There's no
-> reason we couldn't do the same with programs.  There's no reason we shouldn't be
-> able to draw a diagram directly in our source code like we can in a Google Doc;
-> if you are looking for a project to tackle, this would be a good one.
+<blockquote markdown="1">
+### Stuck in the punchcard era
+
+In many ways, programming is still stuck in the punchcard era: we still insist
+that source code be represented as lines of characters that are drawn
+one-for-one on the screen.  [% g wysiwyg %]WYSIWYG[% /g %] editors like
+Microsoft Word did away with this model decades ago; they store the file in a
+machine-friendly format and then render it in a human-friendly way. There's no
+reason we couldn't do the same with programs.  There's no reason we shouldn't be
+able to draw a diagram directly in our source code like we can in a Google Doc;
+if you are looking for a project to tackle, this would be a good one.
+</blockquote>
 
 You might already have a favorite editor. If you're like most programmers, you
 will change jobs, languages, operating systems, and nationality before you'll
@@ -271,17 +274,19 @@ cross-references, make sure I'm using the right CSS attributes for elements, and
 so on.  If you and your teammates find yourselves typing in the same commands
 over and over again, write a program to do it for you.
 
-> ### From seeds to trees
->
-> A lot of open source projects and commercial products began with one programmer
-> solving a problem for themselves and then discovering that other people found it
-> useful as well. [% i "Grand Perspective" %][Grand
-> Perspective][grand-perspective][% /i %] displays a tree map to show what's using
-> disk space on a Mac; [% i "Carnac" %][Carnac][carnac][% /i %] shows what special
-> keys you're pressing on Windows so that if you're doing a demo, people can see
-> the keyboard shortcuts you're using, and so on.  Building one small thing well
-> is a lot more useful, and a lot more likely to be used, than building half of
-> something larger.
+<blockquote markdown="1">
+### From seeds to trees
+
+A lot of open source projects and commercial products began with one programmer
+solving a problem for themselves and then discovering that other people found it
+useful as well. [% i "Grand Perspective" %][Grand
+Perspective][grand-perspective][% /i %] displays a tree map to show what's using
+disk space on a Mac; [% i "Carnac" %][Carnac][carnac][% /i %] shows what special
+keys you're pressing on Windows so that if you're doing a demo, people can see
+the keyboard shortcuts you're using, and so on.  Building one small thing well
+is a lot more useful, and a lot more likely to be used, than building half of
+something larger.
+</blockquote>
 
 ## Modeling
 
