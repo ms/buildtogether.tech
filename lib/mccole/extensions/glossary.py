@@ -80,7 +80,9 @@ def check():
 
 def _as_markdown(lookup, lang, entry):
     """Convert a single glossary entry to Markdown."""
-    first = f'<span class="glosskey" id="{entry["key"]}">{entry[lang]["term"]}</span>'
+    first = (
+        f'<span class="glosskey" id="{entry["key"]}">' '{entry[lang]["term"]}</span>'
+    )
 
     if "acronym" in entry[lang]:
         first += f" ({entry[lang]['acronym']})"
@@ -92,7 +94,7 @@ def _as_markdown(lookup, lang, entry):
         try:
             refs = [f"[{lookup[r]}](#{r})" for r in entry[lang]["ref"]]
         except KeyError as exc:
-            util.fail(f"Unknown glossary cross-reference key in {entry['key']}: {exc}")
+            util.fail(f"Unknown glossary cross-ref key in {entry['key']}: {exc}")
         body += f"<br/>{seealso}: {', '.join(refs)}."
 
     result = f"{first}\n:   {body}"

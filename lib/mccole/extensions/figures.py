@@ -21,11 +21,26 @@ generates:
 """
 
 import shutil
+from dataclasses import dataclass
 from textwrap import dedent
 
 import ivy
 import shortcodes
 import util
+
+
+@dataclass
+class Figure:
+    """Keep track of information about a figure."""
+
+    node: ivy.nodes.Node = None
+    fileslug: str = ""
+    slug: str = ""
+    img: str = ""
+    alt: str = ""
+    caption: str = ""
+    number: tuple = ()
+    width: str = ""
 
 
 @shortcodes.register("figure")
@@ -76,3 +91,38 @@ def copy_files():
     for fig in figures.values():
         src, dst = util.make_copy_paths(fig.node, fig.img)
         shutil.copy(src, dst)
+
+
+@ivy.events.register(ivy.events.Event.INIT)
+def collect():
+    """Collect information by parsing shortcodes."""
+    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
+    parser.register(_process_figure, "figure")
+    figures = {}
+    ivy.nodes.root().walk(lambda node: _parse_shortcodes(node, parser, figures))
+    _flatten_figures(figures)
+
+
+def _parse_shortcodes(node, parser, figures):
+    """Collect information from node."""
+    extra = {"node": node, "seen": []}
+    parser.parse(node.text, extra)
+    figures[node.slug] = extra["seen"]
+
+
+def _process_figure(pargs, kwargs, extra):
+    """Collect information from a single figure shortcode."""
+    extra["seen"].append(Figure(extra["node"], **kwargs))
+    return ""
+
+
+def _flatten_figures(collected):
+    """Convert collected figures information to flat lookup table."""
+    major = util.make_major()
+    figures = util.make_config("figures")
+    for fileslug in collected:
+        if fileslug in major:
+            for (i, entry) in enumerate(collected[fileslug]):
+                entry.fileslug = fileslug
+                entry.number = (str(major[fileslug]), str(i + 1))
+                figures[entry.slug] = entry
