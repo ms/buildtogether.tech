@@ -9,8 +9,6 @@ around the glossary shortcode:
     [% i "some" %][% g key %]some text[% /g %][% /i %]
 """
 
-import re
-
 import ivy
 import shortcodes
 import util
@@ -26,33 +24,6 @@ def index_ref(pargs, kwargs, node, content):
     # Format.
     joined = ";".join(pargs)
     return f'<span class="indexref" key="{joined}" markdown="1">{content}</span>'
-
-
-@ivy.events.register(ivy.events.Event.INIT)
-def collector():
-    """Collect index information."""
-    # Gather information from a single index entry.
-    # `extra` is the pair `(node, accum)`, where `accum` is a dict
-    # from index keys to file slugs.
-    def _collect_one(pargs, kwargs, extra, content):
-        node, accum = extra
-        if not pargs:
-            util.fail(f"Empty index key in {node.filepath}")
-        for entry in [key.strip() for key in pargs]:
-            entry = util.MULTISPACE.sub(" ", entry)
-            entry = tuple(s.strip() for s in entry.split("!") if s.strip())
-            if 1 <= len(entry) <= 2:
-                accum.setdefault(entry, set()).add(node.slug)
-            else:
-                util.fail(f"Badly-formatted index key {entry} in {node.filepath}")
-
-    # Create a parser to handle index entries.
-    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
-    parser.register(_collect_one, "i", "/i")
-
-    # Collect index entries.
-    index = util.make_config("index")
-    ivy.nodes.root().walk(lambda node: parser.parse(node.text, (node, index)))
 
 
 @shortcodes.register("index")
@@ -98,3 +69,31 @@ def _make_links(slugs):
     triples.sort(key=lambda x: str(major[x[0]]))
     result = ", ".join(f'<a href="{path}">{title}</a>' for (_, path, title) in triples)
     return result
+
+
+@ivy.events.register(ivy.events.Event.INIT)
+def collect():
+    """Collect information by parsing shortcodes."""
+    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
+    parser.register(_process_index, "i", "/i")
+    index = util.make_config("index")
+    ivy.nodes.root().walk(
+        lambda node: parser.parse(node.text, {"node": node, "index": index})
+    )
+
+
+def _process_index(pargs, kwargs, extra, content):
+    """Gather information from a single index shortcode."""
+    node = extra["node"]
+    index = extra["index"]
+
+    if not pargs:
+        util.fail(f"Empty index key in {node.filepath}")
+
+    for entry in [key.strip() for key in pargs]:
+        entry = util.MULTISPACE.sub(" ", entry)
+        entry = tuple(s.strip() for s in entry.split("!") if s.strip())
+        if 1 <= len(entry) <= 2:
+            index.setdefault(entry, set()).add(node.slug)
+        else:
+            util.fail(f"Badly-formatted index key {entry} in {node.filepath}")

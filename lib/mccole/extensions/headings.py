@@ -20,15 +20,11 @@ a shortcode for creating cross-references to them.
     of the page.
 """
 
-import re
 from dataclasses import dataclass
 
 import ivy
 import shortcodes
 import util
-
-# Match a Markdown heading with optional attributes.
-HEADING = re.compile(r"^(#+)\s*(.+?)(\{:\s*#(.+\b)\})?$", re.MULTILINE)
 
 
 @dataclass
@@ -59,88 +55,39 @@ def section_ref(pargs, kwargs, node):
 
 
 @ivy.events.register(ivy.events.Event.INIT)
-def collector():
-    """Enumerate headings.
-
-    1. Find Markdown headings in pages and enumerate those with IDs.
-    1. Modify Markdown headings to include numberings.
-    1. Create config["mccole"]["headings"] for cross-referencing.
-    1. Add "major" to page metadata so that templates can fill in H1 headings.
-    """
+def collect():
+    """Collect table information using regular expressions."""
     major = util.make_major()
-    headings = _gather(major)
-    _number(major, headings)
-    _cross_reference(headings)
-    _modify()
+    headings = {}
+    ivy.nodes.root().walk(lambda node: _process_headings(node, major, headings))
+
+    _number_headings(major, headings)
+    _flatten_headings(headings)
+    ivy.nodes.root().walk(_modify_headings)
 
 
-def _cross_reference(seen):
-    """Create flat cross-reference table."""
-    headings = util.make_config("headings")
-    for group in seen.values():
-        for entry in group:
-            headings[entry.slug] = entry
+def _process_headings(node, major, headings):
+    # Home page is untitled.
+    if node.slug not in major:
+        return
+
+    # Use page metadata to create entry for level-1 heading.
+    try:
+        title = node.meta["title"]
+    except KeyError:
+        util.fail(f"No title in metadata of {node.filepath}")
+    headings[node.slug] = [Heading(node.slug, 1, title, node.slug)]
+
+    # Collect depth, text, and slug from each heading.
+    headings[node.slug].extend(
+        [
+            Heading(node.slug, len(m.group(1)), m.group(2), m.group(4))
+            for m in util.HEADING.finditer(node.text)
+        ]
+    )
 
 
-def _gather(major):
-    """Gather heading information from pages."""
-    seen = {}
-
-    # Collect data from a single node.
-    def visitor(node):
-        # Home page is untitled.
-        if node.slug not in major:
-            return
-
-        # Use page metadata to create entry for level-1 heading.
-        try:
-            title = node.meta["title"]
-        except KeyError:
-            util.fail(f"No title in metadata of {node.filepath}")
-        seen[node.slug] = [Heading(node.slug, 1, title, node.slug)]
-
-        # Collect depth, text, and slug from each heading.
-        seen[node.slug].extend(
-            [
-                Heading(node.slug, len(m.group(1)), m.group(2), m.group(4))
-                for m in HEADING.finditer(node.text)
-            ]
-        )
-
-    # Get information from each node.
-    ivy.nodes.root().walk(visitor)
-    return seen
-
-
-def _modify():
-    """Modify page content and metadata with collected information."""
-    headings = util.get_config("headings")
-
-    # Add text to headings with attributes.
-    def patch(match):
-        prefix = match.group(1)
-        text = match.group(2)
-        attributes = match.group(3) or ""
-        slug = match.group(4)
-
-        if slug is None:
-            return f"{prefix} {text} {attributes}".rstrip()
-
-        else:
-            label = util.make_label("part", headings[slug].number)
-            return f"{prefix} {label}: {text} {attributes}"
-
-    # Replace level-2 headings and deeper while adding metadata for templates.
-    def visitor(node):
-        node.text = HEADING.sub(patch, node.text)
-        if node.slug in headings:
-            node.meta["major"] = util.make_label("part", headings[node.slug].number)
-
-    # Act on each node.
-    ivy.nodes.root().walk(visitor)
-
-
-def _number(major, headings):
+def _number_headings(major, headings):
     """Calculate heading numberings."""
     for slug in major:
         stack = [major[slug]]
@@ -167,3 +114,33 @@ def _number(major, headings):
 
             # Record number as tuple of strings.
             entry.number = tuple(str(s) for s in stack)
+
+
+def _flatten_headings(collected):
+    """Create flat cross-reference table."""
+    headings = util.make_config("headings")
+    for group in collected.values():
+        for entry in group:
+            headings[entry.slug] = entry
+
+
+def _modify_headings(node):
+    node.text = util.HEADING.sub(_patch_heading, node.text)
+    headings = util.get_config("headings")
+    if node.slug in headings:
+        node.meta["major"] = util.make_label("part", headings[node.slug].number)
+
+
+def _patch_heading(match):
+    """Modify a single heading."""
+    headings = util.get_config("headings")
+    prefix = match.group(1)
+    text = match.group(2)
+    attributes = match.group(3) or ""
+    slug = match.group(4)
+
+    if slug is None:
+        return f"{prefix} {text} {attributes}".rstrip()
+    else:
+        label = util.make_label("part", headings[slug].number)
+        return f"{prefix} {label}: {text} {attributes}"

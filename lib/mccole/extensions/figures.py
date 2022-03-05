@@ -12,10 +12,6 @@ generates:
       <figcaption markdown="1">Figure A.1: Longer caption</figcaption>
     </figure>
 
--   `collector` walks the node tree to find these shortcodes and builds a lookup
-    table in config["mccole"]["figures"] mapping slugs to multi-part figure numbers.
-    `collector` uses the `shortcodes` library's own parsing to find uses.
-
 -   `figure_def` creates a figure. It assumes that figures have already been
     numbered by `collector`.
 
@@ -45,39 +41,6 @@ class Figure:
     caption: str = ""
     number: tuple = ()
     width: str = ""
-
-
-@ivy.events.register(ivy.events.Event.INIT)
-def collector():
-    """Collect information about figures."""
-    # Get per-node information.
-    collected = {}
-    ivy.nodes.root().walk(lambda node: _collect(node, collected))
-
-    # Convert to flat lookup table.
-    major = util.make_major()
-    figures = util.make_config("figures")
-    for fileslug in collected:
-        if fileslug in major:
-            for (i, entry) in enumerate(collected[fileslug]):
-                entry.fileslug = fileslug
-                entry.number = (str(major[fileslug]), str(i + 1))
-                figures[entry.slug] = entry
-
-
-def _collect(node, collected):
-    """Collect information from node."""
-
-    def _collect_one(pargs, kwargs, seen):
-        seen.append(Figure(node, **kwargs))
-        return ""
-
-    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
-    parser.register(_collect_one, "figure")
-
-    seen = []
-    parser.parse(node.text, seen)
-    collected[node.slug] = seen
 
 
 @shortcodes.register("figure")
@@ -128,3 +91,38 @@ def copy_files():
     for fig in figures.values():
         src, dst = util.make_copy_paths(fig.node, fig.img)
         shutil.copy(src, dst)
+
+
+@ivy.events.register(ivy.events.Event.INIT)
+def collect():
+    """Collect information by parsing shortcodes."""
+    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
+    parser.register(_process_figure, "figure")
+    figures = {}
+    ivy.nodes.root().walk(lambda node: _parse_shortcodes(node, parser, figures))
+    _flatten_figures(figures)
+
+
+def _parse_shortcodes(node, parser, figures):
+    """Collect information from node."""
+    extra = {"node": node, "seen": []}
+    parser.parse(node.text, extra)
+    figures[node.slug] = extra["seen"]
+
+
+def _process_figure(pargs, kwargs, extra):
+    """Collect information from a single figure shortcode."""
+    extra["seen"].append(Figure(extra["node"], **kwargs))
+    return ""
+
+
+def _flatten_figures(collected):
+    """Convert collected figures information to flat lookup table."""
+    major = util.make_major()
+    figures = util.make_config("figures")
+    for fileslug in collected:
+        if fileslug in major:
+            for (i, entry) in enumerate(collected[fileslug]):
+                entry.fileslug = fileslug
+                entry.number = (str(major[fileslug]), str(i + 1))
+                figures[entry.slug] = entry
