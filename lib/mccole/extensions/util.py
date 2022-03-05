@@ -43,6 +43,17 @@ CONFIGURATIONS = {
 # Regex to turn multiple spaces in glossary definition body into single space.
 MULTISPACE = re.compile(r"\s+", re.DOTALL)
 
+# Match a Markdown heading with optional attributes.
+HEADING = re.compile(r"^(#+)\s*(.+?)(\{:\s*#(.+\b)\})?$", re.MULTILINE)
+
+# Regular expressions to match table elements.
+TABLE = re.compile(r'<div[^>]+class="table"[^>]*?>')
+TABLE_CAPTION = re.compile(r'caption="(.+?)"')
+TABLE_ID = re.compile(r'id="(.+?)"')
+TABLE_DIV = re.compile(
+    r'<div\s+caption="(.+?)"\s+class="table"\s+id="(.+?)">\s*<table>', re.DOTALL
+)
+
 
 def fail(msg):
     """Stop processing with an error message."""

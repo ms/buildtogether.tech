@@ -12,10 +12,6 @@ generates:
       <figcaption markdown="1">Figure A.1: Longer caption</figcaption>
     </figure>
 
--   `collector` walks the node tree to find these shortcodes and builds a lookup
-    table in config["mccole"]["figures"] mapping slugs to multi-part figure numbers.
-    `collector` uses the `shortcodes` library's own parsing to find uses.
-
 -   `figure_def` creates a figure. It assumes that figures have already been
     numbered by `collector`.
 
@@ -25,59 +21,11 @@ generates:
 """
 
 import shutil
-from dataclasses import dataclass
 from textwrap import dedent
 
 import ivy
 import shortcodes
 import util
-
-
-@dataclass
-class Figure:
-    """Keep track of information about a figure."""
-
-    node: ivy.nodes.Node = None
-    fileslug: str = ""
-    slug: str = ""
-    img: str = ""
-    alt: str = ""
-    caption: str = ""
-    number: tuple = ()
-    width: str = ""
-
-
-@ivy.events.register(ivy.events.Event.INIT)
-def collector():
-    """Collect information about figures."""
-    # Get per-node information.
-    collected = {}
-    ivy.nodes.root().walk(lambda node: _collect(node, collected))
-
-    # Convert to flat lookup table.
-    major = util.make_major()
-    figures = util.make_config("figures")
-    for fileslug in collected:
-        if fileslug in major:
-            for (i, entry) in enumerate(collected[fileslug]):
-                entry.fileslug = fileslug
-                entry.number = (str(major[fileslug]), str(i + 1))
-                figures[entry.slug] = entry
-
-
-def _collect(node, collected):
-    """Collect information from node."""
-
-    def _collect_one(pargs, kwargs, seen):
-        seen.append(Figure(node, **kwargs))
-        return ""
-
-    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
-    parser.register(_collect_one, "figure")
-
-    seen = []
-    parser.parse(node.text, seen)
-    collected[node.slug] = seen
 
 
 @shortcodes.register("figure")

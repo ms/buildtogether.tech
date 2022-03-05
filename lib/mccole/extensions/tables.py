@@ -16,11 +16,8 @@ so instead tables are represented as:
     | 1 | 2 |
     </div>
 
--   `collector` walks the node tree to find these div's and builds a lookup table
-    in config["mccole"]["tables"] mapping slugs to multi-part table numbers.
-
--   `table_ref` uses that information to fill in table reference shortcodes of
-    the form `[% t slug %]`.  It assumes there is a language defined by
+-   `table_ref` uses collected information to fill in table reference shortcodes
+    of the form `[% t slug %]`.  It assumes there is a language defined by
     `config["lang"]` that matches a language in `util.TRANSLATIONS`
 
 -   `table_caption` modifies the generated HTML to turn:
@@ -47,57 +44,6 @@ from dataclasses import dataclass
 import ivy
 import shortcodes
 import util
-
-
-@dataclass
-class Table:
-    """Keep track of information about a single table."""
-
-    fileslug: str = ""
-    slug: str = ""
-    caption: str = ""
-    number: tuple = ()
-
-
-# Regular expressions to match table elements.
-TABLE = re.compile(r'<div[^>]+class="table"[^>]*?>')
-TABLE_CAPTION = re.compile(r'caption="(.+?)"')
-TABLE_ID = re.compile(r'id="(.+?)"')
-TABLE_DIV = re.compile(
-    r'<div\s+caption="(.+?)"\s+class="table"\s+id="(.+?)">\s*<table>', re.DOTALL
-)
-
-
-@ivy.events.register(ivy.events.Event.INIT)
-def collector():
-    """Collect information about tables."""
-    # Get per-node information.
-    collected = {}
-    ivy.nodes.root().walk(lambda node: _collect(node, collected))
-
-    # Convert to flat lookup table.
-    major = util.make_major()
-    tables = util.make_config("tables")
-    for fileslug in collected:
-        if fileslug in major:
-            for (i, entry) in enumerate(collected[fileslug]):
-                entry.number = (str(major[fileslug]), str(i + 1))
-                tables[entry.slug] = entry
-
-
-def _collect(node, collected):
-    """Collect table information from a single node."""
-    collected[node.slug] = []
-    for (i, match) in enumerate(TABLE.finditer(node.text)):
-        if (caption := TABLE_CAPTION.search(match.group(0))) is None:
-            util.fail(
-                f"Table div '{match.group(0)}' without caption in {node.filepath}"
-            )
-        if (slug := TABLE_ID.search(match.group(0))) is None:
-            util.fail(f"Table div '{match.group(0)}' without ID in {node.filepath}")
-        collected[node.slug].append(
-            Table(fileslug=node.slug, caption=caption.group(1), slug=slug.group(1))
-        )
 
 
 @shortcodes.register("t")
@@ -131,4 +77,4 @@ def table_caption(text, node):
         label = util.make_label("table", table.number)
         return f'<div class="table"><table id="{slug}"><caption>{label}: {caption}</caption>'
 
-    return TABLE_DIV.sub(_replace, text)
+    return util.TABLE_DIV.sub(_replace, text)

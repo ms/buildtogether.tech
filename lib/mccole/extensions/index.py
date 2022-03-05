@@ -28,33 +28,6 @@ def index_ref(pargs, kwargs, node, content):
     return f'<span class="indexref" key="{joined}" markdown="1">{content}</span>'
 
 
-@ivy.events.register(ivy.events.Event.INIT)
-def collector():
-    """Collect index information."""
-    # Gather information from a single index entry.
-    # `extra` is the pair `(node, accum)`, where `accum` is a dict
-    # from index keys to file slugs.
-    def _collect_one(pargs, kwargs, extra, content):
-        node, accum = extra
-        if not pargs:
-            util.fail(f"Empty index key in {node.filepath}")
-        for entry in [key.strip() for key in pargs]:
-            entry = util.MULTISPACE.sub(" ", entry)
-            entry = tuple(s.strip() for s in entry.split("!") if s.strip())
-            if 1 <= len(entry) <= 2:
-                accum.setdefault(entry, set()).add(node.slug)
-            else:
-                util.fail(f"Badly-formatted index key {entry} in {node.filepath}")
-
-    # Create a parser to handle index entries.
-    parser = shortcodes.Parser(inherit_globals=False, ignore_unknown=True)
-    parser.register(_collect_one, "i", "/i")
-
-    # Collect index entries.
-    index = util.make_config("index")
-    ivy.nodes.root().walk(lambda node: parser.parse(node.text, (node, index)))
-
-
 @shortcodes.register("index")
 def make_index(pargs, kwargs, node):
     """Handle [% index %] using saved data."""
