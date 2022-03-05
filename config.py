@@ -77,14 +77,14 @@ appendices = [
 ]
 
 # BibTeX bibliography file and style.
-bibliography = "bibliography.bib"
+bibliography = "data/bibliography.bib"
 bibliography_style = "unsrt"
 
 # Glossary definitions.
-glossary = "glossary.yml"
+glossary = "data/glossary.yml"
 
 # Link table file.
-links = "links.yml"
+links = "data/links.yml"
 
 # Footer entries are (link, title).
 footer = [
