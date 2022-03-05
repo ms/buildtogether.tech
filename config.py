@@ -73,6 +73,7 @@ appendices = [
     "rules-freelance",
     "rules-change",
     "authors",
+    "contents",
 ]
 
 # BibTeX bibliography file and style.
