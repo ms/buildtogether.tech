@@ -38,6 +38,11 @@ reformat:
 	@isort .
 	@black .
 
+## spelling: compare words with known problems
+.PHONY: spelling
+spelling:
+	@cat docs/*.html docs/*/*.html | aspell -H list | bin/diffset data/words.txt
+
 ## clean: remove junk files
 .PHONY: clean
 clean:

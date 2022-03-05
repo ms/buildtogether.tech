@@ -214,7 +214,7 @@ misunderstandings that remain are entirely our fault.
 - [Andreas Zeller](https://andreas-zeller.info/)
 
 Portions of this book are adapted from material that originally appeared in
-[% b Sholler2019 Wilson2019 Irving2021 Smalls2021 %]; I'm grateful to [% i "Taylor & Francis" %][Taylor & Francis][taylor-francis][% /i %], [% i "PLOS" %][PLOS][plos][% /i %], and my co-authors for making available under open
+[% b Sholler2019 Wilson2019 Irving2021 Smalls2021 %]; I'm grateful to [% i "Taylor & Francis" %][Taylor & Francis][taylor-francis][% /i %], [% i "PLoS" %][PLoS][plos][% /i %], and my co-authors for making available under open
 licenses.  I would also like to thank [% i "Graf, David" %]David Graf[% /i %]
 for [% i "doi2bib" %][doi2bib][doi2bib][% /i %] and [% i "Elbakyan,
 Alexander" %]Alexandra Elbakyan[% /i %] for [% i "Sci-Hub" %][Sci-Hub][sci-hub][% /i %]; this book would have been much harder to
