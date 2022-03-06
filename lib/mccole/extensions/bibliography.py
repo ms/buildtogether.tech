@@ -8,6 +8,9 @@ and the bibliography style is named in config["bibliography_style"].
     assumes that the bibliography is in `@root/bibliography/index.html`.)
 
 -   `bibliography` creates an HTML bibliography using Pybtex.
+
+-   `check` checks that all citations are defined and that all bibliography
+    entries are referenced.
 """
 
 import ivy

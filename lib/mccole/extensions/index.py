@@ -7,6 +7,12 @@ If some text is in both the glossary and the index, wrap the index shortcode
 around the glossary shortcode:
 
     [% i "some" %][% g key %]some text[% /g %][% /i %]
+
+-   `index_ref` turns an index reference shortcode into text.
+
+-   `make_index` displays the entire index.
+
+-   `collect` gathers all index information for display.
 """
 
 import ivy

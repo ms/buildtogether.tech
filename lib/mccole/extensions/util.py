@@ -1,4 +1,4 @@
-"""McCole extension utilities."""
+"""McCole utility functions."""
 
 import os
 import re
@@ -6,7 +6,7 @@ import sys
 
 import ivy
 
-# Multilingual terms.
+# Translations of multilingual terms.
 TRANSLATIONS = {
     "en": {
         "appendix": "Appendix",
@@ -26,7 +26,9 @@ TRANSLATIONS = {
     },
 }
 
-# Configuration sections and default values.
+# Configuration sections and their default values.
+# These are added to the config dynamically under the `mccole` key,
+# i.e., `"figures"` becomes `ivy.site.config["mccole"]["figures"]`.
 CONFIGURATIONS = {
     "bibliography": set(),  # bibliography entries
     "citations": set(),  # references to bibliography entries
@@ -40,13 +42,13 @@ CONFIGURATIONS = {
     "tables": {},  # numbered tables
 }
 
-# Regex to turn multiple spaces in glossary definition body into single space.
+# Regex to turn multiple whitespace characters into a single space.
 MULTISPACE = re.compile(r"\s+", re.DOTALL)
 
-# Match a Markdown heading with optional attributes.
+# Regex to match a Markdown heading with optional attributes.
 HEADING = re.compile(r"^(#+)\s*(.+?)(\{:\s*#(.+\b)\})?$", re.MULTILINE)
 
-# Regular expressions to match table elements.
+# Regex to match table elements. (See `tables.py` for explanation.)
 TABLE = re.compile(r'<div[^>]+class="table"[^>]*?>')
 TABLE_CAPTION = re.compile(r'caption="(.+?)"')
 TABLE_ID = re.compile(r'id="(.+?)"')
@@ -57,11 +59,16 @@ TABLE_DIV = re.compile(
 
 def fail(msg):
     """Stop processing with an error message."""
-    sys.exit(msg)
+    print(msg, file=sys.stderr)
+    sys.exit(1)
 
 
 def get_config(part):
-    """Get configuration subsection or None."""
+    """Get McCole configuration subsection or `None`.
+
+    A result of `None` indicates that the request is being made
+    too early in the processing cycle.
+    """
     if part not in CONFIGURATIONS:
         fail(f"Unknown configuration section '{part}'")
     mccole = ivy.site.config.setdefault("mccole", {})
@@ -69,7 +76,11 @@ def get_config(part):
 
 
 def make_config(part, filler=None):
-    """Make configuration subsection."""
+    """Make McCole configuration subsection.
+
+    If `filler` is not `None`, it is used as the initial value.
+    Otherwise, the value from `CONFIGURATIONS` is used.
+    """
     if part not in CONFIGURATIONS:
         fail(f"Unknown configuration section '{part}'")
     filler = filler if (filler is not None) else CONFIGURATIONS[part]
@@ -84,7 +95,7 @@ def make_copy_paths(node, filename):
 
 
 def make_label(kind, number):
-    """Create a figure label with a name and number."""
+    """Create numbered labels for figures, tables, and document parts."""
     translations = TRANSLATIONS[ivy.site.config["lang"]]
     if kind == "figure":
         name = translations["figure"]
@@ -105,7 +116,11 @@ def make_label(kind, number):
 
 
 def make_major():
-    """Construct major numbers/letters based on configuration."""
+    """Construct major numbers/letters based on configuration.
+
+    This function relies on the configuration containing `"chapters"`
+    and `"appendices"`, which must be lists of slugs.
+    """
     chapters = {slug: i + 1 for (i, slug) in enumerate(ivy.site.config["chapters"])}
     appendices = {
         slug: chr(ord("A") + i)
@@ -115,6 +130,7 @@ def make_major():
 
 
 def report(title, items):
+    """Report missing or superfluous items (if any)."""
     if not items:
         return
     print(title)

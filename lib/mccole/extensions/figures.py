@@ -12,12 +12,18 @@ generates:
       <figcaption markdown="1">Figure A.1: Longer caption</figcaption>
     </figure>
 
+-   Each instance of the `Figure` class stores information about a single figure.
+
 -   `figure_def` creates a figure. It assumes that figures have already been
     numbered by `collector`.
 
 -   `figure_ref` creates a figure cross-reference. It also assumes that figures have
     already been numbered by `collector`, and that there is a language defined by
     `config["lang"]` that matches a language in `util.TRANSLATIONS`.
+
+-   `copy_files` copies figure files from the source directory to the destination.
+
+-   `collect` extracts information about figures from source files.
 """
 
 import shutil

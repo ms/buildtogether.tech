@@ -7,7 +7,7 @@ In a better world than this, tables would be represented in Markdown as:
     | 1 | 2 |
     {: #slug caption="Some words"}
 
-However, the Markdown parser doesn't seem to accept attribute lists on tables,
+However, the Markdown parser doesn't accept attribute lists on tables,
 so instead tables are represented as:
 
     <div class="table" id="slug" caption="Some words" markdown="1">
@@ -15,6 +15,8 @@ so instead tables are represented as:
     | - | - |
     | 1 | 2 |
     </div>
+
+-   Each instance of the `Table` class stores information about a single table.
 
 -   `table_ref` uses collected information to fill in table reference shortcodes
     of the form `[% t slug %]`.  It assumes there is a language defined by
@@ -36,6 +38,8 @@ so instead tables are represented as:
         ...
         </table>
         </div>
+
+-   `collect` scans Markdown files to find tables and number them.
 """
 
 from dataclasses import dataclass

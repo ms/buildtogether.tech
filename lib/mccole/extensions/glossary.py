@@ -9,6 +9,9 @@ file referenced by config["glossary"].
 -   `glossary` turns `[% glossary %]` into an HTML glossary.  It requires a
     configuration key `config["lang"]`, and expects every glossary entry to have
     a definition keyed by that language.
+
+-   `check` checks that all glossary entries are defined and that all definitions
+    are referenced.
 """
 
 import re

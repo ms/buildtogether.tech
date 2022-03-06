@@ -3,11 +3,15 @@
 This code collects and numbers headings in source files, and provides
 a shortcode for creating cross-references to them.
 
--   `[% x slug %]` creates a named cross-reference to a chapter, appendix,
-    or section.  It requires names for these terms in `util.TRANSLATIONS`,
-    and assumes cross-reference information has already been collected.
+-   Each instance of the `Heading` class stores information about a single
+    heading.
 
--   Rather than running the Markdown parser on each source file and looking
+-   `section_ref` turns `[% x slug %]` into a chapter, appendix, or section.
+    It requires names for these terms in `util.TRANSLATIONS`, and assumes
+    cross-reference information has already been collected.
+
+-   `collect` gathers information about headings from Markdown files.
+    Rather than running the Markdown parser on each source file and looking
     for heading tokens, this code uses a regular expression to find
     headings with attribute lists containing IDs:
 

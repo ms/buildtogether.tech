@@ -9,8 +9,8 @@ links triples:
 
 and then add `links = "filename.yml"` entry to `config.py`.
 
--   The `[% links %]` shortcode turns this into an HTML table showing
-    the descriptions and URLs.
+-   `links_table` turns the `[% links %]` shortcode into an HTML table
+    showing the descriptions and URLs.
 
 -   `links_append` turns these into a Markdown links table:
 
