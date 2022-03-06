@@ -4,7 +4,7 @@
 theme = "mccole"
 
 # Enable various Markdown extensions.
-markdown_settings = {"extensions": ["markdown.extensions.extra"]}
+markdown_settings = {"extensions": ["markdown.extensions.extra", "markdown.extensions.codehilite"]}
 
 # Site title.
 title = "Building Software Together"

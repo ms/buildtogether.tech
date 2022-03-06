@@ -5,6 +5,7 @@
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
 <link rel="icon" type="image/x-icon" href="../files/favicon.ico">
 <link rel="stylesheet" href="../mccole.css">
+<link rel="stylesheet" href="../codehilite-tango.css">
 
     <title>Building Software Together: Using Git On Your Own</title>
   </head>
@@ -108,9 +109,10 @@ activity. Adding two more commands to set things up produces a toolkit that uses
 Git as a file backup system.</p>
 <p>The first step is to make sure that <span class="indexref" key="Git!configuring" markdown="1">Git knows who
 we</span> are by telling it our name and email address:</p>
-<pre class="language-sh"><code class="language-sh">$ git config --global user.name &quot;Peggy Springsteen&quot;
-$ git config --global user.email &quot;peggy@wolframhart.org&quot;
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git config --global user.name <span class="s2">&quot;Peggy Springsteen&quot;</span>
+$ git config --global user.email <span class="s2">&quot;peggy@wolframhart.org&quot;</span>
+</code></pre></div>
+
 <p>Breaking this down:</p>
 <ul>
 <li>
@@ -156,8 +158,9 @@ won't use <code>git init</code>. Instead, you will use <code>git clone</code> fo
 project's URL to get a local copy called a <span class="indexref" key="Git!cloning project" markdown="1"><a class="glossref" href="../glossary/#clone_git" markdown="1">clone</a></span>.
 For example, if you want a clone of this book, you can do
 this:</p>
-<pre class="language-sh"><code class="language-sh">$ git clone https://github.com/gvwilson/buildtogether.tech.git
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git clone https://github.com/gvwilson/buildtogether.tech.git
+</code></pre></div>
+
 <!-- continue -->
 <p>This will create a directory with the same name as the project, create a <code>.git</code>
 sub-directory inside it, and download the project's history so that you can
@@ -165,28 +168,30 @@ start work.</p>
 <p>Regardless of how you create your repository, you can use <code>git log</code> to look at
 its <span class="indexref" key="Git!history" markdown="1">history</span>. If I run this command right now for
 this book, I get:</p>
-<pre class="language-sh"><code class="language-sh">$ git log
-</code></pre>
-<pre class="language-out"><code class="language-out">commit d4351c4f093f60d03f303737b66b28ebb6b9ed45
-Author: Greg Wilson &lt;gvwilson@third-bit.com&gt;
-Date:   Fri Feb 19 09:48:37 2021 -0500
+<div class="codehilite"><pre><span></span><code>$ git log
+</code></pre></div>
 
-    Writing the first section of the chapter on version control.
+<div class="codehilite"><pre><span></span><code><span class="k">commit</span><span class="w"> </span><span class="n">d4351c4f093f60d03f303737b66b28ebb6b9ed45</span><span class="w"></span>
+<span class="nl">Author</span><span class="p">:</span><span class="w"> </span><span class="n">Greg</span><span class="w"> </span><span class="n">Wilson</span><span class="w"> </span><span class="o">&lt;</span><span class="n">gvwilson</span><span class="nv">@third</span><span class="o">-</span><span class="nc">bit</span><span class="p">.</span><span class="n">com</span><span class="o">&gt;</span><span class="w"></span>
+<span class="nc">Date</span><span class="err">:</span><span class="w">   </span><span class="n">Fri</span><span class="w"> </span><span class="n">Feb</span><span class="w"> </span><span class="mi">19</span><span class="w"> </span><span class="mi">09</span><span class="err">:</span><span class="mi">48</span><span class="err">:</span><span class="mi">37</span><span class="w"> </span><span class="mi">2021</span><span class="w"> </span><span class="o">-</span><span class="mi">0500</span><span class="w"></span>
 
-commit 80d38a8cbf650431fe4719ec768bd890e00c7431
-Author: Greg Wilson &lt;gvwilson@third-bit.com&gt;
-Date:   Thu Feb 18 11:21:00 2021 -0500
+<span class="w">    </span><span class="n">Writing</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">first</span><span class="w"> </span><span class="k">section</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">chapter</span><span class="w"> </span><span class="k">on</span><span class="w"> </span><span class="n">version</span><span class="w"> </span><span class="n">control</span><span class="p">.</span><span class="w"></span>
 
-    Adding more citations to the description of team formation.
+<span class="k">commit</span><span class="w"> </span><span class="mi">80</span><span class="n">d38a8cbf650431fe4719ec768bd890e00c7431</span><span class="w"></span>
+<span class="nl">Author</span><span class="p">:</span><span class="w"> </span><span class="n">Greg</span><span class="w"> </span><span class="n">Wilson</span><span class="w"> </span><span class="o">&lt;</span><span class="n">gvwilson</span><span class="nv">@third</span><span class="o">-</span><span class="nc">bit</span><span class="p">.</span><span class="n">com</span><span class="o">&gt;</span><span class="w"></span>
+<span class="nc">Date</span><span class="err">:</span><span class="w">   </span><span class="n">Thu</span><span class="w"> </span><span class="n">Feb</span><span class="w"> </span><span class="mi">18</span><span class="w"> </span><span class="mi">11</span><span class="err">:</span><span class="mi">21</span><span class="err">:</span><span class="mi">00</span><span class="w"> </span><span class="mi">2021</span><span class="w"> </span><span class="o">-</span><span class="mi">0500</span><span class="w"></span>
 
-commit 6e30bd5e5af2c3491f25f014c03d5e9ff5c79879
-Author: Greg Wilson &lt;gvwilson@third-bit.com&gt;
-Date:   Wed Feb 17 20:48:04 2021 -0500
+<span class="w">    </span><span class="n">Adding</span><span class="w"> </span><span class="n">more</span><span class="w"> </span><span class="n">citations</span><span class="w"> </span><span class="k">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">description</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">team</span><span class="w"> </span><span class="n">formation</span><span class="p">.</span><span class="w"></span>
 
-    Moving the discussion of code review into its own chapter.
+<span class="k">commit</span><span class="w"> </span><span class="mf">6e30</span><span class="n">bd5e5af2c3491f25f014c03d5e9ff5c79879</span><span class="w"></span>
+<span class="nl">Author</span><span class="p">:</span><span class="w"> </span><span class="n">Greg</span><span class="w"> </span><span class="n">Wilson</span><span class="w"> </span><span class="o">&lt;</span><span class="n">gvwilson</span><span class="nv">@third</span><span class="o">-</span><span class="nc">bit</span><span class="p">.</span><span class="n">com</span><span class="o">&gt;</span><span class="w"></span>
+<span class="nc">Date</span><span class="err">:</span><span class="w">   </span><span class="n">Wed</span><span class="w"> </span><span class="n">Feb</span><span class="w"> </span><span class="mi">17</span><span class="w"> </span><span class="mi">20</span><span class="err">:</span><span class="mi">48</span><span class="err">:</span><span class="mi">04</span><span class="w"> </span><span class="mi">2021</span><span class="w"> </span><span class="o">-</span><span class="mi">0500</span><span class="w"></span>
 
-...
-</code></pre>
+<span class="w">    </span><span class="n">Moving</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">discussion</span><span class="w"> </span><span class="k">of</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="n">review</span><span class="w"> </span><span class="k">into</span><span class="w"> </span><span class="n">its</span><span class="w"> </span><span class="n">own</span><span class="w"> </span><span class="n">chapter</span><span class="p">.</span><span class="w"></span>
+
+<span class="p">...</span><span class="w"></span>
+</code></pre></div>
+
 <p>Each entry has:</p>
 <ul>
 <li>
@@ -215,8 +220,9 @@ Date:   Wed Feb 17 20:48:04 2021 -0500
 <p>All right: what are <span class="indexref" key="commit (version control);Git!commit" markdown="1"><a class="glossref" href="../glossary/#commit" markdown="1">commits</a></span> and where do they come from? A commit is a snapshot
 of the project at a particular moment in time; we create them using a command
 like:</p>
-<pre class="language-sh"><code class="language-sh">$ git commit -m &quot;Made the status bar display the user name&quot;
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git commit -m <span class="s2">&quot;Made the status bar display the user name&quot;</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>Here, <code>commit</code> is the verb and the <code>-m</code> (short for "message") option is followed
 by the comment we want to save in the log.</p>
@@ -235,8 +241,9 @@ One of the many reasons you should interact with Git through a GUI is to avoid t
 </blockquote>
 <p>Before we run <code>git commit</code>, though, we need to tell Git which files we want to
 save in the commit, which we do using <code>git add</code>:</p>
-<pre class="language-sh"><code class="language-sh">$ git add version-control.md _data/glossary.yml
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git add version-control.md _data/glossary.yml
+</code></pre></div>
+
 <!-- continue -->
 <p><span class="indexref" key="Git!difference between add and commit" markdown="1">One way to think about
 this</span> is that <code>git add</code> puts things in a box to be shipped, while <code>git
@@ -253,15 +260,16 @@ committing.</p>
 files</span> by putting their names, or patterns that match multiple names, in a
 file called <code>.gitignore</code>.  For example, the <code>.gitignore</code> file for this project
 includes:</p>
-<pre class="language-txt"><code class="language-txt">*.pyc
-*~
-.DS_Store
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-__pycache__
-_site
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="err">*</span><span class="na">.pyc</span><span class="w"></span>
+<span class="err">*~</span><span class="w"></span>
+<span class="na">.DS_Store</span><span class="w"></span>
+<span class="na">.jekyll-cache</span><span class="w"></span>
+<span class="na">.jekyll-metadata</span><span class="w"></span>
+<span class="na">.sass-cache</span><span class="w"></span>
+<span class="nf">__pycache__</span><span class="w"></span>
+<span class="nf">_site</span><span class="w"></span>
+</code></pre></div>
+
 <p>Be careful not to put files containing passwords or <a class="glossref" href="../glossary/#api_key" markdown="1">API
 keys</a> for web services into version control: even if the repository is
 private now, it might be public in future, or the team might grow to include
@@ -270,22 +278,24 @@ someone who shouldn't have access (<a href="../security/">Chapter 13</a>).</p>
 <p>We can keep track of which changes haven't yet been added and which ones have
 using <span class="indexref" key="Git!showing status" markdown="1"><code>git status</code></span>. If I run this command
 right now in this book's project I get:</p>
-<pre class="language-sh"><code class="language-sh">$ git status
-</code></pre>
-<pre class="language-out"><code class="language-out">On branch main
-Your branch is up to date with 'origin/main'.
+<div class="codehilite"><pre><span></span><code>$ git status
+</code></pre></div>
 
-Changes to be committed:
-  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
-    modified:   _includes/links.md
-    modified:   bibliography.md
-    modified:   version-control.md
+<div class="codehilite"><pre><span></span><code><span class="nv">On</span> <span class="nv">branch</span> <span class="nv">main</span>
+<span class="nv">Your</span> <span class="nv">branch</span> <span class="nv">is</span> <span class="nv">up</span> <span class="nv">to</span> <span class="nv">date</span> <span class="nv">with</span> <span class="s1">&#39;</span><span class="s">origin/main</span><span class="s1">&#39;</span>.
 
-Changes not staged for commit:
-  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
-  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
-    modified:   version-control.md
-</code></pre>
+<span class="nv">Changes</span> <span class="nv">to</span> <span class="nv">be</span> <span class="nv">committed</span>:
+  <span class="ss">(</span><span class="nv">use</span> <span class="s2">&quot;</span><span class="s">git restore --staged &lt;file&gt;...</span><span class="s2">&quot;</span> <span class="nv">to</span> <span class="nv">unstage</span><span class="ss">)</span>
+    <span class="nv">modified</span>:   <span class="nv">_includes</span><span class="o">/</span><span class="nv">links</span>.<span class="nv">md</span>
+    <span class="nv">modified</span>:   <span class="nv">bibliography</span>.<span class="nv">md</span>
+    <span class="nv">modified</span>:   <span class="nv">version</span><span class="o">-</span><span class="nv">control</span>.<span class="nv">md</span>
+
+<span class="nv">Changes</span> <span class="nv">not</span> <span class="nv">staged</span> <span class="k">for</span> <span class="nv">commit</span>:
+  <span class="ss">(</span><span class="nv">use</span> <span class="s2">&quot;</span><span class="s">git add &lt;file&gt;...</span><span class="s2">&quot;</span> <span class="nv">to</span> <span class="nv">update</span> <span class="nv">what</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">committed</span><span class="ss">)</span>
+  <span class="ss">(</span><span class="nv">use</span> <span class="s2">&quot;</span><span class="s">git restore &lt;file&gt;...</span><span class="s2">&quot;</span> <span class="nv">to</span> <span class="nv">discard</span> <span class="nv">changes</span> <span class="nv">in</span> <span class="nv">working</span> <span class="nv">directory</span><span class="ss">)</span>
+    <span class="nv">modified</span>:   <span class="nv">version</span><span class="o">-</span><span class="nv">control</span>.<span class="nv">md</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>The first paragraph titled "Changes to be committed" tells me which files I have
 asked Git to save using <code>git add</code>. The second paragraph, "Changes not staged for
@@ -299,8 +309,9 @@ original motivation for version control systems, and is still one of the main
 reasons people use them. For example, if I want to get the version of this file
 from two days ago, I can use <code>git log</code> to find the commit ID <code>2be70844</code>, and
 then run:</p>
-<pre class="language-sh"><code class="language-sh">$ git restore --source 2be70844 version-control.md
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git restore --source 2be70844 version-control.md
+</code></pre></div>
+
 <!-- continue -->
 <p>I can also count backward from where I am now.  The most recent commit has the
 special <span class="indexref" key="Git!HEAD" markdown="1">symbolic name <code>HEAD</code></span>; the expression <code>HEAD~1</code>
@@ -314,11 +325,13 @@ created the repository by cloning something on GitHub, then Git will
 automatically have created a bookmark called a
 <span class="indexref" key="Git!remote;remote (in Git)" markdown="1"><a class="glossref" href="../glossary/#remote_git" markdown="1">remote</a></span> that points
 at the original repository. I can get a list of remotes like this:</p>
-<pre class="language-sh"><code class="language-sh">$ git remote -v
-</code></pre>
-<pre class="language-out"><code class="language-out">origin  https://github.com/gvwilson/buildtogether.tech.git (fetch)
+<div class="codehilite"><pre><span></span><code>$ git remote -v
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>origin  https://github.com/gvwilson/buildtogether.tech.git (fetch)
 origin  https://github.com/gvwilson/buildtogether.tech.git (push)
-</code></pre>
+</code></pre></div>
+
 <!-- continue -->
 <p>The <code>-v</code> option (short for "verbose") tells Git to print more than just the
 remote's name. The remote itself is called <code>origin</code>, and Git lists two URLs for
@@ -329,8 +342,9 @@ once needed this feature.)</p>
 backup tool like <a href="https://dropbox.com">Dropbox</a> is that Git <em>doesn't</em> automatically
 synchronize local changes to the remote repository.  If I want to <span class="indexref" key="Git!saving changes remotely" markdown="1">save</span> everything I've done locally on
 GitHub, I have to push them explicitly:</p>
-<pre class="language-sh"><code class="language-sh">$ git push origin main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git push origin main
+</code></pre></div>
+
 <!-- continue -->
 <p>The verb is <code>push</code>; the word <code>origin</code> identifies where I want to send things,
 and the word <code>main</code> identifies the branch I'm on.  We'll discuss branches in the
@@ -338,8 +352,9 @@ next section, but for now, you can run <code>git branch</code> to see which ones
 and which one you're working in.</p>
 <p>The counterpart of <code>git push</code> is <code>git pull</code>. It downloads changes from the
 remote repository and merges them into your local copy:</p>
-<pre class="language-sh"><code class="language-sh">$ git pull origin main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git pull origin main
+</code></pre></div>
+
 <p>Pushing and pulling changes allows you and your teammates to synchronize your
 work. They're also very useful operations if you're working on your own and
 using two or more computers (such as a personal laptop and your school's
@@ -363,14 +378,17 @@ separate tasks in parallel.  Each branch is like a parallel timeline: changes ma
 to one branch have no effect on other branches unless and until we explicitly merge
 them.</p>
 <p>We can see what branches exist in a repository like this:</p>
-<pre class="language-sh"><code class="language-sh">$ git branch
-</code></pre>
-<pre class="language-out"><code class="language-out">* main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git branch
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>* main
+</code></pre></div>
+
 <p>When we initialize a repository, Git automatically creates a branch called
 <code>master</code>; most people now rename this to <code>main</code> by running:</p>
-<pre class="language-sh"><code class="language-sh">$ git branch -m main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git branch -m main
+</code></pre></div>
+
 <!-- continue -->
 <p>immediately after running <code>git init</code>.  The <span class="indexref" key="Git!branch names" markdown="1"><code>main</code>
 branch</span> is usually considered the "official" version of the repository,
@@ -378,24 +396,29 @@ i.e., the version of the project that should be graded or published for other
 people to use.  The asterisk <code>*</code> indicates that it is currently active, i.e.,
 that all changes we make will take place in this branch by default.</p>
 <p>To create a new branch called <code>homework3</code> we run:</p>
-<pre class="language-sh"><code class="language-sh">$ git branch homework3
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git branch homework3
+</code></pre></div>
+
 <p>The name of the branch should indicate what it's for, just like the names of
 files and variables.  We can check that the branch exists by running <code>git
 branch</code> again:</p>
-<pre class="language-sh"><code class="language-sh">$ git branch
-</code></pre>
-<pre class="language-out"><code class="language-out">* main
+<div class="codehilite"><pre><span></span><code>$ git branch
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>* main
   homework3
-</code></pre>
+</code></pre></div>
+
 <p>Our branch is there, but the <code>*</code> shows that we are still in the <code>main</code> branch.
 To switch to our new branch we use the <code>checkout</code> command:</p>
-<pre class="language-sh"><code class="language-sh">$ git checkout homework3
+<div class="codehilite"><pre><span></span><code>$ git checkout homework3
 $ git branch
-</code></pre>
-<pre class="language-out"><code class="language-out">  main
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>  main
 * homework3
-</code></pre>
+</code></pre></div>
+
 <p>We haven't made any changes since switching to the <code>homework3</code> branch, so at
 this point <code>main</code> and <code>homework3</code> are at the same point in the repository's
 history.  Commands like <code>ls</code> and <code>git log</code> therefore show that the files and
@@ -416,34 +439,37 @@ early start on homework 4, we can create a new branch from <code>main</code> cal
 doesn't change the source branch, but once it's done, all of the changes made
 there are in the destination branch.</p>
 <p>To see what the differences are between two branches, we use <span class="indexref" key="Git!viewing differences" markdown="1"><code>git diff</code></span> with those branches' names:</p>
-<pre class="language-sh"><code class="language-sh">$ git diff homework3..main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git diff homework3..main
+</code></pre></div>
+
 <!-- continue -->
 <p>More generally, we can use <code>git diff</code> to compare any two states of the
 repository, including old versions with current ones:</p>
-<pre class="language-sh"><code class="language-sh">$ git diff HEAD~3..HEAD
-</code></pre>
-<pre class="language-txt"><code class="language-txt">diff --git a/bin/html2tex.py b/bin/html2tex.py
-index 4c756f4..10efe1c 100755
---- a/bin/html2tex.py
-+++ b/bin/html2tex.py
-@@ -35,10 +35,13 @@ def html2tex(options):
-     '''Main driver.'''
-     update_numbering(options.numbering)
-     config = utils.read_yaml(options.config)
--    filenames = get_filenames(options.site, config)
-+    entries = get_filenames(options.site, config)
-     accum = []
--    for f in filenames:
--        convert_file(f, accum)
-+    for [kind, filename] in entries:
-+        if kind == 'entry':
-+            convert_file(filename, accum)
-+        elif kind == 'appendix':
-+            accum.append('\n\\appendix\n')
-     result = ''.join(accum)
-     display(options, config, result)
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git diff HEAD~3..HEAD
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code><span class="gh">diff --git a/bin/html2tex.py b/bin/html2tex.py</span><span class="w"></span>
+<span class="gh">index 4c756f4..10efe1c 100755</span><span class="w"></span>
+<span class="gd">--- a/bin/html2tex.py</span><span class="w"></span>
+<span class="gi">+++ b/bin/html2tex.py</span><span class="w"></span>
+<span class="gu">@@ -35,10 +35,13 @@ def html2tex(options):</span><span class="w"></span>
+<span class="w"> </span>    &#39;&#39;&#39;Main driver.&#39;&#39;&#39;<span class="w"></span>
+<span class="w"> </span>    update_numbering(options.numbering)<span class="w"></span>
+<span class="w"> </span>    config = utils.read_yaml(options.config)<span class="w"></span>
+<span class="gd">-    filenames = get_filenames(options.site, config)</span><span class="w"></span>
+<span class="gi">+    entries = get_filenames(options.site, config)</span><span class="w"></span>
+<span class="w"> </span>    accum = []<span class="w"></span>
+<span class="gd">-    for f in filenames:</span><span class="w"></span>
+<span class="gd">-        convert_file(f, accum)</span><span class="w"></span>
+<span class="gi">+    for [kind, filename] in entries:</span><span class="w"></span>
+<span class="gi">+        if kind == &#39;entry&#39;:</span><span class="w"></span>
+<span class="gi">+            convert_file(filename, accum)</span><span class="w"></span>
+<span class="gi">+        elif kind == &#39;appendix&#39;:</span><span class="w"></span>
+<span class="gi">+            accum.append(&#39;\n\\appendix\n&#39;)</span><span class="w"></span>
+<span class="w"> </span>    result = &#39;&#39;.join(accum)<span class="w"></span>
+<span class="w"> </span>    display(options, config, result)<span class="w"></span>
+</code></pre></div>
+
 <!-- continue -->
 <p>The output marks additions with a <code>+</code> and deletions with a <code>-</code>. A line that has
 changed is shown as a deletion followed by an addition, and the lines marked
@@ -460,34 +486,40 @@ If you are looking for projects to work on that people will actually use, these
 would be good ones.</p>
 </blockquote>
 <p>Once we're sure we actually want to merge changes, we do so like this:</p>
-<pre class="language-sh"><code class="language-sh">$ git merge homework3 main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git merge homework3 main
+</code></pre></div>
+
 <!-- continue -->
 <p>Git automatically creates a new commit to represent the merge.  If we now run
 <code>git diff main..homework3</code>, Git doesn't print anything because there aren't any
 differences to show.</p>
 <p>After we merge the changes from <code>homework3</code> into <code>main</code> there is no need to keep
 the <code>homework3</code> branch, so we can delete it:</p>
-<pre class="language-sh"><code class="language-sh">$ git branch -d homework3
-</code></pre>
-<pre class="language-out"><code class="language-out">Deleted branch homework3 (was 1577404).
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git branch -d homework3
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code>Deleted branch homework3 (was 1577404).
+</code></pre></div>
+
 <p>Merging <code>homework3</code> into <code>main</code> went smoothly, but if we are going to use
 branches, we must learn how to merge <span class="indexref" key="conflict (in Git);Git!conflict" markdown="1"><a class="glossref" href="../glossary/#conflict_git" markdown="1">conflicts</a></span>.  These occur when a line has been changed
 in different ways in two branches or when a file has been deleted in one branch
 but edited in the other.</p>
 <p>If the file <code>README.md</code> has been changed in both <code>main</code> and <code>homework4</code>,
 <code>git diff</code> will show the conflict:</p>
-<pre class="language-sh"><code class="language-sh">$ git diff homework4..main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git diff homework4..main
+</code></pre></div>
+
 <p>When we try to merge <code>homework4</code> into <code>main</code>, Git doesn't know which of these
 changes to keep:</p>
-<pre class="language-sh"><code class="language-sh">$ git merge homework4 main
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git merge homework4 main
+</code></pre></div>
+
 <p>After we run this command, Git has put both sets of changes into <code>README.md</code>,
 but has marked which came from where:</p>
-<pre class="language-sh"><code class="language-sh">$ cat README.md
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ cat README.md
+</code></pre></div>
+
 <p>The lines from <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> to <code>=======</code> are what was in <code>main</code>, while the
 lines from there to <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; docs</code> show what was in <code>homework4</code>.  If there were
 several conflicting regions in the same file, Git would mark each one this way.
@@ -498,16 +530,19 @@ and Git GUIs will help you view and edit these regions.</p>
 <code>homework4</code>, edit this part of the file to combine them, or write something new.
 Whatever we do, we must remove the <code>&gt;&gt;&gt;</code>, <code>===</code>, and <code>&lt;&lt;&lt;</code> markers.  Once we are
 done, we can add the file and commit the change like we would any other edit:</p>
-<pre class="language-sh"><code class="language-sh">$ git add README.md
-$ git commit -m &quot;Merging README additions&quot;
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git add README.md
+$ git commit -m <span class="s2">&quot;Merging README additions&quot;</span>
+</code></pre></div>
+
 <p>Our branch's history will now show a single sequence of commits with the <code>main</code>
 changes on top of the earlier <code>homework4</code> changes:</p>
-<pre class="language-sh"><code class="language-sh">$ git log --oneline -n 4
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git log --oneline -n <span class="m">4</span>
+</code></pre></div>
+
 <p>If we want to see what happened, we can add the <code>--graph</code> option to <code>git log</code>:</p>
-<pre class="language-sh"><code class="language-sh">$ git log --oneline --graph -n 4
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git log --oneline --graph -n <span class="m">4</span>
+</code></pre></div>
+
 <p>At this point we can delete the <code>homework</code> branch or switch back to it and do
 some more work.  Each time we switch to it, we merge changes <em>from</em> <code>main</code>
 <em>into</em> <code>homework4</code>, do our editing (while switching back to <code>main</code> or other
@@ -519,8 +554,9 @@ branches as needed to work on the code), and then merge <em>from</em> <code>home
 consecutive commits into one.  This is called
 <span class="indexref" key="Git!rebase; rebasing (in version control)" markdown="1"><a class="glossref" href="../glossary/#rebase_git" markdown="1">rebasing</a></span>,
 and can be done using:</p>
-<pre class="language-sh"><code class="language-sh">$ git rebase -i START
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ git rebase -i START
+</code></pre></div>
+
 <!-- continue -->
 <p>where <code>START</code> identifies the commit <em>before</em> the ones you want to start merging
 (i.e., the last one <em>not</em> to modify). Rebasing can go wrong in a lot of

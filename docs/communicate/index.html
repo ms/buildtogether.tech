@@ -5,6 +5,7 @@
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
 <link rel="icon" type="image/x-icon" href="../files/favicon.ico">
 <link rel="stylesheet" href="../mccole.css">
+<link rel="stylesheet" href="../codehilite-tango.css">
 
     <title>Building Software Together: Communicating</title>
   </head>
@@ -103,20 +104,21 @@ information users supply when they file a bug report tends not to be that which
 the relevant developers need the most, and most importantly, it differs in
 fairly predictable ways and for understandable reasons.  Here's one I filed for
 the duplicate file finder reviewed in <a href="../git-team/">Chapter 8</a>:</p>
-<pre class="language-txt"><code class="language-txt">id: 47                                                      # 01
-date: 2021-02-19T09:30:20+0500                              # 02
-title: Binary files are read as text files                  # 03
-type: bug                                                   # 04
-severity: low                                               # 05
-labels: utilities                                           # 06
-                                                            # 07
-The `dup.py` utility opens all files using `'r'` (for       # 08
-text) instead of `'rb'` (for binary), so any carriage       # 09
-return/newline pairs are converted to newlines only before  # 10
-the hash is calculated. This doesn't break the matching,    # 11
-since it is done consistently, but probably slows the       # 12
-program down a little.                                      # 13
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="n">id</span><span class="o">:</span><span class="w"> </span><span class="mi">47</span><span class="w">                                                      </span><span class="err">#</span><span class="w"> </span><span class="mi">01</span><span class="w"></span>
+<span class="n">date</span><span class="o">:</span><span class="w"> </span><span class="mi">2021</span><span class="o">-</span><span class="mi">02</span><span class="o">-</span><span class="mi">19</span><span class="n">T09</span><span class="o">:</span><span class="mi">30</span><span class="o">:</span><span class="mi">20</span><span class="o">+</span><span class="mi">0500</span><span class="w">                              </span><span class="err">#</span><span class="w"> </span><span class="mi">02</span><span class="w"></span>
+<span class="n">title</span><span class="o">:</span><span class="w"> </span><span class="n">Binary</span><span class="w"> </span><span class="n">files</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">read</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">text</span><span class="w"> </span><span class="n">files</span><span class="w">                  </span><span class="err">#</span><span class="w"> </span><span class="mi">03</span><span class="w"></span>
+<span class="n">type</span><span class="o">:</span><span class="w"> </span><span class="n">bug</span><span class="w">                                                   </span><span class="err">#</span><span class="w"> </span><span class="mi">04</span><span class="w"></span>
+<span class="n">severity</span><span class="o">:</span><span class="w"> </span><span class="n">low</span><span class="w">                                               </span><span class="err">#</span><span class="w"> </span><span class="mi">05</span><span class="w"></span>
+<span class="n">labels</span><span class="o">:</span><span class="w"> </span><span class="n">utilities</span><span class="w">                                           </span><span class="err">#</span><span class="w"> </span><span class="mi">06</span><span class="w"></span>
+<span class="w">                                                            </span><span class="err">#</span><span class="w"> </span><span class="mi">07</span><span class="w"></span>
+<span class="n">The</span><span class="w"> </span><span class="err">`</span><span class="n">dup</span><span class="o">.</span><span class="na">py</span><span class="err">`</span><span class="w"> </span><span class="n">utility</span><span class="w"> </span><span class="n">opens</span><span class="w"> </span><span class="n">all</span><span class="w"> </span><span class="n">files</span><span class="w"> </span><span class="n">using</span><span class="w"> </span><span class="err">`</span><span class="s1">&#39;r&#39;</span><span class="err">`</span><span class="w"> </span><span class="o">(</span><span class="k">for</span><span class="w">       </span><span class="err">#</span><span class="w"> </span><span class="mi">08</span><span class="w"></span>
+<span class="n">text</span><span class="o">)</span><span class="w"> </span><span class="n">instead</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="err">`</span><span class="s1">&#39;rb&#39;</span><span class="err">`</span><span class="w"> </span><span class="o">(</span><span class="k">for</span><span class="w"> </span><span class="n">binary</span><span class="o">),</span><span class="w"> </span><span class="n">so</span><span class="w"> </span><span class="n">any</span><span class="w"> </span><span class="n">carriage</span><span class="w">       </span><span class="err">#</span><span class="w"> </span><span class="mi">09</span><span class="w"></span>
+<span class="k">return</span><span class="o">/</span><span class="n">newline</span><span class="w"> </span><span class="n">pairs</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">converted</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">newlines</span><span class="w"> </span><span class="n">only</span><span class="w"> </span><span class="n">before</span><span class="w">  </span><span class="err">#</span><span class="w"> </span><span class="mi">10</span><span class="w"></span>
+<span class="n">the</span><span class="w"> </span><span class="n">hash</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">calculated</span><span class="o">.</span><span class="w"> </span><span class="n">This</span><span class="w"> </span><span class="n">doesn</span><span class="err">&#39;</span><span class="n">t</span><span class="w"> </span><span class="k">break</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">matching</span><span class="o">,</span><span class="w">    </span><span class="err">#</span><span class="w"> </span><span class="mi">11</span><span class="w"></span>
+<span class="n">since</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">done</span><span class="w"> </span><span class="n">consistently</span><span class="o">,</span><span class="w"> </span><span class="n">but</span><span class="w"> </span><span class="n">probably</span><span class="w"> </span><span class="n">slows</span><span class="w"> </span><span class="n">the</span><span class="w">       </span><span class="err">#</span><span class="w"> </span><span class="mi">12</span><span class="w"></span>
+<span class="n">program</span><span class="w"> </span><span class="n">down</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">little</span><span class="o">.</span><span class="w">                                      </span><span class="err">#</span><span class="w"> </span><span class="mi">13</span><span class="w"></span>
+</code></pre></div>
+
 <p>The ID on the first line is assigned by the issue tracker, an often serves as a
 shorthand name for the issue in conversation. ("Hey, is anyone working on number
 fifty-five yet?") The date is in <span class="indexref" key="issue!timestamps" markdown="1"><a class="glossref" href="../glossary/#utc" markdown="1">UTC</a></span>
@@ -273,12 +275,14 @@ search.  If you choose names for functions and variables carefully, the code
 itself will explain what it's doing when someone reads it aloud; the comments
 should therefore explain <em>why</em>, just as you would in an email.  For example,
 this is not a useful comment:</p>
-<pre class="language-py"><code class="language-py">x = x[1:] # take all but first element of list
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="c1"># take all but first element of list</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>This, on the other hand, tells the next person why we're doing it:</p>
-<pre class="language-py"><code class="language-py">threads = threads[1:] # We are already running the first thread, so save the others.
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="n">threads</span> <span class="o">=</span> <span class="n">threads</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="c1"># We are already running the first thread, so save the others.</span>
+</code></pre></div>
+
 </blockquote>
 <h2>Reporting Up</h2>
 <p>As well as reporting progress to your teammates, you may have to <span class="indexref" key="reporting!to your manager" markdown="1">report</span> it regularly to your instructor, who

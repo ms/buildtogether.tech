@@ -5,6 +5,7 @@
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
 <link rel="icon" type="image/x-icon" href="../files/favicon.ico">
 <link rel="stylesheet" href="../mccole.css">
+<link rel="stylesheet" href="../codehilite-tango.css">
 
     <title>Building Software Together: Automation</title>
   </head>
@@ -37,12 +38,13 @@ invented in 1975 by a summer intern at Bell Labs to compile programs in which
 some modules depended on others. To use it, you create a Makefile that specifies
 the dependencies between the files in your project and the commands needed to
 update them. For example:</p>
-<pre class="language-make"><code class="language-make">game.exe : game.bc graphics.bc utils.bc
+<div class="codehilite"><pre><span></span><code><span class="nf">game.exe </span><span class="o">:</span> <span class="n">game</span>.<span class="n">bc</span> <span class="n">graphics</span>.<span class="n">bc</span> <span class="n">utils</span>.<span class="n">bc</span>
         tx -E -o game.exe game.bc graphics.bc utils.bc
 
-%.bc : %.grace
+<span class="nf">%.bc </span><span class="o">:</span> %.<span class="n">grace</span>
         tx -C $&lt;
-</code></pre>
+</code></pre></div>
+
 <!-- continue -->
 <p>tells Make that <code>game.exe</code> can't be built until <code>game.bc</code>, <code>graphics.bc</code>, and
 <code>utils.bc</code> exist, and that once they do, the way to create <code>game.exe</code> is to run
@@ -72,25 +74,26 @@ syntax, but most still don't have debuggers. The <code>package.json</code> file 
 file---as the example below shows, some of its entries describe the package or
 its dependencies, while others store commands that can be re-run by typing
 things like <code>npm run test</code>:</p>
-<pre class="language-js"><code class="language-js">{
-  &quot;name&quot;: &quot;stjs&quot;,
-  &quot;version&quot;: &quot;1.0.0&quot;,
-  &quot;description&quot;: &quot;Software Design by Example&quot;,
-  &quot;type&quot;: &quot;module&quot;,
-  &quot;main&quot;: &quot;index.js&quot;,
-  &quot;scripts&quot;: {
-    &quot;ejslint&quot;: &quot;ejslint inc/*.html *.md */*.md&quot;,
-    &quot;serve&quot;: &quot;http-server docs -p 4000 --utc&quot;,
-    &quot;test&quot;: &quot;mocha */test/test-*.js&quot;
-  },
-  &quot;dependencies&quot;: {
-    &quot;argparse&quot;: &quot;^2.0.1&quot;,
-    &quot;caller&quot;: &quot;^1.0.1&quot;,
-    &quot;csv&quot;: &quot;^5.3.2&quot;,
-    ..
-  }
-}
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+  <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;stjs&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;version&quot;</span><span class="o">:</span> <span class="s2">&quot;1.0.0&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;description&quot;</span><span class="o">:</span> <span class="s2">&quot;Software Design by Example&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;module&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;main&quot;</span><span class="o">:</span> <span class="s2">&quot;index.js&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;scripts&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;ejslint&quot;</span><span class="o">:</span> <span class="s2">&quot;ejslint inc/*.html *.md */*.md&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;serve&quot;</span><span class="o">:</span> <span class="s2">&quot;http-server docs -p 4000 --utc&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;test&quot;</span><span class="o">:</span> <span class="s2">&quot;mocha */test/test-*.js&quot;</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;dependencies&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;argparse&quot;</span><span class="o">:</span> <span class="s2">&quot;^2.0.1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;caller&quot;</span><span class="o">:</span> <span class="s2">&quot;^1.0.1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;csv&quot;</span><span class="o">:</span> <span class="s2">&quot;^5.3.2&quot;</span><span class="p">,</span>
+    <span class="p">..</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
 <!-- continue -->
 <p><code>package.json</code> files have two flaws: there is no standard way to write comments
 (since <a class="glossref" href="../glossary/#json" markdown="1">JSON</a> itself doesn't have this) and there is no way
@@ -186,29 +189,30 @@ you'll stop checking in broken code…)</p>
 <p>For example, we can check every attempt to push changes to the repository for a
 Python project, and every pull request created for that repository, by putting
 these commands in a file called <code>.github/workflows/check.yml</code>:</p>
-<pre class="language-yml"><code class="language-yml">name: Check
+<div class="codehilite"><pre><span></span><code><span class="n">name</span><span class="o">:</span><span class="w"> </span><span class="n">Check</span><span class="w"></span>
 
-on: [push, pull_request]
+<span class="n">on</span><span class="o">:</span><span class="w"> </span><span class="o">[</span><span class="n">push</span><span class="o">,</span><span class="w"> </span><span class="n">pull_request</span><span class="o">]</span><span class="w"></span>
 
-jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
+<span class="n">jobs</span><span class="o">:</span><span class="w"></span>
+<span class="w">  </span><span class="n">check</span><span class="o">:</span><span class="w"></span>
+<span class="w">    </span><span class="n">runs</span><span class="o">-</span><span class="n">on</span><span class="o">:</span><span class="w"> </span><span class="n">ubuntu</span><span class="o">-</span><span class="n">latest</span><span class="w"></span>
+<span class="w">    </span><span class="n">steps</span><span class="o">:</span><span class="w"></span>
+<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">uses</span><span class="o">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">checkout</span><span class="err">@</span><span class="n">v2</span><span class="w"></span>
 
-      - name: Setup Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.9
+<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="o">:</span><span class="w"> </span><span class="n">Setup</span><span class="w"> </span><span class="n">Python</span><span class="w"></span>
+<span class="w">        </span><span class="n">uses</span><span class="o">:</span><span class="w"> </span><span class="n">actions</span><span class="o">/</span><span class="n">setup</span><span class="o">-</span><span class="n">python</span><span class="err">@</span><span class="n">v1</span><span class="w"></span>
+<span class="w">        </span><span class="k">with</span><span class="o">:</span><span class="w"></span>
+<span class="w">          </span><span class="n">python</span><span class="o">-</span><span class="n">version</span><span class="o">:</span><span class="w"> </span><span class="mf">3.9</span><span class="w"></span>
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">name</span><span class="o">:</span><span class="w"> </span><span class="n">Install</span><span class="w"> </span><span class="n">dependencies</span><span class="w"></span>
+<span class="w">        </span><span class="n">run</span><span class="o">:</span><span class="w"> </span><span class="o">|</span><span class="w"></span>
+<span class="w">          </span><span class="n">pip</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="o">-</span><span class="n">r</span><span class="w"> </span><span class="n">requirements</span><span class="o">.</span><span class="na">txt</span><span class="w"></span>
 
-      - run: black --check .
-      - run: flake8
-      - run: pytest
-</code></pre>
+<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">run</span><span class="o">:</span><span class="w"> </span><span class="n">black</span><span class="w"> </span><span class="o">--</span><span class="n">check</span><span class="w"> </span><span class="o">.</span><span class="w"></span>
+<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">run</span><span class="o">:</span><span class="w"> </span><span class="n">flake8</span><span class="w"></span>
+<span class="w">      </span><span class="o">-</span><span class="w"> </span><span class="n">run</span><span class="o">:</span><span class="w"> </span><span class="n">pytest</span><span class="w"></span>
+</code></pre></div>
+
 <p>From top to bottom:</p>
 <ul>
 <li>

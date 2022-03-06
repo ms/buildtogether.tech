@@ -5,6 +5,7 @@
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
 <link rel="icon" type="image/x-icon" href="../files/favicon.ico">
 <link rel="stylesheet" href="../mccole.css">
+<link rel="stylesheet" href="../codehilite-tango.css">
 
     <title>Building Software Together: Software Design</title>
   </head>
@@ -276,15 +277,16 @@ modification.</p>
 <p>For example, suppose that we are simulating a hospital emergency room. We could
 write the function that simulates someone's response to a cardiac arrest like
 this:</p>
-<pre class="language-py"><code class="language-py">def handle_cardiac_arrest(all_actors):
-    for actor in all_actors:
-        if actor.kind == 'nurse':
-            ...do something...
-        elif actor.kind == 'doctor':
-            ...do something else...
-        else:
-            ...do some default action...
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_cardiac_arrest</span><span class="p">(</span><span class="n">all_actors</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">actor</span> <span class="ow">in</span> <span class="n">all_actors</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">actor</span><span class="o">.</span><span class="n">kind</span> <span class="o">==</span> <span class="s1">&#39;nurse&#39;</span><span class="p">:</span>
+            <span class="o">...</span><span class="n">do</span> <span class="n">something</span><span class="o">...</span>
+        <span class="k">elif</span> <span class="n">actor</span><span class="o">.</span><span class="n">kind</span> <span class="o">==</span> <span class="s1">&#39;doctor&#39;</span><span class="p">:</span>
+            <span class="o">...</span><span class="n">do</span> <span class="n">something</span> <span class="k">else</span><span class="o">...</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="o">...</span><span class="n">do</span> <span class="n">some</span> <span class="n">default</span> <span class="n">action</span><span class="o">...</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>(The term <a class="glossref" href="../glossary/#actor" markdown="1">actor</a> is often used in simulations to mean
 "anything that can take actions".) If we want to add another kind of actor, we
@@ -293,28 +295,31 @@ another kind of event, we have to write another function <em>and</em> make sure 
 have an <code>if</code> or <code>elif</code> for kind of actor.</p>
 <p>A better design is to create a base class that defines a generic behavior for
 all actors:</p>
-<pre class="language-py"><code class="language-py">class Actor:
-    def __init__(...):
-        ...do generic setup...
-    def handle_cardiac_arrest(self):
-        pass # by default, don't do anything
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">class</span> <span class="nc">Actor</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
+        <span class="o">...</span><span class="n">do</span> <span class="n">generic</span> <span class="n">setup</span><span class="o">...</span>
+    <span class="k">def</span> <span class="nf">handle_cardiac_arrest</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span> <span class="c1"># by default, don&#39;t do anything</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>and then derive one class for each type of actor:</p>
-<pre class="language-py"><code class="language-py">class Nurse(Actor):
-    def handle_cardiac_arrest(self):
-        ...do something...
+<div class="codehilite"><pre><span></span><code><span class="k">class</span> <span class="nc">Nurse</span><span class="p">(</span><span class="n">Actor</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">handle_cardiac_arrest</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="o">...</span><span class="n">do</span> <span class="n">something</span><span class="o">...</span>
 
-class Doctor(Actor):
-    def handle_cardiac_arrest(self):
-        ...do something else...
-</code></pre>
+<span class="k">class</span> <span class="nc">Doctor</span><span class="p">(</span><span class="n">Actor</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">handle_cardiac_arrest</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="o">...</span><span class="n">do</span> <span class="n">something</span> <span class="k">else</span><span class="o">...</span>
+</code></pre></div>
+
 <p>We can then ask each actor to handle the cardiac arrest however they're supposed
 to:</p>
-<pre class="language-py"><code class="language-py">def handle_cardiac_arrest(all_actors):
-    for actor in all_actors:
-        actor.handle_cardiac_arrest()
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_cardiac_arrest</span><span class="p">(</span><span class="n">all_actors</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">actor</span> <span class="ow">in</span> <span class="n">all_actors</span><span class="p">:</span>
+        <span class="n">actor</span><span class="o">.</span><span class="n">handle_cardiac_arrest</span><span class="p">()</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>If we want to add another kind of actor, we derive another class from <code>Actor</code>
 and override methods to give it the behaviors we want: the general
@@ -324,16 +329,17 @@ need to define a default response to it by adding a method to <code>Actor</code>
 override that method for the specific kinds of actors that have different
 behaviors. A more sophisticated design would define classes to represent events
 and select a method to call based on the event:</p>
-<pre class="language-py"><code class="language-py">class Actor:
-    def __init__(...):
-        ...do generic setup...
-    def handle_event(self, event):
-        if self.has_handler_for(event):
-            handler = self.get_handler_for(event)
-            handler(event)
-        else:
-            self.default_action(event)
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">class</span> <span class="nc">Actor</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="o">...</span><span class="p">):</span>
+        <span class="o">...</span><span class="n">do</span> <span class="n">generic</span> <span class="n">setup</span><span class="o">...</span>
+    <span class="k">def</span> <span class="nf">handle_event</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">has_handler_for</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+            <span class="n">handler</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_handler_for</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+            <span class="n">handler</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">default_action</span><span class="p">(</span><span class="n">event</span><span class="p">)</span>
+</code></pre></div>
+
 <p>This design makes it harder to figure out exactly who's doing what, but ensures
 that we can add new actors <em>and</em> new events without having to go back and change
 old code.</p>
@@ -449,31 +455,34 @@ next chapter: security.</p>
 in mind makes packaging a lot easier.  In Python, for example, a package
 consists of one or more Python source files in a specific directory structure
 like this:</p>
-<pre class="language-txt"><code class="language-txt">pkg_name
+<div class="codehilite"><pre><span></span><code>pkg_name
 +-- pkg_name
 |   +-- module1.py
 |   +-- module2.py
 +-- README.md
 +-- setup.py
-</code></pre>
+</code></pre></div>
+
 <p>The top-level directory is named after the package.  It contains a directory
 that is also named after the package, which contains the package's source files.
 To turn this into an installable package, we put the following in <code>setup.py</code>:</p>
-<pre class="language-py"><code class="language-py">from setuptools import setup
+<div class="codehilite"><pre><span></span><code><span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
 
-setup(
-    name='pkg_name',
-    author='Some Name',
-    version='0.1.0',
-    packages=['pkg_name'])
-</code></pre>
+<span class="n">setup</span><span class="p">(</span>
+    <span class="n">name</span><span class="o">=</span><span class="s1">&#39;pkg_name&#39;</span><span class="p">,</span>
+    <span class="n">author</span><span class="o">=</span><span class="s1">&#39;Some Name&#39;</span><span class="p">,</span>
+    <span class="n">version</span><span class="o">=</span><span class="s1">&#39;0.1.0&#39;</span><span class="p">,</span>
+    <span class="n">packages</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;pkg_name&#39;</span><span class="p">])</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>The <code>name</code> and <code>author</code> fields are self-explanatory; the <code>packages</code> field lists
 the sub-directories containing packages (there may actually be several), and
 we'll talk about versioning in <a href="../delivery/">Chapter 26</a>.  Once you have this in
 place, you can run:</p>
-<pre class="language-sh"><code class="language-sh">$ pip install .
-</code></pre>
+<div class="codehilite"><pre><span></span><code>$ pip install .
+</code></pre></div>
+
 <!-- continue -->
 <p>to create a package.</p>
 <h2>Find Your Current Comfort Zone</h2>

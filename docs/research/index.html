@@ -5,6 +5,7 @@
 <script defer data-domain="buildtogether.tech" src="https://plausible.io/js/plausible.js"></script>
 <link rel="icon" type="image/x-icon" href="../files/favicon.ico">
 <link rel="stylesheet" href="../mccole.css">
+<link rel="stylesheet" href="../codehilite-tango.css">
 
     <title>Building Software Together: Research</title>
   </head>
@@ -188,10 +189,11 @@ the program) with the <span class="indexref" key="flow graph!abstract interpreta
 interpretation flow graph</span> (which is the set of all paths once possible
 data values are taken into account).  To make this more concrete, the control
 flow graph for:</p>
-<pre class="language-py"><code class="language-py">01: x = 0
-02: if x &gt; 0:
-03:     x = 1
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="mi">01</span><span class="p">:</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="mi">02</span><span class="p">:</span> <span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="mi">03</span><span class="p">:</span>     <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+</code></pre></div>
+
 <!-- continue -->
 <p>includes the statement on line 3, but the abstract interpretation flow graph
 doesn't, because there's no way it could ever be executed given the possible
