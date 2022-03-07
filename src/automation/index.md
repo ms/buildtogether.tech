@@ -1,6 +1,6 @@
 ---
 title: "Automation"
-lede: "Because computers are better than epople at repeating things"
+lede: "Because computers are better than people at repeating things"
 template: page
 ---
 
