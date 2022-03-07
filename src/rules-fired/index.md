@@ -57,7 +57,7 @@ Don't try to get them to acknowledge that they were wrong.
 
 Go for long walks.
 :   Or cook some healthy meals, or pick up the guitar you haven't touched in
-    years---anything that requires you to focus on something else for a while.
+    years—anything that requires you to focus on something else for a while.
     This isn't just for your mental health: exhausted people make poor
     decisions, and you need to be at the top of your game.
 
@@ -79,7 +79,7 @@ We'll end this section with some advice from a former student:
 >
 > My favourite way to mitigate this, which I thankfully learned before my first
 > job: spend more time designing reusable components outside of the core
-> task---bonus points if they're open source. Even if your project gets
+> task—bonus points if they're open source. Even if your project gets
 > cancelled…you'll always have those reusable components to support your other
 > projects and ambitions.
 >

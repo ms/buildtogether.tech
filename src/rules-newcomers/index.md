@@ -77,15 +77,15 @@ Develop forms of legitimate peripheral participation.
 Make it easy for newcomers to get started.
 :   One way to facilitate legitimate peripheral participation is to make it easy
     for newcomers to get set up so that they can start work on contributions.
-    Getting set up to work on a project---going from "I want to help" to "I'm
-    able to help" to "I'm helping"---is often someone's first experience as a
+    Getting set up to work on a project—going from "I want to help" to "I'm
+    able to help" to "I'm helping"—is often someone's first experience as a
     community participant. Any complexity or confusion at this point is
     therefore a significant barrier to participation
     [% b Steinmacher2014 %]. By treating the process of getting involved
     with the same care and attention you give to the product itself, you're
     making it clear that you value those contributors' time and effort
 
-Use opportunities for in-person interaction---with care.
+Use opportunities for in-person interaction—with care.
 :   Combining newcomer-friendly events and activities with larger gatherings
     such as conferences amortize participants' financial costs and travel time.
     However, potential contributors might shy away from the project if they are

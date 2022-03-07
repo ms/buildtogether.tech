@@ -18,7 +18,7 @@ Peace and quiet.
 
 A comfortable chair.
 :   A good chair with a firm back costs half what a mid-range laptop does. A
-    full-sized keyboard (I have large hands---most laptop keyboards force me to
+    full-sized keyboard (I have large hands—most laptop keyboards force me to
     bend my wrists uncomfortably) costs fifty dollars, and a lamp with a soft
     light bulb is another forty. The combination doesn't just let me program
     longer each day; it also helps ensure that I'll still be able to program
@@ -73,7 +73,7 @@ A rubber duck.
 A chess set, a deck of cards, or some knitting.
 :   I'm a very bad chess player. Luckily, so are most people, so it's usually
     possible to find someone at my level for a quick game at lunch.  Other
-    programmers I know play euchre, or knit---a programmers' stitch and bitch
+    programmers I know play euchre, or knit—a programmers' stitch and bitch
     session can be jaw-dropping to listen to. Everyone needs to take breaks to
     re-set their brain; it's better to acknowledge this and do something social
     in the middle of the day than to say, "Must… keep…  coding…" and produce

@@ -25,7 +25,7 @@ not being taught explicitly how to do so.
 
 Second, your grade depends primarily on the software you build.  You may also
 be required to write reports and sit an exam, but these are based on the
-practical work---if you don't actually build some software, you can't pass the
+practical work—if you don't actually build some software, you can't pass the
 course.
 
 Finally, you are supposed to work as if you were trying to meet the needs of a
@@ -121,7 +121,7 @@ The process you followed.
     on whether or not you follow a prescribed process.  The best they can do is
     grade you on the artifacts that process is supposed to produce (discussed
     below).  Since these can always be created after the fact, it's very
-    tempting to just put your head down and code.  Resist---any process is
+    tempting to just put your head down and code.  Resist—any process is
     better than chaos, and sticking to what the instructor asked for will at
     least save arguments within the team.
 

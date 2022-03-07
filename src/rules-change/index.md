@@ -10,9 +10,9 @@ higher than that, the ten rules below are a good place to start; if
 you'd like to know more [% b Brown2007 %] and
 [% b Manns2015 %] helped me, and I hope they will help you.
 
-> If you cannot be brave---and it is often hard to be brave---be kind.
+> If you cannot be brave—and it is often hard to be brave—be kind.
 >
-> --- [% i "Kendzior, Sarah" %]Sarah Kendzior[% /i %]
+> — [% i "Kendzior, Sarah" %]Sarah Kendzior[% /i %]
 
 Be sure this is where you want to focus your efforts.
 :   It's going to take years, it could well fail, and there are many other

@@ -104,8 +104,8 @@ use, the biggest challenge you'll face is finding the packages you need: at the
 time of writing, [this search][npm-xml-search] turns up over 700 XML parsers for
 a JavaScript. To help narrow the search, NPM allows the results to be sorted by
 popularity, quality, and maintenance. This obviously creates a feedback
-loop---if NPM labels a package "more popular" then more people will find it,
-which raises its popularity score even further---but [% i "NPMS" "package
+loop—if NPM labels a package "more popular" then more people will find it,
+which raises its popularity score even further—but [% i "NPMS" "package
 manager!package ratings" %][NPMS][npms][% /i %] is open about how these scores are
 calculated, so package authors can find out what they need to do in order to
 improve their scores.
@@ -209,8 +209,8 @@ But calling VS Code is the world's most popular IDE is misleading.  If you open
 will be shown an HTML browser that's smart enough to tell you which bits of CSS
 are in effect where, a console that displays messages from the JavaScript
 running in the page, a breakpointing debugger ([% x debugging %]), a network
-monitor, and much more. It won't help you with your C# or Python---at least, not
-yet---but it will make all of your front-end work a lot easier.
+monitor, and much more. It won't help you with your C# or Python—at least, not
+yet—but it will make all of your front-end work a lot easier.
 
 ## Refactoring
 

@@ -6,7 +6,7 @@ template: page
 
 > A week of hard work can sometimes save an hour of thought.
 >
-> --- [% i "Wilson, Robert" %]Robert Wilson[% /i %]
+> — [% i "Wilson, Robert" %]Robert Wilson[% /i %]
 
 Building large programs with other people is different from building small
 programs on your own in two important ways. The first is communication: in order
@@ -40,8 +40,8 @@ do you actually wind up writing?
     \\(C + p(C-1)(C-2)/2\\) or \\(pC^{2}/2 + (1-p)C + 1\\).
 
 This [% i "model!of software development" %]model[% /i %] is unrealistic in
-every way---the odds of rewriting old code is lower than the odds of rewriting
-recent code, for example---but it captures a key point: the cost of rework grows
+every way—the odds of rewriting old code is lower than the odds of rewriting
+recent code, for example—but it captures a key point: the cost of rework grows
 faster than the number of pieces of work.  You can't lower \\(C\\) by increasing
 \\(L\\) (since as [% x thinking %] explains, there's a limit to how much you
 can hold in your mind at once), so your goal when designing software is to lower
@@ -80,7 +80,7 @@ an MVC application) made it more relatable.
 [% b Cherubini2007 %] found that developers usually don't draw
 [% i "software design!role of diagrams" %]diagrams[% /i %] to create a permanent
 record of design. Instead, they use diagrams as an aid to conversation in the
-moment---essentially, as a temporary store for ideas that they wouldn't
+moment—essentially, as a temporary store for ideas that they wouldn't
 otherwise be able to keep track of ([% x thinking %]). In many cases, the
 people who drew the diagrams couldn't make sense of them a day later; it could
 be that the benefit of diagrams therefore comes from the act of drawing, not
@@ -219,7 +219,7 @@ your breath. Details like that do need to be worked out at some point, but:
     when the time comes to actually write the code. Remember, not everything
     actually needs to be designed.
 
-Once you have a diagram---any kind of diagram---start iterating around it. Pick
+Once you have a diagram—any kind of diagram—start iterating around it. Pick
 one open problem like, "How do users control who can see their calendars?"),
 think of a way to solve it ("they can mark them as 'public', or invite specific
 people to view them"), figure out how to implement your solution, then revisit
@@ -243,7 +243,7 @@ One of the biggest differences between [% i "expert" %]experts[% /i %] and
 non-experts in any field is how quickly experts can rule out possibilities
 [% b Schon1984 %]. Whether it is software design, chess, or medical
 diagnosis, [% i "novice" %]novices[% /i %] check to see if their plan will work;
-experts, on the other hand, search for a refutation---a reason why it won't---so
+experts, on the other hand, search for a refutation—a reason why it won't—so
 that they can narrow their focus as early as possible. One way to do this is to
 jump back and forth between a high-level plan and its low-level consequences; if
 one of those consequences reveals a flaw in the plan, they go back to the high

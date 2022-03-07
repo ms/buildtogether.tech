@@ -29,8 +29,8 @@ methods software engineering researchers use.  As with all research, though,
 some caution is required when interpreting results:
 
 Theories change as more data becomes available.
-:   Software engineering is a comparatively young discipline---the term itself
-    wasn't used until 1968---so it would be surprising if everything we think
+:   Software engineering is a comparatively young discipline—the term itself
+    wasn't used until 1968—so it would be surprising if everything we think
     we know turned out to be true.
 
 Most of these studies' subjects are [% i "WEIRD" %]WEIRD[% /i %].
@@ -58,7 +58,7 @@ productive[% /i %] than others.  Is it actually true?  The short answer is, "It'
 complicated."  As [% b Prechelt2019 %] shows, the answer depends on what
 exactly the question is intended to mean. Looking at exactly the same data, you
 could conclude that some programmers are 105 times more productive than
-others---except this doesn't take into account whether people's code actually
+others—except this doesn't take into account whether people's code actually
 works or what language they were using.
 
 If you only look at one language, the ratio goes down to 17:1, but that's still
@@ -174,7 +174,7 @@ be declared or not, usually based on their personal experience as professionals
 rather than on any kind of data.
 [% b Hanenberg2013 Endrikat2014 Fischer2015 %] found that requiring
 variable type declarations does add some complexity to programs, but it pays off
-by acting as documentation for a method's use---in particular, by forestalling
+by acting as documentation for a method's use—in particular, by forestalling
 questions about what's available and how to use it. [% b Gao2017 %] looked
 at how many bugs in JavaScript programs would have been caught if the code had
 been written in TypeScript (which [% i "type declaration!effectiveness at
@@ -337,14 +337,14 @@ found that more newcomers are not correlated with more defects, which supports
 this finding. One possibility is that newcomers are assigned easy tasks, and so
 they can't really break things too dramatically or in a way that won't get
 caught internally in time. Another possibility is that the product has matured
-over time---that software quality would go up no matter the team size simply
+over time—that software quality would go up no matter the team size simply
 because there's less new functionality added as time goes on.
 
 [% b Posnett2011 %] present an interesting twist on this. In the open
 source projects they studied, they found that although code changes in general
 are associated with future defect fixing activity, as we might expect, those
 changes that correspond to new feature development and to code improvements are
-*not*. That's interesting and counter-intuitive---one would expect new feature
+*not*. That's interesting and counter-intuitive—one would expect new feature
 code commits to be among the buggiest. The authors offer a possible explanation:
 well-established open source projects tend to be quite conservative, and new
 feature code is heavily scrutinized, so that most defects are found and sorted
@@ -428,7 +428,7 @@ any personality effects.
 
 The [% i "Myers-Briggs Type Indicator" "pseudoscience!Myers-Briggs Type Indicator" %][% g myers_briggs %]Myers-Briggs Type Indicator[% /g %][% /i %]
 advertises itself as personality profiling tool.  It is popular on dating sites
-and some companies use it as part of their interview process---despite the fact
+and some companies use it as part of their interview process—despite the fact
 that it is complete bullshit.  Half or more of people who repeat the test within
 a few weeks get a different personality classification, it fails to predict job
 performance, and its categories are based on outdated (and very Western-centric)

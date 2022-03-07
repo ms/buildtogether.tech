@@ -308,7 +308,7 @@ Don't [% g feigning_surprise %]feign surprise[% /g %] or pass judgment.
 Don't overwhelm people with details.
 :   If someone has used the letter `x` as a variable name in several places, and
     they shouldn't have, comment on the first two or three and simply put a
-    check beside the others---the reader won't need the comment repeated.
+    check beside the others—the reader won't need the comment repeated.
 
 Don't try to sneak in feature requests.
 :   Nobody enjoys fixing bugs and style violations.  Asking them to add entirely

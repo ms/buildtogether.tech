@@ -6,7 +6,7 @@ template: page
 
 > When Mister Safety Catch Is Not On, Mister Crossbow Is Not Your Friend.
 >
-> --- [% i "Pratchett, Terry" %]Terry Pratchett[% /i %]
+> — [% i "Pratchett, Terry" %]Terry Pratchett[% /i %]
 
 We are imperfect people living in an imperfect world.  People will misunderstand
 how to use our programs, and even if we test thoroughly as described in
@@ -219,8 +219,8 @@ Write for your audience's level of understanding.
     than those you would use to describe the code to the user.
 
 Do not blame the user, and do not use words like fatal, illegal, etc.
-:   The former can be frustrating---in many cases, "user error" actually
-    isn't---and the latter can make people worry that the program has damaged
+:   The former can be frustrating—in many cases, "user error" actually
+    isn't—and the latter can make people worry that the program has damaged
     their data, their computer, or their reputation.
 
 Do not try to make the computer sound like a human being.
@@ -338,7 +338,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 <!-- continue -->
 somewhere near the start of your program. The `DEBUG` option identifies the
-lowest-level messages in your program---the ones you probably only want to see
+lowest-level messages in your program—the ones you probably only want to see
 when you're trying to figure out what's gone wrong. In order, the more important
 [% i "logging!levels" %]levels[% /i %] in most logging libraries are `INFO`,
 `WARNING`, `ERROR`, and `CRITICAL`. If you only want messages at the `WARNING`
@@ -353,7 +353,7 @@ so that `DEBUG` and `INFO` messages aren't printed.
 
 A logging library allows you to control how much your program tells you about
 its execution by making one change, in one place. It also means that you can
-leave these messages in your code, even when you release it---there's no more
+leave these messages in your code, even when you release it—there's no more
 commenting out `print` statements only to add them back in later. (And no more
 embarrassment from inappropriately-worded messages that *weren't* commented out
 but should have been before your demo…)

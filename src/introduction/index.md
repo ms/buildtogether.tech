@@ -17,8 +17,8 @@ and understand who owns the things you produce.
 Our aim is to teach you how to be a *compassionate programmer*:
 one who cares as much about the well-being of their colleagues and users
 as they do about their own.
-This focus is not entirely altruistic---everything you do to help others
-also helps your future self---but now that we know how much harm software can do,
+This focus is not entirely altruistic—everything you do to help others
+also helps your future self—but now that we know how much harm software can do,
 we need to learn to build it in better ways.
 
 ## Topics

@@ -66,9 +66,9 @@ Talk to your employer.
         and only answered training-related mails when I was at home.
     3.  Offer to do some in-house training for free (where "free" means "during
         work hours, as part of your regular paid employment").  If you want to
-        use material you've developed in your job externally---e.g., if you
+        use material you've developed in your job externally—e.g., if you
         created a course for a university and now want to use those lessons at
-        conference workshops or elsewhere---make sure you confirm in writing or by
+        conference workshops or elsewhere—make sure you confirm in writing or by
         email that your employer is OK with that *before* you do it.
 
 Create a professional-looking website.

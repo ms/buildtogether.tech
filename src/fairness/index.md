@@ -57,7 +57,7 @@ schools have to do with your ability to learn.  When [April Christina
 Curley][curley-april], a recruiter at [% i "Google!unfair hiring
 practices" %]Google[% /i %], began coaching Black students how to prepare for
 interviews with Google that included questions like these, the company shut her
-down---even though schools like Stanford had been running coaching sessions for
+down—even though schools like Stanford had been running coaching sessions for
 their students for years [% b Tiku2021 %].
 
 [% b Behroozi2019 Behroozi2020a Behroozi2020b %] summarize [% i "hiring
@@ -199,7 +199,7 @@ Specify how much time employees can take off.
 ## Being an Ally
 
 But suppose you are a straight, physically able, white or Asian male without
-mental health issues---why should you care about people who are marginalized
+mental health issues—why should you care about people who are marginalized
 because they aren't these things?  One argument is self-interest: study after
 study has shown that more diverse teams perform better, that companies with more
 diverse management are more profitable, and so on [% b Zhan2020 %].
@@ -269,7 +269,7 @@ An early reviewer of this material asked whether it was appropriate for me to
 put so much of my personal politics into it.  I pointed out that many schools
 have a course on the business of software that talk exclusively about for-profit
 startups backed by private investors and venture capital.  Choosing to discuss
-those topics is equally political---it's just more common.
+those topics is equally political—it's just more common.
 
 Other reviewers have pointed out that telling people they should support fair
 play because it will benefit *them* implies that they would have no reason to do
@@ -359,7 +359,7 @@ other person shows up. When they do, you have to make a choice: do you say,
 or, "There were four cookies in the box when you arrived, so we get two each"
 (meaning that you will have had four in total).
 
-Most people would say that the first answer is the moral one---in my experience,
+Most people would say that the first answer is the moral one—in my experience,
 people who don't aren't people you'd want on your team.  On the other hand, if I
 had a couple of cookies yesterday or last week, I probably won't feel obliged to
 give you more than half today.  Is it a company's responsibility to take past
@@ -422,7 +422,7 @@ they're biased against people with nervous tics, and nobody who has ever been
 the victim of online harassment or stalking should have to agree to invasive
 surveillance in order to pass a course.
 
-Many of these failures have their roots in a lack of compassion---i.e., in an
+Many of these failures have their roots in a lack of compassion—i.e., in an
 inability to imagine the world through others' eyes.  As [% i "Hoye,
 Mike" %][Mike Hoye][hoye-mike][% /i %] has pointed out, some wayfinding apps for
 phones have an option to avoid checkpoints; it's unlikely that the people who
@@ -476,7 +476,7 @@ me?"
 
 It's time for a confession.  This chapter is the reason I wrote this book.
 After the 2016 election in the United States, I organized a group of people to
-write a guide for programmers to stuff that actually matters---the stuff that's
+write a guide for programmers to stuff that actually matters—the stuff that's
 in this chapter.  That project fizzled out, in part because someone like Brad
 ([% x introduction %]) wouldn't read something that said, "Programmers are
 doing harm and maybe you're part of the problem."

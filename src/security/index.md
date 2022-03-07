@@ -125,7 +125,7 @@ password managers aren't fooled by sites with names like `paypaI.com`.
 ### I know how to do that
 
 Writing passwords down and keeping them in your wallet is not necessarily a bad
-practice---it depends on who is doing it. For example, an elderly person who
+practice—it depends on who is doing it. For example, an elderly person who
 finds tech confusing might well choose simple, easy-to-guess passwords for their
 accounts if they have to be remembered. On the other hand, they have a lifetime
 of practice keeping track of bits of paper, and will probably notice if their
@@ -359,7 +359,7 @@ the safer all of us will be. As a programmer, you can push for this:
     candidates will decide that they need to have some sort of answer.
 
 1.  The next time your college or university is updating its curriculum,
-    petition for a full-semester course on computer security---one that focuses
+    petition for a full-semester course on computer security—one that focuses
     on common exploits rather than the minutiae of cryptography.
 
 1.  Add your voice to campaigns to get companies to clean up their act, and if
@@ -388,7 +388,7 @@ the safer all of us will be. As a programmer, you can push for this:
 > journeys, needs to show leadership in privacy, and it might as well be
 > you.
 >
-> --- [% i "Burns, Heather" %][Heather Burns][burns-privacy-quote][% /i %]
+> — [% i "Burns, Heather" %][Heather Burns][burns-privacy-quote][% /i %]
 
 ## An Example Attack
 

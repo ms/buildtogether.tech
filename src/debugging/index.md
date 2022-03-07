@@ -54,7 +54,7 @@ Make sure you understand what the bug actually is.
     it the right test data?  Is it configured the way you think it is?  Is it
     the version you think it is?  Has the feature actually been implemented yet?
     Are you sure?  Maybe the reason you can't isolate the problem is that it's
-    not there---a couple of minutes talking it through with a teammate can save
+    not there—a couple of minutes talking it through with a teammate can save
     you an hour of trying to fix something that isn't actually broken.
 
 Make it fail.
@@ -305,14 +305,14 @@ debugging" %]logging[% /i %] library to give yourself more control.
 
 Over the years I've been surprised by how few programmers know how to use a
 debugger [% b Beller2018 %]. The reason can't be the five or ten minutes it
-takes to learn how to use one---that pays for itself almost immediately.  The
+takes to learn how to use one—that pays for itself almost immediately.  The
 best explanation I've been able to come up with relates to [% i "Goodhart's
 Law" %][Goodhart's Law][goodhart-law][% /i %], which says that as soon as you use
 some measure to evaluate people it ceases to be a good measure because people
 will start to game the system.
 
 The inverse of that is that if something *isn't* being evaluated, it isn't
-important---or rather, if you're juggling five or six courses, you can't afford
+important—or rather, if you're juggling five or six courses, you can't afford
 to put time into things that aren't going to affect your grades.  Most students
 have to learn version control because it's the only way to submit their work,
 but "show that you can use the debugger" is (almost) never part of gradable

@@ -129,7 +129,7 @@ importantly, how do you do this fairly?
 
 Some jobs have [% i "allocating work!effect of social status" %]higher social
 status[% /i %] than others, and what is or isn't considered important usually
-reflects racial and gender divides within society---so much so that sociologists
+reflects racial and gender divides within society—so much so that sociologists
 use the phrase "[women's work][womens-work]" to describe the phenomenon. It is
 also known as "[quarterback syndrome][quarterback-syndrome]": two thirds of NFL
 players overall in the United States are Black, but only 17% of quarterbacks,
@@ -152,7 +152,7 @@ documentation, and other low-status tasks. Some have experienced this so often
 that they have come to accept it as the price they have to pay for being in
 tech. Others protest, but those who do are often dismissed as being "difficult"
 ([% x important %]). Many take a third path and decide to leave
-programming---after all, why play a game that's unfair?
+programming—after all, why play a game that's unfair?
 
 <blockquote markdown="1">
 ### In the beginning
@@ -407,7 +407,7 @@ Success is a habit.
     load!impact of checklists" %]cognitive load[% /i %] ([% x thinking %]) and
     gives you more mental capacity for dealing with the work itself.
 
-Acting like an asshole doesn't make you cool---it just makes you an asshole.
+Acting like an asshole doesn't make you cool—it just makes you an asshole.
 :   I had a teammate once whose favorite phrase was, "That's stupid."  If anyone
     complained, he said, "It's just the way I talk." The problem with people
     using vulgar or aggressive language in everyday conversation is that for

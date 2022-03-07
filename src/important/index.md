@@ -26,7 +26,7 @@ it needs to.
 ## Crunch Mode
 
 I used to brag about the hours I was working.  Not in so many words, of
-course---I had *some* social skills.  Instead, I'd show up for work around noon,
+course—I had *some* social skills.  Instead, I'd show up for work around noon,
 unshaven and yawning, and casually mention how I'd been up until 6:00 a.m.
 hacking away at some monster bug.
 
@@ -37,12 +37,12 @@ stupors did to my teammates' productivity.
 
 My mistake was to confuse "long hours" with "getting things done".  You can't
 produce software (or anything else) without doing some work, but you can easily
-do lots of work without producing anything of value.  Scientific study of [% i "overwork" %]overwork[% /i %] goes back to at least the 1890s---see
+do lots of work without producing anything of value.  Scientific study of [% i "overwork" %]overwork[% /i %] goes back to at least the 1890s—see
 [% b Robinson2005 %] for a short, readable summary.  The most important
 results for developers are:
 
 1.  Working more than eight hours a day for more than a couple of weeks of time
-    lowers your total productivity, not just your hourly productivity---i.e.,
+    lowers your total productivity, not just your hourly productivity—i.e.,
     you get less done *in total* (not just per hour) when you're in
     [% i "crunch mode" %][% g crunch_mode %]crunch mode[% /g %][% /i %] than you do when you work
     regular hours.
@@ -62,7 +62,7 @@ Evan" %]Robinson[% /i %]'s article:
 > in 1926, he was bitterly criticized by members of the National Association of
 > Manufacturers.  But his experiments, which he'd been conducting for at least 12
 > years, showed him clearly that cutting the workday from ten hours to eight
-> hours---and the workweek from six days to five days---increased total worker
+> hours—and the workweek from six days to five days—increased total worker
 > output and reduced production cost…  the core of his argument was that reduced
 > shift length meant more output.
 >
@@ -80,7 +80,7 @@ Evan" %]Robinson[% /i %]'s article:
 I was part of a data visualization startup in the mid-1990s.  Three months
 before our first release, the head of development "asked" us to start coming in
 on Saturdays.  We were already pulling one late night a week at that point
-(without overtime pay---our boss seemed to think that ten dollars' worth of
+(without overtime pay—our boss seemed to think that ten dollars' worth of
 pizza was adequate compensation for four hours of work) and most of us were also
 working at least a couple of hours at home in the evenings.  It's hardly
 surprising that we missed our "can't miss" deadline by ten weeks, and had to
@@ -94,7 +94,7 @@ that requires a clear head, but many people then act as if it was like digging a
 ditch.  The big difference is that it's hard to lose ground when digging (though
 not impossible).  In software, on the other hand, it's very easy to go backward.
 It only takes me a couple of minutes to create a bug that will take hours to
-track down later---or days, if someone else is unlucky enough to have to track
+track down later—or days, if someone else is unlucky enough to have to track
 it down.  This is summarized in Robinson's first rule:
 
 > [% i "productivity" %]Productivity[% /i %] varies over the course of the
@@ -113,7 +113,7 @@ and the results aren't pleasant.  Your ability to think drops by 25 points for
 each 24 hours you're awake.  Put it another way, the average person's IQ is only
 75 after one [% i "all-nighters" %]all-nighter[% /i %], which puts them in the
 bottom 5% of the population.  Two all nighters in a row and their effective IQ
-is 50---the level at which people are usually judged incapable of independent
+is 50—the level at which people are usually judged incapable of independent
 living.
 
 The catch in all of this is that people usually don't notice their abilities
@@ -124,8 +124,8 @@ into function calls the wrong way around or that the reason the tests are
 failing is that they've forgotten to redeploy the application again.
 
 The moral of this story is to think very hard about what's more important to
-you---how much good work you produce or how much of a martyr you appear to
-be---and pace yourself accordingly.
+you—how much good work you produce or how much of a martyr you appear to
+be—and pace yourself accordingly.
 
 ## Time Management
 
@@ -143,7 +143,7 @@ The best strategy for [% i "time management" %]time management[% /i %] is to
 prioritize and focus.  Prioritizing is important because most of us are very
 good at spending hours on things that don't need to be done and then finding
 themselves with too little time for the things that actually count. A little bit
-of organizing can help a lot---as [% b Mark2008 %] reported, "…people
+of organizing can help a lot—as [% b Mark2008 %] reported, "…people
 compensate for interruptions by working faster, but this comes at a price:
 experiencing more stress, higher frustration, time pressure and effort."
 
@@ -178,12 +178,12 @@ Sort the list so that the most important tasks are at the top.
 Make sure you have everything you need to see the first task through.
 :   The most recent files from [% i "version control" %]version control[% /i %]
     ([% x git-solo %]), the assignment specification, a fresh cup of
-    tea---whatever it is, don't give yourself an excuse to interrupt your work,
+    tea—whatever it is, don't give yourself an excuse to interrupt your work,
     because the world will provide enough of those.
 
 Turn off [% i "interruptions" %]interruptions[% /i %].
 :   Shut down your mail client, instant messaging, and your cell phone.  Don't
-    panic, it's only for an hour---most people can't stay focused longer than
+    panic, it's only for an hour—most people can't stay focused longer than
     that, and you'll need to stretch your muscles and get rid of that tea you
     drank by then anyway.
 
@@ -276,7 +276,7 @@ seeing, hearing, or moving about: they have expertise you don't.
 
 ## Meetings
 
-The previous section explained how to be productive individually---what about
+The previous section explained how to be productive individually—what about
 being productive in a team?
 The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently.
 The rules doing so are simple but rarely followed:
@@ -345,8 +345,8 @@ No distractions.
     pay attention to two things at once.  Similarly, if someone is checking
     their email or texting a friend during a meeting, it's a clear signal that
     they don't think the speaker or their work is important.  This doesn't mean
-    a complete ban on technology---people may need accessibility aids, or may be
-    waiting for a call from a dependent---but by default, phones should be face
+    a complete ban on technology—people may need accessibility aids, or may be
+    waiting for a call from a dependent—but by default, phones should be face
     down and laptops should be closed during in-person meetings.
 
 Take minutes.
@@ -429,7 +429,7 @@ speak far more than others.  Other meeting members may be so accustomed to this
 that they don't speak up even when they have valuable points to make.
 
 One way to combat this is to give everyone [% i "meetings!three sticky notes" "three sticky notes (in meetings)" %]three sticky notes[% /i %] (or coins, or
-paperclips---anything inedible will do).  at the start of the meeting.  Every
+paperclips—anything inedible will do).  at the start of the meeting.  Every
 time they speak, they have to give up one sticky note.  When they're out of
 stickies, they aren't allowed to speak until everyone has used at least one, at
 which point everyone gets all of their sticky notes back.  This ensures that
@@ -469,7 +469,7 @@ themselves, and only allowing the moderator to unmute people.
 The purpose of a meeting is to make decisions, so sooner or later, the members
 of a project must decide who has a say in what.  The first step is to
 acknowledge that every team has a power structure: the question is whether it's
-formal or informal---in other words, whether it's accountable or unaccountable
+formal or informal—in other words, whether it's accountable or unaccountable
 [% b Freeman1972 %].  The latter can work for groups of up to half a dozen
 people in which everyone knows everyone else.  Beyond that, groups need to spell
 out who has the authority to make which decisions and how to achieve consensus.

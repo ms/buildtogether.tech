@@ -20,7 +20,7 @@ with anything involving people, there will be outliers.)
 For our purposes, we will say that people are [% i "novice" %][% g novice %]novices[% /g %][% /i %], [% i "competent practitioner" %][% g competent_practitioner %]competent practitioners[% /g %][% /i %], or [% i "expert" %][% g expert %]experts[% /g %][% /i %]. Some characteristics that most novices share include
 doing things by rote (i.e., following a series of steps without understanding
 why they work), asking questions that don't make sense ("What color is the
-database?") and not being able to tell what is and isn't relevant---for example,
+database?") and not being able to tell what is and isn't relevant—for example,
 using their own filenames or variable names when searching for help online
 because they don't yet have a clear distinction between what belongs to the
 library and application and what is specific to their code.
@@ -140,7 +140,7 @@ because it forms (or shapes) the learning as it is taking place.
 
 A good formative assessment question takes 30--60 seconds to do (so that it
 doesn't disrupt the flow of the lesson) and has an unambiguous right answer (so
-that it scales---if the answers are paragraphs long, it won't be practical to
+that it scales—if the answers are paragraphs long, it won't be practical to
 use in a class of 20 students, much less 200). The most important thing, though,
 is that it tells the instructor what to say next. Different learners can
 misunderstand things in different ways; a good formative assessment tells the
@@ -174,7 +174,7 @@ do and don't actually understand.
 
 Finally, formative assessments can be used pre-emptively. I once had a professor
 start a math class by putting up a multiple choice question. It was pretty
-easy---I think everyone in the class got it---so he said, "All right, here's
+easy—I think everyone in the class got it—so he said, "All right, here's
 twenty minutes of your life I don't need to waste," and set aside a section of
 his slides. He then did it again, and again, enough of us got it right that he
 said, "Here's another twenty minutes of your life I don't have to waste," and
@@ -191,8 +191,8 @@ the things we didn't.
 [% f thinking-cognitive-architecture %] shows a very (very) simple model of
 the cognitive architecture of the human brain. On the left is [% i "long-term memory" %][% g long_term_memory %]long-term memory[% /g %][% /i %] (LTM), which
 is where you store things like the spelling of your name and how that awful
-clown scared you when you were ten years old. It is very large---you can keep
-adding to it as long as you live---but you don't have direct conscious access to
+clown scared you when you were ten years old. It is very large—you can keep
+adding to it as long as you live—but you don't have direct conscious access to
 it.
 
 Instead, evolution has given you a second subsystem called [% i "short-term memory" %][% g short_term_memory %]short-term memory[% /g %][% /i %] (STM) or
@@ -275,7 +275,7 @@ work, everyone now agrees that they *do*.
     cram everything in the night before an exam [% b Kang2016 %].
 
     You should also review material after each class, but not immediately
-    after---take at least a half-hour break.  Doing this also helps you catch
+    after—take at least a half-hour break.  Doing this also helps you catch
     any gaps or mistakes in previous sets of notes while there's still time to
     correct them or ask questions.
 
@@ -378,8 +378,8 @@ to repeat the error if they are corrected.
 One of the strongest predictors of whether or not a [% i "neurotypical" %]neurotypical[% /i %] adult will learn something or not is
 whether they are [% i "intrinsic motivation" "motivation!intrinsic" %]intrinsically motivated[% /i %] to learn it, i.e., whether
 they're learning it to satisfy their own goals.  If someone is [% i "extrinsic motivation" "motivation!extrinsic" %]extrinsically
-motivated[% /i %]---for example, if they're taking a course because it's a degree
-requirement but they have no real interest in the topic---the learning probably
+motivated[% /i %]—for example, if they're taking a course because it's a degree
+requirement but they have no real interest in the topic—the learning probably
 won't stick [% b Wlodkowski2017 %].  While motivation is deeply personal,
 these three factors influence most people:
 

@@ -79,7 +79,7 @@ Unit testing.
 [% i "code review" %]Code review[% /i %].
 :   [% x git-team %] explained when, why, and how to do this.
 
-The other practices---stand-up meetings, sprints, analysis & estimation---are
+The other practices—stand-up meetings, sprints, analysis & estimation—are
 covered below, while delivering releases is covered in [% x delivery %].
 Before we explore them, though, let's take a look at a typical afternoon in the
 life of a student programmer.
@@ -119,7 +119,7 @@ example:
 :   The eleven tests whose failure was your fault now pass, so you create a pull
     request with your fixes for one of your teammates to review.  You mention
     the issues they wrote in the commit message so that GitHub automatically
-    links the code to the issues and vice versa---it only takes a second to type
+    links the code to the issues and vice versa—it only takes a second to type
     in this information, and it makes it much easier for your teammates to keep
     track of what you've done.  You then take a five-minute break to check
     email; when you're done, you close your mail client again because you've
@@ -347,8 +347,8 @@ weekend to catch its collective breath and is ready to start work once again.
 (If people are so burned out from the previous round that they need a whole week
 to recover, go back and re-read [% x important %].)  At this
 point the product manager divides up the list of desired features and assigns
-them to the developers.  Each developer then has some time---typically a few
-days to a couple of weeks---to do a little research, write some throwaway
+them to the developers.  Each developer then has some time—typically a few
+days to a couple of weeks—to do a little research, write some throwaway
 prototype code, and most importantly *think*.  How could this feature be
 implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
@@ -381,7 +381,7 @@ and put it on the grid.  You should wind up with something like
 [% figure slug="effort-importance" img="effort-importance.svg" alt="Effort/importance matrix" caption="An example of an effort/importance matrix." %]
 
 You then throw away the high-effort, low-importance items in the bottom-right
-three cells---you aren't going to get to those.  Next, you start assembling the
+three cells—you aren't going to get to those.  Next, you start assembling the
 other items into a schedule, starting with the upper-left corner.  These are the
 things that will give the highest return on invested time; more importantly,
 starting with these means that if something goes wrong the team will still have

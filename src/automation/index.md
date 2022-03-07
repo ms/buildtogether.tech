@@ -10,14 +10,14 @@ mostly seems to refer to practices that minimize the time between a developer
 implementing a change and that change being tested, integrated, tested again,
 and deployed.  Those practices have one thing in common: [% i "automation" %]automating[% /i %] as many steps as possible to make them fast and
 reliable.  You may not be required to do this for your project, but if you have
-time, you should try to do a little---it will save time when you are up against
+time, you should try to do a little—it will save time when you are up against
 the end-of-term deadline, and more importantly, prevent mistakes when you are
 stretched thin.
 
 ## Build Manager
 
 The foundation for almost all automation in software development is a
-[% i "build manager" %][% g build_manager %]build manager[% /g %][% /i %]---a tool that will
+[% i "build manager" %][% g build_manager %]build manager[% /g %][% /i %]—a tool that will
 transform what you've typed into what you want to deliver. The origin build
 manager is [% i "Make" "build manager!Make" %][Make][make][% /i %], which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
@@ -51,7 +51,7 @@ a debugger: the only way to track down problems in your build configuration is
 to stare at the configuration file until little drops of blood form on your
 forehead.
 
-I could live with ugly syntax---if Ie kan lurn Inglish speling, Ie kan lurn
+I could live with ugly syntax—if Ie kan lurn Inglish speling, Ie kan lurn
 eneething. But the lack of a debugger is a never-ending headache, because real
 build systems aren't just configured: they're programmed. For example, this
 book's Makefile checks the consistency of cross-references and glossary
@@ -62,7 +62,7 @@ Thinking of it as a "configuration" file is a mistake: you *have* to [% i "autom
 The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The `package.json` file used by
 [Node.js][nodejs] serves as both a [% i "package manifest" "Node.js!package.json file" %][% g package_manifest %]package manifest[% /g %][% /i %] and a build
-file---as the example below shows, some of its entries describe the package or
+file—as the example below shows, some of its entries describe the package or
 its dependencies, while others store commands that can be re-run by typing
 things like `npm run test`:
 
@@ -120,13 +120,13 @@ Be very cautious about adding dependencies.
     packages your project depends on before every release and cutting any you
     can will prevent a lot of future headaches.
 
-Always use the build manager---never compile or copy things by hand.
+Always use the build manager—never compile or copy things by hand.
 :   This isn't just for efficiency's sake: if any of the things you need to do
     to get your application up on your web site have to be done by hand, the
     odds are that you'll forget a crucial step right before your end-of-term
     demo.
 
-Always use the build manager---never compile or copy things by hand.
+Always use the build manager—never compile or copy things by hand.
 :   Yes, I'm repeating myself, but this time the reason is different. If you do
     something by hand, one of your teammates might do it differently.  "But it
     works on my machine!" isn't something you want to hear an hour before a
@@ -134,7 +134,7 @@ Always use the build manager---never compile or copy things by hand.
 
 A good way to start using a build manager is to create a "version zero" of the
 project. Set up the build and make sure it works even when there isn't anything
-to compile, run, test, or copy. Now add something---anything.  Does the build
+to compile, run, test, or copy. Now add something—anything.  Does the build
 still work? If it does, you're on your way.
 
 <blockquote markdown="1">

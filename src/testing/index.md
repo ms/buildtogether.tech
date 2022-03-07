@@ -7,8 +7,8 @@ template: page
 A friend of mine once told me that she could write any application I wanted in
 under a minute, as long as I didn't insist that it actually work. Her point was
 that software is only done when it works well enough to be used.  It doesn't
-have to be perfect---every non-trivial program has a few bugs, and most trivial
-ones do too---but if you care at all about your users (and your own reputation)
+have to be perfect—every non-trivial program has a few bugs, and most trivial
+ones do too—but if you care at all about your users (and your own reputation)
 you will do what you can to minimize these.
 
 That's not the only reason to test, though. As we'll see below, designing
@@ -260,8 +260,8 @@ database has a new record just as we would with back-end tests.
 
 Most GUI testing frameworks have two other useful features. The first is [% i "browser automation!record and playback" %]record and playback[% /i %]: you can
 step through a workflow manually, and the tool can then produce a script that
-will repeat those steps. These scripts tend to be fragile---i.e., small changes
-to the UI will break them---but if you edit them to replace things like absolute
+will repeat those steps. These scripts tend to be fragile—i.e., small changes
+to the UI will break them—but if you edit them to replace things like absolute
 (X,Y) coordinates with the logical labels of UI elements, you can build a lot of
 tests in a hurry.
 
@@ -412,7 +412,7 @@ nothing else, writing tests forces us to be explicit about our tolerances.
 Another challenge when testing numerical software is that we often don't know
 what the right answer is. If your program is supposed to simulate the
 gravitational effects of a rapidly-rotating black hole, there isn't a formula
-that tells you what the answer should be---if there was, you'd use it instead of
+that tells you what the answer should be—if there was, you'd use it instead of
 writing a program. Similarly, if you are using machine learning to cluster
 people according to their medical histories, there is no "right" answer:
 slightly different parameters can produce slightly different clusters, and if

@@ -4,7 +4,7 @@ lede: "Sharing information with teammates and managers"
 template: page
 ---
 
-Knowing how to steer and change gears isn't all there is to driving---you need
+Knowing how to steer and change gears isn't all there is to driving—you need
 to know how to signal when you're turning or changing lanes.  Similarly, knowing
 how to commit to Git and do a code review are necessary but not sufficient for
 working with other programmers.  This chapter therefore looks at how to
@@ -212,8 +212,8 @@ conversations. Email really comes into its own, though, when messages are routed
 through a central mailing list, so that people don't have to remember to CC the
 other five people on their team, and a shared archive can be created for later
 searching. The second point is as important as the first: if you can't go back
-and find out what was said a month ago---or, just as importantly, if someone
-*else* can't do that---you might as well not have said it.
+and find out what was said a month ago—or, just as importantly, if someone
+*else* can't do that—you might as well not have said it.
 
 <blockquote markdown="1">
 ### Filters are your friend
@@ -233,7 +233,7 @@ ways [% b Treude2011 %].  [% i "wiki" "communication!wiki" %]Wikis[% /i %]
 seem like a good way to keep notes, create documentation, and so on. Their main
 strength is the fact that content is automatically and immediately visible on
 the web.  These days, you will probably get more mileage out of a bunch of
-[% i "Markdown" %]Markdown[% /i %] pages under version control---you have to set up a
+[% i "Markdown" %]Markdown[% /i %] pages under version control—you have to set up a
 repository anyway, and version control systems are much better at reconciling
 conflicts between concurrent authors than wikis.
 
@@ -388,7 +388,7 @@ a different kind of documentation:
     needs that she can tweak them the rest of the way.
 
 -   [% i "expert!documentation needs" "documentation!for experts" %]Experts[% /i %]
-    need this material as well---nobody's memory is perfect---but they may also
+    need this material as well—nobody's memory is perfect—but they may also
     paradoxically want tutorials.  The difference between them and novices is
     that experts want tutorials on how things work and why they were designed
     that way.

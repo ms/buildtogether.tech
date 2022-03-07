@@ -8,7 +8,7 @@ You just missed an important deadline, and people are unhappy.  The sick feeling
 in the pit of your stomach has turned to anger: you did *your* part, but Sylvie
 didn't finish her stuff until the very last minute, which meant that no one else
 had time to spot the two big mistakes she'd made.  And Surinder didn't deliver
-at all---again.  If something doesn't change, you're going to fail this course.
+at all—again.  If something doesn't change, you're going to fail this course.
 
 [% i "conflict (interpersonal)" %]Conflicts[% /i %] like this come up all the
 time.  We can deal with them in four ways:
@@ -54,7 +54,7 @@ The irony is that *The Walking Dead* and *Mad Max* have it completely backward:
 when a real disaster strikes, most people actually rise to the occasion. As
 [% b Solnit2010 %] describes, [% i "toxic people!misperception
 of" %]neighbors don't turn on each other[% /i %] in the aftermath of an earthquake
-or a hurricane---instead, they are more likely to look out for each other than
+or a hurricane—instead, they are more likely to look out for each other than
 under normal circumstances. That doesn't make for exciting viewing, though, and
 the powerful have always wanted the rest of us to believe that the only
 alternative to their rule is chaos.

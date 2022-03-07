@@ -28,8 +28,8 @@ rules, even if they are in the same legal jurisdiction (i.e., the same country,
 state, or province). In fact, some universities' rules depend not only on who
 you are but on which faculty you are in.
 
-The rules in industry are less complex---anything you do on company time or with
-company resources belongs to the company---but there are many gray areas. For
+The rules in industry are less complex—anything you do on company time or with
+company resources belongs to the company—but there are many gray areas. For
 example, I wrote some of the first drafts of this book on a company laptop while
 traveling for work. Does that mean I owe my former employer a share of the
 royalties?
@@ -71,8 +71,8 @@ copyright is a powerful tool for IP protection.
 
 [% i "patent" "intellectual property!patent" %][% g patent %]Patents[% /g %][% /i %] apply
 to inventions, technological improvements, certain designs, business methods,
-and a few other things. They grant a monopoly---the right to exclude others from
-using the patented idea---for a fixed period of time (usually twenty years).
+and a few other things. They grant a monopoly—the right to exclude others from
+using the patented idea—for a fixed period of time (usually twenty years).
 Since the right is stronger, the requirements for obtaining a patent are more
 stringent: it can take years, hundreds of pages of paperwork, and thousands of
 dollars to secure one.
@@ -151,7 +151,7 @@ share their own work on the same terms:
 > (via compiler) GPL-licensed code must also be made available under the GPL
 > along with build and install instructions.
 >
-> --- [tl;dr][tldr-gpl]
+> — [tl;dr][tldr-gpl]
 
 In other words, if someone modifies GPL-licensed software or incorporates it
 into their own project, and then distributes what they have created, they have

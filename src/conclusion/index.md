@@ -6,7 +6,7 @@ template: page
 
 We have come a long way since we talked about crunch mode and how to run a
 meeting in [% x important %].  Using feature branches, triaging issues,
-designing software so that it can be tested---good developers do all of these
+designing software so that it can be tested—good developers do all of these
 things, and learning how to do them yourself will help you get more done in less
 time and with less pain.
 

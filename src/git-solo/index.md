@@ -136,7 +136,7 @@ have and how they've changed.
 <blockquote markdown="1">
 ### Don't mess
 
-Don't edit the files in your `.git` directory yourself---it will have the same
+Don't edit the files in your `.git` directory yourself—it will have the same
 unfortunate effect as editing a spreadsheet or an image as if it was a text
 file. If you'd like to know more about what they're for and how Git uses them,
 please see [% b Chacon2014 %] or [% b Cook2019 %].
@@ -641,9 +641,9 @@ Git)" %]workflow[% /i %] will help you keep track of what you are doing:
     The branch name should be as descriptive as a variable name or filename
     would be.
 
-3.  Make your changes.  If something occurs to you along the way---for example,
+3.  Make your changes.  If something occurs to you along the way—for example,
     if we are writing a new function and realize that the documentation for some
-    other function should be updated---*don't* do that work in this branch.
+    other function should be updated—*don't* do that work in this branch.
     Instead, commit our changes, switch back to `main`, and create a new branch
     for the other work.
 

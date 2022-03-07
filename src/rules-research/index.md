@@ -84,7 +84,7 @@ Remember that academic success is measured in publications, not sales.
 
 Do the background reading.
 :   [% i "Mencken, H.L." %]H.L. Mencken[% /i %] once wrote that, "There is
-    always a well-known solution to every human problem---neat, plausible, and
+    always a well-known solution to every human problem—neat, plausible, and
     wrong." Your problem is almost certainly one of those, and is almost
     certainly more complex than you first realize. While Rule #4 tells
     researchers to sacrifice detail for clarity, this rule asks practitioners to

@@ -136,7 +136,7 @@ claim that whatever comes out the other end is significant. Luckily for us, they
 did it on purpose to make a point.
 
 They took data on code and errors for the Eclipse IDE and correlated the two to
-find good predictors of bugs. Which sounds sensible---except they did the
+find good predictors of bugs. Which sounds sensible—except they did the
 correlation at the level of individual characters. It turns out that 'i', 'r',
 'o', and 'p' are most strongly correlated with errors. What is a sensible
 researcher to do facing these findings? Take those letters out of the keyboard,
@@ -194,7 +194,7 @@ development. Their description of their method is worth repeating in full:
 > <br/>
 > That's not my department!" says Wernher von Braun
 >
-> --- [% i "Lehrer, Tom" %]Tom Lehrer[% /i %]
+> — [% i "Lehrer, Tom" %]Tom Lehrer[% /i %]
 
 [% b Tedre2008 %] describes three traditions that have shaped how we think
 about computing: the [% i "mathematical tradition in

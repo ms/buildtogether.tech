@@ -45,7 +45,7 @@ installation instructions, and so on.
 <blockquote markdown="1">
 ## Bugs
 
-It's OK to have bugs in your code when you finish your project---after all,
+It's OK to have bugs in your code when you finish your project—after all,
 almost all products do. This isn't because developers are lazy or careless;
 instead, it's a matter of economics.  If you're near the end of the development
 cycle, it may be riskier to fix a minor bug (and introduce new bugs in doing so)
@@ -91,7 +91,7 @@ number[% /i %] is only incremented when significant changes are made. In
 practice, "significant" means "changes that make it impossible for older
 versions to read the new version's data or configuration files". In practice,
 major version numbers are often under the control of the marketing
-department---if a competitor releases a new major version, we'd pretty much have
+department—if a competitor releases a new major version, we'd pretty much have
 to as well.
 
 [% i "version numbers!minor" "minor version number" %]Minor version
@@ -115,7 +115,7 @@ the fact (i.e. you create build #1017, QA says, "It looks good," so you say,
 
 Finally, groups will sometimes identify pre-releases as "beta 1", "beta 2", and
 so on, as in "6.2 beta 2". Again, this label is usually attached to a particular
-build after the fact---you wait until QA (or whoever) says that build #1017 is
+build after the fact—you wait until QA (or whoever) says that build #1017 is
 good enough to send out to customers, then tag it in version control.
 
 A four-part numbering scheme is more than you need for an undergraduate
