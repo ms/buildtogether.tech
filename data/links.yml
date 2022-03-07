@@ -73,6 +73,9 @@
 - key: carpentrycon-talk
   url: https://www.youtube.com/watch?v=7xR50ty5DZ0
   title: Greg Wilson's CarpentryCon keynote
+- key: cc-by-nc
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+  title: CC-BY-NC License
 - key: charles-rules
   url: https://geekfeminism.wikia.com/wiki/Charles%27_Rules_of_Argument
   title: Charles' Rules of Argument
@@ -352,6 +355,9 @@
 - key: pryce-onboarding
   url: https://twitter.com/natpryce/status/1375949072910200835
   title: Onboarding checklist
+- key: py-rse
+  url: https://merely-useful.tech/py-rse/
+  title: Research Software Engineering with Python
 - key: python
   url: https://www.python.org/
   title: Python
