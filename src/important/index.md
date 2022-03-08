@@ -226,6 +226,12 @@ Repeat.
 :   When your break is over,
     check that your to-do list is up to date and start again.
 
+<blockquote>
+How to prioritize: always finish first the tasks that will allow other people to continue/start/finish their work.
+
+— Yanina Bellini Saibene
+</blockquote>
+
 If any task on your list is more than an hour long,
 break it down into smaller pieces and prioritize those separately.
 Figuring out what those pieces are can take time,
