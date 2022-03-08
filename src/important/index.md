@@ -4,128 +4,154 @@ lede: "If you read nothing else…"
 template: page
 ---
 
-The things that go wrong most often in software projects have nothing to do with
-software.  Instead, the worst mistakes people make are related to the human side
-of things. Before we look at teamwork or tools, we need to talk about overwork,
-how to run a meeting, and how to resolve arguments.
+The worst mistakes people make are related to people, not software,
+so before we look at version control or testing,
+we need to talk about overwork,
+meetings,
+and resolving arguments.
 
 <blockquote markdown="1">
 ### Not writing software takes less time
 
 [% b Sedano2017 %] found that software development projects have
-[% i "waste (in software development)" %]nine types of waste[% /i %]: building the
-wrong feature or product, mismanaging the backlog, rework, unnecessarily complex
-solutions, extraneous [% i "cognitive load" %]cognitive load[% /i %]
-([% x thinking %]), psychological distress, waiting and
-[% i "multitasking" %]multitasking[% /i %], knowledge loss, and ineffective
-communication.  *None of these are software issues,* so if you only think about
-the software side of your project, it's going to take longer and hurt more than
-it needs to.
+[% i "waste (in software development)" %]nine types of waste[% /i %]:
+building the wrong feature or product,
+mismanaging the backlog,
+rework,
+unnecessarily complex solutions,
+extraneous [% i "cognitive load" %]cognitive load[% /i %] ([% x thinking %]),
+psychological distress,
+waiting and [% i "multitasking" %]multitasking[% /i %],
+knowledge loss,
+and ineffective communication.
+*None of these are software issues,*
+so if you only think about the code in your project and not about the people writing it,
+everything will take longer and hurt more than it needs to.
 </blockquote>
 
 ## Crunch Mode
 
-I used to brag about the hours I was working.  Not in so many words, of
-course—I had *some* social skills.  Instead, I'd show up for work around noon,
-unshaven and yawning, and casually mention how I'd been up until 6:00 a.m.
-hacking away at some monster bug.
+I used to brag about the hours I was working.
+Not in so many words, of course—I had *some* social skills—but
+I'd show up for work around noon,
+unshaven and yawning,
+and casually mention how I'd been up until 6:00 a.m. working on some monster bug.
 
-Looking back, I can't remember who I was trying to impress.  Instead, what I
-remember is how much of the code I wrote in those all-nighters I threw away once
-I'd had some sleep, and how much damage the bugs I created in those bleary-eyed
-stupors did to my teammates' productivity.
-
-My mistake was to confuse "long hours" with "getting things done".  You can't
-produce software (or anything else) without doing some work, but you can easily
-do lots of work without producing anything of value.  Scientific study of [% i "overwork" %]overwork[% /i %] goes back to at least the 1890s—see
-[% b Robinson2005 %] for a short, readable summary.  The most important
-results for developers are:
+Looking back,
+I can't remember who I was trying to impress.
+Instead,
+what I remember is how much of the code I wrote in those all-nighters I threw away
+once I'd had some sleep.
+My mistake was to confuse "long hours" with "getting things done".
+You can't produce software (or anything else) without doing some work,
+but you can easily do lots of work without producing anything of value.
+Scientific study of [% i "overwork" %]overwork[% /i %] goes back to at least the 1890s—see
+[% b Robinson2005 %] for a short, readable summary.
+The most important results are:
 
 1.  Working more than eight hours a day for more than a couple of weeks of time
-    lowers your total productivity, not just your hourly productivity—i.e.,
-    you get less done *in total* (not just per hour) when you're in
-    [% i "crunch mode" %][% g crunch_mode %]crunch mode[% /g %][% /i %] than you do when you work
-    regular hours.
+    lowers your total productivity,
+    not just your hourly productivity—i.e., you get less done *in total*
+    in [% i "crunch mode" %][% g crunch_mode %]crunch mode[% /g %][% /i %]
+    than when you work regular hours.
 
-1.  Working over 21 hours in a stretch increases the odds of you making a
-    catastrophic error just as much as being legally drunk.
+1.  Working over 21 hours in a stretch
+    increases the odds of you making a catastrophic error
+    just as much as being legally drunk.
 
-These facts have been verified through hundreds of experiments over the course
-of more than a century, including some on novice software developers
-[% b Fucci2020 %].  The data behind them is as solid as the data linking
-smoking to lung cancer.  However, while most smokers will acknowledge that their
-habit is killing them, people in the software industry still talk and act as if
-science somehow didn't apply to them.  To quote [% i "Robinson,
-Evan" %]Robinson[% /i %]'s article:
+These facts have been verified through hundreds of experiments
+over the course of more than a century,
+including some on novice software developers [% b Fucci2020 %].
+The data behind them is as solid as the data linking smoking to lung cancer.
+However,
+while most smokers will at least acknowledge that their habit is killing them,
+people in the software industry still talk and act as if
+they were somehow immune to science.
+To quote [% i "Robinson, Evan" %]Robinson[% /i %]'s article:
 
-> When [% i "Ford, Henry" %]Henry Ford[% /i %] famously adopted a 40-hour workweek
-> in 1926, he was bitterly criticized by members of the National Association of
-> Manufacturers.  But his experiments, which he'd been conducting for at least 12
-> years, showed him clearly that cutting the workday from ten hours to eight
-> hours—and the workweek from six days to five days—increased total worker
-> output and reduced production cost…  the core of his argument was that reduced
-> shift length meant more output.
->
-> …many studies, conducted by businesses, universities, industry associations and
-> the military, …support the basic notion that, for most people, eight hours a
-> day, five days per week, is the best sustainable long-term balance point between
-> output and exhaustion.  Throughout the 30s, 40s, and 50s, these studies were
-> apparently conducted by the hundreds; and by the 1960s, the benefits of the
-> 40-hour week were accepted almost beyond question in corporate America.  In
-> 1962, the Chamber of Commerce even published a pamphlet extolling the
-> productivity gains of reduced hours.
->
-> But, somehow, Silicon Valley didn't get the memo…
+<blockquote markdown="1">
+When [% i "Ford, Henry" %]Henry Ford[% /i %] famously adopted a 40-hour workweek in 1926,
+he was bitterly criticized by members of the National Association of Manufacturers.
+But his experiments,
+which he'd been conducting for at least 12 years,
+showed him clearly that cutting the workday from ten hours to eight hours—and
+the workweek from six days to five days—increased
+total worker output and reduced production cost…
+the core of his argument was that reduced shift length meant more output.
 
-I was part of a data visualization startup in the mid-1990s.  Three months
-before our first release, the head of development "asked" us to start coming in
-on Saturdays.  We were already pulling one late night a week at that point
-(without overtime pay—our boss seemed to think that ten dollars' worth of
-pizza was adequate compensation for four hours of work) and most of us were also
-working at least a couple of hours at home in the evenings.  It's hardly
-surprising that we missed our "can't miss" deadline by ten weeks, and had to
-follow up our 1.0 release with a 1.1 and then a 1.2 in order to patch the
-crash-and-lose-data bugs we'd created.  We were all zombies, and zombies can't
-code.
+…many studies,
+conducted by businesses, universities, industry associations and the military,
+…support the basic notion that,
+for most people,
+eight hours a day,
+five days per week,
+is the best sustainable long-term balance point between output and exhaustion.
+Throughout the 30s, 40s, and 50s, these studies were apparently conducted by the hundreds;
+and by the 1960s,
+the benefits of the 40-hour week were accepted almost beyond question in corporate America.
+In 1962,
+the Chamber of Commerce even published a pamphlet extolling the productivity gains of reduced hours.
 
-Those kinds of hours are sadly still normal in many parts of the software
-industry.  Everyone knows that designing and building software is a creative act
-that requires a clear head, but many people then act as if it was like digging a
-ditch.  The big difference is that it's hard to lose ground when digging (though
-not impossible).  In software, on the other hand, it's very easy to go backward.
-It only takes me a couple of minutes to create a bug that will take hours to
-track down later—or days, if someone else is unlucky enough to have to track
-it down.  This is summarized in Robinson's first rule:
+But, somehow, Silicon Valley didn't get the memo…
+</blockquote>
 
-> [% i "productivity" %]Productivity[% /i %] varies over the course of the
-> workday, with the greatest productivity occurring in the first four to six
-> hours.  After enough hours, productivity approaches zero; eventually it becomes
-> negative.
+I spent two years working for a data visualization startup.
+Three months before our first release,
+the head of development "asked" us to start coming in on Saturdays.
+We were already pulling one late night a week at that point
+(without overtime pay—our boss seemed to think that
+ten dollars' worth of pizza
+was adequate compensation for four hours of work)
+and most of us were also working at least a couple of hours at home in the evenings.
+To no one's surprise,
+we missed our "can't miss" deadline by ten weeks,
+and had to follow up our 1.0 release with a 1.1 and then a 1.2
+to fix the crash-and-lose-data bugs we'd created.
+We were all zombies, and zombies can't code.
 
-It's hard to quantify the productivity of programmers, testers, and UI
-designers, but five eight-hour days per week has been proven to maximize
-long-term total output in every industry that has ever been studied. There is no
-reason to believe that ours is any different.
+Hours like these are sadly still normal in many parts of the software industry,
+and may actually be worse now that so many people are working from home.
+Designing and building software is a creative act that requires a clear head;
+it only takes a couple of minutes to create a bug
+that will take hours to track down later.
+As Robinson writes:
 
-Ah, you say, that's "long-term total output".  What about short bursts now and
-then, like pulling an all-nighter to meet a deadline?  That's been studied too,
-and the results aren't pleasant.  Your ability to think drops by 25 points for
-each 24 hours you're awake.  Put it another way, the average person's IQ is only
-75 after one [% i "all-nighters" %]all-nighter[% /i %], which puts them in the
-bottom 5% of the population.  Two all nighters in a row and their effective IQ
-is 50—the level at which people are usually judged incapable of independent
-living.
+<blockquote markdown="1">
+[% i "productivity" %]Productivity[% /i %] varies over the course of the workday,
+with the greatest productivity occurring in the first four to six hours.
+After enough hours,
+productivity approaches zero;
+eventually it becomes negative.
+</blockquote>
 
-The catch in all of this is that people usually don't notice their abilities
-declining.  Just like drunks who think they're still able to drive, people who
-are deprived of sleep don't realize that they're not finishing their sentences
-(or thoughts).  They certainly don't realize that they're passing parameters
-into function calls the wrong way around or that the reason the tests are
-failing is that they've forgotten to redeploy the application again.
+It's hard to quantify the productivity of programmers, testers, and UI designers
+[% b Sadowski2019b Forsgren2021 %],
+but five eight-hour days per week has been proven to maximize long-term total output
+in every industry that has ever been studied.
+There is no reason to believe that ours is any different.
 
-The moral of this story is to think very hard about what's more important to
-you—how much good work you produce or how much of a martyr you appear to
-be—and pace yourself accordingly.
+Ah, you say, but that's *long-term* output.
+What about short bursts now and then,
+like pulling an all-nighter to meet a deadline?
+That's been studied too,
+and the results aren't pleasant.
+Your ability to think drops by 25 points for each 24 hours you're awake.
+Put it another way,
+the average person's IQ is only 75 after one [% i "all-nighters" %]all-nighter[% /i %],
+which puts them in the bottom 5% of the population.
+Two all nighters in a row and their effective IQ is 50—the level at which
+people are considered incapable of independent living.
+
+The catch in all of this is that people usually don't notice their abilities declining.
+Just like drunks who think they're still able to drive,
+people who are deprived of sleep don't realize that they're not finishing their sentences (or thoughts).
+They certainly don't realize that they're calling functions with parameters in the wrong order
+or that the reason the tests are failing is that
+they've forgotten to redeploy the application—again.
+
+The first and most important lesson in this chapter is therefore
+to think very hard about what's more important—how much you produce
+or how much of a martyr you appear to be—and to pace yourself accordingly.
 
 ## Time Management
 
