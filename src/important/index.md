@@ -315,151 +315,177 @@ and should be avoided whenever possible.
 
 ## Meetings
 
-The previous section explained how to be productive individually—what about
-being productive in a team?
-The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently.
-The rules doing so are simple but rarely followed:
+The previous section explained how to be productive individually,
+but what about being productive in a team?
+The most important thing is to run [% i "meetings" %]meetings[% /i %] efficiently,
+and the best way to do that is to distinguish between:
 
-Agree on the rules.
-:   Bridge and ping pong are both fun games, but you can't play both on the same
-    table at the same time. (Please don't take this as a challenge, or if you
-    do, please post a video.) Similarly, exactly what rules you use to run
-    meetings matters less than everyone agreeing on what the rules are.
+-   [% i "meetings!status" "status meeting" %][% g status_meeting %]Status meetings[% /g %][% /i %]
+    for keeping everyone up to date on what everyone else is doing
+    and for making simple decisions when the options are well understood.
 
-Keep discussion meetings and decision meetings separate.
-:   A [% i "meetings! discussion" %][% g discussion_meeting %]discussion meeting[% /g %][% /i %]'s purpose is to explore design alternatives or figure out
-    what next term's goals should be.  A [% i "meetings!decision" %][% g decision_meeting %]decision meeting[% /g %][% /i %] on the other hand, is for
-    choosing which alternatives to pursue.  Discussion meetings are meant to be
-    wide-ranging (and fun); decision meetings should be short and focused.  The
-    two are never completely distinct in practice, but decision-making is more
-    efficient if it isn't mixed with brainstorming. The rest of these rules
-    focus on decision meetings.
+-   [% i "meetings!discussion" %][% g discussion_meeting %]Discussion meetings[% /g %][% /i %]
+    for making decisions that require more in-depth thinking.
 
-Decide if there actually needs to be a meeting.
-:   If the only purpose is to share information, have everyone send a brief
-    email instead.  Most people can read faster than they can speak: if someone
-    has facts for the rest of the team to absorb, the most polite way to
-    communicate them is to type them in.
+Both kinds of meetings are distinct from things like brainstorming sessions and programming sprints,
+which focus on the content of the project
+rather than on its operation.
 
-Write an agenda.
-:   If nobody cares enough about the meeting to prepare a point-form list of
-    what's to be discussed, the meeting probably doesn't need to happen.  Note
-    that "the agenda is all the open issues in our GitHub repo" doesn't count.
+Every team should have a short weekly status meeting.
+For each meeting,
+create a table in a shared document like the one in [% t important-status %].
+Everyone adds a few bullet points to their row in the table
+at least half an hour before the meeting starts
+so that the whole team can mull everything over.
+If anyone wants to discuss something,
+they highlight it by adding a comment.
+The meeting moderator then goes through the highlighted items one by one,
+spending no more than a couple of minutes on each;
+anything that requires more time is deferred to a discussion meeting
 
-Include timings in the agenda.
-:   Doing this helps prevent early items stealing time from later ones.  The
-    first estimates with any new group are inevitably optimistic, so expect to
-    revise them upward for subsequent meetings.  But don't have second or third
-    meeting just because the first one ran over time: instead, try to figure out
-    *why* it ran over and fix the underlying problem.
-
-Prioritize.
-:   Tackle issues that will have high impact but take little time first, and
-    things that will take more time but have less impact later.  That way the
-    meeting will still have accomplished something if the first items run over
-    time.
-
-Make one person responsible for keeping things moving.
-:   One person should be made moderator and be responsible for keeping items to
-    time, chiding people who are having side conversations or checking email,
-    and asking people who are talking too much to get to the point.  The
-    moderator should *not* do all the talking: in fact, whoever is in charge
-    will talk less in a well-run meeting than most other participants.
-
-Require politeness.
-:   No one gets to be rude, no one gets to ramble, and if someone goes off
-    topic, it's the moderator's job to say, "Let's discuss that elsewhere."  As
-    discussed below, this is *not* the same as assuming that everyone has good
-    intentions, and that if they say something rude it was just an accident.
-
-No interruptions.
-:   This rule is a special case of the one above, since treating other people
-    with respect is the sincerest form of politeness.  Participants should raise
-    a finger, hand, put up a sticky note, or make another well understood
-    gesture to indicate when they want to speak.  The moderator should keep
-    track of who wants to speak and give them time in turn.
-
-No distractions.
-:   Side conversations make meetings less efficient because nobody can actually
-    pay attention to two things at once.  Similarly, if someone is checking
-    their email or texting a friend during a meeting, it's a clear signal that
-    they don't think the speaker or their work is important.  This doesn't mean
-    a complete ban on technology—people may need accessibility aids, or may be
-    waiting for a call from a dependent—but by default, phones should be face
-    down and laptops should be closed during in-person meetings.
-
-Take minutes.
-:   Someone other than the moderator should take [% i "minutes (of
-    meetings)" %]point-form notes[% /i %] about the most important information that
-    was shared, and about every decision that was made or every task that was
-    assigned to someone.  This responsibility should rotate each meeting so that
-    everyone has to take a turn; otherwise, as discussed in [% x teams %],
-    the burden will fall unfairly on some people.
-
-End early.
-:   If the meeting is scheduled for 10:00--11:00, aim to end at 10:50 to give
-    people a break before whatever they're doing next.
-
-<blockquote markdown="1">
-### I don't like your tone
-
-[% i "tone policing" %][% g tone_policing %]Tone policing[% /g %][% /i %] is a tactic used
-to shut down discussion by criticizing people for expressing emotion.  It is
-often used against women, who are told to "calm down" when they show any sign of
-being angry at being excluded or not taken seriously. As [this
-article][flower-good-intent] by [Annalee Flower][flower-annalee] says:
-
-*People often reach for positive statements like "assume good intent" because
-they're worried about people being "shamed" over innocent mistakes. But society
-at large is already inclined to assume good intent in people with power and
-privilege–even when they're not demonstrating it. If you want to build a culture
-of "assuming good intent," start by assuming good intent in marginalized people.*
-
-*Assume that they already tried being nice. Assume that their feelings are
-valid. Assume that, after a lifetime of practice, they are responding to harmful
-behavior in the way that is safest for them.  Prioritize that safety over the
-momentary discomfort people feel when they realize they've done something
-hurtful.*
-</blockquote>
-
-As soon as the meeting is over, add a summary to the project's wiki, version
-control repository, or wherever else things are being stored:
-
-People who weren't at the meeting can follow what's going on.
-:   We all have to juggle tasks from several projects or courses, which means
-    that sometimes we can't make it to meetings.  Checking a written record is a
-    more accurate and efficient way to catch up than asking a colleague, "What
-    did I miss?"
-
-Everyone can check what was actually said or promised.
-:   More than once, I have looked over a set of minutes and thought, "Did I say
-    that?" or, "I didn't promise to have it ready then!"  Accidentally or not,
-    people often remember things differently; writing them down gives everyone a
-    chance to correct mistakes, misinterpretations, or misrepresentations.
-
-People can be held accountable at subsequent meetings.
-:   There's no point making lists of questions and action items if you don't
-    follow up on them later.  If you are using an [% i "issue-tracking
-    system" %]issue-tracking system[% /i %] ([% x tooling %]), create an issue
-    for each new question or task right after the meeting and update those that
-    are being carried forward.  This helps a lot when the time comes to draw up
-    the agenda for the next meeting.
-
-Please don't email minutes to everyone: our inboxes are full enough, and the
-more places new team members need to search in order to find things, the more
-likely they are to miss something important.
+<div class="table" id="important-status" caption="Status Update Table" markdown="1">
+| Person | Progress | Plans | Problems |
+| ------ | -------- | ----- | ---------- |
+| Ren    | Parsing OCTL records | Tag OCTL records in DVC | Duplicate OCTL tags? |
+|        | Deployed progress bar patch | Help onboard Silvia | |
+| Mikka  | Refactored PostgreSQL connector | #156: handle records with NULL timestamp | Clarify authorship guidelines |
+|        | Patched database tests | #171: auto-archive duplicate records | |
+| Sanjay | … | … | … |
+| Jess   | … | … | … |
+</div>
 
 <blockquote markdown="1">
 ### Are you a blowfish or a clam?
 
-[NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors has useful
-labels and even more useful advice for handling people who may send meetings off
-course.
+[NOAA's guide][noaa-disruptive] to dealing with disruptive behaviors
+has useful labels and even more useful advice
+for handling people who may send meetings off course.
+</blockquote>
+
+Decision meetings are more structured:
+
+Decide if there actually needs to be a meeting.
+:   If the only purpose is to share information,
+    send a brief email instead:
+    most people can read faster than they can speak.
+
+Write an agenda.
+:   If nobody cares enough about the meeting to prepare
+    a point-form list of what's to be discussed,
+    the meeting probably doesn't need to happen.
+    (Note that "the agenda is all the open issues in our GitHub repo" doesn't count.)
+
+Include timings in the agenda.
+:   Doing this helps prevent early items stealing time from later ones.
+    The first estimates with any new group are inevitably optimistic,
+    so expect to revise them upward for subsequent meetings.
+    But don't have second or third
+    meeting just because the first one ran over time: instead, try to figure out
+    *why* it ran over and fix the underlying problem.
+
+Select a moderator.
+:   Put one person in charge of keeping items on time,
+    selecting the next person to speak,
+    chiding people who are having side conversations or checking email,
+    and asking people who are talking too much to get to the point.
+    The moderator should *not* do all the talking:
+    in fact,
+    the moderator will talk less in a well-run meeting than most other participants.
+
+Prioritize.
+:   Tackle the most important issues first, even if they're the longest,
+    because the little ones always take more time than you expect.
+
+Require politeness.
+:   No one gets to be rude,
+    no one gets to ramble,
+    and if someone goes off topic,
+    it's the moderator's job to say, "Let's discuss that elsewhere."
+
+No interruptions.
+:   This rule is a special case of the one above,
+    since treating other people with respect is the sincerest form of politeness.
+    Participants should raise a hand (physically or electronically)
+    when they want to speak.
+    The moderator should keep track of the queue
+    and give each person time in turn.
+
+No distractions.
+:   Side conversations make meetings less efficient
+    because nobody can actually pay attention to two things at once.
+    More importantly,
+    if someone is checking their email or texting a friend during a meeting,
+    it's a clear signal that they don't think the speaker or their work is important.
+    This doesn't mean a complete ban on technology—people may need accessibility aids
+    or be waiting for a call about childcare—but by default
+    phones should be face down and laptops should be closed
+    during in-person meetings.
+
+Take minutes.
+:   As discussed below,
+    someone other than the moderator should take
+    [% i "minutes (of meetings)" %]point-form notes[% /i %]
+    about the most important information that was shared
+    and about every decision that was made or every task that was assigned to someone.
+
+End early.
+:   If the meeting is scheduled for 10:00--11:00,
+    aim to end at 10:50 to give people a break before whatever they're doing next.
+
+As soon as the meeting is over,
+add the minutes to the project's wiki,
+version control repository,
+or shared cloud drive.
+(Please don't email minutes to everyone:
+our inboxes are full enough,
+and the more places new team members need to search in order to find things,
+the more likely they are to miss something important.)
+Sharing the minutes ensures that:
+
+People who weren't at the meeting can follow what's going on.
+:   We all have to juggle tasks from several projects or courses,
+    which means that sometimes we can't make it to meetings.
+    Checking a shared record is more accurate and more efficient than asking a colleague,
+    "What did I miss?"
+
+Everyone can check what was actually said or promised.
+:   Accidentally or not, people often remember things differently;
+    writing them down gives everyone a chance to correct mistakes
+    and misinterpretations.
+
+People can be held accountable.
+:   Whoever has to draw up the agenda for the next meeting
+    can start with the action items from the previous one.
+
+<blockquote markdown="1">
+### I don't like your tone
+
+[% i "tone policing" %][% g tone_policing %]Tone policing[% /g %][% /i %]
+is a tactic used to shut down discussion by criticizing people for expressing emotion.
+It is often used against women,
+who are told to "calm down" when they show any sign of being angry at being excluded or not taken seriously.
+As [Annalee Flower][flower-annalee] [wrote][flower-good-intent]:
+
+*People often reach for positive statements like "assume good intent"
+because they're worried about people being "shamed" over innocent mistakes.
+But society at large is already inclined to assume good intent
+in people with power and privilege–even when they're not demonstrating it.
+If you want to build a culture of "assuming good intent",
+start by assuming good intent in marginalized people.*
+
+*Assume that they already tried being nice.
+Assume that their feelings are valid.
+Assume that,
+after a lifetime of practice,
+they are responding to harmful behavior in the way that is safest for them.
+Prioritize that safety over the momentary discomfort people feel
+when they realize they've done something hurtful.*
 </blockquote>
 
 If you would like to become better at sharing information and making decisions,
-there is no better place to start than [% b Brookfield2016 %]. This book
-catalogs fifty different techniques and explains when and why each is useful.
+there is no better place to start than [% b Brookfield2016 %],
+which catalogs fifty different techniques for managing discussions
+and explains when and how each is useful.
 
 ## Air Time
 
