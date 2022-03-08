@@ -95,7 +95,7 @@ the Chamber of Commerce even published a pamphlet extolling the productivity gai
 But, somehow, Silicon Valley didn't get the memo…
 </blockquote>
 
-I spent two years working for a data visualization startup.
+I spent two years at a data visualization startup.
 Three months before our first release,
 the head of development "asked" us to start coming in on Saturdays.
 We were already pulling one late night a week at that point
@@ -155,149 +155,156 @@ or how much of a martyr you appear to be—and to pace yourself accordingly.
 
 ## Time Management
 
-"But I have so many assignments to do!", you say.  "And they're all due at once!
-I *have* to work extra hours to get them all done!" Sadly, that is often true:
-while people in industry joke that having two bosses means living in hell, most
-students can only dream of having just two, since most schools do a lousy job of
-coordinating due dates across different courses.  [% b Tregubov2017 %]
-found strong correlation between the number of projects and the number of
-interruptions that developers reported, while [% b Edwards2009 %] found
-that starting assignments early and working consistently both predicted good
-grades.
+[% b Edwards2009 %] found that
+starting assignments early and working consistently predicted good grades.
+However,
+while people in industry joke that having two bosses means living in hell,
+students usually have four or five,
+most of whom don't coordinate due dates across their courses.
 
-The best strategy for [% i "time management" %]time management[% /i %] is to
-prioritize and focus.  Prioritizing is important because most of us are very
-good at spending hours on things that don't need to be done and then finding
-themselves with too little time for the things that actually count. A little bit
-of organizing can help a lot—as [% b Mark2008 %] reported, "…people
-compensate for interruptions by working faster, but this comes at a price:
-experiencing more stress, higher frustration, time pressure and effort."
-
-<blockquote markdown="1">
-### How bad is it?
-
-A student of mine kept a stopwatch beside his computer for a couple of weeks
-during term.  Every time he read mail, put Twitter in the foreground, or went to
-Manchester United's web site he hit the button to stop it.  At the end of two
-weeks he discovered that he only spent 28% of his "working" time working.  Put
-it another way, he could have finished his assignments in a third of the time
-they actually took.
-</blockquote>
+The only way to manage this is to prioritize and then focus.
+Prioritizing ensures that you don't spent hours on things that don't need to be done
+and then find yourself with too little time for the things that actually count;
+focusing ensures that the time you *do* have is productive.
 
 Make a list of the things you have to do.
-:   I still use a hardcover lab notebook for this so that I can doodle in it
-    when I'm thinking, but a lot of people keep a personal wiki or send
-    themselves email messages that then go into a folder titled "To Do".
-    However you do it, the important thing is to *write it all down*.  You can
-    only keep a handful of things in short-term memory at once
-    ([% x thinking %]); if you try to manage a [% i "to-do list" %]to-do
-    list[% /i %] longer than that in your head, you will forget things.
+:   I use a hardcover lab notebook for this so that I can doodle in it when I'm thinking,
+    but a lot of people keep a personal wiki
+    or send themselves email messages tagged "To Do".
+    Whatever you use,
+    the important thing is to *write it all down*.
+    You can only keep a handful of things in short-term memory at once ([% x thinking %]);
+    if you try to manage a [% i "to-do list" %]to-do list[% /i %] longer than that in your head,
+    you will forget things.
 
-Weed out everything that you don't need to do right away.
-:   If you want to try out a new editor theme that's play time not work time,
-    and we're talking about getting work done.
+Weed out things you don't need to do right away.
+:   Trying out a new editor theme is play time,
+    not work time.
 
 Sort the list so that the most important tasks are at the top.
-:   I don't worry about getting the stuff below the first three or four lines
-    into order, since I'm going to re-check my list before I get to them anyway.
+:   I don't waste time ordering items below the first three or four:
+    I know I'm going to re-check my list before I get to them.
 
-Make sure you have everything you need to see the first task through.
-:   The most recent files from [% i "version control" %]version control[% /i %]
-    ([% x git-solo %]), the assignment specification, a fresh cup of
-    tea—whatever it is, don't give yourself an excuse to interrupt your work,
+Collect what you need to complete the first task.
+:   The most recent files from [% i "version control" %]version control[% /i %] ([% x git-solo %]),
+    the assignment specification,
+    a fresh cup of tea—whatever it is,
+    don't give yourself an excuse to interrupt your work,
     because the world will provide enough of those.
 
 Turn off [% i "interruptions" %]interruptions[% /i %].
-:   Shut down your mail client, instant messaging, and your cell phone.  Don't
-    panic, it's only for an hour—most people can't stay focused longer than
-    that, and you'll need to stretch your muscles and get rid of that tea you
-    drank by then anyway.
+:   Shut down your mail client,
+    instant messaging,
+    and your cell phone.
+    Don't panic: it's only for an hour.
+    Most people can't stay focused longer than that,
+    and you'll need to stretch your muscles and get rid of the tea you drank.
 
 Set an alarm to go off in fifty minutes.
-:   Don't switch tasks in that time unless you absolutely have to.  Instead, if
-    you remember an email message that needs to be sent or discover a couple of
-    tests that really should be written, add a note to your to-do list.  This is
-    another reason I keep mine in a lab notebook: the few seconds it takes to
-    pick up a pen and jot something down gives my hands a rest from the
-    keyboard, and I'm less likely to be distracted by a notebook than by a text
-    editor.
+:   Don't switch tasks in that time unless you absolutely have to.
+    Instead,
+    if you remember that you needed to send an email message
+    or realize you should write a couple of tests,
+    add a note to your to-do list.
+    This is another reason I keep mine in a lab notebook:
+    the few seconds it takes to pick up a pen and jot something down
+    gives my hands a rest from the keyboard,
+    and I'm less likely to be distracted by a notebook than by a text editor.
 
 Take a ten-minute [% i "breaks (importance of regular)" %]break[% /i %].
-:   Get up and move around a little during these ten minutes, even if it's just
-    to refill your water bottle, visit the toilet, or do a few stretches. You
-    will be able to work longer if your back doesn't ache, and being away from
-    the keyboard for a few minutes gives your brain a chance to reflect on what
-    you've just been doing. (It's amazing how often a problem that has baffled
-    me for an hour can be solved by a five-minute walk.) When you're done, check
-    that your to-do list is still in the right order and start again.
+:   Get up and move around a little when your alarm goes off,
+    even if it's just to refill your water bottle,
+    visit the toilet,
+    or do a few stretches.
+    You will be able to work longer if your back doesn't ache,
+    and being away from the keyboard for a few minutes
+    gives your brain a chance to reflect on what you've just been doing.
+    (You can often solve a problem that's been baffling you for an hour
+    by taking a five-minute walk.)
 
-If any task on your list is more than an hour long, break it down into
-smaller pieces and prioritize those separately.  And keep in mind that the
-future is approaching at a fixed rate of one day every 24 hours: if something's
-going to take sixty hours to do you had better allow at least ten working days
-for it, which means you'd better tackle the first piece two working weeks before
-the deadline.  Since breaking large tasks down into small ones takes time, don't
-be surprised if "plan XYZ" appears as a task in your list.
+Repeat.
+:   When your break is over,
+    check that your to-do list is up to date and start again.
 
-The point of all this organization and preparation is to get yourself into the
-most productive mental state possible.  [% b Csikszentmihalyi1991 %]
-popularized the term [% i "flow" %][% g flow %]flow[% /g %][% /i %] for this; athletes call
-it "being in the zone", while musicians talk about losing themselves in what
-they're playing.  Whatever name you use, you will produce much more in this
-state than normal.
+If any task on your list is more than an hour long,
+break it down into smaller pieces and prioritize those separately.
+Figuring out what those pieces are can take time,
+so don't be embarrassed to make "plan XYZ" a task in its own right.
+And remember that the future is approaching at a rate of 24 hours per day:
+if something is going to take sixty hours to do,
+you had better allow at least ten working days for it,
+which means you'd better tackle the first piece two weeks before the deadline.
 
-The bad news is that it takes anywhere from several seconds to several minutes
-to get back into a productive flow after an interruption
-[% b Parnin2010 Borst2015 %].  This means that if you are interrupted half
-a dozen times per hour you are *never* at your productive peak. Ironically, the
-cost of self-interruptions may be even worse than the cost for external
-interruptions [% b Abad2018 %].  It's very much like processes being paged
-in and out by an operating system: if it happens too often, the CPU spends all
-its time moving things around and none doing useful work.
+The point of all this organization and preparation is
+to be able to immerse yourself in your problem.
+[% b Csikszentmihalyi1991 %] popularized the term [% i "flow" %][% g flow %]flow[% /g %][% /i %] for this;
+athletes call it "being in the zone",
+while musicians talk about losing themselves in what they're playing.
+
+The good news is that being immersed in a problem
+is much more productive (and much more fun)
+than multi-tasking.
+The bad news is that
+it takes anywhere from several seconds to several minutes
+to get back into this state after an interruption [% b Parnin2010 Borst2015 %].
+In other words,
+if you are interrupted half a dozen times per hour
+you are *never* at your productive peak.
+Ironically,
+the cost of self-interruptions may be even worse than the cost for external interruptions [% b Abad2018 %].
 
 Making lists and setting 50-minute alarms will seem a little earnest at first,
-but your friends will stop mocking you when they see that you're able to finish
-your assignments and still have time to play some badminton and catch a movie.
+but your friends will stop mocking you
+when they see that you're able to finish your assignments
+and still have time to play some badminton and catch a movie.
 They may even start to imitate you.
+
+<blockquote markdown="1">
+### Nothing about us without us
+
+The rules laid out above were created
+by and for people near the middle of the bell curve with respect to focus and attention span.
+People who are [% i "neurodivergence" %][% g "neurodivergence" %]neurodivergent[% /g %][% /i %],
+i.e., whose brains work differently from the average
+when it comes to sociability, learning, attention, and mood
+may find that other approaches work better for them.
+
+But while society accepts that
+people of different heights need different desks and seating to be comfortable,
+there is still a lot of [% i "neurodivergence (stigma associated with)" %]stigma[% /i %]
+associated with differences in mental function,
+which are often classified according to
+[how inconvenient they are to other people][adhd-thread].
+One example is how tests for
+[% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
+(ADHD) are phrased.
+"Subject is overly talkative": compared to who?
+"Subject does X when it is inappropriate": by whose rules?
+"Struggles to pay attention": in fact,
+most people with ADHD can pay very close attention,
+but not when they are in environments like noisy classrooms
+that are full of distractions.
+
+Decisions that affect people should only be made
+with the full participation of those who will be affected.
+If you are neurodivergent,
+you probably have a set of strategies for managing time and attention.
+If you are [% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
+and have neurodivergent teammates,
+ask them what works well for them rather than ignoring the difference
+or guessing what they might want.
+Please do the same if you have teammates who have difficulty seeing, hearing, or moving about:
+they have expertise you don't.
+</blockquote>
 
 <blockquote markdown="1">
 ### Open offices suck
 
-[% i "open offices (evils of)" %]Open offices[% /i %] were created so that
-(mostly male) managers could keep an eye on (mostly female) office workers, and
-to reduce air conditioning costs [% b Eley1995 %].  In every other way we
-can measure, they lower productivity [% b Bernstein2018 %].
-</blockquote>
-
-<blockquote markdown="1">
-### Nihil de nobis sine nobis
-
-The rules laid out above were created by and for people near the middle of the
-bell curve with respect to focus and attention span. People who are
-[% i "neurodivergent" %][% g "neurodivergent" %]neurodivergent[% /g %][% /i %],
-i.e., whose brains work differently from the average when it comes to sociability,
-learning, attention, and mood, may find that other approaches work better for them.
-
-But while society accepts that people of different heights need different desks
-and seating to be comfortable, there is still a lot of [% i "mental health
-(stigma associated with)" %]stigma[% /i %] associated with differences in mental
-function, which are often measured by [how inconvenient they are to other
-people][adhd-thread].  One example is how tests for
-[% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
-(ADHD) are phrased. "Subject is overly talkative": compared to who? "Subject does X when it
-is inappropriate": by whose rules? "Struggles to pay attention": in fact, most
-people with ADHD can pay very close attention, but not when they are in
-environments that are full of distractions (like noisy classrooms).
-
-The title of this callout is Latin for, "Nothing about us without us." It means
-that no decisions should be made without the full participation of those who
-will be affected.  If you are neurodivergent, you probably have a set of
-strategies for managing time and attention. If you are
-[% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
-and have neurodivergent teammates, ask them
-what works well for them rather than ignoring the difference or guessing what
-they might want. Please do the same if you have teammates who have difficulty
-seeing, hearing, or moving about: they have expertise you don't.
+[% i "open offices (evils of)" %]Open offices[% /i %] were created
+so that (mostly male) managers could keep an eye on (mostly female) office workers,
+and to reduce air conditioning costs [% b Eley1995 %].
+They lower productivity in every other way we can measure [% b Bernstein2018 %],
+and should be avoided whenever possible.
 </blockquote>
 
 ## Meetings
