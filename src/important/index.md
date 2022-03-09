@@ -457,31 +457,6 @@ People can be held accountable.
 :   Whoever has to draw up the agenda for the next meeting
     can start with the action items from the previous one.
 
-<blockquote markdown="1">
-### I don't like your tone
-
-[% i "tone policing" %][% g tone_policing %]Tone policing[% /g %][% /i %]
-is a tactic used to shut down discussion by criticizing people for expressing emotion.
-It is often used against women,
-who are told to "calm down" when they show any sign of being angry at being excluded or not taken seriously.
-As [Annalee Flower][flower-annalee] [wrote][flower-good-intent]:
-
-*People often reach for positive statements like "assume good intent"
-because they're worried about people being "shamed" over innocent mistakes.
-But society at large is already inclined to assume good intent
-in people with power and privilege–even when they're not demonstrating it.
-If you want to build a culture of "assuming good intent",
-start by assuming good intent in marginalized people.*
-
-*Assume that they already tried being nice.
-Assume that their feelings are valid.
-Assume that,
-after a lifetime of practice,
-they are responding to harmful behavior in the way that is safest for them.
-Prioritize that safety over the momentary discomfort people feel
-when they realize they've done something hurtful.*
-</blockquote>
-
 If you would like to become better at sharing information and making decisions,
 there is no better place to start than [% b Brookfield2016 %],
 which catalogs fifty different techniques for managing discussions
@@ -489,45 +464,62 @@ and explains when and how each is useful.
 
 ## Air Time
 
-One of the problems in a synchronous meeting is the tendency of some people to
-speak far more than others.  Other meeting members may be so accustomed to this
+One problem with meetings is that
+some people may talk far more than others.
+Other people may be so accustomed to this
 that they don't speak up even when they have valuable points to make.
 
-One way to combat this is to give everyone [% i "meetings!three sticky notes" "three sticky notes (in meetings)" %]three sticky notes[% /i %] (or coins, or
-paperclips—anything inedible will do).  at the start of the meeting.  Every
-time they speak, they have to give up one sticky note.  When they're out of
-stickies, they aren't allowed to speak until everyone has used at least one, at
-which point everyone gets all of their sticky notes back.  This ensures that
-nobody talks more than three times as often as the quietest person in the
-meeting, and completely changes group dynamics.  People who have given up trying
-to be heard suddenly have space to contribute, and the overly frequent speakers
-realize how unfair they have been.
+You can combat this
+by giving everyone [% i "meetings!three sticky notes" "three sticky notes (in meetings)" %]three sticky notes[% /i %]
+(or coins, or paperclips—anything inedible will do) at the start of the meeting.
+Every time someone speaks,
+they have to give up one sticky note.
+When they're out of stickies,
+they aren't allowed to speak until everyone has used at least one,
+at which point everyone gets all of their sticky notes back.
+This ensures that nobody talks more than three times as often as
+the quietest person in the room,
+which completely changes group dynamics.
+People who have given up trying to be heard suddenly have space to contribute,
+and the overly-frequent speakers realize how talkative they have been.
 
 Another useful technique is called
 [% i "meetings!interruption bingo" "interruption bingo (in meetings)" %]interruption bingo[% /i %].
-Draw a grid and
-label the rows and columns with the participants' names.  Each time one person
-interrupts another, add a tally mark to the appropriate cell; halfway through
-the meeting, take a moment to look at the results.  In most cases it will be
-clear that one or two people are doing all of the interrupting.  After that,
-saying, "All right, I'm adding another tally to the bingo card," is often enough
-to get them to throttle back.
+Draw a grid and label the rows and columns with the participants' names;
+each time person A interrupts person B,
+add a tally mark to the appropriate cell.
+Look at the results Halfway through the meeting:
+in most cases it will be clear that one or two people are doing all of the interrupting,
+and that they're always interrupting the same people.
+After that,
+saying, "All right, I'm adding another tally to the bingo card,"
+is usually enough to get them to throttle back.
+If it isn't,
+well,
+you just learned something about your teammate…
 
-Online meetings provide special challenges, both in the context of regulating
-how often individuals speak, as well as running meetings in general.
-[% b Troy2018 %] discusses why [% i "meetings (online)" %]online
-meetings[% /i %] are often frustrating and unproductive and points out that in
-most online meetings, the first person to speak during a pause gets the floor.
-As a result, "If you have something you want to say, you have to stop listening
-to the person currently speaking and instead focus on when they're gonna pause
-or finish so you can leap into that nanosecond of silence and be the first to
-utter something.  The format…encourages participants who want to contribute to
-say more and listen less."
+Online meetings provide special challenges for regulating how often individuals speak.
+[% b Troy2018 %] discusses why [% i "meetings (online)" %]online meetings[% /i %]
+are often frustrating,
+and points out that in most online meetings,
+the first person to speak during a pause gets the floor.
+As a result,
+"If you have something you want to say,
+you have to stop listening to the person currently speaking
+and instead focus on when they're gonna pause or finish
+so you can leap into that nanosecond of silence
+and be the first to utter something.
+The format…encourages participants who want to contribute to say more and listen less."
 
-The solution is to run a text chat beside the video conference where people can
-signal that they want to speak.  The moderator can then select people from the
-waiting list.  This practice can be reinforced by having everyone mute
-themselves, and only allowing the moderator to unmute people.
+The solution is to run a text chat beside the video conference
+where people can signal that they want to speak;
+the moderator can then select people from the waiting list.
+Text chat is better than the "raise hand" feature most video conferencing tools offer
+because the person who wants to speak can indicate why.
+For example,
+they can type "question about budget"
+rather than just "question"
+so that the moderator can group related questions together.
 
 ## Making Decisions
 
