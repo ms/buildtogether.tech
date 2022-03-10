@@ -159,8 +159,8 @@ or how much of a martyr you appear to be—and to pace yourself accordingly.
 starting assignments early and working consistently predicted good grades.
 However,
 while people in industry joke that having two bosses means living in hell,
-students usually have four or five,
-most of whom don't coordinate due dates across their courses.
+students usually answer to four or five professors
+whom don't coordinate due dates across their courses.
 
 The only way to manage this is to prioritize and then focus.
 Prioritizing ensures that you don't spent hours on things that don't need to be done
@@ -227,7 +227,8 @@ Repeat.
     check that your to-do list is up to date and start again.
 
 <blockquote>
-How to prioritize: always finish first the tasks that will allow other people to continue/start/finish their work.
+How to prioritize:
+always finish first the tasks that will allow other people to continue/start/finish their work.
 
 — Yanina Bellini Saibene
 </blockquote>
@@ -246,10 +247,8 @@ to be able to immerse yourself in your problem.
 [% b Csikszentmihalyi1991 %] popularized the term [% i "flow" %][% g flow %]flow[% /g %][% /i %] for this;
 athletes call it "being in the zone",
 while musicians talk about losing themselves in what they're playing.
-
-The good news is that being immersed in a problem
-is much more productive (and much more fun)
-than multi-tasking.
+The good news is that you're much more productive in this state
+than when you're multi-tasking.
 The bad news is that
 it takes anywhere from several seconds to several minutes
 to get back into this state after an interruption [% b Parnin2010 Borst2015 %].
@@ -258,12 +257,6 @@ if you are interrupted half a dozen times per hour
 you are *never* at your productive peak.
 Ironically,
 the cost of self-interruptions may be even worse than the cost for external interruptions [% b Abad2018 %].
-
-Making lists and setting 50-minute alarms will seem a little earnest at first,
-but your friends will stop mocking you
-when they see that you're able to finish your assignments
-and still have time to play some badminton and catch a movie.
-They may even start to imitate you.
 
 <blockquote markdown="1">
 ### Nothing about us without us
@@ -316,20 +309,21 @@ and should be avoided whenever possible.
 ## Meetings
 
 The previous section explained how to be productive individually,
-but what about being productive in a team?
-The most important thing is to run [% i "meetings" %]meetings[% /i %] efficiently,
-and the best way to do that is to distinguish between:
+but what about being productive with others?
+The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently,
+and the key to doing that is to distinguish between:
 
 -   [% i "meetings!status" "status meeting" %][% g status_meeting %]Status meetings[% /g %][% /i %]
     for keeping everyone up to date on what everyone else is doing
     and for making simple decisions when the options are well understood.
 
 -   [% i "meetings!discussion" %][% g discussion_meeting %]Discussion meetings[% /g %][% /i %]
-    for making decisions that require more in-depth thinking.
+    for weighing alternatives and making complex decisions.
 
-Both kinds of meetings are distinct from things like brainstorming sessions and programming sprints,
-which focus on the content of the project
-rather than on its operation.
+-   Co-working sessions like brainstorming sessions and programming sprints
+    that are devoted to the content of the project rather than its operation.
+
+### Status Meetings
 
 Every team should have a short weekly status meeting.
 For each meeting,
@@ -362,7 +356,12 @@ has useful labels and even more useful advice
 for handling people who may send meetings off course.
 </blockquote>
 
-Decision meetings are more structured:
+### Decision Meetings
+
+Decision meetings are for issues that will have more long-term impact on the project
+or that team members disagree about.
+Since the stakes are higher,
+they need more structure:
 
 Decide if there actually needs to be a meeting.
 :   If the only purpose is to share information,
@@ -436,10 +435,11 @@ As soon as the meeting is over,
 add the minutes to the project's wiki,
 version control repository,
 or shared cloud drive.
-(Please don't email minutes to everyone:
+Please don't email minutes to everyone:
 our inboxes are full enough,
 and the more places new team members need to search in order to find things,
-the more likely they are to miss something important.)
+the more likely they are to miss something important.
+
 Sharing the minutes ensures that:
 
 People who weren't at the meeting can follow what's going on.
@@ -523,82 +523,104 @@ so that the moderator can group related questions together.
 
 ## Making Decisions
 
-The purpose of a meeting is to make decisions, so sooner or later, the members
-of a project must decide who has a say in what.  The first step is to
-acknowledge that every team has a power structure: the question is whether it's
-formal or informal—in other words, whether it's accountable or unaccountable
-[% b Freeman1972 %].  The latter can work for groups of up to half a dozen
-people in which everyone knows everyone else.  Beyond that, groups need to spell
-out who has the authority to make which decisions and how to achieve consensus.
-In short, they need explicit [% i "governance" %][% g governance %]governance[% /g %][% /i %].
+The first release of GitHub's [Minimum Viable Governance][github-mvg] guidelines
+included this:
 
-[% i "Martha's Rules" %][% g marthas_rules %]Martha's Rules[% /g %][% /i %] are a practical
-way to do this in groups with up to a few dozen members
-[% b Minahan1986 %], and work very well for smaller teams too:
+<blockquote>
+**2.1. Consensus-Based Decision Making**
 
-1.  Before each meeting, anyone who wishes may sponsor a proposal.  Proposals
-    must be filed at least 24 hours before a meeting in order to be considered
-    at that meeting, and must include:
+Projects make decisions through consensus of the Maintainers.
+While explicit agreement of all Maintainers is preferred,
+it is not required for consensus.
+Rather,
+the Maintainers will determine consensus based on their good faith consideration of a number of factors,
+including the dominant view of the Contributors and nature of support and objections.
+The Maintainers will document evidence of consensus in accordance with these requirements.
+</blockquote>
+
+It sounds reasonable,
+but it is harmfully wrong.
+Every team has a power structure:
+the question is whether it's formal or informal—in other words,
+whether it's accountable or unaccountable [% b Freeman1972 %].
+In the latter case,
+decisions will effectively be made by the people
+who are the most self-confident or stubborn
+rather than by those with the most insight.
+
+To guard against this,
+groups need to spell out who has the authority to make which decisions
+and how to achieve consensus.
+In short,
+they need explicit [% i "governance" %][% g governance %]governance[% /g %][% /i %].
+
+[% i "Martha's Rules" %][% g marthas_rules %]Martha's Rules[% /g %][% /i %] [% b Minahan1986 %]
+are a practical way to do this in groups of up to a few dozen people,
+and work very well for smaller teams too:
+
+1.  Before each meeting, anyone who wishes may sponsor a proposal.
+    Proposals must be filed at least 24 hours before a meeting in order to be considered,
+    and must include:
     -   a one-line summary
     -   the full text of the proposal
     -   any required background information
     -   pros and cons
     -   possible alternatives
 
-2.  A quorum is established in a meeting if half or more of voting members are
-    present.
+2.  A quorum is established in a meeting if half or more of voting members are present.
 
-3.  Once a person has sponsored a proposal, they are responsible for it.  The
-    group may not discuss or vote on the issue unless the sponsor or their
-    delegate is present.  The sponsor is also responsible for presenting the
-    item to the group.
+3.  Once a person has sponsored a proposal,
+    the group may not discuss or vote on the issue
+    unless the sponsor or their delegate is present.
 
-4.  After the sponsor presents the proposal a [% i "sense vote" %][% g sense_vote %]sense vote[% /g %][% /i %] is cast for the proposal prior to any discussion:
-    -   Who likes the proposal?
-    -   Who can live with the proposal?
-    -   Who is uncomfortable with the proposal?
+4.  After the sponsor presents the proposal
+    a [% i "sense vote" %][% g sense_vote %]sense vote[% /g %][% /i %] is cast:
+    -   Thumbs up: who likes the proposal?
+    -   Thumbs down: who is uncomfortable with the proposal?
+    -   Thumbs sideways: who can live with?
 
-5.  If all of the group likes or can live with the proposal, it passes with no
-    further discussion.
+5.  If everyone likes or can live with the proposal,
+    it passes with no further discussion.
 
-6.  If most of the group is uncomfortable with the proposal, it is sent back to
-    its sponsor for further work.  (The sponsor may decide to drop it if it's
-    clear that the majority isn't going to support it.)
+6.  If the majority is uncomfortable with the proposal,
+    it is sent back to its sponsor for further work.
+    (The sponsor may decide to drop it if it's clear the majority isn't ever going to support it.)
 
-7.  If some members are uncomfortable with the proposal, a timer is set for a
-    brief discussion moderated by the meeting moderator.  After 10 minutes or
-    when no one has anything further to add, the moderator calls for a straight
-    yes-or-no vote on the question: "Should we implement this decision over the
-    stated objections?"  If a majority votes "yes" the proposal is implemented.
-    Otherwise, it is returned to the sponsor for further work.
+7.  Otherwise,
+    the group has a brief moderated discussion.
+    After 10 minutes,
+    or when no one has anything further to add,
+    the moderator calls for a straight yes-or-no vote on the proposal.
+    If a majority votes "yes" it is adopted;
+    otherwise,
+    it is returned to the sponsor for further work.
 
 Every group that uses Martha's Rules must make two procedural decisions:
 
 How are proposals put forward?
-:   The easiest way to do this in a software project is to file an issue in the
-    project's issue tracker tagged *Proposal*.  Team members can then comment on
-    the proposal, and the sponsor can revise it before bringing it to a vote.
+:   The easiest way to do this in a software project
+    is to file an issue in the project's [% i "issue tracker" %]issue tracker[% /i %]
+    tagged *Proposal*.
+    Team members can comment on it there
+    so that the sponsor can revise it before bringing it to a vote.
 
 Who gets to vote?
-:   In a course project the answer is "whoever is part of the team," but if the
-    project grows and attracts volunteer contributors, a more explicit rule is
-    needed.  One common method is for existing members to nominate new ones, and
-    for the team to hold a straight yes-or-no vote on each.  Another is [% i "Apache Software Foundation" %][Apache][apache][% /i %]'s "[% i "do-ocracy" %]do-ocracy[% /i %]" approach: if you have done the work and
-    no-one explicitly objects, the proposal is accepted or the change is
-    merged. This "put up or shut up" approach is a good way to test if someone
-    *really* wants a change, but in practice it often means projects are driven
-    by people who are extroverted or self-confident rather than by those with
-    the best technical skills or the best understanding of what users
-    need. We'll revisit this in [% x fairness %].
+:   In a course project the answer is "whoever is part of the team,"
+    but a more explicit rule is needed for larger or longer-lived projects.
+    One method is for existing members to nominate new ones,
+    and for the team to hold a straight yes-or-no vote on each.
+    Another is to automatically include anyone whose changes to the code
+    were accepted by existing members,
+    though this under-values non-programming contributions
+    like doing code reviews
+    or testing new releases.
 
-Rules that people don't know about can't help them.  Once your team agrees on a
-project structure, a workflow, how to get items on a meeting agenda, or how to
-make decisions, you should document this for newcomers (and to prevent disputes
-among people already in the team).  This information may be included as a
-section in the project's [% i "README file" %]`README`[% /i %] file
-([% x starting %]) or put into a separate file called
-[% i "CONTRIBUTING file" %]`CONTRIBUTING`[% /i %].  This material should describe the naming
-conventions to use for functions, what tags to put on issues, or how to install
-and configure the software needed to start work on the project.  Wherever it
-goes, remember that the easier it is for people to get set up, the more likely
-they are to contribute [% b Steinmacher2014 %].
+Rules that people don't know about can't help them.
+Once your team agrees on a decision-making procedure,
+document it for newcomers
+(and to prevent disputes among people already in the team).
+You can put this in the project's [% i "README file" %]`README`[% /i %] file ([% x starting %])
+or in a separate file called [% i "CONTRIBUTING file" %]`CONTRIBUTING`[% /i %].
+Wherever it goes,
+remember that the easier it is for people to figure out how to contribute,
+the more likely they are to do so [% b Steinmacher2014 %].

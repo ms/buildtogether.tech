@@ -217,6 +217,9 @@
 - key: github-guides
   url: https://guides.github.com/
   title: GitHub Guides
+- key: github-mvg
+  url: https://github.com/github/MVG
+  title: GitHub Minimum Viable Governance
 - key: github-pages
   url: https://pages.github.com/
   title: GitHub Pages
