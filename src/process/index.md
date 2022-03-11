@@ -370,26 +370,9 @@ the next release has to be available in May.  This is normal: there is *never*
 enough time to add everything that everyone wants to a piece of software, and
 even if there was, it probably shouldn't be done anyway.
 
-What you do now is find a large whiteboard and draw an
-[% i "effort-importance grid" %][% g effort_importance_grid %]effort-importance grid[% /g %][% /i %].
-The X axis is labeled "effort" and is labeled "an hour", "a day",
-and "a week", while the Y axis "importance", and is divided into "low",
-"medium", and "high".  Next, write each feature's name on a yellow sticky note
-and put it on the grid.  You should wind up with something like
-[% f effort-importance %].
+FIXME: back ref to [% x important %].
 
-[% figure slug="effort-importance" img="effort-importance.svg" alt="Effort/importance matrix" caption="An example of an effort/importance matrix." %]
-
-You then throw away the high-effort, low-importance items in the bottom-right
-three cells—you aren't going to get to those.  Next, you start assembling the
-other items into a schedule, starting with the upper-left corner.  These are the
-things that will give the highest return on invested time; more importantly,
-starting with these means that if something goes wrong the team will still have
-delivered something useful.
-
-The items on the diagonal are the ones you have have to argue over.  Should the
-team tackle Feature 14 (high effort, high importance) or Features 18, 19, and 22
-(individually lower importance, but the same total effort)?  It can take several
+It can take several
 sessions to sort this out; the most important thing is that people don't start
 shaving estimates to make things fit.  If they do, estimators will start padding
 their numbers in self-defense.  Since managers aren't stupid, they'll shave the

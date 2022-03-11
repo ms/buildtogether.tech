@@ -162,69 +162,33 @@ while people in industry joke that having two bosses means living in hell,
 students usually answer to four or five professors
 whom don't coordinate due dates across their courses.
 
-The only way to manage this is to prioritize and then focus.
-Prioritizing ensures that you don't spent hours on things that don't need to be done
-and then find yourself with too little time for the things that actually count;
-focusing ensures that the time you *do* have is productive.
+The best way to handle this situation—or more honestly, the least bad way—is
+to prioritize carefully.
+Get a piece of paper and draw
+[% i "effort-importance grid" %][% g effort_importance_grid %]a 3×3 grid[% /g %][% /i %].
+The X axis is effort: label its divisions "minutes", "hours", and "days".
+The Y axis is time: label it "low", "medium", and "high".
+You should wind up with something like [% f effort-importance %].
 
-Make a list of the things you have to do.
-:   I use a hardcover lab notebook for this so that I can doodle in it when I'm thinking,
-    but a lot of people keep a personal wiki
-    or send themselves email messages tagged "To Do".
-    Whatever you use,
-    the important thing is to *write it all down*.
-    You can only keep a handful of things in short-term memory at once ([% x thinking %]);
-    if you try to manage a [% i "to-do list" %]to-do list[% /i %] longer than that in your head,
-    you will forget things.
+[% figure slug="effort-importance" img="effort-importance.svg" alt="Effort/importance matrix" caption="An example of an effort/importance matrix." %]
 
-Weed out things you don't need to do right away.
-:   Trying out a new editor theme is play time,
-    not work time.
+Next,
+put everything you need to do somewhere on the grid,
+and then throw away the high-effort, low-importance items in the bottom right—you
+aren't going to get to those.
+You can then start assembling the other items into a schedule,
+starting with the upper-left corner.
+These are the things that will give the highest return on invested time;
+more importantly,
+starting with these means that if you've under-estimated effort,
+you will still deliver *something*.
 
-Sort the list so that the most important tasks are at the top.
-:   I don't waste time ordering items below the first three or four:
-    I know I'm going to re-check my list before I get to them.
-
-Collect what you need to complete the first task.
-:   The most recent files from [% i "version control" %]version control[% /i %] ([% x git-solo %]),
-    the assignment specification,
-    a fresh cup of tea—whatever it is,
-    don't give yourself an excuse to interrupt your work,
-    because the world will provide enough of those.
-
-Turn off [% i "interruptions" %]interruptions[% /i %].
-:   Shut down your mail client,
-    instant messaging,
-    and your cell phone.
-    Don't panic: it's only for an hour.
-    Most people can't stay focused longer than that,
-    and you'll need to stretch your muscles and get rid of the tea you drank.
-
-Set an alarm to go off in fifty minutes.
-:   Don't switch tasks in that time unless you absolutely have to.
-    Instead,
-    if you remember that you needed to send an email message
-    or realize you should write a couple of tests,
-    add a note to your to-do list.
-    This is another reason I keep mine in a lab notebook:
-    the few seconds it takes to pick up a pen and jot something down
-    gives my hands a rest from the keyboard,
-    and I'm less likely to be distracted by a notebook than by a text editor.
-
-Take a ten-minute [% i "breaks (importance of regular)" %]break[% /i %].
-:   Get up and move around a little when your alarm goes off,
-    even if it's just to refill your water bottle,
-    visit the toilet,
-    or do a few stretches.
-    You will be able to work longer if your back doesn't ache,
-    and being away from the keyboard for a few minutes
-    gives your brain a chance to reflect on what you've just been doing.
-    (You can often solve a problem that's been baffling you for an hour
-    by taking a five-minute walk.)
-
-Repeat.
-:   When your break is over,
-    check that your to-do list is up to date and start again.
+The tricky items are the ones on the diagonal.
+Should you tackle one thing that is high effort and high importance
+or three things that are individually less important
+but require the same total effort?
+Laying things out on a grid can't answer that question,
+but at least it can tell you what the question is.
 
 <blockquote>
 How to prioritize:
@@ -238,9 +202,9 @@ break it down into smaller pieces and prioritize those separately.
 Figuring out what those pieces are can take time,
 so don't be embarrassed to make "plan XYZ" a task in its own right.
 And remember that the future is approaching at a rate of 24 hours per day:
-if something is going to take sixty hours to do,
-you had better allow at least ten working days for it,
-which means you'd better tackle the first piece two weeks before the deadline.
+if something is going to take thirty hours to finish,
+you had better allow at least five working days for it,
+which means you'd better start at least that far ahead of the deadline.
 
 The point of all this organization and preparation is
 to be able to immerse yourself in your problem.
@@ -259,52 +223,30 @@ Ironically,
 the cost of self-interruptions may be even worse than the cost for external interruptions [% b Abad2018 %].
 
 <blockquote markdown="1">
-### Nothing about us without us
-
-The rules laid out above were created
-by and for people near the middle of the bell curve with respect to focus and attention span.
-People who are [% i "neurodivergence" %][% g "neurodivergence" %]neurodivergent[% /g %][% /i %],
-i.e., whose brains work differently from the average
-when it comes to sociability, learning, attention, and mood
-may find that other approaches work better for them.
-
-But while society accepts that
-people of different heights need different desks and seating to be comfortable,
-there is still a lot of [% i "neurodivergence (stigma associated with)" %]stigma[% /i %]
-associated with differences in mental function,
-which are often classified according to
-[how inconvenient they are to other people][adhd-thread].
-One example is how tests for
-[% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
-(ADHD) are phrased.
-"Subject is overly talkative": compared to who?
-"Subject does X when it is inappropriate": by whose rules?
-"Struggles to pay attention": in fact,
-most people with ADHD can pay very close attention,
-but not when they are in environments like noisy classrooms
-that are full of distractions.
-
-Decisions that affect people should only be made
-with the full participation of those who will be affected.
-If you are neurodivergent,
-you probably have a set of strategies for managing time and attention.
-If you are [% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
-and have neurodivergent teammates,
-ask them what works well for them rather than ignoring the difference
-or guessing what they might want.
-Please do the same if you have teammates who have difficulty seeing, hearing, or moving about:
-they have expertise you don't.
-</blockquote>
-
-<blockquote markdown="1">
 ### Open offices suck
 
 [% i "open offices (evils of)" %]Open offices[% /i %] were created
 so that (mostly male) managers could keep an eye on (mostly female) office workers,
 and to reduce air conditioning costs [% b Eley1995 %].
-They lower productivity in every other way we can measure [% b Bernstein2018 %],
-and should be avoided whenever possible.
+They lower productivity in every other way we can measure [% b Bernstein2018 %];
+sadly,
+the same is true of other interruption-rich environments
+like your favorite coffee shop.
+If you really want to be productive,
+you should avoid both.
 </blockquote>
+
+Finally,
+you will be more productive in the long run if your back doesn't ache,
+and being away from the keyboard
+gives your brain a chance to reflect on what you've just been doing.
+You should therefore take a five-minute [% i "breaks (importance of regular)" %]break[% /i %] every hour.
+Checking email doesn't count:
+get up and stretch,
+refill your water bottle,
+or go and restack the dishwasher.
+You'll be amazed at how often you can solve a problem that's been baffling you for an hour
+by taking a short walk…
 
 ## Meetings
 
@@ -624,3 +566,41 @@ or in a separate file called [% i "CONTRIBUTING file" %]`CONTRIBUTING`[% /i %].
 Wherever it goes,
 remember that the easier it is for people to figure out how to contribute,
 the more likely they are to do so [% b Steinmacher2014 %].
+
+<blockquote markdown="1">
+### Nothing about us without us
+
+The rules laid out above were created
+by and for people near the middle of the bell curve with respect to focus and attention span.
+People who are [% i "neurodivergence" %][% g "neurodivergence" %]neurodivergent[% /g %][% /i %],
+i.e., whose brains work differently from the average
+when it comes to sociability, learning, attention, and mood
+may find that other approaches work better for them.
+
+But while society accepts that
+people of different heights need different desks and seating to be comfortable,
+there is still a lot of [% i "neurodivergence (stigma associated with)" %]stigma[% /i %]
+associated with differences in mental function,
+which are often classified according to
+[how inconvenient they are to other people][adhd-thread].
+One example is how tests for
+[% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
+(ADHD) are phrased.
+"Subject is overly talkative": compared to who?
+"Subject does X when it is inappropriate": by whose rules?
+"Struggles to pay attention": in fact,
+most people with ADHD can pay very close attention,
+but not when they are in environments like noisy classrooms
+that are full of distractions.
+
+Decisions that affect people should only be made
+with the full participation of those who will be affected.
+If you are neurodivergent,
+you probably have a set of strategies for managing time and attention.
+If you are [% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
+and have neurodivergent teammates,
+ask them what works well for them rather than ignoring the difference
+or guessing what they might want.
+Please do the same if you have teammates who have difficulty seeing, hearing, or moving about:
+they have expertise you don't.
+</blockquote>
