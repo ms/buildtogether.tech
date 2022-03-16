@@ -4,78 +4,77 @@ lede: "What to do before you start coding"
 template: page
 ---
 
-Now that the most important stuff is out of the way, let's take a closer look at
-what you're actually supposed to be doing.  On one side are homework
-assignments, which typically include a handful of problems related to
-recently-taught material that you are meant to solve in a week or two.  On the
-other side are industrial [% i "internship" %]internships[% /i %] or [% i "co-op" %]co-op[% /i %] terms in which you work full- or part-time for a company,
-drawing a salary and suffering through quarterly PowerPoint presentations on
-corporate strategy.  Lectures and exams usually aren't a part of these, though
-if you're lucky (or if the company you're working for knows what it's doing)
-you'll be paired with a mentor who will teach you some of the things in these
-notes.
+Let's take a closer look at what you're supposed to be doing.
+On one side are homework assignments related to recently-taught material
+that you are meant to solve in a week or two.
+On the other side are [% i "internship" %]internships[% /i %] or [% i "co-op" %]co-op terms[% /i %]
+in which you work part- or full-time,
+and in between are courses with names like "Introduction to Software Engineering",
+"Senior Thesis Project",
+or "Computer Science Capstone".
+These share [% i "project course!characteristics of" %]three characteristics[% /i %]:
 
-In between are courses with names like "Introduction to Software Engineering",
-"Senior Thesis Project", or "Computer Science Capstone".  For the purposes of
-this guide, these have [% i "project course!characteristics of" %]three
-characteristics[% /i %].  First, learning how to work in a team is a goal of the
-course.  This distinguishes these courses from (for example) upper-level courses
-in operating systems or computer graphics, in which you're working in a team but
-not being taught explicitly how to do so.
+1.  Learning how to work in a team is an explicit goal
+    (versus courses in which
+    you work in a team but are not taught how to do so).
 
-Second, your grade depends primarily on the software you build.  You may also
-be required to write reports and sit an exam, but these are based on the
-practical work—if you don't actually build some software, you can't pass the
-course.
+2.  Your grade depends on how you work as well as what you build.
 
-Finally, you are supposed to work as if you were trying to meet the needs of a
-real customer.  You might start with a blank sheet of paper or have to fix and
-extend an existing application; either way, you and your team are responsible
-for some or all of requirements analysis, design, implementation, testing,
-documentation, packaging, deployment, handoff, and review.
-
-## Why Projects?
+3.  You are supposed to work as if you were trying to meet the needs of a real customer.
+    You might start with a blank sheet of paper
+    or have to fix and extend an existing application,
+    but you and your team are responsible for some or all of
+    requirements analysis,
+    design,
+    implementation,
+    testing,
+    documentation,
+    packaging,
+    deployment,
+    handoff,
+    and review.
 
 Project courses exist for several reasons:
 
 To teach you things that can only be learned by doing.
-:   If you pursue a career in industry, or if you go stay in academia and do
-    anything other than pure theory, you will need to know how to build things.
-    This is a craft, not a science: you can't learn how by listening to lectures
-    any more than you can learn to ride a bike by watching the Tour de France on
-    TV.
+:   You can't learn how to build software in a team by listening to lectures
+    any more than you can learn to ride a bike
+    by watching the Tour de France on TV.
 
-To tie everything you've learned together,
-:   i.e., to demonstrate that the trees and pointers and joins and semaphores
-    you've been wrestling with for the last two or three years are actually good
-    for something.
+To give you a change to apply things you learned in earlier courses,
+:   i.e.,
+    to demonstrate that trees, pointers, joins, and semaphores
+    are actually good for something.
 
 Because they're fun.
 :   At least, if they're done right.
 
-One goal of project courses is to move learners from the left side of
-[% f four-models-of-instruction %] to the right. Most of the learning will
-take place in a team or on your own; the instructor's job is to mentor rather
-than to lecture. Using the terms of [% x thinking %], a project course
-is where your school starts treating you like a competent practitioner rather
-than like a novice.
+One goal of project courses is to move learners from left to right in
+[% f four-models-of-instruction %].
+The instructor's job is to mentor rather than to lecture;
+most of the learning will take place in the team or on your own.
+Using the terms of [% x thinking %],
+a project course is where your school starts treating you like a competent practitioner
+rather than like a novice.
 
 [% figure slug="four-models-of-instruction" img="four-models-of-instruction.svg" alt="Four models of instruction"  caption="Four models of instruction that shift control from instructors to learners." %]
 
-There are as many ways to run a project course as there are instructors teaching
-them [% b Fincher2001 %].  The most important variable is whether your team
-has a real customer or not.  Finding and interviewing people who actually want
-software built and then meeting their needs is tremendously rewarding.  However,
-it's also a lot of work and puts an extra burden on the instructor as well.  For
-this reason, most team projects tend to be made up by instructors.
+There are as many ways to run a project course as there are instructors teaching them [% b Fincher2001 %].
+The most important variable is whether your team has an actual customer or not.
+Finding and interviewing people who actually want software built
+and then meeting their needs
+is tremendously rewarding,
+but coordinating this is a lot of work for the course organizer.
+Most team projects therefore tend to be made up by instructors.
 
-A third option is to use an open source project as a starting point.  Whether
-it's an audio editor, a tool for displaying family trees, or control software
-for the latest generation of electronic toys, the odds are pretty good that
-there are bugs to fix and features to add.  Working on a project like this is
-easier than finding a local company that wants its web site rejigged.  It's also
-an opportunity for you to meet other developers who can mentor you, and create
-something you can show off in a job interview.
+Another option is to have students contribute to an existing open source project.
+Doing this is easier than finding a local company that wants its web site rejigged,
+and is an opportunity for students to meet other developers,
+but it only works well if the course instructor is familiar with the projects' internals,
+or if the projects' leads are willing and able to devote time
+to mentoring a wave of newcomers.
+In practice,
+this approach is just as much work as partnering with a company or non-profit.
 
 ## Grades
 
