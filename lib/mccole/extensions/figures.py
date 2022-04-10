@@ -28,6 +28,7 @@ generates:
 
 import shutil
 from dataclasses import dataclass
+from pathlib import Path
 from textwrap import dedent
 
 import ivy
@@ -96,6 +97,9 @@ def copy_files():
     # Copy files.
     for fig in figures.values():
         src, dst = util.make_copy_paths(fig.node, fig.img)
+        dst_dir = Path(dst).parent
+        if not dst_dir.exists():
+            dst_dir.mkdir(parents=True)
         shutil.copy(src, dst)
 
 
