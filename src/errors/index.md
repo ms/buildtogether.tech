@@ -15,10 +15,10 @@ therefore plan from the start to detect and handle errors.
 
 ## Handling Errors
 
-[% i "internal error" "error!internal" %][% g internal_error %]Internal errors[% /g %][% /i %]
+[% i "internal error" "error!internal" %][% g internal_error "Internal errors" %][% /i %]
 are mistakes in the program itself,
 such as calling a function with `None` instead of a list.
-[% i "external error" "error!external" %][% g external_error %]External errors[% /g %][% /i %]
+[% i "external error" "error!external" %][% g external_error "External errors" %][% /i %]
 are usually caused by interactions between the program and the outside world:
 a user may mis-type a filename, the network might be down, and so on.
 
@@ -32,7 +32,7 @@ we don't always want the program to stop: if a user mis-types her password,
 prompting her to try again is friendlier than halting and requiring her to
 restart the program.
 
-Most modern programming languages use [% i "exception" %][% g exception %]exceptions[% /g %][% /i %] for error handling.  In Python, for example,
+Most modern programming languages use [% i "exception" %][% g exception "exceptions" %][% /i %] for error handling.  In Python, for example,
 exceptions are handled using the keywords `try` and `except`.  If nothing
 unexpected happens inside the `try` block, the `except` block isn't run, but if
 something does go wrong, the program jumps immediately to the body of the
@@ -40,7 +40,7 @@ something does go wrong, the program jumps immediately to the body of the
 
 We often want to know exactly what went wrong, so Python and other languages
 store information about the error in an object (which is also called an
-exception).  We can [% i "exception!handling" "catch exception" %][% g catch_exception %]catch[% /g %][% /i %] an exception and inspect it as follows:
+exception).  We can [% i "exception!handling" "catch exception" %][% g catch_exception "catch" %][% /i %] an exception and inspect it as follows:
 
 ```py
 for denom in [-5, 0, 5]:
@@ -79,7 +79,7 @@ for i in [0, 1, 2, 3]:
 index 3 out of range
 ```
 
-So where do exceptions come from?  The answer is that programmers can [% i "exception!raise" "raise exception" %][% g raise_exception %]raise[% /g %][% /i %] them
+So where do exceptions come from?  The answer is that programmers can [% i "exception!raise" "raise exception" %][% g raise_exception "raise" %][% /i %] them
 explicitly:
 
 ```py
@@ -140,8 +140,8 @@ will be.
 
 The first step in building confidence in our programs is to assume that mistakes
 will happen and guard against them.  This is called
-[% i "defensive programming" %][% g defensive_programming %]defensive programming[% /g %][% /i %], and the
-most common way to do it is to add [% i "assertion" %][% g assertion %]assertions[% /g %][% /i %] to our code so that it checks itself as it runs.
+[% i "defensive programming" %][% g defensive_programming "defensive programming" %][% /i %], and the
+most common way to do it is to add [% i "assertion" %][% g assertion "assertions" %][% /i %] to our code so that it checks itself as it runs.
 An assertion is a statement that something must be true at a certain point in a
 program.  When the program runs, it checks the assertion's condition.  If it's
 true, the program does nothing; if it's false, it halts and prints a
@@ -182,7 +182,7 @@ OSError: Unsupported file type.
 This message tells us the problem is with the type of file we're trying to
 process, but it still doesn't tell us what file types are supported, which means
 we have to rely on guesswork or read the source code.  Telling the user that a
-file isn't a [% g csv %]CSV[% /g %] file makes it clear that the program only
+file isn't a [% g csv "CSV" %] file makes it clear that the program only
 works with files of that type, but since we don't actually check the content of
 the file, this message could confuse someone who has comma-separated values
 saved in a `.txt` file.  An even [% i "error message!writing helpful" %]better
@@ -292,7 +292,7 @@ where `user_language` is a two-letter code for the user's preferred language.
 ## Logging
 
 Something else you can design into your system to make your life easier later on
-is [% i "logging" %][% g logging %]logging[% /g %][% /i %]. Instead of writing `print`
+is [% i "logging" %][% g logging "logging" %][% /i %]. Instead of writing `print`
 statements like this:
 
 ```py
@@ -387,7 +387,7 @@ you have a record of every time permissions were changed or new accounts were
 created.
 </blockquote>
 
-Most logging libraries also support [% i "logging!rotating files" %][% g rotating_file %]rotating files[% /g %][% /i %], i.e., they will write to `log.1` on the first day,
+Most logging libraries also support [% i "logging!rotating files" %][% g rotating_file "rotating files" %][% /i %], i.e., they will write to `log.1` on the first day,
 `log.2` on the second day, and so on until they reach (for example) `log.7`,
 then wrap around and overwrite `log.1`. Web servers and other long-lived
 programs are usually set up to do this so that they don't fill up the disk with
@@ -400,7 +400,7 @@ gives you a lot more insight into what your program is actually doing.
 You will sometimes inspect logs yourself, but you will also frequently want to
 search them for patterns. All of the logs you produce should therefore be in a
 [% i "logging!output format" %]machine-readable format[% /i %] like CSV, JSON,
-or [% g yaml %]YAML[% /g %]; you can easily write a small program to
+or [% g yaml "YAML" %]; you can easily write a small program to
 pretty-print the data you want for manual inspection.
 
 This guideline is one instance of a more general design rule.  The world has

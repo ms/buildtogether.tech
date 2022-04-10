@@ -13,79 +13,87 @@
     <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>Chapter 3: Starting</h1>
+      <h1>Chapter 7: Starting</h1>
       
       <p>
-        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
+        <img class="page-logo" src="../codebender.svg" alt="logo" />
       </p>
     </div>
 
-<p>Now that the most important stuff is out of the way, let's take a closer look at
-what you're actually supposed to be doing.  On one side are homework
-assignments, which typically include a handful of problems related to
-recently-taught material that you are meant to solve in a week or two.  On the
-other side are industrial <span class="indexref" key="internship" markdown="1">internships</span> or <span class="indexref" key="co-op" markdown="1">co-op</span> terms in which you work full- or part-time for a company,
-drawing a salary and suffering through quarterly PowerPoint presentations on
-corporate strategy.  Lectures and exams usually aren't a part of these, though
-if you're lucky (or if the company you're working for knows what it's doing)
-you'll be paired with a mentor who will teach you some of the things in these
-notes.</p>
-<p>In between are courses with names like "Introduction to Software Engineering",
-"Senior Thesis Project", or "Computer Science Capstone".  For the purposes of
-this guide, these have <span class="indexref" key="project course!characteristics of" markdown="1">three
-characteristics</span>.  First, learning how to work in a team is a goal of the
-course.  This distinguishes these courses from (for example) upper-level courses
-in operating systems or computer graphics, in which you're working in a team but
-not being taught explicitly how to do so.</p>
-<p>Second, your grade depends primarily on the software you build.  You may also
-be required to write reports and sit an exam, but these are based on the
-practical work—if you don't actually build some software, you can't pass the
-course.</p>
-<p>Finally, you are supposed to work as if you were trying to meet the needs of a
-real customer.  You might start with a blank sheet of paper or have to fix and
-extend an existing application; either way, you and your team are responsible
-for some or all of requirements analysis, design, implementation, testing,
-documentation, packaging, deployment, handoff, and review.</p>
-<h2>Why Projects?</h2>
+<p>Let's take a closer look at what you're supposed to be doing.
+On one side are homework assignments related to recently-taught material
+that you are meant to solve in a week or two.
+On the other side are <span class="indexref" key="internship" markdown="1">internships</span> or <span class="indexref" key="co-op" markdown="1">co-op terms</span>
+in which you work part- or full-time,
+and in between are courses with names like "Introduction to Software Engineering",
+"Senior Thesis Project",
+or "Computer Science Capstone".
+These share <span class="indexref" key="project course!characteristics of" markdown="1">three characteristics</span>:</p>
+<ol>
+<li>
+<p>Learning how to work in a team is an explicit goal
+    (versus courses in which
+    you work in a team but are not taught how to do so).</p>
+</li>
+<li>
+<p>Your grade depends on how you work as well as what you build.</p>
+</li>
+<li>
+<p>You are supposed to work as if you were trying to meet the needs of a real customer.
+    You might start with a blank sheet of paper
+    or have to fix and extend an existing application,
+    but you and your team are responsible for some or all of
+    requirements analysis,
+    design,
+    implementation,
+    testing,
+    documentation,
+    packaging,
+    deployment,
+    handoff,
+    and review.</p>
+</li>
+</ol>
 <p>Project courses exist for several reasons:</p>
 <dl>
 <dt>To teach you things that can only be learned by doing.</dt>
-<dd>If you pursue a career in industry, or if you go stay in academia and do
-anything other than pure theory, you will need to know how to build things.
-This is a craft, not a science: you can't learn how by listening to lectures
-any more than you can learn to ride a bike by watching the Tour de France on
-TV.</dd>
-<dt>To tie everything you've learned together,</dt>
-<dd>i.e., to demonstrate that the trees and pointers and joins and semaphores
-you've been wrestling with for the last two or three years are actually good
-for something.</dd>
+<dd>You can't learn how to build software in a team by listening to lectures
+any more than you can learn to ride a bike
+by watching the Tour de France on TV.</dd>
+<dt>To give you a change to apply things you learned in earlier courses,</dt>
+<dd>i.e.,
+to demonstrate that trees, pointers, joins, and semaphores
+are actually good for something.</dd>
 <dt>Because they're fun.</dt>
 <dd>At least, if they're done right.</dd>
 </dl>
-<p>One goal of project courses is to move learners from the left side of
-<a class="figref" href="../starting/#four-models-of-instruction">Figure 3.1</a> to the right. Most of the learning will
-take place in a team or on your own; the instructor's job is to mentor rather
-than to lecture. Using the terms of <a href="../thinking/">Appendix F</a>, a project course
-is where your school starts treating you like a competent practitioner rather
-than like a novice.</p>
+<p>One goal of project courses is to move learners from left to right in
+<a class="figref" href="../starting/#four-models-of-instruction">Figure 7.1</a>.
+The instructor's job is to mentor rather than to lecture;
+most of the learning will take place in the team or on your own.
+Using the terms of <a href="../thinking/">Appendix F</a>,
+a project course is where your school starts treating you like a competent practitioner
+rather than like a novice.</p>
 <figure id="four-models-of-instruction">
   <img src="./four-models-of-instruction.svg" alt="Four models of instruction" />
-  <figcaption markdown="1">Figure 3.1: Four models of instruction that shift control from instructors to learners.</figcaption>
+  <figcaption markdown="1">Figure 7.1: Four models of instruction that shift control from instructors to learners.</figcaption>
 </figure>
 
-<p>There are as many ways to run a project course as there are instructors teaching
-them [<a href="../bibliography/#Fincher2001">Fincher2001</a>].  The most important variable is whether your team
-has a real customer or not.  Finding and interviewing people who actually want
-software built and then meeting their needs is tremendously rewarding.  However,
-it's also a lot of work and puts an extra burden on the instructor as well.  For
-this reason, most team projects tend to be made up by instructors.</p>
-<p>A third option is to use an open source project as a starting point.  Whether
-it's an audio editor, a tool for displaying family trees, or control software
-for the latest generation of electronic toys, the odds are pretty good that
-there are bugs to fix and features to add.  Working on a project like this is
-easier than finding a local company that wants its web site rejigged.  It's also
-an opportunity for you to meet other developers who can mentor you, and create
-something you can show off in a job interview.</p>
+<p>There are as many ways to run a project course as there are instructors teaching them [<a href="../bibliography/#Fincher2001">Fincher2001</a>].
+The most important variable is whether your team has an actual customer or not.
+Finding and interviewing people who actually want software built
+and then meeting their needs
+is tremendously rewarding,
+but coordinating this is a lot of work for the course organizer.
+Most team projects therefore tend to be made up by instructors.</p>
+<p>Another option is to have students contribute to an existing open source project.
+Doing this is easier than finding a local company that wants its web site rejigged,
+and is an opportunity for students to meet other developers,
+but it only works well if the course instructor is familiar with the projects' internals,
+or if the projects' leads are willing and able to devote time
+to mentoring a wave of newcomers.
+In practice,
+this approach is just as much work as partnering with a company or non-profit.</p>
 <h2>Grades</h2>
 <p>Many organizations make the mistake of focusing on outputs rather than on
 outcomes [<a href="../bibliography/#Perri2018">Perri2018</a>]. In software companies, this usually takes the
@@ -141,9 +149,9 @@ determine who actually did the work and who was just along for the ride.</dd>
 <p>Just like real development projects, course projects can and should produce a
 lot more than just code.  For example, [<a href="../bibliography/#Spinellis2007">Spinellis2007</a>] looked at how
 much content of different kinds went into the FreeBSD project in 2006.
-<a class="tblref" href="../starting/#starting-spinellis-stats">Table 3.1</a> doesn't divide "source code" into
+<a class="tblref" href="../starting/#starting-spinellis-stats">Table 7.1</a> doesn't divide "source code" into
 "application code" and "tests", but it's still an eye-opener.</p>
-<div class="table"><table id="starting-spinellis-stats"><caption>Table 3.1: FreeBSD 2006</caption>
+<div class="table"><table id="starting-spinellis-stats"><caption>Table 7.1: FreeBSD 2006</caption>
 <thead>
 <tr>
 <th>Asset</th>
@@ -250,7 +258,7 @@ configuration file) then as far as I'm concerned, the code hasn't been
 tested.  And it's no good saying, "But I can't write unit tests for my GUI"
 because it's simply not true: you can always test the core functionality,
 and if you design your program the right way you can test a lot more of your
-front end than you might think (<a href="../testing/">Chapter 11</a>).</dd>
+front end than you might think (<a href="../testing/">Chapter 15</a>).</dd>
 <dt>Demos (10%)</dt>
 <dd>I used to require students to prepare a 20-minute lecture on a topic of
 their choosing and deliver it to their coursemates or a junior class.  It
@@ -359,7 +367,7 @@ commit it themselves.</dd>
 </dl>
 <p>If your project's goal is to build a package, on the other hand, you will have
 to organize your files according to the packaging system's rules;
-<a href="../design/">Chapter 12</a> gives an example.  In all cases, learning what goes where is like
+<a href="../design/">Chapter 16</a> gives an example.  In all cases, learning what goes where is like
 learning when to signal when driving a car: the rules may vary from place to
 place, but everywhere <em>has</em> rules, and knowing them will help prevent you from
 crashing.</p>
@@ -376,7 +384,7 @@ GitHub.</dd>
 a question, email a list, or post something on chat, and if so, where?  What
 code formatting conventions does the project use?  Research shows that clear
 contribution guidelines increase the odds of people contributing
-(<a href="../fairness/">Chapter 24</a>); in my experience, they also reduce friction between team
+(<a href="../fairness/">Chapter 28</a>); in my experience, they also reduce friction between team
 members.</dd>
 <dt><span class="indexref" key="CONDUCT file" markdown="1"><code>CONDUCT</code></span></dt>
 <dd>The project's Code of Conduct, i.e., how people are required to treat one
@@ -417,7 +425,7 @@ diverse, which in turn makes it more productive [<a href="../bibliography/#Zhan2
 <p>Having a Code of Conduct is an empty gesture if you don't also have a way to
 respond to violation.  [<a href="../bibliography/#Aurora2018">Aurora2018</a>] describes how, and learning the
 basics is a good first step toward becoming an <span class="indexref" key="ally" markdown="1">ally</span>
-(<a href="../fairness/">Chapter 24</a>).</p>
+(<a href="../fairness/">Chapter 28</a>).</p>
 <blockquote>
 <h3>What they really mean</h3>
 <p>In the early 2010s a lot of open source developers resisted the adoption of

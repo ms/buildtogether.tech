@@ -14,7 +14,7 @@ Git repository in one of two ways [% b Irving2021 %]:
 
 2.  Everyone can read from the project's main repository, but only a few people
     can commit changes to it.  The project's other contributors
-    [% i "version control!using forked repositories" %][% g fork_git %]fork[% /g %][% /i %]
+    [% i "version control!using forked repositories" %][% g fork_git "fork" %][% /i %]
     the main repository to create one that they own,
     do their work in that, and then submit their changes to the main repository.
 
@@ -104,7 +104,7 @@ sami:~/bst $ git pull origin main
 But what if Sami is working on some changes to homework 4 (which homework 5
 builds on)? She could just make her changes and push, but that would lead to a
 lot of merge conflicts.  Instead, almost everyone uses
-[% i "pull request" "Git!pull request" %][% g pull_request %]pull requests[% /g %][% /i %] (PR).
+[% i "pull request" "Git!pull request" %][% g pull_request "pull requests" %][% /i %] (PR).
 A PR is essentially a note saying, "Someone would like to merge branch A into branch B".
 The PR does not contain the changes, but instead points at two particular
 branches.  That way, the difference displayed is always up to date if either
@@ -228,7 +228,7 @@ or not.
 ## Code Reviews
 
 There's no point creating PRs if they are all merged as-is. The reason they
-exist is to allow [% i "code review!effectiveness of" %][% g code_review %]code review[% /g %][% /i %].  One study after another since the mid-1970s has proven that code
+exist is to allow [% i "code review!effectiveness of" %][% g code_review "code review" %][% /i %].  One study after another since the mid-1970s has proven that code
 review is the most cost-effective way to find bugs in software
 [% b Cohen2010 %]. It is also the most effective way to share knowledge
 between team members: if you read someone else's code, you have a chance to
@@ -301,7 +301,7 @@ Offer alternatives.
 :   Telling authors that something is wrong is helpful; telling them what they
     might do instead is more so.
 
-Don't [% g feigning_surprise %]feign surprise[% /g %] or pass judgment.
+Don't [% g feigning_surprise "feign surprise" %] or pass judgment.
 :   "Gosh, didn't you know [some obscure fact]?" isn't helpful; neither is,
     "Geez, why don't you [some clever trick] here?"
 
@@ -352,7 +352,7 @@ comments I left when reviewing it.
 <div class="table" id="collaborate-code-review" caption="Code Review" markdown="1">
 | Line(s) | Comment |
 | ------- | ------- |
-| 02      | Add a [% g docstring %]docstring[% /g %] describing the program. |
+| 02      | Add a [% g docstring "docstring" %] describing the program. |
 | 03      | Put imports in alphabetical order. |
 | 07      | Use a set instead of a list for faster lookup. |
 |         | One entry per line will be easier to read. |
@@ -363,7 +363,7 @@ comments I left when reviewing it.
 | 17      | Print error message to `sys.stderr`. |
 | 33      | Add a docstring describing this function. |
 | 34-39   | Use `any` instead of a loop to check this. |
-| 41      | [% g magic_number %]Magic number[% /g %] 10. |
+| 41      | [% g magic_number "Magic number" %] 10. |
 | 41      | Provide option to control progress reporting. |
 | 47      | Use `'rb'` to read files as binary. |
 | 57      | Add a docstring describing this function. |

@@ -13,10 +13,10 @@
     <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>Chapter 17: Tooling</h1>
+      <h1>Chapter 21: Tooling</h1>
       
       <p>
-        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
+        <img class="page-logo" src="../codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -29,7 +29,7 @@ know how to use whatever tools I have to support productive working practices.
 However, I focus on tools when talking to students because they are more
 tangible: it's easier to tell if someone is using version control or a style
 checker than it is to tell if they're designing or estimating sensibly.</p>
-<p><a href="../automation/">Chapter 16</a> introduced build managers, style checkers, and profilers;
+<p><a href="../automation/">Chapter 20</a> introduced build managers, style checkers, and profilers;
 the sections below discuss some other tools you might want in your toolbox.  You
 shouldn't try to adopt all of them in a single semester unless the focus of your
 project course is to try out as many tools as possible (which is actually a good
@@ -140,7 +140,7 @@ operating system on top of another to create a
 <span class="indexref" key="virtual machine" markdown="1"><a class="glossref" href="../glossary/#virtual_machine" markdown="1">virtual machine</a></span>
 (VM) that is isolated from everything
 beneath it.  It and other tools like it are used by most cloud computing
-services and to run continuous integration systems (<a href="../automation/">Chapter 16</a>), but
+services and to run continuous integration systems (<a href="../automation/">Chapter 20</a>), but
 they are essentially an admission that we haven't figured out how to manage
 packaging reliably.</p>
 </blockquote>
@@ -187,7 +187,7 @@ in the 1980s.  They usually include these tools:</p>
 <p>A <span class="indexref" key="test runner" markdown="1">test runner</span> to display the results of tests and
     let you jump directly to ones that have failed. This is usually a GUI built
     on top of whatever unit testing framework you are using
-    (<a href="../testing/">Chapter 11</a>), just as graphical interfaces for version control are usually
+    (<a href="../testing/">Chapter 15</a>), just as graphical interfaces for version control are usually
     built on top of the command-line tools.</p>
 </li>
 </ul>
@@ -205,7 +205,7 @@ problems and share plugins.</p>
 <span class="indexref" key="IDE!in browser" markdown="1">developer tools</span>. in Firefox, Chrome, or Edge, you
 will be shown an HTML browser that's smart enough to tell you which bits of CSS
 are in effect where, a console that displays messages from the JavaScript
-running in the page, a breakpointing debugger (<a href="../debugging/">Chapter 15</a>), a network
+running in the page, a breakpointing debugger (<a href="../debugging/">Chapter 19</a>), a network
 monitor, and much more. It won't help you with your C# or Python—at least, not
 yet—but it will make all of your front-end work a lot easier.</p>
 <h2>Refactoring</h2>
@@ -246,7 +246,7 @@ date. Since "rusty" documentation can be worse than no documentation at all, it
 makes a lot of sense to keep the source of the documentation right beside the
 code. Many introductory courses require students to document their packages,
 classes, and methods this way; it's a good habit, and one you should cultivate.</p>
-<p>Another set of tools complement the style checkers discussed in <a href="../automation/">Chapter 16</a>.
+<p>Another set of tools complement the style checkers discussed in <a href="../automation/">Chapter 20</a>.
 Style checkers do static analysis, i.e., they look at the
 text of your program while it's at rest.  Other tools do <span class="indexref" key="dynamic analysis" markdown="1"><a class="glossref" href="../glossary/#dynamic_analysis" markdown="1">dynamic analysis</a></span>: tools like
 <span class="indexref" key="Valgrind;dynamic analysis!Valgrind" markdown="1">Valgrind</span> watch your <span class="indexref" key="C" markdown="1">C</span> or <span class="indexref" key="C++" markdown="1">C++</span> program run and look for things like

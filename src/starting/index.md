@@ -97,7 +97,7 @@ are, so you know which way to kick the ball.  If you're an academic, this means
 finding something that is interesting and challenging enough to be publishable,
 but not intractable.  In a startup, it means figuring out what you can build
 that people will pay for.  If you're working for someone else, your boss should
-tell you what you're responsible for and the [% g hr %]HR department[% /g %]
+tell you what you're responsible for and the [% g hr "HR department" %]
 should tell you what the criteria are for performance evaluation and bonuses.
 Again, you don't have to do only those things, but if you're going to drop any
 or put time elsewhere, you should do it with your eyes open.
@@ -269,7 +269,7 @@ that it would actually work.
 
 Once you know where the goalposts are, the next thing is to get everyone to
 agree on what you're supposed to accomplish.  The best way to do this is write
-an [% i "elevator pitch" %][% g elevator_pitch %]elevator pitch[% /g %][% /i %] like the
+an [% i "elevator pitch" %][% g elevator_pitch "elevator pitch" %][% /i %] like the
 one shown below to figure out what problem you're trying to solve, who it
 affects, and why your solution is a good one.
 
@@ -405,11 +405,11 @@ diverse, which in turn makes it more productive [% b Zhan2020 %]:
     participants from different backgrounds, making the rules explicit avoids
     angry arguments starting with, "But *I* thought that…"
 
--   It prevents people who misbehave from [% g feigning_ignorance %]feigning
-    ignorance[% /g %], i.e., claiming after they say or do something offensive
+-   It prevents people who misbehave from [% g feigning_ignorance "feigning
+    ignorance" %], i.e., claiming after they say or do something offensive
     that they didn't realize it was out of bounds or that they were "just
-    kidding". (See also [% g schrodingers_asshole %]Schrödinger's
-    asshole[% /g %].)
+    kidding". (See also [% g schrodingers_asshole "Schrödinger's
+    asshole" %].)
 
 Having a Code of Conduct is an empty gesture if you don't also have a way to
 respond to violation.  [% b Aurora2018 %] describes how, and learning the

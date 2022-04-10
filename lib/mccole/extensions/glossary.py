@@ -25,18 +25,17 @@ import yaml
 INTERNAL_REF = re.compile(r"\]\(#(.+?)\)")
 
 
-@shortcodes.register("g", "/g")
-def glossary_ref(pargs, kwargs, node, content):
-    """Handle [% g slug %]text[% /g %] glossary reference shortcodes."""
-    if len(pargs) != 1:
+@shortcodes.register("g")
+def glossary_ref(pargs, kwargs, node):
+    """Handle [% g slug "text" %] glossary reference shortcodes."""
+    if len(pargs) != 2:
         util.fail(f"Badly-formatted 'g' shortcode {pargs} in {node.filepath}")
-
-    definitions = util.make_config("definitions")
+    defs = util.make_config("definitions")
     slug = pargs[0]
-    definitions.add(slug)
-
+    text = pargs[1]
+    defs.add(slug)
     return (
-        f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{content}</a>'
+        f'<a class="glossref" href="@root/glossary/#{slug}" markdown="1">{text}</a>'
     )
 
 

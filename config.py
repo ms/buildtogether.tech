@@ -19,7 +19,7 @@ github = "https://github.com/gvwilson/buildtogether.tech.git"
 domain = "buildtogether.tech"
 
 # Site logo.
-logo = "files/codebender.svg"
+logo = "codebender.svg"
 
 # Use "a/" URLs instead of "a.html".
 extension = "/"
@@ -31,6 +31,10 @@ lang = "en"
 chapters = [
     "introduction",
     "important",
+    "mvp",
+    "analysis",
+    "dstools",
+    "significance",
     "starting",
     "teams",
     "rules-persuade",

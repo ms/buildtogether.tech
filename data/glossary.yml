@@ -1364,6 +1364,12 @@
       [Myers-Briggs](#myers_briggs), the OCEAN model has a solid scientific
       basis.
 
+- key: one_sided_distribution
+  en:
+    term: "one-sided distribution"
+    def: >
+      FIXME
+
 - key: open_license
   en:
     term: "open license"

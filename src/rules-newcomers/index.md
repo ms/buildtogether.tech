@@ -13,7 +13,7 @@ how to do this.
 
 What exactly do we mean by "community"? In the case of open source and open
 science, the most usual meaning is a
-[% i "community of practice" %][% g "community_of_practice" %]community of practice[% /g %][% /i %]
+[% i "community of practice" %][% g "community_of_practice" "community of practice" %][% /i %]
 [% b Lave1991 Wenger1999 %] with three characteristics:
 
 1.  Participants have a common product or purpose that they work on or
@@ -68,7 +68,7 @@ Have and enforce a [% i "Code of Conduct" %]Code of Conduct[% /i %].
 Develop forms of legitimate peripheral participation.
 :   Newcomers become members of a community by participating in simple, low-risk
     tasks that existing community members believe are valuable. Through this
-    [% i "legitimate peripheral participation" %][% g lpp %]legitimate peripheral participation[% /g %][% /i %], newcomers become acquainted with the community's
+    [% i "legitimate peripheral participation" %][% g lpp "legitimate peripheral participation" %][% /i %], newcomers become acquainted with the community's
     tasks, vocabulary, and governance so that they can ease into the
     project. For example, submitting pull requests on GitHub can be daunting for
     newcomers; asking people to file issues about bugs they have found requires

@@ -17,7 +17,7 @@ lab notebook, kept in a text file on your laptop, or in your head; wherever and
 however you maintain it, it lists the things you're supposed to do, when they're
 due, and (possibly) how urgent they are.
 
-At its simplest, an [% i "issue tracker" "issue" %][% g issue_tracker %]issue tracker[% /g %][% /i %]
+At its simplest, an [% i "issue tracker" "issue" %][% g issue_tracker "issue tracker" %][% /i %]
 is a shared to-do list. Issue tracking systems are also called
 [% i "ticketing system" %]ticketing systems[% /i %] and [% i "bug
 tracker" %]bug trackers[% /i %] because most software projects use them to keep
@@ -85,7 +85,7 @@ the duplicate file finder reviewed in [% x git-team %]:
 
 The ID on the first line is assigned by the issue tracker, an often serves as a
 shorthand name for the issue in conversation. ("Hey, is anyone working on number
-fifty-five yet?") The date is in [% i "issue!timestamps" %][% g utc %]UTC[% /g %][% /i %]
+fifty-five yet?") The date is in [% i "issue!timestamps" %][% g utc "UTC" %][% /i %]
 so that it is unambiguous: while your team may all be in one place, it's
 increasingly likely that you are scattered across several time zones.
 
@@ -93,13 +93,13 @@ The [% i "issue!good titles" %]title[% /i %] on line 3 is probably the most
 important part of the issue. Projects will accumulate hundreds of issues over
 time; a good subject line makes it much easier to find the ones you need. The
 `type`, `severity`, and `labels` fields also improve
-[% i "discoverability!of issues" %][% g discoverability %]discoverability[% /g %][% /i %];
+[% i "discoverability!of issues" %][% g discoverability "discoverability" %][% /i %];
 while `type` and `severity` could be labels, having them in fields of their own
 makes it easier to sort and filter issues.
 
 Finally, the [% i "issue!description of" %]description[% /i %] briefly
 summarizes the problem. If the author hadn't already identified the cause, it
-should include a [% i "reproducible example (reprex)" %][% g reprex %]reproducible example[% /g %][% /i %] (also called a reprex). This helps the person understand what the
+should include a [% i "reproducible example (reprex)" %][% g reprex "reproducible example" %][% /i %] (also called a reprex). This helps the person understand what the
 issue is much more than, "The program crashes when I open strange files," but
 experience shows that if people are required to come up with a reprex when
 filing an issue, they will often solve their own problem along the way.  We'll
@@ -118,7 +118,7 @@ one place is to help you prioritize work when time starts to run short.
 ## Labeling Issues
 
 The bigger a project gets, the harder it is to find things.  Issue trackers
-therefore let project members add [% i "issue!classifying" %][% g issue_label %]labels[% /g %][% /i %] to issues to make things easier to search
+therefore let project members add [% i "issue!classifying" %][% g issue_label "labels" %][% /i %] to issues to make things easier to search
 and organize.  Labels are also often called tags; whatever term is used, each
 one is just a descriptive word or two.
 
@@ -179,7 +179,7 @@ Duplicate
 Some projects use labels corresponding to upcoming assignments instead of
 Current, Next, and Eventually.  This approach works well in the short term, but
 becomes unwieldy as labels with names like `exercise-14` pile up.  Instead, a
-project team will usually create a [% i "milestone (in issue tracker)" "issue tracker!milestones" %][% g milestone %]milestone[% /g %][% /i %], which is a set of issues
+project team will usually create a [% i "milestone (in issue tracker)" "issue tracker!milestones" %][% g milestone "milestone" %][% /i %], which is a set of issues
 and pull requests in a single project repository.  GitHub milestones can have a
 due date and display aggregate progress toward completion, so the team can
 easily see when work is due and how much is left to be done.
@@ -219,7 +219,7 @@ and find out what was said a month ago—or, just as importantly, if someone
 ### Filters are your friend
 
 Every email client allows you to set up
-[% i "email!filters" %][% g "mail_filter" %]filters[% /g %][% /i %]
+[% i "email!filters" %][% g "mail_filter" "filters" %][% /i %]
 that automatically flag messages matching
 certain patterns or file them in particular mailboxes. I have fourteen of these
 set up right now to organize messages belonging to particular projects; it only
@@ -250,7 +250,7 @@ creates or closes an issue, or sends email, an entry is added to that blog. This
 allows the project's members to see changes scroll by in their usual blog
 reader, which is a handy way to keep track of what their teammates are doing.
 
-If you are going to create a blog, use a [% i "static site generator" %][% g static_site_generator %]static site generator[% /g %][% /i %] to format and publish
+If you are going to create a blog, use a [% i "static site generator" %][% g static_site_generator "static site generator" %][% /i %] to format and publish
 content consistently.  On GitHub, for example, you can create a site with [% i "GitHub Pages" %][GitHub Pages][github-pages][% /i %] using a tool called [% i "Jekyll" "static site generator!Jekyll" %][Jekyll][jekyll][% /i %]; lots of
 different themes are available, and there are many good tutorials online.
 
@@ -290,7 +290,7 @@ know][evans-manager], all of which apply to student teams:
 
 1.  Exactly what individual people on the team are working on.
 
-1.  Where the [% i "technical debt" %][% g technical_debt %]technical debt[% /g %][% /i %] is.
+1.  Where the [% i "technical debt" %][% g technical_debt "technical debt" %][% /i %] is.
 
 1.  How to help you get better at your job.
 
@@ -337,7 +337,7 @@ world aren't going to answer the questions "Why does the software do this?"  and
 "Why doesn't it do this in a simpler way?"
 
 In most cases, [% i "documentation!embedded" %]embedded documentation[% /i %] in
-the form of a short [% g docstring %]docstring[% /g %] or [% g doc_comment %]doc comment[% /g %] to remind ourselves of each function's
+the form of a short [% g docstring "docstring" %] or [% g doc_comment "doc comment" %] to remind ourselves of each function's
 purpose is probably as much documentation as we need.  (In fact, it's probably
 better than what most people do.)  That one- or two-liner should begin with an
 active verb and describe either how inputs are turned into outputs, or what side

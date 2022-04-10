@@ -13,10 +13,10 @@
     <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>Chapter 12: Software Design</h1>
+      <h1>Chapter 16: Software Design</h1>
       
       <p>
-        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
+        <img class="page-logo" src="../codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -29,7 +29,7 @@ programs on your own in two important ways. The first is communication: in order
 for you and your teammates to collaborate, you need to agree about what you're
 collaborating <em>on</em>, which means you need to tell each other how you are breaking
 the problem up into pieces and how those pieces will interact
-(<a href="../communicate/">Chapter 10</a>).</p>
+(<a href="../communicate/">Chapter 14</a>).</p>
 <p>The second difference between programming in the small and <span class="indexref" key="programming
 in the large" markdown="1">programming in the large</span> is that while you can hack your
 way from an empty <code>.js</code> or <code>.py</code> file to a hundred-line program in a reasonable
@@ -83,7 +83,7 @@ Cook</a>'s <a href="http://gitlet.maryrosecook.com/">Gitlet</a> take this approa
 also <em><a href="https://stjs.tech/">Software Design by Example</a></em>, which was developed in tandem with
 this material and can be used as a starting point for many different class
 projects.</p>
-<p>The discussion of how to design for test in <a href="../testing/">Chapter 11</a> is another
+<p>The discussion of how to design for test in <a href="../testing/">Chapter 15</a> is another
 example of teaching by example. A general rule like, "Building components that
 can easily be replaced makes testing easier," would only have been meaningful if
 you already understand the point; explaining it with a specific example (testing
@@ -134,22 +134,22 @@ how to get from one state to another.</dd>
 <dd>These can be fairly literal pictures of the tables in a database, possibly
 augmented with arrows to show what's a foreign key for what, or <span class="indexref" key="entity-relationship diagram;diagrams!entity-relationship" markdown="1"><a class="glossref" href="../glossary/#er_diagram" markdown="1">entity-relationship diagrams</a></span> that also
 show which relationships are one-to-one, one-to-many, and so on
-(<a class="figref" href="../design/#er-diagram">Figure 12.1</a>).</dd>
+(<a class="figref" href="../design/#er-diagram">Figure 16.1</a>).</dd>
 </dl>
 <figure id="er-diagram">
   <img src="./er-diagram.svg" alt="Entity-relationship diagram" />
-  <figcaption markdown="1">Figure 12.1: An example of an entity-relationship diagram for students, instructors, and courses.</figcaption>
+  <figcaption markdown="1">Figure 16.1: An example of an entity-relationship diagram for students, instructors, and courses.</figcaption>
 </figure>
 
 <p>The two kinds of diagram that I find most useful are ER diagrams and a
 combination of conceptual and <span class="indexref" key="use-case map;diagrams!use-case map" markdown="1"><a class="glossref" href="../glossary/#use_case_map" markdown="1">use-case maps</a></span> [<a href="../bibliography/#Reekie2006">Reekie2006</a>].  The
 background of a use-case map is the system's conceptual architecture; the
 overlay traces what happens during a particular workflow
-(<a class="figref" href="../design/#use-case-map">Figure 12.2</a>).  I find these particularly useful for checking the behavior
+(<a class="figref" href="../design/#use-case-map">Figure 16.2</a>).  I find these particularly useful for checking the behavior
 of systems built from lots of <span class="indexref" key="microservice" markdown="1"><a class="glossref" href="../glossary/#microservice" markdown="1">microservices</a></span>.</p>
 <figure id="use-case-map">
   <img src="./use-case-map.png" alt="Use case maps" />
-  <figcaption markdown="1">Figure 12.2: An example of a use case map (from Reekie2006).</figcaption>
+  <figcaption markdown="1">Figure 16.2: An example of a use case map (from Reekie2006).</figcaption>
 </figure>
 
 <blockquote>
@@ -170,7 +170,7 @@ UML doesn't actually seem to help practitioners very much
 will convert specially-formatted text into diagrams for you, and the former are
 much easier for version control systems to work with.  In my opinion, though,
 you'll get more out of investing time in the modeling tools described at the end
-of <a href="../tooling/">Chapter 17</a>.</p>
+of <a href="../tooling/">Chapter 21</a>.</p>
 <p>One often-overlooked finding about visualization is that people understand
 flowcharts better than pseudocode <em>if both are
 equally well structured</em> [<a href="../bibliography/#Scanlan1989">Scanlan1989</a>].  Earlier work showing that pseudocode
@@ -182,7 +182,7 @@ representation.</p>
 <p>Suppose you're starting with a blank sheet of paper (or an empty whiteboard):
 how do you describe something that doesn't exist yet? The best way to start is
 to write your <span class="indexref" key="elevator pitch" markdown="1">elevator pitch</span>
-(<a href="../starting/">Chapter 3</a>). Next, write one or two point-form
+(<a href="../starting/">Chapter 7</a>). Next, write one or two point-form
 <span class="indexref" key="user story!use in software design" markdown="1"><a class="glossref" href="../glossary/#user_story" markdown="1">user stories</a></span>
 describing how the application, feature, or library would be used. Be as concrete
 as possible: instead of saying, "Allows the user to find overlaps between their
@@ -269,7 +269,7 @@ of past failures so that you know how a good idea might fail in practice.</p>
 </blockquote>
 <h2>Design for Evolution</h2>
 <p>How easily we can swap one component for another in order to test a system is
-one way to tell how well designed that system is (<a href="../testing/">Chapter 11</a>). Another
+one way to tell how well designed that system is (<a href="../testing/">Chapter 15</a>). Another
 is how easily we can modify or <span class="indexref" key="software design!evolution" markdown="1">extend</span>
 the system to do new things. If our design is perfect, we can implement changes
 by adding code without modifying what's already there.  This is called the <span class="indexref" key="Open-Closed Principle" markdown="1"><a class="glossref" href="../glossary/#open_closed_principle" markdown="1">Open-Closed Principle</a></span>: systems should be open for extension, but closed for
@@ -478,7 +478,7 @@ To turn this into an installable package, we put the following in <code>setup.py
 <!-- continue -->
 <p>The <code>name</code> and <code>author</code> fields are self-explanatory; the <code>packages</code> field lists
 the sub-directories containing packages (there may actually be several), and
-we'll talk about versioning in <a href="../delivery/">Chapter 26</a>.  Once you have this in
+we'll talk about versioning in <a href="../delivery/">Chapter 30</a>.  Once you have this in
 place, you can run:</p>
 <div class="codehilite"><pre><span></span><code>$ pip install .
 </code></pre></div>
@@ -492,7 +492,7 @@ high-level language, we incur a similar load translating functions of functions
 of functions (or meta-classes templated on object factories) into actual
 operations on actual data.</p>
 <p>More experienced programmers are more capable at both ends of the curve, but
-that's not the only thing that changes.  <a class="figref" href="../design/#comprehension-curves">Figure 12.3</a>
+that's not the only thing that changes.  <a class="figref" href="../design/#comprehension-curves">Figure 16.3</a>
 compares a <span class="indexref" key="code comprehension;novice!code
 comprehension" markdown="1">novice</span>'s comprehension curve with an <span class="indexref" key="expert!code
 comprehension" markdown="1">expert</span>'s.  Experts don't just understand more at all
@@ -502,7 +502,7 @@ side of the square whose area is the sum of the areas of the two squares whose
 sides are given by the first part and the second part".</p>
 <figure id="comprehension-curves">
   <img src="./comprehension-curves.svg" alt="Comprehension curves" />
-  <figcaption markdown="1">Figure 12.3: How the relationship between abstraction and comprehension differs for novices and experts.</figcaption>
+  <figcaption markdown="1">Figure 16.3: How the relationship between abstraction and comprehension differs for novices and experts.</figcaption>
 </figure>
 
 <p>This difference implies that the software that is quickest for a novice to

@@ -52,7 +52,7 @@ The most important results are:
 1.  Working more than eight hours a day for more than a couple of weeks of time
     lowers your total productivity,
     not just your hourly productivity—i.e., you get less done *in total*
-    in [% i "crunch mode" %][% g crunch_mode %]crunch mode[% /g %][% /i %]
+    in [% i "crunch mode" %][% g crunch_mode "crunch mode" %][% /i %]
     than when you work regular hours.
 
 1.  Working over 21 hours in a stretch
@@ -165,7 +165,7 @@ whom don't coordinate due dates across their courses.
 The best way to handle this situation—or more honestly, the least bad way—is
 to prioritize carefully.
 Get a piece of paper and draw
-[% i "effort-importance grid" %][% g effort_importance_grid %]a 3×3 grid[% /g %][% /i %].
+[% i "effort-importance grid" %][% g effort_importance_grid "a 3×3 grid" %][% /i %].
 The X axis is effort: label its divisions "minutes", "hours", and "days".
 The Y axis is time: label it "low", "medium", and "high".
 You should wind up with something like [% f effort-importance %].
@@ -208,7 +208,7 @@ which means you'd better start at least that far ahead of the deadline.
 
 The point of all this organization and preparation is
 to be able to immerse yourself in your problem.
-[% b Csikszentmihalyi1991 %] popularized the term [% i "flow" %][% g flow %]flow[% /g %][% /i %] for this;
+[% b Csikszentmihalyi1991 %] popularized the term [% i "flow" %][% g flow "flow" %][% /i %] for this;
 athletes call it "being in the zone",
 while musicians talk about losing themselves in what they're playing.
 The good news is that you're much more productive in this state
@@ -255,11 +255,11 @@ but what about being productive with others?
 The most important thing is running [% i "meetings" %]meetings[% /i %] efficiently,
 and the key to doing that is to distinguish between:
 
--   [% i "meetings!status" "status meeting" %][% g status_meeting %]Status meetings[% /g %][% /i %]
+-   [% i "meetings!status" "status meeting" %][% g status_meeting "Status meetings" %][% /i %]
     for keeping everyone up to date on what everyone else is doing
     and for making simple decisions when the options are well understood.
 
--   [% i "meetings!discussion" %][% g discussion_meeting %]Discussion meetings[% /g %][% /i %]
+-   [% i "meetings!discussion" %][% g discussion_meeting "Discussion meetings" %][% /i %]
     for weighing alternatives and making complex decisions.
 
 -   Co-working sessions like brainstorming sessions and programming sprints
@@ -494,9 +494,9 @@ To guard against this,
 groups need to spell out who has the authority to make which decisions
 and how to achieve consensus.
 In short,
-they need explicit [% i "governance" %][% g governance %]governance[% /g %][% /i %].
+they need explicit [% i "governance" %][% g governance "governance" %][% /i %].
 
-[% i "Martha's Rules" %][% g marthas_rules %]Martha's Rules[% /g %][% /i %] [% b Minahan1986 %]
+[% i "Martha's Rules" %][% g marthas_rules "Martha's Rules" %][% /i %] [% b Minahan1986 %]
 are a practical way to do this in groups of up to a few dozen people,
 and work very well for smaller teams too:
 
@@ -516,7 +516,7 @@ and work very well for smaller teams too:
     unless the sponsor or their delegate is present.
 
 4.  After the sponsor presents the proposal
-    a [% i "sense vote" %][% g sense_vote %]sense vote[% /g %][% /i %] is cast:
+    a [% i "sense vote" %][% g sense_vote "sense vote" %][% /i %] is cast:
     -   Thumbs up: who likes the proposal?
     -   Thumbs down: who is uncomfortable with the proposal?
     -   Thumbs sideways: who can live with?
@@ -572,7 +572,7 @@ the more likely they are to do so [% b Steinmacher2014 %].
 
 The rules laid out above were created
 by and for people near the middle of the bell curve with respect to focus and attention span.
-People who are [% i "neurodivergence" %][% g "neurodivergence" %]neurodivergent[% /g %][% /i %],
+People who are [% i "neurodivergence" %][% g "neurodivergence" "neurodivergent" %][% /i %],
 i.e., whose brains work differently from the average
 when it comes to sociability, learning, attention, and mood
 may find that other approaches work better for them.
@@ -584,7 +584,7 @@ associated with differences in mental function,
 which are often classified according to
 [how inconvenient they are to other people][adhd-thread].
 One example is how tests for
-[% i "ADHD" %][% g "adhd" %]attention-deficit/hyperactivity disorder[% /g %][% /i %]
+[% i "ADHD" %][% g "adhd" "attention-deficit/hyperactivity disorder" %][% /i %]
 (ADHD) are phrased.
 "Subject is overly talkative": compared to who?
 "Subject does X when it is inappropriate": by whose rules?
@@ -597,7 +597,7 @@ Decisions that affect people should only be made
 with the full participation of those who will be affected.
 If you are neurodivergent,
 you probably have a set of strategies for managing time and attention.
-If you are [% i "neurotypical" %][% g "neurotypical" %]neurotypical[% /g %][% /i %]
+If you are [% i "neurotypical" %][% g "neurotypical" "neurotypical" %][% /i %]
 and have neurodivergent teammates,
 ask them what works well for them rather than ignoring the difference
 or guessing what they might want.

@@ -13,10 +13,10 @@
     <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>Chapter 15: Debugging</h1>
+      <h1>Chapter 19: Debugging</h1>
       
       <p>
-        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
+        <img class="page-logo" src="../codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -33,7 +33,7 @@ way known to find bugs [<a href="../bibliography/#Basili1987">Basili1987</a>, <a
 However, most schools don't offer courses on that either, and of the thousands
 of books that have been written about writing code, only a handful have been
 written about how to <span class="indexref" key="reading code" markdown="1">read</span> it
-([<a href="../bibliography/#Spinellis2003">Spinellis2003</a>] being my favorite).  As <a href="../rules-joining/">Chapter 20</a>
+([<a href="../bibliography/#Spinellis2003">Spinellis2003</a>] being my favorite).  As <a href="../rules-joining/">Chapter 24</a>
 says, reading other people's code is one of the best ways to learn how to be a
 better programmer; tracking down a bug may not be when you want to broaden your
 knowledge, but if you're there anyway, you might as well.</p>
@@ -71,7 +71,7 @@ you an hour of trying to fix something that isn't actually broken.</p>
 <dt>Make it fail.</dt>
 <dd>
 <p>You can only debug things when you can see them going wrong, so as we
-discussed in <a href="../communicate/">Chapter 10</a>, you should try to create a minimal
+discussed in <a href="../communicate/">Chapter 14</a>, you should try to create a minimal
 <span class="indexref" key="reproducible example (reprex)" markdown="1">reproducible example</span> or
 reprex.  Doing this finds the problem in a surprising number of cases, since
 each time you throw out part of the original program or dataset because the
@@ -118,10 +118,10 @@ that the order of events is unpredictable; it's often not repeatable, so
 creating a reliable reprex may be impossible.  What's worse, the act of
 observing can hide the bug: a <code>print</code> statement or a breakpoint can change
 timing in a way that makes the bug disappear.  Modeling tools can help
-(<a href="../tooling/">Chapter 17</a>), as can the use of immutable data structures, but the best
+(<a href="../tooling/">Chapter 21</a>), as can the use of immutable data structures, but the best
 solutions are to test components in isolation using <span class="indexref" key="mock object" markdown="1">mock
 objects</span> in place of the things they communicate with
-(<a href="../testing/">Chapter 11</a>) and to add <em>lots</em> of assertions to check the consistency
+(<a href="../testing/">Chapter 15</a>) and to add <em>lots</em> of assertions to check the consistency
 of data structures.  In particular, giving every class a method called <code>isOK</code> to check
 that it's in good shape can save hours of later debugging, as well as helping
 the next programmer understand what the data is supposed to look like.</p>
@@ -183,7 +183,7 @@ self-referential (head points to head); circular sub-structure; depth
 greater than one.</dd>
 </dl>
 <!-- continue -->
-<p>As <a href="../git-team/">Chapter 8</a> said, the longer list in
+<p>As <a href="../git-team/">Chapter 12</a> said, the longer list in
 [<a href="../bibliography/#Stegeman2014">Stegeman2014</a>, <a href="../bibliography/#Stegeman2016">Stegeman2016</a>] can be adapted for more advanced
 students' programs.</p>
 <p>One of the most common errors programmers make is to assume that their first
@@ -245,7 +245,7 @@ then symbolic execution can determine that the final value of <code>longest</cod
 either the empty string or the first string in the list that belongs to the
 set containing the longest strings in the list.  The complexity of that
 sentence is a sign of how complex symbolic execution can be, but when
-combined with the modeling tools discussed in <a href="../tooling/">Chapter 17</a>, this
+combined with the modeling tools discussed in <a href="../tooling/">Chapter 21</a>, this
 approach can find bugs that would otherwise escape detection for years.</dd>
 </dl>
 <p>Most <a href="https://program-repair.org/">program repair tools</a> are still research prototypes, but
@@ -255,7 +255,7 @@ ambitious course project that might lead to graduate research, this is a good
 place to start.</p>
 <p>Another semi-automated technique for finding bugs is <span class="indexref" key="delta debugging" markdown="1"><a class="glossref" href="../glossary/#delta_debugging" markdown="1">delta debugging</a></span> [<a href="../bibliography/#Zeller2009">Zeller2009</a>, <a href="../bibliography/#Zeller2021">Zeller2021</a>].
 <span class="indexref" key="fuzz testing" markdown="1">Fuzz testing</span> can automatically generate inputs
-that make programs fail (<a href="../testing/">Chapter 11</a>), but since those inputs are partly
+that make programs fail (<a href="../testing/">Chapter 15</a>), but since those inputs are partly
 or entirely random, and can be quite long, it is sometimes hard to figure out
 why they make the software fail.  Delta debugging repeatedly tests subsets of
 the original fixture, then subsets of those subsets, to produce a minimal

@@ -4,7 +4,7 @@ lede: "Because computers are better than people at repeating things"
 template: page
 ---
 
-Everyone is talking about [% i "DevOps" %][% g devops %]DevOps[% /g %][% /i %] these days,
+Everyone is talking about [% i "DevOps" %][% g devops "DevOps" %][% /i %] these days,
 even though (or perhaps because) no one can quite agree what it is.  The term
 mostly seems to refer to practices that minimize the time between a developer
 implementing a change and that change being tested, integrated, tested again,
@@ -17,7 +17,7 @@ stretched thin.
 ## Build Manager
 
 The foundation for almost all automation in software development is a
-[% i "build manager" %][% g build_manager %]build manager[% /g %][% /i %]—a tool that will
+[% i "build manager" %][% g build_manager "build manager" %][% /i %]—a tool that will
 transform what you've typed into what you want to deliver. The origin build
 manager is [% i "Make" "build manager!Make" %][Make][make][% /i %], which was
 invented in 1975 by a summer intern at Bell Labs to compile programs in which
@@ -37,7 +37,7 @@ game.exe : game.bc graphics.bc utils.bc
 tells Make that `game.exe` can't be built until `game.bc`, `graphics.bc`, and
 `utils.bc` exist, and that once they do, the way to create `game.exe` is to run
 the `tx` compiler with several options.  Below that is a
-[% i "Make!pattern rule" %][% g pattern_rule %]pattern rule[% /g %][% /i %] telling Make
+[% i "Make!pattern rule" %][% g pattern_rule "pattern rule" %][% /i %] telling Make
 how to create any `.bc` file from a `.grace` file with the same root name;
 the cryptic expression `$<` is Make's way of saying "the first thing the target depends on".
 
@@ -61,7 +61,7 @@ Thinking of it as a "configuration" file is a mistake: you *have* to [% i "autom
 
 The current generation of build managers dispense with custom configuration file
 syntax, but most still don't have debuggers. The `package.json` file used by
-[Node.js][nodejs] serves as both a [% i "package manifest" "Node.js!package.json file" %][% g package_manifest %]package manifest[% /g %][% /i %] and a build
+[Node.js][nodejs] serves as both a [% i "package manifest" "Node.js!package.json file" %][% g package_manifest "package manifest" %][% /i %] and a build
 file—as the example below shows, some of its entries describe the package or
 its dependencies, while others store commands that can be re-run by typing
 things like `npm run test`:
@@ -89,7 +89,7 @@ things like `npm run test`:
 
 <!-- continue -->
 `package.json` files have two flaws: there is no standard way to write comments
-(since [% g json %]JSON[% /g %] itself doesn't have this) and there is no way
+(since [% g json "JSON" %] itself doesn't have this) and there is no way
 to express dependencies between tasks, i.e., there's no way to say, "A depends
 on B which depends on C".
 
@@ -101,7 +101,7 @@ library that handles dependencies, invokes appropriate compilers, and so on.
 Debugging is still problematic, but at least it's possible. Unfortunately, like
 front-end JavaScript frameworks and static site generators, a simple build tool
 is so simple to create that hundreds have proliferated. As a result, none has
-achieved [% g critical_mass %]critical mass[% /g %].
+achieved [% g critical_mass "critical mass" %].
 
 Whatever you choose or are told to use, please [% i "build manager!rules for
 using" %]follow these rules[% /i %]:
@@ -154,8 +154,8 @@ machine to another, or as a way to back things up at the end of the day. Do
 ## Checking Style
 
 One task you should add to your build system right at the start of the project
-is something that runs a [% i "style checker" %][% g style_checker %]style checker[% /g %][% /i %] to make sure your code follows the team's formatting rules.
-(Style checkers are often called [% i "linter" %][% g linter %]linters[% /g %][% /i %]
+is something that runs a [% i "style checker" %][% g style_checker "style checker" %][% /i %] to make sure your code follows the team's formatting rules.
+(Style checkers are often called [% i "linter" %][% g linter "linters" %][% /i %]
 because an early one called `lint` looked for problems in C programs.)  Some of
 these rules are as simple as "no method can be longer than 100 lines" or "class
 names must be written in CamelCase".  Modern tools like [% i "style
@@ -169,7 +169,7 @@ reviews are much more straightforward when the code you're looking at is
 guaranteed to be clean, so if something violates style rules, treat it as a
 broken build.
 
-Style checkers are just one kind of [% i "static analysis" %][% g static_analysis %]static analysis[% /g %][% /i %] tool, since they work by parsing the source
+Style checkers are just one kind of [% i "static analysis" %][% g static_analysis "static analysis" %][% /i %] tool, since they work by parsing the source
 code for your program rather than by watching the program run. Compilers also do
 a lot of static analysis; the non-fatal warnings they produce are a lot more
 useful than many students realize, and a "zero warnings" policy can prevent a
@@ -178,7 +178,7 @@ definitions in code helps programmers understand software as well.
 
 ## Continuous Integration
 
-Build tools will do a lot more for you if you adopt some kind of [% i "continuous integration" %][% g ci %]continuous integration[% /g %][% /i %] system such as [% i "Travis CI" "continuous integration!Travis CI" %][Travis CI][travis-ci][% /i %] or
+Build tools will do a lot more for you if you adopt some kind of [% i "continuous integration" %][% g ci "continuous integration" %][% /i %] system such as [% i "Travis CI" "continuous integration!Travis CI" %][Travis CI][travis-ci][% /i %] or
 [% i "GitHub Actions" "continuous integration!GitHub Actions" %][GitHub
 Actions][github-actions][% /i %].  These can be set up to run either at regular
 intervals (e.g., every hour or at three a.m.), or every time someone checks into
@@ -249,7 +249,7 @@ the fact that you specify what you want in YAML rather than in Python,
 JavaScript, or some other language.  [% b Zampetti2020 %] looks at how
 *not* to use CI, and can serve as a good checklist of things to avoid.
 
-If you don't want to go this far, you can add [% i "pre-commit hook" "Git!pre-commit hook" %][% g pre_commit_hook %]pre-commit[% /g %][% /i %] or [% i "post-commit hook" "Git!post-commit hook" %][% g post_commit_hook %]post-commit hooks[% /g %][% /i %] to your repository to specify actions to run on your machine before
+If you don't want to go this far, you can add [% i "pre-commit hook" "Git!pre-commit hook" %][% g pre_commit_hook "pre-commit" %][% /i %] or [% i "post-commit hook" "Git!post-commit hook" %][% g post_commit_hook "post-commit hooks" %][% /i %] to your repository to specify actions to run on your machine before
 and after each commit. When I set these up, I almost always have them run
 commands via the build manager so that I can also run checks whenever I want.
 

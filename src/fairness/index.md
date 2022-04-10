@@ -106,7 +106,7 @@ Post a public description of the hiring process.
     time is expected, and the principles everything is based on.
 
 Use blinded screening.
-:   Everyone has [% i "implicit bias" %][% g implicit_bias %]implicit biases[% /g %][% /i %], and many of the rules scientists follow when running
+:   Everyone has [% i "implicit bias" %][% g implicit_bias "implicit biases" %][% /i %], and many of the rules scientists follow when running
     experiments are designed to prevent their biases contaminating their results
     ([% x research %]).  The same is true of hiring, and so is the
     solution. For example, my first-round interview with Automattic was done
@@ -229,7 +229,7 @@ callously as it treats everyone else.
 Standing up to a bad boss or an unfair professor is easier in theory than in
 practice, though, because the student's evaluation of the professor doesn't
 affect the professor nearly as much as the professor's evaluation of the student
-affects the student.  This imbalance is why management fads like "[% i "radical candor (as bullshit)" %]radical candor[% /i %]" are [% g bullshit %]bullshit[% /g %] (in the technical sense of the word
+affects the student.  This imbalance is why management fads like "[% i "radical candor (as bullshit)" %]radical candor[% /i %]" are [% g bullshit "bullshit" %] (in the technical sense of the word
 [% b Frankfurt2005 %]). The idea that everyone should say what they think
 is appealing in theory; in practice, managers will brush aside the fact that
 they can fire people who say things they don't like and blame the marginalized
@@ -252,7 +252,7 @@ of what customers pay goes to its upkeep, and the rest goes to the workers
 [% b Thompson2019 %].  There might be one less billionaire in the world,
 but everyone else benefits.
 
-Up & Go is an example of a [% i "commons" %][% g commons %]commons[% /g %][% /i %]:
+Up & Go is an example of a [% i "commons" %][% g commons "commons" %][% /i %]:
 something managed jointly by a community according to rules they have evolved
 themselves.  All three parts of that definition are essential: a commons isn't
 just a shared pasture or an open source software stack; it also includes the
@@ -283,12 +283,12 @@ whose behavior most needs to change won't listen.
 
 You might think there isn't a lot you can do as a student or as a junior
 programmer to fix what's broken in our industry, but there is.  An
-[% i "ally" %][% g ally %]ally[% /g %][% /i %] is a someone with unearned advantages who tries to
+[% i "ally" %][% g ally "ally" %][% /i %] is a someone with unearned advantages who tries to
 understand their own privilege and create an environment that's fair for
 everyone.  As [this guide][dlf-active-bystander] from the [Digital Library
 Foundation][dlf] explains, there are several ways to be an
-[% i "active bystander" %][% g active_bystander %]active bystander[% /g %][% /i %], i.e., several ways to
-[% i "lending privilege" %][% g lending_privilege %]lend your privilege[% /g %][% /i %] to
+[% i "active bystander" %][% g active_bystander "active bystander" %][% /i %], i.e., several ways to
+[% i "lending privilege" %][% g lending_privilege "lend your privilege" %][% /i %] to
 defuse situations and defend people who are being attacked.
 
 <blockquote markdown="1">
@@ -344,7 +344,7 @@ mode[% /i %]" [% b Scalzi2012 %].
 <blockquote markdown="1">
 ### How far back should we go?
 
-[% g preparatory_privilege %]Preparatory privilege[% /g %] is the advantage
+[% g preparatory_privilege "Preparatory privilege" %] is the advantage
 someone has in a supposedly objective assessment as a result of opportunities
 earlier in life that other people didn't have.  Ignoring it is like ignoring the
 difference between professional athletes who are paid to train all day and

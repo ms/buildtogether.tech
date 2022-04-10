@@ -32,13 +32,13 @@ experience, it makes a lot less difference than most people think…
 
 …as long as you use the right one, that is. Twenty years ago there was a pretty
 clear tradeoff between how quickly you can get a program running and how fast it
-ran.  [% i "programming language!interpreted" %][% g interpreted_language %]Interpreted languages[% /g %][% /i %] like [% i "Perl" %]Perl[% /i %] optimized programmers' time; [% i "programming language!compiled" %][% g compiled_language %]compiled languages[% /g %][% /i %] like [% i "C" %]C[% /i %] optimized the machine's.
+ran.  [% i "programming language!interpreted" %][% g interpreted_language "Interpreted languages" %][% /i %] like [% i "Perl" %]Perl[% /i %] optimized programmers' time; [% i "programming language!compiled" %][% g compiled_language "compiled languages" %][% /i %] like [% i "C" %]C[% /i %] optimized the machine's.
 
 Today, the balance has shifted in favor of higher-level languages. One reason is
 that processors have gotten faster but people haven't, so one programmer-hour is
 worth many more computer-hours than before. Another reason is that
-[% i "just-in-time compiler" %][% g jit %]just-in-time compilers[% /g %][% /i %] (JITs) and
-[% i "generational garbage collection" "garbage collection!generational" %][% g generational_garbage_collection %]generational garbage collection[% /g %][% /i %]
+[% i "just-in-time compiler" %][% g jit "just-in-time compilers" %][% /i %] (JITs) and
+[% i "generational garbage collection" "garbage collection!generational" %][% g generational_garbage_collection "generational garbage collection" %][% /i %]
 have made higher-level languages intrinsically faster. The biggest, though, is that
 the execution time of a modern application depends less on squeezing cycles out
 of processors than it used to. The bottleneck in a web site is almost always
@@ -51,7 +51,7 @@ That said, there are three things to keep in mind:
 Some languages are [% i "programming language!ease of learning" %]easier to learn[% /i %] than others.
 :   [% b Stefik2013 %] did a controlled experiment to see how quickly
     people could learn to recognize correct and incorrect syntax in several
-    different languages. They found that [% g curly_brace_language %]curly-brace languages[% /g %] like [% i "Java" %]Java[% /i %] and [% i "Perl" %]Perl[% /i %] were as hard for people
+    different languages. They found that [% g curly_brace_language "curly-brace languages" %] like [% i "Java" %]Java[% /i %] and [% i "Perl" %]Perl[% /i %] were as hard for people
     to learn as a language with a randomly designed syntax. (They rolled
     *Dungeons & Dragons* dice to pick random names and characters for a made-up
     language.) Other languages like [% i "Ruby" %][Ruby][ruby][% /i %] and [% i "Python" %][Python][python][% /i %] were significantly easier to learn, and
@@ -59,14 +59,14 @@ Some languages are [% i "programming language!ease of learning" %]easier to lear
     language feature.
 
 Static typing helps, but only a little.
-:   A [% i "static typing" "typing!static" "programming language!statically typed" %][% g static_typing %]statically-typed[% /g %][% /i %] language like [% i "Java" %]Java[% /i %] requires programmers to specify the data type of each
-    variable; a [% i "dynamic typing" "typing!dynamic" "programming language!dynamically typed" %][% g dynamic_typing %]dynamically-typed[% /g %][% /i %]
+:   A [% i "static typing" "typing!static" "programming language!statically typed" %][% g static_typing "statically-typed" %][% /i %] language like [% i "Java" %]Java[% /i %] requires programmers to specify the data type of each
+    variable; a [% i "dynamic typing" "typing!dynamic" "programming language!dynamically typed" %][% g dynamic_typing "dynamically-typed" %][% /i %]
     one like [% i "Python" %]Python[% /i %] doesn't require them, though you can add
     them if you want, while [% i "TypeScript" %]TypeScript[% /i %] adds types as
     a layer on top of [% i "JavaScript" %]JavaScript[% /i %].
     [% b Endrikat2014 %] found that declaring types does add complexity to
     programs, but it pays off fairly quickly by acting as documentation and by
-    making [% i "auto-completion" %][% g auto_completion %]auto-completion[% /g %][% /i %]
+    making [% i "auto-completion" %][% g auto_completion "auto-completion" %][% /i %]
     more accurate.
 
 The most important thing about a language is its community.
@@ -89,7 +89,7 @@ developers can download packages.  Each package typically has a name and one or
 more version(s); each version may have a list of dependencies, and the package
 may specify a version or range of versions for each dependency.
 
-A [% i "package manager" %][% g package_manager %]package manager[% /g %][% /i %] is a
+A [% i "package manager" %][% g package_manager "package manager" %][% /i %] is a
 program that keeps track of which packages are installed on your computer and
 how they depend on each other.  Package managers became popular out of necessity
 in the 1990s along with Linux: so many distributions were being updated so often
@@ -138,7 +138,7 @@ Keep an eye on security updates.
 
 [% i "Docker" %][Docker][docker][% /i %] uses some clever tricks to run one
 operating system on top of another to create a
-[% i "virtual machine" %][% g "virtual_machine" %]virtual machine[% /g %][% /i %]
+[% i "virtual machine" %][% g "virtual_machine" "virtual machine" %][% /i %]
 (VM) that is isolated from everything
 beneath it.  It and other tools like it are used by most cloud computing
 services and to run continuous integration systems ([% x automation %]), but
@@ -159,7 +159,7 @@ operating system in disguise).
 
 In many ways, programming is still stuck in the punchcard era: we still insist
 that source code be represented as lines of characters that are drawn
-one-for-one on the screen.  [% g wysiwyg %]WYSIWYG[% /g %] editors like
+one-for-one on the screen.  [% g wysiwyg "WYSIWYG" %] editors like
 Microsoft Word did away with this model decades ago; they store the file in a
 machine-friendly format and then render it in a human-friendly way. There's no
 reason we couldn't do the same with programs.  There's no reason we shouldn't be
@@ -170,21 +170,21 @@ if you are looking for a project to tackle, this would be a good one.
 You might already have a favorite editor. If you're like most programmers, you
 will change jobs, languages, operating systems, and nationality before you'll
 switch to another, because it has taken weeks or months for your hands to master
-the current one. However, if it is not an [% i "IDE" %][% g ide %]integrated development environment[% /g %][% /i %] (IDE) that combines an editor with other
+the current one. However, if it is not an [% i "IDE" %][% g ide "integrated development environment" %][% /i %] (IDE) that combines an editor with other
 programming tools then getting work done will take longer and hurt more than it
 needs to.
 
 IDEs were invented in the 1970s, but didn't really catch on until [% i "Borland" %]Borland[% /i %] released [% i "Turbo Pascal" %]Turbo Pascal[% /i %]
 in the 1980s.  They usually include these tools:
 
--   A [% i "console" "IDE!console" %][% g console %]console[% /g %][% /i %] so that you can
+-   A [% i "console" "IDE!console" %][% g console "console" %][% /i %] so that you can
     type in expressions or call functions and see the results without having to
     start (or restart) your program.
 
--   A [% i "code browser" %][% g code_browser %]code browser[% /g %][% /i %] that helps you
+-   A [% i "code browser" %][% g code_browser "code browser" %][% /i %] that helps you
     navigate the packages, classes, methods, and data in your program.
 
--   A [% i "GUI designer" %][% g gui_designer %]GUI designer[% /g %][% /i %] that lets you
+-   A [% i "GUI designer" %][% g gui_designer "GUI designer" %][% /i %] that lets you
     build GUIs by dragging and dropping components;
 
 -   A [% i "test runner" %]test runner[% /i %] to display the results of tests and
@@ -196,7 +196,7 @@ in the 1980s.  They usually include these tools:
 The most popular IDE today is probably [% i "VS Code" "Microsoft Visual Studio
 Code" "IDE!VS Code" %][Microsoft Visual Studio Code][vs-code][% /i %], often
 referred to simply as "VS Code".  Along with all the tools above, it has
-hundreds of [% i "plugin!for IDE" %][% g plugin %]plugins[% /g %][% /i %] of varying
+hundreds of [% i "plugin!for IDE" %][% g plugin "plugins" %][% /i %] of varying
 quality to support database design, reverse engineering, dozens of different
 programming languages, and more.  These all make you more productive than their
 disconnected counterparts. Since most of these store project data (including
@@ -215,7 +215,7 @@ yet—but it will make all of your front-end work a lot easier.
 ## Refactoring
 
 After a debugger, the most under-appreciated power of most IDEs is their ability
-to [% i "refactoring" %][% g refactoring %]refactor[% /g %][% /i %] code, i.e., to change
+to [% i "refactoring" %][% g refactoring "refactor" %][% /i %] code, i.e., to change
 its structure without changing what it does [% b Fowler2018 %].  It is just
 as much a part of programming as writing code in the first place: nobody gets
 things right the first time, and needs or insights can change over time
@@ -246,7 +246,7 @@ productive. Some aren't part of the standard undergraduate curriculum yet, even
 though good developers have been relying on them for a decade or more. Others
 may be touched on, but only briefly, so a quick recap won't hurt.
 
-The first is a [% i "documentation generator" %][% g doc_generator %]documentation generator[% /g %][% /i %] like [% i "JSDoc" "documentation
+The first is a [% i "documentation generator" %][% g doc_generator "documentation generator" %][% /i %] like [% i "JSDoc" "documentation
 generator!JSDoc" %][JSDoc][jsdoc][% /i %]. This is a compiler of a sort, but
 instead of translating source code into something executable, it extracts
 information from specially-formatted comments and strings, and turns it into
@@ -259,7 +259,7 @@ classes, and methods this way; it's a good habit, and one you should cultivate.
 
 Another set of tools complement the style checkers discussed in [% x automation %].
 Style checkers do static analysis, i.e., they look at the
-text of your program while it's at rest.  Other tools do [% i "dynamic analysis" %][% g dynamic_analysis %]dynamic analysis[% /g %][% /i %]: tools like
+text of your program while it's at rest.  Other tools do [% i "dynamic analysis" %][% g dynamic_analysis "dynamic analysis" %][% /i %]: tools like
 [% i "Valgrind" "dynamic analysis!Valgrind" %]Valgrind[% /i %] watch your [% i "C" %]C[% /i %] or [% i "C++" %]C++[% /i %] program run and look for things like
 memory leaks, or inconsistent locking that might lead to deadlocks or race
 conditions.
@@ -294,7 +294,7 @@ If you want to go one big step further, you can start using modeling tools like
 [% i "Alloy" "modeling tools!Alloy" %][Alloy][alloy][% /i %]
 [% b Jackson2016 %] and [% i "TLA+" "modeling
 tools!TLA+" %][TLA+][tla-plus][% /i %] [% b Wayne2018 %].  Instead of
-analyzing source code, you use these tools to build and analyze a [% g model %]model[% /g %] of what the code is supposed to do so that you can look
+analyzing source code, you use these tools to build and analyze a [% g model "model" %] of what the code is supposed to do so that you can look
 for flaws in your algorithms.
 
 Alloy focuses on describing complex relationships, such as the integrity of data

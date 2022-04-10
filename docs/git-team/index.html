@@ -13,10 +13,10 @@
     <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>Chapter 8: Using Git Together</h1>
+      <h1>Chapter 12: Using Git Together</h1>
       
       <p>
-        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
+        <img class="page-logo" src="../codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -49,7 +49,7 @@ managed to accomplish when you wrap up for the day. You need to break this habit
 when you become part of a team. Instead, <span class="indexref" key="version control!when to
 commit" markdown="1">you should commit</span> when you finish a chunk of work that moves the
 project forward or is fit for someone else to review. A good rule is "never
-break the build" (<a href="../automation/">Chapter 16</a>), i.e., never commit anything that
+break the build" (<a href="../automation/">Chapter 20</a>), i.e., never commit anything that
 doesn't run well enough to pass all existing tests.</p>
 </blockquote>
 <h2>Using Git Together</h2>
@@ -174,7 +174,7 @@ they should discuss who's supposed to be doing what, or rearrange the project's
 contents so that they aren't stepping on each other's toes.</p>
 <blockquote>
 <h3>Trust but verify</h3>
-<p><a href="../automation/">Chapter 16</a> describes how to configure Git to run tests each time
+<p><a href="../automation/">Chapter 20</a> describes how to configure Git to run tests each time
 someone tries to commit a change.  The commit only takes effect if those tests
 pass, so the team can ensure that the software is always as good as its tests.</p>
 </blockquote>
@@ -182,7 +182,7 @@ pass, so the team can ensure that the software is always as good as its tests.</
 <p>A <a href="https://duckduckgo.com/">DuckDuckGo</a> search for "how to write a good <span class="indexref" key="Git!commit
 message" markdown="1">commit message</span>" turns up several thousand articles. Most are
 variations on the sample shown below; as with programming style
-(<a href="../research/">Chapter 22</a>), the most important thing is being consistent rather than the
+(<a href="../research/">Chapter 26</a>), the most important thing is being consistent rather than the
 particular rules you follow.</p>
 <div class="codehilite"><pre><span></span><code><span class="n">One</span><span class="o">-</span><span class="n">line</span><span class="w"> </span><span class="n">summary</span><span class="w"></span>
 
@@ -242,7 +242,7 @@ on so that you have an idea of how much detail they expected.</dd>
 <dt>Authors should clean up code before review.</dt>
 <dd>If the person creating the PR goes through and adds some more comments,
 cleans up some variable names, and does a bit of <span class="indexref" key="refactoring!for
-code review" markdown="1">refactoring</span> (<a href="../design/">Chapter 12</a>), they won't just make
+code review" markdown="1">refactoring</span> (<a href="../design/">Chapter 16</a>), they won't just make
 reviewing easier: the odds are very good that they will find and fix a few
 problems on their own.</dd>
 <dt>Review at most 200 lines of a code at a time.</dt>
@@ -299,7 +299,7 @@ you are, you probably don't need to be told that, and if you aren't, those
 two works alone won't change your behavior. What <em>will</em> is teammates
 defending the victims of rudeness by telling the offender, "That's not how
 we speak to each other."  We'll talk about this more in
-<a href="../fairness/">Chapter 24</a>.</dd>
+<a href="../fairness/">Chapter 28</a>.</dd>
 </dl>
 <p>How we <span class="indexref" key="code review!responding to" markdown="1">respond</span> to reviews is just as
 important:</p>
@@ -313,7 +313,7 @@ reply to their comment to point at the commit that includes the fix.</dd>
 doing it.</dd>
 </dl>
 <p>So what does a code review actually look like? Here's a Python program that
-searches for duplicated files. <a class="tblref" href="../git-team/#collaborate-code-review">Table 8.1</a> shows the
+searches for duplicated files. <a class="tblref" href="../git-team/#collaborate-code-review">Table 12.1</a> shows the
 comments I left when reviewing it.</p>
 <div class="codehilite"><pre><span></span><code><span class="ch">#!/usr/bin/env python                                       # 01</span>
 <span class="c1"># 02</span>
@@ -396,7 +396,7 @@ comments I left when reviewing it.</p>
     <span class="n">main</span><span class="p">()</span>  <span class="c1"># 66</span>
 </code></pre></div>
 
-<div class="table"><table id="collaborate-code-review"><caption>Table 8.1: Code Review</caption>
+<div class="table"><table id="collaborate-code-review"><caption>Table 12.1: Code Review</caption>
 <thead>
 <tr>
 <th>Line(s)</th>

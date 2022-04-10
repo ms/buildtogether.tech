@@ -4,7 +4,7 @@ lede: "How to structure your time"
 template: page
 ---
 
-A [% i "development process" %][% g development_process %]development process[% /g %][% /i %] defines who does what, when, in order to build a piece of
+A [% i "development process" %][% g development_process "development process" %][% /i %] defines who does what, when, in order to build a piece of
 software.  Many have been described over the last fifty-odd years; most have
 passionate advocates and equally passionate detractors, but the differences
 between them are smaller in practice than in theory.  This chapter therefore
@@ -31,7 +31,7 @@ emphasizes some of these and pays less attention to others.
 
 [% figure slug="feedback-loops" img="feedback-loops.svg" alt="Feedback loops" caption="Software development feedback loops on different timescales." %]
 
-[% i "pair programming" %][% g pair_programming %]Pair programming[% /g %][% /i %].
+[% i "pair programming" %][% g pair_programming "Pair programming" %][% /i %].
 :   One programmer, the driver, does the typing, while the other, called the
     navigator, watches and comments.  Every twenty minutes or or so, the pair
     switches roles.  The benefits of pair programming are proven for students as
@@ -49,7 +49,7 @@ emphasizes some of these and pays less attention to others.
     every five minutes if someone else is working with them.
 
 Unit testing.
-:   Many developers are passionate about a technique called [% i "test-driven development" %][% g tdd %]test-driven development[% /g %][% /i %], where you write
+:   Many developers are passionate about a technique called [% i "test-driven development" %][% g tdd "test-driven development" %][% /i %], where you write
     the tests for a new bit of software before you write the software
     itself. Its advocates claim that it makes developers more productive
     because:
@@ -128,7 +128,7 @@ example:
 
 4:05 p.m.
 :   You can now start work on the feature you want to add, which translates part
-    of the program's internal data structure into a blob of [% g json %]JSON[% /g %] to send to a web server.  You have an hour less to do
+    of the program's internal data structure into a blob of [% g json "JSON" %] to send to a web server.  You have an hour less to do
     this than you originally planned, but that's OK: by fixing bugs first,
     you've avoided the all-too-common situation of only half the code working
     when the project is "done". Again, the first step is to create a new branch
@@ -155,14 +155,14 @@ meeting to stay organized and you will be in great shape.
 
 To start our exploration of the longer feedback loops in
 [% f feedback-loops %], let's look at a process that nobody uses, but which
-appears in almost every textbook. It's called the [% i "waterfall model" "process!waterfall" %][% g waterfall_model %]waterfall model[% /g %][% /i %],
+appears in almost every textbook. It's called the [% i "waterfall model" "process!waterfall" %][% g waterfall_model "waterfall model" %][% /i %],
 and it divides development into a series of discrete phases,
 each of which is completed before the next begins:
 
 1.  Gather requirements.
 
-1.  Analyze them to produce [% g schema %]data schemas[% /g %] and
-    [% g business_rule %]business rules[% /g %].
+1.  Analyze them to produce [% g schema "data schemas" %] and
+    [% g business_rule "business rules" %].
 
 1.  Design the software.
 
@@ -182,7 +182,7 @@ paralysis" %]analysis paralysis[% /i %].
 Every real software development processes attempts to resolve the tension
 between doing things once and spending so much time on planning that we never
 actually do anything.  In order to understand the differences between them it
-helps to look at the [% i "Boehm Curve" %][% g boehm_curve %]Boehm Curve[% /g %][% /i %],
+helps to look at the [% i "Boehm Curve" %][% g boehm_curve "Boehm Curve" %][% /i %],
 which shows the effort required to fix a bug based on when it is caught.
 
 In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
@@ -210,11 +210,11 @@ more easily.
 
 ## Agile
 
-The term [% i "agile development" %][% g agile %]agile[% /g %][% /i %] was coined in 2001
+The term [% i "agile development" %][% g agile "agile" %][% /i %] was coined in 2001
 to describe a bottom-up approach to software project management based on very
 short iterations and frequent feedback from both developers and customers.
 [% b Masood2018 %] and many others have found it to be effective for
-student projects; we will look at one form called [% i "Scrum" %][% g scrum %]Scrum[% /g %][% /i %].
+student projects; we will look at one form called [% i "Scrum" %][% g scrum "Scrum" %][% /i %].
 
 <blockquote markdown="1">
 ### Right place, right time
@@ -234,7 +234,7 @@ didn't have long-range plans, but nevertheless produced high-quality software
 faster than many closed-source commercial projects.
 </blockquote>
 
-Scrum breaks development down into short [% i "sprint" %][% g sprint %]sprints[% /g %][% /i %], typically no more than two weeks long, and sometimes
+Scrum breaks development down into short [% i "sprint" %][% g sprint "sprints" %][% /i %], typically no more than two weeks long, and sometimes
 as short as a single day.  In each sprint, the team decides what to build next,
 designs it, builds it, tests it, and delivers it.
 
@@ -247,7 +247,7 @@ finding bugs becomes easier: instead of looking through weeks' or months' worth
 of software to find out where the problem is, developers usually only have to
 look at what's been written in the last few days.
 
-A typical working day starts with a [% i "stand-up meeting" %][% g stand_up_meeting %]stand-up meeting[% /g %][% /i %] where everyone in the team reports what they
+A typical working day starts with a [% i "stand-up meeting" %][% g stand_up_meeting "stand-up meeting" %][% /i %] where everyone in the team reports what they
 did the day before, what they're planning to do that day, and what's blocking
 them (if anything).  It's called a stand-up because it's usually held standing
 up, which encourages people to stay focused; each day, the team gets feedback on
@@ -323,7 +323,7 @@ students have never had to do this kind of scheduling many find it the most
 valuable part of their first project course.  In order to explain how to go
 about it, I need to describe two important roles in real software projects.
 
-The [% i "product manager" %][% g product_manager %]product manager[% /g %][% /i %] is the
+The [% i "product manager" %][% g product_manager "product manager" %][% /i %] is the
 person who owns the spec [% b Perri2018 %].  While developers are building
 Version N, she is talking to customers to find out what should go into Version
 N+1.  She doesn't ask them what features they want; if she does, she'll get a
@@ -354,7 +354,7 @@ implemented?  Is there an alternative that would take a tenth the time but only
 deliver half of what was asked for?  What impact will each alternative have on
 the build?  On deployment?  How will the feature be tested?  And so on.
 
-This process is called [% i "analysis & estimation" %][% g ae %]analysis & estimation[% /g %][% /i %] (A&E).  The result is a short document, typically 1--5 pages
+This process is called [% i "analysis & estimation" %][% g ae "analysis & estimation" %][% /i %] (A&E).  The result is a short document, typically 1--5 pages
 long.  There's no set form for this, but they usually include whatever
 background information a well-informed developer is unlikely to already know, a
 discussion of the alternatives, lessons learned from any prototyping that was
@@ -437,7 +437,7 @@ you know it now and can start taking action (like lowering your instructor's
 expectations) well in advance of delivery.
 
 In the real world these calculations are the responsibility of the
-[% i "project manager" %][% g project_manager %]project manager[% /g %][% /i %].  Her job is to
+[% i "project manager" %][% g project_manager "project manager" %][% /i %].  Her job is to
 make sure everyone is doing what they're supposed to, to handle interruptions
 (there are *always* interruptions), and to track the team's progress.  After a
 few weeks, the project manager should compare how much has actually been done
@@ -464,7 +464,7 @@ of its value.
 When disaster strikes, doctors do triage to determine who will survive without
 immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
-responsibilities is to [% i "triage" %][% g triage %]triage[% /g %][% /i %] the issues in a
+responsibilities is to [% i "triage" %][% g triage "triage" %][% /i %] the issues in a
 project's [% i "issue tracker!helping triage" "triage!using issue
 tracker" %]issue tracker[% /i %] ([% x communicate %]) periodically and adjust
 the schedule accordingly. The [% i "effort-importance grid!helping
@@ -484,7 +484,7 @@ keep it because you have it.  As [% f feature-usage %] shows using data from
 [% i "Brown, Neil" %][Neil Brown][brown-neil][% /i %] and the [% i "Blackbox
 project" %][Blackbox][blackbox] project[% /i %], the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
-those in the [% g long_tail %]long tail[% /g %].
+those in the [% g long_tail "long tail" %].
 
 [% figure slug="feature-usage" img="feature-usage.svg" alt="Distribution of feature usage" caption="Distribution of feature usage in BlueJ (data courtesy of Neil Brown)." %]
 
@@ -511,10 +511,10 @@ the former in courses, since:
 
 Since your project has to fit in one or two terms, you'll probably be asked to
 go around the loop once or twice, which in turn determines how much you'll be
-expected to deliver in each iteration.  This is called [% i "time boxing" %][% g time_boxing %]time boxing[% /g %][% /i %]:
+expected to deliver in each iteration.  This is called [% i "time boxing" %][% g time_boxing "time boxing" %][% /i %]:
 you specify how long a cycle will last, then
 see how much work you can fit into that interval.  The alternative is
-[% i "feature boxing" %][% g feature_boxing %]feature boxing[% /g %][% /i %]: you decide what you
+[% i "feature boxing" %][% g feature_boxing "feature boxing" %][% /i %]: you decide what you
 want to do and then build a schedule that gives you enough time to do it.  Most
 people believe that time boxing works better, since it encourages developers to
 take smaller steps and allows them to give customers more frequent demos (which

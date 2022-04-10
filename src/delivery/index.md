@@ -57,7 +57,7 @@ much you would charge for the software you have produced.  The answer is out of
 scope for this book, but [% b Davidson2009 %] is a good short introduction
 to the topic.
 
-You may also be asked to do some [% i "marketing" %][% g marketing %]marketing[% /g %][% /i %],
+You may also be asked to do some [% i "marketing" %][% g marketing "marketing" %][% /i %],
 which is the process of figuring out how to tell
 the people you're trying to help how you can help them. This doesn't mean
 spamming people with discount coupons; instead, it means explaining the problem
@@ -73,8 +73,8 @@ over the course of the term. That means it's important for you to keep track of
 exactly what version you're working on at any time, where it came from, and
 where it's going.
 
-The usual way to do this is with [% i "version numbers" %][% g version_number %]version numbers[% /g %][% /i %].  Most projects these days use
-[% i "semantic versioning" "version numbers!semantic versioning" %][% g semantic_versioning %]semantic versioning[% /g %][% /i %];
+The usual way to do this is with [% i "version numbers" %][% g version_number "version numbers" %][% /i %].  Most projects these days use
+[% i "semantic versioning" "version numbers!semantic versioning" %][% g semantic_versioning "semantic versioning" %][% /i %];
 when you see a number like "6.2.3.1407"
 attached to a piece of software, it generally means:
 
@@ -100,13 +100,13 @@ new features, changed part of the GUI, etc., you increment the minor version
 number so that your customers can talk intelligently about which version they
 have.
 
-[% i "patch (software)" "software patch" "version numbers!patch" %][% g patch %]Patches[% /g %][% /i %] don't have their own installers. If, for example,
+[% i "patch (software)" "software patch" "version numbers!patch" %][% g patch "Patches" %][% /i %] don't have their own installers. If, for example,
 you need to change one HTML form, or one DLL, you will often just mail that out
 to customers, along with instructions about where to put it, rather than
 creating a new installer. You should still give it a number, though, and make an
 entry in your release log.
 
-The [% i "build number" "version numbers!build" %][% g build_number %]build number[% /g %][% /i %] is incremented every time you create a new version of the product
+The [% i "build number" "version numbers!build" %][% g build_number "build number" %][% /i %] is incremented every time you create a new version of the product
 for QA to test. Build numbers are never reset, i.e. you don't go from 5.2.2.1001
 to 6.0.0.0, but from 5.2.2.1001 to 6.0.0.1002, and so on. Build numbers are what
 developers care about: they're often only matched up with version numbers after
@@ -244,7 +244,7 @@ several times to resolve cross-references.
 ## The Post Mortem
 
 The most valuable part of your project isn't the software you write, or the
-grade you're given: it's the [% i "post mortem" %][% g post_mortem %]post mortem[% /g %][% /i %]. Literally, this is an examination of a deceased person; in a
+grade you're given: it's the [% i "post mortem" %][% g post_mortem "post mortem" %][% /i %]. Literally, this is an examination of a deceased person; in a
 software project, it's a look back at what went right and what went wrong.
 
 The aim of a post mortem is to help the team and its members do better next time

@@ -13,10 +13,10 @@
     <div class="centered title">
       
       <h2><a href="../">Building Software Together</a></h2>
-      <h1>Chapter 19: Process</h1>
+      <h1>Chapter 23: Process</h1>
       
       <p>
-        <img class="page-logo" src="../files/codebender.svg" alt="logo" />
+        <img class="page-logo" src="../codebender.svg" alt="logo" />
       </p>
     </div>
 
@@ -38,11 +38,11 @@ fruitarian is secondary to eating better and exercising more.</p>
 </blockquote>
 <h2>Process as Feedback Loops</h2>
 <p>I think about process in terms of <span class="indexref" key="feedback loops" markdown="1">feedback loops</span>
-on different timescales (<a class="figref" href="../process/#feedback-loops">Figure 19.1</a>).  Any particular team
+on different timescales (<a class="figref" href="../process/#feedback-loops">Figure 23.1</a>).  Any particular team
 emphasizes some of these and pays less attention to others.</p>
 <figure id="feedback-loops">
   <img src="./feedback-loops.svg" alt="Feedback loops" />
-  <figcaption markdown="1">Figure 19.1: Software development feedback loops on different timescales.</figcaption>
+  <figcaption markdown="1">Figure 23.1: Software development feedback loops on different timescales.</figcaption>
 </figure>
 
 <dl>
@@ -89,17 +89,17 @@ productive than doing a lot of coding followed by a lot of testing or vice
 versa [<a href="../bibliography/#Fucci2017">Fucci2017</a>].</p>
 </dd>
 <dt><span class="indexref" key="continuous integration" markdown="1">Continuous integration</span>.</dt>
-<dd>As discussed in <a href="../tooling/">Chapter 17</a>), building the software and running
+<dd>As discussed in <a href="../tooling/">Chapter 21</a>), building the software and running
 tests every time someone creates a pull request or commits to the main
 branch gives the whole team feedback about what state the software is in.
 This is particularly important when other people or pairs are working on it:
 each change might work in isolation, but combining them might break things
 if someone hasn't been careful about doing merges.</dd>
 <dt><span class="indexref" key="code review" markdown="1">Code review</span>.</dt>
-<dd><a href="../git-team/">Chapter 8</a> explained when, why, and how to do this.</dd>
+<dd><a href="../git-team/">Chapter 12</a> explained when, why, and how to do this.</dd>
 </dl>
 <p>The other practices—stand-up meetings, sprints, analysis &amp; estimation—are
-covered below, while delivering releases is covered in <a href="../delivery/">Chapter 26</a>.
+covered below, while delivering releases is covered in <a href="../delivery/">Chapter 30</a>.
 Before we explore them, though, let's take a look at a typical afternoon in the
 life of a student programmer.</p>
 <h2>Daily Routine</h2>
@@ -122,7 +122,7 @@ meeting two days ago.</dd>
 ones, three of which are assigned to you.  It looks like the file parser you
 wrote last week doesn't handle the "clarification" the prof posted on
 Monday.  You create a new branch and start writing unit tests to isolate the
-things that are breaking (<a href="../design/">Chapter 12</a>).</dd>
+things that are breaking (<a href="../design/">Chapter 16</a>).</dd>
 <dt>3:25 p.m.</dt>
 <dd>You have added twelve new tests, each between three and ten lines long.
 Eleven fail the way you expect; the twelfth triggers an assertion in a data
@@ -162,7 +162,7 @@ stupid things.</dd>
 meeting to stay organized and you will be in great shape.</p>
 <h2>The Waterfall Model</h2>
 <p>To start our exploration of the longer feedback loops in
-<a class="figref" href="../process/#feedback-loops">Figure 19.1</a>, let's look at a process that nobody uses, but which
+<a class="figref" href="../process/#feedback-loops">Figure 23.1</a>, let's look at a process that nobody uses, but which
 appears in almost every textbook. It's called the <span class="indexref" key="waterfall model;process!waterfall" markdown="1"><a class="glossref" href="../glossary/#waterfall_model" markdown="1">waterfall model</a></span>,
 and it divides development into a series of discrete phases,
 each of which is completed before the next begins:</p>
@@ -200,12 +200,12 @@ helps to look at the <span class="indexref" key="Boehm Curve" markdown="1"><a cl
 which shows the effort required to fix a bug based on when it is caught.</p>
 <p>In the 1970s and 1980s, Boehm showed that fixing bugs becomes more expensive as
 you move later and later in the development cycle [<a href="../bibliography/#Boehm1981">Boehm1981</a>]
-(<a class="figref" href="../process/#boehms-curve">Figure 19.2</a>).  Better tools and vastly more powerful computers have
+(<a class="figref" href="../process/#boehms-curve">Figure 23.2</a>).  Better tools and vastly more powerful computers have
 flattened Boehm's curve over the past thirty years, but it is still takes more
 effort to fix things later than earlier [<a href="../bibliography/#Dawson2010">Dawson2010</a>].</p>
 <figure id="boehms-curve">
   <img src="./boehms-curve.svg" alt="Boehm's Curve" />
-  <figcaption markdown="1">Figure 19.2: The cost of fixing bugs increases later in the development cycle.</figcaption>
+  <figcaption markdown="1">Figure 23.2: The cost of fixing bugs increases later in the development cycle.</figcaption>
 </figure>
 
 <p>Development teams deal with this in three ways.  The first is to ignore it.  If
@@ -460,7 +460,7 @@ immediate treatment, who won't even with treatment, and who can only be saved if
 they are treated right away.  Similarly, one of a project manager's main
 responsibilities is to <span class="indexref" key="triage" markdown="1"><a class="glossref" href="../glossary/#triage" markdown="1">triage</a></span> the issues in a
 project's <span class="indexref" key="issue tracker!helping triage;triage!using issue
-tracker" markdown="1">issue tracker</span> (<a href="../communicate/">Chapter 10</a>) periodically and adjust
+tracker" markdown="1">issue tracker</span> (<a href="../communicate/">Chapter 14</a>) periodically and adjust
 the schedule accordingly. The <span class="indexref" key="effort-importance grid!helping
 triage" markdown="1">effort-importance grid</span> that you drew at the start will help with
 this: by the time you are a few weeks into your project, you should be able to
@@ -473,14 +473,14 @@ users' needs that your original plan <em>wouldn't</em> satisfy could you help wi
 Figuring this out is one of a project manager's most important responsibilities
 [<a href="../bibliography/#Perri2018">Perri2018</a>]; whatever you do, don't fall into the trap of thinking
 that you have to build something because you originally thought you should, or
-keep it because you have it.  As <a class="figref" href="../process/#feature-usage">Figure 19.3</a> shows using data from
+keep it because you have it.  As <a class="figref" href="../process/#feature-usage">Figure 23.3</a> shows using data from
 <span class="indexref" key="Brown, Neil" markdown="1"><a href="https://twistedsquare.com/">Neil Brown</a></span> and the <span class="indexref" key="Blackbox
 project" markdown="1"><a href="https://bluej.org/blackbox/">Blackbox</a> project</span>, the frequency with which features
 are used drops off pretty quickly; sometimes only the tool's own developers use
 those in the <a class="glossref" href="../glossary/#long_tail" markdown="1">long tail</a>.</p>
 <figure id="feature-usage">
   <img src="./feature-usage.svg" alt="Distribution of feature usage" />
-  <figcaption markdown="1">Figure 19.3: Distribution of feature usage in BlueJ (data courtesy of Neil Brown).</figcaption>
+  <figcaption markdown="1">Figure 23.3: Distribution of feature usage in BlueJ (data courtesy of Neil Brown).</figcaption>
 </figure>
 
 <h2>Which Process Should You Use?</h2>
