@@ -167,7 +167,7 @@ to prioritize carefully.
 Get a piece of paper and draw
 [% i "effort-importance grid" %][% g effort_importance_grid %]a 3×3 grid[% /g %][% /i %].
 The X axis is effort: label its divisions "minutes", "hours", and "days".
-The Y axis is time: label it "low", "medium", and "high".
+The Y axis is importance: label it "low", "medium", and "high".
 You should wind up with something like [% f effort-importance %].
 
 [% figure slug="effort-importance" img="effort-importance.svg" alt="Effort/importance matrix" caption="An example of an effort/importance matrix." %]
